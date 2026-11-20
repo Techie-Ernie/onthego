@@ -2876,10 +2876,10 @@
     "extracted": 2794,
     "afterDedupe": 2654,
     "duplicatesRemoved": 140,
-    "published": 732,
-    "needsReview": 1922,
-    "classified": 833,
-    "withExplanation": 819
+    "published": 819,
+    "needsReview": 1835,
+    "classified": 923,
+    "withExplanation": 909
   },
   "renderModes": {
     "text": 589,
@@ -2900,19 +2900,19 @@
     "stem": 1976,
     "option-X": 2869,
     "image-fallback": 1406,
-    "agent-note": 190,
+    "agent-note": 208,
     "options-not-found": 173,
     "table-options": 265,
-    "ambiguous": 1922,
-    "explanation-disagrees-with-key": 26,
+    "ambiguous": 1835,
+    "explanation-disagrees-with-key": 27,
     "has-duplicates": 128,
     "explanation-low-confidence": 14,
     "option-X-cell-crop": 407,
     "content-below-options": 102,
     "near-duplicate-different-answer": 71,
-    "unclassified": 1821,
+    "unclassified": 1731,
     "answer-missing": 214,
-    "key-letter-mismatch": 7,
+    "key-letter-mismatch": 8,
     "spans-pages": 23,
     "answer-conflict": 2,
     "shared-context": 2
@@ -14033,211 +14033,7 @@
       ]
     },
     {
-      "id": "tjc-2022-prelim-p1-q13",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q14",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q15",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q16",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q17",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q18",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q19",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q20",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q21",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q22",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q23",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q24",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q25",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q26",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q27",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q28",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q29",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
       "id": "tjc-2022-prelim-p1-q30",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q1",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q2",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q3",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q4",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q5",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q6",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q7",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q8",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q9",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q10",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q11",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q12",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q13",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q14",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q15",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q16",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q17",
       "reasons": [
         "not yet checked by an agent (no key-verified explanation)"
       ]
@@ -14249,37 +14045,7 @@
       ]
     },
     {
-      "id": "tjc-2023-prelim-p1-q19",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q20",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q21",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q22",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
       "id": "tjc-2023-prelim-p1-q23",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q24",
       "reasons": [
         "not yet checked by an agent (no key-verified explanation)"
       ]
@@ -14287,42 +14053,11 @@
     {
       "id": "tjc-2023-prelim-p1-q25",
       "reasons": [
-        "not yet checked by an agent (no key-verified explanation)",
         "content below the options may be cut off the crop"
       ]
     },
     {
-      "id": "tjc-2023-prelim-p1-q26",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q27",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q28",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
       "id": "tjc-2023-prelim-p1-q29",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q30",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q1",
       "reasons": [
         "not yet checked by an agent (no key-verified explanation)"
       ]
@@ -14334,70 +14069,11 @@
       ]
     },
     {
-      "id": "tjc-2024-prelim-p1-q3",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q4",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q5",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q6",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q7",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q8",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q9",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q10",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
       "id": "tjc-2024-prelim-p1-q11",
       "reasons": [
+        "agent answer C vs key A",
         "no unambiguous letter in the key",
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q12",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q13",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
+        "letter on the key page differs from the parsed key"
       ]
     },
     {
@@ -14407,139 +14083,13 @@
       ]
     },
     {
-      "id": "tjc-2024-prelim-p1-q15",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q16",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q17",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q18",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q19",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q20",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q21",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q22",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q23",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q24",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
       "id": "tjc-2024-prelim-p1-q25",
       "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q26",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q27",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q28",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q29",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q30",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q1",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q2",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q3",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q4",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q5",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
+        "gk-131.json: confidence medium"
       ]
     },
     {
       "id": "tjc-2025-prelim-p1-q6",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q7",
       "reasons": [
         "not yet checked by an agent (no key-verified explanation)"
       ]
@@ -14551,79 +14101,7 @@
       ]
     },
     {
-      "id": "tjc-2025-prelim-p1-q9",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q10",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q11",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q12",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
       "id": "tjc-2025-prelim-p1-q13",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q14",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q15",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q16",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q17",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q18",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q19",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q20",
-      "reasons": [
-        "not yet checked by an agent (no key-verified explanation)"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q21",
       "reasons": [
         "not yet checked by an agent (no key-verified explanation)"
       ]
@@ -30958,87 +30436,9 @@
       ]
     },
     {
-      "id": "tjc-2022-prelim-p1-q13",
-      "flags": [
-        "option-C-cell-crop",
-        "option-D-cell-crop",
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q14",
-      "flags": [
-        "spans-pages",
-        "option-C-cell-crop",
-        "option-D-cell-crop",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q15",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q16",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q17",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
       "id": "tjc-2022-prelim-p1-q18",
       "flags": [
-        "unclassified",
-        "ambiguous",
         "near-duplicate-different-answer"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q19",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q20",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q21",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q22",
-      "flags": [
-        "unclassified",
-        "ambiguous"
       ]
     },
     {
@@ -31046,37 +30446,7 @@
       "flags": [
         "options-not-found",
         "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q24",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous",
-        "has-duplicates"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q25",
-      "flags": [
-        "stem:small-fragment",
-        "stem:math-font:SymbolMT",
-        "stem:unmapped-glyph",
-        "stem:wide-gap",
-        "stem:stacked-lines",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q26",
-      "flags": [
-        "unclassified",
-        "ambiguous"
+        "agent-note"
       ]
     },
     {
@@ -31084,95 +30454,12 @@
       "flags": [
         "table-options",
         "image-fallback",
-        "unclassified",
-        "ambiguous",
         "near-duplicate-different-answer"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q28",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2022-prelim-p1-q29",
-      "flags": [
-        "stem:small-fragment",
-        "stem:math-font:SymbolMT",
-        "stem:wide-gap",
-        "stem:stacked-rows",
-        "stem:stacked-lines",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q1",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q2",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q3",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q4",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q5",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q6",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q7",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q8",
-      "flags": [
-        "unclassified",
-        "ambiguous"
       ]
     },
     {
       "id": "tjc-2023-prelim-p1-q9",
       "flags": [
-        "unclassified",
-        "ambiguous",
         "near-duplicate-different-answer"
       ]
     },
@@ -31180,105 +30467,14 @@
       "id": "tjc-2023-prelim-p1-q10",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q11",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q12",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q13",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q14",
-      "flags": [
-        "table-options",
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "stem:stacked-rows",
-        "stem:fraction-rule",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q15",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q16",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q17",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q19",
-      "flags": [
-        "option-D-cell-crop",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q20",
-      "flags": [
-        "unclassified",
-        "ambiguous"
+        "image-fallback"
       ]
     },
     {
       "id": "tjc-2023-prelim-p1-q21",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q22",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q24",
-      "flags": [
-        "unclassified",
-        "ambiguous"
+        "image-fallback"
       ]
     },
     {
@@ -31287,125 +30483,6 @@
         "content-below-options",
         "option-C-cell-crop",
         "option-D-cell-crop",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q26",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q27",
-      "flags": [
-        "stem:stacked-lines",
-        "stem:fraction-rule",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q28",
-      "flags": [
-        "stem:small-fragment",
-        "stem:math-font:SymbolMT",
-        "stem:unmapped-glyph",
-        "stem:wide-gap",
-        "stem:stacked-lines",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2023-prelim-p1-q30",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q1",
-      "flags": [
-        "stem:math-font:CambriaMath",
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "stem:small-fragment",
-        "stem:wide-gap",
-        "stem:stacked-rows",
-        "stem:fraction-rule",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q3",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q4",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q5",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q6",
-      "flags": [
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q7",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q8",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q9",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q10",
-      "flags": [
-        "image-fallback",
-        "unclassified",
         "ambiguous"
       ]
     },
@@ -31413,112 +30490,10 @@
       "id": "tjc-2024-prelim-p1-q11",
       "flags": [
         "answer-conflict",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q12",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q13",
-      "flags": [
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q15",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q16",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q17",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q18",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q19",
-      "flags": [
-        "table-options",
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q20",
-      "flags": [
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q21",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q22",
-      "flags": [
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q23",
-      "flags": [
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q24",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
+        "key-letter-mismatch",
+        "ambiguous",
+        "agent-note",
+        "explanation-disagrees-with-key"
       ]
     },
     {
@@ -31530,204 +30505,15 @@
         "stem:off-baseline",
         "stem:fraction-rule",
         "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q26",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q27",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q28",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q29",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2024-prelim-p1-q30",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q1",
-      "flags": [
-        "stem:math-font:SymbolMT",
-        "stem:stacked-rows",
-        "stem:fraction-rule",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q2",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q3",
-      "flags": [
-        "stem:unmapped-glyph",
-        "stem:math-font:SymbolMT",
-        "stem:fraction-rule",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q4",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q5",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q7",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q9",
-      "flags": [
-        "stem:math-font:CambriaMath",
-        "stem:small-fragment",
-        "stem:wide-gap",
-        "stem:stacked-rows",
-        "stem:stacked-lines",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q10",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q11",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q12",
-      "flags": [
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q14",
-      "flags": [
-        "stem:math-font:SymbolMT",
-        "stem:wide-gap",
-        "stem:stacked-rows",
-        "stem:fraction-rule",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q15",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q16",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q17",
-      "flags": [
-        "option-A-cell-crop",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q18",
-      "flags": [
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q19",
-      "flags": [
-        "table-options",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
-      ]
-    },
-    {
-      "id": "tjc-2025-prelim-p1-q20",
-      "flags": [
-        "stem:wide-gap",
-        "stem:stacked-rows",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
+        "ambiguous",
+        "agent-note"
       ]
     },
     {
       "id": "tjc-2025-prelim-p1-q21",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified",
-        "ambiguous"
+        "image-fallback"
       ]
     },
     {
@@ -33727,10 +32513,10 @@
       "answersAgree": true
     },
     {
-      "canonical": "jpjc-2024-prelim-p1-q27",
+      "canonical": "tjc-2022-prelim-p1-q27",
       "members": [
-        "jpjc-2024-prelim-p1-q27",
-        "tjc-2022-prelim-p1-q27"
+        "tjc-2022-prelim-p1-q27",
+        "jpjc-2024-prelim-p1-q27"
       ],
       "answersAgree": false
     },
@@ -34387,109 +33173,109 @@
     "totalBytes": 70954840,
     "perShard": {
       "_unclassified": {
-        "questions": 1821,
-        "jsonBytes": 2734329,
-        "assetBytes": 49914520
+        "questions": 1731,
+        "jsonBytes": 2592417,
+        "assetBytes": 47347388
       },
       "circuits": {
-        "questions": 63,
-        "jsonBytes": 159086,
-        "assetBytes": 1552408
+        "questions": 71,
+        "jsonBytes": 179504,
+        "assetBytes": 1910560
       },
       "circular-motion": {
-        "questions": 37,
-        "jsonBytes": 90552,
-        "assetBytes": 900546
+        "questions": 42,
+        "jsonBytes": 102379,
+        "assetBytes": 1134490
       },
       "collisions": {
-        "questions": 18,
-        "jsonBytes": 49095,
-        "assetBytes": 349680
+        "questions": 21,
+        "jsonBytes": 55893,
+        "assetBytes": 420248
       },
       "currents": {
-        "questions": 34,
-        "jsonBytes": 82985,
-        "assetBytes": 679618
+        "questions": 37,
+        "jsonBytes": 89279,
+        "assetBytes": 715282
       },
       "electric-fields": {
-        "questions": 51,
-        "jsonBytes": 135850,
-        "assetBytes": 1438984
+        "questions": 55,
+        "jsonBytes": 147069,
+        "assetBytes": 1634414
       },
       "electromagnetic-forces": {
-        "questions": 43,
-        "jsonBytes": 116306,
-        "assetBytes": 1291338
+        "questions": 48,
+        "jsonBytes": 129872,
+        "assetBytes": 1500786
       },
       "electromagnetic-induction": {
-        "questions": 42,
-        "jsonBytes": 116944,
-        "assetBytes": 1501272
+        "questions": 47,
+        "jsonBytes": 131974,
+        "assetBytes": 1696794
       },
       "energy-and-fields": {
-        "questions": 49,
-        "jsonBytes": 118990,
-        "assetBytes": 1085218
+        "questions": 51,
+        "jsonBytes": 123858,
+        "assetBytes": 1144116
       },
       "forces-and-moments": {
-        "questions": 37,
-        "jsonBytes": 98036,
-        "assetBytes": 860752
+        "questions": 40,
+        "jsonBytes": 106483,
+        "assetBytes": 949422
       },
       "gravitational-fields": {
-        "questions": 47,
-        "jsonBytes": 112443,
-        "assetBytes": 1093394
+        "questions": 54,
+        "jsonBytes": 130319,
+        "assetBytes": 1235478
       },
       "motion-and-forces": {
-        "questions": 57,
-        "jsonBytes": 144304,
-        "assetBytes": 1329670
+        "questions": 61,
+        "jsonBytes": 154238,
+        "assetBytes": 1378620
       },
       "nuclear-physics": {
-        "questions": 47,
-        "jsonBytes": 116632,
-        "assetBytes": 1561106
+        "questions": 51,
+        "jsonBytes": 125485,
+        "assetBytes": 1645832
       },
       "oscillations": {
-        "questions": 43,
-        "jsonBytes": 103082,
-        "assetBytes": 761752
+        "questions": 49,
+        "jsonBytes": 117476,
+        "assetBytes": 823442
       },
       "projectile-motion": {
-        "questions": 17,
-        "jsonBytes": 44615,
-        "assetBytes": 631326
+        "questions": 19,
+        "jsonBytes": 50087,
+        "assetBytes": 651786
       },
       "quantities-and-measurement": {
-        "questions": 36,
-        "jsonBytes": 79830,
-        "assetBytes": 577964
+        "questions": 43,
+        "jsonBytes": 97323,
+        "assetBytes": 841356
       },
       "quantum-physics": {
-        "questions": 49,
-        "jsonBytes": 122377,
-        "assetBytes": 1571432
+        "questions": 56,
+        "jsonBytes": 139303,
+        "assetBytes": 1768634
       },
       "superposition": {
-        "questions": 54,
-        "jsonBytes": 132553,
-        "assetBytes": 1205640
+        "questions": 60,
+        "jsonBytes": 147380,
+        "assetBytes": 1248798
       },
       "temperature-and-ideal-gases": {
-        "questions": 36,
-        "jsonBytes": 85811,
-        "assetBytes": 772310
+        "questions": 37,
+        "jsonBytes": 88299,
+        "assetBytes": 812394
       },
       "thermodynamic-systems": {
-        "questions": 33,
-        "jsonBytes": 83999,
-        "assetBytes": 620080
+        "questions": 36,
+        "jsonBytes": 92413,
+        "assetBytes": 723500
       },
       "wave-motion": {
-        "questions": 40,
-        "jsonBytes": 99383,
-        "assetBytes": 1255830
+        "questions": 45,
+        "jsonBytes": 113601,
+        "assetBytes": 1371500
       }
     }
   }

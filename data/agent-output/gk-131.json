@@ -1,0 +1,505 @@
+[
+ {
+  "id": "tjc-2024-prelim-p1-q19",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The field points from high to low potential, so it points towards Y (right).\n\nThe electron is negatively charged, so the electric force on it points towards X, i.e. away from Y.\n\nChange in electric potential energy from X to Y: $\\Delta E_p = (-eV_Y) - (-eV_X) = -70\\ \\mathrm{eV} + 100\\ \\mathrm{eV} = +30\\ \\mathrm{eV}$.",
+   "perOption": {
+    "A": "Correct. Force towards X and the electron gains 30 eV.",
+    "B": "Force direction is wrong (that would be for a positive charge) and the sign of the energy change is wrong.",
+    "C": "Force direction is wrong (that would be for a positive charge); the +30 eV is right.",
+    "D": "Force direction is right, but the sign of the energy change is wrong: the electron moves to a lower potential, so its potential energy increases."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.h",
+   "energy-and-fields.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires only the sign of the force on an electron and the change in potential energy in eV.",
+  "misconception": "Treating the electron like a positive charge, so it gains energy by moving to lower potential.",
+  "transcription": "Two fixed parallel metal plates X and Y are at constant potentials of +100 V and +70 V respectively. An electron travelling from X to Y experiences a change in potential energy $\\Delta E_p$. [Diagram: vertical plates X (left, +100 V) and Y (right, +70 V) with an electron between them moving from X towards Y.] Which row shows correctly the direction of the electrostatic force $F$ on the electron and the value of $\\Delta E_p$? A towards X, +30 eV; B towards Y, -30 eV; C away from X, +30 eV; D away from Y, -30 eV."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q20",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$R = \\dfrac{\\rho L}{A} \\propto \\dfrac{L}{A}$.\n\nThe cuboid has length $5d$ between X and Y and cross-sectional area $2d \\times d = 2d^2$ (2 rows of cubes).\n\n$\\dfrac{R'}{4.0} = \\dfrac{5d}{d} \\times \\dfrac{d^2}{2d^2}$, so $R' = 10\\ \\Omega$.",
+   "perOption": {
+    "A": "Inverts the ratio: $4.0\\times 2/5 = 1.6\\ \\Omega$.",
+    "B": "Only divides by the 2 rows and ignores the five-fold increase in length.",
+    "C": "Correct. Length is 5 times, area is 2 times, so $R = 4.0 \\times 5/2$.",
+    "D": "Adds all ten cubes in series, ignoring the doubled cross-sectional area."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.d"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of R proportional to L/A once the cuboid dimensions are read from the diagram.",
+  "misconception": "Adding all ten resistances in series without accounting for the larger cross-sectional area.",
+  "transcription": "A metal cube has a resistance of 4.0 $\\Omega$ between opposite faces. Ten of these cubes are put together to make a cuboid as shown. [Diagram: a cuboid made of 2 rows of 5 cubes; X is marked at the centre of the left end face and Y at the centre of the right end face.] There is no extra resistance where the faces of the cubes touch each other. What is the resistance of the cuboid when connected between faces X and Y? A 1.6 $\\Omega$; B 2.0 $\\Omega$; C 10 $\\Omega$; D 40 $\\Omega$."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q21",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "In the driver circuit, the p.d. across XY should be minimised for the largest balance length, so the NTC thermistor's resistance should be maximised (potential divider rule). Hence the temperature should be low.\n\nThe terminal p.d. of the test cell circuit should be maximised, so the resistance of the LDR should be maximised (less current drawn, less lost to internal resistance). Hence the environment should be dark.",
+   "perOption": {
+    "A": "High temperature lowers the NTC resistance and bright light lowers the LDR resistance; both work against a long balance length.",
+    "B": "Dark is right for the LDR, but high temperature lowers the NTC resistance and raises the p.d. across XY.",
+    "C": "Low temperature is right for the NTC, but bright light lowers the LDR resistance and so the terminal p.d.",
+    "D": "Correct. Low temperature and dark."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.f",
+   "circuits.g"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Combines potentiometer balance length, internal resistance and the behaviour of two sensors in a novel circuit.",
+  "misconception": "Forgetting that a larger driver-circuit p.d. across XY shortens the balance length, or ignoring the internal-resistance effect in the test cell.",
+  "transcription": "An NTC thermistor and a light-dependent resistor are connected in a potentiometer circuit. The batteries have finite internal resistance. XY is a resistance wire. [Diagram: a driver circuit (battery with internal resistance in series with an NTC thermistor) connected across wire XY; a test circuit (battery with internal resistance, galvanometer and jockey contact) with an LDR connected across the test cell terminals.] Which row of conditions will give the largest balance length of the potentiometer? A high temperature, bright; B high temperature, dark; C low temperature, bright; D low temperature, dark."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q22",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\dfrac{V_s}{V_p} = \\dfrac{N_s}{N_p} \\Rightarrow V_s = \\dfrac{130}{2500} \\times 230 = 12\\ \\mathrm{V}$ (r.m.s.).\n\nPeak power $= \\dfrac{V_0^2}{R} = \\dfrac{(\\sqrt{2} \\times 12)^2}{6} = 48\\ \\mathrm{W}$.",
+   "perOption": {
+    "A": "12 is the r.m.s. secondary voltage, not a power.",
+    "B": "This is the mean power $V_{rms}^2/R = 24$ W, not the peak power.",
+    "C": "Correct. Peak power is twice the mean power of 24 W.",
+    "D": "Doubles the correct peak power."
+   }
+  },
+  "issues": null,
+  "chapter": "currents",
+  "secondaryChapters": [
+   "electromagnetic-induction"
+  ],
+  "outcomes": [
+   "currents.i",
+   "electromagnetic-induction.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Chains transformer turns ratio, r.m.s. to peak conversion and power, with the peak-versus-mean trap.",
+  "misconception": "Using r.m.s. values to get the mean power but reporting it as the peak power.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q23",
+  "keyPage": 5,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Take moments about the pivot (the top side). The magnetic force $F_B$ acts horizontally on the lowest side, at perpendicular distance $L\\cos 30^\\circ$ from the pivot; the weight acts at the centre, at perpendicular distance $\\dfrac{L}{2}\\sin 30^\\circ$.\n\n$F_B \\times L\\cos 30^\\circ = 0.12 \\times \\dfrac{L}{2}\\sin 30^\\circ$\n\n$50B(0.40)(60\\times10^{-3})\\cos 30^\\circ = 0.12 \\times \\dfrac{1}{2}\\sin 30^\\circ$\n\n$B = 0.029\\ \\mathrm{T}$.",
+   "perOption": {
+    "A": "Correct. Moments about the pivot with $F_B = NBIL$.",
+    "B": "Twice the answer: omits the factor of one half for the weight acting at the centre.",
+    "C": "Three times the answer; likely a wrong trigonometric ratio in the moments.",
+    "D": "Ignores the moment arms and the number of turns."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "forces-and-moments.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs moments with correct perpendicular distances at an angle, combined with F = NBIL.",
+  "misconception": "Using the full coil length for the weight's moment arm instead of half.",
+  "transcription": "A rigid square coil of side 60 mm has 50 turns. It hangs vertically so that it can rotate freely about one side. [Diagram: coil pivoted at its top, hanging at 30 degrees to the vertical; its lowest side lies between the N pole (above) and S pole (below); a horizontal magnetic force arrow points left from the lowest side; the weight 0.12 N acts downward at the coil's centre.] When a current of 0.40 A passes through the coil, it hangs at an angle 30 degrees to the vertical with its lowest side in the vertical magnetic field of a magnet. The weight of the coil is 0.12 N. What is the magnetic flux density of the field between the magnets? A 0.029 T; B 0.058 T; C 0.087 T; D 1.4 T."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q24",
+  "keyPage": 5,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The force causing the deflection acts upwards, so the magnetic force is upwards.\n\nUsing Fleming's left-hand rule, the current is opposite in direction to the motion of the particle, so it must be negatively charged.\n\nIf the magnetic force is upwards, the electric force must be downwards. For a negative charge this means the electric field must be upwards (+y).",
+   "perOption": {
+    "A": "Positive charge is wrong: the magnetic force would then be downwards, not upwards.",
+    "B": "Positive charge is wrong, and the field direction does not match either.",
+    "C": "Correct. Negative charge; the field points +y so the force on the negative charge is -y.",
+    "D": "Negative charge is right, but a -y field would give a +y electric force on a negative charge, adding to the magnetic force."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "electric-fields.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires Fleming's left-hand rule for a moving charge and remembering the electric force on a negative charge is opposite to the field.",
+  "misconception": "Forgetting that the force on a negative charge is opposite to the electric field.",
+  "transcription": "A particle travels through a region of uniform magnetic field in a circular path as shown. The magnetic field is directed into the plane of the page. [Diagram: a square region of crosses (field into page); a curved path enters from the right edge moving left and curves upward, leaving the top. Axes: x to the right, y up.] What is the sign of charge of the particle and the direction of electric field to be applied in the same region, for it to pass through with no deflection? A positive, +y; B positive, -y; C negative, +y; D negative, -y."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q25",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "medium",
+  "explanation": {
+   "body": "Maximum flux linkage occurs when the B field lines are perpendicular to the coil, i.e. the normal is parallel to the field. This needs a rotation of $\\dfrac{\\pi}{3}$ anticlockwise.\n\nWhen flux linkage is maximum, the induced e.m.f. is minimum (zero), and vice-versa. So the e.m.f. is maximum when the coil plane is parallel to the field, a further $\\dfrac{\\pi}{2}$ away from that position, i.e. a rotation of $\\dfrac{\\pi}{6}$ clockwise from the initial position.",
+   "perOption": {
+    "A": "Rotation angles and directions are both reversed between the two cases.",
+    "B": "The directions are right for neither case: the flux-linkage rotation should be $\\pi/3$, not $\\pi/6$.",
+    "C": "Angles are swapped between the two cases and the directions are wrong.",
+    "D": "Correct. $\\pi/3$ anticlockwise for maximum flux linkage, $\\pi/6$ clockwise for maximum e.m.f."
+   }
+  },
+  "issues": "The school's solution is brief and only justifies the maximum flux linkage case (and the flux/e.m.f. phase relation); the pi/6 clockwise step for maximum e.m.f. was filled in by the explainer.",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.c",
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs a spatial picture of coil, normal and field, and the fact that flux linkage and e.m.f. are out of phase.",
+  "misconception": "Thinking e.m.f. is maximum when flux linkage is maximum.",
+  "transcription": "The diagram shows a coil placed in a uniform magnetic field. In the position shown, the angle between the normal to the plane of the coil and the magnetic field is $\\frac{\\pi}{3}$ rad. [Diagram: horizontal uniform field lines pointing right; a coil on a vertical axle drawn edge-on, tilted, with its normal at $\\pi/3$ to the field; arrows show clockwise and anticlockwise rotation directions.] Which row shows the angles through which the coil should be rotated, and the direction of rotation, so that the flux linkage and the induced e.m.f. becomes a maximum? A flux linkage: $\\pi/6$ clockwise; e.m.f.: $\\pi/3$ anticlockwise. B flux linkage: $\\pi/6$ anticlockwise; e.m.f.: $\\pi/3$ clockwise. C flux linkage: $\\pi/3$ clockwise; e.m.f.: $\\pi/6$ anticlockwise. D flux linkage: $\\pi/3$ anticlockwise; e.m.f.: $\\pi/6$ clockwise."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q26",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "A step-up transformer has $N_s > N_p$.\n\nFor an ideal transformer the magnetic flux $\\phi$ through each turn is the same in both coils, so flux linkage is $N_s\\phi > N_p\\phi$, giving a ratio $>1$.\n\n$\\dfrac{I_s}{I_p} = \\dfrac{V_p}{V_s} = \\dfrac{N_p}{N_s} < 1$.",
+   "perOption": {
+    "A": "Flux linkage ratio is $N_s/N_p > 1$, not less than 1.",
+    "B": "Correct. Flux linkage ratio $>1$, current ratio $<1$.",
+    "C": "The current ratio is less than 1, since power is conserved and the secondary voltage is larger.",
+    "D": "Both ratios are reversed."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.g"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs to separate flux (same in both coils) from flux linkage (N times flux) and apply the ideal-transformer current ratio.",
+  "misconception": "Believing the flux linkage is the same in primary and secondary coils.",
+  "transcription": "The primary coil of a step-up ideal transformer is connected to a source of alternating p.d. The secondary coil is connected to a lamp. [Diagram: a.c. source connected to the primary coil, an iron core, and a secondary coil connected to a lamp.] Which row correctly describes the ratios of flux linkages and currents through the secondary coil in relation to the primary coil? Columns: (secondary flux linkage)/(primary flux linkage) and (secondary current)/(primary current). A <1, <1; B >1, <1; C >1, >1; D <1, >1."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q27",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "generated",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The school's key prints only the letter D for this question.\n\nThe continuous X-ray spectrum has a sharp cut-off at $\\lambda_{min}$. This occurs when an electron gives up all its kinetic energy $eV$ in a single collision, producing one photon of the maximum energy: $eV = \\dfrac{hc}{\\lambda_{min}}$.",
+   "perOption": {
+    "A": "The threshold wavelength belongs to photoelectric emission, not X-ray production.",
+    "B": "The cut-off depends on the accelerating voltage, not on the ionisation energy of the target.",
+    "C": "It is a photon wavelength, not the electron's de Broglie wavelength.",
+    "D": "Correct. All the electron's energy goes into one photon."
+   }
+  },
+  "issues": "Key prints only the letter D with no working; explanation generated.",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.b"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "graph",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard definition of the cut-off wavelength in the X-ray spectrum.",
+  "misconception": "Confusing the X-ray cut-off wavelength with a threshold wavelength or the electron's de Broglie wavelength.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q28",
+  "keyPage": 5,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E = \\tfrac{1}{2}mv^2 = \\dfrac{p^2}{2m}$, so $p = \\sqrt{2mE}$.\n\nThe mass of an alpha particle is $4u$, so $p = \\sqrt{8uE}$.\n\n$\\lambda = \\dfrac{h}{p} = \\dfrac{h}{\\sqrt{8uE}} = \\dfrac{h}{2\\sqrt{2uE}}$.",
+   "perOption": {
+    "A": "Uses mass $u$ instead of $4u$, or drops a factor of 2 inside the root.",
+    "B": "Inverted: wavelength is $h/p$, not $p/h$.",
+    "C": "Correct. $h/\\sqrt{8uE}$.",
+    "D": "Inverted: wavelength is $h/p$, not $p/h$."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs p from kinetic energy, the mass of an alpha particle as 4u and simplification of the root.",
+  "misconception": "Using the mass of one nucleon instead of an alpha particle (4u).",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q29",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Paper does not reduce the count rate, so there is no $\\alpha$ (which would not pass through paper).\n\n$\\beta$ is stopped by a few mm of aluminium, which is why the rate falls from 1000 to 250.\n\nOnly $\\gamma$ can pass through thick steel, which is why a count remains (50 s$^{-1}$).",
+   "perOption": {
+    "A": "Alpha is absorbed by paper, but the rate is unchanged by paper.",
+    "B": "No alpha: paper makes no difference. Aluminium reduces the count, so beta is present.",
+    "C": "No alpha; and the count remaining behind thick steel shows gamma is present.",
+    "D": "Correct. Beta (absorbed by aluminium) and gamma (penetrates steel)."
+   }
+  },
+  "issues": null,
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard penetrating-power reasoning from a short table.",
+  "misconception": "Assuming the radiation falling in intensity with a material proves that radiation type is absent.",
+  "transcription": "A Geiger counter is placed near a radioactive source and different materials are placed between the source and the Geiger counter. The results of the tests are shown in the table. Material / count rate of Geiger counter per s: none 1000; paper 1000; aluminium foil 250; thick steel 50. What is the radiation emitted by the source? A $\\alpha$ only; B $\\alpha$ and $\\gamma$; C $\\alpha$ and $\\beta$; D $\\beta$ and $\\gamma$."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q30",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$P = \\dfrac{E}{t} = \\dfrac{mc^2}{t}$\n\n$= \\dfrac{(6.0\\times10^{-6})(3.00\\times10^8)^2}{60\\times60}$\n\n$= 1.5\\times10^8\\ \\mathrm{W} = 150\\ \\mathrm{MW}$.",
+   "perOption": {
+    "A": "Half the correct value.",
+    "B": "Correct. Hour converted to 3600 s.",
+    "C": "Twice the correct value.",
+    "D": "Divides by 60 instead of 3600 s."
+   }
+  },
+  "issues": null,
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.q"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of E = mc^2 with a unit conversion from hours to seconds.",
+  "misconception": "Forgetting to convert hours to seconds.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q1",
+  "keyPage": 1,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Units of $Q$: $\\mathrm{C} = \\mathrm{A\\,s}$.\n\nUnits of $V$: $\\mathrm{J\\,C^{-1}} = \\mathrm{kg\\,m^2\\,s^{-2}} / \\mathrm{A\\,s}$.\n\nHence units of $C = Q/V$ are $\\mathrm{A^2\\,s^4\\,m^{-2}\\,kg^{-1}}$.",
+   "perOption": {
+    "A": "Correct. $\\mathrm{A^2\\,s^4\\,m^{-2}\\,kg^{-1}}$.",
+    "B": "Missing the ampere, and the power of s is wrong.",
+    "C": "Missing the powers of seconds.",
+    "D": "The coulomb is not an SI base unit."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.c",
+   "electric-fields.j"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "recall"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs derivation of base units of volt and coulomb and careful algebra on exponents.",
+  "misconception": "Writing the coulomb as a base unit or dropping powers of seconds.",
+  "transcription": "A capacitor is a device used to store electric charges. It consists of a pair of conducting plates. The capacitance $C$ of a capacitor is defined as the ratio of the charge $Q$ on either plate to the magnitude of the potential difference $V$ between the plates, as depicted in the formula: $C = \\frac{Q}{V}$. Which of the following shows the SI base units for capacitance $C$? A $\\mathrm{A^2\\,s^4\\,m^{-2}\\,kg^{-1}}$; B $\\mathrm{s^2\\,m^{-2}\\,kg^{-1}}$; C $\\mathrm{A^2\\,m^{-2}\\,kg^{-1}}$; D $\\mathrm{C^2\\,kg^{-1}\\,m^{-2}\\,s^2}$."
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q2",
+  "keyPage": 1,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Average of $h$ (in $10^{-34}$ J s): A 6.63, B 6.63, C 6.65, D 6.62.\n\nA, B and D are accurate (close to the accepted 6.63).\n\nRange of variation: A 0.04, B 0.02, C 0.07, D 0.02. B and D are precise.\n\nSo the student who is accurate but imprecise is A.",
+   "perOption": {
+    "A": "Correct. Accurate mean 6.63, but a larger spread (range 0.04) than B and D.",
+    "B": "Accurate and precise (range 0.02).",
+    "C": "Mean 6.65 is less accurate, and the range is largest at 0.07: neither accurate nor precise.",
+    "D": "Accurate and precise (range 0.02)."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "practical",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Compare means and ranges from a small data table and apply accuracy versus precision.",
+  "misconception": "Swapping accuracy and precision.",
+  "transcription": "Four students conduct their own experiments to determine the value of Planck's constant. The following table contains their experimental data. Which student's measurement is accurate but imprecise, compared to the others? Planck's constant, $h / 10^{-34}$ J s. A: 6.64, 6.61, 6.61, 6.64, 6.65. B: 6.62, 6.63, 6.63, 6.64, 6.63. C: 6.63, 6.68, 6.61, 6.68, 6.65. D: 6.62, 6.61, 6.63, 6.62, 6.62."
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q3",
+  "keyPage": 1,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$v = k\\sqrt{\\dfrac{\\gamma}{\\lambda\\rho}}$, so the power of $1/2$ applies to the sum of the fractional uncertainties.\n\n$\\dfrac{\\Delta v}{v} \\times 100\\% = \\dfrac{1}{2}\\left(\\dfrac{0.05}{4.30} + \\dfrac{20}{1450} + 0.05\\right) \\times 100\\% = 3.8\\% \\approx 4\\%$.",
+   "perOption": {
+    "A": "Too small: underestimates the sum of the terms.",
+    "B": "Too small: underestimates the sum of the terms.",
+    "C": "Correct. 3.8%, which rounds to 4%.",
+    "D": "Does not apply the power $1/2$ (adds the fractional uncertainties without halving: 7.5%)."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the rule for uncertainty with a power and a quotient, with three contributing terms.",
+  "misconception": "Forgetting to multiply the summed fractional uncertainty by the power 1/2.",
+  "transcription": "The relation between the velocity $v$ of waves in the sea with its wavelength $\\lambda$, the surface tension $\\gamma$ and density $\\rho$ of sea water is given by $v = k\\sqrt{\\dfrac{\\gamma}{\\lambda\\rho}}$, where $k$ = constant of proportionality. If $\\gamma$ = (4.30 $\\pm$ 0.05) N m$^{-1}$, $\\rho$ = (1450 $\\pm$ 20) kg m$^{-3}$ and the percentage uncertainty in $\\lambda$ is 5%, what is the percentage uncertainty in the velocity of the waves? A 2%; B 3%; C 4%; D 8%."
+ }
+]

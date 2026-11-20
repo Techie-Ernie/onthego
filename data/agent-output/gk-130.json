@@ -1,0 +1,505 @@
+[
+ {
+  "id": "tjc-2024-prelim-p1-q3",
+  "keyPage": 1,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The pilot must aim partly into the wind so that the westerly wind cancels the aircraft's westward velocity component. The airspeed (350 km/h) is the hypotenuse of the velocity triangle, and the wind (100 km/h) is the perpendicular side.\n\n$v_{\\text{ground}} = \\sqrt{350^2 - 100^2} = 335\\ \\mathrm{km\\,h^{-1}}$ (north).",
+   "perOption": {
+    "A": "Subtracts 100 from 350 instead of using Pythagoras.",
+    "B": "Correct. Velocity triangle with 350 as hypotenuse.",
+    "C": "Uses $\\sqrt{350^2+100^2}$, treating the wind as adding to the northward speed.",
+    "D": "Adds 350 and 100 as if the wind were a tailwind."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.i"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single vector triangle with Pythagoras, but students must realise 350 is the hypotenuse.",
+  "misconception": "Adds wind speed to airspeed, or takes the resultant as the hypotenuse",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q4",
+  "keyPage": 1,
+  "keyLetter": "C",
+  "explanationSource": "generated",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Both balls are launched horizontally from the same height, so each has zero initial vertical velocity and the same vertical acceleration $g$. Their vertical motion is identical and independent of the horizontal motion, so the time to fall is the same: $t=\\sqrt{2h/g}$. They land together; Y simply travels farther horizontally.",
+   "perOption": {
+    "A": "Landing nearer does not mean landing earlier; fall time depends only on height.",
+    "B": "Horizontal speed does not affect the time of fall.",
+    "C": "Correct. Same height and same $g$ give the same fall time.",
+    "D": "Air resistance is neglected in the intended reasoning, and the final speeds would differ anyway (Y is faster horizontally)."
+   }
+  },
+  "issues": "The school key gives only the letter for Q4 (no working); explanation is generated.",
+  "chapter": "projectile-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "projectile-motion.b"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Classic independence of horizontal and vertical motion.",
+  "misconception": "Faster horizontal speed means shorter fall time",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q5",
+  "keyPage": 1,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Change in momentum equals the area under the $F$-$t$ graph.\n\nArea from 0 to 10 s $= \\tfrac12(8+4)(12) + \\left[-\\tfrac12(2)(12)\\right] = 60\\ \\mathrm{N\\,s}$.\n\n$60 = mv - 0$, so with $m = 0.300$ kg, $v = 200\\ \\mathrm{m\\,s^{-1}}$.",
+   "perOption": {
+    "A": "Correct. Impulse 60 N s divided by 0.300 kg.",
+    "B": "Not supported by the net area of 60 N s.",
+    "C": "Not supported by the net area of 60 N s.",
+    "D": "Ignores the negative area (adds 12 N s instead of subtracting), or similar area error."
+   }
+  },
+  "issues": null,
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "collisions.a"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs signed area under a trapezoid-and-triangle graph and unit conversion of mass from g to kg.",
+  "misconception": "Forgetting the negative area or using mass in grams",
+  "transcription": "[Graph of force F/N against time t/s. F rises linearly from 0 at t=0 to 12 N at t=2 s, stays at 12 N until t=6 s, falls linearly to 0 at t=8 s, and continues linearly to -12 N at t=10 s.] A body of mass 300 g initially at rest is acted on by a force F which varies with time t as shown. What is the speed of the body at the 10th second? A 200 m/s B 240 m/s C 260 m/s D 280 m/s"
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q6",
+  "keyPage": 2,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Force on water = rate of change of momentum $= \\dfrac{\\rho V}{\\Delta t}\\Delta v = \\rho \\pi r^2 v (0 - v) = -\\rho\\pi r^2 v^2$.\n\n$= -1000\\pi(2.0\\times10^{-2})^2(0.50)^2 = -0.314\\ \\mathrm{N}$.\n\nBy Newton's third law, the force by the water on the wall is $0.314$ N.",
+   "perOption": {
+    "A": "Correct. $F=\\rho\\pi r^2 v^2$.",
+    "B": "Treats the water as rebounding (momentum change $2mv$), which the question rules out.",
+    "C": "Uses diameter instead of radius, which gives four times the correct force.",
+    "D": "Uses $\\rho\\pi r^2 v$ and omits a factor of $v$, or similar slip."
+   }
+  },
+  "issues": "Distractor explanations for B, C, D are my inference of the likely errors (school gave none).",
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "motion-and-forces.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires mass flow rate of a fluid jet and rate of change of momentum.",
+  "misconception": "Forgetting that mass per second is $\\rho A v$, or assuming rebound",
+  "transcription": "A jet of water of density 1000 kg m^-3 leaves the nozzle of a hose of radius 2.0 x 10^-2 m. The water is directed perpendicularly to the wall at a speed of 0.50 m s^-1. Assume that the water does not rebound. What is the force exerted on the wall by the water? A 0.314 N B 0.628 N C 1.27 N D 15.7 N"
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q7",
+  "keyPage": 2,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The cuboids have equal volume and are fully immersed, so the upthrust $U$ is the same on each.\n\n$T + U = mg = \\rho_{\\text{material}} V g$, so $T = \\rho_{\\text{material}}Vg - U$.\n\nCuboid W has the largest density, so the tension in its string is the greatest.",
+   "perOption": {
+    "A": "Y is denser than water, so its weight exceeds the upthrust (the string supplies the difference).",
+    "B": "Upthrust is the same for all three because volume displaced is equal.",
+    "C": "Tensions differ because the weights differ.",
+    "D": "Correct. $T=\\rho Vg-U$ is largest for the densest cuboid."
+   }
+  },
+  "issues": null,
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.b",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Upthrust depends only on displaced volume; straightforward equilibrium argument.",
+  "misconception": "Thinking upthrust depends on the density of the object",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q8",
+  "keyPage": 2,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a wire obeying Hooke's law, the graph of tension against extension is a straight line. The extra energy stored is the area of the trapezium between $x_1$ and $x_2$:\n\n$\\tfrac12(T_2 + T_1)(x_2 - x_1)$.",
+   "perOption": {
+    "A": "Correct. Area of the trapezium under the $T$-$x$ graph.",
+    "B": "Uses $T_2-T_1$, which gives the energy of a triangle starting from $T_1$ (wrong shape).",
+    "C": "Uses $x_2+x_1$ instead of the change in length.",
+    "D": "Uses both differences wrongly; neither factor is the trapezium's width and mean height."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.k",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires recognising the trapezium area for energy between two non-zero extensions.",
+  "misconception": "Using $\\tfrac12 F x$ with differences of both quantities",
+  "transcription": "A wire that obeys Hooke's law is of length x1 when it is in equilibrium under a tension T1; its length becomes x2 when the tension is increased to T2. What is the extra energy stored in the wire as a result of this process? A (1/2)(T2+T1)(x2-x1) B (1/2)(T2-T1)(x2-x1) C (1/2)(T2+T1)(x2+x1) D (1/2)(T2-T1)(x2+x1)"
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q9",
+  "keyPage": 2,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "P and Q are on the same turntable, so they have the same angular velocity $\\omega$.\n\nLinear speed $v = r\\omega$ is greater for P since $r_1 > r_2$.\n\nCentripetal force $F = mr\\omega^2$ is also greater for P since $r_1 > r_2$.",
+   "perOption": {
+    "A": "Speeds differ because $v=r\\omega$; and the force is greater for P, not Q.",
+    "B": "Same angular speed does not mean same linear speed.",
+    "C": "Force is greater for P (larger radius), not Q.",
+    "D": "Correct. Both $v$ and $F$ increase with $r$ at fixed $\\omega$."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.c",
+   "circular-motion.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct application of $v=r\\omega$ and $F=mr\\omega^2$ at fixed $\\omega$.",
+  "misconception": "Equating linear speeds of points on a rotating disc",
+  "transcription": "A turntable consists of a rotating horizontal disc moving at a fixed rotational speed. Two small objects P and Q with the same mass are placed on the turntable, P at distance r1 from the centre O and Q at distance r2 (r1 > r2). Which correctly relates P and Q's linear speeds and centripetal forces? Table (linear speed / centripetal force): A same for P and Q / greater for Q; B same for P and Q / greater for P; C greater for P / greater for Q; D greater for P / greater for P."
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q10",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At P (just in contact, $N\\approx0$): $mg = mv^2/r$, so $v^2 = rg$.\n\nP and Q are at the same height, so the kinetic energy (and speed) at Q equals that at P.\n\nAt Q: $mg - N = mv^2/(2r)$, so $N = mg - m(rg)/(2r) = mg/2$.\n\nBy Newton's third law the cart exerts $mg/2$ on the track.",
+   "perOption": {
+    "A": "The cart still needs less than $mg$ of centripetal force at Q, so $N$ is not zero.",
+    "B": "Correct. $N = mg - mv^2/2r = mg/2$.",
+    "C": "Ignores the centripetal force needed at Q.",
+    "D": "Adds instead of subtracts; at the top of a hill, $mg$ exceeds $N$."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "energy-and-fields.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Chains the loop-top condition, energy conservation at equal heights and a hill-top force equation.",
+  "misconception": "Using $N+mg=mv^2/r$ at the top of the hill",
+  "transcription": "A cart of mass m goes round a vertical loop of radius r before racing over a hill of radius of curvature 2r as shown. [Diagram: P is at the top of the vertical loop, Q at the top of the hill; the top of the hill is at the same height as P.] If the cart just remains in contact with the track at the top of the loop at P, what is the force the cart exerts on the track at the top of the hill at Q? Assume resistive forces are negligible. A 0 B mg/2 C mg D 3mg/2"
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q11",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "By conservation of energy, $KE_i + GPE_i = KE_f + GPE_f$.\n\nThe object starts 6R above the surface, i.e. $7R$ from the centre:\n\n$0 - \\dfrac{GMm}{7R} = \\tfrac12 mv^2 - \\dfrac{GMm}{R}$\n\n$v = \\sqrt{\\dfrac{12GM}{7R}}$.",
+   "perOption": {
+    "A": "Uses $GM/R$ (surface escape-style value), ignoring the starting distance.",
+    "B": "Not from the energy equation; mishandles the $1/7R$ and $1/R$ terms.",
+    "C": "Correct. $v^2 = 2GM(1/R - 1/7R)=12GM/7R$.",
+    "D": "Not from the energy equation; wrongly combines the distances."
+   }
+  },
+  "issues": "keyAnswer is A (parser answer-conflict) but the key's answer table prints C for Q11. The worked solution box is labelled D, yet its result $\\sqrt{12GM/7R}$ is option C on the printed paper. Treating C as correct; box label D looks like a typo.",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "gravitational-fields.f",
+   "gravitational-fields.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Energy conservation with $-GMm/r$; trap is distance from centre being 7R.",
+  "misconception": "Using 6R as the distance from the centre",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q12",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The antenna has the same speed as the spacecraft and so is still bound in the same orbit. The gravitational force still acts on it and provides the centripetal force, so it continues in the same circular motion.",
+   "perOption": {
+    "A": "Gravity still acts, so it cannot leave in a straight line.",
+    "B": "It has orbital speed, not zero, so it does not fall on a parabola into the planet.",
+    "C": "Correct. Same speed and radius means the same orbit.",
+    "D": "It would fall straight down only if its horizontal velocity were zero."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.j"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Conceptual orbit reasoning; common intuition says objects 'float away' or fall.",
+  "misconception": "Believing a detached object leaves the orbit or falls straight down",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q13",
+  "keyPage": 3,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$pV = \\tfrac13 Nm\\langle c^2\\rangle$. $V$ and $m$ are unchanged, so $\\dfrac{N\\langle c^2\\rangle}{p}$ is constant.\n\n$\\dfrac{N(3.0\\times10^5)}{p} = \\dfrac{\\tfrac34 N\\langle c^2\\rangle}{p/2}$\n\n$\\langle c^2\\rangle = 2.0\\times10^5\\ \\mathrm{m^2\\,s^{-2}}$.",
+   "perOption": {
+    "A": "Misapplies the ratio of $N$ and $p$ (e.g. $\\langle c^2\\rangle\\propto p/N$ with wrong fractions).",
+    "B": "Correct. $\\langle c^2\\rangle = 3.0\\times10^5\\times\\frac{1/2}{3/4}$.",
+    "C": "Inverts the ratio, giving $3.0\\times10^5\\times 1.5$.",
+    "D": "Treats $\\langle c^2\\rangle$ as proportional to $p$ with a different factor and ignores the lost molecules, e.g. multiplying by 3."
+   }
+  },
+  "issues": "Distractor explanations for A, C, D are inferred.",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the kinetic-theory pressure equation with both $N$ and $p$ changing.",
+  "misconception": "Forgetting that the number of molecules also changes",
+  "transcription": "A rigid container has an ideal gas. The mean square speed of the gas molecules in the container is 3.0 x 10^5 m^2 s^-2. Over a period of time, one quarter of the gas molecules escape from the container. The pressure of the gas in the container is reduced to half. What is the mean square speed of the molecules left in the container? A 1.0 x 10^5 B 2.0 x 10^5 C 4.5 x 10^5 D 9.0 x 10^5 (all m^2 s^-2)"
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q15",
+  "keyPage": 3,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$ma = mg - R$. The object loses contact when $R = 0$, so $ma = mg$.\n\nFor SHM, $a = \\omega^2 x_0 = (2\\pi f)^2 x_0 = g$.\n\n$x_0 = \\dfrac{g}{(2\\pi f)^2} = \\dfrac{9.81}{(2\\pi\\times3.0)^2} = 0.028\\ \\mathrm{m} = 2.8\\ \\mathrm{cm}$.",
+   "perOption": {
+    "A": "Correct. $x_0 = g/(2\\pi f)^2$.",
+    "B": "Uses $f = 2.0$ Hz (the value in the school working typo) instead of 3.0 Hz.",
+    "C": "Not from $g/\\omega^2$; likely a slip with $f$ or $\\omega$.",
+    "D": "Double the value in B; likely a factor-of-2 slip."
+   }
+  },
+  "issues": "The school's working shows an intermediate '(2\\u03c0(2.0))' typo; the final line correctly uses f = 3.0 Hz. Distractor explanations are generic.",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.d",
+   "oscillations.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the loss-of-contact condition ($R=0$, $a=g$) linked to maximum SHM acceleration.",
+  "misconception": "Using $\\omega = f$ rather than $2\\pi f$",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q16",
+  "keyPage": 3,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$I \\propto A^2$, so $I = kA^2$.\n\nThe waves start in antiphase and have a path difference of a whole number of wavelengths, so they arrive in antiphase: resultant amplitude $= A - 0.6A = 0.4A$.\n\n$I_R = k(0.4A)^2 = 0.16kA^2 = 0.16I$.",
+   "perOption": {
+    "A": "Correct. Destructive interference with amplitude $0.4A$.",
+    "B": "Uses $0.4A$ but forgets to square it.",
+    "C": "Treats the waves as in phase and adds intensities ($1+0.6$) without squaring.",
+    "D": "Adds the amplitudes (constructive) and forgets to square: $1.6\\ldots$ then adds."
+   }
+  },
+  "issues": "Distractor explanations for C and D are inferred and loosely worded.",
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "superposition.a",
+   "wave-motion.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines phase reasoning from initial antiphase and path difference with $I\\propto A^2$.",
+  "misconception": "Ignoring the initial phase difference of $\\pi$",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q17",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Using $I = I_0\\cos^2\\theta$: for diagram 1, $2 = 8\\cos^2\\theta$, so $\\theta = 60^\\circ$.\n\nFor diagram 2 the polariser is rotated another $90^\\circ$, so the angle is $90^\\circ + 60^\\circ = 150^\\circ$:\n\n$I = 8\\cos^2(90^\\circ + 60^\\circ) = 6\\ \\mathrm{W\\,m^{-2}}$.",
+   "perOption": {
+    "A": "Would need the polariser to be crossed with the polarisation direction ($90^\\circ$), but the angle is $150^\\circ$.",
+    "B": "Same as diagram 1; ignores the extra $90^\\circ$ rotation.",
+    "C": "Correct. $8\\cos^2150^\\circ = 6$.",
+    "D": "Would need the polariser aligned with the light ($\\theta=0$)."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding the angle from the first set-up then applying Malus' law at a new angle.",
+  "misconception": "Thinking a $90^\\circ$ rotation gives zero transmission regardless of the starting angle",
+  "transcription": "Plane-polarised light is incident normally on a polariser which can rotate. Diagram 1: incident intensity 8 W m^-2, transmitted intensity 2 W m^-2. [Diagram of a polariser with axis tilted.] The experiment is repeated with the same incident light but with the polariser rotated 90 degrees from the orientation in diagram 1 (diagram 2). What is the new transmitted intensity? A 0 B 2 C 6 D 8 (W m^-2)"
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q18",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\tan\\theta = \\dfrac{20}{75}$, so $\\theta = 14.9^\\circ$.\n\nUsing $d\\sin\\theta = n\\lambda$ with $d = 1/N$:\n\n$\\dfrac{10^{-3}}{300}\\sin14.9^\\circ = 2\\lambda$\n\n$\\lambda = 429\\ \\mathrm{nm}$.",
+   "perOption": {
+    "A": "Correct. $\\theta$ from the geometry, then $d\\sin\\theta=2\\lambda$.",
+    "B": "Uses $\\sin\\theta = 20/75$ instead of $\\tan\\theta$.",
+    "C": "Uses $n=1$ instead of $n=2$ (gives double: 858 nm).",
+    "D": "Uses $\\sin\\theta = 20/75$ and $n=1$."
+   }
+  },
+  "issues": "Distractor explanations for B and D are inferred.",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i",
+   "superposition.j"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the angle from screen geometry, grating spacing from lines per mm, and the correct order.",
+  "misconception": "Using $\\sin\\theta = 20/75$ or the wrong order $n$",
+  "transcription": "A laser is shone through a diffraction grating of 300 lines per mm. The second order fringe appears on a screen 75 cm away from the grating and 20 cm away from the central fringe. [Diagram: laser, grating, screen 75 cm away, 20 cm vertical offset.] What is the wavelength of the laser beam? A 429 nm B 444 nm C 858 nm D 888 nm"
+ }
+]

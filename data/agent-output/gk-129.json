@@ -1,0 +1,496 @@
+[
+ {
+  "id": "tjc-2023-prelim-p1-q14",
+  "keyPage": 4,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At constant pressure, $V \\propto T$. When the gas is cooled, $T$ decreases so $V$ decreases. The gas is compressed, so work is done on the gas and $w$ is positive.\n\nWhen $T$ decreases, $\\Delta U$ is negative. From $\\Delta U = q + w$: negative $= q + (\\text{positive})$, so $q$ must be negative.",
+   "perOption": {
+    "A": "Takes $w$ as negative, as if the gas expanded; cooling at constant pressure compresses it.",
+    "B": "Correct. $\\Delta U<0$, $q<0$ (heat lost), $w>0$ (compression).",
+    "C": "Gives $\\Delta U$ positive, but cooling lowers the internal energy of an ideal gas.",
+    "D": "Gives all three positive, which contradicts cooling (heat must leave the gas)."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [
+   "temperature-and-ideal-gases"
+  ],
+  "outcomes": [
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Needs sign conventions of the first law and V proportional to T at constant pressure, but no calculation.",
+  "misconception": "Thinking a cooled gas does negative work on itself or that work done on gas is negative when volume shrinks",
+  "transcription": "The first law of thermodynamics states that $\\Delta U$, the increase in internal energy of a system, is related to $q$, the heat supplied to it, and $w$, the work done on it, by $\\Delta U = q + w$. What are the signs of $\\Delta U$, $q$ and $w$ for a constant mass of ideal gas which is cooled at constant pressure? [Table] A: negative, positive, negative. B: negative, negative, positive. C: positive, negative, positive. D: positive, positive, positive."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q15",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Given $x_0 = 0.030\\ \\mathrm{m}$. From the graph, the kinetic energy repeats every 1.0 s, which is half the period of the motion, so $T = 2.0\\ \\mathrm{s}$.\n\n$v_{max} = x_0\\omega = 0.030 \\times \\dfrac{2\\pi}{2.0} = 0.094\\ \\mathrm{m\\,s^{-1}}$.",
+   "perOption": {
+    "A": "Gives a value about 6 times too large, from a wrong angular frequency.",
+    "B": "Gives about 3 times too large, from a wrong angular frequency.",
+    "C": "Uses the KE period of 1.0 s as the period of the motion, doubling $\\omega$.",
+    "D": "Correct. $T = 2.0$ s, $v_{max} = x_0\\omega = 0.094\\ \\mathrm{m\\,s^{-1}}$."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.f",
+   "oscillations.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must realise KE has twice the frequency of the displacement, so the period is 2.0 s not 1.0 s.",
+  "misconception": "Reading the KE graph period as the SHM period",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q16",
+  "keyPage": 4,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At X, the two neighbouring particles are moving towards the particle at X, so X is a compression.\n\nAt Y, the two neighbouring particles are moving away from the particle at Y, so Y is a rarefaction.",
+   "perOption": {
+    "A": "Treats Y as a compression too; at Y the neighbours move apart.",
+    "B": "Correct. Neighbours converge at X (compression) and diverge at Y (rarefaction).",
+    "C": "Swaps the two: X is where neighbours converge, not diverge.",
+    "D": "Treats X as a rarefaction; neighbours move towards X."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires converting a displacement-distance graph of a longitudinal wave into particle motion, which students often get backwards.",
+  "misconception": "Assuming zero displacement or maximum displacement corresponds to compression/rarefaction directly",
+  "transcription": "As a sound wave passes through a region of space, the displacement of the air molecules along a straight line is plotted as shown. [Graph: displacement against distance along the straight line from source, a sine curve starting at zero going up; X is at the first downward-going zero crossing, Y at the next upward-going zero crossing.] Which correctly describes the sound wave at X and Y? [Table] A: compression, compression. B: compression, rarefaction. C: rarefaction, compression. D: rarefaction, rarefaction."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q17",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "By Rayleigh's criterion, the minimum angle of resolution is $\\theta \\approx \\lambda/b$, where the pupil size acts as the slit width $b$.\n\nIf $b$ increases, $\\theta$ decreases, so the dots are easier to resolve. Darkening the room enlarges the pupil.",
+   "perOption": {
+    "A": "Correct. Larger pupil $b$ gives smaller $\\lambda/b$, so closer dots can be resolved.",
+    "B": "Red light has a longer wavelength, increasing $\\lambda/b$ and making resolution worse.",
+    "C": "Brightness does not change the minimum resolvable angle.",
+    "D": "Moving the dots closer decreases their angular separation, making them harder to resolve."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.m"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct application of the Rayleigh criterion in a qualitative setting.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q19",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The electric field inside the conductor is zero, since there is no net field or potential difference within a conductor.\n\nThe external regions still have a uniform electric field pointing from the positive to the negative plate, so $E$ is constant outside the conductor and zero over the width $d$.",
+   "perOption": {
+    "A": "Field varies linearly with x, which would need charge between the plates, and is non-zero inside the conductor.",
+    "B": "Shows field going to zero and then negative; the field never reverses direction.",
+    "C": "Reverses the field direction beyond the conductor; the field points from + to - throughout.",
+    "D": "Correct. Uniform field outside, zero inside the conductor."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the property that field is zero inside a conductor in electrostatic equilibrium and uniform elsewhere.",
+  "misconception": "Thinking field inside a conductor is nonzero or decays linearly",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q20",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$R = \\rho L/A$ and $R = V/I$, so $V/I = \\rho L/A$ and $L = VA/(I\\rho)$.\n\n$L = \\dfrac{240\\,[\\pi(3.0\\times10^{-4})^2]}{2.0 \\times 1.4\\times10^{-6}} = 24\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Too small; check the area $A=\\pi r^2$ and the factor of $I\\rho$ in the denominator.",
+    "B": "Correct. $L = VA/(I\\rho) = 24$ m.",
+    "C": "Not from the school's working; likely an arithmetic slip in the area.",
+    "D": "About four times the answer, from using the diameter as the radius in $A = \\pi r^2$."
+   }
+  },
+  "issues": null,
+  "chapter": "currents",
+  "secondaryChapters": [
+   "circuits"
+  ],
+  "outcomes": [
+   "circuits.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Combine Ohm's law with the resistivity formula; common slip is using diameter for radius.",
+  "misconception": "Using diameter instead of radius in the area",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q21",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let each resistor be $R$. In A, the ammeter branch has one resistor across $V$: $I_A = V/R$.\n\nIn B, a resistor $R$ is in series with a parallel pair $R/2$, so the total is $3R/2$, the total current is $2V/3R$, and the ammeter takes half: $I_A = V/3R$.\n\nIn C, $I_A = V/R$. In D, the ammeter is in the branch with two resistors: $I_A = V/2R$. B is the smallest.",
+   "perOption": {
+    "A": "$I_A = V/R$, the largest possible with a single resistor across the supply.",
+    "B": "Correct. $I_A = V/3R$, the minimum.",
+    "C": "The ammeter branch is one resistor across the supply, $V/R$.",
+    "D": "Two resistors in series in the ammeter branch give $V/2R$, which is greater than $V/3R$."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.h",
+   "circuits.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires analysing four series-parallel networks and noting the extra series resistor in B.",
+  "misconception": "Ignoring the series resistor outside the parallel pair in arrangement B",
+  "transcription": "Four different arrangements of identical resistors are connected to the same constant voltage power supply. An ammeter of negligible resistance is connected as shown in each arrangement. In which arrangement will the ammeter show the minimum reading? [A: two parallel branches; top branch two resistors in series, bottom branch ammeter in series with one resistor. B: one resistor in series with a parallel pair; top branch ammeter and one resistor, bottom branch one resistor. C: three parallel branches; top has ammeter and one resistor, middle one resistor, bottom one resistor. D: two parallel branches; top has ammeter and two resistors in series, bottom one resistor.]"
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q22",
+  "keyPage": 5,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$V = E - Ir$. When $I = 0$, $V = E = 2.5\\ \\mathrm{V}$.\n\nFrom the graph, $0.9 = 2.5 - 0.80\\,r$, so $r = 2.0\\ \\Omega$. Equivalently, the gradient of the graph is $-r$.",
+   "perOption": {
+    "A": "Correct. $r = (2.5-0.9)/0.80 = 2.0\\ \\Omega$.",
+    "B": "Not obtained from the graph intercept and gradient.",
+    "C": "Not obtained from the graph intercept and gradient.",
+    "D": "Likely $0.9/0.80 = 1.1\\ \\Omega$, which is the external resistance R at that point, not r."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "circuits.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Read E from the intercept and use V = E - Ir.",
+  "misconception": "Using V/I as the internal resistance",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q24",
+  "keyPage": 6,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The electron passes undeflected, so the electric force equals the magnetic force: $qE = Bqv$.\n\nThe charge $q$ cancels, so the condition $v = E/B$ does not depend on the mass or charge. The alpha particle also has the same $v$, and its electric and magnetic forces (both reversed in direction relative to the electron) still balance, so it is undeflected.",
+   "perOption": {
+    "A": "Correct. $v = E/B$ is independent of charge and mass.",
+    "B": "Assumes the magnetic force exceeds the electric force for the positive alpha particle.",
+    "C": "Assumes the electric force exceeds the magnetic force for the alpha particle.",
+    "D": "Forces from these fields act in the plane of the page; none points into the page."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.k"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Velocity selector reasoning: spotting that charge and mass cancel.",
+  "misconception": "Thinking the heavier or oppositely charged particle must deflect",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q25",
+  "keyPage": 6,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "This is like Faraday's homopolar generator. The induced current is $I = \\varepsilon/R = B\\pi r^2 f/R$, which is constant when $r$ and $f$ are kept constant.\n\nThe direction of the current alternates between clockwise and anticlockwise depending on which radius is cutting the flux (use Fleming's right-hand rule), giving a square wave.",
+   "perOption": {
+    "A": "Shows a rectified, varying magnitude; the emf magnitude is constant.",
+    "B": "Triangular waveform would need a changing rate of flux cutting.",
+    "C": "Correct. Constant magnitude, alternating direction.",
+    "D": "Sinusoidal would arise for a coil rotating in a field with constantly changing flux, not here."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Unusual geometry; must see that a radius sweeping through a field gives a constant emf with alternating sign.",
+  "misconception": "Assuming rotation always gives a sinusoidal emf",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q26",
+  "keyPage": 6,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\lambda = h/mv$, so $\\lambda \\propto 1/m$ at the same speed $v$. The electron mass is much smaller than the proton mass, so $\\lambda_e > \\lambda_p$.\n\nFor single-slit diffraction, $b\\sin\\theta = \\lambda$, so $\\sin\\theta \\propto \\lambda$. The diffraction angle (pattern width) for electrons is much larger than for protons.",
+   "perOption": {
+    "A": "Wrong wavelength comparison: smaller mass gives longer wavelength.",
+    "B": "Wrong on both: electrons have the longer wavelength and wider pattern.",
+    "C": "Correct. $\\lambda_e > \\lambda_p$ and wider electron pattern.",
+    "D": "Right wavelength comparison but a longer wavelength gives a wider, not narrower, pattern."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [
+   "superposition"
+  ],
+  "outcomes": [
+   "quantum-physics.e"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Two linked qualitative steps: de Broglie wavelength vs mass, then wavelength vs diffraction width.",
+  "misconception": "Thinking heavier particles diffract more",
+  "transcription": "Electrons and protons in two beams are travelling at the same speed. The beams are diffracted by objects of the same size. Which correctly compares the de Broglie wavelength $\\lambda_e$ of the electrons with the de Broglie wavelength $\\lambda_p$ of the protons and the width of the diffraction patterns that are produced by these beams? [Table] A: $\\lambda_e<\\lambda_p$; electron beam width > proton beam width. B: $\\lambda_e<\\lambda_p$; electron beam width < proton beam width. C: $\\lambda_e>\\lambda_p$; electron beam width > proton beam width. D: $\\lambda_e>\\lambda_p$; electron beam width < proton beam width."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q27",
+  "keyPage": 6,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Electrons per second: $dN_e/dt = I/e = 2.0\\times10^{-6}/1.6\\times10^{-19}$.\n\nPhotons per second: $dN_p/dt = P/E = 0.31\\times10^{-3}/(3.11\\times1.6\\times10^{-19})$.\n\nRatio $= 0.020$.",
+   "perOption": {
+    "A": "Likely inverts or mishandles the powers of ten.",
+    "B": "Correct. $2.0\\times10^{-2}$.",
+    "C": "Assumes every photon releases an electron.",
+    "D": "Reports a count rate rather than a ratio."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "quantum-physics.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs photon energy in joules and current-to-electron-rate conversion before taking the ratio.",
+  "misconception": "Forgetting to convert photon energy from eV to J",
+  "transcription": "A 0.31 mW beam of electromagnetic radiation is incident on a clean metal plate M. Each photon of the electromagnetic radiation has energy 3.11 eV. The potential difference V in the circuit is varied until the microammeter gives a maximum reading of 2.0 $\\mu$A. [Diagram: photocell with plate M, variable supply and microammeter in series.] What is the ratio (number of electrons emitted per unit time)/(number of photons incident per unit time)? A: $3.2\\times10^{-21}$. B: $2.0\\times10^{-2}$. C: 1.0. D: $1.3\\times10^{17}$."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q28",
+  "keyPage": 6,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$p = mv = (9.11\\times10^{-31})(1.50\\times10^{6}) = 1.37\\times10^{-24}\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\n$\\Delta p = 0.2\\% \\times p = 0.002(1.37\\times10^{-24}) = 2.73\\times10^{-27}\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\n$\\Delta x = h/\\Delta p = 6.63\\times10^{-34}/(2.73\\times10^{-27}) = 2.4\\times10^{-7}\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Wrong power of ten; not from $\\Delta x = h/\\Delta p$ with $\\Delta p = 0.002p$.",
+    "B": "Wrong power of ten and prefactor.",
+    "C": "Correct. $\\Delta x = h/\\Delta p = 2.4\\times10^{-7}$ m.",
+    "D": "Wrong power of ten, for example from taking 0.2% as 0.0002 or similar slip."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Straightforward uncertainty principle with a percentage conversion step.",
+  "misconception": "Using 0.2 instead of 0.002 for 0.2%",
+  "transcription": "An electron moves with a constant velocity of $1.5\\times10^{6}\\ \\mathrm{m\\,s^{-1}}$. If its momentum is measured to a precision of 0.2%, what is the uncertainty associated with its position? A: $1.2\\times10^{-9}$ m. B: $2.4\\times10^{-9}$ m. C: $2.4\\times10^{-7}$ m. D: $1.2\\times10^{-6}$ m."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q30",
+  "keyPage": 7,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Initial true count rate from the source $= 90 - 10 = 80\\ \\mathrm{min^{-1}}$.\n\nNumber of half-lives $= 12/24 = 0.5$, so $C = 80(1/2)^{0.5} = 57\\ \\mathrm{min^{-1}}$.\n\nAdd back the background: final count $= 57 + 10 = 67\\ \\mathrm{min^{-1}}$.",
+   "perOption": {
+    "A": "Halves 90 directly, ignoring background and using one half-life.",
+    "B": "Halves the source count after subtracting background (one full half-life, 40 + 10).",
+    "C": "Gets the source count rate (57) but forgets to add back the background.",
+    "D": "Correct. $57 + 10 = 67\\ \\mathrm{min^{-1}}$."
+   }
+  },
+  "issues": null,
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.j",
+   "nuclear-physics.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must subtract and re-add background count and handle a fractional half-life.",
+  "misconception": "Applying decay to the total count rate including background",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2024-prelim-p1-q1",
+  "keyPage": 1,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Units of $\\Delta P = \\mathrm{kg\\,m^{-1}\\,s^{-2}}$ and units of $\\rho = \\mathrm{kg\\,m^{-3}}$.\n\nUnits of $\\Delta P/\\rho = \\mathrm{m^2\\,s^{-2}}$. Since $v$ has units $\\mathrm{m\\,s^{-1}}$ and $k$ has no unit, $(\\mathrm{m^2 s^{-2}})^n = \\mathrm{m\\,s^{-1}}$, hence $n = 0.5$.",
+   "perOption": {
+    "A": "Correct. $(\\mathrm{m^2 s^{-2}})^{0.5} = \\mathrm{m\\,s^{-1}}$.",
+    "B": "Gives $\\mathrm{m^2 s^{-2}}$, the units of $v^2$.",
+    "C": "Gives $\\mathrm{m^3 s^{-3}}$, which is not a speed.",
+    "D": "Gives $\\mathrm{m^4 s^{-4}}$, which is not a speed."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.d"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard dimensional analysis with SI base units.",
+  "misconception": null,
+  "transcription": "The speed $v$ of a liquid leaving a tube depends on the change in pressure $\\Delta P$ and the density $\\rho$ of the liquid. The speed is given by $v = k\\left(\\dfrac{\\Delta P}{\\rho}\\right)^n$, where $k$ is a constant that has no unit. What is the value of $n$? A: 0.5. B: 1. C: 1.5. D: 2."
+ }
+]

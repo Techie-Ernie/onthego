@@ -8320,6 +8320,1374 @@
   "derivedAnswer": "D",
   "confidence": "high"
  },
+ "tjc-2022-prelim-p1-q13": {
+  "body": "Using $Q = mc\\Delta\\theta$, the rate of heat removed is $\\dfrac{Q}{t} = \\dfrac{m}{t}\\,c\\,\\Delta\\theta$.\n\nSo $\\dfrac{m}{t} = \\dfrac{Q/t}{c\\,\\Delta\\theta}$. The given rate is per hour, so $Q/t = \\dfrac{4.0\\times10^{11}}{60\\times60}\\ \\mathrm{J\\,s^{-1}}$ and $\\Delta\\theta = 11-3 = 8\\ \\mathrm{K}$.\n\n$\\dfrac{m}{t} = \\dfrac{4.0\\times10^{11}}{4200\\times8\\times60\\times60}\\ \\mathrm{kg\\,s^{-1}}$",
+  "perOption": {
+   "A": "Correct. Converts hours to seconds by dividing by $60\\times60$.",
+   "B": "Multiplies by $60\\times60$ instead of dividing, so the rate comes out per hour squared.",
+   "C": "Divides by only 60, converting hours to minutes rather than seconds.",
+   "D": "Multiplies by 60 instead of dividing and only converts once."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q14": {
+  "body": "At equilibrium ($x=0$), $a=0$ so $N = mg$.\n\nAt $x=+x_0$ (top), $mg - N = ma$, so $N = mg - mg = 0$.\n\nAt $x=-x_0$ (bottom), $N - mg = ma$, so $N = mg + mg = 2mg$.\n\nSo $N$ falls linearly from $2mg$ at $-x_0$ through $mg$ at $0$ to $0$ at $+x_0$, which is graph C.",
+  "perOption": {
+   "A": "Shows $N$ peaking at $mg$ at $x=0$ and falling at both ends, but $N$ is linear in $x$ and equals $0$ only at the top.",
+   "B": "Has $N=0$ at $x=0$, but the sand is in equilibrium there so $N=mg$.",
+   "C": "Correct. Straight line decreasing from $2mg$ to $0$.",
+   "D": "Slopes the wrong way: gives $N=0$ at the bottom and $2mg$ at the top."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q15": {
+  "body": "Using $x = x_0\\sin\\omega t$ with $\\omega = \\dfrac{2\\pi}{2.0}$, the displacement $0.25\\ \\mathrm{s}$ after the centre is\n\n$x = 3.0\\sin\\!\\left(\\dfrac{2\\pi}{2.0}\\times0.25\\right) = 2.1\\ \\mathrm{cm}$\n\nThe first quarter period ($0.50\\ \\mathrm{s}$) takes the mass from the extreme to the centre, a distance of $3.0\\ \\mathrm{cm}$. The remaining $0.25\\ \\mathrm{s}$ adds $2.1\\ \\mathrm{cm}$.\n\nTotal distance $= 3.0 + 2.1 = 5.1\\ \\mathrm{cm}$.",
+  "perOption": {
+   "A": "Gives half the amplitude, with no calculation behind it.",
+   "B": "Only the displacement beyond the centre, forgetting the first $3.0\\ \\mathrm{cm}$ travelled.",
+   "C": "Unit slip: 4.5 m is far larger than the amplitude.",
+   "D": "Correct. Distance travelled is $3.0 + 2.1 = 5.1\\ \\mathrm{cm}$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "issues": "The school's working writes the intermediate result as '2.1 m' (typo for cm); the final 5.1 cm is correct. Its sine form measures the 0.25 s after the centre crossing."
+ },
+ "tjc-2022-prelim-p1-q16": {
+  "body": "Path difference between the ears $= 0.22\\sin 25^\\circ\\ \\mathrm{m}$.\n\n$\\Delta\\phi = \\dfrac{0.22\\sin25^\\circ}{1.7}\\times 2\\pi = 0.34\\ \\mathrm{rad}$",
+  "perOption": {
+   "A": "Correct. Path difference $0.22\\sin25^\\circ$ converted to phase.",
+   "B": "Does not match the correct geometry; likely a slip in the angle or wavelength.",
+   "C": "Uses $\\cos25^\\circ$ instead of $\\sin25^\\circ$ for the path difference.",
+   "D": "Omits the angle, using the full $0.22\\ \\mathrm{m}$ as the path difference."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "issues": "School gives no comments on distractors; perOption for B, C, D is inferred (C matches cos, D matches no angle)."
+ },
+ "tjc-2022-prelim-p1-q17": {
+  "body": "The figure is a longitudinal progressive wave. Sketching displacement against distance for it, X and Y both lie at equilibrium positions, with the molecule at X moving to the right.\n\nA is wrong: at X the air pressure is maximum. B is wrong: it is a progressive wave, not a standing wave, so there is no antinode. C is correct: at X the air molecule is moving to the right. D is wrong: at Y, the equilibrium position, the molecule has its highest speed.",
+  "perOption": {
+   "A": "At X the air pressure is maximum, not minimum.",
+   "B": "This is a progressive wave, not a standing wave, so there is no antinode.",
+   "C": "Correct. At X the molecule is moving to the right.",
+   "D": "At Y, the equilibrium position, the molecule has maximum speed, so it is not at rest."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q18": {
+  "body": "$f = \\dfrac{v}{d}$, so $10 = \\dfrac{2.0}{d}$, giving $d = 0.20\\ \\mathrm{m}$ between successive maxima.\n\n$\\lambda = 2d = 0.40\\ \\mathrm{m}$.\n\nFrom the maximum at M to the second minimum is $3\\left(\\tfrac14\\lambda\\right)$ $= 0.30\\ \\mathrm{m}$.",
+  "perOption": {
+   "A": "Gives $\\lambda/4$, the distance to the first minimum.",
+   "B": "Gives $d$ (one maximum spacing) rather than the distance to the second minimum.",
+   "C": "Correct. $3\\lambda/4 = 0.30\\ \\mathrm{m}$.",
+   "D": "Gives $\\lambda$, the distance to the next maximum after $2d$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q19": {
+  "body": "$\\mathrm{KE} = \\tfrac12 mv^2 \\propto v^2$. With constant acceleration from rest, $v^2 = 2ax$, so $v^2\\propto x$, hence $v\\propto\\sqrt{x}$ and $\\mathrm{KE}\\propto x$. Graph Y is curved like $\\sqrt{x}$, so Y is speed.\n\nThe field between the plates is uniform, so the electric force is constant. The electric potential energy $U = eV$ decreases linearly with $x$, since $e$ is negative and $V$ rises linearly from $-V$ to $0$. So Z is electric potential energy.",
+  "perOption": {
+   "A": "Correct. Y is speed ($\\propto\\sqrt{x}$) and Z is electric potential energy (linearly decreasing).",
+   "B": "The force in a uniform field is constant, so it would be a horizontal line, not a decreasing line.",
+   "C": "Kinetic energy is linear in $x$, not curved like $\\sqrt{x}$.",
+   "D": "Kinetic energy is linear in $x$ and the electric force is constant, so neither graph matches."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q20": {
+  "body": "By the potential divider method, the two sources in parallel have effective internal resistance $r/2$, so the p.d. across the internal resistance is\n\n$E\\,\\dfrac{r/2}{R + r/2} = E\\,\\dfrac{r}{2R + r}$.\n\nFraction of power lost $= \\dfrac{P_r}{P_\\text{total}} = \\dfrac{IV_r}{IE} = \\dfrac{V_r}{E} = \\dfrac{r}{2R+r}$.",
+  "perOption": {
+   "A": "Not obtained from the ratio of the internal p.d. to the e.m.f.",
+   "B": "Greater than 1, which is impossible for a fraction of power.",
+   "C": "Correct. $\\dfrac{r}{2R+r}$.",
+   "D": "This is the fraction of power delivered to the lamp, not lost in the internal resistance."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q21": {
+  "body": "$D_1$ is reverse biased, so the p.d. across it is $E$ (in magnitude) and the p.d. across $R_1$ is $0\\ \\mathrm{V}$.\n\nThe current flows through $D_2$, $R_2$ and $R_3$, so $R_2$ has a non-zero p.d. while $D_2$ is forward biased with a small p.d.\n\nOrder: $D_1 > R_2 > R_1$.",
+  "perOption": {
+   "A": "Puts $R_1$ above $R_2$, but no current flows in the $D_1$ branch so $R_1$ has $0\\ \\mathrm{V}$.",
+   "B": "Correct. $D_1$ takes the full e.m.f., $R_2$ takes some, $R_1$ has $0\\ \\mathrm{V}$.",
+   "C": "Puts $R_1$ first, wrongly assuming current flows through the reverse-biased branch.",
+   "D": "Puts $R_2$ first and $D_1$ last, ignoring that the reverse-biased diode takes the whole e.m.f."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "issues": "School working is a single line; the explanation adds a short clause about the other branch. perOption for A, C, D inferred."
+ },
+ "tjc-2022-prelim-p1-q22": {
+  "body": "For the steady current, $P = I^2R$.\n\nFor half-wave rectified a.c. the rms current is $I_0/2$, and the resistance is now $\\tfrac12 R$:\n\n$P = \\left(\\dfrac{I_0}{2}\\right)^2\\left(\\dfrac12 R\\right) = I^2R$\n\nSo $I_0 = \\sqrt{8}\\,I = 2.8\\,I$.",
+  "perOption": {
+   "A": "Ignores the halving of resistance and the half-wave factor.",
+   "B": "Uses $I_0=\\sqrt2 I$, the full-wave result, and ignores the diode and halved resistance.",
+   "C": "Ignores the factor from the halved resistance.",
+   "D": "Correct. $I_0=\\sqrt{8}\\,I = 2.8\\,I$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "issues": "School's working is terse; it uses rms current $I_0/2$ for half-wave and the halved resistance."
+ },
+ "tjc-2022-prelim-p1-q23": {
+  "body": "By the right-hand grip rule, the magnetic flux density at O due to P and Q points in direction C.\n\nThe flux density due to R and S points in direction A.\n\nAdding the equal-magnitude perpendicular contributions, the resultant flux density at O is in direction B.",
+  "perOption": {
+   "A": "Only the contribution from R and S; P and Q are ignored.",
+   "B": "Correct. Resultant of C (from P and Q) and A (from R and S).",
+   "C": "Only the contribution from P and Q; R and S are ignored.",
+   "D": "The opposite direction to the resultant; direction sign error from the right-hand grip rule."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "issues": "School gives no comments on distractors; perOption for A, C, D inferred."
+ },
+ "tjc-2022-prelim-p1-q24": {
+  "body": "By the right-hand grip rule, opposite currents give fields at the midpoint that point in the same direction, perpendicular to the plane of the wires, so the resultant flux density is perpendicular to the plane.\n\nThe velocity $v$ is also perpendicular to this plane, so it is parallel to the resultant flux density.\n\nThe magnetic force $F = Bqv\\sin\\theta = 0$ since $\\theta = 0^\\circ$.",
+  "perOption": {
+   "A": "Correct. $v$ is parallel to the resultant $B$ so $F=0$.",
+   "B": "Uses the field of a single wire at distance $d/2$ with $F=Bqv$.",
+   "C": "Assumes the field is perpendicular to $v$ and uses a single wire at distance $d$.",
+   "D": "Adds both wires' fields as if the velocity were perpendicular to $B$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "issues": "Key's working is a single sentence; expanded with the grip-rule reasoning (fields from opposite currents add and are perpendicular to the plane, so parallel to v). perOption for B, C, D inferred."
+ },
+ "tjc-2022-prelim-p1-q25": {
+  "body": "Turning the coil over once reverses the flux through it, so the change in flux linkage is $2NBA\\sin60^\\circ$.\n\n$\\varepsilon = \\dfrac{(2)(50)(30\\times10^{-4})(4.0\\times10^{-4})\\sin60^\\circ}{0.60}$\n\n$= 1.7\\times10^{-4}\\ \\mathrm{V}$",
+  "perOption": {
+   "A": "Uses $\\cos60^\\circ$ and no factor of 2: $NBA\\cos60^\\circ/t = 5.0\\times10^{-5}\\ \\mathrm{V}$.",
+   "B": "Omits the factor of 2 for turning the coil over.",
+   "C": "Uses $\\cos60^\\circ$ with the factor of 2, taking the angle from the normal.",
+   "D": "Correct. $2NBA\\sin60^\\circ/t$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "issues": "School gives no comments on distractors; perOption for A, B, C inferred from the numbers (A: cos60 without 2; B: sin60 without 2; C: cos60 with 2)."
+ },
+ "tjc-2022-prelim-p1-q26": {
+  "body": "The inner loop experiences a decreasing flux linkage, so by Lenz's law the induced current flows in the same direction as that in the outer loop (clockwise) to oppose the decrease.\n\nThe current in the outer loop decreases at a constant rate, so the rate of decrease of $B$ and hence of flux linkage is constant. The induced e.m.f. in the inner loop is therefore constant, and so is the induced current.",
+  "perOption": {
+   "A": "Correct. Constant and clockwise.",
+   "B": "Direction is right, but the rate of change of flux is constant so the current is not variable.",
+   "C": "Direction is opposite to what Lenz's law requires for a decreasing flux.",
+   "D": "Both direction and constancy are wrong."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q27": {
+  "body": "When the electron velocity decreases, the de Broglie wavelength $\\lambda = h/p$ increases.\n\nThe pattern is caused by diffraction, and the diffraction angle satisfies $\\sin\\theta \\propto \\lambda$, so $\\sin\\theta$ increases and the circles have larger diameter.",
+  "perOption": {
+   "A": "Wrong cause (refraction) and wrong change.",
+   "B": "Wrong cause: electrons passing through a carbon film diffract.",
+   "C": "Correct cause but the wrong change: smaller $v$ means larger $\\lambda$, so larger circles.",
+   "D": "Correct. Diffraction; diameters increase."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q28": {
+  "body": "Einstein's photoelectric equation with the stopping potential: $hf = \\Phi + eV_s$.\n\n$3.5\\times10^{-19} = \\Phi + (1.6\\times10^{-19})(0.25)$, so $\\Phi = 3.1\\times10^{-19}\\ \\mathrm{J}$.",
+  "perOption": {
+   "A": "Subtracts 0.25 eV twice (or adds wrongly); not the work function.",
+   "B": "Correct. The stopping energy is $0.25\\ \\mathrm{eV} = 0.4\\times10^{-19}\\ \\mathrm{J}$.",
+   "C": "Ignores the stopping potential and takes the photon energy as the work function.",
+   "D": "Adds $eV_s$ to the photon energy instead of subtracting it."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2022-prelim-p1-q29": {
+  "body": "Total binding energy before: $7.59\\times235 = 1783.65\\ \\mathrm{MeV}$.\n\nTotal binding energy after: $(8.26\\times121)+(8.52\\times113) = 1962\\ \\mathrm{MeV}$.\n\nChange in binding energy $= +179\\ \\mathrm{MeV}$, released as energy since the products are more stable. (The neutrons have no binding energy.)",
+  "perOption": {
+   "A": "Counts only part of the nucleons, or omits a product; gives 73.9 MeV.",
+   "B": "Wrong magnitude and the wrong sense (absorbed).",
+   "C": "Correct. Binding energy increases, so energy is released.",
+   "D": "Right magnitude but the wrong sense; higher binding energy means energy is released."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q1": {
+  "body": "$v = s/t = (385-115)/(3.50-1.50) = 270/2.00 = 135\\ \\mathrm{mm\\,s^{-1}}$.\n\nAdd fractional uncertainties: $\\dfrac{\\Delta v}{v} = \\dfrac{\\Delta s}{s}+\\dfrac{\\Delta t}{t} = \\dfrac{1+1}{270}+\\dfrac{0.02+0.02}{2.00}$.\n\n$\\Delta v = 3.7 \\approx 4\\ \\mathrm{mm\\,s^{-1}}$.",
+  "perOption": {
+   "A": "Uses the uncertainty in time only and mishandles the ratio.",
+   "B": "Combines the uncertainties incorrectly and gets a far too small value.",
+   "C": "Uses a single reading uncertainty and ignores that differences add uncertainties.",
+   "D": "Correct. Uncertainties in a difference add, then fractional uncertainties add for the quotient."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q2": {
+  "body": "The second displacement is resultant minus first. Resolving gives a right-angled triangle with sides 150 cm and 140 cm.\n\nMagnitude $=\\sqrt{150^2+140^2} = 205\\ \\mathrm{cm}$.\n\nDirection $= 90 - 30 - \\tan^{-1}(140/150) = 17^\\circ$ below the $x$-axis, i.e. $343^\\circ$ anticlockwise from $+x$.",
+  "perOption": {
+   "A": "Adds magnitudes (150+140) and ignores the angles.",
+   "B": "Adds magnitudes (150+140) and ignores the angles.",
+   "C": "Correct magnitude but the angle is taken above the x-axis instead of below.",
+   "D": "Correct. $17^\\circ$ below the $x$-axis is $343^\\circ$ anticlockwise."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q3": {
+  "body": "At the start: $1.2\\times10^5 = 2(1.0\\times10^5)a$, so $a = 0.60\\ \\mathrm{m\\,s^{-2}}$. At $t=20\\ \\mathrm{s}$, $v = 0.60\\times20 = 12\\ \\mathrm{m\\,s^{-1}}$.\n\nThe back carriage then moves at constant $12\\ \\mathrm{m\\,s^{-1}}$: in 20 s it travels $240\\ \\mathrm{m}$.\n\nThe front carriage now has $a = 1.2\\ \\mathrm{m\\,s^{-2}}$: $s = 12(20)+\\tfrac12(1.2)(20)^2 = 480\\ \\mathrm{m}$.\n\nSeparation $= 480-240 = 240\\ \\mathrm{m}$.",
+  "perOption": {
+   "A": "Not obtained from the correct motion of either carriage.",
+   "B": "Correct. Front 480 m minus back 240 m.",
+   "C": "Not obtained from the correct motion of either carriage.",
+   "D": "This is the distance travelled by the front carriage alone, not the separation."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q4": {
+  "body": "Ball A: $h=\\tfrac12 gt^2$ gives $t=\\sqrt{2h/g}$, so $x_A = 2v\\sqrt{2h/g}$.\n\nBall B: $2h=\\tfrac12 gt^2$ gives $t=\\sqrt2\\sqrt{2h/g}$, so $x_B = v\\sqrt2\\sqrt{2h/g}$.\n\n$\\dfrac{x_A}{x_B} = \\dfrac{2}{\\sqrt2} = \\sqrt2 = 1.41$.",
+  "perOption": {
+   "A": "Uses the speed ratio only and ignores the longer fall time of B (2.83 = $2\\sqrt2$).",
+   "B": "Correct. Time ratio is $1/\\sqrt2$, speed ratio is 2.",
+   "C": "Assumes the two effects cancel exactly.",
+   "D": "Inverts the ratio or mishandles the time dependence (0.353)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q5": {
+  "body": "Whole system: $F-6f = 6Ma$, so $a = \\dfrac{F-6f}{6M}$ (friction is proportional to mass: $f$, $2f$, $3f$).\n\nFor block $3M$: $F_1 - 3f = 3Ma$, so $F_1 = 3M\\left(\\dfrac{F-6f}{6M}\\right)+3f = \\dfrac F2$.",
+  "perOption": {
+   "A": "Correct. The friction terms cancel.",
+   "B": "Adds $3f$ to $F/2$ again; friction on $3M$ is already included.",
+   "C": "Splits $F$ equally between the three blocks.",
+   "D": "Splits $F$ equally between the three blocks and adds friction wrongly."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q6": {
+  "body": "Conservation of momentum in the collision: $(5.0)(200) = (5.0+95)u$, so $u = 10\\ \\mathrm{m\\,s^{-1}}$.\n\nConservation of energy afterwards: $\\tfrac12(100)(10^2) = (100)(9.81)H$, so $H = 5.1\\ \\mathrm{m}$.",
+  "perOption": {
+   "A": "Correct. Mass units cancel.",
+   "B": "Uses $g=10$ with $u$ wrongly, or ignores the combined mass.",
+   "C": "Uses the pellet's speed or mass inconsistently.",
+   "D": "Applies energy conservation to the pellet's initial speed (about 2000 m)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q7": {
+  "body": "The rack is in equilibrium under three forces (weight, the push from the bottle's neck at the top, and the table's contact force at the bottom). For three non-parallel forces in equilibrium, the lines of action must meet at a single point. Only diagram C satisfies this.",
+  "perOption": {
+   "A": "The lines of action do not meet at a point.",
+   "B": "Forces are all vertical, so the torque cannot balance with the top force.",
+   "C": "Correct. The three lines of action are concurrent.",
+   "D": "The lines of action do not meet at a point."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q8": {
+  "body": "For each mass, tension + upthrust = weight, so tension = weight $-$ upthrust.\n\nThe rod is horizontal and pivoted at its centre, so the tensions are equal.\n\nUpthrust $=V\\rho g$ is greater for P because liquid X is denser, so P's weight must be greater to give the same tension as Q.",
+  "perOption": {
+   "A": "Same volume but different liquid densities give different upthrusts.",
+   "B": "P is in the denser liquid so its upthrust is larger, not smaller.",
+   "C": "Reverses the conclusion: P needs the larger weight.",
+   "D": "Correct. Larger upthrust on P means P must be heavier."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q9": {
+  "body": "Vertical: $T\\cos30^\\circ = mg$ (1). Horizontal: $T\\sin30^\\circ = mr\\omega^2$ (2).\n\n(2)/(1): $\\tan30^\\circ = r\\omega^2/g$, with $r = 3.0+5.0\\sin30^\\circ = 5.5\\ \\mathrm{m}$.\n\n$\\omega = 1.01\\ \\mathrm{rad\\,s^{-1}}$, so $T = 2\\pi/\\omega = 6.2\\ \\mathrm{s}$.",
+  "perOption": {
+   "A": "Not from the correct radius or angular speed.",
+   "B": "Uses $r=3.0\\ \\mathrm{m}$ or similar wrong radius.",
+   "C": "Uses $r=5.0\\ \\mathrm{m}$ or a wrong radius (omits the 3.0 m offset).",
+   "D": "Correct. Radius of the circle is $3.0+5.0\\sin30^\\circ$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q10": {
+  "body": "Tangentially: $F - mg\\sin\\theta = 0$. Radially: $T - mg\\cos\\theta = mr\\omega^2$.\n\nSo $T = mr\\omega^2 + mg\\cos\\theta$, which varies with $\\cos\\theta$.\n\nTension is largest at the lowest point ($\\theta=0$) and smallest at the highest point ($\\theta=\\pi$), matching graph C.",
+  "perOption": {
+   "A": "Constant tension would need no weight component.",
+   "B": "Has two cycles per revolution; $\\cos\\theta$ has one.",
+   "C": "Correct. Maximum at $\\theta=0$, minimum at $\\theta=\\pi$.",
+   "D": "Minimum at $\\theta=0$, which is reversed."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q11": {
+  "body": "At P: $\\Phi_P = -\\dfrac{GM}{r/3}-\\dfrac{GM_B}{2r/3} = -\\dfrac Gr(3M+1.5M_B)$.\n\nAt Q: $\\Phi_Q = -\\dfrac{GM}{2r/3}-\\dfrac{GM_B}{r/3} = -\\dfrac Gr(1.5M+3M_B)$.\n\n$\\Phi_Q = 1.25\\Phi_P$ gives $1.5M+3M_B = 1.25(3M+1.5M_B)$, so $M_B = 2M$.",
+  "perOption": {
+   "A": "Algebra slip in the potential contributions.",
+   "B": "Uses the wrong distances for one planet.",
+   "C": "Uses the wrong distances for one planet.",
+   "D": "Correct. Add the potentials from both planets at each point."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q12": {
+  "body": "Gravitational force provides the centripetal force: $\\dfrac{GMm}{r^2}=mr\\omega^2$, so $\\omega^2\\propto 1/r^3$. When $r$ decreases, both the gravitational force and $\\omega$ increase, so A and B are wrong.\n\n$KE=+\\dfrac{GMm}{2r}$ and $GPE=-\\dfrac{GMm}{r}$. As $r$ decreases, KE increases while GPE decreases, so only D is correct.",
+  "perOption": {
+   "A": "Angular velocity increases since $\\omega^2\\propto1/r^3$.",
+   "B": "Force $\\propto 1/r^2$ increases as $r$ decreases.",
+   "C": "KE $=GMm/2r$ increases as $r$ decreases.",
+   "D": "Correct. GPE becomes more negative."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q13": {
+  "body": "Let $h$ be the rate of heat loss. Then $10 = \\dfrac{mc\\Delta\\theta}{t}+h$ (1) and $18 = \\dfrac{3mc\\Delta\\theta}{t}+h$ (2).\n\nSubtracting: $8 = 2\\dfrac{mc\\Delta\\theta}{t}$, so $\\dfrac{mc\\Delta\\theta}{t}=4\\ \\mathrm{W}$, giving $h = 6.0\\ \\mathrm{W}$.",
+  "perOption": {
+   "A": "Does not satisfy both equations.",
+   "B": "Correct. $10-4 = 6.0\\ \\mathrm{W}$.",
+   "C": "Does not satisfy both equations.",
+   "D": "Does not satisfy both equations."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q14": {
+  "body": "At constant pressure, $V \\propto T$. When the gas is cooled, $T$ decreases so $V$ decreases. The gas is compressed, so work is done on the gas and $w$ is positive.\n\nWhen $T$ decreases, $\\Delta U$ is negative. From $\\Delta U = q + w$: negative $= q + (\\text{positive})$, so $q$ must be negative.",
+  "perOption": {
+   "A": "Takes $w$ as negative, as if the gas expanded; cooling at constant pressure compresses it.",
+   "B": "Correct. $\\Delta U<0$, $q<0$ (heat lost), $w>0$ (compression).",
+   "C": "Gives $\\Delta U$ positive, but cooling lowers the internal energy of an ideal gas.",
+   "D": "Gives all three positive, which contradicts cooling (heat must leave the gas)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q15": {
+  "body": "Given $x_0 = 0.030\\ \\mathrm{m}$. From the graph, the kinetic energy repeats every 1.0 s, which is half the period of the motion, so $T = 2.0\\ \\mathrm{s}$.\n\n$v_{max} = x_0\\omega = 0.030 \\times \\dfrac{2\\pi}{2.0} = 0.094\\ \\mathrm{m\\,s^{-1}}$.",
+  "perOption": {
+   "A": "Gives a value about 6 times too large, from a wrong angular frequency.",
+   "B": "Gives about 3 times too large, from a wrong angular frequency.",
+   "C": "Uses the KE period of 1.0 s as the period of the motion, doubling $\\omega$.",
+   "D": "Correct. $T = 2.0$ s, $v_{max} = x_0\\omega = 0.094\\ \\mathrm{m\\,s^{-1}}$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q16": {
+  "body": "At X, the two neighbouring particles are moving towards the particle at X, so X is a compression.\n\nAt Y, the two neighbouring particles are moving away from the particle at Y, so Y is a rarefaction.",
+  "perOption": {
+   "A": "Treats Y as a compression too; at Y the neighbours move apart.",
+   "B": "Correct. Neighbours converge at X (compression) and diverge at Y (rarefaction).",
+   "C": "Swaps the two: X is where neighbours converge, not diverge.",
+   "D": "Treats X as a rarefaction; neighbours move towards X."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q17": {
+  "body": "By Rayleigh's criterion, the minimum angle of resolution is $\\theta \\approx \\lambda/b$, where the pupil size acts as the slit width $b$.\n\nIf $b$ increases, $\\theta$ decreases, so the dots are easier to resolve. Darkening the room enlarges the pupil.",
+  "perOption": {
+   "A": "Correct. Larger pupil $b$ gives smaller $\\lambda/b$, so closer dots can be resolved.",
+   "B": "Red light has a longer wavelength, increasing $\\lambda/b$ and making resolution worse.",
+   "C": "Brightness does not change the minimum resolvable angle.",
+   "D": "Moving the dots closer decreases their angular separation, making them harder to resolve."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q19": {
+  "body": "The electric field inside the conductor is zero, since there is no net field or potential difference within a conductor.\n\nThe external regions still have a uniform electric field pointing from the positive to the negative plate, so $E$ is constant outside the conductor and zero over the width $d$.",
+  "perOption": {
+   "A": "Field varies linearly with x, which would need charge between the plates, and is non-zero inside the conductor.",
+   "B": "Shows field going to zero and then negative; the field never reverses direction.",
+   "C": "Reverses the field direction beyond the conductor; the field points from + to - throughout.",
+   "D": "Correct. Uniform field outside, zero inside the conductor."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q20": {
+  "body": "$R = \\rho L/A$ and $R = V/I$, so $V/I = \\rho L/A$ and $L = VA/(I\\rho)$.\n\n$L = \\dfrac{240\\,[\\pi(3.0\\times10^{-4})^2]}{2.0 \\times 1.4\\times10^{-6}} = 24\\ \\mathrm{m}$.",
+  "perOption": {
+   "A": "Too small; check the area $A=\\pi r^2$ and the factor of $I\\rho$ in the denominator.",
+   "B": "Correct. $L = VA/(I\\rho) = 24$ m.",
+   "C": "Not from the school's working; likely an arithmetic slip in the area.",
+   "D": "About four times the answer, from using the diameter as the radius in $A = \\pi r^2$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q21": {
+  "body": "Let each resistor be $R$. In A, the ammeter branch has one resistor across $V$: $I_A = V/R$.\n\nIn B, a resistor $R$ is in series with a parallel pair $R/2$, so the total is $3R/2$, the total current is $2V/3R$, and the ammeter takes half: $I_A = V/3R$.\n\nIn C, $I_A = V/R$. In D, the ammeter is in the branch with two resistors: $I_A = V/2R$. B is the smallest.",
+  "perOption": {
+   "A": "$I_A = V/R$, the largest possible with a single resistor across the supply.",
+   "B": "Correct. $I_A = V/3R$, the minimum.",
+   "C": "The ammeter branch is one resistor across the supply, $V/R$.",
+   "D": "Two resistors in series in the ammeter branch give $V/2R$, which is greater than $V/3R$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q22": {
+  "body": "$V = E - Ir$. When $I = 0$, $V = E = 2.5\\ \\mathrm{V}$.\n\nFrom the graph, $0.9 = 2.5 - 0.80\\,r$, so $r = 2.0\\ \\Omega$. Equivalently, the gradient of the graph is $-r$.",
+  "perOption": {
+   "A": "Correct. $r = (2.5-0.9)/0.80 = 2.0\\ \\Omega$.",
+   "B": "Not obtained from the graph intercept and gradient.",
+   "C": "Not obtained from the graph intercept and gradient.",
+   "D": "Likely $0.9/0.80 = 1.1\\ \\Omega$, which is the external resistance R at that point, not r."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q24": {
+  "body": "The electron passes undeflected, so the electric force equals the magnetic force: $qE = Bqv$.\n\nThe charge $q$ cancels, so the condition $v = E/B$ does not depend on the mass or charge. The alpha particle also has the same $v$, and its electric and magnetic forces (both reversed in direction relative to the electron) still balance, so it is undeflected.",
+  "perOption": {
+   "A": "Correct. $v = E/B$ is independent of charge and mass.",
+   "B": "Assumes the magnetic force exceeds the electric force for the positive alpha particle.",
+   "C": "Assumes the electric force exceeds the magnetic force for the alpha particle.",
+   "D": "Forces from these fields act in the plane of the page; none points into the page."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q25": {
+  "body": "This is like Faraday's homopolar generator. The induced current is $I = \\varepsilon/R = B\\pi r^2 f/R$, which is constant when $r$ and $f$ are kept constant.\n\nThe direction of the current alternates between clockwise and anticlockwise depending on which radius is cutting the flux (use Fleming's right-hand rule), giving a square wave.",
+  "perOption": {
+   "A": "Shows a rectified, varying magnitude; the emf magnitude is constant.",
+   "B": "Triangular waveform would need a changing rate of flux cutting.",
+   "C": "Correct. Constant magnitude, alternating direction.",
+   "D": "Sinusoidal would arise for a coil rotating in a field with constantly changing flux, not here."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q26": {
+  "body": "$\\lambda = h/mv$, so $\\lambda \\propto 1/m$ at the same speed $v$. The electron mass is much smaller than the proton mass, so $\\lambda_e > \\lambda_p$.\n\nFor single-slit diffraction, $b\\sin\\theta = \\lambda$, so $\\sin\\theta \\propto \\lambda$. The diffraction angle (pattern width) for electrons is much larger than for protons.",
+  "perOption": {
+   "A": "Wrong wavelength comparison: smaller mass gives longer wavelength.",
+   "B": "Wrong on both: electrons have the longer wavelength and wider pattern.",
+   "C": "Correct. $\\lambda_e > \\lambda_p$ and wider electron pattern.",
+   "D": "Right wavelength comparison but a longer wavelength gives a wider, not narrower, pattern."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q27": {
+  "body": "Electrons per second: $dN_e/dt = I/e = 2.0\\times10^{-6}/1.6\\times10^{-19}$.\n\nPhotons per second: $dN_p/dt = P/E = 0.31\\times10^{-3}/(3.11\\times1.6\\times10^{-19})$.\n\nRatio $= 0.020$.",
+  "perOption": {
+   "A": "Likely inverts or mishandles the powers of ten.",
+   "B": "Correct. $2.0\\times10^{-2}$.",
+   "C": "Assumes every photon releases an electron.",
+   "D": "Reports a count rate rather than a ratio."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q28": {
+  "body": "$p = mv = (9.11\\times10^{-31})(1.50\\times10^{6}) = 1.37\\times10^{-24}\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\n$\\Delta p = 0.2\\% \\times p = 0.002(1.37\\times10^{-24}) = 2.73\\times10^{-27}\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\n$\\Delta x = h/\\Delta p = 6.63\\times10^{-34}/(2.73\\times10^{-27}) = 2.4\\times10^{-7}\\ \\mathrm{m}$.",
+  "perOption": {
+   "A": "Wrong power of ten; not from $\\Delta x = h/\\Delta p$ with $\\Delta p = 0.002p$.",
+   "B": "Wrong power of ten and prefactor.",
+   "C": "Correct. $\\Delta x = h/\\Delta p = 2.4\\times10^{-7}$ m.",
+   "D": "Wrong power of ten, for example from taking 0.2% as 0.0002 or similar slip."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2023-prelim-p1-q30": {
+  "body": "Initial true count rate from the source $= 90 - 10 = 80\\ \\mathrm{min^{-1}}$.\n\nNumber of half-lives $= 12/24 = 0.5$, so $C = 80(1/2)^{0.5} = 57\\ \\mathrm{min^{-1}}$.\n\nAdd back the background: final count $= 57 + 10 = 67\\ \\mathrm{min^{-1}}$.",
+  "perOption": {
+   "A": "Halves 90 directly, ignoring background and using one half-life.",
+   "B": "Halves the source count after subtracting background (one full half-life, 40 + 10).",
+   "C": "Gets the source count rate (57) but forgets to add back the background.",
+   "D": "Correct. $57 + 10 = 67\\ \\mathrm{min^{-1}}$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q1": {
+  "body": "Units of $\\Delta P = \\mathrm{kg\\,m^{-1}\\,s^{-2}}$ and units of $\\rho = \\mathrm{kg\\,m^{-3}}$.\n\nUnits of $\\Delta P/\\rho = \\mathrm{m^2\\,s^{-2}}$. Since $v$ has units $\\mathrm{m\\,s^{-1}}$ and $k$ has no unit, $(\\mathrm{m^2 s^{-2}})^n = \\mathrm{m\\,s^{-1}}$, hence $n = 0.5$.",
+  "perOption": {
+   "A": "Correct. $(\\mathrm{m^2 s^{-2}})^{0.5} = \\mathrm{m\\,s^{-1}}$.",
+   "B": "Gives $\\mathrm{m^2 s^{-2}}$, the units of $v^2$.",
+   "C": "Gives $\\mathrm{m^3 s^{-3}}$, which is not a speed.",
+   "D": "Gives $\\mathrm{m^4 s^{-4}}$, which is not a speed."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q3": {
+  "body": "The pilot must aim partly into the wind so that the westerly wind cancels the aircraft's westward velocity component. The airspeed (350 km/h) is the hypotenuse of the velocity triangle, and the wind (100 km/h) is the perpendicular side.\n\n$v_{\\text{ground}} = \\sqrt{350^2 - 100^2} = 335\\ \\mathrm{km\\,h^{-1}}$ (north).",
+  "perOption": {
+   "A": "Subtracts 100 from 350 instead of using Pythagoras.",
+   "B": "Correct. Velocity triangle with 350 as hypotenuse.",
+   "C": "Uses $\\sqrt{350^2+100^2}$, treating the wind as adding to the northward speed.",
+   "D": "Adds 350 and 100 as if the wind were a tailwind."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q4": {
+  "body": "Both balls are launched horizontally from the same height, so each has zero initial vertical velocity and the same vertical acceleration $g$. Their vertical motion is identical and independent of the horizontal motion, so the time to fall is the same: $t=\\sqrt{2h/g}$. They land together; Y simply travels farther horizontally.",
+  "perOption": {
+   "A": "Landing nearer does not mean landing earlier; fall time depends only on height.",
+   "B": "Horizontal speed does not affect the time of fall.",
+   "C": "Correct. Same height and same $g$ give the same fall time.",
+   "D": "Air resistance is neglected in the intended reasoning, and the final speeds would differ anyway (Y is faster horizontally)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "generated",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "issues": "The school key gives only the letter for Q4 (no working); explanation is generated."
+ },
+ "tjc-2024-prelim-p1-q5": {
+  "body": "Change in momentum equals the area under the $F$-$t$ graph.\n\nArea from 0 to 10 s $= \\tfrac12(8+4)(12) + \\left[-\\tfrac12(2)(12)\\right] = 60\\ \\mathrm{N\\,s}$.\n\n$60 = mv - 0$, so with $m = 0.300$ kg, $v = 200\\ \\mathrm{m\\,s^{-1}}$.",
+  "perOption": {
+   "A": "Correct. Impulse 60 N s divided by 0.300 kg.",
+   "B": "Not supported by the net area of 60 N s.",
+   "C": "Not supported by the net area of 60 N s.",
+   "D": "Ignores the negative area (adds 12 N s instead of subtracting), or similar area error."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q6": {
+  "body": "Force on water = rate of change of momentum $= \\dfrac{\\rho V}{\\Delta t}\\Delta v = \\rho \\pi r^2 v (0 - v) = -\\rho\\pi r^2 v^2$.\n\n$= -1000\\pi(2.0\\times10^{-2})^2(0.50)^2 = -0.314\\ \\mathrm{N}$.\n\nBy Newton's third law, the force by the water on the wall is $0.314$ N.",
+  "perOption": {
+   "A": "Correct. $F=\\rho\\pi r^2 v^2$.",
+   "B": "Treats the water as rebounding (momentum change $2mv$), which the question rules out.",
+   "C": "Uses diameter instead of radius, which gives four times the correct force.",
+   "D": "Uses $\\rho\\pi r^2 v$ and omits a factor of $v$, or similar slip."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "issues": "Distractor explanations for B, C, D are my inference of the likely errors (school gave none)."
+ },
+ "tjc-2024-prelim-p1-q7": {
+  "body": "The cuboids have equal volume and are fully immersed, so the upthrust $U$ is the same on each.\n\n$T + U = mg = \\rho_{\\text{material}} V g$, so $T = \\rho_{\\text{material}}Vg - U$.\n\nCuboid W has the largest density, so the tension in its string is the greatest.",
+  "perOption": {
+   "A": "Y is denser than water, so its weight exceeds the upthrust (the string supplies the difference).",
+   "B": "Upthrust is the same for all three because volume displaced is equal.",
+   "C": "Tensions differ because the weights differ.",
+   "D": "Correct. $T=\\rho Vg-U$ is largest for the densest cuboid."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q8": {
+  "body": "For a wire obeying Hooke's law, the graph of tension against extension is a straight line. The extra energy stored is the area of the trapezium between $x_1$ and $x_2$:\n\n$\\tfrac12(T_2 + T_1)(x_2 - x_1)$.",
+  "perOption": {
+   "A": "Correct. Area of the trapezium under the $T$-$x$ graph.",
+   "B": "Uses $T_2-T_1$, which gives the energy of a triangle starting from $T_1$ (wrong shape).",
+   "C": "Uses $x_2+x_1$ instead of the change in length.",
+   "D": "Uses both differences wrongly; neither factor is the trapezium's width and mean height."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q9": {
+  "body": "P and Q are on the same turntable, so they have the same angular velocity $\\omega$.\n\nLinear speed $v = r\\omega$ is greater for P since $r_1 > r_2$.\n\nCentripetal force $F = mr\\omega^2$ is also greater for P since $r_1 > r_2$.",
+  "perOption": {
+   "A": "Speeds differ because $v=r\\omega$; and the force is greater for P, not Q.",
+   "B": "Same angular speed does not mean same linear speed.",
+   "C": "Force is greater for P (larger radius), not Q.",
+   "D": "Correct. Both $v$ and $F$ increase with $r$ at fixed $\\omega$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q10": {
+  "body": "At P (just in contact, $N\\approx0$): $mg = mv^2/r$, so $v^2 = rg$.\n\nP and Q are at the same height, so the kinetic energy (and speed) at Q equals that at P.\n\nAt Q: $mg - N = mv^2/(2r)$, so $N = mg - m(rg)/(2r) = mg/2$.\n\nBy Newton's third law the cart exerts $mg/2$ on the track.",
+  "perOption": {
+   "A": "The cart still needs less than $mg$ of centripetal force at Q, so $N$ is not zero.",
+   "B": "Correct. $N = mg - mv^2/2r = mg/2$.",
+   "C": "Ignores the centripetal force needed at Q.",
+   "D": "Adds instead of subtracts; at the top of a hill, $mg$ exceeds $N$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q11": {
+  "body": "By conservation of energy, $KE_i + GPE_i = KE_f + GPE_f$.\n\nThe object starts 6R above the surface, i.e. $7R$ from the centre:\n\n$0 - \\dfrac{GMm}{7R} = \\tfrac12 mv^2 - \\dfrac{GMm}{R}$\n\n$v = \\sqrt{\\dfrac{12GM}{7R}}$.",
+  "perOption": {
+   "A": "Uses $GM/R$ (surface escape-style value), ignoring the starting distance.",
+   "B": "Not from the energy equation; mishandles the $1/7R$ and $1/R$ terms.",
+   "C": "Correct. $v^2 = 2GM(1/R - 1/7R)=12GM/7R$.",
+   "D": "Not from the energy equation; wrongly combines the distances."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "issues": "keyAnswer is A (parser answer-conflict) but the key's answer table prints C for Q11. The worked solution box is labelled D, yet its result $\\sqrt{12GM/7R}$ is option C on the printed paper. Treating C as correct; box label D looks like a typo."
+ },
+ "tjc-2024-prelim-p1-q12": {
+  "body": "The antenna has the same speed as the spacecraft and so is still bound in the same orbit. The gravitational force still acts on it and provides the centripetal force, so it continues in the same circular motion.",
+  "perOption": {
+   "A": "Gravity still acts, so it cannot leave in a straight line.",
+   "B": "It has orbital speed, not zero, so it does not fall on a parabola into the planet.",
+   "C": "Correct. Same speed and radius means the same orbit.",
+   "D": "It would fall straight down only if its horizontal velocity were zero."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q13": {
+  "body": "$pV = \\tfrac13 Nm\\langle c^2\\rangle$. $V$ and $m$ are unchanged, so $\\dfrac{N\\langle c^2\\rangle}{p}$ is constant.\n\n$\\dfrac{N(3.0\\times10^5)}{p} = \\dfrac{\\tfrac34 N\\langle c^2\\rangle}{p/2}$\n\n$\\langle c^2\\rangle = 2.0\\times10^5\\ \\mathrm{m^2\\,s^{-2}}$.",
+  "perOption": {
+   "A": "Misapplies the ratio of $N$ and $p$ (e.g. $\\langle c^2\\rangle\\propto p/N$ with wrong fractions).",
+   "B": "Correct. $\\langle c^2\\rangle = 3.0\\times10^5\\times\\frac{1/2}{3/4}$.",
+   "C": "Inverts the ratio, giving $3.0\\times10^5\\times 1.5$.",
+   "D": "Treats $\\langle c^2\\rangle$ as proportional to $p$ with a different factor and ignores the lost molecules, e.g. multiplying by 3."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "issues": "Distractor explanations for A, C, D are inferred."
+ },
+ "tjc-2024-prelim-p1-q15": {
+  "body": "$ma = mg - R$. The object loses contact when $R = 0$, so $ma = mg$.\n\nFor SHM, $a = \\omega^2 x_0 = (2\\pi f)^2 x_0 = g$.\n\n$x_0 = \\dfrac{g}{(2\\pi f)^2} = \\dfrac{9.81}{(2\\pi\\times3.0)^2} = 0.028\\ \\mathrm{m} = 2.8\\ \\mathrm{cm}$.",
+  "perOption": {
+   "A": "Correct. $x_0 = g/(2\\pi f)^2$.",
+   "B": "Uses $f = 2.0$ Hz (the value in the school working typo) instead of 3.0 Hz.",
+   "C": "Not from $g/\\omega^2$; likely a slip with $f$ or $\\omega$.",
+   "D": "Double the value in B; likely a factor-of-2 slip."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "issues": "The school's working shows an intermediate '(2\\u03c0(2.0))' typo; the final line correctly uses f = 3.0 Hz. Distractor explanations are generic."
+ },
+ "tjc-2024-prelim-p1-q16": {
+  "body": "$I \\propto A^2$, so $I = kA^2$.\n\nThe waves start in antiphase and have a path difference of a whole number of wavelengths, so they arrive in antiphase: resultant amplitude $= A - 0.6A = 0.4A$.\n\n$I_R = k(0.4A)^2 = 0.16kA^2 = 0.16I$.",
+  "perOption": {
+   "A": "Correct. Destructive interference with amplitude $0.4A$.",
+   "B": "Uses $0.4A$ but forgets to square it.",
+   "C": "Treats the waves as in phase and adds intensities ($1+0.6$) without squaring.",
+   "D": "Adds the amplitudes (constructive) and forgets to square: $1.6\\ldots$ then adds."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "issues": "Distractor explanations for C and D are inferred and loosely worded."
+ },
+ "tjc-2024-prelim-p1-q17": {
+  "body": "Using $I = I_0\\cos^2\\theta$: for diagram 1, $2 = 8\\cos^2\\theta$, so $\\theta = 60^\\circ$.\n\nFor diagram 2 the polariser is rotated another $90^\\circ$, so the angle is $90^\\circ + 60^\\circ = 150^\\circ$:\n\n$I = 8\\cos^2(90^\\circ + 60^\\circ) = 6\\ \\mathrm{W\\,m^{-2}}$.",
+  "perOption": {
+   "A": "Would need the polariser to be crossed with the polarisation direction ($90^\\circ$), but the angle is $150^\\circ$.",
+   "B": "Same as diagram 1; ignores the extra $90^\\circ$ rotation.",
+   "C": "Correct. $8\\cos^2150^\\circ = 6$.",
+   "D": "Would need the polariser aligned with the light ($\\theta=0$)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q18": {
+  "body": "$\\tan\\theta = \\dfrac{20}{75}$, so $\\theta = 14.9^\\circ$.\n\nUsing $d\\sin\\theta = n\\lambda$ with $d = 1/N$:\n\n$\\dfrac{10^{-3}}{300}\\sin14.9^\\circ = 2\\lambda$\n\n$\\lambda = 429\\ \\mathrm{nm}$.",
+  "perOption": {
+   "A": "Correct. $\\theta$ from the geometry, then $d\\sin\\theta=2\\lambda$.",
+   "B": "Uses $\\sin\\theta = 20/75$ instead of $\\tan\\theta$.",
+   "C": "Uses $n=1$ instead of $n=2$ (gives double: 858 nm).",
+   "D": "Uses $\\sin\\theta = 20/75$ and $n=1$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "issues": "Distractor explanations for B and D are inferred."
+ },
+ "tjc-2024-prelim-p1-q19": {
+  "body": "The field points from high to low potential, so it points towards Y (right).\n\nThe electron is negatively charged, so the electric force on it points towards X, i.e. away from Y.\n\nChange in electric potential energy from X to Y: $\\Delta E_p = (-eV_Y) - (-eV_X) = -70\\ \\mathrm{eV} + 100\\ \\mathrm{eV} = +30\\ \\mathrm{eV}$.",
+  "perOption": {
+   "A": "Correct. Force towards X and the electron gains 30 eV.",
+   "B": "Force direction is wrong (that would be for a positive charge) and the sign of the energy change is wrong.",
+   "C": "Force direction is wrong (that would be for a positive charge); the +30 eV is right.",
+   "D": "Force direction is right, but the sign of the energy change is wrong: the electron moves to a lower potential, so its potential energy increases."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q20": {
+  "body": "$R = \\dfrac{\\rho L}{A} \\propto \\dfrac{L}{A}$.\n\nThe cuboid has length $5d$ between X and Y and cross-sectional area $2d \\times d = 2d^2$ (2 rows of cubes).\n\n$\\dfrac{R'}{4.0} = \\dfrac{5d}{d} \\times \\dfrac{d^2}{2d^2}$, so $R' = 10\\ \\Omega$.",
+  "perOption": {
+   "A": "Inverts the ratio: $4.0\\times 2/5 = 1.6\\ \\Omega$.",
+   "B": "Only divides by the 2 rows and ignores the five-fold increase in length.",
+   "C": "Correct. Length is 5 times, area is 2 times, so $R = 4.0 \\times 5/2$.",
+   "D": "Adds all ten cubes in series, ignoring the doubled cross-sectional area."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q21": {
+  "body": "In the driver circuit, the p.d. across XY should be minimised for the largest balance length, so the NTC thermistor's resistance should be maximised (potential divider rule). Hence the temperature should be low.\n\nThe terminal p.d. of the test cell circuit should be maximised, so the resistance of the LDR should be maximised (less current drawn, less lost to internal resistance). Hence the environment should be dark.",
+  "perOption": {
+   "A": "High temperature lowers the NTC resistance and bright light lowers the LDR resistance; both work against a long balance length.",
+   "B": "Dark is right for the LDR, but high temperature lowers the NTC resistance and raises the p.d. across XY.",
+   "C": "Low temperature is right for the NTC, but bright light lowers the LDR resistance and so the terminal p.d.",
+   "D": "Correct. Low temperature and dark."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q22": {
+  "body": "$\\dfrac{V_s}{V_p} = \\dfrac{N_s}{N_p} \\Rightarrow V_s = \\dfrac{130}{2500} \\times 230 = 12\\ \\mathrm{V}$ (r.m.s.).\n\nPeak power $= \\dfrac{V_0^2}{R} = \\dfrac{(\\sqrt{2} \\times 12)^2}{6} = 48\\ \\mathrm{W}$.",
+  "perOption": {
+   "A": "12 is the r.m.s. secondary voltage, not a power.",
+   "B": "This is the mean power $V_{rms}^2/R = 24$ W, not the peak power.",
+   "C": "Correct. Peak power is twice the mean power of 24 W.",
+   "D": "Doubles the correct peak power."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q23": {
+  "body": "Take moments about the pivot (the top side). The magnetic force $F_B$ acts horizontally on the lowest side, at perpendicular distance $L\\cos 30^\\circ$ from the pivot; the weight acts at the centre, at perpendicular distance $\\dfrac{L}{2}\\sin 30^\\circ$.\n\n$F_B \\times L\\cos 30^\\circ = 0.12 \\times \\dfrac{L}{2}\\sin 30^\\circ$\n\n$50B(0.40)(60\\times10^{-3})\\cos 30^\\circ = 0.12 \\times \\dfrac{1}{2}\\sin 30^\\circ$\n\n$B = 0.029\\ \\mathrm{T}$.",
+  "perOption": {
+   "A": "Correct. Moments about the pivot with $F_B = NBIL$.",
+   "B": "Twice the answer: omits the factor of one half for the weight acting at the centre.",
+   "C": "Three times the answer; likely a wrong trigonometric ratio in the moments.",
+   "D": "Ignores the moment arms and the number of turns."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q24": {
+  "body": "The force causing the deflection acts upwards, so the magnetic force is upwards.\n\nUsing Fleming's left-hand rule, the current is opposite in direction to the motion of the particle, so it must be negatively charged.\n\nIf the magnetic force is upwards, the electric force must be downwards. For a negative charge this means the electric field must be upwards (+y).",
+  "perOption": {
+   "A": "Positive charge is wrong: the magnetic force would then be downwards, not upwards.",
+   "B": "Positive charge is wrong, and the field direction does not match either.",
+   "C": "Correct. Negative charge; the field points +y so the force on the negative charge is -y.",
+   "D": "Negative charge is right, but a -y field would give a +y electric force on a negative charge, adding to the magnetic force."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q25": {
+  "body": "Maximum flux linkage occurs when the B field lines are perpendicular to the coil, i.e. the normal is parallel to the field. This needs a rotation of $\\dfrac{\\pi}{3}$ anticlockwise.\n\nWhen flux linkage is maximum, the induced e.m.f. is minimum (zero), and vice-versa. So the e.m.f. is maximum when the coil plane is parallel to the field, a further $\\dfrac{\\pi}{2}$ away from that position, i.e. a rotation of $\\dfrac{\\pi}{6}$ clockwise from the initial position.",
+  "perOption": {
+   "A": "Rotation angles and directions are both reversed between the two cases.",
+   "B": "The directions are right for neither case: the flux-linkage rotation should be $\\pi/3$, not $\\pi/6$.",
+   "C": "Angles are swapped between the two cases and the directions are wrong.",
+   "D": "Correct. $\\pi/3$ anticlockwise for maximum flux linkage, $\\pi/6$ clockwise for maximum e.m.f."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "medium",
+  "issues": "The school's solution is brief and only justifies the maximum flux linkage case (and the flux/e.m.f. phase relation); the pi/6 clockwise step for maximum e.m.f. was filled in by the explainer."
+ },
+ "tjc-2024-prelim-p1-q26": {
+  "body": "A step-up transformer has $N_s > N_p$.\n\nFor an ideal transformer the magnetic flux $\\phi$ through each turn is the same in both coils, so flux linkage is $N_s\\phi > N_p\\phi$, giving a ratio $>1$.\n\n$\\dfrac{I_s}{I_p} = \\dfrac{V_p}{V_s} = \\dfrac{N_p}{N_s} < 1$.",
+  "perOption": {
+   "A": "Flux linkage ratio is $N_s/N_p > 1$, not less than 1.",
+   "B": "Correct. Flux linkage ratio $>1$, current ratio $<1$.",
+   "C": "The current ratio is less than 1, since power is conserved and the secondary voltage is larger.",
+   "D": "Both ratios are reversed."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q27": {
+  "body": "The school's key prints only the letter D for this question.\n\nThe continuous X-ray spectrum has a sharp cut-off at $\\lambda_{min}$. This occurs when an electron gives up all its kinetic energy $eV$ in a single collision, producing one photon of the maximum energy: $eV = \\dfrac{hc}{\\lambda_{min}}$.",
+  "perOption": {
+   "A": "The threshold wavelength belongs to photoelectric emission, not X-ray production.",
+   "B": "The cut-off depends on the accelerating voltage, not on the ionisation energy of the target.",
+   "C": "It is a photon wavelength, not the electron's de Broglie wavelength.",
+   "D": "Correct. All the electron's energy goes into one photon."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "generated",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "issues": "Key prints only the letter D with no working; explanation generated."
+ },
+ "tjc-2024-prelim-p1-q28": {
+  "body": "$E = \\tfrac{1}{2}mv^2 = \\dfrac{p^2}{2m}$, so $p = \\sqrt{2mE}$.\n\nThe mass of an alpha particle is $4u$, so $p = \\sqrt{8uE}$.\n\n$\\lambda = \\dfrac{h}{p} = \\dfrac{h}{\\sqrt{8uE}} = \\dfrac{h}{2\\sqrt{2uE}}$.",
+  "perOption": {
+   "A": "Uses mass $u$ instead of $4u$, or drops a factor of 2 inside the root.",
+   "B": "Inverted: wavelength is $h/p$, not $p/h$.",
+   "C": "Correct. $h/\\sqrt{8uE}$.",
+   "D": "Inverted: wavelength is $h/p$, not $p/h$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q29": {
+  "body": "Paper does not reduce the count rate, so there is no $\\alpha$ (which would not pass through paper).\n\n$\\beta$ is stopped by a few mm of aluminium, which is why the rate falls from 1000 to 250.\n\nOnly $\\gamma$ can pass through thick steel, which is why a count remains (50 s$^{-1}$).",
+  "perOption": {
+   "A": "Alpha is absorbed by paper, but the rate is unchanged by paper.",
+   "B": "No alpha: paper makes no difference. Aluminium reduces the count, so beta is present.",
+   "C": "No alpha; and the count remaining behind thick steel shows gamma is present.",
+   "D": "Correct. Beta (absorbed by aluminium) and gamma (penetrates steel)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2024-prelim-p1-q30": {
+  "body": "$P = \\dfrac{E}{t} = \\dfrac{mc^2}{t}$\n\n$= \\dfrac{(6.0\\times10^{-6})(3.00\\times10^8)^2}{60\\times60}$\n\n$= 1.5\\times10^8\\ \\mathrm{W} = 150\\ \\mathrm{MW}$.",
+  "perOption": {
+   "A": "Half the correct value.",
+   "B": "Correct. Hour converted to 3600 s.",
+   "C": "Twice the correct value.",
+   "D": "Divides by 60 instead of 3600 s."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q1": {
+  "body": "Units of $Q$: $\\mathrm{C} = \\mathrm{A\\,s}$.\n\nUnits of $V$: $\\mathrm{J\\,C^{-1}} = \\mathrm{kg\\,m^2\\,s^{-2}} / \\mathrm{A\\,s}$.\n\nHence units of $C = Q/V$ are $\\mathrm{A^2\\,s^4\\,m^{-2}\\,kg^{-1}}$.",
+  "perOption": {
+   "A": "Correct. $\\mathrm{A^2\\,s^4\\,m^{-2}\\,kg^{-1}}$.",
+   "B": "Missing the ampere, and the power of s is wrong.",
+   "C": "Missing the powers of seconds.",
+   "D": "The coulomb is not an SI base unit."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q2": {
+  "body": "Average of $h$ (in $10^{-34}$ J s): A 6.63, B 6.63, C 6.65, D 6.62.\n\nA, B and D are accurate (close to the accepted 6.63).\n\nRange of variation: A 0.04, B 0.02, C 0.07, D 0.02. B and D are precise.\n\nSo the student who is accurate but imprecise is A.",
+  "perOption": {
+   "A": "Correct. Accurate mean 6.63, but a larger spread (range 0.04) than B and D.",
+   "B": "Accurate and precise (range 0.02).",
+   "C": "Mean 6.65 is less accurate, and the range is largest at 0.07: neither accurate nor precise.",
+   "D": "Accurate and precise (range 0.02)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q3": {
+  "body": "$v = k\\sqrt{\\dfrac{\\gamma}{\\lambda\\rho}}$, so the power of $1/2$ applies to the sum of the fractional uncertainties.\n\n$\\dfrac{\\Delta v}{v} \\times 100\\% = \\dfrac{1}{2}\\left(\\dfrac{0.05}{4.30} + \\dfrac{20}{1450} + 0.05\\right) \\times 100\\% = 3.8\\% \\approx 4\\%$.",
+  "perOption": {
+   "A": "Too small: underestimates the sum of the terms.",
+   "B": "Too small: underestimates the sum of the terms.",
+   "C": "Correct. 3.8%, which rounds to 4%.",
+   "D": "Does not apply the power $1/2$ (adds the fractional uncertainties without halving: 7.5%)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q4": {
+  "body": "Both balls start from rest, so each falls $s = \\tfrac12 g t^2$ in the same time $\\Delta t$.\n\nBoth fall by the same distance, so the gap between them stays equal to the gap at release.",
+  "perOption": {
+   "A": "Correct. Equal fall distances in equal times keep the gap constant.",
+   "B": "Wrongly assumes the lower ball falls more slowly or the upper catches up.",
+   "C": "Wrongly assumes the lower ball accelerates less or the upper one faster; both have acceleration $g$.",
+   "D": "Confuses this with a case where the lower ball has an initial velocity; both start from rest."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q5": {
+  "body": "Force equals rate of change of momentum of the paint: $F = N\\rho A v^2$.\n\n$F = (27)(900)(0.4\\times10^{-6})(3.0)^2 = 0.087\\ \\mathrm{N} = 87\\ \\mathrm{mN}$.",
+  "perOption": {
+   "A": "Does not match the calculation; likely a slip in the number of holes or a missing factor.",
+   "B": "Does not match the calculation; probably an arithmetic or unit slip.",
+   "C": "Does not match the calculation; probably an arithmetic or unit slip.",
+   "D": "Correct. $F = \\rho A v^2$ per hole, times 27 holes."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q7": {
+  "body": "Power = $Fv + P_{\\text{friction}}$, where $F$ is the component of the passengers' weight along the escalator.\n\n$P = (62\\times20\\times9.81\\times\\tfrac{30}{60}\\times0.75) + 2.5\\times10^3 = 7.1\\times10^3\\ \\mathrm{W} = 7.1\\ \\mathrm{kW}$.",
+  "perOption": {
+   "A": "Does not include the full passenger load contribution.",
+   "B": "Correct. Passenger load power plus 2.5 kW friction.",
+   "C": "Does not match the working; likely an error in the sine of the incline or the mass.",
+   "D": "Likely uses the wrong component of weight (e.g. no $\\sin\\theta$ factor handled correctly)."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q9": {
+  "body": "Work done by the external force = mass $\\times$ change in potential.\n\n$W = (1)(\\phi_{final} - \\phi_{initial}) = -\\dfrac{3GM}{2R} - \\left(-\\dfrac{GM}{R}\\right) = -\\dfrac{GM}{2R}$.",
+  "perOption": {
+   "A": "Adds the two potentials instead of taking the difference.",
+   "B": "Correct. Final minus initial potential.",
+   "C": "Sign error: initial minus final.",
+   "D": "Adds the magnitudes and gets the sign wrong."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "B",
+  "derivedAnswer": "B",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q10": {
+  "body": "Net force towards the centre is $mr\\omega^2$, with $\\omega = 2\\pi/3.7$.\n\nTop: $F_{top} + mg = mr\\omega^2$, so $F_{top} = 77[4(2\\pi/3.7)^2 - 9.81] = 133\\ \\mathrm{N}$ downwards.\n\nBottom: $F_{bottom} = mg + mr\\omega^2 = 77[4(2\\pi/3.7)^2 + 9.81] = 1640\\ \\mathrm{N}$ upwards.",
+  "perOption": {
+   "A": "Swaps the magnitudes between top and bottom and misjudges the directions.",
+   "B": "Gives the right magnitudes at the wrong positions with wrong directions.",
+   "C": "Correct. At the top the wheel pushes down (weight helps); at the bottom it pushes up.",
+   "D": "Right magnitudes but directions reversed."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q11": {
+  "body": "The satellite moves in a circle about the Sun, so the resultant force towards the Sun equals $ma_c = m R\\omega^2$.\n\nThe Sun pulls it towards the Sun with $\\dfrac{GM_S m}{R^2}$, while the Earth pulls it away from the Sun (it lies between them) with $\\dfrac{GM_E m}{r^2}$.\n\nSo $\\dfrac{GM_S m}{R^2} - \\dfrac{GM_E m}{r^2} = m(R\\omega^2)$.",
+  "perOption": {
+   "A": "Ignores the Earth's pull on the satellite.",
+   "B": "Uses only the Earth's pull; the orbit is about the Sun.",
+   "C": "Subtracts in the wrong order, giving a resultant towards the Earth.",
+   "D": "Correct. Resultant towards the Sun = centripetal force."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "issues": "The school's worked solution is a single line; the opposing Earth pull explanation is a short connecting clause."
+ },
+ "tjc-2025-prelim-p1-q12": {
+  "body": "$E_p = -\\dfrac{GMm}{r}$ and gravitational force = centripetal force gives $E_k = \\tfrac12 mv^2 = \\tfrac12\\dfrac{GMm}{r}$, so $E_p = -2E_k$.\n\nNew orbit: $E_p' = E_p + E$, so $-2E_k' = -2E_k + E$.\n\nHence $E_k' = E_k - \\dfrac{E}{2}$: kinetic energy decreases by $E/2$.",
+  "perOption": {
+   "A": "Assumes kinetic energy rises as the satellite goes higher.",
+   "B": "Assumes KE changes by the full amount that GPE changes (energy exchange without the factor of 2).",
+   "C": "Gets the magnitude but not the direction; speed decreases in a higher orbit.",
+   "D": "Correct. $E_p = -2E_k$, so $\\Delta E_k = -\\tfrac12\\Delta E_p$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q14": {
+  "body": "With $x = x_0\\sin\\omega t$ (the graph of $a$ starts at zero and goes negative, matching this), at $t = 5T/8$:\n\n$\\dfrac{x}{x_0} = \\sin\\!\\left(\\dfrac{2\\pi}{T}\\times\\dfrac{5T}{8}\\right) = \\sin\\dfrac{5\\pi}{4} = -0.71$.",
+  "perOption": {
+   "A": "Correct. $\\sin(5\\pi/4) = -0.71$.",
+   "B": "Sign error; $5\\pi/4$ lies in the third quadrant.",
+   "C": "Uses $\\cos$ or $\\sin(2\\pi/3)$-type angle giving 0.87 in magnitude.",
+   "D": "Wrong function and wrong sign."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q15": {
+  "body": "$E = \\tfrac12 m(2\\pi f)^2 x^2$.\n\nNew energy: $\\tfrac12(0.5m)(2\\pi)^2(3.0f)^2(0.40x)^2 = (0.5)(9.0)(0.16)\\,E = 0.72E$.",
+  "perOption": {
+   "A": "Forgets the $9.0$ from $f^2$ or squares incorrectly.",
+   "B": "Uses the factor of frequency and amplitude without squaring.",
+   "C": "Correct. $0.5\\times9\\times0.16 = 0.72$.",
+   "D": "Does not square the amplitude factor: $0.5\\times9\\times0.4 = 1.8$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q16": {
+  "body": "Intensity $I = \\dfrac{P}{2\\pi r d} \\propto \\dfrac1r$, and $I \\propto A^2$, so $A \\propto \\dfrac{1}{\\sqrt r}$.\n\n$\\dfrac{A'}{2.0} = \\sqrt{\\dfrac{150}{1200}}$, so $A' = 0.71\\ \\mathrm{mm}$.",
+  "perOption": {
+   "A": "Uses $A \\propto 1/r^3$ or similar over-steep dependence.",
+   "B": "Uses $A \\propto 1/r$ giving $0.25$ would be C; this uses an inverse-square-type error.",
+   "C": "Uses $A \\propto 1/r$ (point-source spherical spreading).",
+   "D": "Correct. Circular spreading gives $A \\propto 1/\\sqrt r$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q17": {
+  "body": "Unpolarised light passing a polariser has its intensity halved, so $I_P = \\tfrac12 I$. This eliminates A and B.\n\nThe amplitude stays at $A$ along the first axis. The angle between the two axes is $75^\\circ$ (or $105^\\circ$), so resolving the field gives $A' = A\\cos75^\\circ = A\\sin15^\\circ$.",
+  "perOption": {
+   "A": "Intensity $I/\\sqrt2$ is wrong; unpolarised light is halved.",
+   "B": "Wrong intensity, and an extra factor of $\\tfrac12$ in amplitude.",
+   "C": "Correct. $I/2$ and $A\\sin15^\\circ$.",
+   "D": "Right intensity but an extra $1/\\sqrt2$ factor in the amplitude."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "C",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "issues": "School treats amplitude after the first polariser as $A$ (strictly $A/\\sqrt2$ if intensity halves), but the options are consistent with the key letter C."
+ },
+ "tjc-2025-prelim-p1-q18": {
+  "body": "First minimum: $b\\sin\\theta = \\lambda$.\n\nFrom the graph the first minimum is at $\\sin\\theta = 0.05$, so $\\lambda = (0.010\\times10^{-3})(0.05) = 5.0\\times10^{-7}\\ \\mathrm{m} = 500\\ \\mathrm{nm}$.",
+  "perOption": {
+   "A": "Correct. First minimum at $\\sin\\theta = 0.05$.",
+   "B": "Uses $\\sin\\theta = 0.075$, which is not a minimum on the graph.",
+   "C": "Unit slip by a factor of 1000.",
+   "D": "Unit slip and wrong sine value."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q19": {
+  "body": "Electric potential energy $U = qV$. The electron has negative charge, X is at a positive potential and Y at a negative potential, so $U_Y > U_X$.\n\nForce $F = qE$. The equipotentials are closer together at Y, so $E_Y > E_X$ and $F_Y > F_X$.",
+  "perOption": {
+   "A": "Wrong sign for $U$ and wrong comparison of field strength.",
+   "B": "Wrong sign for $U$ (treats the electron like a positive charge).",
+   "C": "Right $U$ comparison but misjudges field strength; lines are closer at Y.",
+   "D": "Correct. $U_Y > U_X$ and $F_Y > F_X$."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q20": {
+  "body": "Break in the negative wire of the cable: the voltmeter reads 24 V whether connected to X or Y.\n\n(For comparison, a break in the positive wire gives 0 V at both X and Y, and a break within the motor gives 24 V at X and 0 V at Y.)",
+  "perOption": {
+   "A": "This pair of readings would be neither fault; a positive-wire break gives 0 V at both.",
+   "B": "A reading of 12 V does not arise from any single break.",
+   "C": "A break within the motor would give 0 V at Y, not 24 V.",
+   "D": "Correct. Both terminals are at 24 V relative to the supply negative."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "D",
+  "derivedAnswer": "D",
+  "confidence": "high"
+ },
+ "tjc-2025-prelim-p1-q21": {
+  "body": "Potential divider with the 5 k$\\Omega$ resistor.\n\nDark: $V = \\dfrac{5\\times10^3}{5\\times10^3 + 5\\times10^6}\\times6 = 0.0060\\ \\mathrm{V}$.\n\nBright: $V = \\dfrac{5\\times10^3}{5\\times10^3 + 1\\times10^3}\\times6 = 5.0\\ \\mathrm{V}$.\n\nSo the p.d. switches between about 0 V and 5 V.",
+  "perOption": {
+   "A": "Correct. Swings between about 0 V and 5 V.",
+   "B": "Shows a non-zero baseline of about 1 V; the dark p.d. is only 0.006 V.",
+   "C": "Shows a swing between about 0 and 4 V, not 5 V.",
+   "D": "Shows the p.d. near 6 V and dipping, which reverses the dark and bright cases."
+  },
+  "model": "claude-opus-5-5 via Claude Code",
+  "verified": false,
+  "source": "key",
+  "keyLetter": "A",
+  "derivedAnswer": "A",
+  "confidence": "high"
+ },
  "tjc-2026-prelim-p1-q1": {
   "body": "Thermal energy $Q$ has SI base units $\\mathrm{kg\\,m^2\\,s^{-2}}$. From $k=(Q/t)L/[A(T_1-T_2)]$, the units of $k$ are $(\\mathrm{kg\\,m^2\\,s^{-2}})(\\mathrm{m\\,s^{-1}})/(\\mathrm{m^2\\,K})=\\mathrm{kg\\,m\\,s^{-3}\\,K^{-1}}$.",
   "perOption": {

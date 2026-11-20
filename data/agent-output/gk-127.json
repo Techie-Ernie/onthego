@@ -1,0 +1,512 @@
+[
+ {
+  "id": "tjc-2022-prelim-p1-q13",
+  "keyPage": 3,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Using $Q = mc\\Delta\\theta$, the rate of heat removed is $\\dfrac{Q}{t} = \\dfrac{m}{t}\\,c\\,\\Delta\\theta$.\n\nSo $\\dfrac{m}{t} = \\dfrac{Q/t}{c\\,\\Delta\\theta}$. The given rate is per hour, so $Q/t = \\dfrac{4.0\\times10^{11}}{60\\times60}\\ \\mathrm{J\\,s^{-1}}$ and $\\Delta\\theta = 11-3 = 8\\ \\mathrm{K}$.\n\n$\\dfrac{m}{t} = \\dfrac{4.0\\times10^{11}}{4200\\times8\\times60\\times60}\\ \\mathrm{kg\\,s^{-1}}$",
+   "perOption": {
+    "A": "Correct. Converts hours to seconds by dividing by $60\\times60$.",
+    "B": "Multiplies by $60\\times60$ instead of dividing, so the rate comes out per hour squared.",
+    "C": "Divides by only 60, converting hours to minutes rather than seconds.",
+    "D": "Multiplies by 60 instead of dividing and only converts once."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of $Q=mc\\Delta\\theta$ with a rate and an hour-to-second conversion.",
+  "misconception": "Forgets to convert per hour to per second, or multiplies instead of divides.",
+  "transcription": "To cool down the electrical generator of a nuclear power plant, cold water enters the heat exchanger of the generator at 3 °C and leaves at 11 °C. The rate of heat removed by the water is $4.0\\times10^{11}$ J per hour. The specific heat capacity of water is 4200 J kg$^{-1}$ K$^{-1}$.\n\nWhat is the rate of water flow?\nA $\\dfrac{4.0\\times10^{11}}{4200\\times8\\times60\\times60}$ kg s$^{-1}$\nB $\\dfrac{4.0\\times10^{11}\\times60\\times60}{4200\\times8}$ kg s$^{-1}$\nC $\\dfrac{4.0\\times10^{11}}{4200\\times8\\times60}$ kg s$^{-1}$\nD $\\dfrac{4.0\\times10^{11}\\times60}{4200\\times8}$ kg s$^{-1}$"
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q14",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "At equilibrium ($x=0$), $a=0$ so $N = mg$.\n\nAt $x=+x_0$ (top), $mg - N = ma$, so $N = mg - mg = 0$.\n\nAt $x=-x_0$ (bottom), $N - mg = ma$, so $N = mg + mg = 2mg$.\n\nSo $N$ falls linearly from $2mg$ at $-x_0$ through $mg$ at $0$ to $0$ at $+x_0$, which is graph C.",
+   "perOption": {
+    "A": "Shows $N$ peaking at $mg$ at $x=0$ and falling at both ends, but $N$ is linear in $x$ and equals $0$ only at the top.",
+    "B": "Has $N=0$ at $x=0$, but the sand is in equilibrium there so $N=mg$.",
+    "C": "Correct. Straight line decreasing from $2mg$ to $0$.",
+    "D": "Slopes the wrong way: gives $N=0$ at the bottom and $2mg$ at the top."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "oscillations.d",
+   "oscillations.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must apply $a=-\\omega^2 x$ with Newton's second law at the extremes and map it to a graph.",
+  "misconception": "Thinks contact force is largest at the top or always equals $mg$.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q15",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Using $x = x_0\\sin\\omega t$ with $\\omega = \\dfrac{2\\pi}{2.0}$, the displacement $0.25\\ \\mathrm{s}$ after the centre is\n\n$x = 3.0\\sin\\!\\left(\\dfrac{2\\pi}{2.0}\\times0.25\\right) = 2.1\\ \\mathrm{cm}$\n\nThe first quarter period ($0.50\\ \\mathrm{s}$) takes the mass from the extreme to the centre, a distance of $3.0\\ \\mathrm{cm}$. The remaining $0.25\\ \\mathrm{s}$ adds $2.1\\ \\mathrm{cm}$.\n\nTotal distance $= 3.0 + 2.1 = 5.1\\ \\mathrm{cm}$.",
+   "perOption": {
+    "A": "Gives half the amplitude, with no calculation behind it.",
+    "B": "Only the displacement beyond the centre, forgetting the first $3.0\\ \\mathrm{cm}$ travelled.",
+    "C": "Unit slip: 4.5 m is far larger than the amplitude.",
+    "D": "Correct. Distance travelled is $3.0 + 2.1 = 5.1\\ \\mathrm{cm}$."
+   }
+  },
+  "issues": "The school's working writes the intermediate result as '2.1 m' (typo for cm); the final 5.1 cm is correct. Its sine form measures the 0.25 s after the centre crossing.",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.c",
+   "oscillations.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs to split the motion into a quarter period plus an extra bit and sum distances rather than give displacement.",
+  "misconception": "Reports displacement instead of total distance moved.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q16",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Path difference between the ears $= 0.22\\sin 25^\\circ\\ \\mathrm{m}$.\n\n$\\Delta\\phi = \\dfrac{0.22\\sin25^\\circ}{1.7}\\times 2\\pi = 0.34\\ \\mathrm{rad}$",
+   "perOption": {
+    "A": "Correct. Path difference $0.22\\sin25^\\circ$ converted to phase.",
+    "B": "Does not match the correct geometry; likely a slip in the angle or wavelength.",
+    "C": "Uses $\\cos25^\\circ$ instead of $\\sin25^\\circ$ for the path difference.",
+    "D": "Omits the angle, using the full $0.22\\ \\mathrm{m}$ as the path difference."
+   }
+  },
+  "issues": "School gives no comments on distractors; perOption for B, C, D is inferred (C matches cos, D matches no angle).",
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "wave-motion.c",
+   "superposition.a"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires working out the path difference from the geometry before applying $\\Delta\\phi = 2\\pi\\Delta x/\\lambda$.",
+  "misconception": "Uses $\\cos$ instead of $\\sin$ for the path difference.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q17",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The figure is a longitudinal progressive wave. Sketching displacement against distance for it, X and Y both lie at equilibrium positions, with the molecule at X moving to the right.\n\nA is wrong: at X the air pressure is maximum. B is wrong: it is a progressive wave, not a standing wave, so there is no antinode. C is correct: at X the air molecule is moving to the right. D is wrong: at Y, the equilibrium position, the molecule has its highest speed.",
+   "perOption": {
+    "A": "At X the air pressure is maximum, not minimum.",
+    "B": "This is a progressive wave, not a standing wave, so there is no antinode.",
+    "C": "Correct. At X the molecule is moving to the right.",
+    "D": "At Y, the equilibrium position, the molecule has maximum speed, so it is not at rest."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.a",
+   "wave-motion.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram",
+   "statements"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires translating a compression-rarefaction diagram into a displacement graph and reading off molecule motion.",
+  "misconception": "Confuses compression with maximum displacement, or thinks equilibrium positions are at rest.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q18",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$f = \\dfrac{v}{d}$, so $10 = \\dfrac{2.0}{d}$, giving $d = 0.20\\ \\mathrm{m}$ between successive maxima.\n\n$\\lambda = 2d = 0.40\\ \\mathrm{m}$.\n\nFrom the maximum at M to the second minimum is $3\\left(\\tfrac14\\lambda\\right)$ $= 0.30\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Gives $\\lambda/4$, the distance to the first minimum.",
+    "B": "Gives $d$ (one maximum spacing) rather than the distance to the second minimum.",
+    "C": "Correct. $3\\lambda/4 = 0.30\\ \\mathrm{m}$.",
+    "D": "Gives $\\lambda$, the distance to the next maximum after $2d$."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "superposition.b",
+   "superposition.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative",
+   "practical"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Stationary wave from reflection: must realise maxima are $\\lambda/2$ apart and count quarter-wavelengths.",
+  "misconception": "Takes the spacing between maxima as the wavelength.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q19",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\mathrm{KE} = \\tfrac12 mv^2 \\propto v^2$. With constant acceleration from rest, $v^2 = 2ax$, so $v^2\\propto x$, hence $v\\propto\\sqrt{x}$ and $\\mathrm{KE}\\propto x$. Graph Y is curved like $\\sqrt{x}$, so Y is speed.\n\nThe field between the plates is uniform, so the electric force is constant. The electric potential energy $U = eV$ decreases linearly with $x$, since $e$ is negative and $V$ rises linearly from $-V$ to $0$. So Z is electric potential energy.",
+   "perOption": {
+    "A": "Correct. Y is speed ($\\propto\\sqrt{x}$) and Z is electric potential energy (linearly decreasing).",
+    "B": "The force in a uniform field is constant, so it would be a horizontal line, not a decreasing line.",
+    "C": "Kinetic energy is linear in $x$, not curved like $\\sqrt{x}$.",
+    "D": "Kinetic energy is linear in $x$ and the electric force is constant, so neither graph matches."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.g",
+   "electric-fields.i"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs to link constant force, $v^2=2ax$, energy and potential in a uniform field to graph shapes.",
+  "misconception": "Thinks electric force changes with position in a uniform field.",
+  "transcription": "Two parallel plates are arranged as shown, with the right plate being earthed and the left plate at a negative potential, $-V$. [Diagram: left plate at $-V$, right plate earthed, $x$ axis pointing right.]\n\nAn electron is released from rest from the surface of the left plate and travels to the right plate. The graphs below show the variations with displacement $x$ of two quantities $Y$ and $Z$ of the electron as it moves from the left plate to the right plate. [Graph Y: starts at 0, increases concavely (curve flattening). Graph Z: starts at a positive value and decreases linearly to 0.]\n\nWhich one of the following quantity could $Y$ and $Z$ represent for the electron?\n| | quantity Y | quantity Z |\n| A | speed | electric potential energy |\n| B | speed | electric force |\n| C | kinetic energy | electric potential energy |\n| D | kinetic energy | electric force |"
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q20",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "By the potential divider method, the two sources in parallel have effective internal resistance $r/2$, so the p.d. across the internal resistance is\n\n$E\\,\\dfrac{r/2}{R + r/2} = E\\,\\dfrac{r}{2R + r}$.\n\nFraction of power lost $= \\dfrac{P_r}{P_\\text{total}} = \\dfrac{IV_r}{IE} = \\dfrac{V_r}{E} = \\dfrac{r}{2R+r}$.",
+   "perOption": {
+    "A": "Not obtained from the ratio of the internal p.d. to the e.m.f.",
+    "B": "Greater than 1, which is impossible for a fraction of power.",
+    "C": "Correct. $\\dfrac{r}{2R+r}$.",
+    "D": "This is the fraction of power delivered to the lamp, not lost in the internal resistance."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "circuits.g",
+   "circuits.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the parallel internal resistance idea and the power ratio as $V_r/E$.",
+  "misconception": "Treats the two internal resistances as being in series, or gives the lamp's share.",
+  "transcription": "Two identical electrical sources are used to operate a lamp of resistance $R$ as shown. [Circuit: two cells, each with e.m.f. $E$ and internal resistance $r$, connected in parallel, in parallel with... connected across the lamp $R$.] The internal resistance of each electrical source is $r$.\n\nWhat is the fraction of the total power lost in the internal resistance of both sources?\nA $\\dfrac{2R-r}{2R}$\nB $\\dfrac{2R+r}{2R}$\nC $\\dfrac{r}{2R+r}$\nD $\\dfrac{2R}{2R+r}$"
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q21",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$D_1$ is reverse biased, so the p.d. across it is $E$ (in magnitude) and the p.d. across $R_1$ is $0\\ \\mathrm{V}$.\n\nThe current flows through $D_2$, $R_2$ and $R_3$, so $R_2$ has a non-zero p.d. while $D_2$ is forward biased with a small p.d.\n\nOrder: $D_1 > R_2 > R_1$.",
+   "perOption": {
+    "A": "Puts $R_1$ above $R_2$, but no current flows in the $D_1$ branch so $R_1$ has $0\\ \\mathrm{V}$.",
+    "B": "Correct. $D_1$ takes the full e.m.f., $R_2$ takes some, $R_1$ has $0\\ \\mathrm{V}$.",
+    "C": "Puts $R_1$ first, wrongly assuming current flows through the reverse-biased branch.",
+    "D": "Puts $R_2$ first and $D_1$ last, ignoring that the reverse-biased diode takes the whole e.m.f."
+   }
+  },
+  "issues": "School working is a single line; the explanation adds a short clause about the other branch. perOption for A, C, D inferred.",
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "circuits.e",
+   "currents.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs to spot the reverse-biased diode and trace where current flows.",
+  "misconception": "Treats an ideal reverse-biased diode as a short circuit.",
+  "transcription": "A circuit consisting of diodes $D_1$ and $D_2$ and resistors $R_1$, $R_2$ and $R_3$ is shown. [Diagram: a cell $E$ drives two parallel branches: one with $D_1$ in series with $R_1$, the other with $D_2$ in series with $R_2$, and $R_3$ in the lower wire shared after the branches. The diodes are oriented in opposite directions.]\n\nWhich is the correct relative magnitude (from greatest to the smallest) of the potential differences across the components $D_1$, $R_1$ and $R_2$?\nA $D_1$, $R_1$, $R_2$\nB $D_1$, $R_2$, $R_1$\nC $R_1$, $R_2$, $D_1$\nD $R_2$, $R_1$, $D_1$"
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q22",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For the steady current, $P = I^2R$.\n\nFor half-wave rectified a.c. the rms current is $I_0/2$, and the resistance is now $\\tfrac12 R$:\n\n$P = \\left(\\dfrac{I_0}{2}\\right)^2\\left(\\dfrac12 R\\right) = I^2R$\n\nSo $I_0 = \\sqrt{8}\\,I = 2.8\\,I$.",
+   "perOption": {
+    "A": "Ignores the halving of resistance and the half-wave factor.",
+    "B": "Uses $I_0=\\sqrt2 I$, the full-wave result, and ignores the diode and halved resistance.",
+    "C": "Ignores the factor from the halved resistance.",
+    "D": "Correct. $I_0=\\sqrt{8}\\,I = 2.8\\,I$."
+   }
+  },
+  "issues": "School's working is terse; it uses rms current $I_0/2$ for half-wave and the halved resistance.",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.h",
+   "currents.i",
+   "currents.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs the half-wave rectified rms current and the halved resistance combined.",
+  "misconception": "Uses the full-wave $I_0/\\sqrt2$ rms for a half-wave signal.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q23",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "By the right-hand grip rule, the magnetic flux density at O due to P and Q points in direction C.\n\nThe flux density due to R and S points in direction A.\n\nAdding the equal-magnitude perpendicular contributions, the resultant flux density at O is in direction B.",
+   "perOption": {
+    "A": "Only the contribution from R and S; P and Q are ignored.",
+    "B": "Correct. Resultant of C (from P and Q) and A (from R and S).",
+    "C": "Only the contribution from P and Q; R and S are ignored.",
+    "D": "The opposite direction to the resultant; direction sign error from the right-hand grip rule."
+   }
+  },
+  "issues": "School gives no comments on distractors; perOption for A, C, D inferred.",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.b",
+   "electromagnetic-forces.c"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the grip rule for four wires and vector addition at the centre.",
+  "misconception": "Gets the grip-rule direction reversed for the out-of-page wire.",
+  "transcription": "The figure shows four long, straight current-carrying wires P, Q, R and S perpendicular to the plane of the paper. They pass through the corners of a square (P top left, Q top right, R bottom right, S bottom left). Point O is the intersection of the diagonals. The currents in all four wires have the same magnitude. The currents in P, Q and R flow into the plane of the paper, while that in S flows out.\n\nWhich arrow shows the direction of the resultant magnetic field at O?\n[Arrows from O: A points up, B points up-left, C points left, D points down-left.]"
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q24",
+  "keyPage": 5,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "By the right-hand grip rule, opposite currents give fields at the midpoint that point in the same direction, perpendicular to the plane of the wires, so the resultant flux density is perpendicular to the plane.\n\nThe velocity $v$ is also perpendicular to this plane, so it is parallel to the resultant flux density.\n\nThe magnetic force $F = Bqv\\sin\\theta = 0$ since $\\theta = 0^\\circ$.",
+   "perOption": {
+    "A": "Correct. $v$ is parallel to the resultant $B$ so $F=0$.",
+    "B": "Uses the field of a single wire at distance $d/2$ with $F=Bqv$.",
+    "C": "Assumes the field is perpendicular to $v$ and uses a single wire at distance $d$.",
+    "D": "Adds both wires' fields as if the velocity were perpendicular to $B$."
+   }
+  },
+  "issues": "Key's working is a single sentence; expanded with the grip-rule reasoning (fields from opposite currents add and are perpendicular to the plane, so parallel to v). perOption for B, C, D inferred.",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.c",
+   "electromagnetic-forces.k"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Must find the direction of the resultant field at the mid-point and see that $\\sin\\theta=0$ or $v$ is parallel to it.",
+  "misconception": "Assumes a field-perpendicular geometry and gives a non-zero force.",
+  "transcription": "Two very long, straight, parallel wires carry equal steady current $I$ in opposite directions. The distance between the wires is $d$. At a certain instant, a point charge $q$ is at a point equidistant from the two wires, in the plane of the wires. Its instantaneous velocity $v$ is perpendicular to this plane. The magnitude of the force due to the magnetic field acting on the charge at this instant is\nA 0 N\nB $\\dfrac{\\mu_0 Iqv}{2\\pi d}$\nC $\\dfrac{\\mu_0 Iqv}{\\pi d}$\nD $\\dfrac{2\\mu_0 Iqv}{\\pi d}$"
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q25",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Turning the coil over once reverses the flux through it, so the change in flux linkage is $2NBA\\sin60^\\circ$.\n\n$\\varepsilon = \\dfrac{(2)(50)(30\\times10^{-4})(4.0\\times10^{-4})\\sin60^\\circ}{0.60}$\n\n$= 1.7\\times10^{-4}\\ \\mathrm{V}$",
+   "perOption": {
+    "A": "Uses $\\cos60^\\circ$ and no factor of 2: $NBA\\cos60^\\circ/t = 5.0\\times10^{-5}\\ \\mathrm{V}$.",
+    "B": "Omits the factor of 2 for turning the coil over.",
+    "C": "Uses $\\cos60^\\circ$ with the factor of 2, taking the angle from the normal.",
+    "D": "Correct. $2NBA\\sin60^\\circ/t$."
+   }
+  },
+  "issues": "School gives no comments on distractors; perOption for A, B, C inferred from the numbers (A: cos60 without 2; B: sin60 without 2; C: cos60 with 2).",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.c",
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs the angle to the plane (sin not cos) and the factor 2 for flipping the coil.",
+  "misconception": "Uses $\\cos60^\\circ$ instead of $\\sin60^\\circ$, or forgets the factor 2 from flipping.",
+  "transcription": "A magnetic field of flux density $4.0\\times10^{-4}$ T passes through a coil of wire of 50 turns and an area of 30 cm$^2$. The field makes an angle of 60° with the horizontal plane of the coil. [Diagram: field lines crossing the horizontal coil at 60° to its plane; horizontal axis shown.]\n\nWhat is the e.m.f. induced in the coil when it is turned over once about its horizontal axis in a time of 0.60 s?\nA $5.0\\times10^{-5}$ V\nB $8.7\\times10^{-5}$ V\nC $1.0\\times10^{-4}$ V\nD $1.7\\times10^{-4}$ V"
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q26",
+  "keyPage": 5,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The inner loop experiences a decreasing flux linkage, so by Lenz's law the induced current flows in the same direction as that in the outer loop (clockwise) to oppose the decrease.\n\nThe current in the outer loop decreases at a constant rate, so the rate of decrease of $B$ and hence of flux linkage is constant. The induced e.m.f. in the inner loop is therefore constant, and so is the induced current.",
+   "perOption": {
+    "A": "Correct. Constant and clockwise.",
+    "B": "Direction is right, but the rate of change of flux is constant so the current is not variable.",
+    "C": "Direction is opposite to what Lenz's law requires for a decreasing flux.",
+    "D": "Both direction and constancy are wrong."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.d",
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines Lenz's law direction with a constant $\\mathrm{d}I/\\mathrm{d}t$ giving constant e.m.f.",
+  "misconception": "Applies Lenz's law backwards, or thinks a changing current gives a changing e.m.f.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q27",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "When the electron velocity decreases, the de Broglie wavelength $\\lambda = h/p$ increases.\n\nThe pattern is caused by diffraction, and the diffraction angle satisfies $\\sin\\theta \\propto \\lambda$, so $\\sin\\theta$ increases and the circles have larger diameter.",
+   "perOption": {
+    "A": "Wrong cause (refraction) and wrong change.",
+    "B": "Wrong cause: electrons passing through a carbon film diffract.",
+    "C": "Correct cause but the wrong change: smaller $v$ means larger $\\lambda$, so larger circles.",
+    "D": "Correct. Diffraction; diameters increase."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.d",
+   "quantum-physics.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard electron diffraction fact plus $\\lambda=h/p$.",
+  "misconception": "Thinks slower electrons have shorter wavelength.",
+  "transcription": "When electrons with velocity $v$ travel through a vacuum and are incident on a thin carbon film, they produce a pattern of concentric circles on the fluorescent screen.\n\nWhat causes the pattern and how would the pattern change when the velocity $v$ is decreased?\n| | cause | change to pattern |\n| A | refraction | diameters of circles decrease |\n| B | refraction | diameters of circles increase |\n| C | diffraction | diameters of circles decrease |\n| D | diffraction | diameters of circles increase |"
+ }
+]

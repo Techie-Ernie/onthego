@@ -1,0 +1,489 @@
+[
+ {
+  "id": "tjc-2025-prelim-p1-q4",
+  "keyPage": 1,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Both balls start from rest, so each falls $s = \\tfrac12 g t^2$ in the same time $\\Delta t$.\n\nBoth fall by the same distance, so the gap between them stays equal to the gap at release.",
+   "perOption": {
+    "A": "Correct. Equal fall distances in equal times keep the gap constant.",
+    "B": "Wrongly assumes the lower ball falls more slowly or the upper catches up.",
+    "C": "Wrongly assumes the lower ball accelerates less or the upper one faster; both have acceleration $g$.",
+    "D": "Confuses this with a case where the lower ball has an initial velocity; both start from rest."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "projectile-motion"
+  ],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Simple free-fall reasoning with identical accelerations.",
+  "misconception": "Thinks the object that has fallen further moves faster, so the gap grows.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q5",
+  "keyPage": 1,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Force equals rate of change of momentum of the paint: $F = N\\rho A v^2$.\n\n$F = (27)(900)(0.4\\times10^{-6})(3.0)^2 = 0.087\\ \\mathrm{N} = 87\\ \\mathrm{mN}$.",
+   "perOption": {
+    "A": "Does not match the calculation; likely a slip in the number of holes or a missing factor.",
+    "B": "Does not match the calculation; probably an arithmetic or unit slip.",
+    "C": "Does not match the calculation; probably an arithmetic or unit slip.",
+    "D": "Correct. $F = \\rho A v^2$ per hole, times 27 holes."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs mass flow rate from density, area and speed, then force as rate of change of momentum, with unit conversion of mm$^2$.",
+  "misconception": "Forgets that mass flow rate itself contains $v$, so uses $F = \\rho A v$.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q7",
+  "keyPage": 1,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Power = $Fv + P_{\\text{friction}}$, where $F$ is the component of the passengers' weight along the escalator.\n\n$P = (62\\times20\\times9.81\\times\\tfrac{30}{60}\\times0.75) + 2.5\\times10^3 = 7.1\\times10^3\\ \\mathrm{W} = 7.1\\ \\mathrm{kW}$.",
+   "perOption": {
+    "A": "Does not include the full passenger load contribution.",
+    "B": "Correct. Passenger load power plus 2.5 kW friction.",
+    "C": "Does not match the working; likely an error in the sine of the incline or the mass.",
+    "D": "Likely uses the wrong component of weight (e.g. no $\\sin\\theta$ factor handled correctly)."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.m"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combine $P = Fv$ with the component of weight along the slope and add the constant friction power.",
+  "misconception": "Uses the whole weight instead of the component along the incline.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q9",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Work done by the external force = mass $\\times$ change in potential.\n\n$W = (1)(\\phi_{final} - \\phi_{initial}) = -\\dfrac{3GM}{2R} - \\left(-\\dfrac{GM}{R}\\right) = -\\dfrac{GM}{2R}$.",
+   "perOption": {
+    "A": "Adds the two potentials instead of taking the difference.",
+    "B": "Correct. Final minus initial potential.",
+    "C": "Sign error: initial minus final.",
+    "D": "Adds the magnitudes and gets the sign wrong."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.e",
+   "gravitational-fields.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of $W = m\\Delta\\phi$; only sign care is needed.",
+  "misconception": "Subtracts in the wrong order and gets the wrong sign.",
+  "transcription": "An astronomical gas cloud has mass $M$ and radius $R$. The gravitational potential on its surface S is $-\\dfrac{GM}{R}$ and at its centre O it is $-\\dfrac{3GM}{2R}$. A unit mass is moved slowly by means of an external force from the surface S to the centre O. What is the work done on the mass by the external force?\nA $-\\dfrac{5GM}{2R}$  B $-\\dfrac{GM}{2R}$  C $\\dfrac{GM}{2R}$  D $\\dfrac{5GM}{2R}$"
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q10",
+  "keyPage": 2,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Net force towards the centre is $mr\\omega^2$, with $\\omega = 2\\pi/3.7$.\n\nTop: $F_{top} + mg = mr\\omega^2$, so $F_{top} = 77[4(2\\pi/3.7)^2 - 9.81] = 133\\ \\mathrm{N}$ downwards.\n\nBottom: $F_{bottom} = mg + mr\\omega^2 = 77[4(2\\pi/3.7)^2 + 9.81] = 1640\\ \\mathrm{N}$ upwards.",
+   "perOption": {
+    "A": "Swaps the magnitudes between top and bottom and misjudges the directions.",
+    "B": "Gives the right magnitudes at the wrong positions with wrong directions.",
+    "C": "Correct. At the top the wheel pushes down (weight helps); at the bottom it pushes up.",
+    "D": "Right magnitudes but directions reversed."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Two free-body diagrams in a vertical circle with consistent sign choices.",
+  "misconception": "Assumes the same force direction at top and bottom.",
+  "transcription": "On a fairground ride, passengers are rotated in a vertical wheel of radius 4.00 m. Passengers complete one revolution in 3.70 s. A passenger of mass 77.0 kg is shown in the diagram when at the top of the wheel and when at the bottom of the wheel. What is the force acting by the wheel on the passenger?\n[Diagram: vertical wheel with a passenger at the top and at the bottom.]\nForce at top / force at bottom: A 1640 N down / 133 N up; B 1640 N up / 133 N down; C 133 N down / 1640 N up; D 133 N up / 1640 N down."
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q11",
+  "keyPage": 2,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The satellite moves in a circle about the Sun, so the resultant force towards the Sun equals $ma_c = m R\\omega^2$.\n\nThe Sun pulls it towards the Sun with $\\dfrac{GM_S m}{R^2}$, while the Earth pulls it away from the Sun (it lies between them) with $\\dfrac{GM_E m}{r^2}$.\n\nSo $\\dfrac{GM_S m}{R^2} - \\dfrac{GM_E m}{r^2} = m(R\\omega^2)$.",
+   "perOption": {
+    "A": "Ignores the Earth's pull on the satellite.",
+    "B": "Uses only the Earth's pull; the orbit is about the Sun.",
+    "C": "Subtracts in the wrong order, giving a resultant towards the Earth.",
+    "D": "Correct. Resultant towards the Sun = centripetal force."
+   }
+  },
+  "issues": "The school's worked solution is a single line; the opposing Earth pull explanation is a short connecting clause.",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires identifying two opposing forces and the correct centripetal direction.",
+  "misconception": "Forgets the Earth's gravity acts in the opposite direction to the Sun's.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q12",
+  "keyPage": 2,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E_p = -\\dfrac{GMm}{r}$ and gravitational force = centripetal force gives $E_k = \\tfrac12 mv^2 = \\tfrac12\\dfrac{GMm}{r}$, so $E_p = -2E_k$.\n\nNew orbit: $E_p' = E_p + E$, so $-2E_k' = -2E_k + E$.\n\nHence $E_k' = E_k - \\dfrac{E}{2}$: kinetic energy decreases by $E/2$.",
+   "perOption": {
+    "A": "Assumes kinetic energy rises as the satellite goes higher.",
+    "B": "Assumes KE changes by the full amount that GPE changes (energy exchange without the factor of 2).",
+    "C": "Gets the magnitude but not the direction; speed decreases in a higher orbit.",
+    "D": "Correct. $E_p = -2E_k$, so $\\Delta E_k = -\\tfrac12\\Delta E_p$."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.g",
+   "gravitational-fields.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires the $E_p = -2E_k$ relation for circular orbits and careful sign handling.",
+  "misconception": "Assumes total energy is conserved between orbits so $\\Delta E_k = -\\Delta E_p$.",
+  "transcription": "A satellite orbiting the Earth moves to an orbit further away from the Earth, such that its gravitational potential energy increases by $E$. By how much does its kinetic energy change?\nA It increases by $E$.  B It decreases by $E$.  C It increases by $E/2$.  D It decreases by $E/2$."
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q14",
+  "keyPage": 3,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "With $x = x_0\\sin\\omega t$ (the graph of $a$ starts at zero and goes negative, matching this), at $t = 5T/8$:\n\n$\\dfrac{x}{x_0} = \\sin\\!\\left(\\dfrac{2\\pi}{T}\\times\\dfrac{5T}{8}\\right) = \\sin\\dfrac{5\\pi}{4} = -0.71$.",
+   "perOption": {
+    "A": "Correct. $\\sin(5\\pi/4) = -0.71$.",
+    "B": "Sign error; $5\\pi/4$ lies in the third quadrant.",
+    "C": "Uses $\\cos$ or $\\sin(2\\pi/3)$-type angle giving 0.87 in magnitude.",
+    "D": "Wrong function and wrong sign."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.e",
+   "oscillations.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must read the phase from the acceleration graph and apply $x = x_0\\sin\\omega t$.",
+  "misconception": "Reads the acceleration graph as a displacement graph, or uses cosine.",
+  "transcription": "A body performs simple harmonic motion with period $T$. The graph shows the variation with time $t$ of its acceleration $a$.\n[Graph: $a$ in m s$^{-2}$ with peak value 50, starting at 0 at $t=0$ going negative first, crossing zero at 0.04 s, completing two cycles by 0.08 s.]\nWhat is the ratio of the body's displacement to its amplitude at time $t = 5T/8$?\nA $-0.71$  B $0.71$  C $-0.87$  D $0.87$"
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q15",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E = \\tfrac12 m(2\\pi f)^2 x^2$.\n\nNew energy: $\\tfrac12(0.5m)(2\\pi)^2(3.0f)^2(0.40x)^2 = (0.5)(9.0)(0.16)\\,E = 0.72E$.",
+   "perOption": {
+    "A": "Forgets the $9.0$ from $f^2$ or squares incorrectly.",
+    "B": "Uses the factor of frequency and amplitude without squaring.",
+    "C": "Correct. $0.5\\times9\\times0.16 = 0.72$.",
+    "D": "Does not square the amplitude factor: $0.5\\times9\\times0.4 = 1.8$."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Straight ratio calculation with squared factors.",
+  "misconception": "Does not square the frequency or amplitude.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q16",
+  "keyPage": 3,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Intensity $I = \\dfrac{P}{2\\pi r d} \\propto \\dfrac1r$, and $I \\propto A^2$, so $A \\propto \\dfrac{1}{\\sqrt r}$.\n\n$\\dfrac{A'}{2.0} = \\sqrt{\\dfrac{150}{1200}}$, so $A' = 0.71\\ \\mathrm{mm}$.",
+   "perOption": {
+    "A": "Uses $A \\propto 1/r^3$ or similar over-steep dependence.",
+    "B": "Uses $A \\propto 1/r$ giving $0.25$ would be C; this uses an inverse-square-type error.",
+    "C": "Uses $A \\propto 1/r$ (point-source spherical spreading).",
+    "D": "Correct. Circular spreading gives $A \\propto 1/\\sqrt r$."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.g",
+   "wave-motion.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs intensity versus circumference and $I \\propto A^2$.",
+  "misconception": "Applies the inverse-square law for point sources in 3D.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q17",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Unpolarised light passing a polariser has its intensity halved, so $I_P = \\tfrac12 I$. This eliminates A and B.\n\nThe amplitude stays at $A$ along the first axis. The angle between the two axes is $75^\\circ$ (or $105^\\circ$), so resolving the field gives $A' = A\\cos75^\\circ = A\\sin15^\\circ$.",
+   "perOption": {
+    "A": "Intensity $I/\\sqrt2$ is wrong; unpolarised light is halved.",
+    "B": "Wrong intensity, and an extra factor of $\\tfrac12$ in amplitude.",
+    "C": "Correct. $I/2$ and $A\\sin15^\\circ$.",
+    "D": "Right intensity but an extra $1/\\sqrt2$ factor in the amplitude."
+   }
+  },
+  "issues": "School treats amplitude after the first polariser as $A$ (strictly $A/\\sqrt2$ if intensity halves), but the options are consistent with the key letter C.",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs the unpolarised halving rule and the angle between the axes ($75^\\circ$).",
+  "misconception": "Uses $\\cos 60^\\circ$ or $\\cos 45^\\circ$ individually instead of the relative angle.",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q18",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "First minimum: $b\\sin\\theta = \\lambda$.\n\nFrom the graph the first minimum is at $\\sin\\theta = 0.05$, so $\\lambda = (0.010\\times10^{-3})(0.05) = 5.0\\times10^{-7}\\ \\mathrm{m} = 500\\ \\mathrm{nm}$.",
+   "perOption": {
+    "A": "Correct. First minimum at $\\sin\\theta = 0.05$.",
+    "B": "Uses $\\sin\\theta = 0.075$, which is not a minimum on the graph.",
+    "C": "Unit slip by a factor of 1000.",
+    "D": "Unit slip and wrong sine value."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.l"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Read the first minimum from the graph and apply $b\\sin\\theta = \\lambda$.",
+  "misconception": "Uses the edge of the secondary maximum, or the $n=2$ minimum.",
+  "transcription": "A parallel, monochromatic beam of electromagnetic radiation is incident at right angles onto a single slit of width 0.010 mm. The graph shows how the intensity of the radiation varies with $\\sin\\theta$ (central maximum at 0, first minima at $\\pm0.05$, weaker secondary maxima, further minima near $\\pm0.10$ and $\\pm0.15$). What is the wavelength of the radiation?\nA 500 nm  B 750 nm  C 500 $\\mu$m  D 750 $\\mu$m"
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q19",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Electric potential energy $U = qV$. The electron has negative charge, X is at a positive potential and Y at a negative potential, so $U_Y > U_X$.\n\nForce $F = qE$. The equipotentials are closer together at Y, so $E_Y > E_X$ and $F_Y > F_X$.",
+   "perOption": {
+    "A": "Wrong sign for $U$ and wrong comparison of field strength.",
+    "B": "Wrong sign for $U$ (treats the electron like a positive charge).",
+    "C": "Right $U$ comparison but misjudges field strength; lines are closer at Y.",
+    "D": "Correct. $U_Y > U_X$ and $F_Y > F_X$."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.c",
+   "electric-fields.f"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines sign of charge, potential and equipotential spacing.",
+  "misconception": "Ignores the electron's negative charge when relating $U$ to $V$.",
+  "transcription": "The diagram shows the electric equipotential lines in a non-uniform electric field (+50 V at the left, falling to -40 V at the right; lines packed closely near Y). An electron moves from point X to Y. Which is correct for the electric potential energy $U$ and the magnitude of electric force $F$ at X and Y?\nA $U_Y < U_X$, $F_Y < F_X$  B $U_Y < U_X$, $F_Y > F_X$  C $U_Y > U_X$, $F_Y < F_X$  D $U_Y > U_X$, $F_Y > F_X$"
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q20",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Break in the negative wire of the cable: the voltmeter reads 24 V whether connected to X or Y.\n\n(For comparison, a break in the positive wire gives 0 V at both X and Y, and a break within the motor gives 24 V at X and 0 V at Y.)",
+   "perOption": {
+    "A": "This pair of readings would be neither fault; a positive-wire break gives 0 V at both.",
+    "B": "A reading of 12 V does not arise from any single break.",
+    "C": "A break within the motor would give 0 V at Y, not 24 V.",
+    "D": "Correct. Both terminals are at 24 V relative to the supply negative."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.b"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires reasoning about potentials at points in a broken circuit.",
+  "misconception": "Thinks a break within the motor gives the same readings as a break in the negative wire.",
+  "transcription": "The diagram shows the electric motor for a garden pump connected to a 24 V power supply by an insulated two-core cable. The motor does not work, so to find the fault, the negative terminal of a voltmeter is connected to the negative terminal of the power supply and its other end is connected in turn to terminals X and Y at the motor. Which row represents the correct conclusion from two voltmeter readings?\n[Diagram: supply with + and - terminals, two-core cable to motor M with terminals X (top) and Y (bottom); voltmeter from supply negative.]\nReading at X / reading at Y / conclusion: A 24 / 0 / break in positive wire; B 24 / 12 / break in negative wire; C 24 / 24 / break in connection within the motor; D 24 / 24 / break in negative wire."
+ },
+ {
+  "id": "tjc-2025-prelim-p1-q21",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Potential divider with the 5 k$\\Omega$ resistor.\n\nDark: $V = \\dfrac{5\\times10^3}{5\\times10^3 + 5\\times10^6}\\times6 = 0.0060\\ \\mathrm{V}$.\n\nBright: $V = \\dfrac{5\\times10^3}{5\\times10^3 + 1\\times10^3}\\times6 = 5.0\\ \\mathrm{V}$.\n\nSo the p.d. switches between about 0 V and 5 V.",
+   "perOption": {
+    "A": "Correct. Swings between about 0 V and 5 V.",
+    "B": "Shows a non-zero baseline of about 1 V; the dark p.d. is only 0.006 V.",
+    "C": "Shows a swing between about 0 and 4 V, not 5 V.",
+    "D": "Shows the p.d. near 6 V and dipping, which reverses the dark and bright cases."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.j"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Potential divider with an LDR at two extremes, then matching the graph.",
+  "misconception": "Reads the p.d. across the LDR instead of the fixed resistor.",
+  "transcription": "The resistance of a light-dependent resistor (LDR) is 5 M$\\Omega$ in the dark and 1 k$\\Omega$ when light shines on it. The LDR is connected in series with a 6 V battery with negligible internal resistance and a 5 k$\\Omega$ resistor. The circuit is placed in a dark room and the LDR is then illuminated by a flashing lamp. Which diagram shows how the p.d. across the 5 k$\\Omega$ resistor varies with time?\n[Four graphs of p.d. (0 to 6 V) against time: A square wave between about 0 V and 5 V; B between about 1 V and 5 V; C between about 0 V and 4 V; D between about 5 V and 6 V.]"
+ }
+]

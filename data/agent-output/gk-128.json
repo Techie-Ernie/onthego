@@ -1,0 +1,500 @@
+[
+ {
+  "id": "tjc-2022-prelim-p1-q28",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Einstein's photoelectric equation with the stopping potential: $hf = \\Phi + eV_s$.\n\n$3.5\\times10^{-19} = \\Phi + (1.6\\times10^{-19})(0.25)$, so $\\Phi = 3.1\\times10^{-19}\\ \\mathrm{J}$.",
+   "perOption": {
+    "A": "Subtracts 0.25 eV twice (or adds wrongly); not the work function.",
+    "B": "Correct. The stopping energy is $0.25\\ \\mathrm{eV} = 0.4\\times10^{-19}\\ \\mathrm{J}$.",
+    "C": "Ignores the stopping potential and takes the photon energy as the work function.",
+    "D": "Adds $eV_s$ to the photon energy instead of subtracting it."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.a",
+   "quantum-physics.b"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "One-step use of the photoelectric equation, with the stopping potential converted to joules.",
+  "misconception": "Taking the photon energy as the work function",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2022-prelim-p1-q29",
+  "keyPage": 5,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Total binding energy before: $7.59\\times235 = 1783.65\\ \\mathrm{MeV}$.\n\nTotal binding energy after: $(8.26\\times121)+(8.52\\times113) = 1962\\ \\mathrm{MeV}$.\n\nChange in binding energy $= +179\\ \\mathrm{MeV}$, released as energy since the products are more stable. (The neutrons have no binding energy.)",
+   "perOption": {
+    "A": "Counts only part of the nucleons, or omits a product; gives 73.9 MeV.",
+    "B": "Wrong magnitude and the wrong sense (absorbed).",
+    "C": "Correct. Binding energy increases, so energy is released.",
+    "D": "Right magnitude but the wrong sense; higher binding energy means energy is released."
+   }
+  },
+  "issues": null,
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.r",
+   "nuclear-physics.t",
+   "nuclear-physics.n"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs total binding energy (per nucleon times nucleon number) and the sign convention for released versus absorbed.",
+  "misconception": "Confusing binding energy increase with energy absorbed",
+  "transcription": "Nuclear reaction: $^{235}_{92}\\mathrm{U} + {}^1_0\\mathrm{n} \\to {}^{121}_{45}\\mathrm{Rh} + {}^{113}_{47}\\mathrm{Ag} + 2\\,{}^1_0\\mathrm{n}$. Binding energy per nucleon: U-235 = 7.59 MeV, Rh-121 = 8.26 MeV, Ag-113 = 8.52 MeV. What is the energy change in this reaction? A 73.9 MeV released. B 73.9 MeV absorbed. C 179 MeV released. D 179 MeV absorbed."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q1",
+  "keyPage": 1,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$v = s/t = (385-115)/(3.50-1.50) = 270/2.00 = 135\\ \\mathrm{mm\\,s^{-1}}$.\n\nAdd fractional uncertainties: $\\dfrac{\\Delta v}{v} = \\dfrac{\\Delta s}{s}+\\dfrac{\\Delta t}{t} = \\dfrac{1+1}{270}+\\dfrac{0.02+0.02}{2.00}$.\n\n$\\Delta v = 3.7 \\approx 4\\ \\mathrm{mm\\,s^{-1}}$.",
+   "perOption": {
+    "A": "Uses the uncertainty in time only and mishandles the ratio.",
+    "B": "Combines the uncertainties incorrectly and gets a far too small value.",
+    "C": "Uses a single reading uncertainty and ignores that differences add uncertainties.",
+    "D": "Correct. Uncertainties in a difference add, then fractional uncertainties add for the quotient."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "practical",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires adding absolute uncertainties for each difference before adding fractional uncertainties.",
+  "misconception": "Using a single reading uncertainty instead of the sum for a difference",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q2",
+  "keyPage": 1,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The second displacement is resultant minus first. Resolving gives a right-angled triangle with sides 150 cm and 140 cm.\n\nMagnitude $=\\sqrt{150^2+140^2} = 205\\ \\mathrm{cm}$.\n\nDirection $= 90 - 30 - \\tan^{-1}(140/150) = 17^\\circ$ below the $x$-axis, i.e. $343^\\circ$ anticlockwise from $+x$.",
+   "perOption": {
+    "A": "Adds magnitudes (150+140) and ignores the angles.",
+    "B": "Adds magnitudes (150+140) and ignores the angles.",
+    "C": "Correct magnitude but the angle is taken above the x-axis instead of below.",
+    "D": "Correct. $17^\\circ$ below the $x$-axis is $343^\\circ$ anticlockwise."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.i",
+   "quantities-and-measurement.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Vector subtraction in two dimensions with an angle convention to interpret.",
+  "misconception": "Taking the angle above rather than below the axis",
+  "transcription": "A man pushing a mop makes two displacements. The first is 150 cm at $120^\\circ$ anticlockwise from the positive $x$-axis [diagram shows the vector in the second quadrant]. The resultant is 140 cm at $30^\\circ$ anticlockwise from $+x$. What are the magnitude and direction (anticlockwise from $+x$) of the second displacement? A 290 cm, $90^\\circ$. B 290 cm, $270^\\circ$. C 205 cm, $17^\\circ$. D 205 cm, $343^\\circ$."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q3",
+  "keyPage": 1,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At the start: $1.2\\times10^5 = 2(1.0\\times10^5)a$, so $a = 0.60\\ \\mathrm{m\\,s^{-2}}$. At $t=20\\ \\mathrm{s}$, $v = 0.60\\times20 = 12\\ \\mathrm{m\\,s^{-1}}$.\n\nThe back carriage then moves at constant $12\\ \\mathrm{m\\,s^{-1}}$: in 20 s it travels $240\\ \\mathrm{m}$.\n\nThe front carriage now has $a = 1.2\\ \\mathrm{m\\,s^{-2}}$: $s = 12(20)+\\tfrac12(1.2)(20)^2 = 480\\ \\mathrm{m}$.\n\nSeparation $= 480-240 = 240\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Not obtained from the correct motion of either carriage.",
+    "B": "Correct. Front 480 m minus back 240 m.",
+    "C": "Not obtained from the correct motion of either carriage.",
+    "D": "This is the distance travelled by the front carriage alone, not the separation."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Chained kinematics: the front carriage's acceleration changes after the coupling breaks.",
+  "misconception": "Forgetting that the front carriage's acceleration doubles once the rear one is shed",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q4",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Ball A: $h=\\tfrac12 gt^2$ gives $t=\\sqrt{2h/g}$, so $x_A = 2v\\sqrt{2h/g}$.\n\nBall B: $2h=\\tfrac12 gt^2$ gives $t=\\sqrt2\\sqrt{2h/g}$, so $x_B = v\\sqrt2\\sqrt{2h/g}$.\n\n$\\dfrac{x_A}{x_B} = \\dfrac{2}{\\sqrt2} = \\sqrt2 = 1.41$.",
+   "perOption": {
+    "A": "Uses the speed ratio only and ignores the longer fall time of B (2.83 = $2\\sqrt2$).",
+    "B": "Correct. Time ratio is $1/\\sqrt2$, speed ratio is 2.",
+    "C": "Assumes the two effects cancel exactly.",
+    "D": "Inverts the ratio or mishandles the time dependence (0.353)."
+   }
+  },
+  "issues": null,
+  "chapter": "projectile-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "projectile-motion.b"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs time of fall $\\propto\\sqrt h$ combined with speed ratio.",
+  "misconception": "Forgetting that fall time depends on height",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q5",
+  "keyPage": 2,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Whole system: $F-6f = 6Ma$, so $a = \\dfrac{F-6f}{6M}$ (friction is proportional to mass: $f$, $2f$, $3f$).\n\nFor block $3M$: $F_1 - 3f = 3Ma$, so $F_1 = 3M\\left(\\dfrac{F-6f}{6M}\\right)+3f = \\dfrac F2$.",
+   "perOption": {
+    "A": "Correct. The friction terms cancel.",
+    "B": "Adds $3f$ to $F/2$ again; friction on $3M$ is already included.",
+    "C": "Splits $F$ equally between the three blocks.",
+    "D": "Splits $F$ equally between the three blocks and adds friction wrongly."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "motion-and-forces.h",
+   "motion-and-forces.i",
+   "forces-and-moments.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Apply Newton's second law to the system, then to a single block, with friction proportional to mass.",
+  "misconception": "Ignoring that friction scales with each block's mass",
+  "transcription": "Three blocks of masses $M$, $2M$, $3M$ (in that order, $M$ at the left) are pushed along a rough surface by a horizontal force $F$ applied to $M$. Friction on mass $M$ is $f$ and $f$ is proportional to $M$. What is the magnitude of the force that $3M$ exerts on $2M$? A $F/2$. B $F/2+3f$. C $F/3+f$. D $F/3+3f$."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q6",
+  "keyPage": 2,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Conservation of momentum in the collision: $(5.0)(200) = (5.0+95)u$, so $u = 10\\ \\mathrm{m\\,s^{-1}}$.\n\nConservation of energy afterwards: $\\tfrac12(100)(10^2) = (100)(9.81)H$, so $H = 5.1\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Correct. Mass units cancel.",
+    "B": "Uses $g=10$ with $u$ wrongly, or ignores the combined mass.",
+    "C": "Uses the pellet's speed or mass inconsistently.",
+    "D": "Applies energy conservation to the pellet's initial speed (about 2000 m)."
+   }
+  },
+  "issues": null,
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "projectile-motion"
+  ],
+  "outcomes": [
+   "collisions.c",
+   "energy-and-fields.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Momentum conservation in a perfectly inelastic collision followed by energy conservation.",
+  "misconception": "Applying energy conservation across the collision",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q7",
+  "keyPage": 2,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The rack is in equilibrium under three forces (weight, the push from the bottle's neck at the top, and the table's contact force at the bottom). For three non-parallel forces in equilibrium, the lines of action must meet at a single point. Only diagram C satisfies this.",
+   "perOption": {
+    "A": "The lines of action do not meet at a point.",
+    "B": "Forces are all vertical, so the torque cannot balance with the top force.",
+    "C": "Correct. The three lines of action are concurrent.",
+    "D": "The lines of action do not meet at a point."
+   }
+  },
+  "issues": null,
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.h",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs the three-force concurrency rule applied to unfamiliar diagrams.",
+  "misconception": "Treating the table reaction as purely vertical",
+  "transcription": "[Diagram of a wine rack with a bottle balanced on a table; the rack is not attached to the base.] Which diagram (A to D) correctly shows the directions of the forces on the wine rack? [Four free-body diagrams of the slanted rack, with arrows at the top and bottom contact points and a downward weight at the centre.]"
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q8",
+  "keyPage": 2,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For each mass, tension + upthrust = weight, so tension = weight $-$ upthrust.\n\nThe rod is horizontal and pivoted at its centre, so the tensions are equal.\n\nUpthrust $=V\\rho g$ is greater for P because liquid X is denser, so P's weight must be greater to give the same tension as Q.",
+   "perOption": {
+    "A": "Same volume but different liquid densities give different upthrusts.",
+    "B": "P is in the denser liquid so its upthrust is larger, not smaller.",
+    "C": "Reverses the conclusion: P needs the larger weight.",
+    "D": "Correct. Larger upthrust on P means P must be heavier."
+   }
+  },
+  "issues": null,
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.b",
+   "forces-and-moments.g"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires combining moment balance with upthrust.",
+  "misconception": "Thinking equal moments imply equal weights",
+  "transcription": "Two objects P and Q of the same volume hang from the ends of a light uniform rod pivoted at its centre; P is submerged in liquid X and Q in liquid Y. Density of X is greater than that of Y, and the system balances. Which statement is correct? A P and Q experience the same upthrust. B Upthrust on P is smaller than on Q. C Mass of P is smaller than mass of Q. D Mass of P is greater than mass of Q."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q9",
+  "keyPage": 2,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Vertical: $T\\cos30^\\circ = mg$ (1). Horizontal: $T\\sin30^\\circ = mr\\omega^2$ (2).\n\n(2)/(1): $\\tan30^\\circ = r\\omega^2/g$, with $r = 3.0+5.0\\sin30^\\circ = 5.5\\ \\mathrm{m}$.\n\n$\\omega = 1.01\\ \\mathrm{rad\\,s^{-1}}$, so $T = 2\\pi/\\omega = 6.2\\ \\mathrm{s}$.",
+   "perOption": {
+    "A": "Not from the correct radius or angular speed.",
+    "B": "Uses $r=3.0\\ \\mathrm{m}$ or similar wrong radius.",
+    "C": "Uses $r=5.0\\ \\mathrm{m}$ or a wrong radius (omits the 3.0 m offset).",
+    "D": "Correct. Radius of the circle is $3.0+5.0\\sin30^\\circ$."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "circular-motion.d",
+   "circular-motion.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Radius includes an offset from the axle and the resolved tension supplies the centripetal force.",
+  "misconception": "Using the string length as the circle radius",
+  "transcription": "A mass $m$ on an inextensible string of length 5.0 m moves in a horizontal circle as a central axle rotates. The string is attached 3.0 m from the axle and makes $30^\\circ$ with the vertical. What is the period of the motion about the axle? A 1.0 s. B 3.5 s. C 4.8 s. D 6.2 s."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q10",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Tangentially: $F - mg\\sin\\theta = 0$. Radially: $T - mg\\cos\\theta = mr\\omega^2$.\n\nSo $T = mr\\omega^2 + mg\\cos\\theta$, which varies with $\\cos\\theta$.\n\nTension is largest at the lowest point ($\\theta=0$) and smallest at the highest point ($\\theta=\\pi$), matching graph C.",
+   "perOption": {
+    "A": "Constant tension would need no weight component.",
+    "B": "Has two cycles per revolution; $\\cos\\theta$ has one.",
+    "C": "Correct. Maximum at $\\theta=0$, minimum at $\\theta=\\pi$.",
+    "D": "Minimum at $\\theta=0$, which is reversed."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.d",
+   "circular-motion.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Choose the right graph shape from $T = mr\\omega^2 + mg\\cos\\theta$.",
+  "misconception": "Thinking the tension is constant because the speed is constant",
+  "transcription": "An object fixed to one end of a light rod rotates in a vertical circle at constant speed; $\\theta$ is the angle of the rod from the downward vertical. Which graph could represent $T$ against $\\theta$ from 0 to $2\\pi$? [A: constant. B: two full oscillations, maximum at 0, $\\pi$ and $2\\pi$. C: cosine-like with a maximum at 0 and $2\\pi$ and a minimum at $\\pi$. D: starts low, maximum at $\\pi$, falls to low at $2\\pi$.]"
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q11",
+  "keyPage": 3,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "At P: $\\Phi_P = -\\dfrac{GM}{r/3}-\\dfrac{GM_B}{2r/3} = -\\dfrac Gr(3M+1.5M_B)$.\n\nAt Q: $\\Phi_Q = -\\dfrac{GM}{2r/3}-\\dfrac{GM_B}{r/3} = -\\dfrac Gr(1.5M+3M_B)$.\n\n$\\Phi_Q = 1.25\\Phi_P$ gives $1.5M+3M_B = 1.25(3M+1.5M_B)$, so $M_B = 2M$.",
+   "perOption": {
+    "A": "Algebra slip in the potential contributions.",
+    "B": "Uses the wrong distances for one planet.",
+    "C": "Uses the wrong distances for one planet.",
+    "D": "Correct. Add the potentials from both planets at each point."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Superposition of potentials at two points, with algebra to solve for the unknown mass.",
+  "misconception": "Using the wrong distance from each planet",
+  "transcription": "Planet A (mass $M$) and planet B (unknown mass) have centres a distance $r$ apart. Points P and Q lie on the line joining them, dividing it into three equal parts of $r/3$ (P nearer A, Q nearer B). A spacecraft moving from P to Q has gravitational potential energy changing from $U$ to $1.25U$. What is the mass of B in terms of $M$? A $5M/4$. B $4M/3$. C $3M/2$. D $2M$."
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q12",
+  "keyPage": 3,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Gravitational force provides the centripetal force: $\\dfrac{GMm}{r^2}=mr\\omega^2$, so $\\omega^2\\propto 1/r^3$. When $r$ decreases, both the gravitational force and $\\omega$ increase, so A and B are wrong.\n\n$KE=+\\dfrac{GMm}{2r}$ and $GPE=-\\dfrac{GMm}{r}$. As $r$ decreases, KE increases while GPE decreases, so only D is correct.",
+   "perOption": {
+    "A": "Angular velocity increases since $\\omega^2\\propto1/r^3$.",
+    "B": "Force $\\propto 1/r^2$ increases as $r$ decreases.",
+    "C": "KE $=GMm/2r$ increases as $r$ decreases.",
+    "D": "Correct. GPE becomes more negative."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.j"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "statements"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard qualitative results for circular orbits.",
+  "misconception": "Thinking energy decreases in every form as the satellite moves closer",
+  "transcription": null
+ },
+ {
+  "id": "tjc-2023-prelim-p1-q13",
+  "keyPage": 3,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let $h$ be the rate of heat loss. Then $10 = \\dfrac{mc\\Delta\\theta}{t}+h$ (1) and $18 = \\dfrac{3mc\\Delta\\theta}{t}+h$ (2).\n\nSubtracting: $8 = 2\\dfrac{mc\\Delta\\theta}{t}$, so $\\dfrac{mc\\Delta\\theta}{t}=4\\ \\mathrm{W}$, giving $h = 6.0\\ \\mathrm{W}$.",
+   "perOption": {
+    "A": "Does not satisfy both equations.",
+    "B": "Correct. $10-4 = 6.0\\ \\mathrm{W}$.",
+    "C": "Does not satisfy both equations.",
+    "D": "Does not satisfy both equations."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "practical"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Set up two simultaneous energy balance equations including heat loss.",
+  "misconception": "Ignoring heat loss or assuming it changes with power",
+  "transcription": null
+ }
+]
