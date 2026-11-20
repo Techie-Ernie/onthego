@@ -1,0 +1,508 @@
+[
+  {
+    "id": "dhs-2023-promo-p1-q10",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity accelerates both the man and the space station towards Earth at the rate needed for their orbit. They are in free fall together, so the station exerts no supporting contact force on him.",
+      "perOption": {
+        "A": "Gravity supplies the inward acceleration needed to maintain the orbit.",
+        "B": "A contact force equal and opposite to weight would cancel the inward force and would be felt as support.",
+        "C": "Centripetal force is the inward resultant, supplied here by weight.",
+        "D": "Correct. His weight provides the inward force while he floats freely."
+      }
+    },
+    "issues": "The designated key file contains only the exam paper. The parsed A is an unverified placeholder.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing apparent weight from gravitational force.",
+    "misconception": "Weightlessness means gravity is negligible.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-promo-p1-q11",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GMm/r^2=mv^2/r$. Thus $v=\\sqrt{GM/r}$, which increases as the orbital radius decreases.",
+      "perOption": {
+        "A": "Correct. A smaller circular orbit has a higher linear speed.",
+        "B": "Since $\\omega=v/r=\\sqrt{GM/r^3}$, angular speed increases.",
+        "C": "Since $F=GMm/r^2$, gravitational force increases.",
+        "D": "Since $U=-GMm/r$, gravitational potential energy decreases and becomes more negative."
+      }
+    },
+    "issues": "The designated key file contains only the exam paper. The parsed A is an unverified placeholder.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare how orbital quantities depend on radius.",
+    "misconception": "Treating orbital angular speed as independent of radius.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-promo-p1-q12",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The equilibrium mark is $60\\ \\mathrm{cm}$ and the amplitude is $10\\ \\mathrm{cm}$. The particle starts at the left extreme, so its position in centimetres is $60-10\\cos(2\\pi t/2.0)$. At $t=1.25\\ \\mathrm{s}$ this gives $67.1\\ \\mathrm{cm}$, or $67\\ \\mathrm{cm}$ to the nearest centimetre.",
+      "perOption": {
+        "A": "This is on the wrong side of equilibrium, which the particle next reaches at $1.50\\ \\mathrm{s}$.",
+        "B": "This underestimates the displacement above equilibrium, which is about $7.1\\ \\mathrm{cm}$.",
+        "C": "This follows from treating the motion from 70 cm to 60 cm as uniform.",
+        "D": "Correct. The particle is about 7 cm above the equilibrium mark."
+      }
+    },
+    "issues": "The designated key file contains only the exam paper. The parsed A is an unverified placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires setting the starting phase and converting displacement into a scale reading.",
+    "misconception": "Confusing displacement from equilibrium with position on the scale.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-promo-p1-q13",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The successive kinetic-energy zeros are opposite turning points, so $T/2=1.0\\ \\mathrm{s}$ and $\\omega=2\\pi/T=\\pi\\ \\mathrm{rad\\,s^{-1}}$. The peak kinetic energy gives $v_{\\max}=\\sqrt{2(88)/3.0}=7.66\\ \\mathrm{m\\,s^{-1}}$. Since $v_{\\max}=\\omega x_0$ and $a_{\\max}=\\omega^2x_0$, $a_{\\max}=\\omega v_{\\max}\\approx24\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "This is half the correct acceleration and would follow from using $4.0\\ \\mathrm{s}$ as the motion period.",
+        "B": "Correct. The motion period is twice the interval between successive energy zeros.",
+        "C": "This overestimates the peak acceleration fixed by the graph’s peak energy and turning-point interval.",
+        "D": "This results from taking the 1.0 s interval between energy zeros as a full oscillation."
+      }
+    },
+    "issues": "The designated key file contains only the exam paper. The parsed A is an unverified placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.h",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the motion period from the energy graph and link peak energy to peak acceleration.",
+    "misconception": "Taking the kinetic-energy period as the oscillation period.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-promo-p1-q14",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At uniform thickness, halving the width halves the cross-sectional area $A$. Since $R/L=\\rho/A$, the narrow section has twice the resistance per unit length. Both sections carry the same current, so $V/L=IR/L$ is twice as large in the narrow section as well.",
+      "perOption": {
+        "A": "Equal current gives equal voltage drop per unit length only when resistance per unit length is equal.",
+        "B": "The smaller cross section increases the voltage drop per unit length for the same current.",
+        "C": "Correct. Halving the cross-sectional area doubles the resistance per unit length.",
+        "D": "The same steady current passes through both sections of the continuous strip."
+      }
+    },
+    "issues": "The designated key file contains only the exam paper. The parsed A is an unverified placeholder.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires relating the width to cross-sectional area and recognizing that both sections carry the same current.",
+    "misconception": "Assuming that series sections with the same current have the same voltage gradient.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-promo-p1-q15",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": null,
+    "confidence": "low",
+    "explanation": {
+      "body": "Cooling increases the thermistor resistance, so a fixed positive $V_2$ would require the box to draw less current. At fixed $V_2$, brighter light increases the current in every conducting LDR branch, while other branch currents stay fixed in the usual component model. An ideal forward-biased diode directly across the box would instead clamp $V_2$ to zero.",
+      "perOption": {
+        "A": "The conducting diode and LDR branch draws more current at a fixed output voltage as the light brightens.",
+        "B": "An ideal forward diode directly across the box clamps the output to zero.",
+        "C": "The reverse-biased diode blocks the LDR branch, leaving a fixed resistor whose voltage falls as the thermistor resistance rises.",
+        "D": "The reverse-biased diode leaves the LDR across the box, so brightening lowers its resistance and lowers its share of the supply voltage."
+      }
+    },
+    "issues": "The designated key file contains only the exam paper. The parsed A is an unverified placeholder. No official solution is available. No option gives an exactly constant positive output under the ideal-diode model. B could be intended if a constant nonzero forward-voltage model is assumed and the diode remains conducting.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.e",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application",
+      "graph"
+    ],
+    "difficulty": 5,
+    "difficultyReason": "It requires checking diode bias and whether the circuit can maintain a positive fixed output voltage.",
+    "misconception": "Assuming the two resistance changes cancel in the potential divider.",
+    "transcription": "An electrical circuit as shown is set up as shown.\n\n[A cell, with its positive terminal on the left, supplies a thermistor and a dotted box in series. Voltmeters measure $V_1$ across the thermistor and $V_2$ across the dotted box.]\n\nThe temperature was decreased and the intensity of light increased. The variation of $V_2$ with time $t$ is as shown.\n\n[Graph of $V_2$ against $t$ showing a horizontal line at a positive voltage.]\n\nWhich of the following could have been a possible set up in the dotted box?\n\nA [Fixed resistor in parallel with a series branch containing a right-pointing diode and an LDR.]\nB [LDR in parallel with a right-pointing diode.]\nC [Fixed resistor in parallel with a series branch containing a left-pointing diode and an LDR.]\nD [LDR in parallel with a left-pointing diode.]"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By dimensional analysis, $\\sqrt{g\\lambda}$ has units $\\sqrt{\\mathrm{m^2\\,s^{-2}}}=\\mathrm{m\\,s^{-1}}$. These are the units of velocity.",
+      "perOption": {
+        "A": "Correct. The expression has units of velocity.",
+        "B": "Dividing $g$ by $h$ gives $\\mathrm{s^{-2}}$ under the square root, so the result has units $\\mathrm{s^{-1}}$.",
+        "C": "Including density gives $\\mathrm{kg\\,m^{-1}\\,s^{-2}}$ under the square root, which are pressure units.",
+        "D": "Dividing by density leaves $\\mathrm{kg^{-1}\\,m^4\\,s^{-2}}$ under the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It requires a single check of SI base units.",
+    "misconception": "Treating a dimensionally inconsistent expression as a possible speed.",
+    "transcription": "Which expression could be correct for the velocity $v$ of the ocean waves in terms of the density of sea water $\\rho$, the acceleration of free fall $g$, the depth of the ocean $h$, and the wavelength $\\lambda$?\n\nA $\\sqrt{g\\lambda}$\nB $\\sqrt{g/h}$\nC $\\sqrt{\\rho gh}$\nD $\\sqrt{g/\\rho}$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The second displacement is $\\mathbf{s}_2=\\mathbf{s}-\\mathbf{s}_1$. The resultant and $-\\mathbf{s}_1$ are perpendicular, so $s_2=\\sqrt{140^2+150^2}=205\\ \\mathrm{cm}$. The angle below the resultant is $\\tan^{-1}(150/140)\\approx47^\\circ$, giving $30^\\circ-47^\\circ=-17^\\circ$ relative to the positive $x$-axis.",
+      "perOption": {
+        "A": "Correct. The second displacement is 205 cm at 17° clockwise from the positive axis.",
+        "B": "This reverses the sign of the angle and places the displacement above the axis.",
+        "C": "This adds the two magnitudes and assigns a downward direction despite the positive horizontal component.",
+        "D": "This adds the two magnitudes and assigns an upward direction even though the vertical component is negative."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires subtracting vectors and identifying the correct signed direction.",
+    "misconception": "Adding displacement magnitudes as scalars.",
+    "transcription": "A man pushing a mop across a floor causes it to undergo two displacements. The first has a magnitude of 150 cm and makes an angle of $120^\\circ$ with the positive $x$-axis as shown below. The resultant displacement has a magnitude of 140 cm and is directed at an angle of $30.0^\\circ$ to the positive $x$-axis. Both angles are measured anti-clockwise with respect to the positive $x$-axis.\n\n[The positive $x$-axis points right. The first displacement points up and left and is labelled 150 cm, with its angle from the positive axis marked $120^\\circ$.]\n\nWhat are the magnitude and direction of the second displacement?\n\n[Table columns give magnitude / cm and angle to the positive $x$-axis / degrees.]\nA 205, $-17$\nB 205, $17$\nC 290, $-90$\nD 290, $90$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The acceleration during braking is $a=(0-15)/1.2=-12.5\\ \\mathrm{m\\,s^{-2}}$. Using $v^2=u^2+2as$ gives $0=15^2+2(-12.5)s$, so the braking distance is $9.0\\ \\mathrm m$. Add the distance travelled during the reaction time to get $9.0+15(0.10)=10.5\\ \\mathrm m$.",
+      "perOption": {
+        "A": "This includes only the braking distance.",
+        "B": "Correct. It includes both the reaction and braking distances.",
+        "C": "This exceeds the sum of the 1.5 m reaction distance and 9.0 m braking distance.",
+        "D": "This assumes the car maintains its initial speed throughout both intervals."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It uses standard kinematics but requires separating the reaction and braking intervals.",
+    "misconception": "Counting only the braking distance.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In a perfectly elastic collision, the relative speed of separation equals the relative speed of approach. The approach speed is $1.30-(-0.50)=1.80\\ \\mathrm{m\\,s^{-1}}$. Only D has the same separation speed, $1.30-(-0.50)=1.80\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "The separation speed is $0.58-0.22=0.36\\ \\mathrm{m\\,s^{-1}}$.",
+        "B": "The separation speed is $0.40-0.40=0.00\\ \\mathrm{m\\,s^{-1}}$.",
+        "C": "The separation speed is $0.99-(-0.19)=1.18\\ \\mathrm{m\\,s^{-1}}$.",
+        "D": "Correct. The separation speed equals the approach speed."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires comparing signed velocities before and after an elastic collision.",
+    "misconception": "Treating momentum conservation alone as sufficient for an elastic collision.",
+    "transcription": "Two balls P and Q, of equal mass, move along a straight line directly towards each other as shown.\n\n[P is on the left with a rightward arrow labelled $1.30\\ \\mathrm{m\\,s^{-1}}$. Q is on the right with a leftward arrow labelled $0.50\\ \\mathrm{m\\,s^{-1}}$.]\n\nBall P has velocity $1.30\\ \\mathrm{m\\,s^{-1}}$ to the right. Ball Q has velocity $0.50\\ \\mathrm{m\\,s^{-1}}$ to the left. P and Q collide with one another. The collision is perfectly elastic and the total momentum is conserved.\n\nWhich diagram correctly shows the motion of P and Q after the collision?\n\nA [P moves right at $0.22\\ \\mathrm{m\\,s^{-1}}$ and Q moves right at $0.58\\ \\mathrm{m\\,s^{-1}}$.]\nB [P and Q are touching and both move right at $0.40\\ \\mathrm{m\\,s^{-1}}$.]\nC [P moves left at $0.19\\ \\mathrm{m\\,s^{-1}}$ and Q moves right at $0.99\\ \\mathrm{m\\,s^{-1}}$.]\nD [P moves left at $0.50\\ \\mathrm{m\\,s^{-1}}$ and Q moves right at $1.30\\ \\mathrm{m\\,s^{-1}}$.]"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Newton’s third law, the contact forces the blocks exert on each other are equal in magnitude and opposite in direction. One acts on $m_1$ and the other acts on $m_2$.",
+      "perOption": {
+        "A": "Both forces act on the same block, whereas each third-law partner acts on a different body.",
+        "B": "Correct. The two contact forces form a third-law pair.",
+        "C": "The table supports the combined weight of both blocks in either order.",
+        "D": "Once $m_2$ is on top, the inter-block force supports $m_2g$, which is smaller than $m_1g$."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing a third-law pair from two forces that balance on one object.",
+    "misconception": "Pairing two balancing forces on the same body.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Air resistance increases as the ball speeds up, so it is force $X$. In the key’s model the resultant force is weight minus air resistance, so it decreases towards zero as terminal velocity is approached and is force $Y$.",
+      "perOption": {
+        "A": "Correct. Drag increases and the resultant approaches zero.",
+        "B": "Weight is constant during the fall, while force $Y$ decreases.",
+        "C": "Upthrust exists at rest and is approximately constant in uniform air.",
+        "D": "Upthrust is approximately constant in uniform air, and weight is constant too."
+      }
+    },
+    "issues": "The key describes drag as proportional to speed, which is unnecessary and is not generally valid, and neglects upthrust. Neither simplification changes the answer.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "forces-and-moments",
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "forces-and-moments.b",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires matching each force to its initial value and its trend as terminal velocity is approached.",
+    "misconception": "Confusing air resistance with upthrust.",
+    "transcription": "A ball falls from rest through air and eventually reaches a constant velocity. For this fall, forces $X$ and $Y$ vary with time as shown.\n\n[Force $X$ against time rises from zero with a decreasing slope. Force $Y$ against time falls from a positive initial value towards zero.]\n\nWhat are forces $X$ and $Y$?\n\n[Table columns give force $X$ and force $Y$.]\nA air resistance, resultant force\nB air resistance, weight\nC upthrust, resultant force\nD upthrust, weight"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a constant force, work is the force multiplied by the displacement in its direction. For the work against gravity, the relevant displacement is the vertical rise $q$, so the work is $Wq$.",
+      "perOption": {
+        "A": "The horizontal displacement $p$ is perpendicular to the weight.",
+        "B": "Adding $p$ counts horizontal displacement, which does not contribute to work against gravity.",
+        "C": "Correct. The lifting work is weight times vertical rise.",
+        "D": "The diagonal distance $r$ must be projected onto the vertical before multiplying by $W$."
+      }
+    },
+    "issues": "The key interprets the question as asking for work done by the lifting mechanism against gravity. Net work is zero because the weight starts and ends at rest.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires selecting the displacement component along the lifting force.",
+    "misconception": "Using the full displacement magnitude to compute work against gravity.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The useful output power per engine is half the total thrust power. Using $\\eta=P_{\\mathrm{out}}/P_{\\mathrm{in}}$ gives $0.5(200\\,000)(250)/P_{\\mathrm{in}}=0.80$. The input power per engine is $31.3\\ \\mathrm{MW}$.",
+      "perOption": {
+        "A": "This is the useful output per engine before allowing for efficiency.",
+        "B": "Correct. Each engine supplies half the useful thrust power at 80% efficiency.",
+        "C": "This is the combined input power of both engines.",
+        "D": "This exceeds the per-engine input required to supply 25.0 MW of useful output at 80% efficiency."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.m",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires calculating thrust power, sharing it between two engines and applying efficiency.",
+    "misconception": "Confusing useful output power with input power.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The period of the minute hand is $T=60\\times60\\ \\mathrm{s}$. Its angular velocity has magnitude $\\omega=2\\pi/T=2\\pi/(60\\times60)=1.75\\times10^{-3}\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This is close to the angle swept in one full turn and fails to divide by the full period.",
+        "B": "This is $2\\pi/60$ in radians per minute, mislabelled as radians per second.",
+        "C": "Correct. The hand turns through one revolution in 3600 s.",
+        "D": "This is three times too large and would correspond to a 20-minute period."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a",
+      "circular-motion.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It requires converting one hour to seconds and dividing one revolution by the period.",
+    "misconception": "Using minutes in a result expressed per second.",
+    "transcription": null
+  }
+]

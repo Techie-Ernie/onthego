@@ -1,0 +1,514 @@
+[
+  {
+    "id": "cjc-2023-prelim-p1-q29",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the given nuclear mass to find the mass defect: $\\Delta m=[82(1.00863)+57(1.00728)-138.955]\\ \\mathrm{u}=1.16762\\ \\mathrm{u}$. The binding energy is $\\Delta mc^2=(1.16762)(1.66\\times10^{-27})(3.00\\times10^8)^2=1.74442428\\times10^{-10}\\ \\mathrm{J}$, or $1090.265\\ \\mathrm{MeV}$ using $1\\ \\mathrm{MeV}=1.60\\times10^{-13}\\ \\mathrm{J}$. Dividing by $139$ gives $7.84\\ \\mathrm{MeV}$ per nucleon.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Including the seven electron masses inflates the nuclear mass defect.",
+        "C": "Divides the binding energy by 57 protons instead of 139 nucleons.",
+        "D": "Includes the seven electron masses and divides by the proton count."
+      }
+    },
+    "issues": "The parser marked the answer missing. Page 21 and the cover table both print A.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.p",
+      "nuclear-physics.q",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the nuclear mass defect, convert it to energy, and divide by the nucleon count.",
+    "misconception": "Confusing proton number with nucleon number",
+    "transcription": "One nuclear reaction that can take place in a nuclear reactor may be represented by the equation\n\n${}^{235}_{92}\\mathrm{U}+{}^{1}_{0}\\mathrm{n}\\rightarrow{}^{95}_{42}\\mathrm{Mo}+{}^{139}_{57}\\mathrm{La}+2\\,{}^{1}_{0}\\mathrm{n}+7\\,{}^{0}_{-1}\\mathrm{e}$\n\nData for a nucleus and some particles are given in the table.\n\nnucleus or particle | mass / u\n${}^{139}_{57}\\mathrm{La}$ nucleus | 138.955\n${}^{1}_{0}\\mathrm{n}$ particle | 1.00863\n${}^{1}_{1}\\mathrm{p}$ particle | 1.00728\n${}^{0}_{-1}\\mathrm{e}$ particle | $5.49\\times10^{-4}$\n\nWhat is the binding energy per nucleon of lanthanum-139 (${}^{139}_{57}\\mathrm{La}$)?\n\nA 7.84 Mev\nB 7.87 MeV\nC 19.13 MeV\nD 19.19 MeV"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q30",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $x=x_0(\\tfrac12)^n$, where $n$ is the number of elapsed half-lives. In $16$ hours, $n=16/32=0.5$, so $x=x_0(\\tfrac12)^{0.5}=0.7071x_0\\approx0.71x_0$.",
+      "perOption": {
+        "A": "Treats 16 hours as two half-lives by reversing the time ratio.",
+        "B": "Gives the fraction that decayed.",
+        "C": "Gives the fraction remaining after a full half-life.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The school prints D on page 21 and in the cover table. The parsed keyAnswer is A with keyStatus answer-missing.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must apply the decay factor for half of a half-life.",
+    "misconception": "Confusing fraction decayed with fraction remaining",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q1",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The drone’s velocity relative to the car is $\\vec v_{\\mathrm{drone}}-\\vec v_{\\mathrm{car}}$. Add $20\\ \\mathrm{m\\,s^{-1}}$ south to $15\\ \\mathrm{m\\,s^{-1}}$ east to obtain a direction $\\tan^{-1}(15/20)=36.9^\\circ$ east of south, closest to arrow A.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Points northwest, opposite to the required southeast direction.",
+        "C": "Points southeast but is farther from the required angle of $36.9^\\circ$ east of south.",
+        "D": "Points northwest, opposite to the required southeast direction."
+      }
+    },
+    "issues": "The question PNG cuts off all four option arrows. The transcription restores them from the same question on key page 4.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must subtract the car’s velocity and compare the direction of the resultant with the arrows.",
+    "misconception": "Adding velocities for relative motion",
+    "transcription": "A car is travelling west with a speed of $15\\ \\mathrm{m\\,s^{-1}}$.\n\n[Top view of a car with a leftward arrow labelled $15\\ \\mathrm{m\\,s^{-1}}$. A compass shows north up, east right, south down and west left.]\n\nA drone moving south flies over the car with a speed of $20\\ \\mathrm{m\\,s^{-1}}$.\n\nAt this instant, which arrow represents the velocity of the drone relative to the car?\n\nA [Steep arrow pointing down and right.]\nB [Steep arrow pointing up and left.]\nC [Shallower arrow pointing down and right.]\nD [Shallower arrow pointing up and left.]"
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q2",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take upward as positive and use $s_y=u_yt+\\tfrac12a_yt^2$. Substitution gives $3.0-2.3=(6.5\\sin50^\\circ)t-\\tfrac12(9.81)t^2$, so $4.905t^2-4.97929t+0.7=0$. The roots are $0.16858\\ \\mathrm{s}$ and $0.84657\\ \\mathrm{s}$, and the later crossing is on the way down, giving $0.85\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Selects the earlier root, when the ball is rising.",
+        "B": "Gives a time before the apex, while the ball is still rising.",
+        "C": "Gives a time shortly after the apex, when the ball is still above the basket.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve the launch velocity, solve a quadratic, and select the descending crossing.",
+    "misconception": "Choosing the first root for a descending projectile",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q3",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The area under the force–time graph from $4.0$ to $6.0\\ \\mathrm{s}$ gives $\\Delta p=\\tfrac12(6-4)(\\tfrac23\\times20)=13.333\\ \\mathrm{N\\,s}$. This impulse is positive in the direction of motion, so $20(v_f-4.0)=+13.333$. Hence $v_f=4.7\\ \\mathrm{m\\,s^{-1}}$ in the original direction.",
+      "perOption": {
+        "A": "Uses the 20 N peak for the triangle over the last two seconds and subtracts the resulting speed change.",
+        "B": "Subtracts the speed change even though the force acts forward.",
+        "C": "Correct.",
+        "D": "Uses the 20 N peak as the height of the triangle from 4.0 to 6.0 s."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpolate the force at 4.0 s and convert the triangular impulse into a velocity change.",
+    "misconception": "Subtracting impulse that acts in the direction of motion",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q4",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force of the wall on the water is the mass flow rate $\\rho Av$ times the change in velocity. Taking the incident direction as positive gives $F=(1000)\\pi(0.005)^2(0.5)(0-0.5)=-0.0196\\ \\mathrm{N}$. Newton’s third law gives an equal and opposite force of $2.0\\times10^{-2}\\ \\mathrm{N}$ on the wall.",
+      "perOption": {
+        "A": "Uses a radius half the correct value, reducing the force by a factor of four.",
+        "B": "Correct.",
+        "C": "Uses the nozzle diameter squared as the cross-sectional area.",
+        "D": "Uses the diameter as the radius in the circular area formula."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate mass flow, use momentum change per unit time, and identify the reaction force.",
+    "misconception": "Using diameter as radius",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q5",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $m$ be each particle’s mass and $u$ the initial speed of the moving particle, so $K=\\tfrac12mu^2$. After the particles stick together, momentum conservation gives $mu+0=2mV$, hence $V=u/2$. Their total kinetic energy is $\\tfrac12(2m)(u/2)^2=\\tfrac12K$.",
+      "perOption": {
+        "A": "Counts the final kinetic energy of only one particle.",
+        "B": "Correct.",
+        "C": "Assumes that kinetic energy is conserved in a perfectly inelastic collision.",
+        "D": "Gives both particles the initial speed of the moving particle."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must find the shared speed from momentum conservation and use it for both particles.",
+    "misconception": "Applying kinetic energy conservation to an inelastic collision",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q6",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stored energy is the work done in stretching the spring, found by multiplying the triangular area under the mass–length graph by $g$. The graph gives zero load at $20\\ \\mathrm{cm}$ and $180\\ \\mathrm{g}$ at $35\\ \\mathrm{cm}$. Thus $E=\\tfrac12[(35-20)/100](180/1000)(9.81)=0.132\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Uses an incorrect mass–length area or unit conversion, giving too little work.",
+        "B": "Uses a mass–length area without converting mass to force and takes 35 cm as the extension.",
+        "C": "Correct.",
+        "D": "Takes 35 cm as the extension, ignoring the unloaded length of 20 cm."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read the unloaded length and convert the triangular mass–length area to work.",
+    "misconception": "Using total spring length as extension",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q7",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $d$ be the increase in submerged depth. The cube’s horizontal cross-sectional area is $(\\sqrt[3]{0.729})^2=0.81\\ \\mathrm{m^2}$. By the principle of flotation, the added load equals the additional weight of displaced water, so $400=(0.81d)(1000)(9.81)$ and $d=0.0503\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Substitutes the numerical value of the cube’s volume for its cross-sectional area.",
+        "C": "Divides the load by density and area without including $g$.",
+        "D": "Gives the full side length of the cube."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must get the cube’s face area from its volume and balance the added weight against the additional upthrust.",
+    "misconception": "Using volume in place of horizontal area",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q8",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "If the arm of length $L$ has mass $m$, the uniform arm of length $2L$ has mass $2m$. Balance anticlockwise and clockwise moments about P using the weights at the midpoints: $(mg)(L/2)\\cos\\theta=(2mg)(2L/2)\\sin\\theta$. This gives $\\tan\\theta=1/4$ and $\\theta=14^\\circ$.",
+      "perOption": {
+        "A": "Gives a clockwise moment too small to balance the short arm’s anticlockwise moment.",
+        "B": "Correct.",
+        "C": "Gives a clockwise moment larger than the short arm’s anticlockwise moment.",
+        "D": "Swaps sine and cosine in the lever arms and obtains the complementary angle."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must account for unequal arm weights and resolve the perpendicular lever arms about the peg.",
+    "misconception": "Swapping the sine and cosine moment arms",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Newton’s second law, $F_D-F_R=ma$, so $F_D-160=(1200)(0.20)$ and the driving force is $400\\ \\mathrm{N}$. The output power is $F_Dv=400(10)=4000\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Subtracts the resistance from the resultant force when finding the driving force.",
+        "B": "Calculates only the power used to overcome resistance.",
+        "C": "Uses the resultant force and finds only the rate of increase of kinetic energy.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the driving force from the resultant force before calculating power.",
+    "misconception": "Using resultant force for engine output power",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q10",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial kinetic energy is $\\tfrac12mu^2$. At the top, the velocity is horizontal with magnitude $u\\sin\\theta$, so the kinetic energy is $\\tfrac12m(u\\sin\\theta)^2$. Dividing by the initial kinetic energy gives $\\sin^2\\theta$.",
+      "perOption": {
+        "A": "Assumes both velocity components vanish at the top.",
+        "B": "Uses an unsquared ratio based on the vertical component.",
+        "C": "Squares the vertical component fraction, although only the horizontal component remains at the top.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the angle to the vertical to identify the horizontal component and square the speed ratio.",
+    "misconception": "Assuming the projectile stops at the apex",
+    "transcription": "The diagram shows a projectile being launched at an angle $\\theta$ to the vertical.\n\n[The projectile follows an arch from left to right, starting and ending on the same horizontal line. At launch, the upward-right velocity arrow is labelled $u$, and $\\theta$ is marked between that arrow and a dashed vertical line.]\n\nIgnoring air resistance, what fraction of its initial kinetic energy does the projectile have at the top of its trajectory?\n\nA zero\nB $\\cos\\theta$\nC $\\cos^2\\theta$\nD $\\sin^2\\theta$"
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q11",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The centripetal force is always perpendicular to the instantaneous velocity. It has no component along the instantaneous displacement, so it does zero work.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives the square of the tangential speed, which has units of energy per mass.",
+        "C": "Gives the magnitude of the centripetal force in newtons.",
+        "D": "Multiplies the centripetal force by the radius as if there were displacement along the radius."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "energy-and-fields.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student only needs to recognize that the centripetal force and instantaneous displacement are perpendicular.",
+    "misconception": "Treating radius as displacement along the force",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q12",
+    "keyPage": 10,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each star’s gravitational pull supplies the other star’s centripetal force. For the star of mass $2M$, the separation is $3x$ and the orbital radius is $x$, so $GM(2M)/(3x)^2=(2M)x\\omega^2$. This gives $\\omega^2=GM/(9x^3)$ and $\\omega=\\tfrac13\\sqrt{GM/x^3}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses $2M$ as the attracting mass for the star on the inner orbit.",
+        "C": "Uses $2x$ as the separation in Newton’s law of gravitation.",
+        "D": "Uses the orbital radius $x$ as the separation in Newton’s law of gravitation."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the orbital radius from the distance between the stars when equating the two forces.",
+    "misconception": "Confusing orbital radius with separation",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q13",
+    "keyPage": 11,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "For the fixed mass of gas, $T=pV/(nR)$. The products $pV$ at X, Y and Z are $(1.5\\times10^6)(0.001)=1.5\\times10^3\\ \\mathrm{J}$, $(0.4\\times10^6)(0.003)=1.2\\times10^3\\ \\mathrm{J}$ and $(0.4\\times10^6)(0.005)=2.0\\times10^3\\ \\mathrm{J}$, respectively. Therefore $T_Z>T_X>T_Y$, which is the ordering shown by A.",
+      "perOption": {
+        "A": "Correct. It gives the required temperature ordering.",
+        "B": "Shows equal temperatures at X and Y despite their different $pV$ products.",
+        "C": "Shows equal temperatures at X and Y and a fall to Z, though $pV$ is lowest at Y and highest at Z.",
+        "D": "Treats Y to Z as isothermal even though volume increases at constant pressure."
+      }
+    },
+    "issues": "A is the only option with the correct endpoint ordering, but its Y–Z segment curves upward. At constant pressure, T is proportional to V, so Y–Z must be a straight rising line. No option is fully correct.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must multiply pressure and volume at three marked states and compare the temperatures.",
+    "misconception": "Treating constant pressure as constant temperature",
+    "transcription": "A fixed mass of ideal gas undergoes changes of pressure and volume starting at X, as shown.\n\n[Graph of pressure in units of $10^6\\ \\mathrm{Pa}$ against volume in $\\mathrm{m^3}$. The path curves down and right from X at $(0.001,1.5)$ to Y at $(0.003,0.4)$, then goes horizontally right to Z at $(0.005,0.4)$.]\n\nWhich graph shows how temperature (measured in kelvin) changes with volume?\n\n[Each option plots temperature / K on the vertical axis and volume on the horizontal axis, with X, Y and Z in order of increasing volume.]\nA [Temperature falls from X to Y, then curves upward with increasing slope to Z, above X.]\nB [Temperature is constant from X to Y, then curves upward to Z.]\nC [Temperature is constant from X to Y, then curves downward and levels out toward Z.]\nD [Temperature curves downward from X to Y, then stays constant from Y to Z.]"
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "id": "ejc-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "Rearrange to $s=R(Et^2/\\rho)^{-0.2}$. The units of $Et^2/\\rho$ are $(\\mathrm{kg\\,m^2\\,s^{-2}})(\\mathrm{s^2})/(\\mathrm{kg\\,m^{-3}})=\\mathrm{m^5}$, so the units of $s$ reduce to $\\mathrm{m}(\\mathrm{m^5})^{-0.2}=1$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Leaves a residual power of metres even though $(\\mathrm{m^5})^{0.2}=\\mathrm{m}$.",
+        "C": "Reduces to $\\mathrm{m^{0.2}}$, leaving a residual length dimension.",
+        "D": "Also dimensionless because a joule is a kilogram metre squared per second squared."
+      }
+    },
+    "issues": "Both A and D are dimensionless because $\\mathrm{J}=\\mathrm{kg\\,m^2\\,s^{-2}}$. A is the keyed answer, but the question has two equivalent options.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires simplifying a derived unit raised to a fractional power.",
+    "misconception": "Incorrect cancellation of SI base units",
+    "transcription": "As part of the 1945 Manhattan project, the United States Army tested the first-of-its-kind nuclear weapon in New Mexico.\n\nThe explosion resulted in a radiant, hemispherical blast wave of radius $R$ which could be modelled using $R=s\\left(\\frac{Et^2}{\\rho}\\right)^{0.2}$\n\nwhere $E$ = energy released due to explosion,\n$t$ = time elapsed after detonation,\n$\\rho$ = density of air.\n\nWhat is the SI unit of the quantity $s$?\n\nA (dimensionless)\nB $\\mathrm{m^{0.2}}$\nC $\\mathrm{J^{0.2}\\,m^{-0.2}\\,s^{0.4}\\,kg^{-0.2}}$\nD $\\mathrm{J^{-1}\\,m^2\\,s^{-2}\\,kg}$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "With constant acceleration $-g$, the displacement is $s=ut+\\tfrac12at^2=t(u-gt/2)$. At the return to the initial position, $t=3.20\\ \\mathrm{s}$ and $s=0$, giving $0=u-\\tfrac{9.81}{2}(3.20)$ and hence $u=15.7\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Divides $g$ by the flight time, which does not give a speed.",
+        "B": "Halves the total flight time before substituting it into the round-trip equation.",
+        "C": "Correct.",
+        "D": "Uses the full flight time as the time to reach the highest point."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires setting displacement to zero at the end of a vertical round trip.",
+    "misconception": "Confusing total flight time with ascent time",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upthrust equals the weight of water displaced. Increasing $z$ increases the volume of water displaced by the fully submerged block and hence increases the upthrust.",
+      "perOption": {
+        "A": "Decreasing the block’s density changes its weight while the displaced volume stays fixed.",
+        "B": "Turning the fully submerged block leaves its displaced volume unchanged.",
+        "C": "Correct.",
+        "D": "Increasing the block’s density changes its weight while the displaced volume stays fixed."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires identifying which change increases the volume displaced by a fully submerged block.",
+    "misconception": "Upthrust depends on the block’s density",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two identical springs share the load, so each supports $4.0\\ \\mathrm{N}$. The energy stored in one spring is the triangular area under its force–extension graph up to $4.0\\ \\mathrm{N}$, giving $\\tfrac12(3.0\\times10^{-2})(4.0)=0.060\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives the total energy stored in both springs.",
+        "C": "Uses the full loaded length of 7 cm as the extension.",
+        "D": "Applies the entire 8.0 N load to one spring."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires splitting the load and reading the extension before calculating the area under the graph.",
+    "misconception": "Using loaded length as extension",
+    "transcription": "Two light identical springs are connected in parallel.\n\nA weight of $8.0\\ \\mathrm{N}$ is exerted vertically downwards from the combination as shown.\n\n[Two vertical springs are attached to a common upper support and lower bar, with an $8.0\\ \\mathrm{N}$ arrow pointing down from the bar. The graph plots force in N against length in cm. The straight line runs from $(4,0)$ to $(10,8)$.]\n\nThe graph shows the variation with length of the force applied to one of the springs.\n\nWhat is the elastic potential energy stored in one of the springs?\n\nA $0.060\\ \\mathrm{J}$\nB $0.12\\ \\mathrm{J}$\nC $0.14\\ \\mathrm{J}$\nD $0.24\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A vehicle accelerating without its tyres slipping provides a counterexample. Friction acts at the tyres while the vehicle does work and gains kinetic energy, and total energy is conserved.",
+      "perOption": {
+        "A": "This statement correctly describes conservation and transfer of energy.",
+        "B": "This statement is true because kinetic energy can be transferred to other stores while total energy stays constant.",
+        "C": "This statement gives the correct definition of efficiency.",
+        "D": "Correct. This statement is false because total energy is conserved."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "collisions"
+    ],
+    "outcomes": [
+      "energy-and-fields.a",
+      "energy-and-fields.b",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires distinguishing total energy from the useful energy a machine delivers.",
+    "misconception": "Friction destroys energy",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Model the blocks as undergoing successive pairwise elastic collisions, taking right as positive. For A and B, momentum conservation and $v_B-v_A=10$ give $10=v_A+4(v_A+10)$, so $v_A=-6\\ \\mathrm{m\\,s^{-1}}$ and $v_B=4\\ \\mathrm{m\\,s^{-1}}$. The equal-mass collisions transfer B’s speed through C and D to E, leaving B, C and D at rest. For E and F, $v_F-v_E=4$ and $16=4v_E+(4+v_E)$ give $v_E=2.4\\ \\mathrm{m\\,s^{-1}}$ and $v_F=6.4\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Misses A’s rebound and treats B’s initial post-impact motion as permanent.",
+        "B": "Treats B as still moving and assumes E transfers all its kinetic energy to the lighter F.",
+        "C": "Correct.",
+        "D": "Treats B as still moving after it transfers its motion to C."
+      }
+    },
+    "issues": "The question shows B through F initially touching. The key assumes a sequence of separate binary collisions, which is not guaranteed for simultaneous contact without a contact model.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires tracking successive elastic collisions between blocks of equal and unequal masses.",
+    "misconception": "Assuming complete energy transfer between unequal masses",
+    "transcription": "In the diagram below, blocks B, C, D, E and F are all in contact with each other and are initially at rest on a smooth horizontal surface.\n\nBlock A moves towards block B with a speed of $10\\ \\mathrm{m\\,s^{-1}}$.\n\nAll subsequent collisions are elastic in nature.\n\n[On a horizontal surface, block A is separated from a row of touching blocks B, C, D, E and F. An arrow labelled $10\\ \\mathrm{m\\,s^{-1}}$ points right from A towards B.]\n\nThe mass of both block A and block F is $m$ each. Blocks B, C, D and E have mass of $4m$ each.\n\nWhich of the following options concerning blocks A, B, and E after the collisions is true?\n\nOption | block A | block B | block E\nA | at rest | move | move\nB | move | move | at rest\nC | move | at rest | move\nD | move | move | move"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Force balance gives $N_F=W$ and the floor friction equals $N_\\mathrm{w}$. Taking moments about the wall contact for ladder length $L$ gives $W(\\tfrac L2\\cos\\theta)+N_\\mathrm{w}(L\\sin\\theta)=N_F(L\\cos\\theta)$. Dividing by $L\\cos\\theta$ gives $N_\\mathrm{w}\\tan\\theta=N_F-W/2$.",
+      "perOption": {
+        "A": "Equates perpendicular normal forces even though each balances a different force.",
+        "B": "Correct.",
+        "C": "Swaps the floor and wall forces in the moment equation.",
+        "D": "Swaps the lever arms and places the weight term on the wrong side of the moment balance."
+      }
+    },
+    "issues": "The key assumes a smooth wall. Only the floor is explicitly described as rough, and the wall’s friction is unspecified.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f",
+      "forces-and-moments.g",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires combining force balance with moments about the wall contact.",
+    "misconception": "Swapping the lever arms for horizontal and vertical forces",
+    "transcription": "A uniform ladder of weight $W$ rests against a vertical wall, tilted at an angle $\\theta$ from a rough floor.\n\nThe floor exerts normal force $N_F$ on the ladder. The wall exerts normal force $N_\\mathrm{w}$ on the ladder.\n\nWhich of the following equations is correct?\n\nA $N_F=N_\\mathrm{w}$\nB $N_\\mathrm{w}\\tan\\theta=N_F-\\frac W2$\nC $N_F\\tan\\theta=N_\\mathrm{w}-\\frac W2$\nD $N_F\\tan\\theta=N_\\mathrm{w}+\\frac W2$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The outer mass has $T_3=m(3r)\\omega^2$. For the middle mass, $T_2-T_3=m(2r)\\omega^2$, so $T_2=5mr\\omega^2$. For the inner mass, $T_1-T_2=mr\\omega^2$, so $T_1=6mr\\omega^2$ and the ratio is $6:5:3$.",
+      "perOption": {
+        "A": "Treats each string’s tension as the centripetal force on just one mass, making string 1 the weakest.",
+        "B": "Makes string 1 the largest but gives a ratio of 3 to 1 for the inner and outer tensions instead of 2 to 1.",
+        "C": "Reverses the ratio even though string 1 provides the centripetal force for all three masses.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using the net inward force on each mass to build up the three tensions.",
+    "misconception": "Equating each tension to the centripetal force of only one mass",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mass needs enough kinetic energy to reach the zero-field point, beyond which gravity accelerates it towards Earth. The gain in gravitational potential per unit mass is the smaller marked area, so $\\tfrac12 mv^2=m(2.6\\times10^6)$ and $v=\\sqrt{2(2.6\\times10^6)}=2280\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Underestimates the speed needed to climb the Moon-side potential barrier.",
+        "B": "Gives too little kinetic energy per unit mass to reach the zero-field point.",
+        "C": "Correct.",
+        "D": "Uses the larger area on the Earth side of the zero-field point."
+      }
+    },
+    "issues": "The key mislabels the potential energy as EPE and describes onward acceleration from rest at the zero-field point. Exactly at rest there, the mass is in unstable equilibrium. The quoted speed is the limiting threshold for crossing.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.h",
+      "gravitational-fields.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires finding the potential barrier from just the Moon-side area and converting it to a speed.",
+    "misconception": "Using the entire field–distance graph to find the barrier",
+    "transcription": "The graph below shows the variation with distance from the centre of Earth, of the gravitational field strength between the surface of the Earth and the Moon. The areas under the graph segments and the value of the gravitational field strength on Earth’s and on Moon’s surfaces are indicated.\n\n[The vertical axis is gravitational field strength in $\\mathrm{N\\,kg^{-1}}$. The horizontal axis is distance from centre of Earth in m. The curve rises from $-9.8\\ \\mathrm{N\\,kg^{-1}}$ at Earth’s surface to $1.6\\ \\mathrm{N\\,kg^{-1}}$ at the Moon’s surface, crossing zero closer to the Moon. The shaded area below the axis on the Earth side is $61\\times10^6\\ \\mathrm{J\\,kg^{-1}}$. The shaded area above the axis on the Moon side is $2.6\\times10^6\\ \\mathrm{J\\,kg^{-1}}$.]\n\nWhat is the minimum speed a mass on the surface of the Moon must have, in order to be able to reach Earth’s surface?\n\nA $186\\ \\mathrm{m\\,s^{-1}}$\nB $902\\ \\mathrm{m\\,s^{-1}}$\nC $2280\\ \\mathrm{m\\,s^{-1}}$\nD $11\\,000\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the farther orbit, the satellite is at a greater distance from Earth. Its gravitational potential energy $U=-GMm/r$ therefore increases as it becomes less negative.",
+      "perOption": {
+        "A": "Gravitational force decreases as $1/r^2$.",
+        "B": "Correct.",
+        "C": "The angular speed of a circular orbit decreases as $r^{-3/2}$.",
+        "D": "The centripetal acceleration equals $GM/r^2$, which decreases as $r$ increases."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires recognising that gravitational potential energy increases as it becomes less negative.",
+    "misconception": "Treating gravitational potential energy as a positive inverse-radius quantity",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $\\tfrac32 kT=\\tfrac12 mv_\\mathrm{rms}^2$, the r.m.s. speed is proportional to $\\sqrt T$. The percentage increase is $\\frac{\\sqrt{273.15+40.5}-\\sqrt{273.15+32.1}}{\\sqrt{273.15+32.1}}\\times100\\%=1.4\\%$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the percentage increase in absolute temperature directly as the percentage increase in speed.",
+        "C": "Uses Celsius temperatures in the square-root ratio and divides by the final square root.",
+        "D": "Uses Celsius temperatures in the square-root ratio instead of kelvin."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires converting both temperatures to kelvin and using the square-root dependence of r.m.s. speed.",
+    "misconception": "Using Celsius in a kinetic-theory ratio",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ideal gas equation gives $p=(Nk/V)T$. Both vessels contain the same number of particles, so the larger volume of X gives it the shallower pressure–temperature gradient.",
+      "perOption": {
+        "A": "Gives the vessels equal gradients and puts the larger vessel at higher pressure.",
+        "B": "Treats the smaller volume of Y as a constant pressure offset instead of a larger gradient.",
+        "C": "Gives X the greater gradient even though it has the larger volume.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires identifying how vessel volume affects the slope of the pressure–temperature graph.",
+    "misconception": "Treating volume as a pressure offset",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The coin starts to lose contact when the piston’s maximum downward acceleration reaches $g$. With amplitude $x_0=0.14/2=0.07\\ \\mathrm{m}$, the threshold is $(2\\pi f)^2x_0=g$. Hence $f=\\sqrt{9.81/(4\\pi^2\\times0.07)}=1.9\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Underestimates the frequency needed for the peak downward acceleration to reach gravity.",
+        "B": "Uses the full 14 cm stroke as the amplitude.",
+        "C": "Correct.",
+        "D": "Overestimates the threshold frequency by failing to use the square-root relation between frequency and acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires interpreting the piston stroke and relating loss of contact to peak downward acceleration.",
+    "misconception": "Confusing peak-to-peak stroke with amplitude",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A crest and its adjacent trough are half a wavelength apart, so $\\lambda=2(0.90)=1.80\\ \\mathrm{m}$. The phase difference along the direction of travel is $360^\\circ(\\Delta x/\\lambda)=360^\\circ(1.30/1.80)=260^\\circ$.",
+      "perOption": {
+        "A": "Uses too small a fraction of a cycle for the 1.30 m separation.",
+        "B": "Uses a phase angle smaller than 180° for a forward separation greater than half a wavelength.",
+        "C": "Uses 0.90 m as the full wavelength and reduces the resulting 520° modulo 360°.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s substitution line has an extra factor of 360. The stated result uses one factor. The phase lag of 260° is equivalent to a phase lead of 100°.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires doubling the crest-to-trough distance before converting a spatial separation into a phase difference.",
+    "misconception": "Taking crest-to-trough distance as one wavelength",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the grating, $d\\sin\\theta=n\\lambda$. At the limiting value $\\sin\\theta=1$, the order for violet light is $d/\\lambda=(10^{-2}/5000)/(400\\times10^{-9})=5$. Fourth-order violet is therefore visible, making D false.",
+      "perOption": {
+        "A": "This statement is true because the shorter violet wavelength gives a smaller angle at the same order.",
+        "B": "This statement is true to the colour precision intended because second-order light near $600\\ \\mathrm{nm}$ and third-order light near $400\\ \\mathrm{nm}$ give the same $n\\lambda$.",
+        "C": "This statement is true because third-order violet has $n\\lambda/d=0.60$, giving a real diffraction angle.",
+        "D": "Correct. Fourth-order violet is visible."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires converting line density to grating spacing and checking which orders can exist at violet wavelengths.",
+    "misconception": "Assuming higher diffraction orders are impossible for violet light",
+    "transcription": null
+  }
+]

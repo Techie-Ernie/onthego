@@ -1,0 +1,507 @@
+[
+  {
+    "id": "dhs-2022-promo-p1-q12",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total amount of gas in X and Y is conserved. Using $n=pV/(RT)$, equate the total before and after opening the valve to get $\\frac{p_i(V_X+V_Y)}{T_1}=p_f\\left(\\frac{V_X}{T_1}+\\frac{V_Y}{T_2}\\right)$.\n\nSubstituting gives $\\frac{(1.00\\times10^5)(0.300+0.600)}{25.0+273.15}=p_f\\left(\\frac{0.300}{25.0+273.15}+\\frac{0.600}{150.0+273.15}\\right)$. Hence $p_f=1.245\\times10^5\\ \\mathrm{Pa}\\approx1.25\\times10^5\\ \\mathrm{Pa}$.",
+      "perOption": {
+        "A": "A pressure below the initial value is inconsistent with heating Y while X stays at its initial temperature.",
+        "B": "Correct.",
+        "C": "Uses Y’s post-heating pressure before any gas flows into X.",
+        "D": "Adds the initial pressure to the new absolute pressure."
+      }
+    },
+    "issues": "The worked solution assumes each bulb stays at its stated temperature after the valve opens.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must conserve the total gas amount while tracking two different bulb temperatures.",
+    "misconception": "Using a single temperature for both bulbs.",
+    "transcription": "Two glass bulbs, X of volume $0.300\\ \\mathrm{m^3}$ and Y of volume $0.600\\ \\mathrm{m^3}$, are connected by a fine tube of negligible volume. A valve prevents gas from flowing between the two bulbs. Both bulbs have a pressure of $1.00\\times10^5\\ \\mathrm{Pa}$ and a temperature of $25.0\\,^\\circ\\mathrm{C}$ initially. Bulb Y is then heated to a temperature of $150.0\\,^\\circ\\mathrm{C}$, and the valve is subsequently opened.\n\n[Bulb X is on the left and bulb Y on the right, with a valve in the connecting tube.]\n\nWhat is the new pressure in the system when the valve is opened?\n\nA $0.95\\times10^5\\ \\mathrm{Pa}$\nB $1.25\\times10^5\\ \\mathrm{Pa}$\nC $1.42\\times10^5\\ \\mathrm{Pa}$\nD $2.25\\times10^5\\ \\mathrm{Pa}$"
+  },
+  {
+    "id": "dhs-2022-promo-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The heater supplies energy to warm and vaporise the liquid, so $Pt=ml_v+mc\\Delta\\theta$. Rearranging gives $l_v=Pt/m-c\\Delta\\theta=2000(270)/0.300-1800(85-27)$. This is $1\\,695\\,600\\ \\mathrm{J\\,kg^{-1}}$, or $1700\\ \\mathrm{kJ\\,kg^{-1}}$ to two significant figures.",
+      "perOption": {
+        "A": "Gives the total energy for vaporisation in $\\mathrm{kJ}$ without dividing by the mass.",
+        "B": "Correct.",
+        "C": "Divides all the heater energy by the mass, ignoring the initial warming.",
+        "D": "Adds the energy per kilogram used for warming instead of subtracting it."
+      }
+    },
+    "issues": "The key omits the per-kilogram unit on the intermediate result of 1 695 600.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.g",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation separates the energy used to warm the liquid from the energy used to vaporise it.",
+    "misconception": "Treating all heater energy as latent heat.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Velocity is the gradient of the displacement–time graph. At P the gradient has its greatest magnitude and is negative, so the body has maximum speed and moves upwards.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The negative gradient means upwards because the diagram defines downwards as positive.",
+        "C": "The gradient is steep and acceleration is zero at equilibrium.",
+        "D": "The gradient is steep and acceleration is zero at equilibrium."
+      }
+    },
+    "issues": "The question and key say “maximum velocity”, meaning maximum speed. The signed velocity at P is at its minimum.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.g",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the gradient and use the downward-positive convention.",
+    "misconception": "Reading the sign of the graph slope as the physical direction without checking the diagram.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For simple harmonic motion, $F=-kx$ and $E_k=\\tfrac12 m\\omega^2(x_0^2-x^2)$, where $x_0$ is the amplitude. At $x=0$, the restoring force is zero and kinetic energy is maximum.",
+      "perOption": {
+        "A": "The zero displacement is inconsistent with the listed zero kinetic energy and maximum restoring force.",
+        "B": "Correct.",
+        "C": "The restoring force has maximum magnitude at maximum displacement.",
+        "D": "Kinetic energy is zero at maximum displacement."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must connect equilibrium with zero restoring force and maximum speed.",
+    "misconception": "Expecting the restoring force to be greatest where the pendulum moves fastest.",
+    "transcription": "A mass attached to a string oscillates as a simple pendulum.\n\nWhich row correctly shows the displacement of the mass from its equilibrium position, its kinetic energy and the restoring force acting on it at the same instant?\n\nRow | displacement | kinetic energy | restoring force\nA | 0 | 0 | maximum\nB | 0 | maximum | 0\nC | maximum | 0 | 0\nD | maximum | maximum | maximum"
+  },
+  {
+    "id": "dhs-2023-other-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Energy is power multiplied by time. Thus $E=(3.0\\times10^9)(2.0\\times10^{-12})=6.0\\times10^{-3}\\ \\mathrm{J}=6.0\\times10^{-15}\\ \\mathrm{TJ}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Converts to $6.0\\ \\mathrm J$, a factor of $10^3$ too large.",
+        "C": "Converts to $6.0\\times10^{-6}\\ \\mathrm J$, a factor of $10^3$ too small.",
+        "D": "Converts to $6.0\\ \\mathrm J$, a factor of $10^3$ too large."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.b",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is direct once the SI prefixes are converted.",
+    "misconception": "Reversing the conversion from joules to a prefixed unit.",
+    "transcription": "A power station generates power at $3.0\\ \\mathrm{GW}$.\n\nWhat is the energy produced in a time interval of $2.0\\ \\mathrm{ps}$?\n\nA $6.0\\times10^{-15}\\ \\mathrm{TJ}$\nB $6.0\\times10^{-6}\\ \\mathrm{MJ}$\nC $6.0\\times10^3\\ \\mathrm{nJ}$\nD $6.0\\times10^6\\ \\mathrm{\\mu J}$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The change in velocity is $\\Delta\\mathbf v=\\mathbf v_f-\\mathbf v_i$. There is no horizontal acceleration, so the horizontal components cancel and the change is purely vertical. Its magnitude is $12\\sin25^\\circ=5.1\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Subtracts the speed at the top from the launch speed, ignoring the change in direction.",
+        "B": "Correct.",
+        "C": "Overestimates the vertical launch component obtained from the given angle.",
+        "D": "Uses the full launch speed even though its horizontal component is unchanged."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish a vector change in velocity from a change in speed.",
+    "misconception": "Subtracting speed magnitudes to find a velocity change.",
+    "transcription": "A stone is thrown with a velocity of $12\\ \\mathrm{m\\,s^{-1}}$ at an angle of $25^\\circ$ above the horizontal. What is the magnitude of the change in velocity from its starting point to the highest point in its path?\n\nA $1.1\\ \\mathrm{m\\,s^{-1}}$\nB $5.1\\ \\mathrm{m\\,s^{-1}}$\nC $5.8\\ \\mathrm{m\\,s^{-1}}$\nD $12\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the descending $5.0\\ \\mathrm{kg}$ mass, $5g-T=5a$. For the ascending $3.0\\ \\mathrm{kg}$ mass, $T-3g=3a$. Adding gives $2g=8a$, so $a=g/4=2.5\\ \\mathrm{m\\,s^{-2}}$ to two significant figures.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the lighter weight as the net driving force on the two masses.",
+        "C": "Overestimates the driving force by failing to subtract the lighter weight from the heavier weight.",
+        "D": "Treats the masses as if they were in free fall."
+      }
+    },
+    "issues": "The key prints the acceleration unit as m s⁻¹. The explanation uses m s⁻².",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must write force equations for both masses and eliminate the common tension.",
+    "misconception": "Using one hanging weight as the driving force.",
+    "transcription": "The pulley in the diagram below is frictionless.\n\n[A string passes over a fixed pulley. A $5.0\\ \\mathrm{kg}$ mass hangs on the left and a $3.0\\ \\mathrm{kg}$ mass hangs on the right.]\n\nWhat is the magnitude of the acceleration of the system, assuming that air resistance is negligible?\n\nA $2.5\\ \\mathrm{m\\,s^{-2}}$\nB $3.7\\ \\mathrm{m\\,s^{-2}}$\nC $6.3\\ \\mathrm{m\\,s^{-2}}$\nD $9.8\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The weights of the wood and rubber act at their midpoints, respectively $0.900L$ and $1.60L$ from the pivot. Taking moments about the pivot gives $W_{\\mathrm{wood}}(0.900L)=W_{\\mathrm{rubber}}(1.60L)$.\n\nUsing the common cross-sectional area $A$, the weights are $\\rho_{\\mathrm{wood}}(4.00L)Ag$ and $\\rho_{\\mathrm{rubber}}LAg$. Cancelling the common factors gives $\\rho_{\\mathrm{rubber}}/\\rho_{\\mathrm{wood}}=4.00(0.900)/1.60=2.25$.",
+      "perOption": {
+        "A": "Measures the rubber’s moment arm to the far end of the handle.",
+        "B": "Correct.",
+        "C": "Uses an incorrect ratio of moment arms about the pivot.",
+        "D": "Measures the rubber’s moment arm to the wood–rubber boundary."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires finding the centre of each section and converting lengths into volumes.",
+    "misconception": "Measuring a moment arm to the end of a section.",
+    "transcription": "A uniform rod has a wooden section and a solid rubber handle as shown.\n\n[The horizontal rod has a wooden section on the left of length $4.00L$ and a rubber handle on the right of length $L$. A fulcrum under the wooden section is $2.90L$ from the wooden end.]\n\nThe length of the handle is $L$, and the length of the wooden section is $4.00L$. The rod balances at $2.90L$ from the wooden end.\n\nWhat is the ratio $\\frac{\\text{density of rubber}}{\\text{density of wood}}$?\n\nA 1.71\nB 2.25\nC 2.50\nD 3.27"
+  },
+  {
+    "id": "dhs-2023-other-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The useful work done by the engine increases the car’s kinetic energy as its speed rises from $u$ to $v$. The increase is $\\tfrac12 mv^2-\\tfrac12 mu^2=\\tfrac12m(v^2-u^2)$.",
+      "perOption": {
+        "A": "Gives the total work of a constant driving force, which can include work against resistive forces.",
+        "B": "Divides work by time, giving average power.",
+        "C": "Correct.",
+        "D": "Gives the change in momentum for motion in the same direction."
+      }
+    },
+    "issues": "The intended useful output is the kinetic energy gain. If the driving force is constant and there are no losses, A equals C, and the question does not specify losses.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the useful energy change from the two speeds.",
+    "misconception": "Equating the work of the driving force with useful work regardless of losses.",
+    "transcription": "The driving force $F$ of a car of mass $m$ causes the car to accelerate. During a time interval of $t$, it travelled a distance of $s$ and its speed increases from $u$ to $v$.\n\nWhat is the useful work done by the car’s engine?\n\nA $Fs$\nB $\\frac{Fs}{t}$\nC $\\frac{m(v^2-u^2)}{2}$\nD $m(v-u)$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Write the drag as $D=kv^2$. At maximum speed, thrust balances drag, so $P=Dv=kv^3$. With both engines, $36\\,000\\times2=k(12)^3$, so $k=72\\,000/12^3$ in SI units.\n\nWith one engine, $36\\,000=(72\\,000/12^3)(v')^3$. Hence $v'=12/\\sqrt[3]{2}=9.5\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Reduces speed by a factor of four even though only power is halved.",
+        "B": "Assumes maximum speed is directly proportional to power.",
+        "C": "Uses a square root by treating power as proportional to drag alone.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key adds a zero to both powers in later lines. The explanation uses 72 000 W and 36 000 W, which give the same ratio.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine force balance at top speed with the power relation before taking a cube root.",
+    "misconception": "Applying the drag–speed law directly to power.",
+    "transcription": "A speed boat with two engines, each of power output of $36\\ \\mathrm{kW}$, can travel at a maximum speed of $12\\ \\mathrm{m\\,s^{-1}}$. The total drag force $D$ on the boat is related to the speed $v$ of the boat by the following equation:\n\n$D\\propto v^2$\n\nWhat is the maximum speed of the boat when only one engine is working?\n\nA $3.0\\ \\mathrm{m\\,s^{-1}}$\nB $6.0\\ \\mathrm{m\\,s^{-1}}$\nC $8.5\\ \\mathrm{m\\,s^{-1}}$\nD $9.5\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "At Q, $N+mg=mv^2/r$. The bead is just in contact, so $N=0$ and $v^2=rg=0.20g$.\n\nConservation of energy gives $mgh=\\tfrac12mv^2+mg(0.40)$. Substituting gives $mgh=\\tfrac12m(0.20g)+mg(0.40)$, so $h=0.50\\ \\mathrm m$.",
+      "perOption": {
+        "A": "The worked solution is headed A, but $0.30\\ \\mathrm m$ is below Q and cannot supply the required energy.",
+        "B": "Allows the bead to reach the height of Q with zero speed, so gravity cannot give the required centripetal acceleration at that speed.",
+        "C": "Correct. The worked calculation gives this height.",
+        "D": "Uses the diameter instead of the radius in the centripetal condition."
+      }
+    },
+    "issues": "Parsed keyAnswer A matches the worked-solution heading on page 3. The answer table on page 1 prints C, and the worked calculation gives 0.50 m (C). The A heading is wrong.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must combine the contact condition at the top with conservation of mechanical energy.",
+    "misconception": "Assuming the bead is stationary at the threshold of contact.",
+    "transcription": "A bead is released from rest at point P and slides along a wire, as shown.\n\n[The wire descends from P into a vertical loop. P is at height $h$ above the bottom of the loop. Q is at the top of the loop, $40\\ \\mathrm{cm}$ above the bottom. An arrow points down the wire at P, and an arrow points left at Q. The diagram is not to scale.]\n\nThe wire loops around and forms a vertical circle of diameter $40\\ \\mathrm{cm}$. At point Q, the bead is just in contact with the wire. Air resistance and friction on the wire are negligible.\n\nWhat is the height $h$ from which the bead is released?\n\nA $0.30\\ \\mathrm m$\nB $0.40\\ \\mathrm m$\nC $0.50\\ \\mathrm m$\nD $0.60\\ \\mathrm m$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q11",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Earth’s orbital period is $365$ days. Its angular velocity is $\\omega=2\\pi/T=2\\pi/(365\\times24\\times60\\times60)=1.99\\times10^{-7}\\ \\mathrm{rad\\,s^{-1}}$. The orbital speed is $v=r\\omega=(1.50\\times10^{11})(1.99\\times10^{-7})=2.99\\times10^4\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the correct orbital speed but the angular velocity for one revolution per day.",
+        "C": "Uses a one-day period to calculate both quantities.",
+        "D": "Pairs the annual angular velocity with a speed calculated using a one-day period."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the orbital period in seconds and then relate angular velocity to speed.",
+    "misconception": "Using Earth’s daily rotation period as its orbital period.",
+    "transcription": "What is the mean speed and the mean angular velocity of the Earth in its orbit around the Sun?\n\nThe mean radius of the orbit is $1.50\\times10^{11}\\ \\mathrm m$.\n\nRow | speed / $\\mathrm{m\\,s^{-1}}$ | angular velocity / $\\mathrm{rad\\,s^{-1}}$\nA | $2.99\\times10^4$ | $1.99\\times10^{-7}$\nB | $2.99\\times10^4$ | $7.27\\times10^{-5}$\nC | $1.09\\times10^7$ | $7.27\\times10^{-5}$\nD | $1.09\\times10^7$ | $1.99\\times10^{-7}$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In each experiment, the object’s heat gain equals the water’s heat loss. In graph divisions, $m_Ac_A(1)=m_wc_w(4)$ and $m_Bc_B(2)=m_wc_w(3)$. Since the objects have equal mass, dividing the equations gives $c_A/c_B=(4/1)/(3/2)\\approx2.7$.",
+      "perOption": {
+        "A": "Inverts the ratio of the specific heat capacities.",
+        "B": "Uses only the water drop divided by the object rise in experiment B.",
+        "C": "Uses only the ratio of the objects’ temperature rises, assuming they absorb equal heat.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read four temperature changes and compare two energy balances.",
+    "misconception": "Assuming the water transfers the same amount of heat in both experiments.",
+    "transcription": "Object A is dropped into a thermally insulated container of water and allowed to come to thermal equilibrium with the water. The experiment is repeated with a different object B. The mass and initial temperature of water are the same in the two experiments. The mass and initial temperature of objects A and B are also the same. The following graphs show the variation with time of the temperature of the objects and the water.\n\n[Two temperature–time graphs on square grids show the dashed water curves cooling and the solid object curves warming until the curves meet. In both graphs water starts at six divisions and the object at one division above the horizontal axis. The equilibrium level is two divisions for A and three for B.]\n\nIf $c_A$ and $c_B$ are the specific heat capacities of object A and object B respectively, what is the ratio of $\\frac{c_A}{c_B}$?\n\nA 0.38\nB 1.5\nC 2.0\nD 2.7"
+  },
+  {
+    "id": "dhs-2023-other-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Internal energy is the sum of the microscopic kinetic energies and potential energies of all the atoms in the system. Both contributions are included in the energy of the atoms described by B.",
+      "perOption": {
+        "A": "Includes only kinetic energy and omits microscopic potential energy.",
+        "B": "Correct.",
+        "C": "Includes only potential energy and omits microscopic kinetic energy.",
+        "D": "Heat supplied is energy transferred to the system, whereas internal energy is energy stored in the system."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question asks for the definition of internal energy.",
+    "misconception": "Confusing internal energy with heat supplied.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-other-p1-q16",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The oscillator’s energy is proportional to the square of its amplitude. After $4.0\\ \\mathrm s$, the amplitude is about $1.25\\ \\mathrm{cm}$, so the fraction of the initial energy remaining is $(1.25/5.00)^2=1/16$. The fraction lost is $1-1/16=15/16$.",
+      "perOption": {
+        "A": "Gives the fraction of energy remaining.",
+        "B": "Uses the remaining amplitude fraction as the energy lost.",
+        "C": "Uses the fraction of amplitude lost as the fraction of energy lost.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h",
+      "oscillations.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read the amplitude, square its ratio, and subtract the remaining energy fraction from one.",
+    "misconception": "Assuming oscillator energy is proportional to amplitude.",
+    "transcription": "The graph shows how the amplitude of a simple pendulum decays with time from an initial amplitude of $5.0\\ \\mathrm{cm}$.\n\n[The vertical axis is amplitude in cm, labelled 0 to 6 at intervals of 1. The horizontal axis is time in s, labelled 0 to 4 at intervals of 1. The decay curve starts at $5.0\\ \\mathrm{cm}$ at $0\\ \\mathrm s$, passes near $2.5\\ \\mathrm{cm}$ at $2.0\\ \\mathrm s$, and reaches about $1.25\\ \\mathrm{cm}$ at $4.0\\ \\mathrm s$.]\n\nWhat is the fraction of the initial energy that has been lost in the first $4.0\\ \\mathrm s$?\n\nA $\\frac1{16}$\nB $\\frac14$\nC $\\frac34$\nD $\\frac{15}{16}$"
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "cjc-2022-promo-p1-q14",
+    "keyPage": 10,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The nearest compression (maximum pressure) and rarefaction (minimum pressure) are half a wavelength apart. The wavelength is $\\lambda=v/f=1500/2500=0.60\\ \\mathrm{m}$, so the distance is $\\lambda/2=0.30\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "A quarter wavelength reaches the mean pressure.",
+        "B": "Correct.",
+        "C": "A full wavelength reaches the next pressure maximum.",
+        "D": "Two wavelengths reach another pressure maximum."
+      }
+    },
+    "issues": "Printed B differs from keyAnswer A, which is marked answer-missing.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students calculate the wavelength and relate it to the separation between opposite pressure extrema.",
+    "misconception": "Confusing the distance between opposite pressure extrema with a full wavelength",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q15",
+    "keyPage": 11,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Malus’ law, the intensity after the second filter is $I_2=I_0\\cos^2 10^\\circ$. The angle between the second and third axes is now $34^\\circ$, so $I_3=I_2\\cos^2 34^\\circ=I_0\\cos^2 10^\\circ\\cos^2 34^\\circ=0.67I_0$.",
+      "perOption": {
+        "A": "Halving the intensity at each remaining filter ignores their relative axis angles.",
+        "B": "Halving the result again would count the first filter twice, since the given intensity is already measured after it.",
+        "C": "Using the combined angle of 44° skips the change of polarisation at the second filter.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Printed D differs from keyAnswer A, which is marked answer-missing.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students apply Malus’ law twice using successive axis angles.",
+    "misconception": "Applying Malus’ law using the first and last axes only",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q1",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The readings are about $5\\ \\mathrm{kg}$ from the man’s true mass, so the scales are inaccurate to $\\pm 0.1\\ \\mathrm{kg}$. The repeated readings differ by only $0.1\\ \\mathrm{kg}$, so they are precise to the stated tolerance.",
+      "perOption": {
+        "A": "The readings cluster tightly and lie well outside the accuracy tolerance.",
+        "B": "The readings are close enough to satisfy the precision tolerance.",
+        "C": "The readings are about 5 kg above the true mass.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Printed D differs from keyAnswer C. The table labels its third reading “reading 2”.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students compare the spread and the offset from a known mass.",
+    "misconception": "Equating repeatability with accuracy",
+    "transcription": "A man of mass $75.2\\ \\mathrm{kg}$ uses a set of weighing scales to measure his mass three times. He obtains the following readings.\n\nmass / kg\nreading 1  80.2\nreading 2  80.1\nreading 2  80.2\n\nWhich statement describes the precision and accuracy of the weighing scales?\n\nA  not precise to $\\pm 0.1\\ \\mathrm{kg}$ and accurate to $\\pm 0.1\\ \\mathrm{kg}$\nB  not precise to $\\pm 0.1\\ \\mathrm{kg}$ and not accurate to $\\pm 0.1\\ \\mathrm{kg}$\nC  precise to $\\pm 0.1\\ \\mathrm{kg}$ and accurate to $\\pm 0.1\\ \\mathrm{kg}$\nD  precise to $\\pm 0.1\\ \\mathrm{kg}$ and not accurate to $\\pm 0.1\\ \\mathrm{kg}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q2",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The horizontal motion gives $50.9t\\cos\\theta=100$. Taking upwards as positive, the return to ground level gives $0=50.9t\\sin\\theta-\\tfrac12(9.81)t^2$, so the nonzero flight time is $t=50.9\\sin\\theta/[\\tfrac12(9.81)]$. Substituting into the horizontal equation and using the double-angle identity gives $100=50.9^2\\sin(2\\theta)/9.81$. The school takes the solution $2\\theta\\approx22^\\circ$, giving $\\theta\\approx11^\\circ$.",
+      "perOption": {
+        "A": "This launch angle gives a range of about 26 m.",
+        "B": "This launch angle gives a range of about 50 m.",
+        "C": "Correct. This is the lower-angle solution.",
+        "D": "This is also valid to the stated precision, since complementary angles give the same range."
+      }
+    },
+    "issues": "Printed C differs from keyAnswer A. The working continues on page 5. Both C (11°) and D (79°) satisfy the range equation to the stated precision, so the printed key is incomplete.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students eliminate flight time between two motion equations and solve a double-angle equation.",
+    "misconception": "Overlooking the complementary launch angle",
+    "transcription": "An object is launched with a speed of $50.9\\ \\mathrm{m\\,s^{-1}}$ at an angle $\\theta$ above the horizontal, as shown.\n\n[Diagram: The launch velocity points diagonally upwards to the right at angle $\\theta$ above the horizontal. The launch and landing points are on level ground, $100\\ \\mathrm{m}$ apart.]\n\nThe ground is level. The object lands on the ground $100\\ \\mathrm{m}$ from its initial launch position.\n\nWhat is the value of the angle $\\theta$?\n\nYou may need to make use of the double angle formula: $\\sin(2\\theta)=2\\sin\\theta\\cos\\theta$\n\nA  $2.8^\\circ$\nB  $5.5^\\circ$\nC  $11^\\circ$\nD  $79^\\circ$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q3",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The spheres have equal speeds and unequal masses, so their opposite momenta have unequal magnitudes. Their total momentum is nonzero and conserved, which rules out both spheres being at rest at the same instant.",
+      "perOption": {
+        "A": "Opposite velocities cancel the momenta only when their magnitudes match.",
+        "B": "Momentum conservation rules out simultaneous rest because the initial total is nonzero.",
+        "C": "Correct.",
+        "D": "Energy can be stored temporarily as elastic potential energy during contact, so conservation of energy alone cannot rule out simultaneous rest."
+      }
+    },
+    "issues": "Printed C differs from keyAnswer D.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish opposite velocities from cancelling momenta.",
+    "misconception": "Assuming equal and opposite velocities imply zero total momentum",
+    "transcription": "Two spheres with different masses are initially moving towards each other with the same speed. The two spheres collide elastically.\n\nWhich of the following statements is true?\n\nA  The two spheres can be at rest at the same time because they were initially moving in opposite directions.\nB  The two spheres can be at rest at the same time because momentum is always conserved in an elastic collision.\nC  The two spheres cannot be at rest at the same time at any point in time because the total momentum of the system is not zero.\nD  The two spheres cannot be at rest at the same time at any point in time because energy is always conserved in an elastic collision."
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q4",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The lake water exerts an upward force on the boat. Its Newton’s third-law partner is the downward force the boat exerts on the water as it displaces some of it.",
+      "perOption": {
+        "A": "The boat’s weight is the Earth’s force on the boat.",
+        "B": "The rower’s weight is the Earth’s force on the rower.",
+        "C": "The combined weight balances the upthrust in equilibrium and acts on the boat and rower.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students identify the two bodies involved in the upthrust interaction.",
+    "misconception": "Confusing balanced forces with a third-law pair",
+    "transcription": "A rower is sitting on a boat in the middle of a calm lake.\n\nWhich of the following forces forms a Newton’s third law pair with the upthrust acting on the boat?\n\nA  The weight of the boat alone.\nB  The weight of the rower alone.\nC  The combined weight of the boat and the rower.\nD  The force of the boat on the lake’s water to displace some of the lake’s water."
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q5",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The downward vertical component of the tension balances upthrust minus weight, $U-W=Vg(\\rho_{\\mathrm{water}}-\\rho_{\\mathrm{buoy}})=0.500(9.81)(1000-390)\\approx3000\\ \\mathrm{N}$. The horizontal component balances the current force $F$, so $\\tan 26.6^\\circ=F/3000\\approx0.50$. Hence $F\\approx1500\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the buoy’s weight in place of the vertical tension component and reverses the tangent ratio.",
+        "C": "Divides by the tangent of the angle to the vertical.",
+        "D": "Uses upthrust alone and reverses the tangent ratio."
+      }
+    },
+    "issues": "The key calls upthrust minus weight the net vertical force. It excludes rope tension, and the total vertical force is zero.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students calculate the difference between upthrust and weight before resolving the tension.",
+    "misconception": "Treating upthrust as the vertical tension component",
+    "transcription": "A fully submerged buoy is tethered by a rope to a riverbed. The current of the river exerts a constant horizontal force of $F$ on the buoy causing the rope to make an angle of $26.6^\\circ$ to the vertical, as shown. The buoy is in equilibrium.\n\n[Diagram: The buoy is below the water surface. The arrow $F$ points horizontally left. The rope runs down and right from the buoy to the riverbed, making $26.6^\\circ$ with the vertical.]\n\nThe buoy has a volume of $0.500\\ \\mathrm{m^3}$ and a density of $390\\ \\mathrm{kg\\,m^{-3}}$.\n\nThe river water has a density of $1000\\ \\mathrm{kg\\,m^{-3}}$.\n\nWhat is the force $F$ exerted by the river current on the buoy?\n\nA  $1500\\ \\mathrm{N}$\nB  $3830\\ \\mathrm{N}$\nC  $6000\\ \\mathrm{N}$\nD  $9810\\ \\mathrm{N}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q6",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The gravitational potential energy decreases linearly with the vertical distance below A, since $\\Delta E_{\\mathrm{p}}=mg\\Delta h$ for a signed height change. On the frictionless track, kinetic energy increases at the same constant rate, giving the positive straight-line slope in B.",
+      "perOption": {
+        "A": "Kinetic energy increases as the object drops.",
+        "B": "Correct. This is the only graph with a constant positive slope.",
+        "C": "The track shape does not give a varying slope when the horizontal axis measures vertical drop.",
+        "D": "The curved decrease has the wrong sign and shape."
+      }
+    },
+    "issues": "The question PNG clips options C and D, recovered from page 7. B has the intended slope but starts at zero kinetic energy, an initial condition the stem does not establish.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students map a linear potential-energy change to a kinetic-energy graph.",
+    "misconception": "Using track shape to infer kinetic energy versus vertical drop",
+    "transcription": "An object moves along a frictionless track from A to C, through B, which is the lowest point of the motion.\n\n[Diagram: The object is shown at A on the left. The track drops to B and then rises to C, level with A.]\n\nWhich graph shows how the kinetic energy of the object varies with the vertical distance from A?\n\n[All four graphs plot kinetic energy vertically against distance horizontally, with A at the origin and B marked farther right.]\nA  [Straight line decreasing from positive kinetic energy at A to zero at B.]\nB  [Straight line increasing from zero at A to positive kinetic energy near B.]\nC  [S-shaped curve increasing from zero at A and flattening near B.]\nD  [Reverse S-shaped curve decreasing from positive kinetic energy at A to zero near B.]"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q7",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph first departs from its straight-line section at a length of about $40\\ \\mathrm{mm}$, which is an extension of $20\\ \\mathrm{mm}$. The work done is the triangular area under the graph up to that point, $\\tfrac12(0.020\\ \\mathrm{m})(70\\ \\mathrm{N})=0.70\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Includes the area beyond the limit of proportionality.",
+        "C": "Leaves the triangle’s base in millimetres, so the area is in newton-millimetres.",
+        "D": "Includes the area beyond the limit and leaves the distances in millimetres."
+      }
+    },
+    "issues": "The key prints 0.0020 m for the 20 mm extension. Its final answer uses the correct conversion, 0.020 m.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students identify the end of the linear region and convert the base of the area to metres.",
+    "misconception": "Integrating past the limit of proportionality",
+    "transcription": "A rubber strip is stretched by a force. The graph of the applied force against its length is shown.\n\n[Graph: Force in N is plotted against length in mm. The curve starts at $(20,0)$, rises linearly to about $(40,70)$, then bends and gradually levels off near $(100,100)$. Labelled length ticks are 20, 40, 60, 80 and 100 mm. Labelled force ticks are 0, 50 and 100 N.]\n\nWhat is the work done in stretching the strip to the first point where it no longer obeys Hooke’s Law?\n\nA  $0.70\\ \\mathrm{J}$\nB  $6.3\\ \\mathrm{J}$\nC  $700\\ \\mathrm{J}$\nD  $6300\\ \\mathrm{J}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q8",
+    "keyPage": 9,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the point where the ribbon leaves the reel, $v=r\\omega$, so $\\omega=v/r$. Since $v$ is constant, $\\omega$ is proportional to $1/r$.",
+      "perOption": {
+        "A": "The speed relation contains one power of the radius.",
+        "B": "Correct.",
+        "C": "This reverses the dependence obtained by solving for angular velocity.",
+        "D": "A fixed linear speed requires the angular velocity to change as the radius changes."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students rearrange one equation with the linear speed fixed.",
+    "misconception": "Confusing constant linear speed with constant angular velocity",
+    "transcription": "A ribbon, wound around a reel, is pulled and rotates about its centre. The ribbon leaves the reel at a constant $v$ and at a variable distance $r$ from the centre of the reel as shown.\n\n[Diagram: Two views show the ribbon unwinding tangentially to the right with speed $v$. The lower view labels the radius $r$ from the reel centre to the wound ribbon.]\n\nWhat is the relationship between the angular velocity of the reel and the variable distance $r$ from the centre of the reel?\n\nA  Angular velocity is proportional to $\\frac{1}{r^2}$.\nB  Angular velocity is proportional to $\\frac{1}{r}$.\nC  Angular velocity is proportional to $r$.\nD  Angular velocity does not depend on $r$."
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q9",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the bottom of the circle, the upward tension $T$ minus the downward weight $W$ provides the centripetal force. Thus $T-W=mr\\omega^2$, giving $T=W+mr\\omega^2$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses a downward resultant at the bottom of the circle.",
+        "C": "Treats weight as contributing to the upward resultant.",
+        "D": "Equates tension alone to the net radial force."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students identify the inward direction and include both vertical forces.",
+    "misconception": "Treating tension alone as the centripetal force",
+    "transcription": "An object of mass $m$ and weight $W$ is fixed to one end of a light rod which rotates in a vertical circle of radius $r$. The object has an angular velocity $\\omega$ when it is vertically below the centre of the circle.\n\n[Diagram: A vertical rod joins the centre of a dashed circle to the object at the bottom. The circle is labelled with radius $r$, the object with mass $m$ and weight $W$, and a clockwise arrow with $\\omega$.]\n\nWhat is the tension in the rod acting upwards on the object when the object is vertically below the centre of the circle?\n\nA  $W+mr\\omega^2$\nB  $W-mr\\omega^2$\nC  $mr\\omega^2-W$\nD  $mr\\omega^2$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q10",
+    "keyPage": 10,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $x$ be the distance from the centre of the star of mass $M$ to P. The fields cancel at P, so $GM/x^2=G(9M)/(d-x)^2$, giving $d-x=3x$ and $x=d/4$. Adding the two potentials gives $\\phi=-GM/(d/4)-G(9M)/(3d/4)=-16GM/d$.",
+      "perOption": {
+        "A": "The extra mass factor gives units of potential energy.",
+        "B": "Correct.",
+        "C": "The squared mass gives units of potential energy instead of energy per unit mass.",
+        "D": "The two contributions at the field-cancellation point are −4GM/d and −12GM/d, so this doubles their sum."
+      }
+    },
+    "issues": "Printed B differs from keyAnswer A, which is marked answer-missing.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students locate the field cancellation point and then add the two scalar potentials.",
+    "misconception": "Assuming zero field means zero potential",
+    "transcription": "Two isolated stars, of mass $M$ and $9M$, are separated in space by a distance $d$ between the centres of the stars.\n\n[Diagram: The star of mass $M$ is on the left, the star of mass $9M$ is on the right, and P lies between their centres, closer to $M$. The centre-to-centre distance is labelled $d$.]\n\nPoint P is a point, between the centres of the stars, where the gravitational field strength is zero.\n\nWhat is the gravitational potential at P?\n\nA  $-\\frac{10GM^2}{d}$\nB  $-\\frac{16GM}{d}$\nC  $-\\frac{20GM^2}{d}$\nD  $-\\frac{32GM}{d}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q11",
+    "keyPage": 11,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Earth’s gravitational force provides the centripetal force on the ISS and points towards Earth’s centre. The acceleration equals the local gravitational field strength, $GM_{\\mathrm{Earth}}/r^2$. The ISS is farther from Earth’s centre than a point on the surface, so its acceleration is less than $9.81\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Earth’s gravitational force provides the centripetal force.",
+        "B": "The resultant force points towards Earth’s centre, perpendicular to the direction of motion.",
+        "C": "The direction of the ISS’s velocity changes continuously.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Printed D differs from keyAnswer A, which is marked answer-missing. The key’s final paragraph uses speed units for acceleration. The explanation uses the correct units.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.j",
+      "circular-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students identify gravity as the centripetal force and compare its strength at two radii.",
+    "misconception": "Assuming uniform speed implies zero acceleration",
+    "transcription": "The International Space Station (ISS) orbits the Earth with uniform speed, above the Earth’s atmosphere, at a constant height $420\\ \\mathrm{km}$ above the Earth’s surface.\n\nWhat statement about the ISS is correct?\n\nA  There is no gravitational force on the ISS.\nB  The resultant force on the ISS is in the direction it is moving.\nC  The ISS is not accelerating.\nD  The acceleration of the ISS is less than $9.81\\ \\mathrm{m\\,s^{-2}}$."
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q12",
+    "keyPage": 11,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "With $Q=0$ and $W=0$, the first law gives $\\Delta U=Q+W=0$, so the internal energy stays at $500\\ \\mathrm{J}$. The internal energy of an ideal gas comes from the random motion of its molecules and is independent of the bulk kinetic and gravitational potential energies quoted here.",
+      "perOption": {
+        "A": "Subtracts the gains in bulk kinetic and gravitational potential energies from the internal energy.",
+        "B": "This is the sum of the two bulk energy gains.",
+        "C": "Correct.",
+        "D": "Adds the bulk energy gains to the internal energy."
+      }
+    },
+    "issues": "Printed C differs from keyAnswer A.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students apply the first law and distinguish microscopic energy from bulk mechanical energy.",
+    "misconception": "Including bulk mechanical energies in internal energy",
+    "transcription": "A weather balloon, initially stationary on the ground, contains an ideal gas with an internal energy of $500\\ \\mathrm{J}$. The balloon is then launched into the air, reaching a certain altitude Y where the potential energy of the gas has increased by $100\\ \\mathrm{J}$ and its kinetic energy is $250\\ \\mathrm{J}$.\n\nAssuming the balloon is tied tightly and there is no heat transfer or work done on the ideal gas, what is the internal energy of the gas when the balloon is at that altitude Y?\n\nA  $150\\ \\mathrm{J}$\nB  $350\\ \\mathrm{J}$\nC  $500\\ \\mathrm{J}$\nD  $850\\ \\mathrm{J}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q13",
+    "keyPage": 11,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For an ideal gas, $\\tfrac12m\\langle c^2\\rangle=\\tfrac32kT$, so $c_{\\mathrm{rms}}\\propto\\sqrt{T}$, with $T$ in kelvin. The new speed satisfies $c_{\\mathrm{rms,new}}/400=\\sqrt{(100+273.15)/(50+273.15)}\\approx1.07$, giving $c_{\\mathrm{rms,new}}\\approx430\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses a linear dependence on absolute temperature.",
+        "C": "Uses the square root of the Celsius temperature ratio.",
+        "D": "Doubles the speed by treating it as directly proportional to Celsius temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students convert both temperatures to kelvin and take the square root of the ratio.",
+    "misconception": "Using Celsius temperatures in a gas-law ratio",
+    "transcription": "A sealed container is filled with an ideal gas which is initially at a temperature of $50\\,^\\circ\\mathrm{C}$. The root-mean-square (r.m.s.) speed of the gas molecules at this temperature is measured to be $400\\ \\mathrm{m\\,s^{-1}}$.\n\nIf the temperature of the gas is increased to $100\\,^\\circ\\mathrm{C}$, what is now the r.m.s speed of the gas molecules?\n\nA  $430\\ \\mathrm{m\\,s^{-1}}$\nB  $460\\ \\mathrm{m\\,s^{-1}}$\nC  $570\\ \\mathrm{m\\,s^{-1}}$\nD  $800\\ \\mathrm{m\\,s^{-1}}$"
+  }
+]

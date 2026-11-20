@@ -1,0 +1,517 @@
+[
+  {
+    "id": "ejc-2021-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both terms under the square root have the units of $v^2$, namely $\\mathrm{m^2\\,s^{-2}}$. For $a$, divide these units by $\\mathrm{m}$, the unit of $\\lambda$, to get $\\mathrm{m\\,s^{-2}}$. For $b$, divide by the units of $1/(\\rho\\lambda)$, namely $(\\mathrm{kg\\,m^{-2}})^{-1}$, to get $\\mathrm{kg\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Matches the terms under the square root to the units of speed instead of speed squared.",
+        "B": "Correct.",
+        "C": "Assigns the units of $v^2$ directly to $a$, overlooking the factor of $\\lambda$.",
+        "D": "Gives $b$ the units of $\\rho\\lambda$ alone, omitting the factor with the units of $v^2$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Both terms under the square root must be matched to the units of speed squared.",
+    "misconception": "Matching terms to the units of speed instead of speed squared",
+    "transcription": "The speed $v$ of surfaces waves of wavelength $\\lambda$ on a liquid of density $\\rho$ is given by\n$v=\\sqrt{\\frac{a\\lambda}{2\\pi}+\\frac{2\\pi b}{\\rho\\lambda}}$\nwhere $a$ is a constant and $b$ is a quantity that characterises the liquid.\n\nWhich of the following correctly indicates the SI base units for $a$ and $b$?\n\nOption | units of $a$ | units of $b$\nA | $\\mathrm{m^{0.5}\\,s^{-1}}$ | $\\mathrm{kg^{0.5}\\,m^2\\,s^{-1}}$\nB | $\\mathrm{m\\,s^{-2}}$ | $\\mathrm{kg\\,s^{-2}}$\nC | $\\mathrm{m^2\\,s^{-2}}$ | $\\mathrm{kg^{-0.5}\\,m^2\\,s^{-1}}$\nD | $\\mathrm{m\\,s^{-2}}$ | $\\mathrm{kg\\,m^{-2}}$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the volume of a sphere, $\\rho=\\dfrac{6m}{\\pi d^3}=\\dfrac{6(12.6)}{\\pi(1.85)^3}=3.8006\\ \\mathrm{g\\,cm^{-3}}$. The fractional uncertainty is $\\dfrac{\\Delta\\rho}{\\rho}=\\dfrac{\\Delta m}{m}+3\\dfrac{\\Delta d}{d}$. Substituting gives $\\Delta\\rho=3.8006(0.1/12.6+3\\times0.01/1.85)\\approx0.092\\ \\mathrm{g\\,cm^{-3}}$. Rounding the uncertainty up and matching the decimal places gives $(3.8\\pm0.1)\\ \\mathrm{g\\,cm^{-3}}$.",
+      "perOption": {
+        "A": "Omitting the mass uncertainty and treating the diameter dependence as linear gives about this value.",
+        "B": "Adding the mass and diameter fractional uncertainties without tripling the diameter term gives about this value.",
+        "C": "Tripling the diameter term but omitting the mass uncertainty gives about this value.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must propagate two fractional uncertainties through a cubic dependence and round the result.",
+    "misconception": "Omitting the factor of three in the diameter uncertainty",
+    "transcription": "The measurements and the associated uncertainties of a spherical object are given below\n\ndiameter: $(1.85\\pm0.01)\\ \\mathrm{cm}$\nmass: $(12.6\\pm0.1)\\ \\mathrm{g}$\n\nWhat is the uncertainty of density as determined from the above measurements?\n\nA $(3.80\\pm0.02)\\ \\mathrm{g\\,cm^{-3}}$\nB $(3.80\\pm0.05)\\ \\mathrm{g\\,cm^{-3}}$\nC $(3.80\\pm0.06)\\ \\mathrm{g\\,cm^{-3}}$\nD $(3.8\\pm0.1)\\ \\mathrm{g\\,cm^{-3}}$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The displacement keeps increasing with time, as in $j$. The velocity rises to terminal velocity, as in $h$. The acceleration decreases to zero, as in $k$.",
+      "perOption": {
+        "A": "Swaps displacement and velocity: $h$ levels off at terminal speed while displacement keeps increasing.",
+        "B": "Swaps acceleration and velocity: the rock starts from rest but has nonzero initial acceleration.",
+        "C": "Correct.",
+        "D": "Swaps displacement and acceleration: $k$ falls to zero while displacement keeps increasing."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must connect the shapes of three time graphs to terminal velocity.",
+    "misconception": "Assuming displacement levels off at terminal velocity",
+    "transcription": "A rock is released from rest at a great height in air and falls due to gravity. Each of the three graphs shown below represents the variation with time of one of the three variables $h$, $j$ and $k$.\n\n[Three graphs against time. $h$ rises from the origin and gradually levels off. $j$ rises from the origin with an increasing gradient and becomes nearly linear. $k$ starts positive and decreases in an S-shaped curve to zero.]\n\nWhich of the following correctly identifies the three variables $h$, $j$ and $k$?\n\nOption | $h$ | $j$ | $k$\nA | displacement | velocity | acceleration\nB | acceleration | displacement | velocity\nC | velocity | displacement | acceleration\nD | velocity | acceleration | displacement"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Without the wall, the vertical velocity would be zero at the top, giving $s_{\\max}=(10\\sin30^\\circ)^2/[2(9.81)]\\approx1.27\\ \\mathrm{m}$ from $v_y^2=u_y^2+2a_ys_y$. The ball would reach that height after $(10\\sin30^\\circ)/9.81\\approx0.51\\ \\mathrm{s}$. It reaches the wall sooner, at $t=3.5/(10\\cos30^\\circ)\\approx0.40\\ \\mathrm{s}$. Substituting that time into $s_y=(10\\sin30^\\circ)t-\\tfrac12(9.81)t^2$ gives $1.2\\ \\mathrm{m}$ to two significant figures.",
+      "perOption": {
+        "A": "Reports the numerical value of the time to the wall as a height.",
+        "B": "Confuses a time scale of roughly half a second with a vertical distance.",
+        "C": "Correct.",
+        "D": "Uses the key’s erroneous maximum height and assumes that the ball reaches it at the wall."
+      }
+    },
+    "issues": "The key prints 5.1 m for the unobstructed maximum height, but its own formula gives about 1.27 m. Its final substitution also has an inconsistent sign for gravity. The corrected working still gives C.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain the flight time from horizontal motion and use it to find the vertical displacement.",
+    "misconception": "Treating the wall as the point of maximum height",
+    "transcription": "A ball is threw with an initial speed of $10\\ \\mathrm{m\\,s^{-1}}$ at an elevation angle of $30^\\circ$ from the horizontal towards a tall vertical wall that is $3.5\\ \\mathrm{m}$ away.\n\n[Not to scale. A launch arrow labelled $10\\ \\mathrm{m\\,s^{-1}}$ points $30^\\circ$ above the horizontal toward a vertical wall $3.5\\ \\mathrm{m}$ away horizontally.]\n\nAt what distance above its initial position does the ball hit the wall?\n\nA $0.40\\ \\mathrm{m}$\nB $0.50\\ \\mathrm{m}$\nC $1.2\\ \\mathrm{m}$\nD $5.1\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rod balances about its centre with equal lever arms, so the end strings have equal tension $T$. The objects displace equal volumes, so $U=\\rho Vg$ gives the greater upthrust in the denser liquid Y. For each object, $m=W/g=(T+U)/g$, so P has the smaller mass.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the effect of the greater upthrust on the weight needed for the same tension.",
+        "C": "Treats equal string tensions as equal weights and overlooks the different upthrusts.",
+        "D": "Overlooks that the liquid density ordering and equal displaced volumes suffice to compare the masses."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.g",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine rotational equilibrium of the rod with vertical force balance on each object.",
+    "misconception": "Equating weight with string tension in a liquid",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the first $3.0\\ \\mathrm{s}$, drag is negligible and the acceleration is a constant $9.81\\ \\mathrm{m\\,s^{-2}}$ downwards. Opening the parachute produces a sudden large upward drag force, reversing the direction of the resultant force and acceleration. As the parachutist slows, the acceleration approaches zero.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows acceleration increasing during the initial drag-free fall.",
+        "C": "Shows a rising acceleration before the parachute opens, when it should be constant.",
+        "D": "Shows the acceleration keeping its original direction after the parachute opens."
+      }
+    },
+    "issues": "The batch marks this as text mode although the four answer choices are graphs.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "motion-and-forces.b",
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise constant free-fall acceleration followed by an acceleration reversal when the parachute opens.",
+    "misconception": "Assuming acceleration must point in the direction of motion",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two masses together have a downslope weight component of $2mg\\sin\\theta$. At impending slip this equals the maximum friction $mg$, so $2mg\\sin\\theta=mg$. Thus $\\sin\\theta=0.5$ and $\\theta=30^\\circ$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "At $45^\\circ$ the combined downslope component is $\\sqrt{2}mg$, which already exceeds the friction limit.",
+        "C": "At $60^\\circ$ the combined downslope component is $\\sqrt{3}mg$, which already exceeds the friction limit.",
+        "D": "Using only the block’s weight component gives $90^\\circ$ and neglects the force transmitted by the sphere."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must include both masses in the downslope component while using only the block’s friction limit.",
+    "misconception": "Ignoring the downslope force transmitted by the sphere",
+    "transcription": "A block and a sphere of equal mass $m$ are placed on an inclined plane. The maximum frictional force between the block and the plane has the same magnitude as the weight of the block. There is no frictional force between the sphere and the plane.\n\n[The plane rises to the right at angle $\\theta$ to the horizontal. The sphere touches the upslope face of the block, and both rest on the plane.]\n\nWhat is the maximum angle $\\theta$ at which the plane can be inclined before the block starts to slip?\n\nA $30^\\circ$\nB $45^\\circ$\nC $60^\\circ$\nD $90^\\circ$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The collision is inelastic, so kinetic energy is not conserved, but the total momentum of the isolated system remains $p$. Momentum conservation gives $mu+0=2mv$, hence $v=u/2$. Each particle therefore has kinetic energy $\\tfrac12m(u/2)^2=E/4$ and momentum $p/2$, giving total kinetic energy $E/2$.",
+      "perOption": {
+        "A": "Sets the total momentum to zero even though it remains equal to the initial momentum of X.",
+        "B": "Incorrectly conserves kinetic energy in a perfectly inelastic collision.",
+        "C": "Halves the total system momentum even though it is conserved.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the common speed and distinguish each particle’s momentum and kinetic energy from the totals.",
+    "misconception": "Applying the speed-squared factor to momentum",
+    "transcription": "Particle X has kinetic energy $E$ and momentum $p$. It undergoes a perfectly inelastic collision, head-on with particle Y which has the same mass and that is initially at rest.\n\nWhich of the following correctly represents the kinetic energies and momenta after the collision?\n\nOption | kinetic energy of X | total kinetic energy of system | momentum of X | total momentum of system\nA | $0$ | $0$ | $0$ | $0$\nB | $0$ | $E$ | $0$ | $p$\nC | $E/4$ | $E/2$ | $p/4$ | $p/2$\nD | $E/4$ | $E/2$ | $p/2$ | $p$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upward lift equals the rate of change of momentum of the air, $\\dot m_{\\mathrm{air}}\\Delta v$. For the helicopter, $ma=F_{\\mathrm{lift}}-mg$, so $m(a+g)=\\dot m_{\\mathrm{air}}\\Delta v$. Thus $m=(2500)(15)/(12.5+9.81)\\approx1680\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reads the mass flow rate of the air as the mass of the helicopter.",
+        "C": "Divides the lift by the helicopter’s acceleration without subtracting its weight.",
+        "D": "Dividing thrust by $g\\approx10\\ \\mathrm{m\\,s^{-2}}$ assumes the helicopter is in vertical equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate thrust from momentum flow and then account for weight in the helicopter’s force balance.",
+    "misconception": "Treating thrust as the resultant force",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the speed–time graph is the acceleration. The resultant force is initially zero and then constant and positive, so the speed graph is initially flat and then has a constant positive gradient.",
+      "perOption": {
+        "A": "The increasing gradient would require the resultant force to increase.",
+        "B": "The flattening curve would require the resultant force to decrease to zero.",
+        "C": "Correct.",
+        "D": "A step in speed would require an impulse, and the constant speed afterwards would require zero resultant force."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must translate piecewise constant force into piecewise constant speed–time gradient.",
+    "misconception": "Copying the force–time graph as the speed–time graph",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total horizontal momentum is initially zero, so conservation of momentum gives $m_{\\mathrm{cannon}}v_{\\mathrm{recoil}}+m_{\\mathrm{ball}}v_{\\mathrm{ball}}=0$ for signed velocities. The magnitudes of their momenta are equal, giving a ball speed of $(1000/10)(5.0)=500\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Divides the mass ratio by the recoil speed instead of multiplying by it.",
+        "B": "Correct.",
+        "C": "Divides the cannon mass by the recoil speed and omits the ball’s mass.",
+        "D": "Reports the cannon’s momentum magnitude as the ball’s speed without dividing by the ball’s mass."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.b",
+      "collisions.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies one horizontal momentum balance to the initially stationary system.",
+    "misconception": "Confusing momentum with speed",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Newton’s third law, the floor’s force on the man and the man’s force on the floor are equal in magnitude and opposite in direction. The free-body diagram for the man has weight downwards and the normal force upwards, with acceleration downwards. The normal force is therefore smaller than his weight, as is the force he exerts on the floor.",
+      "perOption": {
+        "A": "Equating the normal force with weight would give zero resultant force on the man.",
+        "B": "Newton’s third law requires the two contact forces to have equal magnitudes.",
+        "C": "Newton’s third law requires the two contact forces to have equal magnitudes.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s note groups B with A, but B is ruled out directly by Newton’s third law, just like C.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student combines Newton’s third law with the downward resultant force on the man.",
+    "misconception": "Treating weight and normal force as a third-law pair",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity does work on the girl as she falls, and the electric field does work on the electron as it moves towards the plate. The tyres roll without skidding, so they do not slide against the road. The expanding gas pushes the piston outwards and does work on the atmosphere.",
+      "perOption": {
+        "A": "Gravity does work on the girl as she falls.",
+        "B": "The tyres roll without skidding, so the contact point is instantaneously at rest relative to the road and ideal static friction does no work there.",
+        "C": "The electric field does work on the electron as it accelerates towards the plate.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key says friction does work on the rolling tyres. In ideal rolling without slipping on a stationary road, static friction does no work at the contact point. D is still correct.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.i",
+      "thermodynamic-systems.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student identifies which force transfers energy in four different situations.",
+    "misconception": "Reversing which body does work on which",
+    "transcription": "The first column in the table gives four examples of work being done. The second column gives more detail of the action.\n\nWhich row is correct?\n\nOption | example | detail\nA | a girl dives from a diving board into a swimming pool | work is done by the girl against gravity as she falls\nB | a man pushes a car along a level road without skidding | work is done by the tyres against friction\nC | an electron is accelerated towards a positively-charged plate | work is done by the electron against the electric field of the plate\nD | a piston is pushed outwards as a gas expands | work is done on the atmosphere by the gas"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Efficiency is useful power divided by total power expenditure. The useful output is $P_{\\mathrm O}$ and the total input is $P_{\\mathrm I}$, so efficiency is $P_{\\mathrm O}/P_{\\mathrm I}$.",
+      "perOption": {
+        "A": "Divides total input power by total outgoing power, including losses, giving unity.",
+        "B": "Correct.",
+        "C": "Calculates the fraction of input power lost.",
+        "D": "Compares power loss with useful output rather than useful output with total input."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.n"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "diagram"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student reads the useful output and total input from the diagram and applies the efficiency definition.",
+    "misconception": "Using wasted power as the useful output",
+    "transcription": "Power is transferred through a machine as shown.\n\n[A machine has an incoming arrow labelled power input $P_{\\mathrm I}$, an outgoing arrow labelled power output $P_{\\mathrm O}$, and a downward arrow labelled power loss $P_{\\mathrm L}$.]\n\nWhat is the efficiency of the machine?\n\nA $P_{\\mathrm I}/(P_{\\mathrm O}+P_{\\mathrm L})$\nB $P_{\\mathrm O}/P_{\\mathrm I}$\nC $P_{\\mathrm L}/P_{\\mathrm I}$\nD $P_{\\mathrm L}/P_{\\mathrm O}$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The tape leaves the spool at the tangential speed $v=r\\omega$, so $\\omega=v/r$. Since $v$ is constant, the angular velocity is inversely proportional to $r$.",
+      "perOption": {
+        "A": "Uses an inverse-square dependence where the speed relation contains only one factor of radius.",
+        "B": "Correct.",
+        "C": "Reverses the dependence on radius at fixed tangential speed.",
+        "D": "Assumes that constant tangential speed fixes the angular velocity even as the radius changes."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "A direct rearrangement of the relation between tangential speed and angular velocity gives the dependence on radius.",
+    "misconception": "Confusing constant tape speed with constant angular velocity",
+    "transcription": "In a tape cassette, the tape leaves one spool at a constant speed $v$ and at a variable distance $r$ from the centre of the spool.\n\n[Perspective and face-on views of a spool. In both views the tape leaves tangentially to the right at speed $v$. In the face-on view, $r$ is marked from the centre to the point where the tape leaves.]\n\nWhich of the following correctly describes the angular velocity of the spool?\n\nA The angular velocity is directly proportional to $\\frac{1}{r^2}$.\nB The angular velocity is directly proportional to $\\frac{1}{r}$.\nC The angular velocity is directly proportional to $r$.\nD The angular velocity does not depend on $r$."
+  }
+]

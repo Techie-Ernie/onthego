@@ -1,0 +1,506 @@
+[
+  {
+    "id": "ejc-2019-promo-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The equal-mass stars pull in opposite directions with equal force at the midpoint of PQ. The resultant force there is zero, so the graph must reach the horizontal axis.",
+      "perOption": {
+        "A": "Shows a peak where the forces cancel.",
+        "B": "Places the maximum at the midpoint despite cancellation.",
+        "C": "Leaves a nonzero force at the midpoint.",
+        "D": "Correct. The force magnitude reaches zero."
+      }
+    },
+    "issues": "D is the best available graph. Its rounded minimum is schematic, since the exact force magnitude has a cusp.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Symmetry determines the graph at its midpoint.",
+    "misconception": "Adding forces as scalars",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GM_{\\mathrm E}m/r^2=mv^2/r=mr\\omega^2$. This gives $K=GM_{\\mathrm E}m/(2r)$ and $GM_{\\mathrm E}=r^3\\omega^2$. Adding $U=-GM_{\\mathrm E}m/r$ gives $E=-GM_{\\mathrm E}m/(2r)=-K=U/2$. Equal total energies imply equal gravitational potential energies.",
+      "perOption": {
+        "A": "This is true because equal total energies fix $m/r$, so the smaller radius gives the smaller mass.",
+        "B": "Correct. The two gravitational potential energies are equal.",
+        "C": "This is true because the larger radius gives a smaller $\\omega$.",
+        "D": "This is true because both kinetic energies equal $-E$."
+      }
+    },
+    "issues": "The key correctly labels statement A true but incorrectly calls satellite A more massive in its worked note. Its own energy equation gives the opposite.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must compare both orbital energies and angular velocities.",
+    "misconception": "Comparing potential energies from radius alone",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The change in potential energy is $\\Delta U=m(\\phi_f-\\phi_i)=m[-GM/R-(-GM/(5R))]=-4GMm/(5R)$. Dividing by $m$ gives $\\Delta\\phi=-4GM/(5R)$, so D is false.",
+      "perOption": {
+        "A": "This is true because $\\tfrac12 mv^2=-\\Delta U=4GMm/(5R)$.",
+        "B": "This is true because the work done by gravity equals $-\\Delta U$.",
+        "C": "This is true because $GM/R^2-GM/(5R)^2=24GM/(25R^2)$.",
+        "D": "Correct. Gravitational potential decreases."
+      }
+    },
+    "issues": "The worked line repeats the final-potential subscript in place of the initial one.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.f",
+      "gravitational-fields.g",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Three related quantities must be distinguished by their sign and dependence on radius.",
+    "misconception": "Dropping the sign of the potential change",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Between contacts with the floor the ball accelerates downward at a constant $g=9.81\\ \\mathrm{m\\,s^{-2}}$. Its acceleration therefore fails to follow $a=-\\omega^2x$.",
+      "perOption": {
+        "A": "Correct. The free-flight acceleration is constant.",
+        "B": "Near the bottom of a suitably curved dish the ball has an approximately linear restoring force.",
+        "C": "A swing at small angles has an approximately linear restoring acceleration.",
+        "D": "Small vertical displacements of the ice cube produce approximately proportional changes in buoyancy."
+      }
+    },
+    "issues": "The intended SHM examples assume small oscillations about equilibrium.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The defining acceleration condition singles out the bouncing ball.",
+    "misconception": "Treating repeating motion as SHM",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $|v|=\\omega\\sqrt{x_0^2-x^2}$. Taking distances in millimetres, the given pairs yield $30=\\omega\\sqrt{x_0^2-20^2}$ and $20=\\omega\\sqrt{x_0^2-30^2}$. Solving gives $\\omega=1\\ \\mathrm{rad\\,s^{-1}}$ and $x_0^2=1300\\ \\mathrm{mm^2}$. At $x=25\\ \\mathrm{mm}$, the speed is $\\sqrt{1300-25^2}=25.9\\ \\mathrm{mm\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This speed would require a larger displacement.",
+        "B": "This is a linear interpolation even though speed varies nonlinearly with displacement.",
+        "C": "Correct. The calculated speed rounds to 26 millimetres per second.",
+        "D": "This speed would require a smaller displacement."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Two simultaneous equations determine the amplitude and angular frequency before the final substitution.",
+    "misconception": "Interpolating speed linearly",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By energy conservation, maximum potential energy equals maximum kinetic energy, $\\tfrac12m\\omega^2x_0^2$. At displacement $x$, subtract the kinetic energy to get $E_P=\\tfrac12m\\omega^2x_0^2-\\tfrac12m\\omega^2(x_0^2-x^2)=\\tfrac12m\\omega^2x^2$. Thus $4.1=\\tfrac12m(2\\pi/T)^2$, giving $T=\\sqrt{4\\pi^2(1.5)/[2(4.1)]}=2.69\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "This period implies an angular frequency far above that allowed by the energy coefficient.",
+        "B": "This period gives a potential-energy coefficient near 24 instead of 4.1.",
+        "C": "This period gives a potential-energy coefficient near 13 instead of 4.1.",
+        "D": "Correct. The period rounds to 2.7 seconds."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain the potential-energy coefficient and convert it to a period.",
+    "misconception": "Dropping the half in the energy expression",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q23",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A $30\\%$ reduction leaves $70\\%$ of the original detected intensity. Malus’ law gives $I_{\\mathrm{new}}/I=\\cos^2\\theta=0.70$, so the acute solution is about $33^\\circ$. Since $\\cos^2\\theta$ repeats every $180^\\circ$, $213^\\circ$ also works.",
+      "perOption": {
+        "A": "Correct. It differs from the acute solution by 180 degrees.",
+        "B": "This transmits about 48% of the original intensity.",
+        "C": "This transmits about 30%, confusing the fraction lost with the fraction transmitted.",
+        "D": "This transmits about 9%, close to the result of using 0.30 for the cosine before squaring."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret the percentage reduction and use the periodicity of Malus’ law.",
+    "misconception": "Using the fraction lost as the fraction transmitted",
+    "transcription": "Two sheets of polaroid P and Q are placed such that their planes of polarisation are parallel as shown. A beam of unpolarised light passes through them and is incident on the detector. The intensity detected is $I$.\n\n[An incident beam of unpolarised light travels right through P and Q, both drawn with vertical lines, and the emergent beam reaches a detector.]\n\nWhich of the following is a possible angle through which Q can be rotated such that the intensity detected is reduced by 30%?\n\nA $213^\\circ$\nB $226^\\circ$\nC $237^\\circ$\nD $253^\\circ$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $v=f\\lambda$, the wavelength is $8.0/5.0=1.6\\ \\mathrm{km}$. The phase difference is $\\Delta\\phi=2\\pi\\Delta s/\\lambda=2\\pi(2.0/1.6)=5\\pi/2$. Subtracting one full cycle gives the equivalent phase difference $\\pi/2$.",
+      "perOption": {
+        "A": "This ignores the extra quarter wavelength beyond one complete wavelength.",
+        "B": "This assigns $\\pi/4$ to a quarter wavelength, which is a quarter of $2\\pi$.",
+        "C": "Correct. The residual phase difference is a quarter cycle.",
+        "D": "This corresponds to half a cycle instead of a quarter."
+      }
+    },
+    "issues": "The key prints 8000/5000 on the wavelength line but uses the correct 8/5 ratio in the phase calculation. Its final equality is modulo one full cycle.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "One wavelength calculation and a phase conversion are needed.",
+    "misconception": "Ignoring phase equivalence modulo one cycle",
+    "transcription": "A wave has frequency of $5.0\\ \\mathrm{Hz}$. It travels through a medium at a speed of $8.0\\ \\mathrm{km\\,s^{-1}}$.\n\nWhat is the phase difference, in radians, between two points $2.0\\ \\mathrm{km}$ apart?\n\nA zero\nB $\\pi/4$\nC $\\pi/2$\nD $\\pi$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Huygens’ principle, points across the illuminated slit act as sources of secondary wavelets. These wavelets interfere on the screen to form bright and dark fringes.",
+      "perOption": {
+        "A": "Correct. Wavelets from across the slit interfere.",
+        "B": "Monochromatic light has a single wavelength shared by all the wavelets.",
+        "C": "The contributions that interfere originate across the slit itself.",
+        "D": "Incoherence would wash out the stable fringes."
+      }
+    },
+    "issues": "The key cites Huygens’ principle and refers to a single-slit annex absent from the supplied pages.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a",
+      "superposition.e",
+      "superposition.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognizing Huygens’ principle identifies the source of the fringes.",
+    "misconception": "Confusing wavelets with additional wavelengths",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Grating X produces the horizontal spots, with its third-order spot $1.6\\ \\mathrm m$ from the centre. Use $d\\sin\\theta=n\\lambda$, with $d=1/N$ and $\\sin\\theta=1.6/\\sqrt{3.6^2+1.6^2}$. This gives $N=1.6/[3(450\\times10^{-9})\\sqrt{3.6^2+1.6^2}]\\approx3\\times10^5\\ \\mathrm{m^{-1}}$.",
+      "perOption": {
+        "A": "This density predicts a third-order spot closer to the centre than shown.",
+        "B": "Correct. The third horizontal order gives about 300,000 lines per metre.",
+        "C": "This density is too high for the observed horizontal third-order angle.",
+        "D": "Using the second vertical spot gives this density for grating Y."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must select the correct spot row and order and combine geometry with the grating equation.",
+    "misconception": "Using the other grating’s spots",
+    "transcription": "A beam of monochromatic light of wavelength $450\\ \\mathrm{nm}$ passes through 2 diffraction gratings X and Y that are positioned perpendicular to one another.\n\n[Monochromatic light travels right through crossed gratings X (vertical rulings) and Y (horizontal rulings) towards a screen.]\n\nPart of the interference pattern on the screen $3.6\\ \\mathrm m$ away from X and Y is as shown.\n\n[A square grid has horizontal and vertical $1\\ \\mathrm m$ scale bars. A central spot is flanked horizontally on each side by spots about $0.5$, $1.0$ and $1.6\\ \\mathrm m$ away. Vertically above and below it are spots about $0.8$ and $1.8\\ \\mathrm m$ away.]\n\nIf the distance between the two gratings is negligible, what is the approximate number of lines per metre for grating X?\n\nA $2\\times10^5$ lines per metre\nB $3\\times10^5$ lines per metre\nC $4\\times10^5$ lines per metre\nD $5\\times10^5$ lines per metre"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q27",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The open tube fits an integer number of half-wavelengths, so $L_1=p\\lambda/2$. The tube closed at one end fits an odd number of quarter-wavelengths, so $L_2=(2q+1)\\lambda/4$. Dividing gives $L_2/L_1=(2q+1)/(2p)$, equivalent to $(2m-1)/(2n)$ for $m=q+1$ and $n=p$.",
+      "perOption": {
+        "A": "Correct. It covers all allowed mode combinations.",
+        "B": "It restricts the open tube to its second harmonic.",
+        "C": "It misses allowed ratios such as $3/2$, from three quarter-wavelengths over one half-wavelength.",
+        "D": "Equal lengths would require an odd number of quarter-wavelengths to equal an even number."
+      }
+    },
+    "issues": "B is a valid special case with the open tube in its second harmonic. A is the general expression.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Different end conditions determine the two independent mode numbers.",
+    "misconception": "Using the same harmonic series for both tubes",
+    "transcription": "Two identical tuning forks are placed above two resonance tubes: one of length $L_1$ that is open at both ends and another of length $L_2$ closed at one end. In both cases, resonance is observed.\n\n[A tuning fork sits over each vertical tube. The left tube, labelled $L_1$, is open at both ends. The right tube, labelled $L_2$, is open at the top and closed at the bottom.]\n\nWhich of the following expressions, where $m$ and $n$ are positive integers, give the ratio of $L_2/L_1$?\n\nA $\\frac{2m-1}{2n}$\nB $\\frac{2m-1}{4}$\nC $\\frac{2}{m}$\nD $1$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "P and Q are in series, so the same current flows through both. The graph gives $2\\ \\mathrm A$ through P at $10\\ \\mathrm V$, and at that current Q has $5\\ \\mathrm V$ across it. The combined potential difference is $10+5=15\\ \\mathrm V$.",
+      "perOption": {
+        "A": "It reads Q correctly but omits its voltage drop from the total.",
+        "B": "Correct. The voltage across Q is 5 V and the total is 15 V.",
+        "C": "It misreads Q’s voltage and gives a total inconsistent with the stated drops.",
+        "D": "It adds the stated drops correctly but reads the wrong voltage for Q at 2 A."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students read both voltages at the same current and add them.",
+    "misconception": "Assuming equal potential differences in series",
+    "transcription": "The figure shows the graph of current against potential difference for two electrical devices P and Q.\n\n[Current in A is plotted against p.d. in V. P is a straight line from the origin through $(10\\ \\mathrm V,2\\ \\mathrm A)$ and $(25\\ \\mathrm V,5\\ \\mathrm A)$. Q is an increasing curve from the origin that flattens as p.d. rises, passing through about $(5\\ \\mathrm V,2\\ \\mathrm A)$ and $(10\\ \\mathrm V,3\\ \\mathrm A)$. The traces meet again near $(20\\ \\mathrm V,4\\ \\mathrm A)$.]\n\nP and Q are joined in series. If the potential difference across P is $10\\ \\mathrm V$, which of the following is correct?\n\nOption | potential difference across Q / V | potential difference across P and Q / V\nA | 5 | 10\nB | 5 | 15\nC | 15 | 15\nD | 15 | 25"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In one revolution, charge $8Q$ passes a fixed point at the rim. The period is $T=2\\pi/\\omega$, so $I=8Q/T=8Q/(2\\pi/\\omega)=4Q\\omega/\\pi$.",
+      "perOption": {
+        "A": "Correct. It divides the charge per revolution by the period.",
+        "B": "It introduces an extraneous inverse diameter, giving units of current per length.",
+        "C": "It treats $\\omega$ as revolutions per second and omits the factor of $2\\pi$.",
+        "D": "It multiplies by the period instead of dividing by it."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "currents.a",
+      "circular-motion.b"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The only steps are finding the charge per revolution and converting angular frequency to period.",
+    "misconception": "Treating angular frequency as revolutions per second",
+    "transcription": "Eight small conductors of charge $Q$ are placed on the edge of an insulating disc of diameter $D$. The angular frequency of rotation of the disc is $\\omega$.\n\n[A circular disc has eight equally spaced dots at the rim, each labelled $Q$. A double-headed arrow across the disc marks diameter $D$, and a curved arrow shows anticlockwise rotation.]\n\nWhat is the equivalent electric current at the edge of the disc?\n\nA $\\frac{4Q\\omega}{\\pi}$\nB $\\frac{8Q\\omega}{\\pi D}$\nC $8Q\\omega$\nD $\\frac{16Q\\pi}{\\omega}$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q30",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Between Y and Z, the $5.0\\ \\Omega$ resistor is in parallel with the two $R$ resistors in series. Hence $R_{YZ}=10R/(5+2R)=2.5\\ \\Omega$, giving $R=2.5\\ \\Omega$. Between X and Y, $R$ is in parallel with $R+5.0\\ \\Omega$, giving $R_{XY}=(2.5)(7.5)/10\\approx1.9\\ \\Omega$.",
+      "perOption": {
+        "A": "This is too low for the parallel combination of the two actual branches.",
+        "B": "This is the approximate conductance in siemens, the reciprocal of the resistance.",
+        "C": "Correct. The two branches give $1.9\\ \\Omega$.",
+        "D": "This exceeds $2.5\\ \\Omega$, the smaller of the two parallel branch resistances."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The same network must be redrawn for two different terminal pairs.",
+    "misconception": "Keeping the same branches when the terminals change",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q1",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both $\\alpha c^2$ and $\\beta c$ must have units of energy, $\\mathrm{kg\\,m^2\\,s^{-2}}$. Dividing by the units of $c^2$ gives $\\mathrm{kg}$ for $\\alpha$. Dividing by the units of $c$ gives $\\mathrm{kg\\,m\\,s^{-1}}$ for $\\beta$, the units of momentum.",
+      "perOption": {
+        "A": "Correct. The dimensions identify mass and momentum.",
+        "B": "Force times $c^2$ has the wrong units for energy.",
+        "C": "Force times $c$ has units of power.",
+        "D": "Swapping mass and momentum gives the wrong dimensions for both terms."
+      }
+    },
+    "issues": "The supplied key file contains the question paper only. No school answer letter or working is available. Dimensional analysis gives A.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Matching units in each term identifies both quantities directly.",
+    "misconception": "Assigning quantities without checking dimensions",
+    "transcription": "Using the concept of relativity, the total energy $E$ of a particle can be expressed using the following equation\n\n$E^2=(\\alpha c^2)^2+(\\beta c)^2$\n\nwhere $c$ is the speed of light.\n\nWhat physical quantities do $\\alpha$ and $\\beta$ represents respectively?\n\nOption | $\\alpha$ | $\\beta$\nA | mass | momentum\nB | force | momentum\nC | mass | force\nD | momentum | mass"
+  }
+]

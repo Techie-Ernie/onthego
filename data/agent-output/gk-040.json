@@ -1,0 +1,501 @@
+[
+  {
+    "id": "ejc-2020-promo-p1-q17",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocities at the top and bottom point in opposite directions, so the ball's linear momenta differ. Its speed and kinetic energy stay constant, but its gravitational potential energy is higher at the top, so its total mechanical energy is higher there.",
+      "perOption": {
+        "A": "Ignores both the reversal of momentum and the increase in gravitational potential energy.",
+        "B": "Compares momentum magnitudes only and misses the reversal in direction.",
+        "C": "Assumes equal kinetic energies imply equal total mechanical energies.",
+        "D": "Correct. Momentum reverses and total mechanical energy increases with height."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "quantities-and-measurement.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare velocity directions and account for the change in height.",
+    "misconception": "Treating momentum as a scalar",
+    "transcription": "A steel ball fixed to one end of a light rod rotates in a vertical circle with a constant speed.\n\n[The rod runs from the centre of a dashed vertical circle to a steel ball on the upper-right part of the circle. A tangent arrow points up and to the left.]\n\nHow do the linear momentum and total mechanical energy of the ball at its highest position compare with the linear momentum and total mechanical energy of the ball at its lowest position?\n\nLinear momentum | Total mechanical energy\nA the same | the same\nB the same | higher\nC different | the same\nD different | higher"
+  },
+  {
+    "id": "ejc-2020-promo-p1-q18",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Planet X is $2R$ from P and contributes $G(2M)/(2R)^2=GM/(2R^2)$. Planet Y is $R$ from P and contributes $GM/R^2$. Both fields point to the left, giving a total magnitude of $3GM/(2R^2)$.",
+      "perOption": {
+        "A": "Subtracts the two field strengths even though both point left.",
+        "B": "Correct. Both fields add.",
+        "C": "Treats both fields as having strength $GM/R^2$.",
+        "D": "Uses an inverse-distance dependence, which gives the units of potential."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read both distances and add the two fields in the correct direction.",
+    "misconception": "Subtracting fields that point in the same direction",
+    "transcription": "Two planets X and Y have masses $2M$ and $M$ respectively. The centres of the planets are separated by a distance $R$. Point P is on the straight line joining the centres of the two planets and is at a distance $R$ from the centre of planet Y as shown.\n\n[From left to right, planet X ($2M$), planet Y ($M$) and P lie on one horizontal line. The distances from X to Y and from Y to P are both $R$.]\n\nWhat is the magnitude of the gravitational field strength at the point P due to the two planets?\n\nA $\\frac{GM}{2R^2}$\nB $\\frac{3GM}{2R^2}$\nC $\\frac{2GM}{R^2}$\nD $\\frac{2GM}{R}$"
+  },
+  {
+    "id": "ejc-2020-promo-p1-q19",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force is $F=-m\\,\\mathrm{d}\\phi/\\mathrm{d}r$. The secant through $r_1$ and $r_3$, on either side of $r_2$, best approximates the tangent at $r_2$. With $m=1\\ \\mathrm{kg}$, this gives the expression in C.",
+      "perOption": {
+        "A": "Uses the shallower secant ending at $r_2$.",
+        "B": "Uses the origin as a reference point even though the curve does not pass through it.",
+        "C": "Correct. The secant straddles $r_2$.",
+        "D": "Uses the steeper secant beginning at $r_2$."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.h",
+      "energy-and-fields.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must estimate a local tangent using a secant that straddles the point.",
+    "misconception": "Using a one-sided slope for a curved graph",
+    "transcription": "The gravitational potential $\\phi$ along the line joining the centres of a planet and its moon varies with the distance $r$ from the centre of the moon as shown.\n\nWhat is best estimate of the gravitational force acting on a $1\\ \\mathrm{kg}$ mass at $r_2$?\n\n[Graph of $\\phi$ against $r$. The curve lies below the horizontal axis, rises sharply to a maximum near $r=0$, then falls with an increasingly steep negative gradient. Dashed guides mark $(r_1,\\phi_1)$, $(r_2,\\phi_2)$, $(r_3,\\phi_3)$ and $(r_4,\\phi_4)$ on the falling branch, in order of increasing $r$.]\n\nA $\\frac{\\phi_1-\\phi_2}{r_2-r_1}$\nB $-\\frac{\\phi_2}{r_2}$\nC $\\frac{\\phi_1-\\phi_3}{r_3-r_1}$\nD $\\frac{\\phi_2-\\phi_3}{r_3-r_2}$"
+  },
+  {
+    "id": "ejc-2020-promo-p1-q20",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Kinetic energy stays constant, so the external work equals the change in gravitational potential energy. The potential falls from $-20$ to $-60\\ \\mathrm{MJ\\,kg^{-1}}$, so $W_{\\mathrm{ext}}=10[-60-(-20)]=-400\\ \\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Correct. The external force removes 400 MJ.",
+        "B": "Uses the potential difference without multiplying by the mass.",
+        "C": "Omits the mass and reverses the sign of the potential difference.",
+        "D": "Gives the positive work done by gravity."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.e",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the potentials and use the correct sign for external work.",
+    "misconception": "Confusing external work with work done by gravity",
+    "transcription": "The diagram shows the equipotential surfaces near a planet.\n\n[Three dashed concentric circles surround the planet. The outer, middle and inner equipotentials are $-20$, $-40$ and $-60\\ \\mathrm{MJ\\,kg^{-1}}$, respectively. Point A is on the outer circle at upper left and point B is on the inner circle at lower right.]\n\nWhat is the work done by an external force to move a mass of $10\\ \\mathrm{kg}$ from point A to point B without a change in kinetic energy?\n\nA $-400\\ \\mathrm{MJ}$\nB $-40\\ \\mathrm{MJ}$\nC $40\\ \\mathrm{MJ}$\nD $400\\ \\mathrm{MJ}$"
+  },
+  {
+    "id": "ejc-2020-promo-p1-q21",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Geostationary satellites share Earth's angular velocity. Equating gravitational and centripetal acceleration gives $GM/r^2=r\\omega^2$, so they share the same orbital radius and centripetal acceleration magnitude. Their gravitational potential energy $-GMm/r$ can differ because their masses can differ.",
+      "perOption": {
+        "A": "Every geostationary satellite rotates with Earth.",
+        "B": "Its magnitude is fixed by the common orbital radius and angular speed.",
+        "C": "Earth's rotation fixes the orbital radius through $r^3=GM/omega^2$.",
+        "D": "Correct. Gravitational potential energy depends on satellite mass."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder. Centripetal acceleration vectors may point in different directions at different orbital longitudes. B is understood to refer to the magnitude.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j",
+      "gravitational-fields.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish mass-dependent orbital energy from quantities set by Earth's rotation.",
+    "misconception": "Confusing gravitational potential with potential energy",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q22",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph gives an amplitude of $7\\ \\mathrm{m}$ and a maximum speed of $5\\ \\mathrm{m\\,s^{-1}}$. In simple harmonic motion, $v_{\\max}=\\omega A$, so $\\omega=5/7\\ \\mathrm{rad\\,s^{-1}}$. The period is $T=2\\pi/\\omega=8.8\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Uses the reciprocal of angular frequency and omits the factor $2pi$.",
+        "B": "Reports the numerical value of angular frequency as the period.",
+        "C": "Uses an incorrect amplitude or maximum speed for the plotted intercepts.",
+        "D": "Correct. The period is 8.8 s."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read the two intercepts and convert angular frequency to period.",
+    "misconception": "Confusing angular frequency with frequency",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q23",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The vehicle starts at maximum positive displacement, so $x=50\\cos(2\\pi t/3.0)$ with $x$ in millimetres. Setting $x=28$ gives the first crossing at $t=\\frac{3.0}{2\\pi}\\cos^{-1}(28/50)\\approx0.47\\ \\mathrm{s}$. The second crossing is the same time before the end of the cycle, at $3.0-0.47=2.53\\ \\mathrm{s}$, which rounds to $2.5\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Gives the first crossing, on the way toward equilibrium.",
+        "B": "Falls just after the first crossing while the vehicle is still moving left.",
+        "C": "Correct. This is the crossing on the return toward the release point.",
+        "D": "Places the return crossing too late, when the vehicle has already passed Z."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must choose the correct starting phase and distinguish the second crossing from the first.",
+    "misconception": "Using the first crossing of the target position",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q24",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first polarising axis is $90^\\circ-50^\\circ=40^\\circ$ from the horizontal. The axes tilt to opposite sides of the vertical, so the second axis is $50^\\circ+20^\\circ=70^\\circ$ from the first. Applying Malus' law twice gives $I/I_0=\\cos^2 40^\\circ\\cos^2 70^\\circ=0.0686$.",
+      "perOption": {
+        "A": "Uses an intensity reduction inconsistent with the $40^circ$ and $70^circ$ projections.",
+        "B": "Uses $50^circ$ for the first projection, measuring from the vertical.",
+        "C": "Effectively takes half the incident intensity at the first filter, as for unpolarised light.",
+        "D": "Correct. Both successive projections are included."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track the light's polarisation direction after the first filter.",
+    "misconception": "Using the vertical as the incident polarisation reference",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q25",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the wave profile shifts right, a fixed particle takes on the displacement just to its left. At Q the graph slopes up through zero, so the particle's displacement decreases and it moves left. Its speed is greatest at zero displacement.",
+      "perOption": {
+        "A": "P is moving right, but its nonzero displacement means its speed is below the maximum.",
+        "B": "Correct. Q passes through equilibrium moving left.",
+        "C": "R has maximum leftward acceleration, but its instantaneous velocity is zero at the crest.",
+        "D": "S moves right at maximum speed and has zero acceleration at equilibrium."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.e",
+      "oscillations.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer particle velocity from the motion of the wave profile and distinguish it from acceleration.",
+    "misconception": "Reading particle motion directly from the slope without accounting for wave direction",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q26",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $100\\ \\mathrm{m}$ span runs from the first to the sixth compression, covering five wavelengths. Thus $\\lambda=100/5=20\\ \\mathrm{m}$, and $f=v/\\lambda=1200/20=60\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Treats the full 100 m as a single wavelength.",
+        "B": "Uses a wavelength twice the compression-to-compression spacing.",
+        "C": "Correct. Five wavelengths fit in 100 m.",
+        "D": "Counts six compressions as six wavelengths."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must count intervals between compressions before applying the wave equation.",
+    "misconception": "Counting compressions instead of the gaps between them",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q27",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The paths to O are equal, so the minimum there implies the sources are in antiphase. As the positive path difference grows, the next two maxima occur at $\\lambda/2$ and $3\\lambda/2$. The minimum after the second maximum occurs at $S_2X-S_1X=2\\lambda$.",
+      "perOption": {
+        "A": "Stops at the first minimum after O, after only one high signal.",
+        "B": "Gives the second maximum rather than the minimum at X.",
+        "C": "Correct. X is the second minimum after O.",
+        "D": "Gives the third maximum, beyond X."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the phase relation from the central minimum and count successive fringes.",
+    "misconception": "Assuming the two sources are in phase",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q28",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The double-slit relation $x=\\lambda D/a$ gives $\\Delta x=\\lambda\\Delta D/a$ because the wavelength and slit separation stay fixed. The fringe spacing increases by $2.0\\ \\mathrm{mm}$ when the screen distance increases by $2.0\\ \\mathrm{m}$. Thus $a=\\lambda\\Delta D/\\Delta x=0.60\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Combines the distance increase with the final fringe spacing of 3.0 mm.",
+        "B": "Correct. The two increases give a slit separation of 0.60 mm.",
+        "C": "Implies a fringe-spacing increase of only 1.33 mm for the stated screen movement.",
+        "D": "Combines the distance increase with the initial fringe spacing of 1.0 mm."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use both observations to distinguish the change in screen distance from its final value.",
+    "misconception": "Confusing final distance or fringe spacing with its change",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q29",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Using a representative visible wavelength of $\\lambda\\approx500\\ \\mathrm{nm}$, the syllabus approximation gives a limiting angle of $\\theta\\approx\\lambda/b$, where the pupil diameter is $b=3.0\\ \\mathrm{mm}$. For objects separated transversely by $2.0\\ \\mathrm{m}$ at distance $D$, $\\theta\\approx 2.0/D$. At the resolution limit this gives $D\\approx 2.0b/\\lambda\\approx12\\ \\mathrm{km}$.",
+      "perOption": {
+        "A": "Halves the limiting distance, as happens if the pupil radius is used in place of the diameter.",
+        "B": "Correct. This is the estimate using a representative visible wavelength.",
+        "C": "Requires a wavelength near 250 nm under the stated approximation, in the ultraviolet.",
+        "D": "Requires a wavelength near 170 nm under the stated approximation, in the ultraviolet."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder. The image strikes out ‘minimum’ and replaces it with ‘maximum’. The wavelength is unspecified, so B is an estimate using a representative visible wavelength.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must apply the angular resolution criterion and estimate a visible wavelength.",
+    "misconception": "Confusing the minimum resolvable angle with a minimum distance",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q30",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a grating, $d\\sin\\theta_n=n\\lambda$. Dividing the second-order equation by the first gives $\\sin\\theta_2=2\\sin 15.4^\\circ$, so $\\theta_2\\approx32.1^\\circ$. The angular separation on the same side of the central maximum is $32.1^\\circ-15.4^\\circ=16.7^\\circ$.",
+      "perOption": {
+        "A": "Halves the angle of the first-order maximum instead of finding the second-order direction.",
+        "B": "Assumes equal angular spacing by doubling the angle instead of its sine.",
+        "C": "Correct. The same-side maxima are separated by 16.7°.",
+        "D": "Gives the second-order angle measured from the central maximum."
+      }
+    },
+    "issues": "The supplied EJC 2020 file is the question booklet and gives no answer or working. `keyAnswer` A is an unverified placeholder. The intended comparison is between maxima on the same side of the central maximum.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must scale the sine of the angle with order and then find the angular separation.",
+    "misconception": "Assuming diffraction angle is proportional to order",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the volume of a standard Rubik's Cube to be approximately $(5\\ \\mathrm{cm})^3$. The approximate count is $\\left(\\frac{18}{0.05}\\right)\\left(\\frac{9.5}{0.05}\\right)\\left(\\frac{4}{0.05}\\right)\\approx10^6$.",
+      "perOption": {
+        "A": "Underestimates the count by considering only about a single row of cubes.",
+        "B": "Correct. The product of the three counts is of order $10^6$.",
+        "C": "Overestimates the count by assuming a cube volume about three orders of magnitude too small.",
+        "D": "Overestimates the count by assuming a cube volume about six orders of magnitude too small."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must estimate a cube's edge length and count how many fit along all three dimensions.",
+    "misconception": "Comparing linear dimensions instead of volumes",
+    "transcription": null
+  }
+]

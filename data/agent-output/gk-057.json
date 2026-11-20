@@ -1,0 +1,504 @@
+[
+  {
+    "id": "hci-2022-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the pivot. Both forces turn the ruler in the same sense, so the torque is $2(5.0)(0.50\\sin40^\\circ)=3.2\\ \\mathrm{N\\,m}$.",
+      "perOption": {
+        "A": "Counts only one moment.",
+        "B": "Correct.",
+        "C": "Uses the cosine of $40^\\circ$ for the perpendicular lever arm.",
+        "D": "Uses the full ruler length as the perpendicular separation."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Finds and combines two perpendicular moment arms.",
+    "misconception": "Using the ruler length as the lever arm.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $\\theta$ be the angle between the cord and the sheet. At the shortest length, $T=20\\ \\mathrm{N}$ and $2T\\sin\\theta=10\\ \\mathrm{N}$, giving $\\sin\\theta=0.25$ and $\\theta=14.5^\\circ$. The cord length is $2(10/\\cos\\theta)=20.7\\ \\mathrm{cm}$, which rounds to $21\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A 23 cm cord exceeds the minimum and carries less than the limiting tension.",
+        "C": "A 40 cm cord exceeds the minimum set by the tension limit.",
+        "D": "An 80 cm cord greatly exceeds the minimum set by the tension limit."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combines vertical force balance at the tension limit with cord geometry.",
+    "misconception": "Using the full tension as an upward force.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q8",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "$Fv$ and $Fst$ have the wrong units for energy. Since the object accelerates, $vt$ overestimates the distance travelled. The work $Fs$ equals the kinetic energy gained from rest.",
+      "perOption": {
+        "A": "$Fv$ has units of power.",
+        "B": "Uses the final speed throughout the interval to calculate distance.",
+        "C": "Correct.",
+        "D": "$Fst$ has units of energy multiplied by time."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.m",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Checks dimensions and recognises that the speed changes.",
+    "misconception": "Using final speed times time as displacement.",
+    "transcription": "A constant force $F$ is applied to a stationary object of mass $m$ on a frictionless surface. The object accelerates uniformly to reach a velocity $v$ in time $t$ covering a distance $s$ during this time.\n\nWhich of the following is the correct expression for the kinetic energy of the object at time $t$?\n\nA  $Fv$\nB  $Fvt$\nC  $Fs$\nD  $Fst$"
+  },
+  {
+    "id": "hci-2022-prelim-p1-q9",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $a=\\omega^2r$, with $\\omega=2\\pi(3000/60)$ and $r=8.0/100\\ \\mathrm{m}$. This gives $a=[2\\pi(3000/60)]^2(8.0/100)\\approx7900\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Calculates the tangential speed $\\omega r$ instead.",
+        "B": "Correct.",
+        "C": "Doubling the angular speed would quadruple the acceleration to about $3.1\\times10^4\\ \\mathrm{m\\,s^{-2}}$.",
+        "D": "Treats rpm as radians per second and leaves the radius in centimetres."
+      }
+    },
+    "issues": "The key gives 7897 as an intermediate value, while its expression evaluates to about 7896. Both round to option B.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires two unit conversions and one substitution.",
+    "misconception": "Using rpm directly as angular speed.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a uniform spherical Earth of mass $M$ and radius $R$, the gravitational potential at either surface site is $\\phi=-GM/R$. The Earth–rocket system starts with the same gravitational potential energy at both sites, so the escape speed is the same.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Both sites are at the same radius and have equal potential.",
+        "C": "Both sites are at the same radius and have equal potential.",
+        "D": "The kinetic energy per unit mass needed to escape equals $-\\phi$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.f",
+      "gravitational-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Connects equal surface potentials to equal escape speeds.",
+    "misconception": "Assuming escape speed depends on latitude on a spherical Earth.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational potential energy is negative, and the orbital radius is the planet’s radius plus the altitude, $R+H$. Adding the kinetic energy gives $E=\\frac12mv^2-\\frac{GMm}{R+H}$.",
+      "perOption": {
+        "A": "Uses the planet’s radius as the orbital radius.",
+        "B": "Correct.",
+        "C": "Uses a positive gravitational potential energy and the planet’s radius as the orbital radius.",
+        "D": "Uses a positive gravitational potential energy."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires the sign of gravitational potential energy and the distance from the planet’s centre.",
+    "misconception": "Using the planet radius as the orbital radius.",
+    "transcription": "A satellite of mass $m$ is in a circular orbit around a planet of mass $M$ and radius $R$. The satellite is traveling at a constant speed $v$ at a height of $H$ above the surface of the planet.\n\nWhat is the total energy of the satellite?\n\nA  $\\frac{1}{2}mv^2-\\frac{GMm}{R}$\nB  $\\frac{1}{2}mv^2-\\frac{GMm}{R+H}$\nC  $\\frac{1}{2}mv^2+\\frac{GMm}{R}$\nD  $\\frac{1}{2}mv^2+\\frac{GMm}{R+H}$"
+  },
+  {
+    "id": "hci-2022-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The same gas at the same temperature has equal mean microscopic kinetic energy and equal root-mean-square speed in the two containers. With equal amounts of gas, the larger volume of B gives it both lower pressure and lower density.",
+      "perOption": {
+        "A": "Equal temperatures give equal mean microscopic kinetic energies.",
+        "B": "At fixed temperature and particle number, larger volume means lower pressure.",
+        "C": "Equal temperatures and molecular masses give equal root-mean-square speeds.",
+        "D": "Correct. The same mass occupies less volume in A."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Distinguishes temperature-dependent molecular properties from volume-dependent pressure and density.",
+    "misconception": "Assuming a larger gas volume gives a higher pressure.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q13",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The clockwise loop gives net work done on the gas equal to minus the enclosed area, $W=-\\pi(1)(1)\\ \\mathrm{J}=-3.14\\ \\mathrm{J}$. The gas returns to its initial state, so $\\Delta U=0$. By the first law, $\\Delta U=Q+W$, so $3.14\\ \\mathrm{J}$ of heat enters the gas.",
+      "perOption": {
+        "A": "Confuses zero change in internal energy with zero heat transfer.",
+        "B": "Correct.",
+        "C": "Reverses the sign of heat transfer for a clockwise cycle.",
+        "D": "The enclosed area gives about 3 J and the clockwise direction requires heat input."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combines signed work from a pressure–volume loop with the first law.",
+    "misconception": "Equating zero change in internal energy with zero heat transfer.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q14",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The driving force sets the frequency of the forced oscillation. Figure (b) gives a period of $2.0\\ \\mathrm{s}$, so $f=1/2.0=0.50\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Uses the 3.0 s time marking as a full period.",
+        "B": "Correct.",
+        "C": "Reads the period of 2.0 s as the frequency.",
+        "D": "Uses the resonance peak in Figure (a) as the driving frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Reads the driving period and distinguishes driving frequency from resonance.",
+    "misconception": "Using the resonance peak as the driven frequency.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q15",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "After Q, the intensity is $I\\cos^2 30^\\circ$. The angle between Q and R is $60^\\circ-30^\\circ$, so after R the intensity is $I\\cos^2 30^\\circ\\cos^2(60^\\circ-30^\\circ)=0.56I$ to two significant figures.",
+      "perOption": {
+        "A": "Uses $60^\\circ$ between Q and R, measuring R’s angle from P.",
+        "B": "Uses unsquared cosine factors with angles of $30^\\circ$ at Q and $60^\\circ$ at R.",
+        "C": "Correct.",
+        "D": "Includes the intensity reduction at Q only."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Applies Malus’ law twice using successive axis angles.",
+    "misconception": "Measuring both filter angles from the first polaroid.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q16",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The source power spreads over a sphere, so $I=P_{\\mathrm{source}}/(4\\pi x^2)$ and $I\\propto1/x^2$. At $0.5x$ the intensity is $4I$. Received power equals intensity times detector area, so the second detector receives $(4I)(2A)=8P$.",
+      "perOption": {
+        "A": "Ignores both the distance and area changes.",
+        "B": "Accounts for only the doubling of detector area.",
+        "C": "Accounts for only the quadrupling of intensity.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Combines the inverse-square intensity change with the detector area change.",
+    "misconception": "Confusing received power with intensity.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q17",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Rayleigh’s criterion, the minimum resolvable angle is $\\theta_{\\min}\\approx\\lambda/a$. Reducing $\\lambda$ or increasing $a$ lowers this limit, and reducing $D$ increases the actual angular separation of the sources at the slit. Increasing $L$ changes neither angle, so the resolution is unchanged.",
+      "perOption": {
+        "A": "A shorter wavelength reduces the minimum resolvable angle.",
+        "B": "Moving the sources closer to the slit increases their angular separation there.",
+        "C": "A wider slit reduces the minimum resolvable angle.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The working spans pages 2–3. Page 3 calls reducing D option C, but it is option B on the question.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Tracks which quantities affect the actual separation angle and which affect the diffraction limit.",
+    "misconception": "Assuming screen distance changes angular resolution.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Vertical threads produce the horizontal diffraction pattern, and horizontal threads produce the vertical pattern. For a fixed order and wavelength, $d\\sin\\theta=n\\lambda$ gives a smaller angle for a larger pitch $d$. The vertical spots are closer to the straight-through image, so the vertical pitch between horizontal threads is greater than the horizontal pitch between vertical threads.",
+      "perOption": {
+        "A": "Equal pitches would give equal spot separations in the two directions.",
+        "B": "Reverses the pitches implied by the closer vertical spots.",
+        "C": "Correct. The closer vertical spots indicate a greater vertical pitch.",
+        "D": "The relative spot separations suffice to compare the pitches."
+      }
+    },
+    "issues": "Option C treats vertical and horizontal as directions of measurement. The stem can also be read as naming the orientation of the threads being measured, in which case B describes the same geometry.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Maps each family of threads to its perpendicular diffraction direction and infers the relative pitches.",
+    "misconception": "Matching each thread family to diffraction parallel to it.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The charge separation $r$ decreases when $+q$ moves from Y to X. The electric potential energy $U=-q^2/(4\\pi\\varepsilon_0r)$ becomes more negative, so it decreases.",
+      "perOption": {
+        "A": "The force magnitude $q^2/(4\\pi\\varepsilon_0r^2)$ increases as the charges get closer.",
+        "B": "The two fields at O change from parallel to perpendicular, reducing the magnitude of their vector sum.",
+        "C": "Correct.",
+        "D": "The opposite scalar potentials at O still sum to zero."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a",
+      "electric-fields.b",
+      "electric-fields.d",
+      "electric-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguishes pair separation, vector field addition and scalar potential addition.",
+    "misconception": "Adding electric fields as scalars.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Along PQ, $E=-\\mathrm{d}V/\\mathrm{d}x$. Arrangement 1 has a uniform field, so its potential has a constant negative gradient. In arrangement 2 the field weakens toward Q, so the negative gradient becomes gentler, starting from the same gradient at P.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Curve 2 gets steeper, which would mean the field strengthens toward Q.",
+        "C": "A straight line for arrangement 2 would give a constant field.",
+        "D": "A straight, steeper line for arrangement 2 gives a stronger constant field and a different initial gradient."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Translates field-line density and direction into the sign and magnitude of a potential gradient.",
+    "misconception": "Treating potential as proportional to local field strength.",
+    "transcription": null
+  }
+]

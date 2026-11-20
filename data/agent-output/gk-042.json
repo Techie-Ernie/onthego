@@ -1,0 +1,510 @@
+[
+  {
+    "id": "ejc-2021-promo-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "With friction $f$ acting down the slope, the horizontal force equation is $f\\cos\\theta+N\\sin\\theta=mv^2/r$. Vertically, $N\\cos\\theta=mg+f\\sin\\theta$. Dividing the rearranged horizontal equation by the vertical equation gives $\\tan\\theta=(mv^2/r-f\\cos\\theta)/(mg+f\\sin\\theta)$. Using $v=90000/3600=25\\ \\mathrm{m\\,s^{-1}}$ and $\\theta=30^\\circ$ gives $f=508\\ \\mathrm{N}$ down the slope.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Upslope friction would reduce the available inward force at this speed.",
+        "C": "Uses the entire centripetal force as friction along the slope.",
+        "D": "Uses the entire centripetal force as friction and reverses its direction."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must resolve two contact forces and solve simultaneous component equations.",
+    "misconception": "Equating friction with the net centripetal force",
+    "transcription": "A car of mass $1000\\ \\mathrm{kg}$ turns with a circular radius of $100\\ \\mathrm{m}$ on a slope banked at $30^\\circ$. The car has a constant speed of $90\\ \\mathrm{km\\,h^{-1}}$. What is the sidewards frictional force acting on the tyres?\n\nA 508 N, downwards along the slope\nB 508 N, upwards along the slope\nC 6250 N, downwards along the slope\nD 6250 N, upwards along the slope"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GMS/R^2=MR\\omega^2$. Cancelling $M$ and using $\\omega=2\\pi/T$ gives $GS=R^3(2\\pi/T)^2$. Hence $T^2=(4\\pi^2/G)(R^3/S)$, so $T\\propto R^{1.5}$ for fixed $S$.",
+      "perOption": {
+        "A": "Retains the planet’s mass after it cancels from both sides.",
+        "B": "Reverses the dependence on $S$, which enters as $S^{-1/2}$.",
+        "C": "Uses $R$ in place of $R^3$ before taking the square root.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine the orbital force equation with the period relation and isolate the scaling.",
+    "misconception": "Keeping the orbiting mass in the period formula",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking the outward radial direction from the planet towards the object as positive, the force component on the object is $-\\mathrm{d}E_p/\\mathrm{d}r$. The force on the planet is equal and opposite, so its component along that same direction is $+\\mathrm{d}E_p/\\mathrm{d}r$.",
+      "perOption": {
+        "A": "Confuses the energy gradient with a field strength, which has units of force per mass.",
+        "B": "Uses potential energy in place of potential when interpreting the gradient as a field.",
+        "C": "The signed radial force on the object is the negative of the plotted gradient.",
+        "D": "Correct."
+      }
+    },
+    "issues": "D uses a common positive axis from the planet towards the object. If force is read as magnitude, C and D are both equal to the slope in magnitude.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track the force sign and identify the body on which each force acts.",
+    "misconception": "Dropping the minus sign in the force–energy relation",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At P, $\\phi_P=-GM/r=-400\\times10^3\\ \\mathrm{J\\,kg^{-1}}$. At Q, $\\phi_Q=-GM/(2r)=\\phi_P/2$. The external work for a transfer with no change in kinetic energy is $m(\\phi_P-\\phi_Q)=m\\phi_P/2=200(-400\\times10^3)/2=-40\\ \\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Gives the work done by gravity, which has the opposite sign to the external work.",
+        "B": "Uses the magnitude of the potential at P and treats Q as having zero potential.",
+        "C": "Correct.",
+        "D": "Uses the potential at P alone, effectively starting at infinity."
+      }
+    },
+    "issues": "The worked solution prints J kg⁻¹ for its final work value, whose unit is J. It also repeats the final-potential subscript in the first difference before correctly using P minus Q. The question leaves the agent unspecified: external work is −40 MJ for unchanged kinetic energy, while gravity does +40 MJ.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.e",
+      "gravitational-fields.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the potential at Q and use the signed potential difference.",
+    "misconception": "Using the final potential in place of the potential difference",
+    "transcription": "P and Q are two points at a distance $r$ and $2r$ from the centre of Earth respectively. The gravitational potential at P is $-400\\ \\mathrm{kJ\\,kg^{-1}}$.\n\nWhat is the work done on a body of mass $200\\ \\mathrm{kg}$ when the body is brought from Q to P?\n\nA $+40\\ \\mathrm{MJ}$\nB $+80\\ \\mathrm{MJ}$\nC $-40\\ \\mathrm{MJ}$\nD $-80\\ \\mathrm{MJ}$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity provides the centripetal force, so $GM_E m_s/r^2=m_s r\\omega^2$ and $r=\\sqrt[3]{GM_E/\\omega^2}$. Then $v=r\\omega=\\sqrt[3]{GM_E\\omega}=\\sqrt[3]{GM_E(2\\pi/T)}$. Using $T=24\\times60\\times60\\ \\mathrm{s}$ gives $v=3080\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Matches taking the square root of $GM_E(2\\pi/T)$ in place of the cube root.",
+        "C": "Gives the orbital radius in metres as though it were the speed.",
+        "D": "Fails to apply the cube root required by $v^3=GM_E(2\\pi/T)$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "gravitational-fields.k",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the period and eliminate the unknown orbital radius.",
+    "misconception": "Confusing orbital radius with orbital speed",
+    "transcription": "A geostationary satellite of mass $500\\ \\mathrm{kg}$ is in a stable orbit around Earth. Given that the mass of Earth is $6.0\\times10^{24}\\ \\mathrm{kg}$, what is the linear speed of the satellite?\n\nA $3080\\ \\mathrm{m\\,s^{-1}}$\nB $1.71\\times10^5\\ \\mathrm{m\\,s^{-1}}$\nC $4.23\\times10^7\\ \\mathrm{m\\,s^{-1}}$\nD $2.75\\times10^{11}\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $x=x_0\\sin(\\omega t)$ for the motion starting at equilibrium in the positive direction. At $t=T/8$, $x=0.12\\sin[(2\\pi/T)(T/8)]=0.085\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses a sine factor near $0.785$, the phase in radians itself.",
+        "C": "Matches a sine at $60^\\circ$ instead of the $45^\\circ$ phase reached at $T/8$.",
+        "D": "Matches a phase near $72^\\circ$, which is reached at about $T/5$."
+      }
+    },
+    "issues": "The initial direction is unspecified. The magnitude is 0.085 m, and the positive sign assumes the initial motion is in the positive direction.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must select a sine solution and substitute one eighth of a cycle.",
+    "misconception": "Using the phase angle itself as the sine factor",
+    "transcription": "An object is set into free oscillations of amplitude $0.12\\ \\mathrm{m}$. The oscillations are simple harmonic in nature with a period of $T$. At time $t=0\\ \\mathrm{s}$, the object is at the equilibrium position.\n\nWhat is the displacement at time $t=\\frac{T}{8}$?\n\nA 0.085 m\nB 0.094 m\nC 0.104 m\nD 0.114 m"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q23",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The oscillator reaches opposite turning points at successive kinetic-energy minima, $0.25\\ \\mathrm{s}$ apart. Its full period is therefore $0.50\\ \\mathrm{s}$. The angular frequency is $\\omega=2\\pi/T=2\\pi/0.50=12.6\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses a period of $2.0\\ \\mathrm{s}$ by grouping eight energy cycles into one oscillation.",
+        "B": "Uses a period of $1.00\\ \\mathrm{s}$ even though the oscillator completes two cycles in that time.",
+        "C": "Correct.",
+        "D": "Uses the $0.25\\ \\mathrm{s}$ kinetic-energy repeat time as the oscillator period."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the energy repeat time and double it before calculating angular frequency.",
+    "misconception": "Equating the kinetic-energy period with the displacement period",
+    "transcription": "The variation of kinetic energy with time of a simple harmonic oscillation is as shown.\n\n[Graph of kinetic energy against $t$ in seconds. The curve starts at zero, has equal peaks between successive minima, and returns to zero at $0.25$, $0.50$, $0.75$ and $1.00\\ \\mathrm{s}$ before rising again.]\n\nWhat is the angular frequency of the oscillations?\n\nA $3.14\\ \\mathrm{rad\\,s^{-1}}$\nB $6.28\\ \\mathrm{rad\\,s^{-1}}$\nC $12.6\\ \\mathrm{rad\\,s^{-1}}$\nD $25.2\\ \\mathrm{rad\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "X and Y are separated by $1.5\\lambda$. Using $\\Delta\\phi/(2\\pi)=\\Delta s/\\lambda$ gives $\\Delta\\phi=2\\pi(1.5)=3\\pi=(3\\times180)^\\circ$. Thus $n=3.0$.",
+      "perOption": {
+        "A": "Uses the separation in wavelengths directly as the count of half-turns.",
+        "B": "Counts only $2.5$ half-wavelengths between the marked crest and trough.",
+        "C": "Correct.",
+        "D": "Doubles the actual count of half-wavelengths."
+      }
+    },
+    "issues": "The key uses the accumulated phase difference of 540° across the separation. This is equivalent to 180° modulo 360°.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the crest-to-trough separation in wavelengths and convert it to phase.",
+    "misconception": "Confusing the number of wavelengths with the number of half-turns",
+    "transcription": "The displacement-distance graph for a transverse progressive wave is as shown.\n\n[Displacement versus distance, with a sinusoidal curve starting at zero and rising. X labels the first crest and Y labels the second trough. The curve returns to zero after Y.]\n\nThe phase difference between points X and Y can be expressed as $(180n)^\\circ$. What is the value of $n$?\n\nA 1.5\nB 2.5\nC 3.0\nD 6.0"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The crossed transmission axes give the two emerging beams perpendicular polarisations, so the double-slit interference fringes disappear. Each slit produces a single-slit diffraction pattern, giving a central bright maximum with weaker side maxima separated by dark fringes.",
+      "perOption": {
+        "A": "Predicts two-slit interference fringes despite the perpendicular polarisations.",
+        "B": "Mistakes the weaker single-slit side maxima for sharp, bright peaks.",
+        "C": "Correct.",
+        "D": "Treats the polarizers as consecutive filters even though each covers a different slit."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.g",
+      "superposition.k",
+      "wave-motion.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify which pattern survives when orthogonal polarisation suppresses interference.",
+    "misconception": "Treating crossed polarizers on separate slits as crossed filters in series",
+    "transcription": "An interference pattern is successfully obtained on the screen using the set up as shown.\n\n[Unpolarised monochromatic light travels to the right through a double slit towards a screen.]\n\nEach of the double slit is then completely covered by a linear polarizer. The linear polarizers are oriented such that the transmission axis are at $90^\\circ$ to each other.\n\nWhat will be seen on the screen?\n\nA a series of alternating bright and dark fringes that are equally spaced\nB a central bright spot flanked by sharp, bright maxima\nC a central bright maxima flanked by weaker maxima with alternating dark fringes\nD a dark screen"
+  },
+  {
+    "id": "ejc-2021-promo-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wavelength is $\\lambda=v/f=350/50=7.0\\ \\mathrm{m}$. Adjacent compressions are one wavelength apart, and R to S spans four such intervals, so $RS=4\\lambda=28\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Counts only one spacing between adjacent compressions.",
+        "B": "Counts two compression spacings instead of four.",
+        "C": "Correct.",
+        "D": "Counts the five compressions from R to S as five intervals."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must calculate the wavelength and count the compression intervals in the diagram.",
+    "misconception": "Counting compressions rather than intervals",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q27",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "All particles between the same pair of adjacent nodes oscillate in phase, and particles in neighbouring segments oscillate in antiphase. Points 1 and 2 share the middle segment adjacent to P, while point 3 is two segments away and is in phase with P.",
+      "perOption": {
+        "A": "Omits point 2, which lies in the same segment as point 1.",
+        "B": "Includes point 3 even though two nodes separate it from P.",
+        "C": "Correct.",
+        "D": "Includes point 3 along with the two points in the adjacent segment."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student needs to identify the nodes and track the phase reversal across each one.",
+    "misconception": "Assuming every point outside P’s segment is in antiphase",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q28",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The UAV’s flight path acts like a screen for two-source interference. The screen distance is much greater than the antenna spacing, so adjacent maxima are separated by $x=\\lambda D/a=(3.0\\times10^{-2})(2000)/15=4.0\\ \\mathrm{m}$. At constant speed the time between maxima is $T=x/v=4.0/90=0.044\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Divides half the antenna separation by the flight speed, using source geometry in place of fringe spacing.",
+        "C": "Reports the $4.00\\ \\mathrm{m}$ fringe spacing as a time.",
+        "D": "Uses the altitude as the distance between adjacent maxima."
+      }
+    },
+    "issues": "The fringe formula gives approximately regular fluctuations near the point directly above the midpoint of the antennas. Exact spacing varies along the full flight path.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.f",
+      "superposition.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must model the flight path as an interference screen and convert spatial separation into time.",
+    "misconception": "Confusing fringe spacing with the separation of the sources",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q29",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For centre separation $s$ at distance $r$, the angular separation at the eye is $s/r\\approx\\theta\\approx\\lambda/b$, where $b$ is the pupil diameter. The minimum separation uses the shortest visible wavelength, $400\\ \\mathrm{nm}$, giving $s\\approx r\\lambda/b=(10\\times10^3)(400\\times10^{-9})/(2.0\\times10^{-3})=2.0\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Halves the minimum centre-to-centre separation.",
+        "B": "Correct.",
+        "C": "Matches using $700\\ \\mathrm{nm}$ instead of the shortest visible wavelength.",
+        "D": "Matches using the pupil radius in place of its diameter."
+      }
+    },
+    "issues": "The solution assumes a shortest visible wavelength of 400 nm and uses the syllabus approximation θ ≈ λ/b.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must choose the shortest visible wavelength and convert the angular limit to a linear separation.",
+    "misconception": "Using a longer wavelength to find the minimum separation",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2021-promo-p1-q30",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For first-order diffraction, $d\\sin30^\\circ=\\lambda=0.50d$, where $d$ is the grating spacing. The double-slit spacing is $a=500d$, so $x=\\lambda D/a=(0.50d)(1.5)/(500d)=0.0015\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Requires a wavelength larger than the grating spacing, which is impossible for a first-order maximum.",
+        "B": "Uses an effective $\\lambda/d$ of about $0.83$ instead of $\\sin30^\\circ=0.50$.",
+        "C": "Uses an effective $\\lambda/d$ of about $0.67$ instead of $\\sin30^\\circ=0.50$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h",
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must transfer the wavelength from the grating equation to the double-slit equation and cancel the grating spacing.",
+    "misconception": "Using the grating spacing as the double-slit separation",
+    "transcription": "A monochromatic light source incident normally on a diffraction grating creates first order maxima at $30^\\circ$ from the central bright spot. The same light source produces interference fringes on a screen that is $1.5\\ \\mathrm{m}$ away from a pair of double-slits. The slit separation between the double-slit is 500 times longer than the line spacing of the grating.\n\nWhat is the fringe separation on the screen when the double-slit experiment is performed?\n\nA 0.0035 m\nB 0.0025 m\nC 0.0020 m\nD 0.0015 m"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron mass is negligible compared with the nucleon mass, so the compressed matter has approximately the nuclear density, $\\rho\\approx 4u/(\\frac43\\pi r_{\\mathrm{nucleus}}^3)$. To order of magnitude, the mass and volume scales give $\\rho\\approx10^{-27}/10^{-45}=10^{18}\\ \\mathrm{kg\\,m^{-3}}$.",
+      "perOption": {
+        "A": "Uses a volume scale four powers of ten too large for the given nuclear radius.",
+        "B": "Correct.",
+        "C": "Uses a volume scale four powers of ten too small for the given nuclear radius.",
+        "D": "Uses a volume scale eight powers of ten too small for the given nuclear radius."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "nuclear-physics"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.e",
+      "nuclear-physics.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must estimate the helium mass from its nucleon number and cube the nuclear radius.",
+    "misconception": "Using the atomic radius for the compressed volume",
+    "transcription": "The radius of a helium-4 atom is of the order $10^{-10}\\ \\mathrm{m}$ and its nucleus has a radius that is of the order of $10^{-15}\\ \\mathrm{m}$.\n\nIf all the empty space in the helium atom is removed and the atom size is reduced to that of the nucleus, what is the approximate density of the matter that is formed?\n\nA $10^{14}\\ \\mathrm{kg\\,m^{-3}}$\nB $10^{18}\\ \\mathrm{kg\\,m^{-3}}$\nC $10^{22}\\ \\mathrm{kg\\,m^{-3}}$\nD $10^{26}\\ \\mathrm{kg\\,m^{-3}}$"
+  }
+]

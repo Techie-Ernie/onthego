@@ -1,0 +1,501 @@
+[
+  {
+    "id": "dhs-2024-prelim-p1-q25",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "With peak current $I_0$, the original rate of heat dissipation is $P=I_{\\mathrm{rms}}^2R=I_0^2R/2$. For the half-wave-rectified current, $I_{\\mathrm{rms}}=I_0/2$.\n\nThe new rate is $P_{\\mathrm{new}}=I_0^2R/4=P/2$.",
+      "perOption": {
+        "A": "Counts the reduction from half-wave rectification again after already squaring an incorrectly halved RMS current.",
+        "B": "Halves the original RMS current and squares that factor.",
+        "C": "Correct. The average power halves.",
+        "D": "Assumes both half-cycles still contribute to heating."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires comparing RMS currents before and after half-wave rectification.",
+    "misconception": "Halving the conducting time halves the RMS current.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Fleming’s left-hand rule gives a magnetic force on the electrons at Q towards the centre of the disc. Q is therefore at a higher potential than P, so conventional current flows from Q through R to P.",
+      "perOption": {
+        "A": "Uses the horizontal alignment of the brushes to infer equal electric potentials.",
+        "B": "Overlooks the steady motional emf produced as the disc rotates through the field.",
+        "C": "Reverses the direction of conventional current through R.",
+        "D": "Correct. The rim contact Q is at the higher potential."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.f",
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires inferring the polarity between the rim and axle from the magnetic force on electrons.",
+    "misconception": "Steady rotation cannot induce an emf.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A photon of wavelength $\\lambda$ has momentum of magnitude $p=h/\\lambda$. Reflection reverses that momentum, transferring $2h/\\lambda$ to the mirror per photon.\n\nBy Newton’s second law, the force is the rate of momentum transfer, $F=n(2h/\\lambda)=2nh/\\lambda$.",
+      "perOption": {
+        "A": "Multiplies by wavelength and omits the factor of two from reflection.",
+        "B": "Counts the momentum transfer for absorption instead of reversal.",
+        "C": "Multiplies by wavelength when finding the photon momentum.",
+        "D": "Correct. Each reflected photon transfers $2h/\\lambda$ of momentum."
+      }
+    },
+    "issues": "The worked key’s intermediate equation equates force with momentum change per photon. The final force and option D are correct.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantum-physics.c",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires calculating the momentum change on reflection and turning it into a rate.",
+    "misconception": "Treating reflection like absorption.",
+    "transcription": "When a beam of light of wavelength $\\lambda$ is incident normally on a plane mirror, it is reflected totally. The intensity of the light corresponds to a rate of $n$ photons per second.\n\nWhich of the following expressions gives the force exerted on the mirror by the beam of light?\n\nA $nh\\lambda$\nB $\\frac{nh}{\\lambda}$\nC $2nh\\lambda$\nD $\\frac{2nh}{\\lambda}$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photoelectric energy equation is $E_{\\mathrm{photon}}=\\phi+eV_s$. Substituting gives $3.5\\times10^{-19}=\\phi+(1.6\\times10^{-19})(0.25)$ in joules.\n\nThus $\\phi=3.1\\times10^{-19}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Subtracts more than the stopping energy $eV_s$.",
+        "B": "Correct. The work function is the photon energy minus $eV_s$.",
+        "C": "Ignores the kinetic energy implied by the nonzero stopping potential.",
+        "D": "Adds $eV_s$ to the photon energy."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires converting the stopping potential into a maximum kinetic energy before subtracting.",
+    "misconception": "Adding the stopping energy to the photon energy.",
+    "transcription": "The metal cathode of a photocell is illuminated by light quanta of energy $3.5\\times10^{-19}\\ \\mathrm{J}$ each. By applying a stopping potential of $0.25\\ \\mathrm{V}$, the current through the cell is just reduced to zero.\n\nWhat is the work function of the metal cathode?\n\nA $2.9\\times10^{-19}\\ \\mathrm{J}$\nB $3.1\\times10^{-19}\\ \\mathrm{J}$\nC $3.5\\times10^{-19}\\ \\mathrm{J}$\nD $3.9\\times10^{-19}\\ \\mathrm{J}$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photoelectric equation is $hc/\\lambda=\\phi+K_{\\max}$. At a fixed wavelength, changing the intensity changes how many photons strike the metal per second while each photon still carries energy $hc/\\lambda$. The maximum electron kinetic energy therefore stays the same.",
+      "perOption": {
+        "A": "Different metals can have different work functions, which affect the maximum kinetic energy.",
+        "B": "Correct. At fixed wavelength, intensity changes the photon arrival rate.",
+        "C": "The electron’s de Broglie wavelength depends on its own momentum.",
+        "D": "Emission requires a sufficiently high frequency, so the threshold is a maximum wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing photon energy from the number of photons arriving each second.",
+    "misconception": "Brighter light gives each emitted electron more energy.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles pass through the foil undeflected or are deflected through small angles. Most therefore pass too far from a nucleus to experience significant electrical repulsion, showing that the nucleus is small compared with the atom.",
+      "perOption": {
+        "A": "Correct. The scattering pattern shows that the nucleus occupies a small part of the atom.",
+        "B": "Confuses evidence for a compact nucleus with evidence about how its constituents are arranged.",
+        "C": "Binding energy requires information such as the nuclear mass defect.",
+        "D": "Electron energy levels are inferred from atomic spectra."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires linking mostly small deflections to the small size of the nucleus.",
+    "misconception": "Scattering reveals the internal arrangement of nucleons.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q1",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The characteristic radius of a ground-state hydrogen atom is about $5.3\\times10^{-11}\\ \\mathrm{m}$. Twice this radius gives an atomic size of about $1.1\\times10^{-10}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "About 100 times too large for an atomic diameter.",
+        "B": "About 10 times too large for an atomic diameter.",
+        "C": "Correct. This is the order of magnitude of the atomic diameter.",
+        "D": "About 10 times too small for an atomic diameter."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires recalling the order of magnitude of an atomic diameter.",
+    "misconception": null,
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q2",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Precision is about how closely repeated readings agree, while accuracy is about closeness to the accepted value. Student D’s readings are tightly clustered from $8.41$ to $8.50\\ \\mathrm{m\\,s^{-2}}$, but the cluster is well below $9.81\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "The readings are close together and close to the accepted value.",
+        "B": "The readings have a wide spread, even though one matches the accepted value.",
+        "C": "The readings are below the accepted value and have a larger spread than D’s.",
+        "D": "Correct. The readings form a tight cluster well below the accepted value."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing both the spread and the distance from the accepted value.",
+    "misconception": "Closely grouped readings must be accurate.",
+    "transcription": "Four students made a series of measurements for the acceleration of free fall, $g$.\n\nWhich student’s data can be said to be precise but not accurate?\n\nStudent | Results, $g$ / $\\mathrm{m\\,s^{-2}}$\nA | 9.81 | 9.72 | 9.84 | 9.83\nB | 9.81 | 10.12 | 9.89 | 8.94\nC | 9.45 | 9.21 | 8.99 | 8.76\nD | 8.45 | 8.46 | 8.50 | 8.41"
+  },
+  {
+    "id": "dhs-2024-promo-p1-q3",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top of the flight, the ball’s velocity is horizontal and to the right. Air resistance acts to the left and weight acts downwards. The resultant force and acceleration therefore point down and to the left.",
+      "perOption": {
+        "A": "Omits the horizontal acceleration caused by air resistance.",
+        "B": "Shows the direction of motion and overlooks both the downward weight and the leftward drag.",
+        "C": "Correct. Drag acts left and weight acts down.",
+        "D": "Confuses zero vertical velocity at the top with zero resultant force."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder. The asymmetric trajectory and emphasis on motion in air indicate that drag is intended. Neglecting drag would give A.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "forces-and-moments",
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.a",
+      "forces-and-moments.b",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires combining weight and drag using the velocity at the top of the trajectory.",
+    "misconception": "Zero vertical velocity means zero vertical acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q4",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resultant force on the lift is $T-D-W_2$. If $T=D+W_2$, the lift has zero acceleration and its velocity remains constant, including the possibility of remaining at rest.",
+      "perOption": {
+        "A": "The force $N$ can differ from $W_1$ when the woman accelerates.",
+        "B": "Correct. The forces on the lift balance.",
+        "C": "The lift can move at a constant nonzero velocity when $N=W_1$.",
+        "D": "The tension differs from the combined weight whenever the lift and woman accelerate vertically."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reading the lift’s free-body diagram and interpreting zero resultant force.",
+    "misconception": "Zero acceleration requires zero velocity.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q5",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fixed braking force gives a braking time $t=m(50-30)/7000$ from the impulse–momentum relation. The full tank adds $130\\ \\mathrm{kg}$, so $t_2-t_1=130(50-30)/7000=0.37\\ \\mathrm{s}$ to two significant figures.",
+      "perOption": {
+        "A": "Correct. Only the extra $130\\ \\mathrm{kg}$ contributes to the time difference.",
+        "B": "Overestimates the difference implied by the mass increase and the fixed braking force.",
+        "C": "Overestimates the impulse needed to slow the added fuel by $20\\ \\mathrm{m\\,s^{-1}}$.",
+        "D": "Gives the braking time of the nearly empty car instead of the time difference."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the impulses needed for the same speed change with two different masses.",
+    "misconception": "Using the braking time for one load as the difference.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q6",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The single wire carries the full force $F$ and extends by $x$. The two parallel wires share the force equally, so by Hooke’s law each extends by $x/2$. They stretch together, giving a total extension of $x+x/2=3x/2$.",
+      "perOption": {
+        "A": "Gives less than the extension of the first wire alone even though that wire still carries $F$.",
+        "B": "Treats the parallel section as if three wires shared the force there.",
+        "C": "Correct. The single and parallel sections extend by $x$ and $x/2$ respectively.",
+        "D": "Counts the two parallel extensions separately even though those wires share the same endpoints."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder. The calculation assumes the wires obey Hooke’s law, which the question leaves implicit.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying which wires carry the full force and which share it.",
+    "misconception": "Adding the two extensions of parallel wires.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q7",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The equal and opposite forces form a couple. Its torque is one force multiplied by the perpendicular distance between the lines of action, which is $a$, so the torque about P is $Fa$.",
+      "perOption": {
+        "A": "Correct. The lines of action are separated vertically by $a$.",
+        "B": "Uses $b$, which is parallel to the forces.",
+        "C": "Counts the full separation once for each force and doubles the torque.",
+        "D": "Uses a distance parallel to the forces and doubles the result."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires identifying the perpendicular separation of the forces in a couple.",
+    "misconception": "Using the card’s width as the moment arm.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q8",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The minimum energy needed per day is the water’s gain in gravitational potential energy, $mgh$. With $86\\,400\\ \\mathrm{s}$ in a day, the required power is $(1.3\\times10^9)(9.81)(2.0)/86\\,400\\approx 3.0\\times10^5\\ \\mathrm{W}$, or $300\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Uses roughly one twentieth of the required power, as would result from omitting both $g$ and the lifting height.",
+        "B": "Omits the factor of $g$ in the energy calculation.",
+        "C": "Uses half the required lifting height.",
+        "D": "Correct. Raising the daily rainfall by $2.0\\ \\mathrm{m}$ requires about $300\\ \\mathrm{kW}$."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires calculating the gain in gravitational potential energy and converting days to seconds.",
+    "misconception": "Omitting the full lifting height.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q9",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each small increase in extension $\\mathrm{d}x$ requires work $F\\,\\mathrm{d}x$. Adding these contributions over the loading curve gives the total work done in stretching the wire, equal to the area under the graph.",
+      "perOption": {
+        "A": "The axes describe stretching force and extension, rather than the wire’s change in height.",
+        "B": "Correct. Integrating the applied force over extension gives the stretching work.",
+        "C": "Treats all the input work as heating and overlooks energy stored elastically.",
+        "D": "Recoverable energy would be found from the unloading curve."
+      }
+    },
+    "issues": "The supplied Promo file contains the question paper only. The parsed A is a placeholder.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing total loading work from recoverable elastic energy.",
+    "misconception": "All stretching work is recoverable.",
+    "transcription": null
+  }
+]

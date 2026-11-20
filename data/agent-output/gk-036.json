@@ -1,0 +1,506 @@
+[
+  {
+    "id": "ejc-2018-promo-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both springs carry the same tension of $3.0\\ \\mathrm{N}$. Their extensions are $x_P=3/30=0.10\\ \\mathrm{m}$ and $x_Q=3/10=0.30\\ \\mathrm{m}$. The total is $x_P+x_Q=0.40\\ \\mathrm{m}=400\\ \\mathrm{mm}$. The key also uses the series spring constant, $k_\\mathrm{eff}=k_Pk_Q/(k_P+k_Q)=300/40\\ \\mathrm{N\\,m^{-1}}$, which gives $x_\\mathrm{total}=3/(300/40)=0.40\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Gives an extension ten times too small, as with a misplaced decimal in the unit conversion.",
+        "B": "Splitting the load equally and considering only spring Q gives $150\\ \\mathrm{mm}$.",
+        "C": "Correct. Both extensions add to $400\\ \\mathrm{mm}$.",
+        "D": "Overestimates the sum of the two extensions."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Apply Hooke’s law to each spring and add the extensions.",
+    "misconception": "Treating series springs as sharing the load.",
+    "transcription": "The spring system shown is composed of two springs, P and Q, of negligible mass connected in series. P has a spring constant of $30\\ \\mathrm{N\\,m^{-1}}$ and Q has a spring constant of $10\\ \\mathrm{N\\,m^{-1}}$.\n\n[Spring P hangs from a fixed support, spring Q hangs below P, and a $3.0\\ \\mathrm{N}$ load hangs from Q.]\n\nWhen a $3.0\\ \\mathrm{N}$ load is supported by the system, which of the following is the overall extension produced?\n\nA $40\\ \\mathrm{mm}$\nB $150\\ \\mathrm{mm}$\nC $400\\ \\mathrm{mm}$\nD $433\\ \\mathrm{mm}$"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two equal weights combine into a downward force $2W$ acting midway between their lines of action. In equilibrium the three nonparallel forces must have a common point of intersection. The line of action of $2W$ meets the wire at D, so the hinge force acts along AD.",
+      "perOption": {
+        "A": "AB misses the common point at D.",
+        "B": "AC uses the line of action of the load’s weight alone.",
+        "C": "Correct. AD passes through the common point at D.",
+        "D": "AE uses the line of action of the beam’s weight alone."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Replace the two weights by a single resultant and apply rotational equilibrium.",
+    "misconception": "Using one weight’s line of action for both weights.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of energy gives $\\tfrac12 mv^2=mgh$, so $h=v^2/(2g)$. The ratio of the new height to the original height is $((0.50v)/v)^2=0.25$.",
+      "perOption": {
+        "A": "Correct. Halving the speed quarters the height.",
+        "B": "Treats the height as proportional to speed.",
+        "C": "Taking the square root of the speed ratio gives about $0.71$, but height scales with speed squared.",
+        "D": "Assumes the height stays the same even though the speed is halved."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use conservation of energy to eliminate mass and compare the squared speeds.",
+    "misconception": "Assuming height is proportional to speed.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=ut+\\tfrac12 at^2$ gives $1.0=\\tfrac12 gt^2$, so $t=\\sqrt{2/g}$. The average power is the gravitational potential energy lost per unit time, giving $\\bar P=5g/\\sqrt{2/g}=5g^{3/2}/\\sqrt2\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Loses the factor of $\\sqrt2$ when rationalising the denominator.",
+        "B": "Uses too high a power of $g$ because dividing by the fall time contributes only $g^{1/2}$.",
+        "C": "Correct. Dividing the energy lost by the fall time gives this expression.",
+        "D": "Uses a full factor of $g$ from dividing by the fall time, which contributes $g^{1/2}$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the fall time before dividing the energy transferred by that time.",
+    "misconception": "Confusing the duration of free fall with an expression proportional to $1/g$.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A partial vacuum reduces air damping. The amplitude is generally higher, with a sharper and higher resonance peak.",
+      "perOption": {
+        "A": "Shows a lower peak, as expected with stronger damping.",
+        "B": "Shows a lower peak and shifts it to a lower frequency, as stronger damping can do.",
+        "C": "Correct. The peak rises above the original amplitude.",
+        "D": "Leaves the peak amplitude at its original value."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognise how reducing damping changes the resonance curve.",
+    "misconception": "Assuming that less damping lowers the resonance peak.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Friction acts towards the axis and supplies the centripetal force. The platform’s upward support force balances the child’s downward weight.",
+      "perOption": {
+        "A": "Correct. Inward friction supplies the centripetal force.",
+        "B": "Points friction outwards and adds a separate inward centripetal force.",
+        "C": "Adds an outward centrifugal force to the forces seen from the ground.",
+        "D": "Draws an extra force and labels it centripetal even though its arrow points outwards."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify which actual force supplies the inward acceleration.",
+    "misconception": "Drawing centripetal force as an extra force.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The lift is at $60^\\circ$ to the horizontal, so $F_{\\mathrm{lift}}\\sin60^\\circ=mg$ and $F_{\\mathrm{lift}}\\cos60^\\circ=mv^2/r$. Dividing gives $\\tan60^\\circ=gr/v^2=(9.81)(5000)/v^2$. This gives $v=168\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses a speed that would supply too little inward acceleration at the given turn radius.",
+        "B": "Using a radius ten times too small would give a speed close to this value.",
+        "C": "Correct. The horizontal lift component supplies the centripetal force.",
+        "D": "Inverts the tangent relation by swapping the vertical and horizontal components."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Resolve lift into two components and eliminate the unknown mass and lift.",
+    "misconception": "Swapping the horizontal and vertical lift components.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Geostationary satellites share a fixed orbital height and complete one orbit every 24 hours. Their centripetal acceleration $r\\omega^2$ is therefore the same. Their gravitational potential energy $m\\phi$ and kinetic energy can differ if the masses differ.",
+      "perOption": {
+        "A": "At the same gravitational potential, $m\\phi$ can differ because the masses can differ.",
+        "B": "At the same orbital speed, $\\tfrac12 mv^2$ can differ because the masses can differ.",
+        "C": "Correct. Both satellites have the same centripetal acceleration.",
+        "D": "Both satellites complete one revolution in 24 hours, so their angular speeds are equal."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j",
+      "gravitational-fields.k",
+      "circular-motion.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguish properties fixed by the orbit from energies that also depend on mass.",
+    "misconception": "Assuming satellites in the same orbit have the same energies.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational potential is $\\phi=-GM/r$. Doubling the distance from Earth’s centre halves the potential to $-400\\ \\mathrm{kJ\\,kg^{-1}}$. The external work against gravity is the increase in potential energy, $m(\\phi_Q-\\phi_P)=0.50[-400-(-800)]=+200\\ \\mathrm{kJ}$.",
+      "perOption": {
+        "A": "Gives the work done by gravity, which is negative during the outward move.",
+        "B": "Uses the wrong sign and halves the potential change again.",
+        "C": "Correct. The gravitational potential energy increases by $200\\ \\mathrm{kJ}$.",
+        "D": "Uses the numerical change in potential without multiplying by the mass."
+      }
+    },
+    "issues": "The question leaves the agent doing the work implicit. The key gives external work against gravity for zero change in kinetic energy. Gravity itself does −200 kJ.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.f",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the inverse-radius potential and distinguish potential from potential energy.",
+    "misconception": "Reversing the sign of the external work.",
+    "transcription": "P and Q are two points above Earth’s surface at distances $r$ and $2r$ respectively from the centre of the Earth.\n\n[Earth is shown with P a horizontal distance $r$ to the right of its centre and Q a vertical distance $2r$ above its centre.]\n\nThe gravitational potential at P is $-800\\ \\mathrm{kJ\\,kg^{-1}}$. When a $0.50\\ \\mathrm{kg}$ mass is taken from P to Q, what is the work done on the mass?\n\nA $-200\\ \\mathrm{kJ}$\nB $-100\\ \\mathrm{kJ}$\nC $200\\ \\mathrm{kJ}$\nD $400\\ \\mathrm{kJ}$"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The phase difference satisfies $\\Delta\\phi/(2\\pi)=\\Delta s/\\lambda=3/2$, so $\\Delta\\phi=3\\pi$. P and Q are in antiphase, so Q is displaced downwards and moves downwards when P is displaced upwards and moves upwards.",
+      "perOption": {
+        "A": "Reverses the direction of motion but keeps the same displacement direction.",
+        "B": "Treats points separated by $3\\lambda/2$ as in phase.",
+        "C": "Reverses the displacement but keeps the same direction of motion.",
+        "D": "Correct. Antiphase reverses both directions."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Translate the separation into a phase difference and apply it to both displacement and motion.",
+    "misconception": "Reversing displacement without reversing transverse velocity.",
+    "transcription": "A transverse wave of wavelength $\\lambda$ is travelling on a horizontal rope. The points P and Q on the rope are $\\frac{3\\lambda}{2}$ apart and the waves are travelling from P to Q. At a particular instant, P is displaced upwards and is moving upwards.\n\nWhat are the directions of the displacement and movement of Q?\n\nOption | displacement of Q | movement of Q\nA | upwards | downwards\nB | upwards | upwards\nC | downwards | upwards\nD | downwards | downwards"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The receiver stays in the same position, so there is no distance correction. The power intercepted equals intensity times area, and intensity is proportional to the square of amplitude. The intercepted power therefore changes by a factor of $3^2(0.5)=9/2$, giving $9E/2$.",
+      "perOption": {
+        "A": "Accounts for the halved area alone.",
+        "B": "Treats intensity as proportional to amplitude rather than amplitude squared.",
+        "C": "Correct. The intensity increases ninefold while the area halves.",
+        "D": "Squares the area factor as well as the amplitude factor."
+      }
+    },
+    "issues": "The worked key prints the new area in both numerator and denominator. Its numerical substitution correctly uses the new-to-original area ratio of 0.5.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Combine the squared amplitude factor with the linear area factor.",
+    "misconception": "Treating wave intensity as proportional to amplitude.",
+    "transcription": "A surface of area $S$ is placed perpendicular to the direction of travel of a plane wave. The energy per unit time intercepted by the surface is $E$ when the amplitude of the wave is $A$. The area of the surface is reduced to $\\frac12 S$ and the amplitude of the wave is increased to $3A$.\n\nWhat is the energy per unit time intercepted by this smaller surface?\n\nA $\\frac12 E$\nB $\\frac32 E$\nC $\\frac92 E$\nD $\\frac94 E$"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "When waves overlap, each contributes the displacement it would produce on its own at that point and instant. The resultant displacement is the vector sum of those individual displacements.",
+      "perOption": {
+        "A": "Correct. The individual displacements add as vectors.",
+        "B": "The sum of two stationary waves can itself be stationary, so progressive waves are not a general result.",
+        "C": "Diffraction is an application of adding wave contributions, and this statement gives no rule for adding displacements.",
+        "D": "A stationary wave is a special result of superposing suitable counter-propagating waves."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recognise the definition of the principle of superposition.",
+    "misconception": null,
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a double slit the spacing between successive dark fringes is $x=\\lambda D/a$, where $D$ is the screen distance and $a$ is the slit separation. Increasing the wavelength $\\lambda$ increases $x$.",
+      "perOption": {
+        "A": "Decreasing the screen distance decreases the spacing.",
+        "B": "Increasing the slit separation decreases the spacing.",
+        "C": "Higher frequency means a shorter wavelength and hence smaller spacing.",
+        "D": "Correct. A longer wavelength increases the spacing."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify which change increases the double-slit fringe spacing.",
+    "misconception": "Assuming wider slit separation gives wider fringe spacing.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stars subtend an angle $\\theta\\approx s/r$ and the Rayleigh criterion gives $\\theta\\approx\\lambda/b$ for aperture diameter $b$. Taking $\\lambda=400\\ \\mathrm{nm}$, $b\\approx r\\lambda/s=(5.5\\times10^{16})(400\\times10^{-9})/(3.0\\times10^{11})\\ \\mathrm{m}$, of order $0.1\\ \\mathrm m$.",
+      "perOption": {
+        "A": "Correct. This is the closest listed minimum for a visible wavelength.",
+        "B": "Greatly overestimates the aperture needed to resolve the pair.",
+        "C": "Implies a much finer angular resolution than the separation requires.",
+        "D": "Overestimates the required aperture by about six orders of magnitude."
+      }
+    },
+    "issues": "The question omits the wavelength. The key assumes 400 nm and uses the syllabus approximation to the Rayleigh criterion, giving about 0.073 m and making 0.1 m the closest option.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Estimate the angular separation and use the Rayleigh criterion with a visible wavelength.",
+    "misconception": "Treating physical separation as angular separation.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Earth’s radius is about four times the Moon’s radius. With a football of radius $0.12\\ \\mathrm{m}$ representing Earth, the model Moon should have a radius of about $0.03\\ \\mathrm{m}$, matching a tennis ball.",
+      "perOption": {
+        "A": "A basketball is much too large for a radius of about $3\\ \\mathrm{cm}$.",
+        "B": "Correct. A tennis ball has a radius of about $3\\ \\mathrm{cm}$.",
+        "C": "A golf ball is smaller than the required model Moon.",
+        "D": "A cherry has a radius well below the target."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Estimate the scaled radius and match it to a familiar object.",
+    "misconception": "Comparing a calculated radius with an object’s diameter.",
+    "transcription": null
+  }
+]

@@ -1,0 +1,518 @@
+[
+  {
+    "id": "ejc-2019-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean reading is $3.06\\ \\mathrm{A}$. Applying $1\\%$ to each extreme gives corrections of about $0.03\\ \\mathrm{A}$, so the lower and upper bounds are $3.04-0.03=3.01\\ \\mathrm{A}$ and $3.08+0.03=3.11\\ \\mathrm{A}$. Half the adjusted range is $0.05\\ \\mathrm{A}$, giving $(3.06\\pm0.05)\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Uses half the observed range alone.",
+        "B": "Uses the full observed range as the uncertainty.",
+        "C": "Correct.",
+        "D": "Adds the meter uncertainty to the full observed range."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine reading variation with the meter’s percentage accuracy.",
+    "misconception": "Using half the observed range alone.",
+    "transcription": "A digital meter, which has an accuracy of $\\pm 1\\%$, is used to measure the current in an electrical circuit. The reading on the meter varies between $3.04\\ \\mathrm{A}$ and $3.08\\ \\mathrm{A}$.\n\nWhat is the value of the current, with its uncertainty?\n\nA $(3.06\\pm0.02)\\ \\mathrm{A}$\nB $(3.06\\pm0.04)\\ \\mathrm{A}$\nC $(3.06\\pm0.05)\\ \\mathrm{A}$\nD $(3.06\\pm0.07)\\ \\mathrm{A}$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Apply $v^2=u^2+2as$ at both heights with upward positive, giving $v_A^2=u^2-2gy_A$ and $(v_A/4)^2=u^2-2gy_B$. Eliminate $u^2$ to get $15v_A^2=32g(y_B-y_A)$. Thus $v_A=\\sqrt{32(9.81)(3.06)/15}=8.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Gives only about $0.19\\ \\mathrm{m}$ of rise before the speed falls to a quarter.",
+        "B": "Gives only about $0.76\\ \\mathrm{m}$ of rise before the speed falls to a quarter.",
+        "C": "Gives only about $1.72\\ \\mathrm{m}$ of rise before the speed falls to a quarter.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key uses plus signs in its height equations despite upward height being positive, then uses the positive height difference in its numerical calculation. The rewrite corrects the signs.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must square the speed ratio before substituting into a constant-acceleration equation.",
+    "misconception": "Using the speed ratio as a ratio of squared speeds.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cart accelerates from rest at X, so the gaps between successive dots initially grow. On the nearly level section the cart moves at roughly constant speed, so the gaps are approximately equal there. In A the gaps widen again on the final downhill stretch.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The gaps keep growing through the nearly level section, where the speed should be roughly constant.",
+        "C": "The initial equal gaps indicate constant speed from X.",
+        "D": "The initial equal gaps indicate constant speed from X."
+      }
+    },
+    "issues": "The key’s explanation omits the final downhill stretch. A shows renewed acceleration there and is the best match.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must interpret dot spacing as speed and relate changes in spacing to the track profile.",
+    "misconception": "Reading equal-time dot spacing as acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The horizontal speed is constant, so horizontal displacement increases linearly with time as in Graph 3. The loss of kinetic energy equals the gain in gravitational potential energy, so kinetic energy decreases linearly with vertical displacement. The projectile still has horizontal speed at the highest point, so its kinetic energy remains positive as in Graph 4.",
+      "perOption": {
+        "A": "Graph 1 implies increasing horizontal speed and Graph 2 implies zero kinetic energy at the highest point.",
+        "B": "Graph 1 implies increasing horizontal speed.",
+        "C": "Graph 2 implies zero kinetic energy at the highest point.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "projectile-motion.d",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine horizontal kinematics with energy conservation and recognise the kinetic energy at the apex.",
+    "misconception": "Assuming the projectile stops at the highest point.",
+    "transcription": "An object is projected at an acute angle $\\theta$ above the horizontal.\n\nWhich of the following graphs correctly shows the variation of the horizontal displacement with time, and the variation of the kinetic energy with vertical displacement of the object?\n\n[Four graphs with axes labelled $x$ and $y$. Graph 1 rises from the origin and curves upwards. Graph 2 is a downward-sloping straight line from the positive $y$-axis to the positive $x$-axis. Graph 3 is an upward-sloping straight line from the origin. Graph 4 is a downward-sloping straight line from the positive $y$-axis and ends above the $x$-axis.]\n\nOption | horizontal displacement with time | kinetic energy with vertical displacement\nA | Graph 1 | Graph 2\nB | Graph 1 | Graph 4\nC | Graph 3 | Graph 2\nD | Graph 3 | Graph 4"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Treat the $2\\ \\mathrm{kg}$ and $3\\ \\mathrm{kg}$ blocks as one system. The tension in the string joining the $3\\ \\mathrm{kg}$ and $4\\ \\mathrm{kg}$ blocks supplies the system’s horizontal resultant force, so $T=(2+3)(2)=10\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Finds the tension in the string between the two lighter blocks.",
+        "B": "Finds the resultant force on the middle block alone.",
+        "C": "Correct.",
+        "D": "Uses the combined mass of the two blocks on the right."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is direct once the student chooses the two blocks pulled by the specified string.",
+    "misconception": "Including blocks on the wrong side of the string.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $\\theta$ be the angle of the tension to the horizontal. Vertical equilibrium gives $T\\sin\\theta=mg$, and forward acceleration gives $T\\cos\\theta=ma$. Thus $\\tan\\theta=g/a\\approx2$, so $\\theta=63.4^\\circ$ and the angle to the vertical is $26.6^\\circ$. The bob hangs backward so that the horizontal component of tension points forward.",
+      "perOption": {
+        "A": "A forward displacement would make the horizontal component of tension point backward.",
+        "B": "Correct.",
+        "C": "Uses the angle to the horizontal and puts the bob on the wrong side.",
+        "D": "Uses the angle to the horizontal."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve tension in two directions and convert the resulting angle to the vertical.",
+    "misconception": "Reporting the angle to the horizontal.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial and final momenta both have magnitude $p=mv$ and make angles of $30^\\circ$ above and below the horizontal respectively. Their horizontal components cancel when the vectors are subtracted, while the vertical components give a downward change of magnitude $p\\sin 30^\\circ+p\\sin 30^\\circ=p=mv$.",
+      "perOption": {
+        "A": "Treats equal momentum magnitudes as equal momentum vectors.",
+        "B": "Counts only one vertical momentum component.",
+        "C": "Correct.",
+        "D": "Assumes the entire momentum vector reverses."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "projectile-motion",
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.g",
+      "projectile-motion.b",
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must subtract momentum vectors by recognising that only the vertical component reverses.",
+    "misconception": "Treating equal momentum magnitudes as equal vectors.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The aeroplane, glider and ship can each move with constant velocity in the situations described, allowing their forces to balance. The speedboat changes velocity as it changes direction at constant speed. Its acceleration requires a resultant force, so it cannot be in equilibrium.",
+      "perOption": {
+        "A": "The aeroplane can climb with constant velocity and balanced forces.",
+        "B": "The glider can travel at constant altitude with constant horizontal velocity.",
+        "C": "The ship can be towed at constant velocity with balanced forces.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish a constant speed from a constant velocity when checking equilibrium.",
+    "misconception": "Assuming constant speed guarantees zero resultant force.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The water pushes upwards on the bottom with force $\\rho_B A$ and downwards on the top with force $\\rho_T A$. The pressure forces on the vertical curved surface have no vertical component, so the upthrust is $(\\rho_B-\\rho_T)A$.",
+      "perOption": {
+        "A": "Gives a pressure difference and omits the area needed to obtain a force.",
+        "B": "Correct.",
+        "C": "Subtracts the weight and gives the net vertical force due to water and gravity.",
+        "D": "Adds the weight even though upthrust comes from the water’s pressure forces."
+      }
+    },
+    "issues": "The key gives only a recall cue about the origin of upthrust. The question uses rho for pressure.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert the pressure difference into a force and distinguish upthrust from net force.",
+    "misconception": "Including weight in the upthrust.",
+    "transcription": "A cylindrical block of wood has cross-sectional area $A$ and weight $W$. It is totally immersed in water with its axis vertical. The block experiences pressures $\\rho_T$ and $\\rho_B$ at its top and bottom surfaces respectively.\n\nWhich expression is equal to the upthrust on the block?\n\nA $\\rho_B-\\rho_T$\nB $(\\rho_B-\\rho_T)A$\nC $(\\rho_B-\\rho_T)A-W$\nD $(\\rho_B-\\rho_T)A+W$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Vertical force balance gives the weight $W=16+9=25\\ \\mathrm{kN}$. Taking moments about the front wheels gives $Wx=9(1.50)$, so the centre of gravity is $x=0.540\\ \\mathrm{m}$ behind the front wheels. Adding the front overhang gives $0.540+0.600=1.14\\ \\mathrm{m}$ from the front of the van.",
+      "perOption": {
+        "A": "Measures from the front wheels.",
+        "B": "Measures from the rear wheels.",
+        "C": "Correct.",
+        "D": "Measures from the rear end of the van."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use vertical equilibrium and moment balance before converting from the pivot to the requested reference point.",
+    "misconception": "Reporting the distance from an axle instead of from the van’s front.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial elastic potential energy equals the kinetic energy at P plus the work done against friction, since there is no net change in gravitational potential energy. Thus $E_k=\\frac12 kx^2-fd$.",
+      "perOption": {
+        "A": "Subtracts a gravitational energy term even though the start and end heights are equal.",
+        "B": "Correct.",
+        "C": "Adds the energy dissipated by friction to the kinetic energy.",
+        "D": "Adds the frictional loss and treats P as lower than the starting point."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.k",
+      "projectile-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise that the launch point and P have the same height and account for energy dissipated by friction.",
+    "misconception": "Using the depth of the dip as the net height change.",
+    "transcription": "A small mass $m$ is launched by a spring and travels along a rough track to a point P. The spring constant is $k$ and the initial compression of the spring was $x$. As it travels to P, it goes through a dip of depth $H$. The mass experiences a constant force of friction $f$ for the entire distance of $d$.\n\n[The mass $m$ is next to a compressed spring at the left end of the track. The track dips by a vertical depth $H$ and returns to the initial level at P.]\n\nWhat is the kinetic energy of the mass at point P?\n\nA $\\frac12 kx^2-fd-mgH$\nB $\\frac12 kx^2-fd$\nC $\\frac12 kx^2+fd$\nD $\\frac12 kx^2+fd+mgH$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the maximum speed the net force is zero, so $P/v_{\\max}=kv_{\\max}^2$ and $k=P/v_{\\max}^3=110\\times10^3/21^3$. At $15.0\\ \\mathrm{m\\,s^{-1}}$ the engine force is $P/15$. Subtract the drag to get $F_{\\rm net}=\\frac{110\\times10^3}{15}-\\frac{110\\times10^3}{21^3}(15)^2\\approx4660\\ \\mathrm{N}$, or $4.7\\ \\mathrm{kN}$ forwards.",
+      "perOption": {
+        "A": "Gives the resistive force alone.",
+        "B": "Results from scaling the resistance linearly with speed.",
+        "C": "Correct.",
+        "D": "Gives the engine force alone."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the drag coefficient from maximum speed and use two different speed laws at the lower speed.",
+    "misconception": "Assuming constant engine power means constant thrust.",
+    "transcription": "The engine of a boat supplies a constant power of $110\\ \\mathrm{kW}$ to propel the boat forward. The boat attains a maximum speed of $21.0\\ \\mathrm{m\\,s^{-1}}$.\n\nIf the magnitude of the resistive force acting on the boat is proportional to the square of the boat’s speed, what is the resultant force acting on the boat when it is moving at the instant when its speed is $15.0\\ \\mathrm{m\\,s^{-1}}$?\n\nA $2.7\\ \\mathrm{kN}$\nB $3.6\\ \\mathrm{kN}$\nC $4.7\\ \\mathrm{kN}$\nD $7.3\\ \\mathrm{kN}$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The surfaces have the same linear speed at the point of contact because there is no slipping, so $v_1=v_2$. Using $v=r\\omega$ for each rim gives $R\\Omega=r\\omega$, hence $\\Omega=(r/R)\\omega$.",
+      "perOption": {
+        "A": "Equates angular speeds despite the different radii.",
+        "B": "Assigns different linear speeds to the surfaces at the contact point.",
+        "C": "Correct.",
+        "D": "Assigns different linear speeds at the contact point and inverts the angular-speed ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify which speed is equal at the point of contact and apply the radius ratio in the correct direction.",
+    "misconception": "Equating angular speeds at the point of contact.",
+    "transcription": "A turntable has radius $R$. It is driven by a rubber drive wheel of radius $r$ in contact with the inner rim of the turntable as shown.\n\n[Plan view. A small drive wheel of radius $r$ touches the inside of the larger turntable rim at the top. The turntable radius $R$ is marked. Arrows labelled $\\omega$ and $\\Omega$ show the clockwise rotation of the drive wheel and turntable respectively.]\n\nThe turntable rotates with angular velocity $\\Omega$ and the linear speed of a point on its rim is $v_1$. The drive wheel rotates with angular velocity $\\omega$ and the linear speed of a point on its rim is $v_2$.\n\nIf there is no slippage between the rubber drive wheel and the turntable, which pair of equations show the relationship between the angular velocities and the linear speeds of the turntable and the wheel?\n\nOption | angular velocity | linear speed\nA | $\\Omega=\\omega$ | $v_1=v_2$\nB | $\\Omega=\\omega$ | $v_1=(r/R)v_2$\nC | $\\Omega=(r/R)\\omega$ | $v_1=v_2$\nD | $\\Omega=(R/r)\\omega$ | $v_1=(r/R)v_2$"
+  },
+  {
+    "id": "ejc-2019-promo-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Y the string is just taut, so the tension is zero and $mg=mv_Y^2/l$. The kinetic energy at Y is therefore $\\frac12 mgl$. By energy conservation, $\\frac12 mv^2=\\frac12 mgl+mg(2l)=\\frac52 mgl$, giving $v=\\sqrt{5gl}$.",
+      "perOption": {
+        "A": "Gives the speed at Y and omits the energy needed to rise from X.",
+        "B": "Allows a rise of only one string length if all the initial kinetic energy is converted to gravitational potential energy.",
+        "C": "Accounts for the rise but assumes zero speed at Y.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must interpret the limiting tension at the top and use that condition in an energy balance.",
+    "misconception": "Assuming the bob can reach the top with zero speed while the string stays taut.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2019-promo-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies Europa’s centripetal force, so $GMm/r^2=mr(2\\pi/T)^2$. Cancelling Europa’s mass gives $M=(2\\pi/T)^2r^3/G$. With $r=6.7\\times10^5\\times10^3\\ \\mathrm{m}$ and $T=85\\times60^2\\ \\mathrm{s}$, this gives $M=1.90\\times10^{27}\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Understates the mass required for the given radius and period by many orders of magnitude.",
+        "B": "Correct.",
+        "C": "Overstates the mass, so it predicts a much shorter orbital period at the given radius.",
+        "D": "Overstates the mass, so it predicts a much shorter orbital period at the given radius."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine the gravitational and centripetal force equations, then convert both orbital data to SI units.",
+    "misconception": "Using kilometres or hours directly with the SI value of G.",
+    "transcription": null
+  }
+]

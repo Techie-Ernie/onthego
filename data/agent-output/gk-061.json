@@ -1,0 +1,513 @@
+[
+  {
+    "id": "hci-2025-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take upward displacement as negative, with zero at the ground. The sandbag initially continues upward, so the graph starts at $-10\\ \\mathrm{m}$ with a negative slope. Its downward acceleration brings the slope to zero at the highest point, after which the sandbag moves downward.",
+      "perOption": {
+        "A": "Shows the sandbag falling immediately as if released from rest.",
+        "B": "Correct. The sandbag rises briefly before falling.",
+        "C": "Starts with zero slope, implying zero release velocity.",
+        "D": "The straight line implies constant velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The graph can be selected by checking its initial slope and turning point.",
+    "misconception": "Assuming release from rest",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The trolleys have equal mass and A is faster, so their total momentum is non-zero and directed to the right. Newton’s third law gives equal and opposite forces during contact. After separation, if B were stationary or moving left, A would have to be moving left to separate from B, contradicting conservation of rightward momentum. A collision is elastic if total kinetic energy is conserved, so the claim about contact time is false.",
+      "perOption": {
+        "A": "This statement is true because both trolleys at rest would have zero total momentum.",
+        "B": "This statement follows from Newton’s third law.",
+        "C": "This statement is true because the trolleys must separate while conserving rightward momentum.",
+        "D": "Correct. Short contact time does not establish elasticity."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The question combines momentum conservation, Newton’s third law and the condition for an elastic collision.",
+    "misconception": "Using contact time to decide whether a collision is elastic",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "With the rule horizontal, the two springs have the same extension $x$. Taking moments about the left end gives $k_2x(1.00)=(0.250)(0.200)g+(0.500)(0.0500)g=0.075g$. Taking moments about the right end gives $k_1x(1.00)=(0.750)(0.200)g+(0.500)(0.0500)g=0.175g$. Dividing the equations gives $k_2/k_1=0.075/0.175=3/7\\approx0.43$.",
+      "perOption": {
+        "A": "Omits the weight of the metre rule.",
+        "B": "Correct. The spring constant ratio is $3/7$.",
+        "C": "Inverts the correct ratio.",
+        "D": "Omits the weight of the metre rule and inverts the ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c",
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine equal spring extensions with two moment equations that include the rule’s weight.",
+    "misconception": "Omitting the weight of the metre rule",
+    "transcription": "A metre rule of mass $50\\ \\mathrm{g}$ is suspended horizontally from the ceiling by two springs at its ends, as shown.\n\n[The left spring $k_1$ is attached at $0.0\\ \\mathrm{cm}$ and the right spring $k_2$ at $100.0\\ \\mathrm{cm}$. A $200\\ \\mathrm{g}$ mass sits at the $25.0\\ \\mathrm{cm}$ mark.]\n\nThe spring at the $0.0\\ \\mathrm{cm}$ mark has spring constant $k_1$, while the spring at the $100\\ \\mathrm{cm}$ mark has spring constant $k_2$. The springs have the same length when they are unstretched. A $200\\ \\mathrm{g}$ mass is placed at the $25.0\\ \\mathrm{cm}$ mark.\n\nWhat is the ratio $\\frac{k_2}{k_1}$ such that the ruler is horizontal?\n\nA. $0.33$\nB. $0.43$\nC. $2.3$\nD. $3.0$"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the principle of flotation, the upthrust equals the weight of the floating cube. The cube has volume $L^3$, so its weight is $mg=\\rho_0Vg=\\rho_0L^3g$.",
+      "perOption": {
+        "A": "Uses the cube’s density in the pressure expression $\\rho gh$, which gives units of pressure.",
+        "B": "Gives the water’s gauge pressure at depth $h$ without multiplying by the face area.",
+        "C": "Correct. The upthrust equals the cube’s weight.",
+        "D": "Uses the entire cube volume as the displaced water volume."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognising floating equilibrium reduces the problem to calculating the cube’s weight.",
+    "misconception": "Confusing hydrostatic pressure with upthrust",
+    "transcription": "A cube of density $\\rho_0$ of side $L$ floats in a beaker of water of density $\\rho_1$. The depth of the cube submerged in water is $h$.\n\n[A cube floats partly submerged in water. A vertical arrow labelled $L$ spans the cube’s height, and an arrow labelled $h$ runs from its base to the water surface.]\n\nWhat is the magnitude of the upthrust on the cube?\n\nA. $\\rho_0gh$\nB. $\\rho_1gh$\nC. $\\rho_0gL^3$\nD. $\\rho_1gL^3$"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Neglect the shelf’s weight, so the system’s weight acts through the centre of the book. In equilibrium the three lines of action meet where the extended line of the rope intersects the vertical through the book. The wall force points down and to the right along the line from the wall attachment to that intersection, closing the force triangle.",
+      "perOption": {
+        "A": "Lies along the required line but points left, adding to the rope’s leftward pull.",
+        "B": "Points above the shelf, missing the intersection of the tension and weight lines.",
+        "C": "Assumes a purely horizontal reaction, whose line misses the intersection of the other two forces.",
+        "D": "Correct. The wall force points down and to the right."
+      }
+    },
+    "issues": "Worked solution starts on page 1 and continues on page 2.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must locate the intersection of two lines of action and use force balance to choose the arrow direction.",
+    "misconception": "Treating the wall force as purely horizontal",
+    "transcription": "The figure below shows a light shelf attached to the wall by a rope. A heavy book is on the shelf at the position shown. What is the direction of the force of the wall on the shelf?\n\n[A horizontal shelf extends to the right from a vertical wall. A rope slopes down and right from the wall above the shelf to an attachment near the shelf’s left end. The book is near the far right end. Four arrows originate at the wall–shelf junction.]\n\nA. [Up and left.]\nB. [Up and right.]\nC. [Horizontally right.]\nD. [Down and right.]"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking $x$ positive from O towards P, $F=-\\frac{dU}{dx}=-\\frac{d(kx^2)}{dx}=-2kx$. For positive $k$, the negative sign gives a force from P towards O.",
+      "perOption": {
+        "A": "Omits the minus sign in the force–potential energy relation.",
+        "B": "Omits both the minus sign and the factor of two from differentiating.",
+        "C": "Gets the direction right but misses the factor of two from differentiating.",
+        "D": "Correct. The force has magnitude $2kx$ towards O."
+      }
+    },
+    "issues": "The stem does not explicitly state that $k>0$, which is required for the keyed direction and magnitude.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student differentiates the potential energy and interprets the force’s sign.",
+    "misconception": "Dropping the minus sign in the force–potential energy relation",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upward component of the normal force balances the weight, so $N\\sin\\theta=mg$. The inward component provides the centripetal force, so $N\\cos\\theta=m(0.8g)$. Dividing gives $\\tan\\theta=1.25$, so $\\theta=51.3^\\circ$.",
+      "perOption": {
+        "A": "Uses $\\cos^{-1}(0.8)$, treating $0.8$ as a component-to-normal-force ratio.",
+        "B": "Swaps the sine and cosine components and obtains the complementary angle.",
+        "C": "Correct. The angle is approximately $51^\\circ$.",
+        "D": "Uses $\\sin^{-1}(0.8)$, treating $0.8$ as a component-to-normal-force ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve the normal force using the cone’s angle to the vertical, then take a ratio.",
+    "misconception": "Swapping the radial and vertical components of the normal force",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Earth’s rotation reduces the free-fall acceleration measured relative to its surface below the gravitational field strength away from the poles. At the poles the rotational correction vanishes, so the two are equal.",
+      "perOption": {
+        "A": "Assumes equality everywhere, ignoring the rotational correction.",
+        "B": "Reverses the latitude trend, since free-fall acceleration is smaller at the Equator.",
+        "C": "Assumes free-fall acceleration is independent of latitude.",
+        "D": "Correct. The two quantities are equal at the poles."
+      }
+    },
+    "issues": "The key uses free-fall acceleration relative to the rotating Earth and gravitational field strength due to gravitation alone.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.d"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish gravitational field strength from free-fall acceleration measured relative to the rotating Earth.",
+    "misconception": "Ignoring Earth’s rotation in apparent free fall",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Orbit 2 has a larger radius $r$, so the gravitational potential energy $-GMm/r$ becomes less negative and therefore increases. The orbital speed drops as the gravitational pull weakens. Equivalently, the kinetic energy $GMm/(2r)$ decreases as $r$ increases.",
+      "perOption": {
+        "A": "Predicts a higher orbital speed at larger radius.",
+        "B": "Predicts a higher orbital speed and treats a less negative potential energy as a decrease.",
+        "C": "Treats a less negative potential energy as a decrease.",
+        "D": "Correct. Kinetic energy decreases and gravitational potential energy increases."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track the radius dependence and sign of two orbital energies.",
+    "misconception": "Treating a less negative potential energy as a decrease",
+    "transcription": "The diagram shows two circular orbits around the Earth.\n\n[Earth is at the centre of two dashed concentric circles. Orbit 1 is the inner circle and orbit 2 is the outer circle.]\n\nHow would the kinetic energy and gravitational potential energy of a satellite change if it is moved from orbit 1 to orbit 2?\n\n| Option | Kinetic energy | Gravitational potential energy |\n| --- | --- | --- |\n| A | increase | increase |\n| B | increase | decrease |\n| C | decrease | decrease |\n| D | decrease | increase |"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Kinetic theory gives $p=\\frac13\\rho\\langle c^2\\rangle$. The gases occupy equal volumes and contain equal numbers of moles, so oxygen is $32/2=16$ times as dense as hydrogen. At equal pressure, the hydrogen molecules’ root-mean-square speed is $\\sqrt{16}=4$ times that of the oxygen molecules.",
+      "perOption": {
+        "A": "Squares the density ratio instead of taking its square root.",
+        "B": "Uses the inverse linear density ratio for speed instead of for mean-square speed.",
+        "C": "Correct. The rms speed ratio is 4.",
+        "D": "Assumes equal pressures imply equal rms speeds even with different gas densities."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert the molar mass ratio into a density ratio and take its square root.",
+    "misconception": "Using an inverse linear dependence of rms speed on density",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the first law of thermodynamics, internal energy can decrease through mechanical work. For example, an expanding gas can decrease its internal energy by doing work on its surroundings without transferring energy by cooling.",
+      "perOption": {
+        "A": "Correct. A gas can lose internal energy by doing work.",
+        "B": "During a change of state, microscopic potential energy can change while temperature stays constant, as in melting or freezing.",
+        "C": "Temperature depends on average microscopic kinetic energy, while internal energy includes microscopic potential energy and depends on the amount of substance.",
+        "D": "This kinetic-only expression applies to an ideal gas, whose microscopic potential energy is taken as zero."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish work from heat transfer and distinguish temperature from internal energy.",
+    "misconception": "Assuming internal energy decreases only through cooling",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Newton’s second law gives $F_\\mathrm{gas}-mg=ma$ when the downward force is the piston’s weight alone. Hence $F_\\mathrm{gas}=m(g+a)=0.75(9.81+3.5)=9.983\\ \\mathrm{N}$. The work done by the gas is $F_\\mathrm{gas}s=9.983(0.12)=1.20\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Calculates the work of the net force $ma$, omitting the force needed to lift the piston’s weight.",
+        "B": "Correct. The gas does $1.20\\ \\mathrm{J}$ of work in the key’s model.",
+        "C": "Overestimates the work by using more than the required upward force of about $10$ N over the stated distance.",
+        "D": "Overestimates the work by treating the gas force or piston travel as far larger than the stated data imply."
+      }
+    },
+    "issues": "The key neglects any external pressure and friction on the piston and treats the given average acceleration as representative over the displacement.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "energy-and-fields.c",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the gas force from the piston’s net force before calculating work.",
+    "misconception": "Using net force instead of the gas force to calculate work",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity graph gives a period of $12\\ \\mathrm{s}$ and a peak speed of $3.0\\ \\mathrm{cm\\,s^{-1}}$. Using $v_0=\\omega x_0$, we have $3.0=(2\\pi/12)x_0$ in centimetre units, giving $x_0=5.730\\ \\mathrm{cm}$. Then $a_0=\\omega^2x_0=(2\\pi/12)^2(5.730)=1.571\\ \\mathrm{cm\\,s^{-2}}$. The maximum restoring force is $3.0(1.571\\times10^{-2})=4.7\\times10^{-2}\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Uses the peak speed in place of the displacement amplitude in $\\omega^2x_0$.",
+        "B": "Correct. The maximum restoring force is $0.047\\ \\mathrm{N}$.",
+        "C": "Uses a period of $10\\ \\mathrm{s}$ from $15/1.5$ instead of the $12\\ \\mathrm{s}$ between peaks.",
+        "D": "Drops the angular-frequency dependence when finding acceleration and simply multiplies mass by the peak speed, $3.0(0.03)$."
+      }
+    },
+    "issues": "The printed working gives $\\mathrm{cm\\,s^{-1}}$ for peak acceleration. The correct unit is $\\mathrm{cm\\,s^{-2}}$.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.f",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must extract the period and peak velocity from a graph and use them to calculate peak force.",
+    "misconception": "Reading a peak’s time coordinate as the period",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a right-moving pulse, the part that reaches P last is the leftmost part of the spatial profile, and the part that reaches P first is the rightmost. This reverses the order of all the points on the time graph, including the slopes of the two triangular sections.",
+      "perOption": {
+        "A": "Copies the time trace without reversing the order of the pulse features.",
+        "B": "Swaps the two sections but keeps the slope direction within each section.",
+        "C": "Correct. The spatial profile reverses the full time trace.",
+        "D": "Reverses each section’s slope but keeps the positive section before the negative section."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must reverse the full time sequence to get the instantaneous shape of a right-moving pulse.",
+    "misconception": "Copying a time trace directly as a spatial profile",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first sheet halves the intensity of the unpolarised light, so the second must halve it again. Malus’ law gives $(I_0/2)\\cos^2\\theta=I_0/4$, so $\\cos^2\\theta=1/2$ and $\\theta=\\cos^{-1}(1/\\sqrt{2})=45^\\circ$. Rotating either sheet by $45^\\circ$ from the crossed arrangement leaves the axes $45^\\circ$ apart.",
+      "perOption": {
+        "A": "Correct. Either rotation gives the required $45^\\circ$ between the axes.",
+        "B": "Leaves an angle of $30^\\circ$ between the axes, giving an output of $3I_0/8$.",
+        "C": "Leaves the last sheet crossed with the middle sheet, so the output is zero.",
+        "D": "Leaves a single sheet that transmits half the incident intensity."
+      }
+    },
+    "issues": "Worked solution starts on page 3 and continues on page 4.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.i",
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must account for the first sheet halving unpolarised intensity before applying Malus’ law to the second sheet.",
+    "misconception": "Applying Malus’ law directly to the unpolarised incident intensity",
+    "transcription": "Unpolarised light of intensity $I_0$ is incident on the first of two polarising sheets. Initially the axis of polarisation of the sheets are perpendicular to each other.\n\nWhich of the following should be done so that light intensity of $0.25I_0$ can emerge from the second polarising sheet?\n\nA. Rotate either sheet by $45^\\circ$.\nB. Rotate either sheet by $60^\\circ$.\nC. Add a third sheet in between with same plane of polarisation as the first sheet.\nD. Remove one of the 2 sheets."
+  }
+]

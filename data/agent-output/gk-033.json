@@ -1,0 +1,512 @@
+[
+  {
+    "id": "dhs-2025-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stars can orbit their common centre of mass, which lies closer to the more massive star, $2M$. They must stay on opposite sides of this fixed point, so they have the same period and angular velocity. Their orbital radii differ, so $v=r\\omega$ gives different speeds.",
+      "perOption": {
+        "A": "A binary star system can have this motion.",
+        "B": "The stars have different speeds because their radii differ at the same angular velocity.",
+        "C": "The unequal masses place the centre of mass closer to the heavier star.",
+        "D": "Correct. The two stars have the same period."
+      }
+    },
+    "issues": "The working reverses the radii: the centre of mass is closer to the 2M star, so the M star has the larger orbit. The letter D is correct.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The question links the stars’ shared period to their angular velocity and orbital speeds.",
+    "misconception": "Equal angular velocity implies equal linear speed.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At P, the two gravitational forces balance, so $\\frac{GM_E m}{r^2}=\\frac{GM_M m}{(R-r)^2}$. Taking the positive square root gives $\\frac{r}{R-r}=\\sqrt{\\frac{M_E}{M_M}}$. Rearranging gives $r=\\frac{R}{1+\\sqrt{M_M/M_E}}$.",
+      "perOption": {
+        "A": "Reverses the mass ratio and places the added 1 outside the denominator.",
+        "B": "Correct. This distance makes the two gravitational forces equal.",
+        "C": "Uses the full separation where the force balance requires the distance from P to the Moon, $R-r$.",
+        "D": "Uses a linear mass ratio despite the inverse-square dependence of the forces."
+      }
+    },
+    "issues": "The worked solution prints the reciprocal mass ratio in its final denominator. The preceding force balance gives the printed option B.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must balance two inverse-square forces and solve for the distance from Earth.",
+    "misconception": "Using the Earth-to-Moon mass ratio in the final denominator.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Gravitational potential varies inversely with distance from Earth’s centre, so $\\phi_Q=\\frac{r}{2r}(-800)=-400\\ \\mathrm{kJ\\,kg^{-1}}$. The work done by an external force for a transfer with unchanged kinetic energy is $\\Delta U=m(\\phi_P-\\phi_Q)=1.00[-800-(-400)]=-400\\ \\mathrm{kJ}$.",
+      "perOption": {
+        "A": "Correct. This is the change in gravitational potential energy.",
+        "B": "Halves the potential difference a second time after the distance ratio has already been used to find the potential at Q.",
+        "C": "This is the work done by gravity during the inward transfer.",
+        "D": "Uses the magnitude of the potential at P alone and ignores the initial potential at Q."
+      }
+    },
+    "issues": "The question does not identify the force doing the work. A assumes external work at unchanged kinetic energy. Gravity itself does +400 kJ of work, which is option C.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.f",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must scale gravitational potential with distance and take the signed difference.",
+    "misconception": "Confusing work by gravity with external work.",
+    "transcription": "P and Q are two points above Earth’s surface at distances $r$ and $2r$ respectively from the centre of the Earth.\n\n[Diagram: P lies to the right of Earth’s centre at distance $r$. Q lies above Earth’s centre at distance $2r$.]\n\nThe gravitational potential at P is $-800\\ \\mathrm{kJ\\,kg^{-1}}$. When a $1.00\\ \\mathrm{kg}$ mass is taken from Q to P, what is the work done on the mass?\n\nA. $-400\\ \\mathrm{kJ}$\nB. $-200\\ \\mathrm{kJ}$\nC. $400\\ \\mathrm{kJ}$\nD. $800\\ \\mathrm{kJ}$"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Pumping compresses the air and raises its pressure, so the work done on it is positive. The process is fast and the pump is well insulated, so $Q\\approx0$. By the first law, $\\Delta U=Q+W$ is positive, which accounts for the rise in temperature.",
+      "perOption": {
+        "A": "The air gains internal energy through compression with negligible heat transfer.",
+        "B": "Correct. Work on the air raises its internal energy.",
+        "C": "The temperature rises even though heat transfer is negligible.",
+        "D": "Later cooling cannot explain the rise in temperature during pumping."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must apply the first law to rapid compression with negligible heat transfer.",
+    "misconception": "Assuming a temperature rise requires heat input.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For very light damping with the usual linear damping model, the amplitude decays as $A\\propto e^{-\\gamma t}$, where $\\gamma$ is constant. Since the energy scales with the square of the amplitude, its envelope decays as $E\\propto e^{-2\\gamma t}$.",
+      "perOption": {
+        "A": "The period stays constant as the amplitude falls in the linear model.",
+        "B": "Correct. The energy envelope decays exponentially.",
+        "C": "The amplitude falls while the frequency stays constant.",
+        "D": "The damping force opposes velocity and can point away from equilibrium."
+      }
+    },
+    "issues": "Page 4 omits the answer letter beside the working. The page 1 table prints B. Exponential decay describes the energy envelope for very light linear damping.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must connect the decaying amplitude to the oscillator’s energy.",
+    "misconception": "Confusing the damping force with the restoring force.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $r=78\\ \\mathrm{m}$ the intensity is $I=\\frac{P}{4\\pi r^2}=\\frac{2000}{4\\pi(78)^2}\\approx0.0262\\ \\mathrm{W\\,m^{-2}}$. The power intercepted is $IA_{\\mathrm{ear}}\\approx5.49\\times10^{-5}\\ \\mathrm{W}$ for $A_{\\mathrm{ear}}=2.1\\times10^{-3}\\ \\mathrm{m^2}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the circular area $\\pi r^2$, which overestimates the intensity by a factor of four.",
+        "C": "Using $4\\pi r$ for the spreading area drops one power of distance and gives this larger result.",
+        "D": "Reports the local intensity as though it were the intercepted power."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must find the spherical spreading area before calculating the power intercepted by the ear.",
+    "misconception": "Using the area of a circle for radiation in all directions.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Malus’ law, $I=I_0\\cos^2\\theta$, where $I_0$ is the intensity incident on the analyser. The intensities are $0$ at $90^\\circ$, $0.5I_0$ at $135^\\circ$ and $I_0$ at $0^\\circ$, in increasing order.",
+      "perOption": {
+        "A": "Starts with the maximum at $0^\\circ$ before dropping to zero.",
+        "B": "Lists the intensities in decreasing order.",
+        "C": "Places the maximum at $0^\\circ$ before the intermediate intensity at $135^\\circ$.",
+        "D": "Correct. The intensities rise from zero to half to full transmission."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must evaluate Malus’ law at three angles and rank the resulting intensities.",
+    "misconception": "Assuming transmitted intensity falls as the angle increases from 0° to 180°.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fixed ends are nodes, so the fundamental wavelength is $2L$ and the fundamental frequency is $f_0=v/(2L)$. The $n$th harmonic is $f_n=nf_0=nv/(2L)$.",
+      "perOption": {
+        "A": "Taking the fundamental wavelength as $L$ omits the odd harmonics.",
+        "B": "Correct. These are all integer multiples of the fundamental.",
+        "C": "Uses the speed of sound and places the factor of two in the numerator.",
+        "D": "Uses the speed of sound and takes the fundamental wavelength to be $L$."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recall the fixed-end fundamental and use its integer multiples.",
+    "misconception": "Treating the string length as one full fundamental wavelength.",
+    "transcription": "A guitar string of length $L$ stretched between two ends is plucked. It is known that the speed of transverse waves on the string is $v$ and the speed of sound waves is $c$.\n\nWhich of the following expressions, in which $n$ has integer values 1, 2, 3, … etc., will give the frequencies of all stationary waves which can be formed on the wire?\n\nA. $\\frac{nv}{L}$\nB. $\\frac{nv}{2L}$\nC. $\\frac{2nc}{L}$\nD. $\\frac{nc}{L}$"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first order gives $\\lambda/d=\\sin 28.6^\\circ$. For the second order, $d\\sin\\theta_2=2\\lambda$, so $\\theta_2=\\sin^{-1}(2\\sin 28.6^\\circ)=73.2^\\circ$. The largest possible integer order is $d/\\lambda$ rounded down, which is 2. Counting orders $0$, $\\pm1$ and $\\pm2$ gives five maxima.",
+      "perOption": {
+        "A": "Doubles the angle itself and counts six maxima even though only orders 0, ±1 and ±2 are possible.",
+        "B": "Doubles the angle itself and counts third-order maxima, which would require $\\sin\\theta>1$.",
+        "C": "Counts the two first-order and two second-order maxima but omits the central maximum.",
+        "D": "Correct. The second-order angle is $73.2^\\circ$ and there are five maxima."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compute the second-order angle, bound the highest order and count both sides of the pattern.",
+    "misconception": "Doubling the diffraction angle or omitting the central maximum.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially, the upward electrical force balances the weight on each sphere, so $qE=mg$ using magnitudes, and both have $q/m=g/E$. At fixed potential difference, bringing the plates closer increases $E$, so the electric force exceeds the weight and both spheres move upwards. The additional force is $q\\Delta E=ma$, so the equal charge-to-mass ratios give equal accelerations.",
+      "perOption": {
+        "A": "Correct. Both spheres accelerate upwards equally.",
+        "B": "X experiences a larger additional force but has a proportionally larger mass.",
+        "C": "The increased field makes the upward electric force exceed each sphere’s weight.",
+        "D": "The field change gives upward accelerations, and the charge-to-mass ratios are equal."
+      }
+    },
+    "issues": "The result assumes the applied potential difference is held fixed as the plates move.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer equal charge-to-mass ratios from equilibrium and use the change in field to compare accelerations.",
+    "misconception": "A larger electric force implies a larger acceleration even when mass scales with charge.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For thickness $t$ and resistivity $\\rho$, the square sheet has resistance $R_P=\\rho x/(xt)=4.0\\ \\Omega$. The narrower sheet has resistance $R_Q=\\rho(2x)/(0.5xt)=4R_P=16\\ \\Omega$. Treating the sheets as series resistances gives $R_P+R_Q=20\\ \\Omega$.",
+      "perOption": {
+        "A": "Treats the narrower sheet as having the same resistance as the square.",
+        "B": "Doubling the length alone gives $8\\ \\Omega$ for the second sheet and misses the halved width.",
+        "C": "Counts only the resistance of the narrower sheet.",
+        "D": "Correct. The two series resistances add to $20\\ \\Omega$."
+      }
+    },
+    "issues": "The intended series model neglects current crowding at the partial-width join shown in the diagram.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d",
+      "circuits.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must scale the resistance by both length and width before adding the two resistances.",
+    "misconception": "Accounting for length while overlooking the change in cross-sectional area.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The in-phase currents always flow in the same direction as each other whenever they are nonzero, so the force is attractive. The force is proportional to the product of the two equal currents, $F\\propto\\sin^2(2\\pi t/T)$, so it repeats every $T/2$ at twice the current frequency.",
+      "perOption": {
+        "A": "Treats attraction as constant even when both currents pass through zero.",
+        "B": "Correct. The attraction has period $T/2$.",
+        "C": "Shows alternating attraction and repulsion even though the currents reverse together.",
+        "D": "Gives the force the current’s period $T$ and misses the second peak in each cycle."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i",
+      "currents.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer both the polarity and the doubled frequency of the force graph from the two currents.",
+    "misconception": "Assuming the force follows the sign and period of one current.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force on XY must act downwards to balance the moment of $Z$ on the other side of the pivot. Fleming’s left-hand rule gives current from Y to X. Balancing moments gives $(BIL)(1.0\\ \\mathrm{m})=Z(0.5\\ \\mathrm{m})$, so $Z/I=2BL=2(0.050)(0.5)=1/20\\ \\mathrm{N\\,A^{-1}}$. Thus $I=1.96\\ \\mathrm{A}$ pairs with $Z=0.098\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "The current gives an upward force, and the proposed weight equals the force magnitude despite the unequal lever arms.",
+        "B": "Correct. The current gives a downward force and the moments balance.",
+        "C": "The ratio is correct, but the current gives an upward force and the moments act in the same sense.",
+        "D": "The direction is correct, but the weight is too small for the moment produced by $3.92\\ \\mathrm{A}$."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the magnetic force direction from the perspective diagram and balance moments using different lever arms.",
+    "misconception": "Balancing forces instead of moments.",
+    "transcription": "A $1.5\\ \\mathrm{m}$ by $0.5\\ \\mathrm{m}$ light and rigid rectangular conducting frame is pivoted along its longer sides with a weight $Z$ hung on one shorter side as shown. A uniform horizontal magnetic field $B$ of flux density $0.050\\ \\mathrm{T}$ is applied at right-angles to the section XY of the frame.\n\n[Diagram: A horizontal rectangular frame is shown in perspective. On the left short side, X is at the back and Y is at the front. Magnetic field arrows point to the right across XY, parallel to the long sides. Pivot supports on both long sides mark an axis $1.0\\ \\mathrm{m}$ from XY and $0.5\\ \\mathrm{m}$ from the opposite short side. That short side is $0.5\\ \\mathrm{m}$ long and carries the hanging weight $Z$.]\n\nWhen a current passes through the section XY of the frame, which combination of the magnitude and direction of current flowing in section XY, and the weight $Z$ makes the frame horizontal?\n\nMagnitude of current in section XY | direction of current in section XY | $Z/\\mathrm{N}$\nA. $1.96\\ \\mathrm{A}$ | from X to Y | 0.049\nB. $1.96\\ \\mathrm{A}$ | from Y to X | 0.098\nC. $3.92\\ \\mathrm{A}$ | from X to Y | 0.196\nD. $3.92\\ \\mathrm{A}$ | from Y to X | 0.098"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the selector, $B_1qv=qE$, so both ions emerge with speed $v=E/B_1$. In the second field, the magnetic force provides the centripetal force: $B_2qv=mv^2/r$, so $r=mv/(qB_2)=mE/(qB_1B_2)$. Therefore $r_Q=r_P(m_Q/m_P)(q_P/q_Q)=3.7(1/1.5)(2)=4.9\\ \\mathrm{cm}$ to two significant figures.",
+      "perOption": {
+        "A": "Treats radius as proportional to charge as well as to mass.",
+        "B": "Inverts the combined mass-to-charge ratio for Q relative to P.",
+        "C": "Correct.",
+        "D": "Uses $m_P/m_Q$ where the conversion requires $m_Q/m_P$."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l",
+      "electromagnetic-forces.m",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must establish equal speeds before applying the mass-to-charge scaling for the radius.",
+    "misconception": "Treating the bending radius as proportional to charge.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For primary voltage $V_1$, the initial ratio is $\\frac{V_1}{I_p}=\\frac{R}{(N_2/N_1)^2}$. Doubling $N_1$ gives $\\frac{V_1}{I_{p,\\mathrm{new}}}=\\frac{R}{[N_2/(2N_1)]^2}=4\\frac{V_1}{I_p}$. At the same supply voltage, the new primary current is $I_p/4$.",
+      "perOption": {
+        "A": "Predicts an increase even though doubling the primary turns quadruples the effective input resistance.",
+        "B": "Assumes the unchanged secondary load resistance keeps the effective input resistance constant.",
+        "C": "Accounts for only one factor of two, as if the secondary current were unchanged.",
+        "D": "Correct. The effective input resistance quadruples."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "circuits.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must account for the turns ratio twice when relating the primary current to the fixed load.",
+    "misconception": "Applying the turns ratio once while holding the secondary current fixed.",
+    "transcription": null
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "id": "cjc-2023-prelim-p1-q14",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A stronger wind exerts a larger force on the flag and can make it flap with a larger amplitude. In the other examples, the oscillation is large because the periodic driving frequency matches a natural frequency of the system.",
+      "perOption": {
+        "A": "Correct. A stronger driving force alone explains the larger amplitude.",
+        "B": "Sound at a natural frequency can drive large vibrations in the glass.",
+        "C": "Blowing across the mouth excites a resonance of the air in the bottle.",
+        "D": "At a particular rotation speed, the drum drives the machine at a natural frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognising resonance in familiar situations requires distinguishing driving frequency from driving force.",
+    "misconception": "Confusing a stronger drive with resonance",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q15",
+    "keyPage": 12,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The maximum speed is $v_{\\max}=\\omega x_0$, where the amplitude $x_0$ is the initial displacement $X$. Since $p=mv$ and both $m$ and $\\omega$ stay fixed, the maximum momentum is proportional to $X$. Halving $X$ therefore halves the maximum momentum to $0.5p$.",
+      "perOption": {
+        "A": "Squares the amplitude ratio, which applies to energy.",
+        "B": "Correct. The maximum momentum halves.",
+        "C": "Treats momentum as inversely proportional to amplitude.",
+        "D": "Treats momentum as inversely proportional to amplitude squared."
+      }
+    },
+    "issues": "Printed key letter B differs from batch keyAnswer A (parser placeholder).",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must connect maximum SHM speed to momentum at fixed mass.",
+    "misconception": "Assuming momentum scales with amplitude squared",
+    "transcription": "When a spring-mass system is displaced by an initial displacement $X$ and released, it moves in a simple harmonic motion with a maximum momentum of $p$.\n\nThe same spring-mass system is now displaced by an initial displacement of $0.5X$.\n\nWhat is the new maximum momentum of its motion, in terms of $p$?\n\nA $0.25p$; B $0.5p$; C $2p$; D $4p$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q16",
+    "keyPage": 13,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wave period is $T=1/f=5\\ \\mathrm{s}$, so the ball completes $20/5=4$ cycles. In each cycle the ball travels four amplitudes, giving a total distance of $4(0.70\\times4)=11.2\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Counts only the crest-to-trough distance in each cycle.",
+        "B": "Uses the horizontal trough-to-crest spacing as the distance the ball travels per cycle.",
+        "C": "Correct. The ball travels four amplitudes per cycle.",
+        "D": "Uses the wave speed $f\\lambda$ times the elapsed time."
+      }
+    },
+    "issues": "Printed key letter C differs from batch keyAnswer A.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.a",
+      "wave-motion.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student combines the number of periods with the vertical distance per cycle.",
+    "misconception": "Confusing motion of the medium with wave propagation",
+    "transcription": "A transverse water wave is moving along the surface of some water. This causes a ball to move vertically without moving horizontally as it floats upon the surface. At one instant, the ball is at the position shown.\n\n[Not-to-scale diagram of a rightward-travelling wave with a ball on the left crest, a vertical distance of $0.70\\ \\mathrm{m}$ from the equilibrium line to a crest, and a horizontal distance of $2.4\\ \\mathrm{m}$ from a trough to the next crest.]\n\nThe wave has a frequency of $0.20\\ \\mathrm{Hz}$ and an amplitude of $0.70\\ \\mathrm{m}$. The distance between a trough and an adjacent peak is $2.4\\ \\mathrm{m}$.\n\nWhat is the distance travelled by the ball in a time of $20\\ \\mathrm{s}$?\n\nA $5.6\\ \\mathrm{m}$; B $9.6\\ \\mathrm{m}$; C $11.2\\ \\mathrm{m}$; D $19.2\\ \\mathrm{m}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q17",
+    "keyPage": 13,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At A the nearby molecules are displaced to the right, and at C they are displaced to the left. The molecule at B has zero displacement while its neighbours are displaced towards it, giving the highest pressure. At D the molecule also has zero displacement, but its neighbours are displaced away from it, giving the lowest pressure.",
+      "perOption": {
+        "A": "The molecule and its neighbours are displaced to the right, so A is not a rarefaction centre.",
+        "B": "The neighbouring molecules are displaced towards B, giving maximum pressure.",
+        "C": "The molecule and its neighbours are displaced to the left, so C is not a rarefaction centre.",
+        "D": "Correct. Neighbouring molecules are displaced away from D."
+      }
+    },
+    "issues": "Printed key letter D differs from batch keyAnswer A.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the displacements of neighbouring molecules to infer local pressure.",
+    "misconception": "Reading pressure directly from displacement",
+    "transcription": "A sound wave travels from left to right across a room. The variation with distance across the room of the displacement of the air molecules at one instant is shown. At which distance will the air pressure be lowest?\n\n[Graph of displacement against distance from the left-hand end of the room. Positive displacement is to the right and negative displacement is to the left. The sinusoidal curve starts at zero and rises. A is below the first crest, B is at the falling zero crossing, C is below the trough and D is at the rising zero crossing. The curve then rises to a second crest and returns to zero.]"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q18",
+    "keyPage": 14,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Q and R are adjacent antinodes, so $\\lambda/2=6.0\\ \\mathrm{cm}$ and $\\lambda=12\\ \\mathrm{cm}$. The oscilloscope shows $1.5$ periods in five divisions, giving $T=(5\\times20\\times10^{-6})/1.5\\ \\mathrm{s}$. Hence $f=1/T=15\\,000\\ \\mathrm{Hz}=15\\ \\mathrm{kHz}$.",
+      "perOption": {
+        "A": "Treats the spacing between adjacent antinodes as a full wavelength.",
+        "B": "Correct. The frequency is 15 kHz and the wavelength is 12 cm.",
+        "C": "Uses 2.5 divisions per period and treats adjacent antinodes as one wavelength apart.",
+        "D": "Uses 2.5 divisions per period instead of five divisions for 1.5 periods."
+      }
+    },
+    "issues": "Printed key letter B differs from batch keyAnswer A (parser placeholder). The stated frequency and wavelength imply a sound speed of 1800 m/s, atypical for air in the illustrated setup. The trace and antinode spacing still give B.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "superposition.d"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish spatial antinode spacing from the time interval shown on the oscilloscope.",
+    "misconception": "Taking adjacent antinodes to be one wavelength apart",
+    "transcription": "Stationary sound waves are investigated using the apparatus shown.\n\n[A loudspeaker faces a board. Microphone positions Q and R lie on the line between them, with R closer to the board. The microphone at R is connected to an oscilloscope.]\n\nQ and R are adjacent positions of the microphone that give maximum amplitude on the oscilloscope, as shown.\n\n[Oscilloscope screen when the microphone is at R. A sinusoidal trace spans about three periods across ten horizontal divisions on a grid six divisions high.]\n\nThe distance QR is $6.0\\ \\mathrm{cm}$ and the time base of the oscilloscope is $20\\ \\mathrm{\\mu s\\,div^{-1}}$. What are the frequency and the wavelength of the sound wave?\n\nOptions (frequency in kHz, wavelength in cm)\nA 15, 6.0\nB 15, 12\nC 20, 6.0\nD 20, 12"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q19",
+    "keyPage": 15,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For double-slit interference, the bright-fringe spacing is $x=\\lambda D/a$. Thus $\\lambda=xa/D=(8.0\\times10^{-3})(0.1\\times10^{-3})/2.0=4.0\\times10^{-7}\\ \\mathrm{m}$. The second dark fringe has path difference $1.5\\lambda=6.0\\times10^{-7}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the path difference for the first dark fringe.",
+        "B": "Uses one wavelength, the path difference for the first bright fringe.",
+        "C": "Correct. The second dark fringe occurs at a path difference of $1.5\\lambda$.",
+        "D": "Uses two wavelengths, the path difference for the second bright fringe."
+      }
+    },
+    "issues": "Printed key letter C differs from batch keyAnswer A (parser placeholder).",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate wavelength from fringe spacing and identify the second destructive-interference order.",
+    "misconception": "Using an integer wavelength for a dark fringe",
+    "transcription": "Monochromatic light is incident on a pair of narrow slits a distance of $0.1\\ \\mathrm{mm}$ apart. A series of bright and dark fringes are observed on a screen a distance of $2.0\\ \\mathrm{m}$ away. The distance between adjacent bright fringes is $8.0\\ \\mathrm{mm}$.\n\n[Not-to-scale diagram showing monochromatic light incident from the left on the slits and a screen $2.0\\ \\mathrm{m}$ to the right. The screen labels the central “zero” order bright fringe, the second order dark fringe above it, and an $8.0\\ \\mathrm{mm}$ spacing between adjacent bright fringes.]\n\nWhat is the path difference between the light waves from the two slits that meet at the second order dark fringe?\n\nA $2.0\\times10^{-7}\\ \\mathrm{m}$\nB $4.0\\times10^{-7}\\ \\mathrm{m}$\nC $6.0\\times10^{-7}\\ \\mathrm{m}$\nD $8.0\\times10^{-7}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q20",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the uniform-field model between the plates, $E=V/d$, where $d$ is the full separation. At P, $E=9.0/0.090=100\\ \\mathrm{N\\,C^{-1}}$.",
+      "perOption": {
+        "A": "Divides by the plate diameter instead of the plate separation.",
+        "B": "Correct. The full plate separation is 0.090 m.",
+        "C": "Divides the full potential difference by the distance from P to X.",
+        "D": "Divides the full potential difference by the distance from P to Y."
+      }
+    },
+    "issues": "Printed key letter B differs from batch keyAnswer A (parser placeholder). The key assumes a uniform field. The finite plate diameter is only twice the separation, so fringing can limit the accuracy of this approximation.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is direct once the full plate separation is identified.",
+    "misconception": "Using the distance to one plate in the uniform-field formula",
+    "transcription": "Two parallel circular metal plates X and Y, each of diameter $18\\ \\mathrm{cm}$, have a separation of $9.0\\ \\mathrm{cm}$. A potential difference of $9.0\\ \\mathrm{V}$ is applied between them.\n\n[Plate X is above P and connected to the negative terminal. Plate Y is below P and connected to the positive terminal. Vertical arrows label the $9.0\\ \\mathrm{cm}$ plate separation, $6.0\\ \\mathrm{cm}$ from X to P, and $3.0\\ \\mathrm{cm}$ from P to Y. The diameter of X is labelled $18\\ \\mathrm{cm}$.]\n\nPoint P is $6.0\\ \\mathrm{cm}$ from the surface of plate X and $3.0\\ \\mathrm{cm}$ from the surface of plate Y.\n\nWhat is the electric field strength at P?\n\nA $50\\ \\mathrm{N\\,C^{-1}}$; B $100\\ \\mathrm{N\\,C^{-1}}$; C $150\\ \\mathrm{N\\,C^{-1}}$; D $300\\ \\mathrm{N\\,C^{-1}}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q21",
+    "keyPage": 16,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field of a point charge obeys $E\\propto 1/r^2$. If $E'$ is the field at $2r$, then $E/E'=(2r)^2/r^2=4$, so $E'=E/4$.",
+      "perOption": {
+        "A": "Correct. Doubling the distance reduces the field by a factor of four.",
+        "B": "Uses an inverse-linear dependence on distance.",
+        "C": "Assumes the field increases in direct proportion to distance.",
+        "D": "Assumes the field increases with the square of distance."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student applies the inverse-square law to a doubled distance.",
+    "misconception": "Using an inverse-linear field law",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q22",
+    "keyPage": 16,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $I=nAv_dq$, the drift speed is $v_d=I/(nAq)$. The cross-sectional area increases from X to Y and the current stays constant, so the drift speed decreases. Graphs B and D show an increase, while graph C would mean the electrons stop at Y.",
+      "perOption": {
+        "A": "Correct. The drift speed decreases and stays positive at Y.",
+        "B": "Shows an increase in drift speed as the cross-sectional area increases.",
+        "C": "Shows the drift speed dropping to zero at Y.",
+        "D": "Shows a linear increase in drift speed from zero at X."
+      }
+    },
+    "issues": "The question PNG cuts off the option graphs, which were transcribed from key page 16. The working continues on page 17 and describes electrons moving from X to Y, although the cell polarity makes them drift from Y to X. The drift-speed profile and answer A are valid.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the curve from constant current and linearly increasing cross-sectional area.",
+    "misconception": "Assuming drift speed falls linearly with area",
+    "transcription": "A wedge-shaped metal conductor of length $L$, varying width and uniform thickness is connected to a cell, as shown.\n\n[The conductor widens linearly from X on the left to Y on the right. Its length is $L$. It is connected in a single loop to a cell with the positive terminal on the X side.]\n\nWhich graph best shows how the average drift velocity $v$ of electrons in the conductor varies with distance $x$ from end X?\n\n[All four graphs plot $v$ against $x$ from 0 to $L$. A curves down from a positive value, flattening and staying above zero. B curves up from a positive value and flattens. C is a straight line dropping from a positive value to zero at $L$. D is a straight line increasing from zero at $x=0$.]"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q23",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The voltmeter and resistor $R$ are in parallel, so both have a p.d. of $3.0\\ \\mathrm{V}$. This parallel combination is in series with Q across the $9.0\\ \\mathrm{V}$ supply, leaving $9.0-3.0=6.0\\ \\mathrm{V}$ across Q. If each parallel resistance is $R$, their effective resistance is $R/2$. The potential-divider ratio gives $(R/2)/R_Q=3/6$, so the voltmeter-to-Q resistance ratio is $R/R_Q=1$.",
+      "perOption": {
+        "A": "Ignores the voltmeter’s resistance when finding the equivalent resistance of the parallel branch.",
+        "B": "Correct. The voltmeter and Q have equal resistance.",
+        "C": "Uses the reciprocal voltage ratio as the requested resistance ratio without accounting for the parallel branch.",
+        "D": "Inverts the branch-to-Q voltage ratio before converting from the equivalent resistance to the voltmeter resistance."
+      }
+    },
+    "issues": "Printed key letter B differs from batch keyAnswer A.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must include the voltmeter’s finite resistance when applying the potential-divider ratio.",
+    "misconception": "Treating the voltmeter as ideal",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q24",
+    "keyPage": 18,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the right-hand grip rule, the fields add between the wires and oppose outside them. At the $40\\ \\mathrm{cm}$ mark, $B=\\frac{\\mu_0(2I)}{2\\pi(0.10)}+\\frac{\\mu_0 I}{2\\pi(0.20)}=\\frac{12.5\\mu_0 I}{\\pi}$. At the $50\\ \\mathrm{cm}$ mark, $B=\\frac{\\mu_0(2I)}{2\\pi(0.20)}+\\frac{\\mu_0 I}{2\\pi(0.10)}=\\frac{10\\mu_0 I}{\\pi}$. The greatest resultant is at $40\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "The weaker wire’s field opposes the stronger wire’s field at 20 cm.",
+        "B": "Correct. The fields reinforce and the stronger wire is closer.",
+        "C": "The fields reinforce, but the nearer wire carries the smaller current.",
+        "D": "The two fields oppose at 70 cm, where the closer wire carries the smaller current."
+      }
+    },
+    "issues": "Printed key letter B differs from batch keyAnswer A (parser placeholder).",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find field directions and compare the sums at different distances from the two wires.",
+    "misconception": "Adding field magnitudes where the fields oppose",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q25",
+    "keyPage": 19,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric force on the electrons is upwards, so the magnetic force must act downwards to keep the beam undeflected. Conventional current is to the left. Fleming’s left-hand rule then gives a magnetic field into the paper.",
+      "perOption": {
+        "A": "Correct. The magnetic force is downwards.",
+        "B": "An outward field gives an upward magnetic force that reinforces the electric force.",
+        "C": "An upward field gives a magnetic force into the paper.",
+        "D": "A downward field gives a magnetic force out of the paper."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must reverse the electron motion to obtain conventional current before applying Fleming’s rule.",
+    "misconception": "Using electron motion as conventional current",
+    "transcription": "A beam of electrons, travelling horizontally towards the right, passes between two horizontal charged parallel metal plates.\n\n[The beam travels to the right midway between a positive upper plate and a negative lower plate.]\n\nThere is a vertical electric field between the plates. There is no deflection of the beam because of the presence of a uniform magnetic field in the region between the plates.\n\nIn which direction must this magnetic field be?\n\nA into the paper\nB out of the paper\nC vertically upwards\nD vertically downwards"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q26",
+    "keyPage": 19,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field component normal to the coil is $B\\sin60^\\circ$. Flipping the coil reverses the sign of the flux linkage, so the magnitude of the change is $NA[B\\sin60^\\circ-(-B\\sin60^\\circ)]$. Substituting gives $4(0.30)[0.045\\sin60^\\circ-(-0.045\\sin60^\\circ)]=0.094\\ \\mathrm{Wb\\,turns}$.",
+      "perOption": {
+        "A": "Compares the magnitudes of the two linkages and misses the sign reversal.",
+        "B": "$0.012\\ \\mathrm{Wb}$ is approximately the initial flux through one turn, before counting all four turns and the reversal.",
+        "C": "Uses a change smaller than even the initial linkage magnitude of about $0.047\\ \\mathrm{Wb\\,turns}$.",
+        "D": "Correct. The signed flux linkage reverses."
+      }
+    },
+    "issues": "Printed key letter D differs from batch keyAnswer A.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve the normal component of the field and account for the reversal of the area vector.",
+    "misconception": "Ignoring the sign reversal of flux linkage",
+    "transcription": "A magnetic field of uniform flux density $0.045\\ \\mathrm{T}$ is at an angle of $60^\\circ$ below the plane of horizontal coil of wire as shown.\n\n[A horizontal circular coil is crossed by parallel magnetic field arrows pointing down and to the right. A dashed line in the coil’s plane makes a $60^\\circ$ angle with the field lines.]\n\nThe coil of wire has 4 turns and cross sectional area of $0.30\\ \\mathrm{m^2}$.\n\nWhat is the magnitude of the change in magnetic flux linkage of the coil of wire when it is flipped over $180^\\circ$ about a horizontal axis?\n\nA $0\\ \\mathrm{Wb\\,turns}$; B $0.012\\ \\mathrm{Wb\\,turns}$; C $0.035\\ \\mathrm{Wb\\,turns}$; D $0.094\\ \\mathrm{Wb\\,turns}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q27",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Square the voltage and average it over one full $5.0\\ \\mathrm{ms}$ period, then take the square root. The zero-voltage interval contributes nothing, so $V_{\\mathrm{rms}}=\\sqrt{(4.0^2\\times1.0+(-1.0)^2\\times3.0)/5.0}=\\sqrt{3.8}\\ \\mathrm{V}$. The mean power is $V_{\\mathrm{rms}}^2/R=3.8/2.5=1.5\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "$0.98\\ \\mathrm{W}$ would require a mean-square voltage of $2.45\\ \\mathrm{V^2}$, but the $4.0\\ \\mathrm{V}$ pulse alone contributes $3.2\\ \\mathrm{V^2}$.",
+        "B": "Correct. Mean power is mean-square voltage divided by resistance.",
+        "C": "Averages only over the four milliseconds with nonzero voltage.",
+        "D": "$2.4\\ \\mathrm{W}$ would require a mean-square voltage of $6.0\\ \\mathrm{V^2}$, overestimating the contribution of the brief $4.0\\ \\mathrm{V}$ pulse."
+      }
+    },
+    "issues": "Printed key letter B differs from batch keyAnswer A (parser placeholder).",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must square each voltage level, weight it by its duration and convert the mean square to power.",
+    "misconception": "Using mean voltage or a sinusoidal RMS formula for a stepped waveform",
+    "transcription": "The variation with time $t$ of the voltage $V$ of an alternating source applied across a $2.5\\ \\Omega$ resistor is shown below.\n\n[Step graph of $V$ in volts against $t$ in milliseconds from 0 to 10.0. The voltage is 0 from 0 to 1.0 ms, $+4.0\\ \\mathrm{V}$ from 1.0 to 2.0 ms, and $-1.0\\ \\mathrm{V}$ from 2.0 to 5.0 ms. This pattern repeats from 5.0 to 10.0 ms.]\n\nWhat is the mean power dissipated in the resistor?\n\nA $0.98\\ \\mathrm{W}$; B $1.5\\ \\mathrm{W}$; C $1.9\\ \\mathrm{W}$; D $2.4\\ \\mathrm{W}$"
+  },
+  {
+    "id": "cjc-2023-prelim-p1-q28",
+    "keyPage": 20,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The minimum wavelength $\\lambda_1$ occurs when an electron transfers all the kinetic energy it gained across the accelerating voltage to one X-ray photon in a single collision with a target atom. Changing the voltage therefore shifts $\\lambda_1$. The peak at $\\lambda_2$ comes from a characteristic energy-level difference in the target atoms, so changing the target metal shifts $\\lambda_2$.",
+      "perOption": {
+        "A": "Assigns the cutoff wavelength to the target metal as well as the accelerating voltage.",
+        "B": "Swaps the controls for the cutoff and the characteristic peak.",
+        "C": "Treats the characteristic peak wavelength as dependent on the accelerating voltage.",
+        "D": "Correct. The target sets the characteristic line and the voltage sets the cutoff."
+      }
+    },
+    "issues": "Printed key letter D differs from batch keyAnswer A (parser placeholder).",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the short-wavelength cutoff from the characteristic line on the same spectrum.",
+    "misconception": "Attributing the cutoff and characteristic peaks to the same cause",
+    "transcription": "The graph below shows the variation of X-ray intensity with wavelength emitted from an X-ray tube.\n\n[Intensity is plotted against wavelength. The continuous spectrum begins on the wavelength axis at $\\lambda_1$, rises to a broad maximum, then falls. Two narrow peaks appear on the falling background. The first peak is marked $\\lambda_2$ and the second is taller and at a longer wavelength.]\n\nThe target metal and the accelerating voltage are varied. Which wavelengths will be affected by the changes?\n\nOptions (changing the target metal, changing the accelerating voltage)\nA $\\lambda_1$, $\\lambda_1$\nB $\\lambda_1$, $\\lambda_2$\nC $\\lambda_2$, $\\lambda_2$\nD $\\lambda_2$, $\\lambda_1$"
+  }
+]

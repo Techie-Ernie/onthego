@@ -1,0 +1,510 @@
+[
+  {
+    "id": "dhs-2024-promo-p1-q10",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": null,
+    "confidence": "low",
+    "explanation": {
+      "body": "The stone starts at the top with speed $r\\omega$. The tension does no work, so falling through $2r$ gives $v_{\\mathrm{bottom}}^2=r^2\\omega^2+4gr$. At the bottom, $T-W=Mv_{\\mathrm{bottom}}^2/r$, so $T=Mr\\omega^2+5W$.",
+      "perOption": {
+        "A": "This is the tension at the top, where weight acts toward the centre.",
+        "B": "This is the net radial force at the top and does not give the tension at the bottom.",
+        "C": "This reverses the subtraction in the radial force equation at the top.",
+        "D": "This uses the correct force directions at the bottom but substitutes the angular speed at the top."
+      }
+    },
+    "issues": "The supplied 2024 key contains only the question paper. The batch keyAnswer A is an unverified placeholder. No listed option is correct. D would be correct if the given angular speed were measured at the bottom.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "circular-motion.c",
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must distinguish the speeds at the two positions and combine energy conservation with the radial force equation.",
+    "misconception": "Using the angular speed at the top in the bottom force equation",
+    "transcription": "A stone of mass $M$ and weight $W$ is attached to a string and is rotated in a vertical circle of radius $r$. The stone has an angular velocity $\\omega$ when it is vertically above the centre of the circle.\n\n[The stone, labelled mass $M$ and weight $W$, is shown at the top of a vertical circle of radius $r$. A vertical string joins it to the centre, and a curved arrow labelled $\\omega$ points clockwise.]\n\nWhat is the tension in the string when the stone is vertically below the centre of the circle?\n\nA. $Mr\\omega^2-W$\nB. $Mr\\omega^2$\nC. $W-Mr\\omega^2$\nD. $W+Mr\\omega^2$"
+  },
+  {
+    "id": "dhs-2024-promo-p1-q11",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The Moon's and Earth's gravitational fields at $P$ point in opposite directions and add as vectors. The potential curve has zero gradient at $P$, so $g_r=-\\mathrm{d}\\phi/\\mathrm{d}r=0$. Adding the two field magnitudes would miss their cancellation.",
+      "perOption": {
+        "A": "The potential curve is horizontal at $P$, so the net field is zero.",
+        "B": "Gravitational field strength is a vector, so the individual fields add vectorially.",
+        "C": "Correct. The opposing field magnitudes must not be added.",
+        "D": "The field component is the negative potential gradient, and at $P$ both the gradient and the field are zero."
+      }
+    },
+    "issues": "The supplied 2024 key contains only the question paper. The batch keyAnswer A is an unverified placeholder. Option D omits the minus sign in the general relation, which does not change the value at P.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect a stationary point on the potential graph with cancellation of the two field vectors.",
+    "misconception": "Adding gravitational field magnitudes without considering direction",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-promo-p1-q12",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In simple harmonic motion, $v^2=\\omega^2(s_0^2-s^2)$, where $s$ is displacement and $s_0$ is amplitude. Rearranging gives $v^2/(\\omega s_0)^2+s^2/s_0^2=1$, an ellipse when velocity is on the horizontal axis and displacement is on the vertical axis.",
+      "perOption": {
+        "A": "Acceleration is proportional to negative displacement, giving a straight line.",
+        "B": "Acceleration varies sinusoidally with time and has one value at each instant.",
+        "C": "Displacement varies sinusoidally with time and has one value at each instant.",
+        "D": "Correct. Velocity and displacement trace an ellipse."
+      }
+    },
+    "issues": "The supplied 2024 key contains only the question paper. The batch keyAnswer A is an unverified placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must recognise the displacement–velocity ellipse with the axes in an unfamiliar order.",
+    "misconception": "Confusing a phase plot with a time plot",
+    "transcription": "The diagram shows one possible graph for an object undergoing simple harmonic motion.\n\n[An upright ellipse is centred at the origin $0$, with $x$ on the horizontal axis and $y$ on the vertical axis.]\n\nWhich row in the table gives the correct quantities $x$ and $y$?\n\nRow | $x$ | $y$\nA | displacement | acceleration\nB | time | acceleration\nC | time | displacement\nD | velocity | displacement"
+  },
+  {
+    "id": "dhs-2024-promo-p1-q13",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Flattening the plasticine increases air resistance and hence damping. Greater damping makes the resonance peak lower and broader. The mass and spring stiffness stay the same, so the natural frequency stays fixed and the damped peak remains near $f_0$.",
+      "perOption": {
+        "A": "The peak rises even though increased damping reduces the maximum amplitude.",
+        "B": "The peak rises and shifts to higher frequency despite the increased damping.",
+        "C": "Correct. The peak is lower and broader.",
+        "D": "The lower peak shifts to the left but stays too sharp to represent the increased damping."
+      }
+    },
+    "issues": "The supplied 2024 key contains only the question paper. The batch keyAnswer A is an unverified placeholder. The question crop cuts off options C and D, which are visible in full on supplied page 10.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i",
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect increased drag with the height and width of the resonance peak.",
+    "misconception": "Treating increased damping as a change in the natural frequency",
+    "transcription": "A vertical spring-mass system, with a plasticine ball as the mass, is forced to oscillate at different frequencies $f$ in air. The mass oscillates at maximum amplitude when $f$ is equal to $f_0$, as shown below.\n\n[Amplitude is plotted against $f$. The solid curve P peaks at the vertical dotted line marking $f_0$.]\n\nThe plasticine is now flattened to increase its surface area, reattached to the spring and the experiment is repeated.\n\nWhich of the following graphs best represents the new results as shown by line Q?\n\n[Each option plots amplitude against $f$ and repeats the solid reference curve P, with its peak at $f_0$. The new curve Q is dashed.]\nA. [Q has a higher peak at $f_0$.]\nB. [Q has a higher peak to the right of $f_0$.]\nC. [Q has a much lower, broader peak near $f_0$.]\nD. [Q has a slightly lower, sharp peak to the left of $f_0$.]"
+  },
+  {
+    "id": "dhs-2024-promo-p1-q14",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Equal power and $P=V^2/R$ give $R_X/R_Y=(12/6.0)^2=4$. The wires have the same resistivity and length, so $R=\\rho L/A$ gives $A_X/A_Y=1/4$. Since cross-sectional area is proportional to diameter squared, $d_X/d_Y=1/2$.",
+      "perOption": {
+        "A": "This gives the area ratio without taking its square root.",
+        "B": "Correct. The diameter ratio is one-half.",
+        "C": "This reverses the diameter ratio.",
+        "D": "This gives the resistance ratio as though it were the diameter ratio."
+      }
+    },
+    "issues": "The supplied 2024 key contains only the question paper. The batch keyAnswer A is an unverified placeholder.",
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.d",
+      "currents.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must link the squared voltage ratio, the inverse area ratio and the square root for diameter.",
+    "misconception": "Treating cross-sectional area as proportional to diameter",
+    "transcription": "Two heater coils X and Y dissipate the same power when the potential difference across coil X and coil Y is $12\\ \\mathrm{V}$ and $6.0\\ \\mathrm{V}$, respectively. The coils are made from equal length of wire of the same material, but with different diameter.\n\nWhat is the ratio $\\frac{\\text{diameter of wire X}}{\\text{diameter of wire Y}}$?\n\nA. $\\frac14$\nB. $\\frac12$\nC. $2$\nD. $4$"
+  },
+  {
+    "id": "dhs-2024-promo-p1-q15",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the galvanometer null, the potential difference across QP equals the e.m.f. of cell X, about $0.50\\ \\mathrm{V}$. The driver cell puts $2.0\\ \\mathrm{V}$ across the full uniform wire QR, and its potential drop is proportional to length. Hence $QP/QR=0.50/2.0=1/4$.",
+      "perOption": {
+        "A": "Correct. QP is one quarter of QR.",
+        "B": "A third of the wire would drop about $0.67\\ \\mathrm{V}$, above the balance voltage.",
+        "C": "Two thirds of the wire would drop about $1.33\\ \\mathrm{V}$, above the balance voltage.",
+        "D": "This gives the remaining length PR instead of the balance length QP."
+      }
+    },
+    "issues": "The supplied 2024 key contains only the question paper. The batch keyAnswer A is an unverified placeholder.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "proportionality",
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must interpret the null reading and use the uniform wire as a potential divider.",
+    "misconception": "Using the length of the wire beyond the sliding contact",
+    "transcription": "A potentiometer circuit is used to investigate the electromotive force (e.m.f.) of a cell X.\n\n[The $2.0\\ \\mathrm{V}$ driver cell is connected across resistance wire QR, with its positive terminal connected to Q. Cell X has its positive terminal connected to Q and its negative terminal connected through a galvanometer to the sliding contact P on QR.]\n\nThe e.m.f. of cell X is known to be approximately $0.50\\ \\mathrm{V}$.\n\nThe driver cell has negligible internal resistance and an e.m.f. of $2.0\\ \\mathrm{V}$. The sliding contact is moved along the uniform resistance wire between ends Q and R to a point P where the reading on the galvanometer is zero.\n\nWhat is an expression for the approximate length QP?\n\nA. $\\frac{QR}{4}$\nB. $\\frac{QR}{3}$\nC. $\\frac{2QR}{3}$\nD. $\\frac{3QR}{4}$"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Student A's mean is $(1002+998+997+1001+999)/5=999.4\\ \\mathrm{kg\\,m^{-3}}$, only $0.6\\ \\mathrm{kg\\,m^{-3}}$ from the true value and closer than Student B's mean. Student A's range is $1002-997=5\\ \\mathrm{kg\\,m^{-3}}$, wider than Student B's, so A's results are less precise.",
+      "perOption": {
+        "A": "Student A's wider range indicates lower precision.",
+        "B": "Correct. A's mean is closer to the true value and A's readings are more spread out.",
+        "C": "This reverses both comparisons: A's mean is closer to the true value and its range is wider.",
+        "D": "Student A's mean is closer to the true value, indicating higher accuracy."
+      }
+    },
+    "issues": "The key labels the range as maximum minus mean, but the numerical working correctly subtracts the minimum.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must compare the closeness of each mean to the true value and the spread within each set.",
+    "misconception": "Confusing precision with accuracy",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At maximum speed, $R=mg$, so $0.60v=3.0(9.81)$ and $v=49\\ \\mathrm{m\\,s^{-1}}$. At $12\\ \\mathrm{m\\,s^{-1}}$, $F_{\\mathrm{net}}=mg-R=ma$, so $a=[3.0(9.81)-0.60(12)]/3.0=7.4\\ \\mathrm{m\\,s^{-2}}$ downward.",
+      "perOption": {
+        "A": "This omits the mass in the terminal-speed balance and uses drag alone for the acceleration.",
+        "B": "This omits the mass when setting drag equal to weight.",
+        "C": "This uses drag alone to calculate the acceleration rather than the net downward force.",
+        "D": "Correct. The terminal speed and net-force acceleration are both correct."
+      }
+    },
+    "issues": "The key prints the acceleration unit as m/s; the explanation uses m/s².",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "projectile-motion.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students apply Newton's second law once at terminal speed and once before force balance.",
+    "misconception": "Using the drag force alone as the resultant force",
+    "transcription": "An object of mass $3.0\\ \\mathrm{kg}$ is falling vertically from rest. Air resistance $R$, in newtons, is given by the empirical equation\n\n$R=0.60v$\n\nwhere $v$ is the velocity in metres per second.\n\nWhat is the maximum velocity of the object and what is the acceleration of the object when its velocity is $12\\ \\mathrm{m\\,s^{-1}}$?\n\nRow | maximum velocity / $\\mathrm{m\\,s^{-1}}$ | acceleration when $v=12\\ \\mathrm{m\\,s^{-1}}$ / $\\mathrm{m\\,s^{-2}}$\nA | 16 | 2.4\nB | 16 | 7.4\nC | 49 | 2.4\nD | 49 | 7.4"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The area under the velocity–time graph gives the change in displacement, which equals the distance travelled here. The accumulated area grows linearly until $t_1$, then grows more slowly as the speed drops to zero at $t_2$.",
+      "perOption": {
+        "A": "The jumps and drop to zero cannot represent accumulated distance.",
+        "B": "The straight segment after $t_1$ implies a constant speed while the car is braking.",
+        "C": "Correct. The distance curve flattens as the car comes to rest.",
+        "D": "The curve steepens during braking, implying that the car speeds up."
+      }
+    },
+    "issues": "The question crop cuts off most of options C and D.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must translate a falling speed into a decreasing slope on the distance graph.",
+    "misconception": "Copying speed or acceleration directly onto a distance graph",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ice floats in equilibrium, so its upthrust is $U=m_{\\mathrm{ice}}g$. Water pressure increases with depth, and the pressure difference between the top and bottom gives rise to the net upward force.",
+      "perOption": {
+        "A": "Floating depends on the net force due to pressure, so comparing the two surface areas alone does not establish equilibrium.",
+        "B": "Correct. The pressure difference produces an upthrust that balances the weight.",
+        "C": "Ice floating partly submerged has a lower density than water.",
+        "D": "The upthrust equals the weight of the displaced water, which is its mass multiplied by gravitational field strength."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect the pressure gradient with upthrust and the force balance for floating ice.",
+    "misconception": "Equating upthrust to displaced mass",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Balance clockwise and anticlockwise moments about the hinge. For compression $x$ without the child, $(10000x)(2.0)=(50\\times9.81)(2.5)$. For compression $x'$ with the child, $(10000x')(2.0)=(40\\times9.81)(5.0)+(50\\times9.81)(2.5)$. Subtracting gives $x'-x=0.0981\\ \\mathrm{m}$, or $9.8\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "This is consistent with a factor-of-ten error converting $0.0981\\ \\mathrm{m}$ to centimetres.",
+        "B": "This is the compression due to the board alone.",
+        "C": "Correct. Subtracting the moment equations isolates the extra compression.",
+        "D": "This is the total compression with the child, including the board's contribution."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c",
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine moment balance with Hooke's law and isolate the change in spring compression.",
+    "misconception": "Reporting total compression instead of extra compression",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The sledge moves at constant velocity, so its net force is zero. Its three force vectors must therefore form a closed triangle when placed head to tail.",
+      "perOption": {
+        "A": "Friction points down the slope and the arrows do not close head to tail.",
+        "B": "The weight arrow points up instead of vertically down.",
+        "C": "Correct. The arrows close head to tail with weight pointing down.",
+        "D": "The contact force points into the slope and the arrows do not close head to tail."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.i",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must match the directions of the forces and check that the vector triangle closes.",
+    "misconception": "Assuming every triangular arrangement of arrows represents zero net force",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pressure exerts a force $F=pA$ on the piston. In one stroke the work is $W=Fd=pAd=(5000)(600\\times10^{-4})(0.40)=120\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Correct. Both the area and stroke length are converted to SI units.",
+        "B": "This treats the stroke length as 40 metres instead of 40 centimetres.",
+        "C": "This treats the piston area as 600 square metres instead of 600 square centimetres.",
+        "D": "This leaves both the area and the stroke length unconverted."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "energy-and-fields.c",
+      "thermodynamic-systems.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The work calculation is direct once students convert both the area and the stroke length to SI units.",
+    "misconception": "Applying a length conversion factor directly to an area",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy supplied is the gain in gravitational potential energy, $E=mgh$. Dividing by the number of seconds in a day gives $P=(1.3\\times10^9)(9.81)(2.0)/(24\\times60\\times60)\\approx300\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "This converts mass per day to mass per second but leaves out the energy gain per kilogram.",
+        "B": "This accounts for the lift height but omits gravitational field strength.",
+        "C": "This uses a lift height of one metre instead of two metres.",
+        "D": "Correct. The power is the daily gain in gravitational potential energy divided by the time in seconds."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must calculate the energy gained in lifting the water and convert one day to seconds before finding power.",
+    "misconception": "Omitting the gravitational energy gain per kilogram",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The minute hand makes one complete revolution in one hour. Its tip has speed $v=r\\omega=3.00(2\\pi/3600)=5.24\\times10^{-3}\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This gives the numerical angular speed without multiplying by the radius.",
+        "B": "Correct. The period is 3600 seconds and the radius is 3.0 metres.",
+        "C": "This uses a 60-second period and omits the radius.",
+        "D": "This uses a 60-second period instead of a 3600-second period."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students need only convert the one-hour period to seconds and use the angular speed to find tip speed.",
+    "misconception": "Using the second hand's period for the minute hand",
+    "transcription": null
+  }
+]

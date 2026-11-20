@@ -1,0 +1,508 @@
+[
+  {
+    "id": "ejc-2023-prelim-p1-q17",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Extend the wave profile to locate P at $\\frac74\\lambda$ to the right of Q. P lies above equilibrium. Shifting the profile slightly to the left lowers the displacement at Q and raises it at P, so P is moving upwards.",
+      "perOption": {
+        "A": "Correct. P is above equilibrium and moving upwards.",
+        "B": "Gives P the downward velocity of Q, although the leftward shift raises the profile at P.",
+        "C": "Reverses both signs at P, which lies above equilibrium and rises as the wave shifts left.",
+        "D": "Gets the velocity right but places P below equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must extend the wave profile and infer the particle velocity from a shift of the profile.",
+    "misconception": "Confusing wave motion with particle motion",
+    "transcription": "The graph shows the shape at a particular instant of part of a transverse wave. Point Q is displaced upwards but is moving downwards. Point P is $\\frac74$ of a wavelength away from point Q. The wave moves leftwards and travels from P to Q.\n\n[Graph of displacement against distance along wave. The sinusoidal profile starts at zero and rises, then completes three cycles. Q is on the descending side of the second crest, above zero.]\n\nWhich of the following statements about the displacement and direction of velocity of P is correct?\nA P is displaced upwards and moving upwards.\nB P is displaced upwards and moving downwards.\nC P is displaced downwards and moving downwards.\nD P is displaced downwards and moving upwards."
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q18",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The path difference is $147.5-135.0=12.5\\ \\mathrm{m}$, or $2.5$ wavelengths, so the waves arrive in antiphase. Since intensity is $kA^2$, the intensities $I$ and $4I$ imply $A_2=2A_1$. The opposing amplitudes give $A_{\\mathrm{tot}}=2A_1-A_1=A_1$, so the resultant intensity is $kA_1^2=I$.",
+      "perOption": {
+        "A": "Correct. The residual amplitude equals the weaker wave’s amplitude.",
+        "B": "Subtracts the two intensities directly.",
+        "C": "Adds intensities and ignores coherent interference.",
+        "D": "Adds amplitudes as if the waves arrived in phase."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.a",
+      "superposition.e",
+      "wave-motion.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert a path difference to a phase relation and intensities to amplitudes.",
+    "misconception": "Combining intensities instead of amplitudes",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q19",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the first minimum, $b\\sin\\theta=\\lambda$. For small angles, $\\sin\\theta\\approx\\theta$, so doubling $b$ halves the central maximum’s width. The wider slit transmits twice the energy, and the same fraction of that energy is spread across half the area of the central maximum, giving four times the peak intensity.",
+      "perOption": {
+        "A": "Halves the width correctly but counts only the doubling of transmitted energy.",
+        "B": "Correct. The central maximum halves in width and quadruples in peak intensity.",
+        "C": "Reverses the width scaling and treats the peak as falling instead of concentrating more transmitted energy.",
+        "D": "Reverses both scalings, doubling the width and dividing the peak intensity by four."
+      }
+    },
+    "issues": "The first equation in the key reuses the same angle symbol for the original and halved angles. The rewrite distinguishes the initial relation from its scaling.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.k",
+      "superposition.l"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine the small-angle diffraction relation with the change in peak intensity.",
+    "misconception": "Assuming peak intensity scales linearly with slit width",
+    "transcription": "The diffraction pattern is formed when a single slit of width $0.60\\ \\mathrm{mm}$ is illuminated with monochromatic light of wavelength $550\\ \\mathrm{nm}$. The width of the central maximum is $w$ and the peak intensity is $I_o$.\n\nThe slit width is then doubled.\n\nGiven that the angle of diffraction is small, which row correctly shows the new width of the central maximum and the peak intensity?\n\n[Columns: width of central maximum, peak intensity.]\nA $\\frac12w$, $2I_o$\nB $\\frac12w$, $4I_o$\nC $2w$, $\\frac12I_o$\nD $2w$, $\\frac14I_o$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q20",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For slit separation $a$, the fringe separation is $y=\\lambda D/a$. Equating the two cases gives $(600\\times10^{-9})(1.00)/a=(400\\times10^{-9})D/a$. Hence $D=1.50\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the fractional decrease in wavelength as the new distance in metres.",
+        "B": "Scales distance directly with the shorter wavelength.",
+        "C": "Places the screen closer, which further reduces the fringe separation.",
+        "D": "Correct. The greater distance offsets the shorter wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "One application of the double-slit formula gives the required inverse scaling.",
+    "misconception": "Scaling screen distance directly with wavelength",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q21",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At equilibrium, the upward electric force balances the weight, so $mg=F_E=qV/d$, where $d$ is the plate separation. When the potential difference doubles, the upward resultant is $ma=q(2V)/d-mg=2mg-mg=mg$. Hence $a=g$ upwards.",
+      "perOption": {
+        "A": "Correct. The new upward resultant equals the weight in magnitude.",
+        "B": "Uses the doubled electric force alone and omits the weight.",
+        "C": "Uses potential difference in place of field strength and omits the plate separation.",
+        "D": "Omits both the plate separation and the subtraction of the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use the initial equilibrium to eliminate the unknown electric force before applying Newton’s second law.",
+    "misconception": "Using the doubled electric force as the net force",
+    "transcription": "An oil-drop of mass $m$, carrying a charge $q$, is in the region between two horizontal plates. When the potential difference between the upper and lower plates is $V$, the drop is stationary. The potential difference is then increased to $2V$.\n\nWhat is the initial upward acceleration of the oil-drop?\nA $g$\nB $2g$\nC $\\frac{qV}{m}$\nD $\\frac{2qV}{m}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q23",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The circuit current is $I=P_{\\mathrm{supply}}/V_{\\mathrm{supply}}=2400/240=10\\ \\mathrm{A}$. The kettle receives $2400-10^2(0.50+0.50)=2300\\ \\mathrm{W}$ after subtracting the power dissipated in the wires. The p.d. across it is $240-10(0.50+0.50)=230\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Correct. Both wire losses are included.",
+        "B": "Subtracts only one wire’s voltage drop, giving $235 mathrm{V}$.",
+        "C": "Accounts for both voltage drops but treats the full supply power as kettle power.",
+        "D": "Subtracts only one wire’s voltage drop and treats the full supply power as kettle power."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.d",
+      "circuits.c",
+      "circuits.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must find the common current and account for both leads when calculating voltage and power losses.",
+    "misconception": "Ignoring losses in one or both supply wires",
+    "transcription": "The power output of an electrical supply is $2.4\\ \\mathrm{kW}$ at a potential difference (p.d.) of $240\\ \\mathrm{V}$. The two wires between the supply and a kettle each have a resistance of $0.50\\ \\Omega$, as shown.\n\n[The supply, labelled $240\\ \\mathrm{V}$ and $2.4\\ \\mathrm{kW}$, connects to the kettle by two wires, each labelled $0.50\\ \\Omega$.]\n\nWhat is the power supplied to the kettle and the p.d. across the kettle?\n\n[Columns: power / kW, p.d. / V.]\nA 2.3, 230\nB 2.3, 235\nC 2.4, 230\nD 2.4, 235"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q24",
+    "keyPage": 9,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Between X and Y, the two rightmost $4.0\\ \\Omega$ resistors in series are in parallel with $8.0\\ \\Omega$, giving $4.0\\ \\Omega$. Adding the series $4.0\\ \\Omega$ makes an $8.0\\ \\Omega$ branch, which is in parallel with the left-hand $8.0\\ \\Omega$, giving an external resistance of $4.0\\ \\Omega$. The terminal p.d. is $20(4.0)/(6.0+4.0)=8.0\\ \\mathrm{V}$. The two equal series resistances in the X–Y branch split that p.d. equally, so $V_{XY}=4.0\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Halves the $4.0\\ \\mathrm{V}$ again even though each parallel path between X and Y has the full X–Y p.d.",
+        "B": "Correct. X–Y takes half the terminal p.d.",
+        "C": "Overstates the voltage across X–Y, which gets half of $8.0\\ \\mathrm{V}$.",
+        "D": "Uses the entire battery terminal p.d. for X–Y."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.g",
+      "circuits.h",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must reduce a nested resistor network and apply voltage division twice.",
+    "misconception": "Confusing terminal voltage with branch voltage",
+    "transcription": "A battery of e.m.f. $20\\ \\mathrm{V}$ and internal resistance $6.0\\ \\Omega$ is connected to a network of resistors.\n\n[An $8.0\\ \\Omega$ resistor connects the battery’s upper and lower terminal nodes. A $4.0\\ \\Omega$ resistor connects the upper terminal node to X, and the lower terminal node is wired to Y. An $8.0\\ \\Omega$ resistor connects X directly to Y. A second path from X to Y contains two $4.0\\ \\Omega$ resistors in series, one horizontal and one vertical.]\n\nWhat is the potential difference between junctions X and Y?\nA $2.0\\ \\mathrm{V}$\nB $4.0\\ \\mathrm{V}$\nC $6.0\\ \\mathrm{V}$\nD $8.0\\ \\mathrm{V}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q25",
+    "keyPage": 10,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Fleming’s left-hand rule, the magnetic force in the key’s diagram is into the page. It continuously turns the perpendicular velocity component in a circle while the parallel component remains constant, giving a helix. From $F=Bqv\\sin\\theta$ using the charge magnitude, $v=\\frac{7.3\\times10^{-16}}{(0.084)(1.6\\times10^{-19})\\sin23^\\circ}=1.4\\times10^5\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. The electron follows a helix at the calculated speed.",
+        "B": "Gets the speed right but describes a spiral even though the perpendicular motion has constant radius.",
+        "C": "Gets the helix right but multiplies by $\\sin 23^\\circ$ instead of dividing by it.",
+        "D": "Uses the sine factor in the wrong direction and assumes a spiral instead of a constant-radius helix."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must resolve the velocity relative to the field and use the magnetic force equation.",
+    "misconception": "Multiplying by the sine instead of dividing when solving for speed",
+    "transcription": "The force on an electron is $7.3\\times10^{-16}\\ \\mathrm{N}$ when moving at an angle of $23^\\circ$ to a uniform magnetic field of magnetic field strength of $0.084\\ \\mathrm{T}$.\n\nWhat is the speed of the electron and what is the shape of the path of the electron?\nA $1.4\\times10^5\\ \\mathrm{m\\,s^{-1}}$ in a helix\nB $1.4\\times10^5\\ \\mathrm{m\\,s^{-1}}$ in a spiral\nC $2.1\\times10^4\\ \\mathrm{m\\,s^{-1}}$ in a helix\nD $2.1\\times10^4\\ \\mathrm{m\\,s^{-1}}$ in a spiral"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q26",
+    "keyPage": 10,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $4.0\\ \\mathrm{s}$, Q and R are fully inside the field, while $4.0\\ \\mathrm{m}$ of P’s length is inside. Using $\\phi=BA$, the fluxes of P, Q and R are $8B$, $6B$ and $12B$, so R has the largest flux. Using $N\\phi$, their flux linkages are $8B$, $18B$ and $12B$, so Q has the largest linkage. Only P’s linkage is still changing, so only P has an induced current.",
+      "perOption": {
+        "A": "Swaps the rankings for flux per turn and flux linkage.",
+        "B": "Overestimates P’s area in the field and assigns current to R even though its flux linkage is constant.",
+        "C": "Correct. R, Q and P lead the three columns respectively.",
+        "D": "Counts turns for flux per turn, overlooks Q’s turns for linkage, and assigns current to Q after it has fully entered."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must track how much of each coil is inside the field and distinguish linkage from its rate of change.",
+    "misconception": "Treating the largest flux linkage as the largest induced current",
+    "transcription": "Three conducting coils P, Q, and R of the same material just enter a region of uniform magnetic field at $t=0$ with constant velocity of $1.0\\ \\mathrm{m\\,s^{-1}}$.\n\nCoils P, Q and R have 1, 3 and 1 number of turn(s) respectively.\n\n[Three rectangular coils have their right edges aligned with the left boundary of a shaded region labelled uniform magnetic field. Width by height: P $5.0\\ \\mathrm{m}$ by $2.0\\ \\mathrm{m}$, Q $3.0\\ \\mathrm{m}$ by $2.0\\ \\mathrm{m}$, R $3.0\\ \\mathrm{m}$ by $4.0\\ \\mathrm{m}$.]\n\nAfter $4.0\\ \\mathrm{s}$, which row shows the coils with the largest magnetic flux, magnetic flux linkage and induced current?\n\n[Columns: largest magnetic flux, largest magnetic flux linkage, largest induced current.]\nA Q, R, P\nB P, Q, R\nC R, Q, P\nD Q, P, Q"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q27",
+    "keyPage": 10,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Brightness depends on the power delivered to the bulb. The peak power is $V^2/R$, independent of the frequency $f$. Doubling $V$ and halving $R$ raises the peak power by a factor of eight, the largest increase.",
+      "perOption": {
+        "A": "Correct. Peak power increases eightfold.",
+        "B": "Halving $V$ and doubling $R$ gives one-eighth of the original power.",
+        "C": "Doubling $R$ limits the power increase to a factor of two.",
+        "D": "Halving $V$ and $R$ gives half the original power despite the higher frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students compare voltage-squared and resistance factors once they recognise that frequency does not enter the power expression.",
+    "misconception": "Treating frequency as a factor in resistive power",
+    "transcription": "An alternating potential difference, with peak value $V$ and frequency $f$, is applied across a light bulb of resistance $R$. The bulb lights up.\n\nWhich of the following changes would result in the maximum increase in the brightness of the bulb?\n\n[Columns: $V$, $f$, $R$.]\nA doubles, doubles, halves\nB halves, doubles, doubles\nC doubles, increases by 4 times, doubles\nD halves, increases by 8 times, halves"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q28",
+    "keyPage": 11,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The position–momentum uncertainty relation gives $\\Delta x_{\\min}\\sim h/\\Delta p$. The momentum uncertainty is $\\Delta p=m\\Delta v=(9.11\\times10^{-31})(0.38\\times3.0\\times10^8)\\approx1\\times10^{-22}\\ \\mathrm{kg\\,m\\,s^{-1}}$. Thus $\\Delta x_{\\min}\\sim(6.63\\times10^{-34})/(10^{-22})\\approx6\\times10^{-12}\\ \\mathrm{m}$, giving B.",
+      "perOption": {
+        "A": "Mistakes the numerical value of the momentum uncertainty for the position uncertainty.",
+        "B": "Correct. The smallest position uncertainty is on the picometre scale.",
+        "C": "Gives a macroscopic scale comparable to the speed uncertainty in SI units instead of applying the uncertainty relation.",
+        "D": "Gives a macroscopic length incompatible with dividing Planck’s constant by the calculated momentum uncertainty."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students convert the speed uncertainty to a momentum uncertainty and use it to estimate the minimum position uncertainty.",
+    "misconception": "Using velocity uncertainty directly in the uncertainty relation",
+    "transcription": "An electron moves along the $x$-axis. The speed of the electron is measured with an uncertainty of $0.38c$.\n\nWhat is the smallest uncertainty in position of the electron?\nA $10^{-22}\\ \\mathrm{m}$\nB $10^{-12}\\ \\mathrm{m}$\nC $10^{8}\\ \\mathrm{m}$\nD $10^{10}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q29",
+    "keyPage": 11,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For either nuclide, $A=A_0e^{-\\lambda t}$ and $\\lambda=\\ln2/t_{1/2}$, so $\\lambda_C>\\lambda_N$. Taking logs gives $\\ln A=\\ln A_0-\\lambda t$, a straight line with gradient $-\\lambda$ for each nuclide. If C dominates initially, the mixture starts with a gradient close to $-\\lambda_C$. As C decays away, N dominates and the gradient approaches the gentler $-\\lambda_N$.",
+      "perOption": {
+        "A": "Shows rising activity even though both components decay.",
+        "B": "Makes the decay slope steeper with time, although the faster-decaying contribution shrinks.",
+        "C": "Shows rising activity with an increasingly positive slope.",
+        "D": "Correct. The downward slope becomes gentler as N contributes a larger fraction of the activity."
+      }
+    },
+    "issues": "The key assumes C dominates initially, which depends on the initial amounts. The slope still becomes less negative for a mixture with both activities positive because C’s share decreases over time.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j",
+      "nuclear-physics.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must interpret logarithmic slopes and reason about how two decay contributions change relative to each other.",
+    "misconception": "Assuming the shorter-lived nuclide dominates at late times",
+    "transcription": "Nuclide C has a half-life of 5 years, while nuclide N has a half-life of 90 years. The activity $A$ of a mixture of C and N is measured.\n\nWhich graph best represents the variation with time $t$ of the natural logarithm of $A$?\n\n[All graphs have vertical axis $\\ln A$ and horizontal axis $t$.]\nA [Increasing curve, steep at first and then gentler.]\nB [Decreasing curve, gentle at first and then steeper.]\nC [Increasing curve, gentle at first and then steeper.]\nD [Decreasing curve, steep at first and then gentler.]"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q30",
+    "keyPage": 11,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles passed straight through, suggesting that the atom is largely empty space with its mass concentrated in a small nucleus. A small fraction were deflected through large angles, indicating a concentrated positive charge in the nucleus.",
+      "perOption": {
+        "A": "Attributes a uniform electron distribution to an experiment that probed the concentration of positive charge.",
+        "B": "Correct. The scattering revealed a positively charged nucleus containing most of the atom’s mass.",
+        "C": "Confuses scattering evidence with evidence for discrete energy levels from atomic spectra.",
+        "D": "Credits the experiment with identifying the neutron and the full set of atomic constituents."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students identify the standard inference from Rutherford’s alpha-particle scattering results.",
+    "misconception": "Confusing evidence for a nucleus with evidence for electron energy levels",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A typical metre rule is $1\\ \\mathrm{m}=100\\ \\mathrm{cm}$ long, $3\\ \\mathrm{cm}$ wide and $0.5\\ \\mathrm{cm}$ thick. Its estimated volume is $100\\times3\\times0.5=150\\ \\mathrm{cm^3}$.",
+      "perOption": {
+        "A": "Uses a volume equal to just one centimetre of the rule at the estimated cross-section.",
+        "B": "Underestimates the cross-sectional area by a factor of ten.",
+        "C": "Correct. The typical dimensions multiply to $150\\ \\mathrm{cm^3}$.",
+        "D": "Overestimates the cross-sectional area by a factor of ten."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students estimate two familiar dimensions and multiply them by the known length.",
+    "misconception": "Underestimating or overestimating the cross-sectional area",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Timing 5 or 20 oscillations gives $t_5=5T$ or $t_{20}=20T$, so $\\Delta T/T=\\Delta t_5/t_5$ or $\\Delta t_{20}/t_{20}$, respectively. The stopwatch timing uncertainty is the same in both cases, $\\Delta t_5=\\Delta t_{20}=\\Delta t$. Since $t_{20}>t_5$, timing more oscillations gives a smaller fractional uncertainty in $T$.",
+      "perOption": {
+        "A": "Confuses accuracy, which concerns closeness to the true value, with precision, which concerns repeatability.",
+        "B": "Checking for zero error addresses a systematic offset.",
+        "C": "Correct. The same absolute timing uncertainty is divided by a longer interval.",
+        "D": "Under the key’s instrument-uncertainty model, propagating four equal bounds through the average still gives $(4\\Delta d)/4=\\Delta d$."
+      }
+    },
+    "issues": "Option D is rejected using the syllabus’s fixed instrument-uncertainty bounds. Averaging independent random errors can reduce the statistical uncertainty of the mean, so D is context-dependent.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f",
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students distinguish random error, systematic error and fractional uncertainty when comparing measurement procedures.",
+    "misconception": "Confusing longer timing intervals with averaging at fixed instrument uncertainty",
+    "transcription": "Which of the following statements is correct?\nA A reading is inaccurate when it is not precise.\nB Checking for zero error on a micrometer before making a measurement will help to reduce random error.\nC Measuring the time taken for a larger number of oscillations will help to reduce the fractional uncertainty of the period of each oscillation.\nD To determine the diameter of a sphere, taking more measurements and finding the average value of these measurements will reduce the fractional uncertainty of the diameter."
+  }
+]

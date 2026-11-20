@@ -1,0 +1,499 @@
+[
+  {
+    "id": "dhs-2024-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Earth's surface, $W=GMm/R^2$. In orbit, $F=GMm/(R+6R)^2=\\frac{1}{49}(GMm/R^2)=W/49$.",
+      "perOption": {
+        "A": "Uses the height $6R$ and assumes an inverse-linear dependence.",
+        "B": "Uses the correct orbital radius but assumes an inverse-linear dependence.",
+        "C": "Uses the height $6R$ in place of the orbital radius $7R$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires finding the distance from Earth's centre before applying the inverse-square law.",
+    "misconception": "Using orbital height as the distance from Earth's centre.",
+    "transcription": "When a satellite is at its launch site on the Earth’s surface, it is found to have a weight $W$.\n\nWhen the satellite is placed in a circular orbit at a height $h=6R$ above the Earth’s surface, where $R$ is the radius of the Earth, what is the gravitational force acting on the satellite?\n\nA. $W/6$\nB. $W/7$\nC. $W/36$\nD. $W/49$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "Geostationary satellites share the same orbital radius $r$ and the same $24\\ \\mathrm{h}$ period $T$, so their angular velocity $\\omega=2\\pi/T$ is the same. Gravity supplies the centripetal force, so $GMm/r^2=mr\\omega^2$, giving the same centripetal acceleration magnitude $GM/r^2=r\\omega^2$. The speed $v=r\\omega$ is also the same, but the masses may differ, so $\\frac12mv^2$ can differ.",
+      "perOption": {
+        "A": "Their common 24-hour period fixes their angular velocity.",
+        "B": "Their common radius and angular speed fix the magnitude of their centripetal acceleration.",
+        "C": "Correct. Satellite masses may differ.",
+        "D": "Each orbital period equals Earth's rotation period."
+      }
+    },
+    "issues": "Option B is also defensible if centripetal acceleration is read as a vector, since its direction differs for satellites at different orbital positions. The key compares magnitudes and intends C.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "gravitational-fields.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing the quantities fixed by a geostationary orbit from those that depend on satellite mass.",
+    "misconception": "Equal orbital speed implies equal kinetic energy.",
+    "transcription": "Several satellites are in geostationary orbits around the Earth.\n\nWhich of the following quantities is not necessarily the same for all the satellites?\n\nA. angular velocity\nB. centripetal acceleration\nC. kinetic energy\nD. orbital period"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Thermal equilibrium means X and Y have the same temperature. Mean translational kinetic energy is proportional to absolute temperature, so the molecules of X also have a mean translational kinetic energy of $6.0\\times10^{-21}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Assumes equal mean squared speeds and halves the energy because X has half the mass.",
+        "B": "Incorrectly scales the energy by the square root of the mass ratio.",
+        "C": "Correct.",
+        "D": "Mistakes the greater rms speed of X for greater mean translational kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires recognizing that thermal equilibrium fixes the mean translational kinetic energy of both gases.",
+    "misconception": "Assuming lighter molecules have lower mean kinetic energy at the same temperature.",
+    "transcription": "In a mixture of 2 monatomic gases X and Y, the molecules of Y have twice the mass of those of X. The mixture is in thermal equilibrium and the molecules of Y have a mean translational kinetic energy of $6.0\\times10^{-21}\\ \\mathrm{J}$.\n\nWhat is the mean translational kinetic energy of the molecules of X?\n\nA. $3.0\\times10^{-21}\\ \\mathrm{J}$\nB. $4.2\\times10^{-21}\\ \\mathrm{J}$\nC. $6.0\\times10^{-21}\\ \\mathrm{J}$\nD. $8.5\\times10^{-21}\\ \\mathrm{J}$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $Q$ be the heat supplied in one minute. Just before boiling, $Q=mc\\Delta T=mc(4.0)$, and during the $40$ minutes of boiling, $40Q=mL$. Thus $c/L=(Q/4.0m)/(40Q/m)=\\frac{1}{160}\\ \\mathrm{K^{-1}}$.",
+      "perOption": {
+        "A": "Divides the boiling time by the temperature rise per minute instead of multiplying them.",
+        "B": "Leaves the temperature rise per minute out of the heating balance.",
+        "C": "Correct.",
+        "D": "Counts the factor of four twice."
+      }
+    },
+    "issues": "The key interprets the 40 minutes as time elapsed from the onset of boiling.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using the same heat input rate to relate warming to vaporisation.",
+    "misconception": "Dividing by the heating rate in the wrong energy balance.",
+    "transcription": "Heat is supplied at a constant rate to a liquid in a beaker. Just before it begins to boil, the temperature of the liquid was rising at 4.0 K per minute. All the liquid are boiled away after 40 minutes. The heat capacity of the beaker may be taken to be negligible.\n\nWhat is the value of the ratio $\\frac{\\text{specific heat capacity}}{\\text{specific latent heat of vaporisation}}$?\n\nA. $\\frac{1}{10}\\ \\mathrm{K^{-1}}$\nB. $\\frac{1}{40}\\ \\mathrm{K^{-1}}$\nC. $\\frac{1}{160}\\ \\mathrm{K^{-1}}$\nD. $\\frac{1}{640}\\ \\mathrm{K^{-1}}$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The trip from P to Q takes half a period, $T/2$. Measuring displacement from O as positive toward P, the time $t$ from P to X satisfies $A/2=A\\cos(2\\pi t/T)$, so $t=T/6$. The direct trip from X to Q therefore takes $T/2-T/6=T/3$.",
+      "perOption": {
+        "A": "Exceeds the time for the full trip from P to Q.",
+        "B": "Corresponds to going toward P first and then returning to travel all the way to Q.",
+        "C": "Treats the time as three quarters of the P-to-Q time because X-to-Q is three quarters of the distance.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using the sinusoidal displacement to find a partial travel time.",
+    "misconception": "Assuming travel time is proportional to distance in SHM.",
+    "transcription": "An object performs linear simple harmonic motion between P and Q.\n\nX and Y are the midpoints between the equilibrium position O with P and Q respectively as shown.\n\n[The points P, X, O, Y and Q are equally spaced from left to right. The object is shown at P, with arrows showing motion toward Q, then back toward O. O is labelled equilibrium position.]\n\nIf the period of the oscillation is $T$, what is the minimum time required for the object to move from X to Q?\n\nA. $3T/4$\nB. $2T/3$\nC. $3T/8$\nD. $T/3$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Q's free oscillations die away faster, so Q is more strongly damped and has the smaller resonance amplitude. The response curves have a nonzero low-frequency limit, which rules out B and leaves C.",
+      "perOption": {
+        "A": "Shows a dip where the amplitude should peak at resonance.",
+        "B": "Shows both amplitudes vanishing as the driving frequency approaches zero.",
+        "C": "Correct.",
+        "D": "Gives the more strongly damped Q the higher peak."
+      }
+    },
+    "issues": "The question PNG crops the lower portions of option graphs C and D. The key intends the standard comparison of oscillators with comparable response parameters apart from damping.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i",
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires connecting the decay of free oscillations to the driven frequency response.",
+    "misconception": "Greater damping produces a higher resonance peak.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Q and U, the neighbouring particles are displaced toward each other, so Q and U are compressions. At S, the neighbouring particles are displaced away from each other, so S is a rarefaction.",
+      "perOption": {
+        "A": "Treats S as a compression even though neighbouring particles are displaced away from each other.",
+        "B": "Treats Q and U as rarefactions even though neighbouring particles are displaced toward each other.",
+        "C": "Reverses the crowding at Q and U and the spreading at S.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires interpreting the displacements of neighbouring particles on each side of a labelled point.",
+    "misconception": "Confusing a displacement crest with a compression.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Matching points on the curves are separated by one grid interval, while a full cycle spans eight. This is one eighth of a cycle, so $\\theta/(2\\pi)=1/8$ and $\\theta=\\pi/4$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses a quarter-cycle separation instead of an eighth.",
+        "C": "Uses a three-eighths-cycle separation instead of an eighth.",
+        "D": "Uses a three-quarter-cycle separation instead of an eighth."
+      }
+    },
+    "issues": "The key writes its phase-fraction relation using spatial notation even though the question plots time. The rewrite uses the same fraction of a cycle read on the plotted axis.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reading the offset between matching points as a fraction of one period.",
+    "misconception": "Measuring the offset between points at different stages of the cycle.",
+    "transcription": "The diagram shows two particles on the same wave.\n\n[Displacement–time graph with two sinusoidal curves of the same amplitude and period. One curve crosses the origin rising, and the other crosses the time axis rising one tick later. One period spans eight tick intervals.]\n\nWhat is the phase difference between the oscillations of the particles?\n\nA. $\\pi/4$\nB. $\\pi/2$\nC. $3\\pi/4$\nD. $3\\pi/2$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Lines II and I show constructive interference and have path differences $\\lambda$ and $2\\lambda$, respectively, for the in-phase sources. Lines III and IV show destructive interference and have path differences $1.5\\lambda$ and $2.5\\lambda$, respectively. Thus line III has the required path difference.",
+      "perOption": {
+        "A": "Line I is a constructive line with path difference $2\\lambda$.",
+        "B": "Line II is a constructive line with path difference $\\lambda$.",
+        "C": "Correct.",
+        "D": "Line IV is a destructive line of higher order, with path difference $2.5\\lambda$."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing nodal and antinodal lines and counting their orders.",
+    "misconception": "Counting constructive lines when the path difference is a half-integer wavelength.",
+    "transcription": "Two identical sources in a ripple tank generate waves of wavelength $\\lambda$. The interfering waves produce the wave pattern shown below.\n\n[Two sources are marked by dots on a horizontal line. Arcs appear in bands fanning out above them. Lines I and II extend up-left through bands of arcs, with II nearer the centre. Lines III and IV extend up-right through gaps between bands, with III nearer the centre.]\n\nAlong which of the labelled lines is the path difference between the waves from the sources equal to $1.5\\lambda$?\n\nA. I\nB. II\nC. III\nD. IV"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upward field means the lower plate is at a higher potential than the upper plate. From $E=|\\Delta V|/d$, $V_{\\mathrm{lower}}-V_{\\mathrm{upper}}=Ed=4000(4.0\\times10^{-3})=16\\ \\mathrm{V}$. Hence $-6.0-V_{\\mathrm{upper}}=16$ and $V_{\\mathrm{upper}}=-22\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Places the upper plate at lower potential but gives a drop of only 4 V instead of 16 V.",
+        "C": "Adds 16 V, placing the upper plate at higher potential despite the upward field.",
+        "D": "Places the upper plate at higher potential despite the upward field."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires choosing the sign of the potential change and converting millimetres to metres.",
+    "misconception": "Potential increases in the direction of the electric field.",
+    "transcription": "A pair of large horizontal conducting plates are separated by 4.0 mm. The lower plate is at a potential of $-6.0\\ \\mathrm{V}$. An electric field strength of $4000\\ \\mathrm{V\\,m^{-1}}$ upwards exists in the space between the plates.\n\nWhat is the potential applied to the upper plate?\n\nA. $-22\\ \\mathrm{V}$\nB. $-10\\ \\mathrm{V}$\nC. $10\\ \\mathrm{V}$\nD. $22\\ \\mathrm{V}$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $R=\\rho L/A$ between the shaded faces. For X, $R_X=\\rho l/(lt)$, and for Y, $R_Y=\\rho(2l)/(2lt)=R_X$. Their ratio is $1$.",
+      "perOption": {
+        "A": "Treats the current path lengths as equal and the shaded area of Y as four times that of X.",
+        "B": "Accounts for the larger shaded face of Y but ignores its longer current path.",
+        "C": "Correct.",
+        "D": "Accounts for the longer path in Y but ignores its larger shaded face."
+      }
+    },
+    "issues": "The key prints cross-sectional areas of l² and 2l². The shaded faces have areas lt and 2lt, which give the same keyed ratio.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires identifying the current path length and the area perpendicular to that path.",
+    "misconception": "Using the area of the square surface as the current cross-section.",
+    "transcription": "Two squares, X and Y, are cut from the same sheet of metal of thickness $t$. The lengths of the sides of X and Y are $l$ and $2l$ respectively.\n\n[Two square slabs X and Y each have thickness $t$. Their in-plane dimensions are $l$ by $l$ and $2l$ by $2l$ respectively. On each slab, the front and back edge faces are shaded.]\n\nWhat is the ratio $\\frac{R_X}{R_Y}$ of the resistances between the opposite shaded faces of X and of Y?\n\nA. $\\frac14$\nB. $\\frac12$\nC. $\\frac11$\nD. $\\frac21$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $I=nAve$ and $A=\\pi d^2/4$, the drift speed is $v=4I/(ne\\pi d^2)$. Since $I$, $n$ and $e$ stay constant while $d$ decreases uniformly, $v$ increases nonlinearly and reaches four times its starting value when the diameter halves.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows only a doubling, as if the speed varied inversely with diameter.",
+        "C": "Shows the correct endpoint ratio but makes the speed increase linearly with distance.",
+        "D": "Shows the speed decreasing when the narrowing wire requires it to increase."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires relating a linear change in diameter to a nonlinear increase in drift speed.",
+    "misconception": "Drift speed is inversely proportional to diameter.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $R=V/I$. The resistor has a constant resistance of $10\\ \\Omega$, and the lamp has a resistance of $5.0\\ \\Omega$ at $1.0\\ \\mathrm{V}$. At about $1.2\\ \\mathrm{V}$, the diode and lamp curves intersect, so they have the same $V$ and $I$ and therefore the same resistance.",
+      "perOption": {
+        "A": "At $1.0\\ \\mathrm{V}$ the lamp has half the resistor's resistance, $5.0\\ \\Omega$ compared with $10\\ \\Omega$.",
+        "B": "The diode's $V/I$ changes above $0.8\\ \\mathrm{V}$ even where the curve looks nearly straight.",
+        "C": "At $0.8\\ \\mathrm{V}$ the currents differ, so the resistances differ.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires using the coordinates at a given operating point to compare resistances.",
+    "misconception": "Reading resistance from the local slope of an I–V graph.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q23",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $q$ be the magnitude of the ion charge. Before entering the container, the ion gains kinetic energy $qV=\\frac12mv^2$, so $v=\\sqrt{2qV/m}$. To pass undeflected, $qE=Bqv$, and since $E=V/d$, this gives $V/(Bd)=\\sqrt{2qV/m}$. Squaring and rearranging gives $q/m=V/(2B^2d^2)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Puts the factor of two from $\\frac12mv^2$ in the numerator when solving for $q/m$.",
+        "C": "Gives the reciprocal of the required ratio, $m/q$.",
+        "D": "Inverts the ratio and also moves the factor of two to the wrong side of the fraction."
+      }
+    },
+    "issues": "The key and all answer choices use the magnitude of the charge-to-mass ratio. The signed ratio is negative for these ions.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.m",
+      "electric-fields.g",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires linking electric acceleration to the force balance in crossed fields.",
+    "misconception": "Inverting the charge-to-mass ratio during rearrangement.",
+    "transcription": "A part of a mass spectrometer is shown in the figure below. Negative ions are generated at the source S, which is at a potential of $-V$ with respect to the hollow metal container. Inside the container, there are parallel plates separated by distance $d$ and a uniform magnetic field $B$ is applied to the region between the parallel plates.\n\n[Source S, labelled $-V$, is to the left of a hollow metal container labelled $0\\ \\mathrm{V}$. A horizontal path from S passes between two parallel plates with potential difference $V$ and separation $d$. Electric field arrows point downward between the plates. Crosses in a circular region labelled magnetic field $B$ indicate a field into the page.]\n\nIf the potential difference between the parallel plates is $V$, what is the charge to mass ratio of the ions that can pass through the fields undeflected?\n\nA. $\\frac{V}{2B^2d^2}$\nB. $\\frac{2V}{B^2d^2}$\nC. $\\frac{2B^2d^2}{V}$\nD. $\\frac{B^2d^2}{2V}$"
+  },
+  {
+    "id": "dhs-2024-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic field of X points up and left at P, as shown in the key. Its upward component acts on the rightward current in Y. Fleming’s left-hand rule gives a force out of the page.",
+      "perOption": {
+        "A": "Reverses the force direction given by the upward field component and rightward current.",
+        "B": "Correct.",
+        "C": "Assumes the force lies along the line toward X, although the current and field both lie in the page.",
+        "D": "Assumes the force lies along the line away from X, although the current and field both lie in the page."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the local field direction and applying the magnetic force rule to the second wire.",
+    "misconception": "Applying the attraction rule for parallel currents to perpendicular wires.",
+    "transcription": "Two long straight current carrying wires, X and Y are placed perpendicular to each other as shown in the diagram.\n\n[Wire Y is horizontal with a rightward arrow and a point P on it. Wire X is marked by a circled cross above and to the right of P.]\n\nCurrent flows into the page in wire X and from left to right in wire Y.\n\nWhat is the direction of the force acting on wire Y at point P due to the magnetic field produced by wire X?\n\nA. into the page\nB. out of the page\nC. towards wire X\nD. away from wire X"
+  }
+]

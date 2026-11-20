@@ -1,0 +1,500 @@
+[
+  {
+    "id": "cjc-2025-prelim-p1-q14",
+    "keyPage": 13,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=0$, the gravitational potential energy is maximum because the bob is at an extreme of its swing. Its gravitational potential energy is zero at equilibrium, which it passes twice per cycle, so there are two minima per period.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows one minimum per period $T$.",
+        "C": "Starts at zero although the bob is released at its highest point.",
+        "D": "Starts at zero and shows one minimum per period $T$."
+      }
+    },
+    "issues": "The question PNG includes six subsequent questions. The transcription covers Q14.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student checks the initial energy and counts the equilibrium crossings.",
+    "misconception": "Giving potential energy the same period as displacement",
+    "transcription": "A small pendulum bob is displaced to one side and released from rest at time $t=0$. The bob then swings with simple harmonic motion with period $T$.\n\nWhich graph represents the variation with time $t$ of the gravitational potential energy $E_P$?\n\n[Each graph plots $E_P$ vertically against $t$ horizontally, with $0$, $T$ and $2T$ marked on the time axis.]\nA [Starts at maximum and completes four cycles by $2T$.]\nB [Starts at maximum and completes two cycles by $2T$.]\nC [Starts at zero and completes four cycles by $2T$.]\nD [Starts at zero and completes two cycles by $2T$.]"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q1",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "An apple typically has a mass of about $0.1\\ \\mathrm{kg}$. Its weight is about $0.1(9.81)\\ \\mathrm N\\approx1\\ \\mathrm N$, of order $10^0\\ \\mathrm N$.",
+      "perOption": {
+        "A": "A typical coin has a mass of a few grams, of order $10^{-3}\\ \\mathrm{kg}$.",
+        "B": "Paper is roughly $10^{-4}\\ \\mathrm m$ thick.",
+        "C": "Correct.",
+        "D": "Normal body temperature is about $310\\ \\mathrm K$, of order $10^2\\ \\mathrm K$."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student needs everyday estimates in SI units.",
+    "misconception": "Confusing Celsius and kelvin",
+    "transcription": "The table shows some measurable quantities.\n\nWhich row gives the correct order of magnitude of the measurable quantity in the stated unit?\n\n[Columns are Measurable quantity, Order of magnitude and unit.]\nA mass of a coin | $10^{-4}$ | kg\nB thickness of a sheet of paper | $10^{-2}$ | m\nC weight of an apple | $10^0$ | N\nD temperature of a person’s body | $10^1$ | K"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q2",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The units of $k$ are $\\mathrm{N\\,m^{-1}}=\\mathrm{kg\\,s^{-2}}$, so $m^pk^q$ has units $\\mathrm{kg}^{p+q}\\mathrm{s}^{-2q}$. Matching $\\mathrm{s}^{-1}$ gives $p+q=0$ and $-2q=-1$, so $p=-\\tfrac12$ and $q=\\tfrac12$.",
+      "perOption": {
+        "A": "Gives $\\mathrm{kg^{-1}\\,s}$.",
+        "B": "Correct.",
+        "C": "Cancels the mass unit but gives $\\mathrm{s}$.",
+        "D": "Gives the correct time exponent but leaves a factor of $\\mathrm{kg}$."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student converts the spring constant to base units and matches two exponents.",
+    "misconception": "Reversing the time exponent of the spring constant",
+    "transcription": "The frequency $f$ of vibration of a mass $m$ supported by a spring with spring constant $k$ is given by the equation\n\n$f=Cm^pk^q$\n\nwhere $C$ is a constant with no units.\n\nWhat are the values of $p$ and $q$?\n\n[Columns are $p$ and $q$.]\nA $-\\frac12$, $-\\frac12$\nB $-\\frac12$, $\\frac12$\nC $\\frac12$, $-\\frac12$\nD $\\frac12$, $\\frac12$"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q3",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange to $\\mathbf X+\\mathbf R=\\mathbf P$. With $\\mathbf P$ and $\\mathbf R$ drawn to a common tip, $\\mathbf X$ runs from the tail of $\\mathbf P$ to the tail of $\\mathbf R$.",
+      "perOption": {
+        "A": "Shows $-(\\mathbf P+\\mathbf R)$.",
+        "B": "Shows $\\mathbf P+\\mathbf R$.",
+        "C": "Correct.",
+        "D": "Reverses the subtraction to give $\\mathbf R-\\mathbf P$."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student recognises the subtraction construction using a common tip.",
+    "misconception": "Adding the vectors when asked to subtract",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q4",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The downhill force is $mg\\sin30^\\circ$, so $a=g\\sin30^\\circ$. From rest, $s=\\tfrac12at^2=\\tfrac12(9.81\\sin30^\\circ)(0.80)^2\\approx1.6\\ \\mathrm m$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Would require a downhill acceleration larger than $g\\sin30^\\circ$.",
+        "C": "Uses $g\\cos30^\\circ$ as the downhill acceleration.",
+        "D": "Uses $g$ as if the block were falling freely."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.e",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student resolves the weight along the slope and applies constant-acceleration kinematics.",
+    "misconception": "Using free-fall acceleration along the slope",
+    "transcription": "A mass of $5.0\\ \\mathrm{kg}$ is released from rest on a frictionless surface inclined at $30^\\circ$ to the horizontal. Air resistance is negligible.\n\n[A block labelled mass $5.0\\ \\mathrm{kg}$ rests on a frictionless slope rising at $30^\\circ$ above a dashed horizontal line.]\n\nHow far does the mass travel in a time of $0.80\\ \\mathrm s$?\n\nA $1.6\\ \\mathrm m$\nB $2.0\\ \\mathrm m$\nC $2.7\\ \\mathrm m$\nD $3.1\\ \\mathrm m$"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q5",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial vertical velocity is $v\\sin\\alpha$, and the vertical velocity at the highest point is zero. Taking upward as positive gives $0=(v\\sin\\alpha)^2-2gH$, so $H=(v\\sin\\alpha)^2/(2g)$.",
+      "perOption": {
+        "A": "Omits the square of the vertical speed and gives units of time.",
+        "B": "Puts $g$ over $v$, giving units of inverse time.",
+        "C": "Correct.",
+        "D": "Puts $g^2$ over $v$, giving units of $\\mathrm{m\\,s^{-3}}$."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student resolves the initial velocity and uses zero vertical velocity at the apex.",
+    "misconception": "Omitting the square of the initial vertical speed",
+    "transcription": "A cannon fires a cannonball with an initial speed $v$ at an angle $\\alpha$ to the horizontal.\n\n[A dashed arc rises and returns to launch level. The initial velocity arrow is labelled $v$ at angle $\\alpha$ to the horizontal, and a vertical double-headed arrow marks height $H$ from launch level to the apex.]\n\nWhich equation is correct for the maximum height $H$ reached?\n\nA $H=\\frac{v\\sin\\alpha}{2g}$\nB $H=\\frac{g\\sin\\alpha}{2v}$\nC $H=\\frac{(v\\sin\\alpha)^2}{2g}$\nD $H=\\frac{g^2\\sin\\alpha}{2v}$"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q6",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the momentum–time graph is $F=\\mathrm dp/\\mathrm dt$. In B the negative slope gets steeper, so the force opposes the positive momentum and grows in magnitude.",
+      "perOption": {
+        "A": "The positive slope becomes shallower, so the force magnitude falls.",
+        "B": "Correct. The negative slope becomes steeper.",
+        "C": "The negative slope becomes shallower, so the force magnitude falls.",
+        "D": "The constant slope gives a constant force."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder. “Increased” refers to the force magnitude. The signed force in B becomes more negative.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student distinguishes the sign of the gradient from its magnitude.",
+    "misconception": "Assuming increasing force magnitude requires increasing momentum",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q7",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Q is the gravitational force of Earth on the box, and S is the gravitational force of the box on Earth. These forces are equal and opposite and act on different bodies. P and R form the contact-force pair.",
+      "perOption": {
+        "A": "P and Q both act on the box, and Q is gravitational.",
+        "B": "P is a contact force, whereas Q is gravitational.",
+        "C": "R and S both act on Earth, and S is gravitational.",
+        "D": "Correct. Q and S form the gravitational pair."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder. Equilibrium makes the contact and gravitational forces on the box equal in magnitude. Newton’s third law establishes equality within each interaction pair.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student matches the forces by both the bodies and the interaction.",
+    "misconception": "Pairing balanced forces acting on the same body",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q8",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pipe floats, so $\\rho gV_{\\mathrm{displaced}}=32\\ \\mathrm N$. The displaced volume is $(0.012)(0.30)\\ \\mathrm{m^3}$, giving $\\rho=32/[9.81(0.012)(0.30)]\\approx910\\ \\mathrm{kg\\,m^{-3}}$.",
+      "perOption": {
+        "A": "Uses the full $0.40\\ \\mathrm m$ length as the submerged depth.",
+        "B": "Correct.",
+        "C": "Uses the full length and omits $g$.",
+        "D": "Divides weight by displaced volume and omits $g$."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student computes the displaced volume and balances the upthrust against weight.",
+    "misconception": "Using the full pipe length as the submerged depth",
+    "transcription": "A pipe, open at one end, floats in a liquid as shown.\n\n[The vertical pipe is open above the surface and closed at the bottom. Its full height is $0.40\\ \\mathrm m$, the submerged depth is $0.30\\ \\mathrm m$, and the bottom is labelled area $0.012\\ \\mathrm{m^2}$.]\n\nThe cross-sectional area of the pipe is $0.012\\ \\mathrm{m^2}$. The weight of the pipe is $32\\ \\mathrm N$.\n\nWhat is the density of the liquid?\n\nA $680\\ \\mathrm{kg\\,m^{-3}}$\nB $910\\ \\mathrm{kg\\,m^{-3}}$\nC $6700\\ \\mathrm{kg\\,m^{-3}}$\nD $8900\\ \\mathrm{kg\\,m^{-3}}$"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q9",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The length rises from $35\\ \\mathrm{mm}$ at zero tension to $37\\ \\mathrm{mm}$ at $400\\ \\mathrm N$, so the extension is $2.0\\times10^{-3}\\ \\mathrm m$. The tension rises linearly, giving elastic potential energy $\\tfrac12(400)(2.0\\times10^{-3})=0.40\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the final tension throughout the stretch.",
+        "C": "Would require an extension of $12\\ \\mathrm{mm}$ instead of the measured $2\\ \\mathrm{mm}$.",
+        "D": "Uses the full stretched length of $37\\ \\mathrm{mm}$ as the extension."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student infers the extension from a graph of length against tension.",
+    "misconception": "Using total length as the extension",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q10",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a constant net force along the displacement, $W=Fs=mas$. From rest, $v^2=2as$, so the work done is $\\tfrac12mv^2$, the kinetic energy gained. The calculation requires no time variable.",
+      "perOption": {
+        "A": "$F=ma$ expresses the net force in terms of mass and acceleration.",
+        "B": "$W=Fs$ gives the work done by the constant force.",
+        "C": "$v^2=u^2+2as$ gives $as=v^2/2$ from rest.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student recognises the equations connecting work and the change in speed.",
+    "misconception": "Using final speed as a constant speed during acceleration",
+    "transcription": "The kinetic energy $E_{\\mathrm k}$ of an object of mass $m$ moving at speed $v$ is given by the equation\n\n$E_{\\mathrm k}=\\frac12mv^2$\n\nWhich equation is not used in the derivation of this equation?\n\nA $F=ma$\nB $W=Fs$\nC $v^2=u^2+2as$\nD $s=vt$"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q11",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fuel input is $60+160+100=320\\ \\mathrm{MW}$. Both the heating and electrical outputs are useful, so the efficiency is $(160+100)/320\\approx81\\%$.",
+      "perOption": {
+        "A": "Counts only the electrical output as useful.",
+        "B": "Divides the electrical output by the combined useful output.",
+        "C": "Counts only the heating output as useful.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.n"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student identifies both useful outputs and reconstructs the total input power.",
+    "misconception": "Counting only electrical output as useful",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q12",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The limiting point is the top, where the object is slowest and gravity points towards the centre. At the threshold the tension is zero, so $mg=mv^2/r$ and $v=\\sqrt{9.81(0.25)}\\approx1.6\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Exceeds the minimum and would give positive tension at the top.",
+        "C": "Also exceeds the zero-tension threshold at the top.",
+        "D": "Matches the speed gained by falling through a diameter from rest, which assumes zero speed at the top."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder. The stem leaves implicit that the limiting speed is at the top.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student identifies the limiting point and sets the tension there to zero.",
+    "misconception": "Overlooking the zero-tension condition at the top",
+    "transcription": "An object tied to the end of a light inextensible string of length $25\\ \\mathrm{cm}$ is swung in a vertical circle as shown.\n\n[A dashed vertical circle shows the object at the top, right, bottom and left, with clockwise arrows and a radius labelled $25\\ \\mathrm{cm}$.]\n\nDetermine the minimum speed of the object in order that the string remains straight throughout the motion.\n\nA $1.6\\ \\mathrm{m\\,s^{-1}}$\nB $2.2\\ \\mathrm{m\\,s^{-1}}$\nC $2.5\\ \\mathrm{m\\,s^{-1}}$\nD $3.1\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q13",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Planet B’s surface has a higher potential than P, so an object released from rest cannot reach it by gravity alone. At planet A, conservation of energy gives $\\tfrac12v^2=[-13.4-(-62.3)]\\times10^6\\ \\mathrm{J\\,kg^{-1}}$, so $v=9.89\\times10^3\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the magnitude of the potential difference to B, which is uphill in potential from P.",
+        "B": "Uses the magnitude of the potential at P in place of the drop to A.",
+        "C": "Correct.",
+        "D": "Uses the difference between the two surface potentials."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student determines the reachable surface and converts the potential drop into kinetic energy per unit mass.",
+    "misconception": "Using an absolute potential instead of a potential difference",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q14",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In a circular orbit, $GMm/r^2=mv^2/r$, so $E_k=GMm/(2r)$ decreases as $r$ increases. The gravitational potential energy $U=-GMm/r$ increases. The total energy $E_k+U=-GMm/(2r)$ also increases as it becomes less negative.",
+      "perOption": {
+        "A": "Treats total energy as fixed and reverses both individual energy changes.",
+        "B": "Gets both individual changes right but treats total energy as fixed.",
+        "C": "Gets the total energy change right but reverses both individual changes.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied key file is the unmarked question paper. Parsed A is a placeholder.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student derives the orbital kinetic energy and compares how all three energies vary with radius.",
+    "misconception": "Assuming total energy is conserved when the orbit is raised",
+    "transcription": "An Earth satellite is moved from one stable circular orbit to another stable circular orbit at a greater distance from the Earth. Which of the following correctly describes the energy of the satellite?\n\n[Columns are total energy, gravitational potential energy and kinetic energy.]\nA stays the same | decreases | increases\nB stays the same | increases | decreases\nC increases | decreases | increases\nD increases | increases | decreases"
+  }
+]

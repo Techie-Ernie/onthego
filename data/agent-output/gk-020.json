@@ -1,0 +1,509 @@
+[
+  {
+    "id": "cjc-2024-prelim-p1-q14",
+    "keyPage": 11,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Mean translational kinetic energy is proportional to thermodynamic temperature. Argon and helium are at the same temperature, so their mean translational kinetic energies are equal and their ratio is $1$.",
+      "perOption": {
+        "A": "Uses the square of the inverse mass ratio as the energy ratio.",
+        "B": "Uses the inverse mass ratio as the energy ratio.",
+        "C": "Correct.",
+        "D": "Assumes that the heavier atom has the same mean-square speed as the lighter atom."
+      }
+    },
+    "issues": "The key says hydrogen in its explanation where the question says helium.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It requires one fact about the mean kinetic energy of an ideal-gas particle.",
+    "misconception": "Kinetic energy scales with particle mass at fixed temperature",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q15",
+    "keyPage": 12,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The normal force $N$ is smallest at the highest point, where the downward acceleration is greatest. Weight acts downwards and the normal force acts upwards, so $mg-N=ma_{\\max}$.\n\nFor SHM, $a_{\\max}=\\omega^2x_0$, giving $N=(60)(9.81)-(60)[2\\pi(0.50)]^2(0.20)=470.1647\\ \\mathrm{N}\\approx470\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Assumes contact is lost, which would require the platform’s downward acceleration to reach $g$.",
+        "B": "Gives the downward resultant force at the highest point.",
+        "C": "Correct.",
+        "D": "Gives the normal force at zero acceleration."
+      }
+    },
+    "issues": "The stem leaves vertical simple harmonic motion implicit. Frequency and amplitude alone do not determine the acceleration of a general oscillation.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify where the normal force is smallest and combine the SHM acceleration with Newton’s second law.",
+    "misconception": "Confusing the resultant force with the normal force",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q16",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=1.0\\ \\mathrm{s}$ the pulse is between P and O and begins reflecting at the fixed end. At $t=1.5\\ \\mathrm{s}$ the inverted pulse has fully reflected and lies between P and O.\n\nAs it passes P from $1.5$ to $2.0\\ \\mathrm{s}$, P moves slightly downwards first, then farther upwards before returning to equilibrium.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the order of the two lobes in the reflected trace.",
+        "C": "Keeps the incident pulse’s signs, omitting inversion at the fixed end.",
+        "D": "Swaps the relative sizes of the small downward and large upward lobes."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track the travel time, inversion at the fixed end and the order in which the reflected lobes pass P.",
+    "misconception": "Confusing the spatial pulse shape with the displacement–time trace",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q17",
+    "keyPage": 13,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The light at P is polarised along the first transmission axis, which makes an angle $180^\\circ-(60^\\circ+45^\\circ)=75^\\circ$ with the second transmission axis. Projecting the amplitude onto the second axis gives $A\\cos75^\\circ$ at Q.",
+      "perOption": {
+        "A": "Treats the two axes as sloping in the same direction and uses $15^\\circ$.",
+        "B": "Uses the second axis’s angle to the horizontal.",
+        "C": "Uses the first axis’s angle to the vertical.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is a single amplitude projection after the angle between the two axes is read from the diagram.",
+    "misconception": "Using an angle measured from a reference line as the angle between the polarisers",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q18",
+    "keyPage": 14,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the vertical fringe pattern to find the spacing of the horizontal threads. The measured span is between the two second-order spots, so $\\theta=\\tan^{-1}[(0.0548/2)/2.00]=0.7849^\\circ$. From $d\\sin\\theta=n\\lambda$, with $n=2$ and $\\lambda=685\\times10^{-9}\\ \\mathrm{m}$, the spacing is $1.00\\times10^{-4}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Treats the full 54.8 mm vertical span as the centre-to-first-order displacement.",
+        "B": "Using the horizontal spot spacing gives the spacing of the vertical threads.",
+        "C": "Correct.",
+        "D": "Uses a diffraction angle much smaller than the angle fixed by the vertical spots and screen distance."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the order of the vertical spots and use screen geometry before applying the grating equation.",
+    "misconception": "Using the full measured span as an adjacent-fringe spacing",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q19",
+    "keyPage": 14,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The Rayleigh criterion gives $\\theta_{\\min}\\approx\\lambda/b=(550\\times10^{-9})/(1.8\\times10^{-3})=3.05556\\times10^{-4}\\ \\mathrm{rad}$. Using the small-angle arc relation, $0.77\\approx L_{\\max}\\theta_{\\min}$, so $L_{\\max}\\approx2519.996\\ \\mathrm{m}$, giving $2500\\ \\mathrm{m}$ to two significant figures.",
+      "perOption": {
+        "A": "Uses a distance at which the angular separation is about 110 times the limiting angle.",
+        "B": "Uses a distance at which the angular separation is about 61 times the limiting angle.",
+        "C": "Uses a distance at which the angular separation is about 9 times the limiting angle.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key uses the syllabus approximation θ ≈ λ/b. The circular-aperture Airy criterion gives about 2.1 km, which is absent from the options.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies the syllabus resolution criterion and converts the limiting angle into a viewing distance.",
+    "misconception": "Confusing minimum resolvable angle with maximum viewing distance",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q20",
+    "keyPage": 15,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the empty corner, the two $+Q$ charges produce equal fields pointing left and up. The $-Q$ charge produces a weaker field towards the bottom right because it is farther away. Adding the three vectors gives a resultant pointing diagonally up and left.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives a rightward component even though the field from the right-hand $+Q$ dominates horizontally.",
+        "C": "Uses the direction of the weaker field from $-Q$ as the resultant.",
+        "D": "Gives a downward component even though the field from the lower $+Q$ dominates vertically."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine three field vectors and recognise that the farther charge contributes a weaker field.",
+    "misconception": "Adding field directions without weighting by distance",
+    "transcription": "Two point charges of charge $+Q$ and a third point charge of charge $-Q$ are placed at three corners of a square.\n\nWhat is the direction of the resultant electric field at the fourth corner?\n\n[Square with an empty top-left corner, $+Q$ at the top-right and bottom-left corners, and $-Q$ at the bottom-right corner. Four diagonal arrows start at the empty corner.]\n\nA. [Up-left]\nB. [Up-right]\nC. [Down-right]\nD. [Down-left]"
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q21",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Ion B has charge $-2e$, so the rightward uniform electric field exerts a leftward force on it. Ion A has charge $+2e$ and attracts B, so the electrostatic force due to A points along BA, diagonally upwards and left.",
+      "perOption": {
+        "A": "Treats B as positive in the uniform field and treats the two ions as repelling.",
+        "B": "Correct.",
+        "C": "Tilts the uniform-field force away from the horizontal and treats the two ions as repelling.",
+        "D": "Tilts the uniform-field force downwards even though the field lines are horizontal."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a",
+      "electric-fields.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must apply the charge sign to the uniform field and identify the separate Coulomb attraction.",
+    "misconception": "Confusing the external field direction with the force on a negative ion",
+    "transcription": "Two ions A and B are linked to form a molecule and are situated in a uniform electric field as shown below.\n\n[Horizontal electric field lines point right in a region of uniform electric field. Ion A, labelled $+2e$, is above and to the left of ion B, labelled $-2e$. The line joining the ions makes an angle of $60^\\circ$ with the horizontal.]\n\nWhat is the direction of the force on B due to the electric field, and, what is the direction of the electrostatic force on B due to A?\n\n[Options give the direction of the force on B due to the electric field first and the direction of the electrostatic force on B due to A second.]\nA. [Right; down-right along AB]\nB. [Left; up-left along BA]\nC. [Diagonally up-right; down-right along AB]\nD. [Diagonally down-left; up-left along BA]"
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q22",
+    "keyPage": 17,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In B and D the ideal diodes are reverse-biased, so no current flows and X is at $0\\ \\mathrm{V}$ in both lighting conditions. In A and C the diodes conduct, and the higher LDR resistance in the dark increases the potential difference across the LDR. In A the LDR is between X and $0\\ \\mathrm{V}$, so X rises. In C the LDR is above X, so X falls.",
+      "perOption": {
+        "A": "Correct. X rises as the LDR takes a larger share of the supply voltage.",
+        "B": "The reverse-biased diode opens the circuit and X stays at $0\\ \\mathrm{V}$.",
+        "C": "The LDR takes more of the supply voltage, leaving less across the fixed resistor below X.",
+        "D": "The reverse-biased diode opens the circuit and X stays at $0\\ \\mathrm{V}$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must screen out reverse-biased circuits and identify which resistor sets the potential at X.",
+    "misconception": "Confusing the LDR’s voltage drop with the potential at X",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q23",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The full circumference is $2\\pi(1.0)=6.2832\\ \\mathrm{cm}$. The resistance wire therefore subtends $(5.9/6.2832)\\times360^\\circ=338.04^\\circ$. Resistance is proportional to arc length, so the potential divider gives $V_{\\mathrm{out}}=(94^\\circ/338.04^\\circ)(9.0\\ \\mathrm{V})=2.50\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Uses $360^\\circ$ as the angle subtended by the resistance wire.",
+        "B": "Correct.",
+        "C": "Uses too large a fraction of the track for the $94^\\circ$ segment.",
+        "D": "Treats the segment’s length fraction of about $0.278$ as though the supply were $10\\ \\mathrm{V}$."
+      }
+    },
+    "issues": "The key’s alternate method prints 2.2716 V as an intermediate value. Its own arc-length ratio gives 2.50 V.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert the wire length into a subtended angle and apply the potential-divider ratio.",
+    "misconception": "Using a full circle as the resistive track",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q24",
+    "keyPage": 18,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric force on the electrons points upwards in the plane of the paper and has speed-independent magnitude $eE$. Fleming’s left-hand rule gives a downward magnetic force of magnitude $Bev$. Halving the speed halves the downward force, leaving an upward resultant in the plane of the paper.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assumes the downward magnetic force dominates after the speed is halved.",
+        "C": "Assigns an out-of-plane force even though both forces act in the plane of the paper.",
+        "D": "Uses the direction of the magnetic field as the direction of the force."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.m",
+      "electric-fields.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the directions of both forces on an electron and determine which dominates at half speed.",
+    "misconception": "Assuming electric and magnetic forces both scale with speed",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q25",
+    "keyPage": 19,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The maximum induced e.m.f. is $E_0=NBA\\omega=NBA(2\\pi f)$. Substituting the coil area and frequency gives $(20)(0.010)(8.0\\times10^{-3})^2[2\\pi(25)]=2.0\\times10^{-3}\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Gives the numerical value of the peak flux linkage before multiplying by angular speed.",
+        "B": "Uses the frequency $f$ in place of $2\\pi f$.",
+        "C": "Correct.",
+        "D": "Overestimates the coil’s effective area or flux-change rate by hundreds of times."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the coil area, number of turns and angular speed to calculate the peak e.m.f.",
+    "misconception": "Confusing peak flux linkage with peak induced e.m.f.",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q26",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A radius sweeps area $A$ in one rotation of period $T$. Faraday’s law gives $E=|\\mathrm{d}\\Phi/\\mathrm{d}t|=BA/T=BAf$. Thus $3.7\\times10^{-7}=(3.6\\times10^{-5})A(1500/60)$, giving $A=4.1\\times10^{-4}\\ \\mathrm{m^2}$.",
+      "perOption": {
+        "A": "Gives far too little swept area to produce the measured e.m.f. at the stated rate.",
+        "B": "Correct.",
+        "C": "Gives a swept area that would produce about 85 times the measured e.m.f.",
+        "D": "Gives an area incompatible with the very small measured e.m.f. at 25 revolutions per second."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The unfamiliar disc geometry requires linking the area swept per turn to Faraday’s law and converting rpm to hertz.",
+    "misconception": "Treating the flux through the whole disc as the flux swept by a rotating radius",
+    "transcription": "The diagram below shows a metal disc of area $A$ situated in a uniform magnetic field of flux density $3.6\\times10^{-5}\\ \\mathrm{T}$. The plane of the metal disc is perpendicular to the magnetic field which is directed into the plane of the diagram. The metal disc is rotated about an axis through its centre at 1500 revolutions per minute. An e.m.f. of $3.7\\times10^{-7}\\ \\mathrm{V}$ is induced between the centre of the metal disc and its rim.\n\n[The circular metal disc rotates clockwise within a dashed rectangular region of uniform magnetic field of flux density $3.6\\times10^{-5}\\ \\mathrm{T}$. Crosses indicate the field into the diagram. Separate contacts at the centre and at the bottom of the rim connect to terminals on the right.]\n\nWhat is the area $A$ of the metal disc?\n\nA. $2.2\\times10^{-8}\\ \\mathrm{m^2}$\nB. $4.1\\times10^{-4}\\ \\mathrm{m^2}$\nC. $3.5\\times10^{-2}\\ \\mathrm{m^2}$\nD. $5.2\\times10^{4}\\ \\mathrm{m^2}$"
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q27",
+    "keyPage": 20,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean power in the resistor is $\\langle P\\rangle=V_{\\mathrm{rms}}^2/R$. The sine wave has $V_{\\mathrm{rms}}=V_p/\\sqrt{2}$, giving mean power $V_p^2/(2R)$. The square wave has magnitude $V_p$ throughout, so its rms voltage is $V_p$ and its mean power is $V_p^2/R$. The ratio is $2$.",
+      "perOption": {
+        "A": "Gives the reciprocal ratio and squares it again.",
+        "B": "Inverts the requested ratio.",
+        "C": "Correct.",
+        "D": "Treats the sine wave’s rms voltage as half its peak voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.h",
+      "currents.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the square wave’s constant voltage magnitude and compare its mean power with that of a sine wave.",
+    "misconception": "Confusing peak voltage, rms voltage and mean power",
+    "transcription": "A voltage supply connected to a signal generator can either produce an alternating voltage with a sinusoidal waveform or a square waveform with the same peak value of e.m.f. $V_p$ as illustrated below. The voltage supply is connected across a load resistor.\n\n[Two graphs show e.m.f. against time. The sinusoidal waveform completes two cycles between $+V_p$ and $-V_p$, beginning at zero and rising. The square waveform alternates between $+V_p$ and $-V_p$ for equal intervals, beginning at $+V_p$ and completing two cycles.]\n\nWhat is the ratio of the mean power dissipated in the load resistor by the square waveform to the mean power dissipated in the load resistor by the sinusoidal waveform?\n\nA. 0.25\nB. 0.5\nC. 2\nD. 4"
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q28",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From the de Broglie relation, $p=h/\\lambda$. Conservation of energy gives $eV=\\tfrac12 mv^2=p^2/(2m)$ for an electron starting from rest. Substituting gives $V=h^2/(2em\\lambda^2)=(6.63\\times10^{-34})^2/[2(1.60\\times10^{-19})(9.11\\times10^{-31})(1.0\\times10^{-10})^2]\\approx150\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Underestimates the kinetic energy associated with the momentum fixed by the wavelength.",
+        "B": "Correct.",
+        "C": "Overestimates the kinetic energy by using too large a value for $p^2/(2m)$.",
+        "D": "Overestimates the accelerating voltage by about a factor of two, consistent with dropping the factor of one-half in the kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "currents"
+    ],
+    "outcomes": [
+      "quantum-physics.e",
+      "energy-and-fields.b",
+      "currents.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect the de Broglie momentum to the kinetic energy gained across a potential difference.",
+    "misconception": "Confusing the de Broglie momentum relation with the energy gained per unit charge",
+    "transcription": null
+  }
+]

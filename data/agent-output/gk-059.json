@@ -1,0 +1,517 @@
+[
+  {
+    "id": "hci-2024-other-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The signed area under the acceleration–time graph gives the change in velocity. From rest to A, the negative area makes the object speed up in the negative direction. After A, positive acceleration slows it while it continues away from the start, until it momentarily stops at B. It then speeds up back toward the start until C, slows down after C, and reaches the start at D.",
+      "perOption": {
+        "A": "At A the acceleration is zero, but the object still has negative velocity.",
+        "B": "Correct. B is the intended turning point.",
+        "C": "At C the object is already moving back toward the start.",
+        "D": "D is at the end of the return leg in the key’s interpretation."
+      }
+    },
+    "issues": "The unscaled sketch only suggests the area balance needed for zero velocity at B. The exact return to the start at D is also an assumption in the key.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must track signed area and infer when the object reverses direction.",
+    "misconception": "Confusing zero acceleration with zero velocity.",
+    "transcription": "The acceleration–time graph of an object moving along a straight line is shown below. The object was initially at rest.\n\nAt which point on the graph is the object farthest from the starting point?\n\n[Acceleration–time graph. The line rises from a negative acceleration at time zero, crosses the time axis at A and peaks at B. It then slopes downward, crosses the time axis at C and ends below the axis at D.]"
+  },
+  {
+    "id": "hci-2024-other-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball and floor have the same initial downward velocity, so the initial relative velocity is zero. Their relative acceleration is $9.81-5.8=4.01\\ \\mathrm{m\\,s^{-2}}$. Thus $2.0=\\tfrac12(4.01)t^2$, giving $t=1.00\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Adds the two downward accelerations instead of subtracting them.",
+        "B": "Uses the ball’s free-fall acceleration alone, treating the floor as stationary.",
+        "C": "Uses the elevator’s acceleration alone as the closing acceleration.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is short once the ball’s acceleration relative to the floor is identified.",
+    "misconception": "Treating the descending floor as stationary.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pool floor exerts a forward frictional force $f$ on the man’s feet, while the water exerts a backward drag force $f_D$. Newton’s second law along the horizontal gives $f-f_D=ma$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses weight and upthrust, which act vertically.",
+        "C": "Reverses the horizontal force signs and includes vertical forces.",
+        "D": "Includes vertical upthrust in the horizontal force balance."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must identify the direction of friction and isolate horizontal forces.",
+    "misconception": "Assuming friction always points opposite the walker’s motion.",
+    "transcription": "A man walking inside a shallow swimming pool managed to accelerate himself forward with a constant horizontal acceleration, $a$. Given the following information, which equation describes the horizontal motion of the man?\n\nMass of man: $m$\nUpthrust: $U$\nDrag force of water: $f_D$\nFrictional force from the floor of the pool: $f$\nAcceleration due to gravity: $g$\n\nA $f-f_D=ma$\nB $mg-U=ma$\nC $f_D-f+mg-U=ma$\nD $f-f_D+U=ma$"
+  },
+  {
+    "id": "hci-2024-other-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The impulse is the triangular area under the graph, $\\tfrac12(150)(40\\times10^{-3})=3\\ \\mathrm{N\\,s}$. It points opposite to the initial momentum, so the magnitudes satisfy $\\Delta p=p_f+p_i$. Thus $(0.060)(30)+p_i=3$, giving $p_i=1.2\\ \\mathrm{N\\,s}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the outgoing momentum.",
+        "C": "Adds the outgoing momentum to the impulse when finding the incoming magnitude.",
+        "D": "Reads the peak time in milliseconds as if it were a momentum."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must calculate the impulse and account for the reversal of momentum.",
+    "misconception": "Treating incoming and outgoing momentum as vectors in the same direction.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the launch threshold, upward thrust equals the rocket’s weight. Since thrust is $v\\,\\mathrm{d}m/\\mathrm{d}t$, the required exhaust mass flow rate is $\\mathrm{d}m/\\mathrm{d}t=Mg/v=(500)(9.81)/1000=4.9\\ \\mathrm{kg\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Divides the rocket’s mass by the exhaust speed and omits the factor of gravitational acceleration.",
+        "B": "Reverses the mass-to-speed ratio and omits the factor of gravitational acceleration.",
+        "C": "Correct.",
+        "D": "Uses a flow rate that produces much more thrust than is needed to balance the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must relate the exhaust momentum per second to the thrust needed at launch.",
+    "misconception": "Ignoring weight when finding the minimum thrust.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The weights of the wood and rubber act at their midpoints, $1.10l$ and $1.90l$ from the pivot, respectively. With common cross-sectional area $A$, balancing moments gives $A(5.00l)\\rho_{\\mathrm{wood}}g(1.10l)=A(l)\\rho_{\\mathrm{rubber}}g(1.90l)$. Cancelling common factors gives $\\rho_{\\mathrm{rubber}}/\\rho_{\\mathrm{wood}}=5.50/1.90=2.89$.",
+      "perOption": {
+        "A": "This ratio fails to balance the moments when the midpoint distances are used.",
+        "B": "Uses the length ratio alone, effectively giving the two weights equal moment arms.",
+        "C": "Correct.",
+        "D": "Gives the density of wood divided by the density of rubber."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must find both moment arms from the drawing and express the weights in terms of density.",
+    "misconception": "Using section ends to locate the weights.",
+    "transcription": "A uniform rod has a wooden section and a solid rubber handle, as shown.\n\n[Horizontal rod with a wooden section of length $5.00l$ on the left and a rubber handle of length $l$ on the right. A triangular support under the wooden section is $2.40l$ from the rubber end.]\n\nThe length of the handle is $l$ and the length of the wooden section is $5.00l$. The rod balances a distance $2.40l$ from the rubber end.\n\nWhat is the ratio $\\frac{\\text{density of rubber}}{\\text{density of wood}}$?\n\nA 5.42\nB 5.00\nC 2.89\nD 0.345"
+  },
+  {
+    "id": "hci-2024-other-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For rotational equilibrium, the hinge force’s line of action passes through the intersection of the cable tension and the shelf’s weight. This intersection lies below and to the right of the hinge. For translational equilibrium, the forces must sum to zero, so the hinge force points down and right to oppose the cable tension’s leftward component.",
+      "perOption": {
+        "A": "Its leftward component adds to the cable tension’s leftward component, so the forces cannot sum to zero.",
+        "B": "A vertical force leaves the cable tension’s horizontal component unbalanced.",
+        "C": "Its horizontal line of action misses the intersection of the tension and weight lines.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine the intersection of lines of action with zero net force.",
+    "misconception": "Using rotational equilibrium alone to choose the direction.",
+    "transcription": "A shelf made of uniform material is held horizontally against a wall by a metal cable. The forces acting on the shelf are its weight, the force exerted by the metal cable, and the force exerted by the hinge.\n\n[The shelf extends horizontally to the right from a hinge on a vertical wall. The metal cable slopes downward from the wall above the hinge to an attachment point on the shelf left of its midpoint.]\n\nWhich arrow could represent the direction of the force the hinge exerts on the shelf?\n\n[Arrow options: A up and left, B vertically up, C horizontally right, D down and right.]"
+  },
+  {
+    "id": "hci-2024-other-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The block has zero kinetic energy at release and at maximum compression. Equating the gain in elastic potential energy to the loss of gravitational potential energy gives $\\tfrac12(85)x^2=(0.20)(9.81)(0.15+x)$. This becomes $42.5x^2-1.962x-0.2943=0$, with positive root $x=0.109\\ \\mathrm{m}$, or $11\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Equates spring force to weight, giving the static equilibrium compression.",
+        "B": "Ignores the initial drop when equating gravitational energy lost to elastic energy gained.",
+        "C": "Counts the initial 15 cm drop but omits the additional descent while the spring compresses.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.k",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must include the spring compression in the total drop and solve a quadratic.",
+    "misconception": "Counting only the initial 15 cm drop.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At maximum speed the engine force balances the drag $kv$. The power is therefore $P=(kv)v=kv^2$. With one engine, $32/64=(v_{\\mathrm{one}}/14)^2$, giving $v_{\\mathrm{one}}=9.9\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Applies the square of the power ratio to speed instead of taking its square root.",
+        "B": "Halves the speed as if speed were directly proportional to power.",
+        "C": "Correct.",
+        "D": "Assumes quadratic drag, which would make power proportional to the cube of speed."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine force balance with the power equation before taking the speed ratio.",
+    "misconception": "Assuming speed is directly proportional to engine power.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q11",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cage force $R$ and the person’s weight $W$ are the only forces acting. Their resultant points horizontally toward the centre of the circle, to the right. The upward component of $R$ balances the weight, and its rightward component provides the centripetal force.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A purely rightward cage force leaves the weight unbalanced.",
+        "C": "Its downward component adds to the weight.",
+        "D": "The horizontal component would point away from the centre."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish the cage force from the net centripetal force.",
+    "misconception": "Identifying the cage force with the centripetal resultant.",
+    "transcription": "In an amusement park ride, a person sits in a cage which moves in a vertical circle at a constant speed. The person stays stationary with respect to the cage.\n\n[The rotating arm is horizontal, with a cage at each end and a pivot on a central support. The person is in the left cage. A curved dashed arrow indicates the rotation.]\n\nAt the instant shown, what is the direction of the force exerted by the cage on the person?\n\n[Arrow options: A up and right, B horizontally right, C down and right, D horizontally left.]"
+  },
+  {
+    "id": "hci-2024-other-p1-q12",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gravitational force is $F_g=-\\mathrm{d}E_p/\\mathrm{d}x$. The field strength is approximately constant over small heights above Earth’s surface, so the energy graph has a constant gradient. Its magnitude is $(E_3-E_1)/(x_3-x_1)$.",
+      "perOption": {
+        "A": "Uses the height above Earth’s surface in place of the distance from Earth’s centre.",
+        "B": "Takes the ratio of energy to position instead of the gradient of the energy graph.",
+        "C": "Correct.",
+        "D": "Multiplies energy by distance instead of taking the gradient."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.d",
+      "gravitational-fields.h",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must read a gradient and distinguish height above the surface from distance to Earth’s centre.",
+    "misconception": "Taking the ratio of energy to position instead of the gradient.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Static friction from P is the restoring force on Q, with magnitude $m_Q\\omega^2|x|$. Its largest required value occurs at displacement magnitude $A$, so at the threshold $5.0=0.20[(2\\pi)(1.5)]^2 A$. This gives $A=0.28\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the combined mass of P and Q for the force exerted on Q alone.",
+        "B": "Uses the mass of P in the force equation for Q.",
+        "C": "Would require only about $1.0 mathrm{N}$ of friction at the extreme, so it is below the limiting amplitude.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must identify the force on the upper block and apply the limiting acceleration at maximum displacement.",
+    "misconception": "Using the mass of both blocks in the friction balance for Q.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $x$-component of uniform circular motion is simple harmonic motion, so $a_x\\propto -x$. The graph is a straight line through the origin with a negative slope. The same relationship holds for the motion along the $y$-axis.",
+      "perOption": {
+        "A": "The ellipse assigns two possible accelerations to a single displacement.",
+        "B": "Correct.",
+        "C": "Shows a sinusoidal dependence on position and gives acceleration the same sign as displacement.",
+        "D": "Shows an inverse dependence and an unbounded acceleration near zero displacement."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g",
+      "circular-motion.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must recognise that projecting uniform circular motion onto an axis gives simple harmonic motion.",
+    "misconception": "Confusing acceleration against displacement with acceleration against time.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Shift the wave profile slightly to the right to see that P moves upward. P is at its equilibrium position, so its speed is maximum and its acceleration is zero. The profile has a constant amplitude, so P and the other particles each oscillate with amplitude $A$.",
+      "perOption": {
+        "A": "The rightward shift of the profile shows that P is moving in the positive direction.",
+        "B": "P’s speed is maximum as it passes through equilibrium.",
+        "C": "Correct.",
+        "D": "P’s acceleration is zero at equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must infer particle motion from a shifting spatial profile and distinguish amplitude from instantaneous displacement.",
+    "misconception": "Reading the spatial slope as the sign of particle velocity.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q16",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For small angles the Rayleigh limit is $\\theta_{\\min}=\\lambda/b$. The two images are easier to resolve when the angle $\\theta$ subtended by the sources at the slit is larger relative to $\\theta_{\\min}$. Reducing $D$ increases $\\theta$ while leaving $\\theta_{\\min}$ unchanged.",
+      "perOption": {
+        "A": "Increasing the wavelength raises the minimum resolvable angle while the source angle stays fixed.",
+        "B": "Correct.",
+        "C": "Narrowing the slit raises the minimum resolvable angle while the source angle stays fixed.",
+        "D": "Increasing the screen distance changes neither the source angle nor the minimum resolvable angle."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must distinguish the angular separation of the sources from the diffraction-limited resolution angle.",
+    "misconception": "Assuming a larger screen image improves angular resolution.",
+    "transcription": "Two monochromatic light sources of wavelength $\\lambda$ are separated by a fixed distance. Light from the sources pass through a single slit of width $b$ at a distance of $D$. The image of the light sources is projected on a screen at a distance $L$ from the single slit.\n\n[Two vertically separated light sources of wavelength $\\lambda$ are a horizontal distance $D$ to the left of a single slit of width $b$. A vertical screen is a horizontal distance $L$ to the right of the slit.]\n\nOne is just able to distinguish that there are two light sources from the image captured on the screen.\n\nFor the image captured on screen, which of the following changes will make it easier to distinguish that there are two light sources?\n\nA $\\lambda$ is increased.\nB $D$ is reduced.\nC $b$ is decreased.\nD $L$ is increased."
+  }
+]

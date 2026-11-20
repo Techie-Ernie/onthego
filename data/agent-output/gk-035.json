@@ -1,0 +1,500 @@
+[
+  {
+    "id": "ejc-2017-promo-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "Viewed from above the North Pole, Earth turns through $\\theta_{\\mathrm{Earth}}=(2\\pi/24)(18)=1.5\\pi$ rad. At the first repeat pass the plane has gone one extra revolution, so $\\theta_{\\mathrm{plane}}=1.5\\pi+2\\pi=3.5\\pi$ rad. Setting $3.5\\pi=(2\\pi/T)(18)$ gives $T=10.3\\ \\mathrm{h}$.",
+      "perOption": {
+        "A": "Allows two extra revolutions, which would put an earlier overhead pass at 9 hours.",
+        "B": "Correct. It gives the first repeat pass.",
+        "C": "Treats the observer as stationary and takes the elapsed time as the plane's period.",
+        "D": "Gives the plane Earth's angular speed, so there is no relative lap."
+      }
+    },
+    "issues": "The school notes that the answer is not unique. B assumes the next overhead pass, while A (6.5 h rounded) also fits if an intervening pass at 9 h is allowed.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a",
+      "circular-motion.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must compare angular displacements in an Earth-centred frame and identify the first repeat alignment.",
+    "misconception": "Ignoring Earth's rotation",
+    "transcription": "An airplane flies round the Earth at a constant speed with a period $T$. Standing on the Earth Equator, you observed the plane flying from West to East directly overhead. Exactly 18 hours later, you observed the same plane flying overhead again. Determine $T$.\n\nA 6.5 hours\nB 10.3 hours\nC 18 hours\nD 24 hours"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $a=r\\omega^2$, the disc's angular speed is $\\omega=\\sqrt{120/0.030}=\\sqrt{4000}\\ \\mathrm{rad\\,s^{-1}}$. At the second point, $v=r\\omega=(0.050)\\sqrt{4000}=3.16\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Gives the linear speed at the original radius.",
+        "B": "Underestimates the speed increase, which is proportional to radius at fixed angular speed.",
+        "C": "Correct.",
+        "D": "Doubles the required speed by using the diameter in place of the radius."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c",
+      "circular-motion.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must find the common angular speed at one radius and use it at the other.",
+    "misconception": "Using the same centripetal acceleration at both radii",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2017-promo-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the instant the engine is fired, its thrust cancels gravity, so the net force is zero. By Newton's first law, the spacecraft continues with its existing velocity, which is tangent to the orbit.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A circular path with a longer period still requires a net inward force.",
+        "C": "A circular path with a shorter period still requires a net inward force.",
+        "D": "An inward spiral assumes a change in motion despite the zero net force."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "motion-and-forces.h"
+    ],
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the spacecraft's instantaneous velocity when the net force becomes zero.",
+    "misconception": "Assuming an orbit persists without centripetal force",
+    "transcription": "A spacecraft travels in a circular orbit around the Earth. Its engine is then fired and produces a force on it exactly equal and opposite to that exerted by the Earth’s gravitational field. The spacecraft will now move\n\nA along a tangent to the orbit.\nB in a circular path with a longer period.\nC in a circular path with a shorter period.\nD in a spiral towards the Earth’s surface.",
+    "primaryType": "conceptual"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GM_{\\mathrm{Earth}}m/r^2=mv^2/r$. This gives $v=\\sqrt{GM_{\\mathrm{Earth}}/r}\\propto 1/\\sqrt r$. Hence $v_{\\mathrm{new}}=7780\\sqrt{6610/6890}=7620\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses an inverse-radius dependence for speed.",
+        "B": "Correct.",
+        "C": "Reverses the radius ratio inside the square root.",
+        "D": "Treats speed as directly proportional to the orbital radius."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must derive the inverse square-root dependence and apply it to the new radius.",
+    "misconception": "Confusing the radius dependence of force with that of orbital speed",
+    "transcription": null,
+    "primaryType": "proportionality"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The displacement follows a sine curve, so the velocity follows a cosine curve. The kinetic energy $E_K=\\tfrac12mv^2$ follows a squared cosine curve, peaking at $t=0$ and repeating every $T/2$, as in C.",
+      "perOption": {
+        "A": "Copies the displacement curve, giving negative kinetic energy for part of the cycle.",
+        "B": "Squares the displacement, putting the energy peaks at the turning points.",
+        "C": "Correct.",
+        "D": "Shows one peak per cycle and starts at zero despite the maximum initial speed."
+      }
+    },
+    "issues": "The question stem prints ‘as a time period T’, evidently intended as ‘has a time period T’.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.g",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer velocity from displacement and square it to get the kinetic-energy graph.",
+    "misconception": "Confusing kinetic energy with displacement or potential energy",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2017-promo-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Damping is a resistive force. It acts opposite to the velocity of the vibrating object relative to its surroundings.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The acceleration depends on the resultant force and can point with or against the damping force.",
+        "C": "At a given displacement the object can move in either direction, so displacement alone cannot determine the direction of damping.",
+        "D": "A force proportional to displacement in simple harmonic motion is the restoring force."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The direction of a damping force is a direct recall point.",
+    "misconception": "Confusing damping with the restoring force",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2017-promo-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wavelength is $\\lambda=v/f=340/1000=0.340\\ \\mathrm{m}$. Since $\\Delta s/\\lambda=\\Delta\\phi/(2\\pi)$, the phase difference is $\\Delta\\phi=(0.17/0.340)(2\\pi)=\\pi\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Treats the separation as one eighth of a wavelength.",
+        "B": "Treats the separation as one quarter of a wavelength.",
+        "C": "Correct.",
+        "D": "Assigns a full cycle to a separation of half a wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must calculate wavelength and convert a fraction of it to a phase difference.",
+    "misconception": "Using the wrong phase angle for one wavelength",
+    "transcription": "The frequency of a certain wave is $1000\\ \\mathrm{Hz}$ and its speed is $340\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the phase difference between the motions of two points on the wave $0.17\\ \\mathrm{m}$ apart?\n\nA $\\frac14\\pi\\ \\mathrm{rad}$\nB $\\frac12\\pi\\ \\mathrm{rad}$\nC $\\pi\\ \\mathrm{rad}$\nD $2\\pi\\ \\mathrm{rad}$"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the Rayleigh criterion, $\\theta\\approx\\lambda/b$ for slit width $b$. Thus $\\theta_{\\mathrm{new}}/\\theta_{\\mathrm{old}}=b_{\\mathrm{old}}/b_{\\mathrm{new}}=2$, giving $1.0\\times10^{-3}\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Treats the angle as directly proportional to slit width.",
+        "B": "Ignores the effect of the slit width on the angle.",
+        "C": "Correct.",
+        "D": "Applies an inverse-square dependence to the slit width."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise the inverse dependence of the minimum resolvable angle on slit width.",
+    "misconception": "Assuming a narrower slit gives a smaller resolvable angle",
+    "transcription": "The angular resolution of a vertical slit for horizontally separated objects is $0.50\\times10^{-3}\\ \\mathrm{rad}$.\n\nWhat is the angular resolution if the width of the slit is halved?\n\nA $0.25\\times10^{-3}\\ \\mathrm{rad}$\nB $0.50\\times10^{-3}\\ \\mathrm{rad}$\nC $1.0\\times10^{-3}\\ \\mathrm{rad}$\nD $2.0\\times10^{-3}\\ \\mathrm{rad}$"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The grating equation is $d\\sin\\theta=n\\lambda$. With $d=1/N$ and $n=2$, $\\sin\\theta_2=2\\lambda/(1/N)=2N\\lambda$.",
+      "perOption": {
+        "A": "Inverts the ratio of the second-order path difference to the line spacing.",
+        "B": "Substitutes the line density for the line spacing.",
+        "C": "Divides by the order number instead of multiplying by it.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert the line density to grating spacing before using the second-order condition.",
+    "misconception": "Using line density as the slit separation",
+    "transcription": "A diffraction grating has $N$ lines per unit length and is placed at $90^\\circ$ to monochromatic light of wavelength $\\lambda$.\n\nWhat is the expression for $\\theta$, the angle to the normal to the grating at which the second order diffraction peak is observed?\n\nA $\\sin\\theta=\\frac{1}{2N\\lambda}$\nB $\\sin\\theta=\\frac{2\\lambda}{N}$\nC $\\sin\\theta=\\frac{N\\lambda}{2}$\nD $\\sin\\theta=2N\\lambda$"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Pressure has units $\\mathrm{kg\\,m^{-1}\\,s^{-2}}$ and density has units $\\mathrm{kg\\,m^{-3}}$. Dividing pressure by density gives $\\mathrm{m^2\\,s^{-2}}$, so $\\sqrt{\\gamma P/\\rho}$ has the required units $\\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Inverting the product of pressure and density gives $\\mathrm{kg^{-1}\\,m^2\\,s}$ after taking the square root.",
+        "B": "Correct.",
+        "C": "Dividing density by pressure gives $\\mathrm{m^{-1}\\,s}$ after taking the square root.",
+        "D": "Multiplying pressure by density leaves units of $\\mathrm{kg\\,m^{-2}\\,s^{-1}}$ after taking the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must express pressure and density in base units and combine them to obtain speed units.",
+    "misconception": "Choosing a formula without checking dimensional homogeneity",
+    "transcription": "Which of the following could be the correct expression for the speed $v$ of sound in a gas of density $\\rho$ and at a pressure $P$? ($\\gamma$ is a dimensionless constant.)\n\nA $v=\\sqrt{\\frac{\\gamma}{\\rho P}}$\nB $v=\\sqrt{\\frac{\\gamma P}{\\rho}}$\nC $v=\\sqrt{\\frac{\\gamma\\rho}{P}}$\nD $v=\\sqrt{\\gamma\\rho P}$"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $Q=\\rho_s-\\rho_f=1800\\ \\mathrm{kg\\,m^{-3}}$, so $\\Delta Q=\\Delta\\rho_s+\\Delta\\rho_f=20+10=30\\ \\mathrm{kg\\,m^{-3}}$. From $\\mu=5Qd^2/(9v_T)$, the fractional uncertainty is $\\Delta\\mu/\\mu=\\Delta Q/Q+\\Delta v_T/v_T+2\\Delta d/d$. Substituting gives $30/1800+0.04/1.60+2(0.4/20.0)$, or $8.2\\%$.",
+      "perOption": {
+        "A": "Counts the fractional uncertainty in diameter only once.",
+        "B": "Omits the sphere density uncertainty from the uncertainty in the density difference.",
+        "C": "Correct.",
+        "D": "Adds fractional uncertainties for the two densities separately, although the formula uses their difference."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must propagate absolute uncertainty through a difference and fractional uncertainty through products and powers.",
+    "misconception": "Subtracting absolute uncertainties when subtracting measurements",
+    "transcription": "The viscosity of a fluid, $\\mu$, can be determined by measuring the terminal velocity, $v_T$, of a sphere when it descends in the fluid. The fluid has a density, $\\rho_f$, while the sphere has a density, $\\rho_s$, and a diameter of $d$. The viscosity can then be calculated by the formula\n$\\mu=\\frac{5(\\rho_s-\\rho_f)}{9v_T}d^2$\n\nThe values measured are\n$v_T=(1.60\\pm0.04)\\ \\mathrm{m\\,s^{-1}}$\n$\\rho_s=(2700\\pm20)\\ \\mathrm{kg\\,m^{-3}}$\n$\\rho_f=(900\\pm10)\\ \\mathrm{kg\\,m^{-3}}$\n$d=(20.0\\pm0.4)\\ \\mathrm{mm}$\n\nWhat is the percentage uncertainty in the value of $\\mu$?\n\nA $6.2\\%$\nB $7.1\\%$\nC $8.2\\%$\nD $8.4\\%$"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resultant force is forward from the start to C, so the car's velocity increases over that interval. From C to D the resultant force acts backwards, so the velocity decreases. The greatest velocity occurs at C.",
+      "perOption": {
+        "A": "Acceleration at A is still positive, so the car continues to gain velocity.",
+        "B": "B marks the greatest acceleration while the velocity is still increasing.",
+        "C": "Correct.",
+        "D": "Zero acceleration at D follows a period of decreasing velocity."
+      }
+    },
+    "issues": "The key repeats D at both ends of the braking interval. The graph shows that the interval runs from C to D.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track whether velocity increases or decreases using the sign of the acceleration.",
+    "misconception": "Confusing maximum acceleration with maximum velocity",
+    "transcription": "A car starts from rest and travels along a straight road. The graph below shows the variation with time of its acceleration during part of the journey. At which point on the graph does the car have its greatest velocity?\n\n[Acceleration–time graph. The curve starts at the origin, rises through A to a positive maximum at B, then falls through zero at C. It dips below the time axis and rises back to zero at D.]"
+  },
+  {
+    "id": "ejc-2018-promo-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the peak, the initial vertical kinetic energy has become gravitational potential energy, so $\\frac{\\tfrac12mu_1^2}{\\tfrac12mu_2^2}=\\frac{mg(4y)}{mgy}=4$. Hence the ratio of initial vertical speeds is $u_1/u_2=2$. Each ball returns to its launch height, so its final vertical speed equals its initial vertical speed, giving the same ratio of 2.",
+      "perOption": {
+        "A": "Mechanical energy is conserved without air resistance, so the initial and final speeds match at ground level.",
+        "B": "Ball 1 takes longer to travel the same horizontal distance, so its horizontal speed is smaller.",
+        "C": "Using $0=u_yt-\\tfrac12gt^2$ gives $t=2u_y/g$ for the nonzero root, so Ball 1 flies for twice as long.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "projectile-motion.d",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must relate the height ratio to the vertical speeds and distinguish vertical motion from horizontal motion.",
+    "misconception": "Assuming flight time scales directly with maximum height",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The car and trailer have the same acceleration. The net force on the trailer is $600-200=400\\ \\mathrm{N}$, so their acceleration is $400/400=1.0\\ \\mathrm{m\\,s^{-2}}$. The net force on the car is $F_{\\mathrm{car}}=m_{\\mathrm{car}}a=(1200)(1.0)=1200\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives the net force on the trailer.",
+        "B": "Gives the tow force rather than the resultant force on the car.",
+        "C": "Correct.",
+        "D": "Treats the full tow force as the trailer's resultant force, giving an acceleration of 1.5 instead of 1.0."
+      }
+    },
+    "issues": "The worked key prints 600 − 400 = 400 N and gives the acceleration in m s⁻¹. The question diagram labels the opposing force as 200 N, and the acceleration unit is m s⁻². Both slips are corrected in the explanation.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer the shared acceleration from the trailer's forces and apply it to the car.",
+    "misconception": "Confusing the trailer's net force or tow force with the car's net force",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2018-promo-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Horizontal momentum is conserved, and initially only the trolley has horizontal momentum. Thus $m_{\\mathrm{trolley}}v_{\\mathrm{trolley}}=m_{\\mathrm{total}}v_{\\mathrm{final}}$, giving $(5.00)(1.25)=(5.35)v_{\\mathrm{final}}$ and $v_{\\mathrm{final}}=1.17\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses $(0.350/5.00)(1.25)$, an estimate of the speed lost, as the final speed.",
+        "B": "Uses an excessive effective final mass for the conserved horizontal momentum.",
+        "C": "Correct.",
+        "D": "Ignores the block's contribution to the final moving mass."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must conserve horizontal momentum and use the combined mass after impact.",
+    "misconception": "Including vertical impact momentum in the horizontal calculation",
+    "transcription": null
+  }
+]

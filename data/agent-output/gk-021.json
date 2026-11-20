@@ -1,0 +1,495 @@
+[
+  {
+    "id": "cjc-2024-prelim-p1-q29",
+    "keyPage": 21,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released is the difference between the reactant and product masses multiplied by $c^2$. Substituting gives $[(7.018+1.008)-2(4.004)](1.66\\times10^{-27})(3.00\\times10^8)^2=2.6892\\times10^{-12}\\ \\mathrm{J}$, which rounds to $2.7\\times10^{-12}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Uses $c$ instead of $c^2$.",
+        "B": "Correct.",
+        "C": "Counts only one helium nucleus in the products.",
+        "D": "Uses the numerical mass difference in atomic mass units as though it were in kilograms."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.p",
+      "nuclear-physics.q"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Subtract the product mass, convert the mass difference to kilograms and apply mass–energy equivalence.",
+    "misconception": "Forgetting the two helium nuclei",
+    "transcription": "A nuclear fusion reaction is as follows:\n\n$^{7}_{3}\\mathrm{Li}+{}^{1}_{1}\\mathrm{H}\\to2\\,{}^{4}_{2}\\mathrm{He}$\n\nThe masses of the nuclei are as follow:\n$^{7}_{3}\\mathrm{Li}$: $7.018\\,\\mathrm{u}$\n$^{1}_{1}\\mathrm{H}$: $1.008\\,\\mathrm{u}$\n$^{4}_{2}\\mathrm{He}$: $4.004\\,\\mathrm{u}$\n\nWhat is the amount of energy released in this reaction?\nA $9.0\\times10^{-21}\\ \\mathrm{J}$\nB $2.7\\times10^{-12}\\ \\mathrm{J}$\nC $6.0\\times10^{-10}\\ \\mathrm{J}$\nD $1.6\\times10^{15}\\ \\mathrm{J}$"
+  },
+  {
+    "id": "cjc-2024-prelim-p1-q30",
+    "keyPage": 21,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $\\beta$ decay from Pb to $^{214}\\mathrm{Bi}$ leaves the mass number unchanged, so X must account for the drop from 218 to 214. An $\\alpha$ particle is a $^{4}_{2}\\mathrm{He}$ nucleus and carries away four nucleons, ruling out A and C. If Y were $\\alpha$ decay, its daughter would be Pb, ruling out D.",
+      "perOption": {
+        "A": "A $\\gamma$ decay at X cannot account for the decrease of four in mass number.",
+        "B": "Correct.",
+        "C": "A $\\beta$ decay at X leaves the mass number unchanged.",
+        "D": "An $\\alpha$ decay at Y would produce Pb in place of At."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Follow the two pathways and track changes in mass number and element.",
+    "misconception": "Confusing the effects of alpha and beta decay",
+    "transcription": "$^{218}\\mathrm{Po}$ decays to $^{214}\\mathrm{Bi}$ via two pathways as shown in the figure below.\n\n[Upper pathway: $^{218}\\mathrm{Po}$ goes to Pb via X, then to $^{214}\\mathrm{Bi}$ via $\\beta$ decay. Lower pathway: $^{218}\\mathrm{Po}$ goes to At via Y, then to $^{214}\\mathrm{Bi}$ via Z.]\n\nWhat are the possible radioactive decay modes X, Y and Z?\n\nOption | X | Y | Z\nA | $\\gamma$ decay | $\\alpha$ decay | $\\beta$ decay\nB | $\\alpha$ decay | $\\beta$ decay | $\\alpha$ decay\nC | $\\beta$ decay | $\\alpha$ decay | $\\gamma$ decay\nD | $\\alpha$ decay | $\\alpha$ decay | $\\beta$ decay"
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q1",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "One decimetre is $1\\times10^{-1}\\ \\mathrm{m}$. This equals $1\\times10^2\\ \\mathrm{mm}$ or $1\\times10^1\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "One millimetre is a hundredth of a decimetre.",
+        "B": "Ten millimetres are a tenth of a decimetre.",
+        "C": "One centimetre is a tenth of a decimetre.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.b"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Uses a single SI prefix conversion.",
+    "misconception": "Confusing deci-, centi- and milli-",
+    "transcription": "Which length is equal to $1\\ \\mathrm{dm}$?\nA $1\\times10^0\\ \\mathrm{mm}$\nB $1\\times10^1\\ \\mathrm{mm}$\nC $1\\times10^0\\ \\mathrm{cm}$\nD $1\\times10^1\\ \\mathrm{cm}$"
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q2",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity–time graph has a positive, constant gradient, so the acceleration is constant. Velocity increases at this fixed positive value of $a$, giving a vertical line on the velocity–acceleration graph.",
+      "perOption": {
+        "A": "Shows acceleration increasing as velocity rises, with acceleration initially zero.",
+        "B": "Shows both quantities increasing from zero, even though the initial velocity–time gradient is positive.",
+        "C": "Holds velocity constant while varying acceleration.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Read the slope of one graph and identify how a constant quantity appears on the other graph.",
+    "misconception": "Swapping the velocity and acceleration axes",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q3",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take upwards and rightwards as positive. Vertically, $v_y=u_y+a_yt=8.00+(-1.62)(9.00)=-6.58\\ \\mathrm{m\\,s^{-1}}$. Horizontally, $v_x=u_x+a_xt=4.00+(0)(9.00)=4.00\\ \\mathrm{m\\,s^{-1}}$. The speed is $\\sqrt{(-6.58)^2+(4.00)^2}=7.70\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses approximately the magnitude of the vertical component alone.",
+        "B": "Correct.",
+        "C": "Adds the magnitudes of the perpendicular velocity components.",
+        "D": "Uses the change in vertical velocity as the speed."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the vertical and horizontal velocity components and combine them to obtain speed.",
+    "misconception": "Using the vertical component as the speed",
+    "transcription": "An astronaut on the Moon, where there is no air resistance, throws a ball. The ball’s initial velocity has a vertical component of $8.00\\ \\mathrm{m\\,s^{-1}}$ and a horizontal component of $4.00\\ \\mathrm{m\\,s^{-1}}$, as shown.\n\n[The ball follows a curved path to the right from its launch point and returns to the launch height. The initial velocity arrow points diagonally upwards and rightwards. Its upward and rightward components are labelled $8.00\\ \\mathrm{m\\,s^{-1}}$ and $4.00\\ \\mathrm{m\\,s^{-1}}$, respectively.]\n\nThe acceleration of free fall on the Moon is $1.62\\ \\mathrm{m\\,s^{-2}}$.\n\nWhat will be the speed of the ball $9.00\\ \\mathrm{s}$ after being thrown?\nA $6.60\\ \\mathrm{m\\,s^{-1}}$\nB $7.70\\ \\mathrm{m\\,s^{-1}}$\nC $10.6\\ \\mathrm{m\\,s^{-1}}$\nD $14.6\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q4",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let one square weigh $W$, so the two squares on the right weigh $2W$ and the whole sheet weighs $3W$. If the centre of gravity lies a horizontal distance $\\bar{x}$ from B, the moment of the combined weight about B equals the sum of the individual moments: $3W\\bar{x}=W(0.5x)+2W(1.5x)$. Thus $3\\bar{x}=3.5x$, giving $\\bar{x}=1.2x$ to two significant figures.",
+      "perOption": {
+        "A": "Gives equal weight to the single square and the pair when averaging their positions.",
+        "B": "Correct.",
+        "C": "Uses the centre of the right-hand pair alone.",
+        "D": "Places the centre of gravity beyond $1.5x$, the position of the right-hand pair’s centre."
+      }
+    },
+    "issues": "The stem describes the original square sheet as having length x, but the diagram labels each small square with side x and the solution follows the diagram.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Locate the individual weights and equate their moments to the moment of the combined weight.",
+    "misconception": "Giving unequal groups equal weight",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q5",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $k$ be the spring constant of one spring. For each arrangement, $F_{\\mathrm{net}}=k_{\\mathrm{eff}}e$, where $F_{\\mathrm{net}}$ is the load and $e$ is the extension. In A, $e=2/(0.5k)=4/k$, and in B, $e=1/(k/3)=3/k$. In C, $e=6/(2k)=3/k$, and in D, $e=8/(3k)\\approx2.7/k$. A has the largest extension.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The smaller load on the three springs in series gives only $3/k$.",
+        "C": "The two parallel springs share the load, giving only $3/k$.",
+        "D": "The three parallel springs give the smallest extension, about $2.7/k$."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Work out the effective spring constants in series and in parallel before comparing the four extensions.",
+    "misconception": "Comparing load alone",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q6",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Efficiency is useful output power divided by input power. Over the same time $t$, the useful electrical output power is $Y/t$ and the chemical input power is $W/t$, giving $(Y/t)/(W/t)=Y/W$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Adds the intermediate thermal energy to the original chemical input.",
+        "C": "Measures the efficiency of converting thermal energy to electrical energy alone.",
+        "D": "Adds the intermediate and final energies to the original input."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.n"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Identify the original input and useful final output in a simple conversion chain.",
+    "misconception": "Counting intermediate energy as an extra input",
+    "transcription": "The energy conversions inside a power station burning fossil fuel can be simplified as shown.\n\n[Chemical energy $W$ → thermal energy $X$ → electrical energy $Y$.]\n\nWhich expression gives the efficiency of the power station?\nA $\\frac{Y}{W}$\nB $\\frac{Y}{W+X}$\nC $\\frac{Y}{X}$\nD $\\frac{Y}{W+X+Y}$"
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q7",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Force is proportional to extension in the initial straight part of the elastic region shown. The work done is the area under the force–extension curve all the way to its endpoint, where the wire breaks. D labels the elastic and plastic regions correctly and shades this full area.",
+      "perOption": {
+        "A": "Omits the area under the later part of the curve.",
+        "B": "Interchanges the labels for the elastic and plastic regions.",
+        "C": "Omits the area under the initial part of the curve.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key calls the elastic region proportional. Proportionality describes the initial straight segment, and elastic deformation can also occur beyond the limit of proportionality.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Interpret the shaded area and identify the elastic and plastic regions on the force–extension curve.",
+    "misconception": "Counting work only in one deformation region",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q8",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "One rotation is $2\\pi$ radians. The angular velocity is $\\omega=2\\pi/T=2\\pi/(24\\times60\\times60)=7.27\\times10^{-5}\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses 3600 seconds as the period, omitting the factor of 24.",
+        "B": "Uses approximately the period of Earth’s orbit around the Sun.",
+        "C": "Divides by the period in minutes and reports the result in $\\mathrm{rad\\,s^{-1}}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a",
+      "circular-motion.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Convert one rotation to radians and the period to seconds.",
+    "misconception": "Using minutes in a rate expressed per second",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q9",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The centripetal force has constant magnitude, and the acceleration always points towards the centre. The kinetic energy $\\tfrac12 mv^2$ is constant because the speed is constant.\n\nAt the lowest point, $T-mg=F_{\\mathrm c}$, so $T=F_{\\mathrm c}+mg$. At the highest point, $T+mg=F_{\\mathrm c}$, so $T=F_{\\mathrm c}-mg$. The tension is therefore lower at the highest point.",
+      "perOption": {
+        "A": "This statement is true because $mv^2/r$ has constant magnitude.",
+        "B": "This statement is true because the acceleration is centripetal.",
+        "C": "This statement is true because $\\tfrac12 mv^2$ is constant.",
+        "D": "Correct. The stated tension comparison is reversed."
+      }
+    },
+    "issues": "Constant speed in a vertical circle is stipulated and would require a tangential force away from the top and bottom, beyond weight and purely radial tension.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.d",
+      "circular-motion.e",
+      "circular-motion.f"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Compare the radial force balances at the top and bottom and check the other consequences of constant speed.",
+    "misconception": "Treating tension as the whole centripetal force",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q10",
+    "keyPage": 10,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational potential is $\\phi=-GM/r$. Moving P and Q closer to the mass makes both potentials more negative, so both magnitudes increase.\n\nThe field strength $g=GM/r^2$ increases at both points as $r$ decreases. Its gradient is steeper closer to the mass, so the field-strength difference across the same separation also increases.",
+      "perOption": {
+        "A": "Both potential magnitudes increase and the field-strength difference increases.",
+        "B": "Treats increasingly negative potentials as decreasing magnitudes.",
+        "C": "Assumes the fixed separation gives a fixed difference even as the field-strength gradient steepens.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The question stem says ‘gravitational field strength between the two points’ while the table and worked solution specify the difference in field strength.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguish a negative potential from its magnitude and compare the inverse-square field across a fixed separation.",
+    "misconception": "Assuming a fixed separation implies a fixed field-strength difference",
+    "transcription": "Two points P and Q are located a fixed distance apart on a straight line joining them to an object considered as a point mass.\n\n[On a straight dashed line, P is to the left of Q, and the object is farther to the right.]\n\nThe two points P and Q are moved closer to the point mass, while keeping the separation between them constant.\n\nWhat happens to the magnitudes of their individual gravitational potentials and to the magnitude of the gravitational field strength between the two points?\n\nOption | magnitudes of gravitational potentials | magnitudes of gravitational field strength difference\nA | both decrease | decreases\nB | both decrease | increases\nC | both increase | stays the same\nD | both increase | increases"
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q11",
+    "keyPage": 10,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking motion towards the wall as positive, each elastic collision changes the molecule’s momentum by $\\Delta p=-mv-(+mv)=-2mv$. By Newton’s third law, the force on the wall is equal in magnitude and opposite in direction to the force on the molecule. With $N$ collisions per second, the average force on the wall has magnitude $N|\\Delta p|=2mvN$.",
+      "perOption": {
+        "A": "Counts only the incoming momentum and omits the momentum of the rebound.",
+        "B": "Correct.",
+        "C": "Gives the molecule’s kinetic energy, which has units of joules.",
+        "D": "Divides by the collision rate and omits the factor of two from the reversal."
+      }
+    },
+    "issues": "The key computes a signed momentum change of −2mv, then uses 2mv in its force calculation. The explanation makes the use of the magnitude explicit.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "collisions"
+    ],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Account for the momentum reversal, then use collision rate and Newton’s third law.",
+    "misconception": "Omitting the momentum reversal",
+    "transcription": "A gas molecule of mass $m$ moves with velocity $v$ and collides elastically with a wall perpendicular to that direction.\n\nIf the molecule makes $N$ such collisions per second with the wall, what is the average force $F$ exerted by the molecule on the wall?\nA $F=mvN$\nB $F=2mvN$\nC $F=\\frac{mv^2}{2}$\nD $F=\\frac{mv}{N}$"
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q12",
+    "keyPage": 11,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $Q=mc\\Delta\\theta$, equate the heat gained by the metal to the heat lost by the liquid. The final temperature $\\theta_f$ satisfies $mc(\\theta_f-20)=(3m)(2.5c)(100-\\theta_f)$. Cancelling $mc$ gives $\\theta_f-20=750-7.5\\theta_f$, so $\\theta_f\\approx91\\,^\\circ\\mathrm{C}$.",
+      "perOption": {
+        "A": "Places equilibrium closer to the metal’s starting temperature even though the liquid has the greater total heat capacity.",
+        "B": "Averages the two temperatures as though their total heat capacities were equal.",
+        "C": "Underestimates the liquid’s heat capacity advantage, so the temperature drop of the liquid is too large.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Set up a heat balance using the unequal masses and specific heat capacities.",
+    "misconception": "Averaging the temperatures without weighting by heat capacity",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2025-prelim-p1-q13",
+    "keyPage": 11,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The flat part of the graph from 4 to 7 minutes is the melting interval, so the substance receives $2000\\times3\\ \\mathrm{J}$ during fusion. Using $Q=mL$ gives $2000\\times3=1\\times L$, so $L=6000\\ \\mathrm{J\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "At fixed power and mass the steeper liquid segment implies a smaller specific heat capacity, since $P=mc\\,\\Delta\\theta/\\Delta t$.",
+        "B": "Correct.",
+        "C": "The $3\\ \\mathrm{K}$ on the graph is the rise from room temperature to the melting point.",
+        "D": "The graph has no second plateau showing when vaporisation begins."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the melting plateau and convert its duration into energy per kilogram.",
+    "misconception": "Reading temperature change as absolute temperature",
+    "transcription": "The graph shows the variation with time $t$ of temperature change $\\Delta\\theta$ for $1\\ \\mathrm{kg}$ of a substance, initially solid at room temperature. The substance receives heat at a uniform rate of $2000\\ \\mathrm{J\\,min^{-1}}$.\n\n[The vertical axis shows $\\Delta\\theta$ in K, and the horizontal axis shows $t$ in min. The graph rises in a straight line from $(0,0)$ to $(4,3)$, is horizontal from $(4,3)$ to $(7,3)$, then rises in a straight line to $(10,8)$. Dashed guides mark the times 4, 7 and 10 min and the temperature changes 3 and 8 K.]\n\nWhat can be deduced from this graph?\nA The specific heat capacity of the substance is greater when liquid than when solid.\nB The specific latent heat of fusion of the substance is $6000\\ \\mathrm{J\\,kg^{-1}}$.\nC The substance melts at a temperature of $3\\ \\mathrm{K}$.\nD After $10\\ \\mathrm{min}$, the substance is all gaseous."
+  }
+]

@@ -1,0 +1,510 @@
+[
+  {
+    "id": "ejc-2023-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $v^2=u^2+2as$ gives $70^2=40^2+2a(300)$. Solving gives $a=5.5\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Drops the initial-speed term $40^2$ from the equation.",
+        "C": "Gives nearly twice the correct acceleration, as can happen if the factor of two in $2as$ is omitted.",
+        "D": "Would require a marker spacing of $110\\ \\mathrm{m}$ for the stated speed change."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires selecting and rearranging one constant-acceleration equation.",
+    "misconception": "Using a constant final speed to estimate travel time.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking downward as positive, $s=ut+\\tfrac12 at^2$ gives $5.0=0+\\tfrac12(9.81)t^2$, so $t=1.00964\\ \\mathrm{s}$. Horizontally, $s_x=v_xt\\approx0.80\\times1.0=0.8\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses a fall time of only about a quarter of a second.",
+        "B": "Uses about half a second, as can happen if the factor of one-half is omitted in the free-fall distance.",
+        "C": "Uses a flight time of about three-quarters of a second, before the mass reaches the ground.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires finding the fall time before calculating the horizontal distance.",
+    "misconception": "Mixing horizontal and vertical motion.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At release the sandbag is moving upwards at $4.0\\ \\mathrm{m\\,s^{-1}}$, so its upward displacement initially increases. Its acceleration is $9.81\\ \\mathrm{m\\,s^{-2}}$ downwards, so the sandbag eventually falls. The displacement is measured from the release point, so $s=0$ when it is released.",
+      "perOption": {
+        "A": "Uses the ground as the displacement origin.",
+        "B": "Uses the ground as the origin and shows zero initial vertical velocity.",
+        "C": "Correct.",
+        "D": "Shows zero initial velocity and upward acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires matching the release position, initial velocity and acceleration to the graph.",
+    "misconception": "Measuring displacement from the ground.",
+    "transcription": "A sandbag is released from a hot air balloon when it is $10\\ \\mathrm{m}$ above the ground and moving vertically upwards at a velocity of $4.0\\ \\mathrm{m\\,s^{-1}}$.\n\nWhich of the following graphs best shows how the displacement $s$ of the sandbag from the point of release will vary with time?\n\n[Each graph plots $s/\\mathrm{m}$ vertically against $t/\\mathrm{s}$ horizontally, with the origin marked $0$.]\nA [Starts at positive $s$, rises to a maximum and then falls to the time axis, curving downwards throughout.]\nB [Starts at positive $s$ with a horizontal tangent and curves downwards to the time axis.]\nC [Starts at the origin, rises to a maximum, then curves down through the time axis to negative $s$.]\nD [Starts at the origin with a horizontal tangent and curves upwards.]"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Apply Newton’s second law to each mass in its direction of motion. For $m_1$, $m_1g-T=m_1a$, and for $m_2$, $T-m_2g=m_2a$. Adding cancels the tension and gives $(m_1-m_2)g=(m_1+m_2)a$, so $a=\\frac{m_1g-m_2g}{m_1+m_2}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Adds the opposing weights and uses the mass difference as the inertia.",
+        "C": "Inverts the ratio of net driving force to combined mass.",
+        "D": "Inverts the force-to-mass ratio and also adds the opposing weights."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must account for opposing weights and the combined inertia of the two masses.",
+    "misconception": "Adding the opposing weights as driving forces.",
+    "transcription": "Two objects of mass $m_1$ and $m_2$ are connected by an inextensible massless string over a frictionless massless pulley as shown. $m_1$ is larger than $m_2$.\n\n[The string passes over the pulley, with $m_1$ hanging lower on the left and $m_2$ hanging on the right.]\n\nWhat is the acceleration $a$ of the two objects in terms of $m_1$, $m_2$ and the acceleration of free fall $g$?\n\nA $a=\\frac{m_1g-m_2g}{m_1+m_2}$\nB $a=\\frac{m_1g+m_2g}{m_1-m_2}$\nC $a=\\frac{m_1+m_2}{m_1g-m_2g}$\nD $a=\\frac{m_1-m_2}{m_1g+m_2g}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total momentum before the collision is zero, so conservation of momentum gives zero total momentum afterwards. The initial kinetic energy is $27\\ \\mathrm{J}$, and an inelastic collision reduces it. Thus $20\\ \\mathrm{J}$ is the only listed kinetic energy paired with zero momentum that is below $27\\ \\mathrm{J}$. Zero kinetic energy would require a perfectly inelastic collision here.",
+      "perOption": {
+        "A": "Keeps the initial kinetic energy, as in an elastic collision.",
+        "B": "Adds the magnitudes of the opposite momenta and assumes kinetic energy is conserved.",
+        "C": "Correct.",
+        "D": "Adds the magnitudes of the opposite momenta, which cancel in the signed sum."
+      }
+    },
+    "issues": "The data only constrain the final kinetic energy to be below 27 J. The value 20 J is selected by elimination.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must conserve signed momentum and use the loss of kinetic energy to eliminate choices.",
+    "misconception": "Treating inelastic collisions as perfectly inelastic.",
+    "transcription": "A $2.0\\ \\mathrm{kg}$ mass travelling at $3.0\\ \\mathrm{m\\,s^{-1}}$ on a frictionless surface collides inelastically with a $1.0\\ \\mathrm{kg}$ mass travelling at $6.0\\ \\mathrm{m\\,s^{-1}}$ in the opposite direction.\n\nWhich line in the table shows the total momentum and the total kinetic energy of the two masses after the collision?\n\n[Table columns are Total Momentum / $\\mathrm{kg\\,m\\,s^{-1}}$ and Total Kinetic Energy / $\\mathrm{J}$.]\nA 0, 27\nB 12, 27\nC 0, 20\nD 12, 20"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At equilibrium, the extra upthrust $U$ balances the vehicle’s weight $W$, giving $W=U$ and $mg=\\rho Vg$. For a rise $h$, the change in displaced volume is $4\\times12.5\\times h$, so $2.0\\times10^4=(4\\times12.5\\times h)\\times1000$. This gives $h=0.40\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the cross-sectional area of only one cylinder.",
+        "B": "Correct.",
+        "C": "Uses twice the actual total cross-sectional area.",
+        "D": "Divides by four again after already accounting for the four cylinders."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires equating the change in upthrust to the removed weight and relating displaced volume to all four cylinders.",
+    "misconception": "Using the cross-sectional area of just one cylinder.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the rear axle. Before loading, $Wx=N(2x)$, so the front-axle reaction is $N=\\frac W2$. With the block loaded, $Wx+w(3x)=N'(2x)$, so $N'=\\frac{W+3w}{2}$. The reaction therefore increases by $N'-N=\\frac{3w}{2}$.",
+      "perOption": {
+        "A": "Uses a moment arm of $x$ for the block about the rear axle.",
+        "B": "Gives the rear axle’s reaction after loading instead of the increase at the front axle.",
+        "C": "Correct.",
+        "D": "Gives the final reaction, which includes the original reaction."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must read the moment arms and distinguish the change in reaction from the final reaction.",
+    "misconception": "Reporting the final reaction as the change.",
+    "transcription": "A forklift truck has a chassis resting on its axles. The chassis has weight $W$ and its centre of gravity G is a distance $x$ from both the front and the rear axles.\n\n[Side view of a forklift. From left to right, the line of action of the block’s downward weight $w$, the front axle, G, the rear axle and the rear edge of the chassis are spaced at intervals of $x$. The block rests on the forks in front of the front axle.]\n\nWhen a uniform block of weight $w$ ($<W$) is placed on the front forks as shown in the diagram above, the force exerted by the front axle on the chassis increases by\n\nA $\\frac{w}{2}$\nB $\\frac{W-w}{2}$\nC $\\frac{3w}{2}$\nD $\\frac{W+3w}{2}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Hooke’s law, tension is directly proportional to extension. The extensions are $x-L$ under tension $T$ and $y-L$ under tension $T'$. Therefore $\\frac{T'}{T}=\\frac{y-L}{x-L}$, giving $T'=\\frac{T(y-L)}{x-L}$.",
+      "perOption": {
+        "A": "Uses total lengths and makes tension decrease as the wire length increases.",
+        "B": "Uses a direct ratio of total lengths instead of extensions.",
+        "C": "Inverts the ratio of new extension to original extension.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main step is identifying extension as the stretched length minus the natural length.",
+    "misconception": "Using total length in Hooke’s law.",
+    "transcription": "A wire of length $L$ obeys Hooke’s Law. It is of length $x$ when it is under a tension $T$.\n\nWhat tension is the wire under when its length is increased to $y$?\n\nA $\\frac{Tx}{y}$\nB $\\frac{Ty}{x}$\nC $\\frac{T(x-L)}{y-L}$\nD $\\frac{T(y-L)}{x-L}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the first $3.0\\ \\mathrm{s}$, drag is negligible and the acceleration is constant at $9.81\\ \\mathrm{m\\,s^{-2}}$. Since $v=at$, $E_K=\\tfrac12 mv^2=\\tfrac12 ma^2t^2$, so kinetic energy is quadratic in time. When the parachute opens, drag increases and the resultant force is upwards, so speed and kinetic energy fall. At terminal speed, kinetic energy levels off at a constant value.",
+      "perOption": {
+        "A": "Shows a decreasing rate of energy gain in free fall and implies the parachutist eventually stops.",
+        "B": "Shows a linear rise and omits the loss of kinetic energy when the parachute opens.",
+        "C": "Correct.",
+        "D": "Uses a linear increase in kinetic energy during free fall."
+      }
+    },
+    "issues": "The batch marks this item as text, but the answer choices depend on the printed curves, which the extracted text does not describe.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "energy-and-fields.e",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine quadratic energy growth in free fall with the approach to terminal speed under drag.",
+    "misconception": "Assuming kinetic energy rises linearly with time in free fall.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The elastic tension provides the centripetal force, so for extension $\\Delta L$, $k\\Delta L=mv^2/r$. With $k$ and $v$ fixed, $m\\propto r\\Delta L$. The radius doubles from $L+e$ to $2(L+e)$, so the new extension is $2(L+e)-L=L+2e$. Hence $\\frac{m_2}{m_1}=2\\frac{L+2e}{e}$ and $m_2=\\frac{2m_1(L+2e)}{e}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the original radius $L+e$ as the new extension.",
+        "C": "Doubles the natural-length term in the new extension instead of doubling the original extension term.",
+        "D": "Uses the new stretched length as the new extension."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must relate mass to both orbital radius and string extension at fixed speed.",
+    "misconception": "Treating the stretched length as the extension.",
+    "transcription": "A mass $m_1$ is attached to one end of an elastic string of an unstretched length $L$. When the mass is rotating with a linear speed $v$ on a smooth table in a horizontal circle, an extension $e$ is obtained.\n\nWhich of the following shows the correct expression for mass $m_2$, attached to the end of the same string, if it is rotated with the same linear speed $v$ but twice the radius as that produced by $m_1$?\n\nA $m_2=\\frac{2m_1(L+2e)}{e}$\nB $m_2=\\frac{2m_1(L+e)}{e}$\nC $m_2=\\frac{2m_1(2L+e)}{e}$\nD $m_2=\\frac{2m_1(2L+2e)}{e}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resultant of tension and weight provides the centripetal force. At the top, $mL(2\\pi f)^2=T_{\\mathrm{top}}+mg$. At the bottom, $mL(2\\pi f)^2=T_{\\mathrm{bottom}}-mg$. Subtracting the two equations gives $T_{\\mathrm{bottom}}-T_{\\mathrm{top}}=2mg$.",
+      "perOption": {
+        "A": "Assumes that a constant centripetal force means a constant tension.",
+        "B": "Correct.",
+        "C": "Takes half the centripetal force as the change in tension, overlooking the opposite radial contributions of weight.",
+        "D": "Uses the whole centripetal force as the change in tension."
+      }
+    },
+    "issues": "The key reverses the sign of the tension difference in its final equation. Its radial equations give bottom tension minus top tension equal to 2mg, so B is correct. Constant speed assumes a tangential influence that offsets gravity during the revolution.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must resolve weight in opposite radial directions and compare two tension equations.",
+    "misconception": "Equating the rope tension with the centripetal force.",
+    "transcription": "A ball of mass $m$ is attached to a rope. The ball is rotating in a vertical circle of radius $L$ with a constant frequency $f$ as shown. The acceleration of free fall is $g$.\n\n[The ball is shown at the upper right of a dashed vertical circle, joined to its centre by the rope. A curved arrow labelled $f$ indicates anticlockwise rotation, and a radius is labelled $L$.]\n\nWhat is the maximum variation in the magnitude of the tension in the string during one revolution of the stone?\n\nA $0$\nB $2mg$\nC $2\\pi^2 f^2mL$\nD $4\\pi^2 f^2mL$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gravitational field strength is $g=GM/r^2$, so $g\\propto1/r^2$. With $r$ the Earth’s radius, the field-strength ratio is $\\frac{10}{5}=\\left(\\frac{x}{r}\\right)^2$. Hence $r=\\frac{x}{\\sqrt2}$.",
+      "perOption": {
+        "A": "Reverses the field-strength ratio and gives a radius larger than the exterior distance.",
+        "B": "Introduces an extra factor of two after taking the square root of the field-strength ratio.",
+        "C": "Uses an inverse-linear dependence on distance.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires taking a square root after forming the inverse-square ratio.",
+    "misconception": "Assuming gravitational field strength varies inversely with distance.",
+    "transcription": "At a point outside the Earth and a distance $x$ from its centre, the Earth’s gravitational field strength is about $5\\ \\mathrm{N\\,kg^{-1}}$. At the Earth’s surface, the gravitational field strength is about $10\\ \\mathrm{N\\,kg^{-1}}$.\n\nWhich one of the following gives an approximate value for the radius of the Earth?\n\nA $x\\sqrt2$\nB $\\frac{x}{2\\sqrt2}$\nC $\\frac{x}{2}$\nD $\\frac{x}{\\sqrt2}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a circular orbit, gravity provides the centripetal force, so $\\frac{GMm}{R^2}=\\frac{mv^2}{R}$. Rearranging gives $E_K=\\frac12 mv^2=\\frac{GMm}{2R}$. At the same satellite mass, increasing $R$ decreases $E_K$.",
+      "perOption": {
+        "A": "An equatorial satellite has a period of about $24\\ \\mathrm{h}$ only at the appropriate circular orbital radius.",
+        "B": "Correct.",
+        "C": "The period satisfies $T^2=\\frac{4\\pi^2R^3}{GM}$, so it is independent of the satellite mass.",
+        "D": "At fixed radius, $E_P+E_K=-\\frac{GMm}{2R}$ becomes more negative as the satellite mass increases."
+      }
+    },
+    "issues": "The worked comment on D says M increases, but the varying mass is the satellite mass m.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j",
+      "gravitational-fields.k",
+      "circular-motion.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must connect gravity to circular orbital motion and distinguish kinetic energy, total energy and period.",
+    "misconception": "Assuming every equatorial orbit is geostationary.",
+    "transcription": "A satellite orbits around the earth along the equatorial plane.\n\nWhich of the following statements is correct?\n\nA The period of the orbit is always 24 hours.\nB A similar satellite orbiting along the equatorial plane with double the orbital radius will have less kinetic energy.\nC The period of the orbit changes with mass of the satellite.\nD A satellite of larger mass orbiting along the equatorial plane with same orbital radius will have more total energy."
+  },
+  {
+    "id": "ejc-2023-promo-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A uniform gravitational field has the same magnitude and direction at every point. A test mass released from rest moves along the field lines, and gravitational potential can vary from point to point.",
+      "perOption": {
+        "A": "Gravitational potential changes along the field direction.",
+        "B": "A test mass released from rest moves in the direction of the field.",
+        "C": "Correct.",
+        "D": "The field points in one fixed direction throughout the region."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.h",
+      "energy-and-fields.h",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It asks students to recognize the defining property of a uniform field.",
+    "misconception": "Confusing uniform field strength with uniform potential.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Kinetic energy is maximum at $t=0$, so the mass starts at equilibrium and its velocity has cosine form. Kinetic energy peaks twice per oscillation, so the graph gives $T=0.800\\ \\mathrm{s}$ and $\\omega=2\\pi/T=7.85\\ \\mathrm{rad\\,s^{-1}}$. From $2.0=\\tfrac12(0.50)v_0^2$, the speed amplitude is $v_0=2.83\\ \\mathrm{m\\,s^{-1}}$. Hence the matching velocity is $v=2.83\\cos(7.85t)$.",
+      "perOption": {
+        "A": "Uses twice the motion’s angular frequency and starts at zero speed, although kinetic energy is initially maximum.",
+        "B": "Correct.",
+        "C": "Uses twice the motion’s angular frequency and starts at maximum displacement, although the mass is initially at equilibrium.",
+        "D": "Uses the displacement amplitude as the acceleration amplitude, whose magnitude is $\\omega v_0=22.2\\ \\mathrm{m\\,s^{-2}}$."
+      }
+    },
+    "issues": "The key’s intermediate acceleration expression uses v₀x₀ where ωv₀ is required. Its numerical acceleration amplitude and answer B are correct. The energy graph alone leaves the sign of the initial velocity undetermined.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.g",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must infer the motion’s period and phase from a kinetic-energy graph and calculate the velocity amplitude.",
+    "misconception": "Using the kinetic-energy period as the oscillation period.",
+    "transcription": "The graph below represents the variation of kinetic energy $E$ with time $t$ of a $0.5\\ \\mathrm{kg}$ mass undergoing simple harmonic motion. Its acceleration is $a$, displacement is $x$ and velocity is $v$.\n\n[Graph of $E/\\mathrm{J}$ against $t/\\mathrm{s}$, with smooth peaks of $2.00\\ \\mathrm{J}$ at $0$, $0.400$ and $0.800\\ \\mathrm{s}$ and minima of zero at $0.200$ and $0.600\\ \\mathrm{s}$.]\n\nWhich of the following equations correctly corresponds to the simple harmonic motion represented above?\n\nA $v=2.83\\sin(15.7t)$\nB $v=2.83\\cos(7.85t)$\nC $x=0.36\\cos(15.7t)$\nD $a=-0.36\\sin(7.85t)$"
+  }
+]

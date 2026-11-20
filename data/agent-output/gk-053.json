@@ -1,0 +1,505 @@
+[
+  {
+    "id": "ejc-2025-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The change in velocity is the final velocity minus the initial velocity. As the two velocities are perpendicular, $|\\Delta\\mathbf{v}|=\\sqrt{0.40^2+0.30^2}=0.50\\ \\mathrm{m\\,s^{-1}}$.\n\nThe magnitude of the change in momentum is $m|\\Delta\\mathbf{v}|=(0.20)(0.50)=0.10\\ \\mathrm{kg\\,m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Subtracts the momentum magnitudes as if the velocities were parallel.",
+        "B": "Correct. The perpendicular components give a momentum change of $0.10$ in the stated units.",
+        "C": "Adds the momentum magnitudes as if the velocities were opposite.",
+        "D": "Uses the change in velocity without multiplying by the ball’s mass."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "collisions"
+    ],
+    "outcomes": [
+      "motion-and-forces.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation needs a right-angle vector subtraction followed by multiplication by mass.",
+    "misconception": "Subtracting momentum magnitudes as scalars",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The drone hovers, so its thrust equals its weight. The four propellers give the initially stationary air downward momentum at a rate of $4(0.400/1.00)(v-0)$.\n\nEquating this to the drone’s weight gives $4(0.400/1.00)(v-0)=1.20(9.81)$, so $v=7.36\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the drone’s mass in place of its weight when balancing thrust.",
+        "B": "Omits both the factor of four for the propellers and the factor of $g$ in the weight.",
+        "C": "Correct. The four propellers together supply enough thrust to balance the weight.",
+        "D": "Assigns the entire thrust to the airflow from one propeller."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must relate the drone’s weight to the combined rate of momentum transfer from four propellers.",
+    "misconception": "Using the mass flow from only one propeller",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial momentum is zero, so fragment C must balance the momentum of A and B along their respective directions. The component equations are $(3m)(4.0)=mv\\sin\\theta$ and $(2m)(6.0)=mv\\cos\\theta$.\n\nDividing gives $\\tan\\theta=1$, so $\\theta=45^\\circ$.",
+      "perOption": {
+        "A": "A $30^\\circ$ angle would make C’s horizontal momentum component smaller than its vertical component.",
+        "B": "Correct. C’s horizontal and vertical momentum components have equal magnitudes.",
+        "C": "A $60^\\circ$ angle would make C’s horizontal momentum component larger than its vertical component.",
+        "D": "A $70^\\circ$ angle would give a horizontal-to-vertical momentum ratio far above one."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.b",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve momentum in two directions and eliminate the unknown fragment speed.",
+    "misconception": "Comparing fragment speeds without accounting for mass",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant velocity, $F_{\\mathrm{drive}}=F_{\\mathrm{resistive}}+mg\\sin\\theta$. The driving force is the useful power divided by speed, so $\\frac{60}{100}\\frac{80\\,000}{6.5}=F_{\\mathrm{resistive}}+(1000)(9.81)\\sin45^\\circ$.\n\nThis gives $F_{\\mathrm{resistive}}\\approx450\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct. The downslope weight component accounts for most of the driving force.",
+        "B": "Uses the full input power to calculate the driving force.",
+        "C": "Uses the driving force as the resistive force and omits the downslope weight component.",
+        "D": "Adds the downslope weight component to the driving force when solving for resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "energy-and-fields.n",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert input power to driving force and then balance forces along the slope.",
+    "misconception": "Confusing engine input power with useful mechanical power",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The vertical component of the spring tension balances the weight, so $kx\\cos\\theta=mg$. Its horizontal component provides the centripetal force, so $kx\\sin\\theta=mr(2\\pi/T)^2$.\n\nDividing the equations and using $r=0.108\\sin27^\\circ$ gives $\\tan27^\\circ=\\frac{4\\pi^2(0.108\\sin27^\\circ)}{T^2(9.81)}$, so $T=0.62\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct. The two components of spring tension determine the period.",
+        "B": "This period gives a centripetal force too small for the horizontal component of tension.",
+        "C": "Treats $10.8\\ \\mathrm{cm}$ as $10.8\\ \\mathrm{m}$, making the period ten times too large.",
+        "D": "This period would require a much larger orbital radius at the stated angle."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must resolve the spring force, obtain the orbit radius and combine the equations to find the period.",
+    "misconception": "Using the spring-to-sphere distance as the orbital radius",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a circular orbit, the total energy is $E=-K$, so equal kinetic energies give equal total energies. Since $K=GMm/(2r)$, the more massive satellite A must have a larger orbital radius.\n\nThe relation $T^2=4\\pi^2r^3/(GM)$ gives A a longer period, and $\\omega=2\\pi/T$ then gives it a smaller angular velocity.",
+      "perOption": {
+        "A": "Correct. In a circular orbit, total energy is the negative of kinetic energy.",
+        "B": "At fixed $K$, the relation $K=GMm/(2r)$ gives A a larger radius.",
+        "C": "The larger radius of A gives it a longer period because $T^2\\propto r^3$.",
+        "D": "A’s longer period gives it a smaller angular velocity because $\\omega=2\\pi/T$."
+      }
+    },
+    "issues": "Both the key and the intended answer assume circular orbits, which the question leaves implicit.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare circular-orbit energies and link orbital radius to period and angular velocity.",
+    "misconception": "Assuming a more massive satellite must have greater total orbital energy",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q12",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A thermometer uses a property that changes with temperature, so the property can be calibrated. Linearity is an assumption used in constructing empirical centigrade scales, while a thermometer can also be calibrated using a nonlinear response.",
+      "perOption": {
+        "A": "A solid or gas can also supply a thermometric property.",
+        "B": "Linearity is a calibration assumption in an empirical centigrade scale, and a nonlinear property can also be calibrated.",
+        "C": "Correct. A temperature-dependent property supplies the thermometer reading.",
+        "D": "An ideal-gas equation of state applies to a particular model, while thermometers can use a range of substances and properties."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question asks for the defining feature of a thermometric substance.",
+    "misconception": "Assuming thermometric properties must vary linearly",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The period is $T=1/f=1/1.50\\approx0.67\\ \\mathrm{s}$. Starting at the crest gives $x=x_0\\cos\\omega t$, so at $0.75\\ \\mathrm{s}$ the displacement is $0.120\\cos[(2\\pi)(1.50)(0.75)]\\approx0.08485\\ \\mathrm{m}$, or about $85\\ \\mathrm{mm}$.\n\nP travels four amplitudes in the first cycle and then moves down from $120$ to $85\\ \\mathrm{mm}$, giving $4(120)+(120-85)=515\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Counts only the distance after the first complete cycle.",
+        "B": "Gives the final displacement from equilibrium instead of the accumulated distance.",
+        "C": "Undercounts the completed cycle, which alone contributes $480\\ \\mathrm{mm}$.",
+        "D": "Correct. The full cycle and the final partial cycle give $515\\ \\mathrm{mm}$."
+      }
+    },
+    "issues": "The key truncates the intermediate displacement to 0.0848 m. The calculated value is about 0.08485 m and gives the same answer.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.a",
+      "wave-motion.b",
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must count the distance in a full cycle and calculate the remaining motion from the oscillation phase.",
+    "misconception": "Confusing displacement from equilibrium with total distance",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Particles on either side of a compression are displaced towards its centre. Taking right as positive, the particles between P and the central compression are displaced to the right and those between the compression and Q are displaced to the left.\n\nThe displacement is zero at the centres of the rarefactions at P and Q and at the centre of the intervening compression.",
+      "perOption": {
+        "A": "Shows positive displacement on both sides of the intervening compression.",
+        "B": "Shows negative displacement on both sides of the intervening compression.",
+        "C": "Correct. The displacement is positive on the left of the compression and negative on its right.",
+        "D": "Places displacement maxima at P and Q, where the displacements are zero."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer signed displacements from particle spacing around a compression.",
+    "misconception": "Treating compression as a displacement extremum",
+    "transcription": "A progressive longitudinal sound wave moves through air. The diagram shows the positions of the air particles along part of the wave at one instant.\n\n[Eleven dots lie in a horizontal row. The first three are tightly spaced, then a fourth dot and P appear at increasing intervals. Between P and Q are five dots, with the middle three tightly clustered halfway between P and Q. A double-headed arrow marked $x$ spans P to Q.]\n\nPoint Q is a distance $x$ from point P.\n\nWhich graph shows the variation of the displacement of the air particles with distance from P along the wave?\n\n[Each graph has displacement on the vertical axis and distance on the horizontal axis, with $0$ at the origin and $x$ marked on the horizontal axis.]\n\nA [A positive half-wave, starting at zero and returning to zero at $x$.]\nB [A negative half-wave, starting at zero and returning to zero at $x$.]\nC [One full cycle, starting at zero, rising to a positive maximum, falling through zero to a negative minimum, then returning to zero at $x$.]\nD [One full cycle, starting at a positive maximum, falling to a negative minimum halfway along and rising to a positive maximum at $x$.]"
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first filter transmits $I_0\\cos^2 30^\\circ$ and polarises the transmitted wave along its axis. The second axis is $60^\\circ$ from that direction, so $I=(I_0\\cos^2 30^\\circ)(\\cos^2 60^\\circ)=0.19I_0$.",
+      "perOption": {
+        "A": "Applies the second filter to the original vertical polarisation.",
+        "B": "Uses $60^\\circ$ for both filters instead of using $30^\\circ$ for the first.",
+        "C": "Correct. The two intensity factors are $\\cos^2 30^\\circ$ and $\\cos^2 60^\\circ$.",
+        "D": "Uses $30^\\circ$ for both filters instead of using $60^\\circ$ for the second."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies Malus’s law twice and identifies the angle between the transmission axes.",
+    "misconception": "Measuring the second filter angle from the original polarisation",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q16",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The in-phase amplitudes initially add to $A+A=2A$, giving $I=k(2A)^2$. Doubling P’s amplitude changes the total to $2A+A=3A$, giving $I'=k(3A)^2$.\n\nDividing gives $I'/I=(3A)^2/(2A)^2=9/4$, so $I'\\approx2.3I$.",
+      "perOption": {
+        "A": "Inverts the squared amplitude ratio.",
+        "B": "Uses the amplitude ratio directly as the intensity ratio.",
+        "C": "Correct. Squaring the amplitude ratio gives $9/4$.",
+        "D": "Uses the new amplitude in units of a single wave’s amplitude as the intensity multiplier."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.a",
+      "wave-motion.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must add the in-phase amplitudes first and then square their ratio.",
+    "misconception": "Scaling intensity linearly with amplitude",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q17",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fringe spacing is $x=\\lambda D/a=\\left(\\frac{3.00\\times10^8}{1.5\\times10^{12}}\\right)\\left(\\frac{4.0}{80\\times10^{-3}}\\right)=10\\ \\mathrm{mm}$. The third minimum is two and a half fringe spacings from the central maximum, so the sensor moves $2.5x=25\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "The distance is less than the $5.0\\ \\mathrm{mm}$ needed to reach even the first minimum.",
+        "B": "Stops after one fringe spacing, at the first maximum beyond the centre.",
+        "C": "Correct. The third minimum is at $2.5$ fringe spacings.",
+        "D": "Counts each maximum-to-minimum interval as a full fringe spacing instead of half a spacing."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.h",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate fringe spacing and count the offset of the third minimum from the central maximum.",
+    "misconception": "Counting one full fringe spacing from a maximum to the next minimum",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Nine dots give a central maximum and four orders on each side. From $d\\sin\\theta=n\\lambda$ at the limiting angle of $90^\\circ$, the fourth order requires $d\\ge4(5.50\\times10^{-7})=2.20\\times10^{-6}\\ \\mathrm{m}$.\n\nThe fifth order reaches that limit at $d=5(5.50\\times10^{-7})=2.75\\times10^{-6}\\ \\mathrm{m}$, so $d$ must be below this value. The spacing $2.25\\times10^{-6}\\ \\mathrm{m}$ lies in the required range.",
+      "perOption": {
+        "A": "Correct. It allows orders up to the fourth on both sides.",
+        "B": "This spacing already allows a fifth order on each side.",
+        "C": "This spacing allows orders above the fourth, including the seventh.",
+        "D": "This spacing allows orders above the fourth, including the eighth."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must count symmetric diffraction orders and use the limiting angle to bound the grating spacing.",
+    "misconception": "Counting the central maximum as a first-order fringe",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q19",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The minimum separation $s$ at distance $r$ satisfies $s/r\\approx\\lambda/b$, where $b$ is the aperture diameter. Using the key’s assumed wavelength of $550\\ \\mathrm{nm}$ gives $\\frac{s}{20(3.00\\times10^8)(365)(24)(60)(60)}=\\frac{550\\times10^{-9}}{3.0}$.\n\nHence $s=3.47\\times10^{10}\\ \\mathrm{m}$, which rounds to $3.5\\times10^{10}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This separation subtends an angle far below the diffraction limit at the assumed wavelength.",
+        "B": "This separation also subtends an angle too small for the aperture to resolve at the assumed wavelength.",
+        "C": "Correct. It matches the diffraction limit using $550\\ \\mathrm{nm}$.",
+        "D": "This is ten times the minimum separation from the diffraction calculation."
+      }
+    },
+    "issues": "The question supplies no wavelength. C is the intended approximate answer for visible light, and the key assumes 550 nm without stating why.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert light years to metres and use the diffraction-limited angle to find a linear separation.",
+    "misconception": "Confusing angular resolution with linear separation",
+    "transcription": "A double star is at a distance of $20$ light years from the Earth. A telescope with a diameter of $3.0\\ \\mathrm{m}$ is used to view the star.\n\nA light year is the distance light travels in a vacuum in one year.\n\nWhat is the approximate minimum separation between the two stars of the double star that can be detected by the telescope?\n\nA $5.0\\times10^8\\ \\mathrm{m}$\nB $1.0\\times10^9\\ \\mathrm{m}$\nC $3.5\\times10^{10}\\ \\mathrm{m}$\nD $3.5\\times10^{11}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q20",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current is $I=nAve$, where $n$ is the electron number density. For $N$ electrons in the wire, $n=N/(AL)$, so the cross-sectional area cancels.\n\nThus $v=IL/(Ne)=\\frac{5.0(2.0)}{(1.5\\times10^{24})(1.6\\times10^{-19})}=4.17\\times10^{-5}\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. The drift speed rounds to $4.2\\times10^{-5}\\ \\mathrm{m\\,s^{-1}}$.",
+        "B": "This speed would require a larger current for the given number of electrons per metre.",
+        "C": "This speed is more than two orders of magnitude too large for the specified charge flow.",
+        "D": "This speed is far too large because the given electron population needs only a small drift to carry $5.0\\ \\mathrm{A}$."
+      }
+    },
+    "issues": "The options give speed only. The electron drift direction is opposite to conventional current.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert the total electron count to a number density and cancel the cross-sectional area.",
+    "misconception": "Using total electron count as number density",
+    "transcription": null
+  }
+]

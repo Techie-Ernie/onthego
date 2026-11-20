@@ -1,0 +1,501 @@
+[
+  {
+    "id": "ejc-2026-prelim-p1-q21",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The series connection gives both conductors the same current and hence the same number of charge carriers passing per unit time. In $I=nAvq$, $n$ and $q$ are the same for both, so $A_Xv_X=A_Yv_Y$. Since X has the larger cross-sectional area, $v_X<v_Y$.",
+      "perOption": {
+        "A": "Assigns Y a greater carrier flow rate even though the series currents are equal.",
+        "B": "Assumes equal drift speeds despite the smaller cross-sectional area of Y.",
+        "C": "Assigns Y a greater carrier flow rate and overlooks the increase in drift speed.",
+        "D": "Correct. Y has the same carrier flow rate and a higher drift speed."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.a",
+      "currents.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires linking equal series current to drift speed.",
+    "misconception": "Confusing carrier flow rate with drift speed",
+    "transcription": "Two cylindrical conductors, X and Y, are made from the same material. The conductors have equal lengths, but Y has a smaller diameter than X.\n\nX and Y are connected in series to a cell.\n\nWhich row compares the number of charge carriers per unit time passing through X and through Y and compares the average drift speed of the charge carriers in X and in Y?\n\nNumber of charge carriers per unit time | Average drift speed of charge carriers\nA. Y greater than X | Y greater than X\nB. Y same as X | Y same as X\nC. Y greater than X | Y same as X\nD. Y same as X | Y greater than X"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q22",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The peak-to-peak voltage is $18\\ \\mathrm{V}$, so the peak voltage is $V_0=9.0\\ \\mathrm{V}$. The voltage across the resistor is half-wave rectified, giving $V_{\\mathrm{rms}}=V_0/2=4.5\\ \\mathrm{V}$. Hence $I_{\\mathrm{rms}}=V_{\\mathrm{rms}}/R=4.5/80=0.056\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the r.m.s. factor for a full sinusoid.",
+        "C": "Uses the peak current or treats the peak-to-peak voltage as the peak when applying the half-wave factor.",
+        "D": "Treats the peak-to-peak voltage as the peak and uses the full-sinusoid r.m.s. factor."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.f",
+      "currents.j",
+      "circuits.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires converting peak-to-peak voltage and accounting for half-wave rectification before applying Ohm’s law.",
+    "misconception": "Using the full-sine r.m.s. factor after rectification",
+    "transcription": "The sinusoidal a.c. source shown in the circuit diagram below has a peak-to-peak voltage of $18\\ \\mathrm{V}$.\n\n[The sinusoidal a.c. source, a diode oriented to conduct clockwise, and an $80\\ \\Omega$ resistor are connected in a single series loop.]\n\nWhat is the r.m.s. current through the $80\\ \\Omega$ resistor?\n\nA. $0.056\\ \\mathrm{A}$\nB. $0.080\\ \\mathrm{A}$\nC. $0.11\\ \\mathrm{A}$\nD. $0.16\\ \\mathrm{A}$"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q23",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Wire X has resistance $R_X=\\rho L/A$. Since $R_Y=R_X$, $\\rho_Y(2L)/A_Y=\\rho L/A$. Thus $\\rho_Y/A_Y=\\rho/(2A)$, which is the ratio in B.",
+      "perOption": {
+        "A": "Gives $\\rho_Y/A_Y=\\rho/A$, twice the required ratio.",
+        "B": "Correct.",
+        "C": "Gives $\\rho_Y/A_Y=2\\rho/A$, four times the required ratio.",
+        "D": "Gives $\\rho_Y/A_Y=2\\rho/A$, four times the required ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing resistivity-to-area ratios at equal resistance.",
+    "misconception": "Ignoring the inverse dependence on area",
+    "transcription": "A piece of wire X has resistivity $\\rho$, length $L$ and cross-sectional area $A$. Wire X has a resistance $R$.\n\nA second piece of wire Y is made of a different metal. It has the same resistance as X but has twice the length of X.\n\nWhich row gives possible values for the resistivity and the cross-sectional area of Y?\n\nResistivity | Cross-sectional area\nA. $\\frac{1}{2}\\rho$ | $\\frac{1}{2}A$\nB. $\\frac{1}{2}\\rho$ | $A$\nC. $\\rho$ | $\\frac{1}{2}A$\nD. $2\\rho$ | $A$"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q24",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The series resistor and thermistor carry the same current. Their potential differences must add to $12\\ \\mathrm{V}$. At $0.36\\ \\mathrm{mA}$, the graph gives $5.4\\ \\mathrm{V}$ across the resistor and $6.6\\ \\mathrm{V}$ across the thermistor, so the total is $12\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assigns $6.0\\ \\mathrm{V}$ to the resistor, but the thermistor needs more than the remaining $6.0\\ \\mathrm{V}$ at this current.",
+        "C": "Uses the crossing of the curves, where the two potential differences add to more than the supply voltage.",
+        "D": "Applies the full battery voltage to the fixed resistor alone."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.e",
+      "circuits.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires reading both curves at a common current and adding the corresponding voltages.",
+    "misconception": "Using the intersection of the two I–V curves",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q25",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic field circles clockwise around P. Only its vertical component contributes to the force on Q, and that component points up at Y and down at Z. With current in Q flowing to the right, Fleming’s left-hand rule gives a force out of the page at Y and into the page at Z.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses both force directions, as would reversing the field around P.",
+        "C": "Treats the forces as attraction and repulsion in the plane of the page.",
+        "D": "Treats the perpendicular wires as parallel currents attracting each other."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the field at two positions and applying Fleming’s left-hand rule to each.",
+    "misconception": "Applying the force rule for parallel wires",
+    "transcription": "Two long straight wires P and Q are placed perpendicular to each other at a distance $d$ apart. A current flows into the page in wire P while a current flows from left to right in wire Q.\n\nWhat are the directions of the forces acting on wire Q at points Y and Z due to the magnetic field produced by wire P?\n\n[Wire P is marked by a cross in a circle a vertical distance $d$ above horizontal wire Q. Y is to the left of the point directly below P, and Z is to its right. An arrow on Q points right.]\n\nForce at Y | Force at Z\nA. out of page | into page\nB. into page | out of page\nC. towards P | away from P\nD. towards P | towards P"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q26",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Faraday’s law, the induced e.m.f. has magnitude $N|\\Delta\\Phi/\\Delta t|$. With $\\Phi=BA\\cos\\theta$ and $\\theta=55^\\circ$ measured from the coil normal, this becomes $NA\\cos\\theta|\\Delta B/\\Delta t|$. Substitution gives $720(0.060)\\cos55^\\circ\\left|\\frac{(40-70)\\times10^{-3}}{5.0}\\right|=0.15\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses $\\cos35^\\circ$ by treating the angle to the plane as the angle to its normal.",
+        "C": "Omits the angular projection of the magnetic field.",
+        "D": "Calculates the magnitude of the change in flux linkage and omits division by the elapsed time."
+      }
+    },
+    "issues": "The key’s first line omits the magnitude bars on the flux-linkage derivative. The subsequent steps use the magnitude correctly.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires projecting the magnetic field onto the coil normal and calculating the rate of change of flux linkage.",
+    "misconception": "Using the angle to the plane as the angle to its normal",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q27",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A photon has energy $E=hf=hc/\\lambda$ and momentum $p=h/\\lambda$. Since X has the longer wavelength, it has both the smaller energy and the smaller momentum.",
+      "perOption": {
+        "A": "Treats both photon energy and momentum as increasing with wavelength.",
+        "B": "Reverses the energy comparison even though energy is inversely proportional to wavelength.",
+        "C": "Reverses the momentum comparison even though momentum is inversely proportional to wavelength.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires recognising the inverse wavelength dependence of two standard photon quantities.",
+    "misconception": "Assuming longer wavelength means greater energy or momentum",
+    "transcription": "Photon X carries energy $E_X$ and momentum $p_X$, and Photon Y carries energy $E_Y$ and momentum $p_Y$. Photon X has a longer wavelength than Photon Y.\n\nWhich relationships are true?\n\nA. $E_X > E_Y$, $p_X > p_Y$\nB. $E_X > E_Y$, $p_X < p_Y$\nC. $E_X < E_Y$, $p_X > p_Y$\nD. $E_X < E_Y$, $p_X < p_Y$"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q28",
+    "keyPage": 9,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key uses the Heisenberg relation $\\Delta x\\,\\Delta p\\gtrsim h$, giving $\\Delta p\\gtrsim h/\\Delta x$. Taking $\\Delta x$ to scale with the well width, reducing it by a factor of four raises the lower bound on $\\Delta p$ by a factor of four. This is the lower-bound reasoning behind B.",
+      "perOption": {
+        "A": "Treats the uncertainty relation as an upper bound.",
+        "B": "Correct. This is the intended lower-bound interpretation.",
+        "C": "Predicts a decrease even though tighter confinement raises the lower bound on momentum uncertainty.",
+        "D": "Predicts a decrease and interprets the factor of four as a minimum decrease."
+      }
+    },
+    "issues": "B is the intended answer, but the uncertainty relation only constrains the lower bound, not the ratio of actual uncertainties before and after. No option is uniquely justified without specifying how the electron state changes. At fixed quantum number, the actual uncertainty quadruples, satisfying both A and B.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires interpreting how an uncertainty bound changes when the confinement length decreases.",
+    "misconception": "Confusing a lower bound with an upper bound",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q29",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most $\\alpha$-particles pass through the gold foil undeflected. The key uses this observation to infer that the nucleus is much smaller than the atom.",
+      "perOption": {
+        "A": "Confuses the identity of the incident particles with a finding from their scattering.",
+        "B": "Treats the known positive charge of the incident particles as a result of the experiment.",
+        "C": "Correct.",
+        "D": "Comparing the nuclear and electron charges requires additional information about the electrons."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires linking the high proportion of undeflected particles to the small size of the nucleus.",
+    "misconception": null,
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q30",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $B$ be the background count rate, so the initial sample count rate is $200-B$. After four half-lives, the total is $0.25(200)=50$, giving a sample count rate of $50-B$. The sample count rate falls by a factor of $16$, so $\\frac{50-B}{200-B}=(\\frac12)^4=\\frac1{16}$. Thus $800-16B=200-B$, giving $B=40\\ \\mathrm{counts\\,min^{-1}}$.",
+      "perOption": {
+        "A": "Assumes there is no background, which would give a final total of only $12.5\\ \\mathrm{counts\\,min^{-1}}$.",
+        "B": "Divides the initial total by 16 and mistakes the result for the background.",
+        "C": "Correct.",
+        "D": "Treats the final total as pure background even though the sample is still contributing counts."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing total and net counts and solving an equation after four halvings.",
+    "misconception": "Applying radioactive decay to the background contribution",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A frequency of $550\\ \\mathrm{GHz}$ is $5.50\\times10^{11}\\ \\mathrm{Hz}$. Its wavelength is $\\lambda=(3.0\\times10^8)/(5.50\\times10^{11})\\approx10^{-3}\\ \\mathrm{m}$. Green light has a wavelength of order $10^{-7}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "A diameter of $80\\ \\mathrm{\\mu m}$ is reasonable for human hair.",
+        "B": "A volume of $200\\ \\mathrm{cm^3}$ is reasonable for an apple of typical size.",
+        "C": "A sheet of A4 paper has a mass of roughly $5\\ \\mathrm{g}$, giving a weight near $50\\ \\mathrm{mN}$.",
+        "D": "Correct. The wavelength implied by this estimate is far too long."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.b",
+      "quantities-and-measurement.e",
+      "wave-motion.d"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires estimating the scale of a visible wavelength and interpreting the giga prefix.",
+    "misconception": "Confusing GHz and THz for visible light",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For accurate measurements, the mean should lie close to the true value $x_0$. Poor precision means the measured values have a large spread, as shown by the broad curve in B.",
+      "perOption": {
+        "A": "The curve is broad but centred away from $x_0$.",
+        "B": "Correct.",
+        "C": "The visible narrow peak indicates good precision.",
+        "D": "The visible narrow peak indicates good precision."
+      }
+    },
+    "issues": "The supplied question crop cuts off the lower portions of graphs C and D. Their visible peaks are narrow, and A and B are fully visible.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires identifying a distribution centred on the true value with a large spread.",
+    "misconception": "Confusing accuracy with precision",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of a velocity–time graph gives acceleration, so the initial gradient must be half the original. The area under the graph gives the distance between the stations and must be the same for both trains. B preserves that area with the same maximum speed and final deceleration.",
+      "perOption": {
+        "A": "The initial gradient is halved, but the unchanged cruising duration makes the area too large.",
+        "B": "Correct.",
+        "C": "The initial gradient is steeper than the original.",
+        "D": "The initial gradient is steeper than the original."
+      }
+    },
+    "issues": "The plotted endpoints in the original graph and B differ slightly from the intended grid positions. B matches the intended gradients and equal areas to the precision of the sketches.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires checking the gradient and area constraints on the same velocity–time graph.",
+    "misconception": "Matching acceleration while overlooking displacement",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "With equal masses, the system has zero acceleration. By Newton’s first law, the objects can continue moving at constant velocity, so B is the incorrect statement.",
+      "perOption": {
+        "A": "The taut string constrains the two speed magnitudes to be equal.",
+        "B": "Correct. Equal masses can move at constant nonzero speeds.",
+        "C": "A can be heavier and still be moving up while slowing down.",
+        "D": "A can be lighter and moving up while speeding up."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing zero acceleration from zero velocity for connected masses.",
+    "misconception": "Equating zero acceleration with being at rest",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $u_b$ and $v_b$ be the ball’s initial and final speeds, and $v_p$ the pin’s final speed. Momentum conservation, using the mass ratio $5:1$, gives $5u_b=5v_b+v_p$. The equality of relative speeds for an elastic collision gives $u_b-0=v_p-v_b=3.33-v_b$. Solving gives $u_b=1.998\\ \\mathrm{m\\,s^{-1}}$, or $2.00\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Reports the ball’s final speed in place of its initial speed.",
+        "B": "Correct.",
+        "C": "Uses the pin’s final speed as the ball’s initial speed.",
+        "D": "Overstates the initial speed by a factor of two, as would omitting the factor of two from the relative-speed and momentum equations."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires combining momentum conservation with the equality of relative speeds in an elastic collision.",
+    "misconception": "Confusing the pin’s final speed with the ball’s initial speed",
+    "transcription": null
+  }
+]

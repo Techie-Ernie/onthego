@@ -1,0 +1,486 @@
+[
+  {
+    "id": "dhs-2022-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnitude of the induced emf is proportional to the magnitude of the rate of change of magnetic flux. Constant flux gives zero emf, and a straight sloping segment gives a constant emf. The steeper first slope gives the larger emf.",
+      "perOption": {
+        "A": "Shows nonzero emf while the flux is constant and varying emf while its slope is constant.",
+        "B": "Assigns the larger emf to the shallower flux slope.",
+        "C": "Correct. The steeper flux segment gives the taller pulse.",
+        "D": "Copies the flux graph instead of using the magnitude of its slope."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must match the slopes of five flux segments to the emf graph.",
+    "misconception": "Using magnetic flux instead of its rate of change",
+    "transcription": "The magnetic flux, $\\Phi$, through a coil varies with time, $t$, as shown by the first graph. Which one of the following graphs, best represents how the magnitude of the induced emf, $\\varepsilon$, varies in this same period of time?\n\n[$\\Phi$ versus $t$: initially constant and positive, then falls linearly to zero, stays at zero, rises linearly to a lower positive level than the initial level, and stays at that level. Four dashed guides mark the transitions across all graphs.]\n\nA [The $\\varepsilon$–$t$ graph starts at zero, rises linearly during the flux fall, stays at the higher level, falls linearly during the flux rise, then stays at a lower positive level.]\nB [Zero except for two positive rectangular pulses during the flux fall and rise. The first pulse is shorter in height.]\nC [Zero except for two positive rectangular pulses during the flux fall and rise. The first pulse is taller.]\nD [The $\\varepsilon$–$t$ graph has the same shape as the flux graph.]"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Einstein’s photoelectric equation is $hc/\\lambda=\\phi+eV_s$. Halving the wavelength doubles the photon energy. The same metal has the same work function $\\phi$, so the maximum photoelectron kinetic energy and the stopping voltage both more than double.",
+      "perOption": {
+        "A": "Treats the drop in intensity as a drop in stopping voltage.",
+        "B": "Overlooks the increase in photon energy when the wavelength is halved.",
+        "C": "Doubles the stopping voltage as if the work function were zero.",
+        "D": "Correct. The work function is subtracted just once from the doubled photon energy."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must account for the fixed work function when the photon energy doubles.",
+    "misconception": "Scaling stopping voltage directly with photon energy",
+    "transcription": "The stopping voltage when metal X is irradiated with light of wavelength $\\lambda$ and intensity $I$ is $V$.\n\nWhich of the following is most likely the stopping voltage when metal X is irradiated with light of wavelength $\\lambda/2$ and intensity $I/2$?\n\nA $<V$\nB $V$\nC $2V$\nD $>2V$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron’s transverse position is constrained at the slit, where diffraction occurs. The uncertainty principle pairs $\\Delta x$ with the momentum uncertainty $\\Delta p$ in that same transverse direction at the slit.",
+      "perOption": {
+        "A": "Correct. Both uncertainties are transverse and shown at the slit.",
+        "B": "Uses the screen as the location of the position constraint.",
+        "C": "Pairs transverse position uncertainty with longitudinal momentum uncertainty.",
+        "D": "Places the position uncertainty at the screen and uses longitudinal momentum at the slit."
+      }
+    },
+    "issues": "The question prints the approximate uncertainty relation as a literal lower bound of h. The precise lower bound for standard deviations is ℏ/2. The diagram choice still follows from matching the transverse components.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify both the location of the position constraint and the matching momentum component.",
+    "misconception": "Pairing position and momentum uncertainties along different axes",
+    "transcription": "Evidence for the wave-particle duality may be observed by the diffraction of an electron beam at a slit. A diffraction pattern is observed on a suitable screen.\n\nFor an electron passing through the slit, the uncertainty in its position $\\Delta x$ and the uncertainty in its momentum $\\Delta p$ are related by the following expression\n\n$\\Delta p\\Delta x\\ge h$\n\nWhich diagram below shows the positions where $\\Delta x$ and $\\Delta p$ in the equation above are defined and shows them in the correct direction?\n\n[All diagrams show a slit at left, a screen at right and a dashed horizontal beam axis.]\nA [Both arrows point up at the slit, with $\\Delta x$ above the beam axis and $\\Delta p$ below it.]\nB [Both arrows point up at the screen, with $\\Delta x$ above the beam axis and $\\Delta p$ below it.]\nC [At the slit, $\\Delta x$ points up and $\\Delta p$ points right.]\nD [$\\Delta p$ points right at the slit and $\\Delta x$ points up at the screen.]"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Oxygen-28 has 8 protons and 20 neutrons, while calcium-40 has 20 of each, so both are doubly magic. Iron-56 has 26 protons and 30 neutrons, nickel-50 has 28 and 22, and tin-126 has 50 and 76. None of these last three has two magic counts, so the total is 2.",
+      "perOption": {
+        "A": "Misses one of oxygen-28 and calcium-40, which both qualify.",
+        "B": "Correct. Oxygen-28 and calcium-40 each have two magic counts.",
+        "C": "Counts an extra nuclide, for example nickel-50 with its nonmagic neutron count of 22.",
+        "D": "Counts nuclides such as nickel-50 and tin-126 on proton number alone."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students subtract proton number from mass number and check both counts against the supplied list.",
+    "misconception": "Checking proton number alone",
+    "transcription": "When the number of protons and the number of neutrons in a nuclide are both “magic numbers”, it is more stable than expected. Such nuclides are termed “doubly magic”. The first few “magic numbers” are 2, 8, 20, 28, 50, 82, and 126.\n\n$^{28}_{8}\\mathrm{O}$, $^{40}_{20}\\mathrm{Ca}$, $^{56}_{26}\\mathrm{Fe}$, $^{50}_{28}\\mathrm{Ni}$, $^{126}_{50}\\mathrm{Sn}$\n\nHow many of the five nuclides above are “doubly magic”?\n\nA 1\nB 2\nC 3\nD 4"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q30",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph levels off at about $8\\ \\mathrm{s^{-1}}$, the background count rate. When the sample’s contribution halves from $50$ to $25\\ \\mathrm{s^{-1}}$, the measured rate falls from $58$ to $33\\ \\mathrm{s^{-1}}$. The graph gives about $60\\ \\mathrm{s}$ for this decrease.",
+      "perOption": {
+        "A": "Correct. The background-corrected rate halves in about 60 seconds.",
+        "B": "Halving the raw reading to about $29\\ \\mathrm{s^{-1}}$ gives a later crossing around 80 seconds.",
+        "C": "Reading the curve at 100 seconds gives a rate already below the corrected halfway target.",
+        "D": "Using 120 seconds would include a further drop beyond the first halving."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must estimate the background from noisy data and halve the corrected count rate.",
+    "misconception": "Halving the raw count rate",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Precision means the repeated values are close together. D’s readings cluster around $8.45\\ \\mathrm{m\\,s^{-2}}$, well below the accepted value of about $9.81\\ \\mathrm{m\\,s^{-2}}$, so they are precise but inaccurate.",
+      "perOption": {
+        "A": "The readings cluster close to the accepted value, so they are precise and accurate.",
+        "B": "The mean is near the accepted value, but the readings have a large spread.",
+        "C": "The readings are spread out and their mean is below the accepted value.",
+        "D": "Correct. The readings cluster well below the accepted value."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students compare the spread and central value of each set of repeated readings.",
+    "misconception": "Equating repeatability with accuracy",
+    "transcription": "Four students each made a series of measurements of the acceleration of free fall $g$. The table below shows the results obtained.\n\nWhich student obtained a set of results that could be described as precise but not accurate?\n\nStudent | Results, $g/\\mathrm{m\\,s^{-2}}$\nA | 9.81 | 9.79 | 9.84 | 9.83\nB | 9.81 | 10.52 | 9.89 | 8.94\nC | 9.45 | 9.21 | 8.99 | 8.76\nD | 8.45 | 8.46 | 8.50 | 8.41"
+  },
+  {
+    "id": "dhs-2022-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The nominal focal length is $f=(1/50+1/200)^{-1}=40.0\\ \\mathrm{mm}$. Using the lower limits for both distances gives $f_{\\min}=(1/47+1/195)^{-1}=37.9\\ \\mathrm{mm}$. The uncertainty is $40.0-37.9=2.1\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Correct. Extreme-value substitution gives a deviation of about 2.1 mm.",
+        "B": "Adding the fractional uncertainties of $u$ and $v$ as if $f$ were their product gives $0.085(40)=3.4$ mm.",
+        "C": "Overestimates the one-sided deviation of $f$ from its nominal value.",
+        "D": "Adding the fractional uncertainties as for a product and doubling the result treats a full span as the uncertainty."
+      }
+    },
+    "issues": "The key labels 37.9 mm as the maximum, although it is the minimum, and writes the symbolic subtraction in the reverse order from its numerical calculation.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must substitute extreme input values into a reciprocal relationship.",
+    "misconception": "Adding distance uncertainties directly",
+    "transcription": "The equation connecting object distance $u$, image distance $v$ and focal length $f$ for a lens is\n\n$\\frac{1}{f}=\\frac{1}{u}+\\frac{1}{v}$.\n\nA student measures values of $u$ and $v$, with their associated uncertainties. These are\n\n$u=(50\\pm3)\\ \\mathrm{mm}$\n\n$v=(200\\pm5)\\ \\mathrm{mm}$.\n\nWhat is the uncertainty in the value of $f$?\n\nA 2.1 mm\nB 3.4 mm\nC 4.5 mm\nD 6.8 mm"
+  },
+  {
+    "id": "dhs-2022-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=ut+\\tfrac12at^2$ gives $10.0=\\tfrac12(9.81)t^2$, so $t=1.43\\ \\mathrm{s}$. Using $v^2=u^2+2as$ gives $v^2=2(9.81)(10.0)$, so $v=14.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Gives a fall time consistent with omitting the factor of one-half in the displacement equation, and uses that short time to obtain too small a speed.",
+        "B": "Gives the correct impact speed but a time shorter than the constant-acceleration displacement equation allows.",
+        "C": "Gives the correct time but a speed inconsistent with $v^2=2gs$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must use two constant-acceleration equations with zero initial speed.",
+    "misconception": "Using final speed as the average speed",
+    "transcription": "An object is dropped, from rest, 10.0 m above the surface of some water.\n\nAssuming negligible air resistance, what is the time taken to reach the water and the speed with which the object enters the water?\n\nOption | Time / $\\mathrm{s}$ | Speed / $\\mathrm{m\\,s^{-1}}$\nA | 1.02 | 10.0\nB | 1.02 | 14.0\nC | 1.43 | 10.0\nD | 1.43 | 14.0"
+  },
+  {
+    "id": "dhs-2022-promo-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let X rebound to the left with speed $v'$. In an elastic head-on collision the relative speed of approach equals the relative speed of separation, so $v-0=0.67v+v'$. Hence X moves left with speed $v'=v-0.67v=0.33v$.",
+      "perOption": {
+        "A": "Assumes X stops, which would make the separation speed only $0.67v$.",
+        "B": "Correct. The two outgoing speeds add to $v$ because the objects move in opposite directions.",
+        "C": "Uses Y’s outgoing speed for X, which fails to give the required relative speed.",
+        "D": "Confuses the relative separation speed with X’s individual speed."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must use the relative speed relation and account for X rebounding.",
+    "misconception": "Equating individual speeds in an elastic collision",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done is the area under the tension–extension graph. At $x=10.0\\ \\mathrm{cm}$, the triangle and trapezium give $W=\\tfrac12(60)(0.06)+\\tfrac12(60+70)(0.10-0.06)=4.4\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Stops after the first triangle, whose area is only $1.8\\ \\mathrm{J}$.",
+        "B": "Includes too little of the second segment, giving only about $3.1\\ \\mathrm{J}$.",
+        "C": "Correct. The triangle and trapezium sum to $4.4\\ \\mathrm{J}$.",
+        "D": "Includes extra area beyond the target, giving about $5.9\\ \\mathrm{J}$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine a triangular area with a trapezoidal area and convert centimetres to metres.",
+    "misconception": "Using force times extension for a varying force",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The balloon is in equilibrium, so the upthrust equals its weight, $U=mg=80.0(9.81)\\ \\mathrm{N}$. Using $U=V\\rho_{\\mathrm{air}}g$ with $\\rho_{\\mathrm{air}}=1.23\\ \\mathrm{kg\\,m^{-3}}$ gives $V=65\\ \\mathrm{m^3}$.",
+      "perOption": {
+        "A": "Correct. The balloon displaces 80.0 kg of air.",
+        "B": "Uses cubic centimetres for the result obtained with the density in SI units.",
+        "C": "Divides the weight by the air density without the matching factor of $g$ in the upthrust.",
+        "D": "Uses cubic centimetres and a value consistent with leaving an extra factor of $g$."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must balance weight against buoyancy and convert the air density to consistent units.",
+    "misconception": "Using weight in place of mass after cancelling gravity",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "On the way up, kinetic energy is converted into gravitational potential energy. On the way down, gravitational potential energy is converted back into kinetic energy, so their sum remains constant.",
+      "perOption": {
+        "A": "Potential energy increases uniformly with height, while the height changes at a varying rate.",
+        "B": "The kinetic energy is zero at the highest point.",
+        "C": "Correct. The sum of kinetic and gravitational potential energy is constant.",
+        "D": "Velocity changes throughout the motion, so momentum changes."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.a",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students identify the quantity conserved during vertical motion under gravity alone.",
+    "misconception": "Assuming momentum is conserved under gravity",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $T_1$, $T_2$ and $T_3$ be the tensions in the rightmost, middle and leftmost segments. For the rightmost mass, $T_1=4.0\\omega^2$, and the middle and leftmost masses give $T_2-T_1=3.0\\omega^2$ and $T_3-T_2=2.0\\omega^2$. Thus $T_3=9.0\\omega^2=9.0(2.0)^2=36\\ \\mathrm{N}$, the magnitude of the force the rod exerts on the pivot.",
+      "perOption": {
+        "A": "Falls below even the $8\\ \\mathrm{N}$ centripetal force needed for the innermost mass.",
+        "B": "Underestimates the combined force required to accelerate all three masses inward.",
+        "C": "Correct. The pivot-end tension is the sum of the three centripetal force magnitudes.",
+        "D": "Uses the outermost radius of $4.0\\ \\mathrm{m}$ for all three masses."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.e",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must relate the tension differences in three rod segments to the individual centripetal forces.",
+    "misconception": "Using the same orbital radius for all three masses",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-promo-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GMm/r^2=mr(2\\pi/T)^2$. Therefore $T^2=4\\pi^2r^3/(GM)$, so $T^2\\propto r^3$ for both satellites. Substituting the data gives $(T_{\\mathrm{Europa}}/1.77)^2=(6.71/4.22)^3$, hence $T_{\\mathrm{Europa}}\\approx3.5$ days.",
+      "perOption": {
+        "A": "Inverts the radius ratio and predicts a shorter period for the larger orbit.",
+        "B": "Uses a radius dependence weaker than the required $T\\propto r^{3/2}$.",
+        "C": "Takes the period as directly proportional to radius, which assumes equal orbital speeds.",
+        "D": "Correct. Around Jupiter, the period scales as $r^{3/2}$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must derive the orbital period scaling and apply it to a radius ratio.",
+    "misconception": "Assuming equal orbital speeds",
+    "transcription": "The planet Jupiter has satellites called Io and Europa which have different orbital radii and orbital time periods. The table shows the orbital radii for Io and Europa and the orbital time period of Io.\n\nSatellite | Radius / $10^5\\ \\mathrm{km}$ | Period / days\nIo | 4.22 | 1.77\nEuropa | 6.71 | ?\n\nWhat is the orbital time period of Europa?\n\nA 0.88 days\nB 2.4 days\nC 2.8 days\nD 3.5 days"
+  },
+  {
+    "id": "dhs-2022-promo-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The conversion is $T/\\mathrm{K}=T/{}^\\circ\\mathrm{C}+273.15$. Comparing with $y=mx+c$ gives a gradient of 1 and a vertical intercept of 273.15.",
+      "perOption": {
+        "A": "Reverses the sign of the offset for converting Celsius to kelvin.",
+        "B": "Treats the reciprocal of the offset as a scale factor and forces the line through the origin.",
+        "C": "Treats the offset as a scale factor and forces the line through the origin.",
+        "D": "Correct. The scales have equal step sizes and differ by a fixed offset."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students read the intercept and gradient directly from the Celsius-to-kelvin conversion.",
+    "misconception": "Treating a temperature offset as a scale factor",
+    "transcription": "When a graph of temperatures in kelvin against temperatures in degrees Celsius is plotted, a linear graph is obtained.\n\nWhat is the vertical intercept and gradient of this line?\n\nOption | Vertical intercept | Gradient\nA | $-273.15$ | 1\nB | 0 | $1/273.15$\nC | 0 | 273.15\nD | 273.15 | 1"
+  }
+]

@@ -1,0 +1,493 @@
+[
+  {
+    "id": "ejc-2022-promo-p1-q17",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For Q, the only radial force is $T_{PQ}=m\\omega^2(2r)$. For P, the inward tension must overcome the outward pull of PQ and provide the centripetal force, so $T_{XP}-T_{PQ}=m\\omega^2r$. Hence $T_{XP}=3m\\omega^2r>T_{PQ}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "P and Q share the same angular velocity because they remain collinear with X.",
+        "C": "Q has the larger speed because $v=\\omega r$ at the same angular velocity.",
+        "D": "Q has the larger centripetal acceleration because $a=\\omega^2r$ at the same angular velocity."
+      }
+    },
+    "issues": "Key page 5 incorrectly divides by the radius in its radial force equations. Using the same force-balance method with the radius multiplying the other factors still gives A.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c",
+      "circular-motion.e",
+      "circular-motion.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires separate radial force balances for the two masses.",
+    "misconception": "Treating each string tension as the net force",
+    "transcription": "Two identical masses P and Q are attached to two strings of length $r$ each as shown in the figure below. P, Q and X remain collinear as the masses execute a uniform circular motion.\n\n[From left to right, the diagram shows X, P and Q on a straight line. XP and PQ are each labelled $r$. A dashed orbit passes through Q and is centred on X.]\n\nWhich of the following statements is true?\nA. The tension in the string along XP is larger than that along PQ.\nB. The angular velocity experienced by mass Q is larger than that experienced by mass P.\nC. The linear velocity experienced by mass P is larger than that experienced by mass Q.\nD. The centripetal acceleration experienced by mass P is larger than that experienced by mass Q."
+  },
+  {
+    "id": "ejc-2022-promo-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The Moon and Earth both pull toward the right at X, so their field strengths add. Using $g=GM/r^2$, the sum is $(6.67\\times10^{-11})\\left[\\frac{5.97\\times10^{24}}{(387.5\\times10^6)^2}+\\frac{7.35\\times10^{22}}{(2.50\\times10^6)^2}\\right]=0.787\\ \\mathrm{N\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This roughly doubles the field even though the much more distant Earth supplies only a small contribution.",
+        "C": "This overstates the field by about a factor of ten, as would a power-of-ten error in the source terms.",
+        "D": "Multiplying the field by the probe mass gives the force in newtons."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires finding both source distances and adding the two field contributions.",
+    "misconception": "Confusing gravitational force with field strength",
+    "transcription": "A space probe is at location X as shown in the diagram.\n\n[X, the Moon and planet Earth lie on a dashed horizontal line in that order, with the Moon much closer to X.]\n\nGiven the following:\nMass of probe = $65.0\\ \\mathrm{kg}$\nMass of moon = $7.35\\times10^{22}\\ \\mathrm{kg}$\nMass of earth = $5.97\\times10^{24}\\ \\mathrm{kg}$\nDistance between X and centre of moon = $2.50\\times10^3\\ \\mathrm{km}$\nDistance between centres of moon and planet Earth = $385\\times10^3\\ \\mathrm{km}$\n\nWhat is the net gravitational field strength at X?\nA. $0.787\\ \\mathrm{N\\,kg^{-1}}$\nB. $1.6\\ \\mathrm{N\\,kg^{-1}}$\nC. $7.82\\ \\mathrm{N\\,kg^{-1}}$\nD. $51.2\\ \\mathrm{N\\,kg^{-1}}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The radial gravitational force is the negative gradient of the potential energy $E_p=m\\phi$. Thus $F_r=-\\frac{dE_p}{dr}=-m\\frac{d\\phi}{dr}=-mP$, giving a force of magnitude $mP$ directed toward Earth.",
+      "perOption": {
+        "A": "$E/d$ treats the graph as if it passed through the origin.",
+        "B": "$mE/d$ uses an incorrect gradient and counts the mass twice because $E$ is already an energy.",
+        "C": "Correct.",
+        "D": "$P$ gives the field strength in magnitude and must be multiplied by $m$ to give the force."
+      }
+    },
+    "issues": "The key correctly gives the signed radial force as −mP. Option C gives its magnitude, although the question asks for the force without specifying magnitude.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires distinguishing gravitational potential from gravitational potential energy.",
+    "misconception": "Treating potential gradient as force",
+    "transcription": "A stone of mass $m$ moves radially away from Earth.\n\nFor a small distance $x$ above the Earth's surface, the variation with $x$ of the stone's gravitational potential energy $E_p$ is shown.\n\n[The graph plots $E_p$ against $x$ and shows a rising straight line with a positive vertical intercept. Dashed guides mark $E_p=E$ at $x=d$.]\n\nAt a distance $d$ from Earth, the potential energy of the stone is $E$ and the rate of change of potential with distance is $P$.\n\nWhat is the force acting on the stone?\nA. $\\frac{E}{d}$\nB. $\\frac{mE}{d}$\nC. $mP$\nD. $P$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The target moves fastest through equilibrium, in region 3. It spends the least time there, so a randomly timed shot is least likely to hit there.",
+      "perOption": {
+        "A": "The target slows near either turning point, increasing the time it spends there.",
+        "B": "The target crosses regions 2 and 4 more slowly than region 3.",
+        "C": "Correct.",
+        "D": "The speed changes with displacement, so the target spends unequal times in the equal-width regions."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.g"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It links the SHM speed profile to the time spent in each region.",
+    "misconception": "Assuming equal distances take equal times in SHM",
+    "transcription": "A shooting game involves using a gun that fires by itself at random times. The player can only point the gun in a fixed direction while the target moves from side to side with simple harmonic motion, as shown.\n\n[A horizontal double-headed arrow spans five equal regions labelled 1 to 5 from left to right. A circular target is shown centred in region 3.]\n\nAt which of the given region(s) would the player score the least number of hits if he is to aim at this region(s)?\nA. either 1 or 5\nB. either 2 or 4\nC. 3\nD. any of the regions"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top of the motion, take downward as positive so $mg-T=ma$. The maximum downward acceleration is $\\omega^2x_0$, so the minimum tension is $T=m(g-\\omega^2x_0)$. Setting $T=0$ gives $(2\\pi f)^2(0.030)=9.81$, so $f=2.9\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "At zero frequency the acceleration is zero and the tension equals $mg$.",
+        "B": "Correct.",
+        "C": "At $8.3\\ \\mathrm{Hz}$ the peak downward acceleration is already greater than $g$.",
+        "D": "This uses the numerical value of $g$ as a frequency instead of solving $g=(2\\pi f)^2x_0$."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires combining the force balance with the maximum downward acceleration in SHM.",
+    "misconception": "Equating frequency with angular frequency",
+    "transcription": "A platform is oscillating vertically with simple harmonic motion of amplitude $3.0\\ \\mathrm{cm}$. A mass is attached to the bottom of the platform by a string. The frequency of the platform gradually increases while the amplitude remains constant.\n\n[A mass hangs below the platform on a vertical string. A vertical double-headed arrow beside the platform indicates its motion.]\n\nWhat is the lowest frequency at which the tension of the string becomes zero?\nA. $0\\ \\mathrm{Hz}$\nB. $2.9\\ \\mathrm{Hz}$\nC. $8.3\\ \\mathrm{Hz}$\nD. $9.8\\ \\mathrm{Hz}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pendulum covers $16\\ \\mathrm{cm}$ in one full period of $0.80\\ \\mathrm{s}$, then moves another $1.0\\ \\mathrm{cm}$ from $-4.0$ to $-3.0\\ \\mathrm{cm}$. For the extra time $t$, solve $-3.0=-4.0\\cos\\left(\\frac{2\\pi}{0.80}t\\right)$ to get $t=0.092\\ \\mathrm{s}$. The total is $0.80+0.092=0.89\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "This counts only the time for the final centimetre and omits the full period.",
+        "B": "This allots only about 0.05 s for the final centimetre, overestimating the speed near the turning point.",
+        "C": "Correct.",
+        "D": "This allots about 0.15 s for the final centimetre, by which time the pendulum has travelled too far."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires counting the distance in a full cycle and solving for the remaining fraction.",
+    "misconception": "Treating distance travelled as displacement",
+    "transcription": "A pendulum is displaced $4.0\\ \\mathrm{cm}$ to the left and released.\n\nGiven that the period of the oscillation is $0.80\\ \\mathrm{s}$, what is the time it takes to travel a distance of $17\\ \\mathrm{cm}$ after it is released?\nA. $0.092\\ \\mathrm{s}$\nB. $0.85\\ \\mathrm{s}$\nC. $0.89\\ \\mathrm{s}$\nD. $0.95\\ \\mathrm{s}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q23",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Move Q by two wavelengths to the equivalent point Q′ on the first rising section. At Q′, the displacement is half the amplitude, so $1=2\\sin\\theta$ gives $\\theta=\\pi/6$ on that section. P is a crest with phase $\\pi/2$, so the phase difference is $\\pi/2-\\pi/6=\\pi/3$.",
+      "perOption": {
+        "A": "A gap of $\\pi/8$ from the crest would put Q much closer to the crest in displacement.",
+        "B": "$\\pi/6$ is the phase of Q′ measured from the preceding rising zero crossing.",
+        "C": "A gap of $\\pi/4$ from the crest would put Q at about $0.71$ of the amplitude.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires identifying an equivalent phase point and interpreting half-amplitude on a sinusoid.",
+    "misconception": "Confusing the phase of Q with the phase difference",
+    "transcription": "A transverse wave is represented by the following displacement-distance graph.\n\n[The graph plots displacement against distance from source. A sinusoid starts at zero and rises. P is at the first crest, and Q is at half the crest height on the rising section before the third crest.]\n\nWhat is the phase difference between P and Q?\nA. $\\frac{\\pi}{8}$ radians\nB. $\\frac{\\pi}{6}$ radians\nC. $\\frac{\\pi}{4}$ radians\nD. $\\frac{\\pi}{3}$ radians"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q24",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Shift the wave profile slightly to the left because it travels toward the source. At S the displacement increases as the profile shifts, so S is moving upwards. Its acceleration is directed downwards toward equilibrium, so S is slowing down.",
+      "perOption": {
+        "A": "P is instantaneously at rest at the crest.",
+        "B": "Q moves downwards as the profile shifts left.",
+        "C": "R is instantaneously at rest at the trough.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires using the direction of propagation to infer particle velocity and using displacement to infer acceleration.",
+    "misconception": "Confusing wave motion with particle motion",
+    "transcription": "The graph below shows the shape of a part of a transverse wave travelling along a string at a particular instant in time.\n\nAs this is a reflected wave, it is moving towards the source.\n\n[The displacement–distance graph shows P at the first crest, Q at the following downward zero crossing, R at the trough, and S above zero on the rising section toward the next crest.]\n\nWhich statement about the motion of the points on the string is correct?\nA. P is moving upwards.\nB. Q has maximum velocity and is moving upwards.\nC. R is slowing down and moving upwards.\nD. S is slowing down and moving upwards."
+  },
+  {
+    "id": "ejc-2022-promo-p1-q25",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The distance RS is $0.27\\ \\mathrm{m}$ and spans $2.5\\lambda$. Using the speed of sound in air, approximately $330\\ \\mathrm{m\\,s^{-1}}$, gives $f=\\frac{330}{0.27/2.5}\\approx3.1\\ \\mathrm{kHz}$.",
+      "perOption": {
+        "A": "This treats the entire length RS as one wavelength.",
+        "B": "This is about half the correct frequency and corresponds to doubling the wavelength.",
+        "C": "Correct.",
+        "D": "This counts the spacing between a compression and an adjacent rarefaction as one wavelength."
+      }
+    },
+    "issues": "The question itself does not state the speed of sound. The key assumes approximately 330 m/s.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires counting wavelengths from compressions and applying the wave equation.",
+    "misconception": "Confusing compression-to-rarefaction spacing with wavelength",
+    "transcription": "The diagram illustrates the relative positions of particles in air as a sound wave propagates through region RS of length $27\\ \\mathrm{cm}$.\n\n[A dot pattern shows alternating dense compressions and sparse rarefactions. R is over the second compression and S is over the rarefaction between the fourth and fifth compressions. The distance RS is labelled $27\\ \\mathrm{cm}$.]\n\nWhat is the frequency of the sound wave?\nA. $1.2\\ \\mathrm{kHz}$\nB. $1.5\\ \\mathrm{kHz}$\nC. $3.1\\ \\mathrm{kHz}$\nD. $6.1\\ \\mathrm{kHz}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Equal loudness here corresponds to equal intensity. For uniform spherical spreading, $\\frac{P}{4\\pi(8.0)^2}=\\frac{P/3}{4\\pi r_{\\mathrm{new}}^2}$. Hence $r_{\\mathrm{new}}=\\frac{8.0}{\\sqrt{3}}=4.6\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This moves too close, so the reduction in area more than compensates for the lower power.",
+        "B": "This scales the distance linearly with power, ignoring the square in the intensity law.",
+        "C": "Correct.",
+        "D": "This reverses the distance change, reducing the intensity further."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires holding intensity fixed while scaling power and distance.",
+    "misconception": "Using a linear power-to-distance relationship",
+    "transcription": "A point source emits sound waves uniformly in all directions. The loudness of the sound waves is initially measured at a distance of $8.0\\ \\mathrm{m}$ away from the source. The power of the source is then reduced to one-third of its original value.\n\nWhat is the new position from the source where the loudness is perceived to be the same as before?\nA. $1.6\\ \\mathrm{m}$\nB. $2.7\\ \\mathrm{m}$\nC. $4.6\\ \\mathrm{m}$\nD. $14\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For tube P, the fundamental wavelength is $2L$, so the sound speed is $v=f(2L)=2fL$ and the first three resonances are $f,2f,3f$. For tube Q, the fundamental wavelength is $4L$, so its fundamental is $v/(4L)=f/2$. Only odd multiples of that fundamental fit Q, giving $f/2,3f/2,5f/2$.",
+      "perOption": {
+        "A": "P is assigned half-integer multiples of $f$, and Q is incorrectly given the even harmonic $f$.",
+        "B": "Q is incorrectly given the even harmonic $f$.",
+        "C": "P is assigned half-integer multiples of $f$ even though both ends are open.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires relating the pipe boundary conditions to the fundamental and higher resonances.",
+    "misconception": "Allowing even harmonics in a tube closed at one end",
+    "transcription": "The diagram shows two tubes.\n\nThe tubes are identical except tube P is open at its lower end while tube Q is closed at its lower end. Both tubes have open upper ends.\n\n[Two equal vertical tubes are shown, with a tuning fork above tube P on the left. Tube Q on the right has a line closing its lower end.]\n\nA tuning fork placed above tube P causes resonance of the air at frequency $f$. No resonance is found at any frequency lower than $f$ with tube P.\n\nWhich frequencies of the tuning forks will produce resonance when placed just above tube P and tube Q?\n\nA. tube P: $f,\\frac32 f,\\frac52 f$ | tube Q: $\\frac12 f,f,\\frac32 f$\nB. tube P: $f,2f,3f$ | tube Q: $\\frac12 f,f,\\frac32 f$\nC. tube P: $f,\\frac32 f,\\frac52 f$ | tube Q: $\\frac12 f,\\frac32 f,\\frac52 f$\nD. tube P: $f,2f,3f$ | tube Q: $\\frac12 f,\\frac32 f,\\frac52 f$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wavefronts spread out after the gap. Their wavelength stays the same, so the spacing of the curved fronts matches that of the incoming plane fronts.",
+      "perOption": {
+        "A": "The outgoing wavefronts are farther apart than the incoming wavefronts.",
+        "B": "Correct.",
+        "C": "The outgoing wavefront spacing increases as the wave spreads.",
+        "D": "The outgoing wavefronts become farther apart with distance from the gap."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.k"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It requires comparing the spacing of the incoming and outgoing wavefronts.",
+    "misconception": "Assuming diffraction changes wavelength",
+    "transcription": "A plane water wave reaches an obstacle and passes through a gap in the obstacle.\n\nWhich one of the following diagrams shows the resultant wave after emerging from the gap?\n\n[All four diagrams show horizontal incoming wavefronts travelling down toward a horizontal obstacle with a central gap, and curved wavefronts below it.]\nA. [The incoming fronts are tightly spaced and the outgoing fronts are more widely spaced.]\nB. [The incoming and outgoing fronts have approximately equal, uniform spacing.]\nC. [The incoming fronts are fairly closely spaced and the outgoing spacing increases away from the gap.]\nD. [The incoming fronts are uniformly spaced and the outgoing spacing increases away from the gap, with the outer fronts more widely separated.]"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q29",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The low intensity at O, where the path difference is zero, indicates that the sources are in antiphase. The first three maxima occur at path differences $0.5\\lambda$, $1.5\\lambda$ and $2.5\\lambda$, so at X, $S_2X-S_1X=2.5\\lambda$.",
+      "perOption": {
+        "A": "$1.5\\lambda$ gives the second maximum from O.",
+        "B": "$2\\lambda$ leaves antiphase waves out of phase at the detector.",
+        "C": "Correct.",
+        "D": "$3\\lambda$ applies the integer-wavelength maximum condition for in-phase sources."
+      }
+    },
+    "issues": "The key treats the low intensity at O as a central minimum to infer antiphase sources. A low reading alone does not uniquely establish the phase difference.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f",
+      "superposition.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires inferring the source phase relation and counting maxima from the central minimum.",
+    "misconception": "Using the in-phase condition for antiphase sources",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-promo-p1-q30",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the first order, $d\\sin20^\\circ=\\lambda$, so $d/\\lambda\\approx2.9$. Since $\\sin\\theta\\leq1$ in $d\\sin\\theta=n\\lambda$, the largest integer order is 2. Counting the zeroth order and two orders on each side gives five images.",
+      "perOption": {
+        "A": "This gives the largest order instead of the total image count.",
+        "B": "This counts only the central image and the first-order pair.",
+        "C": "This counts the two pairs of nonzero orders but omits the central image.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires using the sine limit to find the maximum order and counting both sides of the centre.",
+    "misconception": "Confusing maximum order with total number of images",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity of the bicycle relative to the car is $\\vec v_{\\mathrm{bicycle}}-\\vec v_{\\mathrm{car}}$. Draw the car's reversed velocity of $15\\ \\mathrm{m\\,s^{-1}}$ south, then add the bicycle's $5.0\\ \\mathrm{m\\,s^{-1}}$ northwest velocity tip to tail. The resultant points mostly south and slightly west.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This makes the westward component larger than the southward component.",
+        "C": "This reverses the resultant and gives the car's velocity relative to the bicycle.",
+        "D": "This points northward, which ignores the dominant southward contribution from subtracting the car's velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires subtracting the car velocity as a vector and judging the direction of the resultant.",
+    "misconception": "Reversing the order of relative-velocity subtraction",
+    "transcription": "A car and a bicycle are equal distances from a crossroads. The car is travelling north with a speed of $15\\ \\mathrm{m\\,s^{-1}}$.\n\nThe bicycle is travelling northwest with a speed of $5.0\\ \\mathrm{m\\,s^{-1}}$.\n\n[The car is south of the crossroads with a northward arrow labelled $15\\ \\mathrm{m\\,s^{-1}}$. The bicycle is northwest of the crossroads with a northwestward arrow labelled $5.0\\ \\mathrm{m\\,s^{-1}}$. A compass arrow marks north as up.]\n\nAt this instant, which arrow represents the velocity of the bicycle relative to the car?\nA. [Arrow mostly down and slightly left.]\nB. [Arrow mostly left and slightly down.]\nC. [Arrow mostly up and slightly right.]\nD. [Arrow mostly left and slightly up.]"
+  }
+]

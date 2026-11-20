@@ -1,0 +1,510 @@
+[
+  {
+    "id": "asrjc-2023-promo-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Intensity is proportional to amplitude squared, so $\\frac{I}{I_1}=\\frac{a^2}{a_1^2}$. With $a_1=a\\cos 60.0^\\circ=0.500a$, the emerging intensity is $I_1=\\frac{(0.500a)^2}{a^2}I=0.250I$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the amplitude ratio directly as the intensity ratio.",
+        "C": "Uses the squared sine, which gives the fraction associated with the blocked component.",
+        "D": "Uses the sine of the angle as the intensity ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The amplitude ratio is given by one cosine and must be squared to obtain the intensity ratio.",
+    "misconception": "Treating intensity as proportional to amplitude.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing the frequency of the vibrating bar reduces the wavelength because the wave speed is constant and $v=f\\lambda$. The slit is then wider relative to the wavelength, so the emerging waves spread less.",
+      "perOption": {
+        "A": "Increasing wave speed at fixed frequency increases wavelength and gives more spreading.",
+        "B": "Correct.",
+        "C": "Reducing amplitude changes the size of the oscillations without changing the wavelength-to-slit-width ratio.",
+        "D": "Shortening the vibrating bar changes the source length while leaving the slit width and wavelength unchanged."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.k",
+      "wave-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The question links frequency to wavelength and wavelength to the amount of spreading.",
+    "misconception": "Judging diffraction by slit width alone.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The grating spacing is $d=\\frac{1.0\\times10^{-3}}{500}=2.0\\times10^{-6}\\ \\mathrm{m}$. Using $d\\sin\\theta=n\\lambda$ with $\\sin\\theta=1$ gives $n=\\frac{2.0\\times10^{-6}}{600\\times10^{-9}}=3.33$, so the highest actual order is 3 on each side. Including the central maximum gives $3+3+1=7$ images.",
+      "perOption": {
+        "A": "Counts only the three noncentral orders on one side.",
+        "B": "Counts the central image and the three orders on one side only.",
+        "C": "Counts both sides but omits the central image.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires finding the grating spacing, taking the highest integer order and counting both sides.",
+    "misconception": "Forgetting the central maximum or one side of the pattern.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The intensity is $I=\\frac{E}{At}$. Expressing energy in SI base units gives $\\frac{(\\mathrm{kg\\,m\\,s^{-2}})\\,\\mathrm{m}}{\\mathrm{m^2\\,s}}=\\mathrm{kg\\,s^{-3}}$.",
+      "perOption": {
+        "A": "Uses $\\mathrm{kg}$ as though it were the SI unit of energy.",
+        "B": "Gives the unit of power by omitting division by area.",
+        "C": "Omits division by time and gives the unit of energy per area.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must expand the joule into SI base units and cancel the area and time factors.",
+    "misconception": "Confusing intensity with power.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Write $\\mathbf Z=\\mathbf X+(-\\mathbf Y)$. Place the tail of $-\\mathbf Y$ at the tip of $\\mathbf X$, so the resultant runs from the tail of $\\mathbf X$ to the tip of $-\\mathbf Y$, as in A.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the required resultant and gives $\\mathbf Y-\\mathbf X$.",
+        "C": "Adds $\\mathbf X+\\mathbf Y$.",
+        "D": "Reverses the sum and gives $-(\\mathbf X+\\mathbf Y)$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must reverse one vector and follow the head-to-tail construction.",
+    "misconception": "Reversing the resultant of vector subtraction.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The car moves at constant speed until $t_1$, so $s$ increases along a straight line with a positive gradient. As the speed falls at a constant rate, $s$ continues to increase with a decreasing gradient that reaches zero at $t_2$.",
+      "perOption": {
+        "A": "Shows discontinuous jumps in accumulated distance, including a drop to zero.",
+        "B": "Shows a constant positive speed during braking and a nonzero speed at the stopping time.",
+        "C": "Correct.",
+        "D": "Shows an increasing gradient, which would mean the car is speeding up."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the speed as the gradient in both phases of the motion.",
+    "misconception": "Confusing the gradient of a distance–time graph with acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Without air resistance, the vertical acceleration is the constant acceleration of free fall, directed downward. Its value is therefore the same at T and Q.",
+      "perOption": {
+        "A": "Confuses the zero vertical velocity at T with the downward acceleration there.",
+        "B": "Assigns a larger vertical acceleration to the apex even though gravity acts throughout the flight.",
+        "C": "Confuses the greater downward speed near Q with a greater downward acceleration.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "gravitational-fields.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question tests direct recall of constant free-fall acceleration.",
+    "misconception": "Confusing zero vertical velocity with zero vertical acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "An action–reaction pair consists of forces of the same type. The man's weight is the gravitational force exerted by Earth on him, so its partner is the gravitational force he exerts on Earth.",
+      "perOption": {
+        "A": "Friction is a contact force exerted on the man by the slope.",
+        "B": "The normal force is a contact force exerted on the man by the slope.",
+        "C": "Correct.",
+        "D": "The sum may balance the weight, but both contact forces act on the man."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "projectile-motion.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The skier's steady speed can distract students from identifying the second force in the gravitational interaction.",
+    "misconception": "Confusing balanced forces with a third-law pair.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking upward as positive, equilibrium in water gives $P+V\\rho_{\\mathrm{water}}g-W=0$, so $\\rho_{\\mathrm{water}}=\\frac{W-P}{Vg}$. In oil, $Q+V\\rho_{\\mathrm{oil}}g-W=0$, so $\\rho_{\\mathrm{oil}}=\\frac{W-Q}{Vg}$. Dividing gives $\\frac{\\rho_{\\mathrm{oil}}}{\\rho_{\\mathrm{water}}}=\\frac{W-Q}{W-P}$.",
+      "perOption": {
+        "A": "Uses the water upthrust as the numerator and the difference in meter readings as the denominator.",
+        "B": "Uses $Q-P$, the difference between the two upthrusts, as the oil upthrust.",
+        "C": "Divides the water upthrust by the oil upthrust, giving the reciprocal.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must write separate equilibrium equations and cancel the common displaced volume and gravitational field strength.",
+    "misconception": "Treating the difference between meter readings as an individual upthrust.",
+    "transcription": "An object of weight $W$ is suspended from a newton meter. When the object is completely immersed in water, the newton meter reads $P$. When the object is completely immersed in oil, the newton meter reads $Q$.\n\n[Two diagrams show the object suspended from a newton meter and fully submerged, first in water with reading $P$, then in oil with reading $Q$.]\n\nWhat is the ratio $\\frac{\\text{density of oil}}{\\text{density of water}}$?\n\nA $\\frac{W-P}{Q-P}$\nB $\\frac{Q-P}{W-P}$\nC $\\frac{W-P}{W-Q}$\nD $\\frac{W-Q}{W-P}$"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By conservation of energy, the loss of kinetic energy equals the gain in gravitational potential energy, $mg\\Delta y$. Thus $E$ decreases linearly as $y$ increases. At the greatest $y$, the ball is momentarily at rest and $E=0$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Plots the descent at increasing $y$, although $y$ decreases after the ball reaches its maximum height.",
+        "C": "Shows a changing gradient even though $E$ falls by $mg$ per metre of height gained.",
+        "D": "Shows a curved relation and assigns positive kinetic energy to displacements above the maximum height."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must express energy in terms of vertical displacement and recognize where the graph ends.",
+    "misconception": "Treating vertical displacement as increasing throughout the flight.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant speed, kinetic energy is unchanged, so the man's work equals the work against friction plus the gain in gravitational potential energy. The work against friction is $1500-5.0\\times9.81\\times12=911.4\\ \\mathrm{J}$. Divide by the distance along the plane to get $\\frac{911.4}{12/\\sin 30^\\circ}=37.9\\ \\mathrm{N}\\approx38\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Subtracts the gain in gravitational potential energy twice before dividing by the slope distance.",
+        "B": "Correct.",
+        "C": "Divides the total work by the slope distance without accounting for the gain in gravitational potential energy.",
+        "D": "Adds the gain in gravitational potential energy to the total work instead of subtracting it."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires separating the energy gain from frictional work and using the distance along the slope.",
+    "misconception": "Using total work as frictional work.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The period is $T=\\frac{2\\pi}{\\pi/2}=4\\ \\mathrm{s}$. After $6.0\\ \\mathrm{s}$ the marble has made 1.5 revolutions, so it is directly opposite P and its displacement has magnitude $2r=2(0.80)=1.6\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the chord for a quarter turn instead of the diameter for a half turn.",
+        "B": "Correct.",
+        "C": "Gives the distance travelled along the circular path.",
+        "D": "Uses the angular displacement in radians as a displacement in metres."
+      }
+    },
+    "issues": "The options give displacement magnitude only. The displacement is directed from P toward the diametrically opposite point.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "circular-motion.b",
+      "motion-and-forces.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must convert angular speed to a period and identify the separation after one and a half turns.",
+    "misconception": "Confusing displacement with distance along a circular path.",
+    "transcription": "A marble moves in a circular path of radius $0.80\\ \\mathrm{m}$ at an angular speed of $\\frac{\\pi}{2}\\ \\mathrm{rad\\,s^{-1}}$. At $t=0$, it passes by point P.\n\nWhat is its displacement from P at $t=6.0\\ \\mathrm{s}$?\n\nA $1.1\\ \\mathrm{m}$\nB $1.6\\ \\mathrm{m}$\nC $7.5\\ \\mathrm{m}$\nD $9.4\\ \\mathrm{m}$"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For satellite mass $m$ and Earth mass $M$, the gravitational potential energy is $-\\frac{GMm}{r}$ and the kinetic energy in a circular orbit is $\\frac{GMm}{2r}$. Moving to a smaller orbital radius $r$ makes the potential energy more negative. The kinetic energy increases, so the orbital speed increases.",
+      "perOption": {
+        "A": "Treats the increase in potential energy magnitude as an increase in its signed value.",
+        "B": "Reverses both trends, since the potential energy becomes more negative and the orbital kinetic energy rises.",
+        "C": "Correct.",
+        "D": "Assumes the speed falls even though the orbital kinetic energy increases."
+      }
+    },
+    "issues": "The question leaves the orbit shape unstated. The key's use of a single orbital radius and speed assumes circular orbits.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must track the sign of gravitational potential energy and connect orbital kinetic energy to speed.",
+    "misconception": "Confusing an increase in the magnitude of negative potential energy with an increase in its value.",
+    "transcription": "A satellite is in an orbit around the Earth. It is moved to a new orbit that is closer to the surface of the Earth. Which of the following correctly describes the changes in the gravitational potential energy and orbital speed of the satellite?\n\nOption | potential energy | speed\nA | increases | increases\nB | increases | decreases\nC | decreases | increases\nD | decreases | decreases"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The thermodynamic temperature scale is defined independently of the properties of any particular substance. Its definition therefore applies regardless of the material used to measure temperature.",
+      "perOption": {
+        "A": "Focuses on the reproducibility of a calibration point instead of the scale's material independence.",
+        "B": "Correct.",
+        "C": "Confuses the operating range of a thermometer with a property of a temperature scale.",
+        "D": "The connection to random kinetic energy also holds for Celsius readings after conversion to absolute temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.a"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question asks for the defining material independence of the thermodynamic scale.",
+    "misconception": "Confusing a calibration reference with the basis of a temperature scale.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stabilized temperature means the filament's internal energy is constant. The hotter filament transfers energy to its surroundings, so the heating term is negative, while the current does positive electrical work on the filament. The first law then gives equal and opposite rates, $-20\\ \\mathrm{W}$ for heating and $+20\\ \\mathrm{W}$ for work done on the filament.",
+      "perOption": {
+        "A": "Treats the electrical input as heating and incorrectly makes the internal energy increase.",
+        "B": "Counts the electrical work input but omits the equal energy transfer to the surroundings.",
+        "C": "Reverses the signs of both energy transfers.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish electrical work input from heating and apply the first law to a steady state.",
+    "misconception": "Treating electrical work as positive heating of the filament.",
+    "transcription": "A $20\\ \\mathrm{W}$ filament lamp has been operating normally for an hour so that its temperature is constant.\n\nWhen the first law of thermodynamics is used to quantitatively describe the filament of the lamp after this time, which row correctly describes the application of the first law?\n\nOption | rate of increase of internal energy / W | rate of heating the filament / W | rate of doing work on filament / W\nA | $+20$ | $+20$ | $0$\nB | $+20$ | $0$ | $+20$\nC | $0$ | $+20$ | $-20$\nD | $0$ | $-20$ | $+20$"
+  }
+]

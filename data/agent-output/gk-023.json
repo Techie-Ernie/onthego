@@ -1,0 +1,506 @@
+[
+  {
+    "id": "dhs-2021-promo-p1-q15",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "During isothermal expansion the internal energy stays constant, so the gas does work $Q$. In the usual quasistatic model, adiabatic compression warms the gas, so its pressure at each smaller volume exceeds the pressure on the isothermal path. The work done on the gas, given by the area under the compression curve, therefore exceeds $Q$. With no heat exchange during compression, this work is the net increase in internal energy.",
+      "perOption": {
+        "A": "Treats equal initial and final volumes as evidence of equal temperatures.",
+        "B": "Would require less compression work than expansion work, although the adiabatic curve lies above the isotherm.",
+        "C": "Ignores the difference between the expansion and compression work.",
+        "D": "Correct. The adiabatic compression requires work greater than $Q$."
+      }
+    },
+    "issues": "The supplied file is the question paper and contains no answer key. The input keyAnswer A is a placeholder. D assumes the standard quasistatic paths, which the question does not explicitly specify.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must compare work across two thermodynamic paths at the same volumes.",
+    "misconception": "Assuming a return to the original volume restores internal energy.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q16",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Assume the rate of heat loss stays the same at the freezing temperature. Just before freezing, the liquid loses heat at $mc(4.0\\ \\mathrm{K\\,min^{-1}})$, and while freezing it loses $mL$ in $25\\ \\mathrm{min}$. Equating the rates gives $c/L=1/(4.0\\times25)=0.01\\ \\mathrm{K^{-1}}$.",
+      "perOption": {
+        "A": "Correct. The ratio is $0.01$.",
+        "B": "Uses the reciprocal of the freezing time alone and omits the cooling rate.",
+        "C": "Uses the freezing time itself in place of the heat-capacity-to-latent-heat ratio.",
+        "D": "Inverts the requested ratio."
+      }
+    },
+    "issues": "The supplied file is the question paper and contains no answer key. The input keyAnswer A is a placeholder. The calculation assumes the heat-loss rate during solidification equals the rate just before solidification.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must equate heat-loss rates across cooling and solidification.",
+    "misconception": "Ignoring the cooling rate when comparing the heat transfers.",
+    "transcription": "The temperature of a hot liquid in a container of negligible heat capacity falls at a rate of $4.0\\ \\mathrm{K}$ per minute just before it begins to solidify. The temperature then remains steady for 25 minutes by which the liquid has all solidified.\n\nWhat is the value of the ratio $\\frac{\\text{specific heat capacity of liquid}}{\\text{specific latent heat of fusion}}$?\n\nA 0.01\nB 0.04\nC 25\nD 100"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q17",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $p=1.0\\times10^5\\ \\mathrm{Pa}$, the volumes on the $T_1$ and $T_2$ curves are $1.0$ and $4.0\\ \\mathrm{m^3}$ respectively. Since $pV=NkT$ and $N$ is fixed, $T_2/T_1=4$. The mean molecular kinetic energy is proportional to $T$, so the r.m.s. speed ratio is $\\sqrt{T_2/T_1}=2$.",
+      "perOption": {
+        "A": "Treats the two states as having the same temperature because their pressures match.",
+        "B": "Correct. The r.m.s. speed ratio is $2$.",
+        "C": "Takes the square root of a temperature ratio of $2$ instead of $4$.",
+        "D": "Uses the temperature ratio directly as the speed ratio."
+      }
+    },
+    "issues": "The supplied file is the question paper and contains no answer key. The input keyAnswer A is a placeholder.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must extract a temperature ratio from the isotherms and then take its square root.",
+    "misconception": "Treating r.m.s. speed as proportional to temperature.",
+    "transcription": "The two curves shown below connect points that have the same temperature for a fixed mass of an ideal gas.\n\n[Graph of $p/(10^5\\ \\mathrm{Pa})$ against $V/\\mathrm{m^3}$, with both axes marked from 0 to 4. The lower curve $T_1$ passes through $(1,1)$ and near $(2,0.5)$. The upper curve $T_2$ passes through $(1,4)$, $(2,2)$ and $(4,1)$. Coordinates are given as (horizontal, vertical).]\n\nWhat is the ratio $\\frac{\\text{r.m.s. speed of the molecules at temperature }T_2}{\\text{r.m.s. speed of the molecules at temperature }T_1}$?\n\nA 1\nB 2\nC $\\sqrt{2}$\nD 4"
+  },
+  {
+    "id": "dhs-2021-promo-p1-q19",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In each revolution a total charge $4Q$ passes a fixed point at the edge of the disc. The disc completes $f$ revolutions per second, so the equivalent current is $I=4Qf$.",
+      "perOption": {
+        "A": "Multiplies the total charge by the tangential speed instead of the rotation frequency.",
+        "B": "Divides by the frequency instead of the period.",
+        "C": "Correct. A charge $4Q$ passes the point each revolution.",
+        "D": "Divides by the circumference even though the number of charge passages per second is already accounted for."
+      }
+    },
+    "issues": "The supplied file is the question paper and contains no answer key. The input keyAnswer A is a placeholder.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.a"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify how much charge passes a fixed point per revolution.",
+    "misconception": "Using tangential speed as the charge passage frequency.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2021-promo-p1-q20",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The charge moved is $It=(0.025)(80)=2.0\\ \\mathrm C$, so the e.m.f. is $18.0/2.0=9.0\\ \\mathrm V$. The internal resistor dissipates $18.0-11.0-4.0=3.0\\ \\mathrm J$. From $E=I^2Lt$, $L=3.0/[(0.025)^2(80)]=60\\ \\Omega$.",
+      "perOption": {
+        "A": "Uses the voltage drop across the internal resistance as the e.m.f.",
+        "B": "Correct. The e.m.f. is $9.0\\ \\mathrm V$ and the internal resistance is $60\\ \\Omega$.",
+        "C": "Uses all $18.0\\ \\mathrm J$ as the energy dissipated internally.",
+        "D": "Double-counts the energy in the external resistors for the e.m.f. and assigns all $18.0\\ \\mathrm J$ to the internal resistor."
+      }
+    },
+    "issues": "The supplied file is the question paper and contains no answer key. The input keyAnswer A is a placeholder.",
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.g",
+      "currents.a",
+      "currents.d",
+      "currents.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish total energy supplied from energy dissipated internally and apply two electrical energy relations.",
+    "misconception": "Using total source energy to calculate the internal resistance.",
+    "transcription": "A battery supplies a current of $0.025\\ \\mathrm A$ for $80\\ \\mathrm s$. During this time it produces $18.0\\ \\mathrm J$ of electrical energy while resistor M receives $11.0\\ \\mathrm J$ and resistor N receives $4.0\\ \\mathrm J$.\n\n[Circuit diagram with three branches between two common junctions. The upper branch has a cell in series with resistor L, both enclosed by a dashed rectangle. The middle branch contains resistor M and the lower branch contains resistor N.]\n\nWhat is the e.m.f. of the battery and its internal resistance L?\n\nOption | e.m.f. of battery / V | internal resistance L of battery / $\\Omega$\nA | 1.5 | 60\nB | 9.0 | 60\nC | 9.0 | 360\nD | 16.5 | 360"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The prefix giga denotes $10^9$. Thus $128\\ \\mathrm{GB}=128\\times10^9\\ \\mathrm B=1.28\\times10^{11}\\ \\mathrm B$.",
+      "perOption": {
+        "A": "Uses the mega factor $10^6$ for giga.",
+        "B": "Uses the giga factor but loses two powers of ten when rewriting 128 as 1.28.",
+        "C": "Loses one power of ten when converting to scientific notation.",
+        "D": "Correct. The capacity is $1.28\\times10^{11}\\ \\mathrm B$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.b"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The conversion uses one familiar prefix and one change to scientific notation.",
+    "misconception": "Treating giga as a smaller power of ten.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The measured length is $(891.5\\pm0.5)\\ \\mathrm{mm}$, and the true length is $895\\ \\mathrm{mm}$. The mean is $3.5\\ \\mathrm{mm}$ below the true value, so the readings fail the accuracy criterion. The spread about the mean is only $\\pm0.5\\ \\mathrm{mm}$, so the readings are precise to within $1\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Correct. The readings are precise to within 1 mm and fail the accuracy criterion.",
+        "B": "Mistakes the offset from the true length for scatter among the readings.",
+        "C": "Reverses the judgments for accuracy and precision.",
+        "D": "Assumes tightly clustered readings must also be close to the true length."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare the readings both with each other and with the true value.",
+    "misconception": "Confusing repeatability with closeness to the true value.",
+    "transcription": "A steel rule can be read to the nearest millimetre. It is used to measure the length of a bar whose true length is $895\\ \\mathrm{mm}$. Repeated measurements give the following readings.\n\nLength / mm | 892, 891, 892, 891, 891, 892\n\nAre the readings accurate and precise to within $1\\ \\mathrm{mm}$?\n\nOption | results are accurate to within 1 mm | results are precise to within 1 mm\nA | no | yes\nB | no | no\nC | yes | no\nD | yes | yes"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Options A, B and C are valid displacement equations for uniform acceleration. D uses half the change in velocity where the average velocity should be $\\tfrac12(u+v)$.",
+      "perOption": {
+        "A": "This is the valid constant-acceleration equation $s=ut+\\tfrac12at^2$.",
+        "B": "This is the valid form $s=vt-\\tfrac12at^2$.",
+        "C": "This is the valid equation $s=(v^2-u^2)/(2a)$ written in factored form.",
+        "D": "Correct. The expression uses the velocity difference to calculate the average."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognize equivalent forms of the uniform-acceleration equations.",
+    "misconception": "Using half the change in velocity as the average velocity.",
+    "transcription": "A body having uniform acceleration $a$ increases its velocity from $u$ to $v$ in time $t$.\n\nWhich expression would not give a correct value for the body’s displacement during time $t$?\n\nA $ut+\\frac12 at^2$\nB $vt-\\frac12 at^2$\nC $\\frac{(v+u)(v-u)}{2a}$\nD $\\frac{(v-u)t}{2}$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the displacement–time graph gives the velocity. Once the sphere reaches terminal velocity, the graph becomes a straight line with a positive gradient because displacement is measured in the direction of the fall.",
+      "perOption": {
+        "A": "Starts with a nonzero speed that decreases towards zero, although the sphere is released from rest.",
+        "B": "Shows a continually increasing speed with no steady terminal speed.",
+        "C": "Levels off at zero speed, and its initial gradient indicates a nonzero release speed.",
+        "D": "Correct. The gradient becomes constant and positive at terminal velocity."
+      }
+    },
+    "issues": "The keyed graph assumes downward displacement from the release point and that terminal velocity is reached before impact.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.c",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read velocity from the graph’s gradient and recognize terminal motion.",
+    "misconception": "Drawing a horizontal displacement–time line for terminal velocity.",
+    "transcription": "A sphere is released from a tall building and falls.\n\nWhich displacement-time graph best represents the motion of the sphere?\n\n[All graphs have displacement on the vertical axis and time on the horizontal axis, with zero marked at the origin.\nA starts at positive displacement and falls steeply before flattening near zero.\nB starts at positive displacement with an almost horizontal tangent and curves increasingly steeply down to zero.\nC starts at the origin and rises before flattening into a horizontal line at positive displacement.\nD starts at the origin with an almost horizontal tangent, steepens, and then continues as an upward straight line.]"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The book’s weight is Earth’s downward gravitational pull on the book. Its reaction is the book’s upward gravitational pull on Earth, also of magnitude $W$. The forces act simultaneously on different objects, and both are gravitational.",
+      "perOption": {
+        "A": "Pairs the book’s weight with a downward contact force from the table.",
+        "B": "Uses the equal upward support force, which also acts on the book and comes from a different interaction.",
+        "C": "Correct. The book pulls upward on Earth by gravity.",
+        "D": "Uses a contact force on the table from a separate interaction."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish a gravitational third-law pair from the forces balancing on the book.",
+    "misconception": "Pairing the book’s weight with its normal force.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In an elastic bounce there is no net loss of kinetic energy to heat or sound. As the ball compresses against the surface, it slows and its kinetic energy is stored as elastic potential energy. The ball momentarily has zero speed, then springs back and regains its initial kinetic energy.",
+      "perOption": {
+        "A": "Applies the before-and-after equality of kinetic energy to every instant of contact.",
+        "B": "Treats kinetic energy as a vector when it is a scalar.",
+        "C": "Correct. The ball momentarily stops at maximum compression.",
+        "D": "Assumes dissipation that would make the bounce inelastic."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.d",
+      "energy-and-fields.a",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track energy during contact as well as before and after the bounce.",
+    "misconception": "Assuming an elastic collision keeps kinetic energy constant throughout contact.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the trailer’s rear wheel. The upward force $F$ at X acts $20\\ \\mathrm m$ from the pivot and the weight acts $10\\ \\mathrm m$ from it. Balancing moments gives $F(20)=30(10)$, hence $F=15\\ \\mathrm{kN}$.",
+      "perOption": {
+        "A": "Uses an incorrect lever-arm ratio of one tenth instead of one half.",
+        "B": "Correct. The upward force is $15\\ \\mathrm{kN}$.",
+        "C": "Treats the moment arms of the two forces as equal.",
+        "D": "Inverts the ratio of the moment arms."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must find both lever arms from the rear wheel before balancing moments.",
+    "misconception": "Using the interval between the forces as both lever arms.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cylinder exerts a downward force $pA$ on the surface, so by Newton’s third law the surface exerts an upward force of the same magnitude on the cylinder. In equilibrium this force equals its weight, so $pA=mg$. Substituting $m=\\rho Ax$ gives $p=\\rho xg$, hence $\\rho=p/(gx)$.",
+      "perOption": {
+        "A": "Inverts the density expression and incorrectly retains the area.",
+        "B": "Omits the area from the volume $Ax$ when converting mass to density.",
+        "C": "Inverts the density expression.",
+        "D": "Correct. The area cancels, giving $\\rho=p/(gx)$."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must link pressure to contact force and express mass in terms of density and volume.",
+    "misconception": "Retaining cross-sectional area after it cancels.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The loss of gravitational potential energy equals the gain in kinetic energy plus the energy dissipated by friction. The dissipated energy is $mgh-\\tfrac12mv^2=(500)(9.81)(30)-\\tfrac12(500)(11)^2=1.2\\times10^5\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Reports only the kinetic energy gained by the car.",
+        "B": "Correct. The dissipated energy is $1.2\\times10^5\\ \\mathrm J$.",
+        "C": "Reports the full loss of gravitational potential energy and ignores the kinetic energy gained.",
+        "D": "Adds the kinetic energy gain to the gravitational potential energy loss."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must find both mechanical-energy changes and take their difference.",
+    "misconception": "Equating all lost gravitational potential energy with frictional dissipation.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The power used to raise the water is $mgh/t=\\rho Vgh/t=(1000)(0.50)(9.81)(30)/60=2.45\\ \\mathrm{kW}$. The pump receives its power from the engine and is $70\\%$ efficient, so the engine’s useful output is $2.45/0.70=3.5\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Reports the power delivered to the water and ignores pump losses.",
+        "B": "Correct. The engine supplies $3.5\\ \\mathrm{kW}$ to the pump.",
+        "C": "Treats one minute as one second and ignores pump losses.",
+        "D": "Accounts for efficiency but treats one minute as one second."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert the pumping time to seconds and use efficiency to recover the pump input power.",
+    "misconception": "Confusing useful pump output with useful engine output.",
+    "transcription": null
+  }
+]

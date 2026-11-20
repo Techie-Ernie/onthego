@@ -1,0 +1,489 @@
+[
+  {
+    "id": "dhs-2023-prelim-p1-q15",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV=nRT$ and $n=m/M$, $p=mRT/(MV)$. Substituting gives $p=\\frac{(1.5)(8.31)(273.15+25)}{(20/1000)(3.7)}=50222\\ \\mathrm{Pa}\\approx50\\ \\mathrm{kPa}$.",
+      "perOption": {
+        "A": "Uses both the Celsius temperature and the molar mass in grams without converting them.",
+        "B": "Uses 20 as the molar mass in kilograms per mole.",
+        "C": "Uses 25 as the absolute temperature.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students convert the molar mass and temperature before substituting into the ideal gas equation.",
+    "misconception": "Using Celsius or grams directly",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q17",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "With no light transmitted, the filter axis is initially at $90^\\circ$ to the incident polarisation. Turning it by $30^\\circ$ makes the angle $60^\\circ$, so Malus’ law gives $I/I_0=\\cos^2 60^\\circ=1/4$. Since intensity is proportional to amplitude squared, $A'/A=\\sqrt{I/I_0}=1/2$.",
+      "perOption": {
+        "A": "Uses the transmitted intensity fraction as the amplitude fraction.",
+        "B": "Correct.",
+        "C": "Uses the intensity fraction for an angle of 30° as the amplitude fraction.",
+        "D": "Projects the amplitude using 30° instead of the 60° angle to the filter axis."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students find the new angle and convert the intensity ratio to an amplitude ratio.",
+    "misconception": "Confusing intensity with amplitude",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q21",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current is the same in both sections. From $R=\\rho\\ell/A$, the resistance per unit length is $R/\\ell=\\rho/A$, so halving the cross-sectional area doubles it. At the same current, $V/\\ell=IR/\\ell$ is therefore also larger in the narrow section.",
+      "perOption": {
+        "A": "Equal current still gives a larger voltage drop per unit length in the narrow section.",
+        "B": "The larger resistance per unit length gives a larger voltage drop per unit length in the narrow section.",
+        "C": "The same current flows through both sections.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students relate the halved area to resistance per unit length and recognise that the current stays the same.",
+    "misconception": "Assuming current changes at a constriction",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q24",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Apply Fleming’s left-hand rule with the field pointing down and towards north and the current directed into the page. The force is perpendicular to the plane containing the field and current, and points down and towards south along D.",
+      "perOption": {
+        "A": "A vertical force is perpendicular only to the horizontal field component.",
+        "B": "Reverses the force direction for the current shown.",
+        "C": "Points along the field instead of perpendicular to it.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students apply Fleming’s left-hand rule to a tilted field and a current into the page.",
+    "misconception": "Reversing the magnetic force direction",
+    "transcription": "A horizontal power cable carries a steady current in an east-to-west direction, i.e. into the plane of the diagram.\n\nWhich arrow shows the direction of the force on the cable caused by the Earth’s magnetic field, in a region where this field is at $70^\\circ$ to the horizontal?\n\n[The horizontal ground line is labelled south on the left and north on the right. Parallel arrows labelled “Earth’s magnetic field” point down and right at $70^\\circ$ to the horizontal. A circled cross marks the cable and the current into the page. The four arrows from the cable are A vertically up, B diagonally up and right, C down and right along the field, and D diagonally down and left opposite B.]"
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q25",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "During the vertical fall the rod moves parallel to the field, so it sweeps out no magnetic flux. As it rolls down the slope, the rate at which it sweeps out flux increases uniformly, so the induced e.m.f. rises linearly. After the rod rolls off the slope, it sweeps out flux at a constant rate, giving a constant e.m.f.",
+      "perOption": {
+        "A": "Assumes the rod stops cutting field lines after leaving the slope.",
+        "B": "Predicts an e.m.f. while the rod is falling parallel to the field.",
+        "C": "Correct.",
+        "D": "Assumes a constant rate of cutting field lines on the slope and zero rate after the rod leaves it."
+      }
+    },
+    "issues": "The key calls the uniform field Earth's field, while the question specifies only a uniform downward field. C is the best match in the idealised model shown, which neglects speed changes at the transitions and on the flat.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students track how the rod cuts field lines during three stages of motion.",
+    "misconception": "Using total speed instead of motion across the field",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the first resistor, $P=\\tfrac12 I_0^2R$. For the second, $4P=\\tfrac12 I_{0,\\mathrm{new}}^2(2R)$, so $I_{0,\\mathrm{new}}=\\sqrt{2}I_0$. Its r.m.s. current is $I_{\\mathrm{rms}}=I_{0,\\mathrm{new}}/\\sqrt{2}=I_0$.",
+      "perOption": {
+        "A": "Omits the peak-to-r.m.s. conversion and treats the second resistance as unchanged.",
+        "B": "Reports the new peak current instead of the new r.m.s. current.",
+        "C": "Correct.",
+        "D": "Reports the original r.m.s. current."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students compare the two mean powers and distinguish the new peak current from its r.m.s. value.",
+    "misconception": "Reporting peak current as r.m.s. current",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q28",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Wave–particle duality limits how precisely a particle’s position and momentum can be specified simultaneously. Localising a particle requires a spread of momenta.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Attributes the uncertainty to discrete atomic energies, although it also applies to free particles.",
+        "C": "Attributes the uncertainty to relativity, although it also applies at low speeds.",
+        "D": "Treats an intrinsic quantum limit as a limitation of the measuring instrument."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students recognise the physical origin of position–momentum uncertainty.",
+    "misconception": "Attributing quantum uncertainty to instrument resolution",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": null,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $\\Delta\\mathbf v=\\mathbf v_f-\\mathbf v_i$. There is no horizontal acceleration, so the horizontal components cancel and the change is vertical. Its magnitude is $12\\sin25^\\circ=5.1\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Subtracts the speed at the highest point from the launch speed.",
+        "B": "Correct.",
+        "C": "Uses a value larger than the vertical component that is lost.",
+        "D": "Assumes the stone loses its entire launch velocity at the highest point."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The identical Prelim Q2 is keyed B on page 1, versus the Promo parser placeholder A.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "projectile-motion.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students subtract velocity vectors using the unchanged horizontal component.",
+    "misconception": "Subtracting speeds instead of velocities",
+    "transcription": "A stone is thrown at a velocity of $12\\ \\mathrm{m\\,s^{-1}}$ at an angle of $25^\\circ$ above the horizontal. What is the magnitude of the change in velocity from its starting point to the highest point in its path?\n\nA $1.1\\ \\mathrm{m\\,s^{-1}}$\nB $5.1\\ \\mathrm{m\\,s^{-1}}$\nC $5.8\\ \\mathrm{m\\,s^{-1}}$\nD $12\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "dhs-2023-promo-p1-q3",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a fall from rest, $s=\\tfrac12 gt^2$. With $g_{\\mathrm E}=6g_{\\mathrm M}$, the time ratio satisfies $t_{\\mathrm E}^2/t^2=(2.0/3.0)/6=1/9$. Taking the square root gives $t_{\\mathrm E}=t/3$.",
+      "perOption": {
+        "A": "Uses the squared time ratio as the time ratio.",
+        "B": "Reduces the time too far for the stated distance and acceleration ratios.",
+        "C": "Correct.",
+        "D": "Uses a time ratio whose square is $1/4$ instead of $1/9$."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The derived answer is C, versus the parser placeholder A.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students account for the changes in both distance and acceleration before taking a square root.",
+    "misconception": "Scaling time instead of time squared",
+    "transcription": "The acceleration of free fall on Earth is six times of that on Moon.\n\nIt takes time $t$ for a rock on Moon to fall a distance of $3.0\\ \\mathrm{m}$ from rest.\n\nWhat is the time taken for a rock on Earth to fall a distance of $2.0\\ \\mathrm{m}$ from rest?\n\nA $\\frac{t}{9}$\nB $\\frac{t}{4}$\nC $\\frac{t}{3}$\nD $\\frac{t}{2}$"
+  },
+  {
+    "id": "dhs-2023-promo-p1-q4",
+    "keyPage": 1,
+    "keyLetter": null,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "Before B the cars are closing the gap, and after B they are moving apart. At B their velocities are equal, so their separation is at a minimum if the cars have stayed in their original order.",
+      "perOption": {
+        "A": "Y is momentarily stationary while X is still closing the gap.",
+        "B": "Correct. The relative velocity changes sign at B if the cars stay in their original order.",
+        "C": "X is momentarily stationary while Y is already pulling away.",
+        "D": "The cars are already separating at D."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The matching Prelim Q3 is keyed B on page 1, versus the Promo parser placeholder A. B assumes the cars do not meet before then. The initial separation is unspecified, so an earlier meeting cannot be ruled out.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students compare both signed velocities to determine when the separation changes from decreasing to increasing.",
+    "misconception": "Using one car’s zero velocity as the turning point for separation",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-promo-p1-q5",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The three blocks accelerate together at $a=12/(1.0+2.0+3.0)=2.0\\ \\mathrm{m\\,s^{-2}}$. The first contact pushes the two blocks to its right, so its force is $(2.0+3.0)a=10\\ \\mathrm N$. The second pushes only the $3.0\\ \\mathrm{kg}$ block, so its force is $3.0a=6.0\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Uses the net force on the 2.0 kg block as the first contact force.",
+        "B": "Swaps the two contact forces.",
+        "C": "Correct.",
+        "D": "Assigns the applied force to both contacts."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The derived answer is C, versus the parser placeholder A.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students find the common acceleration and choose a different subsystem for each contact force.",
+    "misconception": "Treating contact force as the net force on one block",
+    "transcription": "Three blocks, of masses $1.0\\ \\mathrm{kg}$, $2.0\\ \\mathrm{kg}$ and $3.0\\ \\mathrm{kg}$, are initially at rest on a frictionless surface and are in contact with each other as shown. A $12\\ \\mathrm{N}$ force is then applied on the $1.0\\ \\mathrm{kg}$ block.\n\n[Three touching blocks sit on a horizontal surface in order of increasing mass from left to right. An arrow labelled $12\\ \\mathrm{N}$ points right into the left face of the $1.0\\ \\mathrm{kg}$ block.]\n\nWhich row shows the respective magnitudes of the normal contact force exerted by the $1.0\\ \\mathrm{kg}$ block on the $2.0\\ \\mathrm{kg}$ block and the normal contact force exerted by the $2.0\\ \\mathrm{kg}$ block on the $3.0\\ \\mathrm{kg}$ block?\n\nA $4.0\\ \\mathrm{N}$, $6.0\\ \\mathrm{N}$\nB $6.0\\ \\mathrm{N}$, $10\\ \\mathrm{N}$\nC $10\\ \\mathrm{N}$, $6.0\\ \\mathrm{N}$\nD $12\\ \\mathrm{N}$, $12\\ \\mathrm{N}$"
+  },
+  {
+    "id": "dhs-2023-promo-p1-q6",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The frictionless rods preserve the tensions $F_1$ and $F_2$. When the cords are perpendicular, their resultant must balance the $10\\ \\mathrm N$ weight, so $F_1^2+F_2^2=10^2$ with forces in newtons. The left cord is shallower as drawn, so it needs the smaller tension to balance the right cord’s horizontal component. Thus $F_1=6.0\\ \\mathrm N$ and $F_2=8.0\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Adds the tensions as scalars even though they are perpendicular.",
+        "B": "Adds the tensions as scalars even though they are perpendicular.",
+        "C": "Correct. The larger tension is on the steeper right-hand cord.",
+        "D": "Swaps the tensions required by the cord slopes shown."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The diagram makes the right cord steeper, which implies the larger tension is on the right. If the slopes are treated as schematic, both C and D satisfy the perpendicular-resultant magnitude.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students combine perpendicular tensions and use the cord slopes to assign the larger tension.",
+    "misconception": "Ignoring the horizontal balance of the two tensions",
+    "transcription": "An object hangs by means of two cords around two rods, as shown.\n\n[The two cords meet at a junction and form angle $\\theta$. The left cord slopes up to the left, passes around the left rod and hangs vertically with downward force $F_1$. The right cord slopes more steeply up to the right, passes around the right rod and hangs vertically with downward force $F_2$. A vertical link from the junction supports the object labelled “object of weight $10\\ \\mathrm{N}$”.]\n\nThe object is held in equilibrium by the forces $F_1$ and $F_2$. The object weighs $10\\ \\mathrm{N}$. There is negligible friction between the rods and the cords.\n\nWhich row of the table gives an angle $\\theta$ of $90^\\circ$?\n\n$F_1/\\mathrm{N}$, $F_2/\\mathrm{N}$\nA 4.0, 6.0\nB 6.0, 4.0\nC 6.0, 8.0\nD 8.0, 6.0"
+  },
+  {
+    "id": "dhs-2023-promo-p1-q7",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the ice of volume $V$ is fully submerged, the upthrust is $\\rho_{\\mathrm{water}}Vg$. When it floats, the upthrust equals its weight, $\\rho_{\\mathrm{ice}}Vg$. The ratio is $1.0/0.90\\approx1.1$.",
+      "perOption": {
+        "A": "Uses the fractional density difference instead of the ratio of upthrusts.",
+        "B": "Reverses the requested ratio.",
+        "C": "Assumes the ice displaces the same volume of water in both cases.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The derived answer is D, versus the parser placeholder A.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students apply the displaced-water rule when submerged and force balance when floating.",
+    "misconception": "Taking the reciprocal of the requested upthrust ratio",
+    "transcription": "A block of ice of density $0.90\\ \\mathrm{g\\,cm^{-3}}$ is held below the surface of water of density $1.0\\ \\mathrm{g\\,cm^{-3}}$. The block of ice is then released and floats to the surface.\n\nWhat is the ratio $\\frac{\\text{upthrust when fully submerged}}{\\text{upthrust when floating}}$?\n\nA 0.1\nB 0.9\nC 1.0\nD 1.1"
+  },
+  {
+    "id": "dhs-2023-promo-p1-q8",
+    "keyPage": 3,
+    "keyLetter": null,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Write $D=kv^2$. At maximum speed the thrust balances drag, so $P=Dv=kv^3$. With both engines, $2(36000)=k(12)^3$, and with one engine, $36000=k(v')^3$. Dividing gives $v'=12/\\sqrt[3]{2}=9.5\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses a factor of one quarter for speed instead of taking the cube root of the power ratio.",
+        "B": "Assumes speed is proportional to power.",
+        "C": "Uses a square root by omitting the speed factor in $P=Dv$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The matching Prelim Q9 is keyed D on page 3, versus the Promo parser placeholder A. Its intermediate watt values have an extra zero in both powers, which cancels in the ratio. The rewrite uses the stated engine powers.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.m"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students combine force balance with the power relation to obtain a cubic speed dependence.",
+    "misconception": "Treating drag as proportional to engine power",
+    "transcription": "A speed boat with two engines, each of power output of $36\\ \\mathrm{kW}$, can travel at a maximum speed of $12\\ \\mathrm{m\\,s^{-1}}$. The total drag $D$ on the boat is related to the speed $v$ of the boat by the equation shown.\n\n$D\\propto v^2$\n\nWhat is the maximum speed of the boat when only one engine is working?\n\nA $3.0\\ \\mathrm{m\\,s^{-1}}$\nB $6.0\\ \\mathrm{m\\,s^{-1}}$\nC $8.5\\ \\mathrm{m\\,s^{-1}}$\nD $9.5\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "dhs-2023-promo-p1-q9",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both coins turn through the same angle in the same time, so $\\omega_1/\\omega_2=1$. Since $v=r\\omega$, their linear speed ratio is $v_1/v_2=r_1/r_2$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Inverts the radius ratio for the linear speeds.",
+        "C": "Assigns equal linear speeds and makes angular velocity increase with radius.",
+        "D": "Assigns equal linear speeds and makes angular velocity decrease with radius."
+      }
+    },
+    "issues": "The supplied Promo file is the question paper and contains no official key. The derived answer agrees with the parser placeholder A.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students distinguish the common angular velocity from the different tangential speeds.",
+    "misconception": "Assuming all points on a rigid turntable have the same linear speed",
+    "transcription": "Two identical coins rest on a horizontal turntable undergoing uniform circular motion at distances $r_1$ and $r_2$ from the centre of the turntable as shown.\n\n[Top view of a circular turntable rotating anticlockwise. The coins lie on the same upward radius, at distances $r_1$ and $r_2$ from the centre, with $r_2>r_1$. The tangential arrows labelled $v_1$ and $v_2$ point left.]\n\nWhich row shows the correct ratio of angular velocities $\\frac{\\omega_1}{\\omega_2}$ and linear velocities $\\frac{v_1}{v_2}$?\n\nA $1$, $\\frac{r_1}{r_2}$\nB $1$, $\\frac{r_2}{r_1}$\nC $\\frac{r_1}{r_2}$, $1$\nD $\\frac{r_2}{r_1}$, $1$"
+  }
+]

@@ -1,0 +1,503 @@
+[
+  {
+    "id": "dhs-2023-other-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both fixed ends are nodes, so $L=n\\lambda/2=1.0\\ \\mathrm{m}$. The wavelength $0.40\\ \\mathrm{m}$ gives $n=5$.",
+      "perOption": {
+        "A": "Correct. This is the fifth harmonic.",
+        "B": "The fifth harmonic has six nodes including both ends.",
+        "C": "The fundamental wavelength is twice the rope length.",
+        "D": "The midpoint is an antinode in the fundamental mode."
+      }
+    },
+    "issues": "Working continues on page 6.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Fixed-end conditions determine the harmonic and node count.",
+    "misconception": "Counting half-wavelengths as nodes",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-other-p1-q19",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Diffraction is most pronounced when the opening and wavelength are comparable. Halving the frequency doubles the wavelength to $1.0\\ \\mathrm{m}$, matching the doorway width.",
+      "perOption": {
+        "A": "Amplitude does not alter the wavelength-to-width ratio.",
+        "B": "Correct. The wavelength doubles.",
+        "C": "Halving the period halves the wavelength and reduces spreading.",
+        "D": "A wider opening reduces the wavelength-to-width ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.k",
+      "wave-motion.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "One inverse relationship connects frequency to the wavelength-to-width ratio.",
+    "misconception": "Confusing amplitude with diffraction spread",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-other-p1-q20",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a point charge, $V=\\frac{Q}{4\\pi\\varepsilon_0r}$ and the signed radial component is $E_r=\\frac{Q}{4\\pi\\varepsilon_0r^2}$. Substitution gives $E_r=V/r$.",
+      "perOption": {
+        "A": "This divides by an extra factor of distance because the potential already contains one inverse power of distance.",
+        "B": "Correct. The signed radial component is $V/r$.",
+        "C": "Multiplying by distance cancels the radial dependence already in the potential.",
+        "D": "Multiplying by distance squared gives an expression that grows with distance for a fixed charge."
+      }
+    },
+    "issues": "The charge sign is unspecified. B gives the signed outward radial component, while the magnitude is |V|/r.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The two point-charge formulas share a factor that cancels.",
+    "misconception": "Applying inverse-square scaling to potential",
+    "transcription": "The electric potential at point P a distance $r$ from a point charge is $V$.\n\nWhat is the electric field strength at P?\n\nA $\\frac{V}{r^2}$\nB $\\frac{V}{r}$\nC $Vr$\nD $Vr^2$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q21",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The same current flows through both sections. Since $R=\\rho l/A$, $R/l=\\rho/A$ doubles when the cross-sectional area halves. At constant current, $V=IR$, so a greater resistance per unit length gives a greater potential difference per unit length.",
+      "perOption": {
+        "A": "The same current produces a greater voltage drop per unit length in the narrower section.",
+        "B": "The narrower section has greater resistance per unit length, which increases the voltage drop per unit length.",
+        "C": "The same current flows in both sections.",
+        "D": "Correct. Halving the area doubles the resistance per unit length."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect width to cross-sectional area and track the common current.",
+    "misconception": "Assuming different currents through the two sections",
+    "transcription": "The figure shows the top view of a metal strip of uniform thickness. The width of the narrow section is half the width of the wide section.\n\n[Top view of a wide section on the left tapering to a narrow section on the right. Rightward arrows show current through the strip.]\n\nWhich statement is correct?\n\nA The potential difference per unit length of the narrow section is the same as the potential difference per unit length of the wide section.\nB The potential difference per unit length of the narrow section is smaller than the potential difference per unit length of the wide section.\nC The resistance of the narrow section will be smaller and hence more current will flow through as compared to the wide section.\nD The resistance per unit length of the narrow section is twice that of the wide section."
+  },
+  {
+    "id": "dhs-2023-other-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The effective resistance is $R_{\\mathrm{eff}}=(1/1.0+1/2.0+1/5.0)^{-1}=0.588\\ \\Omega$. The voltage across each resistor is $V=IR_{\\mathrm{eff}}=(5.0)(0.588)=2.94\\ \\mathrm{V}$. The ammeter reads $I_2=2.94/2.0=1.47\\ \\mathrm{A}\\approx1.5\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "A reading of $0.70\\ \\mathrm{A}$ would require only $1.40\\ \\mathrm{V}$ across the middle branch.",
+        "B": "A reading of $1.3\\ \\mathrm{A}$ would require $2.6\\ \\mathrm{V}$ across the middle branch.",
+        "C": "Correct. The middle branch carries about $1.5\\ \\mathrm{A}$.",
+        "D": "An equal split gives about $1.7\\ \\mathrm{A}$ per branch, but the branch resistances differ."
+      }
+    },
+    "issues": "Working continues on page 7.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation links equivalent resistance, common voltage and branch current.",
+    "misconception": "Confusing total current with branch current",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-other-p1-q23",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For identical bulbs, the one with the largest current dissipates the most power because $P_{\\mathrm{elec}}=I^2R$. Bulb P carries the full circuit current, so it is brightest.",
+      "perOption": {
+        "A": "Correct. P carries the full circuit current.",
+        "B": "Q carries only the upper-branch current in the left parallel section.",
+        "C": "R carries only the lower-branch current in the left parallel section.",
+        "D": "S carries only half the current through the right parallel section."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "currents.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Tracing the current through the main loop and branches identifies the brightest bulb.",
+    "misconception": "Ignoring current division",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-other-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each photon has momentum $p=h/\\lambda$. Doubling the intensity leaves the wavelength unchanged, so the momentum of each photon stays the same.",
+      "perOption": {
+        "A": "Correct. The wavelength stays fixed.",
+        "B": "A fourfold momentum increase would require one quarter of the wavelength.",
+        "C": "Doubling the intensity doubles the photon flux at the same wavelength.",
+        "D": "Halving the momentum would require doubling the wavelength."
+      }
+    },
+    "issues": "Working continues on page 8.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The photon momentum formula immediately identifies its dependence on wavelength.",
+    "misconception": "Confusing photon flux with momentum per photon",
+    "transcription": "The intensity of a beam of monochromatic light is doubled.\n\nWhich one of the following represents the corresponding change, if any, in the momentum of each photon of the beam?\n\nA remained the same\nB increased fourfold\nC doubled\nD halved"
+  },
+  {
+    "id": "dhs-2023-other-p1-q29",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of charge and nucleon number gives $X=2$. There are $0.001/(1.008\\times1.66\\times10^{-27})=5.98\\times10^{23}$ hydrogen nuclei. The energy released per reaction is $1.6\\times10^{12}/[(5.98\\times10^{23})(1.6\\times10^{-13})]=16.73\\ \\mathrm{MeV}$. Hydrogen-1 is a single proton with zero binding energy, so $2(28.3)-B_{\\mathrm{Li}}=16.73$ in MeV. Thus $B_{\\mathrm{Li}}=39.9\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "This subtracts the energy released from the binding energy of only one helium nucleus.",
+        "B": "Correct. Both helium nuclei contribute to the products’ binding energy.",
+        "C": "This gives just the products’ total binding energy.",
+        "D": "This exceeds the products’ total binding energy, which would require an energy input."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must balance the reaction, convert bulk energy to energy per reaction and compare binding energies.",
+    "misconception": "Confusing binding energy with released energy",
+    "transcription": "In the following induced nuclear reaction, when one Lithium-7 nucleus reacts with one Hydrogen-1 nucleus, X number of Helium-4 nuclei are produced.\n\n${}^{7}_{3}\\mathrm{Li}+{}^{1}_{1}\\mathrm{H}\\to X({}^{4}_{2}\\mathrm{He})+\\text{energy}$\n\nDuring the reaction, $1.6\\times10^{12}\\ \\mathrm{J}$ of energy is released when $1.0\\ \\mathrm{g}$ of Hydrogen-1 (mass of 1 Hydrogen-1 nucleus $=1.008\\ \\mathrm{u}$) and sufficient Lithium-7 are used. The binding energy of a Helium-4 nucleus is $28.3\\ \\mathrm{MeV}$.\n\nWhat is the binding energy of a Lithium-7 nucleus?\n\nA $11.6\\ \\mathrm{MeV}$\nB $39.9\\ \\mathrm{MeV}$\nC $56.6\\ \\mathrm{MeV}$\nD $68.2\\ \\mathrm{MeV}$"
+  },
+  {
+    "id": "dhs-2023-other-p1-q30",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "After $3T$, the surviving X count is $(1/2)^{3T/T}N_0=N_0/8$. The other $7N_0/8$ atoms have become Y, so $N_X/N_Y=(N_0/8)/(7N_0/8)=1/7$.",
+      "perOption": {
+        "A": "This uses the fraction of X remaining after just one half-life.",
+        "B": "The number of half-lives determines how many times to halve the count.",
+        "C": "This undercounts Y: seven of every eight initial X nuclei decay.",
+        "D": "Correct. The ratio is $1/7$."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The remaining parent fraction must be compared with the fraction that decayed.",
+    "misconception": "Using initial parent count for daughter count",
+    "transcription": "Nuclide X decays to stable nuclide Y with a half-life of $T$ years.\n\nGeologists discovered that nuclide Y found in a particular rock sample all came from nuclide X which was present when the rock was formed.\n\nThe rock is thought to be $3T$ years old.\n\nWhat is the expected ratio $\\frac{\\text{number of atoms of X}}{\\text{number of atoms of Y}}$ for this rock?\n\nA $\\frac{1}{2}$\nB $\\frac{1}{3}$\nC $\\frac{1}{6}$\nD $\\frac{1}{7}$"
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity change is $\\Delta\\mathbf v=\\mathbf v_f-\\mathbf v_i$. The horizontal components cancel because horizontal acceleration is zero, so the change is vertical. The vertical component at the top is zero, giving $|\\Delta\\mathbf v|=12\\sin25^\\circ=5.1\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This subtracts the final speed from the initial speed as scalars.",
+        "B": "Correct. The magnitude equals the initial vertical component.",
+        "C": "This uses the tangent ratio with the launch speed as the adjacent side, although it is the hypotenuse.",
+        "D": "This treats the stone as stationary at the highest point, where it still has horizontal velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must subtract velocities as vectors and identify the canceling horizontal components.",
+    "misconception": "Subtracting speed magnitudes",
+    "transcription": "A stone is thrown with a velocity of $12\\ \\mathrm{m\\,s^{-1}}$ at an angle of $25^\\circ$ above the horizontal. What is the magnitude of the change in velocity from its starting point to the highest point in its path?\n\nA $1.1\\ \\mathrm{m\\,s^{-1}}$\nB $5.1\\ \\mathrm{m\\,s^{-1}}$\nC $5.8\\ \\mathrm{m\\,s^{-1}}$\nD $12\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "Before B, X has the greater signed velocity and closes the gap. After B, Y has the greater signed velocity and the gap grows. If the cars remain apart, they are closest when their velocities are equal at B.",
+      "perOption": {
+        "A": "Y is momentarily stationary while X is still closing the gap.",
+        "B": "Correct. The relative velocity changes sign at B.",
+        "C": "X is momentarily stationary and Y is already moving away.",
+        "D": "The cars are already moving apart at D."
+      }
+    },
+    "issues": "B assumes the cars remain apart. The initial separation and displacement scales are unspecified, so the graph alone cannot exclude an earlier meeting.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare the cars’ signed velocities before and after the graphs cross.",
+    "misconception": "Equating closest approach with one car stopping",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Kinetic energy is conserved only for an elastic collision. The external impulse along the line of impact is negligible, so momentum along that line is conserved. Total energy is conserved as well.",
+      "perOption": {
+        "A": "This assumes the collision must be elastic.",
+        "B": "This includes kinetic energy, which can change, and omits momentum conservation along the line of impact.",
+        "C": "This assumes kinetic energy must be conserved and omits total energy conservation.",
+        "D": "Correct. Momentum along the line of impact and total energy are conserved."
+      }
+    },
+    "issues": "The key’s zero-external-force statement is best read as negligible external impulse along the line of impact.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.b",
+      "collisions.e",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify which conservation law depends on the collision being elastic.",
+    "misconception": "Assuming steel-bob collisions must be elastic",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q7",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The air–water interface is $0.50\\ \\mathrm{m}$ beneath the free surface. The pressure difference is $\\Delta p=h\\rho g=(0.50)(1000)(9.81)\\approx4910\\ \\mathrm{Pa}$.",
+      "perOption": {
+        "A": "This uses the depth of the closed top of the tube.",
+        "B": "This uses a single $0.30\\ \\mathrm{m}$ segment instead of the full interface depth.",
+        "C": "Correct. The interface depth is $0.50\\ \\mathrm{m}$.",
+        "D": "This uses the depth of the open lower end."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is direct once the interface depth is identified.",
+    "misconception": "Using depth of the tube opening",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Q, $N+mg=mv^2/r$. Just maintaining contact means $N=0$, so $v^2=rg=0.20g$. Conservation of energy gives $mgh=\\frac12mv^2+mg(0.40)=\\frac12m(0.20g)+mg(0.40)$. Hence $h=0.50\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This uses the radius for the height of Q above the bottom, which is a full diameter.",
+        "B": "This would give zero speed at Q, where the bead still needs centripetal acceleration.",
+        "C": "Correct. The release height is $0.50\\ \\mathrm{m}$.",
+        "D": "This uses the diameter as the radius in the centripetal-force equation."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must combine the zero-normal-force condition with energy conservation.",
+    "misconception": "Setting speed to zero at the contact threshold",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2023-prelim-p1-q12",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each gravitational field has magnitude $g=GM/r^2$. Earth’s greater mass gives the stronger field at the midpoint, so the resultant points toward Earth. The potential is a scalar given by $\\phi=-GM/r$, so the two negative contributions add to a negative total.",
+      "perOption": {
+        "A": "Earth’s larger mass gives the stronger field, directed toward Earth.",
+        "B": "Identical distances still give unequal field strengths because the masses differ.",
+        "C": "Correct. Both potentials are negative.",
+        "D": "The two negative scalar potentials add to a negative total."
+      }
+    },
+    "issues": "The key invokes unequal masses when rejecting zero potential. Both potential contributions are negative regardless of whether the masses are equal.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine opposing field vectors and same-sign scalar potentials.",
+    "misconception": "Treating gravitational potential as a vector",
+    "transcription": null
+  }
+]

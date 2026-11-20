@@ -1,0 +1,514 @@
+[
+  {
+    "id": "ejc-2023-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Horizontally, $u\\cos30^\\circ\\,t=3.0$, so $t=\\frac{3.0}{u\\cos30^\\circ}$. Taking upwards as positive, the vertical equation is $u\\sin30^\\circ\\,t-\\frac12gt^2=-0.25$.\n\nSubstituting for $t$ gives $3.0\\tan30^\\circ-\\frac12g\\left(\\frac{3.0}{u\\cos30^\\circ}\\right)^2=-0.25$. Solving gives $u^2=29.7\\ \\mathrm{m^2\\,s^{-2}}$, so $u=5.4\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses $+0.25\\ \\mathrm{m}$ for the vertical displacement with upwards positive.",
+        "C": "Reports $u^2$ as the speed by omitting the square root.",
+        "D": "Uses a positive vertical displacement and omits the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must eliminate flight time using the horizontal and vertical equations.",
+    "misconception": "Giving a downward displacement a positive sign",
+    "transcription": "A student attempts a long distance shot with a crushed paper ball as shown in the diagram below (not to scale).\n\n[The ball is launched to the right with speed $u$ at $30^\\circ$ above the horizontal. The bin is $3.0\\ \\mathrm{m}$ horizontally from the release point and its opening is $0.25\\ \\mathrm{m}$ below it.]\n\nThe horizontal distance between the centre of mass of the ball and the centre of the trash bin is $3.0\\ \\mathrm{m}$, while the vertical distance between them is $0.25\\ \\mathrm{m}$. The ball is shot at an angle of $30^\\circ$ above the horizontal, with an initial speed $u$.\n\nWhich value should $u$ be, in order for the crushed paper ball to enter the trash bin?\n\nA $5.4\\ \\mathrm{m\\,s^{-1}}$\nB $6.3\\ \\mathrm{m\\,s^{-1}}$\nC $30\\ \\mathrm{m\\,s^{-1}}$\nD $40\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Apply $F_{\\mathrm{net}}=ma$ down the slope for A and up the slope for B. For A, $12+2.0(9.81)\\sin35^\\circ-T=2.0a$, giving $23.25-T=2.0a$.\n\nFor B, $T-20-5.0(9.81)\\sin20^\\circ=5.0a$, giving $T-36.78=5.0a$. Multiply A's equation by $2.5$ to get $58.125-2.5T=5.0a$. Subtract B's equation to obtain $94.905-3.5T=0$, so $T=27\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "This is below both blocks’ downslope force totals, so both would accelerate away from the pulley.",
+        "B": "Correct.",
+        "C": "This exceeds both downslope force totals, so both blocks would accelerate towards the pulley.",
+        "D": "This would pull both blocks uphill, which the fixed rope length rules out."
+      }
+    },
+    "issues": "The first force equation for block B in the printed key subtracts 20 N twice. Its simplified equation and final answer use one 20 N term.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The two force equations require consistent positive directions before eliminating the shared acceleration.",
+    "misconception": "Assigning independent acceleration directions to connected blocks",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The firework starts at rest, so the total momentum immediately after the explosion is zero. Using masses in grams, horizontal momentum gives $50v_1\\cos60^\\circ-50v_2\\cos60^\\circ=0$, hence $v_1=v_2=v$.\n\nVertically, $50v\\sin60^\\circ+50v\\sin60^\\circ-100(8)=0$, giving $v=9.2\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This gives too little upward momentum to balance the $100\\ \\mathrm{g}$ fragment.",
+        "B": "Correct.",
+        "C": "This gives too much upward momentum when the velocity is resolved using $\\sin60^\\circ$.",
+        "D": "Using the $2{:}1$ mass ratio as a speed ratio overlooks the combined vertical momentum of both $50\\ \\mathrm{g}$ pieces."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.e",
+      "quantities-and-measurement.j",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use both momentum components to find the unknown speed.",
+    "misconception": "Conserving speed instead of vector momentum",
+    "transcription": "A stationary firework explodes into three pieces. The masses and the velocities of the three pieces immediately after the explosion are shown.\n\n[Two $50\\ \\mathrm{g}$ pieces move up and out at $60^\\circ$ to the horizontal on either side, with speed $v_1$ on the left and $v_2$ on the right. The $100\\ \\mathrm{g}$ piece moves vertically downwards at $8\\ \\mathrm{m\\,s^{-1}}$.]\n\nWhat is the speed $v_1$?\n\nA $4.0\\ \\mathrm{m\\,s^{-1}}$\nB $9.2\\ \\mathrm{m\\,s^{-1}}$\nC $14\\ \\mathrm{m\\,s^{-1}}$\nD $16\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q5",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For equilibrium under three nonparallel forces, their lines of action meet at one point. Extend the cable line and the vertical line through G to find their intersection, then draw the hinge force along the line from the hinge through that point. The force points slightly downwards to the right, balancing the cable tension’s leftward component.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The force points left, adding to the cable tension’s leftward component.",
+        "C": "The steep line through the hinge misses the intersection of the cable and weight lines.",
+        "D": "The line misses the intersection and the arrow points left."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must extend the force lines and determine the sense of the hinge reaction.",
+    "misconception": "Assuming the hinge reaction is normal to the beam",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q6",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $d$ be the initial height and $h$ the height after falling a distance $s$. Then $E= mgh=mg(d-s)$, a straight line with negative gradient as in (iv).\n\nThe object falls from rest, so $s=ut+\\frac12gt^2=\\frac12gt^2$. Substituting gives $E=mgd-\\frac12mg^2t^2$, the downward-curving graph (i).",
+      "perOption": {
+        "A": "Graph (iii) incorrectly makes energy fall nonlinearly with distance fallen.",
+        "B": "Correct. Graphs (i) and (iv) fit free fall.",
+        "C": "Graph (ii) assumes a constant rate of energy loss with time and graph (iii) incorrectly curves with distance.",
+        "D": "Graph (ii) treats the energy drop as proportional to time."
+      }
+    },
+    "issues": "The printed key has a stray extra t in the final expression for E(t). The correct term is proportional to t squared.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.d",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "statements"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The two graph shapes follow from substituting the free-fall displacement into the energy equation.",
+    "misconception": "Treating free-fall displacement as proportional to time",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q7",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $20\\ \\mathrm{m\\,s^{-1}}$, let the resistive force be $kv^2$. Newton’s second law gives $F_{\\mathrm{drive}}-400k=1000(0.50)=500$. Using $P=F_{\\mathrm{drive}}v$ gives $40\\times10^3=(500+400k)(20)$, so $k=3.75$ in SI units.\n\nAt constant speed the driving force balances resistance, so $P=kv^3=3.75(25)^3\\approx59\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "This is about the resistive force in kilonewtons at 20 m/s, rather than a power in kilowatts.",
+        "B": "This applies the square-law speed scaling to power and misses the extra factor of speed in $P=Fv$.",
+        "C": "Correct.",
+        "D": "This still includes the driving power needed to accelerate the car."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the resistance coefficient from accelerating motion and use it at a new steady speed.",
+    "misconception": "Equating driving and resistive forces while the car accelerates",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q8",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The horizontal component of the normal force supplies the centripetal force, so $N\\sin\\theta=mv^2/r$. Vertical equilibrium gives $N\\cos\\theta=mg$.\n\nDividing gives $\\tan\\theta=v^2/(rg)$, hence $v=\\sqrt{50(9.81)\\tan25^\\circ}=15.1\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This would require a much smaller inward force than the bank provides.",
+        "B": "Using this speed confuses the tangent factor in $v^2$ with a factor applied directly to $v$.",
+        "C": "Correct.",
+        "D": "This is close to treating the full weight as the inward force and misses the factor $\\tan25^\\circ$."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve the normal force along two axes to eliminate it.",
+    "misconception": "Using the whole normal force as the centripetal force",
+    "transcription": "A car is driven round an icy road banked at an angle $\\theta$ of $25^\\circ$ and a radius $r$ of $50\\ \\mathrm{m}$ as shown.\n\n[A car is on a banked circular bend. The bank angle $\\theta$ is marked against a horizontal reference line and the horizontal radius $r$ extends from the car to the marked centre.]\n\nThe frictional force between the tyres and the road is negligible.\n\nWhat is the speed that the car can travel at while maintaining the circular radius?\n\nA $2.6\\ \\mathrm{m\\,s^{-1}}$\nB $7.3\\ \\mathrm{m\\,s^{-1}}$\nC $15.1\\ \\mathrm{m\\,s^{-1}}$\nD $21.9\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q9",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gain in gravitational potential energy equals the loss of kinetic energy, so $mgr(1+\\cos\\theta)=\\frac12m(v_i^2-v_f^2)$. Substituting gives $(9.81)(7.7)(1+\\cos30^\\circ)=\\frac12(25^2-v_f^2)$, hence $v_f=18.5\\ \\mathrm{m\\,s^{-1}}$.\n\nAssume the rod is in tension, so both weight and the rod force point towards the centre at the top. Then $(3.5)(9.81)+F=3.5(18.5)^2/7.7$, giving $F=121\\ \\mathrm{N}$ in tension.",
+      "perOption": {
+        "A": "Using $94\\,\\mathrm{N}$ underestimates the required rod force, and compression would push the object away from the centre.",
+        "B": "The direction is right, but this force plus the weight falls short of the required centripetal force.",
+        "C": "The magnitude is right, but the rod must pull towards the centre at the top.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must use the diagram to find the height gain, then combine energy conservation and radial dynamics.",
+    "misconception": "Equating the rod force to the net centripetal force",
+    "transcription": "An object of $3.5\\ \\mathrm{kg}$ is fixed to one end of a light rod which rotates freely in a vertical circle. The length of the rod is $7.7\\ \\mathrm{m}$.\n\n[A dashed vertical circle surrounds the pivot. The rod extends down and right from the pivot to the object and makes angle $\\theta$ with the downward vertical. A curved arrow near the object indicates anticlockwise rotation.]\n\nWhen $\\theta$ is $30^\\circ$, the speed of the object is $25.0\\ \\mathrm{m\\,s^{-1}}$. Assume that there is no energy loss to the surrounding.\n\nWhich of the following describes the force in the rod when the object is at the top of the circular motion?\n\nA $94\\ \\mathrm{N}$ in compression\nB $94\\ \\mathrm{N}$ in tension\nC $121\\ \\mathrm{N}$ in compression\nD $121\\ \\mathrm{N}$ in tension"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q10",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the low-pressure limit, the gas obeys $pV=nRT$. The intercepts give $z=nR(273.15)$ at the ice point and $x=nRT_3$ for the unknown temperature. Dividing gives $z/x=273.15/T_3$, so $T_3=273.15x/z$ in kelvin.",
+      "perOption": {
+        "A": "Uses an interval ratio in place of the absolute-temperature ratio $x/z$.",
+        "B": "Correct.",
+        "C": "The ratio $x/z$ scales the ice-point temperature directly and needs no additional offset.",
+        "D": "The ratio of intercept differences gives the rise above $T_2$ in units of $100\\ \\mathrm{K}$, so using $273.15\\ \\mathrm{K}$ as the reference gives a result $100\\ \\mathrm{K}$ too low."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.a",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the zero-pressure intercepts and relate their ratio to absolute temperature.",
+    "misconception": "Taking ratios of temperature intervals as ratios of absolute temperatures",
+    "transcription": "The given graph shows the isotherms obtained from a sample of real gas. The temperature $T_1$ is the ice-point ($273.15\\ \\mathrm{K}$) and $T_2$ is the boiling point of water at standard pressure.\n\n[Graph of $pV/\\mathrm{J}$ against $P/\\mathrm{Pa}$. The three sloping isotherms have dashed extrapolations to the vertical axis. From top to bottom, $T_3$, $T_2$ and $T_1$ intercept at $x$, $y$ and $z$, respectively.]\n\nWhat is the thermodynamic temperature $T_3$ in kelvin?\n\nA $273.15\\frac{x-y}{y-z}$\nB $273.15\\frac{x}{z}$\nC $273.15+100\\frac{x}{z}$\nD $273.15+100\\frac{x-y}{y-z}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q11",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Before the tap opens, $p_xV_x=n_xRT$ and $p_yV_y=n_yRT$. After opening it, $pV=nRT$ at the same temperature. No gas escapes, so $n=n_x+n_y$ and $pV=(n_x+n_y)RT=p_xV_x+p_yV_y$.",
+      "perOption": {
+        "A": "Subtracting pressures and volumes fails to account for the gas initially present in both flasks.",
+        "B": "Averaging the volumes understates the combined volume, and the final pressure generally depends on the different flask volumes.",
+        "C": "Correct.",
+        "D": "Multiplying the sums adds cross terms that represent neither flask’s initial gas amount."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation uses the ideal gas law before and after opening the tap at the same temperature.",
+    "misconception": "Averaging the initial pressures and volumes",
+    "transcription": "Some ideal gas is contained in two flasks X and Y. The flasks are connected by a tube of negligible volume that is fitted with a tap, as shown.\n\n[Flask X, labelled $p_x$ and $V_x$, connects to flask Y, labelled $p_Y$ and $V_Y$, through a tube with a tap.]\n\nWith the tap closed, the pressure and volume of the gas in the flask X are $p_x$ and $V_x$ respectively. In flask Y, the gas has pressure $p_Y$ and volume $V_Y$. The temperature of the gas in both flasks is $T$.\n\nThe tap is opened. After some time, the temperature of the gas returns to $T$ at pressure $P$ and volume $V$.\n\nWhich expression relates the pressures and the volumes before and after opening the tap once the temperature has returned to $T$?\n\nA $pV=(p_x-p_y)\\times(V_x-V_y)$\nB $pV=\\frac12(p_x+p_y)\\times\\frac12(V_x+V_y)$\nC $pV=p_xV_x+p_yV_y$\nD $pV=(p_x+p_y)\\times(V_x+V_y)$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q12",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Kinetic theory gives $p=\\frac13\\frac{Nm}{V}\\langle c^2\\rangle$, where $Nm/V$ is the gas density. Substituting gives $1.00\\times10^5=\\frac13(1.60)\\langle c^2\\rangle$. Taking the square root gives $c_{\\mathrm{rms}}=433\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This approximately halves the rms speed, which would reduce the predicted pressure to one quarter.",
+        "B": "This omits the factor of three in $c_{\\mathrm{rms}}^2=3p/\\rho$.",
+        "C": "This uses half the required mean-square speed.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student can substitute directly after recognising the density in the kinetic-theory equation.",
+    "misconception": "Omitting the one-third factor in the pressure equation",
+    "transcription": "The density of argon at a pressure of $1.00\\times10^5\\ \\mathrm{Pa}$ and at a temperature of $300\\ \\mathrm{K}$ is $1.60\\ \\mathrm{kg\\,m^{-3}}$.\n\nThere are $4.35\\times10^{30}$ molecules of argon in a container.\n\nWhat is the root mean square speed of argon molecules at this temperature?\n\nA $216\\ \\mathrm{m\\,s^{-1}}$\nB $250\\ \\mathrm{m\\,s^{-1}}$\nC $306\\ \\mathrm{m\\,s^{-1}}$\nD $433\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q13",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let the common rate of heat loss be $H$. The heater power is $P=(m/t)L_f+H$, giving $650=\\frac{3.0}{2.0(60)}L_f+H$ and $1200=\\frac{3.0}{1.0(60)}L_f+H$.\n\nSubtracting eliminates $H$ and gives $1200-650=\\left[\\frac{3.0}{1.0(60)}-\\frac{3.0}{2.0(60)}\\right]L_f$. Hence $L_f=22\\ \\mathrm{kJ\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Using only the 1200 W run assigns all the supplied energy to melting.",
+        "C": "Averaging the two uncorrected estimates leaves heat loss in both values.",
+        "D": "Using only the 650 W run assigns all the supplied energy to melting."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.g",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must express melting as a power and eliminate the common heat-loss rate.",
+    "misconception": "Treating all heater energy as latent heat",
+    "transcription": "An experiment was carried out to determine the specific latent heat of fusion of an unknown solid. Two power settings were used.\n\nThe power rating of the heater $P$ and the time $t$ to melt $3.0\\ \\mathrm{kg}$ of the solid were recorded in the table below.\n\n[Table with columns $P/\\mathrm{W}$ and $t/\\mathrm{min}$. The rows are 650 and 2.0, then 1200 and 1.0.]\n\nWhat is the specific latent heat of fusion of the solid?\n\nA $22\\ \\mathrm{kJ\\,kg^{-1}}$\nB $24\\ \\mathrm{kJ\\,kg^{-1}}$\nC $25\\ \\mathrm{kJ\\,kg^{-1}}$\nD $26\\ \\mathrm{kJ\\,kg^{-1}}$"
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q14",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The contents stay at constant temperature, so $\\Delta U=0$ in the steady state described. The key assumes a fixed volume and no mechanical work on the contents, giving $W=0$. The first law then gives $Q=\\Delta U-W=0$.",
+      "perOption": {
+        "A": "This overlooks both the cancellation of heating and cooling and the absence of mechanical work on the contents.",
+        "B": "This overlooks the steady internal energy and the absence of mechanical work on the contents.",
+        "C": "This overlooks that heating and cooling cancel and the contents stay in the same thermal state.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must apply the first law to the contents while tracking net heating and mechanical work.",
+    "misconception": "Counting the refrigerator motor’s work as work on the contents",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q15",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=0$ the projection is at its maximum positive displacement, so $y=r\\cos(\\omega t)$. Differentiating gives $v=-r\\omega\\sin(\\omega t)$. Differentiating again gives $a=-r\\omega^2\\cos(\\omega t)$.",
+      "perOption": {
+        "A": "The acceleration sign is wrong and would put acceleration in the direction of displacement.",
+        "B": "Correct.",
+        "C": "The cosine velocity gives a nonzero initial velocity at maximum displacement.",
+        "D": "The sine displacement starts at zero even though Q starts at S."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g",
+      "circular-motion.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the initial phase and differentiate twice with the correct signs.",
+    "misconception": "Using sine when the initial displacement is maximal",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-prelim-p1-q16",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Reflection at the fixed point O causes a $\\pi$ phase change, so the reflected pulse is inverted. The smaller lobe reaches O first and therefore returns to P first. Its displacement is now positive, followed by the larger negative lobe.",
+      "perOption": {
+        "A": "This keeps the signs of the incident lobes as they pass P.",
+        "B": "This begins with the larger lobe and gives it the incident crest’s positive sign.",
+        "C": "Correct.",
+        "D": "This has the inverted signs but puts the larger lobe first."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track which part of an asymmetric pulse reaches the fixed end first and how its displacement changes on reflection.",
+    "misconception": "Reversing the arrival order as well as inverting the pulse",
+    "transcription": "A wave pulse of length $0.25\\ \\mathrm{m}$ is shown at the time $t=0$. It moves along a string, fixed at O, at $0.50\\ \\mathrm{m\\,s^{-1}}$. There is a phase change of $\\pi\\ \\mathrm{rad}$ upon reflection.\n\n[The string is horizontal, with O at the right end and P $0.25\\ \\mathrm{m}$ to its left. The right edge of the pulse is $0.25\\ \\mathrm{m}$ to the left of P. The pulse extends another $0.25\\ \\mathrm{m}$ to the left and has a large upward lobe on the left followed by a smaller downward lobe on the right. An arrow shows the pulse moving right at $0.50\\ \\mathrm{m\\,s^{-1}}$.]\n\nWhich graph best represents the displacement of point P with time for the period $t=1.5\\ \\mathrm{s}$ to $2.0\\ \\mathrm{s}$?\n\n[All options plot displacement against time, starting at zero and returning to zero after two lobes.]\nA [Small negative lobe, then large positive lobe.]\nB [Large positive lobe, then small negative lobe.]\nC [Small positive lobe, then large negative lobe.]\nD [Large negative lobe, then small positive lobe.]"
+  }
+]

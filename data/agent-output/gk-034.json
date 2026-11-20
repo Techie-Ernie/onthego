@@ -1,0 +1,501 @@
+[
+  {
+    "id": "dhs-2025-prelim-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photon energy is $E=hc/\\lambda=(6.63\\times10^{-34})(3.0\\times10^8)/(633\\times10^{-9})=3.14\\times10^{-19}\\ \\mathrm{J}$. This equals $1.96\\ \\mathrm{eV}$, the energy difference between W and X.",
+      "perOption": {
+        "A": "Correct. W to X releases 1.96 eV.",
+        "B": "W to Y releases 3.96 eV.",
+        "C": "W to Z releases 20.66 eV.",
+        "D": "X to Y releases 2.00 eV."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.m"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Calculate the photon energy and match it to a gap on the diagram.",
+    "misconception": "Using an energy level as the photon energy",
+    "transcription": "Some of the electron energy levels for neon in a helium-neon laser are shown.\n\n[Energy levels from top to bottom: W at $20.66\\ \\mathrm{eV}$, X at $18.70\\ \\mathrm{eV}$, Y at $16.70\\ \\mathrm{eV}$ and Z at $0$ (ground state).]\n\nWhich energy change for electrons results in laser light of wavelength $633\\ \\mathrm{nm}$?\n\nA W → X\nB W → Y\nC W → Z\nD X → Y"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $\\Delta x\\gtrsim h/\\Delta p$, with $\\Delta p=0.01p$ and $p=\\sqrt{2m_pE}$. The minimum is $\\frac{6.63\\times10^{-34}}{0.01\\sqrt{2(1.67\\times10^{-27})(1.00\\times10^6)(1.60\\times10^{-19})}}=2.87\\times10^{-12}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This is too small for the stated momentum uncertainty under the syllabus relation.",
+        "B": "This also implies a momentum uncertainty greater than 1%.",
+        "C": "Correct. The momentum uncertainty is 1% of the proton’s momentum.",
+        "D": "This implies a momentum uncertainty below 1%."
+      }
+    },
+    "issues": "The key omits the factor 10⁻³⁴ in its numerical numerator. Its result uses the syllabus approximation ΔxΔp ≳ h.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Convert the energy to joules, find the momentum and apply the uncertainty relation.",
+    "misconception": "Confusing momentum with its uncertainty",
+    "transcription": "A proton has a kinetic energy of $1.00\\ \\mathrm{MeV}$.\n\nIf its momentum is measured with an uncertainty of $1.00\\%$, what is the minimum uncertainty in its position?\n\nA $5.64\\times10^{-14}\\ \\mathrm{m}$\nB $9.08\\times10^{-14}\\ \\mathrm{m}$\nC $2.87\\times10^{-12}\\ \\mathrm{m}$\nD $9.77\\times10^{-10}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": null,
+    "confidence": "low",
+    "explanation": {
+      "body": "Alpha particles are easily stopped, so the key favours beta or gamma radiation. Of the listed emitters, it selects the beta emitter with a half-life of a few hours so that the activity falls quickly and limits exposure.",
+      "perOption": {
+        "A": "Correct. This is the short-lived beta emitter favoured by the key.",
+        "B": "Alpha particles are stopped too easily.",
+        "C": "A half-life of years means the activity falls slowly.",
+        "D": "Alpha particles are easily stopped and the activity would persist for years."
+      }
+    },
+    "issues": "A is the intended answer. For direct detection at the surface, ordinary beta radiation cannot penetrate 0.4 m of soil. No listed emitter is suitable for that setup.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.g",
+      "nuclear-physics.l"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Compare the penetration of the emissions and the persistence of the half-lives.",
+    "misconception": "Assuming relative penetrating ability guarantees detection",
+    "transcription": "In order to detect a leak in a water-pipe buried $0.4\\ \\mathrm{m}$ below a soccer field, which of the following radioactive isotope should be added to the water?\n\nEmitter | Half-life\nA $\\beta$ | a few hours\nB $\\alpha$ | a few hours\nC $\\beta$ | several years\nD $\\alpha$ | several years"
+  },
+  {
+    "id": "dhs-2025-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released equals the total binding energy of the products minus that of the reactants. The free neutron contributes zero binding energy, so the difference is $3(2.54)-2[2(1.09)]=3.26\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Subtracts the two deuterium per-nucleon values from the helium per-nucleon value.",
+        "B": "Subtracts the binding energies per nucleon directly.",
+        "C": "Correct. The total binding energy increases by 3.26 MeV.",
+        "D": "Subtracts the binding energy of only one deuterium nucleus."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert the binding energies per nucleon to total binding energies.",
+    "misconception": "Using binding energy per nucleon as total binding energy",
+    "transcription": "Two deuterium nuclei fuse together to form a Helium-3 nucleus, with the release of a neutron. The reaction is represented by\n\n$\\vphantom{H}^2_1\\mathrm{H}+\\vphantom{H}^2_1\\mathrm{H}\\rightarrow\\vphantom{H}^3_2\\mathrm{He}+\\vphantom{H}^1_0\\mathrm{n}+\\text{energy}$\n\nThe binding energies per nucleon are:\nfor $\\vphantom{H}^2_1\\mathrm{H}$, $1.09\\ \\mathrm{MeV}$,\nfor $\\vphantom{H}^3_2\\mathrm{He}$, $2.54\\ \\mathrm{MeV}$.\n\nHow much energy is released in this reaction?\n\nA $0.36\\ \\mathrm{MeV}$\nB $1.45\\ \\mathrm{MeV}$\nC $3.26\\ \\mathrm{MeV}$\nD $5.44\\ \\mathrm{MeV}$"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Estimate Singapore’s population at 5 million and the average mass per person at $60\\ \\mathrm{kg}$. Multiplying gives $(5\\times10^6)(60)=3\\times10^8\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Correct. It matches the population times the estimated mass per person.",
+        "B": "Implies 600 kg per person at a population of 5 million.",
+        "C": "Implies 6,000 kg per person at a population of 5 million.",
+        "D": "Implies 60,000 kg per person at a population of 5 million."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Multiply two familiar order-of-magnitude estimates.",
+    "misconception": null,
+    "transcription": null
+  },
+  {
+    "id": "ejc-2017-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The key treats sets 1 and 2 as similarly accurate, with set 1 less precise. Set 3 is precise but inaccurate because its readings are tightly grouped away from the actual value. Its narrower spread makes it more precise than set 1.",
+      "perOption": {
+        "A": "Correct. Set 1 has the wider spread.",
+        "B": "Set 2 is centred on the actual value.",
+        "C": "Set 3 is centred farther from the actual value than set 1.",
+        "D": "Set 3 has a narrower spread, indicating less random error."
+      }
+    },
+    "issues": "The key calls sets 1 and 2 equally accurate. The drawn mean of set 2 is closer to the actual value, which still rules out B.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Compare the spread and the offset from the actual value separately.",
+    "misconception": "Confusing precision with accuracy",
+    "transcription": "Three sets of measurements, 1, 2 and 3, are made to determine the length of a piece of wire. Each set of measurements has four readings.\n\n[Three horizontal scales share a dashed vertical reference labelled “actual value”. Set 1 has two readings near the reference and two farther away, with two readings on each side. Set 2 has four closely spaced readings centred on the reference. Set 3 has four closely spaced readings to the right of the reference.]\n\nWhich statement about the sets of measurements is correct?\n\nA Set 1 is less precise than set 3.\nB Set 2 is less accurate than set 1.\nC Set 3 has less systematic error than set 1.\nD Set 3 has more random error than set 1."
+  },
+  {
+    "id": "ejc-2017-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For $P=mv^2/(2t)$, the fractional uncertainties add as $\\Delta P/P=\\Delta m/m+2\\Delta v/v+\\Delta t/t$. In percentage terms this is $0.5\\%+2(3.0\\%)+2.0\\%=8.5\\%$.",
+      "perOption": {
+        "A": "Underestimates the combined uncertainty, including the doubled speed term.",
+        "B": "Counts the speed uncertainty only once.",
+        "C": "Correct. The speed term contributes 6.0%.",
+        "D": "Counts the speed uncertainty three times."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Apply the percentage uncertainty rule to a quotient with a squared variable.",
+    "misconception": "Forgetting to double the uncertainty contribution of the squared speed",
+    "transcription": "To study the performance of a car, a student measures the time $t$ taken for the car of mass $m$ to accelerate from rest to speed $v$. He calculates the quantity $P=\\frac12\\frac{mv^2}{t}$.\n\nThe percentage uncertainty in the value of $m$ is $0.5\\%$, in $v$ is $3.0\\%$ and in $t$ is $2.0\\%$.\n\nWhat is the percentage uncertainty in the calculated value of $P$?\n\nA $4.3\\%$\nB $5.5\\%$\nC $8.5\\%$\nD $11.5\\%$"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the displacement–time graph is the velocity. The velocity tends to zero at $t_2$, so the displacement graph must flatten there.",
+      "perOption": {
+        "A": "Shows constant displacement while the car is still moving forward.",
+        "B": "Keeps a positive constant gradient throughout braking.",
+        "C": "Shows an increasing gradient, indicating that the car speeds up.",
+        "D": "Correct. The gradient falls to zero at the stopping time."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the velocity to infer how the displacement graph’s gradient changes.",
+    "misconception": "Confusing displacement with its gradient",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2017-promo-p1-q5",
+    "keyPage": 1,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": null,
+    "confidence": "low",
+    "explanation": {
+      "body": "The target is $4.50\\ \\mathrm{m}$ horizontally from the launcher and $1.50\\ \\mathrm{m}$ below it. Substitute $t=4.50/(10\\cos\\theta)$ into $-1.50=10t\\sin\\theta-\\tfrac12gt^2$. The roots are about $-6.3^\\circ$ and $77.8^\\circ$, so only the latter is above the horizontal. No listed option gives that angle alone.",
+      "perOption": {
+        "A": "A horizontal launch passes above the target at its horizontal position.",
+        "B": "A 45° launch passes above the target at its horizontal position.",
+        "C": "Both angles send the balloon above the target at its horizontal position.",
+        "D": "78° works to the stated precision, but 12° misses."
+      }
+    },
+    "issues": "The school marks Q5 void. The input keyAnswer A is a placeholder. No listed option is physically correct.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Infer both displacements from the staircase and solve for the launch angles.",
+    "misconception": "Assuming both trajectory solutions are above the horizontal",
+    "transcription": "In a design challenge, a student builds a launcher that fires a water balloon at a speed of $10\\ \\mathrm{m\\,s^{-1}}$. The student then sets up his launcher such that the water balloon is fired from the top of the steps with the target placed at the middle of the fifth step below the top as shown.\n\n[Five steps descend to the right. The launcher is at the top edge and points at angle $\\theta$ above horizontal. The first step is labelled $0.30\\ \\mathrm{m}$ high and $1.00\\ \\mathrm{m}$ wide. The target is at the middle of the fifth step.]\n\nThe height of each step is $0.30\\ \\mathrm{m}$ and the width of each step is $1.00\\ \\mathrm{m}$.\n\nIf the effects of air resistance may be ignored, at which angle(s) $\\theta$ above the horizontal can he project the water balloon such that it will strike the target?\n\nA $0^\\circ$\nB $45^\\circ$\nC $12^\\circ$ and $57^\\circ$\nD $12^\\circ$ and $78^\\circ$"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The sand arrives with zero horizontal speed and accelerates to the belt’s speed. Its rate of horizontal momentum gain is $(m/\\Delta t)\\Delta v=4.0(1.5-0)=6.0\\ \\mathrm{N}$. The total driving force is $17+6.0=23\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives only the extra force needed to accelerate the sand.",
+        "B": "Subtracts the extra force from the empty-belt driving force.",
+        "C": "Ignores the sand’s change in momentum.",
+        "D": "Correct. The driving force increases by 6.0 N."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the sand’s rate of momentum gain and add its contribution to the driving force.",
+    "misconception": "Assuming constant belt speed means no extra force",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2017-promo-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially the speed is steady, so $mg\\sin\\theta=k(1.38)$, where $kv$ is the air resistance. At the higher steady speed, $mg\\sin\\theta+F=k(5.55)$. Thus $F=80(9.81)\\sin5^\\circ[5.55/1.38-1]=207\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Underestimates the extra force needed to balance the increased drag.",
+        "B": "Correct. The extra force makes up the increase in air resistance.",
+        "C": "Gives the full drag at the higher speed and ignores the downhill component of weight.",
+        "D": "Scales the full weight with speed instead of using the downhill component and subtracting its contribution."
+      }
+    },
+    "issues": "The key prints 138 in the final substitution. The preceding working and the result use 1.38.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the first force balance to establish the drag coefficient and then set up the second balance.",
+    "misconception": "Treating total drag as additional driving force",
+    "transcription": "A cyclist and his bicycle, of total mass $80.0\\ \\mathrm{kg}$, coasts down a slope inclined at $5.0^\\circ$ below the horizontal at a steady speed of $1.38\\ \\mathrm{m\\,s^{-1}}$ without paddling.\n\nIf the air resistance acting on the cyclist and his bicycle is proportional to its speed, what is the additional force that the cyclist must apply in order to descend the hill at a steady speed of $5.55\\ \\mathrm{m\\,s^{-1}}$?\n\nA $107\\ \\mathrm{N}$\nB $207\\ \\mathrm{N}$\nC $275\\ \\mathrm{N}$\nD $3140\\ \\mathrm{N}$"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The man and barrel each move $9\\ \\mathrm{m}$ before they are level. By conservation of energy, $m_{\\rm barrel}g\\Delta h=m_{\\rm man}g\\Delta h+\\tfrac12(m_{\\rm man}+m_{\\rm barrel})v^2$. Therefore $v=\\sqrt{2(120-80)(9.81)(9)/(80+120)}=5.94\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. The net loss of gravitational potential energy becomes kinetic energy of both masses.",
+        "B": "Assigns too much of the barrel’s energy loss to the man’s motion.",
+        "C": "Treats the motion as free fall through 9 m and ignores the effect of the other mass.",
+        "D": "Requires far more kinetic energy than the system’s net loss of gravitational potential energy."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the rope constraint to find each displacement before applying energy conservation.",
+    "misconception": "Using the initial separation as each object’s displacement",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2017-promo-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Water pressure increases with depth, so it is greater at the bottom of the submarine than at the top. The resulting net upward pressure force is the upthrust.",
+      "perOption": {
+        "A": "The air density affects the submarine’s average density, while the upthrust comes from the surrounding water pressure.",
+        "B": "Displaced volume determines the upthrust’s magnitude, while the pressure difference produces it.",
+        "C": "In equilibrium the net upward force from the water equals the submarine’s weight.",
+        "D": "Correct. Pressure is greater at the bottom than at the top."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recall how increasing fluid pressure with depth produces upthrust.",
+    "misconception": "Confusing the magnitude of upthrust with its physical origin",
+    "transcription": "A submarine is in equilibrium in a fully submerged position as shown.\n\n[Cross-section of a submerged submarine with a steel hull surrounding air and sea water outside.]\n\nWhat causes the upthrust on the submarine?\n\nA The air in the submarine is less dense than sea water.\nB The submarine displaces its own volume of sea water.\nC The sea water exerts a greater upward force on the submarine than the weight of the submarine.\nD There is a difference in water pressure acting on the top and on the bottom of the submarine."
+  },
+  {
+    "id": "ejc-2017-promo-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Vertical equilibrium gives $T\\sin\\phi=H\\sin\\theta+W$, with both angles measured from horizontal. The horizontal components balance, so the larger vertical component gives $T>H$, and the vertical equation also gives $T>W$. Taking moments about the cable attachment gives $(L/4)H\\sin\\theta=(L/4)W$. Thus $H>W$, giving $W<H<T$.",
+      "perOption": {
+        "A": "The hinge’s downward component equals the weight, so the full hinge force is greater than the weight.",
+        "B": "The tension’s vertical component alone exceeds the weight.",
+        "C": "Correct. The weight is smallest and the tension is largest.",
+        "D": "The horizontal components balance and the tension has the greater vertical component."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.g",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Combine force balance in two directions with a moment balance about the cable attachment.",
+    "misconception": "Comparing force magnitudes without resolving components",
+    "transcription": "A hinged trapdoor is held closed in the horizontal position by a cable that is connected midway between the hinge and the centre of gravity of the trapdoor.\n\n[The trapdoor extends horizontally from a hinge on a vertical wall. Cable tension $T$ points up and left along the cable towards the wall. The hinge force $H$ points down and right from the hinge. Weight $W$ points vertically down at the centre of gravity.]\n\n(forces are not drawn to scale)\n\nThree forces act on the trapdoor: the weight $W$ of the trapdoor, the tension $T$ in the cable and the force $H$ at the hinge.\n\nWhich list gives the three forces in increasing order of magnitude?\n\nA $H, W, T$\nB $H, T, W$\nC $W, H, T$\nD $W, T, H$"
+  },
+  {
+    "id": "ejc-2017-promo-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each half of the drawn cord has length $L=\\sqrt{0.5^2+x^2}$, so the total extension is $2(L-0.5)$. Equating elastic potential energy to the balloon’s kinetic energy gives $\\tfrac12(80)[2(\\sqrt{0.5^2+x^2}-0.5)]^2=\\tfrac12(0.2)(10)^2$. Solving gives $x=0.56\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Gives the total cord extension instead of the transverse draw length.",
+        "B": "Correct. The cord geometry gives a draw length of 0.56 m.",
+        "C": "Gives the length of one stretched half of the cord.",
+        "D": "Gives the total stretched length of the cord."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the geometry of the stretched cord before applying energy conservation.",
+    "misconception": "Confusing draw length with total cord extension",
+    "transcription": null
+  }
+]

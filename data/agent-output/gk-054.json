@@ -1,0 +1,503 @@
+[
+  {
+    "id": "ejc-2025-prelim-p1-q21",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "In the school’s model, the diode’s resistance becomes negligible once the threshold voltage is reached. The fixed resistor has a constant voltage-to-current ratio, so its own $I$–$V$ graph is a straight line through the origin. The key selects D, showing a sharp turn-on followed by a straight line.",
+      "perOption": {
+        "A": "Starts the linear region at zero current at the threshold, which the key represents with a vertical turn-on.",
+        "B": "Shows a nonzero current at zero applied voltage.",
+        "C": "Shows a nonzero current at zero applied voltage.",
+        "D": "Correct. It shows the sharp turn-on and linear region used by the key."
+      }
+    },
+    "issues": "The key prints D and keyAnswer is D, but A is the physically consistent piecewise-linear model. Above threshold the diode retains an approximately constant voltage drop, so $I=(V-V_{\\mathrm{th}})/R$ rises continuously from zero. D’s vertical segment at fixed total voltage is incompatible with the series resistor.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.e",
+      "circuits.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine the diode’s threshold with the resistor’s current–voltage characteristic.",
+    "misconception": "Confusing the diode voltage with the total circuit voltage",
+    "transcription": "A fixed resistor and a diode are combined by connecting them in series. The total potential difference $V$ across the combination is varied and the corresponding current $I$ is measured.\n\nWhich graph could represent the variation of $I$ with $V$?\n\n[All graphs plot $I$ vertically and $V$ horizontally. A stays at zero until a positive threshold, then rises linearly from zero. B starts at a positive current, stays flat briefly and then rises linearly. C rises linearly from a positive current at zero voltage. D stays at zero until a positive threshold, jumps vertically to a positive current and then rises linearly.]"
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current travels a length $l=V^{1/3}$ through a cross-sectional area $A=V^{2/3}$. Substituting into $R=\\rho l/A$ gives $R=\\rho V^{1/3}/V^{2/3}=\\rho/V^{1/3}$.",
+      "perOption": {
+        "A": "Multiplies by the side length while omitting the face area.",
+        "B": "Multiplies by the face area instead of using the length-to-area ratio.",
+        "C": "Correct. The side length cancels one factor of the face area.",
+        "D": "Divides by the face area while omitting the side length."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must express both the cube’s side and its face area in terms of volume.",
+    "misconception": "Confusing face area with cube volume",
+    "transcription": "The resistance of a metal cube is measured by placing it between two parallel plates, as shown.\n\n[A metal cube lies between parallel plates touching opposite faces, with the left plate connected to X and the right plate connected to Y.]\n\nThe cube has volume $V$ and is made of a material with resistivity $\\rho$. The connections to the cube have negligible resistance.\n\nWhich expression gives the electrical resistance of the metal cube between X and Y?\n\nA $\\rho V^{1/3}$\nB $\\rho V^{2/3}$\nC $\\dfrac{\\rho}{V^{1/3}}$\nD $\\dfrac{\\rho}{V^{2/3}}$"
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q23",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $10$ and $6.0\\ \\mathrm{k\\Omega}$ resistors share the same potential difference, so they are in parallel. The $30$ and $18\\ \\mathrm{k\\Omega}$ resistors also form a parallel pair. The two equivalents are in series, so $R_{\\mathrm{eff}}=[(1/10+1/6.0)^{-1}+(1/30+1/18)^{-1}]\\ \\mathrm{k\\Omega}=15\\ \\mathrm{k\\Omega}$.",
+      "perOption": {
+        "A": "Correct. The two parallel equivalents add to 15 kΩ.",
+        "B": "Adds only the two resistances on the right-hand side.",
+        "C": "Adds only the two resistances on the left-hand side.",
+        "D": "Adds all four resistances as though they were in series."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify the pairs sharing the same two nodes before combining their equivalent resistances.",
+    "misconception": "Overlooking the wire joining the midpoints",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q24",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two external branches have the same potential difference, so $0.48(15)=0.45R+0.45(2.0)$, giving $R=14\\ \\Omega$. The voltage across the $15\\ \\Omega$ resistor is also the e.m.f. minus the voltage lost across $r$. Thus $0.48(15)=10-(0.45+0.48)r$, giving $r=3.0\\ \\Omega$.",
+      "perOption": {
+        "A": "Correct. Both the branch voltage and internal voltage drop are accounted for.",
+        "B": "Uses the full e.m.f. across the external branch, giving too large a value for R.",
+        "C": "Uses only the 0.48 A branch current to calculate the drop across r.",
+        "D": "Uses only the 0.48 A branch current for r and the full e.m.f. across the branch for R."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must equate the parallel branch voltages and use the total current through the internal resistance.",
+    "misconception": "Using a single branch current for the internal resistance",
+    "transcription": "A battery of electromotive force (e.m.f.) $10\\ \\mathrm V$ and internal resistance $r$ is connected to three resistors of resistances $R$, $2.0\\ \\Omega$ and $15\\ \\Omega$, as shown. A current of $0.45\\ \\mathrm A$ is in the resistor of resistance $2.0\\ \\Omega$ and a current of $0.48\\ \\mathrm A$ is in the resistor of resistance $15\\ \\Omega$.\n\n[The battery and $r$ are in series across two parallel branches. The middle branch contains $R$ followed by $2.0\\ \\Omega$ and carries $0.45\\ \\mathrm A$ to the right. The lower branch contains $15\\ \\Omega$ and carries $0.48\\ \\mathrm A$ to the right.]\n\nWhat are the values of $r$ and $R$?\n\n[$r/\\Omega$, $R/\\Omega$]\nA 3.0, 14\nB 3.0, 20\nC 5.8, 14\nD 5.8, 20"
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q25",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Particle Y is undeflected, so its electric and magnetic forces must act in opposite directions. Fleming’s left-hand rule gives a downward magnetic force for a positive particle moving right, with the direction reversed for a negative particle. In either case the electric field must point upwards, from plate M to the lower-potential plate L.",
+      "perOption": {
+        "A": "Force balance requires Y’s speed to equal $E/B$.",
+        "B": "Correct. The upward electric field points toward the lower-potential plate L.",
+        "C": "The deflections depend on the particles’ speeds as well as their charge signs.",
+        "D": "The paths also depend on the speeds and charges, so they do not establish a mass ordering."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.l",
+      "electromagnetic-forces.m",
+      "electric-fields.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must infer the electric field direction without knowing the sign of the undeflected particle.",
+    "misconception": "Assuming deflection direction uniquely determines charge sign",
+    "transcription": "A beam of charged particles enters a region where a uniform electric field $E$ setup by Plate L and Plate M is perpendicular to a uniform magnetic field $B$. Magnetic field $B$ is directed out of the paper. The particles enter this region horizontally from the left.\n\nThe path of particle X, Y and Z are illustrated in the diagram below.\n\n[The parallel charged plates L and M bound the field region above and below, respectively. From the common entry point on the left, particle X curves up toward L, particle Y continues horizontally to the right, and particle Z curves down toward M. The dot-in-circle symbol shows $B$ pointing out of the paper.]\n\nWhich of the statement can be concluded from the observation?\n\nA The velocity of particle Y is larger than $\\dfrac{E}{B}$.\nB Plate L has a lower potential than plate M.\nC Particle X, Y and Z have the same polarity.\nD Particle Z has a larger mass than particle X and Y."
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q26",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing $I_S$ increases the magnetic force on XY into the page, so its moment about KL increases. Moving the weighted slider toward WZ increases the perpendicular distance from its line of action to KL. The larger moment of the weight balances the increased magnetic moment.",
+      "perOption": {
+        "A": "Increasing $I_W$ further increases the magnetic moment.",
+        "B": "Reversing the frame current reverses the magnetic moment so it acts in the same sense as the weight’s moment.",
+        "C": "Correct. The slider has a larger moment arm about KL.",
+        "D": "Increasing the number of solenoid turns strengthens the field and further increases the magnetic moment."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.h",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must connect the solenoid current to the magnetic moment about the pivot and identify how to increase the opposing moment.",
+    "misconception": "Moving the slider toward the pivot to increase its moment",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q27",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Faraday’s law, $|\\mathcal{E}|=NA|\\Delta B|/\\Delta t=50(0.40)(0.08\\times0.05)/0.20=0.40\\ \\mathrm V$. By Lenz’s law, the induced current produces flux into the page to oppose the decrease in flux into the page. The right-hand grip rule gives a clockwise current.",
+      "perOption": {
+        "A": "Correct. The induced e.m.f. is 0.40 V and the current is clockwise.",
+        "B": "An anticlockwise current would produce flux out of the page.",
+        "C": "Doubles the e.m.f. given by the stated change in flux linkage.",
+        "D": "Doubles the e.m.f. and gives a current that would produce flux out of the page."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must calculate the rate of change of flux linkage and apply Lenz’s law to find the current direction.",
+    "misconception": "Opposing the original field instead of the change in flux",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q28",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For output 1, the sine wave has $V_{\\mathrm{rms},1}=\\sqrt{(V_o^2/2)T/T}=V_o/\\sqrt{2}$. Output 2 is at $V_o$ for half the period and zero for the other half, so $V_{\\mathrm{rms},2}=\\sqrt{V_o^2(T/2)/T}=V_o/\\sqrt{2}$. Their ratio is $1$.",
+      "perOption": {
+        "A": "Reports the mean-square fraction of the peak for a single waveform instead of the ratio of r.m.s. voltages.",
+        "B": "Treats the pulsed output’s peak voltage as its r.m.s. voltage.",
+        "C": "Correct. Both outputs have the same r.m.s. voltage.",
+        "D": "Treats the half-period at zero as halving the pulse’s r.m.s. voltage relative to the sine wave."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must apply the definition of r.m.s. voltage to a pulse and compare it with the sinusoidal result.",
+    "misconception": "Using mean voltage instead of root-mean-square voltage",
+    "transcription": "The outputs from the two sources are shown in the graphs below.\n\n[Both graphs plot potential difference against time. Output 1 is one full sine wave of peak $V_o$ and period $T$, beginning at zero and rising. Output 2 is $V_o$ from zero to $T/2$, zero from $T/2$ to $T$, and $V_o$ again from $T$.]\n\nWhat is the ratio of $\\dfrac{\\text{root mean squared voltage from output 1}}{\\text{root mean squared voltage from output 2}}$?\n\nA 0.50\nB 0.71\nC 1\nD 2"
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q29",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A hydrogen spectral line comes from a transition between electronic energy levels. The largest bound-level energy gap is limited by the ionisation energy, which is too small to produce an X-ray photon.",
+      "perOption": {
+        "A": "Attributes the spectral limit to neutrons instead of electronic energy-level spacings.",
+        "B": "Heating changes which levels are populated without increasing the gaps between them.",
+        "C": "Invokes a cut-off frequency without identifying the limit set by the atomic energy levels.",
+        "D": "Correct. The ionisation energy bounds the photon energies of hydrogen’s spectral lines."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect the highest possible line frequency to the energy gap between levels.",
+    "misconception": "Attributing spectral lines to nuclear composition",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q30",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles pass undeflected, indicating that the atom is largely empty space. The rare large deflections indicate a small, massive nucleus in which most of the atom’s mass is concentrated.",
+      "perOption": {
+        "A": "The scattering pattern does not measure the separate charges of protons and electrons.",
+        "B": "The experiment does not compare the individual masses of protons and electrons.",
+        "C": "Correct. The scattering is consistent with most of the mass being concentrated in a small nucleus.",
+        "D": "The scattering establishes a nucleus without identifying protons and neutrons as its constituents."
+      }
+    },
+    "issues": "The key mentions only undeflected particles, which establish that the atom is mostly empty. The explanation adds the rare large deflections needed to support the mass inference.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect the scattering observations to the concentration of mass in the nucleus.",
+    "misconception": "Inferring the composition of the nucleus from scattering alone",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange to $R=vL\\rho/\\mu$. The units of $vL\\rho$ are $(\\mathrm{m\\,s^{-1}})(\\mathrm m)(\\mathrm{kg\\,m^{-3}})=\\mathrm{kg\\,m^{-1}\\,s^{-1}}$. The units of $\\mu$, $\\mathrm{N\\,s\\,m^{-2}}$, simplify to the same base units, so $R$ is dimensionless.",
+      "perOption": {
+        "A": "Leaves a spurious factor of time squared per length squared.",
+        "B": "Leaves a spurious inverse fourth power of length after expanding the newton.",
+        "C": "Leaves inverse powers of length and time even though both cancel.",
+        "D": "Correct. The numerator and denominator have identical units."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must convert newtons to SI base units and cancel the units on both sides.",
+    "misconception": "Failing to expand the newton into SI base units",
+    "transcription": "Dynamic viscosity, $\\mu$, measures a fluid's internal resistance to gradual deformation by shear or tensile stress. The SI unit for dynamic viscosity is newton second per square meter ($\\mathrm{N\\,s\\,m^{-2}}$).\n\nGiven that $\\mu=\\dfrac{vL\\rho}{R}$\n\nwhere $v$ is the velocity of the fluid, $L$ the characteristic length and $\\rho$ is the density of the fluid.\n\nWhat is the unit of $R$, expressed in SI units?\n\nA $\\mathrm{kg\\,N^{-1}\\,m^{-1}}$\nB $\\mathrm{kg\\,N^{-1}\\,m^{-3}\\,s^{-2}}$\nC $\\mathrm{m^{-2}\\,s^{-2}}$\nD dimensionless"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $K=b-c=21\\pm4$, adding the absolute uncertainties in $b$ and $c$. Since $a=K/d^2$, the fractional uncertainty is $\\Delta a/a=\\Delta K/K+2\\Delta d/d=4/21+2(1/100)=0.210476$. This gives a percentage uncertainty of $21\\%$ to two significant figures.",
+      "perOption": {
+        "A": "Uses only the percentage uncertainty in b.",
+        "B": "Counts the fractional uncertainty in d once, giving about 20%.",
+        "C": "Correct. The absolute uncertainties are added before propagating the fractional uncertainties.",
+        "D": "Adds the percentage uncertainties of b and c directly before allowing for the squared denominator."
+      }
+    },
+    "issues": "The key’s alternative max–min calculation on page 2 drops the factor of one-half in the displayed substitution, although its final number includes that factor. The explanation follows the error-propagation method on page 1.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must add absolute uncertainties for a difference and then propagate fractional uncertainties through a quotient.",
+    "misconception": "Adding percentage uncertainties across a subtraction",
+    "transcription": "Quantity $a$ is related to $b$, $c$ and $d$ by the equation shown:\n\n$a=\\dfrac{b-c}{d^2}$\n\nThe numerical values of $b$, $c$ and $d$ in their SI units are:\n\n$b=25\\pm3$, $c=4\\pm1$ and $d=100\\pm1$.\n\nWhat is the percentage uncertainty in $a$?\n\nA 12%\nB 20%\nC 21%\nD 39%"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the displacement–time graph gives the vehicle’s velocity. In C the gradient changes rapidly, giving the greatest acceleration magnitude. In A, B and D the gradients are approximately constant.",
+      "perOption": {
+        "A": "The rising segment has an approximately constant positive gradient.",
+        "B": "The plateau has an approximately constant zero gradient.",
+        "C": "Correct. The gradient changes most rapidly in this interval.",
+        "D": "The falling segment has an approximately constant negative gradient."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish steepness from a change in steepness on a displacement–time graph.",
+    "misconception": "Reading steepness as acceleration",
+    "transcription": "The graph shows the variation with time $t$ of the displacement $s$ of a vehicle moving along a straight line.\n\n[The $s$–$t$ curve starts at zero, rises to a flat plateau, then falls back to zero and flattens out. A marks part of the nearly straight rising section, B marks part of the plateau, C spans the bend where the plateau turns into a steep descent, and D marks part of the nearly straight descent.]\n\nDuring which time interval does the acceleration of the vehicle have its greatest magnitude?"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Energy stores include gravitational potential, elastic potential, chemical potential, internal, kinetic, nuclear and electromagnetic stores. Energy can be transferred mechanically, electrically, by heating or by radiation. All four entries in D are energy stores.",
+      "perOption": {
+        "A": "Includes sound, which transfers energy through mechanical waves.",
+        "B": "Includes light and electrical transfer.",
+        "C": "Includes work done, which is energy transferred mechanically.",
+        "D": "Correct. All four entries describe energy stores."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.a",
+      "energy-and-fields.b",
+      "energy-and-fields.c"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students only need to distinguish familiar energy stores from transfer pathways.",
+    "misconception": "Treating transfers as energy stores",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric field lines must meet each metal plate perpendicularly. The gap is narrowest at the bottom and widest at the top. By $E=-\\mathrm{d}V/\\mathrm{d}r$, the field is strongest where the gap is narrowest, so D shows the closest spacing at the bottom.",
+      "perOption": {
+        "A": "The horizontal field lines meet the plates obliquely and are evenly spaced.",
+        "B": "The horizontal lines meet the plates obliquely.",
+        "C": "Even spacing depicts a uniform field despite the changing gap.",
+        "D": "Correct. The curved lines meet the plates perpendicularly and crowd toward the narrow gap."
+      }
+    },
+    "issues": "The batch marks this item as text, but all four answer choices are diagrams in the question PNG. The extracted text omits those diagrams.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use both the direction of the lines at the surfaces and their spacing across the gap.",
+    "misconception": "Treating the field between nonparallel plates as uniform",
+    "transcription": null
+  }
+]

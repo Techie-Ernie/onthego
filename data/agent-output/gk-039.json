@@ -1,0 +1,493 @@
+[
+  {
+    "id": "ejc-2020-promo-p1-q2",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "One layer has thickness $(11.2/4 \\pm 0.4/4)\\,\\mathrm{mm}$, so its percentage uncertainty is $(0.4/11.2)\\times100\\%\\approx3.6\\%$. Since $\\rho=m/(lbt)$, add the percentage uncertainties to get $1\\%+1\\%+2\\%+3.6\\%=7.6\\%$.",
+      "perOption": {
+        "A": "Divides the stack’s percentage uncertainty by four again.",
+        "B": "Correct.",
+        "C": "Counts the thickness contribution twice.",
+        "D": "Uses the full stack’s absolute uncertainty with the thickness of one layer."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must propagate uncertainty through a quotient and recognise that dividing by four preserves relative uncertainty.",
+    "misconception": "Dividing the percentage uncertainty by the number of layers",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q3",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The meter overreads, so the true value lies below the meter reading and the graph is below $y=x$. For a constant positive offset, $V_{\\rm true}=V_{\\rm meter}-\\Delta V$, so the gradient is one and the horizontal intercept is positive, as in B. A also overreads systematically if a scale error is allowed.",
+      "perOption": {
+        "A": "Its slope below one represents a scale error in addition to the offset, which the wording does not rule out.",
+        "B": "Correct. It shows a constant positive offset.",
+        "C": "The true value is above the meter reading, so the meter underreads.",
+        "D": "The true value is above the meter reading, so the meter underreads."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder. A and B both satisfy the stated systematic overreading. B is the likely intended answer if the error is a constant positive offset.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret the calibration axes and distinguish a constant offset from a scale error.",
+    "misconception": "Assuming every systematic error is a constant offset",
+    "transcription": "A voltmeter gives readings that are larger than the true values and has a systematic error. Which graph represents the calibration curve for the voltmeter most accurately?\n\n[All graphs show true value / V vertically and meter reading / V horizontally, with both axes marked 0 to 4. A: straight line crossing the horizontal axis just right of zero and reaching about 3.2 V true at a reading of 4 V. B: straight line crossing the horizontal axis just right of zero and reaching just under 4 V true at a reading of 4 V. C: increasing concave-down curve from the origin, reaching 4 V true before a reading of 4 V. D: increasing concave-down curve with a positive vertical intercept, reaching 4 V true before a reading of 4 V.]"
+  },
+  {
+    "id": "ejc-2020-promo-p1-q4",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The displacement–time gradient is velocity. It starts at zero, increases until $t$, and stays constant and positive from $t$ to $2t$. The negative acceleration–time area from $2t$ to $3t$ cancels the initial positive area, so the gradient falls to zero at $3t$.",
+      "perOption": {
+        "A": "Shows the car at rest during the zero-acceleration interval and moving backwards afterwards.",
+        "B": "Shows nonzero gradients at the start and finish.",
+        "C": "Shows an initially steep gradient, a stationary interval and a return to the start.",
+        "D": "Correct."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder. The question PNG cuts off the graphs for C and D. Both are visible on exam page 6 among the supplied key-page images.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect acceleration to the changing slope of displacement and compare the signed acceleration areas.",
+    "misconception": "Treating zero acceleration as zero velocity",
+    "transcription": "A car starts from rest and accelerates along a straight line. The acceleration-time graph of the car is given below.\n\n[Acceleration / $\\mathrm{m\\,s^{-2}}$ versus time / s. Straight segments join $(0,a)$, $(t,0)$, $(2t,0)$ and $(3t,-a)$.]\n\nWhich of the following options gives the correct displacement-time graph of the car?\n\n[All options plot displacement / m against time / s and mark $0$, $t$, $2t$ and $3t$. A: initially flat, then curves up to a plateau from $t$ to $2t$, then curves down to zero and levels off before $3t$. B: rises with a nonzero initial slope, is straight from $t$ to $2t$, and bends over while still rising at $3t$. C: rises steeply and flattens to a plateau from $t$ to $2t$, then falls increasingly steeply to zero at $3t$. D: starts flat and steepens, rises in a straight line from $t$ to $2t$, then bends over to a horizontal tangent at $3t$.]"
+  },
+  {
+    "id": "ejc-2020-promo-p1-q5",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the first-floor frame, the spanner retains the elevator’s initial upward speed $u$ when released, matching the hammer’s launch speed. The diagram shows equal launch heights, and both tools accelerate downwards at $g$, so they follow the same vertical motion and land together.",
+      "perOption": {
+        "A": "Treats the released spanner as having a smaller initial upward speed.",
+        "B": "Correct.",
+        "C": "Equal launch heights, speeds and accelerations give equal distances travelled.",
+        "D": "Both tools start at the same upward speed and slow at the same rate."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise that the released spanner inherits the elevator’s velocity in the floor frame.",
+    "misconception": "Assuming a released object starts at rest in every frame",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q6",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each spring in series carries the same $12\\,\\mathrm N$ tension. Hooke’s law gives $x=F/k$, so $x_A:x_B:x_C=12/2:12/3:12/6=6:4:2=3:2:1$.",
+      "perOption": {
+        "A": "Puts the stiffest spring at the largest extension, reversing the effect of stiffness.",
+        "B": "Uses the spring constants directly as the extensions’ ratio.",
+        "C": "Correct.",
+        "D": "Uses a middle term that is inconsistent with $x_B=12/3=4\\,\\mathrm m$."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the common tension and take the inverse ratio of the spring constants.",
+    "misconception": "Taking extension as directly proportional to spring constant",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q7",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the level of the water–mercury interface, the pressures in the connected mercury are equal. Cancelling atmospheric pressure and $g$ gives $1000h=800(h-5.0)+13600(5.0)$ with heights in centimetres. Solving gives $h=320.0\\,\\mathrm{cm}$.",
+      "perOption": {
+        "A": "This height gives too little water pressure even to balance the mercury head alone.",
+        "B": "This height gives too little water pressure even to balance the mercury head alone.",
+        "C": "Balances only the mercury head and omits the oil above it.",
+        "D": "Correct."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must choose a common level within the mercury and account for two liquids on the oil side.",
+    "misconception": "Ignoring the oil column or the interface height difference",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q8",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each opposite pair leaves $300\\,\\mathrm N$, respectively along $OD$, $OE$ and $OF$. The components of the $OD$ and $OF$ forces perpendicular to $OE$ cancel, and their components along $OE$ add to $2(300)\\cos60^\\circ=300\\,\\mathrm N$. Including the third force gives $600\\,\\mathrm N$ along $OE$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the resultant direction.",
+        "C": "Adds the three $300\\,\\mathrm N$ forces as scalars.",
+        "D": "Adds nonparallel forces as scalars and reverses the resultant direction."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine opposite pairs and then add the remaining forces as vectors.",
+    "misconception": "Adding nonparallel forces as scalars",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q9",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the two blocks together, $F-5Mg\\sin30^\\circ=5Ma$. If $N$ is the uphill contact force on B, then $N-2Mg\\sin30^\\circ=2Ma$, so substituting gives $N=2F/5$. By Newton’s third law B exerts the same magnitude on A.",
+      "perOption": {
+        "A": "Splits the applied force equally despite the unequal masses.",
+        "B": "Correct.",
+        "C": "Uses the mass ratio $2M/3M$ in place of the fraction $2M/(5M)$.",
+        "D": "Assigns the entire applied force to the contact with B."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must apply Newton’s laws to the pair of blocks and then to one block.",
+    "misconception": "Using the mass of the other block as the total mass",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q10",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In one second the blades push down a volume $\\pi(2.5)^2(18)\\,\\mathrm{m^3}$ of air, giving a mass flow rate of about $360\\,\\mathrm{kg\\,s^{-1}}$. The downward momentum gained per second is $\\rho\\pi(2.5)^2(18)^2\\approx6500\\,\\mathrm N$. By Newton’s third law the air exerts that force upwards on the blades.",
+      "perOption": {
+        "A": "Stops at the mass flow rate without multiplying by the change in air speed.",
+        "B": "Underestimates the swept area, which is the full disk of radius $2.5\\,\\mathrm m$.",
+        "C": "Correct.",
+        "D": "Uses the diameter as the radius, making the area four times too large."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder. The calculation uses the intended uniform airflow model, taking 18 m/s as the speed through the swept area and the air’s downward speed gain.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compute the air mass flow rate before applying the momentum principle.",
+    "misconception": "Confusing mass flow rate with thrust",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q11",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $4$ to $8\\,\\mathrm s$, the impulse is the rectangle plus the triangle, $12(2)+\\tfrac12(2)(12)=36\\,\\mathrm{N\\,s}$. The velocity increases by $36/3.0=12\\,\\mathrm{m\\,s^{-1}}$, giving $24\\,\\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Subtracts the positive impulse from the initial momentum.",
+        "B": "Includes the rectangle from 4 to 6 s but omits the triangle from 6 to 8 s.",
+        "C": "Correct.",
+        "D": "Uses the numerical value of the impulse as the final speed."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must isolate the relevant force–time area and add the resulting velocity change.",
+    "misconception": "Using impulse as final momentum",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q12",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking right as positive, the total momentum is $2Mv+M(-2v)=0$ and is conserved. The collision is elastic, so the total kinetic energy remains $\\tfrac12(2M)v^2+\\tfrac12 M(2v)^2=3Mv^2$.",
+      "perOption": {
+        "A": "Treats zero total momentum as zero total kinetic energy.",
+        "B": "Adds the momentum magnitudes and loses the kinetic energy despite the elastic collision.",
+        "C": "Correct.",
+        "D": "Adds the magnitudes of the oppositely directed momenta."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track the signs of momentum and conserve the sum of the two kinetic energies.",
+    "misconception": "Letting kinetic energies cancel because velocities are opposite",
+    "transcription": "An object of mass $2M$ travelling to the right with speed $v$ collides elastically with another object of mass $M$ travelling to the left with speed $2v$.\n\n[The larger object, labelled $2M$, is on the left with an arrow $v$ pointing right. The smaller object, labelled $M$, is on the right with an arrow $2v$ pointing left.]\n\nWhat is the total momentum and total kinetic energy of the two objects after collision?\n\nTotal momentum | Total kinetic energy\nA $0$ | $0$\nB $4Mv$ | $0$\nC $0$ | $3Mv^2$\nD $4Mv$ | $3Mv^2$"
+  },
+  {
+    "id": "ejc-2020-promo-p1-q13",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The lady’s force on the crate and the crate’s force on the lady are a Newton’s third-law pair, equal in magnitude and opposite in direction. They act on different bodies. The crate accelerates because the forces acting on the crate give a nonzero resultant.",
+      "perOption": {
+        "A": "Treats the two third-law forces as unequal because the crate accelerates.",
+        "B": "Correct.",
+        "C": "Equilibrium would require zero acceleration.",
+        "D": "Friction equal to the applied force would cancel the horizontal resultant."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student needs to identify a Newton’s third-law force pair and distinguish it from forces on the crate.",
+    "misconception": "Thinking acceleration makes a third-law pair unequal",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q14",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Recoverable elastic energy is the work done by the material as it unloads, given by $\\int F\\,\\mathrm dx$ from zero extension to $x_1$ along the unloading curve. With extension on the vertical axis this is the area to the left of that curve, $X$. Area $Y$ is the energy dissipated over the complete cycle.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reads the area below the loading curve despite the reversed axes.",
+        "C": "Includes the energy dissipated in the hysteresis loop as part of the recoverable energy.",
+        "D": "Reads the area below the unloading curve despite the reversed axes."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must account for the reversed axes and identify the work recovered on unloading.",
+    "misconception": "Reading area below the curve when force is on the horizontal axis",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q15",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The useful power is $mgh/t=400(9.81)(1200)/120\\approx39.2\\,\\mathrm{kW}$. At $80\\%$ efficiency the input is $39.2/0.80\\approx49.1\\,\\mathrm{kW}$, so the wasted power is approximately $9.8\\,\\mathrm{kW}$.",
+      "perOption": {
+        "A": "Takes 20% of useful output instead of 20% of total input.",
+        "B": "Correct.",
+        "C": "Gives the useful lifting power.",
+        "D": "Gives the total input power."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder. Option D is printed as “49 k”, with the W missing.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must calculate useful power, infer input power from efficiency and subtract.",
+    "misconception": "Applying the wasted fraction to the useful output power",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2020-promo-p1-q16",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Every latitude completes one rotation in the same period $T$, so the angular speed $\\omega=2\\pi/T$ is constant. Since $v=r\\omega$, the graph is a straight line through the origin.",
+      "perOption": {
+        "A": "Treats constant angular speed as constant linear speed.",
+        "B": "Shows a decreasing slope even though $v/r$ is constant.",
+        "C": "Correct.",
+        "D": "Shows an increasing slope even though $v/r$ is constant."
+      }
+    },
+    "issues": "No school answer key is present in the supplied pages. The parsed A is an unverified placeholder.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise that the angular speed is shared across latitudes and translate direct proportionality into a graph.",
+    "misconception": "Confusing common angular speed with common linear speed",
+    "transcription": "A student on Earth moves in a circular path of radius $r$ with velocity $v$ because of the Earth’s rotation about its axis. At the equator, $r$ is equal to the radius $R$ of the Earth. $r$ is smaller than $R$ when the student is at a different latitude of $\\theta$ degrees on Earth as shown.\n\n[Earth cross-section with a vertical rotation axis and a horizontal equator. The equatorial radius is $R$. A radius to latitude $\\theta$ forms angle $\\theta$ with the equator, and the horizontal distance from the rotation axis to that point is $r$.]\n\nWhich of the following graphs best represents the relation between $v$ and $r$?\n\n[Each plot has $v$ vertically and $r$ horizontally, with $0$ and $R$ marked. A: positive horizontal line. B: rising concave-down curve from the origin. C: rising straight line from the origin. D: rising concave-up curve from the origin.]"
+  }
+]

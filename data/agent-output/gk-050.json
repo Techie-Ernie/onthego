@@ -1,0 +1,509 @@
+[
+  {
+    "id": "ejc-2023-promo-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The angular speed is $\\omega=v/r=2.0/0.40=5.0\\ \\mathrm{rad\\,s^{-1}}$, so $T=2\\pi/\\omega=1.26\\ \\mathrm{s}$. Since $T/4<0.40\\ \\mathrm{s}<T/2$, the shadow has crossed the centre and is still moving in the same direction. Its final position is $x=x_0\\cos(\\omega t)=0.40\\cos(5.0\\times0.40)=-0.17\\ \\mathrm{m}$. The distance travelled is $0.40+0.17=0.57\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the final distance from the centre and omits the initial 0.40 m.",
+        "B": "Correct. The shadow travels 0.40 m to the centre and another 0.17 m beyond it.",
+        "C": "Overestimates the distance beyond the centre, which is 0.17 m.",
+        "D": "Counts an extra 0.40 m of travel by using the full diameter before adding 0.17 m."
+      }
+    },
+    "issues": "The key prints T/4 as both bounds on the elapsed time. The upper bound is T/2.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must project circular motion onto the floor and track whether the shadow reverses.",
+    "misconception": "Confusing final displacement with distance travelled",
+    "transcription": "A ball is in uniform circular motion vertically with linear speed of $2.0\\ \\mathrm{m\\,s^{-1}}$. The radius of the motion is $0.40\\ \\mathrm{m}$. A lamp shines from above and projects a shadow of the ball on the floor. The diagram below shows the position of the shadow at time $t=0\\ \\mathrm{s}$.\n\n[The lamp sends parallel rays vertically downward. The ball is at the rightmost point of a clockwise vertical circle, $0.40\\ \\mathrm{m}$ from its centre. The shadow is directly below the ball on the floor.]\n\nWhat is the distance travelled by the shadow from $t=0\\ \\mathrm{s}$ to $t=0.40\\ \\mathrm{s}$?\n\nA $0.17\\ \\mathrm{m}$\nB $0.57\\ \\mathrm{m}$\nC $0.75\\ \\mathrm{m}$\nD $0.97\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The school treats damping in air as small and damping in a vacuum as negligible. The maximum amplitude therefore increases at the pendulum’s natural frequency $f_o$.",
+      "perOption": {
+        "A": "Correct. The curve peaks higher at $f_o$.",
+        "B": "Places the peak below $f_o$.",
+        "C": "Places the peak above the indicated natural frequency $f_o$.",
+        "D": "Shows a lower, broader peak characteristic of increased damping."
+      }
+    },
+    "issues": "A is the intended qualitative sketch. With exactly zero damping, the ideal driven oscillator has no finite steady-state amplitude at resonance.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the effect of reduced damping on the resonance curve.",
+    "misconception": "Expecting reduced damping to flatten the resonance peak",
+    "transcription": "A pendulum is constructed from a fixed length of light thread and a spherical, low density, polystyrene bob. It is forced to oscillate at different frequencies $f$ in air, and the response is shown in the graph below.\n\n[Graph of amplitude against $f$ with a sharp peak at $f_o$.]\n\nWhich one of the following graphs best represents the results if the experiment were to be repeated in a vacuum?\n\nA [Amplitude against $f$, with a higher sharp peak at $f_o$.]\nB [Amplitude against $f$, with a sharp peak below $f_o$.]\nC [Amplitude against $f$, with a sharp peak above $f_o$.]\nD [Amplitude against $f$, with a lower, broader peak at $f_o$.]"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The path difference along the direction of travel is $\\Delta s=0.22\\sin 25^\\circ$. The phase difference is $\\Delta\\phi=\\frac{\\Delta s}{\\lambda}\\,2\\pi=\\frac{0.22\\sin25^\\circ}{1.7}\\,2\\pi=0.34\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Uses half the full-cycle phase factor, giving half the phase difference.",
+        "B": "Correct.",
+        "C": "Uses $\\cos25^\\circ$ for the projection along the direction of travel.",
+        "D": "Uses the entire ear separation as the path difference."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "superposition"
+    ],
+    "outcomes": [
+      "wave-motion.b",
+      "superposition.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must project the ear separation along the wave direction before calculating phase.",
+    "misconception": "Using ear separation directly as path difference",
+    "transcription": "Humans are able to detect the general direction of a sound source because sound from the source reaches the ears at slightly different times.\n\nThe figure below shows a human head with the ears $22\\ \\mathrm{cm}$ apart. Sound waves of wavelength $1.7\\ \\mathrm{m}$ from a distant source reach the head at an angle of $25^\\circ$.\n\n[Top view, figure not to scale. Parallel wavefronts make $25^\\circ$ with the dashed line through the ears. Arrows perpendicular to the wavefronts point down and to the right. The ears are labelled $22\\ \\mathrm{cm}$ apart.]\n\nWhat is the phase difference between the waves reaching the left and right ear?\n\nA $0.17\\ \\mathrm{rad}$\nB $0.34\\ \\mathrm{rad}$\nC $0.74\\ \\mathrm{rad}$\nD $0.81\\ \\mathrm{rad}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graphs give a wavelength of $0.6\\ \\mathrm{m}$ and a period of $2.0\\times10^{-3}\\ \\mathrm{s}$. The wave speed is $v=f\\lambda=\\lambda/T=0.6/(2.0\\times10^{-3})=300\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the amplitude as the wavelength and treats milliseconds as seconds.",
+        "B": "Treats the period of 2.0 ms as 2.0 s.",
+        "C": "Uses the 0.4 m amplitude as the wavelength.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.d",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is direct once the student reads a full cycle from each graph.",
+    "misconception": "Using amplitude as wavelength",
+    "transcription": "The displacement-position ($y$–$x$) graph of a travelling wave at an instant of time and the displacement-time ($y$–$t$) graph of a particle on the wave are as shown below.\n\n[The left sinusoidal graph plots $y/\\mathrm{m}$ against $x/\\mathrm{m}$. It has amplitude $0.4\\ \\mathrm{m}$ and rises through zero at $x=0$ and $x=0.6\\ \\mathrm{m}$. The right sinusoidal graph plots $y/\\mathrm{m}$ against $t/\\mathrm{ms}$. It has crests at $t=0$ and $t=2.0\\ \\mathrm{ms}$, with amplitude $0.4\\ \\mathrm{m}$.]\n\nThe speed of the wave is\n\nA $0.2\\ \\mathrm{m\\,s^{-1}}$\nB $0.3\\ \\mathrm{m\\,s^{-1}}$\nC $200\\ \\mathrm{m\\,s^{-1}}$\nD $300\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The marked $\\theta$ is measured from the dashed reference perpendicular to A’s transmission axis. At $\\theta=0,\\pi,2\\pi$, the transmission axes are perpendicular and the transmitted intensity is zero. At $\\theta=\\pi/2,3\\pi/2$, the axes are parallel and the transmitted intensity reaches $I_0$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows full transmission at $\\theta=0$, where the axes are perpendicular.",
+        "C": "Repeats every $\\pi/2$ and shows full transmission where the axes are perpendicular.",
+        "D": "Shows zero transmission at $\\pi/2$ and $3\\pi/2$, where the axes are parallel."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read the angle reference in the diagram before matching the transmission graph.",
+    "misconception": "Treating the marked angle as the angle between transmission axes",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2023-promo-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial path difference is zero, so constructive interference gives a large signal. The next constructive maximum occurs at a path difference of one wavelength, $8.4\\ \\mathrm{cm}$. A slide of $4.2\\ \\mathrm{cm}$ adds $4.2\\ \\mathrm{cm}$ to each of the upper and lower arms, giving the required total.",
+      "perOption": {
+        "A": "Produces a half-wavelength path difference and destructive interference.",
+        "B": "Correct.",
+        "C": "Gives the second recurrence because the path difference increases by two wavelengths.",
+        "D": "Gives the fourth recurrence because the path difference increases by four wavelengths."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect a horizontal movement to the length changes in both arms.",
+    "misconception": "Counting only one arm of the sliding tube",
+    "transcription": "A loudspeaker and a microphone connected to an oscilloscope is set up as shown in the diagram below. The left-tube LXM is fixed in a position while the right-tube LYM is a sliding section capable of sliding horizontally. The length of path LXM and LYM are initially equal, and the oscilloscope produces a signal of large amplitude when the loudspeaker produces a sound of wavelength $8.4\\ \\mathrm{cm}$.\n\n[The loudspeaker feeds junction L at the top of a loop. Fixed path LXM bends around the left via X. Sliding path LYM bends around the right via Y and is shown moving to the right. Both paths meet at M at the bottom, where a microphone is connected to the oscilloscope.]\n\nWhat is the least distance the sliding section must move to the right for the microphone to produce a signal of large amplitude on the oscilloscope again?\n\nA $2.1\\ \\mathrm{cm}$\nB $4.2\\ \\mathrm{cm}$\nC $8.4\\ \\mathrm{cm}$\nD $16.8\\ \\mathrm{cm}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The open tube at its fundamental produces sound with wavelength $\\lambda=2L$. The air column in the burette resonates at the same frequency at lengths $x$ and $y$. Successive resonant lengths differ by half a wavelength, so $y-x=\\lambda/2=L$.",
+      "perOption": {
+        "A": "Assigns the open tube’s half-wavelength length to the first resonance of the closed air column.",
+        "B": "Uses one third of the second resonant length as the open tube length, missing the factor of two between a quarter and a half wavelength.",
+        "C": "Halves the separation even though that separation is already half a wavelength.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c",
+      "superposition.d"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must relate the open tube’s fundamental to successive resonances of an air column closed by water.",
+    "misconception": "Using the same end conditions for both tubes",
+    "transcription": "Sound wave is produced from a simple open-tube instrument of length $L$ at its fundamental frequency. A burette filled with water is held below it.\n\n[A horizontal open tube of length $L$ is above a vertical burette with a tap at its base. From the top of the burette, $x$ marks the depth of the first water level and $y$ the depth of the lower water level shown.]\n\nThe tap at the base of the burette is opened. As the water runs out, a loud sound is first heard when the water level is a distance $x$ below the top of the tube. A second loud sound is heard when the water level is a distance $y$ below the top.\n\nWhich one of the following is a correct relationship between $L$, $x$ and $y$?\n\nA $L=x$\nB $L=y/3$\nC $L=(y-x)/2$\nD $L=y-x$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two waves have equal amplitudes, frequencies and speeds and travel in opposite directions, so they form a stationary wave where they overlap. At X the two displacements can add to $2A$, where $A$ is the amplitude of either wave, making X an antinode. Y has an amplitude between zero and $2A$, and Z always has zero displacement.",
+      "perOption": {
+        "A": "Destructive interference at the nodes still leaves a stationary wave elsewhere.",
+        "B": "Correct. X is an antinode.",
+        "C": "Y has a nonzero amplitude below the antinode amplitude.",
+        "D": "Z has zero amplitude and is a node."
+      }
+    },
+    "issues": "The question prints “supposition”, evidently meaning “superposition”.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a",
+      "superposition.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the fixed amplitude pattern from a single snapshot of the two moving waves.",
+    "misconception": "Identifying a node from one component’s instantaneous zero",
+    "transcription": "Two progressive water waves P and R have identical amplitudes, frequencies and speeds. They are travelling in opposite directions and overlapped as shown.\n\n[Two overlapping sinusoids share a horizontal equilibrium line. P is solid blue and moves left, and R is dashed red and moves right. R’s profile is shifted slightly to the right of P’s. X is midway between their first troughs, Y is near P’s downward zero crossing after its first crest, and Z is between their next upward zero crossings.]\n\nWhat will be the resultant wave that is formed due to the supposition of the two waves?\n\nA No resultant wave will be formed as waves P and R add up destructively at some points.\nB A stationary wave will be formed with an antinode at X.\nC A stationary wave will be formed with a node at Y.\nD A stationary wave will be formed with an antinode at Z."
+  },
+  {
+    "id": "ejc-2023-promo-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A stationary wave forms along PQ, with adjacent maxima separated by $\\lambda/2$. The ship takes $1/f$ seconds to go between maxima, and its speed in $\\mathrm{m\\,s^{-1}}$ is $v\\times10^3/(60\\times60)=5v/18$. Using distance travelled equals speed times time gives $\\lambda/2=(5v/18)(1/f)$, so $\\lambda=5v/(9f)$.",
+      "perOption": {
+        "A": "Equates the distance between maxima to a full wavelength.",
+        "B": "Correct.",
+        "C": "Uses the speed in kilometres per hour directly and takes the spacing as a full wavelength.",
+        "D": "Uses the correct half-wavelength spacing but skips the speed conversion."
+      }
+    },
+    "issues": "The stationary-wave interpretation assumes the transmitters remain coherent.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "superposition.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine stationary-wave spacing, the detection rate and a speed conversion.",
+    "misconception": "Equating adjacent maxima spacing to one wavelength",
+    "transcription": "A ship moves at a constant speed in a straight line between two radio transmitters P and Q. Both transmitters operate on the same wavelength and radiate signals of equal amplitude.\n\n[The ship is on the line from P on the left to Q on the right, with velocity arrow $v$ pointing towards P.]\n\nThe speed of the ship in $\\mathrm{km\\,h^{-1}}$ is $v$. It detects $f$ maxima of intensity of the radio waves per second.\n\nWhat is the wavelength of the radio waves in metres?\n\nA $\\frac{5v}{18f}$\nB $\\frac{5v}{9f}$\nC $\\frac{v}{f}$\nD $\\frac{2v}{f}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For line density $N$, the slit spacing is $d=1/N$ and the grating equation is $d\\sin\\theta=n\\lambda$. At the limiting angle $90^\\circ$, $\\frac{1.0\\times10^{-3}}{300}\\sin90^\\circ=n(450\\times10^{-9})$, giving $n=7.4$. The highest integer order is 7, so the total is $7+7+1=15$, including the central maximum.",
+      "perOption": {
+        "A": "Counts the seven orders on just one side and omits the centre.",
+        "B": "Counts one side and the central maximum only.",
+        "C": "Counts both sides but omits the central maximum.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert line density to spacing, find the highest possible order and count both sides.",
+    "misconception": "Omitting the central maximum",
+    "transcription": "A parallel beam of light of wavelength $450\\ \\mathrm{nm}$ falls normally on a diffraction grating which has 300 lines / mm.\n\nWhat is the total number of bright spots seen on the screen?\n\nA 7\nB 8\nC 14\nD 15"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The coincident maxima have the same diffraction angle $\\theta$. The grating equation gives $d\\sin\\theta=2\\lambda_X=3\\lambda_Y$, so $\\lambda_X/\\lambda_Y=3/2$.",
+      "perOption": {
+        "A": "Treats the maximum for Y as first order and uses 1 in place of 3.",
+        "B": "Takes the ratio of the orders directly and reverses the wavelength ratio.",
+        "C": "Correct.",
+        "D": "Omits the stated third order for Y and uses a factor of two alone."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The wavelength ratio follows from equating the order–wavelength products at the same angle.",
+    "misconception": "Taking wavelength proportional to order at fixed angle",
+    "transcription": "Two monochromatic radiations X and Y are incident normally on a diffraction grating. The second order intensity maximum for X coincides with the third order intensity maximum for Y.\n\nWhat is the ratio $\\frac{\\text{wavelength of X}}{\\text{wavelength of Y}}$?\n\nA $\\frac{1}{2}$\nB $\\frac{2}{3}$\nC $\\frac{3}{2}$\nD $\\frac{2}{1}$"
+  },
+  {
+    "id": "ejc-2023-promo-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Visible wavelengths range from about $400$ to $700\\ \\mathrm{nm}$, so use $550\\ \\mathrm{nm}$ as an estimate. At the resolution limit the small-angle approximation and Rayleigh criterion give $s/r\\approx\\theta\\approx\\lambda/b$. Substituting $\\frac{1.4}{r}=\\frac{550\\times10^{-9}}{5.0\\times10^{-3}}$ gives $r\\approx13\\ \\mathrm{km}$.",
+      "perOption": {
+        "A": "Is too small by a factor of 1000, as when the millimetre-to-metre conversion is applied twice.",
+        "B": "Is too small by a factor of 100, as when the estimated wavelength is converted to metres two powers of ten too large.",
+        "C": "Correct.",
+        "D": "Is too large by a factor of ten, as when the estimated wavelength is converted to metres one power of ten too small."
+      }
+    },
+    "issues": "The question supplies no wavelength. The key estimates 550 nm and uses the syllabus approximation for Rayleigh resolution.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must equate the small-angle separation to the Rayleigh limit and estimate a visible wavelength.",
+    "misconception": "Mishandling millimetre or nanometre conversion",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Write electrical power as $P=IV$. In $k=(IV/I^2)(\\lambda/L)^2$, the units of the two lengths cancel. The unit of $k$ is therefore $\\mathrm{V/A}=\\Omega$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Keeps the unit of power without dividing by the unit of current squared.",
+        "C": "Divides the power unit by one factor of current and misses the second factor.",
+        "D": "Cancels the length units correctly but overlooks the remaining electrical units."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d",
+      "currents.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must cancel the length units and express power as current times potential difference.",
+    "misconception": "Ignoring the squared current in dimensional analysis",
+    "transcription": "A radio aerial of length $L$, carrying a current $I$, emits a signal of wavelength $\\lambda$ and power $P$.\n\nThese quantities are related by $P=kI^2\\left(\\frac{L}{\\lambda}\\right)^2$ where $k$ is a constant. What unit, if any, should be used for the constant $k$?\n\nA ohm\nB watt\nC volt\nD no unit"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity changes sign at the top because the ball reverses direction. The shorter ascent and longer descent on the height–time graph indicate air resistance. Work done against air resistance reduces the ball’s kinetic energy, so the landing speed is smaller than the launch speed. The areas before and after $t_1$ on the velocity–time graph must be equal in magnitude because the ball returns to its starting height.",
+      "perOption": {
+        "A": "Keeps velocity positive on the way down.",
+        "B": "Keeps velocity positive on the way down.",
+        "C": "Shows a landing speed comparable to the launch speed despite the energy lost to air resistance.",
+        "D": "Correct."
+      }
+    },
+    "issues": "D is the best qualitative choice. Its increasing downward slope magnitude near landing is inconsistent with ordinary speed-dependent drag, and the plotted curves are schematic.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c",
+      "projectile-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the velocity sign, the effect of drag and the equal ascent and descent distances.",
+    "misconception": "Plotting speed when the graph asks for velocity",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking down and right as positive, $s_y=\\tfrac12gt^2$ because the initial vertical velocity is zero, and $s_x=u_xt$. Combining them gives $s_y=\\tfrac12g(s_x/u_x)^2$, so $s_x\\propto u_x\\sqrt{s_y}$. Thus $\\frac{x_A}{x_B}=\\frac{2}{1}\\sqrt{\\frac{1}{2}}=\\sqrt2=1.41$.",
+      "perOption": {
+        "A": "Inverts the ratio of the horizontal speeds, giving $\\tfrac12\\sqrt{\\tfrac12}$.",
+        "B": "Treats the time of fall as directly proportional to the drop height.",
+        "C": "Correct.",
+        "D": "Inverts the height ratio under the square root, giving ball A the longer fall time."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must eliminate time before applying the speed and height ratios.",
+    "misconception": "Treating time of fall as directly proportional to height",
+    "transcription": "Ball A is projected horizontally with an initial velocity $2v$ from a height $h$ above ground, while ball B is projected horizontally with an initial velocity $v$ from a height $2h$ above ground.\n\n[Ball A is on a platform of height $h$ with a horizontal arrow $2v$ to the right. Ball B is on a platform of height $2h$ with a horizontal arrow $v$ to the right.]\n\nIf $x_A$ is the horizontal displacement of ball A from the point of projection to the point of landing and $x_B$ is the corresponding quantity for ball B, what is the ratio $\\frac{x_A}{x_B}$?\n\nA 0.35\nB 1.00\nC 1.41\nD 2.83"
+  }
+]

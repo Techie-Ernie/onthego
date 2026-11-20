@@ -1,0 +1,501 @@
+[
+  {
+    "id": "ejc-2024-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $F_{AB}$ be the magnitude of the force exerted by A on B, and let $a$ be the common acceleration. For Z, $F_{YZ}=4ma$; for Y, $F_{XY}-F_{ZY}=3ma$. Newton’s third law gives $F_{ZY}=F_{YZ}=4ma$ and $F_{YX}=F_{XY}=7ma$. The ratio is therefore $7ma/(4ma)=7/4$.",
+      "perOption": {
+        "A": "Uses the mass of X alone in the numerator.",
+        "B": "Uses the mass of Y alone and compares it with the total mass.",
+        "C": "Divides the contact force at X–Y by the applied force on all three blocks.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must track contact forces on two blocks and use Newton’s third law.",
+    "misconception": "Treating a contact force as the applied force.",
+    "transcription": "Three blocks X, Y and Z, of masses $m$, $3m$ and $4m$ respectively, are accelerated along a smooth horizontal surface by a force $F$ applied to block X as shown.\n\n[Blocks X, Y and Z touch in that order from left to right on a horizontal surface. An arrow labelled $F$ points right into X.]\n\nWhat is the ratio of the force exerted on block X by block Y to the force on block Y by block Z?\n\nA $\\frac14$\nB $\\frac38$\nC $\\frac78$\nD $\\frac74$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q5",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking upwards as positive, Newton’s second law gives $U-m_{\\mathrm{wood}}g-T=m_{\\mathrm{wood}}a$. When the string breaks, $T=0$, so $(1000)(1.0)(9.81)-(800)(1.0)(9.81)=(800)(1.0)a$. This gives $a=2.45\\ \\mathrm{m\\,s^{-2}}$ upwards, or $2.5\\ \\mathrm{m\\,s^{-2}}$ to two significant figures.",
+      "perOption": {
+        "A": "Uses the density ratio difference of 0.25 as an acceleration without multiplying by gravity.",
+        "B": "Uses the displaced-water to wood density ratio as the acceleration without subtracting weight or multiplying by gravity.",
+        "C": "Correct.",
+        "D": "Uses the full upthrust without subtracting the block’s weight."
+      }
+    },
+    "issues": "Q5’s worked solution prints the acceleration unit as m s⁻¹. The explanation uses m s⁻².",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.b",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires subtracting the block’s weight from the upthrust before applying Newton’s second law.",
+    "misconception": "Using upthrust as the resultant force.",
+    "transcription": "A wooden block of density $800\\ \\mathrm{kg\\,m^{-3}}$ and volume $1.0\\ \\mathrm{m^3}$ is fastened to the bottom of a freshwater pond by a string as shown below. The density of the freshwater is $1000\\ \\mathrm{kg\\,m^{-3}}$.\n\n[A fully submerged wooden block is tied by a vertical string to the bottom of the freshwater pond.]\n\nIf the string suddenly breaks, what is the initial acceleration of the block?\n\nA $0.25\\ \\mathrm{m\\,s^{-2}}$\nB $1.25\\ \\mathrm{m\\,s^{-2}}$\nC $2.5\\ \\mathrm{m\\,s^{-2}}$\nD $12.5\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q6",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the bottom, $N_B-mg=mv_B^2/r$. At the top, assume $N_T$ points downwards, so $N_T+mg=mv_T^2/r$. Conservation of energy gives $mg(2r)=\\tfrac12m(v_B^2-v_T^2)$. Subtracting the top force equation from the bottom one and substituting the energy relation gives $N_B-N_T=6mg$. Since $N_B=5.5mg$, $N_T=-0.5mg$ under the downward convention, so the normal force is $0.5mg$ upwards.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the negative result in the downward convention as a downward force.",
+        "C": "Adds the required inward resultant to the weight when calculating the upward force.",
+        "D": "Adds the weight to the required inward resultant and assigns the sum to a downward normal force."
+      }
+    },
+    "issues": "The key omits mg after 5.5 in one line of working.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "You must combine two radial force equations with conservation of energy and interpret the sign of the normal force.",
+    "misconception": "Assuming that the normal force must point inward.",
+    "transcription": "A small ring, of mass $m$, moves along a smooth circular track in the vertical plane, as shown in the figure below. P is the centre of the circular track.\n\n[The ring is shown at the top and bottom of a vertical circular track. A radius from P is labelled $1.0\\ \\mathrm{m}$. An arrow on the right shows anticlockwise motion.]\n\nThe radius of the track is $1.0\\ \\mathrm{m}$.\nAt the bottom of the track, an upward normal force of magnitude $5.5mg$ acts on the small ring.\nWhich row correctly describes the magnitude and direction of the normal force acting on the small ring when it is at the top of the track?\n\nA $0.5mg$, upwards\nB $0.5mg$, downwards\nC $1.5mg$, upwards\nD $1.5mg$, downwards"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q7",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The net work done is the change in kinetic energy, so with zero initial kinetic energy, the kinetic energy at $s$ equals the area under the $F$–$s$ graph up to $s$. Its gradient is therefore $F$. From $s_1$ to $s_2$ the gradient increases from zero, and from $s_2$ to $s_3$ it decreases back to zero. The kinetic energy rises throughout that interval and stays constant after $s_3$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows kinetic energy falling after $s_2$, although the force is still positive and does positive work.",
+        "C": "Shows negative kinetic energy between $s_2$ and $s_3$.",
+        "D": "Shows negative kinetic energy immediately after $s_2$."
+      }
+    },
+    "issues": "The initial-rest condition and zero net force before s₁ leave no mechanism for the object to reach s₁. A is the intended work–energy graph.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must interpret force as the gradient of the kinetic-energy graph.",
+    "misconception": "Mistaking decreasing positive force for decreasing kinetic energy.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q8",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At altitude $80\\,000\\ \\mathrm{m}$, the potential is $\\phi=-GM/(6.371\\times10^6+80\\,000)$. Using the magnitude of the surface field, $9.81=GM/(6.371\\times10^6)^2$, gives $GM=3.98\\times10^{14}\\ \\mathrm{m^3\\,s^{-2}}$. Substitution gives $\\phi=-6.2\\times10^7\\ \\mathrm{J\\,kg^{-1}}=-62\\ \\mathrm{MJ\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Gives a potential magnitude far too small for a point still close to Earth’s surface.",
+        "B": "Underestimates the magnitude obtained by dividing $GM$ by the full distance from Earth’s centre.",
+        "C": "Correct.",
+        "D": "Uses giga instead of mega for the calculated magnitude of 62."
+      }
+    },
+    "issues": "The worked solution has inconsistent signs for the surface field and omits the negative sign and per-kilogram unit in its final result. The printed option C has the correct sign and unit.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must infer GM from surface gravity and then evaluate the potential at the new radius.",
+    "misconception": "Using altitude as the distance from the centre.",
+    "transcription": "The radius of the Earth is $6.371\\times10^6\\ \\mathrm{m}$. The gravitational field strength on the surface of the Earth is $9.81\\ \\mathrm{N\\,kg^{-1}}$.\n\nWhat is the gravitational potential at a point $80\\,000\\ \\mathrm{m}$ above the Earth surface?\n\nA $-5.0\\ \\mathrm{kJ\\,kg^{-1}}$\nB $-5.0\\ \\mathrm{MJ\\,kg^{-1}}$\nC $-62\\ \\mathrm{MJ\\,kg^{-1}}$\nD $-62\\ \\mathrm{GJ\\,kg^{-1}}$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q9",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a circular orbit, $T^2$ is proportional to the cube of the orbital radius. The heights $r$ and $3r$ correspond to orbital radii $2r$ and $4r$. Hence $(T'/T)^2=(4r/2r)^3=8$, giving $T'=2\\sqrt{2}\\,T$.",
+      "perOption": {
+        "A": "Takes the square root of the radius ratio without first cubing it.",
+        "B": "Correct.",
+        "C": "Uses the altitude ratio and takes its square root without first cubing it.",
+        "D": "Uses the altitude ratio of 3 in place of the orbital-radius ratio of 2."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The period scaling is straightforward once both heights are converted to orbital radii.",
+    "misconception": "Using heights instead of orbital radii.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q10",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The acceleration magnitude is greatest at the amplitude $x_0$, where $a_{\\max}=\\omega^2x_0$. With $\\omega=2\\pi f$, this gives $a_{\\max}=4\\pi^2(10\\,000)^2(0.32\\times10^{-3})=1.26\\times10^6\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Uses $omega x_0$, the maximum speed.",
+        "B": "Uses $omega x_0$ and leaves the amplitude in millimetres.",
+        "C": "Correct.",
+        "D": "Uses the amplitude in millimetres as though it were in metres."
+      }
+    },
+    "issues": "The key labels the acceleration result Hz. The explanation uses m s⁻².",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "You must convert the amplitude to metres and square the angular frequency.",
+    "misconception": "Using angular frequency without squaring it.",
+    "transcription": "The displacement $x$ of a molecule undergoing simple harmonic motion in a sound wave is given by\n\n$x=x_0\\sin 2\\pi ft$\n\nwhere $x_0=0.32\\ \\mathrm{mm}$ and $f=10\\,000\\ \\mathrm{Hz}$.\n\nWhat is the magnitude of the maximum acceleration experienced by the molecule?\n\nA $20.1\\ \\mathrm{m\\,s^{-2}}$\nB $2.01\\times10^4\\ \\mathrm{m\\,s^{-2}}$\nC $1.26\\times10^6\\ \\mathrm{m\\,s^{-2}}$\nD $1.26\\times10^9\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q11",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The displacement–time graphs show that Q’s amplitude decays faster than P’s, so Q is more heavily damped. Greater damping lowers the peak amplitude and shifts the peak to a lower driving frequency. Graph A shows both effects.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives the more heavily damped Q a higher resonance peak.",
+        "C": "Shows amplitude minima where resonance should produce peaks.",
+        "D": "Places Q’s peak at a higher driving frequency than P’s."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i",
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must infer damping from the decay curves and then predict the resonance response.",
+    "misconception": "Giving the more damped oscillator a taller resonance peak.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q12",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $h$ be the heat-loss rate and $L_v$ the specific latent heat of vaporisation, so $P_1=m_1L_v+h$ and $P_2=m_2L_v+h$. In $P_1m_2-P_2m_1$, the latent-heat terms cancel, leaving $(m_2-m_1)h$. Thus $h=(P_1m_2-P_2m_1)/(m_2-m_1)$.",
+      "perOption": {
+        "A": "Dividing a power difference by a mass-loss-rate difference gives $\\mathrm{J\\,kg^{-1}}$ instead of a heat-loss rate.",
+        "B": "Subtracting the heater powers cancels the common heat-loss term.",
+        "C": "Power divided by mass-loss rate has units $\\mathrm{J\\,kg^{-1}}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s proof for D omits the denominator on the left side of its displayed equation.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must eliminate the latent-heat term from two power balances with a common heat loss.",
+    "misconception": "Equating the difference in heater powers to heat loss.",
+    "transcription": "A liquid is maintained at boiling point by means of an electric heater.\n\nThe constant rate at which the liquid boils is measured for two different powers of the heater as shown.\n\n[Table with columns “power of heater” and “rate of loss of mass of liquid”. The rows are $(P_1,m_1)$ and $(P_2,m_2)$.]\n\nFor each power of the heater, $P_1$ or $P_2$, the rate of heat loss to the environment is the same.\n\nWhich expression is the correct expression for rate of heat loss to the environment?\n\nA $\\frac{P_1-P_2}{m_2-m_1}$\nB $P_1-P_2$\nC $\\frac{P_1}{m_1}$\nD $\\frac{P_1m_2-P_2m_1}{m_2-m_1}$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q13",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over the full cycle the change in internal energy is zero, so $\\Delta U=Q+W=0$, with $W$ the work done on the gas. The compression contributes $W_{AB}=(1.0\\times10^5)(20.0-5.0)\\times10^{-6}=1.5\\ \\mathrm{J}$, the constant-volume leg contributes zero, and the expansion contributes $W_{CA}=-4.2\\ \\mathrm{J}$. Hence $0=Q+(-4.2+1.5)\\ \\mathrm{J}$ and the overall heat gain is $2.7\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Adds the magnitudes of compression and expansion work and reports a heat loss.",
+        "B": "Reports the net work done on the gas as the heat gain.",
+        "C": "Correct.",
+        "D": "Adds the magnitudes of compression and expansion work as though both transfer energy out by work."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must read the compression work from a pressure–volume diagram and apply the first law over a cycle.",
+    "misconception": "Adding compression and expansion work magnitudes.",
+    "transcription": "An ideal gas undergoes a cycle of changes $\\mathrm{A\\to B\\to C\\to A}$, as shown below.\n\n[Pressure–volume graph. The vertical axis is pressure in units of $10^5\\ \\mathrm{Pa}$ and the horizontal axis is volume in $\\mathrm{cm^3}$. A is at volume 20.0 and pressure 1.0 on these scales. The path goes horizontally left to B at volume 5.0, vertically up to C, then along a descending curve back to A.]\n\nWork done by gas from C to A is $4.2\\ \\mathrm{J}$.\n\nWhat is the overall heat gain in process $\\mathrm{A\\to B\\to C\\to A}$?\n\nA $-5.7\\ \\mathrm{J}$\nB $-2.7\\ \\mathrm{J}$\nC $2.7\\ \\mathrm{J}$\nD $5.7\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q14",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $I_1$, $I_2$ and $I_3$ be the intensities emerging from the three polarisers. Since $\\theta$ is measured from the axis of $\\mathrm{P}_1$, Malus’ law gives $I_3=I_2\\cos^2(\\theta-30^\\circ)=I_1\\cos^2 30^\\circ\\cos^2(\\theta-30^\\circ)$. Substituting the given intensities gives $14=30\\cos^2 30^\\circ\\cos^2(\\theta-30^\\circ)$, so one possible setting is $\\theta=68^\\circ$.",
+      "perOption": {
+        "A": "Reports the angle between the axes of the second and third polarisers.",
+        "B": "Uses the complement of the angle between the last two axes.",
+        "C": "Uses an axis difference of $27^\\circ$, which transmits too much light at the third polariser.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must apply Malus’ law twice and identify the angle between the last two axes.",
+    "misconception": "Measuring the final angular difference from the wrong polariser.",
+    "transcription": "The figure below shows a beam of initially unpolarised light passing through 3 polarisers $\\mathrm{P}_1$, $\\mathrm{P}_2$ and $\\mathrm{P}_3$. The polarising axis of each polaroid is shown by an arrow. Polaroids $\\mathrm{P}_1$ and $\\mathrm{P}_2$ are fixed, with their polarising axes at $30^\\circ$ to each other, and $\\mathrm{P}_3$ can be set with its polarising axis at a variable angle $\\theta$ to that of $\\mathrm{P}_1$.\n\n[The light beam passes through the three polarisers in order. The second and third axes tilt to the same side of the first axis, by $30^\\circ$ and $\\theta$ respectively.]\n\nThe polarised light beam incident on $\\mathrm{P}_2$ has an intensity of $30\\ \\mathrm{W\\,m^{-2}}$ while the light beam emerging from $\\mathrm{P}_3$ has an intensity of $14\\ \\mathrm{W\\,m^{-2}}$.\n\nWhat is a possible value of $\\theta$ for the light emerging from $\\mathrm{P}_3$?\n\nA $38^\\circ$\nB $52^\\circ$\nC $57^\\circ$\nD $68^\\circ$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q15",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key uses the syllabus form of the Rayleigh criterion, $\\theta\\approx\\lambda/b$, where $b$ is the lens diameter. For small angles, $s/r\\approx\\theta$, so $s\\approx r\\lambda/b=(100)(550\\times10^{-9})/(10\\times10^{-2})$. This gives $5.5\\times10^{-4}\\ \\mathrm{m}=0.55\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Gives a separation below the limit obtained from the stated distance and aperture.",
+        "B": "Gives a separation below the limit obtained from the stated distance and aperture.",
+        "C": "Correct. This is the result under the syllabus approximation.",
+        "D": "This exceeds the syllabus estimate and is the closest option to the circular-aperture result."
+      }
+    },
+    "issues": "The syllabus approximation gives keyed C. For a circular aperture, the Airy-pattern Rayleigh criterion uses 1.22λ/b, giving 0.671 mm, with D (0.65 mm) closest. The diagram also mislabels the 10 cm diameter as 10⁻² m, though the calculation uses 0.10 m.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "You must convert the lens diameter and then turn the limiting angle into a linear separation.",
+    "misconception": "Confusing angular resolution with linear separation.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q16",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At an overlapping maximum, $d\\sin\\theta=n_1\\lambda_1=n_2\\lambda_2$. Thus $n_2/n_1=480/640=3/4$, and the smallest nonzero orders are $n_1=4$ and $n_2=3$. Using $d=0.01/5000\\ \\mathrm{m}$ gives $(0.01/5000)\\sin\\theta=4(480\\times10^{-9})$, so $\\theta=74^\\circ$.",
+      "perOption": {
+        "A": "Gives too small a path difference to reach even the first nonzero order of either wavelength.",
+        "B": "Treats a first-order-scale angle as an overlap, although the first orders occur at different angles.",
+        "C": "Uses an angle whose path difference is not an integer multiple of both wavelengths.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The question implicitly excludes the shared zero-order maximum at 0°, which is absent from the options.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must find the smallest pair of matching diffraction orders before calculating the angle.",
+    "misconception": "Using the same nonzero order for both wavelengths.",
+    "transcription": "Light of wavelengths $480\\ \\mathrm{nm}$ and $640\\ \\mathrm{nm}$ are incident on a diffraction grating with 5000 lines per cm.\n\nWhat is the angle at which the maxima for one wavelength of light overlaps with a maxima for other wavelength of light?\n\nA $0.22^\\circ$\nB $16^\\circ$\nC $37^\\circ$\nD $74^\\circ$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q17",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Point X is measured relative to the $0\\ \\mathrm V$ end of the variable resistor, so its potential equals the drop across that resistor. At $100\\ \\mathrm{k\\Omega}$ the potential divider gives $V_X=30[100/(100+500)]=5\\ \\mathrm V$. At $500\\ \\mathrm{k\\Omega}$ it gives $V_X=30[500/(500+500)]=15\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Uses the maximum total resistance at the minimum-resistance setting.",
+        "B": "Correct.",
+        "C": "Includes the 25 V drop across the fixed resistor at the minimum variable resistance.",
+        "D": "Gives the range across the fixed resistor."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "You must identify which resistor is referenced to zero and evaluate the two resistance limits.",
+    "misconception": "Taking the voltage across the fixed resistor.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q18",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In A and B the diode is reverse-biased, so the heater branch cannot conduct. At low temperature, the NTC thermistor has higher resistance and a larger share of the supply voltage appears across it. The heater branch should therefore be connected across the thermistor with the diode oriented to conduct, as in D.",
+      "perOption": {
+        "A": "The diode is reverse-biased.",
+        "B": "The diode is reverse-biased.",
+        "C": "The heater branch is across the fixed resistor, whose voltage falls as the thermistor cools.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The printed stem leaves out the diode shown in each diagram. The batch marks the question as text even though the circuit diagrams are essential. No heater threshold is specified, so the circuit establishes the intended direction of change in heater power.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "You must check the diode direction and determine which divider branch gains voltage as temperature falls.",
+    "misconception": "Connecting the heater across the fixed resistor.",
+    "transcription": null
+  }
+]

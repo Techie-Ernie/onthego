@@ -1,0 +1,511 @@
+[
+  {
+    "id": "ejc-2022-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The lorry’s velocity relative to the car is $\\mathbf v_{LC}=\\mathbf v_L+(-\\mathbf v_C)$. The cosine rule on the velocity triangle gives $v_{LC}^2=50^2+80^2-2(50)(80)\\cos150^\\circ$, so $v_{LC}=126\\ \\mathrm{km\\,h^{-1}}$.\n\nThe sine rule gives $80/\\sin\\theta=126/\\sin150^\\circ$, so $\\theta=18.5^\\circ$. The bearing is $360^\\circ-18.5^\\circ-60^\\circ=281.5^\\circ$.",
+      "perOption": {
+        "A": "Correct. The resultant points north of west.",
+        "B": "Reverses the relative velocity, giving a direction approximately opposite to the required one.",
+        "C": "Places the resultant east of north by measuring the acute angle on the wrong side of north.",
+        "D": "Uses a small resultant consistent with adding the original velocities instead of subtracting the car’s velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Subtracting two velocity vectors requires constructing a triangle and converting its angle to a bearing.",
+    "misconception": "Reversing the order of relative velocity subtraction.",
+    "transcription": "A car is travelling at $80\\ \\mathrm{km\\,h^{-1}}$ due east and a lorry is travelling at $50\\ \\mathrm{km\\,h^{-1}}$ with a bearing of $300^\\circ$. What is the relative velocity of the lorry with respect to the car?\n\nA. $126\\ \\mathrm{km\\,h^{-1}}$, bearing $281.5^\\circ$\nB. $126\\ \\mathrm{km\\,h^{-1}}$, bearing $101.4^\\circ$\nC. $126\\ \\mathrm{km\\,h^{-1}}$, bearing $78.5^\\circ$\nD. $44\\ \\mathrm{km\\,h^{-1}}$, bearing $5.4^\\circ$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The means for students A, B, C and D are $0.85$, $0.85$, $0.8625$ and $0.85\\ \\mathrm{cm}$, respectively. Their ranges are $0.17$, $0.06$, $0.17$ and $0.04\\ \\mathrm{cm}$, respectively. Student A’s mean matches the actual diameter, but the large range shows poor precision.",
+      "perOption": {
+        "A": "Correct. The mean matches the actual diameter and the readings have a large spread.",
+        "B": "The mean matches the true value and the readings have a relatively small spread.",
+        "C": "The readings have a large spread and their mean is farther from the true value.",
+        "D": "The mean matches the true value and the readings have the smallest spread."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Compare each mean with the reference value and each range with the other ranges.",
+    "misconception": "Confusing closeness to the true value with agreement among repeated readings.",
+    "transcription": "A series of measurements of the diameter of a ball bearing made by four students are shown in the table below. The actual diameter of the ball bearing is $0.85\\ \\mathrm{cm}$.\n\n[Table columns are Student A, Student B, Student C, Student D.\nFirst Measurement: 0.91, 0.88, 0.83, 0.84\nSecond Measurement: 0.91, 0.85, 0.89, 0.87\nThird Measurement: 0.84, 0.85, 0.95, 0.83\nFourth Measurement: 0.74, 0.82, 0.78, 0.86]\n\nWhich student’s measurements are accurate but not precise?\nA. Student A\nB. Student B\nC. Student C\nD. Student D"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gap is smallest at $5.0\\ \\mathrm{s}$, when the cars have the same speed and Y starts pulling away. The areas under the graph up to that time give $s_X=\\tfrac12(3.0+5.0)(20)+55(5.0)=355\\ \\mathrm{m}$ and $s_Y=35(2.0)+\\tfrac12(35+55)(3.0)=205\\ \\mathrm{m}$. The minimum gap is $(450+205)-355=300\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the net distance closed by $12.0$ s, instead of the remaining gap at the closest approach.",
+        "B": "Gives the distance X gains on Y by $5.0$ s instead of the separation that remains.",
+        "C": "Correct. The gap is smallest where the velocities cross.",
+        "D": "Gives the separation at $12.0$ s, after the gap has started increasing."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Identify when the gap stops shrinking and calculate two areas under the graph.",
+    "misconception": "Confusing the distance closed with the remaining separation.",
+    "transcription": "Two cars X and Y are initially travelling on a straight level road. Car Y is $450\\ \\mathrm{m}$ ahead of Car X at $t=0\\ \\mathrm{s}$. The velocity-time graph for cars X and Y in the first $12.0\\ \\mathrm{s}$ are shown in the diagram below.\n\n[Velocity in $\\mathrm{m\\,s^{-1}}$ against time in $\\mathrm{s}$. Car X, solid line, joins $(0,75)$, $(3.0,75)$, $(5.0,55)$ and $(12.0,55)$. Car Y, dashed line, joins $(0,35)$, $(2.0,35)$, $(5.0,55)$ and $(12.0,85)$.]\n\nWhat is the minimum distance between the two cars within the first $12.0\\ \\mathrm{s}$?\nA. $45\\ \\mathrm{m}$\nB. $150\\ \\mathrm{m}$\nC. $300\\ \\mathrm{m}$\nD. $405\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the $s$–$t$ graph is the ball’s vertical velocity. It starts at zero at the release height, then becomes increasingly negative as the ball falls. At the floor an elastic bounce reverses the velocity without changing its magnitude, so the slope switches sign abruptly and the ball returns to its original height.",
+      "perOption": {
+        "A": "Starts the ball at the floor with an upward velocity.",
+        "B": "Correct. It starts from rest at a positive height and shows sharp reversals at floor level.",
+        "C": "The straight segments imply constant velocity between changes in direction.",
+        "D": "The upward curvature implies upward acceleration during flight and the smooth minima imply zero speed at floor contact."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "collisions"
+    ],
+    "outcomes": [
+      "motion-and-forces.c",
+      "collisions.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the slope as velocity and recognize its reversal on each bounce.",
+    "misconception": "Reading the height–time graph as a speed–time graph.",
+    "transcription": "A rubber ball is dropped from a height of about $2.0\\ \\mathrm{m}$ and undergoes an elastic collision with the floor. Assuming no air resistance, which of the following graphs best represents the variation of the distance $s$ above the floor with time $t$ for the bouncing ball from the instant the ball is dropped?\n\n[Each graph has axes $s/\\mathrm{m}$ and $t/\\mathrm{s}$.\nA. Repeated equal concave-down arches starting at the origin, with sharp joins at floor level.\nB. Starts at a positive height with zero slope and curves down to floor level, then repeats equal concave-down arches with sharp joins at floor level.\nC. Starts at a positive height, with straight segments descending to zero and rising to the same height in a zigzag.\nD. Starts at a positive height, with concave-up segments touching zero at smooth minima and joining at sharp maxima.]"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=ut+\\tfrac12 at^2$ with $u=0$ gives $s=\\tfrac12 at^2$. Taking the Moon-to-Earth ratio gives $3/6=(1/6)(t_M^2/t^2)$. Hence $t_M=t\\sqrt{3}$.",
+      "perOption": {
+        "A": "Uses the ratio of the squared times as the ratio of the times.",
+        "B": "Inverts the ratio of the squared times and omits the square root.",
+        "C": "Correct. The Moon fall takes $\\sqrt{3}$ times as long.",
+        "D": "Takes the square root of the inverted time-squared ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Set up a ratio of free-fall equations and take its square root.",
+    "misconception": "Treating fall time as directly proportional to distance divided by acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-promo-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Newton’s third-law forces act on different bodies. The satellite’s weight is the gravitational force on the satellite and supplies its centripetal force. The third-law pair consists of the gravitational force of Earth on the satellite and that of the satellite on Earth.",
+      "perOption": {
+        "A": "Correct. Both descriptions refer to the force on the satellite.",
+        "B": "The man and the wall exert opposite contact forces on each other.",
+        "C": "Each magnetic force acts on a different magnet.",
+        "D": "Each electric force acts on a different particle."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify which bodies the two stated forces act on.",
+    "misconception": "Treating centripetal force as an additional interaction.",
+    "transcription": "Which one of the following pairs of forces is not a valid example of action and reaction to which Newton’s Third Law of motion applies?\nA. The centripetal force holding a satellite in orbit round the Earth and the weight of the satellite.\nB. The force exerted by a man pushing a wall and the force exerted by the wall on the man.\nC. The forces of attraction experienced by each of the magnets placed near to each other.\nD. The forces of attraction between an electron and a proton in a hydrogen atom."
+  },
+  {
+    "id": "ejc-2022-promo-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Newton’s second law, the rate of change of momentum equals the resultant force on the body. Here that force is $4.0\\ \\mathrm{N}$, so the rate is $4.0\\ \\mathrm{kg\\,m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Dividing force by mass gives acceleration.",
+        "B": "Correct. The momentum changes at a rate equal to the resultant force.",
+        "C": "Multiplying by the elapsed time gives the change in momentum.",
+        "D": "Multiplying the impulse by the mass introduces an extra factor of mass."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Newton’s second law gives the requested rate directly from the stated force.",
+    "misconception": "Confusing momentum change with its rate.",
+    "transcription": "When a constant force of $4.0\\ \\mathrm{N}$ acts on a mass of $2.0\\ \\mathrm{kg}$ for a time of $2.0\\ \\mathrm{s}$, what is the rate of change of momentum?\nA. $2.0\\ \\mathrm{kg\\,m\\,s^{-2}}$\nB. $4.0\\ \\mathrm{kg\\,m\\,s^{-2}}$\nC. $8.0\\ \\mathrm{kg\\,m\\,s^{-2}}$\nD. $16\\ \\mathrm{kg\\,m\\,s^{-2}}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity component perpendicular to the wall reverses, so its change has magnitude $2v\\sin30^\\circ$. Multiplying by the mass flow rate gives $F=(m/t)\\Delta v_\\perp=2.5(2\\times5.0\\sin30^\\circ)\\approx13\\ \\mathrm{N}$. The force on the wall has the same magnitude as the force on the water.",
+      "perOption": {
+        "A": "Omits the factor of two from reversal of the perpendicular component.",
+        "B": "Omits the factor of two and uses cosine instead of sine.",
+        "C": "Correct. Only the perpendicular component reverses.",
+        "D": "Uses cosine instead of sine for the component perpendicular to the wall."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Resolve the velocity and account for the reversal of its perpendicular component.",
+    "misconception": "Using the component parallel to the wall or omitting the rebound.",
+    "transcription": "In the figure below, a jet of water that is sprayed parallel to the floor from a hose is directed towards a wall, at $30^\\circ$ to the surface of the wall. The water is then reflected at $30^\\circ$ to the wall. The figure below shows the top view of the jet of water approaching and reflecting from the wall.\n\n[The wall is drawn vertically on the right. The jet travels from a hose at lower left to the wall and reflects towards the upper left, making $30^\\circ$ with the wall on each side of the point of impact.]\n\nThe mass flow rate of the jet from the hose is $2.5\\ \\mathrm{kg\\,s^{-1}}$ and it approaches the wall with a speed of $5.0\\ \\mathrm{m\\,s^{-1}}$. Given that the jet of water hits the wall elastically, what is the magnitude of the force exerted by the water on the wall?\nA. $6.3\\ \\mathrm{N}$\nB. $11\\ \\mathrm{N}$\nC. $13\\ \\mathrm{N}$\nD. $22\\ \\mathrm{N}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "Start at the bottom of the U-tube and move up to R and S. Both points are the same vertical distance above the bottom and both paths pass through liquid X, so the pressure decreases by the same amount $\\rho_Xg\\Delta z$. The pressures at R and S are therefore equal.",
+      "perOption": {
+        "A": "Going up from the interface level to P and Q gives different pressure drops because the densities differ.",
+        "B": "Correct. R and S are at the same height in connected liquid X.",
+        "C": "Under the key’s assumption that adjustment leaves the vertical depth of Y unchanged, the two atmospheric free surfaces keep the same height difference.",
+        "D": "Adding less-dense Y increases its column depth and the height difference between the surfaces."
+      }
+    },
+    "issues": "B is definitely true, but C can also be true if adjusting the flexible arms tilts the Y column or changes its cross-sectional area, changing its vertical depth and therefore Δh. The key assumes adjustment leaves that depth fixed.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Compare pressures using a shared depth in the connected liquid.",
+    "misconception": "Assuming equal pressures at the same height across different liquids.",
+    "transcription": "In the figure below, Liquid X and Liquid Y are used to fill the arms of a flexible U-tube. Liquid X and Liquid Y do not mix. Height difference between the two liquid surfaces is given by $\\Delta h$.\n\n[Liquid X fills the bottom of the U-tube and part of both arms. Liquid Y sits above X in the right arm and its surface is $\\Delta h$ higher than the left surface. P in X and Q in Y are at the same height. R and S are lower down, at the same height in X.]\n\nWhich of the following statements is true?\nA. Point P and Point Q are at the same pressure.\nB. Point R and Point S are at the same pressure.\nC. $\\Delta h$ can vary by adjusting the arms of the flexible tube if the liquids do not overflow.\nD. $\\Delta h$ can be zero by adding more liquid Y on the right arm."
+  },
+  {
+    "id": "ejc-2022-promo-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the beam to be in equilibrium under three nonparallel forces, their lines of action must meet at one point. The line through the intersection of the tension and weight lines and the wall contact gives B or C. B is the wall’s force on the beam, so C is the opposite force the beam exerts on the wall.",
+      "perOption": {
+        "A": "Its line of action misses the intersection of the weight and tension lines.",
+        "B": "Shows the force the wall exerts on the beam.",
+        "C": "Correct. It points opposite to the wall’s force on the beam.",
+        "D": "Its line of action misses the intersection of the weight and tension lines."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.i",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Locate the common intersection of the force lines and distinguish the third-law pair.",
+    "misconception": "Selecting the force exerted by the wall on the beam.",
+    "transcription": "A non-uniform beam has one of its end attached to a string and the other end resting on a rough wall. The centre of the gravity G of the beam is shown in the diagram below.\n\n[The beam slopes down to the right from a vertical wall. A string runs up-left from the beam’s right end to the ceiling. G is marked on the beam nearer the right end. Four arrows originate at the wall contact. A points steeply up-right and B points less steeply up-right. C is opposite B and D is opposite A.]\n\nWhich of the above arrows correctly shows the force acting by the beam on the wall?"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "By conservation of energy, the gravitational potential energy lost equals the elastic potential energy gained by the spring. The ball drops $20.0\\ \\mathrm{cm}$ in total, and the spring does work over $5.0\\ \\mathrm{cm}$ of compression. Thus $(1.0)(9.81)(0.200)=F_{\\rm avg}(0.050)$, giving $F_{\\rm avg}=39.2\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives the ball’s weight, missing the energy transferred as the ball slows.",
+        "B": "Corresponds to using only $10.0$ cm for the gravitational drop over the same compression.",
+        "C": "Uses the $15.0$ cm fall before contact and omits the drop during compression.",
+        "D": "Correct. This is the spring force averaged over the compression distance."
+      }
+    },
+    "issues": "The key’s 39.2 N is an average over displacement during compression. The wording “average force ... during this impact” does not specify that convention and could be read as a time average.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.k",
+      "forces-and-moments.c",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the total drop for energy and the compression distance for the spring’s work.",
+    "misconception": "Using only the fall before contact to calculate the loss of gravitational potential energy.",
+    "transcription": "A $1.0\\ \\mathrm{kg}$ ball is dropped from a height of $15.0\\ \\mathrm{cm}$ above an uncompressed spring with unknown spring constant that obeys Hooke’s Law. Upon impact between the spring and the ball, the spring undergoes a maximum compression of $5.0\\ \\mathrm{cm}$.\n\n[The ball is shown above a vertical spring. A vertical double-headed arrow marks $15.0\\ \\mathrm{cm}$ from the bottom of the ball to the top of the uncompressed spring.]\n\nWhat is the average force exerted on the ball by the spring during this impact?\nA. $9.81\\ \\mathrm{N}$\nB. $19.6\\ \\mathrm{N}$\nC. $29.4\\ \\mathrm{N}$\nD. $39.2\\ \\mathrm{N}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "On level ground, $P=F_{\\rm engine}v$ gives $F_{\\rm engine}=108000/15=7200\\ \\mathrm{N}$, which balances the drag. On the slope at $10\\ \\mathrm{m\\,s^{-1}}$, the drag is $(10/15)(7200)=4800\\ \\mathrm{N}$ and the engine force is $108000/10=10800\\ \\mathrm{N}$.\n\nThe resultant down the slope is $4800+1500(9.81)\\sin30^\\circ-10800=1357.5\\ \\mathrm{N}$. The deceleration is $1357.5/1500=0.905\\ \\mathrm{m\\,s^{-2}}$, or $0.91\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct. The downslope resultant determines the deceleration.",
+        "B": "Overstates the downslope resultant by failing to account correctly for the driving force and drag at the new speed.",
+        "C": "Uses only the acceleration component $gsin30^circ$ and ignores the net contribution of the engine and drag.",
+        "D": "Adds a downslope acceleration to $gsin30^circ$ even though the driving force exceeds the drag."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Infer the drag at the initial speed, scale it, and combine three forces on the slope.",
+    "misconception": "Assuming the same engine force at constant power.",
+    "transcription": "A car of mass $1500\\ \\mathrm{kg}$ is travelling as shown. Its engine develops a constant power of $108\\ \\mathrm{kW}$ during the journey, regardless of road conditions.\n\n[The car moves to the right at $v=15\\ \\mathrm{m\\,s^{-1}}$ on a level road. Farther along, it moves up to the right at $v=10\\ \\mathrm{m\\,s^{-1}}$ on a slope at $30^\\circ$ to the horizontal.]\n\nAfter travelling on a level road with a constant velocity of $15\\ \\mathrm{m\\,s^{-1}}$, the car encountered a slope that makes an angle of $30^\\circ$ to the horizontal.\n\nGiven that the resistive forces experienced by the car is proportional to its velocity, what is the deceleration of the car when its velocity up the slope is $10\\ \\mathrm{m\\,s^{-1}}$?\nA. $0.91\\ \\mathrm{m\\,s^{-2}}$\nB. $3.3\\ \\mathrm{m\\,s^{-2}}$\nC. $4.9\\ \\mathrm{m\\,s^{-2}}$\nD. $5.8\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $v^2=u^2+2as$ gives the load’s final speed as $15.65\\ \\mathrm{m\\,s^{-1}}$. The useful work is the sum of the gains in kinetic energy and gravitational potential energy, $\\tfrac12 mv^2+mgh\\approx23291\\ \\mathrm{J}$. The input energy is $8500(4.47)\\ \\mathrm{J}$, so the efficiency is $23291/[8500(4.47)]\\times100\\%\\approx61\\%$.",
+      "perOption": {
+        "A": "Counts only the gain in kinetic energy as useful output.",
+        "B": "Counts only the gain in gravitational potential energy as useful output.",
+        "C": "Correct. Both energy gains contribute to the useful output.",
+        "D": "Assumes all the electrical input becomes mechanical energy of the load."
+      }
+    },
+    "issues": "The key uses the constant-acceleration equation although the question gives average acceleration. The stated duration and average acceleration also give the same final speed to the precision needed.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.e",
+      "energy-and-fields.n",
+      "motion-and-forces.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the final speed and include both energy gains in the efficiency.",
+    "misconception": "Counting only the gain in gravitational potential energy.",
+    "transcription": "At a construction site, a $8.5\\ \\mathrm{kW}$ electrically powered winch hauls up building materials of mass $50\\ \\mathrm{kg}$ which were initially resting on the ground over a vertical height of $35\\ \\mathrm{m}$ over a duration of $4.47\\ \\mathrm{s}$ at an average acceleration of $3.5\\ \\mathrm{m\\,s^{-2}}$.\n\nWhat is the overall efficiency of the winch?\nA. $16\\%$\nB. $45\\%$\nC. $61\\%$\nD. $100\\%$"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The free-body diagram shows the weight, normal reaction and any friction along the road. The centripetal force is their inward resultant, so it is omitted as a separate arrow. Friction’s direction along the bank depends on the car’s speed.",
+      "perOption": {
+        "A": "Adds the inward resultant $mv^2/r$ as a separate force.",
+        "B": "Adds $mv^2/r$ as a separate force and points it outward.",
+        "C": "Adds $mv^2/r$ as a separate force and points it down the slope instead of horizontally inward.",
+        "D": "Correct. It includes only the individual forces for the case of downslope friction."
+      }
+    },
+    "issues": "D is the only diagram without an extra centripetal force. The speed and bank angle are unspecified, so friction could also point upslope or be zero, as the key’s caveat implies.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the individual forces and recognize their centripetal resultant.",
+    "misconception": "Drawing the centripetal resultant as an extra force.",
+    "transcription": "A car travels with a constant speed $v$ in a horizontal circle on a banked road which is inclined at an angle to the horizontal.\n\n[Rear view of a car on a bank rising from left to right.]\n\nThe total mass of the car and driver is $m$ and the radius of the circular motion is $r$.\n\n$N$ is the normal reaction and $f$ is the frictional force.\n\nWhich diagram shows the forces acting on the car and its driver?\n\n[All four options show $N$ pointing up-left and $mg$ vertically down.\nA. $f$ points down-left and $mv^2/r$ points horizontally left.\nB. $f$ points down-left and $mv^2/r$ points horizontally right.\nC. $f$ points up-right and $mv^2/r$ points down-left.\nD. $f$ points down-left. There is no $mv^2/r$ arrow.]"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The centripetal acceleration is $a=r\\omega^2$, so a steadily increasing $\\omega$ gives an upward-curving quadratic in time. Both points have the same $\\omega$ at each instant, so $a_P/a_Q=r_P/r_Q$ is constant. Since $r_Q>r_P$, Q has the greater acceleration and the steeper curve.",
+      "perOption": {
+        "A": "Shows approximately equal slopes, whereas the larger radius gives Q a greater rate of increase.",
+        "B": "Shows linear growth in time, which misses the square of the angular velocity.",
+        "C": "Correct. Q’s curve rises faster while both curves grow quadratically.",
+        "D": "Shows linear growth and equal slopes, missing both the squared dependence and the radius dependence."
+      }
+    },
+    "issues": "The key writes a ∝ t², which requires zero initial angular velocity. For the nonzero intercepts shown, a = r(ω₀ + αt)² is quadratic in t, and C remains the intended graph.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the squared angular speed to infer curvature and compare accelerations at two radii.",
+    "misconception": "Assuming centripetal acceleration increases linearly with angular speed.",
+    "transcription": "A turntable rotates about a fixed axis starting with angular velocity that is increasing steadily over time. P and Q are fixed points on the turntable.\n\n[Top view of a circular turntable. P is nearer the centre and Q is near the upper-right edge.]\n\nWhich one of the graphs below correctly shows how the centripetal acceleration $a$ for P and Q vary with time $t$?\n\n[Each graph plots $a$ vertically against $t$ horizontally, with Q above P and both starting at positive $a$.\nA. Two rising concave-up curves with approximately constant vertical separation.\nB. Two rising straight lines, with Q steeper than P.\nC. Two rising concave-up curves, with Q steepening more and pulling farther above P.\nD. Two parallel rising straight lines.]"
+  }
+]
