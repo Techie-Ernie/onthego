@@ -187,8 +187,8 @@
     "duplicatesRemoved": 3,
     "published": 445,
     "needsReview": 2,
-    "classified": 0,
-    "withExplanation": 0
+    "classified": 20,
+    "withExplanation": 19
   },
   "renderModes": {
     "text": 109,
@@ -206,12 +206,14 @@
   },
   "withFigures": 297,
   "flags": {
-    "unclassified": 447,
     "option-X": 479,
     "image-fallback": 231,
     "table-options": 54,
     "stem": 347,
     "content-below-options": 17,
+    "agent-note": 2,
+    "explanation-low-confidence": 1,
+    "unclassified": 427,
     "options-not-found": 22,
     "option-X-cell-crop": 92,
     "has-duplicates": 3,
@@ -226,7 +228,7 @@
       "flags": [
         "content-below-options",
         "image-fallback",
-        "unclassified"
+        "agent-note"
       ]
     },
     {
@@ -637,9 +639,69 @@
     "totalBytes": 11793980,
     "perShard": {
       "_unclassified": {
-        "questions": 447,
-        "jsonBytes": 665579,
-        "assetBytes": 11793980
+        "questions": 427,
+        "jsonBytes": 637318,
+        "assetBytes": 11283760
+      },
+      "circular-motion": {
+        "questions": 1,
+        "jsonBytes": 2024,
+        "assetBytes": 0
+      },
+      "electric-fields": {
+        "questions": 2,
+        "jsonBytes": 4612,
+        "assetBytes": 79336
+      },
+      "energy-and-fields": {
+        "questions": 1,
+        "jsonBytes": 2695,
+        "assetBytes": 53464
+      },
+      "forces-and-moments": {
+        "questions": 2,
+        "jsonBytes": 5816,
+        "assetBytes": 32032
+      },
+      "gravitational-fields": {
+        "questions": 2,
+        "jsonBytes": 5032,
+        "assetBytes": 58686
+      },
+      "motion-and-forces": {
+        "questions": 1,
+        "jsonBytes": 2359,
+        "assetBytes": 12578
+      },
+      "oscillations": {
+        "questions": 2,
+        "jsonBytes": 5069,
+        "assetBytes": 2780
+      },
+      "projectile-motion": {
+        "questions": 1,
+        "jsonBytes": 2636,
+        "assetBytes": 44892
+      },
+      "quantities-and-measurement": {
+        "questions": 1,
+        "jsonBytes": 2037,
+        "assetBytes": 0
+      },
+      "superposition": {
+        "questions": 3,
+        "jsonBytes": 7579,
+        "assetBytes": 82830
+      },
+      "temperature-and-ideal-gases": {
+        "questions": 2,
+        "jsonBytes": 5008,
+        "assetBytes": 82610
+      },
+      "wave-motion": {
+        "questions": 2,
+        "jsonBytes": 5222,
+        "assetBytes": 61012
       }
     }
   }

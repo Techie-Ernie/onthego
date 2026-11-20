@@ -56,6 +56,8 @@ export interface Explanation {
   model: string;
   /** true when the model's derived answer matched the key */
   verified: boolean;
+  /** "key": rewritten from the school's worked solution; "generated": no usable worked solution, written from scratch */
+  source?: "key" | "generated";
 }
 
 export interface Question {
@@ -102,6 +104,8 @@ export interface QuestionIndexEntry {
   primaryType: string | null;
   types: string[];
   difficulty?: number;
+  misconception?: string;
+  outcomes?: string[];
   hasFigure: boolean;
   renderMode: RenderMode;
   /** shard (topic id or "_unclassified") the full record lives in */

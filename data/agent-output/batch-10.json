@@ -1,0 +1,607 @@
+[
+ {
+  "id": "njc-2026-prelim-p1-q2",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Single order-of-magnitude estimate from everyday knowledge.",
+  "misconception": "Poor sense of scale when converting cm to m³",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "A football has a diameter of about $22\\ \\mathrm{cm}$, so $r \\approx 0.11\\ \\mathrm{m}$.\n\n$V = \\tfrac{4}{3}\\pi r^3 \\approx \\tfrac{4}{3}\\pi(0.11)^3 \\approx 6\\times10^{-3}\\ \\mathrm{m^3}$, which is of order $10^{-3}\\ \\mathrm{m^3}$ (a few litres).",
+   "perOption": {
+    "A": "Too small: $10^{-6}\\ \\mathrm{m^3}$ is $1\\ \\mathrm{cm^3}$, the size of a sugar cube.",
+    "B": "Correct. A football holds a few litres of air.",
+    "C": "Too large: $0.1\\ \\mathrm{m^3}$ is 100 litres, about a large bin.",
+    "D": "Far too large: $1000\\ \\mathrm{m^3}$ is the size of a building."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q3",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.b",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "One resolution of weight along the slope set equal to the given maximum friction.",
+  "misconception": "Using cosine instead of sine for the component along the slope",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The block is about to slip when the component of weight down the slope equals the maximum friction: $mg\\sin\\theta = \\tfrac{1}{4}mg$.\n\nSo $\\sin\\theta = 0.25$ and $\\theta = 14.5^\\circ \\approx 14^\\circ$.",
+   "perOption": {
+    "A": "Correct. $\\sin\\theta = 0.25$.",
+    "B": "Uses $\\sin\\theta = 0.5$, i.e. friction equal to half the weight.",
+    "C": "Uses $\\cos\\theta = 0.5$, mixing up the components.",
+    "D": "Uses $\\cos\\theta = 0.25$, resolving the weight with cosine instead of sine."
+   }
+  },
+  "transcription": "A block of mass $m$ is placed on an inclined plane at an angle $\\theta$ to the horizontal. [Diagram: block resting on a plane inclined at angle $\\theta$ to the horizontal] If the maximum frictional force that can exist between the block and the plane is equal to a quarter of the weight of the block, what is the maximum angle $\\theta$ the plane can be raised before the block starts to slip? A $14^\\circ$ B $30^\\circ$ C $60^\\circ$ D $76^\\circ$",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q4",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.d",
+   "forces-and-moments.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires the perpendicular distance from O to side BA in a regular hexagon.",
+  "misconception": "Taking the distance OB instead of the perpendicular distance to the line of action",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let the hexagon side be $a$. The 200 N force acts along BA, whose perpendicular distance from O is the height of an equilateral triangle, $\\tfrac{\\sqrt{3}}{2}a$.\n\n$P$ acts perpendicular to OD at distance $a$. For no rotation: $P\\,a = 200 \\times \\tfrac{\\sqrt{3}}{2}a$, so $P = 173\\ \\mathrm{N} \\approx 170\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "Uses a moment arm of $a/2$ for the 200 N force.",
+    "B": "Correct. $P = 200\\cos30^\\circ$.",
+    "C": "Takes the moment arm as OB $= a$, ignoring that the force is not perpendicular to OB.",
+    "D": "Divides instead of multiplies: $200/\\cos30^\\circ$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q5",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Best solved by noticing both masses share the same acceleration, so relative motion is uniform.",
+  "misconception": "Thinking the accelerations make the relative motion non-uniform",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "On a smooth slope both masses have the same acceleration $g\\sin30^\\circ$ down the slope, so their relative acceleration is zero.\n\nTheir relative speed stays at $4.00\\ \\mathrm{m\\,s^{-1}}$ and they start $5.00\\ \\mathrm{m}$ apart, so $t = 5.00/4.00 = 1.25\\ \\mathrm{s}$.",
+   "perOption": {
+    "A": "Gives too early a time, as if A's deceleration were ignored while B accelerates (or the accelerations were not cancelled correctly).",
+    "B": "Correct. Relative acceleration is zero.",
+    "C": "Inconsistent with the uniform relative speed of 4.00 m/s over 5.00 m.",
+    "D": "Too late; treats the masses as closing more slowly than their constant relative speed."
+   }
+  },
+  "transcription": "Two small masses A and B are placed at the bottom and top of a smooth slope inclined at $30.0^\\circ$ to the horizontal. At time $t = 0$, mass A is launched up the slope with an initial speed of $4.00\\ \\mathrm{m\\,s^{-1}}$ while mass B is released from rest at the top of the slope. The two masses collide at a point along the slope. [Diagram: right-angled slope at $30.0^\\circ$, A at the bottom, B at the top] The length of the slope is $5.00\\ \\mathrm{m}$. At what time does the collision occur? A $0.681\\ \\mathrm{s}$ B $1.25\\ \\mathrm{s}$ C $1.50\\ \\mathrm{s}$ D $2.46\\ \\mathrm{s}$",
+  "issues": "Stem says A and B are at 'the top and bottom' respectively, but the text and diagram place A at the bottom and B at the top."
+ },
+ {
+  "id": "njc-2026-prelim-p1-q6",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs recognising that equal time intervals require heights in the ratio 1:4:9:16.",
+  "misconception": "Assuming equally spaced beads give equally spaced sounds",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each bead falls freely from rest, so it lands at $t = \\sqrt{2h/g}$. For landing times $0, T, 2T, 3T, 4T$, the heights must be in the ratio $0 : 1 : 4 : 9 : 16$.\n\nIn D the beads are 0, 1, 4, 9 and 16 tick marks above the floor, so the sounds are equally spaced in time.",
+   "perOption": {
+    "A": "Gaps shrink going up (6, 5, 4, 3, 2, 1 ticks), so later sounds come closer together still.",
+    "B": "Equal spacing means each bead lands sooner after the previous one, so intervals decrease.",
+    "C": "Gaps grow linearly (1, 2, 3, ... ticks), but heights must grow as $n^2$, not as triangular numbers.",
+    "D": "Correct. Heights are $1:4:9:16$, i.e. $h \\propto t^2$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q7",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.m",
+   "energy-and-fields.n"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Efficiency then P = Fv with constant velocity.",
+  "misconception": "Using input power instead of useful output power",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Useful output power $= 0.40 \\times 800 = 320\\ \\mathrm{W}$.\n\nAt constant velocity the driving force equals the resistive force: $F = P/v = 320/13 \\approx 25\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "Correct. Uses output power 320 W.",
+    "B": "Uses the wasted power (480 W) instead of the useful power.",
+    "C": "Uses the full input power of 800 W, ignoring efficiency.",
+    "D": "Multiplies or divides incorrectly (not consistent with $P = Fv$)."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q8",
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Qualitative use of $F = mr\\omega^2$ with friction providing the centripetal force.",
+  "misconception": "Thinking objects further out have a larger angular velocity",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Friction provides the centripetal force: $f = mr\\omega^2$. Both objects share the same $\\omega$, so Q at larger $r$ needs more friction.\n\nThe maximum friction $\\mu mg$ is the same for both, so Q reaches it first and slides first.",
+   "perOption": {
+    "A": "Friction is $mr\\omega^2$, which differs because the radii differ.",
+    "B": "P is at the smaller radius, so it needs less friction, not more.",
+    "C": "Both objects rotate with the turntable at the same angular velocity.",
+    "D": "Correct. Q needs the larger centripetal force."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q9",
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "circular-motion.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Resolving tension for a conical pendulum and converting angular velocity to period.",
+  "misconception": "Using the wrong trigonometric ratio when resolving tension",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Vertically $T\\cos\\theta = mg$; horizontally $T\\sin\\theta = mr\\omega^2$. Dividing gives $\\tan\\theta = r\\omega^2/g$.\n\nSo $\\omega^2 = g\\tan\\theta/r$ and the period is $\\dfrac{2\\pi}{\\omega} = \\sqrt{\\dfrac{4\\pi^2 r}{g\\tan\\theta}}$.",
+   "perOption": {
+    "A": "Ignores the angle, as if the centripetal force were equal to the weight.",
+    "B": "Uses $\\sin\\theta$ instead of $\\tan\\theta$ when dividing the two force equations.",
+    "C": "Correct.",
+    "D": "Places $r$ in the denominator; this does not even have units of time."
+   }
+  },
+  "transcription": "A metal bob is suspended with a light inextensible cord from the ceiling. It is set to whirl in a horizontal circle of radius $r$ with a constant speed such that the cord is inclined at an angle $\\theta$ to the vertical as shown in the diagram. [Diagram: conical pendulum, cord at angle $\\theta$ to the vertical, bob moving in a horizontal circle of radius $r$] Determine the period of rotation for the metal bob. A $\\sqrt{4\\pi^2 r/g}$ B $\\sqrt{4\\pi^2 r/(g\\sin\\theta)}$ C $\\sqrt{4\\pi^2 r/(g\\tan\\theta)}$ D $\\sqrt{4\\pi^2/(gr\\tan\\theta)}$",
+  "issues": "Options in the image show garbled function names ('gsinsin θ', 'gtantan θ'); read as sin θ and tan θ."
+ },
+ {
+  "id": "njc-2026-prelim-p1-q10",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.j"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Ratio of orbital speeds; main trap is measuring distance from the surface instead of the centre.",
+  "misconception": "Using distance from Earth's surface instead of from its centre",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a circular orbit $v = \\sqrt{GM/r}$, with $r$ measured from Earth's centre. P is at $r = 2R$ and Q at $r = 4R$.\n\n$v_P/v_Q = \\sqrt{4R/2R} = \\sqrt{2}$, so $v_P = \\sqrt{2}\\,v$.",
+   "perOption": {
+    "A": "Uses $R$ and $3R$ (heights above the surface) and inverts the ratio.",
+    "B": "Inverts the ratio: the closer satellite moves faster, not slower.",
+    "C": "Correct. $r_P = 2R$, $r_Q = 4R$.",
+    "D": "Uses heights $R$ and $3R$ instead of orbital radii $2R$ and $4R$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q11",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single ratio using $\\phi = -GM/r$.",
+  "misconception": "Using an inverse-square dependence on radius for potential",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\phi = -GM/r$, so $\\phi_{\\text{Moon}} = \\phi_{\\text{Earth}} \\times \\dfrac{M_M/M_E}{r_M/r_E} = -63 \\times \\dfrac{0.012}{0.25}$.\n\n$\\phi_{\\text{Moon}} \\approx -3.0\\ \\mathrm{MJ\\,kg^{-1}}$.",
+   "perOption": {
+    "A": "Multiplies by both ratios ($0.012 \\times 0.25$) instead of dividing by the radius ratio.",
+    "B": "Correct.",
+    "C": "Divides by $r^2$ ratio and so treats potential like field strength ($0.012/0.0625$).",
+    "D": "Inverts the mass ratio."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q12",
+  "chapter": "oscillations",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "oscillations.d"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Reading the gradient of an a–x graph and taking a square root.",
+  "misconception": "Forgetting to square-root the gradient to get ω",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "For SHM $a = -\\omega^2 x$, so $\\omega^2$ is the magnitude of the gradient of the $a$–$x$ graph.\n\n$\\omega^2 = 0.30/6.0 = 0.050\\ \\mathrm{s^{-2}}$, so $\\omega = \\sqrt{0.050} = 0.22\\ \\mathrm{rad\\,s^{-1}}$.",
+   "perOption": {
+    "A": "This is $\\omega^2$, not $\\omega$.",
+    "B": "Correct.",
+    "C": "Uses $\\sqrt{6.0/0.30}$, inverting the gradient.",
+    "D": "Uses $6.0/0.30$, inverting the gradient and not square-rooting."
+   }
+  },
+  "transcription": null,
+  "issues": "Graph axis label shows 'a / cms2' (missing the minus sign in cm s^-2); does not affect the answer."
+ },
+ {
+  "id": "njc-2026-prelim-p1-q13",
+  "chapter": "wave-motion",
+  "secondaryChapters": [
+   "oscillations"
+  ],
+  "outcomes": [
+   "wave-motion.b",
+   "wave-motion.e",
+   "oscillations.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "multi-step"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs particle direction from the wave's travel direction plus phase difference from the separation in wavelengths.",
+  "misconception": "Getting the direction of particle motion wrong for a travelling wave",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "P is at a crest at $t = 0$, so $y_P = A\\cos\\omega t$.\n\nS is at equilibrium. For a wave moving right, S copies the point to its left, which is below it, so S is moving down: $y_S = -A\\sin\\omega t$.\n\nS is $\\tfrac{3}{4}\\lambda$ to the right of P, so the phase difference is $\\tfrac{3}{4}\\times 2\\pi = \\tfrac{3}{2}\\pi$.",
+   "perOption": {
+    "A": "The relation for S is right, but $\\tfrac{3}{4}\\lambda$ corresponds to a phase difference of $\\tfrac{3}{2}\\pi$, not $\\tfrac{3}{4}\\pi$.",
+    "B": "P starts at a crest, so it follows $\\cos$, not $\\sin$; the phase difference is also wrong.",
+    "C": "Correct.",
+    "D": "S starts at equilibrium, so its motion is a sine, not $-\\cos$; $\\tfrac{1}{2}\\pi$ is also wrong for a $\\tfrac{3}{4}\\lambda$ separation."
+   }
+  },
+  "transcription": "The graph shows part of a transverse wave travelling along a string from left to right at time $t = 0$. [Graph: displacement $y$ against distance along string; P at a crest (amplitude $A$), S at zero displacement on a rising section, three-quarters of a wavelength to the right of P] The angular frequency of both particles P and S is $\\omega$. The displacements of P and S are $y_P$ and $y_S$ respectively. Which of the following gives the correct relation between the displacement and time for either P or S and the phase difference between the motion of S and P? A $y_S = -A\\sin\\omega t$, $\\tfrac{3}{4}\\pi$ B $y_P = A\\sin\\omega t$, $\\tfrac{3}{4}\\pi$ C $y_P = A\\cos\\omega t$, $\\tfrac{3}{2}\\pi$ D $y_S = -A\\cos\\omega t$, $\\tfrac{1}{2}\\pi$",
+  "issues": "The ω symbol is missing from the image (stem reads 'angular frequency ... is .' and options read 'sin t', 'cos t'); the leftmost part of the wave curve and axis labels look partly garbled/cropped."
+ },
+ {
+  "id": "njc-2026-prelim-p1-q14",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.g",
+   "wave-motion.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Uses width ratio for distance, then inverse-square intensity and amplitude ∝ √I.",
+  "misconception": "Thinking amplitude falls in the same proportion as intensity",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "By similar triangles the second area is $16/2.0 = 8$ times as far from the source.\n\n$I \\propto 1/r^2$ gives $I/64$. Since $I \\propto A^2$, amplitude $\\propto 1/r$, giving $A/8$.",
+   "perOption": {
+    "A": "Uses $I \\propto 1/r$ and $A \\propto 1/\\sqrt{r}$.",
+    "B": "Intensity is right, but amplitude falls as $1/r$ (to $A/8$), not to $A/4$.",
+    "C": "Correct.",
+    "D": "Uses the area ratio (64) as the distance ratio, squaring twice."
+   }
+  },
+  "transcription": "Waves from a point source pass through an area that is $2.0\\ \\mathrm{cm}$ wide, as shown. [Diagram: rays diverging from a point source through a square of width $2.0\\ \\mathrm{cm}$ and further on through a square of width $16\\ \\mathrm{cm}$] Within this area, the intensity of the waves is $I$ and their amplitude is $A$. The waves reach a second area of width $16\\ \\mathrm{cm}$. What will be the intensity and amplitude of the waves when they reach the second area? A $I/8$, $A/4$ B $I/64$, $A/4$ C $I/64$, $A/8$ D $I/256$, $A/16$",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q15",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.b",
+   "superposition.c"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Compare fundamental frequencies of closed and open pipes, then check harmonics.",
+  "misconception": "Treating open and closed pipes as having the same fundamental for the same length",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The pipe shown is closed at one end, so $L = \\lambda/4$ and $f = v/4L$. We need $\\tfrac{1}{2}f = v/8L$.\n\nAn open pipe of length $L'$ resonates at $nv/2L'$. With $L' = 4L$ the fundamental is $v/8L = \\tfrac{1}{2}f$.",
+   "perOption": {
+    "A": "Open pipe of length $L$: fundamental $v/2L = 2f$, too high.",
+    "B": "Open pipe of length $2L$: fundamental $v/4L = f$, not $\\tfrac{1}{2}f$.",
+    "C": "Correct. Fundamental $v/8L$.",
+    "D": "Open pipe of length $6L$ resonates at $nv/12L$; $v/8L$ would need $n = 1.5$."
+   }
+  },
+  "transcription": "A sound wave resonates at its fundamental frequency $f$ in the following pipe of length $L$. [Diagram: pipe of length $L$ closed at one end, open at the other] In which of the following pipes would a sound wave of frequency $\\tfrac{1}{2}f$ resonate in? [Options: pipes open at both ends] A length $L$ B length $2L$ C length $4L$ D length $6L$",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q16",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires using the longest wavelength to limit complete orders and counting both sides.",
+  "misconception": "Using the shortest wavelength, or forgetting orders on both sides",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Grating spacing $d = 1/500\\ \\mathrm{mm} = 2.0\\times10^{-6}\\ \\mathrm{m}$. A complete spectrum of order $n$ needs the longest wavelength to appear: $n \\times 600\\ \\mathrm{nm} < d$.\n\n$d/\\lambda = 2000/600 = 3.3$, so orders 1, 2, 3 are complete on each side: $2 \\times 3 = 6$ spectra.",
+   "perOption": {
+    "A": "Counts orders on one side only.",
+    "B": "Correct. Three complete orders each side.",
+    "C": "Includes the central maximum, which the question excludes.",
+    "D": "Uses 480 nm ($d/\\lambda = 4.2$) so counts 4 orders each side, but order 4 is incomplete."
+   }
+  },
+  "transcription": "A beam of light that consists of all wavelengths between $480\\ \\mathrm{nm}$ and $600\\ \\mathrm{nm}$ is projected on a diffraction grating that contains 500 lines per millimetre. Excluding the central maximum, what is the maximum number of complete continuous spectra including overlapping spectra that can be observed emerging from the grating? A 3 B 6 C 7 D 8",
+  "issues": "Question number '16' is cropped off the image."
+ },
+ {
+  "id": "njc-2026-prelim-p1-q17",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.c",
+   "temperature-and-ideal-gases.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs conservation of total moles with equal final pressures and kelvin temperatures.",
+  "misconception": "Using Celsius temperatures or assuming moles stay proportional to volume",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Initially both are at the same $p$ and $T$, so B holds $8n$; total $9n$.\n\nFinally the pressures are equal: $n_A' = \\dfrac{pV}{R(353)}$, $n_B' = \\dfrac{8pV}{R(283)}$, so $n_A'/n_B' = 283/(8\\times353) = 0.100$.\n\n$n_A' = 9n \\times \\dfrac{0.100}{1.100} = 0.82n$, so $0.18n$ moves from A to B.",
+   "perOption": {
+    "A": "Correct. Moles transferred = $n - 0.82n$.",
+    "B": "Uses Celsius temperatures or another inconsistent ratio.",
+    "C": "This is the amount remaining in A, not the amount transferred.",
+    "D": "Uses Celsius temperatures (ratio 10/80), which is invalid in $pV = nRT$."
+   }
+  },
+  "transcription": "Two vessels A and B of volume $V$ and $8V$ respectively are connected by a tube of negligible volume and contain an ideal gas at an initial temperature of $10\\ ^\\circ\\mathrm{C}$. Vessel A initially contains $n$ moles of the ideal gas. Its temperature is then raised to $80\\ ^\\circ\\mathrm{C}$ while the temperature of B is maintained at $10\\ ^\\circ\\mathrm{C}$. How many moles of gas will be transferred between the vessels when steady state is reached? A $0.18n$ B $0.21n$ C $0.82n$ D $0.86n$",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q18",
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "practical"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Eliminating the unknown heat loss with two simultaneous equations.",
+  "misconception": "Ignoring heat loss to the surroundings",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "For each power, energy supplied = latent heat absorbed + heat lost: $P_1 = m_1 L + h$ and $P_2 = m_2 L + h$.\n\nSubtracting removes $h$: $L = \\dfrac{P_1 - P_2}{m_1 - m_2}$.",
+   "perOption": {
+    "A": "Correct. The heat loss $h$ cancels.",
+    "B": "Ignores the heat loss $h$ to the environment.",
+    "C": "Averages two results that both include the heat loss, so $h$ is not removed.",
+    "D": "Adding the equations doubles $h$ instead of cancelling it."
+   }
+  },
+  "transcription": "A liquid is maintained at its boiling point by means of an electric heater. The constant rate at which the liquid boils away is measured for two different powers of the heater as shown. [Table: power $P_1$, rate of loss of mass $m_1$; power $P_2$, rate $m_2$] For each power of the heater, $P_1$ or $P_2$, the rate of heat loss $h$ to the environment is the same. Which expression is correct for the specific latent heat of vaporisation of the liquid? A $\\dfrac{P_1 - P_2}{m_1 - m_2}$ B $\\dfrac{P_1}{m_1}$ C $\\tfrac{1}{2}\\left(\\dfrac{P_1}{m_1} + \\dfrac{P_2}{m_2}\\right)$ D $\\dfrac{P_1 + P_2}{m_1 + m_2}$",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q19",
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.d",
+   "electric-fields.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Summing scalar potentials and multiplying by a negative charge with care over signs.",
+  "misconception": "Sign error from forgetting the electron's negative charge",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Potential at R: $V = 2 \\times \\dfrac{Q}{4\\pi\\varepsilon_0 r} = 2 \\times \\dfrac{(8.99\\times10^9)(-30\\times10^{-6})}{0.20} = -2.7\\times10^{6}\\ \\mathrm{V}$.\n\nWork done by an external agent $= qV = (-1.6\\times10^{-19})(-2.7\\times10^{6}) = +4.3\\times10^{-13}\\ \\mathrm{J}$ (positive, since the electron is repelled by the negative charges).",
+   "perOption": {
+    "A": "Wrong sign and wrong power of ten.",
+    "B": "This is the potential at R in volts, not the work done on the electron.",
+    "C": "Potential with the sign reversed; still not multiplied by the electron charge.",
+    "D": "Correct. $W = qV$ with both negative."
+   }
+  },
+  "transcription": "PQR is an equilateral triangle of sides $20\\ \\mathrm{cm}$. A $-30\\ \\mu\\mathrm{C}$ charge and another $-30\\ \\mu\\mathrm{C}$ charge are placed at points P and Q respectively. [Diagram: equilateral triangle PQR, side $20\\ \\mathrm{cm}$, $-30\\ \\mu\\mathrm{C}$ at P and Q, R at the top vertex] What is the work done to move an electron to point R from infinity? A $-4.3\\times10^{13}\\ \\mathrm{J}$ B $-2.7\\times10^{6}\\ \\mathrm{J}$ C $2.7\\times10^{6}\\ \\mathrm{J}$ D $4.3\\times10^{-13}\\ \\mathrm{J}$",
+  "issues": "The μ symbol is garbled in the image (shows '⌈C' in the stem and '-30 C' in the diagram); μC is required for any option to match. Option A prints 10^13 (positive exponent), probably intended as 10^-13."
+ },
+ {
+  "id": "njc-2026-prelim-p1-q20",
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.b",
+   "electric-fields.d",
+   "electric-fields.e",
+   "electric-fields.a"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Option D needs a vector sum of fields at Z before and after; the difference is small.",
+  "misconception": "Assuming field strength at Z must decrease because one charge moves",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let the side be $a$. Moving the charge from X to Y brings it closer to Z ($a\\sqrt{2} \\to a$) and further from W ($a \\to a\\sqrt{2}$).\n\nField at Z (in units of $kQ/a^2$): before, $1$ from W plus $0.5$ along the diagonal from X gives $\\approx 1.40$. After, $1$ from W and $1$ from Y at right angles gives $\\sqrt{2} \\approx 1.41$, a small increase.",
+   "perOption": {
+    "A": "Y is closer to Z than X was, so the potential at Z increases.",
+    "B": "The charges move further apart, so the electric potential energy decreases.",
+    "C": "The charges move further apart, so the repulsive force decreases.",
+    "D": "Correct. $|E|$ rises from about $1.40$ to $1.41\\,kQ/a^2$."
+   }
+  },
+  "transcription": "W, X, Y and Z are four points on a square as shown. [Diagram: square with W top-left, X top-right, Y bottom-right, Z bottom-left] Two point charges each of charge $+Q$ are at W and X. Which of the following statements is true when the point charge at X is moved to Y while the charge at W remains fixed? A The electric potential at Z will decrease. B The electric potential energy of the system will increase. C The repulsive force between the two charges will increase. D The magnitude of the electric field strength at Z will increase.",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q21",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.g",
+   "currents.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Turns ratio then Ohm's law and power with r.m.s. values.",
+  "misconception": "Using the peak-power doubling or inverting the turns ratio",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$V_s = 25 \\times \\dfrac{1600}{200} = 200\\ \\mathrm{V}$ r.m.s.\n\n$I_s = 200/150 = 1.3\\ \\mathrm{A}$ r.m.s. Mean power $= V_{\\mathrm{rms}} I_{\\mathrm{rms}} = 200^2/150 \\approx 270\\ \\mathrm{W}$.",
+   "perOption": {
+    "A": "Inverts the turns ratio (step-down instead of step-up).",
+    "B": "Ignores the transformer and uses the 25 V supply directly.",
+    "C": "Correct.",
+    "D": "Doubles the power, using the peak value $V_0 I_0$ instead of the r.m.s. product."
+   }
+  },
+  "transcription": "The primary of an ideal transformer has 200 turns and is connected to a $25\\ \\mathrm{V}$ r.m.s. alternating current supply. The secondary has 1600 turns and is connected to a resistor of resistance $150\\ \\Omega$, as shown below. [Diagram: transformer with 200-turn primary connected to $25\\ \\mathrm{V}$ a.c. r.m.s. and 1600-turn secondary connected to a $150\\ \\Omega$ resistor] What are the possible values of the secondary voltage, the secondary current and the mean power dissipated in the resistor? A $3.1\\ \\mathrm{V}$, $0.021\\ \\mathrm{A}$, $0.065\\ \\mathrm{W}$ B $25\\ \\mathrm{V}$, $0.17\\ \\mathrm{A}$, $4.2\\ \\mathrm{W}$ C $200\\ \\mathrm{V}$, $1.3\\ \\mathrm{A}$, $270\\ \\mathrm{W}$ D $200\\ \\mathrm{V}$, $1.3\\ \\mathrm{A}$, $530\\ \\mathrm{W}$",
+  "issues": null
+ }
+]

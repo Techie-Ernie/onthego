@@ -1,0 +1,342 @@
+[
+  {
+    "id": "jpjc-2026-prelim-p1-q21",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Closing switches can add parallel current paths and reduce the effective resistance. With all three switches open, the left section is a single resistor $R$ in series with the right section, where three resistors remain in parallel. The total resistance is $R+R/3\\approx 1.33R$, the largest of the listed combinations.",
+      "perOption": {
+        "A": "Closing all three switches gives $R_{XY}=0.85R$.",
+        "B": "Closing $S_1$ and $S_3$ gives $R_{XY}=0.92R$.",
+        "C": "Closing $S_3$ adds a right-hand parallel path, giving $R_{XY}=1.25R$.",
+        "D": "Correct. All three open give the largest resistance."
+      }
+    },
+    "issues": "The key says the all-open circuit contains only series resistors, but three right-hand resistors remain in parallel. Its resistance values and answer letter are correct."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q22",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The capacitor stores $\\tfrac12 CV^2$. If a constant fraction $k$ becomes gravitational potential energy, then $mgh=k(\\tfrac12 CV^2)$ and $h=\\frac{kC}{2mg}V^2$. Thus a graph of $h$ against $V^2$ is a straight line.",
+      "perOption": {
+        "A": "Correct. The height is proportional to the squared voltage.",
+        "B": "This treats $h$ as linear in $V$, though it is quadratic.",
+        "C": "If the horizontal variable is $\\sqrt V$, the height varies as its fourth power.",
+        "D": "If the horizontal variable is $1/\\sqrt V$, the height varies as its inverse fourth power."
+      }
+    },
+    "issues": "The key drops the factor of one-half when rearranging for h. Its proportionality and answer letter are correct."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q23",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The normal reaction falls to half the weight, so the upward magnetic force must supply the other half for equilibrium. Thus $0.5mg=BIL\\sin60^\\circ$, giving $B=\\frac{0.5(50\\times10^{-3})(9.81)}{10(0.20)(0.866)}=0.142\\ \\mathrm{T}$.",
+      "perOption": {
+        "A": "Correct. The upward magnetic force balances half the weight.",
+        "B": "Using $\\cos60^\\circ$ in the force expression gives about $0.25\\ \\mathrm{T}$.",
+        "C": "Using the full weight as the magnetic force gives about $0.28\\ \\mathrm{T}$.",
+        "D": "Using the full weight together with $\\cos60^\\circ$ gives about $0.49\\ \\mathrm{T}$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q24",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Acceleration from rest gives $\\tfrac12 mv^2=eV$, so $e/m=v^2/(2V)$. In the velocity selector, the electric and magnetic forces balance, giving $Bev=eE$ and $v=E/B$. Substituting this speed gives $\\frac{e}{m}=\\frac{E^2}{2VB^2}$.",
+      "perOption": {
+        "A": "This substitutes $v$ where the energy equation requires $v^2$.",
+        "B": "This inverts the speed ratio $E/B$ before squaring it.",
+        "C": "This multiplies by $2V$ when isolating $e/m$, which requires division by $2V$.",
+        "D": "Correct. It combines the energy equation with the force balance."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q25",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The left vertical arm moves across the field, making P positive relative to the bottom of that arm. The horizontal arm moves along its length, so it develops no e.m.f. along the wire. The right arm develops the same e.m.f. as the left arm, making Q positive by the same amount. P and Q therefore stay at the same potential throughout the motion in the uniform field.",
+      "perOption": {
+        "A": "This assigns a nonzero terminal e.m.f. at the ends of the motion even though the arm e.m.f.s cancel.",
+        "B": "Changing speed changes both arm e.m.f.s equally, so there are no terminal pulses.",
+        "C": "Correct. The terminal e.m.f. stays zero.",
+        "D": "This follows the speed as if only one vertical arm contributed to the terminal e.m.f."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q26",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A transformer couples the primary and secondary coils through a shared magnetic field, usually guided by a soft iron core. An alternating current in the primary produces a changing magnetic flux linkage in the secondary, inducing an e.m.f. by Faraday’s law.",
+      "perOption": {
+        "A": "The coils couple magnetically, and steady direct current produces a constant flux after switch-on.",
+        "B": "Magnetic coupling is required, but steady direct current cannot sustain a changing flux.",
+        "C": "Alternating current supplies the changing flux, but the coupling between the coils is magnetic.",
+        "D": "Correct. Alternating current produces the changing flux needed for mutual induction."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q27",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The slit confines each electron’s vertical position to approximately the slit width $\\Delta y$. Narrowing the slit raises the lower bound on the vertical momentum uncertainty $\\Delta p_y$ under Heisenberg’s uncertainty principle. The larger spread of vertical momenta makes the beam fan out more in the vertical direction after the slit.",
+      "perOption": {
+        "A": "Narrowing the slit increases the spread in $p_y$, causing more vertical spreading.",
+        "B": "The slit confines the $y$ coordinate, so the relevant uncertainty is in $p_y$.",
+        "C": "Correct. The beam spreads out more vertically.",
+        "D": "The uncertainty principle applies to electrons as well as photons."
+      }
+    },
+    "issues": "The key prints $\\Delta y\\Delta p_y\\ge h$. For standard deviations, the bound is $\\Delta y\\Delta p_y\\ge\\hbar/2$, and slit width is an estimate of position spread. The qualitative conclusion is correct."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q28",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The concentric rings arise from electron diffraction by the carbon film. Decreasing the electron speed reduces its momentum and increases its de Broglie wavelength, $\\lambda=h/p$. The longer wavelength gives greater diffraction angles, so the rings grow in diameter.",
+      "perOption": {
+        "A": "This attributes the rings to electrostatic repulsion and predicts smaller rings for a longer wavelength.",
+        "B": "The predicted increase in diameter is right, but electron diffraction produces the rings.",
+        "C": "The longer wavelength at lower speed gives larger diffraction angles and larger rings.",
+        "D": "Correct. Diffraction produces larger rings at lower speed."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q29",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Subtracting the background of 300 counts per minute gives net counts of 744, 738, 196 and 1 per minute for no absorber, paper, aluminium and lead respectively. Paper makes little difference, so the readings give no evidence of alpha radiation. The aluminium reduces the count by 542 per minute, consistent with beta absorption. With 1 mm of lead the count returns to approximately background, so the residual count through aluminium is consistent with more penetrating beta particles.",
+      "perOption": {
+        "A": "Correct. The absorption pattern suggests beta only.",
+        "B": "The negligible change with paper gives no evidence of alpha radiation.",
+        "C": "The count with lead is approximately background, so the measurements give no evidence of a detectable gamma component.",
+        "D": "Paper and lead give no evidence of detectable alpha or gamma components."
+      }
+    },
+    "issues": "The solution continues on page 9. Page 8 says 0.1 mm of lead in its prose, while the table and question specify 1 mm. The readings suggest beta only, but the near-background count cannot prove that other emissions are absent."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q30",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The present ratio is $N_{\\mathrm{Sr}}/N_{\\mathrm{Rb}}=0.062$. Since $N_{\\mathrm{Sr}}=N_0-N_{\\mathrm{Rb}}$, the surviving rubidium fraction is $N_{\\mathrm{Rb}}/N_0=1/1.062\\approx0.9416$. Using $N_{\\mathrm{Rb}}/N_0=e^{-\\lambda t}$ and $\\lambda=\\ln2/t_{1/2}$ gives $t=-\\frac{\\ln(0.9416)}{\\ln2}(4.88\\times10^{10})\\approx4.24\\times10^9$ years.",
+      "perOption": {
+        "A": "This age is too short to produce the observed strontium-to-rubidium ratio.",
+        "B": "Correct. The surviving fraction gives an age of about 4.24 billion years.",
+        "C": "Treating 0.062 as the fraction of the initial rubidium that decayed gives an age close to this value.",
+        "D": "This age is almost one half-life, which would give a daughter-to-parent ratio near one."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The quantity $\\tan\\alpha$ is unitless, so both $Q$ and $P/\\sqrt M$ are unitless. Therefore $P$ has the same units as $\\sqrt M$, namely $\\mathrm{kg}^{1/2}$.",
+      "perOption": {
+        "A": "The inverse square-root unit fails to cancel $\\sqrt M$, and $Q$ must be unitless.",
+        "B": "The units of $P$ must match the denominator $\\sqrt M$.",
+        "C": "This gives the units of the angle to $Q$, which is added to a unitless quantity.",
+        "D": "Correct. The units of $P$ cancel those of the denominator."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking downward as positive, Newton’s second law gives $ma=W-R$, where $R$ is air resistance. At release the speed and air resistance are zero, so $a=g$. As the speed rises, air resistance increases and acceleration falls. When air resistance balances the weight, the acceleration is zero and the object reaches terminal velocity.",
+      "perOption": {
+        "A": "A positive final acceleration would mean the object was still speeding up at terminal velocity.",
+        "B": "At release, the absence of drag gives an initial acceleration of $g$.",
+        "C": "The graph starts at zero, though gravity gives an acceleration of $g$ immediately on release.",
+        "D": "Correct. Acceleration falls from $g$ towards zero."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "An elastic collision has the same total kinetic energy before and after impact. During contact, some kinetic energy can temporarily become elastic potential energy as the spheres deform. The claim that kinetic energy is conserved throughout the collision is therefore the incorrect statement.",
+      "perOption": {
+        "A": "This statement is true because the conserved total momentum is $2Mv-Mv=Mv$, so the spheres cannot both be at rest.",
+        "B": "Correct. Kinetic energy can temporarily become elastic potential energy.",
+        "C": "This statement is true because conservation of momentum requires equal and opposite momentum changes.",
+        "D": "This statement is true by Newton’s third law."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q4",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Along the runway at $15^\\circ$, Newton’s second law gives $mg\\sin15^\\circ-f=ma$. At $20^\\circ$, it gives $mg\\sin20^\\circ-f=2ma$. Doubling the first equation and subtracting the second eliminates $a$, giving $f=mg(2\\sin15^\\circ-\\sin20^\\circ)=0.86\\ \\mathrm N$.",
+      "perOption": {
+        "A": "This friction is too small to make the second net force twice the first.",
+        "B": "This is the increase in the downhill component of weight, which equals $ma$ for the first incline.",
+        "C": "Correct. This friction satisfies both force equations.",
+        "D": "This is the trolley’s full weight and would exceed the downhill component on both inclines."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q5",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Removing the quarter reduces the weight and shifts the centre of gravity to the right. The submerged volume is initially unchanged, so the upthrust stays the same and exceeds the new weight. The upthrust acts to the left of the new centre of gravity, producing a clockwise moment about it.",
+      "perOption": {
+        "A": "The unchanged upthrust exceeds the new weight and produces a clockwise moment about the new centre of gravity.",
+        "B": "Correct. The resultant force is upward and the moment is clockwise.",
+        "C": "The clockwise moment is right, but the reduced weight leaves a net upward force.",
+        "D": "The upthrust acts to the left of the new centre of gravity, making the moment clockwise."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q6",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Constant velocity means the net force along the slope is zero. The engine force and the downhill component of weight together balance the resistive force, so $F=2000-1500(9.81)\\sin6.0^\\circ=462\\ \\mathrm N$. The engine power is $P=Fv=462(30)\\approx14\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Correct. Gravity supplies part of the downhill force.",
+        "B": "This assigns the full resistive force to the engine and omits gravity’s downhill contribution.",
+        "C": "This adds the downhill component of weight to the resistance when solving for the engine force.",
+        "D": "This power implies a driving force far above the resistance, even before gravity’s downhill contribution is included."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The useful output power is $P_o=0.25P_i=0.25(10)=2.5\\ \\mathrm W$. The useful energy required is $E=mgh=20(0.50)=10\\ \\mathrm J$. Using $P_o=E/t$ gives $t=10/2.5=4.0\\ \\mathrm s$.",
+      "perOption": {
+        "A": "This time would require 250 W of useful power, far above the 2.5 W available.",
+        "B": "This is the result of multiplying the ideal lifting time by the efficiency, which understates the time.",
+        "C": "Correct. The motor delivers 10 J of useful work in 4.0 s.",
+        "D": "This treats the load’s 20 N weight as a 20 kg mass and multiplies by gravitational acceleration again."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q8",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top of the circle, both tension and weight point down towards the centre. Their sum is the required centripetal force, so $T+mg=mv^2/r$. Hence $T=mv^2/r-mg$.",
+      "perOption": {
+        "A": "This reverses the subtraction needed to isolate the tension.",
+        "B": "This attributes the entire centripetal force to tension and omits weight.",
+        "C": "Correct. Weight supplies part of the required inward force.",
+        "D": "This uses the sign appropriate to the bottom of the circle, where weight points away from the centre."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q9",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Earth’s surface the satellite’s weight is $W=GMm/R^2$. Its orbit is at a distance $R+5R=6R$ from Earth’s centre. There its weight is $GMm/(6R)^2=W/36$.",
+      "perOption": {
+        "A": "Correct. The centre-to-satellite distance is six Earth radii.",
+        "B": "This uses the altitude as the distance from Earth’s centre.",
+        "C": "This uses the altitude as the orbital radius and assumes an inverse-linear dependence.",
+        "D": "Orbital free fall gives zero apparent weight, while gravity still supplies the centripetal force."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q10",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In a uniform gravitational field, the potential energy lost over displacement $x$ along the field is $E=mgx$, giving $g=E/(mx)$. The field points towards lower gravitational potential, so the acceleration is from P to Q, to the right.",
+      "perOption": {
+        "A": "The quantity $E/x$ gives the gravitational force and must be divided by the mass.",
+        "B": "The expression $E/x$ gives a force, and the leftward arrow points towards higher potential.",
+        "C": "Correct. The acceleration points from P to Q.",
+        "D": "The magnitude is right, but gravity points towards lower potential at Q."
+      }
+    },
+    "issues": null
+  }
+]

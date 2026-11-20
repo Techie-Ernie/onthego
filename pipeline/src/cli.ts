@@ -10,6 +10,7 @@ import { extractPaper } from "./extract";
 import { build } from "./build";
 import { LOCAL_PAPERS } from "./paths";
 import { prepareBatches, importResults } from "./agent-batches";
+import { prepareKeyBatches } from "./agent-keys";
 import { grailIndex, grailSelect, grailFetch, grailStatus, grailPaperFiles } from "./grail";
 import { pdfPagesText } from "./keys";
 
@@ -72,6 +73,10 @@ async function main() {
   if (cmd === "agent-batches") {
     const r = await prepareBatches(Number(arg("size") ?? 20), !flag("all"));
     console.log(`${r.count} questions in ${r.batches.length} batches under pipeline/cache/agent/`);
+  }
+  if (cmd === "agent-key-batches") {
+    const b = await prepareKeyBatches(Number(arg("size") ?? 20), Number(arg("explain-only-first") ?? 0));
+    console.log(`${b.length} key-based batches under pipeline/cache/agent-kb/`);
   }
   if (cmd === "agent-import") {
     const r = importResults();

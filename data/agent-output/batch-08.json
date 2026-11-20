@@ -1,0 +1,630 @@
+[
+ {
+  "id": "jpjc-2026-prelim-p1-q21",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.h",
+   "circuits.i",
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires redrawing a switched network into series and parallel blocks and comparing four configurations.",
+  "misconception": "Closing a switch adds a parallel path, which lowers resistance",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "All the junctions on the central vertical wire are one node P. So the network is a block between X and P in series with a block between P and Y.\n\nBetween P and Y there are three resistors in parallel, or four if $S_3$ is closed: $R/3$ or $R/4$.\n\nBetween X and P the top resistor $R$ is always there. Closing $S_1$ adds a parallel path through the other resistors, which can only lower this block below $R$. With $S_1$ open the block is exactly $R$.\n\nSo the maximum is $S_1$, $S_2$ and $S_3$ all open: $R + R/3 = 4R/3$.",
+   "perOption": {
+    "A": "Every switch closed adds parallel paths: $0.6R + R/4 = 0.85R$.",
+    "B": "Closing $S_1$ makes the X–P block $2R/3$, and closing $S_3$ makes the P–Y block $R/4$: $11R/12$ in total.",
+    "C": "Closing $S_3$ puts a fourth resistor in parallel on the right, giving $R + R/4 = 5R/4 < 4R/3$.",
+    "D": "Correct. $R + R/3 = 4R/3$, the largest value."
+   }
+  },
+  "transcription": "A network is constructed using eight resistors, each of resistance $R$, and three switches $S_1$, $S_2$ and $S_3$. [Diagram: from X, a top resistor R goes to a central vertical wire (node P); a second path from X goes through switch $S_1$ and a resistor R to a junction M; from M, one path goes through switch $S_2$ and R to P, and another path goes through R to P. From P to Y there are four parallel branches, each a resistor R, and one of them contains switch $S_3$.] Which switch combination will give rise to the maximum total resistance between points X and Y? A $S_1$ closed, $S_2$ closed, $S_3$ closed. B $S_1$ closed, $S_2$ open, $S_3$ closed. C $S_1$ open, $S_2$ closed, $S_3$ closed. D $S_1$ open, $S_2$ open, $S_3$ open.",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q22",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.k",
+   "energy-and-fields.b"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "graph",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Needs only $E = \\tfrac12 CV^2$ and $mgh$ proportional to it.",
+  "misconception": "Assuming energy stored is proportional to V rather than V²",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The energy stored in the capacitor is $E = \\tfrac{1}{2}CV^2$.\n\nA constant fraction $k$ of this energy becomes gravitational potential energy: $mgh = k\\cdot\\tfrac{1}{2}CV^2$.\n\nSo $h \\propto V^2$, and a graph of $h$ against $V^2$ is a straight line through the origin.",
+   "perOption": {
+    "A": "Correct. $h = \\dfrac{kC}{2mg}V^2$.",
+    "B": "Would need the energy to be proportional to $V$, like charge $Q = CV$, not $\\tfrac12 CV^2$.",
+    "C": "$h \\propto V^2$, so $h$ against $\\sqrt{V}$ is a curve.",
+    "D": "$h$ increases with $V$, so it cannot be proportional to $1/\\sqrt{V}$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q23",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "forces-and-moments.a"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs $F = BIL\\sin\\theta$ with the right angle, plus the idea that the magnetic force supplies half the weight.",
+  "misconception": "Using cos θ instead of sin θ, or equating the magnetic force to the full weight",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The field and the wire are both horizontal, so the magnetic force is vertical (upwards here). The normal force halves, so the magnetic force equals half the weight.\n\n$BIL\\sin 60^\\circ = \\tfrac{1}{2}mg$\n\n$B = \\dfrac{0.5 \\times 0.050 \\times 9.81}{10 \\times 0.20 \\times \\sin 60^\\circ} = 0.14\\ \\mathrm{T}$",
+   "perOption": {
+    "A": "Correct. $B = 0.245/(2.0 \\times 0.866) = 0.14\\ \\mathrm{T}$.",
+    "B": "Uses $\\cos 60^\\circ$ instead of $\\sin 60^\\circ$.",
+    "C": "Sets the magnetic force equal to the full weight $mg$ instead of $\\tfrac12 mg$.",
+    "D": "Uses the full weight and $\\cos 60^\\circ$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q24",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "electric-fields",
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.m",
+   "electromagnetic-forces.l",
+   "electric-fields.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Two standard relations (accelerating p.d. and velocity selector) combined algebraically.",
+  "misconception": "Forgetting to square v = E/B when substituting into the kinetic energy",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Accelerating from rest: $eV = \\tfrac{1}{2}mv^2$, so $\\dfrac{e}{m} = \\dfrac{v^2}{2V}$.\n\nUndeflected in crossed fields: $eE = Bev$, so $v = \\dfrac{E}{B}$.\n\nSubstituting gives $\\dfrac{e}{m} = \\dfrac{E^2}{2VB^2}$.",
+   "perOption": {
+    "A": "Uses $v$ instead of $v^2$, i.e. forgets to square $E/B$.",
+    "B": "Uses $v = B/E$, the inverted velocity-selector ratio.",
+    "C": "Inverts the energy relation, giving $2Vv^2$ instead of $v^2/(2V)$.",
+    "D": "Correct. $e/m = v^2/(2V)$ with $v = E/B$."
+   }
+  },
+  "transcription": "An electron with charge $e$ and mass $m$ is accelerated from rest through a potential difference $V$. It then enters a region containing a uniform electric field of field strength $E$ and a uniform magnetic field of flux density $B$. These fields are perpendicular to each other and to the electron's velocity. The electron passes through this region undeflected. Which expression correctly represents the ratio $\\dfrac{e}{m}$? A $\\dfrac{E}{2VB}$ B $\\dfrac{B^2}{2VE^2}$ C $\\dfrac{2VE^2}{B^2}$ D $\\dfrac{E^2}{2VB^2}$",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q25",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.d",
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "graph",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must see that the two arm e.m.f.s cancel, despite the motion graph pointing towards a velocity-shaped answer.",
+  "misconception": "Treating the e.m.f. across PQ as proportional to the velocity of the wire",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each vertical arm of the U cuts field lines as the wire moves right, so each has an e.m.f. $Blv$ along it. The bottom section moves along its own length and has no e.m.f.\n\nThe two arms have equal length and the same velocity, so both e.m.f.s point the same way (from the bottom up to the top, or the reverse). Going from P down one arm and back up to Q, they cancel.\n\nEquivalently, the flux through the U-shape does not change as it moves within a uniform field. The e.m.f. across PQ is zero at all times.",
+   "perOption": {
+    "A": "Shows a non-zero e.m.f. only while the wire accelerates. The e.m.f. in each arm depends on velocity, and the two arms cancel anyway.",
+    "B": "Plots something like the acceleration of the wire. The arm e.m.f.s cancel whatever the motion.",
+    "C": "Correct. The equal e.m.f.s in the two arms cancel between P and Q.",
+    "D": "Follows the velocity of the wire ($Blv$ for one arm), ignoring the opposing equal e.m.f. in the other arm."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q26",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.g"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of how a transformer works.",
+  "misconception": "Thinking a transformer passes current through a wire connection or works with d.c.",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "A transformer works by mutual induction. The alternating current in the primary coil produces a changing magnetic flux in the iron core, and this flux links the secondary coil, inducing an e.m.f. there.\n\nSo the coils need magnetic interaction (no electrical connection), and the input must be a.c. so the flux keeps changing.",
+   "perOption": {
+    "A": "There is no electrical connection between the coils, and d.c. gives no changing flux.",
+    "B": "Magnetic linkage is right, but steady d.c. gives constant flux and no induced e.m.f.",
+    "C": "The coils are electrically insulated from each other. Energy passes by changing magnetic flux.",
+    "D": "Correct. Changing flux from a.c. links the coils magnetically."
+   }
+  },
+  "transcription": "Which two features are necessary for the operation of a transformer? [Table: feature one / feature two] A electrical connection between primary and secondary coils / input of direct current. B magnetic interaction between primary and secondary coils / input of direct current. C electrical connection between primary and secondary coils / input of alternating current. D magnetic interaction between primary and secondary coils / input of alternating current.",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q27",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [
+   "superposition"
+  ],
+  "outcomes": [
+   "quantum-physics.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Qualitative use of $\\Delta y\\,\\Delta p_y \\gtrsim h$ in a standard single-slit context.",
+  "misconception": "Thinking a narrower slit gives a more focused beam",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The uncertainty principle links position and momentum in the same direction: $\\Delta y\\,\\Delta p_y \\gtrsim h$.\n\nNarrowing the slit reduces $\\Delta y$, so $\\Delta p_y$ must increase. The electrons get a larger spread of vertical momenta, so the beam spreads out more vertically after the slit, as in single-slit diffraction.",
+   "perOption": {
+    "A": "Gets the trend backwards: a smaller $\\Delta y$ means a larger $\\Delta p_y$.",
+    "B": "The slit limits the y-position, so it is $p_y$, not $p_x$, that becomes uncertain. Nothing makes the electrons accelerate.",
+    "C": "Correct. Smaller $\\Delta y$ gives larger $\\Delta p_y$, so the beam spreads more.",
+    "D": "The uncertainty principle applies to all particles, including electrons."
+   }
+  },
+  "transcription": "A beam of electrons traveling at a constant speed in the x-direction passes through a horizontal single narrow slit of width $\\Delta y$, in the vertical direction. According to Heisenberg's Uncertainty Principle, what is the expected result as the slit is made increasingly narrower? A The uncertainty in the y-component of the electrons' momentum decreases, causing the beam to become highly focused in a straight line. B The uncertainty in the x-component of the electrons' momentum increases, causing the electrons to accelerate unpredictably after the slit. C The uncertainty in the y-component of the electrons' momentum increases, causing the electron beam to spread out more in the vertical direction after passing through the slit. D The momentum of the electrons remains unaffected because the uncertainty principle only applies to the emission of photons, not moving mass.",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [
+   "superposition"
+  ],
+  "outcomes": [
+   "quantum-physics.d",
+   "quantum-physics.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recall of electron diffraction plus the link $\\lambda = h/(mv)$.",
+  "misconception": "Attributing electron rings to repulsion, or getting the λ–speed trend backwards",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The rings are an electron diffraction pattern. The carbon atoms act as a grating for the electrons' matter waves, which is evidence for wave behaviour of particles.\n\nThe de Broglie wavelength is $\\lambda = \\dfrac{h}{mv}$, so a lower $v$ gives a longer $\\lambda$. A longer wavelength diffracts through larger angles, so the rings get larger in diameter.",
+   "perOption": {
+    "A": "The rings come from diffraction, not electrostatic repulsion, and their diameters increase.",
+    "B": "The trend is right, but electrostatic repulsion cannot produce a ring pattern.",
+    "C": "Right cause, but a lower $v$ gives a longer $\\lambda$ and so wider rings.",
+    "D": "Correct. Lower $v$ gives longer $\\lambda = h/mv$, so larger diffraction angles."
+   }
+  },
+  "transcription": "When electrons with velocity $v$ travel through a vacuum and are incident on a thin carbon film, they produce a pattern of concentric circles on the fluorescent screen. What causes the pattern and how will the pattern change when the velocity $v$ is decreased? [Table: cause / change to pattern] A electrostatic repulsion / diameters of circles decrease. B electrostatic repulsion / diameters of circles increase. C diffraction / diameters of circles decrease. D diffraction / diameters of circles increase.",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q29",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.g",
+   "nuclear-physics.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "practical",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Read a data table against known penetrating powers, allowing for background.",
+  "misconception": "Forgetting to subtract background, so the 301 count with lead looks like gamma",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Subtracting the background of 300 per minute gives corrected counts of 744 (none), 738 (paper), 196 (aluminium) and about 1 (lead).\n\nPaper makes no real difference, so there is no alpha. Thin aluminium removes most of the count and lead removes the rest, which is how beta behaves. With 1 mm of lead the count is just background, so there is no gamma.\n\nSo the source emits beta only.",
+   "perOption": {
+    "A": "Correct. Not stopped by paper, mostly stopped by thin aluminium, and nothing gets through lead.",
+    "B": "Paper changes the count only from 1044 to 1038, which is within random fluctuation, so there is no alpha.",
+    "C": "With lead the count is 301, just background. Any gamma would get through 1 mm of lead.",
+    "D": "There is no evidence of alpha (paper has no effect) or gamma (lead count is background)."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.i",
+   "nuclear-physics.k",
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the ratio converted to $N_0/N$ before applying exponential decay with the half-life.",
+  "misconception": "Treating the daughter-to-parent ratio as the fraction decayed or as the fraction remaining",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each decayed Rb-87 nucleus becomes one Sr-87 nucleus. Per $1$ Rb nucleus now there are $0.062$ Sr nuclei, so originally there were $N_0 = 1.062$ Rb nuclei.\n\n$N = N_0 e^{-\\lambda t}$ gives $t = \\dfrac{\\ln(N_0/N)}{\\lambda} = \\dfrac{t_{1/2}\\ln 1.062}{\\ln 2}$\n\n$t = \\dfrac{4.88\\times10^{10} \\times 0.0602}{0.693} = 4.24\\times10^{9}$ years",
+   "perOption": {
+    "A": "Treats decay as linear: $0.062 \\times t_{1/2}$.",
+    "B": "Correct. $N_0/N = 1.062$ gives $t = 4.24\\times10^9$ years.",
+    "C": "Takes $0.062$ as the fraction of the original Rb that has decayed, i.e. uses $N/N_0 = 0.938$.",
+    "D": "Wrong by a factor of ten. It is larger than one half-life, which a 6% decay cannot be."
+   }
+  },
+  "transcription": "Meteorites collected in Antarctica can be used to date the solar system by using the radioactive decay of rubidium-87 to strontium-87. The half-life for this decay is $4.88\\times10^{10}$ years. In a particular meteorite the present ratio of strontium-87 to rubidium-87, after correcting for the presence of strontium when the meteorite formed, is 0.062. Assume that there was no strontium-87 when the meteorite was created, how old is the meteorite? A $3.03\\times10^{9}$ years B $4.24\\times10^{9}$ years C $4.51\\times10^{9}$ years D $4.58\\times10^{10}$ years",
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.d",
+   "quantities-and-measurement.c"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Homogeneity check: $\\tan\\alpha$ is dimensionless, so each term must be too.",
+  "misconception": "Thinking angles in degrees give Q a unit",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\tan\\alpha$ is a pure number, so each term on the right-hand side must be dimensionless.\n\nSo $Q$ is unitless (degrees belong to $\\alpha$, not to $\\tan\\alpha$).\n\n$P/\\sqrt{M}$ must be unitless, so $P$ has the units of $\\sqrt{M}$: $\\mathrm{kg^{1/2}}$.",
+   "perOption": {
+    "A": "$P$ must cancel $\\mathrm{kg^{-1/2}}$, so it has $\\mathrm{kg^{1/2}}$. And $Q$ adds to $\\tan\\alpha$, which is unitless.",
+    "B": "$Q$ is right, but $P/\\sqrt{M}$ would then have units $\\mathrm{kg^{-1}}$.",
+    "C": "$P$ is right, but $Q$ adds to $\\tan\\alpha$, a pure ratio with no degrees.",
+    "D": "Correct. $P$ in $\\mathrm{kg^{1/2}}$ and $Q$ unitless."
+   }
+  },
+  "transcription": "In a certain experiment, the angle $\\alpha$ and the mass $M$ are related by the following expression. $\\tan\\alpha = \\dfrac{P}{\\sqrt{M}} + Q$. What are the units of $P$ and $Q$? A units of P $\\mathrm{kg^{-1/2}}$, units of Q degrees. B $\\mathrm{kg^{-1/2}}$, unitless. C $\\mathrm{kg^{1/2}}$, degrees. D $\\mathrm{kg^{1/2}}$, unitless.",
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q2",
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "projectile-motion.e",
+   "motion-and-forces.b"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard terminal-velocity reasoning applied to an acceleration–time graph.",
+  "misconception": "Thinking acceleration levels off at a non-zero value, or confusing a–t with v–t",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "At release $v = 0$, so there is no air resistance and $a = g$.\n\nAs speed increases, air resistance increases and the resultant force $mg - F_\\text{drag}$ decreases, so $a$ decreases, steeply at first and then more gradually.\n\nAt terminal velocity the drag equals the weight, so $a \\to 0$.",
+   "perOption": {
+    "A": "Acceleration must fall to zero at terminal velocity, not to a non-zero constant.",
+    "B": "This is the shape of the velocity–time graph, not the acceleration.",
+    "C": "Acceleration starts at $g$ (no drag at $v = 0$); it does not start from zero.",
+    "D": "Correct. $a$ falls from $g$ towards zero as drag approaches the weight."
+   }
+  },
+  "transcription": "An object is dropped from a great height so that air resistance becomes significant. Which graph shows how its acceleration varies with time? [Graphs of acceleration against time: A starts at g and decreases, levelling off at a non-zero value; B starts at 0 and rises to level off at g; C starts at 0, rises to a peak of g, then falls to zero; D starts at g and decreases asymptotically to zero.]",
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q3",
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "collisions.c",
+   "collisions.d",
+   "collisions.e",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Distinguishing kinetic energy conservation overall from what happens during the contact.",
+  "misconception": "Believing kinetic energy is conserved at every instant during an elastic collision",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "In an elastic collision the total kinetic energy before and after is the same. During contact, though, the spheres deform and some kinetic energy is temporarily stored as elastic potential energy. So the kinetic energy is not conserved throughout the collision, and B is the incorrect statement.\n\nA is true: the total momentum is $2Mv - Mv = Mv \\neq 0$, so the spheres can never both be at rest. C and D follow from Newton's third law: equal and opposite forces acting for the same time give equal and opposite impulses.",
+   "perOption": {
+    "A": "True statement. Total momentum $Mv \\ne 0$ means both cannot be at rest at once.",
+    "B": "Correct (it is the incorrect statement). KE dips during contact as it is stored as elastic PE.",
+    "C": "True statement. Equal and opposite impulses give equal magnitudes of $\\Delta p$.",
+    "D": "True statement. This is Newton's third law."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q4",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "motion-and-forces.i",
+   "forces-and-moments.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs two Newton's second law equations with the acceleration ratio, then solving simultaneously.",
+  "misconception": "Ignoring friction in one case or doubling the gravity component too",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Down the incline: $ma = mg\\sin\\theta - f$.\n\nAt $20^\\circ$ the acceleration doubles:\n$mg\\sin20^\\circ - f = 2(mg\\sin15^\\circ - f)$\n\n$f = mg(2\\sin15^\\circ - \\sin20^\\circ) = 0.50 \\times 9.81 \\times (0.5176 - 0.3420) = 0.86\\ \\mathrm{N}$",
+   "perOption": {
+    "A": "Comes from an algebra error in setting up the simultaneous equations.",
+    "B": "Uses $mg(\\sin20^\\circ - \\sin15^\\circ)$, the change in the gravity component, instead of solving the equations.",
+    "C": "Correct. $f = mg(2\\sin15^\\circ - \\sin20^\\circ) = 0.86\\ \\mathrm{N}$.",
+    "D": "This is the weight $mg$, not the friction."
+   }
+  },
+  "transcription": "A trolley of mass 0.50 kg moves with a certain acceleration down a runway which is inclined to the horizontal at $15^\\circ$. If the angle of inclination is increased to $20^\\circ$, the acceleration of the trolley would be doubled. What is the frictional force, assumed to be the same in both cases, acting on the trolley? A 0.12 N B 0.41 N C 0.86 N D 4.9 N",
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q5",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.b",
+   "forces-and-moments.f",
+   "forces-and-moments.g",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the upthrust held fixed while the centre of gravity shifts, then the sense of the couple.",
+  "misconception": "Assuming upthrust drops along with the weight",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Immediately after the cut the submerged volume has not changed, so the upthrust is unchanged. The weight has fallen by a quarter, so the resultant force is upwards.\n\nThe removed piece was the top-left part, so the centre of gravity of what remains moves to the right of the centre line. The upthrust still acts through the centre of the submerged volume, on the centre line. Weight acting down on the right with upthrust acting up on the left gives a clockwise moment.",
+   "perOption": {
+    "A": "Upthrust now exceeds the reduced weight, and the moment is clockwise, not anticlockwise.",
+    "B": "Correct. Upthrust exceeds weight, and the CG is to the right of the line of the upthrust.",
+    "C": "The direction of the moment is right, but upthrust (unchanged) now exceeds the reduced weight.",
+    "D": "Upwards is right, but the CG moves right, which gives a clockwise moment."
+   }
+  },
+  "transcription": "A uniform cube is floating in a liquid. A quarter of the cube is then removed. [Diagram: square cube partly submerged with about half below the liquid surface; the top-left quarter (above the liquid) is shaded and labelled \"removed\".] What is the resultant force and resultant moment on the remaining portion of the cube immediately after the quarter of the cube is removed? A resultant force zero, resultant moment anticlockwise. B upwards, clockwise. C zero, clockwise. D upwards, anticlockwise.",
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q6",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "energy-and-fields.m",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs a force balance on a slope, noting that gravity helps drive the car downhill, before using $P = Fv$.",
+  "misconception": "Ignoring the component of weight along the slope",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "At constant velocity the resultant force is zero. Down the slope, the driving force $F$ and the weight component together balance the resistance:\n\n$F + mg\\sin6.0^\\circ = 2000$\n\n$mg\\sin6.0^\\circ = 1500 \\times 9.81 \\times 0.1045 \\approx 1540\\ \\mathrm{N}$, so $F \\approx 460\\ \\mathrm{N}$.\n\n$P = Fv = 460 \\times 30 \\approx 14\\ \\mathrm{kW}$",
+   "perOption": {
+    "A": "Correct. $P = (2000 - mg\\sin6^\\circ) \\times 30 \\approx 14\\ \\mathrm{kW}$.",
+    "B": "Ignores the weight component and uses $2000 \\times 30$.",
+    "C": "Adds the weight component as if the car were going uphill: $(2000 + 1540) \\times 30$.",
+    "D": "Comes from resolving the weight wrongly, e.g. using the full weight or the cosine component."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q7",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.l",
+   "energy-and-fields.n"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Simple efficiency, work and power substitution.",
+  "misconception": "Applying efficiency in the wrong direction or treating weight as mass",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Useful output power $= 0.25 \\times 10 = 2.5\\ \\mathrm{W}$.\n\nWork done lifting the load $= Fh = 20 \\times 0.50 = 10\\ \\mathrm{J}$.\n\n$t = \\dfrac{10}{2.5} = 4.0\\ \\mathrm{s}$",
+   "perOption": {
+    "A": "Inverts the ratio, giving power over work instead of work over power.",
+    "B": "Divides by the efficiency instead of multiplying, using $40\\ \\mathrm{W}$ of output.",
+    "C": "Correct. $t = 10\\ \\mathrm{J} / 2.5\\ \\mathrm{W} = 4.0\\ \\mathrm{s}$.",
+    "D": "Treats 20 N as a 20 kg mass and multiplies by $g$ again."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q8",
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard vertical-circle force balance at the top.",
+  "misconception": "Treating tension as the only centripetal force or getting the sign of weight wrong",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "At the top, both the tension and the weight point downwards, towards the centre. Together they provide the centripetal force:\n\n$T + mg = \\dfrac{mv^2}{r}$, so $T = \\dfrac{mv^2}{r} - mg$.",
+   "perOption": {
+    "A": "Sign reversed. This would give a negative tension for any real motion.",
+    "B": "Leaves out the weight, which also acts towards the centre at the top.",
+    "C": "Correct. $T + mg = mv^2/r$.",
+    "D": "This is the tension at the bottom of the circle, where weight acts away from the centre."
+   }
+  },
+  "transcription": "A stone of mass $m$ is attached to a string. The stone is made to rotate in a vertical circle of radius $r$, as shown. [Diagram: dashed vertical circle of radius r; stone at the top, string vertical down to the centre, velocity v drawn horizontally to the left.] At the point where the stone is vertically above the centre of the circle, the speed of the stone is $v$. Which of the following expressions gives the tension in the string? A $mg - \\dfrac{mv^2}{r}$ B $\\dfrac{mv^2}{r}$ C $\\dfrac{mv^2}{r} - mg$ D $\\dfrac{mv^2}{r} + mg$",
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q9",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.a",
+   "gravitational-fields.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Inverse-square ratio, with the trap of using height rather than distance from the centre.",
+  "misconception": "Using height above the surface instead of distance from the centre, or thinking orbiting objects are weightless",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Weight follows the inverse-square law with distance from the centre of the Earth.\n\nAt a height of $5R$ the distance from the centre is $R + 5R = 6R$.\n\n$W' = W\\left(\\dfrac{R}{6R}\\right)^2 = \\dfrac{W}{36}$",
+   "perOption": {
+    "A": "Correct. Distance from the centre is $6R$, so $W/6^2$.",
+    "B": "Uses the height $5R$ instead of the distance $6R$ from the centre.",
+    "C": "Uses $1/r$ instead of $1/r^2$, and the height instead of the distance.",
+    "D": "Orbiting objects feel apparent weightlessness, but the gravitational force on them is not zero."
+   }
+  },
+  "transcription": "A satellite has a weight of $W$ on the surface of the Earth. What is the weight of the satellite when it is in a circular orbit at a height of $5R$ above the surface of the Earth, where $R$ is the radius of the earth? A $\\dfrac{W}{36}$ B $\\dfrac{W}{25}$ C $\\dfrac{W}{5}$ D 0",
+  "issues": null
+ },
+ {
+  "id": "mi-2026-prelim-p1-q10",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "gravitational-fields"
+  ],
+  "outcomes": [
+   "energy-and-fields.g",
+   "energy-and-fields.i",
+   "gravitational-fields.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Relating loss of PE to work done by the field and the field direction.",
+  "misconception": "Confusing force (E/x) with field strength (E/mx), or reversing the field direction",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The loss of potential energy equals the work done by gravity: $E = mgx$, so $g = \\dfrac{E}{mx}$.\n\nThe mass loses potential energy moving from P to Q, so gravity does positive work along PQ. The field therefore points from P to Q, to the right.",
+   "perOption": {
+    "A": "$E/x$ is the gravitational force, not the acceleration (force per unit mass).",
+    "B": "$E/x$ is the force, and the direction is reversed: losing PE means the field points from P to Q.",
+    "C": "Correct. $g = E/(mx)$, pointing from P to Q.",
+    "D": "Magnitude is right, but losing PE from P to Q means the field points towards Q."
+   }
+  },
+  "transcription": "A mass $m$ is situated in space in a uniform gravitational field. [Diagram: horizontal parallel gravitational field lines; points P and Q on one line, Q a distance x to the right of P; no arrowheads shown on the field lines.] When the mass moves through a displacement $x$, from P to Q, it loses an amount of potential energy $E$. Which row correctly specifies the magnitude and the direction of the acceleration due to the gravity in this field? A $\\dfrac{E}{x}$, → B $\\dfrac{E}{x}$, ← C $\\dfrac{E}{mx}$, → D $\\dfrac{E}{mx}$, ←",
+  "issues": null
+ }
+]

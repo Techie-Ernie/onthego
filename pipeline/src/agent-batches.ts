@@ -69,6 +69,8 @@ export interface AgentResult {
   explanation: { body: string; perOption: Record<string, string> };
   transcription?: string | null;
   issues?: string | null;
+  explanationSource?: "key" | "generated";
+  keyPage?: number;
 }
 
 export function importResults(model = "claude-opus-5-5 via Claude Code") {
@@ -92,6 +94,23 @@ export function importResults(model = "claude-opus-5-5 via Claude Code") {
       continue;
     }
     for (const r of rows) {
+      const explainOnly = !r.chapter && !!r.explanation;
+      if (explainOnly) {
+        if (r.explanation?.body) {
+          exp[r.id] = {
+            body: r.explanation.body,
+            perOption: r.explanation.perOption ?? {},
+            model,
+            verified: false,
+            source: r.explanationSource ?? "generated",
+            derivedAnswer: r.derivedAnswer ?? "?",
+            confidence: r.confidence,
+            issues: r.issues ?? undefined,
+          };
+          n++;
+        } else problems.push(`${f} ${r.id}: no explanation`);
+        continue;
+      }
       const bad: string[] = [];
       if (!topics.has(r.chapter)) bad.push(`chapter ${r.chapter}`);
       if (!types.has(r.primaryType)) bad.push(`primaryType ${r.primaryType}`);
@@ -117,6 +136,7 @@ export function importResults(model = "claude-opus-5-5 via Claude Code") {
           perOption: r.explanation.perOption ?? {},
           model,
           verified: false, // set by build when derivedAnswer matches the key
+          source: r.explanationSource ?? "generated",
           derivedAnswer: r.derivedAnswer ?? "?",
           confidence: r.confidence,
           issues: r.issues ?? undefined,

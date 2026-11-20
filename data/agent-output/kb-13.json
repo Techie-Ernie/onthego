@@ -1,0 +1,648 @@
+[
+ {
+  "id": "ri-2026-prelim-p1-q2",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For $\\rho = \\dfrac{\\pi d^2 V}{4IL}$, the percentage uncertainties add, with $d$ counted twice because it is squared:\n\n$\\%\\rho = 2(\\%d) + \\%V + \\%I + \\%L = 2(3\\%) + 1\\% + 0.5\\% + 2\\% = 9.5\\%$",
+   "perOption": {
+    "A": "Subtracts the uncertainties of the denominator quantities $I$ and $L$ instead of adding them.",
+    "B": "Forgets to double the uncertainty in $d$ even though $d$ is squared.",
+    "C": "Leaves out the uncertainty in $L$.",
+    "D": "Correct. Percentage uncertainties add, with $d$'s counted twice."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "practical"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "A routine application of the rule for combining percentage uncertainties.",
+  "misconception": "Subtracting uncertainties for quantities in the denominator",
+  "transcription": "A student determines the resistivity $\\rho$ of a wire using\n\n$\\rho = \\dfrac{\\pi d^2 V}{4IL}$\n\nwhere $d$ is the diameter of the wire, $L$ is its length, $V$ is the potential difference across the wire and $I$ is the current through it.\n\nThe percentage uncertainty in the measurements of $d$, $L$, $V$ and $I$ are 3%, 2%, 1% and 0.5% respectively.\n\nWhat is the percentage uncertainty in $\\rho$?\n\nA 4.5%   B 6.5%   C 7.5%   D 9.5%"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q3",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "When the beam is in equilibrium under three forces ($W$, $X$ and $Y$), their lines of action must meet at a common point, so that there is no resultant moment about any point on the beam.\n\n$W$ acts vertically down through the middle of the beam. $X$ (from the ground) and $Y$ (from the wall) each combine a normal force with friction, so both slope upward, and their lines pass through the point where $W$'s line of action crosses them. Only diagram D shows this.",
+   "perOption": {
+    "A": "$Y$ points down along the beam and $X$ is horizontal, so there is no upward force to balance $W$ and the forces cannot be in equilibrium.",
+    "B": "$X$ points away from the wall, so nothing balances the horizontal push of $Y$, and the three lines of action do not meet at one point.",
+    "C": "$Y$ is drawn horizontal, which ignores friction at the rough wall, and the three lines of action do not meet at a common point.",
+    "D": "Correct. The lines of action of $X$, $Y$ and $W$ meet at one point."
+   }
+  },
+  "issues": null,
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.h",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must apply the three-forces-concurrent condition and account for friction at both contact surfaces.",
+  "misconception": "Assuming the wall force is purely horizontal (normal only) even on a rough wall",
+  "transcription": null
+ },
+ {
+  "id": "ri-2026-prelim-p1-q4",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Since the drone hovers steadily and stays level, each propeller provides an equal share of the weight:\n\nthrust per propeller $= \\dfrac{1.20 \\times 9.81}{4} = 2.943\\ \\mathrm{N}$\n\nBy Newton's second law, $F = \\dfrac{dp}{dt} = \\dfrac{m}{t}(v - 0)$, where $\\dfrac{m}{t} = 0.50\\ \\mathrm{kg\\,s^{-1}}$ for each propeller:\n\n$2.943 = 0.50\\,v \\Rightarrow v = 5.886 \\approx 5.9\\ \\mathrm{m\\,s^{-1}}$",
+   "perOption": {
+    "A": "Gives the drone's mass value (1.2) rather than calculating a speed.",
+    "B": "Takes the thrust per propeller (2.94 N) as the answer without dividing by the mass flow rate.",
+    "C": "Correct. Thrust per propeller = (mass flow rate) $\\times$ $v$.",
+    "D": "Uses the drone's whole weight for one propeller instead of sharing it among four."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "collisions"
+  ],
+  "outcomes": [
+   "motion-and-forces.h",
+   "motion-and-forces.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must link the thrust to the rate of change of momentum of the air and share the weight among four propellers.",
+  "misconception": "Forgetting to share the weight among the four propellers",
+  "transcription": "A camera drone of mass 1.20 kg hovers steadily above ground using four propellers. Each of the propellers pushes 0.50 kg of air vertically downward each second.\n\n[Diagram: a quadcopter drone with four propellers on arms and a camera mounted underneath.]\n\nAssume that the air above the propellers is stationary and that the drone remains level throughout.\n\nWhat is the speed of the air leaving each propeller?\n\nA $1.2\\ \\mathrm{m\\,s^{-1}}$   B $2.9\\ \\mathrm{m\\,s^{-1}}$   C $5.9\\ \\mathrm{m\\,s^{-1}}$   D $24\\ \\mathrm{m\\,s^{-1}}$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q5",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Since the resultant force on the ball is zero, it falls at constant velocity, so its kinetic energy stays constant with time.\n\nIts height decreases at a constant rate, so its gravitational potential energy decreases linearly with time: $\\dfrac{\\Delta E_p}{t} = \\dfrac{mgh}{t} = mgv$, so $\\Delta E_p = (mgv)t$.",
+   "perOption": {
+    "A": "Correct. $E_k$ is constant and $E_p$ falls linearly.",
+    "B": "$E_p$ is drawn falling at an increasing rate, which would need the ball to be speeding up.",
+    "C": "$E_k$ is drawn increasing, which suggests the ball is accelerating even though the forces are balanced.",
+    "D": "Treats the fall as if $E_p$ were converted into $E_k$, ignoring that the forces are balanced and the speed is constant."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "energy-and-fields.b",
+   "energy-and-fields.e",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "This needs a direct link from balanced forces to constant speed and a linear loss of $E_p$.",
+  "misconception": "Assuming gravitational potential energy is always converted into kinetic energy during a fall",
+  "transcription": "There are balanced forces acting on the steel ball when it is falling vertically in oil.\n\nWhich graph shows the variation with time of the gravitational potential energy $E_p$ and the kinetic energy $E_k$ of the ball?\n\n[Four energy–time graphs:\nA: $E_k$ is a horizontal line; $E_p$ is a straight line decreasing from above $E_k$.\nB: $E_k$ is a horizontal line; $E_p$ is a curve decreasing at an increasing rate.\nC: $E_k$ is a curve increasing from a non-zero value; $E_p$ is a curve decreasing at an increasing rate.\nD: $E_k$ increases linearly from zero; $E_p$ decreases linearly to zero.]"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q6",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Take downwards as positive. When the ball is thrown, it shares the balloon's upward velocity, so $u_y = -2.0\\ \\mathrm{m\\,s^{-1}}$:\n\n$s_y = u_y t + \\tfrac{1}{2}a_y t^2 \\Rightarrow 10 = -2.0t + \\tfrac{1}{2}(9.81)t^2$\n\n$t = -1.239\\ \\mathrm{s}$ (reject) or $t = 1.646\\ \\mathrm{s}$\n\nRange $= u_x t = 5.0 \\times 1.646 = 8.23 \\approx 8.2\\ \\mathrm{m}$",
+   "perOption": {
+    "A": "Takes the initial vertical velocity of 2.0 m s$^{-1}$ as downward instead of upward.",
+    "B": "Ignores the balloon's upward velocity and treats the ball as starting from vertical rest.",
+    "C": "Uses only the time to fall from the highest point and leaves out the time spent rising.",
+    "D": "Correct. The ball starts with the balloon's upward velocity of 2.0 m s$^{-1}$."
+   }
+  },
+  "issues": null,
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "projectile-motion.b",
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must recognise that the ball inherits the upward velocity and then solve a quadratic for the time.",
+  "misconception": "Ignoring the initial upward velocity inherited from the moving balloon",
+  "transcription": "A hot air balloon is rising vertically at a uniform velocity of $2.0\\ \\mathrm{m\\,s^{-1}}$. At a height of 10 m above the ground, a ball is thrown out of the hot air balloon horizontally with a velocity of $5.0\\ \\mathrm{m\\,s^{-1}}$. Assume air resistance is negligible.\n\nWhat is the horizontal distance travelled by the ball before hitting the ground?\n\nA 6.2 m   B 7.1 m   C 7.2 m   D 8.2 m"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q7",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "At maximum compression the blocks move with a common velocity $v$. By conservation of momentum (taking right as positive):\n\n$mu - 2m(0.5u) = 3mv \\Rightarrow v = 0$\n\nSo all the initial kinetic energy is stored in the spring:\n\n$\\tfrac{1}{2}mu^2 + \\tfrac{1}{2}(2m)(0.5u)^2 = \\tfrac{1}{2}mv^2 + \\tfrac{1}{2}kx^2$, with $v = 0$\n\n$\\tfrac{3}{4}mu^2 = \\tfrac{1}{2}kx^2 \\Rightarrow x = \\sqrt{\\dfrac{3mu^2}{2k}}$",
+   "perOption": {
+    "A": "Treats both velocities as being in the same direction, which gives a non-zero common velocity and too little energy stored.",
+    "B": "Does not equate all of the initial kinetic energy, $\\tfrac{3}{4}mu^2$, to the elastic potential energy $\\tfrac{1}{2}kx^2$.",
+    "C": "Correct. The common velocity is zero, so all the KE is stored as elastic PE.",
+    "D": "Drops the factor $\\tfrac{1}{2}$ in the kinetic energy terms, which doubles the energy stored."
+   }
+  },
+  "issues": null,
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "energy-and-fields",
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "collisions.c",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must identify the common velocity at maximum compression and combine momentum with energy conservation.",
+  "misconception": "Not realising that the blocks share a common velocity at maximum compression",
+  "transcription": null
+ },
+ {
+  "id": "ri-2026-prelim-p1-q8",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let $\\theta$ be the angle the string makes with the vertical, so $r = L\\sin\\theta$:\n\n$T\\cos\\theta = mg$ and $T\\sin\\theta = \\dfrac{mv^2}{L\\sin\\theta} \\Rightarrow \\sin^2\\theta = \\dfrac{mv^2}{LT}$\n\nUsing $\\sin^2\\theta + \\cos^2\\theta = 1$: $\\dfrac{mv^2}{LT} + \\left(\\dfrac{mg}{T}\\right)^2 = 1$\n\n$\\dfrac{(2.0)v^2}{(1.5)(30)} = 1 - \\left[\\dfrac{(2.0)(9.81)}{30}\\right]^2 \\Rightarrow v = 3.59 \\approx 3.6\\ \\mathrm{m\\,s^{-1}}$",
+   "perOption": {
+    "A": "Correct. Resolve $T$ vertically and horizontally with $T = 30\\ \\mathrm{N}$ and $r = L\\sin\\theta$.",
+    "B": "Mixes up the vertical and horizontal components of the tension.",
+    "C": "Uses the string length $L$ as the radius of the circle instead of $L\\sin\\theta$.",
+    "D": "Ignores the weight and takes the whole tension as the centripetal force with $r = L$."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must resolve the tension in two directions, use the right radius and eliminate the unknown angle.",
+  "misconception": "Taking the string length as the radius of the circular path",
+  "transcription": "A conical pendulum consists of a mass of 2.0 kg attached to a light inextensible string of length 1.5 m. The string has a breaking tension of 30 N.\n\n[Diagram: a 2.0 kg bob on a 1.5 m string hanging from a fixed point and moving in a horizontal circle (dashed ellipse) below the point of suspension; a dashed vertical line runs from the suspension point to the centre of the circle.]\n\nWhat is the maximum speed at which the mass can move in a horizontal circle before the string breaks?\n\nA $3.6\\ \\mathrm{m\\,s^{-1}}$   B $3.8\\ \\mathrm{m\\,s^{-1}}$   C $4.1\\ \\mathrm{m\\,s^{-1}}$   D $4.7\\ \\mathrm{m\\,s^{-1}}$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q9",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Friction on the tyres provides the centripetal force: $f_{\\max} = \\dfrac{mv^2}{r}$.\n\nWhen the road is wet, $f'_{\\max} = \\dfrac{f_{\\max}}{2} = \\dfrac{mv_{wet}^2}{r}$, so $\\dfrac{mv^2}{2r} = \\dfrac{mv_{wet}^2}{r}$.\n\n$v_{wet} = \\dfrac{v}{\\sqrt{2}} = \\dfrac{30}{\\sqrt{2}} = 21.2 \\approx 21\\ \\mathrm{m\\,s^{-1}}$",
+   "perOption": {
+    "A": "Divides the speed by 4, as if $v^2$ were halved twice.",
+    "B": "Divides the speed by $2\\sqrt{2}$, which does not follow from $f \\propto v^2$.",
+    "C": "Halves the speed, treating $f$ as proportional to $v$ rather than $v^2$.",
+    "D": "Correct. $v \\propto \\sqrt{f}$, so $v$ falls by a factor of $\\sqrt{2}$."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A simple proportionality argument once friction is identified as the centripetal force.",
+  "misconception": "Assuming the maximum speed is proportional to the friction force",
+  "transcription": "A car on a horizontal road travels round a corner. The corner is an arc of a circle. When the road is dry, the maximum safe speed is $30\\ \\mathrm{m\\,s^{-1}}$.\n\nWhen the road is wet, the maximum frictional force between the surface of the road and the wheels of the car is halved.\n\nWhat is the maximum safe speed of the car for it to travel round the corner when the road is wet?\n\nA $7.5\\ \\mathrm{m\\,s^{-1}}$   B $11\\ \\mathrm{m\\,s^{-1}}$   C $15\\ \\mathrm{m\\,s^{-1}}$   D $21\\ \\mathrm{m\\,s^{-1}}$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q10",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The resultant field is zero where the two field strengths are equal. Let $x$ be the distance from the star of mass $M$:\n\n$\\dfrac{GM}{x^2} = \\dfrac{G(4M)}{(d - x)^2} \\Rightarrow \\dfrac{(d - x)^2}{x^2} = 4 \\Rightarrow \\dfrac{d - x}{x} = 2$\n\n$x = \\dfrac{d}{3}$",
+   "perOption": {
+    "A": "Uses the mass ratio 4 directly for the distance ratio, forgetting the square in the inverse square law.",
+    "B": "Correct. The distance ratio is $\\sqrt{4} = 2$.",
+    "C": "Takes the midpoint, which would only be correct for equal masses.",
+    "D": "Gives the distance from the larger star, $4M$, instead of from $M$."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard null-point problem with a simple square root.",
+  "misconception": "Forgetting to take the square root of the mass ratio",
+  "transcription": "The centres of two isolated stars with masses $M$ and $4M$ are separated by a fixed distance $d$.\n\n[Diagram: a small star of mass $M$ on the left and a larger star of mass $4M$ on the right; the distance between their centres is labelled $d$.]\n\nAt what distance from the centre of the star of mass $M$ is the resultant gravitational field strength equal to zero?\n\nA $\\dfrac{d}{5}$   B $\\dfrac{d}{3}$   C $\\dfrac{d}{2}$   D $\\dfrac{2d}{3}$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q11",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Work done by the external force $= m\\,\\Delta\\phi$:\n\n$W = m\\left[\\left(-\\dfrac{GM}{3R}\\right) - \\left(-\\dfrac{GM}{R}\\right)\\right] = \\dfrac{2GMm}{3R}$",
+   "perOption": {
+    "A": "Has the right magnitude but the wrong sign: work must be done on the object to raise its potential.",
+    "B": "Adds the magnitudes of the two potentials instead of taking their difference, and has the wrong sign.",
+    "C": "Correct. $W = m(\\phi_f - \\phi_i)$.",
+    "D": "Adds the magnitudes of the two potentials instead of taking their difference."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.e",
+   "gravitational-fields.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A direct use of $\\phi = -GM/r$, but sign handling trips up some students.",
+  "misconception": "Sign errors when subtracting negative potentials",
+  "transcription": "A planet has mass $M$ and radius $R$.\n\nAn object of mass $m$ is moved by means of an external force from the surface of the planet to $3R$ from the centre of the planet.\n\nWhat is the work done on the object by the external force?\n\nA $-\\dfrac{2GMm}{3R}$   B $-\\dfrac{4GMm}{3R}$   C $\\dfrac{2GMm}{3R}$   D $\\dfrac{4GMm}{3R}$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q12",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Amplitude $x_0 = \\dfrac{2.00}{2} = 1.00\\ \\mathrm{m}$, with the equilibrium position at the 1.00 m mark. So the 0.75 m mark is at $x = -0.25\\ \\mathrm{m}$ and the 1.50 m mark is at $x = 0.50\\ \\mathrm{m}$.\n\nTaking the swing to be at the 0 m mark at $t = 0$: $x = -1.00\\cos\\left(\\dfrac{2\\pi}{2.4}t\\right)$\n\nAt $x = -0.25\\ \\mathrm{m}$: $t_1 = 0.5035\\ \\mathrm{s}$. At $x = 0.50\\ \\mathrm{m}$: $t_2 = 0.8000\\ \\mathrm{s}$.\n\nTime taken $= t_2 - t_1 = 0.8000 - 0.5035 = 0.2965 \\approx 0.30\\ \\mathrm{s}$",
+   "perOption": {
+    "A": "Correct. $t_2 - t_1$ from $x = -x_0\\cos\\omega t$.",
+    "B": "Does not come from applying $x = -x_0\\cos\\omega t$ to the correct displacements, $-0.25$ m and $+0.50$ m.",
+    "C": "Gives roughly $t_1$, the time from the 0 m mark to the 0.75 m mark, instead of the time between the two marks.",
+    "D": "Does not come from the sinusoidal relation. The whole journey from 0 m to 1.50 m takes only 0.80 s."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.c",
+   "oscillations.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must convert scale readings into displacements from equilibrium and solve two inverse-cosine equations.",
+  "misconception": "Measuring displacement from the end of the scale rather than from equilibrium",
+  "transcription": null
+ },
+ {
+  "id": "ri-2026-prelim-p1-q13",
+  "keyPage": 4,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "From the graph, $x_0 = 0.50\\ \\mathrm{m}$ and $v_0 = 2.0\\ \\mathrm{m\\,s^{-1}}$, so $\\omega = \\dfrac{v_0}{x_0} = \\dfrac{2.0}{0.50} = 4.0\\ \\mathrm{rad\\,s^{-1}}$.\n\nTotal energy $E_T = \\tfrac{1}{2}m\\omega^2 x_0^2$. Since $E_T$ and $m$ are constant, $\\omega x_0$ stays constant:\n\n$\\omega' x_0' = \\omega x_0 \\Rightarrow \\omega' = \\dfrac{4.0 \\times 0.50}{0.25} = 8.0\\ \\mathrm{rad\\,s^{-1}}$\n\n$|a_0| = (\\omega')^2 x_0' = 8.0^2 \\times 0.25 = 16\\ \\mathrm{m\\,s^{-2}}$",
+   "perOption": {
+    "A": "Keeps $\\omega = 4.0\\ \\mathrm{rad\\,s^{-1}}$ unchanged and uses the new amplitude: $4.0^2 \\times 0.25$.",
+    "B": "Gives the original maximum acceleration, $4.0^2 \\times 0.50$.",
+    "C": "Correct. Constant energy keeps $\\omega x_0$ fixed, so $\\omega$ doubles.",
+    "D": "Uses the new $\\omega' = 8.0\\ \\mathrm{rad\\,s^{-1}}$ with the old amplitude of 0.50 m."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.f",
+   "oscillations.h",
+   "oscillations.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "graph"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must read $x_0$ and $v_0$ from the ellipse and realise that constant energy forces $\\omega$ to change.",
+  "misconception": "Assuming the angular frequency stays the same when the amplitude changes",
+  "transcription": "A body oscillates in simple harmonic motion. The graph shows the variation with displacement $x$ of the velocity $v$ of the body.\n\n[Graph: $v$ / m s$^{-1}$ against $x$ / m is an ellipse centred at the origin, crossing the $x$-axis at $-0.50$ and $0.50$ and the $v$-axis at $2.0$ and $-2.0$.]\n\nThe body is now made to oscillate such that its amplitude is reduced to 0.25 m, while maintaining the same total mechanical energy.\n\nWhat is the new maximum acceleration of the body?\n\nA $4.0\\ \\mathrm{m\\,s^{-2}}$   B $8.0\\ \\mathrm{m\\,s^{-2}}$   C $16\\ \\mathrm{m\\,s^{-2}}$   D $32\\ \\mathrm{m\\,s^{-2}}$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q14",
+  "keyPage": 4,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "From the diagram, the wavelength is the distance from one compression to the next (or one rarefaction to the next): $\\lambda = 16\\ \\mathrm{m}$.\n\n$f = \\dfrac{v}{\\lambda} = \\dfrac{16}{16} = 1.0\\ \\mathrm{Hz}$",
+   "perOption": {
+    "A": "8.0 m is the distance from a compression to the next rarefaction, which is half a wavelength.",
+    "B": "Particles at different positions along a progressive wave have different phases.",
+    "C": "Only transverse waves can be polarised, and this wave is longitudinal.",
+    "D": "Correct. $\\lambda = 16\\ \\mathrm{m}$, so $f = v/\\lambda = 1.0\\ \\mathrm{Hz}$."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.d",
+   "wave-motion.e",
+   "wave-motion.i",
+   "wave-motion.b"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must read the wavelength from a particle-position diagram and recall basic wave properties.",
+  "misconception": "Taking compression-to-rarefaction distance as a full wavelength",
+  "transcription": "The diagram shows the positions $x$ of the particles along a progressive longitudinal wave at an instant in time. The wave travels at a speed of $16\\ \\mathrm{m\\,s^{-1}}$.\n\n[Diagram: a row of particles above an $x$ / m scale from 0 to about 32 m. The particles are bunched together (compressions) around $x \\approx 8$ m and $x \\approx 24$ m and spread out (rarefactions) around $x \\approx 0$ m and $x \\approx 16$ m.]\n\nWhich of the following statements is correct?\n\nA The wavelength of the wave is 8.0 m.\nB The particles are all in phase with one another.\nC The wave can be polarised.\nD The frequency of the wave is 1.0 Hz."
+ },
+ {
+  "id": "ri-2026-prelim-p1-q15",
+  "keyPage": 4,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The second-order lines are $56°$ apart, so each is at $\\theta = 28°$: $d\\sin 28° = 2\\lambda \\Rightarrow \\dfrac{d}{\\lambda} = \\dfrac{2}{\\sin 28°}$.\n\nFrom $d\\sin\\theta = n\\lambda$ and $\\sin\\theta \\le 1$: $n \\le \\dfrac{d}{\\lambda} = \\dfrac{2}{\\sin 28°} = 4.26$, so $n_{\\max} = 4$.\n\nNumber of diffraction lines $= (4 \\times 2) + 1 = 9$",
+   "perOption": {
+    "A": "Gives only the highest order, $n_{\\max}$, instead of counting lines on both sides and the central maximum.",
+    "B": "Counts only one side of the central maximum, plus the zeroth order.",
+    "C": "Counts both sides but leaves out the zeroth-order (central) line.",
+    "D": "Correct. $n_{\\max} = 4$ on each side, plus the central maximum."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must halve the angle, find $d/\\lambda$ and then count the orders on both sides plus the central maximum.",
+  "misconception": "Using 56° rather than 28° as the diffraction angle, or forgetting the central maximum",
+  "transcription": "Monochromatic light of wavelength 520 nm is directed perpendicularly onto a diffraction grating. The second-order diffraction lines are observed at $56°$ to each other.\n\n[Diagram: light of wavelength 520 nm falls normally on a diffraction grating; the two second-order beams diverge to a screen with an angle of $56°$ between them.]\n\nWhat is the total number of diffraction lines produced by the grating?\n\nA 4   B 5   C 8   D 9"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q16",
+  "keyPage": 4,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Distance $r = 20 \\times 10^{16}\\ \\mathrm{m}$. By the Rayleigh criterion, $\\theta \\approx \\lambda/D$, so the minimum separation is $s = r\\theta = r\\dfrac{\\lambda}{D}$.\n\nViolet (400 nm): $s = \\dfrac{(20 \\times 10^{16})(400 \\times 10^{-9})}{3.0} = 2.7 \\times 10^{10}\\ \\mathrm{m}$\n\nRed (700 nm): $s = \\dfrac{(20 \\times 10^{16})(700 \\times 10^{-9})}{3.0} = 4.7 \\times 10^{10}\\ \\mathrm{m}$\n\nAcross the visible range, the order of magnitude is $10^{10}\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Too small by a factor of about 100, likely from a powers-of-ten slip in $r$ or $\\lambda$.",
+    "B": "Correct. $s = r\\lambda/D \\approx 10^{10}\\ \\mathrm{m}$ for visible light.",
+    "C": "Too large by a factor of about 100, likely from a powers-of-ten slip in $\\lambda$ (for example, using micrometres as nanometres).",
+    "D": "Far too large. It does not follow from $s = r\\lambda/D$ with visible wavelengths."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "superposition.m",
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must choose a visible wavelength themselves and combine the Rayleigh criterion with the small-angle approximation.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "ri-2026-prelim-p1-q17",
+  "keyPage": 5,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The mean kinetic energy of a molecule is $\\tfrac{1}{2}M\\langle c^2\\rangle = \\tfrac{3}{2}kT$, so\n\n$\\dfrac{\\tfrac{1}{2}M_P c_P^2}{\\tfrac{1}{2}M_Q c_Q^2} = \\dfrac{\\tfrac{3}{2}kT_P}{\\tfrac{3}{2}kT_Q}$\n\n$\\dfrac{M_P}{M_Q} = \\dfrac{T_P}{T_Q} \\times \\dfrac{c_Q^2}{c_P^2} = 2 \\times \\dfrac{1}{3^2} = \\dfrac{2}{9}$",
+   "perOption": {
+    "A": "Inverts the temperature ratio and forgets to square the speed ratio: $\\tfrac{1}{2} \\times \\tfrac{1}{3}$.",
+    "B": "Correct. $M \\propto T/c^2$.",
+    "C": "Forgets to square the r.m.s. speed ratio.",
+    "D": "Inverts the whole ratio, giving $M_Q/M_P$."
+   }
+  },
+  "issues": null,
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A direct ratio calculation from the mean kinetic energy formula.",
+  "misconception": "Forgetting to square the r.m.s. speed ratio",
+  "transcription": "P and Q are two different ideal gases contained in two separate identical vessels and the masses of their molecules are $M_P$ and $M_Q$ respectively.\n\nThe ratio of their thermodynamic temperatures, $T_P$ and $T_Q$, and that of the root-mean-square speeds of their molecules, $c_P$ and $c_Q$, are\n\n$\\dfrac{T_P}{T_Q} = 2$ and $\\dfrac{c_P}{c_Q} = 3$.\n\nWhat is the value of $\\dfrac{M_P}{M_Q}$?\n\nA $\\dfrac{1}{6}$   B $\\dfrac{2}{9}$   C $\\dfrac{2}{3}$   D $\\dfrac{9}{2}$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q18",
+  "keyPage": 5,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "By the first law of thermodynamics, $\\Delta U = Q + W$, where $W$ is the work done on the gas.\n\nHeat supplied to the gas: $Q = \\Delta U - W$\n\nSo the heat transferred from the gas to the surroundings is $W - \\Delta U$.",
+   "perOption": {
+    "A": "Adds $\\Delta U$ to $W$, as if the rise in internal energy also leaves the gas as heat.",
+    "B": "Correct. Heat lost $= -Q = W - \\Delta U$.",
+    "C": "This is the heat supplied to the gas, $Q = \\Delta U - W$, not the heat it loses.",
+    "D": "Gets the signs of both terms wrong in the first law."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.f",
+   "thermodynamic-systems.d"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Straightforward use of the first law, with care over sign conventions.",
+  "misconception": "Confusing heat supplied to the gas with heat lost by the gas",
+  "transcription": "A sample of gas is compressed slowly in a metal cylinder. $W$ is the amount of work done on the gas. During the compression, the internal energy of the gas increases by $\\Delta U$.\n\nHow much heat is transferred from the gas to the surroundings?\n\nA $W + \\Delta U$\nB $W - \\Delta U$\nC $-W + \\Delta U$\nD $-W - \\Delta U$"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q19",
+  "keyPage": 5,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$V = \\tfrac{4}{3}\\pi r^3 = \\tfrac{4}{3}\\pi\\left(\\dfrac{d}{2}\\right)^3 \\Rightarrow V \\propto d^3$, so $V_f = \\left(\\dfrac{2d}{d}\\right)^3 V = 8V$.\n\n$\\Delta V = 8V - V = 7V$\n\n$W = p\\Delta V = 7pV$",
+   "perOption": {
+    "A": "Uses $(2^2 - 1)$, treating volume as if it scaled with $d^2$.",
+    "B": "Uses a factor of 4, the change in surface area, instead of in volume.",
+    "C": "Correct. The volume rises by a factor of 8, so $\\Delta V = 7V$.",
+    "D": "Uses the final volume $8V$ instead of the change in volume."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.d"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires $V \\propto d^3$ and using the change in volume for the work done.",
+  "misconception": "Using final volume instead of change in volume for work done",
+  "transcription": null
+ },
+ {
+  "id": "ri-2026-prelim-p1-q20",
+  "keyPage": 5,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let $r$ be the side of one grid square. The 32.0 N C$^{-1}$ point is $r$ from Q:\n\n$E = \\dfrac{Q}{4\\pi\\varepsilon_0 r^2} = 32.0$\n\nS is $3r$ from Q: $E_S = \\dfrac{Q}{4\\pi\\varepsilon_0 (3r)^2} = \\tfrac{1}{9}(32.0) = 3.6\\ \\mathrm{N\\,C^{-1}}$\n\nCheck: the 16.0 N C$^{-1}$ point is $\\sqrt{2}r$ away, giving $\\tfrac{1}{2}E = 16.0\\ \\mathrm{N\\,C^{-1}}$.\n\nR is $\\sqrt{(2r)^2 + r^2} = \\sqrt{5}r$ away: $E_R = \\dfrac{Q}{4\\pi\\varepsilon_0(\\sqrt{5}r)^2} = \\tfrac{1}{5}E = 6.4\\ \\mathrm{N\\,C^{-1}}$",
+   "perOption": {
+    "A": "Takes R as $\\sqrt{8}r$ away (two squares across and two up), giving $\\tfrac{1}{8} \\times 32 = 4.0$ for R.",
+    "B": "Gets R right, but gives half the correct value at S.",
+    "C": "Correct. $E \\propto 1/r^2$, with R at $\\sqrt{5}r$ and S at $3r$.",
+    "D": "Uses $E \\propto 1/r$ or miscounts the distances, rather than $E \\propto 1/r^2$ with the correct geometry."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.b"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must read the distances off a grid (including diagonals) and apply the inverse square law.",
+  "misconception": null,
+  "transcription": "The diagram shows the magnitude of the electric field strength at distances from an isolated point charge Q.\n\n[Diagram: a square grid with point charge Q at a grid intersection. A point one square directly below Q is labelled 32.0 N C$^{-1}$. A point one square up and one square right of Q is labelled 16.0 N C$^{-1}$. Point R is one square up and two squares right of Q. Point S is three squares to the right of Q, on the same horizontal line.]\n\nThe electric field strength is given at points on grid lines at different distances from Q. The grid lines have equal separation.\n\nWhat is the electric field strength at the two points marked R and S?\n\n| | field strength at R / N C$^{-1}$ | field strength at S / N C$^{-1}$ |\n|---|---|---|\n| A | 4.0 | 3.6 |\n| B | 6.4 | 1.8 |\n| C | 6.4 | 3.6 |\n| D | 8.0 | 4.0 |"
+ },
+ {
+  "id": "ri-2026-prelim-p1-q21",
+  "keyPage": 5,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The sphere is a conductor, so its charge sits only on the outer surface and there is no charge inside. The electric field inside is therefore zero, and the potential inside is constant at $V = \\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{Q}{r}$, the same as the potential at the surface.\n\nOutside the sphere, the potential decreases inversely with the distance $x$ from the centre: $V \\propto \\dfrac{1}{x}$.",
+   "perOption": {
+    "A": "Takes the potential inside to be zero, confusing it with the electric field strength, which is zero inside.",
+    "B": "Shows the potential rising from zero inside, but $E = 0$ inside means $V$ cannot change there.",
+    "C": "Shows $V$ rising linearly inside, as if the field inside were non-zero.",
+    "D": "Correct. $V$ is constant inside and equal to the surface value, then falls as $1/x$ outside."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.d",
+   "electric-fields.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard result, though students often confuse zero field with zero potential.",
+  "misconception": "Zero electric field inside implies zero potential inside",
+  "transcription": null
+ }
+]

@@ -1,0 +1,603 @@
+[
+ {
+  "id": "cjc-2026-prelim-p1-q21",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.b"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single application of $I = nAvq$ with two ratio changes.",
+  "misconception": "Forgetting that area scales with diameter squared",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "In series the current is the same, so $nAv$ is the same in both wires: $n_X A_X v_X = n_Y A_Y v_Y$.\n\n$n_X = 2n_Y$ and $A_X = \\tfrac{1}{4}A_Y$ (area $\\propto d^2$), so $n_X A_X = \\tfrac{1}{2} n_Y A_Y$.\n\nHence $v_Y = \\tfrac{1}{2} v_X = 0.26\\ \\mathrm{mm\\,s^{-1}}$.",
+   "perOption": {
+    "A": "Correct. $v_Y = v_X/2$.",
+    "B": "Takes area proportional to diameter (not $d^2$), so $nA$ is the same in both wires.",
+    "C": "Inverts the ratio, giving $v_Y = 2v_X$ instead of $v_X/2$.",
+    "D": "Uses only the area ratio and inverts it, giving $4v_X$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q22",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.f",
+   "circuits.j"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Potential divider reasoning with standard NTC and LDR behaviour.",
+  "misconception": "Thinking resistance of an NTC thermistor rises with temperature",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The supply p.d. is shared between the NTC–LDR pair and the fixed resistor in proportion to resistance.\n\nThe voltmeter reading is largest when the NTC and LDR have the largest resistance. An NTC thermistor has high resistance at low temperature, and an LDR has high resistance in dim light. So low temperature and low brightness.",
+   "perOption": {
+    "A": "High temperature and high brightness both make the resistances smallest, giving the smallest reading.",
+    "B": "High temperature lowers the NTC resistance.",
+    "C": "High brightness lowers the LDR resistance.",
+    "D": "Correct. Both resistances are maximised."
+   }
+  },
+  "transcription": "A negative temperature coefficient (NTC) thermistor, a light-dependent resistor (LDR) and a fixed resistor are connected in series to a power supply. A voltmeter is placed across the NTC-LDR combination. [Diagram: supply terminals at top; thermistor, LDR and fixed resistor in series along the bottom; voltmeter connected across the thermistor and LDR together.] What conditions of brightness and temperature will produce the largest reading on the voltmeter? (temperature, brightness) A high, high B high, low C low, high D low, low",
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q23",
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "circuits.k",
+   "electric-fields.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs to identify series/parallel arrangement then combine capacitances and use $Q = CV$.",
+  "misconception": "Treating all capacitors as in parallel, or charge as the sum on each capacitor",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The two $2\\ \\mu\\mathrm{F}$ capacitors are in parallel, giving $4\\ \\mu\\mathrm{F}$. This is in series with the two $4\\ \\mu\\mathrm{F}$ capacitors.\n\nThree $4\\ \\mu\\mathrm{F}$ in series: $\\frac{1}{C} = \\frac{3}{4}$, so $C = \\tfrac{4}{3}\\ \\mu\\mathrm{F}$.\n\nCharge circulated $Q = CV = \\tfrac{4}{3} \\times 12 = 16\\ \\mu\\mathrm{C}$.",
+   "perOption": {
+    "A": "Correct. $Q = \\tfrac{4}{3}\\ \\mu\\mathrm{F} \\times 12\\ \\mathrm{V}$.",
+    "B": "Uses $2\\ \\mu\\mathrm{F}$ effective capacitance (e.g. only two $4\\ \\mu\\mathrm{F}$ in series).",
+    "C": "Uses $3\\ \\mu\\mathrm{F}$, a wrong series/parallel combination.",
+    "D": "Uses far too large an effective capacitance, as if capacitors were combined in parallel."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q24",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.d",
+   "currents.f",
+   "currents.i"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines r.m.s.-to-peak conversion with the $\\sin^2$ shape of power.",
+  "misconception": "Using the r.m.s. current as the peak, or a $|\\sin|$ shape for power",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Peak current $I_0 = \\sqrt{2}I$, so peak power $P_0 = I_0^2 R = 2I^2 \\times 2.0 = 4I^2$.\n\n$P = I_0^2 R \\sin^2 \\omega t$ is always positive and touches zero smoothly (a $\\sin^2$ curve), oscillating at twice the current frequency. Graph D has this shape and peak $4I^2$.",
+   "perOption": {
+    "A": "Shape is $|\\sin|$ (sharp cusps at zero) and the peak value is wrong.",
+    "B": "Peak $\\sqrt{2}I^2$ is wrong: uses $\\sqrt{2}I$ without squaring and ignores $R$.",
+    "C": "Peak $2I^2$ uses the r.m.s. current $I^2R$, which is the mean power, not the peak.",
+    "D": "Correct. Peak $= (\\sqrt{2}I)^2(2.0) = 4I^2$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q25",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.j",
+   "electromagnetic-forces.l",
+   "electromagnetic-forces.m"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires 3D direction reasoning for both forces on a negative charge across four field combinations.",
+  "misconception": "Assuming E and B must always be perpendicular for undeflected motion",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The electron travels upward. For a straight path, any force perpendicular to the motion must cancel; forces along the motion only change speed.\n\nIn B, $E$ is into the page, so the electric force is along the page normal, while the magnetic force ($\\vec v \\times \\vec B$ with $B$ out of page) lies in the page plane, sideways. These perpendicular forces cannot cancel, so the electron must deflect.\n\nIn A, $B$ is parallel to $v$ (no magnetic force) and the electric force is along the motion. In C and D, a component of the electric force can balance the magnetic force.",
+   "perOption": {
+    "A": "$B$ parallel to $v$ gives zero magnetic force and $E$ only acts along the path, so it is possible.",
+    "B": "Correct. Electric force is out of the page plane, magnetic force is sideways in the plane; they cannot cancel.",
+    "C": "Electric force has a horizontal component that can cancel the sideways magnetic force; the vertical component just changes speed.",
+    "D": "Magnetic force on the electron is out of the page and the electric force is into the page, so they can cancel."
+   }
+  },
+  "transcription": "An electron moving in a straight line passes through small holes P and Q in two identical plates. [Diagram: two horizontal plates with holes; the electron path is vertical, upward from Q to P.] There is a uniform electric field $E$ and a uniform magnetic field $B$ between the two plates. The directions of these fields are shown by arrows or these symbols: ⊙ a field coming out of the paper; X a field going into the paper. Which orientation of the two fields is not possible? A $E$ downward, $B$ upward B $E$ into paper, $B$ out of paper C $E$ diagonally down to the right, $B$ into paper D $E$ out of paper, $B$ to the right",
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q26",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.a",
+   "electromagnetic-induction.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of flux cut $= BLvt$ with unit conversions.",
+  "misconception": "Forgetting to convert minutes to seconds or cm to m",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Area swept $= Lvt = 0.24 \\times 0.50 \\times 30 = 3.6\\ \\mathrm{m^2}$.\n\nFlux cut $\\Phi = BA = 0.15 \\times 3.6 = 0.54\\ \\mathrm{Wb}$.",
+   "perOption": {
+    "A": "Gives the flux cut per second ($BLv$), not in 30 s.",
+    "B": "Uses a wrong time or doubles the per-second value instead of using 30 s.",
+    "C": "Correct. $\\Phi = BLvt$.",
+    "D": "Uses 60 s (a full minute) instead of 30 s."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q27",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "quantum-physics.b"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Standard photon-flux explanation of intensity.",
+  "misconception": "Linking intensity to photon energy or wave amplitude",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Same frequency means each photon has the same energy $E = hf$.\n\nIntensity is power per unit area, so a greater intensity means more photons cross unit area per unit time.",
+   "perOption": {
+    "A": "Same frequency means each photon has the same energy $hf$.",
+    "B": "All photons travel at $c$ in a given medium.",
+    "C": "Amplitude is a wave description, not a particle (photon) explanation.",
+    "D": "Correct. Higher photon flux per unit area."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires understanding which position and momentum components the slit constrains.",
+  "misconception": "Taking $\\Delta p$ along the direction of travel or $\\Delta y$ at the screen",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The slit fixes the electron's transverse position to within the slit width, so $\\Delta y$ is defined at the slit, across it.\n\nThe resulting uncertainty in momentum is in the same transverse direction ($y$), also at the slit, and this spread causes the diffraction pattern on the screen.",
+   "perOption": {
+    "A": "Correct. Both $\\Delta y$ and $\\Delta p$ are transverse and at the slit.",
+    "B": "$\\Delta y$ and $\\Delta p$ are defined where the electron passes through the slit, not at the screen.",
+    "C": "$\\Delta p$ must be in the same ($y$) direction as $\\Delta y$, not along the direction of travel.",
+    "D": "$\\Delta y$ is at the slit, and $\\Delta p$ must be transverse."
+   }
+  },
+  "transcription": "For an electron passing through a single slit, the uncertainty in its position $\\Delta y$ and the uncertainty in its momentum $\\Delta p$ are related by $\\Delta y\\,\\Delta p \\gtrsim h$. Which diagram shows the positions where $\\Delta y$ and $\\Delta p$ in the equation above are defined and shows them in the correct direction? [Each option shows a slit on the left and a screen on the right.] A $\\Delta y$ vertical at the slit, $\\Delta p$ vertical at the slit B $\\Delta y$ vertical at the screen, $\\Delta p$ vertical at the screen C $\\Delta y$ vertical at the slit, $\\Delta p$ horizontal (along travel) at the slit D $\\Delta y$ vertical at the screen, $\\Delta p$ horizontal at the slit",
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q29",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.g",
+   "nuclear-physics.n"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Applies $\\beta^-$ decay changes to a nuclide chart.",
+  "misconception": "Swapping proton and neutron changes in beta decay",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "X has proton number 94 and neutron number 145.\n\nIn $\\beta^-$ decay a neutron becomes a proton: proton number rises by 1, neutron number falls by 1. The daughter is at (95, 144), which is nuclide B.",
+   "perOption": {
+    "A": "(92, 141) needs loss of 2 protons and 4 neutrons, not a single beta decay.",
+    "B": "Correct. $Z+1$, $N-1$.",
+    "C": "(93, 145) lowers the proton number with no neutron change; $\\beta^-$ decay raises $Z$.",
+    "D": "(95, 145) increases $Z$ without decreasing $N$, ignoring that a neutron is converted."
+   }
+  },
+  "transcription": "The figure shows part of a chart of nuclides where neutron number is plotted against proton number. An unstable nuclide X decays spontaneously by emitting a $\\beta$-particle. Into which nuclide does it decay? [Grid: proton number 91–96 on x-axis, neutron number 140–147 on y-axis. Points: A at (92, 141), C at (93, 145), X at (94, 145), D at (95, 145), B at (95, 144).]",
+  "issues": null
+ },
+ {
+  "id": "cjc-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.a"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of the Rutherford scattering interpretation.",
+  "misconception": "Attributing large-angle scattering to electrons",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Large-angle deflections (up to $180^\\circ$) need a very strong repulsive force from a small, massive, positively charged region: the nucleus.\n\nMost α-particles pass far from nuclei and are hardly deflected; the few that come close are strongly repelled.",
+   "perOption": {
+    "A": "α-particles in this experiment have de Broglie wavelengths far too small for lattice diffraction to give such angles.",
+    "B": "The foil is very thin and most particles pass straight through; surface reflection does not occur.",
+    "C": "Electrons are far too light to deflect a massive α-particle significantly.",
+    "D": "Correct. Coulomb repulsion by small, dense, positive nuclei."
+   }
+  },
+  "transcription": "α-particles are observed to be deflected by a thin metal foil through angles that range from $0^\\circ$ to $180^\\circ$. Which of the following could explain this observation? A Due to diffraction from the crystal lattice in the metal. B Due to reflection from the surface of the foil. C Due to scattering from electrons in the metal. D Due to scattering from the small highly positive charged nuclei of atoms in the metal.",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "practical"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Straightforward weighted sum of percentage uncertainties.",
+  "misconception": "Forgetting to multiply by the powers",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "For $\\frac{3PQ^4}{R^2}$: total % uncertainty $= \\%P + 4(\\%Q) + 2(\\%R)$; the constant 3 contributes nothing.\n\nC: $3.0 + 4(1.0) + 2(2.0) = 11\\%$.",
+   "perOption": {
+    "A": "Gives $1 + 4 + 4 = 9\\%$.",
+    "B": "Gives $2 + 8 + 3 = 13\\%$.",
+    "C": "Correct. $3 + 4 + 4 = 11\\%$.",
+    "D": "Gives $5 + 8 + 2 = 15\\%$; simple addition without powers gives 8%."
+   }
+  },
+  "transcription": "After taking measurements of the quantities in the expression $\\frac{3PQ^4}{R^2}$, the total uncertainty is calculated as 11%. Which individual percentage uncertainties of P, Q and R when combined give this total of 11%? (P/%, Q/%, R/%) A 1.0, 1.0, 2.0 B 2.0, 2.0, 1.5 C 3.0, 1.0, 2.0 D 5.0, 2.0, 1.0",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q2",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.a",
+   "motion-and-forces.c"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires recognising that shifting the graph down changes both net area and absolute area.",
+  "misconception": "Assuming distance is unchanged because the graph shapes are identical",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Y's graph is X's graph shifted down by $v/4$, so Y's displacement is less than X's by $\\tfrac{v}{4}t_2$: displacements differ.\n\nX has velocity $\\ge 0$ throughout, so its distance $= \\tfrac{1}{2}vt_2$. Y has negative velocity for part of the time; its distance (sum of magnitudes of areas) works out to $\\tfrac{5}{16}vt_2$, so the distances also differ.",
+   "perOption": {
+    "A": "Correct. Both displacement and distance differ.",
+    "B": "Distance is not the same: the downward shift reduces positive area by more than the small negative area adds.",
+    "C": "Displacement differs because Y's graph is shifted down by $v/4$.",
+    "D": "Same shape does not mean same area; both quantities change."
+   }
+  },
+  "transcription": "The motions of two objects X and Y along a straight line are shown in the following velocity-time graphs. [Graph X: velocity falls linearly from $v$ at $t=0$ to 0 at $t_1$, then rises linearly to $v$ at $t_2$. Graph Y: velocity falls linearly from $3v/4$ at $t=0$ to $-v/4$ at $t_1$, then rises linearly to $3v/4$ at $t_2$.] How do the magnitudes of the displacement and the total distance travelled compare for the two objects from time 0 to time $t_2$? (displacement, distance) A different, different B different, same C same, different D same, same",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q3",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.k",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Area under a linear force–extension graph between two points.",
+  "misconception": "Using $Fx$ instead of $\\tfrac{1}{2}Fx$ for elastic energy",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Elastic potential energy is the area under the force–extension graph.\n\nAt extension $x$ the stored energy is $\\tfrac{1}{2}Fx$, so the change from $x_1$ to $x_2$ is $\\tfrac{1}{2}(F_2x_2 - F_1x_1)$ (the trapezium area).",
+   "perOption": {
+    "A": "Omits the factor $\\tfrac{1}{2}$ for the triangular area.",
+    "B": "Correct. Difference of two triangle areas.",
+    "C": "Squares the extensions; dimensionally $Fx^2$ is not energy.",
+    "D": "Squares the extensions, confusing $\\tfrac{1}{2}Fx$ with $\\tfrac{1}{2}kx^2$."
+   }
+  },
+  "transcription": "The force-extension graph of a spring is as shown. [Graph: straight line through origin; extension $x_1$ corresponds to force $F_1$, extension $x_2$ to force $F_2$.] What is the change in elastic potential energy when the extension of the spring is increased from $x_1$ to $x_2$? A $F_2x_2 - F_1x_1$ B $\\frac{1}{2}(F_2x_2 - F_1x_1)$ C $F_2x_2^2 - F_1x_1^2$ D $\\frac{1}{2}(F_2x_2^2 - F_1x_1^2)$",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q4",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "motion-and-forces.h",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs careful free-body analysis of separate bodies and Newton's laws.",
+  "misconception": "Equating zero resultant force with being at rest",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Forces on the lift: $T$ up, $W_2$ and $D$ down. If $T = D + W_2$, the resultant force on the lift is zero, so by Newton's first law it moves with constant velocity (which includes being at rest).\n\nThe other statements fail when the lift accelerates, or confuse \"no resultant force\" with \"at rest\".",
+   "perOption": {
+    "A": "Only true when the lift is not accelerating; when accelerating $T \\ne W_1 + W_2$.",
+    "B": "$N = W_1$ only means zero acceleration; the lift could move at constant velocity.",
+    "C": "$N$ and $W_1$ are not a Newton's third law pair; they differ when the lift accelerates.",
+    "D": "Correct. Zero resultant force on the lift means constant velocity."
+   }
+  },
+  "transcription": "The diagram shows a man standing in a lift. The forces acting on the man and the forces acting on the lift are shown below. [Diagram: man with N upward and $W_1$ downward; lift with T upward, $W_2$ and D downward.] N is the force from the lift floor on the man. $W_1$ is the weight of the man. T is the tension in the lift cable. $W_2$ is the weight of the lift. D is the force from the man on the lift floor. Which of the following statements is correct? A $(W_1 + W_2)$ is always equal to T. B If $N = W_1$, the lift must be at rest. C N and $W_1$ are always equal and opposite. D If $T = (D + W_2)$, the lift must have a constant velocity.",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q5",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.i"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Standard result that acceleration down a frictionless slope is independent of mass.",
+  "misconception": "Thinking heavier objects accelerate differently",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Down a frictionless slope the accelerating force is $mg\\sin\\theta$, so $a = g\\sin\\theta$, independent of mass.\n\nDoubling the mass doubles the accelerating force but leaves the acceleration as $a$.",
+   "perOption": {
+    "A": "The accelerating force $mg\\sin\\theta$ doubles with mass.",
+    "B": "Assumes the force stays the same while mass doubles.",
+    "C": "Correct. $a = g\\sin\\theta$.",
+    "D": "Assumes force doubles without accounting for doubled mass."
+   }
+  },
+  "transcription": "A trolley runs down a slope with a constant acceleration a. The mass of the trolley is now doubled, and the trolley is allowed to run down the same slope. In both cases effects of friction and air resistance are negligible. A The accelerating force is the same. B The acceleration is $\\frac{1}{2}a$. C The acceleration is a. D The acceleration is 2a.",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q6",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.h",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Whole-system acceleration then Newton's second law on one block.",
+  "misconception": "Taking the force on the 2.0 kg block as the applied force minus friction",
+  "derivedAnswer": "A",
+  "confidence": "medium",
+  "explanation": {
+   "body": "Whole system: $a = \\frac{54 - 6.0}{8.0} = 6.0\\ \\mathrm{m\\,s^{-2}}$.\n\nThe friction is drawn acting on the 6.0 kg block, so the only horizontal force on the 2.0 kg block is the push from the 6.0 kg block: $F = ma = 2.0 \\times 6.0 = 12\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "Correct. $F = 2.0 \\times 6.0$.",
+    "B": "Gives the net force on the 6.0 kg block ($6.0 \\times 6.0$), not the contact force.",
+    "C": "Not obtained from a consistent force analysis.",
+    "D": "Takes $54 - 6.0$, the net force on the whole system."
+   }
+  },
+  "transcription": null,
+  "issues": "Stem says friction is 'between the blocks and the surface' but the diagram puts the 6.0 N on the 6.0 kg block only. Key 12 N requires all friction on the 6.0 kg block; if friction were shared by mass the answer would be 13.5 N (not an option)."
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q7",
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single Newton's second law equation at the top of a vertical circle.",
+  "misconception": "Adding weight to the centripetal force instead of subtracting",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At the top, tension and weight both point towards the centre: $T + mg = \\frac{mv^2}{r}$.\n\n$\\frac{mv^2}{r} = \\frac{0.10 \\times 6.0^2}{0.50} = 7.2\\ \\mathrm{N}$, so $T = 7.2 - 0.98 = 6.2\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "This is just the weight $mg$.",
+    "B": "Correct. $T = mv^2/r - mg$.",
+    "C": "This is the required centripetal force, ignoring weight.",
+    "D": "Adds weight ($T = mv^2/r + mg$), which applies at the bottom of the circle."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q8",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Vector addition of three point-mass fields at the centroid of an equilateral triangle.",
+  "misconception": "Combining two fields at 120° as if they were at 60° (getting $\\sqrt{3}$)",
+  "derivedAnswer": "C",
+  "confidence": "low",
+  "explanation": {
+   "body": "O is equidistant ($r$) from all three planets. Split Z's mass into $M + M$: three equal masses $M$ at the vertices give zero net field at the centre by symmetry.\n\nWhat remains is the field of the extra $M$ at Z: $g = \\frac{GM}{r^2}$ towards Z.\n\n(Equivalently, the fields from X and Y, each $GM/r^2$ at $120^\\circ$, sum to $GM/r^2$ pointing away from Z; Z gives $2GM/r^2$ towards Z.)",
+   "perOption": {
+    "A": "Masses are unequal, so the fields do not cancel.",
+    "B": "The net field points towards the heavier planet Z, not X.",
+    "C": "Correct. Net field $GM/r^2$ towards Z.",
+    "D": "Treats the X and Y fields as $60^\\circ$ apart (resultant $\\sqrt{3}GM/r^2$); they are $120^\\circ$ apart, giving $GM/r^2$."
+   }
+  },
+  "transcription": "Three planets, X, Y and Z have masses M, M and 2M respectively, are arranged in a triangle and are equidistant from each other. [Diagram: equilateral triangle with X at top, Y bottom-left, Z bottom-right; O at the centre, distance r from each planet.] What is the magnitude and direction of the gravitational field strength at point O? (magnitude, direction) A 0, no direction B $\\frac{GM}{r^2}$, towards X C $\\frac{GM}{r^2}$, towards Z D $\\frac{G(2M - \\sqrt{3}M)}{r^2}$, towards Z",
+  "issues": "Key gives D but derived answer is C. The fields from X and Y at the centroid are 120° apart, so their resultant is $GM/r^2$ (not $\\sqrt{3}GM/r^2$); net field = $2GM/r^2 - GM/r^2 = GM/r^2$ towards Z. Key appears wrong."
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q9",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Scalar sum of potentials plus recognising potential has no direction.",
+  "misconception": "Treating potential as a vector",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Potential is a scalar, so contributions simply add: $\\phi = -\\frac{GM}{r} - \\frac{GM}{r} - \\frac{2GM}{r} = -\\frac{4GM}{r}$.\n\nBeing a scalar, it has no direction.",
+   "perOption": {
+    "A": "Potentials are all negative and add; they cannot cancel.",
+    "B": "Potential is a scalar with no direction, and the sum is not $-GM/r$.",
+    "C": "Gravitational potential is negative and has no direction.",
+    "D": "Correct. $-4GM/r$, scalar."
+   }
+  },
+  "transcription": "Three planets, X, Y and Z have masses M, M and 2M respectively, are arranged in a triangle and are equidistant from each other. [Diagram: equilateral triangle with X at top, Y bottom-left, Z bottom-right; O at the centre, distance r from each planet.] What is the gravitational potential at O and its direction? (potential, direction) A 0, no direction B $-\\frac{GM}{r}$, towards Z C $\\frac{GM}{r}$, towards Z D $-\\frac{4GM}{r}$, no direction",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q10",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.c",
+   "oscillations.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Two simultaneous scaling factors in $E = \\tfrac{1}{2}m\\omega^2x_0^2$.",
+  "misconception": "Ignoring the period change or not squaring ω",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E = \\tfrac{1}{2}m\\omega^2 x_0^2$ with $\\omega = 2\\pi/T$.\n\nTripling $T$ makes $\\omega^2$ one-ninth; doubling $x_0$ makes $x_0^2$ four times. New energy $= 18 \\times \\tfrac{4}{9} = 8\\ \\mathrm{mJ}$.",
+   "perOption": {
+    "A": "Correct. $18 \\times 4/9$.",
+    "B": "Uses $\\omega$ not squared and amplitude not squared: $18 \\times 2/3$.",
+    "C": "Doubles the energy for doubled amplitude and ignores the period.",
+    "D": "Squares the amplitude factor but ignores the period change."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ }
+]

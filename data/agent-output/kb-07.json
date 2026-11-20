@@ -1,0 +1,342 @@
+[
+  {
+    "id": "jpjc-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $V=P/I$, one volt is one watt per ampere. Since $\\mathrm{W}=\\mathrm{kg\\,m^2\\,s^{-3}}$, the volt has base units $\\mathrm{kg\\,m^2\\,A^{-1}\\,s^{-3}}$.",
+      "perOption": {
+        "A": "Leaves the derived unit ohm unexpanded.",
+        "B": "Uses the derived units coulomb and ohm.",
+        "C": "Correct.",
+        "D": "Leaves the coulomb unexpanded as an ampere-second."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The maximum speed occurs at a peak or trough of the velocity–time graph, where $a=dv/dt=0$. Direction changes when velocity changes sign, and displacement increases wherever velocity is positive.",
+      "perOption": {
+        "A": "At $t=T$ the velocity is zero and the displacement has returned to zero, although the interior zero crossing does coincide with maximum displacement.",
+        "B": "Direction changes when $v$ changes sign, while $a=0$ at the velocity extrema.",
+        "C": "Displacement increases whenever $v>0$, even if the acceleration is negative.",
+        "D": "Correct. The greatest speed occurs at a horizontal tangent."
+      }
+    },
+    "issues": "The key rejects A using the endpoint at t = T. The interior zero crossing does give the greatest displacement, so A is also defensible if read as identifying when the maximum occurs."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $L$ be the lift. On descent, Newton’s second law gives $Mg-L=2M$, so $L=M(g-2)$. On ascent, for the remaining mass $M_1$, $L-M_1g=4M_1$, so $L=M_1(g+4)$. Equating the lifts gives $M_1=0.57M$, so the mass removed is $0.43M$.",
+      "perOption": {
+        "A": "Counts only the initial downward acceleration in the required change of acceleration.",
+        "B": "Correct.",
+        "C": "Gives the mass remaining after removal.",
+        "D": "Overstates the mass reduction by doubling the required fraction."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q4",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Balancing moments about A gives $F_B(5.0)=200(2.5)+880(0.80)$, so $F_B=240.8\\ \\mathrm{N}$. Vertical force balance gives $F_A=880+200-240.8=839.2\\ \\mathrm{N}$. Hence $F_A/F_B=839.2/240.8\\approx3.48\\approx3.5$.",
+      "perOption": {
+        "A": "Inverts the ratio to $F_B/F_A$.",
+        "B": "Divides $F_A$ by the total weight of $1080\\ \\mathrm{N}$.",
+        "C": "Correct.",
+        "D": "Divides the total weight by $F_B$ without first subtracting $F_B$ to find $F_A$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q5",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Hooke’s law, $15=k(0.090-0.060)$, so $k=500\\ \\mathrm{N\\,m^{-1}}$. The maximum extension is $0.100\\ \\mathrm{m}$, giving a maximum load $ke_{\\max}=500(0.100)=50\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Treats the loaded length of 90 mm as the extension when finding the spring constant.",
+        "B": "Correct.",
+        "C": "Adds the 60 mm unstretched length to the 100 mm extension before applying Hooke’s law.",
+        "D": "Adds the initial 15 N load to a force already calculated using the full 160 mm spring length."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q6",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Assuming Hooke’s law, the force–extension graph is a straight line through the origin, so its triangular area gives stored energy $\\tfrac12 Fe$. At equilibrium $F=mg$ and $e=y-x$, so the stored energy is $\\tfrac12 mg(y-x)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the rectangular area under the final force and omits the factor of one-half.",
+        "C": "Squares the extension even though the expression already uses the final force.",
+        "D": "Squares the extension and omits the triangular-area factor."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done against friction becomes heat, $30(3.0)=90\\ \\mathrm{J}$. The pulling force does work $80(3.0)=\\Delta E_k+40(3.0\\sin30^\\circ)+90$. Solving gives $\\Delta E_k=90\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Overstates the frictional work and assumes the object gains zero kinetic energy.",
+        "B": "Correct.",
+        "C": "Uses the full slope distance as the vertical rise, overstating the gravitational energy gain.",
+        "D": "Treats all the pulling work as kinetic energy and overstates the heat from friction."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q8",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "All points on the rigid disc complete one revolution in the same time, so Y has period $3.2\\ \\mathrm{s}$. Since $v=r\\omega$ and Y is half as far from the centre as X, $v_Y=0.5v_X=0.50\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Scales the speed with the square of the radius and halves the shared period.",
+        "B": "Scales the speed with the square of the radius.",
+        "C": "Halves the period along with the speed.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q9",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GMm/r^2=mv^2/r$ and $v=\\sqrt{GM/r}$. The speed therefore increases as the orbital radius decreases. The period $T=2\\pi r/v=2\\pi\\sqrt{r^3/(GM)}$ decreases because the orbit is shorter and the satellite travels faster.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Both orbital speed and gravitational force increase at the smaller radius.",
+        "C": "Kinetic energy increases and gravitational potential energy decreases.",
+        "D": "Both total mechanical energy and orbital period decrease."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q10",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Earth’s surface, $W=GMm/R^2$ and $\\phi=-GM/R$. At height $3R$, the distance from Earth’s centre is $4R$. Thus $W'=GMm/(4R)^2=W/16$ and $\\phi'=-GM/(4R)=\\phi/4$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the height above the surface as the distance for the potential.",
+        "C": "Scales weight with inverse distance instead of inverse distance squared.",
+        "D": "Uses inverse-distance scaling for weight and uses the height above the surface for the potential."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q11",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean kinetic energy is $\\tfrac12 m c_{\\mathrm{rms}}^2=\\tfrac32 kT$, so at the same temperature $m\\propto1/c_{\\mathrm{rms}}^2$. For neon, $m/(5m)=c_{\\mathrm{Ne}}^2/1800^2$, giving $c_{\\mathrm{Ne}}=804.98\\ \\mathrm{m\\,s^{-1}}\\approx800\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Divides the speed by five instead of dividing by the square root of five.",
+        "B": "Correct.",
+        "C": "Makes r.m.s. speed increase with the square root of mass.",
+        "D": "Makes r.m.s. speed directly proportional to mass."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q12",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy removed to cool and freeze the water is $mc\\Delta T+mL_f=0.750(4200)(18)+0.750(330000)=304200\\ \\mathrm{J}$. Dividing by the cooling power gives $t=304200/135=2253.3\\ \\mathrm{s}$, or about $38\\ \\mathrm{min}$.",
+      "perOption": {
+        "A": "Counts only the energy removed while cooling the liquid to its freezing point.",
+        "B": "Counts only the latent heat removed during freezing.",
+        "C": "Correct.",
+        "D": "Overcounts the energy to be removed, for example by including the latent heat of fusion twice."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q13",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV=nRT$, at fixed cylinder volume $p\\propto nT$. Thus $9.5/10=n_1(273.15+7)/[n_2(273.15+27)]$, giving $n_2=0.98249n_1$. Mass is proportional to amount of gas, so $m_2=0.98249(19)=18.667\\ \\mathrm{kg}$ and $19-18.667\\approx0.33\\ \\mathrm{kg}$ escapes.",
+      "perOption": {
+        "A": "Underestimates the loss by leaving too much gas in the cylinder for the final pressure and temperature.",
+        "B": "Correct.",
+        "C": "Overestimates the loss by leaving too little gas in the cylinder for the final pressure and temperature.",
+        "D": "Uses a temperature ratio based on Celsius readings instead of absolute temperatures."
+      }
+    },
+    "issues": "The key says V and n are constant. The cylinder volume is fixed, but n decreases as air escapes."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q14",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In SHM the maximum acceleration has magnitude $\\omega^2 A$. Thus $3=(\\omega_Y/\\omega_X)^2(0.5)$, so $(\\omega_Y/\\omega_X)^2=6$. Using $E=\\tfrac12 m\\omega^2 A^2$, the energy ratio is $2(6)(0.5)^2=3.0$.",
+      "perOption": {
+        "A": "Omits the doubling of the mass.",
+        "B": "Uses only the mass ratio and ignores the changes in angular frequency and amplitude.",
+        "C": "Correct.",
+        "D": "Uses the amplitude ratio to the first power in the energy expression."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q15",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Starting at the extreme position gives $x=A\\cos(2\\pi t/T)$. At the halfway point, $0.5A=A\\cos[(2\\pi/2.0)t]$. The first solution is $t=0.33\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Uses a sine equation with zero initial displacement, as if the pendulum started at equilibrium.",
+        "B": "Assumes the pendulum covers half the distance to equilibrium in half the time.",
+        "C": "Correct.",
+        "D": "Uses half a period, when the pendulum reaches the opposite extreme."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q16",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first polariser reduces the incident intensity $I$ to $I/2$. The final intensity is $0.125I$, so Malus’s law gives $(I/2)\\cos^2\\theta=0.125I$. Hence $\\theta=60^\\circ$.",
+      "perOption": {
+        "A": "Using $30^\\circ$ as the angle between the axes gives a transmitted fraction of $0.375$.",
+        "B": "Using $40^\\circ$ gives a transmitted fraction of about $0.293$, which is too high.",
+        "C": "Correct.",
+        "D": "Using $75^\\circ$ gives a transmitted fraction of about $0.033$, which is too low."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q17",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the open tube’s fundamental, $\\lambda/2=L$, so $f=v/(2L)$. With one end closed, the fundamental satisfies $\\lambda_1/4=L$, so $f_1=v/(4L)=0.5f$.",
+      "perOption": {
+        "A": "Treats the quarter-wave condition as a fourfold frequency increase relative to the open tube.",
+        "B": "Treats frequency as increasing when the fundamental wavelength doubles.",
+        "C": "Correct.",
+        "D": "Uses a quarter of the original frequency, overlooking that the open tube already contains only half a wavelength."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q18",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the key’s Rayleigh estimate with visible light at about $500\\ \\mathrm{nm}$, $\\sin\\theta=\\lambda/b=(500\\times10^{-9})/(5\\times10^{-3})$, so $\\theta\\approx0.0001\\ \\mathrm{rad}$. The minimum separation is approximately $3.0(0.0001)=0.0003\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Overestimates the diffraction angle by a factor of ten.",
+        "C": "Overestimates the diffraction angle by a factor of one hundred.",
+        "D": "Overestimates the diffraction angle by a factor of one thousand."
+      }
+    },
+    "issues": "The question omits wavelength. The key assumes 500 nm and omits the 1.22 factor for a circular aperture. Including the factor still leaves A as the closest choice."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q19",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fixed charge’s potential doubles in magnitude at half the distance, giving $-2.4\\times10^{-4}\\ \\mathrm{J\\,C^{-1}}$ at the midpoint. The given potential and distance imply a fixed charge of about $-e$, so the alpha particle’s charge of $+2e$ contributes $+4.8\\times10^{-4}\\ \\mathrm{J\\,C^{-1}}$ there. Adding the signed potentials gives $+2.4\\times10^{-4}\\ \\mathrm{J\\,C^{-1}}$.",
+      "perOption": {
+        "A": "Uses the magnitude of the fixed charge’s potential at X without calculating the net midpoint potential.",
+        "B": "Correct.",
+        "C": "Includes only the alpha particle’s contribution.",
+        "D": "Adds the magnitudes of the two contributions despite their opposite signs."
+      }
+    },
+    "issues": "The key calls the fixed charge an electron. The printed question leaves its identity unspecified, but its magnitude and sign follow from the given potential and distance."
+  },
+  {
+    "id": "jpjc-2026-prelim-p1-q20",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the variable resistance is $r$, the voltage divider gives $V=Er/(r+r)=0.5E$ and $v=0.5E$. At $3r$, it gives $V=E(3r)/(3r+r)=0.75E$ and $v=0.25E$. Since $v+V=E$, the graph is the descending line segment joining these points.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows both voltages falling together, although their sum must stay at $E$.",
+        "C": "Reverses the coordinates of the endpoint at $3r$, making $V$ decrease as the load resistance rises.",
+        "D": "Shows both voltages increasing together, although their sum must stay at $E$."
+      }
+    },
+    "issues": null
+  }
+]

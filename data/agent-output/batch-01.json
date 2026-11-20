@@ -1,0 +1,608 @@
+[
+ {
+  "id": "acjc-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "nuclear-physics"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Needs the order of magnitude of a nuclear diameter and the speed of light, then one division.",
+  "misconception": "Confusing the size of the nucleus with the size of the atom",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "A hydrogen nucleus (a single proton) has a diameter of about $10^{-15}\\ \\mathrm{m}$.\n\n$t = \\dfrac{d}{c} \\approx \\dfrac{10^{-15}}{3\\times10^{8}} \\approx 3\\times10^{-24}\\ \\mathrm{s}$, so the best estimate is $10^{-23}\\ \\mathrm{s}$.",
+   "perOption": {
+    "A": "Far too long: light travels about 30 m in $10^{-7}\\ \\mathrm{s}$.",
+    "B": "Light travels about $3\\times10^{-7}\\ \\mathrm{m}$ in this time, far larger than a nucleus.",
+    "C": "Corresponds to about $3\\times10^{-10}\\ \\mathrm{m}$, roughly the size of an atom, not its nucleus.",
+    "D": "Correct. $10^{-15}\\ \\mathrm{m} \\div 3\\times10^{8}\\ \\mathrm{m\\,s^{-1}} \\sim 10^{-23}\\ \\mathrm{s}$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q2",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.f",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "statements"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Qualitative application of centre of gravity and the zero-torque condition.",
+  "misconception": "Thinking balance requires equal mass on each side or a support at the geometric centre",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The weight of the whole body acts at its centre of gravity. The body balances only if the line of action of the weight passes through the support, so the weight has zero moment about the support.\n\nThe support's normal force also acts through the support, so the resultant torque is zero and the resultant force (weight minus normal force) is zero.",
+   "perOption": {
+    "A": "For a non-uniform body, equal masses on each side do not give equal moments; it is moments, not masses, that must balance.",
+    "B": "A non-uniform body's centre of gravity is generally not at its geometric centre, so balancing there would leave a resultant torque.",
+    "C": "Correct. Weight acts through the pivot, so it has no moment about it.",
+    "D": "The force by the body on the support acts on the support, not on the body; equilibrium needs the support's force on the body to balance the weight (and zero torque)."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q3",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.i",
+   "quantities-and-measurement.j"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires resolving tensions vertically and reasoning about the small-angle limit.",
+  "misconception": "Assuming each string simply carries half the weight",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let each string make a small angle $\\theta$ with the horizontal. Resolving vertically at the junction: $2T\\sin\\theta = W$, so $T = \\dfrac{W}{2\\sin\\theta}$.\n\nSince the strings are almost horizontal, $\\sin\\theta$ is very small (less than $\\tfrac12$ once $\\theta < 30^\\circ$), so $T > W$.",
+   "perOption": {
+    "A": "$T$ can never be less than $W/2$; that would need $\\sin\\theta > 1$.",
+    "B": "$T = W/2$ only if the strings are vertical ($\\theta = 90^\\circ$), not almost horizontal.",
+    "C": "This range applies for $30^\\circ \\le \\theta < 90^\\circ$, not for nearly horizontal strings.",
+    "D": "Correct. $T = W/(2\\sin\\theta)$ and small $\\theta$ makes $T$ much larger than $W$."
+   }
+  },
+  "transcription": "A block of weight $W$ is suspended by two inextensible strings of equal length as shown. The strings are almost horizontal. [Diagram: two strings from a horizontal ceiling meet at a point just below the ceiling, each nearly horizontal; a short vertical string hangs from the junction to the block.] Which relationship between $W$ and the tension in one string $T$ is correct? A $T < \\frac{W}{2}$ B $T = \\frac{W}{2}$ C $\\frac{W}{2} < T \\le W$ D $T > W$",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q4",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "projectile-motion",
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.b",
+   "energy-and-fields.k",
+   "projectile-motion.d"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single energy-conservation equation linking GPE to elastic PE.",
+  "misconception": "Forgetting to square-root or forgetting the factor of 1/2 in elastic PE",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "All the gravitational PE lost becomes elastic PE in the spring (smooth surface, no losses):\n\n$mgh = \\tfrac12 kx^2 \\Rightarrow x = \\sqrt{\\dfrac{2mgh}{k}} = \\sqrt{\\dfrac{2(0.22)(9.81)(0.40)}{350}} = 7.0\\times10^{-2}\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "This is $x^2 = 4.9\\times10^{-3}\\ \\mathrm{m^2}$; the square root was not taken.",
+    "B": "Too small; comes from mishandling the units or the energy equation (e.g. using $h$ in cm wrongly or dropping a factor).",
+    "C": "Too small; results from an algebra slip in rearranging $\\tfrac12 kx^2 = mgh$.",
+    "D": "Correct. $x = \\sqrt{2mgh/k} = 0.070\\ \\mathrm{m}$."
+   }
+  },
+  "transcription": "A toy, of mass 0.22 kg, is released from rest on a smooth curved surface as shown. [Diagram: toy at the top of a smooth curved ramp, 40 cm above the flat bottom; the ramp levels out and leads to a horizontal spring fixed at the end.] It slides down the curved surface through a vertical distance of 40 cm and strikes a spring of force constant $350\\ \\mathrm{N\\,m^{-1}}$, and compresses it a distance $x$ before coming to rest momentarily. Assuming no energy loss, what is the value of $x$? A $4.9\\times10^{-3}$ m B $7.2\\times10^{-3}$ m C $2.2\\times10^{-2}$ m D $7.0\\times10^{-2}$ m",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q5",
+  "chapter": "projectile-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "projectile-motion.b"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "proportionality"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Standard idea that projectile motion without air resistance is independent of mass.",
+  "misconception": "Heavier objects fall faster",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Without air resistance, the only force is weight, so the acceleration is $g$ for any mass.\n\nVertical motion from the same height with zero initial vertical velocity gives the same time $t$; horizontal velocity $v$ is unchanged, so the range $d = vt$ is the same.",
+   "perOption": {
+    "A": "Correct. Mass does not affect the motion when air resistance is negligible.",
+    "B": "The horizontal velocity is the same and there is no horizontal force, so the range does not decrease.",
+    "C": "Acceleration is $g$ regardless of mass, so the heavier ball does not fall faster.",
+    "D": "Both time and distance are independent of mass; this assumes heavier objects fall faster."
+   }
+  },
+  "transcription": "A ball is projected off a cliff horizontally with velocity $v$. It lands on the ground a time $t$ later at a distance $d$ from the foot of the cliff as shown. Air resistance is negligible. [Diagram: ball at the top edge of a vertical cliff moving horizontally with velocity $v$; it lands at distance $d$ from the foot of the cliff.] If a heavier ball is projected off the same cliff with the same velocity, which row is correct for the heavier ball? (time to land; distance from foot of cliff) A $t$; $d$ B $t$; less than $d$ C less than $t$; $d$ D less than $t$; less than $d$",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q6",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "motion-and-forces.i",
+   "quantities-and-measurement.i"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires seeing that the seat supplies both the vertical support and the horizontal accelerating force, then combining vectors.",
+  "misconception": "Taking only the horizontal or only the vertical component of the contact force",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The seat must provide a vertical component $mg$ (to balance weight) and a horizontal component $ma = 0.50\\,mg$ (to accelerate the child).\n\n$F = \\sqrt{(mg)^2 + (0.50\\,mg)^2} = \\sqrt{1.25}\\,mg \\approx 1.1\\,mg$.",
+   "perOption": {
+    "A": "This is only the horizontal component that accelerates the child.",
+    "B": "This is only the vertical component that balances the weight.",
+    "C": "Correct. Vector sum of $mg$ and $0.50\\,mg$ is $1.1\\,mg$.",
+    "D": "Adds the two perpendicular components as scalars instead of as vectors."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q7",
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.b",
+   "circular-motion.e"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Choose the right form of the acceleration formula when the period is fixed.",
+  "misconception": "Using $a = v^2/r$ while treating $v$ as constant",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "With the period fixed, $\\omega = 2\\pi/T$ is unchanged.\n\n$a = r\\omega^2$, so doubling $r$ doubles $a$.",
+   "perOption": {
+    "A": "Results from thinking $a \\propto r^2$, e.g. using $v^2$ with $v \\propto r$ but forgetting to divide by $r$.",
+    "B": "Correct. $a = r\\omega^2$ with $\\omega$ constant.",
+    "C": "Uses $a = v^2/r$ with $v$ held constant; but at fixed period $v = 2\\pi r/T$ doubles.",
+    "D": "Ignores that $a$ depends on $r$ at constant $\\omega$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q8",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must express mass in terms of density and radius before applying g = GM/r².",
+  "misconception": "Ignoring that the larger star also has more mass",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$M = \\rho\\cdot\\tfrac43\\pi R^3$, so $g = \\dfrac{GM}{R^2} = \\tfrac43\\pi G\\rho R$.\n\nWith equal density, $g \\propto R$, so $g_A : g_B = 2 : 1$.",
+   "perOption": {
+    "A": "Uses $g \\propto 1/R^2$ with the same mass, ignoring that $M \\propto R^3$.",
+    "B": "Assumes $g \\propto 1/R$, ignoring that mass grows with volume.",
+    "C": "Correct. $g \\propto \\rho R$, so doubling $R$ doubles $g$.",
+    "D": "Compares masses ($M \\propto R^3$) and forgets to divide by $R^2$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q9",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "gravitational-fields.g",
+   "gravitational-fields.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Needs total orbital energy (KE + GPE) at both radii and careful handling of signs and small differences.",
+  "misconception": "Thinking that a slower satellite has lost energy, or using only KE or only GPE",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a circular orbit, total energy $E = -\\dfrac{GMm}{2r}$ (equivalently $E = -\\tfrac12 mv^2$).\n\n$\\Delta E = \\dfrac{GMm}{2}\\left(\\dfrac{1}{r_1} - \\dfrac{1}{r_2}\\right) = \\dfrac{(6.67\\times10^{-11})(6.0\\times10^{24})(690)}{2}\\left(\\dfrac{1}{6.5\\times10^6} - \\dfrac{1}{7.2\\times10^6}\\right) \\approx +2\\times10^{9}\\ \\mathrm{J}$.\n\nCheck: $\\tfrac12 m(7.9^2 - 7.5^2)\\times10^6 \\approx 2.2\\times10^9\\ \\mathrm{J}$. Total energy increases (becomes less negative) in a higher orbit.",
+   "perOption": {
+    "A": "Correct. Moving to a higher orbit raises total energy by about $2\\times10^9\\ \\mathrm{J}$.",
+    "B": "This is the gain in gravitational PE alone ($\\approx 4\\times10^9\\ \\mathrm{J}$), ignoring the loss of KE.",
+    "C": "This is the loss in KE alone; total energy actually increases.",
+    "D": "Wrong sign and magnitude: total energy rises when moving to a higher orbit, and no combination gives this loss."
+   }
+  },
+  "transcription": "A satellite of mass $6.9\\times10^{2}$ kg orbits the Earth in a circular orbit of radius $6.5\\times10^{6}$ m. Its orbital speed is $7.9\\ \\mathrm{km\\,s^{-1}}$. A rocket engine is fired such that the satellite moves into a higher orbit of radius $7.2\\times10^{6}$ m where its orbital speed decreases to $7.5\\ \\mathrm{km\\,s^{-1}}$. Which statement about the change in total energy of the satellite is correct? Mass of the Earth $= 6.0\\times10^{24}$ kg. A The satellite gains approximately $2\\times10^{9}$ J. B The satellite gains approximately $4\\times10^{9}$ J. C The satellite loses approximately $2\\times10^{9}$ J. D The satellite loses approximately $6\\times10^{9}$ J.",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q10",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.c",
+   "oscillations.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct substitution into the SHM energy formula with unit conversions.",
+  "misconception": "Using frequency f instead of angular frequency ω",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Total energy equals maximum KE: $E = \\tfrac12 m\\omega^2 x_0^2$ with $\\omega = 2\\pi f = 2\\pi(40) = 251\\ \\mathrm{rad\\,s^{-1}}$.\n\n$E = \\tfrac12(8.0\\times10^{-3})(251)^2(5.0\\times10^{-3})^2 = 6.3\\times10^{-3}\\ \\mathrm{J} = 6.3\\ \\mathrm{mJ}$.",
+   "perOption": {
+    "A": "Uses $f = 40$ in place of $\\omega = 2\\pi f$.",
+    "B": "Correct. $E = \\tfrac12 m(2\\pi f)^2 x_0^2 = 6.3\\ \\mathrm{mJ}$.",
+    "C": "Omits the factor $\\tfrac12$ in $E = \\tfrac12 m\\omega^2 x_0^2$.",
+    "D": "Far too large; results from a unit-conversion error with the mass or amplitude."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q11",
+  "chapter": "oscillations",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "oscillations.j",
+   "wave-motion.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must link resonance to the natural frequency and then combine with a given wave-speed formula.",
+  "misconception": "Not recognising that maximum amplitude means driving frequency equals natural frequency",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Maximum amplitude is resonance, so the wave frequency equals the cork's natural frequency: $f = 1/0.12 = 8.3\\ \\mathrm{Hz}$.\n\n$v = \\sqrt{gd} = \\sqrt{9.81\\times0.30} = 1.72\\ \\mathrm{m\\,s^{-1}}$.\n\n$\\lambda = \\dfrac{v}{f} = vT = 1.72\\times0.12 = 0.21\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Too small by a factor of 3; results from an arithmetic or formula error (e.g. not taking the square root properly).",
+    "B": "Too small; results from using a wrong frequency (e.g. treating 0.12 s as a half-period or similar slip).",
+    "C": "Correct. $\\lambda = \\sqrt{gd}\\times T = 0.21\\ \\mathrm{m}$.",
+    "D": "Too large; results from a wrong speed or frequency, e.g. not matching $f$ to the natural frequency."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q12",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.b",
+   "wave-motion.e",
+   "wave-motion.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Two simultaneous changes (amplitude via intensity ∝ A², and period) must be read off grids.",
+  "misconception": "Thinking amplitude is proportional to intensity rather than its square root",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Half the frequency means double the period: the original shows two cycles across the grid, so the new wave shows one cycle.\n\nIntensity $\\propto$ amplitude$^2$, so doubling intensity multiplies amplitude by $\\sqrt2 \\approx 1.4$. The original amplitude is 1 grid square, so the new amplitude is about 1.4 squares, as in B.",
+   "perOption": {
+    "A": "Period is right but the amplitude is doubled (2 squares), which would mean $4\\times$ the intensity.",
+    "B": "Correct. One cycle across the grid and amplitude about $1.4$ squares.",
+    "C": "Frequency has been doubled instead of halved, and amplitude doubled instead of scaled by $\\sqrt2$.",
+    "D": "Amplitude is about right but the frequency has been doubled instead of halved."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q13",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.i",
+   "wave-motion.j"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard two-polariser Malus' law calculation.",
+  "misconception": "Forgetting that the first polariser halves unpolarised light, or using cos instead of cos²",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The first polariser transmits half of unpolarised light: $I_1 = \\tfrac12 I_o$.\n\nMalus' law at the second: $I_2 = I_1\\cos^2 60^\\circ = \\tfrac12 I_o\\times\\tfrac14 = \\tfrac18 I_o$.",
+   "perOption": {
+    "A": "Correct. $\\tfrac12 I_o\\cos^2 60^\\circ = \\tfrac18 I_o$.",
+    "B": "Uses $\\cos 60^\\circ$ instead of $\\cos^2 60^\\circ$, or forgets the first halving: $I_o\\cos^2 60^\\circ = \\tfrac14 I_o$.",
+    "C": "Uses $\\sin^2 60^\\circ = \\tfrac34$ instead of $\\cos^2 60^\\circ$.",
+    "D": "This is the intensity after the first polariser only."
+   }
+  },
+  "transcription": "Unpolarised light of intensity $I_o$ is incident on a polariser. The transmitted light is then incident on a second polariser whose transmission axis is at 60° to the first. What is the intensity, in terms of $I_o$, of the light transmitted through the second polariser? A $\\frac{1}{8}I_o$ B $\\frac{1}{4}I_o$ C $\\frac{3}{8}I_o$ D $\\frac{1}{2}I_o$",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q14",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.l"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Small-angle single-slit relation with two simultaneous factor changes.",
+  "misconception": "Thinking the two changes cancel",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "First minimum: $b\\sin\\theta = \\lambda$, so for small angles the central maximum width is $\\approx \\dfrac{2\\lambda D}{b}$.\n\nDoubling $\\lambda$ and halving $b$ multiplies the width by $2\\times2 = 4$, giving $4x$.",
+   "perOption": {
+    "A": "Treats width as $\\propto b/\\lambda$ (inverted relation).",
+    "B": "Assumes the two changes cancel; both actually increase the width.",
+    "C": "Accounts for only one of the two changes.",
+    "D": "Correct. Width $\\propto \\lambda/b$, which increases by a factor of 4."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q15",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires recognising that sin θ, not θ, scales with order, and recalling that higher orders are dimmer.",
+  "misconception": "Assuming $\\theta \\propto n$ rather than $\\sin\\theta \\propto n$",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a grating, $d\\sin\\theta = n\\lambda$, so $\\sin\\theta_2 = 2\\sin\\theta_1$.\n\nSince $\\sin\\theta$ grows more slowly than $\\theta$, $\\theta_2 > 2\\theta_1$ (e.g. $\\sin\\theta_1 = 0.4$ gives $\\theta_1 = 23.6^\\circ$, $\\theta_2 = 53.1^\\circ$).\n\nHigher orders are dimmer because the single-slit diffraction envelope falls off away from the centre.",
+   "perOption": {
+    "A": "Assumes $\\theta \\propto n$ and equal intensities; both are wrong.",
+    "B": "Intensity is right, but $\\theta_2 = 2\\theta_1$ wrongly assumes $\\theta$ (not $\\sin\\theta$) is proportional to $n$.",
+    "C": "Angle relation is right, but the second order is dimmer, not equally bright.",
+    "D": "Correct. $\\sin\\theta_2 = 2\\sin\\theta_1$ gives $\\theta_2 > 2\\theta_1$, and higher orders are dimmer."
+   }
+  },
+  "transcription": "Monochromatic light is incident normally on a diffraction grating. First and second order images are observed at angles of diffraction $\\theta_1$ and $\\theta_2$ respectively. [Diagram: monochromatic light incident normally on a vertical grating; diffracted beams to a screen labelled n = 0, n = 1 and n = 2 on each side, with $\\theta_1$ and $\\theta_2$ measured from the central n = 0 direction.] What is the relation between the angles of diffraction and between the intensities of light in the two orders? (angles of diffraction; intensities) A $\\theta_2 = 2\\theta_1$; same B $\\theta_2 = 2\\theta_1$; second order dimmer C $\\theta_2 > 2\\theta_1$; same D $\\theta_2 > 2\\theta_1$; second order dimmer",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q16",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.m"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Rayleigh criterion plus small-angle geometry with unit conversions.",
+  "misconception": "Unit/power-of-ten errors with km and nm",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Rayleigh criterion: $\\theta \\approx \\dfrac{\\lambda}{b} = \\dfrac{500\\times10^{-9}}{0.35} = 1.43\\times10^{-6}\\ \\mathrm{rad}$.\n\nSmallest resolvable separation on the ground: $s = h\\theta = (200\\times10^{3})(1.43\\times10^{-6}) \\approx 0.29\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Power-of-ten error, e.g. leaving the altitude in km instead of converting to m.",
+    "B": "Half the correct value; for example uses $2b$ or takes half the separation.",
+    "C": "Correct. $s = h\\lambda/b = 0.29\\ \\mathrm{m}$.",
+    "D": "Ten times too large; a power-of-ten slip in converting the altitude or wavelength."
+   }
+  },
+  "transcription": "The lens of a spy satellite orbiting at 200 km has a diameter of 35 cm. What is the shortest distance this camera can resolve on the surface of the Earth if a wavelength of 500 nm is used? A $2.9\\times10^{-4}$ m B 0.14 m C 0.29 m D 2.9 m",
+  "issues": "Minor: a stray fragment (looks like part of a page number '1') appears at the bottom of the crop; question content is complete. The extracted text has option A's exponent missing ('2.9 × 10^-' ); the image shows $2.9\\times10^{-4}$ m."
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q17",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.e",
+   "temperature-and-ideal-gases.f"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "statements"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recall of kinetic theory assumptions with one invalid statement to spot.",
+  "misconception": "Confusing elastic collisions (no KE change) with no momentum change",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The pressure in kinetic theory comes precisely from the change of momentum ($2mu$ per collision) when molecules rebound elastically from the walls.\n\nSo 'negligible change of momentum on collision with the walls' contradicts the model; the other three are standard assumptions.",
+   "perOption": {
+    "A": "This is a valid assumption (no intermolecular forces except during collisions).",
+    "B": "This is a valid assumption (molecules treated as point particles).",
+    "C": "This is a valid assumption (collisions are effectively instantaneous).",
+    "D": "Correct. Each wall collision reverses the normal velocity, a momentum change of $2mu$; this is what creates pressure."
+   }
+  },
+  "transcription": "In deriving the equation $p = \\frac{1}{3}\\rho\\langle c^2\\rangle$ in the simple kinetic theory of gases, which statement is not taken as a valid assumption? A Attractive forces between the molecules are negligible. B The volume of the molecules is negligible compared with the volume of the gas. C The duration of a collision is negligible compared with the time between collisions. D The molecules suffer negligible change of momentum on collision with the walls of the container.",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q18",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.b",
+   "temperature-and-ideal-gases.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct ideal-gas ratio calculation with a Celsius-to-kelvin conversion.",
+  "misconception": "Using Celsius temperatures instead of kelvin",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a fixed amount of gas, $\\dfrac{p_1V_1}{T_1} = \\dfrac{p_2V_2}{T_2}$ with temperatures in kelvin.\n\n$p_2 = p_1\\cdot\\dfrac{V_1}{V_2}\\cdot\\dfrac{T_2}{T_1} = (1.0\\times10^{5})\\cdot\\dfrac12\\cdot\\dfrac{298}{323} = 4.6\\times10^{4}\\ \\mathrm{Pa}$.",
+   "perOption": {
+    "A": "Too small; results from compounding errors in the ratios (e.g. mishandling the temperature conversion as well as halving for the volume).",
+    "B": "Uses Celsius: $(1.0\\times10^5)\\times\\tfrac12\\times\\tfrac{25}{50} = 2.5\\times10^4\\ \\mathrm{Pa}$.",
+    "C": "Correct. $p_2 = 1.0\\times10^5\\times\\tfrac12\\times\\tfrac{298}{323}$.",
+    "D": "Inverts the volume ratio (multiplies by 2 instead of dividing)."
+   }
+  },
+  "transcription": "A cylinder, closed by a moveable piston, contains an ideal gas at 50 °C and atmospheric pressure $1.0\\times10^{5}$ Pa. The piston is moved out until the volume of the gas doubles and the temperature falls to 25 °C. What is the new pressure of the gas in the cylinder? A $1.6\\times10^{4}$ Pa B $2.5\\times10^{4}$ Pa C $4.6\\times10^{4}$ Pa D $1.9\\times10^{5}$ Pa",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q19",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "energy-and-fields.h",
+   "energy-and-fields.i",
+   "electric-fields.c"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires reading start and end equipotentials of each path and knowing work is path-independent.",
+  "misconception": "Thinking work done depends on the length of the path taken",
+  "derivedAnswer": "B",
+  "confidence": "low",
+  "explanation": {
+   "body": "Work done on a charge in an electric field depends only on the potential difference between start and end points ($W = q\\Delta V$), not on the path. Moving along an equipotential needs no work.\n\nIn the diagram all three paths start on the outer equipotential (P lies on it; Y and Z first travel along it). Y and Z end on the middle equipotential, but X ends on the innermost one, which is at a higher potential. So $W_X > W_Y = W_Z$.\n\nThe answer key gives C ($W_X = W_Y = W_Z$), which would be correct only if all three paths ended on the same equipotential.",
+   "perOption": {
+    "A": "Assumes longer paths need more work; work is path-independent.",
+    "B": "Correct (by the diagram as printed). X ends on a higher-potential surface; Y and Z start and end on the same pair of surfaces.",
+    "C": "Key's answer: true only if X also ended on the middle equipotential; as drawn, X goes further in.",
+    "D": "Reverses the relationship and still treats path length as relevant."
+   }
+  },
+  "transcription": "The diagram shows a positive charge Q with dotted lines showing equipotential surfaces. [Diagram: +Q at the centre of three concentric dashed equipotential circles. P is on the outer circle at the right. Path X goes radially inward from P to the innermost circle. Path Y follows the outer circle a quarter turn to the top, then goes radially inward to the middle circle. Path Z follows the outer circle three-quarters of the way round to the left, then goes radially inward to the middle circle.] A small positive charge is moved from point P closer to the charge Q along three different paths X, Y and Z. The work done along each path is $W_X$, $W_Y$ and $W_Z$. Which relationship is correct? A $W_Z > W_Y > W_X$ B $W_X > W_Y = W_Z$ C $W_X = W_Y = W_Z$ D $W_Z = W_Y > W_X$",
+  "issues": "Answer disagreement: key says C, derived B. In the image, path X's arrowhead ends on the innermost equipotential while Y and Z end on the middle one, so W_X > W_Y = W_Z. Either the key is wrong or the diagram was drawn differently from the intended question (X ending on the middle circle would make C correct). Needs human check against the original paper/key."
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q20",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recall that field strength is the negative potential gradient, read at a point on a graph.",
+  "misconception": "Using V/x instead of the gradient, or dropping the minus sign",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Electric field strength equals the negative potential gradient: $E = -\\dfrac{dV}{dx}$.\n\nAt P, $E$ is minus the gradient of the tangent to the curve at $x = D$. Since $V$ decreases with $x$, $dV/dx$ is negative and $E$ is positive (outward).",
+   "perOption": {
+    "A": "$V/x$ is the gradient of the line from the origin, not the tangent, and ignores the sign; $V \\ne Ex$ in a non-uniform field.",
+    "B": "Uses the chord from the origin rather than the tangent gradient at P.",
+    "C": "Missing the minus sign: field points in the direction of decreasing potential.",
+    "D": "Correct. $E = -dV/dx$ evaluated at P."
+   }
+  },
+  "transcription": "The graph shows the variation of the electric potential $V$ with distance $x$ from a charged sphere. The radius of the sphere is $R$. [Graph: $V$ against $x$ starting at $x = R$, decreasing curve flattening out; point P on the curve at $x = D$ with potential $V_D$ marked by dashed lines.] What is the electric field strength at point P a distance $D$ from the centre? A $\\frac{V_D}{D}$ B $-\\frac{V_D}{D}$ C $\\frac{dV}{dx}$ at P D $-\\frac{dV}{dx}$ at P",
+  "issues": null
+ }
+]

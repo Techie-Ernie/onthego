@@ -1,0 +1,624 @@
+[
+ {
+  "id": "njc-2026-prelim-p1-q22",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electric-fields.j",
+   "currents.a"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "One substitution of Q = It into C = Q/V with prefix handling.",
+  "misconception": "Prefix or power-of-ten slip with micro/milli",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Charge delivered by a constant current: $Q = It = (2.5\\times10^{-6})(200) = 5.0\\times10^{-4}\\ \\mathrm{C}$.\n\nCapacitance: $C = \\dfrac{Q}{V} = \\dfrac{5.0\\times10^{-4}}{5.0} = 1.0\\times10^{-4}\\ \\mathrm{F} = 100\\ \\mu\\mathrm{F}$.",
+   "perOption": {
+    "A": "Off by a factor of 2.5; dividing $200/5.0$ and ignoring the current value gives 40.",
+    "B": "Correct. $C = It/V = 100\\ \\mu\\mathrm{F}$.",
+    "C": "Wrong factor and wrong prefix (milli instead of micro).",
+    "D": "Treats the current as $2.5\\ \\mathrm{mA}$ instead of $2.5\\ \\mu\\mathrm{A}$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q23",
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "circuits.k"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognise two groups of three parallel capacitors joined in series.",
+  "misconception": "Confusing series and parallel combination rules for capacitors",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "In each box the three capacitors share the same two vertical wires, so they are in parallel: $3C$ per group.\n\nThe two groups are joined in series: $\\dfrac{1}{C_T} = \\dfrac{1}{3C}+\\dfrac{1}{3C}$, so $C_T = \\dfrac{3}{2}C$.",
+   "perOption": {
+    "A": "Treats all six capacitors as being in series.",
+    "B": "Treats each group as series ($C/3$) and the two groups as parallel.",
+    "C": "Correct. Two $3C$ parallel groups in series give $1.5C$.",
+    "D": "Treats all six capacitors as being in parallel."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q24",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.k",
+   "electromagnetic-forces.l",
+   "electromagnetic-forces.m"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must realise the velocity selector fixes equal speeds, then use r = mv/(qB) as a ratio.",
+  "misconception": "Assuming the ions have equal kinetic energy or forgetting both mass and charge change",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Ions leave a velocity selector undeviated only if $v = E/B$, so P and Q have the same speed.\n\nIn the magnetic field $Bqv = \\dfrac{mv^2}{r}$, so $r = \\dfrac{mv}{qB} \\propto \\dfrac{m}{q}$.\n\n$r_Q = 3.7 \\times \\dfrac{1.5}{2} = 2.8\\ \\mathrm{cm}$.",
+   "perOption": {
+    "A": "Uses $r \\propto m/q^2$ or similar wrong combination, shrinking the radius too much.",
+    "B": "Correct. $r \\propto m/q$ at fixed $v$.",
+    "C": "Inverts the ratio, using $q/m$ ($3.7\\times 2/1.5$).",
+    "D": "Multiplies by both factors ($3.7\\times2\\times1.5$) instead of taking $m/q$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q25",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "electromagnetic-forces",
+   "oscillations"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-forces.f",
+   "oscillations.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Combines F = BIL to find BL, SHM maximum speed, and motional e.m.f. BLv.",
+  "misconception": "Using amplitude or frequency directly as the speed instead of v0 = ωx0",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "From the force: $BL = \\dfrac{F}{I} = \\dfrac{10\\times10^{-3}}{5.0} = 2.0\\times10^{-3}\\ \\mathrm{T\\,m}$.\n\nThe wire moves in SHM, so its maximum speed is $v_0 = \\omega x_0 = 2\\pi(90)(1.8\\times10^{-3}) = 1.02\\ \\mathrm{m\\,s^{-1}}$.\n\nMaximum e.m.f.: $E = BLv_0 = (2.0\\times10^{-3})(1.02) \\approx 2.0\\ \\mathrm{mV}$.",
+   "perOption": {
+    "A": "Uses $v = f x_0$ (omits $2\\pi$), giving $0.32\\ \\mathrm{mV}$.",
+    "B": "Correct. $E_{max} = BL\\omega x_0$.",
+    "C": "Omits $2\\pi$ and also slips a factor of 1000 in the units of force.",
+    "D": "Takes the force as $10\\ \\mathrm{N}$ instead of $10\\ \\mathrm{mN}$."
+   }
+  },
+  "transcription": "A wire connected to a d.c. power supply is positioned between the poles of a U-shaped magnet. The wire is at right angles to a uniform magnetic field between the poles and there is no field outside the poles. [Diagram: wire carrying 5.0 A passing between south and north poles of a U-shaped magnet; top view shows field lines from north to south across the wire.] When the current in the wire is 5.0 A, the force on the wire due to the magnetic field is 10 mN. The wire is now disconnected from the power supply. The wire is made to vibrate vertically with an amplitude of $1.8\\times10^{-3}\\ \\mathrm{m}$ and a frequency of 90 Hz. The segment of wire between the poles remains horizontal during the vibration. [Diagram: wire vibrating vertically between the poles, dashed lines showing its extreme positions.] What is the maximum e.m.f. induced across the wire? A $0.32\\ \\mathrm{mV}$ B $2.0\\ \\mathrm{mV}$ C $0.32\\ \\mathrm{V}$ D $2.0\\ \\mathrm{V}$",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q26",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-induction.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Needs E0 = NBAω so doubling frequency doubles both peak e.m.f. and frequency.",
+  "misconception": "Thinking only the frequency changes and the peak e.m.f. stays the same",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a rotating coil, $E = NBA\\omega\\sin\\omega t$, so the peak e.m.f. $E_0 = NBA\\omega$ is proportional to the rotation frequency.\n\nDoubling the frequency halves the period and doubles the peak to $2E_0$. Graph D shows twice as many cycles with twice the amplitude.",
+   "perOption": {
+    "A": "Doubles the amplitude but keeps the same period.",
+    "B": "Halves the amplitude while doubling the frequency.",
+    "C": "Doubles the frequency but keeps the same amplitude, forgetting $E_0 \\propto \\omega$.",
+    "D": "Correct. Both peak e.m.f. and frequency double."
+   }
+  },
+  "transcription": "A coil with N turns is placed in a uniform magnetic field. The area of the coil is initially perpendicular to the field, as shown in diagram (a). [Diagram (a): flat coil with ends X and Y, vertical field lines passing through it, axis of rotation in the plane of the coil.] The coil is rotated around the axis and the induced e.m.f. E between X and Y varies with time t as shown in diagram (b). [Diagram (b): sinusoidal E–t graph starting at zero, peaks $\\pm E_0$, about two cycles.] $E_0$ is the magnitude of the maximum induced e.m.f. Which diagram best represents how E varies with t if the frequency of rotation is doubled and the magnetic flux density remains the same? The dotted line shows the graph in diagram (b) for comparison. [A: same frequency, larger amplitude. B: double frequency, smaller amplitude. C: double frequency, same amplitude. D: double frequency, double amplitude.]",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q27",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.a",
+   "quantum-physics.b"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Standard photoelectric fact: intensity affects photon rate only.",
+  "misconception": "Believing light intensity changes the threshold frequency or electron energy",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The threshold frequency $f_0 = \\Phi/h$ depends only on the work function of the metal, so it is unchanged.\n\nAt the same frequency, greater intensity means more photons per second arriving, so more electrons are emitted per second.",
+   "perOption": {
+    "A": "Threshold frequency is a property of the metal and does not change; also more photons means more electrons.",
+    "B": "Threshold frequency is a property of the metal and does not depend on intensity.",
+    "C": "Higher intensity means more photons per second, so more electrons are emitted.",
+    "D": "Correct. Threshold unchanged; emission rate increases."
+   }
+  },
+  "transcription": "When light of a certain frequency and intensity is incident on europium metal, electrons are emitted (photoelectric effect). If the intensity of the light is increased and the frequency remains unchanged, which describes the changes observed? [Table: threshold frequency of europium / number of electrons emitted] A decreases / remains the same B decreases / increases C remains the same / remains the same D remains the same / increases",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.a",
+   "quantum-physics.b"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Convert both wavelengths to photon energies and compare against two work functions in an unfamiliar electroscope setup.",
+  "misconception": "Thinking shorter wavelength light always causes emission regardless of work function",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Photon energies: $E = \\dfrac{hc}{\\lambda}$. Blue ($450\\ \\mathrm{nm}$): $E \\approx 2.8\\ \\mathrm{eV}$. Red ($650\\ \\mathrm{nm}$): $E \\approx 1.9\\ \\mathrm{eV}$.\n\nPotassium ($2.3\\ \\mathrm{eV}$): only blue light releases electrons, so the leaf rises for blue only.\n\nAluminium ($4.3\\ \\mathrm{eV}$): neither photon has enough energy, so the leaf never rises.",
+   "perOption": {
+    "A": "Blue photons ($2.8\\ \\mathrm{eV}$) are below aluminium's $4.3\\ \\mathrm{eV}$, so no emission from aluminium.",
+    "B": "Correct. Only blue light on potassium gives emission.",
+    "C": "Reverses the wavelength–energy relation, thinking red photons are more energetic.",
+    "D": "Reverses the wavelength–energy relation for potassium and wrongly allows emission from aluminium."
+   }
+  },
+  "transcription": "A student is given a gold-leaf electroscope and two light sources of wavelength 450 nm (blue) and 650 nm (red) to investigate the photoelectric effect of potassium and aluminium. She places the metal on the electroscope, neutralises it, and shines one of the lights on the metal. If the metal emits electrons, the gold leaf rises. [Diagram: gold-leaf electroscope with metal disc on top, metal under test placed on the disc, light incident on it.] Minimum energy to release electrons: potassium 2.3 eV, aluminium 4.3 eV. Which gives the correct observation? [Table: potassium red / potassium blue / aluminium red / aluminium blue] A does not rise / rise / does not rise / rise B does not rise / rise / does not rise / does not rise C rise / does not rise / rise / rise D rise / does not rise / rise / does not rise",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q29",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "nuclear-physics.a"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires knowing that the closer alpha particle feels greater repulsion and is deflected more.",
+  "misconception": "Thinking alpha particles are attracted to the nucleus or that farther particles deflect more",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The alpha particles and the gold nucleus are both positive, so the paths bend away from the nucleus.\n\nThe particle passing closer to the nucleus feels a stronger Coulomb repulsion and is deflected through a larger angle. In A the lower (closer) path is deflected more steeply than the upper path.",
+   "perOption": {
+    "A": "Correct. Both repelled; the closer particle is deflected more.",
+    "B": "The upper particle is shown undeflected, but it would still feel some repulsion and bend slightly.",
+    "C": "Both paths are deflected by the same angle despite different distances from the nucleus.",
+    "D": "Shows the paths bending towards the nucleus, as if attracted."
+   }
+  },
+  "transcription": "Two $\\alpha$-particles with equal energies are fired towards the nucleus of a gold atom. Which diagram could represent their paths? [A: two parallel paths above the nucleus both deflected upward away from it, the lower (closer) one more sharply. B: upper path undeflected, lower path deflected upward. C: both paths deflected upward by the same angle. D: both paths bend downward towards/around the nucleus.]",
+  "issues": null
+ },
+ {
+  "id": "njc-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.j",
+   "nuclear-physics.i"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must read P's half-life directly and find D1's half-life from its tail after P has decayed.",
+  "misconception": "Reading D1's half-life from its peak or from the start rather than its exponential tail",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "P starts at its maximum and falls to half that value at about $t = 3$ years, so $t_{1/2}(\\mathrm{P}) \\approx 3$ years.\n\nAfter about 15 years almost all of P has decayed, so D1 simply decays exponentially. Its number halves every 15 years, e.g. from about $t = 20$ to $t = 35$ years and again to about $t = 50$ years.",
+   "perOption": {
+    "A": "20 years is not the halving time of D1's tail; it is close to where D1 crosses D2.",
+    "B": "Correct. P halves in about 3 years; D1's tail halves every 15 years.",
+    "C": "6 years is roughly two half-lives of P (quarter of the initial value).",
+    "D": "6 years for P reads the time to fall to a quarter, not a half."
+   }
+  },
+  "transcription": "For many unstable parent nuclei, the daughter product is itself radioactive. Initially only the parent isotope P is present. P decays into daughter $D_1$, which decays to form $D_2$. [Graph: number of nuclei against time/years from 0 to 60. P falls exponentially from its maximum, reaching half at about 3 years. $D_1$ rises to a peak at about 9 years then decays slowly. $D_2$ rises steadily towards the initial number.] Which correctly describes the half-lives of P and $D_1$? A 3 years, 20 years B 3 years, 15 years C 6 years, 20 years D 6 years, 15 years",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.c",
+   "quantities-and-measurement.d"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Single rearrangement of SI base units.",
+  "misconception": "Forgetting that angular speed has unit $\\mathrm{s^{-1}}$ or misexpressing the joule",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Energy has unit $\\mathrm{J} = \\mathrm{kg\\,m^2\\,s^{-2}}$ and $\\omega$ has unit $\\mathrm{s^{-1}}$ (radians are dimensionless).\n\n$k = \\dfrac{2E}{\\omega^2}$ has unit $\\dfrac{\\mathrm{kg\\,m^2\\,s^{-2}}}{\\mathrm{s^{-2}}} = \\mathrm{kg\\,m^2}$.",
+   "perOption": {
+    "A": "Correct. $k$ is the moment of inertia, unit $\\mathrm{kg\\,m^2}$.",
+    "B": "This is the unit of momentum, not $E/\\omega^2$.",
+    "C": "This is the unit of force; it uses the wrong unit for energy.",
+    "D": "Multiplies by $\\omega^2$ instead of dividing."
+   }
+  },
+  "transcription": "The kinetic energy E of an object rotating about its centre of mass is $E = \\frac{1}{2}k\\omega^2$, where $\\omega$ is the angular speed of rotation and k is a constant. What is the unit for k? A $\\mathrm{kg\\,m^2}$ B $\\mathrm{kg\\,m\\,s^{-1}}$ C $\\mathrm{kg\\,m\\,s^{-2}}$ D $\\mathrm{kg\\,m^2\\,s^{-4}}$",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q2",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "practical",
+  "types": [
+   "practical",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Compare fractional uncertainties with the power of D, and ignore the irrelevant R.",
+  "misconception": "Comparing absolute instead of fractional uncertainties, or including irrelevant data",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\rho = \\dfrac{m}{V} = \\dfrac{4m}{\\pi D^2 t}$, so $\\dfrac{\\Delta\\rho}{\\rho} = \\dfrac{\\Delta m}{m} + 2\\dfrac{\\Delta D}{D} + \\dfrac{\\Delta t}{t}$.\n\nContributions: $m$: $0.5/265.2 = 0.2\\%$; $D$: $2\\times0.1/10.3 = 1.9\\%$; $t$: $0.02/1.36 = 1.5\\%$. $D$ contributes the most.",
+   "perOption": {
+    "A": "Mass has the smallest fractional uncertainty (about $0.2\\%$).",
+    "B": "Correct. $2\\Delta D/D \\approx 1.9\\%$ is the largest.",
+    "C": "$\\Delta t/t \\approx 1.5\\%$ is close but smaller than the doubled contribution from $D$.",
+    "D": "Resistance is not used to calculate density, so it contributes nothing."
+   }
+  },
+  "transcription": "The following measurements were taken of a uniform metal disc: mass $m = (265.2 \\pm 0.5)$ g, diameter $D = (10.3 \\pm 0.1)$ cm, thickness $t = (1.36 \\pm 0.02)$ cm, electrical resistance $R = (20 \\pm 1)\\ \\Omega$. The density $\\rho$ of the disc is determined using the above measurements. Which measurement contributes the most to the uncertainty of $\\rho$? A m B D C t D R",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q3",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.k",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Must use extensions from natural length, not the change in length directly.",
+  "misconception": "Using the 10 mm change in length as the extension",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Extensions are measured from the natural length: $x_1 = 5\\ \\mathrm{mm}$, $x_2 = 15\\ \\mathrm{mm}$.\n\n$\\Delta E = \\tfrac{1}{2}k(x_2^2 - x_1^2) = \\tfrac{1}{2}(380)(0.015^2 - 0.005^2) = 0.038\\ \\mathrm{J}$.",
+   "perOption": {
+    "A": "Uses $\\tfrac{1}{2}k(0.010)^2$, taking the 10 mm change as the extension.",
+    "B": "Correct. $\\tfrac{1}{2}k(x_2^2 - x_1^2)$.",
+    "C": "Omits the factor $\\tfrac{1}{2}$ in $\\tfrac{1}{2}kx^2$.",
+    "D": "Uses lengths 50 and 60 mm instead of extensions from 45 mm, or a similar extension error."
+   }
+  },
+  "transcription": "A spring obeying Hooke's law has an unstretched length of 45 mm and a spring constant of $380\\ \\mathrm{N\\,m^{-1}}$. What is the increase in the elastic potential energy of the spring when its length increases from 50 mm to 60 mm? A 0.019 J B 0.038 J C 0.076 J D 0.21 J",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q4",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.d",
+   "forces-and-moments.e",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Tests precise conditions for equilibrium and properties of a couple.",
+  "misconception": "Believing zero resultant force alone guarantees equilibrium",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "A couple consists of two equal, opposite, parallel forces with zero resultant. Its torque is $Fd$, where $d$ is the perpendicular separation of the forces, and this is the same about any point.",
+   "perOption": {
+    "A": "Zero resultant force does not rule out a resultant torque (e.g. a couple), and the body could also be moving at constant velocity.",
+    "B": "Correct. The torque of a couple is $Fd$ about any point.",
+    "C": "Concurrent lines of action give zero torque, but the forces must also sum to zero for equilibrium.",
+    "D": "If the two forces act along the same line, there is no turning effect."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q5",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "collisions"
+  ],
+  "outcomes": [
+   "motion-and-forces.b",
+   "motion-and-forces.c"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must deduce the sign convention (downward positive) from the graph before judging each statement.",
+  "misconception": "Assuming upward is positive and so misreading which point is the maximum upward velocity",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The ball starts from rest and its velocity becomes increasingly positive as it falls, so downward is positive here.\n\nQ is the maximum downward velocity just before the first impact. The maximum upward velocity is just after the bounce, at R (largest negative value).\n\nSo D is the incorrect statement. A, B and C are true: area under PQ is the fall distance, speed after each bounce is less than before (KE lost), and the gradient of every straight segment is $g$.",
+   "perOption": {
+    "A": "True: the area under PQ is the distance fallen from rest, i.e. the initial height.",
+    "B": "True: the rebound speed at R is less than the impact speed at Q, so kinetic energy is lost.",
+    "C": "True: between bounces only gravity acts, so the gradient is $g$.",
+    "D": "Correct (this statement is false). Q is the maximum downward velocity; the maximum upward velocity is at R."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q6",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "collisions"
+  ],
+  "outcomes": [
+   "energy-and-fields.l",
+   "energy-and-fields.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must model mass flow rate ρAv and the rate of KE transfer, with area from diameter.",
+  "misconception": "Using radius-diameter confusion or forgetting the ½ in kinetic energy",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Mass of air pushed down per second: $\\dfrac{dm}{dt} = \\rho A v = \\rho\\left(\\dfrac{\\pi D^2}{4}\\right)v$.\n\nPower = rate of KE given to the air: $P = \\tfrac{1}{2}\\dfrac{dm}{dt}v^2 = \\tfrac{1}{2}\\rho\\dfrac{\\pi D^2}{4}v^3 = \\dfrac{1}{8}\\pi\\rho D^2 v^3$.",
+   "perOption": {
+    "A": "Correct. $P = \\tfrac{1}{2}(\\rho A v)v^2$ with $A = \\pi D^2/4$.",
+    "B": "Uses $A = \\pi D^2$, treating the diameter as the radius.",
+    "C": "Omits the $\\tfrac{1}{2}$ in kinetic energy, giving $Fv = \\rho A v^3$.",
+    "D": "Gives $\\rho A v^2$, which is the force (rate of change of momentum), not power."
+   }
+  },
+  "transcription": "A helicopter hovers stationary in mid-air. Its rotor blades sweep out a circular path of diameter D and push down a continuous column of air of density $\\rho$ at a uniform speed v. The air above the blades is stationary. [Diagram: helicopter with rotor span D.] Which expression represents the average power P delivered to the air column by the blades? A $\\frac{1}{8}\\pi\\rho D^2v^3$ B $\\frac{1}{2}\\pi\\rho D^2v^3$ C $\\frac{1}{4}\\pi\\rho D^2v^3$ D $\\frac{1}{4}\\pi\\rho D^2v^2$",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q7",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "energy-and-fields.c",
+   "energy-and-fields.b"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Interpret area under a force–displacement graph as work done by each force.",
+  "misconception": "Confusing the gain in kinetic energy (P) with the energy dissipated",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Work done by a force is the area under its force–displacement graph.\n\nWork done against air resistance, which becomes thermal energy, is the area under the $R$ line, i.e. Q. Area P (between F and R) is the net work, which becomes kinetic energy.",
+   "perOption": {
+    "A": "P is the area between F and R: the net work, equal to the gain in kinetic energy.",
+    "B": "Correct. Area under R is the work done against air resistance.",
+    "C": "P − Q has no physical meaning here.",
+    "D": "P + Q is the total work done by F."
+   }
+  },
+  "transcription": "A body is accelerated from rest by a horizontal force F on a smooth surface through air. The magnitudes of F and air resistance R vary with displacement as shown. [Graph: force against displacement; F is an upper sloping straight line, R is a lower curve starting at zero; region P lies between F and R, region Q lies under R.] Which area represents the thermal energy dissipated? A P B Q C P − Q D P + Q",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q8",
+  "chapter": "projectile-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "projectile-motion.b"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Two-step ratio: fall time scales with the square root of height.",
+  "misconception": "Assuming horizontal distance is proportional to the drop height",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Vertically from rest: $y = \\tfrac{1}{2}gt^2$, so $t \\propto \\sqrt{y}$. Falling $4y$ takes $2t$.\n\nHorizontal velocity is constant, so $x = u t$ doubles to $2x$.",
+   "perOption": {
+    "A": "Ignores that a greater height means a longer time of flight.",
+    "B": "Correct. $t \\propto \\sqrt{y}$ so $x$ doubles.",
+    "C": "Assumes $x \\propto y$.",
+    "D": "Assumes $x \\propto y^2$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q9",
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "collisions.c",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Uses Newton's third law to get the force on Y from X's momentum change.",
+  "misconception": "Using the speed change of Y without knowing its final velocity, or ignoring direction",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "By Newton's third law, the force on Y equals in magnitude the force on X.\n\nChange in momentum of X: $\\Delta p = 2.5(6.0 - 2.0) = 10\\ \\mathrm{N\\,s}$.\n\n$F = \\dfrac{\\Delta p}{\\Delta t} = \\dfrac{10}{0.020} = 500\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "Gives the impulse ($10\\ \\mathrm{N\\,s}$) instead of dividing by the contact time.",
+    "B": "Uses only Y's speed $4.0\\ \\mathrm{m\\,s^{-1}}$: $1.0\\times4.0/0.020$.",
+    "C": "Uses X's final momentum $2.5\\times2.0 = 5\\ \\mathrm{N\\,s}$ instead of its change in momentum.",
+    "D": "Correct. $F = 10/0.020 = 500\\ \\mathrm{N}$."
+   }
+  },
+  "transcription": "Body X of mass 2.5 kg undergoes a head-on collision with body Y of mass 1.0 kg. X and Y have initial speeds of $6.0\\ \\mathrm{m\\,s^{-1}}$ and $4.0\\ \\mathrm{m\\,s^{-1}}$ respectively, moving towards each other. [Diagram: X moving right at $6.0\\ \\mathrm{m\\,s^{-1}}$, Y moving left at $4.0\\ \\mathrm{m\\,s^{-1}}$.] The bodies are in contact for 20 ms. After the collision, X continues in the same direction with speed $2.0\\ \\mathrm{m\\,s^{-1}}$. What is the magnitude of the average force exerted on Y during the collision? A 10 N B 200 N C 250 N D 500 N",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q10",
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "energy-and-fields.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Must bound v using energy conservation: enough to rise above the centre but not enough to complete the loop.",
+  "misconception": "Thinking v = √(gr) at the bottom is the condition for completing the loop",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The body leaves the track in the upper half, so it must rise above the height of the centre: $\\tfrac{1}{2}mv^2 > mgr$, giving $v > \\sqrt{2gr}$.\n\nIt must not complete the loop. At the top it needs $v_{top}^2 \\ge gr$, so from energy $v^2 \\ge gr + 4gr = 5gr$ to complete it. Hence $2gr < v^2 < 5gr$, and only $\\sqrt{4gr}$ fits.",
+   "perOption": {
+    "A": "With $v = \\sqrt{gr}$ it only rises to $r/2$ and slides back down without leaving the track.",
+    "B": "With $v = \\sqrt{2gr}$ it just reaches the height of the centre with zero speed and slides back.",
+    "C": "Correct. $2gr < v^2 < 5gr$.",
+    "D": "$v^2 = 6gr > 5gr$, so it completes the loop."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q11",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.j"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of Kepler's third law with a ratio.",
+  "misconception": "Assuming period is proportional to radius",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a circular orbit, $\\dfrac{GMm}{r^2} = mr\\left(\\dfrac{2\\pi}{T}\\right)^2$, so $T^2 \\propto r^3$.\n\nNew period $T' = T(0.25)^{3/2} = 0.125T$. In time $T$ the planet completes $T/T' = 8$ revolutions.",
+   "perOption": {
+    "A": "Gives the new period as a fraction of $T$ ($0.125$), not the number of revolutions.",
+    "B": "Assumes $T \\propto r$ and gives the period ratio.",
+    "C": "Assumes $T \\propto r$, giving 4 revolutions.",
+    "D": "Correct. $T \\propto r^{3/2}$, so 8 revolutions."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ }
+]

@@ -1,0 +1,342 @@
+[
+ {
+  "id": "acjc-2026-prelim-p1-q1",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "A hydrogen nucleus is about $10^{-15}\\ \\mathrm{m}$ across and light travels at about $10^{8}\\ \\mathrm{m\\,s^{-1}}$ (order of magnitude).\n\nTime $\\approx \\dfrac{10^{-15}}{10^{8}} = 10^{-23}\\ \\mathrm{s}$.",
+   "perOption": {
+    "A": "Far too long: light covers tens of metres in $10^{-7}$ s.",
+    "B": "This is the size of the nucleus in metres, not the crossing time.",
+    "C": "Uses the size of a whole atom (~$10^{-10}$ m) instead of the nucleus.",
+    "D": "Correct. Nuclear diameter divided by the speed of light."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q2",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "For equilibrium, the resultant torque about the support must be zero.\n\nSince the body is balanced on a single support, the line of action of its weight must pass through the support.",
+   "perOption": {
+    "A": "Equal masses on each side do not give zero torque for a non-uniform body; moments depend on distances too.",
+    "B": "For a non-uniform body the centre of gravity need not be at the geometric centre.",
+    "C": "Correct. The weight then has zero moment about the support.",
+    "D": "The force by the body on the support and the support's reaction are a Newton's third law pair acting on different bodies; they don't explain the body's equilibrium."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q3",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "By symmetry, the tension $T$ in both strings is the same.\n\nThe vertical components balance the weight: $2T\\sin\\theta = W$, where $\\theta$ is the small angle each string makes with the horizontal.\n\nSince the strings are almost horizontal, $\\sin\\theta$ is very small, so $T = \\dfrac{W}{2\\sin\\theta}$ must be greater than $W$.",
+   "perOption": {
+    "A": "$T$ can never be less than $W/2$; two strings must at least share the weight.",
+    "B": "Only true if both strings were vertical.",
+    "C": "Would need $\\theta \\ge 30^\\circ$; nearly horizontal strings give much larger tension.",
+    "D": "Correct. Small $\\sin\\theta$ makes $T \\gg W$."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q4",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "By conservation of energy, loss in GPE = gain in elastic potential energy:\n\n$mgh = \\tfrac{1}{2}kx^2$, so $x = \\sqrt{\\dfrac{2mgh}{k}} = \\sqrt{\\dfrac{2(0.22)(9.81)(0.40)}{350}} = 7.0\\times10^{-2}\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "This is $x^2$: forgets to take the square root.",
+    "B": "About what you get with $h = 0.40$ cm taken as $0.004$ m (factor-of-100 error in $h$).",
+    "C": "Omits $g$ from $mgh$.",
+    "D": "Correct."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q5",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "As air resistance is negligible, the acceleration ($g$) does not depend on mass, so it does not change.\n\nThe time of flight remains the same, and with the same horizontal velocity, the horizontal displacement also remains the same.",
+   "perOption": {
+    "A": "Correct. Motion is independent of mass without air resistance.",
+    "B": "Horizontal velocity and time are unchanged, so the distance cannot decrease.",
+    "C": "A heavier ball does not fall faster; vertical acceleration is $g$ for all masses.",
+    "D": "Assumes heavier objects fall faster; both time and distance are unchanged."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q6",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "For vertical equilibrium, $F_y = mg$. For horizontal motion, $F_x = ma = 0.50\\,mg$.\n\n$F = \\sqrt{F_x^2 + F_y^2} = \\sqrt{(0.50mg)^2 + (mg)^2} = 1.1\\,mg$.",
+   "perOption": {
+    "A": "Only the horizontal component $F_x$; ignores supporting the weight.",
+    "B": "Only the vertical component $F_y$; ignores the acceleration.",
+    "C": "Correct. Vector sum of the two perpendicular components.",
+    "D": "Adds the components as scalars instead of as vectors."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q7",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$a_c = r\\omega^2 = r\\left(\\dfrac{2\\pi}{T}\\right)^2$.\n\nWith $T$ unchanged, $a_c \\propto r$, so doubling $r$ gives $a_{\\text{new}} = 2a_c$.",
+   "perOption": {
+    "A": "Treats $a = v^2/r$ as $\\propto v^2$ only, forgetting that $r$ also doubles in the denominator.",
+    "B": "Correct.",
+    "C": "Uses $a = v^2/r$ with $v$ held constant, but $v = 2\\pi r/T$ doubles.",
+    "D": "Ignores the dependence on $r$ at fixed period."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q8",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$g = \\dfrac{GM}{R^2}$ and $M = \\rho\\left(\\tfrac{4}{3}\\pi R^3\\right)$, so $g = \\tfrac{4}{3}\\pi G\\rho R$.\n\nWith the same density, $g \\propto R$, so $g_A : g_B = 2 : 1$.",
+   "perOption": {
+    "A": "Uses $g \\propto 1/R^2$ with the same mass, but the mass is not the same.",
+    "B": "Inverts the ratio.",
+    "C": "Correct.",
+    "D": "Uses the mass ratio ($M \\propto R^3$) and forgets the $1/R^2$ factor."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q9",
+  "keyPage": 1,
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Total energy in orbit is $-\\dfrac{GMm}{2r}$, so\n\n$\\Delta TE = -\\dfrac{(6.67\\times10^{-11})(6.0\\times10^{24})(690)}{2}\\left[\\dfrac{1}{7.2\\times10^{6}} - \\dfrac{1}{6.5\\times10^{6}}\\right] = +2\\times10^{9}\\ \\mathrm{J}$.\n\nOr: $\\Delta KE = \\tfrac{1}{2}(690)[(7.5\\times10^{3})^2 - (7.9\\times10^{3})^2] = -2.13\\times10^{9}\\ \\mathrm{J}$ and $\\Delta GPE = -GMm\\left[\\dfrac{1}{7.2\\times10^{6}} - \\dfrac{1}{6.5\\times10^{6}}\\right] = +4.13\\times10^{9}\\ \\mathrm{J}$, giving $\\Delta TE = +2\\times10^{9}\\ \\mathrm{J}$.",
+   "perOption": {
+    "A": "Correct. The satellite gains total energy moving to a higher orbit.",
+    "B": "This is only the gain in GPE; it ignores the loss of KE.",
+    "C": "This is only the change in KE; the GPE gain is larger.",
+    "D": "Treats both the KE and GPE changes as losses ($-2.1 - 4.1 \\approx -6\\times10^{9}$ J)."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q10",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E_T = \\tfrac{1}{2}m\\omega^2x_0^2 = \\tfrac{1}{2}(8.0\\times10^{-3})(2\\pi\\times40)^2(5.0\\times10^{-3})^2 = 6.3\\times10^{-3}\\ \\mathrm{J}$.",
+   "perOption": {
+    "A": "Uses $\\omega = f$ instead of $\\omega = 2\\pi f$.",
+    "B": "Correct.",
+    "C": "Omits the factor of $\\tfrac{1}{2}$.",
+    "D": "Uses an amplitude of 5.0 cm instead of 5.0 mm."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q11",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The cork vibrates with maximum amplitude at resonance, when the wave period equals the cork's natural period, $T = 0.12$ s.\n\n$v = \\sqrt{gd} = \\dfrac{\\lambda}{T}$, so $\\lambda = T\\sqrt{gd} = 0.12\\sqrt{9.81\\times0.30} = 0.206\\ \\mathrm{m} \\approx 0.21\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Does not follow from $\\lambda = vT$ with $v = \\sqrt{gd}$.",
+    "B": "Does not follow from $\\lambda = vT$ with $v = \\sqrt{gd}$.",
+    "C": "Correct. Resonance: wave period equals the natural period.",
+    "D": "Forgets the square root: $Tgd \\approx 0.35$ m."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q12",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Intensity $\\propto$ amplitude$^2$, so twice the intensity means the amplitude is $\\sqrt{2}$ times larger.\n\nHalf the frequency means the period is doubled, so the graph shows half as many cycles.",
+   "perOption": {
+    "A": "Doubles the amplitude, as if intensity were proportional to amplitude.",
+    "B": "Correct. Amplitude $\\times\\sqrt{2}$ and period doubled.",
+    "C": "Doubles the amplitude and doubles the frequency instead of halving it.",
+    "D": "Correct amplitude, but the frequency is doubled instead of halved."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q13",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The first polariser transmits half of the unpolarised light: $\\tfrac{1}{2}I_0$.\n\nBy Malus' law, $I = \\left(\\tfrac{1}{2}I_0\\right)\\cos^2 60^\\circ = \\tfrac{1}{8}I_0$.",
+   "perOption": {
+    "A": "Correct.",
+    "B": "Applies $\\cos^2 60^\\circ$ but forgets the first polariser halves unpolarised light.",
+    "C": "Uses $\\sin^2 60^\\circ$ instead of $\\cos^2 60^\\circ$.",
+    "D": "Ignores the effect of the second polariser."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q14",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\sin\\theta = \\dfrac{\\lambda}{b}$. Since the slit-screen distance $D$ is much greater than the slit width, the angle is small.\n\n$\\theta = \\dfrac{\\tfrac{1}{2}x}{D} = \\dfrac{\\lambda}{b}$, so $x = \\dfrac{2\\lambda D}{b}$.\n\nNew width: $x' = \\dfrac{2(2\\lambda)D}{b/2} = \\dfrac{8\\lambda D}{b} = 4x$.",
+   "perOption": {
+    "A": "Wrong proportionality; $x \\propto \\lambda/b$, so both changes widen the pattern.",
+    "B": "Assumes the two changes cancel, but doubling λ and halving b both increase the width.",
+    "C": "Accounts for only one of the two changes.",
+    "D": "Correct."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q15",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$\\sin\\theta_1 = \\dfrac{(1)\\lambda}{d}$ and $\\sin\\theta_2 = \\dfrac{(2)\\lambda}{d}$, so $\\sin\\theta_2 = 2\\sin\\theta_1$.\n\nThe rate of increase of $\\sin\\theta$ decreases as $\\theta$ increases from 0 to 90°, so $\\theta_2 > 2\\theta_1$.\n\nAt higher orders, since the distance travelled by the light increases, intensity decreases, so the second order is dimmer.",
+   "perOption": {
+    "A": "Assumes $\\theta \\propto n$, but it is $\\sin\\theta$ that is proportional to $n$; also intensity is not the same.",
+    "B": "Assumes $\\theta \\propto n$; it is $\\sin\\theta$ that doubles.",
+    "C": "Angle relation is right, but higher orders are dimmer.",
+    "D": "Correct."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q16",
+  "keyPage": 2,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Using the Rayleigh criterion, $\\theta = \\dfrac{\\lambda}{b} = \\dfrac{x}{D}$.\n\n$x = \\dfrac{\\lambda D}{b} = \\dfrac{(500\\times10^{-9})(200\\times10^{3})}{35\\times10^{-2}} = 0.29\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Uses 200 m instead of 200 km for the orbital height.",
+    "B": "Introduces an extra factor of $\\tfrac{1}{2}$.",
+    "C": "Correct.",
+    "D": "Uses a lens diameter of 3.5 cm instead of 35 cm."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q17",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "When a molecule collides elastically with a wall, its velocity reverses, so the magnitude of its change in momentum is twice its momentum before the collision. This change is not negligible; it is what produces the pressure.\n\nSo D is not a valid assumption.",
+   "perOption": {
+    "A": "This is a valid kinetic theory assumption.",
+    "B": "This is a valid kinetic theory assumption.",
+    "C": "This is a valid kinetic theory assumption.",
+    "D": "Correct. The momentum change $2mu$ per collision is what causes the pressure."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q18",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Since $pV = nRT$, $p \\propto \\dfrac{T}{V}$ ($n$ and $R$ constant), so $\\dfrac{p'}{p} = \\left(\\dfrac{T'}{T}\\right)\\left(\\dfrac{V}{V'}\\right)$.\n\n$p' = \\left(\\dfrac{273.15+25}{273.15+50}\\right)\\left(\\dfrac{1}{2}\\right)(1.0\\times10^{5}) = 4.6\\times10^{4}\\ \\mathrm{Pa}$.",
+   "perOption": {
+    "A": "Does not follow from $p \\propto T/V$; mishandles the temperature or volume ratio.",
+    "B": "Uses Celsius temperatures instead of kelvin.",
+    "C": "Correct.",
+    "D": "Multiplies by the volume ratio instead of dividing (treats $p \\propto V$)."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q19",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Movement along an equipotential surface involves zero work done, so only the radial parts of each path matter.\n\nPaths Y and Z both end on the same (middle) equipotential, so $W_Y = W_Z$. Path X ends on the inner equipotential, closer to Q, so $W_X$ is larger.",
+   "perOption": {
+    "A": "Assumes longer paths need more work, but work depends only on the start and end potentials.",
+    "B": "Correct.",
+    "C": "Path X ends at a higher potential than Y and Z, so more work is needed.",
+    "D": "Inverts the comparison; X goes closer to Q, so it needs more work."
+   }
+  },
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q20",
+  "keyPage": 3,
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Electric field strength at a point is equal to the negative potential gradient at that point: $E = -\\dfrac{dV}{dx}$ at P.",
+   "perOption": {
+    "A": "$V/D$ is not the field; field depends on the gradient of $V$, not the ratio.",
+    "B": "Still uses the ratio $V/D$ rather than the gradient.",
+    "C": "Missing the negative sign; $V$ decreases with $x$, so $dV/dx$ is negative while $E$ points outward.",
+    "D": "Correct."
+   }
+  },
+  "issues": null
+ }
+]

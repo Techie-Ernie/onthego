@@ -1,0 +1,342 @@
+[
+  {
+    "id": "dhs-2026-prelim-p1-q11",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The angles between successive polariser axes are $40^\\circ-30^\\circ=10^\\circ$ and $60^\\circ-40^\\circ=20^\\circ$. W transmits half the incident unpolarised intensity, so $I_W=0.5I_0$. By Malus's law, $I_X=0.5I_0\\cos^2 10^\\circ=0.4849I_0$, then $I_Y=I_X\\cos^2 20^\\circ\\approx 0.428I_0\\approx 0.43I_0$.",
+      "perOption": {
+        "A": "Uses the absolute $60^\\circ$ angle at Y instead of its $20^\\circ$ angle relative to X.",
+        "B": "Uses the absolute axis angles instead of the angles between successive axes.",
+        "C": "Correct.",
+        "D": "Exceeds the $0.5I_0$ already transmitted by W."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q12",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the original area, intensity is proportional to the square of the amplitude, so doubling the amplitude gives $k(2A)^2=4I$. Focusing the same power onto one-third of the original area then gives $(4IS)/(S/3)=12I$.",
+      "perOption": {
+        "A": "Treats intensity as proportional to amplitude instead of amplitude squared.",
+        "B": "Correct.",
+        "C": "Overestimates the gain from doubling the amplitude, which is a factor of four.",
+        "D": "Doubles the result again even though squaring the amplitude ratio already accounts for the doubling."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q13",
+    "keyPage": 11,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the key's resolution approximation, $\\theta_{\\min}\\approx\\lambda/b$, where $b$ is the dish diameter. This gives $\\theta_{\\min}=(0.40\\times10^{-6})/5.1=7.843\\times10^{-8}\\ \\mathrm{rad}$. For a small angle, the minimum separation is $x=\\theta_{\\min}D=(7.843\\times10^{-8})(2.8\\times10^{25})\\approx2.2\\times10^{18}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Halves the separation, as would happen if the stated diameter were doubled.",
+        "B": "Correct. This follows from the key's resolution approximation.",
+        "C": "Inverts the angular ratio to $b/\\lambda$ and halves the resulting separation.",
+        "D": "Uses $b/\\lambda$ instead of $\\lambda/b$, giving a vastly larger separation."
+      }
+    },
+    "issues": "The key uses the syllabus approximation $\\lambda/b$. The circular-aperture Rayleigh factor of 1.22 gives about $2.7\\times10^{18}\\ \\mathrm{m}$, which is unlisted. B is still the closest listed value."
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q14",
+    "keyPage": 11,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean translational kinetic energy satisfies $\\tfrac12mc_{\\mathrm{rms}}^2=\\tfrac32kT$, so $c_{\\mathrm{rms}}^2\\propto T$. Hence $T/(2T)=c_{\\mathrm{rms}}^2/c_{\\mathrm{rms,new}}^2$, which gives $c_{\\mathrm{rms,new}}=\\sqrt{2}\\,c_{\\mathrm{rms}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the rms speed itself as directly proportional to temperature.",
+        "C": "Applies an extra factor of two after taking the square root of the temperature ratio.",
+        "D": "Squares the temperature ratio instead of taking its square root."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q15",
+    "keyPage": 11,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The connected containers have the same pressure $p$ at equilibrium. Using $n=pV/(RT)$ gives $n_X=p(2V)/[R(2T)]=pV/(RT)$ and $n_Y=pV/(RT)$. The school's working therefore gives $n_X/n_Y=1.00$, even though its answer label is A.",
+      "perOption": {
+        "A": "Inverts the volume ratio while keeping the temperature ratio in the denominator.",
+        "B": "Correct. The volume and temperature factors cancel.",
+        "C": "Accounts for the doubled volume but ignores the doubled temperature.",
+        "D": "Treats the amount of gas as directly proportional to temperature at fixed pressure and volume."
+      }
+    },
+    "issues": "The summary table and worked-solution label show A, matching keyAnswer, but the worked calculation gives 1.00, which is B. A is incorrect."
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q16",
+    "keyPage": 12,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The water releases $0.150(4180)(20.0)=12540\\ \\mathrm{J}$ as it cools to $0^\\circ\\mathrm C$. Warming the ice to $0^\\circ\\mathrm C$ takes $0.100(2100)(10.0)=2100\\ \\mathrm{J}$, leaving $10440\\ \\mathrm{J}$ for melting. This melts $10440/334000=0.03126\\ \\mathrm{kg}$, or $31.3\\ \\mathrm g$. The remaining $68.7\\ \\mathrm g$ of ice coexists with water at $0^\\circ\\mathrm C$.",
+      "perOption": {
+        "A": "Confuses absolute zero with the melting point and reports the mass melted as the mass remaining.",
+        "B": "Finds the correct ice mass but confuses absolute zero with the melting point.",
+        "C": "Reports the mass that melts as the mass that remains.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q17",
+    "keyPage": 12,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In $I=nAvq$, the number density is $n=N/V$ and the wire volume is $V=AL$, giving $I=Nvq/L$. Hence $N=IL/(vq)=(12)(0.35)/[(5.0\\times10^{-4})(1.60\\times10^{-19})]=5.3\\times10^{22}$.",
+      "perOption": {
+        "A": "Treats the drift speed as a multiplier, effectively using a short transit time for slow electrons.",
+        "B": "Correct.",
+        "C": "Omits the wire length when converting the carrier count per unit length to the total count.",
+        "D": "Divides by the wire length instead of multiplying by it."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q18",
+    "keyPage": 13,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ideal diode conducts only during the positive half-cycle, and the peak load voltage is $V_0=12.0\\ \\mathrm V$. The full-cycle average power is half that for an unrectified sine wave of the same peak voltage, so $\\langle P\\rangle=\\tfrac12(V_0^2/2R)=12.0^2/(4\\times50)=0.72\\ \\mathrm W$.",
+      "perOption": {
+        "A": "Assumes the diode blocks both half-cycles.",
+        "B": "Correct.",
+        "C": "Uses the average power for an unrectified sine wave.",
+        "D": "Uses the peak power as the cycle average."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q19",
+    "keyPage": 13,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Closing all three switches puts the external resistors in parallel, so $1/R_{\\mathrm p}=1/4+1/8+1/12=11/24$ in inverse ohms. Adding the internal resistance gives $R_{\\mathrm{tot}}=(24/11+1.00)\\ \\Omega=(35/11)\\ \\Omega$. The cell current is $I=2.00/(35/11)=0.629\\ \\mathrm A$.",
+      "perOption": {
+        "A": "Adds all four resistances as though they were in series.",
+        "B": "Uses only the $4.00\\ \\Omega$ branch and neglects the internal resistance.",
+        "C": "Correct.",
+        "D": "Uses the parallel resistance alone and omits the internal resistance."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q20",
+    "keyPage": 14,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $k$ be the fraction of the way the slider has moved from the top of the upper resistor, with $0\\le k\\le1$. The equal resistors each drop $3.0\\ \\mathrm V$, so $V_X=6.0-3.0k$ in volts. The potential difference $V_Y-V_X=3.0k$ therefore ranges from $0$ to $3.0\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Measures from the bottom rail, giving a range of $3.0$ to $6.0\\ \\mathrm V$.",
+        "B": "Correct.",
+        "C": "Connects X and Y across the supply, fixing the output at $6.0\\ \\mathrm V$.",
+        "D": "Measures across the fixed lower resistor, so the output ranges from $3.0$ to $6.0\\ \\mathrm V$ as the effective upper resistance varies."
+      }
+    },
+    "issues": "The key's distractor note says D is fixed at 3.0 V. The diagram shows the slider bypassing part of the upper resistor, so D actually varies from 3.0 V to 6.0 V."
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q21",
+    "keyPage": 14,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The capacitor on AB is in parallel with the AC–CB series branch, so the branch has $5.0\\ \\mathrm V$ across it. Its equivalent capacitance is $(1/2+1/3)^{-1}\\ \\mathrm{\\mu F}=1.2\\ \\mathrm{\\mu F}$, giving each series capacitor a charge of $Q=C_{\\mathrm{eq}}V=6.0\\ \\mathrm{\\mu C}$. Thus $V_{BC}=Q/C_{BC}=6.0/3=2.0\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Underestimates the charge required on the series capacitors for a total drop of $5.0\\ \\mathrm V$.",
+        "B": "Correct.",
+        "C": "Splits the voltage equally across two unequal capacitances.",
+        "D": "Gives the voltage across AC instead of BC."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q22",
+    "keyPage": 15,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Newton's third law, the forces on the two wires have equal magnitudes. Currents in the same direction attract, while currents in opposite directions repel. In A, both currents flow downwards, so each force points towards the other wire.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows unequal forces and repulsion between currents flowing in the same direction.",
+        "C": "Shows attraction even though the currents flow in opposite directions and should repel.",
+        "D": "Shows unequal forces even though the two forces are a Newton's third-law pair."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q23",
+    "keyPage": 16,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field points downwards from the $5.00\\ \\mathrm{kV}$ plate to the $0\\ \\mathrm V$ plate, so the positive proton experiences a downward force. Its magnitude is $F=qE=(1.60\\times10^{-19})(5000/0.100)=8.00\\times10^{-15}\\ \\mathrm N$. This gives $a=F/m=4.790\\times10^{12}\\ \\mathrm{m\\,s^{-2}}$, and the transit time is $t=L/v_x=0.150/(2.52\\times10^6)=5.952\\times10^{-8}\\ \\mathrm s$. Thus $y=\\tfrac12at^2=8.49\\times10^{-3}\\ \\mathrm m$, or $8.5\\times10^{-3}\\ \\mathrm m$ downwards.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the direction of the force on the positive proton.",
+        "C": "Overestimates the displacement from the downward acceleration and horizontal transit time.",
+        "D": "Overestimates the displacement and reverses the force direction."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q24",
+    "keyPage": 16,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The original force is $F=kQ^2/r^2$. Each charge becomes $Q+3Q=4Q$ and the separation becomes $2r$, so $F_{\\mathrm{new}}=k(4Q)(4Q)/(2r)^2=4kQ^2/r^2$. Hence $F_{\\mathrm{new}}/F=4$.",
+      "perOption": {
+        "A": "Applies the charge increase to only one charge, making it cancel the factor of four from the distance.",
+        "B": "Treats each new charge as $3Q$ instead of $4Q$.",
+        "C": "Correct.",
+        "D": "Uses an inverse-distance law instead of the inverse-square law."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q25",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic flux density $B$ stays constant because the external field is unaffected by the rotation. The initial flux is maximal, and the tilt reduces the area projected perpendicular to the field, so the flux decreases.",
+      "perOption": {
+        "A": "Confuses the decreasing component normal to the coil with a decrease in the field magnitude.",
+        "B": "Assumes rotation strengthens the external field and increases the flux.",
+        "C": "Correct.",
+        "D": "Assumes the flux increases as the coil tilts away from its maximum-flux orientation."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q26",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Faraday's law, the magnitude of the induced e.m.f. is $|\\mathcal E|=N|\\Delta\\Phi|/\\Delta t$. With $1500$ turns and a flux change of $0.85\\ \\mathrm{Wb}$ in $0.19\\ \\mathrm s$, this gives $1500(0.85/0.19)\\approx6711\\ \\mathrm V\\approx6710\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Uses the zero final flux in place of the nonzero change in flux.",
+        "B": "Calculates the induced e.m.f. for one turn only.",
+        "C": "Underestimates the rate of change of flux linkage across all 1500 turns.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q27",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Photon energy is $E=hf=hc/\\lambda$, so $E$ is directly proportional to $1/\\lambda$. The graph of $E$ against $1/\\lambda$ is therefore a straight line through the origin.",
+      "perOption": {
+        "A": "Shows a nonlinear dependence on reciprocal wavelength.",
+        "B": "Correct.",
+        "C": "Makes energy directly proportional to wavelength.",
+        "D": "Shows energy increasing with wavelength even though it decreases."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q28",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy levels are $E_n=h^2n^2/(8mL^2)$, and the ground state has $n=1$, giving $E=h^2/(8mL^2)$. For the second particle, $E'=h^2/[8(2m)(2L)^2]=E/8$.",
+      "perOption": {
+        "A": "Accounts only for the doubling of mass.",
+        "B": "Accounts only for the width doubling, or treats both effects as linear.",
+        "C": "Correct.",
+        "D": "Squares the mass ratio as well as the width ratio."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q29",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Starting with $N$ nuclei, $3N/4$ decay in two half-lives. Approximating nuclear masses by their nucleon numbers in atomic mass units, the change is $\\Delta m=[-(3N/4)(210)+(3N/4)(206)]\\,\\mathrm u=-3N\\,\\mathrm u$. Relative to the initial mass $210N\\,\\mathrm u$, this is a decrease of $1/70\\approx1.43\\%$.",
+      "perOption": {
+        "A": "Uses the surviving quarter of the parent nuclei to count the emitted alpha particles.",
+        "B": "Correct.",
+        "C": "Confuses the fraction of parent nuclei remaining with the fraction of mass lost.",
+        "D": "Assumes the full mass of each decayed nucleus leaves the sample."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q30",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Beta particles can penetrate several millimetres into tissue and deposit ionising energy in surface and near-surface tumours. Their limited range helps spare deeper healthy tissue.",
+      "perOption": {
+        "A": "Alpha particles are stopped by the outer layer of skin before reaching a deep tumour.",
+        "B": "Correct.",
+        "C": "Gamma rays can reach deep tissues, so their use is not limited to surface conditions.",
+        "D": "Alpha particles emitted inside the body have too short a range to reach external detectors."
+      }
+    },
+    "issues": null
+  }
+]

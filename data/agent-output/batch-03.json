@@ -1,0 +1,605 @@
+[
+ {
+  "id": "asrjc-2026-prelim-p1-q11",
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [
+   "temperature-and-ideal-gases"
+  ],
+  "outcomes": [
+   "thermodynamic-systems.f",
+   "temperature-and-ideal-gases.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Qualitative first-law reasoning about a sudden (adiabatic) compression.",
+  "misconception": "Assuming temperature stays constant because pV is constant or the container is insulated",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The compression is sudden and the cylinder is insulating, so $Q = 0$. The piston does work on the gas, so by $\\Delta U = Q + W$ the internal energy, and hence the temperature, rises.\n\nMicroscopically, molecules striking the inward-moving piston rebound with greater speed, raising their mean kinetic energy, which is proportional to $T$.",
+   "perOption": {
+    "A": "An insulator stops heat flow ($Q = 0$), but work is still done on the gas, so $U$ and $T$ rise.",
+    "B": "$pV$ is constant only for an isothermal change; here $pV = NkT$ increases because $T$ increases.",
+    "C": "Collisions between molecules are elastic and do not change the total kinetic energy, so they cannot raise the temperature.",
+    "D": "Correct. Molecules gain speed from the moving piston, so mean KE and $T$ increase."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q12",
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.d",
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires reading the cycle area on a p-V graph and deciding the sign from the clockwise direction.",
+  "misconception": "Confusing work done by the gas with work done on the gas; mishandling powers of ten",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a closed cycle the net work equals the enclosed area: $\\Delta p \\times \\Delta V = (0.5\\times10^{5}\\ \\mathrm{Pa})(3\\times10^{-4}\\ \\mathrm{m^3}) = 15\\ \\mathrm{J}$.\n\nThe cycle runs clockwise: the gas expands at the higher pressure ($1.5\\times10^5$ Pa) and is compressed at the lower pressure, so the gas does net work of 15 J. The net work done on the gas is therefore $-15\\ \\mathrm{J}$.",
+   "perOption": {
+    "A": "Wrong power of ten and wrong sign: the area is 15 J, and it is work done by the gas.",
+    "B": "Correct sign but the area is miscalculated by a factor of 10 ($0.5\\times10^5 \\times 3\\times10^{-4} = 15$ J).",
+    "C": "This is the work done by the gas; the work done on the gas is negative for a clockwise cycle.",
+    "D": "Correct. Clockwise cycle, so net work on the gas is minus the enclosed area."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q13",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct substitution into $v = \\omega\\sqrt{x_0^2 - x^2}$.",
+  "misconception": "Assuming speed varies linearly with displacement",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "In SHM $v = \\omega\\sqrt{x_0^2 - x^2}$ and $v_0 = \\omega x_0$.\n\nWith $x = \\tfrac{1}{2}x_0$: $v = \\omega\\sqrt{x_0^2 - \\tfrac{1}{4}x_0^2} = \\tfrac{\\sqrt{3}}{2}\\omega x_0 = \\tfrac{\\sqrt{3}}{2}v_0$.",
+   "perOption": {
+    "A": "No step in the SHM relations gives a factor of $\\tfrac{1}{4}$; speed is not $v_0$ times $(x/x_0)^2$.",
+    "B": "Assumes speed falls linearly with displacement, which it does not.",
+    "C": "This is the fraction of the maximum kinetic energy ($v^2/v_0^2 = 3/4$), not of the speed; forgets the square root.",
+    "D": "Correct. $v = \\omega\\sqrt{x_0^2 - x_0^2/4} = \\tfrac{\\sqrt3}{2}v_0$."
+   }
+  },
+  "transcription": "A particle oscillates with simple harmonic motion along a line with a maximum speed $v_0$. What is the speed of the particle when the displacement of the particle is half of its amplitude? A $\\frac{1}{4}v_0$ B $\\frac{1}{2}v_0$ C $\\frac{3}{4}v_0$ D $\\frac{\\sqrt{3}}{2}v_0$",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q14",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.a",
+   "wave-motion.e"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires linking compressions/rarefactions in a progressive longitudinal wave to pressure and particle velocity.",
+  "misconception": "Applying standing-wave terms (nodes, antinodes) to a progressive wave; thinking molecules at a rarefaction are at rest",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "P is at the centre of a compression (lines crowded together) and Q is at the centre of a rarefaction (lines spread apart).\n\nIn a progressive longitudinal wave, the particles at the centre of a compression or rarefaction have zero displacement and are moving at maximum speed. At a compression they move in the direction of travel of the wave, so the molecule at P moves in the $+x$ direction.",
+   "perOption": {
+    "A": "P is at a compression, so the pressure there is a maximum, not a minimum.",
+    "B": "Nodes and antinodes belong to stationary waves; this is a progressive wave.",
+    "C": "At the centre of a rarefaction the displacement is zero and the speed is maximum (moving in $-x$), not zero.",
+    "D": "Correct. At a compression the particles move in the direction the wave travels."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q15",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.c",
+   "superposition.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs to find the fundamental of the open tube and convert to the closed-tube harmonic series.",
+  "misconception": "Assuming closed tubes support all harmonics, or that closing an end raises frequency",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Open at both ends: $f_n = n\\dfrac{v}{2L}$, so the fundamental is $\\dfrac{v}{2L} = 256\\ \\mathrm{Hz}$.\n\nClosed at one end: $f = (2n-1)\\dfrac{v}{4L}$, so only odd harmonics of $\\dfrac{v}{4L} = 128\\ \\mathrm{Hz}$ exist. The two lowest are $128\\ \\mathrm{Hz}$ and $3 \\times 128 = 384\\ \\mathrm{Hz}$.",
+   "perOption": {
+    "A": "Includes the second harmonic (256 Hz), but a tube closed at one end has only odd harmonics.",
+    "B": "Correct. Fundamental halves to 128 Hz; next mode is the third harmonic, 384 Hz.",
+    "C": "Skips the fundamental and uses 3rd and 5th harmonics only.",
+    "D": "Doubles the frequencies instead of halving them; closing an end lengthens the fundamental wavelength."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q16",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding $d/\\lambda$ from the given order and then the maximum integer with $\\sin\\theta \\le 1$.",
+  "misconception": "Rounding up the maximum order or assuming 90° gives a visible order",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "From $d\\sin\\theta = n\\lambda$: $d\\sin 45^\\circ = 3\\lambda$, so $\\dfrac{d}{\\lambda} = \\dfrac{3}{\\sin 45^\\circ} = 4.24$.\n\nThe largest order satisfies $\\sin\\theta \\le 1$, i.e. $n \\le d/\\lambda = 4.24$, so the highest order is the 4th.",
+   "perOption": {
+    "A": "The 3rd order is at only 45°, so higher orders still fit before 90°.",
+    "B": "Correct. $n_{max} = \\lfloor 3/\\sin45^\\circ \\rfloor = 4$.",
+    "C": "Rounds 4.24 up; a 5th order would need $\\sin\\theta > 1$.",
+    "D": "Doubles the 3rd order, assuming orders scale linearly with angle (45° to 90°)."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q17",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.a"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "One-step use of $Q = It$ and $N = Q/e$.",
+  "misconception": "Forgetting to convert mA or to divide by the electron charge",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Charge passing: $Q = It = (20\\times10^{-3})(5.0) = 0.10\\ \\mathrm{C}$.\n\nNumber of electrons: $N = \\dfrac{Q}{e} = \\dfrac{0.10}{1.6\\times10^{-19}} = 6.3\\times10^{17}$.",
+   "perOption": {
+    "A": "This is the charge in coulombs, not the number of electrons.",
+    "B": "Far too small to be an electron count; it comes from mishandling units rather than dividing the charge by $e$.",
+    "C": "Correct. $N = It/e$.",
+    "D": "Does not equal $It/e$; results from mishandling the powers of ten when converting mA or dividing by $e$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q18",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Two simultaneous equations from $E = I(R + r)$.",
+  "misconception": "Ignoring internal resistance or using $R = V/I$ for the external circuit only",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The e.m.f. is the same in both cases: $E = I(R + r)$.\n\n$1.00(3.0 + r) = 0.40(12.0 + r) \\Rightarrow 3.0 + r = 4.8 + 0.4r \\Rightarrow 0.6r = 1.8 \\Rightarrow r = 3.0\\ \\Omega$ (and $E = 6.0$ V).",
+   "perOption": {
+    "A": "Comes from an algebra slip in the simultaneous equations; substituting back gives different e.m.f.s.",
+    "B": "Correct. Equating $E = I(R+r)$ for both readings gives $r = 3.0\\ \\Omega$.",
+    "C": "This is $E$ in volts (6.0 V), not $r$.",
+    "D": "Arithmetic slip; with $r = 13\\ \\Omega$ the two readings would give different e.m.f.s."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q19",
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "circuits.k"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combining series and parallel capacitors and sharing charge between parallel branches.",
+  "misconception": "Assuming charge is shared equally between parallel branches, or that every capacitor has the same charge",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each capacitor has capacitance $C$. The lower branch (two in series) is $C/2$; in parallel with the upper capacitor this gives $1.5C$.\n\nX is in series with this $1.5C$ combination, so the combination also holds $6\\ \\mu\\mathrm{C}$. Parallel branches share the same p.d., so charge divides in proportion to capacitance: upper $C$ gets $4\\ \\mu\\mathrm{C}$ and the lower $C/2$ branch gets $2\\ \\mu\\mathrm{C}$.\n\nCapacitors in series carry the same charge, so Y holds $2\\ \\mu\\mathrm{C}$.",
+   "perOption": {
+    "A": "Correct. The $C/2$ branch takes one-third of the $6\\ \\mu$C.",
+    "B": "Splits the charge equally between the two parallel branches.",
+    "C": "This is the charge on the single upper capacitor, not on Y.",
+    "D": "Assumes every capacitor carries the same charge as X."
+   }
+  },
+  "transcription": "Four identical capacitors are connected to a cell as shown. [Diagram: cell across the circuit; capacitor X in series with a parallel network; upper branch has one capacitor, lower branch has two capacitors in series, the right-hand one labelled Y.] The charge stored on capacitor X is $6\\ \\mu\\mathrm{C}$. What is the charge stored on capacitor Y? A $2\\ \\mu\\mathrm{C}$ B $3\\ \\mu\\mathrm{C}$ C $4\\ \\mu\\mathrm{C}$ D $6\\ \\mu\\mathrm{C}$",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q20",
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "circuits.l",
+   "electric-fields.k"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires recognising that energy decays with time constant $RC/2$ because $E \\propto V^2$.",
+  "misconception": "Applying the exponential decay of V or Q directly to energy (forgetting the factor of 2)",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E = \\tfrac{1}{2}CV^2$ and $V = V_0 e^{-t/RC}$, so $E = E_0 e^{-2t/RC}$.\n\nSetting $E = E_0/8$: $e^{-2t/RC} = \\tfrac{1}{8} \\Rightarrow t = \\dfrac{RC\\ln 8}{2}$. With $RC = (2200\\times10^{-6})(4.7\\times10^{3}) = 10.3\\ \\mathrm{s}$, $t = \\dfrac{10.3 \\times 2.08}{2} \\approx 11\\ \\mathrm{s}$.",
+   "perOption": {
+    "A": "Correct. Energy decays twice as fast as voltage: $t = \\tfrac{1}{2}RC\\ln 8$.",
+    "B": "Does not follow from $E = E_0e^{-2t/RC}$; arises from mixing up the decay constant for energy with that for charge.",
+    "C": "Uses $t = RC\\ln 8$, treating energy as decaying like $V$ or $Q$ and forgetting $E \\propto V^2$.",
+    "D": "Uses $t = 3RC$, confusing three halvings with three time constants (and ignoring $E \\propto V^2$)."
+   }
+  },
+  "transcription": "A $2200\\ \\mu\\mathrm{F}$ capacitor is initially charged to a potential difference of 9.0 V. The initial amount of energy stored in the capacitor is $E_o$. The capacitor then discharges through a $4.7\\ \\mathrm{k\\Omega}$ resistor. How long will it take for the energy stored in the capacitor to fall to $\\frac{E_o}{8}$? A 11 s B 16 s C 22 s D 31 s",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q21",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "electric-fields.h",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Must check both zero resultant force and zero resultant torque for four configurations.",
+  "misconception": "Thinking zero net force alone guarantees equilibrium",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "In every arrangement the net force is zero, since the charges sum to zero: $(+2Q + Q - 2Q - Q)E = 0$. Equilibrium also needs zero resultant torque.\n\nIn B, the left side has $+2Q$ (top) and $-Q$ (bottom), and the right side has $-2Q$ (top) and $+Q$ (bottom). Top row: $+2Q$ is pushed right and $-2Q$ is pushed left, both acting along the same line, so they cancel. Bottom row: $-Q$ is pushed left and $+Q$ is pushed right, also along one line. No couple acts, so the square is in equilibrium.\n\nIn A, C and D the forces on the charges do not share lines of action, so they form a net couple and the square rotates.",
+   "perOption": {
+    "A": "Rightward forces ($2QE$ at top right, $QE$ at bottom right) and leftward forces at the left corners act on different lines, so a net couple remains.",
+    "B": "Correct. Equal and opposite forces in each row act along the same line, so there is no couple (the equilibrium is unstable).",
+    "C": "The $+2Q$ and $+Q$ forces are horizontal but $-2Q$ and $-Q$ sit at the top and bottom, giving a net torque.",
+    "D": "The top row is pushed right ($3QE$) and the bottom row left ($3QE$), forming a couple."
+   }
+  },
+  "transcription": "Four point charges of magnitude $+2Q$, $+Q$, $-2Q$ and $-Q$ are fixed at the corners of a rigid square, resting on a frictionless surface. A uniform electric field is applied in the direction from left to right in the plane of the surface. In which situation will the square be in equilibrium? [Diagrams: A: top-left $-Q$, top-right $+2Q$, bottom-left $-2Q$, bottom-right $+Q$. B: top-left $+2Q$, top-right $-2Q$, bottom-left $-Q$, bottom-right $+Q$. C: square rotated 45°, top $-2Q$, left $+2Q$, right $+Q$, bottom $-Q$. D: top-left $+Q$, top-right $+2Q$, bottom-left $-Q$, bottom-right $-2Q$.]",
+  "issues": "Question number is cut off in the crop (Q21 by id). The equilibrium in the key's answer B is unstable; the question does not ask about stability, so the key stands."
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q22",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.e",
+   "electric-fields.h",
+   "energy-and-fields.j"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires deducing the field direction from the balance, then tracking energy changes for a positive charge.",
+  "misconception": "Assuming electric and gravitational potential energy always change together or by equal amounts",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "P is positive and balanced, so the electric force is upward: the field points up and the lower plate is at the higher potential.\n\nWhen $V$ is decreased, P falls. Its gravitational PE decreases. It moves towards the higher-potential lower plate, so its electric PE ($qV$) increases.",
+   "perOption": {
+    "A": "Moving a positive charge towards higher potential increases its electric PE.",
+    "B": "Correct. Falling lowers GPE, and moving towards the higher-potential plate raises EPE.",
+    "C": "When P rises, it moves towards lower potential, so its electric PE decreases even though GPE increases.",
+    "D": "The changes are equal only if no kinetic energy is gained; P accelerates, so this need not hold."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q23",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.j",
+   "electromagnetic-forces.m"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires 3D visualisation and applying the left-hand rule to negative charges.",
+  "misconception": "Treating electrons as positive charges when applying the left-hand rule, or setting B parallel/antiparallel to E",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The electric field points out of the page (towards D). Electrons feel an electric force opposite to $E$, i.e. into the page (towards B).\n\nFor no deflection, the magnetic force must point out of the page (towards D). Conventional current is opposite to the electron motion, i.e. to the left. By Fleming's left-hand rule, a leftward current with a force out of the page needs $B$ pointing downward, towards C. (Check: $\\vec F = -e\\,\\vec v \\times \\vec B$ with $\\vec v$ to the right and $\\vec B$ downward gives a force out of the page.)",
+   "perOption": {
+    "A": "Gives a magnetic force into the page, adding to the electric force instead of cancelling it; this is the answer for positive charges.",
+    "B": "B parallel to the electric force direction; the magnetic force would then be vertical and could not cancel the electric force.",
+    "C": "Correct. Downward B gives an out-of-page magnetic force on the electrons, balancing the electric force.",
+    "D": "B along $E$ gives a vertical magnetic force, which cannot balance the electric force."
+   }
+  },
+  "transcription": "The diagram shows a beam of electrons entering a velocity selector. The direction of the electric field is as shown in the diagram. Electrons with the desired speed leave the selector undeflected. In which direction is the magnetic field? [Diagram: box with electron beam entering from the left and leaving to the right; electric field arrows drawn in perspective pointing out of the page towards the viewer. Direction options at the exit: A upward, C downward, B into the page (away from viewer), D out of the page (towards viewer, same as E).]",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q24",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Qualitative application of Faraday's and Lenz's laws to reversed pole and lower speed.",
+  "misconception": "Forgetting that reversing the pole reverses the induced current, or that the size depends on rate of change of flux",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Reversing the pole reverses the change in flux linkage, so by Lenz's law the induced current, and the needle deflection, reverse: to the right.\n\nAt half the speed the rate of change of flux linkage is smaller, so by Faraday's law the induced e.m.f. and maximum current are smaller: less than 10 units.",
+   "perOption": {
+    "A": "Ignores the reversal of direction caused by using the South pole.",
+    "B": "Correct. Opposite pole reverses the direction; slower motion reduces the e.m.f.",
+    "C": "Wrong direction, and a slower speed gives a smaller, not larger, e.m.f.",
+    "D": "Direction is right, but half the speed reduces the rate of change of flux, so the deflection is smaller."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q25",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "electromagnetic-forces"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-forces.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires the force on charges in a moving conductor and the source-versus-load sign of potential.",
+  "misconception": "Assuming current flows from high to low potential inside the source (the disc) as it does in the external resistor",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "With the disc turning anticlockwise, the radius PQ (P at the top) moves to the left. With $B$ into the page, the magnetic force on positive charges, $q\\vec v\\times\\vec B$, points down along the radius towards Q.\n\nSo current flows from P to Q inside the disc. The disc acts as the source, so charge is driven to Q, making Q the positive terminal. P is at a lower potential than Q, and the external current flows from Q through the resistor back to P.",
+   "perOption": {
+    "A": "Correct. The force on positive charges is towards Q, so Q is the higher-potential terminal.",
+    "B": "Reverses the current direction in the radius.",
+    "C": "Reverses both: this would be correct for clockwise rotation.",
+    "D": "Assumes current in the source flows from high to low potential; inside the e.m.f. source it flows from low to high."
+   }
+  },
+  "transcription": "The diagram shows a metal disc rotating anti-clockwise in a uniform magnetic field. [Diagram: disc in a uniform field into the page (crosses); sliding contact P at the rim (top) and contact Q at the centre axle; P and Q are joined through an external resistor; radius PQ is vertical.] Which of the following describes the direction of current along radius PQ and the potential of P with respect to Q? A: P to Q, lower. B: Q to P, lower. C: Q to P, higher. D: P to Q, higher.",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q26",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.f",
+   "currents.i"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must read the full 4 s period (including the zero interval) and average $I^2R$ rather than $I$.",
+  "misconception": "Averaging the current (which gives zero net charge) instead of the power, or missing the zero-current interval",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "One period is 4 s: $I = 4.0$ A for 1 s, $I = -2.0$ A for 2 s (1 s to 3 s), then $I = 0$ for 1 s.\n\nEnergy per period: $W = R\\sum I^2 t = 11(16\\times1 + 4\\times2 + 0) = 264\\ \\mathrm{J}$. Average power $= 264/4 = 66\\ \\mathrm{W}$.",
+   "perOption": {
+    "A": "Zero is the mean current (net charge per cycle is zero), but power depends on $I^2$, which is never negative.",
+    "B": "Leaves out part of the period, e.g. uses only the positive pulse ($16\\times11/4 = 44$ W).",
+    "C": "Correct. Mean of $I^2R$ over the 4 s period.",
+    "D": "Overestimates the mean of $I^2$, e.g. by taking the 4.0 A pulse to last half of each period."
+   }
+  },
+  "transcription": "An alternating current with a rectangular waveform as shown below flows through an $11\\ \\Omega$ resistor. [Graph: $I$/A against $t$/s. $I = 4.0$ A from 0 to 1 s, $-2.0$ A from 1 to 3 s, 0 from 3 to 4 s; then repeats: 4.0 A from 4 to 5 s, $-2.0$ A from 5 to 7 s, 0 from 7 to 8 s, 4.0 A from 8 to 9 s, $-2.0$ A from 9 s.] What is the average power dissipated by the resistor? A 0 B 44 W C 66 W D 88 W",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q27",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.e"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of the de Broglie relation $\\lambda = h/p$.",
+  "misconception": "Confusing which particle property the de Broglie wavelength depends on, or inverting the relationship",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The de Broglie relation is $\\lambda = \\dfrac{h}{p}$, so $\\lambda p = h$, a constant. Wavelength is inversely proportional to momentum.",
+   "perOption": {
+    "A": "Correct. $\\lambda p = h$.",
+    "B": "Inverts the relationship: wavelength decreases as momentum increases.",
+    "C": "Since $p = \\sqrt{2mE_k}$, $\\lambda\\sqrt{E_k}$ is constant, not $\\lambda E_k$.",
+    "D": "Wavelength decreases with kinetic energy, so this ratio cannot be constant."
+   }
+  },
+  "transcription": "An electron can have both wave and particle properties. Which equation relates the wavelength of an electron to one of its particle properties? A wavelength $\\times$ momentum = constant B $\\frac{\\text{wavelength}}{\\text{momentum}}$ = constant C wavelength $\\times$ kinetic energy = constant D $\\frac{\\text{wavelength}}{\\text{kinetic energy}}$ = constant",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.f",
+   "quantum-physics.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Links the spread of $|\\psi|^2$ to $\\Delta x$ and applies the uncertainty principle qualitatively.",
+  "misconception": "Thinking a sharply peaked (well-localised) wavefunction means well-defined momentum",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$|\\psi|^2$ gives the probability density of finding the particle at $x$, so its spread measures the position uncertainty $\\Delta x$.\n\nBy $\\Delta x\\,\\Delta p \\gtrsim h$, the smallest $\\Delta x$ gives the largest $\\Delta p$. Graph D is the most sharply localised, so it has the largest momentum uncertainty.",
+   "perOption": {
+    "A": "A uniform $|\\psi|^2$ means maximum $\\Delta x$, so the smallest $\\Delta p$.",
+    "B": "The particle is spread over the whole range, so $\\Delta x$ is large and $\\Delta p$ small.",
+    "C": "A broad single hump spans the whole region, so $\\Delta x$ is large.",
+    "D": "Correct. The narrowest distribution gives the smallest $\\Delta x$ and so the largest $\\Delta p$."
+   }
+  },
+  "transcription": null,
+  "issues": "Question number is cut off in the crop (Q28 by id)."
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q29",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.g",
+   "nuclear-physics.m"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Tracking the neutron number change for each decay type.",
+  "misconception": "Thinking β-decay leaves the neutron number unchanged or that γ emission changes the nucleus composition",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Change in neutron number: $\\beta^-$ decay turns a neutron into a proton ($-1$); $\\alpha$ decay removes 2 neutrons ($-2$); $\\gamma$ emission changes nothing (0).\n\nTotals: A $-1$, B $-2$, C $-3$, D $-2$. Sequence A loses the fewest neutrons.",
+   "perOption": {
+    "A": "Correct. Only one neutron is lost (β), and γ emission leaves the nucleus composition unchanged.",
+    "B": "α emission removes 2 neutrons.",
+    "C": "Loses 2 (α) + 1 (β) = 3 neutrons, the most.",
+    "D": "Each β decay converts a neutron into a proton, so 2 neutrons are lost."
+   }
+  },
+  "transcription": "Nucleus P decays in two stages to produce nucleus Q. Which decay sequence will result in the highest number of neutrons in nucleus Q? A a $\\beta$-particle followed by a $\\gamma$-ray B an $\\alpha$-particle followed by a $\\gamma$-ray C an $\\alpha$-particle followed by a $\\beta$-particle D a $\\beta$-particle followed by another $\\beta$-particle",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.f",
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "practical"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires separating the constant background from the decaying source count over two half-lives.",
+  "misconception": "Halving the total count rate, including background, each half-life",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let the source rate be $S$ and the background $b$. Then $S + b = 324$, and after two half-lives $\\tfrac{S}{4} + b = 108$.\n\nSubtracting: $\\tfrac{3}{4}S = 216 \\Rightarrow S = 288$, so $b = 324 - 288 = 36$ counts per minute.",
+   "perOption": {
+    "A": "This is $108/4$, which wrongly treats the background as decaying too.",
+    "B": "Correct. Only the source count decays; the background stays constant.",
+    "C": "This is $108/2$, which wrongly halves the final reading.",
+    "D": "This is $S/4$ (the remaining source count), not the background."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ }
+]

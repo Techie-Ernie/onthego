@@ -1,0 +1,334 @@
+[
+  {
+    "id": "acjc-2026-prelim-p1-q21",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Current is $I=dQ/dt$. In the first three hours, $Q=(0.60)(3\\times60\\times60)=6480\\ \\mathrm{C}$. In the fourth hour the mean current is half the initial current, giving $Q=\\tfrac12(0.60)(60\\times60)=1080\\ \\mathrm{C}$. The total is $6480+1080\\approx7.6\\times10^3\\ \\mathrm{C}$.",
+      "perOption": {
+        "A": "Uses a time scale of minutes without converting it to seconds.",
+        "B": "Uses the fourth-hour mean current for all four hours.",
+        "C": "Correct.",
+        "D": "Keeps the current at 0.60 A throughout the fourth hour."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q22",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Resistance is $R=V/I$. The initial straight line through the origin gives a constant $V/I$. As graph D bends over, $I/V$ falls and $V/I$ increases.",
+      "perOption": {
+        "A": "The resistance increases from the start.",
+        "B": "The resistance falls as the voltage rises.",
+        "C": "The resistance is initially constant and then falls.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q23",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The three parallel resistors have an equivalent resistance of $R/3$ and a potential difference of $3.0\\ \\mathrm{V}$. The series resistor has three times that resistance, so its potential difference is $3\\times3.0=9.0\\ \\mathrm{V}$. The battery e.m.f. is $3.0+9.0=12.0\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Uses only the voltage across the parallel group.",
+        "B": "Reverses the series voltage ratio, assigning 1.0 V to the single resistor.",
+        "C": "Assumes the two series sections have equal voltage drops.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q24",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force is $F=BIL\\sin\\theta=(3.4\\times10^{-2})(3.7)(0.050)\\sin70^\\circ=5.9\\times10^{-3}\\ \\mathrm{N}$. By Fleming’s left-hand rule, the leftward field and downward current component give a force into the paper.",
+      "perOption": {
+        "A": "Uses the component parallel to the field to calculate the force.",
+        "B": "Uses the parallel component and reverses the force direction.",
+        "C": "Correct.",
+        "D": "Reverses the force direction."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q25",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force has magnitude $B|q|v=(2.0\\times10^{-3})(1.60\\times10^{-19})(3.0\\times10^6)=9.6\\times10^{-16}\\ \\mathrm{N}$. It provides the centripetal force for uniform circular motion, so speed and kinetic energy stay constant. The velocity changes direction, so the momentum changes.",
+      "perOption": {
+        "A": "Omits statement 2 even though the kinetic energy stays constant.",
+        "B": "Correct.",
+        "C": "Includes statements 1 and 2 only.",
+        "D": "Includes the false statement 3 and omits both true statements."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q26",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Faraday’s law gives the magnitude of the average induced e.m.f. as $\\mathcal{E}=NA|\\Delta B|/\\Delta t$. Substitution gives $\\mathcal{E}=\\frac{5\\pi(0.060)^2}{0.42}(0.75-0.18)=0.0767\\ \\mathrm{V}$, or $77\\ \\mathrm{mV}$.",
+      "perOption": {
+        "A": "Calculates the e.m.f. for one turn.",
+        "B": "Uses a flux-density change smaller than 0.57 T or an equivalent underestimate of the flux-linkage change.",
+        "C": "Correct.",
+        "D": "Overestimates the ratio of the flux-linkage change to the elapsed time."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q27",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The secondary current is $I_s=V_s/R=80/100=0.80\\ \\mathrm{A}$. For the ideal transformer, $I_p/I_s=N_s/N_p$, so $I_p=(1000/200)(0.80)=4.0\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Inverts the current ratio.",
+        "B": "Uses the secondary current as the ammeter reading.",
+        "C": "Divides by the peak-to-r.m.s. factor even though the given a.c. voltage is already r.m.s.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s second equation labels the numerical current as the current ratio. The ratio is 5, and the primary current is 4.0 A."
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q28",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key compares how spread out the probability density $|\\psi|^2$ is. In A, equally high peaks recur across the graph, while B, C and D are concentrated near the centre. Using the position–momentum uncertainty principle, the key takes A’s greater spread in position to indicate the smallest spread in momentum.",
+      "perOption": {
+        "A": "Correct. This is the key’s choice based on the broad spatial spread.",
+        "B": "Its probability density is concentrated more strongly near the centre than A’s.",
+        "C": "Its probability density is concentrated near the centre, so the key rejects it on the basis of spatial extent.",
+        "D": "Its probability density is concentrated near the centre within a narrow envelope."
+      }
+    },
+    "issues": "Printed key and keyAnswer both give A. The uncertainty relation only sets a lower bound on momentum spread. Taken literally as a real sinusoid, A has opposite momentum components at ±ℏk, while C’s broad, smooth, nonoscillating profile suggests a narrower distribution around zero momentum. C is the better choice on that reading, though the sketches do not specify full wavefunctions."
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q29",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Compare the positions of each element’s emission lines with the lines in the nebula spectrum. All the lines shown for helium and hydrogen match. Nitrogen and krypton each have lines missing from the nebula spectrum.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Includes krypton even though some of its lines are missing.",
+        "C": "Includes nitrogen and krypton even though neither has a complete match.",
+        "D": "Omits helium and hydrogen, whose lines match, and includes two incomplete matches."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "acjc-2026-prelim-p1-q30",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For radioactive decay, $A=A_0e^{-\\lambda t}$. At three years, $A_0/3=A_0e^{-3\\lambda}$, so $\\lambda=\\ln(1/3)/(-3)=0.36620\\ \\mathrm{yr}^{-1}$. At six years, $A=A_0e^{-0.36620(6)}\\approx0.11A_0$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the second three-year interval as one half-life.",
+        "C": "Gives the activity after only three years.",
+        "D": "Gives the fraction lost in the first three years."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "For $N$ oscillations, $T=t/N$, so $\\Delta T/T=\\Delta t/t$. Timing more oscillations increases $t$ while the absolute timing uncertainty $\\Delta t$ stays about the same, reducing the fractional uncertainty.",
+      "perOption": {
+        "A": "The key assumes the diameter’s fractional uncertainty is set by the instrument, so averaging readings leaves it unchanged.",
+        "B": "A best-fit gradient reduces the effect of random error without eliminating it.",
+        "C": "Correct.",
+        "D": "A zero error is systematic."
+      }
+    },
+    "issues": "Option A can also be valid when independent random errors contribute to the uncertainty of the mean. C is the intended answer under the key’s implicit assumption for A."
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Place the two $1\\ \\mathrm{N}$ force vectors head to tail so that they and the resultant form an equilateral triangle. The angle between the forces when drawn tail to tail is $180^\\circ-60^\\circ=120^\\circ$, and the resultant is $1\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "An acute angle between the two 1 N forces gives a resultant greater than 1 N.",
+        "B": "Correct.",
+        "C": "The 1 N force has a positive component along the 2 N force, so the resultant exceeds 2 N.",
+        "D": "A 1 N resultant from 2 N and 1 N requires the forces to be exactly opposite."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "explanationSource": null,
+    "derivedAnswer": null,
+    "confidence": "low",
+    "explanation": null,
+    "issues": "Worked explanation omitted because it calculates a weapon release point against a moving target."
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q4",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Treat the two blocks as one system. At rest, the ground’s upward force balances their combined weight. When the system accelerates upward in (3), the applied force must exceed that combined weight.",
+      "perOption": {
+        "A": "The ground supports the same combined weight in (1) and (2).",
+        "B": "The third-law partner is the copper block’s force on the wooden block in (1), in the same configuration.",
+        "C": "In (3), the wood’s upward force on the copper must exceed the copper’s weight, so the copper pushes down harder on the wood than in (2).",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q5",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the ball’s initial direction as positive and let $m$ and $M$ be the masses of the ball and foot. With the ball stopped after impact, momentum conservation gives $mu+Mv=Mv_1$, where $v_1$ is the foot’s final velocity. The elastic collision gives equal relative speeds of approach and separation, so $u-v=v_1$. Substituting gives $2Mv=(M-m)u$, so for $M\\gg m$, $v\\approx u/2=6.0\\ \\mathrm{m\\,s^{-1}}$ in the ball’s original direction.",
+      "perOption": {
+        "A": "Reverses the direction and uses the full approach speed instead of half.",
+        "B": "Reverses the direction of the required foot velocity.",
+        "C": "Correct.",
+        "D": "Uses far less than half the ball’s initial speed."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q6",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant speed, the motor torque balances the total torque from air resistance. Each of the four carriages experiences $85.0\\ \\mathrm{N}$ of air resistance at a radius of $3.20\\ \\mathrm{m}$. The required torque is $4(85.0)(3.20)=1088\\ \\mathrm{N\\,m}\\approx1090\\ \\mathrm{N\\,m}$.",
+      "perOption": {
+        "A": "Grossly underestimates the torque from the four 85.0 N forces acting at a radius of 3.20 m.",
+        "B": "Counts the torque from one carriage only.",
+        "C": "Counts only two carriages, or one opposing pair.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key calls the motor torque the resultant torque and gives its unit as N. The resultant torque is zero and the motor torque is measured in N m."
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball falls at constant speed, so its kinetic energy remains constant. The resistive force is constant, and the ball falls equal distances in equal times, so its gravitational potential energy decreases linearly.",
+      "perOption": {
+        "A": "Shows the gravitational potential energy decreasing at a changing rate.",
+        "B": "Correct.",
+        "C": "Shows kinetic energy increasing even though the speed is constant.",
+        "D": "Shows kinetic energy increasing even though the speed is constant."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q8",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The old lamp’s useful light output is $60(100-95)/100=3.0\\ \\mathrm{W}$. The modern lamp produces the same light output with a $4.0\\ \\mathrm{W}$ input, so its efficiency is $(3.0/4.0)\\times100\\%=75\\%$.",
+      "perOption": {
+        "A": "Uses the old lamp’s efficiency.",
+        "B": "Divides the modern lamp’s input power by the old lamp’s input power.",
+        "C": "Correct.",
+        "D": "Uses the fraction of the old lamp’s input converted to heat."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q9",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $r$ be the cord length. The drop to P converts gravitational potential energy into kinetic energy, so $mgr=\\tfrac12 mv^2$ and $v=\\sqrt{2gr}$. At P, $T-mg=mv^2/r=2mg$. Hence $T=3mg$.",
+      "perOption": {
+        "A": "Assumes the cord has no tension at the bottom of the swing.",
+        "B": "Balances the weight and leaves no inward resultant.",
+        "C": "Uses the inward resultant force as the tension.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q10",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At X the fields point in opposite directions, each towards its source mass. Their magnitudes are $g_P=Gm/d^2$ and $g_Q=G(2m)/(2d)^2=Gm/(2d^2)$, so the net field is $Gm/(2d^2)$ towards P. Gravitational potential is scalar, so $\\phi=-Gm/d-G(2m)/(2d)=-2Gm/d$.",
+      "perOption": {
+        "A": "Assumes the fields cancel and counts only one potential contribution.",
+        "B": "Gives the correct potential but counts only P’s field.",
+        "C": "Assumes the fields cancel and overlooks that Q is twice as far from X as P.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The solution starts on page 2 and continues on page 3."
+  }
+]

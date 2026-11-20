@@ -1,0 +1,602 @@
+[
+ {
+  "id": "jpjc-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.c"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard base-unit derivation via $V = W/Q$ with $Q = It$.",
+  "misconception": "Treating derived units such as the ohm or coulomb as SI base units",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Potential difference is work done per unit charge: $V = W/Q$.\n\nWork has units $\\mathrm{kg\\,m^2\\,s^{-2}}$ and charge $Q = It$ has units $\\mathrm{A\\,s}$.\n\nSo $\\mathrm{V} = \\dfrac{\\mathrm{kg\\,m^2\\,s^{-2}}}{\\mathrm{A\\,s}} = \\mathrm{kg\\,m^2\\,A^{-1}\\,s^{-3}}$.",
+   "perOption": {
+    "A": "Dimensionally correct ($V = IR$) but the ohm is a derived unit, not a base unit.",
+    "B": "Equivalent to the volt but contains the coulomb and ohm, which are derived units.",
+    "C": "Correct. Expresses the volt entirely in kg, m, A and s.",
+    "D": "Equivalent to the volt but the coulomb is a derived unit ($\\mathrm{A\\,s}$), not a base unit."
+   }
+  },
+  "transcription": "The SI unit of potential difference is the volt, V. What are the SI base units of the volt? A $\\mathrm{A\\,\\Omega}$ B $\\mathrm{C\\,s^{-1}\\,\\Omega}$ C $\\mathrm{kg\\,m^2\\,A^{-1}\\,s^{-3}}$ D $\\mathrm{kg\\,m^2\\,C^{-1}\\,s^{-2}}$",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q2",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.b",
+   "motion-and-forces.c"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires reading gradient and sign of a v–t graph rather than any calculation.",
+  "misconception": "Confusing zero acceleration with change of direction",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Acceleration is the gradient of the $v$–$t$ graph. The gradient is zero at the peak and the trough of the curve.\n\nAt these points $|v|$ is a maximum, so the speed is greatest exactly when the acceleration is zero.",
+   "perOption": {
+    "A": "Velocity is also zero at $t = 0$ and $t = T$, where displacement is smallest, so the displacement is not greatest whenever $v = 0$.",
+    "B": "Direction changes when the velocity is zero (graph crosses the time axis), not when the acceleration is zero.",
+    "C": "Displacement increases whenever the velocity is positive, which includes times when the gradient (acceleration) is negative.",
+    "D": "Correct. Zero gradient occurs at the maximum and minimum of $v$, where speed peaks."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q3",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.h",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Two applications of Newton's second law with a changing mass and careful sign handling.",
+  "misconception": "Ignoring direction of acceleration or forgetting the mass changes in the second case",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Descending with $a = 2.0\\ \\mathrm{m\\,s^{-2}}$ downward: $Mg - L = 2M$, so $L = M(g - 2) = 7.81M$.\n\nAscending with new mass $m$: $L - mg = 4m$, so $m = \\dfrac{L}{g + 4} = \\dfrac{7.81M}{13.81} = 0.566M$.\n\nMass removed $= M - 0.566M \\approx 0.43M$.",
+   "perOption": {
+    "A": "Too small; does not correspond to a correct application of $F = ma$ in both cases.",
+    "B": "Correct. $M - L/(g+4) = 0.43M$.",
+    "C": "This is the remaining mass $0.57M$, not the mass removed.",
+    "D": "Too large; would leave a mass of only $0.14M$, giving an upward acceleration far above $4.0\\ \\mathrm{m\\,s^{-2}}$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q4",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.d",
+   "forces-and-moments.g",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single moments equation about one end plus force balance.",
+  "misconception": "Inverting the ratio or neglecting the plank's weight",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Take moments about B: $F_A(5.0) = 880(4.2) + 200(2.5)$, so $F_A = 839\\ \\mathrm{N}$.\n\nVertical equilibrium: $F_B = 880 + 200 - 839 = 241\\ \\mathrm{N}$.\n\n$F_A/F_B = 839/241 \\approx 3.5$.",
+   "perOption": {
+    "A": "This is $F_B/F_A$, the inverse ratio.",
+    "B": "This is $F_A$ divided by the total weight (1080 N), not by $F_B$.",
+    "C": "Correct. $F_A = 839\\ \\mathrm{N}$, $F_B = 241\\ \\mathrm{N}$.",
+    "D": "This is the total weight divided by $F_B$, not $F_A/F_B$."
+   }
+  },
+  "transcription": "A uniform plank AB of length 5.0 m and weight 200 N is supported at two ends. [Diagram: horizontal plank between two cliffs, upward forces $F_A$ at end A and $F_B$ at end B; man's weight 880 N acting 0.80 m from A; plank weight 200 N at the centre; total length 5.0 m] A man of weight 880 N stands at a distance of 0.80 m from end A. The ground exerts a vertical force $F_A$ on the plank at end A and a vertical force $F_B$ on the plank at end B. What is the ratio $F_A/F_B$? A 0.29 B 0.78 C 3.5 D 4.5",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q5",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct Hooke's law with extension computed from lengths.",
+  "misconception": "Using length instead of extension",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Extension under 15 N is $90 - 60 = 30\\ \\mathrm{mm}$, so $k = 15/30 = 0.50\\ \\mathrm{N\\,mm^{-1}}$.\n\nAt the limit of proportionality, $F = kx = 0.50 \\times 100 = 50\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "Uses the stretched length 90 mm instead of the extension: $15 \\times 100/90$.",
+    "B": "Correct. $F = 0.50\\ \\mathrm{N\\,mm^{-1}} \\times 100\\ \\mathrm{mm}$.",
+    "C": "Uses the total length at the limit (160 mm) instead of the extension of 100 mm.",
+    "D": "Does not follow from $F = kx$ with the correct $k$ and extension."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q6",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.k",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recall of $E = \\tfrac{1}{2}Fx$ with extension $y - x$.",
+  "misconception": "Equating elastic energy stored to gravitational energy lost by the mass",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "At equilibrium the spring tension equals $mg$ and the extension is $y - x$.\n\nElastic potential energy is the area under the force–extension graph: $E = \\tfrac{1}{2}Fx = \\tfrac{1}{2}mg(y - x)$.",
+   "perOption": {
+    "A": "Correct. Area of the triangle under the $F$–$x$ graph.",
+    "B": "This is the gravitational potential energy lost by the mass; only half of it is stored in the spring.",
+    "C": "Squaring the extension gives wrong units; the $\\tfrac{1}{2}kx^2$ form needs $k$, not $mg$.",
+    "D": "Wrong units and omits the factor $\\tfrac{1}{2}$."
+   }
+  },
+  "transcription": "A spring has an unstretched length of $x$. When a mass $m$ is suspended vertically from the end of the spring, the spring extends to a new length of $y$. What is the elastic potential energy stored in the spring? A $\\frac{1}{2}mg(y-x)$ B $mg(y-x)$ C $\\frac{1}{2}mg(y-x)^2$ D $mg(y-x)^2$",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q7",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "projectile-motion"
+  ],
+  "outcomes": [
+   "energy-and-fields.b",
+   "energy-and-fields.c",
+   "projectile-motion.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Energy bookkeeping with work, friction and GPE on an incline.",
+  "misconception": "Using the distance along the slope as the vertical height gain",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Heat from friction $= fs = 30 \\times 3.0 = 90\\ \\mathrm{J}$.\n\nWork done by the pull $= 80 \\times 3.0 = 240\\ \\mathrm{J}$. Gain in GPE $= 40 \\times 3.0\\sin 30^\\circ = 60\\ \\mathrm{J}$.\n\nGain in KE $= 240 - 90 - 60 = 90\\ \\mathrm{J}$.",
+   "perOption": {
+    "A": "Heat is not $240 - 30$; friction work is $30 \\times 3.0 = 90\\ \\mathrm{J}$, and the object does gain KE.",
+    "B": "Correct. $240 - 90 - 60 = 90\\ \\mathrm{J}$.",
+    "C": "Takes the GPE gain as $40 \\times 3.0 = 120\\ \\mathrm{J}$, using the slope distance instead of the height $1.5\\ \\mathrm{m}$.",
+    "D": "Heat is wrong and the KE equals the total work by the pull, ignoring friction and GPE."
+   }
+  },
+  "transcription": "A force of 80 N pulls an object of weight 40 N from rest up an incline of 30° through 3.0 m as shown. A frictional force of 30 N acts on the object. [Diagram: block on a 30° incline, 80 N force up the slope parallel to it, 3.0 m displacement up the slope] What are the heat generated due to friction and the gain in kinetic energy of the mass? (heat / J, gain in KE / J) A 210, 0 B 90, 90 C 90, 30 D 210, 240",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q8",
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.b",
+   "circular-motion.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "diagram"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "One-step use of $v = r\\omega$ with common angular velocity.",
+  "misconception": "Thinking points at different radii on a rigid disc have different periods",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "All points on a rigid disc share the same angular velocity, so Y has the same period, $3.2\\ \\mathrm{s}$.\n\nWith $v = r\\omega$ and Y at radius $r/2$, $v_Y = \\tfrac{1}{2}(1.0) = 0.50\\ \\mathrm{m\\,s^{-1}}$.",
+   "perOption": {
+    "A": "Speed and period both wrong: speed scales with $r$, not $r^2$, and period is unchanged.",
+    "B": "Speed scales linearly with $r$, so it halves, not quarters.",
+    "C": "Period is the same for every point on the disc; it does not halve.",
+    "D": "Correct. Same $\\omega$, half the radius."
+   }
+  },
+  "transcription": "A disc of radius $r$ undergoes uniform circular motion. The speed of point X is $1.0\\ \\mathrm{m\\,s^{-1}}$, and its period is 3.2 s. [Diagram: spinning disc; X on the rim at radius $r$, Y on the same radius at $r/2$ from the centre] What are the speed and the period of point Y? (speed / m s$^{-1}$, period / s) A 0.25, 1.6 B 0.25, 3.2 C 0.50, 1.6 D 0.50, 3.2",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q9",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.j",
+   "gravitational-fields.g"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Counter-intuitive result that losing energy increases orbital speed.",
+  "misconception": "Assuming that losing energy to drag makes the satellite slower",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a circular orbit $\\dfrac{GMm}{r^2} = \\dfrac{mv^2}{r}$, so $v = \\sqrt{GM/r}$: smaller $r$ gives larger $v$.\n\nThe period $T = 2\\pi r/v \\propto r^{3/2}$, so it decreases.\n\nThe total energy $-GMm/2r$ falls; KE rises while GPE falls by twice as much.",
+   "perOption": {
+    "A": "Correct. $v \\propto r^{-1/2}$ and $T \\propto r^{3/2}$.",
+    "B": "Speed increases in a lower orbit, and the gravitational force $\\propto 1/r^2$ increases.",
+    "C": "KE increases and GPE decreases (becomes more negative) in a lower orbit.",
+    "D": "Drag removes energy so total energy decreases, and the period decreases."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q10",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.c",
+   "gravitational-fields.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Ratio reasoning with $g \\propto 1/r^2$ and $\\phi \\propto 1/r$, with the height-vs-distance trap.",
+  "misconception": "Using height above the surface (3R) instead of distance from Earth's centre (4R)",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "At height $3R$ above the surface the distance from Earth's centre is $4R$.\n\nWeight $\\propto 1/r^2$: $W' = W/4^2 = W/16$.\n\nPotential $\\propto 1/r$: $\\phi' = \\phi/4$.",
+   "perOption": {
+    "A": "Correct. $r$ increases by a factor of 4.",
+    "B": "Potential uses $3R$ instead of $4R$ for the distance from the centre.",
+    "C": "Weight is taken as $\\propto 1/r$ instead of $1/r^2$.",
+    "D": "Weight uses $1/r$ and potential uses $3R$ instead of $4R$."
+   }
+  },
+  "transcription": "At the surface of the Earth, the gravitational field strength is $g$, and the gravitational potential is $\\phi$. The radius of the Earth is $R$. An object, whose weight on the surface of the Earth is $W$, is moved to a height $3R$ above the surface. What are the weight of the object and the gravitational potential at this height? (weight, potential) A $W/16$, $\\phi/4$ B $W/16$, $\\phi/3$ C $W/4$, $\\phi/4$ D $W/4$, $\\phi/3$",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q11",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Same temperature means same mean KE, giving $v_{rms} \\propto 1/\\sqrt{m}$.",
+  "misconception": "Forgetting the square root in $v_{rms} \\propto 1/\\sqrt{m}$",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At the same temperature the mean KE $\\tfrac{1}{2}m\\langle c^2\\rangle = \\tfrac{3}{2}kT$ is the same for both gases.\n\nSo $v_{rms} \\propto 1/\\sqrt{m}$: $v_{Ne} = 1800/\\sqrt{5} \\approx 800\\ \\mathrm{m\\,s^{-1}}$.",
+   "perOption": {
+    "A": "Divides by 5 instead of $\\sqrt{5}$.",
+    "B": "Correct. $1800/\\sqrt{5} = 805\\ \\mathrm{m\\,s^{-1}}$.",
+    "C": "Multiplies by $\\sqrt{5}$; heavier molecules move more slowly, not faster.",
+    "D": "Multiplies by 5; wrong direction and missing square root."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q12",
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Combines specific heat and latent heat then divides by power.",
+  "misconception": "Including only one of the two energy stages",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Cooling to $0\\ ^\\circ\\mathrm{C}$: $mc\\Delta\\theta = 0.750 \\times 4200 \\times 18 = 56\\,700\\ \\mathrm{J}$.\n\nFreezing: $mL = 0.750 \\times 330\\,000 = 247\\,500\\ \\mathrm{J}$.\n\n$t = \\dfrac{304\\,200}{135} = 2250\\ \\mathrm{s} \\approx 38\\ \\mathrm{min}$.",
+   "perOption": {
+    "A": "Includes only the cooling from 18 °C to 0 °C, leaving out the latent heat.",
+    "B": "Includes only the latent heat of freezing, leaving out the cooling stage.",
+    "C": "Correct. Both stages total $304\\ \\mathrm{kJ}$ removed at $135\\ \\mathrm{W}$.",
+    "D": "Too large; corresponds to counting the latent heat twice."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q13",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.b",
+   "temperature-and-ideal-gases.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Ideal gas law at constant volume with changing mass and kelvin conversion.",
+  "misconception": "Using Celsius instead of kelvin temperatures",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At constant volume $pV = \\dfrac{m}{M}RT$ gives $m \\propto p/T$.\n\nInitial: 19 kg at $9.5p_0$, 280 K. Heating would raise the pressure above $10p_0$, so the valve opens and the final state is $10p_0$ at 300 K.\n\n$m_f = 19 \\times \\dfrac{10}{9.5} \\times \\dfrac{280}{300} = 18.67\\ \\mathrm{kg}$, so $0.33\\ \\mathrm{kg}$ escapes.",
+   "perOption": {
+    "A": "Too small; not consistent with $m \\propto p/T$ in kelvin.",
+    "B": "Correct. $19 - 18.67 = 0.33\\ \\mathrm{kg}$.",
+    "C": "Too large; roughly double the correct value, from an arithmetic slip.",
+    "D": "Uses Celsius temperatures (7 and 27) instead of kelvin."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q14",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.d",
+   "oscillations.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must combine $a_0 = \\omega^2x_0$ and $E = \\tfrac{1}{2}m\\omega^2x_0^2$ with three ratios.",
+  "misconception": "Assuming the same angular frequency for both bodies",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Total energy $E = \\tfrac{1}{2}m\\omega^2x_0^2 = \\tfrac{1}{2}m(\\omega^2x_0)x_0 = \\tfrac{1}{2}m\\,a_0x_0$.\n\nSo $\\dfrac{E_Y}{E_X} = \\dfrac{m_Y}{m_X}\\cdot\\dfrac{a_Y}{a_X}\\cdot\\dfrac{x_Y}{x_X} = 2 \\times 3 \\times \\tfrac{1}{2} = 3.0$.",
+   "perOption": {
+    "A": "Leaves out the mass ratio of 2.",
+    "B": "Does not follow from $E \\propto m\\,a_0x_0$ with the given ratios.",
+    "C": "Correct. $E \\propto m\\,a_0x_0$ gives $2 \\times 3 \\times 0.5$.",
+    "D": "Leaves out the amplitude ratio of $\\tfrac{1}{2}$."
+   }
+  },
+  "transcription": "Bodies X and Y performs simple harmonic motion. Body Y has twice the mass of body X and oscillates with half the amplitude. The maximum acceleration of body Y is three times that of body X. What is the ratio $\\dfrac{\\text{total energy of body Y}}{\\text{total energy of body X}}$? A 1.5 B 2.0 C 3.0 D 6.0",
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q15",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.e",
+   "oscillations.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires choosing the cosine form and solving for phase, not assuming linear motion.",
+  "misconception": "Assuming the bob moves at constant speed so half the distance takes half the time",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Starting at the extreme: $x = x_0\\cos\\omega t$. Halfway to equilibrium means $x = x_0/2$.\n\n$\\cos\\omega t = \\tfrac{1}{2} \\Rightarrow \\omega t = \\pi/3$, so $t = T/6 = 2.0/6 = 0.33\\ \\mathrm{s}$.\n\nThe bob starts slowly near the extreme, so it takes longer than half of the quarter-period.",
+   "perOption": {
+    "A": "This is $T/12$, the time from equilibrium to half amplitude (using sine instead of cosine).",
+    "B": "Assumes constant speed: half of the quarter-period $T/4 = 0.5\\ \\mathrm{s}$.",
+    "C": "Correct. $t = T/6$.",
+    "D": "This is half a period, the time to reach the opposite extreme."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q16",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.j",
+   "wave-motion.i"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Malus' law with the halving at the first polariser and a percentage decrease to interpret.",
+  "misconception": "Forgetting the first polariser halves unpolarised light, or using cos instead of cos²",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "A decrease of 87.5% leaves $I = 0.125I_0$.\n\nThe first polariser halves unpolarised light; the second applies Malus' law: $I = \\tfrac{1}{2}I_0\\cos^2\\theta$.\n\n$\\cos^2\\theta = 0.25 \\Rightarrow \\cos\\theta = 0.5 \\Rightarrow \\theta = 60^\\circ$.",
+   "perOption": {
+    "A": "Gives $I = \\tfrac{1}{2}\\cos^2 30^\\circ = 0.375I_0$; equivalent to using $\\sin^2$ instead of $\\cos^2$.",
+    "B": "Gives $I \\approx 0.29I_0$, not $0.125I_0$.",
+    "C": "Correct. $\\tfrac{1}{2}\\cos^2 60^\\circ = 0.125$.",
+    "D": "Uses $\\cos\\theta = 0.25$, forgetting to square the cosine in Malus' law."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q17",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.b",
+   "superposition.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard comparison of open–open and closed–open pipe fundamentals.",
+  "misconception": "Mixing up which pipe type has the longer fundamental wavelength",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Open at both ends: fundamental has $L = \\lambda/2$, so $f = v/2L$.\n\nClosed at one end: fundamental has $L = \\lambda/4$, so $f' = v/4L = 0.5f$.",
+   "perOption": {
+    "A": "Inverts and squares the factor; closing one end lowers the frequency.",
+    "B": "Closing one end doubles the wavelength, so the frequency halves rather than doubles.",
+    "C": "Correct. $\\lambda$ goes from $2L$ to $4L$.",
+    "D": "Halves the frequency twice; the wavelength only doubles."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q18",
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "superposition.m",
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must estimate the wavelength of visible light and apply the Rayleigh criterion.",
+  "misconception": "Using the aperture size directly or a wrong order of magnitude for light's wavelength",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Rayleigh criterion: $\\theta \\approx \\lambda/b$. Taking visible light $\\lambda \\approx 5 \\times 10^{-7}\\ \\mathrm{m}$, $\\theta \\approx \\dfrac{5 \\times 10^{-7}}{5 \\times 10^{-3}} = 1 \\times 10^{-4}\\ \\mathrm{rad}$.\n\nSeparation on the wall $s = D\\theta = 3.0 \\times 1 \\times 10^{-4} = 3 \\times 10^{-4}\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Correct. $s = D\\lambda/b \\approx 0.0003\\ \\mathrm{m}$.",
+    "B": "Ten times too large; implies a wavelength of about $5 \\times 10^{-6}\\ \\mathrm{m}$ (infrared).",
+    "C": "A hundred times too large; wrong order of magnitude for $\\lambda$.",
+    "D": "A thousand times too large; inconsistent with visible-light diffraction."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q19",
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Must deduce the fixed charge is $-e$, then superpose potentials of opposite sign.",
+  "misconception": "Ignoring the alpha particle's own potential or adding magnitudes regardless of sign",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "From $V = \\dfrac{Q}{4\\pi\\varepsilon_0 r}$: $Q = (-1.2 \\times 10^{-4})(1.2 \\times 10^{-5})(4\\pi\\varepsilon_0) = -1.6 \\times 10^{-19}\\ \\mathrm{C} = -e$.\n\nAt the midpoint ($r/2$ from each): fixed charge gives $2 \\times (-1.2 \\times 10^{-4}) = -2.4 \\times 10^{-4}\\ \\mathrm{V}$. The α-particle ($+2e$) gives $+4.8 \\times 10^{-4}\\ \\mathrm{V}$.\n\nTotal $= +2.4 \\times 10^{-4}\\ \\mathrm{J\\,C^{-1}}$.",
+   "perOption": {
+    "A": "This is the potential at X itself; it ignores both the halved distance and the α-particle.",
+    "B": "Correct. $-2.4 \\times 10^{-4} + 4.8 \\times 10^{-4}$.",
+    "C": "Includes only the α-particle's contribution, ignoring the fixed charge.",
+    "D": "Adds the magnitudes, ignoring that the two charges have opposite signs."
+   }
+  },
+  "transcription": "A fixed charge is isolated in space. The electric potential at X, a distance of $1.2 \\times 10^{-5}\\ \\mathrm{m}$ from the fixed charge, is $-1.2 \\times 10^{-4}\\ \\mathrm{J\\,C^{-1}}$ as shown. [Diagram: point charge and point X separated by $1.2 \\times 10^{-5}$ m] An α-particle passes through this point at one instant. What is the magnitude of the electric potential at the midpoint between the α-particle and the fixed charge at this instant? A $1.2 \\times 10^{-4}\\ \\mathrm{J\\,C^{-1}}$ B $2.4 \\times 10^{-4}\\ \\mathrm{J\\,C^{-1}}$ C $4.8 \\times 10^{-4}\\ \\mathrm{J\\,C^{-1}}$ D $7.2 \\times 10^{-4}\\ \\mathrm{J\\,C^{-1}}$",
+  "issues": "Image crop shows the question number as '9' (leading '1' cut off); content is complete."
+ },
+ {
+  "id": "jpjc-2026-prelim-p1-q20",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.g",
+   "circuits.j"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must recognise $v + V = E$ and locate the endpoints at $R = r$ and $R = 3r$.",
+  "misconception": "Thinking the p.d. across the internal resistance rises with external resistance",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The two p.d.s always add to the e.m.f.: $v + V = E$, so the graph is a straight line of gradient $-1$.\n\nAt $R = r$: $V = v = 0.5E$. At $R = 3r$: $V = 0.75E$, $v = 0.25E$.\n\nSo the line runs from $(0.5E, 0.5E)$ to $(0.75E, 0.25E)$.",
+   "perOption": {
+    "A": "Correct. Gradient $-1$ from $(0.5E, 0.5E)$ to $(0.75E, 0.25E)$.",
+    "B": "Positive gradient is wrong: $v$ must fall as $V$ rises since $v + V = E$.",
+    "C": "Right gradient but wrong range; this corresponds to $R$ decreasing from $r$ to $r/3$ ($v$ and $V$ swapped).",
+    "D": "Positive gradient and endpoints violating $v + V = E$."
+   }
+  },
+  "transcription": "A cell of e.m.f. $E$ and internal resistance $r$ is connected to a variable resistor, as shown. [Diagram: cell $E$ in series with internal resistance $r$ (p.d. $v$) inside a dashed box, connected to a variable resistor (p.d. $V$)] The resistance of the variable resistor is gradually increased from $r$ to $3r$. Which graph shows the variation of the p.d. $v$ across the internal resistance with the p.d. $V$ across the variable resistor? [Graphs of $v$ against $V$, axes 0 to 1.0E: A line of negative gradient from (0.5E, 0.5E) to about (0.75E, 0.25E); B line of positive gradient from about (0.25E, 0.25E) to (0.5E, 0.5E); C line of negative gradient from about (0.25E, 0.75E) to (0.5E, 0.5E); D line of positive gradient from (0.5E, 0.5E) to (1.0E, 1.0E)]",
+  "issues": null
+ }
+]

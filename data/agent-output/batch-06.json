@@ -1,0 +1,597 @@
+[
+ {
+  "id": "dhs-2026-prelim-p1-q11",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.i",
+   "wave-motion.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must halve for unpolarised light, then apply Malus' law twice using angle differences between successive axes.",
+  "misconception": "Using the absolute axis angles instead of the angle between successive polariser axes",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "After W the light is plane-polarised with intensity $\\tfrac{1}{2}I_0$.\n\nMalus' law uses the angle between successive axes: W to X is $40^\\circ-30^\\circ=10^\\circ$, X to Y is $60^\\circ-40^\\circ=20^\\circ$.\n\n$I = \\tfrac{1}{2}I_0\\cos^2 10^\\circ\\cos^2 20^\\circ = 0.5(0.970)(0.883)I_0 \\approx 0.43I_0$.",
+   "perOption": {
+    "A": "Does not follow from halving then applying $\\cos^2$ to the angle between successive axes; typically from using the absolute axis angles.",
+    "B": "Results from using a wrong angle between successive axes (e.g. measuring Y relative to W) instead of $10^\\circ$ and $20^\\circ$.",
+    "C": "Correct. $0.5\\cos^2 10^\\circ\\cos^2 20^\\circ I_0 \\approx 0.43I_0$.",
+    "D": "Too large; overestimates transmission, e.g. by mishandling the initial factor of $\\tfrac{1}{2}$ or the angles."
+   }
+  },
+  "transcription": "Three polarisers W, X and Y. Unpolarised light of intensity $I_0$ is incident normally on W, passes through X and emerges from Y. The axis of polarisation of each is shown by a dashed line. [Diagram: three discs; W axis at $30^\\circ$ to the vertical, X axis at $40^\\circ$ to the vertical, Y axis at $60^\\circ$ to the vertical, all measured clockwise from vertical.] What is the intensity of the light that emerges from Y? A $0.11I_0$ B $0.32I_0$ C $0.43I_0$ D $0.64I_0$",
+  "issues": "Diagram angles are not drawn to scale (drawn lines differ noticeably from the labelled 30°, 40°, 60°); solution uses the labels."
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q12",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Two proportional reasoning steps: intensity proportional to amplitude squared, then power conserved over a smaller area.",
+  "misconception": "Treating intensity as proportional to amplitude rather than amplitude squared",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$I \\propto A^2$, so doubling the amplitude gives intensity $4I$ over area $S$, i.e. power $4IS$.\n\nFocusing all this power onto $\\tfrac{1}{3}S$ gives $I' = \\dfrac{4IS}{S/3} = 12I$.",
+   "perOption": {
+    "A": "Takes $I \\propto A$ (factor 2) and multiplies by 3.",
+    "B": "Correct. $4 \\times 3 = 12$.",
+    "C": "Uses a factor of 9 for the area (squaring the area ratio) with factor 2 for amplitude.",
+    "D": "Multiplies by 8 (cubing the amplitude ratio) and then by 3, or double counts the factor of 2."
+   }
+  },
+  "transcription": "A light wave of amplitude $A$ is incident normally on a surface of area $S$. The intensity reaching the surface is $I$. The amplitude is increased to $2A$. The light is then focused onto a smaller area $\\tfrac{1}{3}S$. What is the intensity on this smaller area? A $6I$ B $12I$ C $18I$ D $24I$",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q13",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.m"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of the Rayleigh criterion and small-angle geometry with large powers of ten.",
+  "misconception": "Inverting the ratio (dividing distance by angle) or using radius instead of diameter",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Rayleigh criterion: $\\theta \\approx \\dfrac{\\lambda}{b} = \\dfrac{0.40\\times10^{-6}}{5.1} = 7.8\\times10^{-8}\\ \\mathrm{rad}$.\n\nMinimum separation $s = \\theta d = 7.8\\times10^{-8}\\times 2.8\\times10^{25} \\approx 2.2\\times10^{18}\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Half the correct value, e.g. from using $2b$ or halving the angle.",
+    "B": "Correct. $s = (\\lambda/b)d$.",
+    "C": "Divides the distance by the angle (and halves it) instead of multiplying.",
+    "D": "Divides the distance by the angle, $d/\\theta$, instead of multiplying."
+   }
+  },
+  "transcription": "The diameter of the receiving dish of a telescope is 5.1 m. It receives light of wavelength $0.40\\ \\mu\\mathrm{m}$ from two point sources at a distance of $2.8\\times10^{25}\\ \\mathrm{m}$ away. What is the minimum separation of the two point sources so that the light from them can be resolved? A $1.1\\times10^{18}\\ \\mathrm{m}$ B $2.2\\times10^{18}\\ \\mathrm{m}$ C $1.8\\times10^{32}\\ \\mathrm{m}$ D $3.6\\times10^{32}\\ \\mathrm{m}$",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q14",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "One-step use of $c_{rms} \\propto \\sqrt{T}$.",
+  "misconception": "Assuming r.m.s. speed is proportional to temperature",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Mean KE $\\tfrac{1}{2}m\\langle c^2\\rangle = \\tfrac{3}{2}kT$, so $c_{rms} \\propto \\sqrt{T}$.\n\nDoubling $T$ multiplies $c_{rms}$ by $\\sqrt{2}$.",
+   "perOption": {
+    "A": "Correct. $c_{rms} \\propto \\sqrt{T}$.",
+    "B": "Assumes $c_{rms} \\propto T$; it is the mean kinetic energy, not the speed, that doubles.",
+    "C": "Assumes $c_{rms} \\propto T^{3/2}$, which has no basis.",
+    "D": "Assumes $c_{rms} \\propto T^2$, inverting the square-root relationship."
+   }
+  },
+  "transcription": "An ideal gas has thermodynamic temperature $T$, and its molecules have root-mean-square speed $c_{rms}$. If the gas is heated to temperature $2T$, what is the new r.m.s. speed? A $\\sqrt{2}c_{rms}$ B $2c_{rms}$ C $2\\sqrt{2}c_{rms}$ D $4c_{rms}$",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q15",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires recognising that connected containers share a common pressure, then comparing V/T.",
+  "misconception": "Ignoring that the pressure is equal in connected containers, or mishandling the V/T ratio",
+  "derivedAnswer": "B",
+  "confidence": "low",
+  "explanation": {
+   "body": "The containers are connected, so at equilibrium the gas has the same pressure $p$ in both.\n\nFrom $pV = nRT$, $n = \\dfrac{pV}{RT}$, so $n \\propto \\dfrac{V}{T}$.\n\n$\\dfrac{n_X}{n_Y} = \\dfrac{2V/2T}{V/T} = 1.00$.\n\n(The answer key gives A, 0.25; this does not follow from the ideal gas law with equal pressures.)",
+   "perOption": {
+    "A": "Key's answer, but $0.25$ would require $n \\propto T/V$ inverted on both factors, e.g. $\\dfrac{V/2T}{2V/T}$; it does not follow from $pV=nRT$ with equal pressure.",
+    "B": "Correct. Equal pressure and equal $V/T$ give a ratio of 1.",
+    "C": "Considers only the volume ratio and ignores the temperature difference.",
+    "D": "Multiplies the volume and temperature ratios ($2\\times2$) instead of dividing."
+   }
+  },
+  "transcription": "An ideal gas is contained in two spherical containers X and Y of volume $2V$ and $V$ respectively, connected by a hollow tube of negligible volume. X and Y are maintained at temperatures $2T$ and $T$ respectively. [Diagram: large sphere X labelled $2V, 2T$ joined by a thin tube to small sphere Y labelled $V, T$.] Determine the ratio (number of moles of gas in X)/(number of moles of gas in Y). A 0.25 B 1.00 C 2.00 D 4.00",
+  "issues": "Answer disagreement: key says A (0.25) but with equal pressure in the connected containers $n \\propto V/T$ gives $n_X/n_Y = (2V/2T)/(V/T) = 1.00$ (B). Key appears to be wrong; please verify."
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q16",
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g",
+   "thermodynamic-systems.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs an energy budget to decide that not all the ice melts, then compute the mass melted.",
+  "misconception": "Assuming all ice melts or confusing 0 K with 0 °C",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Energy to warm ice to $0^\\circ\\mathrm{C}$: $0.100(2100)(10.0) = 2100\\ \\mathrm{J}$.\n\nEnergy released by water cooling to $0^\\circ\\mathrm{C}$: $0.150(4180)(20.0) = 12\\,540\\ \\mathrm{J}$.\n\nThis is not enough to melt all the ice ($0.100\\times334\\,000 = 33\\,400\\ \\mathrm{J}$), so the mixture ends at $0^\\circ\\mathrm{C}$. Energy left for melting $= 10\\,440\\ \\mathrm{J}$, melting $10\\,440/334\\,000 = 31.3\\ \\mathrm{g}$, so $100 - 31.3 = 68.7\\ \\mathrm{g}$ of ice remains.",
+   "perOption": {
+    "A": "0 K is absolute zero, not the melting point; and 31.3 g is the mass melted, not remaining.",
+    "B": "Correct mass but 0 K is absolute zero; the mixture is at $0^\\circ\\mathrm{C}$ (273 K).",
+    "C": "31.3 g is the mass of ice that melts, not the mass remaining.",
+    "D": "Correct. Final state $0^\\circ\\mathrm{C}$ with $68.7\\ \\mathrm{g}$ of ice left."
+   }
+  },
+  "transcription": "A 100 g block of ice at $-10.0^\\circ\\mathrm{C}$ is placed into 150 g of water initially at $20.0^\\circ\\mathrm{C}$ inside a perfectly insulated calorimeter. What is the final temperature of the mixture and the mass of ice remaining? Specific heat capacity of water $= 4180\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$; specific latent heat of fusion of ice $= 334000\\ \\mathrm{J\\,kg^{-1}}$; specific heat capacity of ice $= 2100\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$. A 0 K with 31.3 g of ice remaining B 0 K with 68.7 g of ice remaining C $0^\\circ\\mathrm{C}$ with 31.3 g of ice remaining D $0^\\circ\\mathrm{C}$ with 68.7 g of ice remaining",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q17",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs to combine $I = nAvq$ with $N = nAL$ so that the unknown area cancels.",
+  "misconception": "Not realising the cross-sectional area cancels; using number density instead of total number",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$I = nAvq$ and the total number of free electrons is $N = nAL$.\n\nSo $N = \\dfrac{IL}{vq} = \\dfrac{12\\times0.35}{(5.0\\times10^{-4})(1.6\\times10^{-19})} = 5.3\\times10^{22}$.",
+   "perOption": {
+    "A": "Power-of-ten or formula slip; does not follow from $N = IL/(vq)$.",
+    "B": "Correct. $N = IL/(vq)$.",
+    "C": "Omits the length: $I/(vq)$ is the number of electrons per metre, not in the whole wire.",
+    "D": "Divides by $L$ instead of multiplying: $I/(Lvq)$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q18",
+  "chapter": "currents",
+  "secondaryChapters": [
+   "circuits"
+  ],
+  "outcomes": [
+   "currents.h",
+   "currents.j",
+   "currents.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must combine the half-power rule for sinusoidal a.c. with the effect of half-wave rectification.",
+  "misconception": "Ignoring that the diode blocks half of each cycle",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Peak power in $R$: $P_0 = \\dfrac{V_0^2}{R} = \\dfrac{12.0^2}{50} = 2.88\\ \\mathrm{W}$.\n\nFor full sinusoidal a.c. the mean power is $\\tfrac{1}{2}P_0 = 1.44\\ \\mathrm{W}$.\n\nThe ideal diode conducts only for half of each cycle, so the average over a full cycle is halved again: $0.72\\ \\mathrm{W}$.",
+   "perOption": {
+    "A": "Assumes no power because the average voltage of a full sine is zero; the rectified current still dissipates power.",
+    "B": "Correct. $\\tfrac{1}{4}V_0^2/R = 0.72\\ \\mathrm{W}$.",
+    "C": "Mean power without rectification; ignores that the diode blocks one half-cycle.",
+    "D": "Peak power $V_0^2/R$, not the average."
+   }
+  },
+  "transcription": "An ideal semiconductor diode is connected in series with a load resistor $R = 50\\ \\Omega$ and an alternating voltage source $V_S = 12.0\\sin(100\\pi t)$. The output voltage $V_o$ is measured across $R$. [Diagram: a.c. source $V_S$ in series with a diode and resistor $R$; $V_o$ measured across $R$.] What is the average power dissipated in $R$ over one complete cycle? A 0 W B 0.72 W C 1.44 W D 2.88 W",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q19",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.g",
+   "circuits.i",
+   "circuits.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Parallel combination plus internal resistance; routine calculation.",
+  "misconception": "Forgetting the internal resistance or adding the resistors in series",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "With all switches closed the three resistors are in parallel: $\\dfrac{1}{R_p} = \\dfrac{1}{4} + \\dfrac{1}{8} + \\dfrac{1}{12} = \\dfrac{11}{24}$, so $R_p = 2.18\\ \\Omega$.\n\nTotal resistance $= 2.18 + 1.00 = 3.18\\ \\Omega$, so $I = \\dfrac{2.00}{3.18} = 0.629\\ \\mathrm{A}$.",
+   "perOption": {
+    "A": "Treats the resistors as being in series ($4+8+12+1 = 25\\ \\Omega$).",
+    "B": "Uses only the 4.00 Ω resistor and ignores the internal resistance ($2.00/4.00$).",
+    "C": "Correct. $I = E/(R_p + r)$.",
+    "D": "Ignores the internal resistance: $2.00/2.18 = 0.917\\ \\mathrm{A}$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q20",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must trace each circuit to find the potential range between X and Y as the slider moves.",
+  "misconception": "Assuming any potentiometer arrangement gives a range starting from zero",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The two equal resistors split the 6.0 V supply, so 3.0 V is across each.\n\nIn B, Y is connected to the top (+) end and X to the slider on the upper resistor. Moving the slider from the top to the bottom of the upper $R$ changes $V_{XY}$ from 0 to 3.0 V.",
+   "perOption": {
+    "A": "X is at the bottom and Y on the upper resistor's slider, so $V_{XY}$ ranges from 3.0 V to 6.0 V.",
+    "B": "Correct. The output is taken across part of the upper resistor only, giving 0 to 3.0 V.",
+    "C": "X and Y are across the whole supply, so $V_{XY}$ is always 6.0 V; the slider only shorts part of the upper resistor.",
+    "D": "The upper $R$ acts as a rheostat, so the p.d. across the lower $R$ varies from 3.0 V to 6.0 V, not from zero."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q21",
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "circuits.k"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must identify the series pair across the battery and share the voltage inversely with capacitance.",
+  "misconception": "Sharing voltage in proportion to capacitance rather than inversely",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The 2 μF capacitor on AB is directly across the battery; the 2 μF (AC) and 3 μF (CB) capacitors form a series branch also across 5.0 V.\n\nIn series the charge is equal, so $V \\propto 1/C$: $V_{CB} = 5.0\\times\\dfrac{2}{2+3} = 2.0\\ \\mathrm{V}$.",
+   "perOption": {
+    "A": "Arbitrary split; not consistent with equal charge on series capacitors.",
+    "B": "Correct. $V_{BC} = 5.0\\times\\tfrac{2}{5}$.",
+    "C": "Assumes the 5.0 V is shared equally between AC and CB.",
+    "D": "Shares voltage in proportion to capacitance; the 3 μF capacitor actually takes the smaller p.d."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q22",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.i",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires two ideas: equal and opposite forces (Newton's third law) and attraction for parallel currents.",
+  "misconception": "Thinking the wire with larger current exerts or feels a larger force",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The forces between the wires form a Newton's third law pair, so they are equal in magnitude whatever the two currents are.\n\nCurrents in the same direction attract. In A both currents point downwards and the forces point towards each other.",
+   "perOption": {
+    "A": "Correct. Same-direction currents, equal attractive forces.",
+    "B": "Forces must be equal in size, and same-direction currents attract, not repel.",
+    "C": "Currents in opposite directions repel, but the forces here are drawn as attractive.",
+    "D": "The forces must be equal (Newton's third law), not in the ratio of the currents."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q23",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "projectile-motion"
+  ],
+  "outcomes": [
+   "electric-fields.g",
+   "electric-fields.h",
+   "electric-fields.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Chained calculation: field, acceleration, time in plates, then deflection, plus direction reasoning.",
+  "misconception": "Using the plate separation as the distance travelled or reversing the force direction for a positive charge",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E = V/d = 5000/0.100 = 5.00\\times10^4\\ \\mathrm{V\\,m^{-1}}$, so $a = eE/m = \\dfrac{(1.60\\times10^{-19})(5.00\\times10^4)}{1.67\\times10^{-27}} = 4.79\\times10^{12}\\ \\mathrm{m\\,s^{-2}}$.\n\nTime between plates: $t = 0.150/(2.52\\times10^6) = 5.95\\times10^{-8}\\ \\mathrm{s}$.\n\n$y = \\tfrac{1}{2}at^2 = 8.5\\times10^{-3}\\ \\mathrm{m}$. The top plate is at 5.00 kV, so the field points downwards and the positive proton is deflected downwards.",
+   "perOption": {
+    "A": "Correct. $8.5\\times10^{-3}\\ \\mathrm{m}$ downwards.",
+    "B": "Right magnitude, but a positive charge moves from high to low potential, i.e. downwards.",
+    "C": "Wrong magnitude (e.g. omits the $\\tfrac{1}{2}$ in $\\tfrac{1}{2}at^2$ or slips in the field or time).",
+    "D": "Wrong magnitude and wrong direction."
+   }
+  },
+  "transcription": "A proton, initially travelling horizontally at $2.52\\times10^6\\ \\mathrm{m\\,s^{-1}}$, enters a uniform electric field at right angles to the field. The field is produced by a p.d. of 5.00 kV between two parallel plates 15.0 cm long and 10.0 cm apart. [Diagram: upper plate at 5.00 kV, lower plate at 0 V; proton enters horizontally midway between the plates.] What is the change in height of the proton as it leaves the plates and the direction in which it is deflected? A $8.5\\times10^{-3}$ m, downwards B $8.5\\times10^{-3}$ m, upwards C $15.6\\times10^{-3}$ m, downwards D $15.6\\times10^{-3}$ m, upwards",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q24",
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.a"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Coulomb's law ratio with a small trap in reading 'adding 3Q'.",
+  "misconception": "Reading 'adding 3Q' as making the charge 3Q, or forgetting to square the distance",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each charge becomes $Q + 3Q = 4Q$ and the separation becomes $2r$.\n\n$F' \\propto \\dfrac{(4Q)(4Q)}{(2r)^2} = \\dfrac{16}{4}\\dfrac{Q^2}{r^2}$, so $F' = 4F$.",
+   "perOption": {
+    "A": "Treats charges as $2Q$ each (or forgets to square both changes).",
+    "B": "Takes each charge as $3Q$ instead of $Q+3Q = 4Q$.",
+    "C": "Correct. $16/4 = 4$.",
+    "D": "Forgets to square the distance: $16/2 = 8$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q25",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.a"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Simple recognition that the field is unchanged while the perpendicular area decreases.",
+  "misconception": "Confusing magnetic flux density with magnetic flux",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The field is uniform and unchanged, so the magnetic flux density $B$ through the coil stays the same.\n\nInitially the coil's plane is perpendicular to the field, so the flux $\\Phi = BA$ is maximum. Rotating it reduces the area perpendicular to $B$ ($\\Phi = BA\\cos\\theta$), so the flux decreases.",
+   "perOption": {
+    "A": "$B$ is a property of the uniform field and does not change when the coil rotates.",
+    "B": "$B$ is unchanged, and the flux was already at its maximum, so it cannot increase.",
+    "C": "Correct. $B$ constant, $\\Phi = BA\\cos\\theta$ falls.",
+    "D": "The coil started perpendicular to $B$ with maximum flux, so rotating it decreases the flux."
+   }
+  },
+  "transcription": "A coil is situated with its plane perpendicular to a uniform magnetic field and within the field. [Diagram: horizontal field lines to the right; coil originally vertical (plane perpendicular to field), new position tilted at an angle.] The coil is rotated to the new position shown. How do the magnetic flux density and the total magnetic flux through the coil change during the rotation? A decrease, decrease B increase, increase C no change, decrease D no change, increase",
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q26",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.b",
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct application of Faraday's law with flux linkage.",
+  "misconception": "Forgetting to multiply by the number of turns",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "By Faraday's law, $\\varepsilon = \\dfrac{N\\Delta\\Phi}{\\Delta t} = \\dfrac{1500\\times0.85}{0.19} \\approx 6710\\ \\mathrm{V}$.",
+   "perOption": {
+    "A": "An e.m.f. is induced because the flux linkage changes.",
+    "B": "Forgets the factor $N$: $0.85/0.19 = 4.47\\ \\mathrm{V}$.",
+    "C": "Inverts the ratio: $N\\Delta t/\\Delta\\Phi = 1500\\times0.19/0.85$.",
+    "D": "Correct. $N\\Delta\\Phi/\\Delta t$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q27",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.b"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Recall $E = hc/\\lambda$ and recognise the linear graph against $1/\\lambda$.",
+  "misconception": "Thinking photon energy increases with wavelength",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E = hf = \\dfrac{hc}{\\lambda}$, so $E$ is directly proportional to $1/\\lambda$: a straight line through the origin when $E$ is plotted against $1/\\lambda$.",
+   "perOption": {
+    "A": "Against $1/\\lambda$ the graph is a straight line, not a curve that levels off.",
+    "B": "Correct. $E = hc \\times (1/\\lambda)$.",
+    "C": "$E$ decreases as $\\lambda$ increases; it is not proportional to $\\lambda$.",
+    "D": "$E$ decreases with $\\lambda$; this curve shows $E$ increasing."
+   }
+  },
+  "transcription": "Which graph shows the relationship between photon energy $E$ and wavelength $\\lambda$ of electromagnetic waves? [Graphs: A $E$ against $1/\\lambda$, concave curve through origin levelling off; B $E$ against $1/\\lambda$, straight line through origin; C $E$ against $\\lambda$, straight line through origin; D $E$ against $\\lambda$, concave curve through origin levelling off.]",
+  "issues": "Crop is missing the question number (27) at the top; question text and all four graphs are present."
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.j"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Ratio reasoning with $E \\propto 1/(mL^2)$.",
+  "misconception": "Forgetting to square the well width",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E_1 = \\dfrac{h^2}{8mL^2}$, so $E \\propto \\dfrac{1}{mL^2}$.\n\nWith mass $2m$ and width $2L$: $E' = \\dfrac{E}{2\\times2^2} = \\dfrac{E}{8}$.",
+   "perOption": {
+    "A": "Only accounts for the mass change, or treats $E \\propto 1/L$ and ignores mass.",
+    "B": "Squares the width but ignores the doubled mass.",
+    "C": "Correct. $1/(2\\times4) = 1/8$.",
+    "D": "Squares the mass as well as the width ($2^2\\times2^2$)."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q29",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.j",
+   "nuclear-physics.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Unfamiliar twist: mass lost is only the escaping alpha particles, not the decayed nuclei.",
+  "misconception": "Equating the mass lost with the fraction of nuclei decayed",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "280 days is two half-lives, so $\\tfrac{3}{4}$ of the original nuclei decay.\n\nEach decay loses only an alpha particle (mass ≈ 4 u); the 206 u daughter stays in the sample. For $N$ initial nuclei of mass 210 u, mass lost $= \\tfrac{3}{4}N\\times4\\ \\mathrm{u} = 3N\\ \\mathrm{u}$.\n\nPercentage decrease $= \\dfrac{3}{210}\\times100\\% = 1.43\\%$.",
+   "perOption": {
+    "A": "Uses the remaining $\\tfrac{1}{4}$ instead of the decayed $\\tfrac{3}{4}$: $\\tfrac{1}{4}\\times4/210 = 0.48\\%$.",
+    "B": "Correct. $\\tfrac{3}{4}\\times4/210 = 1.43\\%$.",
+    "C": "Remaining fraction of parent nuclei, not the change in mass of the source.",
+    "D": "Fraction of nuclei decayed; most of each decayed atom's mass stays as the daughter."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "dhs-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.l",
+   "nuclear-physics.g"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "application"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Recall of penetrating power of alpha, beta and gamma radiation.",
+  "misconception": "Mixing up the penetrating abilities of alpha, beta and gamma",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Beta particles penetrate a few millimetres of tissue and are moderately ionising, so they deliver their dose near the surface, ideal for skin cancers and surface tumours.\n\nAlpha particles cannot penetrate skin, and gamma rays are highly penetrating, used for deep tumours and imaging.",
+   "perOption": {
+    "A": "Alpha particles are stopped by skin or a few cm of air, so they cannot reach deep tumours.",
+    "B": "Correct. Beta's short range in tissue suits surface treatment.",
+    "C": "Gamma rays are highly penetrating and are used for deep tumours, not only surface conditions.",
+    "D": "Alpha particles cannot leave the body to be detected externally, so they are useless for imaging."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ }
+]

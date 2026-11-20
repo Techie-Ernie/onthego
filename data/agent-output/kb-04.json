@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cjc-2026-prelim-p1-q1",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For $x=ab^2/c$, the fractional uncertainty is $\\Delta x/x=\\Delta a/a+2\\Delta b/b+\\Delta c/c$. In percentage terms, option A gives $(4+2(2)+4)\\%=12\\%$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Doubling the contribution from $b$ gives $20\\%$.",
+        "C": "Doubling the contribution from $b$ gives $9\\%$.",
+        "D": "Doubling the contribution from $b$ gives $14\\%$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q2",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity of P relative to Q is $\\mathbf v_P-\\mathbf v_Q=\\mathbf v_P+(-\\mathbf v_Q)$. Add the $1.0\\ \\mathrm{m\\,s^{-1}}$ westward vector to the tip of the $3.0\\ \\mathrm{m\\,s^{-1}}$ northward vector to obtain the steep northwest arrow.",
+      "perOption": {
+        "A": "Points southeast and understates the north–south component.",
+        "B": "Points northwest but understates the northward component relative to the westward component.",
+        "C": "Reverses the relative velocity and shows Q moving relative to P.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q3",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The complete sheet and the cut-out have centres $2.0\\ \\mathrm{cm}$ and $3.0\\ \\mathrm{cm}$ below M, respectively. Subtract the cut-out's first moment from the complete sheet's, giving $\\rho tg[(4.0)(4.0)(2.0)-(1.0)(2.0)(3.0)]=26\\rho tg$, using centimetres throughout. The remaining weight times its distance $y$ below M is $14\\rho tg\\,y$, so $y=26/14=1.857\\ \\mathrm{cm}\\approx1.9\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Shifts the centre too far upward for a cut-out of area $2.0\\ \\mathrm{cm^2}$.",
+        "B": "Correct.",
+        "C": "Shifts the centre toward the cut-out, as if the removed metal added weight.",
+        "D": "Shifts the centre downward despite the removal of metal below the original centre."
+      }
+    },
+    "issues": "The key labels the calculation as torques about M. The weights act along the vertical symmetry line through M, so the calculation uses first moments of weight with respect to depth below M."
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q4",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force $NBIL$ on the lowest side acts horizontally to the right. Balancing moments about the pivot gives $Mg(L/2)\\sin 30^\\circ=NBIL(L\\cos 30^\\circ)$. Substituting $0.30(0.025)\\sin 30^\\circ=100B(0.40)(0.050)(0.050)\\cos 30^\\circ$ gives $B=0.043\\ \\mathrm T$.",
+      "perOption": {
+        "A": "Omits the $\\cos 30^\\circ$ factor from the magnetic force's moment arm.",
+        "B": "Correct.",
+        "C": "Omits the $\\sin 30^\\circ$ factor from the weight's moment arm.",
+        "D": "Uses the full side length in the weight's moment arm."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q5",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By $F_{\\mathrm{net}}=ma$, the constant positive force produces constant acceleration, so velocity increases along a straight line. When the net force is zero, acceleration is zero and the velocity–time graph is horizontal.",
+      "perOption": {
+        "A": "Copies the force pulse and shows instantaneous changes in velocity.",
+        "B": "Correct.",
+        "C": "Shows deceleration after the force has dropped to zero.",
+        "D": "Shows increasing acceleration during a constant force."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q6",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cart has a forward tension $T$ and a backward resistive force of $40\\ \\mathrm N$. Newton's second law gives $T-40=600(0.15)$, so $T=130\\ \\mathrm N$.",
+      "perOption": {
+        "A": "A tension of $65\\ \\mathrm N$ leaves only $25\\ \\mathrm N$ to accelerate the cart.",
+        "B": "A tension of $100\\ \\mathrm N$ leaves only $60\\ \\mathrm N$ of net force.",
+        "C": "Correct.",
+        "D": "A tension of $195\\ \\mathrm N$ gives $155\\ \\mathrm N$ of net force, exceeding the required $90\\ \\mathrm N$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q7",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The useful output power is $Fv=1600(11)=17\\,600\\ \\mathrm W$, all of which goes into overcoming resistance at constant speed on level ground. The fuel supplies $1.8\\times10^6/60=30\\,000\\ \\mathrm W$. The efficiency is $(17\\,600/30\\,000)\\times100\\%\\approx59\\%$.",
+      "perOption": {
+        "A": "Underestimates the ratio of the $17.6\\ \\mathrm{kW}$ useful power to the $30.0\\ \\mathrm{kW}$ fuel input.",
+        "B": "At the stated fuel input, this percentage accounts for only about $10\\ \\mathrm{kW}$ of useful power.",
+        "C": "This percentage treats the roughly $17.6\\ \\mathrm{kW}$ useful output as only a little over a third of the $30\\ \\mathrm{kW}$ input.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q8",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total energy is the initial kinetic energy $E=\\tfrac12mu^2$. At maximum height the vertical velocity is zero, but the constant horizontal velocity is $u\\cos60^\\circ=u/2$, so the kinetic energy is $\\tfrac12m(u/2)^2=E/4$. By energy conservation, the gravitational potential energy there is $3E/4$, so the two curves cross.",
+      "perOption": {
+        "A": "Shows zero kinetic energy at the top, as for a vertical launch.",
+        "B": "Shows equal energies at the top, as for a $45^\\circ$ launch.",
+        "C": "Keeps kinetic energy above half the total, as for a launch below $45^\\circ$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q9",
+    "keyPage": 11,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take right as positive and let $V$ be P's final velocity. In an elastic collision, the relative speed of approach equals the relative speed of separation, so $v-0=0.4v-V$. Thus $V=-0.6v$ and P's speed is $0.6v$.",
+      "perOption": {
+        "A": "Stopping P would leave a separation speed of only $0.4v$.",
+        "B": "Even if P rebounds at $0.4v$, the separation speed would be only $0.8v$.",
+        "C": "Correct.",
+        "D": "If P rebounded at $v$, the separation speed would be $1.4v$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q10",
+    "keyPage": 12,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The centripetal acceleration is $a=r\\omega^2=r(2\\pi/T)^2$. With $r=7.70\\times10^{-2}\\ \\mathrm m$ and $T=2.36\\ \\mathrm s$, this gives $a=0.546\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Underestimates the acceleration by using too small a value for the squared angular speed.",
+        "B": "The value is $r\\omega$, which is the tangential speed in metres per second.",
+        "C": "Underestimates the acceleration given by multiplying the radius by the squared angular speed.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q11",
+    "keyPage": 12,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gravitational field is perpendicular to the equipotential through X, leaving A and C as candidates. Since $g=-\\mathrm d\\phi/\\mathrm dx$ along the normal, the field points toward decreasing potential, from $-300$ toward $-400\\ \\mathrm{J\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Points along the tangent to the equipotential through X.",
+        "C": "Points toward increasing gravitational potential.",
+        "D": "Points along the tangent to the equipotential through X."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q12",
+    "keyPage": 13,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential is $-GM/r$, so doubling P's distance halves the potential magnitude to $\\phi/2$. The inverse-distance curve is steeper nearer the mass, so moving P and Q outward by the same distance reduces the potential magnitude at P by more than at Q. The magnitude of the potential difference therefore decreases.",
+      "perOption": {
+        "A": "Reduces P's potential magnitude by too much for a doubling of distance.",
+        "B": "Reduces P's potential magnitude by too much and assumes P and Q change by equal amounts.",
+        "C": "Correct.",
+        "D": "Assumes equal outward shifts cause equal potential changes."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q13",
+    "keyPage": 14,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=0$, acceleration is zero, so the particle is at equilibrium and its kinetic energy is maximum. Acceleration is zero three times from $t=0$ to $2\\ \\mathrm s$ inclusive, so the kinetic energy has three maxima in that interval.",
+      "perOption": {
+        "A": "Misses the kinetic-energy peak at the middle equilibrium crossing.",
+        "B": "Shows zero kinetic energy at the initial and final equilibrium crossings.",
+        "C": "Correct.",
+        "D": "Puts kinetic-energy minima at the equilibrium crossings."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q14",
+    "keyPage": 15,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pulse takes $0.25/0.50=0.5\\ \\mathrm s$ to travel $0.25\\ \\mathrm m$. Its leading edge reaches O at $1.0\\ \\mathrm s$, where the fixed end reflects and inverts the pulse. By $1.5\\ \\mathrm s$ that edge has travelled $0.75\\ \\mathrm m$ and reached P on its return. As the reflected pulse passes P between $1.5$ and $2.0\\ \\mathrm s$, P moves first through a larger upward displacement and then a smaller downward one.",
+      "perOption": {
+        "A": "Shows the smaller upward displacement first, reversing the order of the reflected lobes.",
+        "B": "Shows the incoming pulse's displacement sequence, missing the inversion at the fixed end.",
+        "C": "Inverts the lobes but puts the trailing lobe first.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q15",
+    "keyPage": 16,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At distance $r$ from the source, the intensity is $I=P_s/(4\\pi r^2)$. The surface receives $P=IA$, so for fixed area $P\\propto P_s/r^2$. Doubling both $P_s$ and $r$ gives $P_R/P_S=2/2^2=1/2$, so $P_R=0.70\\ \\mathrm W$.",
+      "perOption": {
+        "A": "Applies the inverse-square decrease but misses the doubling of source power.",
+        "B": "Correct.",
+        "C": "Uses an inverse-distance law, making the two doublings cancel.",
+        "D": "Doubles the received power without accounting for the greater distance."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q16",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The third-order maxima are symmetric, so each is at $\\theta=60^\\circ/2=30^\\circ$ to the central direction. With line density $N=1/d$, the grating equation $d\\sin\\theta=n\\lambda$ gives $N=\\sin30^\\circ/(3\\times500\\times10^{-9})=3.33\\times10^5\\ \\mathrm{m^{-1}}$. This is $333$ lines per millimetre.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses an incorrect sine factor for the $30^\\circ$ diffraction angle.",
+        "C": "Drops the factor $\\sin30^\\circ=0.5$ from the line-density calculation.",
+        "D": "Reports the line count per metre."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q17",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using Rayleigh's criterion in the form $\\theta_{\\min}\\approx\\lambda/b$, take $b=2.4\\ \\mathrm m$ and a typical visible wavelength $\\lambda=500\\times10^{-9}\\ \\mathrm m$. The stars are just resolved, so their separation is $\\theta_{\\min}\\approx(500\\times10^{-9})/2.4\\approx2\\times10^{-7}\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Underestimates the diffraction limit by more than an order of magnitude.",
+        "B": "Correct.",
+        "C": "Overestimates the angular separation by about a factor of 50.",
+        "D": "Overestimates the angular separation by about a factor of 100."
+      }
+    },
+    "issues": "The key uses the order-of-magnitude form of Rayleigh's criterion. Including the circular-aperture factor of 1.22 still gives B."
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q18",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Internal energy is a state property, so its change depends only on states A and B. Along A–C–B, the first law gives $\\Delta U=Q+W_{\\mathrm{on}}=16-6=10\\ \\mathrm J$. Along A–D–B, $10=Q-2$, so $Q=+12\\ \\mathrm J$ and heat enters the gas.",
+      "perOption": {
+        "A": "Reverses the sign of the internal energy change and treats work done by the gas as work done on it.",
+        "B": "Correct.",
+        "C": "Assumes that heat transfer is the same along both paths.",
+        "D": "Adds the $4\\ \\mathrm J$ difference in work to the original heat input even though the gas does less work."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q19",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Heat lost by the hot water equals heat gained by the cold water. With equilibrium temperature $\\theta$, density $\\rho$ and specific heat capacity $c$, this gives $120\\rho c(60-\\theta)=30\\rho c(\\theta-20)$. Cancelling the common factors gives $4(60-\\theta)=\\theta-20$, so $5\\theta=260$ and $\\theta=52^\\circ\\mathrm C$.",
+      "perOption": {
+        "A": "Weights the mixture too heavily toward the cold water despite the hot water having four times its mass.",
+        "B": "Reverses the hot and cold mass weights, giving the cold water four times the influence.",
+        "C": "Underweights the hot water, which has four times the mass of the cold water.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q20",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field from $+2q$ is $E_{2q}=2q/[4\\pi\\varepsilon_0(0.30)^2]=24\\ \\mathrm{N\\,C^{-1}}$ to the right. The field from $-q$ is also to the right and has magnitude $q/[4\\pi\\varepsilon_0(0.60)^2]=E_{2q}/8=3\\ \\mathrm{N\\,C^{-1}}$. Adding the two gives $27\\ \\mathrm{N\\,C^{-1}}$.",
+      "perOption": {
+        "A": "Subtracts the fields and treats the charge magnitudes as equal.",
+        "B": "Subtracts the field of the negative charge even though both fields point right.",
+        "C": "Correct.",
+        "D": "Treats the charges as equal in magnitude, doubling the negative charge's contribution."
+      }
+    },
+    "issues": null
+  }
+]

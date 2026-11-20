@@ -1,0 +1,608 @@
+[
+ {
+  "id": "acjc-2026-prelim-p1-q21",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.a"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "graph"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Two-stage charge calculation: constant current plus a linearly falling current (area of a triangle).",
+  "misconception": "Forgetting to convert hours to seconds or treating the falling stage as full current",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Charge is the area under the current–time graph, $Q = \\int I\\,dt$.\n\nSteady stage: $Q_1 = 0.60 \\times 3 \\times 3600 = 6480\\ \\mathrm{C}$.\n\nFalling stage (triangle): $Q_2 = \\tfrac{1}{2} \\times 0.60 \\times 3600 = 1080\\ \\mathrm{C}$.\n\nTotal $Q = 7560\\ \\mathrm{C} \\approx 7.6 \\times 10^{3}\\ \\mathrm{C}$.",
+   "perOption": {
+    "A": "Uses hours or minutes instead of seconds for the time.",
+    "B": "Equivalent to $0.60\\ \\mathrm{A}$ for only 2 hours; undercounts both the 3-hour steady stage and the final hour.",
+    "C": "Correct. $6480 + 1080 = 7560\\ \\mathrm{C}$.",
+    "D": "Treats the current as $0.60\\ \\mathrm{A}$ for the full 4 hours instead of a triangle in the last hour."
+   }
+  },
+  "transcription": "A torch is switched on and left until its battery is flat. During this time, the current in the lamp remains steady at $0.60\\ \\mathrm{A}$ for three hours and then decreases uniformly to zero in the next hour. What is the total charge passing through the lamp? A $1.2 \\times 10^{2}\\ \\mathrm{C}$ B $4.3 \\times 10^{3}\\ \\mathrm{C}$ C $7.6 \\times 10^{3}\\ \\mathrm{C}$ D $8.6 \\times 10^{3}\\ \\mathrm{C}$",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q22",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.c",
+   "circuits.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires reading $R = V/I$ from the shape of four I–V curves.",
+  "misconception": "Confusing resistance with the gradient of the I–V graph, or reversing the effect of a curve bending",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Resistance is $R = V/I$, so on an $I$–$V$ graph it is the inverse of the gradient of the line from the origin.\n\nIn D the graph is a straight line through the origin at first, so $V/I$ is constant. It then bends towards the $V$-axis, so $I$ rises less for each increase in $V$ and $R$ increases (like a filament lamp heating up).",
+   "perOption": {
+    "A": "$V/I$ increases from the start (curve bends over immediately); resistance is never constant.",
+    "B": "Curve bends upward, so resistance decreases (diode-like), and is not initially constant.",
+    "C": "Initially constant but then bends upward, so resistance decreases (thermistor-like).",
+    "D": "Correct. Straight line through origin, then bends towards the $V$-axis."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q23",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.h",
+   "circuits.i",
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognise three resistors in parallel in series with one, then apply potential divider ratio.",
+  "misconception": "Thinking the voltmeter reads the e.m.f. or splitting the e.m.f. equally between the four resistors",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The voltmeter is across one of three identical resistors in parallel, so the p.d. across the whole parallel group is $3.0\\ \\mathrm{V}$.\n\nThe parallel group has resistance $R/3$ and is in series with $R$, so the series resistor takes 3 times the p.d.: $9.0\\ \\mathrm{V}$.\n\ne.m.f. $= 3.0 + 9.0 = 12.0\\ \\mathrm{V}$.",
+   "perOption": {
+    "A": "Takes the voltmeter reading as the e.m.f.; ignores the series resistor.",
+    "B": "Treats the parallel group as $3R$ (adding as if in series), so the series resistor gets only $1.0\\ \\mathrm{V}$.",
+    "C": "Treats the parallel group and the series resistor as having equal resistance, so equal p.d.s.",
+    "D": "Correct. $R/3$ in series with $R$ gives a 1 : 3 p.d. split."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q24",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of $F = BIl\\sin\\theta$ plus Fleming's left-hand rule.",
+  "misconception": "Using $\\cos\\theta$ instead of $\\sin\\theta$, or misapplying Fleming's left-hand rule",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$F = BIl\\sin\\theta = (3.4 \\times 10^{-2})(3.7)(0.050)\\sin 70^\\circ = 5.9 \\times 10^{-3}\\ \\mathrm{N}$.\n\nThe field points to the left and the current flows down the wire (down and to the right). By Fleming's left-hand rule (or $\\vec F = I\\vec l \\times \\vec B$), the force is into the paper.",
+   "perOption": {
+    "A": "Uses $\\cos 70^\\circ$ instead of $\\sin 70^\\circ$; the direction is right but the magnitude is wrong.",
+    "B": "Uses $\\cos 70^\\circ$ and the opposite direction from Fleming's left-hand rule.",
+    "C": "Correct. $BIl\\sin 70^\\circ$, into the paper.",
+    "D": "Correct magnitude but the direction is reversed (e.g. using the right hand)."
+   }
+  },
+  "transcription": "A wire of length $0.050\\ \\mathrm{m}$ is placed at an angle of $70^\\circ$ to a magnetic field of flux density $3.4 \\times 10^{-2}\\ \\mathrm{T}$, as shown. [Diagram: horizontal field lines pointing to the left; a straight wire crosses them at $70^\\circ$, running from upper left to lower right, current $3.7\\ \\mathrm{A}$ with arrow pointing down the wire.] The current through the wire is $3.7\\ \\mathrm{A}$. What is the force on the wire and the direction in which the force acts? (force / N; direction) A $2.2 \\times 10^{-3}$, into the paper B $2.2 \\times 10^{-3}$, out of the paper C $5.9 \\times 10^{-3}$, into the paper D $5.9 \\times 10^{-3}$, out of the paper",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q25",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.k"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "quantitative",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "One substitution into $F = Bqv$ plus recognising that a magnetic force does no work but changes momentum direction.",
+  "misconception": "Thinking constant speed means momentum is unchanged",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "1: $F = Bqv = (2.0 \\times 10^{-3})(1.6 \\times 10^{-19})(3.0 \\times 10^{6}) = 9.6 \\times 10^{-16}\\ \\mathrm{N}$. Correct.\n\n2: The magnetic force is always perpendicular to the velocity, so it does no work and the kinetic energy is unchanged. Correct.\n\n3: Momentum is a vector. The direction turns through $90^\\circ$, so $\\Delta \\vec p$ has magnitude $\\sqrt{2}\\,mv \\neq 0$. Incorrect.",
+   "perOption": {
+    "A": "Misses that statement 2 is also correct (no work is done by a magnetic force).",
+    "B": "Correct. Statements 1 and 2 are true.",
+    "C": "Statement 3 is false: speed is constant but the direction of momentum changes.",
+    "D": "Statement 3 is false and statement 1 is true."
+   }
+  },
+  "transcription": "An electron with speed $3.0 \\times 10^{6}\\ \\mathrm{m\\,s^{-1}}$ moves through a magnetic field of magnetic flux density $2.0\\ \\mathrm{mT}$ perpendicular to its direction of motion. The electron turns through an angle of $90^\\circ$ along a circular path as shown. [Diagram: square region of field into the page (crosses); electron enters horizontally from the left and curves downward through a quarter circle, exiting moving downward.] Which statement(s) is/are correct? 1 The force on the electron is $9.6 \\times 10^{-16}\\ \\mathrm{N}$. 2 The gain in energy of the electron is zero. 3 The change in momentum of the electron is zero. A 1 only B 1 and 2 only C 1 and 3 only D 3 only",
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q26",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.c",
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct use of Faraday's law with flux linkage $NBA$.",
+  "misconception": "Forgetting the number of turns or using diameter/final B only",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Faraday's law: $\\varepsilon = N A \\dfrac{\\Delta B}{\\Delta t}$.\n\n$A = \\pi (0.060)^2 = 1.131 \\times 10^{-2}\\ \\mathrm{m^2}$, $\\Delta B = 0.75 - 0.18 = 0.57\\ \\mathrm{T}$.\n\n$\\varepsilon = 5 \\times 1.131 \\times 10^{-2} \\times 0.57 / 0.42 = 7.7 \\times 10^{-2}\\ \\mathrm{V} = 77\\ \\mathrm{mV}$.",
+   "perOption": {
+    "A": "Forgets the 5 turns ($15\\ \\mathrm{mV}$ is for one turn).",
+    "B": "Does not match $NA\\,\\Delta B/\\Delta t$; likely an arithmetic or rounding slip, as the correct value is $77\\ \\mathrm{mV}$.",
+    "C": "Correct. $NA\\,\\Delta B/\\Delta t = 77\\ \\mathrm{mV}$.",
+    "D": "Too large; does not follow from the change in flux linkage $N A\\,\\Delta B$ over $0.42\\ \\mathrm{s}$ (e.g. results from using a wrong $\\Delta B$ or area)."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q27",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Find secondary current, then use the turns ratio for an ideal transformer.",
+  "misconception": "Inverting the current ratio of a transformer (current steps the opposite way to voltage)",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Secondary current: $I_s = V_s/R = 80/100 = 0.80\\ \\mathrm{A}$.\n\nFor an ideal transformer $I_p/I_s = N_s/N_p = 1000/200 = 5$, so $I_p = 5 \\times 0.80 = 4.0\\ \\mathrm{A}$.\n\nThis is a step-up transformer: voltage goes up, so current in the primary is larger.",
+   "perOption": {
+    "A": "Applies the turns ratio the wrong way ($0.80/5$).",
+    "B": "Gives the secondary current, not the primary current read by the ammeter.",
+    "C": "Divides by $\\sqrt{2}$; the meter and the $80\\ \\mathrm{V}$ are both r.m.s., so no conversion is needed.",
+    "D": "Correct. $I_p = (N_s/N_p) I_s = 4.0\\ \\mathrm{A}$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.f",
+   "quantum-physics.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must link spatial extent of the wavefunction to $\\Delta x$ and then use the uncertainty principle.",
+  "misconception": "Thinking a localised wave packet has a well-defined momentum",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "By the Heisenberg principle $\\Delta x\\,\\Delta p \\gtrsim h$, the smallest $\\Delta p$ belongs to the electron with the largest $\\Delta x$.\n\nWavefunction A is a sinusoid of a single wavelength spread across the whole region: its position is very uncertain, and a single $\\lambda$ means a well-defined $p = h/\\lambda$. So $\\Delta p$ is smallest for A.\n\nB, C and D are localised wave packets, which need a spread of wavelengths (momenta).",
+   "perOption": {
+    "A": "Correct. Widest spread in $x$ with a single wavelength, so smallest $\\Delta p$.",
+    "B": "A localised wave packet with smaller $\\Delta x$, so larger $\\Delta p$ than A.",
+    "C": "Localised pulse; small $\\Delta x$ needs a large spread of momenta.",
+    "D": "Most localised packet, so it has the largest $\\Delta p$."
+   }
+  },
+  "transcription": "The wave function $\\psi$, representing the state of four different electrons are shown below. Which electron has the smallest uncertainty in its momentum? [Graphs of $\\psi$ against $x$: A a continuous sinusoid of constant amplitude across the whole range; B a wave packet of moderate width with several oscillations, largest in the centre; C a single smooth hump (Gaussian-like) in the middle; D a narrow wave packet with short-wavelength oscillations.] A B C D",
+  "issues": "Question number is cropped out of the image (stem starts without '28')."
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q29",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.k",
+   "quantum-physics.l"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Pattern matching of line spectra; must check that all lines of an element appear.",
+  "misconception": "Concluding an element is present when only some of its lines match",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "An element is present only if every one of its emission lines appears in the nebula spectrum, because each element has a unique set of energy-level transitions.\n\nAll helium lines and all hydrogen lines appear in the nebula spectrum.\n\nNitrogen and krypton each have some lines that are missing from the nebula spectrum (some nitrogen lines near the left and one krypton line near the right), so they are not present. The extra nebula lines come from other elements.",
+   "perOption": {
+    "A": "Correct. Every He and H line appears in the nebula.",
+    "B": "Krypton has at least one line absent from the nebula spectrum.",
+    "C": "Nitrogen and krypton each have lines missing from the nebula; partial matches are not enough.",
+    "D": "Ignores helium and hydrogen, whose lines all match, and wrongly includes nitrogen and krypton."
+   }
+  },
+  "transcription": null,
+  "issues": "Question number is cropped out of the image (stem starts without '29')."
+ },
+ {
+  "id": "acjc-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.i"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognise that equal time intervals multiply activity by the same factor.",
+  "misconception": "Treating exponential decay as linear",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "In exponential decay, equal time intervals multiply the activity by the same factor.\n\nIn each 3-year period the activity falls to $\\tfrac{1}{3}$, so after 6 years $A = \\left(\\tfrac{1}{3}\\right)^2 A_o = 0.11\\,A_o$.",
+   "perOption": {
+    "A": "Correct. $(1/3)^2 = 0.11$.",
+    "B": "Halves the remaining $\\tfrac{1}{3}$ (confuses with half-life), giving $\\approx 0.17\\,A_o$.",
+    "C": "This is the activity after the first 3 years, not after another 3 years.",
+    "D": "Gives the fraction that decayed in the first 3 years, not what remains."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.f",
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "practical",
+  "types": [
+   "practical",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires distinguishing random/systematic errors and the effect of timing many oscillations.",
+  "misconception": "Confusing random and systematic errors and what each technique reduces",
+  "derivedAnswer": "C",
+  "confidence": "medium",
+  "explanation": {
+   "body": "Timing $n$ oscillations keeps the absolute uncertainty in the time (e.g. reaction time) about the same while the measured time is $n$ times longer, so the fractional uncertainty of the period $T = t/n$ falls by a factor $n$.",
+   "perOption": {
+    "A": "Averaging reduces the effect of random error on the mean, but the uncertainty of the diameter is still limited by the instrument's precision, so this is not the best statement.",
+    "B": "A graph only reduces the effect of random error; it cannot eliminate it.",
+    "C": "Correct. Fractional uncertainty in $T$ is reduced by timing many oscillations.",
+    "D": "Zero error is a systematic error, not a random error."
+   }
+  },
+  "transcription": null,
+  "issues": "Option A is arguably also true (averaging repeated readings reduces random error in the mean); the key relies on the convention that A's uncertainty is limited by instrument precision. Key C is the clearly correct statement."
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q2",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.i"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Needs reasoning about the range of resultant magnitudes for two vectors at an angle.",
+  "misconception": "Thinking the resultant always exceeds the larger force or forgetting angle dependence",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$R^2 = F_1^2 + F_2^2 + 2F_1F_2\\cos\\theta$.\n\nWith $F_1 = F_2 = 1\\ \\mathrm{N}$, $R = 1\\ \\mathrm{N}$ when $\\cos\\theta = -\\tfrac{1}{2}$, i.e. $\\theta = 120^\\circ$, which is between $90^\\circ$ and $180^\\circ$.\n\nFor $2\\ \\mathrm{N}$ and $1\\ \\mathrm{N}$, $R = 1\\ \\mathrm{N}$ only at exactly $180^\\circ$; for any smaller angle $R > 1\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "For $\\theta < 90^\\circ$, $R > \\sqrt{2}\\ \\mathrm{N}$.",
+    "B": "Correct. $\\theta = 120^\\circ$ gives $R = 1\\ \\mathrm{N}$.",
+    "C": "For $\\theta < 90^\\circ$, $R > \\sqrt{5}\\ \\mathrm{N}$.",
+    "D": "$R = 1\\ \\mathrm{N}$ only at exactly $180^\\circ$, which is excluded; for $90^\\circ < \\theta < 180^\\circ$, $1 < R < \\sqrt{5}\\ \\mathrm{N}$."
+   }
+  },
+  "transcription": "Two forces $F_1$ and $F_2$ act with an angle $\\theta$ between them. [Diagram: $F_1$ horizontal to the right, $F_2$ pointing up and to the right from the same point, angle $\\theta$ between them.] Which combination could produce a resultant force of magnitude $1\\ \\mathrm{N}$? ($F_1$/N, $F_2$/N, $\\theta$) A 1, 1, less than $90^\\circ$ B 1, 1, more than $90^\\circ$ but less than $180^\\circ$ C 2, 1, less than $90^\\circ$ D 2, 1, more than $90^\\circ$ but less than $180^\\circ$",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q3",
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "projectile-motion.b",
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines time of fall with relative horizontal velocity of a moving target.",
+  "misconception": "Ignoring the target's motion or adding the velocities instead of subtracting",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Time to fall $500\\ \\mathrm{m}$: $t = \\sqrt{2h/g} = \\sqrt{2(500)/9.81} = 10.1\\ \\mathrm{s}$.\n\nThe bomb keeps the plane's horizontal speed $138\\ \\mathrm{m\\,s^{-1}}$, while the ship moves away at $12\\ \\mathrm{m\\,s^{-1}}$, so the gap closes at $126\\ \\mathrm{m\\,s^{-1}}$.\n\nRelease distance $= 126 \\times 10.1 \\approx 1270\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Uses a closing speed of about $100\\ \\mathrm{m\\,s^{-1}}$; no valid combination of the given speeds gives this.",
+    "B": "Correct. Relative horizontal speed $126\\ \\mathrm{m\\,s^{-1}}$ times $10.1\\ \\mathrm{s}$.",
+    "C": "Ignores the ship's motion ($138 \\times 10.1$).",
+    "D": "Adds the ship's speed instead of subtracting ($150 \\times 10.1$)."
+   }
+  },
+  "transcription": "A fighter bomber is travelling at $138\\ \\mathrm{m\\,s^{-1}}$ horizontally at a height of $500\\ \\mathrm{m}$ above sea level. It is on a bombing run to its target, a naval ship which is moving at $12\\ \\mathrm{m\\,s^{-1}}$ away from the bomber. [Diagram: plane at upper right flying left at $138\\ \\mathrm{m\\,s^{-1}}$, $500\\ \\mathrm{m}$ above sea level; ship at lower left moving left at $12\\ \\mathrm{m\\,s^{-1}}$.] Assume negligible air resistance. If the pilot wants to score a direct hit, at which position should he release the bomb? A When the plane is $1010\\ \\mathrm{m}$ away from the naval ship horizontally. B When the plane is $1270\\ \\mathrm{m}$ away from the naval ship horizontally. C When the plane is $1390\\ \\mathrm{m}$ away from the naval ship horizontally. D When the plane is $1510\\ \\mathrm{m}$ away from the naval ship horizontally.",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q4",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "motion-and-forces.h",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires careful free-body reasoning for stacked blocks at rest and accelerating, and correct identification of third-law pairs.",
+  "misconception": "Misidentifying Newton's third-law pairs and ignoring that acceleration changes contact forces",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "In (1) the ground supports both blocks at rest: $N = (m_c + m_w)g$.\n\nIn (3) the two blocks accelerate upwards together, so $F - (m_c + m_w)g = (m_c + m_w)a$, giving $F = (m_c + m_w)(g + a) > (m_c + m_w)g$.\n\nSo the applied force in (3) exceeds the ground's force on the copper block in (1).",
+   "perOption": {
+    "A": "In both (1) and (2) the ground supports the total weight $(m_c + m_w)g$, so the forces are equal.",
+    "B": "In (1) the wood pushes on copper with $m_w g$; in (2) copper pushes on wood with $m_c g$. These differ and are not a third-law pair.",
+    "C": "In (3) the copper accelerates up, so the contact force is $m_c(g + a)$, larger than $m_c g$ in (2).",
+    "D": "Correct. $F = (m_c + m_w)(g + a) > (m_c + m_w)g$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q5",
+  "chapter": "collisions",
+  "secondaryChapters": [],
+  "outcomes": [
+   "collisions.d"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs relative speed of approach = separation with a massive moving foot.",
+  "misconception": "Assuming the foot must move towards the ball to stop it",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Take the ball's original direction as positive. The foot is very massive, so its velocity $v$ is unchanged.\n\nElastic collision: relative speed of approach = relative speed of separation: $u - v = v - 0$, using final ball velocity $0$.\n\nSo $v = u/2 = 6.0\\ \\mathrm{m\\,s^{-1}}$ in the same direction as the ball (the foot moves away as the ball arrives).",
+   "perOption": {
+    "A": "Moving the foot towards the ball would send the ball back faster ($-36\\ \\mathrm{m\\,s^{-1}}$), not stop it.",
+    "B": "Wrong direction: ball would rebound at $-24\\ \\mathrm{m\\,s^{-1}}$.",
+    "C": "Correct. $u - v = v$ gives $v = 6.0\\ \\mathrm{m\\,s^{-1}}$ along the ball's motion.",
+    "D": "Uses a mass ratio idea; the foot's mass is effectively infinite so the ratio is irrelevant."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q6",
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "forces-and-moments.d",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Sum of four equal moments for rotational equilibrium.",
+  "misconception": "Counting only one or two carriages",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "At constant angular speed the resultant torque is zero, so the motor torque balances the total resistive torque.\n\nEach carriage: $85.0 \\times 3.20 = 272\\ \\mathrm{N\\,m}$. Four carriages: $4 \\times 272 = 1088 \\approx 1090\\ \\mathrm{N\\,m}$.",
+   "perOption": {
+    "A": "Divides instead of multiplies, or slips a power of ten; the torque is $F \\times r$ per carriage.",
+    "B": "Counts only one carriage.",
+    "C": "Counts only two carriages (as if treating the drag as couples on two arms).",
+    "D": "Correct. $4 \\times 85.0 \\times 3.20 = 1090\\ \\mathrm{N\\,m}$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q7",
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "projectile-motion.e",
+   "projectile-motion.d"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognise constant $E_k$ and linear decrease of $E_p$ at terminal velocity.",
+  "misconception": "Assuming kinetic energy increases as potential energy is lost even at terminal velocity",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "At constant speed $E_k = \\tfrac{1}{2}mv^2$ is constant: a horizontal line.\n\nHeight falls at a constant rate, so $E_p = mgh$ decreases linearly with time. The lost $E_p$ goes to thermal energy via the viscous force, not to $E_k$.",
+   "perOption": {
+    "A": "$E_p$ curves (as in free fall); at constant speed $h$ decreases linearly.",
+    "B": "Correct. Constant $E_k$, linearly decreasing $E_p$.",
+    "C": "Describes free fall with no drag, where $E_k$ rises.",
+    "D": "Assumes all lost $E_p$ becomes $E_k$; at constant speed $E_k$ cannot change."
+   }
+  },
+  "transcription": "A steel ball is falling at constant speed in oil. Which graph shows the variation with time of the gravitational potential energy $E_p$ and the kinetic energy $E_k$ of the ball? [Four energy–time graphs: A $E_k$ horizontal line, $E_p$ decreasing curve getting steeper; B $E_k$ horizontal line, $E_p$ decreasing straight line; C $E_k$ increasing curve from non-zero, $E_p$ decreasing curve getting steeper; D $E_k$ increasing straight line from zero, $E_p$ decreasing straight line.]",
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q8",
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.n"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Two-step efficiency calculation using useful light power.",
+  "misconception": "Confusing heat output percentage with efficiency",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Old lamp light output $= 5\\% \\times 60 = 3.0\\ \\mathrm{W}$.\n\nModern lamp gives the same $3.0\\ \\mathrm{W}$ of light from $4.0\\ \\mathrm{W}$ input: efficiency $= 3.0/4.0 = 75\\%$.",
+   "perOption": {
+    "A": "This is the efficiency of the old lamp.",
+    "B": "Computes $4.0/60$, comparing input powers instead of useful output to input.",
+    "C": "Correct. $3.0/4.0 = 75\\%$.",
+    "D": "This is the old lamp's heat fraction, not an efficiency of the modern lamp."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q9",
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "energy-and-fields.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combine energy conservation for speed with Newton's second law for circular motion.",
+  "misconception": "Taking tension at the lowest point to equal the weight",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Energy conservation from horizontal to lowest point (drop $L$): $\\tfrac{1}{2}mv^2 = mgL$, so $mv^2/L = 2mg$.\n\nAt P: $T - mg = mv^2/L = 2mg$, so $T = 3mg$.",
+   "perOption": {
+    "A": "Tension cannot be zero; it must supply centripetal force plus support the weight.",
+    "B": "Ignores the centripetal force needed at P.",
+    "C": "Gives the centripetal force $mv^2/L$ only, forgetting to add $mg$.",
+    "D": "Correct. $T = mg + 2mg = 3mg$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "asrjc-2026-prelim-p1-q10",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.c",
+   "gravitational-fields.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Vector addition of fields in opposite directions plus scalar addition of potentials.",
+  "misconception": "Treating field strength as a scalar sum or potential as a vector that cancels",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Field (vector): from P, $Gm/d^2$ towards P; from Q, $G(2m)/(2d)^2 = Gm/(2d^2)$ towards Q. Net $= Gm/d^2 - Gm/(2d^2) = Gm/(2d^2)$ towards P.\n\nPotential (scalar, always negative): $\\phi = -\\dfrac{Gm}{d} - \\dfrac{G(2m)}{2d} = -2\\dfrac{Gm}{d}$.",
+   "perOption": {
+    "A": "Wrongly assumes the fields cancel and uses only one potential term.",
+    "B": "Correct potential but takes only P's field, ignoring Q's opposing field.",
+    "C": "Assumes the fields cancel and adds the potentials wrongly.",
+    "D": "Correct. Net field $Gm/(2d^2)$, potential $-2Gm/d$."
+   }
+  },
+  "transcription": "Two isolated point masses, P of mass $m$ and Q of mass $2m$, are separated by a distance $3d$. X is a point a distance $d$ from P and $2d$ from Q. [Diagram: P on the left, X at distance $d$ to its right, Q at distance $2d$ further right, all on one line.] What is the net gravitational field strength and the net gravitational potential at X? (field strength; potential) A $0$; $-\\dfrac{Gm}{d}$ B $\\dfrac{Gm}{d^2}$; $-2\\dfrac{Gm}{d}$ C $0$; $-3\\dfrac{Gm}{d}$ D $\\dfrac{Gm}{2d^2}$; $-2\\dfrac{Gm}{d}$",
+  "issues": null
+ }
+]

@@ -76,7 +76,7 @@ User data (`UserDataStore`, schema-versioned, exportable JSON): `attempts[]`, `q
 2. Syllabus taxonomy from the PDF.
 3. Ingestion v1 on the local Prelims folder (Paper 1 MCQs only), report + 10-question side-by-side sample. **Checkpoint with the user before scaling up.**
 4. grail-wrapper scraper → same pipeline.
-5. Categorisation + explanations (needs `ANTHROPIC_API_KEY`), review queue.
+5. Categorisation + explanations (run by local Claude Code / Codex agents, no API key; explanations come from the schools' worked solutions), review queue.
 6. Core app. 7. Insights & trends. 8. Offline/perf/a11y polish. 9. `docs/FUTURE.md`.
 
 ## Decisions taken without asking

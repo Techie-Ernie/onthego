@@ -1,0 +1,610 @@
+[
+ {
+  "id": "nyjc-2026-prelim-p1-q12",
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.k",
+   "gravitational-fields.j"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of the defining features of a geostationary orbit.",
+  "misconception": "Thinking orbital radius depends on the satellite's mass",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a circular orbit, $\\frac{GMm}{r^2} = m\\omega^2 r$, so $r^3 = \\frac{GM}{\\omega^2}$. The satellite mass $m$ cancels, so satellites of any mass can occupy a geostationary orbit.\n\nThe statement that all geostationary satellites must have the same mass is therefore false.",
+   "perOption": {
+    "A": "True: the orbit must be centred on Earth's centre and stay above one point, so it lies in the equatorial plane.",
+    "B": "Correct. Mass cancels in $GMm/r^2 = m\\omega^2 r$, so any mass can orbit there.",
+    "C": "True: it must match Earth's rotation period of about 24 hours (strictly one sidereal day).",
+    "D": "True: fixed $\\omega$ fixes $r^3 = GM/\\omega^2$, so there is only one radius."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q13",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.h",
+   "oscillations.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Needs linking x = 0 at t = 0 to maximum KE and recognising KE never goes negative and has twice the frequency.",
+  "misconception": "Plotting KE with the same shape and frequency as displacement",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The body starts at $x = 0$ (equilibrium), where speed is maximum, so $E$ starts at its maximum. $E = \\frac{1}{2}mv^2 \\propto \\cos^2\\omega t$, which is never negative and has period $T/2$: $E$ is zero at each extreme of $x$ and maximum each time $x = 0$.\n\nGraph D starts at a maximum, touches zero twice per oscillation, and stays non-negative.",
+   "perOption": {
+    "A": "KE cannot be negative, and this just copies the displacement graph.",
+    "B": "KE cannot be negative; this is a cosine with the same period as $x$.",
+    "C": "Starts at zero KE, but at $x = 0$ the body moves fastest so KE is maximum at $t = 0$.",
+    "D": "Correct. KE $\\propto \\cos^2\\omega t$: maximum at $x = 0$, zero at the extremes, twice the frequency."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q14",
+  "chapter": "wave-motion",
+  "secondaryChapters": [
+   "oscillations"
+  ],
+  "outcomes": [
+   "wave-motion.e",
+   "oscillations.g"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires reading displacements off a longitudinal-particle diagram and deducing particle velocity from wave direction.",
+  "misconception": "Confusing compression/rarefaction position with direction of particle motion",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each particle undergoes SHM, so its acceleration always points towards its equilibrium position. Acceleration opposes velocity when the particle is moving away from equilibrium.\n\nFrom the diagram, A is at maximum displacement to the right (velocity zero) and C is at its equilibrium position (acceleration zero). For a wave moving right, a particle copies the motion of the particle to its left: B is displaced left and moving right (back towards equilibrium), while D is displaced right and still moving right, away from equilibrium. So at D the acceleration (to the left) is opposite to the velocity.",
+   "perOption": {
+    "A": "A is at maximum displacement, so its velocity is zero.",
+    "B": "B is displaced to the left but moving right towards equilibrium, so acceleration and velocity are in the same direction.",
+    "C": "C is at its equilibrium position, so its acceleration is zero.",
+    "D": "Correct. D is displaced right and moving further right, so the restoring acceleration opposes its velocity."
+   }
+  },
+  "transcription": "A longitudinal sound wave travels from left to right through air. The diagram below shows the equilibrium positions and the actual positions of a series of air particles through which the sound wave is passing. [Diagram: a row of 20 particles, each with a dashed vertical line marking its equilibrium position. Particles bunch together (compression) around B and around the right end, and spread apart (rarefaction) around C. A is displaced furthest to the right of its equilibrium line; B is displaced to the left; C sits on its equilibrium line; D is displaced to the right of its equilibrium line in the region between the rarefaction at C and the compression at the right.] Which of the particles has an acceleration that is opposite in direction to its velocity at this instant? A, B, C, D (labelled particles)",
+  "issues": "Answer depends on reading small displacements from the diagram; derived D from pixel positions, which agrees with the key."
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q15",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.a",
+   "superposition.e",
+   "superposition.f"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard crest/trough reading of a two-source wavefront diagram.",
+  "misconception": "Thinking the gap between wavefronts (trough-trough) gives cancellation",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The curved lines are crests; troughs lie midway between neighbouring crests. Complete destructive interference happens where a crest from one slit meets a trough from the other.\n\nPoint C lies on a crest from one slit, exactly halfway between two crests from the other slit, i.e. on a trough. The two waves cancel there.",
+   "perOption": {
+    "A": "A is at the edge of a slit in the barrier, not in the overlap region of the two diffracted waves.",
+    "B": "B is where crests from both slits meet (on the central axis, zero path difference): constructive.",
+    "C": "Correct. A crest from one slit meets a trough from the other.",
+    "D": "D is in the middle of a diamond between crests of both waves, i.e. trough meets trough: constructive."
+   }
+  },
+  "transcription": "Light waves from a single slit pass through a double-slit and interfere. The curved lines represent wavefronts. At which point does complete destructive interference occur? [Diagram: a single slit on the left produces curved wavefronts reaching a double slit; two sets of curved wavefronts spread from the double slit and overlap. A labels a point at the upper slit edge; B is a point on the central axis where crests from both slits meet; C labels a point on one crest midway between two crests of the other set; D labels the centre of a diamond between intersecting crests.]",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q16",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.m"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "statements",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs computing angular separation and aperture from Rayleigh criterion, then checking each statement.",
+  "misconception": "Thinking a longer wavelength improves resolution",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Angular separation $\\theta = \\frac{1\\times10^{11}}{6\\times10^{16}} = 1.7\\times10^{-6}$ rad. Just resolved, so $b = \\frac{\\lambda}{\\theta} = \\frac{6\\times10^{-7}}{1.7\\times10^{-6}} \\approx 0.36\\ \\mathrm{m} \\approx 0.4\\ \\mathrm{m}$.\n\nFor red light, $\\theta_{min} = \\frac{7\\times10^{-7}}{0.36} = 1.9\\times10^{-6}$ rad, which is larger than $1.7\\times10^{-6}$ rad, so the red stars cannot be resolved. Statement C is incorrect.",
+   "perOption": {
+    "A": "True: $b = \\lambda/\\theta \\approx 0.36\\ \\mathrm{m}$.",
+    "B": "True: $\\theta_{min} \\approx \\lambda/b$ depends on both.",
+    "C": "Correct (incorrect statement). Longer wavelength gives a larger $\\theta_{min}$, so stars at the same angular separation are not resolved.",
+    "D": "True: $3\\times10^{-6}$ rad exceeds $\\theta_{min} = 1.7\\times10^{-6}$ rad, so they are resolved."
+   }
+  },
+  "transcription": "An optical telescope received yellow light of wavelength $6\\times10^{-7}$ m from two yellow stars which are $1\\times10^{11}$ m apart and can just be resolved by the telescope. The two stars are $6\\times10^{16}$ m from the telescope. Which statement is incorrect? A The aperture of the telescope has a diameter of about 0.4 m. B The resolving power of the telescope depends on both the wavelength of light received and the aperture diameter of the telescope. C The telescope receiving red light of wavelength $7\\times10^{-7}$ m can be used to resolve two red stars of the same separation and distance from the telescope as the two yellow stars. D The telescope receiving yellow light of wavelength $6\\times10^{-7}$ m can be used to resolve another pair of yellow stars that are separated by $3\\times10^{-6}$ radians.",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q17",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.e"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of the kinetic theory assumptions.",
+  "misconception": "Believing all gas molecules have the same speed",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Kinetic theory assumes random motion, negligible molecular volume, and no intermolecular forces except during (instantaneous, elastic) collisions.\n\nIt does not assume equal speeds: molecules have a distribution of speeds, and only the mean kinetic energy is fixed by temperature.",
+   "perOption": {
+    "A": "Correct. Molecules have a range of speeds; equal speeds is not an assumption.",
+    "B": "This is an assumption: molecular motion is random.",
+    "C": "This is an assumption: molecular volume is negligible compared with the gas volume.",
+    "D": "This is an assumption: no intermolecular forces except during collisions."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q18",
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.f",
+   "thermodynamic-systems.d",
+   "thermodynamic-systems.a"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs recognising zero net change in U over a cycle, finding enclosed area and its sign, then applying the first law.",
+  "misconception": "Getting the sign of work done on the gas wrong for a clockwise cycle",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Internal energy is a state function, so over a complete cycle $\\Delta U = 0$.\n\nThe cycle is clockwise on the $p$–$V$ graph (expands at $3\\times10^5$ Pa, compresses at $2\\times10^5$ Pa), so the gas does net work equal to the enclosed area: $(1\\times10^5)(2\\times10^{-3}) = 200$ J. Work done on gas $W = -200$ J.\n\nFrom $\\Delta U = Q + W$: $0 = Q - 200$, so $Q = +200$ J absorbed.",
+   "perOption": {
+    "A": "Sign error: in a clockwise cycle the gas does net work, so work done on the gas is negative.",
+    "B": "Correct. $\\Delta U = 0$, $W_{on} = -200$ J, $Q = +200$ J.",
+    "C": "Wrongly adds the given $\\Delta U$ values; $U$ returns to its starting value over a full cycle.",
+    "D": "Wrongly sums $-600 + 150$ as the net $\\Delta U$; over a full cycle $\\Delta U = 0$."
+   }
+  },
+  "transcription": "A fixed mass of ideal gas undergoes the cycle of changes represented by WXYZW in the diagram. There is a decrease in internal energy of 600 J from W to X and an increase in internal energy of 150 J from X to Y. [Graph: pressure / $10^5$ Pa against volume / $10^{-3}$ m$^3$. Rectangle: W at (3, 2), X at (1, 2), Y at (1, 3), Z at (3, 3). Arrows: W→X left at 2, X→Y up at volume 1, Y→Z right at 3, Z→W down at volume 3 (clockwise).] Which of the following set of information is correct for one complete cycle WXYZW? Columns: net increase in internal energy / J; net work done on gas / J; net heat absorbed by gas / J. A 0, 200, −200. B 0, −200, 200. C 450, 200, 250. D −450, −200, −250.",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q19",
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.d",
+   "electric-fields.c",
+   "electric-fields.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs scalar superposition of potentials and the sign convention for work done by the field.",
+  "misconception": "Confusing work done by the field with work done by an external agent",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Potential is a scalar, and all charges are at distance $r$, so $V_X = \\frac{(6Q - 2Q)}{4\\pi\\varepsilon_0 r} = \\frac{Q}{\\pi\\varepsilon_0 r}$.\n\nWork done by an external agent to bring $+2Q$ from infinity is $qV = \\frac{2Q^2}{\\pi\\varepsilon_0 r}$. The field does the negative of this: $-\\frac{2Q^2}{\\pi\\varepsilon_0 r}$.",
+   "perOption": {
+    "A": "Forgets to multiply by the test charge $2Q$ (uses $+Q$).",
+    "B": "Correct. $W_{field} = -qV_X = -\\frac{2Q^2}{\\pi\\varepsilon_0 r}$.",
+    "C": "This is the work done by the external agent; the field does negative work.",
+    "D": "Counts all eight charges as positive ($8Q$) or doubles the potential incorrectly."
+   }
+  },
+  "transcription": "A point X is surrounded symmetrically by six positive charges $+Q$ and two negative charges $-Q$ at distance $r$ as shown. [Diagram: eight point charges equally spaced on a circle of radius $r$ centred on X; six are $+Q$ and two (at left-upper and right-lower positions) are $-Q$.] How much work is done by the electric field to bring a point charge of $+2Q$ from infinity to position X? A $-\\frac{Q^2}{\\pi\\varepsilon_0 r}$ B $-\\frac{2Q^2}{\\pi\\varepsilon_0 r}$ C $\\frac{2Q^2}{\\pi\\varepsilon_0 r}$ D $-\\frac{4Q^2}{\\pi\\varepsilon_0 r}$",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q20",
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "electric-fields.a",
+   "quantities-and-measurement.b"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single Coulomb's-law substitution, with care over the pico prefix and alpha charge.",
+  "misconception": "Using the electron charge for the alpha particle or mis-converting pm",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Alpha particle charge $= 2e = 3.2\\times10^{-19}$ C; $r = 0.10\\ \\mathrm{pm} = 1.0\\times10^{-13}$ m.\n\n$F = \\frac{Q_1Q_2}{4\\pi\\varepsilon_0 r^2} = \\frac{(9.0\\times10^9)(1.4\\times10^{-17})(3.2\\times10^{-19})}{(1.0\\times10^{-13})^2} \\approx 4.0\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "Prefix/power error (e.g. not squaring $r$ correctly).",
+    "B": "Uses $r$ instead of $r^2$ in the denominator.",
+    "C": "Correct. $F \\approx 4.0$ N.",
+    "D": "Doubles the force, e.g. using $4e$ for the alpha particle charge."
+   }
+  },
+  "transcription": "What is the electrostatic force between a thorium nucleus of charge $1.4\\times10^{-17}$ C and an alpha particle when they are separated by a distance of 0.10 pm? A $4.0\\times10^{-20}$ N B $4.0\\times10^{-13}$ N C 4.0 N D 8.0 N",
+  "issues": "Distractors A, B, D do not obviously map to specific errors; per-option reasons are best guesses."
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q21",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.d"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires recognising that current flows radially, so the depth sets the cross-sectional area, not the length.",
+  "misconception": "Taking the liquid depth as the conductor length",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Current flows radially from the rod to the case through the liquid. The path length (rod to case) is fixed, while the area the current passes through is proportional to the depth $x$.\n\nFrom $R = \\rho l/A$ with $A \\propto x$, $R \\propto 1/x$.",
+   "perOption": {
+    "A": "Treats the depth as both length and something squared; no such dependence.",
+    "B": "Treats depth $x$ as the length of the conductor, but current flows across, not along, the depth.",
+    "C": "Correct. Depth sets the cross-sectional area, so $R \\propto 1/x$.",
+    "D": "Treats $x$ as setting a circular cross-section ($A \\propto x^2$), but only the height of the current path scales with $x$."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q22",
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "circuits.b",
+   "circuits.c"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs reasoning about where potential difference appears across a break in a series circuit.",
+  "misconception": "Thinking a voltmeter across a broken component reads zero",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "With a single break in a series circuit, no current flows, so there is no p.d. across any intact lamp. The whole supply voltage appears across the break.\n\nIf the third lamp's filament were the only fault, the voltmeter across it would read the full mains voltage, not zero. So that fault cannot be the only one.",
+   "perOption": {
+    "A": "Possible: a break elsewhere means no current, so lamp 3 has zero p.d.",
+    "B": "Correct. A broken third lamp would show the full supply voltage across it.",
+    "C": "Possible: no supply means zero current and zero p.d. across lamp 3.",
+    "D": "Possible: the break carries the supply voltage, leaving zero across lamp 3."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q23",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.k"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Straightforward series/parallel capacitance combinations.",
+  "misconception": "Mixing up the series and parallel rules for capacitors",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "With each capacitor $C$: P is three in parallel, $3C$. Q is three in series, $C/3$. R is $C$ in parallel with two in series ($C/2$), giving $1.5C$.\n\nIncreasing order: Q ($C/3$), R ($1.5C$), P ($3C$).",
+   "perOption": {
+    "A": "Reverses the order, treating parallel capacitors as combining like series resistors.",
+    "B": "Correct. $C/3 < 1.5C < 3C$.",
+    "C": "Ranks P lowest, applying the resistor rules to capacitors.",
+    "D": "Places R lowest; R ($1.5C$) is larger than Q ($C/3$)."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q24",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.c",
+   "electromagnetic-forces.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs fields from two wires and recognising the two contributions are perpendicular.",
+  "misconception": "Adding or subtracting the two fields as if parallel",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$B_X = \\frac{\\mu_0 I}{2\\pi d} = \\frac{(4\\pi\\times10^{-7})(3.0)}{2\\pi(2.0)} = 3.0\\times10^{-7}$ T, directed in the plane of the page (perpendicular to XP).\n\n$B_Y = \\frac{(4\\pi\\times10^{-7})(6.0)}{2\\pi(3.0)} = 4.0\\times10^{-7}$ T, directed perpendicular to the page.\n\nThe fields are perpendicular, so $B = \\sqrt{3.0^2 + 4.0^2}\\times10^{-7} = 5.0\\times10^{-7}$ T.",
+   "perOption": {
+    "A": "Multiplies the two fields instead of adding them as vectors.",
+    "B": "Correct. Perpendicular fields add as $\\sqrt{B_X^2 + B_Y^2}$.",
+    "C": "Uses wrong distances or an incorrect vector combination.",
+    "D": "Adds the magnitudes directly, as if the fields were parallel."
+   }
+  },
+  "transcription": "Two long, straight, current-carrying wires, X and Y are at a perpendicular distance 5.0 m apart. The current in X is 3.0 A and into the plane of the paper, while current in Y of 6.0 A is towards the top of the page. Point P is on the line of shortest distance joining the two wires, at a distance 2.0 m away from wire X as shown. [Diagram: wire X shown end-on with current 3.0 A into the page; wire Y drawn vertically in the plane of the page 5.0 m to the right with 6.0 A upward; P lies on the horizontal line between them, 2.0 m from X.] What is the magnitude of the resultant magnetic flux density at point P? A $3.5\\times10^{-12}$ T B $5.0\\times10^{-7}$ T C $6.3\\times10^{-7}$ T D $7.0\\times10^{-7}$ T",
+  "issues": "Distractor C (6.3e-7) does not map to a clear single error; per-option reason is a best guess."
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q25",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-induction.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs applying Lenz's law to eddy currents in an unfamiliar set-up.",
+  "misconception": "Expecting no interaction because aluminium is non-magnetic",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The rotating disc cuts the magnet's field, inducing eddy currents in the aluminium. By Lenz's law, the eddy currents oppose the relative motion between disc and magnet.\n\nThe magnet therefore experiences a force dragging it along with the disc, so it rotates in the same direction as the disc.",
+   "perOption": {
+    "A": "Lenz's law opposes relative motion, so the magnet is dragged with the disc, not pushed the other way.",
+    "B": "Correct. Eddy currents drag the magnet to reduce the relative motion.",
+    "C": "Aluminium is non-magnetic, but induced eddy currents still produce a force.",
+    "D": "The drag acts steadily in the direction of rotation; there is no restoring force to cause oscillation."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q26",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.g",
+   "currents.i",
+   "currents.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Chains transformer power, peak-to-r.m.s. conversion and $I^2R$ loss.",
+  "misconception": "Using the peak voltage instead of the r.m.s. voltage",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Power input $P = (60.0)(120) = 7200$ W. Secondary r.m.s. voltage $= 4500/\\sqrt{2} = 3182$ V, so cable current $I = 7200/3182 = 2.26$ A.\n\nPower lost $= I^2R = (2.26)^2(40.0) = 205$ W, which is 2.8% of 7200 W. So $97.2\\%$ reaches the consumers.",
+   "perOption": {
+    "A": "Larger loss than calculated, e.g. from a wrong current in the cable.",
+    "B": "Correct. Using r.m.s. current $2.26$ A gives 2.8% loss.",
+    "C": "Uses the peak voltage 4500 V as r.m.s., giving $I = 1.6$ A and a 1.4% loss.",
+    "D": "Underestimates the loss, e.g. by using peak values inconsistently."
+   }
+  },
+  "transcription": "A generator produces a current of 60.0 A r.m.s at a voltage of 120 V r.m.s. An ideal transformer steps up the voltage to a peak value of 4500 V and transmits the power through a cable of total resistance 40.0 $\\Omega$ to the consumers. What is the percentage of power transmitted to the consumers? A 94.3 % B 97.2 % C 98.6 % D 99.3 %",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q27",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs realising photon momentum and photon rate both depend on wavelength and cancel.",
+  "misconception": "Thinking pressure depends on photon momentum alone, not the photon rate",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each photon has momentum $p = h/\\lambda$ and energy $hc/\\lambda$. For power $P$, photon rate is $P\\lambda/(hc)$, so force $= \\text{rate} \\times h/\\lambda = P/c$.\n\nThe force depends only on power, not wavelength. With equal power and equal spot area, the pressure is the same: $p$.",
+   "perOption": {
+    "A": "Correct. Force $= P/c$, independent of wavelength.",
+    "B": "Considers only momentum per photon ($\\propto 1/\\lambda$) and ignores the larger photon rate for red light.",
+    "C": "Inverts the momentum ratio and still ignores photon rate.",
+    "D": "Squares the wavelength ratio with no physical basis."
+   }
+  },
+  "transcription": "A green laser pointer and a red laser pointer of the same power cast circular images on a white screen of the same diameter. The wavelengths of the green and red lasers are $\\lambda_G$ and $\\lambda_R$ respectively. [Diagram: two equal-sized circular spots labelled green and red.] If the pressure exerted by the green laser on the screen is $p$, what is the pressure exerted by the red laser? A $p$ B $\\frac{\\lambda_G}{\\lambda_R}p$ C $\\frac{\\lambda_R}{\\lambda_G}p$ D $\\left(\\frac{\\lambda_G}{\\lambda_R}\\right)^2 p$",
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.f"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of the probabilistic interpretation of the wavefunction.",
+  "misconception": "Picturing the electron as following a definite orbit",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The electron is described by a wavefunction $\\psi$, and $|\\psi|^2$ gives the probability density of finding it at a point.\n\nThe 'electron cloud' represents this probability distribution: denser regions are where the electron is more likely to be found.",
+   "perOption": {
+    "A": "The electron is not confined to a fixed radius; there is a spread of positions.",
+    "B": "The probability density is not uniform; it varies with position.",
+    "C": "The electron has no definite path; that is the classical Bohr picture.",
+    "D": "Correct. It shows where $|\\psi|^2$ is large."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q29",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.i",
+   "nuclear-physics.k",
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs normalising activity per gram before applying exponential decay.",
+  "misconception": "Comparing activities without scaling for sample mass",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Live wood activity per gram $= 120/10.0 = 12.0\\ \\mathrm{min^{-1}\\,g^{-1}}$; relic $= 8.05\\ \\mathrm{min^{-1}\\,g^{-1}}$.\n\n$\\lambda = \\ln 2/5730\\ \\mathrm{yr^{-1}}$, and $t = \\frac{1}{\\lambda}\\ln\\frac{12.0}{8.05} = \\frac{5730}{0.693}(0.399) \\approx 3300$ years.",
+   "perOption": {
+    "A": "Subtracts 195 MeV instead of adding it: $(1786-195)/236 \\approx 6.7$.",
+    "B": "Subtracts 195 MeV instead of adding it: $(1786-195)/233 \\approx 6.8$.",
+    "C": "Divides by 236 (counting the neutrons) instead of 233: $1981/236 \\approx 8.4$.",
+    "D": "Compares 120 with 8.05 directly without scaling to per-gram activity."
+   }
+  },
+  "transcription": null,
+  "issues": "Distractors A and C do not map to clear single errors; per-option reasons are best guesses."
+ },
+ {
+  "id": "nyjc-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.r",
+   "nuclear-physics.t",
+   "nuclear-physics.n"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs energy release as the increase in total binding energy, counting nucleons correctly.",
+  "misconception": "Including free neutrons in the product binding energy",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Energy released = (total BE of products) − (total BE of reactants). Free neutrons have zero binding energy.\n\n$(143 + 90)X - 235(7.6) = 195$, so $233X = 1786 + 195 = 1981$ and $X = 8.5$ MeV.",
+   "perOption": {
+    "A": "Subtracts the 195 MeV instead of adding it.",
+    "B": "Subtracts the 195 MeV and spreads over the wrong number of nucleons.",
+    "C": "Divides by 236 (including the neutrons) instead of 233.",
+    "D": "Correct. $X = 1981/233 \\approx 8.5$ MeV."
+   }
+  },
+  "transcription": "Uranium-235 undergoes fission in a reaction shown below, releasing 195 MeV of energy. The binding energy per nucleon for uranium-235 is 7.6 MeV. The binding energy per nucleon for caesium and rubidium are each approximately equal to X MeV. $^{235}_{92}\\mathrm{U} + ^{1}_{0}\\mathrm{n} \\rightarrow ^{143}_{55}\\mathrm{Cs} + ^{90}_{37}\\mathrm{Rb} + 3\\,^{1}_{0}\\mathrm{n}$ What is the value of X? A 6.7 B 6.8 C 8.4 D 8.5",
+  "issues": null
+ },
+ {
+  "id": "ri-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "practical"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct application of the definitions of systematic and random error to a distribution.",
+  "misconception": "Confusing systematic error (offset) with random error (spread)",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "A systematic error shifts all readings by the same amount, so the peak of the distribution is offset from $x_0$. A small random error means the readings are tightly clustered, giving a narrow peak.\n\nGraph B shows a narrow peak displaced from $x_0$.",
+   "perOption": {
+    "A": "Narrow peak centred on $x_0$: small random error and no systematic error.",
+    "B": "Correct. Narrow (small random error) and offset from $x_0$ (large systematic error).",
+    "C": "Wide peak centred on $x_0$: large random error, no systematic error.",
+    "D": "Wide and offset: large random error as well as systematic error."
+   }
+  },
+  "transcription": null,
+  "issues": null
+ }
+]

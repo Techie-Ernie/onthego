@@ -200,7 +200,7 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
     if (issues) q.flags.push("agent-note");
     if (derivedAnswer !== q.answer) q.flags.push("explanation-disagrees-with-key");
     else if (confidence === "low") q.flags.push("explanation-low-confidence");
-    else q.explanation = { body: rest.body, perOption: rest.perOption, model: rest.model, verified: true };
+    else q.explanation = { body: rest.body, perOption: rest.perOption, model: rest.model, verified: true, source: (rest as { source?: "key" | "generated" }).source ?? "generated" };
   }
 
   // ---- dedupe ----
@@ -278,6 +278,8 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
     primaryType: q.primaryType,
     types: q.types,
     difficulty: q.difficulty,
+    misconception: q.misconception,
+    outcomes: q.outcomes,
     hasFigure: q.hasFigure,
     renderMode: q.renderMode,
     shard: shardOf(q),

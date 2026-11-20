@@ -1,0 +1,662 @@
+[
+  {
+    "id": "ri-2026-prelim-p1-q22",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $V=IR$, substitute $I=nAve$ and $R=\\rho L/A$ to get $E=(nAve)(\\rho L/A)=nve\\rho L$. Therefore $v=E/(ne\\rho L)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Retains a spurious area factor and assigns the wrong power to length.",
+        "C": "Introduces an inverse-square area dependence and puts length in the numerator.",
+        "D": "Retains an extra area factor in the denominator."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.b",
+      "circuits.c",
+      "circuits.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combines the current and resistance equations and cancels area.",
+    "misconception": "Assuming radius affects drift speed at fixed voltage",
+    "transcription": "A cylindrical copper wire of radius $r$, length $L$ and resistivity $\\rho$ is connected across a constant voltage source of e.m.f. $E$ with negligible internal resistance. The wire contains $n$ free electrons per unit volume, each carrying a charge $e$.\n\nWhich of the following expressions correctly represents the drift velocity of the electrons in the wire?\n\nA. $\\frac{E}{ne\\rho L}$\nB. $\\frac{E(\\pi r^2)}{ne\\rho L^3}$\nC. $\\frac{EL}{ne\\rho(\\pi r^2)^2}$\nD. $\\frac{E}{ne\\rho L(\\pi r^2)}$"
+  },
+  {
+    "id": "ri-2026-prelim-p1-q23",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Once fully charged, the capacitor has the same p.d. as the battery terminals and the $4.0\\ \\Omega$ resistor. No current flows through the capacitor, so $\\mathrm{A}_2$ reads $0\\ \\mathrm{A}$.\n\nCurrent flows only in the upper loop, so $\\mathrm{A}_1$ reads $\\frac{4.0}{4.0+1.0}=0.80\\ \\mathrm{A}$. The terminal p.d. is $4.0-(0.80)(1.0)=3.2\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Assigns current to the fully charged capacitor branch.",
+        "B": "Correct.",
+        "C": "Assigns current to the capacitor branch and overestimates the battery current.",
+        "D": "Treats the capacitor as opening the resistor loop as well."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g",
+      "circuits.l"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying the active loop and accounting for the internal voltage drop.",
+    "misconception": "Assuming a charged capacitor opens every loop",
+    "transcription": "A battery of e.m.f. $4.0\\ \\mathrm{V}$ and internal resistance $1.0\\ \\Omega$ is connected to a $4.0\\ \\Omega$ resistor and $1.0\\ \\mathrm{mF}$ capacitor.\n\n[The battery and ammeter $\\mathrm{A}_1$ are in the supply branch. The $4.0\\ \\Omega$ resistor forms a parallel branch. The capacitor and $\\mathrm{A}_2$ are in series in the other parallel branch. Voltmeter V is across the capacitor.]\n\nWhat are the readings of the voltmeter V and the ammeters $\\mathrm{A}_1$ and $\\mathrm{A}_2$ when the capacitor is fully charged?\n\nReadings of V, $\\mathrm{A}_1$ and $\\mathrm{A}_2$, respectively\nA. $3.0\\ \\mathrm{V}$, $0.8\\ \\mathrm{A}$, $0.2\\ \\mathrm{A}$\nB. $3.2\\ \\mathrm{V}$, $0.8\\ \\mathrm{A}$, $0\\ \\mathrm{A}$\nC. $3.2\\ \\mathrm{V}$, $1.0\\ \\mathrm{A}$, $0.2\\ \\mathrm{A}$\nD. $4.0\\ \\mathrm{V}$, $0\\ \\mathrm{A}$, $0\\ \\mathrm{A}$"
+  },
+  {
+    "id": "ri-2026-prelim-p1-q24",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking upward as positive, $BIL\\sin\\theta-mg=ma$. Initially, $0.040I(0.30\\sin90^\\circ)-0.0024(9.81)=0.0024(1.2)$, giving $I=2.202\\ \\mathrm{A}$.\n\nAt half the current, $0.040(1.101)(0.30\\sin90^\\circ)-0.0024(9.81)=0.0024a$. Thus $a=-4.305\\ \\mathrm{m\\,s^{-2}}$, or $4.3\\ \\mathrm{m\\,s^{-2}}$ downward.",
+      "perOption": {
+        "A": "Halves the original acceleration even though weight stays the same.",
+        "B": "Reverses the direction of the net force, which points downward once weight exceeds magnetic force.",
+        "C": "Correct.",
+        "D": "Uses the magnetic force per unit mass as the magnitude of the net acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the initial current and recalculating the signed net force at half that current.",
+    "misconception": "Halving net force when only magnetic force halves",
+    "transcription": "A current-carrying thin wire $30\\ \\mathrm{cm}$ long with a mass of $2.4\\ \\mathrm{g}$ is initially suspended at rest above the ground when placed in a uniform magnetic field of flux density $0.040\\ \\mathrm{T}$.\n\nThe wire experiences an upward acceleration of $1.2\\ \\mathrm{m\\,s^{-2}}$ when a current $I$ passes through it.\n\n[A horizontal wire above the ground lies in a magnetic field directed into the page, shown by crosses.]\n\nIf the current in the wire is $\\frac{I}{2}$, what will its acceleration be?\n\nA. $0.60\\ \\mathrm{m\\,s^{-2}}$, upward\nB. $4.3\\ \\mathrm{m\\,s^{-2}}$, upward\nC. $4.3\\ \\mathrm{m\\,s^{-2}}$, downward\nD. $5.5\\ \\mathrm{m\\,s^{-2}}$, downward"
+  },
+  {
+    "id": "ri-2026-prelim-p1-q25",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "After Y is rotated, its field at P points upward and has magnitude $B_Y=\\mu_0 I/(2\\pi d)=B$. The field from X points out of the page and has magnitude $B_X=\\mu_0 I/(2\\pi d)=B$. The fields are perpendicular, so the resultant magnitude is $\\sqrt{B^2+B^2}=\\sqrt{2}\\,B$.",
+      "perOption": {
+        "A": "Treats the fields as opposite and cancelling.",
+        "B": "Counts only one conductor's field.",
+        "C": "Correct.",
+        "D": "Adds magnitudes as if the fields pointed in the same direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires visualizing the rotated wire and adding two perpendicular field vectors.",
+    "misconception": "Adding field magnitudes without checking directions",
+    "transcription": null
+  },
+  {
+    "id": "ri-2026-prelim-p1-q26",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For an ideal transformer, $V_s/V_p=N_s/N_p$. With $V_p$ and $N_s$ fixed, decreasing $N_p$ increases $V_s$.",
+      "perOption": {
+        "A": "Under the key's flux model, reducing the coil area reduces the induced e.m.f. $E=NBA\\omega\\sin(\\omega t)$.",
+        "B": "With $V_p$ and $I_s$ fixed, decreasing $I_p$ would decrease $V_s$ by $V_s/V_p=I_p/I_s$.",
+        "C": "A smaller load resistance changes the secondary current while the ideal secondary voltage stays fixed.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s option B argument implicitly holds the secondary current fixed. If the primary current decreases because the load changes, both currents can change while the ideal secondary voltage stays fixed.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Applies the ideal transformer turns ratio at fixed input voltage.",
+    "misconception": "Treating load resistance as a control for ideal secondary voltage",
+    "transcription": null
+  },
+  {
+    "id": "ri-2026-prelim-p1-q27",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $E=n^2h^2/(8mL^2)$, $L=\\sqrt{n^2h^2/(8mE)}\\propto n/\\sqrt{mE}$. Thus $L_e/L_p=(n_e/n_p)\\sqrt{m_pE_p/(m_eE_e)}=\\frac{2}{3}\\sqrt{\\frac{(1.67\\times10^{-27})(0.20)}{(9.11\\times10^{-31})(6.0)}}=5.2113\\approx5.2$.",
+      "perOption": {
+        "A": "Inverts the requested ratio.",
+        "B": "Uses $(2/3)^2$ where the width ratio needs $2/3$.",
+        "C": "Correct.",
+        "D": "Omits the quantum-number ratio of $2/3$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires rearranging the energy equation and forming a ratio involving three quantities.",
+    "misconception": "Omitting the quantum-number factor",
+    "transcription": "An electron is in the $n=2$ quantum state of a one-dimensional box with kinetic energy of $6.0\\ \\mathrm{eV}$.\n\nA proton is in the $n=3$ quantum state of another one-dimensional box with kinetic energy of $0.20\\ \\mathrm{eV}$.\n\nWhat is the ratio of the width of the electron’s box to the width of the proton’s box?\n\nA. 0.19\nB. 3.5\nC. 5.2\nD. 7.8"
+  },
+  {
+    "id": "ri-2026-prelim-p1-q28",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diameter of an atom is about $10^{-10}\\ \\mathrm{m}$, so take $\\Delta x\\approx10^{-10}\\ \\mathrm{m}$. Using $\\Delta x\\,\\Delta p\\gtrsim h$, the minimum momentum uncertainty is of order $h/\\Delta x\\sim10^{-34}/10^{-10}=10^{-24}\\ \\mathrm{N\\,s}$.",
+      "perOption": {
+        "A": "Implies a position uncertainty vastly larger than the atom.",
+        "B": "Correct.",
+        "C": "Assumes confinement to a much smaller distance than an atomic diameter.",
+        "D": "Uses a momentum scale that would require far tighter confinement than even a nuclear diameter."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "quantum-physics.h",
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires recalling the atomic length scale and using it to estimate the momentum uncertainty.",
+    "misconception": "Using a nuclear length scale for an atom",
+    "transcription": "An electron is confined within an atom.\n\nWhat is the order of magnitude of the minimum uncertainty in its momentum?\n\nA. $10^{-48}\\ \\mathrm{N\\,s}$\nB. $10^{-24}\\ \\mathrm{N\\,s}$\nC. $10^{-20}\\ \\mathrm{N\\,s}$\nD. $10^{-15}\\ \\mathrm{N\\,s}$"
+  },
+  {
+    "id": "ri-2026-prelim-p1-q29",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Paper stops alpha particles, so the initial alpha count rate is $352-256=96\\ \\mathrm{min^{-1}}$ and the initial beta count rate is $256-16=240\\ \\mathrm{min^{-1}}$. Six days is $144\\ \\mathrm{h}$, or three alpha half-lives and four beta half-lives.\n\nThe final alpha and beta count rates are $96/2^3=12\\ \\mathrm{min^{-1}}$ and $240/2^4=15\\ \\mathrm{min^{-1}}$. Adding the background gives $12+15+16=43\\ \\mathrm{min^{-1}}$.",
+      "perOption": {
+        "A": "Leaves out the background count at the detector.",
+        "B": "Undercounts the source contribution, for example by applying too many half-lives.",
+        "C": "Correct.",
+        "D": "Overcounts the source contribution by allowing too little decay."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.g",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires isolating two source rates, decaying them separately and restoring the background.",
+    "misconception": "Applying radioactive decay to background counts",
+    "transcription": "A radioactive sample consists of two nuclides.\n\nOne has a half-life of $48\\ \\mathrm{h}$ and decays by emitting alpha particles, while the other has a half-life of $36\\ \\mathrm{h}$ and emits beta particles.\n\nThe initial count rate is $352\\ \\mathrm{min^{-1}}$. When a sheet of paper is placed between the source and the detector, the count rate becomes $256\\ \\mathrm{min^{-1}}$. The background count rate is $16\\ \\mathrm{min^{-1}}$.\n\nWhat will the count rate be after 6 days, without the paper present?\n\nA. $27\\ \\mathrm{min^{-1}}$\nB. $36\\ \\mathrm{min^{-1}}$\nC. $43\\ \\mathrm{min^{-1}}$\nD. $52\\ \\mathrm{min^{-1}}$"
+  },
+  {
+    "id": "ri-2026-prelim-p1-q30",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released is the increase in total binding energy, $(5.607\\times7+7.120\\times4-6.494\\times10)\\ \\mathrm{MeV}=2.789\\ \\mathrm{MeV}$. Subtracting the products' total kinetic energy gives a $\\gamma$-ray energy of $2.789-2.31=0.479\\ \\mathrm{MeV}\\approx0.48\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the total released energy without deducting the products' kinetic energy.",
+        "C": "Adds the products' kinetic energy to the released energy.",
+        "D": "Overstates the energy available from the change in binding energy."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires calculating total binding energies and allocating the released energy to kinetic energy and the photon.",
+    "misconception": "Equating total released energy to photon energy",
+    "transcription": "The following process shows a stationary isotope of boron, which upon capturing a slow-moving neutron, splits to form a lithium isotope and an alpha particle.\n\n$\\,^{10}_{5}\\mathrm{B}+\\,^{1}_{0}\\mathrm{n}\\to\\,^{7}_{3}\\mathrm{Li}+\\,^{4}_{2}\\mathrm{He}+\\gamma$\n\nThe nuclear binding energies per nucleon of the isotopes are:\n\n$\\,^{10}_{5}\\mathrm{B}$: $6.494\\ \\mathrm{MeV}$\n$\\,^{7}_{3}\\mathrm{Li}$: $5.607\\ \\mathrm{MeV}$\n$\\,^{4}_{2}\\mathrm{He}$: $7.120\\ \\mathrm{MeV}$\n\nWhat is the energy of the $\\gamma$-ray emitted, given that the total kinetic energy of $\\,^{7}_{3}\\mathrm{Li}$ and $\\,^{4}_{2}\\mathrm{He}$ is $2.31\\ \\mathrm{MeV}$?\n\nA. $0.48\\ \\mathrm{MeV}$\nB. $2.79\\ \\mathrm{MeV}$\nC. $5.10\\ \\mathrm{MeV}$\nD. $6.23\\ \\mathrm{MeV}$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking downward as positive gives $mg-U=ma$, so $m=U/(g-a)=2.40/(9.81-4.50)=0.451977\\ \\mathrm{kg}$. The fractional uncertainty is $\\Delta m/m=0.06/2.40+0.05/(9.81-4.50)=0.034416$. Multiplying by the mass gives $\\Delta m=0.015555\\ \\mathrm{kg}$, which rounds to $0.02\\ \\mathrm{kg}$, so the result is $(0.45\\pm0.02)\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Uses $g+a$ in the denominator, as if the object accelerated upward.",
+        "B": "Uses $g+a$ and overstates the absolute uncertainty for that mass.",
+        "C": "Undercounts the uncertainty, for example by including only the upthrust contribution.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key prints incorrect factors (0.032564 and 0.363068) on the absolute-uncertainty line. The previous lines give the correct factors 0.034416 and 0.451977, which reproduce the key's result.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.g",
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "practical"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires deriving the mass and propagating uncertainties through a subtraction and a division.",
+    "misconception": "Treating relative uncertainty as absolute uncertainty",
+    "transcription": "A small object is completely submerged in water. The only significant forces acting on it are its weight and the upthrust. The upthrust is measured as $(2.40\\pm0.06)\\ \\mathrm{N}$ and the object accelerates vertically downwards at $(4.50\\pm0.05)\\ \\mathrm{m\\,s^{-2}}$.\n\nWhat is the mass of the object, including its absolute uncertainty?\n\nA. $(0.17\\pm0.01)\\ \\mathrm{kg}$\nB. $(0.17\\pm0.03)\\ \\mathrm{kg}$\nC. $(0.45\\pm0.01)\\ \\mathrm{kg}$\nD. $(0.45\\pm0.02)\\ \\mathrm{kg}$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Hooke's law, $x=F/k$. If each mass has weight $W$, the upper spring supports both masses and has extension $x_\\mathrm{upper}=2W/30$, while the lower supports one mass and has extension $x_\\mathrm{lower}=W/10$. Their extension ratio is $x_\\mathrm{upper}/x_\\mathrm{lower}=2/3$, so $2.0/x_\\mathrm{lower}=2/3$ and the lower spring extends $3.0\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Halves the extension for half the load and ignores the smaller spring constant.",
+        "B": "Inverts the extension ratio and multiplies by $2/3$.",
+        "C": "Correct.",
+        "D": "Gives both springs the same tension and accounts only for the difference in spring constants."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires identifying which weights each spring supports before applying Hooke's law.",
+    "misconception": "Assuming identical tension in both springs",
+    "transcription": "Two identical masses are suspended from the ceiling using two massless springs as shown in the diagram below. The upper spring has a spring constant of $30\\ \\mathrm{N\\,m^{-1}}$ and is extended by $2.0\\ \\mathrm{cm}$ from its unstretched length. The lower spring has a spring constant of $10\\ \\mathrm{N\\,m^{-1}}$.\n\nBoth masses are in equilibrium, and both springs obey Hooke's law.\n\n[The upper spring connects the ceiling to the first mass. The lower spring connects the first mass to the second. The diagram is not drawn to scale.]\n\nWhat is the extension of the lower spring from its unstretched length?\n\nA. $1.0\\ \\mathrm{cm}$\nB. $1.3\\ \\mathrm{cm}$\nC. $3.0\\ \\mathrm{cm}$\nD. $6.0\\ \\mathrm{cm}$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The collected rain gains horizontal momentum at the rate $F=\\frac{d(mv)}{dt}=v\\frac{dm}{dt}=(20)(0.50)=10\\ \\mathrm{N}$. The container therefore exerts a $10\\ \\mathrm{N}$ backward force on the car as the rain pushes back on it.",
+      "perOption": {
+        "A": "Ignores the horizontal momentum gained by the rain.",
+        "B": "Underestimates the force by using less than the full horizontal velocity gain at the given mass flow rate.",
+        "C": "Correct.",
+        "D": "Omits the factor of $0.50$ from the mass flow rate."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying the momentum-rate form of Newton's second law to incoming rain at constant car speed.",
+    "misconception": "Assuming constant car speed means the collected rain requires no force",
+    "transcription": "A car is travelling in a straight horizontal line at a constant speed of $20\\ \\mathrm{m\\,s^{-1}}$. Rain falls vertically downwards and enters an open container fixed securely to the car at a constant rate of $0.50\\ \\mathrm{kg\\,s^{-1}}$. After entering the container, the rainwater moves horizontally with the car.\n\nWhat is the horizontal force exerted by the container on the car as a result of collecting the rain?\n\nA. $0\\ \\mathrm{N}$\nB. $5.0\\ \\mathrm{N}$\nC. $10\\ \\mathrm{N}$\nD. $20\\ \\mathrm{N}$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q4",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the rebound direction as positive. Using $mv_f-mv_i=F\\Delta t$ gives $(0.060)[18-(-12)]=F(0.015)$, so the average force is $120\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Subtracts the two speeds as if the ball kept moving in the same direction.",
+        "B": "Assumes the ball starts from rest and counts only the final momentum.",
+        "C": "Correct.",
+        "D": "Overestimates the force by using too large a momentum change or too short a contact time."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires opposite velocity signs in a direct impulse calculation.",
+    "misconception": "Subtracting speeds when velocity reverses",
+    "transcription": "A tennis ball of mass $0.060\\ \\mathrm{kg}$ is travelling horizontally at $12\\ \\mathrm{m\\,s^{-1}}$ towards a tennis racket. The racket hits the ball and causes it to travel in the opposite direction at $18\\ \\mathrm{m\\,s^{-1}}$.\n\nThe ball is in contact with the racket for $0.015\\ \\mathrm{s}$.\n\nWhat is the average force exerted by the racket on the ball?\n\nA. $24\\ \\mathrm{N}$\nB. $72\\ \\mathrm{N}$\nC. $120\\ \\mathrm{N}$\nD. $200\\ \\mathrm{N}$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q5",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant speed the driving force balances drag, so $F=kv^2$. Since $F_\\mathrm{final}/F_\\mathrm{initial}=1/2$, the speed ratio is $v_\\mathrm{final}/v_\\mathrm{initial}=1/\\sqrt{2}$. Using $P=Fv=kv^3$, the power ratio is $(1/\\sqrt{2})^3=0.354$.",
+      "perOption": {
+        "A": "Cubes $1/2$ as if the speed itself were halved.",
+        "B": "Correct.",
+        "C": "Uses only the driving-force ratio and ignores the change in speed.",
+        "D": "Uses the speed ratio alone and ignores the change in driving force."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using force balance to find the speed ratio and then using the power relation.",
+    "misconception": "Assuming power scales directly with thrust as speed changes",
+    "transcription": "A small boat is propelled by an engine and initially travels at a constant speed.\n\nThe resistive force acting on the boat is directly proportional to the square of its speed.\n\nThe power output of the engine is then reduced such that the driving force is reduced to half its original value. After some time, the boat reaches a new constant speed.\n\nWhat is the ratio $\\frac{\\text{final power output}}{\\text{initial power output}}$?\n\nA. 0.125\nB. 0.354\nC. 0.500\nD. 0.707"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q6",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $t$ be the time to the highest point. The average vertical velocity gives $H=\\tfrac12(v\\sin\\alpha+0)t$. In the same time the horizontal displacement is $R/2=v\\cos\\alpha\\,t$. Dividing these equations gives $(R/2)/H=2\\cos\\alpha/\\sin\\alpha$, so $R=4H\\cos\\alpha/\\sin\\alpha$.",
+      "perOption": {
+        "A": "Gives the horizontal displacement to the apex only.",
+        "B": "Swaps the sine and cosine and gives only half the corresponding range.",
+        "C": "Correct.",
+        "D": "Swaps the horizontal and vertical trigonometric factors."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires relating horizontal displacement and vertical rise over the same time and using trajectory symmetry.",
+    "misconception": "Using the displacement to the apex as the full range",
+    "transcription": "A cannon fires a cannonball with an initial speed $v$ at an angle $\\alpha$ to the horizontal. The cannonball reaches a maximum height $H$ and lands at the same horizontal level from which it was fired.\n\nWhich expression gives the horizontal range $R$ of the cannonball?\n\n[A dashed projectile trajectory begins and ends on the same horizontal line. The launch velocity $v$ makes angle $\\alpha$ with the horizontal, and a vertical arrow marks the apex height $H$.]\n\nA. $R=\\frac{2H\\cos\\alpha}{\\sin\\alpha}$\nB. $R=\\frac{2H\\sin\\alpha}{\\cos\\alpha}$\nC. $R=\\frac{4H\\cos\\alpha}{\\sin\\alpha}$\nD. $R=\\frac{4H\\sin\\alpha}{\\cos\\alpha}$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The object's speed increases at a decreasing rate and eventually levels off at terminal speed, as in Z. X shows the magnitude of the resultant force, which starts at the weight and tends to zero as drag builds. Y shows the height, whose downward slope starts at zero and approaches a constant magnitude as the speed levels off.",
+      "perOption": {
+        "A": "Assigns speed to a graph that starts above zero even though the object is dropped from rest.",
+        "B": "Swaps height and resultant force, which tends to zero as terminal speed is reached.",
+        "C": "Correct.",
+        "D": "Assigns height to an increasing graph although the object is falling."
+      }
+    },
+    "issues": "The graphs are schematic. Once Z levels off at terminal speed, Y should continue with a constant negative slope. The key’s reference to an increasing gradient of Y means its magnitude increases.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "motion-and-forces.b",
+      "motion-and-forces.c",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires matching three graphs by their initial values, slopes and terminal behavior.",
+    "misconception": "Treating zero net force as zero speed",
+    "transcription": "An object is dropped at time $t=0$ from a high building. Air resistance is significant.\n\nThree graphs are plotted against time.\n\nthe height of the object above the ground\nthe speed of the object\nthe magnitude of the resultant force on the object.\n\nWhat are the quantities X, Y and Z?\n\n[Graph X starts nearly flat at a positive value, drops and levels off at zero. Graph Y starts nearly flat at a positive value and then falls with a slope that becomes steeper. Graph Z starts at zero, rises and levels off at a positive value. All horizontal axes represent time.]\n\nOptions list height above ground, speed and magnitude of resultant force, respectively.\nA. X, Y, Z\nB. X, Z, Y\nC. Y, Z, X\nD. Z, Y, X"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q8",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball's weight acts throughout the collision, while the floor's much greater contact force reverses the ball's momentum. Over the short contact time, the impulse due to weight is much smaller than the impulse due to the floor, so weight can be neglected when finding the momentum change.",
+      "perOption": {
+        "A": "The ball's weight continues to act throughout the collision.",
+        "B": "Weight is a force and momentum is $mv$, so their magnitudes cannot be compared directly.",
+        "C": "The floor's contact force exceeds the weight and produces the upward momentum change.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the impulses delivered by gravity and the floor over the short contact time.",
+    "misconception": "Assuming gravity stops acting during contact",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q9",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking right as positive, momentum conservation gives $2m(5.0)+m(-4.0)=2mv_P+mv_Q$. Since the collision is elastic, relative speed of approach equals relative speed of separation, so $5.0-(-4.0)=v_Q-v_P$. Solving gives $v_P=-1.0\\ \\mathrm{m\\,s^{-1}}$ and $v_Q=8.0\\ \\mathrm{m\\,s^{-1}}$, so P moves left at $1.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Interprets P's negative velocity as motion to the right.",
+        "C": "Uses Q's speed and gives it the wrong direction.",
+        "D": "Reports Q's velocity instead of P's."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires solving simultaneous signed momentum and relative-speed equations.",
+    "misconception": "Assigning the other trolley's velocity to P",
+    "transcription": "Two trolleys P and Q of masses $2m$ and $m$ respectively move along the same straight line and collide. The total kinetic energy of the two trolleys is unchanged by the collision.\n\nBefore the collision, P moves to the right at $5.0\\ \\mathrm{m\\,s^{-1}}$ and Q moves to the left at $4.0\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the velocity of P after the collision?\n\nA. $1.0\\ \\mathrm{m\\,s^{-1}}$ to the left\nB. $1.0\\ \\mathrm{m\\,s^{-1}}$ to the right\nC. $8.0\\ \\mathrm{m\\,s^{-1}}$ to the left\nD. $8.0\\ \\mathrm{m\\,s^{-1}}$ to the right"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q10",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Once released, the gas expands until it reaches atmospheric pressure, the same as its initial pressure. At that pressure the original amount of gas would occupy $V'$ at $80^\\circ\\mathrm{C}$, with $V/(273+27)=V'/(273+80)$ and hence $V'=(353/300)V$. The container still has volume $V$, so it retains $V/V'=300/353\\approx85\\%$ of the original gas.",
+      "perOption": {
+        "A": "Gives the percentage that escapes.",
+        "B": "Uses the Celsius temperatures directly and treats $27/80$ as the remaining fraction.",
+        "C": "Uses the complement of the incorrect Celsius ratio.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires comparing gas states at equal pressure and converting both temperatures to kelvin.",
+    "misconception": "Reporting the fraction that escapes",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q11",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The piston does work on the air as it compresses it. The compression happens so quickly that little thermal energy escapes to the surroundings, making it approximately adiabatic. The air's internal energy and temperature rise enough to ignite the paper.",
+      "perOption": {
+        "A": "Attributes the energy input to heat from the surroundings, though rapid compression transfers energy by work.",
+        "B": "Correct.",
+        "C": "Assumes compression adds molecules to the sealed cylinder.",
+        "D": "Attributes ignition to direct heating by the piston instead of the compressed air."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires using the first law to connect rapid compression with a temperature rise.",
+    "misconception": "Confusing work on the gas with heat from the surroundings",
+    "transcription": null
+  }
+]

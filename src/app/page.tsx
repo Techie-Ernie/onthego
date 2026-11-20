@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { activeSubject } from "@/subjects";
+import { HomeClient } from "@/components/home/HomeClient";
 
 export default function Home() {
   return (
@@ -14,10 +15,10 @@ export default function Home() {
       <section className="flex flex-col gap-3">
         <h1 className="text-[32px] leading-tight">Ten questions before your stop.</h1>
         <p className="measure text-ink-2">
-          Short H2 Physics MCQ quizzes built from real 2026 JC prelim papers. Pick a chapter, a length, and go — it works offline once downloaded.
+          Short H2 Physics MCQ quizzes from real JC prelim papers. Pick a chapter and a length, then go. Downloaded topics work offline.
         </p>
       </section>
-      <Link href="/build" className="btn btn--primary btn--block">Start a quiz</Link>
+      <HomeClient />
     </div>
   );
 }

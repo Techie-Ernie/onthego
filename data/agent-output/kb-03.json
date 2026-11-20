@@ -1,0 +1,342 @@
+[
+  {
+    "id": "asrjc-2026-prelim-p1-q11",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The molecules rebound from the inward-moving piston faster than they approached it. Their average kinetic energy increases, so the gas temperature rises.",
+      "perOption": {
+        "A": "The insulation prevents heat transfer, but the piston can still do work on the gas.",
+        "B": "For a fixed amount of ideal gas, $pV$ is proportional to temperature.",
+        "C": "More frequent intermolecular collisions supply no extra kinetic energy.",
+        "D": "Correct. The molecules rebound faster from the moving piston."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q12",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "During compression the work done on the gas is $-p(V_f-V_i)=-(1.0\\times10^5)(2-5)\\times10^{-4}=30\\ \\mathrm{J}$. During expansion it is $-(1.5\\times10^5)(5-2)\\times10^{-4}=-45\\ \\mathrm{J}$. The net work done on the gas is $30-45=-15\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Reverses the work sign and understates the magnitude by a factor of ten.",
+        "B": "Understates the magnitude by a factor of ten when applying the axis scales.",
+        "C": "Gives the net work done by the gas.",
+        "D": "Correct. The negative work during expansion has the greater magnitude."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q13",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At half the amplitude $x_0$, the speed is $v=\\omega\\sqrt{x_0^2-x_0^2/4}$. This simplifies to $v=(\\sqrt{3}/2)\\omega x_0=(\\sqrt{3}/2)v_0$.",
+      "perOption": {
+        "A": "Uses the squared displacement fraction as the speed fraction.",
+        "B": "Assumes halving the displacement halves the speed.",
+        "C": "Uses the fraction of squared speed without taking its square root.",
+        "D": "Correct. The speed is $\\sqrt{3}/2$ times its maximum."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q14",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At P, the displacement curve crosses zero with a negative slope. As the curve shifts right, the displacement at P becomes positive, so the particle is moving in the positive $x$-direction.",
+      "perOption": {
+        "A": "P is at a compression, where the pressure is maximum.",
+        "B": "This is a progressive wave, so it has no stationary-wave antinodes.",
+        "C": "At Q, the particle passes through equilibrium in a rarefaction at maximum speed.",
+        "D": "Correct. The particle at P moves in the positive $x$-direction."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q15",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The open tube has fundamental wavelength $2L$, so $v=f_0\\lambda_0=(256)(2L)=512L$. With one end closed the longest resonant wavelength is $4L$, giving $f_1=512L/(4L)=128\\ \\mathrm{Hz}$. The next wavelength is $4L/3$, giving $f_2=512L/(4L/3)=384\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Includes the even harmonic at 256 Hz, which the tube with one closed end cannot support.",
+        "B": "Correct. These are the fundamental and third harmonic.",
+        "C": "Gives the third and fifth harmonics and skips the 128 Hz fundamental.",
+        "D": "Both frequencies are even multiples of the new fundamental."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q16",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the third order, $d\\sin45^\\circ=3\\lambda$. At the limiting angle of $90^\\circ$, $d\\sin90^\\circ=n\\lambda$. Combining these gives $n=4.24$ at the limit, so the highest allowed integer order is 4.",
+      "perOption": {
+        "A": "Stops at the observed order even though the fourth fits within the angular limit.",
+        "B": "Correct. Four is the largest allowed integer order.",
+        "C": "The fifth order would require $\\sin\\theta>1$.",
+        "D": "The sixth order would also require $\\sin\\theta>1$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q17",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total charge is $Q=It=(20\\times10^{-3})(5.0)=0.10\\ \\mathrm{C}$. Dividing by the magnitude of the electron charge gives $N=0.10/(1.6\\times10^{-19})=6.3\\times10^{17}$.",
+      "perOption": {
+        "A": "Gives the transferred charge in coulombs before dividing by the elementary charge.",
+        "B": "Fails to convert the current-time product into an electron count using the elementary charge.",
+        "C": "Correct. Divide the transferred charge by the charge magnitude per electron.",
+        "D": "This many electrons would carry far more than the transferred $0.10\\ \\mathrm{C}$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q18",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential difference across $R$ is $IR$, so $IR=E-Ir$. The measurements give $3.0=E-1.0r$ and $4.8=E-0.4r$. Solving simultaneously gives $r=3.0\\ \\Omega$ and $E=6.0\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Predicts too small a terminal voltage change for the measured current change.",
+        "B": "Correct. This resistance satisfies both readings with the same e.m.f.",
+        "C": "Confuses the numerical value of the e.m.f. in volts with the internal resistance in ohms.",
+        "D": "Predicts too large a terminal voltage change for the measured current change."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q19",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The right-hand network has equivalent capacitance $(1/C+1/C)^{-1}+C=1.5C$. It is in series with X, so it also carries $6\\ \\mu\\mathrm{C}$ and has voltage $V_{\\mathrm{right}}=(6\\ \\mu\\mathrm{C})/(1.5C)$. The lower branch has capacitance $C/2$, giving charge $(C/2)V_{\\mathrm{right}}=2\\ \\mu\\mathrm{C}$. The two series capacitors in that branch carry equal charge, so Y stores $2\\ \\mu\\mathrm{C}$.",
+      "perOption": {
+        "A": "Correct. Y carries the charge of the lower series branch.",
+        "B": "Splits the charge equally between parallel branches with different capacitances.",
+        "C": "Gives the charge on the single capacitor in the upper branch.",
+        "D": "Treats Y as directly in series with X and ignores the upper branch."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q20",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The time constant is $\\tau=RC=4700\\times2200\\times10^{-6}\\ \\mathrm{s}$. Since $E=\\tfrac12 CV^2$, $E_0/E_t=(V_0/V_t)^2=8$ and $V_0/V_t=\\sqrt{8}$. Substitution into $V_t=V_0e^{-t/\\tau}$ gives $1/\\sqrt{8}=e^{-t/\\tau}$, so $t=10.8\\ \\mathrm{s}\\approx11\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct. The voltage falls to $V_0/\\sqrt{8}$.",
+        "B": "At 16 s the energy has already fallen below one-eighth of its initial value.",
+        "C": "Uses one-eighth as the voltage fraction, leaving one-sixty-fourth of the initial energy.",
+        "D": "Treats the energy decrease as requiring three full $RC$ time constants."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q21",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field pushes positive charges to the right and negative charges to the left. In B, the forces on each horizontal pair are equal, opposite and collinear. The net force is zero and the clockwise and anticlockwise moments about the centre balance.",
+      "perOption": {
+        "A": "The net rightward force on the top row and net leftward force on the bottom row produce moments in the same sense.",
+        "B": "Correct. The resultant force and resultant moment are both zero.",
+        "C": "The top and bottom charges experience unequal leftward forces, so their opposing moments do not cancel.",
+        "D": "The rightward top forces and leftward bottom forces turn the square in the same sense."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q22",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The electric force must act upwards to balance the weight, so the upper plate is at lower potential. When $V$ is decreased, the particle falls towards the higher-potential lower plate. During that fall, the positive particle gains electric potential energy and loses gravitational potential energy.",
+      "perOption": {
+        "A": "During the fall, the positive particle moves towards higher electric potential.",
+        "B": "Correct. During the fall, electric potential energy rises and gravitational potential energy falls.",
+        "C": "During the rise, the positive particle moves towards lower electric potential.",
+        "D": "After the voltage changes, the electric force and weight differ, so the energy changes need not have equal magnitudes."
+      }
+    },
+    "issues": "The key compares positions during motion after the voltage adjustment. If the comparison includes the adjustment itself, the electric potential change depends on how the individual plate potentials are changed relative to a fixed reference."
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q23",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron is negatively charged, so its electric force points along B. The magnetic force must point along D for the beam to remain undeflected. Fleming's left-hand rule, with conventional current opposite to the electron beam, gives magnetic field direction C.",
+      "perOption": {
+        "A": "This field reverses the magnetic force, making it reinforce the electric force.",
+        "B": "The magnetic force would be perpendicular to B and could not oppose the electric force along B.",
+        "C": "Correct. Field direction C produces a magnetic force along D.",
+        "D": "The magnetic force would be perpendicular to D, although the required force is along D."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q24",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Lenz's law the coil end X becomes a north pole when north approaches and a south pole when south approaches, reversing the current and the needle deflection. At half the speed, the flux linkage changes more slowly, so the induced e.m.f. and current are smaller.",
+      "perOption": {
+        "A": "Accounts for the smaller deflection but misses the reversal caused by switching poles.",
+        "B": "Correct. The needle moves less than 10 units to the right.",
+        "C": "Misses both the current reversal and the decrease in magnitude.",
+        "D": "Gets the reversal right but treats slower insertion as producing a larger current."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q25",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Treat PQ as a straight conductor moving in the magnetic field. Fleming's right-hand rule gives conventional current from P to Q along the disc. The rotating disc acts as a source, so current flows internally from lower to higher potential and P is at lower potential than Q.",
+      "perOption": {
+        "A": "Correct. The disc drives current from P to Q with Q at higher potential.",
+        "B": "Gets the polarity right but reverses the current inside the source.",
+        "C": "Reverses both the induced current and the polarity.",
+        "D": "Gets the current direction right but applies a resistor's potential drop to the source."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q26",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over one period, $I_{\\mathrm{rms}}=\\sqrt{(4^2\\times1+2^2\\times2+0\\times1)/4}=2.45\\ \\mathrm{A}$. The average power is $I_{\\mathrm{rms}}^2R=2.45^2\\times11=66\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Uses the zero mean current, although power depends on the mean squared current.",
+        "B": "Uses the 2 A level alone and ignores the other parts of the waveform.",
+        "C": "Correct. The period average of $I^2R$ is 66 W.",
+        "D": "Counts the 4 A pulse but omits the power from the negative-current interval."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q27",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The de Broglie equation is $\\lambda=h/p$. Therefore $\\lambda p=h$, where $h$ is Planck's constant.",
+      "perOption": {
+        "A": "Correct. The product is Planck's constant.",
+        "B": "Makes wavelength directly proportional to momentum.",
+        "C": "Substitutes kinetic energy for momentum, although the two are not proportional.",
+        "D": "Makes wavelength increase with kinetic energy, although it decreases as momentum increases."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q28",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The graph of $\\lvert\\psi\\rvert^2$ shows the position probability density. D has the narrowest peak, centred near $x=1.5$, and hence the smallest position uncertainty $\\Delta x$. This gives the largest lower bound on $\\Delta p$, which is the key's basis for choosing D.",
+      "perOption": {
+        "A": "The flat density spreads the particle across the region shown, giving weak localisation.",
+        "B": "The probability is distributed across many peaks, giving a large position uncertainty.",
+        "C": "The broad packet from about $x=0.0$ to $3.2$ gives a larger position uncertainty than D.",
+        "D": "Correct. D is the most tightly localised in position."
+      }
+    },
+    "issues": "The key treats the uncertainty bound as an inverse equality. For standard deviations the bound is $\\Delta x\\,\\Delta p\\ge\\hbar/2$. The graphs omit the wavefunction phase, so the densities alone cannot establish a ranking of momentum uncertainties. D is the intended answer."
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q29",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let R be the intermediate nucleus. Beta decay gives $\\phantom{}^{A}_{Z}\\mathrm{P}\\to{}^{A}_{Z+1}\\mathrm{R}+{}^{0}_{-1}\\mathrm{e}$, followed by gamma decay $\\phantom{}^{A}_{Z+1}\\mathrm{R}\\to{}^{A}_{Z+1}\\mathrm{Q}+\\gamma$. The neutron number in Q is $A-(Z+1)=A-Z-1$.",
+      "perOption": {
+        "A": "Correct. The neutron count drops by just one.",
+        "B": "Alpha decay removes two neutrons and gamma emission leaves the neutron count unchanged.",
+        "C": "Alpha decay removes two neutrons and beta-minus decay converts one more into a proton.",
+        "D": "Each beta-minus decay converts a neutron to a proton, so the count drops by two."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "asrjc-2026-prelim-p1-q30",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $C$ be the initial count rate due to the source alone. After two half-lives it has fallen by $3C/4$, so $3C/4=324-108$ and $C=288\\ \\mathrm{counts\\,min^{-1}}$. The background count rate is $324-288=36\\ \\mathrm{counts\\,min^{-1}}$.",
+      "perOption": {
+        "A": "Quarters the later reading even though it includes a constant background contribution.",
+        "B": "Correct. The background contributes 36 counts per minute.",
+        "C": "Halves the later reading even though the half-life applies only to the source contribution.",
+        "D": "Gives the remaining source count rate after two half-lives."
+      }
+    },
+    "issues": null
+  }
+]

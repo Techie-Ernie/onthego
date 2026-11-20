@@ -12,11 +12,11 @@
  *   {type:"drop-topic", shard}
  *   {type:"cache-quiz", urls:[...]}             replace the quiz cache with these urls
  */
-const VERSION = 1;
+const VERSION = 2;
 const SHELL = `otg-shell-v${VERSION}`;
 const INDEX = "otg-bank-index";
 const QUIZ = "otg-quiz";
-const ROUTES = ["/", "/build", "/quiz", "/results", "/mistakes", "/insights", "/trends", "/search", "/settings", "/offline"];
+const ROUTES = ["/", "/build", "/quiz", "/results", "/mistakes", "/insights", "/trends", "/search", "/settings", "/q", "/offline"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(warmShell().catch(() => {}).then(() => self.skipWaiting()));

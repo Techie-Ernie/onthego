@@ -201,7 +201,7 @@ button.card:active {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  min-height: 40px;
+  min-height: var(--tap);
   padding: 0 14px;
   border-radius: 999px;
   border: 1px solid var(--line);
@@ -214,7 +214,14 @@ button.card:active {
     background-color 140ms ease,
     border-color 140ms ease;
 }
-.chip[aria-pressed="true"] {
+.chip:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--action);
+  outline-offset: 2px;
+}
+.chip[aria-pressed="true"],
+.chip[aria-checked="true"],
+.chip--on {
   background: var(--ink);
   color: var(--bg);
   border-color: var(--ink);

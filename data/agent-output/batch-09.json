@@ -1,0 +1,482 @@
+[
+{
+  "id": "mi-2026-prelim-p1-q11",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": ["temperature-and-ideal-gases.b", "temperature-and-ideal-gases.g"],
+  "primaryType": "quantitative",
+  "types": ["quantitative"],
+  "difficulty": 2,
+  "difficultyReason": "Single substitution into the mean KE formula after converting to kelvin; the moles and molar mass are red herrings.",
+  "misconception": "Using Celsius temperature or computing the total kinetic energy of the gas instead of per atom",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+    "body": "The mean translational kinetic energy of one particle depends only on temperature: $\\langle E_k \\rangle = \\tfrac{3}{2}kT$.\n\nWith $T = 27 + 273 = 300\\ \\mathrm{K}$: $\\tfrac{3}{2}(1.38\\times10^{-23})(300) = 6.2\\times10^{-21}\\ \\mathrm{J}$.\n\nThe number of moles and the molar mass are not needed.",
+    "perOption": {
+      "A": "Uses $T = 27$ in °C instead of 300 K.",
+      "B": "Correct. $\\tfrac{3}{2}kT$ with $T = 300\\ \\mathrm{K}$.",
+      "C": "A macroscopic energy far too large for a single atom; not the per-atom mean KE.",
+      "D": "This is the total KE of all 2.0 mol, $\\tfrac{3}{2}nRT \\approx 7500\\ \\mathrm{J}$, not the KE of one atom."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q12",
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": ["temperature-and-ideal-gases.c"],
+  "primaryType": "proportionality",
+  "types": ["proportionality", "multi-step"],
+  "difficulty": 3,
+  "difficultyReason": "Requires recognising equal pressure in connected flasks and combining the volume and temperature ratios.",
+  "misconception": "Ignoring that the connected flasks share the same pressure, or inverting the temperature dependence",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "The flasks are connected, so the pressure is the same in both. From $pV = nRT$, $n = \\dfrac{pV}{RT}$, so $n \\propto \\dfrac{V}{T}$.\n\n$\\dfrac{m_P}{m_Q} = \\dfrac{n_P}{n_Q} = \\dfrac{3V/200}{V/600} = 3 \\times 3 = 9$.",
+    "perOption": {
+      "A": "Inverts the ratio (gives mass in Q over mass in P).",
+      "B": "Treats amount as proportional to $T$ instead of $1/T$, partly cancelling the volume factor.",
+      "C": "Accounts for only one of the two factors (volume or temperature), not both.",
+      "D": "Correct. Volume factor 3 times temperature factor 3."
+    }
+  },
+  "transcription": "Two flasks P and Q contain an ideal gas and are connected with a tube of negligible volume compared to that of the flasks. The volume of P is triple the volume of Q. [Diagram: large flask P connected by a thin tube to a smaller flask Q] P is held at a temperature of 200 K and Q is held at a temperature of 600 K. What is the $\\dfrac{\\text{mass of gas in P}}{\\text{mass of gas in Q}}$? A $\\frac{1}{9}$ B $\\frac{1}{3}$ C 3 D 9",
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q13",
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": ["thermodynamic-systems.a", "thermodynamic-systems.f"],
+  "primaryType": "conceptual",
+  "types": ["conceptual", "recall"],
+  "difficulty": 2,
+  "difficultyReason": "Standard conceptual check of internal energy and the first law.",
+  "misconception": "Equating internal energy with temperature, or treating heat and work as stored quantities",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+    "body": "By the first law, $\\Delta U = Q + W$. Internal energy can be raised by work done on the system (e.g. compressing a gas) with $Q = 0$.\n\nSo internal energy can increase without any heating.",
+    "perOption": {
+      "A": "During a phase change $U$ increases (potential energy rises) while temperature stays constant.",
+      "B": "Correct. Work done on the system can increase $U$ with no heating.",
+      "C": "Equal internal energy does not imply equal temperature; it depends on amount and type of substance.",
+      "D": "$Q + W$ gives the change in internal energy, not the internal energy itself."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q14",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": ["oscillations.l"],
+  "primaryType": "application",
+  "types": ["application", "quantitative"],
+  "difficulty": 2,
+  "difficultyReason": "Resonance condition plus a single speed = distance × frequency step.",
+  "misconception": "Dividing frequency by spacing (or spacing by frequency) instead of multiplying",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "Large amplitude means resonance: the bumps must drive the suspension at its natural frequency of $2.0\\ \\mathrm{Hz}$.\n\nThe car must cross 2 bumps per second, so $v = fd = 2.0 \\times 5.0 = 10\\ \\mathrm{m\\,s^{-1}}$.",
+    "perOption": {
+      "A": "Not a resonance speed; does not come from $v = fd$.",
+      "B": "Computes $d/f$ instead of $fd$.",
+      "C": "Uses one bump per second, ignoring the 2.0 Hz frequency.",
+      "D": "Correct. $v = fd = 10\\ \\mathrm{m\\,s^{-1}}$."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q15",
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": ["oscillations.i"],
+  "primaryType": "conceptual",
+  "types": ["conceptual"],
+  "difficulty": 3,
+  "difficultyReason": "Requires knowing that damping lowers the oscillation frequency, which students often ignore for light damping.",
+  "misconception": "Believing damping has no effect on the period, or that the period changes as amplitude decays",
+  "derivedAnswer": "A",
+  "confidence": "medium",
+  "explanation": {
+    "body": "A damping force opposes motion, slowing the oscillator, so the damped frequency is lower than the natural frequency. More damping lowers it further.\n\nFor a lightly-damped system the amplitude decays gradually but the period stays constant over time.",
+    "perOption": {
+      "A": "Correct. Greater damping slightly reduces the frequency.",
+      "B": "Damping does increase the period, even if only slightly for light damping.",
+      "C": "Energy is lost to damping, so the amplitude decreases over time.",
+      "D": "The period is constant over time; only the amplitude decays."
+    }
+  },
+  "transcription": null,
+  "issues": "Option B is the common H2 approximation (light damping barely changes the period); the key's A relies on the strict result that damping lowers frequency. Defensible, but reviewers may want to note the subtlety."
+},
+{
+  "id": "mi-2026-prelim-p1-q16",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": ["wave-motion.i", "wave-motion.j"],
+  "primaryType": "quantitative",
+  "types": ["quantitative", "application"],
+  "difficulty": 3,
+  "difficultyReason": "Malus' law with an inverse cosine and the extra step of finding an equivalent angle beyond 180°.",
+  "misconception": "Interpreting 'reduced by 30%' as 'reduced to 30%'",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+    "body": "Reduced by 30% means the new intensity is $0.70I$. By Malus' law, $\\cos^2\\theta = 0.70$, so $\\cos\\theta = \\pm0.837$ and $\\theta = 33.2°$ (or $146.8°$, $213.2°$, $326.8°$).\n\nRotating by $180° + 33° = 213°$ gives the same result, since $\\cos^2$ repeats every $180°$.",
+    "perOption": {
+      "A": "Correct. $\\cos^2 213° = \\cos^2 33° \\approx 0.70$.",
+      "B": "$\\cos^2 226° = \\cos^2 46° \\approx 0.48$, a reduction of about 52%.",
+      "C": "$\\cos^2 237° \\approx 0.30$: intensity reduced to 30%, not by 30%.",
+      "D": "$\\cos^2 253° \\approx 0.09$, far too large a reduction."
+    }
+  },
+  "transcription": "Two sheets of polaroid P and Q are placed such that their planes of polarisation are parallel as shown. A beam of unpolarised light passes through them and is incident on the detector. The intensity detected is $I$. [Diagram: incident unpolarised beam passes through polaroids P then Q (parallel vertical transmission axes), emergent beam goes to a detector] Which of the following is a possible angle through which Q can be rotated such that the intensity detected is reduced by 30%? A 213° B 226° C 237° D 253°",
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q17",
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": ["wave-motion.g", "wave-motion.e"],
+  "primaryType": "graph",
+  "types": ["graph", "proportionality"],
+  "difficulty": 3,
+  "difficultyReason": "Needs $I \\propto A^2$ and reading amplitudes off grids while noticing frequency is unchanged.",
+  "misconception": "Thinking amplitude halves when intensity halves, or that frequency changes with intensity",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "Intensity $\\propto$ amplitude$^2$, so halving the intensity reduces the amplitude by a factor of $\\sqrt{2}$: from 3 squares to about $3/\\sqrt{2} \\approx 2.1$ squares.\n\nThe frequency (pitch) is unchanged, so the period stays the same. Graph D shows amplitude about 2 squares with the same period.",
+    "perOption": {
+      "A": "Frequency doubled; changing intensity does not change frequency.",
+      "B": "Amplitude unchanged and frequency increased.",
+      "C": "Amplitude halved (1.5 squares), which would quarter the intensity.",
+      "D": "Correct. Amplitude reduced by $\\sqrt{2}$, same period."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q18",
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": ["superposition.m"],
+  "primaryType": "quantitative",
+  "types": ["quantitative", "application"],
+  "difficulty": 2,
+  "difficultyReason": "Direct Rayleigh criterion with a small-angle conversion to separation.",
+  "misconception": "Applying the diffraction angle without multiplying by the object distance, or using radius instead of aperture width",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+    "body": "Rayleigh criterion: $\\theta_{min} \\approx \\dfrac{\\lambda}{b} = \\dfrac{500\\times10^{-9}}{25\\times10^{-3}} = 2.0\\times10^{-5}\\ \\mathrm{rad}$.\n\nSeparation on the object: $x = L\\theta = 9.0 \\times 2.0\\times10^{-5} = 1.8\\times10^{-4}\\ \\mathrm{m} = 0.18\\ \\mathrm{mm}$.",
+    "perOption": {
+      "A": "Half the correct value, e.g. from using $2b$ or halving the angle.",
+      "B": "Correct. $x = L\\lambda/b = 0.18\\ \\mathrm{mm}$.",
+      "C": "Not consistent with $\\theta = \\lambda/b$ and $L = 9.0\\ \\mathrm{m}$; a unit or substitution error.",
+      "D": "Far too large; results from a unit conversion error."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q19",
+  "chapter": "electric-fields",
+  "secondaryChapters": ["quantities-and-measurement"],
+  "outcomes": ["electric-fields.b", "quantities-and-measurement.i"],
+  "primaryType": "diagram",
+  "types": ["diagram", "conceptual"],
+  "difficulty": 3,
+  "difficultyReason": "Requires vector addition of four fields with careful attention to direction for each charge sign.",
+  "misconception": "Adding field magnitudes without direction, or thinking all like charges give the largest field",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+    "body": "Each charge gives the same field magnitude $E_0$ at the centre, pointing away from $+q$ and towards $-q$.\n\nIn C, the $+q$ (top-left) and $-q$ (bottom-right) on one diagonal both give fields towards bottom-right: $2E_0$. Likewise the other diagonal gives $2E_0$ towards top-right. These are perpendicular, so $E = 2\\sqrt{2}E_0$.\n\nD gives only $2E_0$; A and B give zero.",
+    "perOption": {
+      "A": "Four equal charges: fields from opposite corners cancel, giving zero.",
+      "B": "Opposite corners carry like charges, so each diagonal cancels: zero.",
+      "C": "Correct. Two perpendicular contributions of $2E_0$ give $2\\sqrt{2}E_0$.",
+      "D": "One diagonal (+q, +q) cancels; only the other gives $2E_0$."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q20",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": ["currents.a", "currents.b"],
+  "primaryType": "multi-step",
+  "types": ["multi-step", "application"],
+  "difficulty": 3,
+  "difficultyReason": "Needs adapting $I = nAvq$ to charge per unit length rather than recall.",
+  "misconception": "Treating I/e (protons per second) as protons per unit length",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+    "body": "In time $t$ the protons in a length $vt$ of beam pass a point. If $N$ is the number per unit length, charge passing is $Nvte$.\n\nSo $I = \\dfrac{Nvte}{t} = Nev$, giving $N = \\dfrac{I}{ev}$.",
+    "perOption": {
+      "A": "$I/e$ is the number of protons passing per second, not per metre.",
+      "B": "Correct. $I = Nev$.",
+      "C": "Multiplies by $v$ instead of dividing; wrong units.",
+      "D": "Omits the proton charge $e$; this is charge per unit length."
+    }
+  },
+  "transcription": "Protons in a parallel beam each move at a uniform velocity $v$, thus forming a current $I$. The charge on each proton is $e$. Which expression represents the number of protons present in unit length of the beam? A $\\dfrac{I}{e}$ B $\\dfrac{I}{ev}$ C $\\dfrac{Iv}{e}$ D $\\dfrac{I}{v}$",
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q21",
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": ["circuits.b", "circuits.e", "circuits.f", "circuits.j"],
+  "primaryType": "diagram",
+  "types": ["diagram", "application"],
+  "difficulty": 3,
+  "difficultyReason": "Combines potential-divider reasoning with thermistor behaviour and diode orientation.",
+  "misconception": "Placing the thermistor in the wrong arm of the potential divider or ignoring diode direction",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "When cold, the thermistor's resistance is high, so it takes the larger share of the 12 V. The heater must therefore be in parallel with the thermistor, i.e. the thermistor is in the arm connected to 0 V (B or D).\n\nCurrent in the heater branch flows from the junction (higher potential) towards 0 V, so the diode must point towards the heater. Only D has the diode forward-biased.",
+    "perOption": {
+      "A": "Heater is across the fixed resistor, so it gets more voltage when hot, not cold; diode also reverse-biased.",
+      "B": "Thermistor position is right, but the diode is reverse-biased so no current flows to the heater.",
+      "C": "Diode is forward-biased, but the heater is across the fixed resistor, so it turns on when hot.",
+      "D": "Correct. Heater across the thermistor with the diode forward-biased."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q22",
+  "chapter": "circuits",
+  "secondaryChapters": ["currents"],
+  "outcomes": ["circuits.g", "currents.a", "currents.c"],
+  "primaryType": "multi-step",
+  "types": ["multi-step", "quantitative"],
+  "difficulty": 3,
+  "difficultyReason": "Chains $I = Q/t$, $V = W/Q$ and the e.m.f. equation, with a minutes-to-seconds conversion.",
+  "misconception": "Not converting minutes to seconds, or confusing R with r",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+    "body": "Current: $I = \\dfrac{Q}{t} = \\dfrac{6.0}{120} = 0.050\\ \\mathrm{A}$.\n\nP.d. across R: $V = \\dfrac{W}{Q} = \\dfrac{48}{6.0} = 8.0\\ \\mathrm{V}$, so the lost volts are $9.0 - 8.0 = 1.0\\ \\mathrm{V}$.\n\n$r = \\dfrac{1.0}{0.050} = 20\\ \\Omega$.",
+    "perOption": {
+      "A": "Uses a wrong current (about 6 A), e.g. taking the charge as the current.",
+      "B": "Uses $t = 2.0$ instead of 120 s, giving $I = 3.0\\ \\mathrm{A}$.",
+      "C": "Correct. $r = 1.0\\ \\mathrm{V} / 0.050\\ \\mathrm{A}$.",
+      "D": "This is the external resistance $R = 8.0/0.050$, not $r$."
+    }
+  },
+  "transcription": "A simple circuit is formed by connecting a resistor of resistance $R$ between the terminals of a battery of electromagnetic force (e.m.f.) 9.0 V and constant internal resistance $r$. [Diagram: battery of e.m.f. 9.0 V with internal resistance $r$ inside a dashed box, connected across external resistor $R$] A charge of 6.0 C flows through the resistor in a time of 2.0 minutes causing it to dissipate 48 J of thermal energy. What is the internal resistance $r$ of the battery? A $0.17\\ \\Omega$ B $0.33\\ \\Omega$ C $20\\ \\Omega$ D $160\\ \\Omega$",
+  "issues": "Stem says 'electromagnetic force' instead of 'electromotive force' (typo in the source)."
+},
+{
+  "id": "mi-2026-prelim-p1-q23",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": ["circular-motion"],
+  "outcomes": ["electromagnetic-forces.k", "electromagnetic-forces.l", "circular-motion.f"],
+  "primaryType": "conceptual",
+  "types": ["conceptual", "proportionality"],
+  "difficulty": 2,
+  "difficultyReason": "Standard derivation of the cyclotron period that students often memorise.",
+  "misconception": "Assuming a faster particle takes less time to complete the circle",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "The magnetic force provides the centripetal force: $Bqv = \\dfrac{mv^2}{r}$, so $r = \\dfrac{mv}{Bq}$.\n\nPeriod $T = \\dfrac{2\\pi r}{v} = \\dfrac{2\\pi m}{Bq}$. The speed cancels: a faster particle moves on a proportionally larger circle.",
+    "perOption": {
+      "A": "$T \\propto m$, so the period does depend on mass.",
+      "B": "$T \\propto 1/q$, so it depends on charge.",
+      "C": "$T \\propto 1/B$, so it depends on flux density.",
+      "D": "Correct. $v$ cancels in $T = 2\\pi m/(Bq)$."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q24",
+  "chapter": "electric-fields",
+  "secondaryChapters": ["projectile-motion"],
+  "outcomes": ["electric-fields.h", "electric-fields.i", "projectile-motion.b"],
+  "primaryType": "multi-step",
+  "types": ["multi-step", "quantitative"],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding acceleration from $eE/m$ then applying uniform-acceleration kinematics.",
+  "misconception": "Using force instead of acceleration in the kinematics equation",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+    "body": "Vertical acceleration: $a = \\dfrac{eE}{m} = \\dfrac{(1.60\\times10^{-19})(20000)}{9.11\\times10^{-31}} = 3.51\\times10^{15}\\ \\mathrm{m\\,s^{-2}}$ (towards the high-potential plate).\n\nStarting with zero vertical velocity: $s = \\tfrac{1}{2}at^2 = \\tfrac{1}{2}(3.51\\times10^{15})(4.0\\times10^{-9})^2 = 0.0281\\ \\mathrm{m}$.",
+    "perOption": {
+      "A": "Absurdly small; results from using the force $eE$ (or omitting the mass) rather than $a = eE/m$.",
+      "B": "Also uses an incorrect acceleration, e.g. a force-based value, not $eE/m$.",
+      "C": "Correct. $s = \\tfrac{1}{2}(eE/m)t^2$.",
+      "D": "Too large; mixes in the horizontal motion or omits the factor $\\tfrac{1}{2}$ with a wrong acceleration."
+    }
+  },
+  "transcription": "An electron is projected horizontally with a speed of $3.1\\times10^{7}\\ \\mathrm{m\\,s^{-1}}$. It passes in between the two charged horizontal plates. The uniform electric field between the plates is $20000\\ \\mathrm{N\\,C^{-1}}$. As the electron pass through the plates, it is deflected. The time taken for the electron to travel the length of the plate is $4.0\\times10^{-9}\\ \\mathrm{s}$. [Diagram: two horizontal plates, upper at low potential, lower at high potential; electron enters horizontally from the left midway between them] What is the vertical distance travelled by the electron after it has travelled the length of the plate? A $1.76\\times10^{-17}$ m B $7.85\\times10^{-17}$ m C 0.0281 m D 0.152 m",
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q26",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": ["currents.d", "currents.f"],
+  "primaryType": "proportionality",
+  "types": ["proportionality", "graph"],
+  "difficulty": 2,
+  "difficultyReason": "Simple $P \\propto I^2$ scaling once the r.m.s. idea is understood.",
+  "misconception": "Thinking power scales linearly with current, or applying the sinusoidal factor $\\sqrt{2}$",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "For a square wave, $I^2 = I_0^2$ at all times, so $I_{rms} = I_0$ and $P = I_0^2R$.\n\nDoubling the peak current gives $P' = (2I_0)^2R = 4P$.",
+    "perOption": {
+      "A": "Ignores the change in current entirely.",
+      "B": "Wrongly applies a $\\sqrt{2}$ factor from sinusoidal a.c.",
+      "C": "Assumes power is proportional to current, not current squared.",
+      "D": "Correct. $P \\propto I^2$."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q27",
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": ["quantum-physics.e"],
+  "primaryType": "proportionality",
+  "types": ["proportionality", "conceptual"],
+  "difficulty": 1,
+  "difficultyReason": "One-step use of $\\lambda = h/(mv)$ comparing masses.",
+  "misconception": "Associating the lightest particle with the smallest velocity",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+    "body": "$\\lambda = \\dfrac{h}{mv}$, so equal wavelengths require equal momentum $mv$.\n\nThe heaviest particle needs the smallest velocity: the helium nucleus (2 protons + 2 neutrons, about $4\\,u$).",
+    "perOption": {
+      "A": "A proton (about $1\\,u$) is lighter, so it needs a higher speed.",
+      "B": "Correct. Largest mass, so smallest $v$ for the same momentum.",
+      "C": "The electron is the lightest, so it needs the largest speed.",
+      "D": "A neutron (about $1\\,u$) is lighter than the helium nucleus."
+    }
+  },
+  "transcription": null,
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q28",
+  "chapter": "quantum-physics",
+  "secondaryChapters": ["collisions"],
+  "outcomes": ["quantum-physics.c"],
+  "primaryType": "multi-step",
+  "types": ["multi-step", "application"],
+  "difficulty": 3,
+  "difficultyReason": "Combines photon momentum with rate of change of momentum, including the factor of 2 on reflection.",
+  "misconception": "Forgetting the factor of 2 for reflection, or using $p = h\\lambda$",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "Each photon has momentum $p = \\dfrac{h}{\\lambda}$. On normal reflection its momentum reverses, so the change is $\\dfrac{2h}{\\lambda}$.\n\nWith $n$ photons per second, the force is the rate of change of momentum: $F = \\dfrac{2nh}{\\lambda}$.",
+    "perOption": {
+      "A": "Uses $p = h\\lambda$ and ignores the reversal of momentum.",
+      "B": "Correct momentum per photon but treats the light as absorbed (no factor 2).",
+      "C": "Factor 2 included but photon momentum wrongly taken as $h\\lambda$.",
+      "D": "Correct. Momentum change $2h/\\lambda$ per photon, $n$ per second."
+    }
+  },
+  "transcription": "When a beam of light of wavelength $\\lambda$ is incident normally on a plane mirror, it is reflected totally. The intensity of the light corresponds to a rate of $n$ photons per second. What is the force exerted on the mirror by the beam of light? A $nh\\lambda$ B $\\dfrac{nh}{\\lambda}$ C $2nh\\lambda$ D $\\dfrac{2nh}{\\lambda}$",
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q29",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": ["collisions"],
+  "outcomes": ["nuclear-physics.d", "nuclear-physics.n", "nuclear-physics.r", "collisions.b"],
+  "primaryType": "conceptual",
+  "types": ["conceptual", "statements"],
+  "difficulty": 3,
+  "difficultyReason": "Tests several subtle points: binding energy vs per nucleon, mass-energy in reactions, momentum conservation and decay independence.",
+  "misconception": "Judging nuclear stability by total binding energy rather than binding energy per nucleon",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+    "body": "A $\\gamma$-photon carries momentum $h/\\lambda$. The nucleus was at rest, so by conservation of momentum it must recoil in the opposite direction with equal momentum.",
+    "perOption": {
+      "A": "Stability depends on binding energy per nucleon, not total binding energy.",
+      "B": "Such reactions can occur if enough kinetic energy is supplied to the reactants.",
+      "C": "Correct. Momentum conservation requires the nucleus to recoil.",
+      "D": "Radioactive decay is a nuclear process, unaffected by chemical reactions."
+    }
+  },
+  "transcription": "Which of the following statements concerning nuclear properties is true? A The greater the binding energy of a nucleus, the more stable it is. B If the total rest mass of the products of a reaction is greater than the total rest mass of the reactants, this reaction is impossible. C When a stationary nucleus decays by emitting a $\\gamma$-photon, the nucleus will move off in an opposite direction to the photon. D The half-life of a radioactive substance can be changed by allowing the substance to react chemically to produce a new radioactive compound.",
+  "issues": null
+},
+{
+  "id": "mi-2026-prelim-p1-q30",
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": ["nuclear-physics.r", "nuclear-physics.t"],
+  "primaryType": "multi-step",
+  "types": ["multi-step", "quantitative"],
+  "difficulty": 3,
+  "difficultyReason": "Needs total binding energies (BE per nucleon × A) and their difference, not a difference of per-nucleon values.",
+  "misconception": "Subtracting binding energies per nucleon instead of total binding energies",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+    "body": "Energy released = total binding energy of products − total binding energy of reactant.\n\n$= 146(8.2) + 87(8.6) - 235(7.6) = 1197.2 + 748.2 - 1786.0 = 159.4\\ \\mathrm{MeV}$.\n\nThe free neutrons have zero binding energy.",
+    "perOption": {
+      "A": "Subtracts or adds per-nucleon values ($8.2 + 8.6 - 7.6 = 9.2$) instead of total binding energies.",
+      "B": "Arithmetic or bookkeeping error in the total binding energies.",
+      "C": "Mismatches nucleon numbers with binding energies per nucleon.",
+      "D": "Correct. $1945.4 - 1786.0 = 159.4\\ \\mathrm{MeV}$."
+    }
+  },
+  "transcription": "A uranium-235 nucleus $^{235}_{92}\\mathrm{U}$ undergoes fission, producing nuclei of lanthanum-146 $^{146}_{57}\\mathrm{La}$ and bromine-87 $^{87}_{35}\\mathrm{Br}$. The binding energies per nucleon of these nuclides are shown below. [Table: $^{235}_{92}\\mathrm{U}$: 7.6 MeV; $^{146}_{57}\\mathrm{La}$: 8.2 MeV; $^{87}_{35}\\mathrm{Br}$: 8.6 MeV] What is the energy released during fission of uranium-235? A 9.2 MeV B 69.2 MeV C 90.2 MeV D 159.4 MeV",
+  "issues": null
+},
+{
+  "id": "njc-2026-prelim-p1-q1",
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": ["quantities-and-measurement.g"],
+  "primaryType": "practical",
+  "types": ["practical", "quantitative"],
+  "difficulty": 2,
+  "difficultyReason": "Rearranging the fractional-uncertainty sum with the power of 2 on t.",
+  "misconception": "Forgetting to double the percentage uncertainty in t, or adding instead of subtracting",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+    "body": "$g = \\dfrac{2h}{t^2}$, so $\\dfrac{\\Delta g}{g} = \\dfrac{\\Delta h}{h} + 2\\dfrac{\\Delta t}{t}$.\n\n$\\dfrac{\\Delta t}{t} = \\dfrac{0.0008}{0.4000} = 0.2\\%$, so $2\\% = \\dfrac{\\Delta h}{h} + 0.4\\%$, giving $\\dfrac{\\Delta h}{h} = 1.6\\%$.",
+    "perOption": {
+      "A": "Correct. $2\\% - 2(0.2\\%) = 1.6\\%$.",
+      "B": "Forgets the power of 2: $2\\% - 0.2\\%$.",
+      "C": "Adds instead of subtracts, without the factor 2: $2\\% + 0.2\\%$.",
+      "D": "Adds instead of subtracts: $2\\% + 0.4\\%$."
+    }
+  },
+  "transcription": "A ball bearing is drop from rest and it took time $t$ to fall for a distance $h$ where $h = \\tfrac{1}{2}gt^2$. The reading for $t$ is $t = (0.4000 \\pm 0.0008)\\ \\mathrm{s}$. What is the maximum percentage uncertainty in $h$ such that the gravitational acceleration $g$ can be determined with a maximum uncertainty of $\\pm 2\\%$? A 1.6% B 1.8% C 2.2% D 2.4%",
+  "issues": null
+}
+]

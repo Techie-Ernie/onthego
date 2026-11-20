@@ -1,0 +1,342 @@
+[
+  {
+    "id": "cjc-2026-prelim-p1-q21",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "For each wire, $I=enAv=en(\\pi d^2/4)v$. The wires are in series, so $I_X=I_Y$ and $n_Xd_X^2v_X=n_Yd_Y^2v_Y$. Hence $v_Y=(n_X/n_Y)(d_X/d_Y)^2v_X=2(1/2)^2(0.52)=0.26\\ \\mathrm{mm\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the diameter ratio directly as the area ratio.",
+        "C": "Accounts for the density ratio alone and ignores the different areas.",
+        "D": "Inverts the area ratio and omits the density ratio."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "A"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q22",
+    "keyPage": 20,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The voltmeter reads highest when the fixed resistor has the smallest potential difference. By the potential-divider principle, this happens when the combined resistance of the thermistor and LDR is greatest. Low temperature increases the NTC thermistor’s resistance, and low brightness increases the LDR’s resistance.",
+      "perOption": {
+        "A": "High temperature and high brightness both lower the measured pair’s resistance.",
+        "B": "High temperature lowers the NTC thermistor’s resistance.",
+        "C": "High brightness lowers the LDR’s resistance.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The worked solution swaps the temperature and brightness dependencies and incorrectly says the LDR resistance should be low. The explanation corrects those slips using the same potential-divider method.",
+    "derivedAnswer": "D"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q23",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two parallel $2\\ \\mu\\mathrm{F}$ capacitors give $4\\ \\mu\\mathrm{F}$. This combination is in series with the other two $4\\ \\mu\\mathrm{F}$ capacitors, so $C_{\\mathrm{eq}}=(1/4+1/4+1/4)^{-1}\\ \\mu\\mathrm{F}=1.3333\\ \\mu\\mathrm{F}$. The battery circulates $Q=C_{\\mathrm{eq}}V=(1.3333\\ \\mu\\mathrm{F})(12\\ \\mathrm{V})=16\\ \\mu\\mathrm{C}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Counts only the two standalone $4\\ \\mu\\mathrm{F}$ capacitors in series.",
+        "C": "Assumes an equivalent capacitance of $3\\ \\mu\\mathrm{F}$, which the parallel-then-series reduction does not give.",
+        "D": "Implies an equivalent capacitance of about $9.2\\ \\mu\\mathrm{F}$, even though the series combination must be below $4\\ \\mu\\mathrm{F}$."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "A"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q24",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The instantaneous power is $P=I_0^2R\\sin^2(\\omega t)$, so the graph has smooth minima at zero. The mean power is $\\langle P\\rangle=I^2R$. The peak is twice the mean, giving $P_0=2I^2R=2I^2(2)=4I^2$.",
+      "perOption": {
+        "A": "The sharp minima resemble a rectified sine rather than a squared sine.",
+        "B": "The curve has the right shape but peaks at $\\sqrt{2}I^2$ instead of $4I^2$.",
+        "C": "Uses the mean power as the peak.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "D"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q25",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "In B, the magnetic force on the upward-moving electron points left, and the electric force points out of the page. Both forces are transverse to the path and point in perpendicular directions, so they cannot cancel. The resulting transverse force deflects the electron from the straight path.",
+      "perOption": {
+        "A": "The magnetic field is parallel to the velocity, so only the electric force acts, accelerating the electron along the path.",
+        "B": "Correct. The transverse forces cannot cancel.",
+        "C": "The key treats C as possible by balancing lateral forces, but the upward electric force changes the speed and breaks that balance.",
+        "D": "The electric force into the page can balance the magnetic force out of the page."
+      }
+    },
+    "issues": "Both B and C are impossible for the full path in uniform fields. In C, the upward electric force changes the electron’s speed, so the speed-dependent rightward magnetic force can balance the constant leftward electric component only instantaneously. B is a valid choice, but the question has no unique correct letter."
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q26",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The flux cut is $\\Delta\\Phi=BA=BL(vt)$. In $30\\ \\mathrm{s}$, the rod sweeps out $A=0.24(0.50\\times30)=3.6\\ \\mathrm{m^2}$. The flux cut is therefore $0.15\\times3.6=0.54\\ \\mathrm{Wb}$.",
+      "perOption": {
+        "A": "Gives the flux cut in one second.",
+        "B": "Gives the flux cut in two seconds.",
+        "C": "Correct.",
+        "D": "Uses a full minute instead of half a minute."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "C"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q27",
+    "keyPage": 24,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "Intensity equals the number of photons crossing unit area per unit time multiplied by the energy per photon. The beams have the same frequency, so their photons carry the same energy. The more intense beam therefore has more photons crossing unit area each second.",
+      "perOption": {
+        "A": "Equal frequencies give equal photon energies.",
+        "B": "All photons travel at the same speed in a vacuum.",
+        "C": "Amplitude describes the electric and magnetic field oscillations in the wave picture.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "D"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q28",
+    "keyPage": 25,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The slit confines the electron in the transverse $y$ direction, so $\\Delta y$ is defined at the slit. The electrons spread in $y$ as they pass through, giving a transverse momentum uncertainty $\\Delta p_y$. The uncertainty principle pairs position and momentum along the same axis.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Places both uncertainties at the screen, although the slit sets the position uncertainty used here.",
+        "C": "Pairs a transverse position uncertainty with longitudinal momentum uncertainty.",
+        "D": "Uses the screen for the position uncertainty and pairs it with longitudinal momentum uncertainty."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "A"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q29",
+    "keyPage": 25,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "In $\\beta^-$ decay, a neutron changes into a proton and an electron is emitted. The proton number rises from $94$ to $95$, and the neutron number falls from $145$ to $144$. This is one square right and one square down from X, at B.",
+      "perOption": {
+        "A": "Lowers both counts, whereas beta-minus decay raises the proton count by one and lowers the neutron count by one.",
+        "B": "Correct.",
+        "C": "Lowers the proton count and leaves the neutron count unchanged.",
+        "D": "Raises the proton count correctly but leaves the neutron count unchanged."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "B"
+  },
+  {
+    "id": "cjc-2026-prelim-p1-q30",
+    "keyPage": 26,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The foil contains small, heavy, positively charged nuclei that repel the positively charged alpha particles. Close encounters can deflect an alpha particle by more than $90^\\circ$, including nearly straight back. These large deflections are explained by scattering from individual nuclei in the foil.",
+      "perOption": {
+        "A": "Attributes the large-angle scattering to diffraction by the crystal lattice.",
+        "B": "Treats the foil surface as a reflector and misses scattering by nuclei within the foil.",
+        "C": "Electrons are too light to produce the observed large deflections of alpha particles.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "D"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q1",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $z=3PQ^4/R^2$. The fractional uncertainty is $\\Delta z/z=\\Delta P/P+4\\Delta Q/Q+2\\Delta R/R$. For C the percentage uncertainty is $(3+4(1)+2(2))\\%=11\\%$.",
+      "perOption": {
+        "A": "Gives 9.0% after weighting the uncertainties by the powers.",
+        "B": "Gives 13% after weighting the uncertainties by the powers.",
+        "C": "Correct.",
+        "D": "Gives 15% after weighting the uncertainties by the powers."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "C"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q2",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "Displacement is the area above the time axis minus the area below it. For X both triangles lie above the axis, while the negative area for Y partly cancels its positive area, so Y has the smaller displacement. Distance adds the magnitudes of the areas on both sides of the axis. Y has a lower positive peak ($3v/4$ versus $v$), and even after including its negative portion as a positive area, its total distance is smaller than X’s.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Adding the magnitude of Y’s negative area still leaves Y with less total distance.",
+        "C": "Subtracting Y’s negative-area magnitude gives a smaller displacement than X’s.",
+        "D": "Both Y’s signed area and its total unsigned area are smaller than X’s."
+      }
+    },
+    "issues": "Page 6 incorrectly invokes cancellation in its distance discussion. The unsigned areas are 5vt₂/16 for Y and vt₂/2 for X, so the keyed comparison still holds.",
+    "derivedAnswer": "A"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q3",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The elastic potential energy is the area under the force–extension graph. The triangular area grows from $\\tfrac12F_1x_1$ to $\\tfrac12F_2x_2$. The increase is therefore $\\tfrac12(F_2x_2-F_1x_1)$.",
+      "perOption": {
+        "A": "Uses rectangular areas and misses the factor of one-half.",
+        "B": "Correct.",
+        "C": "Squares the extensions and omits the triangular-area factor.",
+        "D": "Squares the extensions even though the base of each triangle is the extension itself."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "B"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q4",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "Applying Newton’s second law to the lift gives $T-W_2-D=m_{\\mathrm{lift}}a$. If $T=D+W_2$, the resultant is zero, so $a=0$ and the lift has constant velocity, including the possibility of rest.",
+      "perOption": {
+        "A": "The cable tension equals the combined weight only when the lift system has zero acceleration.",
+        "B": "Equal forces on the man imply zero acceleration, which also allows motion at constant nonzero velocity.",
+        "C": "Both forces act on the man, and their magnitudes can differ when he accelerates.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "D"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q5",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The downhill component of weight is $F=mg\\sin\\theta$, so $a=F/m=g\\sin\\theta$. With double the mass, the downhill force doubles to $F'=2mg\\sin\\theta$. Dividing by the new mass gives $a'=F'/(2m)=g\\sin\\theta=a$.",
+      "perOption": {
+        "A": "The downhill component of weight doubles when the mass doubles.",
+        "B": "Assumes the downhill force stays fixed as the mass doubles.",
+        "C": "Correct.",
+        "D": "Doubles the force but overlooks the doubling of the mass."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "C"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q6",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the two blocks together, the net force is $54-6.0=48\\ \\mathrm{N}$, so their common acceleration is $48/8.0=6.0\\ \\mathrm{m\\,s^{-2}}$. Applying Newton’s second law to the $2.0\\ \\mathrm{kg}$ block gives a resultant horizontal force of $2.0(6.0)=12\\ \\mathrm{N}$. This is also the contact force if the friction shown acts entirely on the larger block, as assumed in the key.",
+      "perOption": {
+        "A": "Correct. This is the resultant force on the smaller block.",
+        "B": "Uses the mass of the larger block with the common acceleration.",
+        "C": "Uses the wrong system or force balance for the smaller block, whose resultant is 12 N.",
+        "D": "Uses the resultant force on both blocks combined."
+      }
+    },
+    "issues": "The wording gives only total friction and does not explicitly distinguish resultant force from contact force. A gives the resultant, and it gives the contact force if the 2.0 kg block has no friction, as the key assumes from the diagram.",
+    "derivedAnswer": "A"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q7",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top, tension and weight both act downwards towards the centre, so $T+W=mv^2/r$. The required resultant is $0.10(6.0)^2/0.50=7.2\\ \\mathrm{N}$ and the weight is $0.10(9.81)=0.98\\ \\mathrm{N}$. Hence $T=7.2-0.98=6.22\\ \\mathrm{N}\\approx6.2\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives the ball’s weight alone.",
+        "B": "Correct.",
+        "C": "Gives the entire centripetal force and ignores the contribution of weight.",
+        "D": "Adds the weight even though it already acts towards the centre."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "B"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q8",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key takes $g_X=g_Y=GM/r^2$ and $g_Z=2GM/r^2$. It resolves the fields of X and Y along the line through O and Z, using $30^\\circ$ for each angle, so their components perpendicular to that line cancel and their components away from Z sum to $2(GM/r^2)\\cos30^\\circ=\\sqrt{3}GM/r^2$. Subtracting this from Z’s field gives the key’s result, $G(2M-\\sqrt{3}M)/r^2$ towards Z.",
+      "perOption": {
+        "A": "Treats the three fields as cancelling despite Z having twice the mass of X or Y.",
+        "B": "Points the resultant towards X even though the additional mass is at Z.",
+        "C": "This is the physical result at the centre, where the three equal-mass contributions cancel and the extra mass at Z supplies the net field.",
+        "D": "Correct according to the key’s component calculation."
+      }
+    },
+    "issues": "The key uses 30° instead of 60° between each of the X and Y field vectors and the direction directly away from Z. With O at the centre as drawn, three equal-mass contributions cancel and Z’s extra mass gives GM/r² towards Z, option C."
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q9",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational potential is a scalar, so add the three contributions at O directly. This gives $\\phi=-GM/r-GM/r-G(2M)/r=-4GM/r$. The potential has no direction.",
+      "perOption": {
+        "A": "Treats the three negative potentials as if they could cancel by symmetry.",
+        "B": "Uses a single mass-M contribution and assigns a direction to a scalar.",
+        "C": "Uses the wrong sign and assigns a direction to a scalar.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Option D explicitly prints the minus sign, although the key’s closing comment describes it as implied.",
+    "derivedAnswer": "D"
+  },
+  {
+    "id": "dhs-2026-prelim-p1-q10",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total energy is $E=\\tfrac12mv_0^2=\\tfrac12m(\\omega x_0)^2$, so $E\\propto(x_0/T)^2$. Doubling $x_0$ and tripling $T$ gives $E_{\\mathrm{new}}/E_{\\mathrm{old}}=(2/3)^2=4/9$. The new energy is $(4/9)(18\\ \\mathrm{mJ})=8\\ \\mathrm{mJ}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Applies the factor of $2/3$ without squaring it.",
+        "C": "Doubles the energy directly and ignores the change in period.",
+        "D": "Squares the amplitude factor but ignores the longer period."
+      }
+    },
+    "issues": null,
+    "derivedAnswer": "A"
+  }
+]
