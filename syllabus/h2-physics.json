@@ -1,0 +1,1412 @@
+{
+  "subject": "h2-physics",
+  "syllabusCode": "9478",
+  "year": 2026,
+  "source": "https://isomer-user-content.by.gov.sg/334/302197f9-5acc-4482-a058-621af208fd0e/9478_y26_sy.pdf",
+  "sections": [
+    {
+      "id": "foundations-of-physics",
+      "name": "Foundations of Physics",
+      "order": 1,
+      "topicIds": [
+        "quantities-and-measurement",
+        "forces-and-moments",
+        "motion-and-forces",
+        "energy-and-fields"
+      ]
+    },
+    {
+      "id": "mechanics",
+      "name": "Mechanics",
+      "order": 2,
+      "topicIds": [
+        "projectile-motion",
+        "collisions",
+        "circular-motion",
+        "gravitational-fields",
+        "oscillations"
+      ]
+    },
+    {
+      "id": "waves",
+      "name": "Waves",
+      "order": 3,
+      "topicIds": [
+        "wave-motion",
+        "superposition"
+      ]
+    },
+    {
+      "id": "thermal-physics",
+      "name": "Thermal Physics",
+      "order": 4,
+      "topicIds": [
+        "temperature-and-ideal-gases",
+        "thermodynamic-systems"
+      ]
+    },
+    {
+      "id": "electricity-and-magnetism",
+      "name": "Electricity and Magnetism",
+      "order": 5,
+      "topicIds": [
+        "electric-fields",
+        "currents",
+        "circuits",
+        "electromagnetic-forces",
+        "electromagnetic-induction"
+      ]
+    },
+    {
+      "id": "modern-physics",
+      "name": "Modern Physics",
+      "order": 6,
+      "topicIds": [
+        "quantum-physics",
+        "nuclear-physics"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "quantities-and-measurement",
+      "number": 1,
+      "name": "Quantities and Measurement",
+      "sectionId": "foundations-of-physics",
+      "order": 1,
+      "keywords": [
+        "SI units",
+        "base quantities",
+        "prefixes",
+        "derived units",
+        "homogeneity",
+        "estimates",
+        "random error",
+        "systematic error",
+        "zero error",
+        "precision",
+        "accuracy",
+        "uncertainty",
+        "percentage uncertainty",
+        "scalar",
+        "vector",
+        "vector components",
+        "vector addition"
+      ],
+      "outcomes": [
+        {
+          "id": "quantities-and-measurement.a",
+          "text": "recall and use the following SI base quantities and their units: mass (kg), length (m), time (s), current (A), temperature (K), amount of substance (mol)"
+        },
+        {
+          "id": "quantities-and-measurement.b",
+          "text": "recall and use the following prefixes and their symbols to indicate decimal sub-multiples or multiples of both base and derived units: pico (p), nano (n), micro (μ), milli (m), centi (c), deci (d), kilo (k), mega (M), giga (G), tera (T)"
+        },
+        {
+          "id": "quantities-and-measurement.c",
+          "text": "express derived units as products or quotients of the SI base units and use the named units listed in ‘Summary of Key Quantities, Symbols and Units’ as appropriate"
+        },
+        {
+          "id": "quantities-and-measurement.d",
+          "text": "use SI base units to check the homogeneity of physical equations"
+        },
+        {
+          "id": "quantities-and-measurement.e",
+          "text": "make reasonable estimates of physical quantities included within the syllabus"
+        },
+        {
+          "id": "quantities-and-measurement.f",
+          "text": "show an understanding of the distinction between random errors and systematic errors (including zero error) which limit precision and accuracy"
+        },
+        {
+          "id": "quantities-and-measurement.g",
+          "text": "assess the uncertainty in derived quantities by adding absolute or relative (i.e. fractional or percentage) uncertainties or by numerical substitution (rigorous statistical treatment is not required)"
+        },
+        {
+          "id": "quantities-and-measurement.h",
+          "text": "distinguish between scalar and vector quantities, and give examples of each"
+        },
+        {
+          "id": "quantities-and-measurement.i",
+          "text": "add and subtract coplanar vectors"
+        },
+        {
+          "id": "quantities-and-measurement.j",
+          "text": "represent a vector as two perpendicular components."
+        }
+      ]
+    },
+    {
+      "id": "forces-and-moments",
+      "number": 2,
+      "name": "Forces and Moments",
+      "sectionId": "foundations-of-physics",
+      "order": 2,
+      "keywords": [
+        "normal force",
+        "upthrust",
+        "friction",
+        "air resistance",
+        "Hooke's law",
+        "spring constant",
+        "moment",
+        "torque",
+        "couple",
+        "centre of gravity",
+        "principle of moments",
+        "equilibrium",
+        "free-body diagram",
+        "vector triangle"
+      ],
+      "outcomes": [
+        {
+          "id": "forces-and-moments.a",
+          "text": "describe the forces on a mass, charge and current-carrying conductor in gravitational, electric and magnetic fields, as appropriate"
+        },
+        {
+          "id": "forces-and-moments.b",
+          "text": "show a qualitative understanding of forces including normal force, buoyant force (upthrust), frictional force and viscous force, e.g. air resistance. (knowledge of the concepts of coefficients of friction and viscosity is not required)"
+        },
+        {
+          "id": "forces-and-moments.c",
+          "text": "recall and apply Hooke’s law (F = kx, where k is the force constant) to new situations or to solve related problems"
+        },
+        {
+          "id": "forces-and-moments.d",
+          "text": "define and apply the moment of a force and the torque of a couple"
+        },
+        {
+          "id": "forces-and-moments.e",
+          "text": "show an understanding that a couple is a pair of forces which tends to produce rotation only"
+        },
+        {
+          "id": "forces-and-moments.f",
+          "text": "show an understanding that the weight of a body may be taken as acting at a single point known as its centre of gravity"
+        },
+        {
+          "id": "forces-and-moments.g",
+          "text": "apply the principle of moments to new situations or to solve related problems"
+        },
+        {
+          "id": "forces-and-moments.h",
+          "text": "show an understanding that, when there is no resultant force and no resultant torque, a system is in equilibrium"
+        },
+        {
+          "id": "forces-and-moments.i",
+          "text": "use free-body diagrams and vector triangles to represent forces on bodies that are in rotational and translational equilibrium."
+        }
+      ]
+    },
+    {
+      "id": "motion-and-forces",
+      "number": 3,
+      "name": "Motion and Forces",
+      "sectionId": "foundations-of-physics",
+      "order": 3,
+      "keywords": [
+        "displacement",
+        "velocity",
+        "acceleration",
+        "displacement-time graph",
+        "velocity-time graph",
+        "gradient",
+        "area under graph",
+        "uniformly accelerated motion",
+        "suvat",
+        "free fall",
+        "inertia",
+        "momentum",
+        "Newton's laws",
+        "resultant force",
+        "F = ma"
+      ],
+      "outcomes": [
+        {
+          "id": "motion-and-forces.a",
+          "text": "show an understanding of and use the terms position, distance, displacement, speed, velocity and acceleration"
+        },
+        {
+          "id": "motion-and-forces.b",
+          "text": "use graphical methods to represent distance, displacement, speed, velocity and acceleration"
+        },
+        {
+          "id": "motion-and-forces.c",
+          "text": "identify and use the physical quantities from the gradients of position–time or displacement–time graphs and areas under and gradients of velocity–time graphs, including cases of non-uniform acceleration"
+        },
+        {
+          "id": "motion-and-forces.d",
+          "text": "derive, from the definitions of velocity and acceleration, equations which represent uniformly accelerated motion in a straight line"
+        },
+        {
+          "id": "motion-and-forces.e",
+          "text": "solve problems using equations which represent uniformly accelerated motion in a straight line, e.g. for bodies falling vertically without air resistance in a uniform gravitational field"
+        },
+        {
+          "id": "motion-and-forces.f",
+          "text": "show an understanding that mass is the property of a body which resists change in motion (inertia)"
+        },
+        {
+          "id": "motion-and-forces.g",
+          "text": "define and use linear momentum as the product of mass and velocity"
+        },
+        {
+          "id": "motion-and-forces.h",
+          "text": "state and apply each of Newton’s laws of motion: 1st law: a body at rest will stay at rest, and a body in motion will continue to move at constant velocity, unless acted on by a resultant external force; 2nd law: the rate of change of momentum of a body is (directly) proportional to the resultant force acting on the body and is in the same direction as the resultant force; 3rd law: the force exerted by one body on a second body is equal in magnitude and opposite in direction to the force simultaneously exerted by the second body on the first body."
+        },
+        {
+          "id": "motion-and-forces.i",
+          "text": "recall the relationship resultant force F = ma, for a body of constant mass, and use this to solve problems."
+        }
+      ]
+    },
+    {
+      "id": "energy-and-fields",
+      "number": 4,
+      "name": "Energy and Fields",
+      "sectionId": "foundations-of-physics",
+      "order": 4,
+      "keywords": [
+        "energy store",
+        "energy transfer",
+        "conservation of energy",
+        "work done",
+        "kinetic energy",
+        "field",
+        "field lines",
+        "field strength",
+        "equipotential",
+        "potential energy",
+        "elastic potential energy",
+        "force-extension graph",
+        "power",
+        "efficiency"
+      ],
+      "outcomes": [
+        {
+          "id": "energy-and-fields.a",
+          "text": "show an understanding that physical systems can store energy, and that energy can be transferred from one store to another"
+        },
+        {
+          "id": "energy-and-fields.b",
+          "text": "give examples of different energy stores and energy transfers, and apply the principle of conservation of energy to solve problems"
+        },
+        {
+          "id": "energy-and-fields.c",
+          "text": "show an understanding that work is a mechanical transfer of energy, and define and use work done by a force as the product of the force and displacement in the direction of the force"
+        },
+        {
+          "id": "energy-and-fields.d",
+          "text": "derive, from the definition of work done by a force and the equations for uniformly accelerated motion in a straight line, the equation Ek = ½mv²"
+        },
+        {
+          "id": "energy-and-fields.e",
+          "text": "recall and use the equation Ek = ½mv² to solve problems"
+        },
+        {
+          "id": "energy-and-fields.f",
+          "text": "show an understanding of the concept of a field as a region of space in which bodies may experience a force associated with the field"
+        },
+        {
+          "id": "energy-and-fields.g",
+          "text": "define gravitational field strength at a point as the gravitational force per unit mass on a mass placed at that point, and define electric field strength at a point as the electric force per unit charge on a positive charge placed at that point"
+        },
+        {
+          "id": "energy-and-fields.h",
+          "text": "represent gravitational fields and electric fields by means of field lines (e.g. for uniform and radial field patterns), and show an understanding of the relationship between equipotential surfaces and field lines"
+        },
+        {
+          "id": "energy-and-fields.i",
+          "text": "show an understanding that the force on a mass in a gravitational field (or the force on a charge in an electric field) acts along the field lines, and the work done by the field in moving the mass (or charge) is equal to the negative of the change in potential energy"
+        },
+        {
+          "id": "energy-and-fields.j",
+          "text": "distinguish between gravitational potential energy, electric potential energy and elastic potential energy"
+        },
+        {
+          "id": "energy-and-fields.k",
+          "text": "recall that the elastic potential energy stored in a deformed material is given by the area under its force–extension graph and use this to solve problems"
+        },
+        {
+          "id": "energy-and-fields.l",
+          "text": "define power as the rate of energy transfer"
+        },
+        {
+          "id": "energy-and-fields.m",
+          "text": "show an understanding that mechanical power is the product of a force and velocity in the direction of the force"
+        },
+        {
+          "id": "energy-and-fields.n",
+          "text": "show an appreciation for the implications of energy losses in practical devices and solve problems using the concept of efficiency of an energy transfer as the ratio of useful energy output to total energy input."
+        }
+      ]
+    },
+    {
+      "id": "projectile-motion",
+      "number": 5,
+      "name": "Projectile Motion",
+      "sectionId": "mechanics",
+      "order": 5,
+      "keywords": [
+        "projectile",
+        "weight",
+        "free fall",
+        "horizontal velocity",
+        "vertical acceleration",
+        "trajectory",
+        "gravitational potential energy",
+        "mgh",
+        "air resistance",
+        "drag",
+        "terminal velocity"
+      ],
+      "outcomes": [
+        {
+          "id": "projectile-motion.a",
+          "text": "describe and use the concept of weight as the force experienced by a mass in a gravitational field"
+        },
+        {
+          "id": "projectile-motion.b",
+          "text": "describe and explain motion due to a uniform velocity in one direction and a uniform acceleration in a perpendicular direction"
+        },
+        {
+          "id": "projectile-motion.c",
+          "text": "derive, from the definition of work done by a force, the equation ∆Ep = mg∆h for gravitational potential energy changes in a uniform gravitational field (e.g. near the Earth’s surface)"
+        },
+        {
+          "id": "projectile-motion.d",
+          "text": "recall and use the equation ∆Ep = mg∆h to solve problems"
+        },
+        {
+          "id": "projectile-motion.e",
+          "text": "describe qualitatively, with reference to forces and energy, the motion of bodies falling in a uniform gravitational field with air resistance, including the phenomenon of terminal velocity."
+        }
+      ]
+    },
+    {
+      "id": "collisions",
+      "number": 6,
+      "name": "Collisions",
+      "sectionId": "mechanics",
+      "order": 6,
+      "keywords": [
+        "collision",
+        "impulse",
+        "force-time graph",
+        "conservation of momentum",
+        "elastic collision",
+        "inelastic collision",
+        "relative speed of approach",
+        "relative speed of separation",
+        "closed system",
+        "kinetic energy loss"
+      ],
+      "outcomes": [
+        {
+          "id": "collisions.a",
+          "text": "recall that impulse is given by the area under the force–time graph for a body and use this to solve problems"
+        },
+        {
+          "id": "collisions.b",
+          "text": "state the principle of conservation of momentum"
+        },
+        {
+          "id": "collisions.c",
+          "text": "apply the principle of conservation of momentum to solve simple problems including inelastic and (perfectly) elastic interactions between two bodies in one dimension (knowledge of the concept of coefficient of restitution is not required)"
+        },
+        {
+          "id": "collisions.d",
+          "text": "show an understanding that, for a (perfectly) elastic collision between two bodies, the relative speed of approach is equal to the relative speed of separation"
+        },
+        {
+          "id": "collisions.e",
+          "text": "show an understanding that, whilst the momentum of a closed system is always conserved in interactions between bodies, some change in kinetic energy usually takes place."
+        }
+      ]
+    },
+    {
+      "id": "circular-motion",
+      "number": 7,
+      "name": "Circular Motion",
+      "sectionId": "mechanics",
+      "order": 7,
+      "keywords": [
+        "circular motion",
+        "radian",
+        "angular displacement",
+        "angular velocity",
+        "v = rω",
+        "centripetal acceleration",
+        "centripetal force",
+        "uniform circular motion",
+        "period",
+        "banked",
+        "vertical circle"
+      ],
+      "outcomes": [
+        {
+          "id": "circular-motion.a",
+          "text": "express angular displacement in radians"
+        },
+        {
+          "id": "circular-motion.b",
+          "text": "show an understanding of and use the concept of angular velocity"
+        },
+        {
+          "id": "circular-motion.c",
+          "text": "recall and use v = rω to solve problems"
+        },
+        {
+          "id": "circular-motion.d",
+          "text": "show an understanding of centripetal acceleration in the case of uniform motion in a circle, and qualitatively describe motion in a curved path (arc) as due to a resultant force that is both perpendicular to the motion and centripetal in direction"
+        },
+        {
+          "id": "circular-motion.e",
+          "text": "recall and use centripetal acceleration a = rω², and a = v²/r to solve problems"
+        },
+        {
+          "id": "circular-motion.f",
+          "text": "recall and use F = mrω², and F = mv²/r to solve problems."
+        }
+      ]
+    },
+    {
+      "id": "gravitational-fields",
+      "number": 8,
+      "name": "Gravitational Fields",
+      "sectionId": "mechanics",
+      "order": 8,
+      "keywords": [
+        "Newton's law of gravitation",
+        "gravitational field strength",
+        "point mass",
+        "inverse square law",
+        "gravitational potential",
+        "gravitational potential energy",
+        "potential gradient",
+        "escape velocity",
+        "orbit",
+        "satellite",
+        "geostationary",
+        "Kepler's third law"
+      ],
+      "outcomes": [
+        {
+          "id": "gravitational-fields.a",
+          "text": "recall and use Newton’s law of gravitation in the form F = Gm₁m₂/r²"
+        },
+        {
+          "id": "gravitational-fields.b",
+          "text": "derive, from Newton’s law of gravitation and the definition of gravitational field strength, the field strength due to a point mass, g = GM/r²"
+        },
+        {
+          "id": "gravitational-fields.c",
+          "text": "recall and use g = GM/r² for the gravitational field strength due to a point mass to solve problems"
+        },
+        {
+          "id": "gravitational-fields.d",
+          "text": "show an understanding that near the surface of the Earth, gravitational field strength is approximately constant and equal to the acceleration of free fall"
+        },
+        {
+          "id": "gravitational-fields.e",
+          "text": "define gravitational potential at a point as the work done per unit mass by an external force in bringing a small test mass from infinity to that point"
+        },
+        {
+          "id": "gravitational-fields.f",
+          "text": "solve problems using the equation φ = −GM/r for the gravitational potential in the field due to a point mass"
+        },
+        {
+          "id": "gravitational-fields.g",
+          "text": "show an understanding that that the gravitational potential energy of a system of two point masses is UG = −GMm/r"
+        },
+        {
+          "id": "gravitational-fields.h",
+          "text": "recall that gravitational field strength at a point is equal to the negative potential gradient at that point and use this to solve problems"
+        },
+        {
+          "id": "gravitational-fields.i",
+          "text": "analyse problems related to escape velocity by considering energy stores and transfers"
+        },
+        {
+          "id": "gravitational-fields.j",
+          "text": "analyse circular orbits in inverse square law fields by relating the gravitational force to the centripetal acceleration it causes"
+        },
+        {
+          "id": "gravitational-fields.k",
+          "text": "show an understanding of satellites in geostationary orbit and their applications."
+        }
+      ]
+    },
+    {
+      "id": "oscillations",
+      "number": 9,
+      "name": "Oscillations",
+      "sectionId": "mechanics",
+      "order": 9,
+      "keywords": [
+        "oscillation",
+        "simple harmonic motion",
+        "SHM",
+        "amplitude",
+        "period",
+        "angular frequency",
+        "phase difference",
+        "a = -ω²x",
+        "pendulum",
+        "mass-spring",
+        "kinetic and potential energy interchange",
+        "damping",
+        "critical damping",
+        "forced oscillation",
+        "resonance",
+        "natural frequency"
+      ],
+      "outcomes": [
+        {
+          "id": "oscillations.a",
+          "text": "describe simple examples of free oscillations, where particles periodically return to an equilibrium position without gaining energy from or losing energy to the environment"
+        },
+        {
+          "id": "oscillations.b",
+          "text": "investigate the motion of an oscillator using experimental and graphical methods"
+        },
+        {
+          "id": "oscillations.c",
+          "text": "show an understanding of and use the terms amplitude, period, frequency, angular frequency, phase and phase difference and express the period in terms of both frequency and angular frequency"
+        },
+        {
+          "id": "oscillations.d",
+          "text": "show an understanding that a = −ω²x is the defining equation of simple harmonic motion, where acceleration is (directly) proportional to displacement from an equilibrium position and acceleration is always directed towards the equilibrium position"
+        },
+        {
+          "id": "oscillations.e",
+          "text": "recognise and use x = x₀ sin ωt as a solution to the equation a = −ω²x"
+        },
+        {
+          "id": "oscillations.f",
+          "text": "recognise and use the equations v = v₀ cos ωt and v = ±ω√(x₀² − x²)"
+        },
+        {
+          "id": "oscillations.g",
+          "text": "describe, with graphical illustrations, the relationships between displacement, velocity and acceleration during simple harmonic motion"
+        },
+        {
+          "id": "oscillations.h",
+          "text": "describe the interchange between kinetic and potential energy during simple harmonic motion"
+        },
+        {
+          "id": "oscillations.i",
+          "text": "describe practical examples of damped oscillations, with particular reference to the effects of the degree of damping (light/under, critical, heavy/over), and to the importance of critical damping in applications such as a car suspension system"
+        },
+        {
+          "id": "oscillations.j",
+          "text": "describe graphically how the amplitude of a forced oscillation changes with driving frequency, resulting in maximum amplitude at resonance when the driving frequency is close to or at the natural frequency of the system"
+        },
+        {
+          "id": "oscillations.k",
+          "text": "show a qualitative understanding of the effects of damping on the frequency response and sharpness of the resonance"
+        },
+        {
+          "id": "oscillations.l",
+          "text": "describe practical examples of forced oscillations and resonance, and show an appreciation that there are some circumstances in which resonance is useful, and other circumstances in which resonance should be avoided."
+        }
+      ]
+    },
+    {
+      "id": "wave-motion",
+      "number": 10,
+      "name": "Wave Motion",
+      "sectionId": "waves",
+      "order": 10,
+      "keywords": [
+        "wave",
+        "transverse",
+        "longitudinal",
+        "mechanical wave",
+        "electromagnetic wave",
+        "wavelength",
+        "frequency",
+        "v = fλ",
+        "phase difference",
+        "progressive wave",
+        "intensity",
+        "amplitude squared",
+        "inverse square law",
+        "polarisation",
+        "Malus' law",
+        "polarising filter"
+      ],
+      "outcomes": [
+        {
+          "id": "wave-motion.a",
+          "text": "show an understanding that mechanical waves involve the oscillations of particles within a material medium, such as a string or a fluid, and electromagnetic waves involve the oscillations of electromagnetic fields in space and time"
+        },
+        {
+          "id": "wave-motion.b",
+          "text": "show an understanding of and use the terms displacement, amplitude, period, frequency, phase, phase difference, wavelength and speed"
+        },
+        {
+          "id": "wave-motion.c",
+          "text": "deduce, from the definitions of speed, frequency and wavelength, the equation v = fλ"
+        },
+        {
+          "id": "wave-motion.d",
+          "text": "recall and use the equation v = fλ"
+        },
+        {
+          "id": "wave-motion.e",
+          "text": "analyse and interpret graphical representations of transverse and longitudinal waves with respect to variations in time and position (space)"
+        },
+        {
+          "id": "wave-motion.f",
+          "text": "show an understanding that energy is transferred due to a progressive wave without matter being transferred"
+        },
+        {
+          "id": "wave-motion.g",
+          "text": "recall and use the term intensity as the power transferred (radiated) by a wave per unit area, and the relationship intensity ∝ (amplitude)² for a progressive wave"
+        },
+        {
+          "id": "wave-motion.h",
+          "text": "show an understanding of and apply the concept, that the intensity of a wave from a point source and travelling without loss of energy obeys an inverse square law to solve problems"
+        },
+        {
+          "id": "wave-motion.i",
+          "text": "show an understanding that polarisation is a phenomenon associated with transverse waves"
+        },
+        {
+          "id": "wave-motion.j",
+          "text": "recall and use Malus’ law (intensity ∝ cos²θ) to calculate the amplitude and intensity of a plane-polarised electromagnetic wave after transmission through a polarising filter."
+        }
+      ]
+    },
+    {
+      "id": "superposition",
+      "number": 11,
+      "name": "Superposition",
+      "sectionId": "waves",
+      "order": 11,
+      "keywords": [
+        "superposition",
+        "standing wave",
+        "stationary wave",
+        "node",
+        "antinode",
+        "air column",
+        "interference",
+        "coherence",
+        "path difference",
+        "double slit",
+        "fringe separation",
+        "diffraction grating",
+        "single slit",
+        "diffraction",
+        "Rayleigh criterion",
+        "resolving power"
+      ],
+      "outcomes": [
+        {
+          "id": "superposition.a",
+          "text": "explain and use the principle of superposition in simple applications"
+        },
+        {
+          "id": "superposition.b",
+          "text": "show an understanding of experiments which demonstrate standing (stationary) waves using microwaves, stretched strings and air columns"
+        },
+        {
+          "id": "superposition.c",
+          "text": "explain the formation of a standing (stationary) wave using a graphical method, and identify nodes and antinodes, differentiating between pressure and displacement nodes and antinodes for sound waves"
+        },
+        {
+          "id": "superposition.d",
+          "text": "determine the wavelength of sound using standing (stationary) waves"
+        },
+        {
+          "id": "superposition.e",
+          "text": "show an understanding of the terms diffraction, interference, coherence, phase difference and path difference"
+        },
+        {
+          "id": "superposition.f",
+          "text": "show an understanding of phenomena which demonstrate two-source interference using water waves, sound waves, light and microwaves"
+        },
+        {
+          "id": "superposition.g",
+          "text": "show an understanding of the conditions required for two-source interference fringes to be observed"
+        },
+        {
+          "id": "superposition.h",
+          "text": "recall and use the equation ax/D = λ to solve problems for double-slit interference, where a is the slit separation and x is the fringe separation"
+        },
+        {
+          "id": "superposition.i",
+          "text": "recall and use the equation a sinθ = nλ to solve problems involving the principal maxima of a diffraction grating, where a is the slit separation"
+        },
+        {
+          "id": "superposition.j",
+          "text": "describe the use of a diffraction grating to determine the wavelength of light (knowledge of the structure and use of a spectrometer is not required)"
+        },
+        {
+          "id": "superposition.k",
+          "text": "show an understanding of phenomena which demonstrate diffraction through a single slit or aperture, or across an edge, such as the diffraction of water waves in a ripple tank with both a wide gap and a narrow gap, or the diffraction of sound waves from loudspeakers or around corners"
+        },
+        {
+          "id": "superposition.l",
+          "text": "recall and use the equation b sinθ = λ to solve problems involving the positions of the first minima for diffraction through a single slit of width b"
+        },
+        {
+          "id": "superposition.m",
+          "text": "recall and use the Rayleigh criterion θ ≈ λ/b for the resolving power of a single aperture, where b is the width of the aperture."
+        }
+      ]
+    },
+    {
+      "id": "temperature-and-ideal-gases",
+      "number": 12,
+      "name": "Temperature and Ideal Gases",
+      "sectionId": "thermal-physics",
+      "order": 12,
+      "keywords": [
+        "thermodynamic temperature",
+        "absolute zero",
+        "kelvin",
+        "ideal gas",
+        "equation of state",
+        "pV = NkT",
+        "pV = nRT",
+        "mole",
+        "Avogadro constant",
+        "Boltzmann constant",
+        "kinetic theory",
+        "gas pressure",
+        "mean square speed",
+        "r.m.s. speed",
+        "mean kinetic energy"
+      ],
+      "outcomes": [
+        {
+          "id": "temperature-and-ideal-gases.a",
+          "text": "show an understanding that a thermodynamic scale of temperature has an absolute zero and is independent of the property of any particular substance"
+        },
+        {
+          "id": "temperature-and-ideal-gases.b",
+          "text": "convert temperatures measured in degrees Celsius to kelvin: T / K = T / °C + 273.15"
+        },
+        {
+          "id": "temperature-and-ideal-gases.c",
+          "text": "recall and use the equation of state for an ideal gas expressed as pV = NkT, where N is the number of particles"
+        },
+        {
+          "id": "temperature-and-ideal-gases.d",
+          "text": "state that one mole of any substance contains 6.02 × 10²³ particles, and use the Avogadro constant NA = 6.02 × 10²³ mol⁻¹ as well as the relationship Nk = nR between the Boltzmann constant and the molar gas constant, where n is the number of moles and N = nNA"
+        },
+        {
+          "id": "temperature-and-ideal-gases.e",
+          "text": "state the basic assumptions of the kinetic theory of gases"
+        },
+        {
+          "id": "temperature-and-ideal-gases.f",
+          "text": "explain how the random motion of gas particles exerts mechanical pressure and hence derive, using the definition of pressure as force per unit area, the relationship pV = ⅓Nm⟨c²⟩ (a simple model considering one-dimensional collisions and then extending to three dimensions using ⟨cx²⟩ = ⅓⟨c²⟩ is sufficient)"
+        },
+        {
+          "id": "temperature-and-ideal-gases.g",
+          "text": "recall and use the relationship that the mean translational kinetic energy of a particle of an ideal gas is (directly) proportional to the thermodynamic temperature (i.e. ½m⟨c²⟩ = (3/2)kT) to solve problems."
+        }
+      ]
+    },
+    {
+      "id": "thermodynamic-systems",
+      "number": 13,
+      "name": "Thermodynamic Systems",
+      "sectionId": "thermal-physics",
+      "order": 13,
+      "keywords": [
+        "internal energy",
+        "thermal equilibrium",
+        "heating",
+        "work done by a gas",
+        "work done on a gas",
+        "W = pΔV",
+        "zeroth law",
+        "first law of thermodynamics",
+        "ΔU = Q + W",
+        "specific heat capacity",
+        "specific latent heat",
+        "melting",
+        "boiling"
+      ],
+      "outcomes": [
+        {
+          "id": "thermodynamic-systems.a",
+          "text": "show an understanding that the macroscopic state of a system determines the internal energy of the system, and that internal energy can be expressed as the sum of a random distribution of microscopic kinetic and potential energies associated with the particles of the system"
+        },
+        {
+          "id": "thermodynamic-systems.b",
+          "text": "show an understanding that the thermodynamic temperature of a system is (directly) proportional to the mean microscopic kinetic energy of particles"
+        },
+        {
+          "id": "thermodynamic-systems.c",
+          "text": "show an understanding that when two systems are placed in thermal contact, energy is transferred (by heating) from the system at higher temperature to the system at lower temperature, until they reach the same temperature and achieve thermal equilibrium (i.e. no net energy transfer)"
+        },
+        {
+          "id": "thermodynamic-systems.d",
+          "text": "show an understanding of the difference between the work done by a gas and the work done on a gas, and calculate the work done by a gas in expanding against a constant external pressure: W = p∆V"
+        },
+        {
+          "id": "thermodynamic-systems.e",
+          "text": "recall and apply the zeroth law of thermodynamics that if two systems are both in thermal equilibrium with a third system, then they are also in thermal equilibrium with each other"
+        },
+        {
+          "id": "thermodynamic-systems.f",
+          "text": "recall and apply the first law of thermodynamics, ∆U = Q + W, that the increase in internal energy of a system is equal to the sum of the energy transferred to the system by heating and the work done on the system"
+        },
+        {
+          "id": "thermodynamic-systems.g",
+          "text": "define and use the concepts of specific heat capacity and specific latent heat."
+        }
+      ]
+    },
+    {
+      "id": "electric-fields",
+      "number": 14,
+      "name": "Electric Fields",
+      "sectionId": "electricity-and-magnetism",
+      "order": 14,
+      "keywords": [
+        "Coulomb's law",
+        "point charge",
+        "electric field strength",
+        "electric potential",
+        "electric potential energy",
+        "potential gradient",
+        "parallel plates",
+        "uniform electric field",
+        "charged particle deflection",
+        "capacitance",
+        "capacitor",
+        "energy stored in capacitor",
+        "permittivity"
+      ],
+      "outcomes": [
+        {
+          "id": "electric-fields.a",
+          "text": "recall and use Coulomb's law in the form F = Q₁Q₂/(4πε₀r²) for the electric force between two point charges in free space or air"
+        },
+        {
+          "id": "electric-fields.b",
+          "text": "recall and use E = Q/(4πε₀r²) for the electric field strength due to a point charge, in free space or air, to solve problems"
+        },
+        {
+          "id": "electric-fields.c",
+          "text": "define electric potential at a point as the work done per unit charge by an external force in bringing a small positive test charge from infinity to that point"
+        },
+        {
+          "id": "electric-fields.d",
+          "text": "use the equation V = Q/(4πε₀r) for the electric potential in the field due to a point charge, in free space or air"
+        },
+        {
+          "id": "electric-fields.e",
+          "text": "show an understanding that the electric potential energy of a system of two point charges is UE = Q₁Q₂/(4πε₀r)"
+        },
+        {
+          "id": "electric-fields.f",
+          "text": "recall that electric field strength at a point is equal to the negative potential gradient at that point and use this to solve problems"
+        },
+        {
+          "id": "electric-fields.g",
+          "text": "calculate the field strength of the uniform electric field between charged parallel plates in terms of the potential difference and plate separation"
+        },
+        {
+          "id": "electric-fields.h",
+          "text": "calculate the force on a charge in a uniform electric field"
+        },
+        {
+          "id": "electric-fields.i",
+          "text": "describe the effect of a uniform electric field on the motion of a charged particle"
+        },
+        {
+          "id": "electric-fields.j",
+          "text": "define capacitance as the ratio of the charge stored to the potential difference and use C = Q/V to solve problems"
+        },
+        {
+          "id": "electric-fields.k",
+          "text": "recall that the electric potential energy stored in a capacitor is given by the area under the graph of potential difference against charge stored, and use this and the equations U = ½QV, U = ½Q²/C and U = ½CV² to solve problems."
+        }
+      ]
+    },
+    {
+      "id": "currents",
+      "number": 15,
+      "name": "Currents",
+      "sectionId": "electricity-and-magnetism",
+      "order": 15,
+      "keywords": [
+        "electric current",
+        "charge flow",
+        "drift velocity",
+        "I = nAvq",
+        "potential difference",
+        "electrical power",
+        "e.m.f.",
+        "alternating current",
+        "peak value",
+        "r.m.s. value",
+        "mean power",
+        "sinusoidal",
+        "rectification",
+        "diode",
+        "half-wave rectification"
+      ],
+      "outcomes": [
+        {
+          "id": "currents.a",
+          "text": "show an understanding that electric current is the rate of flow of charge and solve problems using I = Q/t"
+        },
+        {
+          "id": "currents.b",
+          "text": "derive and use the equation I = nAvq for a current-carrying conductor, where n is the number density of charge carriers and v is the drift velocity"
+        },
+        {
+          "id": "currents.c",
+          "text": "recall and solve problems using the equation for potential difference in terms of electrical work done per unit charge, V = W/Q"
+        },
+        {
+          "id": "currents.d",
+          "text": "recall and solve problems using the equations for electrical power P = VI, P = I²R and P = V²/R"
+        },
+        {
+          "id": "currents.e",
+          "text": "distinguish between electromotive force (e.m.f.) and potential difference (p.d.) using energy considerations"
+        },
+        {
+          "id": "currents.f",
+          "text": "show an understanding of and use the terms period, frequency, peak value and root-mean-square (r.m.s.) value as applied to an alternating current or voltage"
+        },
+        {
+          "id": "currents.g",
+          "text": "represent a sinusoidal alternating current or voltage by an equation of the form x = x₀ sin ωt"
+        },
+        {
+          "id": "currents.h",
+          "text": "deduce that the mean power in a resistive load is half the maximum (peak) power for a sinusoidal alternating current"
+        },
+        {
+          "id": "currents.i",
+          "text": "distinguish between r.m.s. and peak values, and recall and use Irms = I₀/√2 and Vrms = V₀/√2 for the sinusoidal case"
+        },
+        {
+          "id": "currents.j",
+          "text": "explain the use of a single diode for the half-wave rectification of an alternating current."
+        }
+      ]
+    },
+    {
+      "id": "circuits",
+      "number": 16,
+      "name": "Circuits",
+      "sectionId": "electricity-and-magnetism",
+      "order": 16,
+      "keywords": [
+        "circuit diagram",
+        "resistance",
+        "V = IR",
+        "resistivity",
+        "I-V characteristic",
+        "ohmic",
+        "filament lamp",
+        "thermistor",
+        "LDR",
+        "internal resistance",
+        "terminal p.d.",
+        "series",
+        "parallel",
+        "potential divider",
+        "capacitors in series and parallel",
+        "RC circuit",
+        "time constant",
+        "capacitor charging"
+      ],
+      "outcomes": [
+        {
+          "id": "circuits.a",
+          "text": "recall and use appropriate circuit symbols"
+        },
+        {
+          "id": "circuits.b",
+          "text": "draw and interpret circuit diagrams containing sources, switches, resistors (fixed and variable), ammeters, voltmeters, lamps, thermistors, light-dependent resistors, diodes, capacitors and any other type of component referred to in the syllabus"
+        },
+        {
+          "id": "circuits.c",
+          "text": "define the resistance of a circuit component as the ratio of the potential difference across the component to the current in it, and solve problems using the equation V = IR"
+        },
+        {
+          "id": "circuits.d",
+          "text": "recall and solve problems using the equation relating resistance to resistivity, length and cross-sectional area, R = ρl/A"
+        },
+        {
+          "id": "circuits.e",
+          "text": "sketch and interpret the I–V characteristics of various electrical components in a d.c. circuit, such as an ohmic resistor, a semiconductor diode, a filament lamp and a negative temperature coefficient (NTC) thermistor"
+        },
+        {
+          "id": "circuits.f",
+          "text": "explain the temperature dependence of the resistivity of typical metals (e.g. in a filament lamp) and semiconductors (e.g. in an NTC thermistor) in terms of the drift velocity and number density of charge carriers respectively"
+        },
+        {
+          "id": "circuits.g",
+          "text": "show an understanding of the effects of the internal resistance of a source of e.m.f. on the terminal potential difference and output power"
+        },
+        {
+          "id": "circuits.h",
+          "text": "solve problems using the formula for the combined resistance of two or more resistors in series"
+        },
+        {
+          "id": "circuits.i",
+          "text": "solve problems using the formula for the combined resistance of two or more resistors in parallel"
+        },
+        {
+          "id": "circuits.j",
+          "text": "solve problems involving series and parallel arrangements of resistors for one source of e.m.f., including potential divider circuits which may involve NTC thermistors and light-dependent resistors"
+        },
+        {
+          "id": "circuits.k",
+          "text": "solve problems using the formulae for the combined capacitance of two or more capacitors in series and in parallel"
+        },
+        {
+          "id": "circuits.l",
+          "text": "describe and represent the variation with time, of quantities like current, charge and potential difference, for a capacitor that is charging or discharging through a resistor, using equations of the form x = x₀e^(−t/τ) or x = x₀[1 − e^(−t/τ)], where τ = RC is the time constant."
+        }
+      ]
+    },
+    {
+      "id": "electromagnetic-forces",
+      "number": 17,
+      "name": "Electromagnetic Forces",
+      "sectionId": "electricity-and-magnetism",
+      "order": 17,
+      "keywords": [
+        "magnetic field",
+        "magnetic flux density",
+        "solenoid",
+        "flat circular coil",
+        "straight wire",
+        "ferrous core",
+        "F = BIl sinθ",
+        "Fleming's left-hand rule",
+        "current balance",
+        "force between conductors",
+        "F = BQv sinθ",
+        "charged particle in magnetic field",
+        "velocity selector",
+        "crossed fields"
+      ],
+      "outcomes": [
+        {
+          "id": "electromagnetic-forces.a",
+          "text": "show an understanding that a magnetic field is an example of a field of force produced either by current-carrying conductors or by permanent magnets"
+        },
+        {
+          "id": "electromagnetic-forces.b",
+          "text": "sketch magnetic field lines due to currents in a long straight wire, a flat circular coil and a long solenoid"
+        },
+        {
+          "id": "electromagnetic-forces.c",
+          "text": "use B = μ₀I/(2πd), B = μ₀NI/(2r) and B = μ₀nI for the magnetic flux densities of the fields due to currents in a long straight wire, a flat circular coil and a long solenoid respectively"
+        },
+        {
+          "id": "electromagnetic-forces.d",
+          "text": "show an understanding that the magnetic field due to a solenoid may be influenced by the presence of a ferrous core"
+        },
+        {
+          "id": "electromagnetic-forces.e",
+          "text": "show an understanding that a current-carrying conductor placed in a magnetic field might experience a force"
+        },
+        {
+          "id": "electromagnetic-forces.f",
+          "text": "recall and solve problems using the equation F = BIl sin θ, with directions as interpreted by Fleming’s left-hand rule"
+        },
+        {
+          "id": "electromagnetic-forces.g",
+          "text": "define magnetic flux density as the force acting per unit current per unit length on a conductor placed perpendicular to the magnetic field"
+        },
+        {
+          "id": "electromagnetic-forces.h",
+          "text": "show an understanding of how the force on a current-carrying conductor can be used to measure the magnetic flux density of a magnetic field using a current balance"
+        },
+        {
+          "id": "electromagnetic-forces.i",
+          "text": "explain the forces between current-carrying conductors and predict the direction of the forces"
+        },
+        {
+          "id": "electromagnetic-forces.j",
+          "text": "predict the direction of the force on a charge moving in a uniform magnetic field"
+        },
+        {
+          "id": "electromagnetic-forces.k",
+          "text": "recall and solve problems using the equation F = BQv sin θ"
+        },
+        {
+          "id": "electromagnetic-forces.l",
+          "text": "describe and analyse deflections of beams of charged particles by uniform electric fields and uniform magnetic fields"
+        },
+        {
+          "id": "electromagnetic-forces.m",
+          "text": "explain how perpendicular electric and magnetic fields can be used in velocity selection for charged particles."
+        }
+      ]
+    },
+    {
+      "id": "electromagnetic-induction",
+      "number": 18,
+      "name": "Electromagnetic Induction",
+      "sectionId": "electricity-and-magnetism",
+      "order": 18,
+      "keywords": [
+        "magnetic flux",
+        "flux linkage",
+        "Φ = BA",
+        "induced e.m.f.",
+        "Faraday's law",
+        "Lenz's law",
+        "rate of change of flux",
+        "generator",
+        "eddy currents",
+        "transformer",
+        "turns ratio",
+        "ideal transformer"
+      ],
+      "outcomes": [
+        {
+          "id": "electromagnetic-induction.a",
+          "text": "define magnetic flux as the product of magnetic flux density and the cross-sectional area perpendicular to the direction of the magnetic flux density"
+        },
+        {
+          "id": "electromagnetic-induction.b",
+          "text": "show an understanding of and use the concept of magnetic flux linkage"
+        },
+        {
+          "id": "electromagnetic-induction.c",
+          "text": "recall and use Φ = BA and NΦ = NBA to solve problems, where N is the number of turns"
+        },
+        {
+          "id": "electromagnetic-induction.d",
+          "text": "infer from appropriate experiments on electromagnetic induction: (i) that a changing magnetic flux can induce an e.m.f. (ii) that the direction of the induced e.m.f. opposes the change producing it (iii) the factors affecting the magnitude of the induced e.m.f."
+        },
+        {
+          "id": "electromagnetic-induction.e",
+          "text": "recall and solve problems using Faraday’s law of electromagnetic induction and Lenz’s law"
+        },
+        {
+          "id": "electromagnetic-induction.f",
+          "text": "explain simple applications of electromagnetic induction"
+        },
+        {
+          "id": "electromagnetic-induction.g",
+          "text": "show an understanding of the principle of operation of a simple iron-core transformer and recall and solve problems using Ns/Np = Vs/Vp = Ip/Is for an ideal transformer."
+        }
+      ]
+    },
+    {
+      "id": "quantum-physics",
+      "number": 19,
+      "name": "Quantum Physics",
+      "sectionId": "modern-physics",
+      "order": 19,
+      "keywords": [
+        "photoelectric effect",
+        "threshold frequency",
+        "photon",
+        "E = hf",
+        "Planck constant",
+        "photon momentum",
+        "wave-particle duality",
+        "electron diffraction",
+        "de Broglie wavelength",
+        "wavefunction",
+        "probability density",
+        "normalisation",
+        "uncertainty principle",
+        "infinite square well",
+        "particle in a box",
+        "energy levels",
+        "line spectra",
+        "emission",
+        "absorption"
+      ],
+      "outcomes": [
+        {
+          "id": "quantum-physics.a",
+          "text": "show an understanding that the existence of a threshold frequency in the photoelectric effect provides evidence that supports the particulate nature of electromagnetic radiation while phenomena such as interference and diffraction provide evidence that supports its wave nature"
+        },
+        {
+          "id": "quantum-physics.b",
+          "text": "state that a photon is a quantum of electromagnetic radiation, and recall and use the equation E = hf for the energy of a photon to solve problems, where h is the Planck constant"
+        },
+        {
+          "id": "quantum-physics.c",
+          "text": "show an understanding that while a photon is massless, it has a momentum given by p = E/c and p = h/λ, where c is the speed of light in free space"
+        },
+        {
+          "id": "quantum-physics.d",
+          "text": "show an understanding that electron diffraction and double-slit interference of single particles provide evidence that supports the wave nature of particles"
+        },
+        {
+          "id": "quantum-physics.e",
+          "text": "recall and use the equation λ = h/p for the de Broglie wavelength to solve problems"
+        },
+        {
+          "id": "quantum-physics.f",
+          "text": "show an understanding that the state of a particle can be represented as a wavefunction ψ, e.g. for an electron cloud in an atom, and that the square of the wavefunction amplitude |ψ|² is the probability density function (including calculation of normalisation factors for square and sinusoidal wavefunctions)"
+        },
+        {
+          "id": "quantum-physics.g",
+          "text": "show an understanding that the principle of superposition applies to the wavefunctions describing a particle’s position, leading to standing wave solutions for a particle in a box and phenomena such as single-particle interference in double-slit experiments"
+        },
+        {
+          "id": "quantum-physics.h",
+          "text": "show an understanding that the Heisenberg position-momentum uncertainty principle ∆x∆p ≳ h relates to the necessity of a spread of momenta for localised particles, and apply this to solve problems"
+        },
+        {
+          "id": "quantum-physics.i",
+          "text": "show an understanding of standing wave solutions ψn for the wavefunction of a particle in a one-dimensional infinite square well potential"
+        },
+        {
+          "id": "quantum-physics.j",
+          "text": "solve problems using En = (h²/(8mL²))n² for the allowed energy levels of a particle of mass m in a one-dimensional infinite square well of width L"
+        },
+        {
+          "id": "quantum-physics.k",
+          "text": "show an understanding of the existence of discrete electronic energy levels for the electron’s wavefunction in isolated atoms (e.g. atomic hydrogen) and deduce how this leads to the observation of spectral lines"
+        },
+        {
+          "id": "quantum-physics.l",
+          "text": "distinguish between emission and absorption line spectra"
+        },
+        {
+          "id": "quantum-physics.m",
+          "text": "solve problems involving photon absorption or emission during atomic energy level transitions."
+        }
+      ]
+    },
+    {
+      "id": "nuclear-physics",
+      "number": 20,
+      "name": "Nuclear Physics",
+      "sectionId": "modern-physics",
+      "order": 20,
+      "keywords": [
+        "Rutherford scattering",
+        "nucleus",
+        "nucleon number",
+        "proton number",
+        "isotope",
+        "radioactive decay",
+        "background radiation",
+        "alpha",
+        "beta",
+        "gamma",
+        "activity",
+        "decay constant",
+        "half-life",
+        "exponential decay",
+        "nuclear equation",
+        "neutrino",
+        "mass defect",
+        "binding energy per nucleon",
+        "fission",
+        "fusion"
+      ],
+      "outcomes": [
+        {
+          "id": "nuclear-physics.a",
+          "text": "infer from the results of the Rutherford α-particle scattering experiment the existence and small size of the atomic nucleus"
+        },
+        {
+          "id": "nuclear-physics.b",
+          "text": "distinguish between nucleon number (mass number) and proton number (atomic number)"
+        },
+        {
+          "id": "nuclear-physics.c",
+          "text": "show an understanding that an element can exist in various isotopic forms, each with a different number of neutrons in the nucleus, and use the notation ᴬ_Z X for the representation of nuclides"
+        },
+        {
+          "id": "nuclear-physics.d",
+          "text": "show an understanding of the spontaneous and random nature of nuclear decay"
+        },
+        {
+          "id": "nuclear-physics.e",
+          "text": "infer the random nature of radioactive decay from the fluctuations in count rate"
+        },
+        {
+          "id": "nuclear-physics.f",
+          "text": "show an understanding of the origin and significance of background radiation"
+        },
+        {
+          "id": "nuclear-physics.g",
+          "text": "show an understanding of the nature and properties of α, β and γ radiations (knowledge of positron emission is not required)"
+        },
+        {
+          "id": "nuclear-physics.h",
+          "text": "define the terms activity and decay constant and recall and solve problems using the equation A = λN"
+        },
+        {
+          "id": "nuclear-physics.i",
+          "text": "infer and sketch the exponential nature of radioactive decay and solve problems using the relationship x = x₀e^(−λt) where x could represent activity, number of undecayed particles or received count rate"
+        },
+        {
+          "id": "nuclear-physics.j",
+          "text": "define and use half-life as the time taken for a quantity x to reduce to half its initial value"
+        },
+        {
+          "id": "nuclear-physics.k",
+          "text": "solve problems using the relation λ = ln 2 / t½"
+        },
+        {
+          "id": "nuclear-physics.l",
+          "text": "discuss qualitatively the applications (e.g. medical and industrial uses) and hazards of radioactivity based on: (i) half-life of radioactive materials (ii) penetrating abilities and ionising effects of radioactive emissions"
+        },
+        {
+          "id": "nuclear-physics.m",
+          "text": "represent simple nuclear reactions by nuclear equations of the form ¹⁴₇N + ⁴₂He → ¹⁷₈O + ¹₁H"
+        },
+        {
+          "id": "nuclear-physics.n",
+          "text": "state and apply to problem solving the concept that nucleon number, charge and mass-energy are all conserved in nuclear processes"
+        },
+        {
+          "id": "nuclear-physics.o",
+          "text": "show an understanding of how the conservation laws for energy and momentum in β decay were used to predict the existence of the (anti)neutrino (knowledge of the antineutrino and the zoo of particles is not required)"
+        },
+        {
+          "id": "nuclear-physics.p",
+          "text": "show an understanding of the concept of mass defect"
+        },
+        {
+          "id": "nuclear-physics.q",
+          "text": "recall and apply the equivalence between energy and mass as represented by E = mc² to solve problems"
+        },
+        {
+          "id": "nuclear-physics.r",
+          "text": "show an understanding of the concept of nuclear binding energy and its relation to mass defect"
+        },
+        {
+          "id": "nuclear-physics.s",
+          "text": "sketch the variation of binding energy per nucleon with nucleon number"
+        },
+        {
+          "id": "nuclear-physics.t",
+          "text": "explain the relevance of binding energy per nucleon to nuclear fusion and to nuclear fission."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "The 2026 syllabus (9478) restructures H2 Physics into 6 sections and 20 numbered topics; it differs substantially from the expected (older 9749-style) topic list. The PDF is followed exactly for topic numbers, names, order and section groupings.",
+    "Section I 'Foundations of Physics' (topics 1-4) is new: 'Measurement' is now '1 Quantities and Measurement' (includes scalars/vectors); Kinematics and Dynamics are merged into '3 Motion and Forces'; there is a new '2 Forces and Moments' topic (Hooke's law, moments, equilibrium); 'Work, Energy and Power' is replaced by '4 Energy and Fields', which also introduces the field concept, field lines and potential energy.",
+    "Section II is named 'Mechanics' (not 'Newtonian Mechanics') and contains new topics '5 Projectile Motion' and '6 Collisions' (impulse, conservation of momentum), plus '7 Circular Motion' ('Motion in a Circle' in the expected list), '8 Gravitational Fields' and '9 Oscillations' (Oscillations sits under Mechanics, not Waves).",
+    "Section order differs: Waves is Section III (topics 10-11) and Thermal Physics is Section IV (topics 12-13), i.e. Waves comes before Thermal Physics.",
+    "'First Law of Thermodynamics' is replaced by '13 Thermodynamic Systems' (internal energy, zeroth and first laws, specific heat capacity and specific latent heat).",
+    "Electricity and Magnetism (Section V, topics 14-18): 'Current of Electricity' -> '15 Currents'; 'D.C. Circuits' -> '16 Circuits' (includes capacitor combinations and RC charging/discharging); 'Electromagnetism' -> '17 Electromagnetic Forces'. There is no standalone 'Alternating Current' topic: a.c. outcomes (r.m.s./peak values, mean power, half-wave rectification) are in '15 Currents' (outcomes f-j) and transformers are in '18 Electromagnetic Induction'. Capacitance (definition, energy stored) is in '14 Electric Fields'.",
+    "Modern Physics (Section VI) has '19 Quantum Physics' (now includes wavefunctions, probability density, uncertainty principle, infinite square well) and '20 Nuclear Physics', matching the expected names.",
+    "Section names are taken from the PDF section headers; 'ELECTRICITY AND MAGNETISM' is rendered as 'Electricity and Magnetism' (the content overview writes it as 'Electricity & Magnetism').",
+    "Non-topic content not modelled as topics: 'Practical Assessment' (Paper 4 practical, skill areas Planning, MMO, PDO, ACE, including spreadsheet requirements), the 'Practices of Science', aims/assessment objectives, the 'Summary of Key Quantities, Symbols and Units', the glossary of terms and the mathematical requirements.",
+    "Parsing caveats: text was extracted with pdftotext -layout. Outcome text is verbatim except that multi-line typeset equations (fractions, superscripts, square roots) were reconstructed into inline form, e.g. F = Gm₁m₂/r², v = ±ω√(x₀² − x²), x = x₀e^(−t/τ), λ = ln 2 / t½, ᴬ_Z X, using Unicode sub/superscripts. Sub-items (i), (ii), (iii) and Newton's three laws in 3(h) are kept inline within their parent outcome. Footnote markers (e.g. after 'natural frequency' in 9(j)) were dropped. A duplicated word in the source ('that that' in 8(g)) is kept verbatim.",
+    "Keywords are hand-curated classifier hints (not from the PDF) and may include common exam terms (e.g. suvat, pendulum, eddy currents) that the syllabus implies but does not state verbatim."
+  ]
+}

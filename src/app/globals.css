@@ -1,0 +1,263 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+/*
+ * Design tokens — dealt by the taste-skill: palette `card-pastels`, type `chivo`, radius `soft`.
+ * The interface stays neutral; the single accent drives the primary action, focus and selection.
+ * Dark mode swaps grounds/ink; exam figures always sit on a light "paper" card (never inverted).
+ */
+:root {
+  --bg: #f7f7f5;
+  --surface: #ebebe8;
+  --card: #ffffff;
+  --ink: #000000;
+  --ink-2: #2b2b29;
+  --muted: #666662;
+  --line: color-mix(in oklab, var(--ink) 13%, transparent);
+  --action: #d0106f;
+  --action-ink: #ffffff;
+  --action-soft: color-mix(in oklab, var(--action) 9%, var(--card));
+  --good: #12723c;
+  --good-soft: color-mix(in oklab, var(--good) 10%, var(--card));
+  --bad: #b3261e;
+  --bad-soft: color-mix(in oklab, var(--bad) 9%, var(--card));
+  --warn: #8a5a00;
+  --paper: #ffffff;
+  --paper-line: #d9d9d4;
+
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 20px;
+  --tap: 44px;
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #000000;
+    --surface: #121211;
+    --card: #161615;
+    --ink: #f7f7f5;
+    --ink-2: #dededa;
+    --muted: #9a9a96;
+    --action: #f0438f;
+    --action-ink: #160008;
+    --good: #5fd18e;
+    --bad: #ff8a80;
+    --warn: #f1c26b;
+    --paper: #fbfbf8;
+    --paper-line: #3a3a37;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #000000;
+  --surface: #121211;
+  --card: #161615;
+  --ink: #f7f7f5;
+  --ink-2: #dededa;
+  --muted: #9a9a96;
+  --action: #f0438f;
+  --action-ink: #160008;
+  --good: #5fd18e;
+  --bad: #ff8a80;
+  --warn: #f1c26b;
+  --paper: #fbfbf8;
+  --paper-line: #3a3a37;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-action: var(--action);
+  --color-action-ink: var(--action-ink);
+  --color-action-soft: var(--action-soft);
+  --color-good: var(--good);
+  --color-good-soft: var(--good-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-warn: var(--warn);
+  --color-paper: var(--paper);
+  --font-sans: var(--font-chivo), system-ui, sans-serif;
+  --font-mono: var(--font-chivo-mono), ui-monospace, monospace;
+  --radius-sm: var(--r-sm);
+  --radius-md: var(--r-md);
+  --radius-lg: var(--r-lg);
+  --text-label: 13px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  font-feature-settings: "ss01";
+}
+h1,
+h2,
+h3 {
+  font-weight: 450;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  margin: 0;
+}
+
+/* Focus: always visible, accent ring */
+:focus-visible {
+  outline: 2px solid var(--action);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ---------- one button pair ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--tap);
+  padding: 0 20px;
+  border-radius: var(--r-sm);
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition:
+    transform 120ms ease,
+    background-color 160ms ease,
+    border-color 160ms ease;
+  user-select: none;
+  text-decoration: none;
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn:active {
+  transform: translateY(0) scale(0.98);
+}
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
+}
+.btn--primary {
+  background: var(--action);
+  color: var(--action-ink);
+}
+.btn--secondary {
+  background: var(--card);
+  color: var(--ink);
+  border-color: var(--line);
+}
+.btn--secondary:hover {
+  border-color: color-mix(in oklab, var(--ink) 30%, transparent);
+}
+.btn--block {
+  width: 100%;
+}
+
+/* ---------- one card recipe ---------- */
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+}
+a.card,
+button.card {
+  transition:
+    transform 160ms ease,
+    border-color 160ms ease;
+}
+a.card:hover,
+button.card:hover {
+  transform: translateY(-2px);
+  border-color: color-mix(in oklab, var(--ink) 28%, transparent);
+}
+a.card:active,
+button.card:active {
+  transform: translateY(0);
+}
+
+/* chips (filters) */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease;
+}
+.chip[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+/* Exam figures: light paper card in both themes, never inverted */
+.paper {
+  background: var(--paper);
+  border: 1px solid var(--paper-line);
+  border-radius: var(--r-md);
+  color: #000;
+}
+.paper img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* KaTeX: match surrounding text */
+.katex {
+  font-size: 1.06em;
+}
+.katex-display {
+  margin: 0.5em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.measure {
+  max-width: 62ch;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0ms !important;
+    animation-duration: 0ms !important;
+  }
+}

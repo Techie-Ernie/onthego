@@ -1,0 +1,24 @@
+# --- copyrighted source material: never commit ---
+/Other JC Prelim 2026/
+*.zip
+/pipeline/cache/
+/pipeline/.venv/
+
+# deps / build
+node_modules/
+.next/
+out/
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+coverage/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# misc
+.DS_Store
+.taste-skill/
+public/sw.js.map
