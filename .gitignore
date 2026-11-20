@@ -22,3 +22,5 @@ coverage/
 .DS_Store
 .taste-skill/
 public/sw.js.map
+/pipeline/dev/
+/public/bank/

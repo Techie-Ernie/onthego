@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "pipeline": "tsx pipeline/src/cli.ts",
+    "test": "vitest run",
+    "prebuild": "node scripts/copy-bank.mjs",
+    "predev": "node scripts/copy-bank.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

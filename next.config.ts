@@ -3,6 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
+  // never let serverless tracing pick up raw papers, the pipeline or its cache
+  outputFileTracingExcludes: { "*": ["Other JC Prelim 2026/**", "pipeline/**", "*.zip", "data/**", ".agents/**"] },
   turbopack: {
     rules: {
       "*.css": { loaders: ["@tailwindcss/turbopack"], as: "*.css" },

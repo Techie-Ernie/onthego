@@ -1,0 +1,646 @@
+{
+  "subject": "h2-physics",
+  "builtAt": "2026-11-20T08:14:22.750Z",
+  "papers": [
+    {
+      "key": "ACJC|2026|Prelim|P1",
+      "questionPaper": "ACJC Physics/H2/2026 J2 H2 Physics Prelim P1 sharing.pdf",
+      "answerFile": "ACJC Physics/H2/2026 J2 H2 Physics Prelim P1 Guide sharing.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "ASRJC|2026|Prelim|P1",
+      "questionPaper": "ASRJC/2026 H2 Physics Prelim P1 for sharing.pdf",
+      "answerFile": "ASRJC/2026 H2 Physics Prelim P1 MS for sharing.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "CJC|2026|Prelim|P1",
+      "questionPaper": "CJC PHY/H2/J2.H2.PRELIM.2026.Paper 1_QP.pdf",
+      "answerFile": "CJC PHY/H2/J2.H2.PRELIM.2026.Paper 1_MS.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "inline",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "DHS|2026|Prelim|P1",
+      "questionPaper": "DHS Physics Prelim 2026/H2/DHS 2026 Y6 Physics H2 P1 Prelim (for external sharing).pdf",
+      "answerFile": "DHS Physics Prelim 2026/H2/DHS 2026 Y6 Physics H2 P1 Prelim (with suggested answers) (for external sharing).pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid+inline",
+      "keyIssues": [],
+      "splitIssues": [
+        "shared context for Q8-Q9 on page 9"
+      ],
+      "ok": true
+    },
+    {
+      "key": "JPJC|2026|Prelim|P1",
+      "questionPaper": "JPJC PHYSICS/H2/2026 Prelim H2 Phy P1 QP.pdf",
+      "answerFile": "JPJC PHYSICS/H2/2026 Prelim H2 Phy P1 MS.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "MI|2026|Prelim|P1",
+      "questionPaper": "MI Physics/H2/2026 PU3 H2 PHYSICS PRELIM P1.pdf",
+      "answerFile": "MI Physics/H2/2026 PU3 H2 PHYSICS PRELIM P1 ANS.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "NJC|2026|Prelim|P1",
+      "questionPaper": "NJC/H2 Physics/NJC_2026_H2_Physics_Prelim_P1_QP.pdf",
+      "answerFile": "NJC/H2 Physics/NJC_2026_H2_Physics_Prelim_P1_Ans.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "NYJC|2026|Prelim|P1",
+      "questionPaper": "NYJC/H2/2026 NYJC H2 Phy 9478 P1.pdf",
+      "answerFile": "NYJC/H2/2026 NYJC H2 Phy 9478 P1 Answers.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "inline",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "RI|2026|Prelim|P1",
+      "questionPaper": "RI/H2/2026 RI H2Phy Prelims P1 Questions.pdf",
+      "answerFile": "RI/H2/2026 RI H2Phy Prelims P1 Answers.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid+lead",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "RVHS|2026|Prelim|P1",
+      "questionPaper": "RVHS/RVHS H2 Physics P1 QP.pdf",
+      "answerFile": "RVHS/RVHS H2 Physics P1 Soln.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "SAJC|2026|Prelim|P1",
+      "questionPaper": "SAJC - note P3 will be used for mock on 6 oct/2026 SAJC H2 Physics Prelim P1_for sharing.pdf",
+      "answerFile": "SAJC - note P3 will be used for mock on 6 oct/2026 SAJC H2 Physics Prelim P1_for sharing.pdf (embedded solutions)",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "inline+rows",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "TJC|2026|Prelim|P1",
+      "questionPaper": "TJC/H2 Physics/2026 H2 Prelim Paper 1 final.pdf",
+      "answerFile": "TJC/H2 Physics/2026 H2 Prelim Paper 1 solutions.pdf",
+      "questionsFound": 30,
+      "answersFound": 28,
+      "keyMethod": "grid+lead",
+      "keyIssues": [
+        {
+          "q": 23,
+          "problem": "missing",
+          "detail": "no strategy found Q23"
+        },
+        {
+          "q": 30,
+          "problem": "missing",
+          "detail": "no strategy found Q30"
+        }
+      ],
+      "splitIssues": [],
+      "ok": false
+    },
+    {
+      "key": "TMJC|2026|Prelim|P1",
+      "questionPaper": "TMJC/TMJC_2026_H2 Physics_P1_QP.pdf",
+      "answerFile": "TMJC/TMJC_2026_H2 Physics_P1_MS.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid+inline",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "VJC|2026|Prelim|P1",
+      "questionPaper": "VJC/2026 H2 Physics Prelim P1.pdf",
+      "answerFile": "VJC/2026 H2 Physics Prelim P1 with answers.pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid+inline",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    },
+    {
+      "key": "YIJC|2026|Prelim|P1",
+      "questionPaper": "YIJC/2026 JC2 H2 Prelim Paper 1 QP (Revised).pdf",
+      "answerFile": "YIJC/2026 JC2 H2 Prelim Paper 1 Soln (Revised).pdf",
+      "questionsFound": 30,
+      "answersFound": 30,
+      "keyMethod": "grid",
+      "keyIssues": [],
+      "splitIssues": [],
+      "ok": true
+    }
+  ],
+  "totals": {
+    "extracted": 450,
+    "afterDedupe": 447,
+    "duplicatesRemoved": 3,
+    "published": 445,
+    "needsReview": 2,
+    "classified": 0,
+    "withExplanation": 0
+  },
+  "renderModes": {
+    "text": 109,
+    "image": 231,
+    "mixed": 107
+  },
+  "optionLayouts": {
+    "text-options": 155,
+    "options-in-image": 212,
+    "image-options": 80
+  },
+  "textQuality": {
+    "high": 232,
+    "low": 215
+  },
+  "withFigures": 297,
+  "flags": {
+    "unclassified": 447,
+    "option-X": 479,
+    "image-fallback": 231,
+    "table-options": 54,
+    "stem": 347,
+    "content-below-options": 17,
+    "options-not-found": 22,
+    "option-X-cell-crop": 92,
+    "has-duplicates": 3,
+    "shared-context": 2,
+    "spans-pages": 4,
+    "near-duplicate-different-answer": 2,
+    "answer-missing": 2
+  },
+  "lowConfidence": [
+    {
+      "id": "acjc-2026-prelim-p1-q16",
+      "flags": [
+        "content-below-options",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "asrjc-2026-prelim-p1-q7",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "asrjc-2026-prelim-p1-q13",
+      "flags": [
+        "options-not-found",
+        "stem:small-fragment",
+        "stem:off-baseline",
+        "stem:wide-gap",
+        "stem:stacked-lines",
+        "stem:fraction-rule",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "asrjc-2026-prelim-p1-q23",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "cjc-2026-prelim-p1-q11",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "cjc-2026-prelim-p1-q29",
+      "flags": [
+        "options-not-found",
+        "stem:math-font:CambriaMath",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "dhs-2026-prelim-p1-q27",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "jpjc-2026-prelim-p1-q20",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "jpjc-2026-prelim-p1-q25",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "mi-2026-prelim-p1-q2",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "mi-2026-prelim-p1-q24",
+      "flags": [
+        "options-not-found",
+        "stem:unmapped-glyph",
+        "stem:math-font:SymbolMT",
+        "stem:wide-gap",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "mi-2026-prelim-p1-q30",
+      "flags": [
+        "content-below-options",
+        "stem:stacked-lines",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "njc-2026-prelim-p1-q26",
+      "flags": [
+        "options-not-found",
+        "stem:math-font:CambriaMath",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "njc-2026-prelim-p1-q29",
+      "flags": [
+        "options-not-found",
+        "stem:math-font:CambriaMath",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "nyjc-2026-prelim-p1-q14",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "nyjc-2026-prelim-p1-q15",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "rvhs-2026-prelim-p1-q7",
+      "flags": [
+        "table-options",
+        "image-fallback",
+        "unclassified",
+        "near-duplicate-different-answer"
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q1",
+      "flags": [
+        "options-not-found",
+        "stem:unmapped-glyph",
+        "stem:math-font:SymbolMT",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q9",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q12",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q13",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q26",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tjc-2026-prelim-p1-q23",
+      "flags": [
+        "answer-missing",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tjc-2026-prelim-p1-q30",
+      "flags": [
+        "stem:small-fragment",
+        "stem:math-font:SymbolMT",
+        "stem:wide-gap",
+        "stem:stacked-rows",
+        "stem:stacked-lines",
+        "image-fallback",
+        "answer-missing",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q3",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q6",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q8",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q10",
+      "flags": [
+        "content-below-options",
+        "stem:unmapped-glyph",
+        "stem:math-font:SymbolMT",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q12",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q13",
+      "flags": [
+        "content-below-options",
+        "stem:unmapped-glyph",
+        "stem:math-font:SymbolMT",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q15",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q18",
+      "flags": [
+        "content-below-options",
+        "table-options",
+        "stem:off-baseline",
+        "stem:stacked-rows",
+        "stem:stacked-lines",
+        "stem:fraction-rule",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q19",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q21",
+      "flags": [
+        "content-below-options",
+        "stem:small-fragment",
+        "stem:off-baseline",
+        "stem:stacked-rows",
+        "stem:stacked-lines",
+        "stem:fraction-rule",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q23",
+      "flags": [
+        "content-below-options",
+        "table-options",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q24",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q25",
+      "flags": [
+        "content-below-options",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q27",
+      "flags": [
+        "content-below-options",
+        "table-options",
+        "stem:wide-gap",
+        "stem:fraction-rule",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "tmjc-2026-prelim-p1-q30",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "vjc-2026-prelim-p1-q2",
+      "flags": [
+        "table-options",
+        "stem:math-font:SymbolMT",
+        "stem:fraction-rule",
+        "image-fallback",
+        "unclassified",
+        "near-duplicate-different-answer"
+      ]
+    },
+    {
+      "id": "vjc-2026-prelim-p1-q9",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "vjc-2026-prelim-p1-q30",
+      "flags": [
+        "content-below-options",
+        "unclassified"
+      ]
+    },
+    {
+      "id": "yijc-2026-prelim-p1-q2",
+      "flags": [
+        "options-not-found",
+        "image-fallback",
+        "unclassified"
+      ]
+    }
+  ],
+  "duplicates": [
+    {
+      "canonical": "asrjc-2026-prelim-p1-q25",
+      "members": [
+        "asrjc-2026-prelim-p1-q25",
+        "mi-2026-prelim-p1-q25"
+      ],
+      "answersAgree": true
+    },
+    {
+      "canonical": "nyjc-2026-prelim-p1-q8",
+      "members": [
+        "nyjc-2026-prelim-p1-q8",
+        "sajc-2026-prelim-p1-q7"
+      ],
+      "answersAgree": true
+    },
+    {
+      "canonical": "rvhs-2026-prelim-p1-q7",
+      "members": [
+        "rvhs-2026-prelim-p1-q7",
+        "vjc-2026-prelim-p1-q2"
+      ],
+      "answersAgree": false
+    },
+    {
+      "canonical": "sajc-2026-prelim-p1-q10",
+      "members": [
+        "sajc-2026-prelim-p1-q10",
+        "yijc-2026-prelim-p1-q10"
+      ],
+      "answersAgree": true
+    }
+  ],
+  "imageBank": {
+    "files": 672,
+    "totalBytes": 11793980,
+    "perShard": {
+      "_unclassified": {
+        "questions": 447,
+        "jsonBytes": 665579,
+        "assetBytes": 11793980
+      }
+    }
+  }
+}
