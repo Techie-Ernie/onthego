@@ -1,0 +1,228 @@
+[
+  {
+    "id": "yijc-2026-prelim-p1-q24",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The right and bottom resistors are in series, giving $2R$, which is in parallel with the diagonal resistor to give $2R/3$. Adding the top resistor in series gives $5R/3$. That branch is in parallel with the left resistor, giving $0.625R$ between X and Y. Thus $120=0.625R$, so $R=192\\ \\Omega$, which rounds to $190\\ \\Omega$.",
+      "perOption": {
+        "A": "Treats the equivalent resistance as the resistance of one resistor.",
+        "B": "This value gives only $93.75\\ \\Omega$ after the series and parallel reductions.",
+        "C": "This value gives only $106.25\\ \\Omega$ after the series and parallel reductions.",
+        "D": "Correct. The calculated resistance rounds to $190\\ \\Omega$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The diagram requires several series and parallel reductions.",
+    "misconception": "Grouping resistors by appearance instead of shared nodes.",
+    "transcription": "Five resistors, each of resistance $R$, are connected as shown.\n\n[Resistors lie on the four sides of a rectangle and on the diagonal from bottom left to top right. X connects to the top-left corner and Y to the bottom-left corner.]\n\nThe total resistance between point X and point Y is $120\\ \\Omega$.\n\nWhat is the magnitude of the resistance $R$?\n\nA $120\\ \\Omega$\nB $150\\ \\Omega$\nC $170\\ \\Omega$\nD $190\\ \\Omega$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q25",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The vertical wire produces a magnetic field into the page on its right. The current in the horizontal wire flows right, so the magnetic force on it acts upwards. It therefore has no component towards the vertical wire.",
+      "perOption": {
+        "A": "Parallel currents in the same direction attract.",
+        "B": "The slanted wire's upward current component produces a force towards the vertical wire.",
+        "C": "Correct. The force on the horizontal wire acts upwards.",
+        "D": "The antiparallel currents produce a repulsive force."
+      }
+    },
+    "issues": "C is the intended answer because the force on the horizontal wire has no component towards or away from the vertical wire. D is also defensible as worded because antiparallel currents repel and therefore exert no attractive force.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.e",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve the magnetic force relative to the vertical wire.",
+    "misconception": "Assuming the magnetic force acts along the line separating the wires.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q26",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Multiply the number of turns $N$ by the field component normal to the coil and by the coil area $A$. Since $\\theta$ is the angle to the plane, this gives $N\\times B\\sin\\theta\\times A=BNA\\sin\\theta$.",
+      "perOption": {
+        "A": "Uses the component parallel to the plane and omits the number of turns.",
+        "B": "Calculates only the flux through one turn.",
+        "C": "Uses $B\\cos\\theta$, the field component parallel to the plane.",
+        "D": "Correct. It uses the normal field component and all $N$ turns."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The expression follows once the normal component of the field is identified.",
+    "misconception": "Using the angle to the plane as the angle to the normal.",
+    "transcription": "A magnetic field of uniform flux density $B$ is at an angle $\\theta$ to the plane of a coil as shown.\n\n[A perspective view shows a rectangular coil in a uniform magnetic field pointing to the right. A plan view shows the coil slanting up to the right at angle $\\theta$ to the horizontal field lines.]\n\nThe coil has $N$ turns and the area of the coil is $A$.\n\nWhat is the magnetic flux linkage of the coil?\n\nA $BA\\cos\\theta$\nB $BA\\sin\\theta$\nC $BNA\\cos\\theta$\nD $BNA\\sin\\theta$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q27",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A photon has energy $hf$, so the emission rate is $N/t=P/(hf)=P\\lambda/(hc)$. Substitution gives $(0.50\\times10^{-3})(6.4\\times10^{-7})/[(6.63\\times10^{-34})(3.0\\times10^8)]=1.6\\times10^{15}\\ \\mathrm{s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. It divides laser power by the energy per photon.",
+        "B": "This rate would require about $0.81\\ \\mathrm{W}$ at the stated wavelength, indicating an error in the power scale.",
+        "C": "Taking milli- as $10^3$ instead of $10^{-3}$ overstates the rate by a factor of $10^6$.",
+        "D": "This rate implies a photon energy of about $7.8\\times10^{-43}\\ \\mathrm{J}$, far below $hc/\\lambda$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation combines photon energy from wavelength with a milliwatt-to-watt conversion.",
+    "misconception": "Treating power as the energy of a single photon.",
+    "transcription": "A helium-neon laser emits red light having a wavelength of $6.4\\times10^{-7}\\ \\mathrm{m}$ and a power of $0.5\\ \\mathrm{mW}$.\n\nHow many photons are emitted each second?\n\nA $1.6\\times10^{15}$\nB $2.6\\times10^{18}$\nC $1.6\\times10^{21}$\nD $6.4\\times10^{38}$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q28",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the minimum momentum uncertainty use $\\Delta x\\,\\Delta p\\approx h$. The slit width gives $\\Delta p\\approx(6.63\\times10^{-34})/(1.3\\times10^{-7})=5.1\\times10^{-27}\\ \\mathrm{N\\,s}$. The width is vertical, so the corresponding momentum uncertainty is vertical.",
+      "perOption": {
+        "A": "Correct. The slit width sets the vertical momentum uncertainty.",
+        "B": "Uses the direction of travel for the uncertainty even though the slit confines the electron vertically.",
+        "C": "Identifies the correct direction but overestimates the uncertainty given by $h/\\Delta x$.",
+        "D": "Overestimates $h/\\Delta x$ and assigns the uncertainty to the horizontal direction."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify which coordinate the slit confines before applying the uncertainty relation.",
+    "misconception": "Assigning the uncertainty to the direction of travel.",
+    "transcription": "An electron, with an initial energy of $1.28\\ \\mathrm{eV}$, passes through a small slit of slit width $1.3\\times10^{-7}\\ \\mathrm{m}$.\n\n[The electron travels horizontally to the right towards a gap in a vertical screen. A vertical double-headed arrow marks the slit width of $1.3\\times10^{-7}\\ \\mathrm{m}$.]\n\nWhat is the minimum uncertainty of the momentum of the electron as it passes through the slit?\n\nMagnitude | Direction\nA $5.1\\times10^{-27}\\ \\mathrm{N\\,s}$ | vertical\nB $5.1\\times10^{-27}\\ \\mathrm{N\\,s}$ | horizontal\nC $6.1\\times10^{-26}\\ \\mathrm{N\\,s}$ | vertical\nD $6.1\\times10^{-26}\\ \\mathrm{N\\,s}$ | horizontal"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q29",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "There are ten tin nuclei for every remaining antimony nucleus, so the surviving fraction is $N/N_0=1/11$. Using $N=N_0e^{-\\lambda t}$ and $\\lambda=\\ln 2/60$ per day gives $\\ln(1/11)=-(\\ln 2/60)t$. Thus $t=208$ days, between 180 and 240 days.",
+      "perOption": {
+        "A": "Stops before three half-lives, when the tin-to-antimony ratio is still below 7.",
+        "B": "Stops at three half-lives, when the ratio is 7.",
+        "C": "Correct. The ratio reaches 10 after about 208 days.",
+        "D": "Waits four half-lives, by which point the ratio is 15."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j",
+      "nuclear-physics.k"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The daughter-to-parent ratio must be converted to a surviving fraction before using the decay law.",
+    "misconception": "Confusing the daughter-to-parent ratio with the initial-to-remaining ratio.",
+    "transcription": "Antimony-124 undergoes radioactive decay, with a half-life of 60 days, to become tin-124. Tin-124 is stable.\n\nInitially, a sample of antimony-124 contains no tin-124.\n\nFor this sample, after what period of time will the ratio $\\frac{\\text{number of tin-124 nuclei}}{\\text{number of antimony-124 nuclei}}$ equals 10?\n\nA between 120 days and 180 days\nB 180 days\nC between 180 days and 240 days\nD 240 days"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q30",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released equals the total binding energy of the products minus that of the reactants. Free neutrons contribute zero binding energy, so $195=143X+90X-235\\times7.6$, with energies in MeV. Solving gives $X=8.5\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Reverses the sign of the released energy, leading to a decrease in total binding energy.",
+        "B": "Carries the uranium binding energy per nucleon over to the products and fails to account for the released energy.",
+        "C": "Gives a binding energy increase of only $78\\ \\mathrm{MeV}$, undercounting the released energy.",
+        "D": "Correct. The total binding energy increases by about $195\\ \\mathrm{MeV}$."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert per-nucleon binding energies into totals and account for energy released.",
+    "misconception": "Counting free neutrons as bound nucleons.",
+    "transcription": "Uranium-235 undergoes fission in a reaction shown below, releasing $195\\ \\mathrm{MeV}$ of energy. The binding energy per nucleon for uranium-235 is $7.6\\ \\mathrm{MeV}$ and those for caesium (Cs-143) and rubidium (Rb-90) are approximately $X\\ \\mathrm{MeV}$.\n\n$\\vphantom{U}{}^{235}_{92}\\mathrm{U}+{}^{1}_{0}\\mathrm{n}\\rightarrow{}^{143}_{55}\\mathrm{Cs}+{}^{90}_{37}\\mathrm{Rb}+3\\,{}^{1}_{0}\\mathrm{n}$\n\nWhat is the value of $X$?\n\nA 6.8\nB 7.6\nC 8.0\nD 8.5"
+  }
+]

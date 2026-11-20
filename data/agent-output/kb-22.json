@@ -1,0 +1,648 @@
+[
+  {
+    "id": "yijc-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the person approaches Q, their clockwise moment about Q decreases. The balancing anticlockwise moment decreases, so the downward force at P decreases. The upward force at Q balances the two weights plus the downward force at P, so it also decreases.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The upward force at Q falls as the downward force at P falls.",
+        "C": "The shorter moment arm reduces the downward force required at P.",
+        "D": "Both forces decrease as the person's clockwise moment decreases."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires balancing both moments and vertical forces.",
+    "misconception": "Treating both rod forces as upward.",
+    "transcription": "A uniform diving board is held by two fixed rods at points P and Q. A person stands at end R of the diving board, as shown. The forces exerted by the rods on the board are vertical. The board remains in equilibrium as the person slowly moves towards point Q from end R.\n\n[Horizontal board with a rod above the left end P, a rod below Q just to its right, and a person at the right end R.]\n\nWhich row describes the changes to the magnitudes of the forces exerted by the rods on the board?\n\nforce at P | force at Q\nA decreases | decreases\nB decreases | increases\nC increases | decreases\nD increases | increases"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q4",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The person's weight is the gravitational force exerted by the Earth on the person. Its Newton's third-law partner is the gravitational force exerted by the person on the Earth.",
+      "perOption": {
+        "A": "Tension acts on the person and belongs to the rope–person interaction.",
+        "B": "Upthrust acts on the person and belongs to the air–person interaction.",
+        "C": "Correct.",
+        "D": "This gravitational force pairs with the helicopter's pull on the person."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires identifying the two bodies in one gravitational interaction.",
+    "misconception": "Confusing balanced forces with a third-law pair.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q5",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the falling stone, use $s=ut_1+\\frac{1}{2}gt_1^2$ with zero initial speed to get $t_1=3.988\\ \\mathrm{s}$. The sound takes $t_2=78.0/330=0.236\\ \\mathrm{s}$ to travel back up the well. The total is $t_1+t_2=4.224\\ \\mathrm{s}$, which rounds to $4.22\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Subtracts the sound travel time from the fall time.",
+        "B": "Counts only the fall time.",
+        "C": "Uses $g=10\\ \\mathrm{m\\,s^{-2}}$, which gives a shorter fall time.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires finding and adding the times for two successive stages.",
+    "misconception": "Omitting the sound travel time.",
+    "transcription": "The water surface in a deep well is $78.0\\ \\mathrm{m}$ below the top of the well.\nA person at the top of the well drops a heavy stone down the well.\nAir resistance is negligible. The speed of sound in the air is $330\\ \\mathrm{m\\,s^{-1}}$.\nWhat is the time interval between the person dropping the stone and hearing it hitting the water?\n\nA $3.75\\ \\mathrm{s}$\nB $3.99\\ \\mathrm{s}$\nC $4.19\\ \\mathrm{s}$\nD $4.22\\ \\mathrm{s}$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q6",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electrical input power multiplied by efficiency equals the gain in gravitational potential energy per unit time. Thus $P_\\mathrm{in}=\\frac{400\\times9.81\\times1200}{120}\\div0.80=49\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Uses the efficiency factor in the wrong direction and is about a factor of ten below even that estimate.",
+        "B": "Underestimates the correctly efficiency-adjusted power by a factor of ten.",
+        "C": "Multiplies the useful power by efficiency instead of dividing.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires converting minutes to seconds and applying efficiency to the power balance.",
+    "misconception": "Multiplying useful power by efficiency.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both coins start with the same speed and fall through the same net height. By conservation of energy, they gain the same kinetic energy per unit mass and therefore hit the ground with the same speed.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Y rises before falling, so it travels a greater vertical distance.",
+        "C": "Y takes longer to reach the ground because it initially moves upwards.",
+        "D": "With negligible air resistance, both coins have the same downward acceleration."
+      }
+    },
+    "issues": "The key equates the coins’ total energies without specifying equal masses. The energy comparison applies per unit mass.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "projectile-motion.d",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires relating impact speed to energy while distinguishing vertical distance from displacement.",
+    "misconception": "Assuming launch direction changes impact speed.",
+    "transcription": "Two coins are projected from a horizontal table at the same initial speed $u$.\nCoin X is projected horizontally.\nCoin Y is projected upwards at an angle of $30^\\circ$ to the horizontal.\n\nBoth coins hit the horizontal ground without bouncing.\nAssume the air resistance on each coin is negligible.\nWhich statement about the motion of the coins is correct?\n\nA Both coins hit the ground with the same speed.\nB Both coins travel the same vertical distance.\nC Coin Y hits the ground before coin X.\nD Coin Y has a smaller vertical acceleration."
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q8",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Newton's third law, the particles exert equal and opposite forces on each other during the collision, so their momentum changes are equal in magnitude and opposite in direction. Hence $4|\\Delta v_X|=9|\\Delta v_Y|$, giving $\\left|\\frac{\\Delta v_X}{\\Delta v_Y}\\right|=\\frac{9}{4}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Takes a square root as if the momentum change depended on velocity squared.",
+        "C": "Equates velocity changes despite the different masses.",
+        "D": "Uses an inverted square-root mass ratio instead of the inverse mass ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires matching momentum-change magnitudes and solving for the speed-change ratio.",
+    "misconception": "Confusing equal impulses with equal velocity changes.",
+    "transcription": "Particles X (of mass 4 units) and Y (of mass 9 units) move directly towards each other, collide and then separate. If $\\Delta v_X$ is the change of velocity of X and $\\Delta v_Y$ is the change in velocity of Y, what is the magnitude of the ratio $\\frac{\\Delta v_X}{\\Delta v_Y}$?\n\nA $\\frac{9}{4}$\nB $\\frac{3}{2}$\nC $1$\nD $\\frac{2}{3}$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q9",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $v=r\\omega$ and $\\omega$ is constant, the linear speed increases with radius. The centripetal acceleration $a=r\\omega^2$ also increases with radius.",
+      "perOption": {
+        "A": "Treats linear speed as fixed and then predicts a decrease in centripetal acceleration.",
+        "B": "Confuses constant angular velocity with constant linear speed.",
+        "C": "Overlooks the radius factor in $a=r\\omega^2$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c",
+      "circular-motion.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Both quantities follow directly from their radius dependence at fixed angular velocity.",
+    "misconception": "Equating constant angular velocity with constant linear speed.",
+    "transcription": "A stone is placed on a turntable which is rotating with a constant angular velocity.\n\nWhat changes occur in the linear speed and in the centripetal acceleration of the stone when it is placed at a larger distance from the centre of the turntable?\n\nlinear speed | centripetal acceleration\nA constant | decrease\nB constant | increase\nC increase | constant\nD increase | increase"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q11",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both satellites are at the same orbital radius, so they experience the same gravitational field strength and hence the same centripetal acceleration. Their gravitational forces differ because $F=mg$ and their masses differ. Their common period of about 24 hours gives the same angular velocity, so $v=r\\omega$ gives the same speed, while their different masses give different kinetic energies.",
+      "perOption": {
+        "A": "This statement is true because $F=mg$ differs for the two masses at the same field strength.",
+        "B": "Correct. Both satellites have the same centripetal acceleration magnitude.",
+        "C": "This statement is true because both satellites have the same orbital period.",
+        "D": "This statement is true because the satellites have equal speeds and different masses."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.j",
+      "gravitational-fields.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing mass-dependent quantities from quantities fixed by the common orbit.",
+    "misconception": "Confusing gravitational force with gravitational acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q12",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Q's free oscillations die away faster, so Q is more strongly damped. Its frequency-response curve lies below P's at positive driving frequencies, which rules out A and B. Q has a lower peak at a slightly lower frequency than P.",
+      "perOption": {
+        "A": "Shows Q above P over parts of the frequency range.",
+        "B": "Shows Q crossing above P and peaking at a higher frequency.",
+        "C": "Correct.",
+        "D": "Gives the more strongly damped Q a taller peak."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i",
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires inferring relative damping from free oscillations and applying it to forced response curves.",
+    "misconception": "Expecting stronger damping to raise the resonance peak.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q13",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Zero initial transmission means the incident polarisation is perpendicular to the first filter's transmission axis. At the inserted second filter, $I_1=I_0\\cos^2(90^\\circ-40^\\circ)=I_0\\cos^2 50^\\circ=0.413I_0$. At the original first filter, $I_2=I_1\\cos^2 40^\\circ=0.413I_0\\times0.587=0.24I_0$.",
+      "perOption": {
+        "A": "Ignores the change in polarisation produced by the inserted filter.",
+        "B": "Correct.",
+        "C": "Uses $40^\\circ$ for both Malus’ law factors.",
+        "D": "Stops at the intensity after the inserted filter."
+      }
+    },
+    "issues": "The key’s last line labels the final intensity $I_1$ instead of $I_2$.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the incident angle at the inserted filter and applying Malus’ law twice.",
+    "misconception": "Using the angle between filters for both transmissions.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q14",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $I=kA^2$, if the amplitude from $S_2$ is $A$, the amplitude from $S_1$ is $2A$. The resultant amplitude is $2A+A=3A$ at P and $2A-A=A$ at Q. Thus $\\frac{I_P}{I_Q}=\\frac{(3A)^2}{A^2}=9.0$.",
+      "perOption": {
+        "A": "Reverses the bright-to-dark intensity ratio.",
+        "B": "Adds and subtracts intensities directly, giving $5/3$.",
+        "C": "Uses the source intensity ratio without combining the waves.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key labels the resultant amplitude at Q as $A_P$ in one line.",
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.a",
+      "wave-motion.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires converting intensities to amplitudes before combining and squaring them.",
+    "misconception": "Adding or subtracting intensities directly.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q15",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $a\\sin\\theta=n\\lambda$. At $\\theta=90^\\circ$, $\\frac{1}{300\\times1000}\\sin90^\\circ=n(690\\times10^{-9})$, giving an order limit of about $4.83$. The highest observable integer order is $4$, so there are $4+1+4=9$ bright spots.",
+      "perOption": {
+        "A": "Counts the nonzero orders on only one side.",
+        "B": "Omits the central maximum.",
+        "C": "Correct.",
+        "D": "Rounds the order limit up to five even though the fifth order would require $\\sin\\theta>1$."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires converting line density to spacing, finding the highest integer order and counting both sides.",
+    "misconception": "Omitting the zero-order maximum.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q16",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the same temperature, the molecules have the same mean translational kinetic energy, so $\\frac12 m_1c_1^2=\\frac12 m_2c_2^2$. Rearranging gives $\\frac{c_1}{c_2}=\\sqrt{\\frac{m_2}{m_1}}$.",
+      "perOption": {
+        "A": "Uses a direct mass ratio and omits the square root.",
+        "B": "Inverts the mass ratio under the square root.",
+        "C": "Equates the speeds instead of the mean kinetic energies.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires equating mean kinetic energies and taking a square root.",
+    "misconception": "Assuming equal temperatures imply equal r.m.s. speeds.",
+    "transcription": "A mixture of two gases at constant temperature contains molecules of two kinds, the first of mass $m_1$ and r.m.s. speed $c_1$, the second of mass $m_2$ and r.m.s. speed $c_2$.\n\nWhich expression gives the value of $\\frac{c_1}{c_2}$?\n\nA $\\frac{m_1}{m_2}$\nB $\\sqrt{\\frac{m_1}{m_2}}$\nC $1$\nD $\\sqrt{\\frac{m_2}{m_1}}$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q17",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The narrow tube has negligible volume, and the containers have the same pressure at steady state. With gas mass $m'$ and molar mass $M$, $pV=nRT=(m'/M)RT$. Equating the pressures gives $\\frac{m(300)}{2V}=\\frac{m'_Y(400)}{V}$, so $m'_Y=\\frac38m$.",
+      "perOption": {
+        "A": "This mass would make the pressure in Y lower than in X.",
+        "B": "Correct.",
+        "C": "Accounts for the temperature ratio but omits the difference in volume.",
+        "D": "Assumes equal pressures imply equal gas masses."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires recognising the common pressure and relating gas mass to volume and temperature.",
+    "misconception": "Assuming the volumes alone determine the mass ratio.",
+    "transcription": "Two containers X and Y are connected by a narrow tube as shown below.\n\n[Larger container X, labelled $300\\ \\mathrm{K}$, is connected by a narrow horizontal tube to smaller container Y, labelled $400\\ \\mathrm{K}$.]\n\nThe volume of container X is twice that of container Y.\nBoth containers are filled with an ideal gas and the steady state is achieved with X and Y held at $300\\ \\mathrm{K}$ and $400\\ \\mathrm{K}$ respectively.\n\nIf the mass of gas in X is $m$, what is the mass of gas in Y?\n\nA $\\frac14m$\nB $\\frac38m$\nC $\\frac34m$\nD $m$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q18",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Heating transfers energy into the gas, so $Q>0$. The gas expands and does work on its surroundings, so the work done on the gas satisfies $W<0$. The temperature rises, increasing the ideal gas's internal energy, so $\\Delta U>0$.",
+      "perOption": {
+        "A": "Treats heating as heat loss and expansion as compression.",
+        "B": "Uses the sign for work done by the gas instead of work done on it.",
+        "C": "Treats the heating as heat loss and overlooks the rise in internal energy.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires tracking the signs of heat, work and internal energy during isobaric expansion.",
+    "misconception": "Using the sign of work done by the gas for work done on it.",
+    "transcription": "The first law of thermodynamics states that the change in internal energy $\\Delta U$ of a system is related to the heat $Q$ supplied to it and the work done $W$ on it by the equation\n\n$\\Delta U=Q+W$\n\nWhat are $\\Delta U$, $Q$ and $W$ for a constant mass of ideal gas which is heated at constant pressure?\n\n$\\Delta U$ | $Q$ | $W$\nA negative | negative | positive\nB positive | positive | positive\nC zero | negative | negative\nD positive | positive | negative"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q19",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "After a long time in thermal contact, the spheres reach the same temperature. At thermal equilibrium there is no net transfer of thermal energy between them.",
+      "perOption": {
+        "A": "Total internal energy also depends on the number of particles.",
+        "B": "Their different surface areas mean equal temperature alone does not ensure equal radiated power.",
+        "C": "Correct.",
+        "D": "A larger radius alone does not imply greater internal energy per atom at the same temperature."
+      }
+    },
+    "issues": "The key assumes thermal equilibrium and overstates the distractor explanations: radiated power also depends on emissivity, and equal temperature alone need not imply equal internal energy per atom for different metals.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing thermal equilibrium from equality of total energy and radiation rates.",
+    "misconception": "Equating temperature with total internal energy.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q20",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The charge transferred by the lightning flash is $\\Delta Q=It$. Since $\\Delta Q=C\\Delta V$, the potential difference decreases by $It/C$. For parallel plates, $E=V/h$, so the field strength decreases by $\\frac{It}{Ch}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses current in place of transferred charge by omitting the flash duration.",
+        "C": "Multiplies the transferred charge by capacitance and omits division by plate separation.",
+        "D": "Multiplies by capacitance where finding the potential difference requires division."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.j",
+      "currents.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires chaining charge transfer, capacitance and uniform-field relations.",
+    "misconception": "Multiplying by capacitance to find the voltage change.",
+    "transcription": "A thundercloud and the Earth’s surface may be regarded as a pair of charged parallel plates separated by a distance $h$ as shown in the diagram. The capacitance of the system is $C$.\n\n[Positive charges are marked along the flat base of the cloud, a vertical distance $h$ above the horizontal surface labelled Earth.]\n\nWhat is the reduction in the electric field strength between the cloud and Earth when a lightning flash of mean current $I$ and time duration $t$ occurs?\n\nA $\\frac{It}{Ch}$\nB $\\frac{I}{Ch}$\nC $CIt$\nD $\\frac{CIt}{h}$"
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q21",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The steady current dissipates power $I^2R$. The alternating current dissipates mean power $I_{\\mathrm{rms}}^2(R/2)$. Equating the two gives $I_{\\mathrm{rms}}=\\sqrt{2}I$.",
+      "perOption": {
+        "A": "Halves the current along with the resistance, reducing the power.",
+        "B": "Treats the steady current as the peak of the alternating current.",
+        "C": "Keeps the current unchanged even though halving the resistance then halves the power.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The printed options contain radicals that are missing from the question text layer.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires equating heating powers and taking the square root of the resistance ratio.",
+    "misconception": "Treating the steady current as the AC peak current.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q22",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a short added length, $\\Delta R\\approx\\rho\\,\\Delta x/A$, where $A$ is its cross-sectional area. As the wire thickens, each added length contributes less resistance, so the graph becomes less steep. As the wire thins, each added length contributes more resistance, so the graph steepens again.",
+      "perOption": {
+        "A": "Correct. The gradient falls and then rises.",
+        "B": "Makes the graph steepest near the thickest part, where resistance increases most slowly.",
+        "C": "Keeps flattening after the wire begins to thin.",
+        "D": "Steepens throughout, missing the initial flattening as the wire thickens."
+      }
+    },
+    "issues": "A is the only curve with the intended gradient changes, but its sketch shows a small positive intercept where $R(0)$ should be zero. The key’s resistance formula applies locally for the varying area.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires relating local wire thickness to the gradient of cumulative resistance.",
+    "misconception": "Confusing local resistance per unit length with total resistance.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q23",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Reducing the variable resistance lowers the external equivalent resistance and increases the total current. The larger voltage drop across the internal resistance lowers the terminal potential difference $V$. The fixed resistor therefore carries less current. Since the total current rises while the fixed-branch current falls, the variable-branch current $I$ rises.",
+      "perOption": {
+        "A": "Assumes the variable-branch current falls with the terminal voltage, ignoring the change in current split.",
+        "B": "Correct.",
+        "C": "Misses the increased internal voltage drop and the rise in variable-branch current.",
+        "D": "Overlooks the increased voltage drop across the internal resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.g",
+      "circuits.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires tracking total current, lost volts and redistribution between the parallel branches.",
+    "misconception": "Assuming both branch currents fall when the terminal voltage falls.",
+    "transcription": "The diagram shows a cell with internal resistance connected in parallel with a fixed resistor and a variable resistor.\n\n[Three parallel branches connect the same two nodes. The top branch contains a cell, positive terminal on the left, in series with its internal resistance, both enclosed in a dashed box. The middle branch contains a fixed resistor. The bottom branch contains a variable resistor, with current $I$ marked to the right and potential difference $V$ marked across it.]\n\nThe resistance of the variable resistor is decreased.\nWhat happens to the potential difference $V$ across the variable resistor and the current $I$ in the variable resistor?\n\n$V$ | $I$\nA decreases | decreases\nB decreases | increases\nC increases | decreases\nD increases | increases"
+  }
+]

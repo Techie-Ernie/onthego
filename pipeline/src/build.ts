@@ -162,8 +162,6 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
         misconception: c.misconception,
       });
     } else q.flags.push("unclassified");
-    const tr = transcriptions[q.id];
-    if (tr && q.renderMode === "image") q.stemText = tr;
     const o = overrides[q.id];
     if (o) {
       if (o.renderMode) {
@@ -198,9 +196,14 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
     if (!ex) continue;
     const { derivedAnswer, confidence, issues, ...rest } = ex as typeof ex & { confidence?: string; issues?: string };
     if (issues) q.flags.push("agent-note");
-    if (derivedAnswer !== q.answer) q.flags.push("explanation-disagrees-with-key");
+    const source = (rest as { source?: "key" | "generated" }).source ?? "generated";
+    const agrees = derivedAnswer === q.answer;
+    if (!agrees) q.flags.push("explanation-disagrees-with-key");
     else if (confidence === "low") q.flags.push("explanation-low-confidence");
-    else q.explanation = { body: rest.body, perOption: rest.perOption, model: rest.model, verified: true, source: (rest as { source?: "key" | "generated" }).source ?? "generated" };
+    // The school's own worked solution is always shown (it explains the key's answer); a generated explanation only
+    // when the agent's independent solve agrees with the key and it is confident.
+    if (source === "key" || (agrees && confidence !== "low"))
+      q.explanation = { body: rest.body, perOption: rest.perOption, model: rest.model, verified: agrees, source };
   }
 
   // ---- dedupe ----
@@ -233,6 +236,13 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
     dupReport.push({ canonical: canon.id, members: members.map((m) => m.q.id), answersAgree });
   }
   const kept = all.filter((a) => !dropped.has(a.q.id));
+
+  // ---- transcriptions (search text for image-mode questions). Applied after dedupe, which compares extracted
+  //      text: two agents transcribe the same printed question differently. ----
+  for (const { q } of kept) {
+    const tr = transcriptions[q.id];
+    if (tr && q.renderMode === "image") q.stemText = tr;
+  }
 
   // ---- assets + shards ----
   const shardOf = (q: Question) => q.chapter ?? "_unclassified";

@@ -1,0 +1,663 @@
+[
+  {
+    "id": "sajc-2026-prelim-p1-q2",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $F=BIL$ and $I=Q/t$, $B=F/(IL)=Ft/(QL)$, with units $\\mathrm{N\\,A^{-1}\\,m^{-1}}=\\mathrm{N\\,s\\,C^{-1}\\,m^{-1}}$. From $\\Phi=BA$, $B=\\Phi/A$, so its units can also be written $\\mathrm{Wb\\,m^{-2}}$. Since $\\mathrm{Wb}=\\mathrm{J\\,A^{-1}}$, this gives $\\mathrm{J\\,A^{-1}\\,m^{-2}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Has an extra inverse metre compared with $\\mathrm{N\\,A^{-1}\\,m^{-1}}$.",
+        "C": "Omits the second in $\\mathrm{N\\,s\\,C^{-1}\\,m^{-1}}$.",
+        "D": "A tesla is already a unit of flux density, so dividing it by current and length changes the dimensions."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "electromagnetic-forces",
+      "electromagnetic-induction"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "electromagnetic-forces.g",
+      "electromagnetic-induction.a"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires rearranging familiar field equations and converting derived units.",
+    "misconception": "Confusing magnetic flux with magnetic flux density",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q3",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the two blocks together, $F_{\\mathrm{net}}=ma$ gives $12=(4+2)a$, so $a=2\\ \\mathrm{m\\,s^{-2}}$. For X, the tension is the net horizontal force, so $T=2(2)=4\\ \\mathrm{N}$. Using Y gives the same result from $12-T=4(2)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The acceleration is right, but the tension is the force needed to accelerate the $2\\ \\mathrm{kg}$ block, giving $4\\ \\mathrm{N}$.",
+        "C": "The tension is right, but dividing $12\\ \\mathrm{N}$ by Y’s mass alone ignores X.",
+        "D": "Dividing by Y’s mass alone ignores X, and the tension must equal X’s mass times the common acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires applying Newton’s second law to the pair and then to one block.",
+    "misconception": "Applying the full pulling force to Y alone",
+    "transcription": "X and Y are two objects on a frictionless table connected by a string. The mass of X is $2\\ \\mathrm{kg}$ and the mass of Y is $4\\ \\mathrm{kg}$. The mass of the string is negligible. A constant horizontal force of $12\\ \\mathrm{N}$ acts on Y.\n\n[On a horizontal table, block X ($2\\ \\mathrm{kg}$) is to the left of block Y ($4\\ \\mathrm{kg}$). A horizontal string joins them, and a $12\\ \\mathrm{N}$ arrow points right from Y.]\n\nWhat are the acceleration of Y and the magnitude of the tension in the string?\n\nAcceleration of Y / $\\mathrm{m\\,s^{-2}}$, tension in the string / $\\mathrm{N}$\nA 2, 4\nB 2, 6\nC 3, 4\nD 3, 6"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q4",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The area under the force–distance graph up to $s_1$ is the net work, $\\tfrac12 F_1s_1$. The object starts at rest, so this work equals its final kinetic energy, $\\tfrac12 mv^2$. Equating the two gives $v=\\sqrt{F_1s_1/m}$.",
+      "perOption": {
+        "A": "Omits the factor of $\\tfrac12$ in the kinetic energy.",
+        "B": "Correct.",
+        "C": "Uses the full rectangle $F_1s_1$ for work instead of the triangular area.",
+        "D": "Overestimates the work by a factor of four compared with the triangular area."
+      }
+    },
+    "issues": "The stem says ‘at the distance s’ without a subscript. The key evaluates the speed at the marked endpoint s₁.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires reading a triangular area as net work and equating it to the gain in kinetic energy.",
+    "misconception": "Treating the force as constant",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q5",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Set the potential energy at Q to zero, so the potential energy at P is $50\\ \\mathrm{kJ}$. The total energy at P is $50+5=55\\ \\mathrm{kJ}$. At Q, the energy balance is $55=0+K_Q+10$ in kilojoules, so $K_Q=45\\ \\mathrm{kJ}$.",
+      "perOption": {
+        "A": "Undercounts the final kinetic energy, for example by subtracting the friction loss twice.",
+        "B": "Correct.",
+        "C": "Ignores the $10\\ \\mathrm{kJ}$ lost to friction.",
+        "D": "Adds the work done against friction to the mechanical energy."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires adding the initial energies and subtracting a single friction loss.",
+    "misconception": "Adding dissipated energy to kinetic energy",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q6",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The component of weight down the slope is $mg\\sin 2^\\circ=1400(9.81)\\sin 2^\\circ\\approx479.3\\ \\mathrm{N}$. The extra power against gravity is $P_g=Fv=479.3(25)\\approx12\\ \\mathrm{kW}$. Adding this to the original $30\\ \\mathrm{kW}$ gives $42\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Counts only the additional power needed against gravity.",
+        "B": "Adds too little power for the downslope component of weight, which requires about $12\\ \\mathrm{kW}$.",
+        "C": "Correct.",
+        "D": "Overestimates the additional power needed against gravity at this slope."
+      }
+    },
+    "issues": "The key assumes the power needed to overcome resistive forces stays at 30 kW on the slope.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires resolving weight along the slope, converting force into power and adding the original engine power.",
+    "misconception": "Confusing additional power with total power",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q8",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For cars starting from rest, $s=\\tfrac12at^2$ and $s'=\\tfrac12a't^2$. At $3\\ \\mathrm{s}$, $12=\\tfrac12(9)(a'-a)$, giving $a'-a=\\tfrac83\\ \\mathrm{m\\,s^{-2}}$. At $6\\ \\mathrm{s}$, the separation is $\\tfrac12(36)(\\tfrac83)=48\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Underestimates the separation by treating the added time as a fixed increment instead of applying the square-time relation.",
+        "B": "Doubles the separation as if it were proportional to time.",
+        "C": "Triples the separation, though doubling the time multiplies it by four.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key writes 2.6 for the acceleration difference and then uses it as if exact. The rewrite retains 8/3 to obtain 48 m.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires recognising that the separation grows with the square of time for two cars starting from rest.",
+    "misconception": "Assuming separation grows linearly with time",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q9",
+    "keyPage": 20,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From release to P, the positive velocity gradient falls from $g$ to zero. From P to Q, air resistance balances weight at the first terminal velocity, so acceleration is zero. When the parachute opens at Q, the steep negative gradient gives a negative acceleration with a magnitude much greater than $g$. The gradient returns to zero at R and stays there through S at the second terminal velocity.",
+      "perOption": {
+        "A": "Shows too small a negative acceleration at Q for the steep velocity gradient.",
+        "B": "Correct.",
+        "C": "Reverses the signs of the velocity gradients before P and after Q.",
+        "D": "Reverses the signs of both changing-velocity intervals, even though it shows a large spike at Q."
+      }
+    },
+    "issues": "The larger deceleration magnitude follows from the steeper graph at Q. Air resistance exceeding weight establishes the sign, but does not by itself establish that magnitude.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.c",
+      "projectile-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires comparing the signs and relative sizes of velocity gradients through four stages.",
+    "misconception": "Reading acceleration from the height of a velocity graph",
+    "transcription": "A parachutist falls from a stationary balloon at time $t=0$. The velocity–time graph for the parachutist from time $t=0$ until the time when he is just above the ground is shown.\n\n[The velocity rises from zero with decreasing gradient until P, stays constant from P to Q, then drops steeply at Q and levels off at a smaller positive velocity at R, which stays constant through S.]\n\nWhich graph best shows the variation with time of the acceleration of the parachutist?\n\n[All four acceleration–time graphs mark 0, P, Q, R and S. Acceleration is zero from P to Q and R to S in every option.]\nA [Positive acceleration falls to zero by P. At Q it jumps to a negative value of about the initial magnitude and returns to zero by R.]\nB [Positive acceleration falls to zero by P. At Q it jumps to a negative value much larger in magnitude than the initial acceleration and returns to zero by R.]\nC [Negative acceleration rises to zero by P. At Q it jumps to a positive value of about the initial magnitude and returns to zero by R.]\nD [Negative acceleration rises to zero by P. At Q it jumps to a positive value much larger in magnitude than the initial acceleration and returns to zero by R.]"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q10",
+    "keyPage": 20,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The tension is smallest at the top, where $T_{\\mathrm{top}}+mg=mr\\omega^2$. It is largest at the bottom, where $T_{\\mathrm{bottom}}-mg=mr\\omega^2$. The difference is $(mr\\omega^2+mg)-(mr\\omega^2-mg)=2mg$.",
+      "perOption": {
+        "A": "Treats constant centripetal force magnitude as constant tension.",
+        "B": "Correct.",
+        "C": "Gives the net inward force magnitude instead of the difference in tension.",
+        "D": "Doubles the net inward force magnitude, although that term cancels in the subtraction."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires writing separate radial force equations at the top and bottom before subtracting.",
+    "misconception": "Equating tension with centripetal force everywhere",
+    "transcription": "A stone of mass $m$ is attached to a string. The stone is rotating in a vertical circle of radius $r$ with a constant angular speed $\\omega$ as shown.\n\n[A dashed circle represents the path. A string from the centre to the upper-right edge holds the stone of mass $m$. The radius is labelled $r$, and a curved arrow indicates anticlockwise rotation with angular speed $\\omega$.]\n\nThe acceleration of free fall is $g$.\n\nWhat is the maximum difference in magnitude of the tension in the string during one revolution of the stone?\n\nA zero\nB $2mg$\nC $mr\\omega^2$\nD $2mr\\omega^2$"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q11",
+    "keyPage": 20,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The gravitational force supplies the centripetal force on star $b$, so $Gm^2/(d_a+d_b)^2=md_b\\omega^2$. Hence $\\omega^2=Gm/[d_b(d_a+d_b)^2]$. Taking the positive square root gives $\\omega=\\frac{1}{d_a+d_b}\\sqrt{\\frac{Gm}{d_b}}$.",
+      "perOption": {
+        "A": "Uses the full separation as star $b$’s orbital radius.",
+        "B": "Uses star $a$’s orbital radius, which equals star $b$’s radius under the equal-mass assumption.",
+        "C": "Uses $d_b$ as the separation in the gravitational force.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The equal masses imply d_a = d_b, which makes B algebraically equivalent to D for this system. D is the direct expression from the force equation for star b. The schematic appears asymmetric.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing the distance between the stars from star b’s orbital radius.",
+    "misconception": "Using the same radius for gravity and circular motion",
+    "transcription": "A binary star is a stellar system consisting of 2 stars of equal mass $m$ orbiting around a common point, as shown below.\n\n[Star $a$ is above and to the left of the common point, and star $b$ is below and to the right on the same line. The distances from the common point are labelled $d_a$ and $d_b$. Curved arrows show the direction of motion, with $\\omega$ marked beside star $b$.]\n\nThe distance between Star $a$ and the common point is $d_a$ while the distance between Star $b$ and the common point is $d_b$.\n\nWhich of the following gives an expression for $\\omega$ the angular velocity of Star $b$?\n\nA $\\sqrt{\\frac{Gm}{(d_a+d_b)^3}}$\nB $\\frac{1}{d_a+d_b}\\sqrt{\\frac{Gm}{d_a}}$\nC $\\sqrt{\\frac{Gm}{d_b^3}}$\nD $\\frac{1}{d_a+d_b}\\sqrt{\\frac{Gm}{d_b}}$"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q12",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The straight force–displacement line through the origin has negative gradient, so the motion is simple harmonic. Its kinetic energy is $K=\\tfrac12mv^2=\\tfrac12m\\omega^2(x_0^2-x^2)$, an inverted parabola with a maximum at $x=0$. Total energy $K+U$ is constant, so potential energy rises quadratically as kinetic energy falls.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Swaps kinetic and potential energy, placing minimum kinetic energy at equilibrium.",
+        "C": "Places maximum kinetic energy at equilibrium but gives it the wrong, non-parabolic shape.",
+        "D": "Places minimum kinetic energy at equilibrium and gives it a non-parabolic shape."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying simple harmonic motion from the force graph and recognising the quadratic energy dependence.",
+    "misconception": "Assuming any two curves with constant total energy fit SHM",
+    "transcription": "A particle is moving such that the force-displacement on it changes with the distance $r$ from a fixed point as shown.\n\n[The force–displacement graph is a straight line with negative gradient through the origin.]\n\nWhich energy-displacement graph shows the potential energy (p.e.) and kinetic energy (k.e.) correctly?\n\nA [An upward-opening p.e. parabola has its minimum at zero displacement. A downward-opening k.e. parabola has its maximum there.]\nB [The same curves as A, with the k.e. and p.e. labels swapped.]\nC [The p.e. has a minimum and the k.e. has a maximum at zero displacement. Both curves flatten toward the ends of the displacement range.]\nD [The same curves as C, with the k.e. and p.e. labels swapped.]"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q13",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In simple harmonic motion, speed is greatest at equilibrium, so the candidates are A and C. Immediately after A the displacement is negative, so the particle is moving downwards there. Immediately after C it is positive, so the particle is moving upwards there.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "B is a turning point with zero instantaneous speed.",
+        "C": "The particle crosses equilibrium at maximum speed but is moving upwards.",
+        "D": "D is a turning point with zero instantaneous speed."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.e",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires finding the equilibrium crossings and reading the direction of motion there.",
+    "misconception": "Confusing maximum displacement with maximum speed",
+    "transcription": "A transverse progressive wave travels along a rope.\n\nThe graph shows the variation of the displacement with time of a particle on the rope.\n\nTaking displacement upwards as positive, at which point on the graph is the particle moving downwards with maximum speed?\n\n[The sinusoidal displacement–time graph starts at zero and rises. A is the first downward zero crossing, B is the following trough, C is the next upward zero crossing, and D is the following crest.]"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q14",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the standing wave, B and D are in the same loop, so they oscillate in phase. This makes the Graph 2 statement in option D incorrect. The other seven statements are correct.",
+      "perOption": {
+        "A": "Both statements are true because P and S are half a wavelength apart and A and C are in adjacent loops.",
+        "B": "Both statements are true because P and Q are one wavelength apart and A and E are separated by two loops.",
+        "C": "Both statements are true because Q and S are half a wavelength apart and B and E are in adjacent loops.",
+        "D": "Correct. B and D oscillate in phase."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.c",
+      "wave-motion.b"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires comparing phase in a progressive wave with phase within and between standing-wave loops.",
+    "misconception": "Applying progressive-wave phase rules within a standing-wave loop",
+    "transcription": "Graph 1 shows a transverse wave moving to its right.\n\nGraph 2 shows a standing wave on a string stretched between two points X and Y.\n\nPositions of particles P, Q, R, S, T, A, B, C, D and E are indicated in the two figures.\n\n[Graph 1 shows successive crests P and Q, with trough S between them. R and T are on opposite sides of S at the same displacement below the equilibrium line. An arrow labelled $v$ points right. Graph 2 shows three loops between X and Y. A and E are the peaks of the outer loops, C is the trough of the middle loop, and B and D are on opposite sides of C within that loop.]\n\nWhich of the following statements regarding the particles is not correct?\n\nA. Graph 1: P and S are in antiphase. Graph 2: A and C are in antiphase.\nB. Graph 1: P and Q are in phase. Graph 2: A and E are in phase.\nC. Graph 1: Q and S are in antiphase. Graph 2: B and E are in antiphase.\nD. Graph 1: R and T are out of phase. Graph 2: B and D are out of phase."
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q15",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $pV=NkT$, the initial state gives $pV=Nk(250)$ and the final state gives $2pV=N'k(1250)$. The fraction that escapes is $(N-N')/N=\\left(\\frac{pV}{250k}-\\frac{2pV}{1250k}\\right)\\frac{250k}{pV}=0.6$.",
+      "perOption": {
+        "A": "Gives the fraction of molecules remaining in the container.",
+        "B": "Results from using $1000\\ \\mathrm{K}$ as the final temperature instead of the temperature rise.",
+        "C": "Correct.",
+        "D": "Would leave only one tenth of the molecules, which at five times the temperature would halve the original pressure."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires using the final absolute temperature and distinguishing the escaped fraction from the remaining fraction.",
+    "misconception": "Reporting the fraction remaining",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q16",
+    "keyPage": 21,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gas pressure comes from momentum transferred to the walls in elastic collisions. Averaging over many freely moving molecules, with isotropic velocities, gives $p=\\tfrac13(N/V)m\\langle c^2\\rangle$. This derivation uses molecular speeds without a temperature relation. Comparing it with $pV=NkT$ then gives the proportionality between mean kinetic energy and temperature.",
+      "perOption": {
+        "A": "A large molecular population in a representative volume supports the statistical average used to describe steady pressure.",
+        "B": "Elastic wall collisions give the momentum change used to calculate pressure.",
+        "C": "Neglecting intermolecular attraction allows the model to treat molecules as moving freely between collisions.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key gives D and a prompt about A, with no worked explanation. A is understood as a statistical averaging assumption, rather than a strict lower bound on number density.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e",
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing the mechanical assumptions behind gas pressure from a later result about temperature.",
+    "misconception": "Treating the temperature relation as an input to the pressure derivation",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q17",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The change in internal energy depends only on states P and Q. Along PRQ, $\\Delta U=Q+W=8-3=5\\ \\mathrm{J}$, with $W$ denoting work done on the gas. Along PSQ, $\\Delta U=Q'-1=5\\ \\mathrm{J}$, so $Q'=+6\\ \\mathrm{J}$ and heat enters the gas.",
+      "perOption": {
+        "A": "Reverses the direction of the $6\\ \\mathrm{J}$ heat transfer.",
+        "B": "Correct.",
+        "C": "Results from treating the work done by the gas as positive work on it on both paths.",
+        "D": "Gives a heat loss that, together with work done by the gas, would decrease internal energy."
+      }
+    },
+    "issues": "The key drops the prime on Q in one intermediate expression for the second path.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires carrying the same internal-energy change across both paths and assigning the correct sign to work.",
+    "misconception": "Treating work done by the gas as positive in Q + W",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q18",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The drop’s weight is $mg=(2.6\\times10^{-15})(9.81)=2.55\\times10^{-14}\\ \\mathrm{N}$. The field has magnitude $E=V/d=1200/0.02=60\\,000\\ \\mathrm{V\\,m^{-1}}$, giving the negative drop an upward electric force of $2.88\\times10^{-14}\\ \\mathrm{N}$. The net force is upward, so $a=(2.88-2.55)\\times10^{-14}/(2.6\\times10^{-15})\\approx1.3\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Assumes the electric force and weight balance exactly.",
+        "B": "Treats the drop as nearly in free fall even though the upward electric force exceeds its weight.",
+        "C": "Correct.",
+        "D": "Uses the electric force alone and neglects weight."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the electric force and subtracting weight before calculating acceleration.",
+    "misconception": "Ignoring weight in the net force",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q19",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron is negatively charged, so the electric force acts opposite to the field and moves it towards higher electric potential. The field does positive work as the electron accelerates, increasing its kinetic energy. By energy conservation, its electric potential energy decreases.",
+      "perOption": {
+        "A": "Assumes increasing electric potential also increases the potential energy of a negative charge.",
+        "B": "Correct.",
+        "C": "Treats the electron as moving along the field and gaining potential energy as it accelerates.",
+        "D": "Assumes the electron follows the field towards lower potential, even though the force on it is opposite to the field."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.i",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires tracking the motion of a negative charge and the associated energy transfer.",
+    "misconception": "Assuming a negative charge moves toward lower potential",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q20",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In one period, one elementary charge passes a given point on the orbit. With $\\omega=4.1\\times10^{16}\\ \\mathrm{rad\\,s^{-1}}$, the period is $T=2\\pi/\\omega$. The average current is $I=e/T=(1.60\\times10^{-19})/(2\\pi/\\omega)\\approx1.0\\times10^{-3}\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Multiplies charge by the period instead of dividing by it.",
+        "B": "Gives the elementary charge without accounting for how often it passes the point.",
+        "C": "Multiplies charge by orbital speed instead of revolutions per second.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "currents.a",
+      "circular-motion.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the period from angular speed and counting the charge that passes in one revolution.",
+    "misconception": "Using orbital speed instead of revolution frequency",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q21",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resistance at each point is the ratio $R=V/I$. The larger resistance at X is $V_X/I_X$, and the smaller resistance at Y is $V_Y/I_Y$. The decrease is therefore $V_X/I_X-V_Y/I_Y$.",
+      "perOption": {
+        "A": "Assumes the straight line implies constant $V/I$ even though it misses the origin.",
+        "B": "Finds the reciprocal gradient between X and Y instead of the decrease in $V/I$.",
+        "C": "Correct.",
+        "D": "Subtracts the voltage intercept before calculating the ratios, effectively comparing reciprocal gradients."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing static resistance from the reciprocal slope of a straight line with a nonzero intercept.",
+    "misconception": "Taking reciprocal I–V gradient as resistance",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q22",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the bottom wire to be at $0\\ \\mathrm{V}$. By potential division, each $800\\ \\Omega$ resistor has a drop of $\\frac{800}{800+800}(12)=6\\ \\mathrm{V}$, so Y is at $+6\\ \\mathrm{V}$. X is also at $+6\\ \\mathrm{V}$. The potential difference across the connecting wire is zero, so $V=IR$ gives zero current through it.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats a $6\\ \\mathrm{V}$ source as driving current through a $900\\ \\Omega$ series path involving the wire, overlooking equal midpoint potentials.",
+        "C": "Gives the current through the $800\\ \\Omega$ resistors instead of through the connecting wire.",
+        "D": "Uses $6\\ \\mathrm{V}$ as the voltage across the wire, although both ends are at $6\\ \\mathrm{V}$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the potential of both midpoints before applying Ohm’s law to the connecting wire.",
+    "misconception": "Using a supply voltage as the bridge voltage",
+    "transcription": "In the circuit shown, a wire of resistance $100\\ \\Omega$ is used to make a connection between points X and Y.\n\n[The left branch has two $6\\ \\mathrm{V}$ batteries in series, with both positive terminals facing up and X at their junction. The right branch has two $800\\ \\Omega$ resistors in series, with Y at their junction. The branches share the top and bottom wires.]\n\nWhat is the current in this wire?\n\nA 0\nB $6.7\\ \\mathrm{mA}$\nC $7.5\\ \\mathrm{mA}$\nD $60\\ \\mathrm{mA}$"
+  }
+]

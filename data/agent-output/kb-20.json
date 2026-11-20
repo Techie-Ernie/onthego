@@ -1,0 +1,653 @@
+[
+  {
+    "id": "tmjc-2026-prelim-p1-q23",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "$V_T$ measures the fixed resistor’s voltage, so a high reading means a low voltage across the thermistor. This requires a low thermistor resistance, which occurs at high temperature.\n\n$V_L$ measures the LDR’s voltage, so a high reading requires a high LDR resistance, which occurs at low light level.",
+      "perOption": {
+        "A": "Low temperature raises the thermistor resistance and lowers $V_T$.",
+        "B": "Low temperature lowers $V_T$, and bright light lowers $V_L$.",
+        "C": "Correct. Both readings are high.",
+        "D": "Bright light lowers the LDR resistance and hence $V_L$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The two voltmeters measure different parts of their potential dividers.",
+    "misconception": "Assuming both voltmeters measure the variable resistor.",
+    "transcription": "In the circuit below, the reading $V_T$ on the voltmeter changes from high to low as the temperature of the thermistor changes. The reading $V_L$ on the voltmeter changes from high to low as the level of light on the light-dependent resistor changes.\n\n[Two potential dividers are connected across a central battery. The left branch has a thermistor above a fixed resistor, with voltmeter $V_T$ across the fixed resistor. The right branch has a fixed resistor above an LDR, with voltmeter $V_L$ across the LDR.]\n\nThe readings on $V_T$ and $V_L$ are both high.\n\nWhat are the conditions of temperature and light level?\n\nOption | temperature | light level\nA | low | low\nB | low | high\nC | high | low\nD | high | high"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q24",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron moves right, so the equivalent conventional current points left. With the field out of the paper, Fleming’s left-hand rule gives an upward force at entry. The force stays perpendicular to the motion, producing an upward-curving circular path.",
+      "perOption": {
+        "A": "Curves downward as a positive charge would.",
+        "B": "Shows a straight deflection even though the magnetic force continuously changes the direction of motion.",
+        "C": "Assumes zero force even though the electron moves perpendicular to the field.",
+        "D": "Correct. The electron initially curves upward."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.l"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must reverse the electron’s direction to apply Fleming’s left-hand rule.",
+    "misconception": "Treating electron motion as conventional current.",
+    "transcription": "An electron enters perpendicularly into a shaded region of uniform magnetic field directed out of paper.\n\nWhich of the options shows a possible path of the electron?\n\n[The electron enters the shaded rectangular region moving horizontally to the right. Path A curves downward, B goes straight diagonally downward, C goes straight horizontally and D curves upward. The region is labelled “uniform magnetic field out of the paper”.]"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q25",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the knife edge. At equilibrium the moment of the weight balances that of the magnetic force, so $(mg)q=(BIL)p$. Rearranging gives $B=\\frac{mgq}{ILp}$.",
+      "perOption": {
+        "A": "Uses the whole side length $p+q$ as the length of wire in the field.",
+        "B": "Uses the full side length $p+q$ and substitutes mass for weight.",
+        "C": "Correct. The weight and magnetic force produce equal opposing moments.",
+        "D": "Omits $g$ when converting the hanging mass to weight."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.h",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation combines magnetic force on a wire with the principle of moments.",
+    "misconception": "Using the full side length as the length in the field.",
+    "transcription": "An experiment is conducted to determine the magnetic flux density of a pair of magnets using a current balance.\n\nA square wire frame, of negligible mass, is supported horizontally on a knife edge so that XY of the frame lies perpendicular to a pair of magnets of length $L$. Current $I$ flows in the wire frame, while a mass $m$ is hung at a distance $q$ from the knife edge. The wire frame is in equilibrium when XY is at distance $p$ from the knife edge.\n\n[Side XY runs between two magnets over length $L$. The knife edge crosses the square frame parallel to XY. The mass $m$ hangs from the opposite side. The distances from XY to the knife edge and from the knife edge to the opposite side are $p$ and $q$, respectively. Current $I$ points right along the rear side and left along the front side.]\n\nWhich expression gives the magnetic flux density $B$ between the magnets?\n\nA $\\frac{mgq}{I(p+q)p}$\nB $\\frac{mq}{I(p+q)p}$\nC $\\frac{mgq}{ILp}$\nD $\\frac{mq}{ILp}$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q26",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the rotating disc, the centre-to-rim e.m.f. is $E=BAf=B\\pi r^2 f$. Q and S are both at radius $r/2$, where the enclosed area is one quarter of the disc area, so each centre-to-point e.m.f. has magnitude $E/4$. Along Q to O to S, the two radial e.m.f.s have opposite signs and cancel.",
+      "perOption": {
+        "A": "Correct. Q and S are at the same potential.",
+        "B": "Gives the e.m.f. between O and either midpoint.",
+        "C": "Adds the magnitudes along QOS even though the contributions have opposite signs.",
+        "D": "Uses the centre-to-rim e.m.f. for two points at the same radius."
+      }
+    },
+    "issues": "The question prints ‘placed is’ for ‘placed in’. The key’s opposite-polarity wording applies to traversing Q→O and O→S. Both points have the same polarity relative to O.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The rotating disc requires tracking the radial dependence and sign of the induced e.m.f.",
+    "misconception": "Adding the two centre-to-point e.m.f. magnitudes along QOS.",
+    "transcription": "An aluminum disc of radius $r$ rotates about its centre at a constant speed. The disc is placed is a uniform magnetic field perpendicular to its surface. A steady electromotive force (e.m.f.) $E$ is generated between the centre O and the rim at P.\n\n[The disc rotates clockwise. P, Q, O and S are collinear from left to right, with P at the left rim and O at the centre. The distance from P to O is $r$.]\n\nWhat is the e.m.f. generated between points Q and S, each a distance $\\frac{r}{2}$ away from centre O?\n\nA zero\nB $\\frac{E}{4}$\nC $\\frac{E}{2}$\nD $E$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q27",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the ideal transformer, $\\frac{N_p}{N_s}=\\frac{V_p}{V_s}=\\frac{I_s}{I_p}=\\frac{120}{4.0}=30$. Hence $N_p=30(240)=7200$ turns. The output voltage is $V_s=450/30=15\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Inverts the current ratio for both the turns and the voltage.",
+        "B": "Gets the voltage right but inverts the turns ratio.",
+        "C": "Gets the turns right but multiplies $V_p$ by 30.",
+        "D": "Correct. The primary has 7200 turns and the output is 15 V."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "One transformer ratio gives both requested values with straightforward arithmetic.",
+    "misconception": "Inverting the current ratio.",
+    "transcription": "The following circuit was set up to test a transformer. The input a.c. voltage $V_p$ is 450 V, with a current $I_p$ of 4.0 mA. The number of turns in the secondary coil, $N_s$ is 240 with a current $I_s$ of 120 mA.\n\n[The primary coil $N_p$ and its ammeter are connected to the a.c. input $V_p$. The secondary coil $N_s$ has its own series ammeter and output terminals labelled $V_s$. The currents are labelled $I_p$ and $I_s$.]\n\nThe transformer was 100% efficient.\n\nWhat is the number of turns in the primary coil, $N_p$ and output a.c. voltage, $V_s$?\n\nOption | $N_p$ | $V_s$\nA | 8 | 13500\nB | 8 | 15\nC | 7200 | 13500\nD | 7200 | 15"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q28",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both particles start from rest and gain kinetic energy $K=|q||\\Delta V|$. The charge magnitudes and the magnitudes of the potential differences are equal, giving equal kinetic energies. Combining $\\lambda=h/p$ with $p^2/(2m)=K$ gives $\\lambda=h/\\sqrt{2m|q||\\Delta V|}$. The heavier proton therefore has the shorter wavelength.",
+      "perOption": {
+        "A": "Assigns the electron more energy and reverses the wavelength comparison.",
+        "B": "Assigns the proton more energy even though both particles gain equal energy.",
+        "C": "Reverses the momentum comparison at fixed kinetic energy.",
+        "D": "Correct. The lighter electron has the longer wavelength."
+      }
+    },
+    "issues": "The key describes the charges as the same. Their magnitudes are equal and their signs are opposite.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The comparison links energy gained through a potential difference to momentum and wavelength.",
+    "misconception": "Assuming equal kinetic energies imply equal momenta.",
+    "transcription": "An electron and a proton are both accelerated from rest through the same electric potential difference.\n\nWhich row correctly compares the kinetic energy and the de Broglie wavelength of the electron and proton after the acceleration?\n\nOption | kinetic energy | de Broglie wavelength\nA | electron has greater energy | proton has longer wavelength\nB | proton has greater energy | electron has longer wavelength\nC | both have the same energy | proton has longer wavelength\nD | both have the same energy | electron has longer wavelength"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q29",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From 0 to 50 s the measured count rate falls by $72-40=32\\ \\mathrm{Bq}$. Only the source contribution decays, so the drop halves in each successive half-life. From 50 to 100 s it falls by $16\\ \\mathrm{Bq}$ to $24\\ \\mathrm{Bq}$, then from 100 to 150 s by $8\\ \\mathrm{Bq}$ to $16\\ \\mathrm{Bq}$.",
+      "perOption": {
+        "A": "Gives the source contribution at 150 s and omits the background.",
+        "B": "Correct. The measured rate is 16 Bq.",
+        "C": "Stops at the count rate for 100 s.",
+        "D": "Uses the first 50 s drop as the final count rate."
+      }
+    },
+    "issues": "The paper labels measured count rate in Bq, and the key calls it activity. Detector count rate is conventionally stated in counts per unit time.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must halve successive drops because the measured rate includes a constant background.",
+    "misconception": "Applying the half-life to the measured total.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q30",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Along the chain, each alpha decay reduces the mass number by 4 and the proton number by 2, and each beta-minus decay increases the proton number by 1. The final nuclide shown is lead-212 with proton number 82, giving $212-82=130$ neutrons.",
+      "perOption": {
+        "A": "Correct. Lead-212 has 130 neutrons.",
+        "B": "Gives the neutron number before the last two alpha decays.",
+        "C": "Gives the lead mass number instead of its neutron number.",
+        "D": "Gives the mass number of the radon intermediate."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.c",
+      "nuclear-physics.m",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track both nucleon and proton numbers through several decays.",
+    "misconception": "Reading mass number as neutron number.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q1",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Equate the base units in $E=Q^n/(2k)$. This gives $\\mathrm{kg\\,m^2\\,s^{-2}}=(\\mathrm{A^n\\,s^n})/(\\mathrm{A^2\\,s^4\\,kg^{-1}\\,m^{-2}})$. The ampere exponent on the right is $n-2$, so $n=2$.",
+      "perOption": {
+        "A": "Leaves an ampere exponent of $-4$.",
+        "B": "Leaves an ampere exponent of $-3$.",
+        "C": "Leaves an ampere exponent of $-1$.",
+        "D": "Correct. Squaring the charge cancels the ampere units."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must express energy and charge in base units and match exponents.",
+    "misconception": "Inverting the units of charge rather than cancelling the current units.",
+    "transcription": "The energy $E$ stored in a certain electronic component is given by\n\n$E=\\frac{Q^n}{2k}$\n\nwhere $Q$ is the total charge in the component, $n$ is an unknown integer and $k$ is a physical quantity with SI base units $\\mathrm{A^2\\,s^4\\,kg^{-1}\\,m^{-2}}$.\n\nWhat is the value of $n$?\n\nA $-2$\nB $-1$\nC $1$\nD $2$"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q2",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Y is height: it starts above zero with zero slope, and the magnitude of its slope increases to the constant terminal speed. Z is speed: it starts at zero and levels off at terminal speed. X is the resultant force: it starts at the weight because drag is initially zero, then falls to zero as drag rises to equal the weight.",
+      "perOption": {
+        "A": "Assigns Y to speed even though it starts above zero, and Z to force even though it starts at zero.",
+        "B": "Uses X for height even though it starts with a steep slope, and Y for force even though it fails to fall to zero as Z levels off.",
+        "C": "Uses Z for height even though it starts at zero, and Y for speed even though it starts above zero.",
+        "D": "Correct. Height, speed and resultant force correspond to Y, Z and X respectively."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c",
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Identifying the curves requires relating speed to the height gradient and drag to resultant force.",
+    "misconception": "Treating a falling height curve as a falling speed curve.",
+    "transcription": "An object is dropped at time $t=0$ s from a tall building. Air resistance is significant. Three graphs are plotted against time:\n\n• the height of the object above the ground\n• the speed of the object\n• the magnitude of the resultant force on the object.\n\n[Graph X starts at a positive value and falls steeply at first, flattening to zero. Graph Y starts at a positive value with a horizontal tangent, then falls with increasing steepness. Graph Z starts at zero, rises and levels off at a positive value. Each horizontal axis is labelled time.]\n\nWhat are the quantities X, Y and Z?\n\nOption | height of the object above the ground | speed of the object | magnitude of the resultant force on the object\nA | X | Y | Z\nB | X | Z | Y\nC | Z | Y | X\nD | Y | Z | X"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q3",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A person feels weightless in free fall when gravity alone acts on them. While the athlete clears the bar, gravity is the only appreciable force.",
+      "perOption": {
+        "A": "Correct. The athlete is in free fall.",
+        "B": "The water exerts an upward buoyant force.",
+        "C": "The parachute harness exerts an upward force on the parachutist.",
+        "D": "The seat exerts an upward normal force on the pilot."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student distinguishes free fall from situations where a contact force supports the person.",
+    "misconception": "Equating zero acceleration with weightlessness.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q4",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "If you push an object and static friction balances your push, the object stays still. With zero displacement, the work done against friction and the energy dissipated are both zero.",
+      "perOption": {
+        "A": "Work done against friction depends on the path taken.",
+        "B": "A falling object can hit the ground before reaching terminal speed.",
+        "C": "Friction between our feet and the ground allows us to move forward.",
+        "D": "Correct. Static friction can act while the object stays still."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "forces-and-moments.b",
+      "energy-and-fields.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "A stationary object under static friction supplies a counterexample to the claim that friction always dissipates energy.",
+    "misconception": "Assuming all friction dissipates energy.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q5",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Work is the component of the pulling force along the sled’s motion multiplied by the distance moved. Thus $W=(20.0\\cos 30^\\circ)(40)\\approx692.8\\ \\mathrm{J}$, which rounds to $690\\ \\mathrm{J}$ at the precision of the options.",
+      "perOption": {
+        "A": "Uses the vertical component $20.0sin30^circ$ for horizontal motion.",
+        "B": "Uses an effective horizontal force of about $12.3 mathrm{N}$, below the actual $20.0cos30^circ$.",
+        "C": "Correct. Only the horizontal force component does work on the sled.",
+        "D": "Uses the full $20.0 mathrm{N}$ without projecting it along the displacement."
+      }
+    },
+    "issues": "The key prints 692 J for an intermediate result of 692.82… J. The listed answer of 690 J is correct.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The calculation uses the component of a given force along a given displacement.",
+    "misconception": "Using the full pulling force for horizontal work.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q6",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The spring length increases from $7.5$ to $10.0\\ \\mathrm{cm}$ while the force increases from $3.0$ to $6.0\\ \\mathrm{N}$. The work is the trapezoidal area between the line and the length axis over that interval. This gives $W=\\tfrac12(3.0+6.0)(10.0-7.5)\\times10^{-2}=0.11\\ \\mathrm{J}$ to two significant figures.",
+      "perOption": {
+        "A": "Correct. The trapezoid uses the initial and final forces over the extra extension.",
+        "B": "Uses the final force of 6.0 N throughout the extra extension.",
+        "C": "Takes the area against the force axis using the mean length and the change in force.",
+        "D": "Takes the entire trapezoid against the force axis from 0 to 6.0 N."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish extension from total length and find the area against the correct axis.",
+    "misconception": "Treating length as extension or using the area against the force axis.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q7",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the string just slackens, its tension is zero, so the inward component of the weight provides the centripetal force. Thus $mg\\cos\\theta=mv_B^2/r$, giving $\\theta=\\cos^{-1}[2.2^2/(1.5\\times9.81)]=71^\\circ$.",
+      "perOption": {
+        "A": "Places the string almost vertical, where the radial component of weight would be too large.",
+        "B": "Uses the angle complementary to the one measured from the vertical.",
+        "C": "Correct. The radial component of weight alone supplies the centripetal force.",
+        "D": "Places the string too close to horizontal, giving too small a radial component of weight."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must recognise zero tension and resolve weight along the inward radius.",
+    "misconception": "Using the component of weight perpendicular to the radius.",
+    "transcription": "A stone attached to a light inextensible string at position A is given an initial push to the right. It subsequently moves in a vertical circle of radius $1.5\\ \\mathrm{m}$ and the string just slackens at position B when it makes an angle of $\\theta$ to the vertical.\n\n[The stone is at A at the bottom of a dashed circle and at B on its upper-right arc. The radius to B is $1.5\\ \\mathrm{m}$ and makes angle $\\theta$ with the upward vertical through the centre.]\n\nGiven that the velocity of the stone at position B is $2.2\\ \\mathrm{m\\,s^{-1}}$, what is $\\theta$?\n\nA $9^\\circ$\nB $19^\\circ$\nC $71^\\circ$\nD $81^\\circ$"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q8",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a circular orbit of radius $d$, gravity provides the centripetal force, so $GMm/d^2=mv^2/d$. This gives $v=\\sqrt{GM/d}$ and $K=\\tfrac12mv^2=GMm/(2d)$. Q is slower because its orbit is larger, but doubling both the satellite mass and the orbital radius leaves $K$ equal to $GMm/(2r)$ for each satellite.",
+      "perOption": {
+        "A": "Reverses the radius dependence of orbital speed.",
+        "B": "Overlooks the dependence of orbital speed on radius.",
+        "C": "Counts Q’s greater mass without accounting for its lower speed.",
+        "D": "Correct. Both satellites have the same mass-to-orbital-radius ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must derive the orbital speed dependence before comparing kinetic energies.",
+    "misconception": "Comparing kinetic energies using mass alone.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q9",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The displacement curve starts at its positive maximum, so velocity follows a negative sine curve and acceleration follows a negative cosine curve. At C the velocity is negative and the acceleration is positive, so the body is travelling and accelerating in opposite directions.",
+      "perOption": {
+        "A": "Velocity and acceleration are both negative.",
+        "B": "Acceleration is zero as the body passes through equilibrium.",
+        "C": "Correct. The velocity is negative and the acceleration is positive.",
+        "D": "Velocity is zero at the turning point."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare the slope of the displacement graph with the direction of the restoring acceleration.",
+    "misconception": "Reading the sign of displacement as the sign of acceleration.",
+    "transcription": "The diagram shows the graph of displacement against time for a body performing simple harmonic motion. At which time, A, B, C or D is the body travelling and accelerating in the opposite direction?\n\n[The displacement–time graph starts near a positive maximum, falls through zero, reaches a negative minimum and rises back through zero towards a positive maximum. A is on the descending curve above zero, B is at the descending zero crossing, C is on the descending curve below zero and D is at the negative minimum.]"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q10",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From the graph, $U=1.0\\ \\mathrm{J}$ at $x=0.2\\ \\mathrm{m}$. Using the SHM energy relation and $\\omega=2\\pi/T$ gives $1.0=\\tfrac12(4.0)(2\\pi/T)^2(0.2)^2$. Solving gives $T=1.78\\ \\mathrm{s}$, or $1.8\\ \\mathrm{s}$ to two significant figures.",
+      "perOption": {
+        "A": "Gives a period that predicts a potential energy far above 1.0 J at the marked displacement.",
+        "B": "Halves the calculated full period.",
+        "C": "Correct. The energy–position pair gives a period of about 1.8 s.",
+        "D": "Is consistent with omitting the factor of one half in the energy formula."
+      }
+    },
+    "issues": "The key uses total-energy notation with amplitude. The graph supplies a potential-energy value at a displacement, which gives the same calculation directly.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read an energy–position pair and connect it to angular frequency and period.",
+    "misconception": "Using the full horizontal span as the displacement.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q11",
+    "keyPage": 11,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The period is $T=1/f=1/20\\ \\mathrm{s}=50\\ \\mathrm{ms}$. The wavelength spans eight divisions, and the right-moving zero crossing immediately to the left of Q is one division away. This is a phase difference of $\\Delta\\phi=2\\pi/8=\\pi/4$, so $\\Delta t=(\\Delta\\phi/2\\pi)T=6.25\\ \\mathrm{ms}$.",
+      "perOption": {
+        "A": "Correct. The first zero crossing reaches Q in one eighth of a period.",
+        "B": "Uses the zero crossing three divisions to the right of Q, which moves away.",
+        "C": "Uses the second zero crossing to arrive, five divisions to the left of Q.",
+        "D": "Uses seven eighths of a period for a shift of only one division."
+      }
+    },
+    "issues": "The key calls the upstream zero crossing P, but the diagram labels only Q.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the direction of travel to identify which zero crossing will reach Q first.",
+    "misconception": "Using the nearest crossing on the wrong side of Q.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q12",
+    "keyPage": 12,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Malus’ law the detected intensity is $I_0\\cos^2\\theta$, where $I_0$ is the reading for parallel axes. A 36% reduction leaves $0.64I_0$, so $\\cos^2\\theta=0.64$. This gives $\\theta=36.9^\\circ$, or about $37^\\circ$.",
+      "perOption": {
+        "A": "Transmits about 85% of the original reading, a drop of only about 15%.",
+        "B": "Correct. About 64% of the original reading remains.",
+        "C": "Transmits about 41% of the original reading, a drop of about 59%.",
+        "D": "Treats the 36% lost as the fraction transmitted."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires converting the percentage reduction to a transmitted fraction before applying Malus’ law.",
+    "misconception": "Using the percentage lost as the percentage transmitted.",
+    "transcription": null
+  }
+]

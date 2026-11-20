@@ -10,3 +10,6 @@ data/ingest-report.json
 PROMPT.md
 node_modules
 .next
+.env*
+!.env.example
+tsconfig.tsbuildinfo

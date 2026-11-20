@@ -1,0 +1,18 @@
+[
+ {
+  "id": "asrjc-2026-prelim-p1-q3",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Vertically the bomb starts with zero velocity: $500 = \\tfrac{1}{2}(9.81)t^2$, so $t = 10.1\\ \\mathrm{s}$ to reach sea level.\n\nIn that time the bomb moves $138 \\times 10.1 = 1394\\ \\mathrm{m}$ horizontally, while the ship moves $12 \\times 10.1 = 121\\ \\mathrm{m}$ further away.\n\nSo the bomb must be released when the horizontal separation is $1394 - 121 \\approx 1270\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Uses the bomb's horizontal range minus the ship's motion incorrectly (too small a separation).",
+    "B": "Correct. Bomb's horizontal range minus the distance the ship moves during the fall.",
+    "C": "Ignores the ship's motion: this is just the bomb's horizontal range of about 1390 m.",
+    "D": "Adds the ship's displacement instead of subtracting it, though the ship moves in the same direction as the bomb."
+   }
+  },
+  "issues": "Explanation written by the orchestrator from the school's worked solution (Codex declined this item)."
+ }
+]

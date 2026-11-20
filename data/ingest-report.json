@@ -187,8 +187,8 @@
     "duplicatesRemoved": 3,
     "published": 445,
     "needsReview": 2,
-    "classified": 20,
-    "withExplanation": 19
+    "classified": 447,
+    "withExplanation": 447
   },
   "renderModes": {
     "text": 109,
@@ -211,32 +211,39 @@
     "table-options": 54,
     "stem": 347,
     "content-below-options": 17,
-    "agent-note": 2,
-    "explanation-low-confidence": 1,
-    "unclassified": 427,
+    "agent-note": 110,
+    "explanation-disagrees-with-key": 3,
+    "explanation-low-confidence": 9,
     "options-not-found": 22,
     "option-X-cell-crop": 92,
     "has-duplicates": 3,
     "shared-context": 2,
     "spans-pages": 4,
-    "near-duplicate-different-answer": 2,
-    "answer-missing": 2
+    "near-duplicate-different-answer": 2
   },
   "lowConfidence": [
     {
       "id": "acjc-2026-prelim-p1-q16",
       "flags": [
         "content-below-options",
+        "image-fallback"
+      ]
+    },
+    {
+      "id": "acjc-2026-prelim-p1-q28",
+      "flags": [
+        "stem:unmapped-glyph",
+        "stem:math-font:SymbolMT",
         "image-fallback",
-        "agent-note"
+        "agent-note",
+        "explanation-disagrees-with-key"
       ]
     },
     {
       "id": "asrjc-2026-prelim-p1-q7",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -248,24 +255,21 @@
         "stem:wide-gap",
         "stem:stacked-lines",
         "stem:fraction-rule",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "asrjc-2026-prelim-p1-q23",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "cjc-2026-prelim-p1-q11",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -273,39 +277,54 @@
       "flags": [
         "options-not-found",
         "stem:math-font:CambriaMath",
+        "image-fallback"
+      ]
+    },
+    {
+      "id": "dhs-2026-prelim-p1-q8",
+      "flags": [
+        "shared-context",
+        "spans-pages",
+        "table-options",
         "image-fallback",
-        "unclassified"
+        "agent-note",
+        "explanation-disagrees-with-key"
+      ]
+    },
+    {
+      "id": "dhs-2026-prelim-p1-q15",
+      "flags": [
+        "stem:stacked-lines",
+        "image-fallback",
+        "agent-note",
+        "explanation-disagrees-with-key"
       ]
     },
     {
       "id": "dhs-2026-prelim-p1-q27",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "jpjc-2026-prelim-p1-q20",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "jpjc-2026-prelim-p1-q25",
       "flags": [
-        "content-below-options",
-        "unclassified"
+        "content-below-options"
       ]
     },
     {
       "id": "mi-2026-prelim-p1-q2",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -315,8 +334,7 @@
         "stem:unmapped-glyph",
         "stem:math-font:SymbolMT",
         "stem:wide-gap",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -325,7 +343,7 @@
         "content-below-options",
         "stem:stacked-lines",
         "image-fallback",
-        "unclassified"
+        "agent-note"
       ]
     },
     {
@@ -333,8 +351,7 @@
       "flags": [
         "options-not-found",
         "stem:math-font:CambriaMath",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -342,24 +359,21 @@
       "flags": [
         "options-not-found",
         "stem:math-font:CambriaMath",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "nyjc-2026-prelim-p1-q14",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "nyjc-2026-prelim-p1-q15",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -367,7 +381,7 @@
       "flags": [
         "table-options",
         "image-fallback",
-        "unclassified",
+        "agent-note",
         "near-duplicate-different-answer"
       ]
     },
@@ -377,8 +391,7 @@
         "options-not-found",
         "stem:unmapped-glyph",
         "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -386,72 +399,47 @@
       "flags": [
         "options-not-found",
         "image-fallback",
-        "unclassified"
+        "agent-note"
       ]
     },
     {
       "id": "sajc-2026-prelim-p1-q12",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "sajc-2026-prelim-p1-q13",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "sajc-2026-prelim-p1-q26",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
-      ]
-    },
-    {
-      "id": "tjc-2026-prelim-p1-q23",
-      "flags": [
-        "answer-missing",
-        "unclassified"
-      ]
-    },
-    {
-      "id": "tjc-2026-prelim-p1-q30",
-      "flags": [
-        "stem:small-fragment",
-        "stem:math-font:SymbolMT",
-        "stem:wide-gap",
-        "stem:stacked-rows",
-        "stem:stacked-lines",
-        "image-fallback",
-        "answer-missing",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q3",
       "flags": [
-        "content-below-options",
-        "unclassified"
+        "content-below-options"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q6",
       "flags": [
         "content-below-options",
-        "unclassified"
+        "agent-note"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q8",
       "flags": [
-        "content-below-options",
-        "unclassified"
+        "content-below-options"
       ]
     },
     {
@@ -460,16 +448,14 @@
         "content-below-options",
         "stem:unmapped-glyph",
         "stem:math-font:SymbolMT",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q12",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -479,14 +465,13 @@
         "stem:unmapped-glyph",
         "stem:math-font:SymbolMT",
         "image-fallback",
-        "unclassified"
+        "agent-note"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q15",
       "flags": [
-        "content-below-options",
-        "unclassified"
+        "content-below-options"
       ]
     },
     {
@@ -498,15 +483,14 @@
         "stem:stacked-rows",
         "stem:stacked-lines",
         "stem:fraction-rule",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q19",
       "flags": [
         "content-below-options",
-        "unclassified"
+        "agent-note"
       ]
     },
     {
@@ -518,8 +502,7 @@
         "stem:stacked-rows",
         "stem:stacked-lines",
         "stem:fraction-rule",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -527,24 +510,21 @@
       "flags": [
         "content-below-options",
         "table-options",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q24",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q25",
       "flags": [
         "content-below-options",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
@@ -554,15 +534,13 @@
         "table-options",
         "stem:wide-gap",
         "stem:fraction-rule",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "tmjc-2026-prelim-p1-q30",
       "flags": [
-        "content-below-options",
-        "unclassified"
+        "content-below-options"
       ]
     },
     {
@@ -572,7 +550,6 @@
         "stem:math-font:SymbolMT",
         "stem:fraction-rule",
         "image-fallback",
-        "unclassified",
         "near-duplicate-different-answer"
       ]
     },
@@ -580,23 +557,20 @@
       "id": "vjc-2026-prelim-p1-q9",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     },
     {
       "id": "vjc-2026-prelim-p1-q30",
       "flags": [
-        "content-below-options",
-        "unclassified"
+        "content-below-options"
       ]
     },
     {
       "id": "yijc-2026-prelim-p1-q2",
       "flags": [
         "options-not-found",
-        "image-fallback",
-        "unclassified"
+        "image-fallback"
       ]
     }
   ],
@@ -638,70 +612,105 @@
     "files": 672,
     "totalBytes": 11793980,
     "perShard": {
-      "_unclassified": {
-        "questions": 427,
-        "jsonBytes": 637318,
-        "assetBytes": 11283760
+      "circuits": {
+        "questions": 30,
+        "jsonBytes": 74732,
+        "assetBytes": 693298
       },
       "circular-motion": {
-        "questions": 1,
-        "jsonBytes": 2024,
-        "assetBytes": 0
+        "questions": 18,
+        "jsonBytes": 44389,
+        "assetBytes": 419684
+      },
+      "collisions": {
+        "questions": 13,
+        "jsonBytes": 35877,
+        "assetBytes": 284814
+      },
+      "currents": {
+        "questions": 17,
+        "jsonBytes": 40157,
+        "assetBytes": 285858
       },
       "electric-fields": {
-        "questions": 2,
-        "jsonBytes": 4612,
-        "assetBytes": 79336
+        "questions": 30,
+        "jsonBytes": 80005,
+        "assetBytes": 784928
+      },
+      "electromagnetic-forces": {
+        "questions": 23,
+        "jsonBytes": 62221,
+        "assetBytes": 728636
+      },
+      "electromagnetic-induction": {
+        "questions": 25,
+        "jsonBytes": 65702,
+        "assetBytes": 917802
       },
       "energy-and-fields": {
-        "questions": 1,
-        "jsonBytes": 2695,
-        "assetBytes": 53464
+        "questions": 24,
+        "jsonBytes": 56910,
+        "assetBytes": 647782
       },
       "forces-and-moments": {
-        "questions": 2,
-        "jsonBytes": 5816,
-        "assetBytes": 32032
+        "questions": 19,
+        "jsonBytes": 48494,
+        "assetBytes": 416598
       },
       "gravitational-fields": {
-        "questions": 2,
-        "jsonBytes": 5032,
-        "assetBytes": 58686
+        "questions": 23,
+        "jsonBytes": 56869,
+        "assetBytes": 630916
       },
       "motion-and-forces": {
-        "questions": 1,
-        "jsonBytes": 2359,
-        "assetBytes": 12578
+        "questions": 26,
+        "jsonBytes": 66702,
+        "assetBytes": 696078
+      },
+      "nuclear-physics": {
+        "questions": 28,
+        "jsonBytes": 67927,
+        "assetBytes": 903084
       },
       "oscillations": {
-        "questions": 2,
-        "jsonBytes": 5069,
-        "assetBytes": 2780
+        "questions": 21,
+        "jsonBytes": 51443,
+        "assetBytes": 429886
       },
       "projectile-motion": {
-        "questions": 1,
-        "jsonBytes": 2636,
-        "assetBytes": 44892
+        "questions": 13,
+        "jsonBytes": 33761,
+        "assetBytes": 520770
       },
       "quantities-and-measurement": {
-        "questions": 1,
-        "jsonBytes": 2037,
-        "assetBytes": 0
+        "questions": 22,
+        "jsonBytes": 49884,
+        "assetBytes": 461802
+      },
+      "quantum-physics": {
+        "questions": 27,
+        "jsonBytes": 65718,
+        "assetBytes": 810036
       },
       "superposition": {
-        "questions": 3,
-        "jsonBytes": 7579,
-        "assetBytes": 82830
+        "questions": 28,
+        "jsonBytes": 68323,
+        "assetBytes": 649004
       },
       "temperature-and-ideal-gases": {
-        "questions": 2,
-        "jsonBytes": 5008,
-        "assetBytes": 82610
+        "questions": 20,
+        "jsonBytes": 49472,
+        "assetBytes": 390062
+      },
+      "thermodynamic-systems": {
+        "questions": 20,
+        "jsonBytes": 51013,
+        "assetBytes": 417020
       },
       "wave-motion": {
-        "questions": 2,
-        "jsonBytes": 5222,
-        "assetBytes": 61012
+        "questions": 20,
+        "jsonBytes": 50470,
+        "assetBytes": 705922
       }
     }
   }

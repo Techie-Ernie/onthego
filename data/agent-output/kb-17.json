@@ -1,0 +1,645 @@
+[
+  {
+    "id": "sajc-2026-prelim-p1-q23",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $300\\ \\mathrm{V}$, the stored charge is $Q=CV=(20\\times10^{-6})(300)\\ \\mathrm{C}$. The current is constant, so $Q=It$ gives $t=(20\\times10^{-6})(300)/(10\\times10^{-3})=0.60\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Treats $10 mathrm{mA}$ as $10 mathrm{A}$.",
+        "B": "Correct.",
+        "C": "Does not use the charge required at $300 mathrm{V}$ divided by the given charging current.",
+        "D": "Does not satisfy $It=CV$ for the specified voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electric-fields.j",
+      "currents.a"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It uses two short charge equations and a unit conversion.",
+    "misconception": "Confusing milliampere and ampere",
+    "transcription": "A $20\\ \\mu\\mathrm{F}$ capacitor is charged by a constant current of $10\\ \\mathrm{mA}$.\n\nIf the capacitor is initially uncharged, how long does it take for the potential difference across the capacitor to reach $300\\ \\mathrm{V}$?\n\nA $6.0\\times10^{-4}\\ \\mathrm{s}$\nB $0.60\\ \\mathrm{s}$\nC $15\\ \\mathrm{s}$\nD $1.5\\times10^{4}\\ \\mathrm{s}$"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q24",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a long straight wire, $B=\\mu_0 I/(2\\pi r)$, so for the adjacent wires X and Y the force per unit length $F$ is proportional to $2I^2/r$. On Z, X gives an attractive force per unit length proportional to $4I^2/(2r)$, equal to $F$, and Y gives a repulsive one proportional to $8I^2/r$, equal to $4F$. These act in opposite directions, so the resultant is $4F-F=3F$.",
+      "perOption": {
+        "A": "Assumes the opposing forces have equal magnitudes.",
+        "B": "Counts only the attraction towards X.",
+        "C": "Treats X and Z as adjacent, giving an attraction of $2F$ instead of $F$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The two current products, separations and force directions must all be compared.",
+    "misconception": "Ignoring force direction or wire separation",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q25",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Fleming’s left-hand rule gives a magnetic field directed out of the plane of the paper. After the rotation, the current remains in the plane of the paper and perpendicular to the field, so the force still has magnitude $F$.",
+      "perOption": {
+        "A": "An inward field would give an upward force in the initial diagram.",
+        "B": "Reverses the field and uses the rotation angle as the angle between current and field.",
+        "C": "Correct.",
+        "D": "Uses the rotation angle as the angle between current and field."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It combines Fleming’s left-hand rule with recognition that the angle to the field stays at a right angle.",
+    "misconception": "Using the angle to the horizontal in the magnetic force formula",
+    "transcription": "A conductor is placed in a uniform magnetic field perpendicular to the plane of the paper. A force $F$ acts on the conductor when there is a current in the conductor as shown.\n\n[The initial conductor is horizontal. The current arrow points right and the force arrow labelled $F$ points down.]\n\nThe conductor is rotated $30^\\circ$ about the axis of the magnetic field.\n\n[The rotated conductor is inclined at $30^\\circ$ above the horizontal, with current directed up and to the right.]\n\nWhat is the direction of the magnetic field and what is the magnitude of the force on the conductor after the rotation?\n\nDirection of magnetic field | Magnitude of force\nA Into the plane of the paper | $F$\nB Into the plane of the paper | $F/2$\nC Out of the plane of the paper | $F$\nD Out of the plane of the paper | $F/2$"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q26",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The same magnetic flux $\\Phi$ passes through the soft-iron ring at all four coils. Since $\\Phi=BA$, the variation in $B$ is greatest where the core area is smallest, at C. The number of turns affects the induced emf through flux linkage.",
+      "perOption": {
+        "A": "The wider core at A gives a smaller variation in flux density.",
+        "B": "Being connected to the supply does not give B the smallest core area.",
+        "C": "Correct.",
+        "D": "The extra turn affects flux linkage, while D has a larger core area than C."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires distinguishing flux density from flux and flux linkage in a variable-area core.",
+    "misconception": "Confusing flux density with flux linkage",
+    "transcription": "A soft-iron ring of variable cross-section has four coils wound round it at the positions shown. The coils have 2, 3, 4 and 5 turns. The 3-turn coil is connected to an a.c. supply.\n\nIn which coil does the magnitude of the magnetic flux density have the greatest variation?\n\n[The ring has a 2-turn coil A at the wider lower-left section, a 3-turn coil B on the left connected to an a.c. supply, a 4-turn coil C at the narrowest section at the top, and a 5-turn coil D on the right.]"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q27",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The ideal transformer has no power loss, so the primary transfers $20\\ \\mathrm{W}$. With the assumed unity power factor, $P_{\\mathrm p}=V_{\\mathrm p}I_{\\mathrm p}$ gives $20=V_{\\mathrm p}(2.0)$ and $V_{\\mathrm p}=10\\ \\mathrm{V}$. The turns ratio is $N_{\\mathrm p}/N_{\\mathrm s}=V_{\\mathrm p}/V_{\\mathrm s}=10/50=1/5$.",
+      "perOption": {
+        "A": "Scales the power by the turns ratio, despite power conservation.",
+        "B": "Inverts the turns ratio obtained under the unity-power-factor assumption.",
+        "C": "Correct under the unity-power-factor assumption.",
+        "D": "Uses the secondary voltage with the primary current and overstates the transmitted power."
+      }
+    },
+    "issues": "The key assumes unity power factor (for example, a resistive load). The question does not specify the load or power factor. With a power factor of 0.04, B is also possible.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It combines power conservation, rms values and the transformer voltage ratio.",
+    "misconception": "Inverting the primary-to-secondary turns ratio",
+    "transcription": "The root mean square (rms) current in the primary coil of an ideal transformer is $2.0\\ \\mathrm{A}$. The rms voltage in the secondary coil is $50\\ \\mathrm{V}$. The average power transferred from the secondary coil is $20\\ \\mathrm{W}$.\n\nWhat is $N_{\\mathrm p}/N_{\\mathrm s}$ and what is the average power transferred from the primary coil?\n\n$N_{\\mathrm p}/N_{\\mathrm s}$ | Average power transferred from the primary coil / W\nA $1/5$ | $4.0$\nB $5$ | $20$\nC $1/5$ | $20$\nD $5$ | $100$"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q28",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "An incident electron can raise the atom’s energy from $-13.6\\ \\mathrm{eV}$ to at most $-13.6+12.9=-0.7\\ \\mathrm{eV}$. The highest accessible level is $-0.85\\ \\mathrm{eV}$. The four accessible levels give six possible downward transitions, so at most six emission lines can be observed.",
+      "perOption": {
+        "A": "Assumes excitation requires the incident electron to give up its entire kinetic energy.",
+        "B": "Counts only three transitions, for example those ending at the ground state.",
+        "C": "Correct.",
+        "D": "Includes transitions from the inaccessible $-0.54\\ \\mathrm{eV}$ level."
+      }
+    },
+    "issues": "The key says the highest accessible level is just higher than −0.7 eV and then gives −0.85 eV. The accessible level is below −0.7 eV, and the keyed letter C is correct.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the highest accessible level and counting transitions between all accessible levels.",
+    "misconception": "Counting only transitions to the ground state",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q29",
+    "keyPage": 24,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Set the surviving populations equal using $N=N_0(1/2)^{t/t_{1/2}}$. Cancelling the common factor of $10^{12}$ gives $64(1/2)^{t/2}=8(1/2)^{t/3}$, with $t$ in days. Thus $(1/2)^{t/2-t/3}=2^{3-6}$, so $t/6=3$ and $t=18$ days.",
+      "perOption": {
+        "A": "Allows for a difference of only one half-life, leaving P with four times as many nuclei as Q.",
+        "B": "Allows for a difference of only 1.5 half-lives, leaving more P nuclei than Q nuclei.",
+        "C": "Allows for a difference of only two half-lives, leaving twice as many P nuclei as Q nuclei.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The letter appears on page 23 and the worked solution continues on page 24.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires equating two decay laws with different half-lives and simplifying the powers.",
+    "misconception": "Confusing elapsed time with the number of half-lives",
+    "transcription": "A radioactive source consists of $64\\times10^{12}$ atoms of nuclide P of half-life 2 days. Another source consists of $8\\times10^{12}$ atoms of nuclide Q of half-life 3 days. After how long will the number of undecayed nuclei in the two sources be equal?\n\nA 6 days\nB 9 days\nC 12 days\nD 18 days"
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q30",
+    "keyPage": 24,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Iron-56 has 56 nucleons, so its total binding energy is $8.8\\times56=492.8\\ \\mathrm{MeV}$. Forming the nucleus releases this energy, approximately $493\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Uses the energy per nucleon and reverses the direction of transfer.",
+        "B": "Uses the energy per nucleon as the total.",
+        "C": "Gives the energy needed to separate the nucleus into nucleons.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.r"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires scaling the binding energy per nucleon and identifying the direction of energy transfer.",
+    "misconception": "Confusing binding energy per nucleon with total binding energy",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Thermal energy $Q$ has SI base units $\\mathrm{kg\\,m^2\\,s^{-2}}$. From $k=(Q/t)L/[A(T_1-T_2)]$, the units of $k$ are $(\\mathrm{kg\\,m^2\\,s^{-2}})(\\mathrm{m\\,s^{-1}})/(\\mathrm{m^2\\,K})=\\mathrm{kg\\,m\\,s^{-3}\\,K^{-1}}$.",
+      "perOption": {
+        "A": "Uses degrees Celsius for the temperature difference in a base-unit expression.",
+        "B": "Correct.",
+        "C": "Uses degrees Celsius and fails to carry the inverse-square seconds from the energy unit through the calculation.",
+        "D": "Drops the inverse-square seconds from the energy unit."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.a",
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires expressing energy in base units and simplifying the units of the rearranged equation.",
+    "misconception": "Using degrees Celsius as an SI base unit",
+    "transcription": "A sample of material has cross-sectional area $A$ and length $L$. The temperatures at the two sides of the sample are $T_1$ and $T_2$. Thermal energy $Q$ is transferred through the sample in time $t$.\n\nThese quantities are related by\n\n$\\frac{Q}{t}=\\frac{k\\times A\\times(T_1-T_2)}{L}$\n\nWhat are the SI base units of $k$?\n\nA $\\mathrm{kg\\,m\\,s^{-3}}\\,{}^\\circ\\mathrm{C}^{-1}$\nB $\\mathrm{kg\\,m\\,s^{-3}\\,K^{-1}}$\nC $\\mathrm{kg\\,m\\,s^{-1}}\\,{}^\\circ\\mathrm{C}^{-1}$\nD $\\mathrm{kg\\,m\\,s^{-1}\\,K^{-1}}$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Estimate the handset volume as $0.10\\times0.25\\times0.010\\ \\mathrm{m^3}$, of order $10^{-4}\\ \\mathrm{m^3}$. An atom with diameter about $10^{-10}\\ \\mathrm{m}$ has volume of order $10^{-30}\\ \\mathrm{m^3}$. The ratio gives about $10^{-4}/10^{-30}=10^{26}$ atoms.",
+      "perOption": {
+        "A": "Underestimates how many atoms fit by using an atomic volume much too large.",
+        "B": "Correct.",
+        "C": "Would require atomic dimensions much smaller than the typical $10^{-10}\\ \\mathrm{m}$.",
+        "D": "Would require an atomic volume of order $10^{-41}\\ \\mathrm{m^3}$, far smaller than the estimate."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires estimating familiar lengths and converting them to volumes by powers of ten.",
+    "misconception": "Using an atomic length directly as an atomic volume",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For P the resultant force is zero, but the forces have a non-zero torque about the centre. For Q the torque about the centre vanishes, but there is a net upward force. For R the torque also vanishes, but the two upward components total only $2(50)\\cos30^\\circ$, leaving a net downward force.",
+      "perOption": {
+        "A": "Misses P’s net torque and Q’s upward resultant force.",
+        "B": "Misses P’s net torque and assumes the inclined forces on R balance the downward force.",
+        "C": "Assumes Q and R are in equilibrium because their torques vanish, overlooking their vertical resultants.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key says R has an upward resultant. Its resultant is downward because 2 × 50 cos 30° < 100 N. D remains correct.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.e",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires checking both force and torque balance separately for three configurations.",
+    "misconception": "Equating zero resultant force with equilibrium",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q4",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $N$ be the reaction of the sloping plane and $F$ that of the vertical plane. Vertical equilibrium gives $N\\sin60^\\circ=mg$, and horizontal equilibrium gives $N\\cos60^\\circ=F$. Dividing gives $F=mg\\cot60^\\circ=1.5(9.81)\\cot60^\\circ=8.5\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Omits the wall reaction needed to balance the horizontal component of the sloping plane’s reaction.",
+        "B": "Correct.",
+        "C": "Uses the sphere’s weight as the wall reaction.",
+        "D": "Calculates the full reaction of the sloping plane."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires resolving the sloping plane’s normal reaction and applying equilibrium in two directions.",
+    "misconception": "Confusing the two normal reactions",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q5",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnitude of the momentum–time gradient is $(2.7-1.5)/0.40=3.0\\ \\mathrm{N}$, giving the magnitude of the resultant force. Momentum decreases, so the resultant acts opposite to the motion. Thus $5.0-F=3.0$ and $F=2.0\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Takes the magnitude of the resultant as the applied force.",
+        "C": "Assumes the applied and resistive forces balance despite the falling momentum.",
+        "D": "Adds the resultant magnitude to the resistive force, giving a resultant in the direction of motion."
+      }
+    },
+    "issues": "The letter appears on page 1 and the worked solution continues on page 2.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires reading the momentum gradient and using its sign in a force balance.",
+    "misconception": "Confusing resultant force with an individual force",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q6",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $h$ be the total rise and $v$ the speed at the start of the final second. Over that second, $0=v^2-2g(0.25h)$ and $0=\\sqrt{0.50gh}-g(1)$, giving $h=19.62\\ \\mathrm{m}$. For the whole ascent, $0=u^2-2(9.81)(19.62)$ gives the launch speed $u=19.62\\ \\mathrm{m\\,s^{-1}}$. The ascent time $T$ then follows from $0=19.62-9.81T$, so $T=2.00\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Adds 25% of a second to the final second, confusing a distance fraction with a time increment.",
+        "B": "This time makes the final second cover about 44% of the rise, from the constant-acceleration distance relation.",
+        "C": "This time makes the final second cover about 36% of the rise, from the constant-acceleration distance relation.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It requires linking the last second and the whole ascent through their shared endpoint at zero speed.",
+    "misconception": "Assuming distance is proportional to time during the ascent",
+    "transcription": "A man throws a ball vertically upwards. The ball travels $25\\%$ of the total distance from the hand to the maximum height in the last second of its ascent.\n\nWhat is the time of the ascent given that the effects due to air resistance are negligible?\n\nA $1.25\\ \\mathrm{s}$\nB $1.50\\ \\mathrm{s}$\nC $1.67\\ \\mathrm{s}$\nD $2.00\\ \\mathrm{s}$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The balls start with equal total mechanical energy and there are no resistive forces, so their final total mechanical energies are equal. They undergo the same net energy conversion between X and Y, and ball 2 takes less time, so it has the higher average rate of conversion.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assigns extra energy to ball 2 and credits the slower ball with the higher average rate.",
+        "C": "Confuses ball 2’s higher rate of energy conversion with a higher final total energy.",
+        "D": "Assigns the higher rate to the ball that takes longer to undergo the same net energy conversion."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires comparing conserved energy separately from energy converted per unit time.",
+    "misconception": "Confusing energy transferred with its rate of transfer",
+    "transcription": "Two identical balls were released simultaneously from rest at X and made their way to Y along two different tracks on the same vertical plane as shown in Fig. 7. Ball 1 travels along a straight down-slope track while ball 2 travels along a curve down-slope followed by an up-slope track. Ball 2 reaches Y first.\n\n[Fig. 7 shows X above and to the left of Y. Track 1 is a dashed straight descent from X to Y. Track 2 is a solid curve that dips below Y before rising to it.]\n\nNeglecting all resistive forces, what can be said of the final energy and the average rate of energy conversion for the two balls?\n\nFinal total energy | Higher average rate of energy conversion\nA Both balls are the same | Ball 2\nB Ball 2 is higher | Ball 1\nC Ball 2 is higher | Ball 2\nD Both balls are the same | Ball 1"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q8",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $T$ be the tension in the string. The blocks move at constant speed, so force balance gives $T=Mg\\sin\\theta=mg$. The rate at which the tension transfers energy to P is $Tv=Mgv\\sin\\theta=mgv$, so expressions 1 and 2 both apply.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Misses that the tension also equals the component of P’s weight along the slope.",
+        "C": "Includes the sum of the weights and misses that Q’s weight equals the tension.",
+        "D": "Misses that the tension equals the weight of Q."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.m",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the same tension from two force balances and using it to calculate power.",
+    "misconception": "Adding the weights to compute the power delivered by the string",
+    "transcription": "The diagram shows a block P of mass $M$ connected by a string over a frictionless pulley to a block Q of mass $m$.\n\n[P lies on an incline rising to the right at angle $\\theta$ to the horizontal. The string runs up the incline over the pulley, then vertically down to Q.]\n\nBlock P moves up the slope with a constant velocity $v$. The slope is at angle $\\theta$ to the horizontal. The acceleration of free fall is $g$.\nThe resistive forces on the blocks are negligible.\nWhich expressions gives the energy transferred per unit time to block P?\n\n1. $mgv$\n2. $Mgv\\sin\\theta$\n3. $(M+m)gv$\n\nA 1 and 2\nB 1 only\nC 2 and 3\nD 2 only"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q9",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The horizontal velocity is constant, with $u_x=18/1.5=12\\ \\mathrm{m\\,s^{-1}}$. At the highest point the vertical component is zero, so $E_{\\mathrm k}=\\tfrac12 m u_x^2=\\tfrac12(0.40)(12)^2=28.8\\ \\mathrm{J}$, or $29\\ \\mathrm{J}$ to two significant figures.",
+      "perOption": {
+        "A": "Treats zero vertical velocity at the apex as zero total velocity.",
+        "B": "Uses the horizontal speed without squaring it in the kinetic energy formula.",
+        "C": "Uses the launch vertical speed of about $7.4\\ \\mathrm{m\\,s^{-1}}$ in place of the horizontal speed at the apex.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The letter and horizontal-speed calculation are on page 2, with the kinetic-energy calculation on page 3.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires obtaining the horizontal speed from the range and then calculating the kinetic energy at the apex.",
+    "misconception": "Assuming all velocity components vanish at the apex",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q10",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At P, the drag force acts opposite to the upward and forward velocity, so it has a horizontal component and a downward component. The horizontal acceleration is therefore non-zero. The downward component of drag adds to the weight, making the vertical acceleration greater than $9.8\\ \\mathrm{m\\,s^{-2}}$ in magnitude.",
+      "perOption": {
+        "A": "Ignores the horizontal component of drag.",
+        "B": "Correct.",
+        "C": "Uses the acceleration components for a projectile with negligible air resistance.",
+        "D": "Includes the horizontal drag but omits the downward component of drag."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "projectile-motion.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires resolving the drag force and combining its vertical component with weight.",
+    "misconception": "Applying the no-drag acceleration components when drag is present",
+    "transcription": "The diagram shows the trajectory of a projectile and the velocity $v$ of the projectile at point P in its trajectory. P is located before the projectile reaches the peak altitude. Air resistance acts on the projectile. The acceleration of the projectile at P is $a$.\n\n[The dashed trajectory rises from left to right above a horizontal ground line. At P, the tangent velocity arrow $v$ points up and to the right.]\n\nWhat are the magnitudes of the horizontal component and the vertical component of the acceleration of the projectile at P?\n\nHorizontal component of $a$ | Vertical component of $a$\nA Zero | Greater than $9.8\\ \\mathrm{m\\,s^{-2}}$\nB Non-zero | Greater than $9.8\\ \\mathrm{m\\,s^{-2}}$\nC Zero | $9.8\\ \\mathrm{m\\,s^{-2}}$\nD Non-zero | $9.8\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q11",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The momentum component parallel to the side of the table is unchanged, so the average force is perpendicular to the side. Taking away from the side as positive, the average force is $\\Delta p/\\Delta t=[m(v\\cos30^\\circ)-m(-v\\cos30^\\circ)]/\\Delta t=2mv\\cos30^\\circ/\\Delta t$.",
+      "perOption": {
+        "A": "Uses the initial momentum magnitude in place of the change in normal momentum.",
+        "B": "Uses just one normal component and misses the reversal.",
+        "C": "Correct.",
+        "D": "Doubles the component along the side, which is the component that stays constant."
+      }
+    },
+    "issues": "A and D are numerically identical since 2 sin 30° = 1. Both are incorrect.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires resolving momentum perpendicular to the cushion and accounting for its reversal.",
+    "misconception": "Ignoring the sign reversal of the normal momentum",
+    "transcription": "A snooker ball of mass $m$ travels at a speed $v$ towards the side of a snooker table as shown below. The ball strikes the side of the table at an angle of $30^\\circ$ to the normal and moves off with the same speed at an angle of $30^\\circ$. The time of contact between the ball and the side is $\\Delta t$. What is the expression for the average force acting on the ball?\n\n[Top view. The side of the pool table is horizontal. The ball approaches from the upper right and rebounds towards the upper left, with each velocity arrow labelled $v$ and each path making $30^\\circ$ with the dashed normal at the point of impact.]\n\nA $\\frac{mv}{\\Delta t}$\nB $\\frac{mv\\cos30^\\circ}{\\Delta t}$\nC $\\frac{2mv\\cos30^\\circ}{\\Delta t}$\nD $\\frac{2mv\\sin30^\\circ}{\\Delta t}$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q12",
+    "keyPage": 3,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of momentum gives $u=v+w$, and conservation of kinetic energy gives $u^2=v^2+w^2$. Squaring the first equation and comparing with the second gives $2vw=0$. For an actual collision the proton takes the incoming velocity, $w=u$, and the neutron stops, $v=0$. Opposite outgoing velocities of equal magnitude would give zero total momentum, so statement C is wrong.",
+      "perOption": {
+        "A": "This statement correctly applies momentum conservation after cancelling the equal masses.",
+        "B": "This statement correctly applies kinetic-energy conservation for an elastic collision.",
+        "C": "Correct. The statement would give zero final momentum.",
+        "D": "This statement correctly describes the transfer of velocity to the initially stationary proton."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.d"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires applying both momentum and kinetic-energy conservation to interpret the result of a collision between equal masses.",
+    "misconception": "Equating an elastic collision with equal and opposite outgoing velocities",
+    "transcription": null
+  }
+]

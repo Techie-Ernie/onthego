@@ -1,0 +1,661 @@
+[
+  {
+    "id": "rvhs-2026-prelim-p1-q12",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In uniform circular motion, the speed $v$ and radius $r$ stay constant. The resultant force is the centripetal force, so its magnitude $F_c=mv^2/r$ is constant throughout the circle.",
+      "perOption": {
+        "A": "Constant speed means constant kinetic energy.",
+        "B": "At the top, weight contributes its full magnitude inward, so the rod supplies its smallest signed inward radial force.",
+        "C": "Correct.",
+        "D": "The acceleration always points towards the centre."
+      }
+    },
+    "issues": "Option B uses “tension” for the rod force. At sufficiently low speed the rod is in compression at the top. B holds if interpreted as the signed inward radial force.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.d",
+      "circular-motion.f"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognising uniform speed is enough to test the statement about resultant force.",
+    "misconception": "Confusing the rod force with the resultant force",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q13",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For orbits around Earth, $T^2\\propto R^3$. With the satellite period $T$ in days, $(27.3/T)^2=[R/(R/30)]^3$, so $T=0.166\\ \\mathrm{day}\\approx4.0\\ \\mathrm{hours}$.",
+      "perOption": {
+        "A": "This is approximately the period in days, reported as hours.",
+        "B": "Correct.",
+        "C": "This corresponds to reducing the period by only about a factor of 10, whereas the orbital radius change requires a factor of $30^{3/2}$.",
+        "D": "This gives too long a period for a radius reduced by a factor of 30, since the period scales as radius to the power $3/2$."
+      }
+    },
+    "issues": "The key labels the solved period as R in its last line. The rewrite uses T.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the orbital period–radius scaling and convert days to hours.",
+    "misconception": "Using the wrong power of orbital radius",
+    "transcription": "The moon orbits the Earth once every 27.3 days, with a mean orbital radius of $R$. The period of an Earth satellite with an orbital radius of $\\frac{R}{30}$ is\n\nA  0.17 hours\nB  4.0 hours\nC  68 hours\nD  260 hours"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q14",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of energy gives $E_\\mathrm{final}=E_\\mathrm{initial}$. The object starts at rest at radius $3R$ and hits the Moon at radius $R$, so $\\tfrac12 mv^2-GMm/R=0-GMm/(3R)$. Solving gives $v=\\sqrt{4GM/(3R)}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This loses the factor of two from the kinetic energy term when solving for $v^2$.",
+        "C": "This treats the surface gravitational field strength as constant over the entire fall.",
+        "D": "This corresponds to starting from rest infinitely far away."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Identify both distances from the Moon’s centre and apply conservation of energy.",
+    "misconception": "Using height in place of distance from the centre",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q15",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mass is at one extreme at $t=0$, passes through equilibrium at $t=T/4$, and reaches the other extreme at $t=T/2$. Its speed is greatest at equilibrium, so it is a maximum at $t=T/4$.",
+      "perOption": {
+        "A": "The $70\\ \\mathrm{cm}$ is the peak-to-peak distance, giving an amplitude of $35\\ \\mathrm{cm}$.",
+        "B": "At $t=T/2$ the mass is at a turning point, so its speed and kinetic energy are zero.",
+        "C": "The magnitude of the restoring force falls to zero as the mass approaches equilibrium.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Option C implicitly refers to restoring-force magnitude. With downward taken as positive, the signed force increases from a negative value to zero.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.b",
+      "oscillations.c",
+      "oscillations.g",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Read the positions of equilibrium and the turning points from the graph.",
+    "misconception": "Taking the peak-to-peak distance as the amplitude",
+    "transcription": "A mass hanging from a spring suspended from the ceiling is pulled down and released. The mass then oscillates vertically with simple harmonic motion of period $T$. The graph shows how its distance from the ceiling varies with time $t$.\n\n[Graph of distance from ceiling / cm against $t$. The curve starts at $100\\ \\mathrm{cm}$ at $t=0$ with a horizontal tangent, falls most steeply at $t=T/4$, and levels off at $30\\ \\mathrm{cm}$ at $t=T/2$. Dashed guides mark $T/4$, $T/2$ and $30\\ \\mathrm{cm}$. Both axes show zero.]\n\nWhat can be deduced from this graph?\n\nA  The amplitude of the oscillation is 70 cm.\nB  The kinetic energy is a maximum at $t=\\frac{T}{2}$.\nC  The restoring force on the mass increases between $t=0$ and $t=\\frac{T}{4}$.\nD  The speed is a maximum at $t=\\frac{T}{4}$."
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q16",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total energy is $E=\\tfrac12m\\omega^2A^2$, and the kinetic energy is $E_k=\\tfrac12m\\omega^2(A^2-x^2)$. Substituting $E_k=\\tfrac34 E$ gives $\\tfrac34A^2=A^2-x^2$. Thus the displacement has magnitude $|x|=A/2$.",
+      "perOption": {
+        "A": "This treats the potential energy fraction $1/4$ as a displacement fraction.",
+        "B": "Correct.",
+        "C": "This treats the kinetic energy fraction $3/4$ as a displacement fraction.",
+        "D": "This assigns the fraction $3/4$ to potential energy."
+      }
+    },
+    "issues": "The question and key give a positive displacement. The energy condition fixes the magnitude, with signed displacements ±A/2 both possible.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Substitute the total energy into the kinetic energy expression and solve for displacement.",
+    "misconception": "Treating energy as linear in displacement",
+    "transcription": "An object undergoes a simple harmonic motion with an amplitude $A$, and its total energy is $E$.\n\nWhat is the displacement of the object from the equilibrium position when its kinetic energy is $\\frac{3E}{4}$?\n\nA  $\\frac{A}{4}$\nB  $\\frac{A}{2}$\nC  $\\frac{3A}{4}$\nD  $\\frac{A\\sqrt{3}}{2}$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q17",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Particles between successive nodes oscillate in phase. A node has zero displacement at all times, and adjacent nodes are separated by half a wavelength. At an antinode, the amplitude is twice that of either component wave.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A node is the point with zero displacement at all times.",
+        "C": "Adjacent nodes are separated by half a wavelength.",
+        "D": "At an antinode, the amplitude is twice that of either component wave."
+      }
+    },
+    "issues": "The key’s amplitude statement for D applies at antinodes. The amplitude varies with position.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Identify the standard phase, spacing and amplitude properties of a stationary wave.",
+    "misconception": "Confusing nodes with antinodes",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q18",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A pipe open at both ends supports standing waves when $L=n\\lambda/2$ for a positive integer $n$. With $\\lambda=20\\ \\mathrm{cm}$, pipe R fits three half wavelengths. A pipe closed at one end requires $L=(2n-1)\\lambda/4$, so pipe P fits five quarter wavelengths.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Pipe S cannot fit a whole number of half wavelengths between its open ends.",
+        "C": "Pipe Q fits six quarter wavelengths, but a pipe closed at one end needs an odd number.",
+        "D": "Pipe Q fails the odd-quarter-wavelength condition and pipe S fails the whole-half-wavelength condition."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "superposition.d"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Apply different resonance conditions to open and closed pipes.",
+    "misconception": "Applying the same resonance condition to both pipe types",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q19",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At M the particle has electric potential energy $U=\\frac{1}{4\\pi\\varepsilon_0}\\left(\\frac{2Qq}{d}-\\frac{Qq}{d}\\right)=\\frac{Qq}{4\\pi\\varepsilon_0d}$. By conservation of energy, the kinetic energy lost equals this gain, so $\\tfrac12mu^2-\\tfrac12mv^2=U$. Hence $v=\\sqrt{u^2-\\frac{Qq}{2\\pi\\varepsilon_0md}}$.",
+      "perOption": {
+        "A": "This reverses the order of subtraction under the square root.",
+        "B": "Correct.",
+        "C": "This reverses the subtraction and misses the factor of two when converting the energy gain into a change in squared speed.",
+        "D": "This misses the factor of two when converting the energy gain into a change in squared speed."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.d",
+      "electric-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Add the signed potential energies of both charge pairs and then conserve energy.",
+    "misconception": "Losing the sign or factor of two in the kinetic energy change",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q20",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each metal plate is an equipotential surface, so the electric field lines meet it at right angles. The plates are farther apart at the top, where the field is weaker and the lines are more widely spaced.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The straight, evenly spaced lines meet the plates obliquely and imply a uniform field.",
+        "C": "The even spacing misses the stronger field at the narrow end.",
+        "D": "The spacing changes appropriately, but the straight lines meet the plates obliquely."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Check both the angle of the field lines at the plates and how their spacing changes.",
+    "misconception": "Drawing field lines that meet conductors obliquely",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q21",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the half-wave rectified sine, the mean of the squared current during the conducting half-cycle is $I_0^2/2$, so over the full cycle it is $I_0^2/4$. Taking the square root gives an RMS current of $I_0/2$. The square wave has constant current magnitude, so its RMS current equals its peak current. Equal mean powers in the same resistor give equal RMS currents, hence the requested peak-current ratio is $1/2$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This uses the RMS factor for a full sinusoidal wave and overlooks the zero-current half-cycle.",
+        "C": "This equates peak currents even though equal mean power fixes the RMS currents.",
+        "D": "This inverts the requested peak-current ratio."
+      }
+    },
+    "issues": "The worked solution starts on page 5 and continues on page 6.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Compare the mean squares of two waveforms over a full cycle before equating the powers.",
+    "misconception": "Using the full sine-wave RMS factor for a half-wave rectified sine",
+    "transcription": "A half wave rectified sinusoidal and a square wave current are passed separately through the same resistor. In each case, the resistor dissipates the same mean power.\n\n[Two graphs of current against time, each with the origin marked 0 and one period marked $T$. The half wave rectified sinusoidal wave has a positive sinusoidal half-cycle followed by zero current for half a cycle, and repeats at $T$. The square wave alternates between equal positive and negative current magnitudes, each for half a cycle, and repeats at $T$.]\n\nWhat is the ratio $\\frac{\\text{peak current of square wave}}{\\text{peak current of half wave rectified sinusoidal wave}}$?\n\nA  $\\frac12$\nB  $\\frac{1}{\\sqrt{2}}$\nC  $1$\nD  $2$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q22",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Potential is constant along each connecting wire, so label A as $V_1$, B as $V_3$, and the common intermediate node as $V_2$. Redrawing the circuit gives a single resistor $R$ in parallel with two parallel pairs in series. Each pair is $R/2$, so the two branches each have resistance $R$ and combine to give $R/2=0.50\\ \\Omega$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This counts only one of the two equivalent $1.0\\ \\Omega$ branches.",
+        "C": "This adds a parallel pair’s resistance to the centre resistor as though they were in series.",
+        "D": "This adds all five resistances as though the connecting wires were absent."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Identify the three circuit nodes and reduce the redrawn network.",
+    "misconception": "Reading the physical layout as a series connection",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q23",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The currents run in opposite directions, so the fields point the same way between the wires and can only cancel outside. The cancellation point must be nearer the smaller current, so it lies to the right of Q. If its distance from P is $y$, its distance from Q is $y-d$. Equating the two field magnitudes gives $4.0/y=3.0/(y-d)$, so $y=4d$.",
+      "perOption": {
+        "A": "Between the wires the fields point the same way, so they add at this position.",
+        "B": "This balances field magnitudes between the wires, where the fields reinforce each other.",
+        "C": "To the left of P, P has both the larger current and the shorter distance, so its field is stronger.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s first field equation shows d in both denominators. Its next line correctly uses y and y − d.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Determine which side permits cancellation and use the two different distances in the field equation.",
+    "misconception": "Equating field magnitudes where both fields point the same way",
+    "transcription": "The diagram shows two long, straight, parallel wires, separated by a distance $d$. Wires P and Q carry currents of $\\mathrm{4.0\\ A}$ and $\\mathrm{3.0\\ A}$, respectively, in the directions shown.\n\n[Two vertical wires intersect the horizontal dashed line OX. P is on the left with an upward current arrow and Q is on the right with a downward current arrow. The horizontal separation is labelled $d$.]\n\nAt a point on the line OX, the resultant magnetic flux density due to the currents in the two wires is zero.\n\nWhat is the distance of this point from P?\n\nOption | distance from P | position\nA | $\\frac37 d$ | between the wires\nB | $\\frac47 d$ | between the wires.\nC | $4d$ | to the left of P\nD | $4d$ | to the right of Q"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q24",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For perpendicular motion, the magnetic force supplies the centripetal force, giving $r=mv/(|q|B)$. With the same $v$ and $B$ for all four particles, the electron has the smallest mass-to-charge-magnitude ratio and therefore the smallest radius and greatest deflection.",
+      "perOption": {
+        "A": "A proton has the same charge magnitude as an electron but a much larger mass.",
+        "B": "Correct.",
+        "C": "A copper ion has a much greater mass per unit charge magnitude than an electron.",
+        "D": "A helium nucleus carries twice the electron’s charge magnitude but has a much greater mass per unit charge magnitude."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Compare the curvature of particle paths using the mass-to-charge ratio.",
+    "misconception": "Comparing charge alone to predict deflection",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q25",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The primary current is greatest just before the switch opens, when the variable resistance is at its minimum. Opening the switch quickly then causes the greatest rate of change of magnetic flux through the soft iron. This gives the largest induced e.m.f. and hence the largest current through the ammeter.",
+      "perOption": {
+        "A": "The switch closes with the resistance at its maximum, so the change in primary current is smaller.",
+        "B": "The gradual resistance change changes the flux more slowly.",
+        "C": "Minimum resistance gives the largest steady primary current, but the secondary current depends on how fast the flux is changing.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.d",
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Compare how fast the flux changes at each stage in the two-coil circuit.",
+    "misconception": "Equating the largest primary current with the largest induced current",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q26",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Faraday’s law gives $\\mathcal E=-\\mathrm d(NBA)/\\mathrm dt$. Using $\\mathcal E=RI$ and $I=\\mathrm dQ/\\mathrm dt$ gives $R\\,\\mathrm dQ/\\mathrm dt=-\\mathrm d(NBA)/\\mathrm dt$. The flux drops to zero, so the charge magnitude is $\\Delta Q=NBA/R=\\frac{50}{10+10}(0.0500)(300\\times10^{-4})=3.75\\times10^{-3}\\ \\mathrm C$.",
+      "perOption": {
+        "A": "This omits the circuit’s additional resistance and makes the converted area 100 times too small.",
+        "B": "This makes the converted area 100 times too small.",
+        "C": "This includes only one of the two $10.0\\ \\Omega$ resistances.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e",
+      "currents.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combine Faraday’s law with the current–charge relation and include both resistances.",
+    "misconception": "Using only the coil resistance or mis-converting square centimetres",
+    "transcription": "A circular coil of area $300\\ \\mathrm{cm^2}$ is placed with its plane perpendicular to a uniform magnetic field of $0.0500\\ \\mathrm T$. The coil has 50 turns and a resistance of $10.0\\ \\Omega$. It is connected to a circuit with a galvanometer with the circuit resistance also being $10.0\\ \\Omega$.\n\nWhat is the quantity of charge that flows when the coil is suddenly removed out of the magnetic field?\n\nA  $7.50\\times10^{-5}\\ \\mathrm C$\nB  $3.75\\times10^{-5}\\ \\mathrm C$\nC  $7.50\\times10^{-3}\\ \\mathrm C$\nD  $3.75\\times10^{-3}\\ \\mathrm C$"
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q27",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the minimum momentum uncertainty, both electrons have the same position–momentum uncertainty product, so $\\Delta x_A\\Delta p_A=\\Delta x_B\\Delta p_B$. Thus $\\Delta p_A/\\Delta p_B=\\Delta x_B/\\Delta x_A=0.50/0.20=2.5$.",
+      "perOption": {
+        "A": "This takes the ratio of position uncertainties in the same order as the requested momentum ratio.",
+        "B": "This puts the momentum ratio below one even though A has the tighter position constraint.",
+        "C": "This is close to taking the square root of the inverse position ratio, but the relation is directly inverse.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key writes the syllabus order-of-magnitude form as an exact bound with h. For standard deviations the exact lower bound is ℏ/2. The common constant cancels.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the inverse relationship and keep the order of the ratio straight.",
+    "misconception": "Treating the two uncertainties as directly proportional",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q28",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The kinetic energy is $E=\\tfrac12mv^2=(mv)^2/(2m)=p^2/(2m)$, so $p=\\sqrt{2mE}$. The de Broglie relation then gives $\\lambda=h/p=h/\\sqrt{2mE}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This gives the inverse wavelength $p/h$.",
+        "C": "This drops the factor of two when rearranging $E=p^2/(2m)$.",
+        "D": "This multiplies Planck’s constant by the momentum instead of dividing by it."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Express momentum in terms of kinetic energy before substituting into the de Broglie equation.",
+    "misconception": "Inverting the de Broglie relation or dropping the kinetic energy factor of one half",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q29",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The scattering experiment reveals a small, massive, charged nucleus. The scattering observations do not reveal whether the nucleus contains neutrons, so they cannot establish that it contains both protons and neutrons.",
+      "perOption": {
+        "A": "Most alpha particles pass straight through or are only slightly deflected, which supports this inference.",
+        "B": "The rare rebounds show that mass is concentrated in a small nucleus capable of deflecting an alpha particle through a large angle.",
+        "C": "Correct.",
+        "D": "The deflections of the charged alpha particles show that they interact electrically with the nucleus."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Distinguish the inferences from scattering data from claims about nuclear composition.",
+    "misconception": "Inferring neutrons directly from Rutherford scattering",
+    "transcription": "In the $\\alpha$-particle scattering experiment, a beam of $\\alpha$-particles is aimed at a thin gold foil. Most of the $\\alpha$-particles go straight through or are deflected by a small angle. A very small proportion are deflected through more than $90^\\circ$, effectively rebounding towards the source of the $\\alpha$-particles.\n\nWhich conclusion about the structure of atoms cannot be drawn from this experiment alone?\n\nA  Most of the atom is empty space.\nB  Most of the mass of an atom is concentrated in the nucleus.\nC  The nucleus contains both protons and neutrons.\nD  The nucleus is charged."
+  },
+  {
+    "id": "rvhs-2026-prelim-p1-q30",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each $\\beta^-$ decay increases the proton number by one and leaves the mass number unchanged. The $\\alpha$ decay decreases the proton number by two and the mass number by four. Thus S has the same proton number as P and four fewer nucleons, making them isotopes of the same element.",
+      "perOption": {
+        "A": "The alpha decay leaves S with four fewer nucleons than P.",
+        "B": "Correct.",
+        "C": "This overlooks the two beta decays that cancel the alpha decay’s effect on proton number.",
+        "D": "The mass number falls, but the unchanged proton number means S belongs to the same element."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.c",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Track both proton and nucleon numbers across the three successive decays.",
+    "misconception": "Tracking the alpha decay without both beta decays",
+    "transcription": "In a radioactive decay series, three successive decays each result in a particle being emitted.\n\nThe first decay results in the emission of a $\\beta^-$ particle. The second decay results in the emission of an $\\alpha$ particle. The third decay results in the emission of another $\\beta^-$ particle.\n\n[Decay diagram P → Q → R → S, with outgoing arrows labelled $\\beta^-$ from P, $\\alpha$ from Q and $\\beta^-$ from R.]\n\nNuclides P and S are compared.\n\nWhich statement about S is correct?\n\nA  S and P are identical in all respects.\nB  S and P are isotopes of the same element.\nC  S is a different element of a lower atomic number.\nD  S is a different element of reduced mass."
+  },
+  {
+    "id": "sajc-2026-prelim-p1-q1",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In SI base units, $\\mathrm{m\\,s^{-1}}=(\\mathrm{kg\\,m\\,s^{-2}})^p(\\mathrm{kg\\,m^{-1}})^q$. Matching the powers of seconds gives $-1=-2p$, and matching the powers of kilograms gives $0=p+q$. Hence $p=\\tfrac12$ and $q=-\\tfrac12$.",
+      "perOption": {
+        "A": "These exponents give $mathrm{s}$ instead of $mathrm{s^{-1}}$ and leave an extra inverse kilogram.",
+        "B": "A negative $p$ gives $mathrm{s}$ instead of $mathrm{s^{-1}}$.",
+        "C": "Correct.",
+        "D": "With both exponents positive, the mass factors multiply to give a kilogram instead of cancelling."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Express tension and linear mass density in base units and equate the exponents.",
+    "misconception": "Using mass instead of mass per unit length",
+    "transcription": "The speed $v$ of waves on a stretched wire is given by the equation $v=T^p\\mu^q$ where $T$ is the tension in the wire and $\\mu$ is the mass per unit length of the wire. What are the values of $p$ and $q$?\n\nOption | $p$ | $q$\nA | $-\\frac12$ | $-\\frac12$\nB | $-\\frac12$ | $\\frac12$\nC | $\\frac12$ | $-\\frac12$\nD | $\\frac12$ | $\\frac12$"
+  }
+]

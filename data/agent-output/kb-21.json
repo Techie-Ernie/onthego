@@ -1,0 +1,650 @@
+[
+  {
+    "id": "vjc-2026-prelim-p1-q13",
+    "keyPage": 13,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $d\\sin\\theta=n\\lambda$ with $n=1$ and $d=1/(4.0\\times10^5)\\ \\mathrm{m}$. The blue end at $420\\ \\mathrm{nm}$ is at $9.67^\\circ$ and the red end at $680\\ \\mathrm{nm}$ is at $15.8^\\circ$.\n\nTheir separation is $15.8^\\circ-9.67^\\circ=6.13^\\circ$, or $6.1^\\circ$ to the precision of the options.",
+      "perOption": {
+        "A": "Correct. It is the difference between the two first-order angles.",
+        "B": "Uses only the angle of the blue ray from the normal.",
+        "C": "Uses only the angle of the red ray from the normal.",
+        "D": "Adds the angles as if the rays were on opposite sides of the normal."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the grating spacing, then calculate and subtract two diffraction angles.",
+    "misconception": "Confusing an angle from the grating normal with the angular separation.",
+    "transcription": "A compact spectrometer uses a diffraction grating containing $4.0\\times10^5$ lines per metre. White light with wavelengths from $420\\ \\mathrm{nm}$ to $680\\ \\mathrm{nm}$ is incident normally on the grating.\n\n[White light travels horizontally to a vertical grating. Beyond it a ray continues horizontally, and the first-order red and blue rays angle upwards, with red above blue. The angle between the red and blue rays is $\\theta$.]\n\nWhat is the angular separation between the blue and red ends of the first-order spectrum?\n\nA $6.1^\\circ$\nB $9.7^\\circ$\nC $15.8^\\circ$\nD $25.5^\\circ$"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q14",
+    "keyPage": 14,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first minimum satisfies $b\\sin\\theta=\\lambda$, so $\\theta\\approx\\lambda/b$ for small angles. At screen distance $D$, the central maximum has width $x\\approx 2D\\theta\\approx 2D\\lambda/b$. Bringing the screen closer decreases $D$ and therefore decreases $x$, so A is the incorrect statement.",
+      "perOption": {
+        "A": "Correct. Bringing the screen closer decreases $x$.",
+        "B": "This statement is true because a wider slit lets more light through.",
+        "C": "This statement is true because increasing $b$ reduces $x$.",
+        "D": "This statement is true because increasing $\\lambda$ increases $x$."
+      }
+    },
+    "issues": "The key’s comment for option D says that increasing wavelength decreases the width. Its equation shows that the width increases.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.k",
+      "superposition.l"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Relate the angular position of the first minimum to the width measured on the screen.",
+    "misconception": "Confusing angular width with width on the screen.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q15",
+    "keyPage": 15,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Melting requires $Q_1=mL_f$ and vaporization requires $Q_2=mL_v$. At constant heating power $P$, the energies supplied during the plateaus are $Pt_1$ and $Pt_2$. Thus $L_v/L_f=Q_2/Q_1=Pt_2/(Pt_1)=(25-11)/(6-2)=3.5$.",
+      "perOption": {
+        "A": "Assumes the two plateaus last equally long.",
+        "B": "Divides the plateau temperatures, 300 K and about 125 K, instead of their durations.",
+        "C": "Correct. The plateaus last 14 min and 4 min.",
+        "D": "Uses the full 20 min from 6 min to 26 min and includes intervals where temperature rises."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the two phase-change plateaus and compare their durations at constant heating power.",
+    "misconception": "Comparing plateau temperatures instead of durations.",
+    "transcription": "Heat is added to a pure substance in a closed container at a constant rate. A graph of the temperature of the substance as a function of time is shown below.\n\n[Temperature / K is plotted against Time / minutes. The line rises from $(0,50)$ to about $(2,125)$, is flat to $(6,125)$, rises to $(11,300)$, is flat to $(25,300)$, then rises to $(26,500)$.]\n\nIf $L_f$ is the latent heat of fusion and $L_v$ is the latent heat of vaporization of the substance, what is the value of the ratio $L_v/L_f$ for this substance?\n\nA 1.0\nB 2.4\nC 3.5\nD 5.0"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q16",
+    "keyPage": 16,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean kinetic energy is $\\tfrac12mc_{\\mathrm{rms}}^2=\\tfrac32kT$, and the ideal-gas law gives $PV=NkT$. Combining them gives $c_{\\mathrm{rms}}=\\sqrt{3PV/(Nm)}$, so for a fixed amount of gas $c_{\\mathrm{rms}}\\propto\\sqrt{PV}$. Therefore $u'/u=\\sqrt{(2P)(2V)/(PV)}=2$, giving $u'=2u$.",
+      "perOption": {
+        "A": "Treats $PV$ as unchanged when both factors double.",
+        "B": "Accounts for doubling only one of pressure and volume.",
+        "C": "Correct. The pressure–volume product quadruples.",
+        "D": "Scales the r.m.s. speed directly with $PV$."
+      }
+    },
+    "issues": "The solution assumes a fixed amount of gas, which the question leaves implicit.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Combine the ideal-gas law with the kinetic-energy relation before taking the speed ratio.",
+    "misconception": "Treating r.m.s. speed as proportional to the pressure–volume product.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q17",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For an ideal gas in an isothermal process, the internal energy remains constant, so $\\Delta U=0$. Expansion gives $\\Delta V>0$, so the work done on the gas is negative, as indicated by $W=-p\\Delta V$. The first law $\\Delta U=Q+W$ then gives $Q=-W>0$.",
+      "perOption": {
+        "A": "Correct. Heat supplied balances the work done by the gas.",
+        "B": "Assigns positive internal-energy change and positive work on the gas to an isothermal expansion.",
+        "C": "Reverses the signs of the work done on the gas and the heat supplied.",
+        "D": "Assigns a decrease in internal energy to a gas whose temperature stays constant."
+      }
+    },
+    "issues": "The final line of the key says W must be positive. It should say Q must be positive, consistent with option A.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the isothermal condition and the work sign convention to infer the heat-transfer sign.",
+    "misconception": "Reversing the signs of work done on and by a gas.",
+    "transcription": "The first law of thermodynamics may be expressed as\n\n$\\Delta U=Q+W$\n\nwhere $\\Delta U$ is the increase in energy of the system, $Q$ is the thermal energy supplied to the system and $W$ is the work done on the system.\n\nWhich of the following is correct for the case of an isothermal expansion of an ideal gas?\n\n[Table columns are $\\Delta U$, $Q$, $W$, in that order.]\nA zero, positive, negative\nB positive, zero, positive\nC zero, negative, positive\nD negative, zero, negative"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q18",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field along the displacement is $E=-\\mathrm{d}V/\\mathrm{d}x$. Between $3.0$ and $5.0\\ \\mathrm{m}$, the area under the graph is $\\tfrac12(7.8+5.2)(5.0-3.0)=13\\ \\mathrm{V}$. The field points in the direction of increasing $x$, so the potential decreases and $\\Delta V=-13\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Correct. The potential change is the negative of the trapezium area.",
+        "B": "Uses the slope of the field graph as the potential change.",
+        "C": "Uses the magnitude of the slope instead of the negative area.",
+        "D": "Uses the area with the wrong sign."
+      }
+    },
+    "issues": "The key treats E as the signed field component along x. If the plotted field strength meant only its magnitude, the direction and sign of the potential change would be unspecified.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Calculate the trapezium area and apply the negative sign in the potential gradient.",
+    "misconception": "Using the slope of the field graph or reversing the sign for an electron.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q19",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential at X is the sum of the contributions from $+Q$ at $3d$ and $-2Q$ at $d$, so $V_X=\\frac{Q}{4\\pi\\varepsilon_0(3d)}+\\frac{-2Q}{4\\pi\\varepsilon_0d}=-\\frac{5Q}{12\\pi\\varepsilon_0d}$. Multiplying by the charge placed at X gives $U=(3Q)V_X=-\\frac{5Q^2}{4\\pi\\varepsilon_0d}$.",
+      "perOption": {
+        "A": "Uses the magnitude of the energy and loses the negative sign.",
+        "B": "Correct. The negative source charge dominates the potential at X.",
+        "C": "Uses an inverse-square dependence for potential energy.",
+        "D": "Uses an inverse-square dependence and gives a positive energy."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d",
+      "electric-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Add the signed potentials from two charges at different distances, then multiply by the test charge.",
+    "misconception": "Using the inverse-square field law for potential.",
+    "transcription": "Two charges $+Q$ and $-2Q$ are placed at a distance $2d$ apart. Point X is at a distance $d$ away from the $-2Q$ charge as shown below.\n\n[From left to right on one line: $+Q$, then $-2Q$ at distance $2d$, then X a further distance $d$ away.]\n\nWhat is the electrical potential energy of a $+3Q$ charge placed at X?\n\nA $\\frac{5Q^2}{4\\pi\\varepsilon_0d}$\nB $\\frac{-5Q^2}{4\\pi\\varepsilon_0d}$\nC $\\frac{-Q^2}{8\\pi\\varepsilon_0d^2}$\nD $\\frac{Q^2}{12\\pi\\varepsilon_0d^2}$"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q20",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $I=nAve$, where $n=N/(AL)$ for a wire with $N$ free electrons and length $L$. Substituting gives $I=Nve/L$. Hence $N=IL/(ve)=(12)(0.35)/[(5.0\\times10^{-4})(1.6\\times10^{-19})]=5.25\\times10^{22}$, or $5.3\\times10^{22}$.",
+      "perOption": {
+        "A": "Severely undercounts the electrons by retaining an area factor even though the area cancels.",
+        "B": "Correct. The wire contains about $5.3\\times10^{22}$ free electrons.",
+        "C": "Omits the $0.35\\ \\mathrm{m}$ length factor, giving the number per metre.",
+        "D": "Overcounts the electrons by using inconsistent factors for the wire dimensions where the area should cancel."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Connect number density to total electron count and recognize that the cross-sectional area cancels.",
+    "misconception": "Confusing number density with the total number of electrons.",
+    "transcription": "An electric current of $12\\ \\mathrm{A}$ flows in a wire of length $0.35\\ \\mathrm{m}$ and diameter $1.5\\ \\mathrm{mm}$.\n\nThe average drift speed of the free electrons in the wire is $5.0\\times10^{-4}\\ \\mathrm{m\\,s^{-1}}$.\n\nHow many free electrons are there in the wire?\n\nA $1.3\\times10^{16}$\nB $5.3\\times10^{22}$\nC $1.5\\times10^{23}$\nD $4.3\\times10^{23}$"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q21",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The voltmeter measures the voltage across the fixed resistor, so an increased reading means a larger current by $V_R=IR$. For the cell, $V_{\\mathrm{terminal}}=\\mathcal E-Ir$. The emf and internal resistance are fixed, so the larger current increases the internal voltage drop and decreases the terminal potential difference.",
+      "perOption": {
+        "A": "The charge per unit time is the current, which increases.",
+        "B": "The energy transferred per unit charge is the voltage across the fixed resistor, which increases.",
+        "C": "The LDR resistance falls as current increases, so incident light intensity must increase.",
+        "D": "Correct. A larger current increases the internal voltage drop."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Track how the voltmeter reading, series current, internal voltage drop and LDR resistance change together.",
+    "misconception": "Equating the fixed-resistor voltage with the cell terminal voltage.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q22",
+    "keyPage": 20,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force contributes a moment $BIL(0.240)$ and the hanging mass contributes an opposing moment $mg(0.320)$. By the principle of moments, these are equal. Therefore $B=\\frac{(0.0150)(9.81)(0.320)}{(1.50)(0.180)(0.240)}=0.727\\ \\mathrm{T}$, or $0.73\\ \\mathrm{T}$.",
+      "perOption": {
+        "A": "Underestimates the magnetic moment required to balance the hanging mass.",
+        "B": "Uses a magnetic moment too small to balance the mass at its $0.32\\ \\mathrm{m}$ lever arm.",
+        "C": "Correct. The opposing moments balance at this flux density.",
+        "D": "Overestimates the required magnetic force by assigning too large a moment to the hanging mass."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.h",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combine the magnetic-force equation with torque balance using the correct moment arms.",
+    "misconception": "Confusing the length of wire in the field with a moment arm.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q23",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force has magnitude $F=BIL\\sin\\theta$. The currents along AB and CD are parallel or antiparallel to the field, so the force on each is zero. BC and DA are perpendicular to the field and carry opposite currents, so their magnetic forces point in opposite directions.",
+      "perOption": {
+        "A": "Correct. The field is aligned with AB and CD.",
+        "B": "BC and DA are perpendicular to the field, so both experience a force.",
+        "C": "Opposite current directions give opposite force directions in the same field.",
+        "D": "AB and CD experience zero force, while BC and DA experience nonzero forces."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the current–field angle for each side and use the opposite current directions on the vertical sides.",
+    "misconception": "Assuming every segment of a current loop experiences a magnetic force.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q24",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Square the voltage graph to get $9.00\\ \\mathrm{V^2}$ for $1.00\\ \\mathrm{ms}$ and $4.00\\ \\mathrm{V^2}$ for $2.00\\ \\mathrm{ms}$ in each period. The mean square is $[9.00+2(4.00)]/3=5.6667\\ \\mathrm{V^2}$. Taking the square root gives an r.m.s. voltage of $2.38\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Applies the sinusoidal peak-to-r.m.s. factor to a rectangular waveform.",
+        "B": "Correct. The squared voltage levels are weighted by their durations.",
+        "C": "Averages the two voltage magnitudes directly and gives them equal weight.",
+        "D": "Gives the two squared voltage levels equal weight even though their durations differ."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Read the time spent at each voltage and weight the squared levels over one period.",
+    "misconception": "Giving unequal-duration levels equal weight.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q25",
+    "keyPage": 23,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The motional emf is $\\mathcal E=B_vlv=(5.0\\times10^{-5})(17.0)(30)=0.0255\\ \\mathrm{V}$, which rounds to $26\\ \\mathrm{mV}$. For the polarity, the key uses Lenz’s law and Fleming’s left-hand rule to select the right-to-left direction for conventional current in the wing. The left wing is therefore at higher potential.",
+      "perOption": {
+        "A": "Misses the emf generated as the wing cuts the downward magnetic field.",
+        "B": "Identifies the higher-potential wing but underestimates the emf from the given wingspan and speed.",
+        "C": "Gets the emf magnitude but reverses its polarity.",
+        "D": "Correct. The left wing is at higher potential."
+      }
+    },
+    "issues": "The key’s intermediate 0.025 V is truncated from 0.0255 V. Its 26 mV result is correct. The current direction in the key refers to the induced emf polarity, since no closed circuit is specified.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f",
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the motional emf and determine its polarity relative to the direction of flight.",
+    "misconception": "Reversing the direction of magnetic force on positive charge.",
+    "transcription": "A plane heads East at a speed of $30\\ \\mathrm{m\\,s^{-1}}$, cutting the vertical component of the Earth’s magnetic field of flux density $B_v=5.0\\times10^{-5}\\ \\mathrm{T}$ acting downwards.\n\n[A plane is shown with its nose pointing to the right. An arrow labelled as the vertical component of the Earth’s magnetic field, $B_v=5.0\\times10^{-5}\\ \\mathrm{T}$, points downwards.]\n\nTaking the wingspan of the plane to be $17\\ \\mathrm{m}$, what is the e.m.f generated across the wing and which side of the wing will be at higher potential?\n\n[Table columns are E.m.f generated / mV and Wing which is at higher potential.]\nA 0, None\nB 0.030, Left\nC 26, Right\nD 26, Left"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q26",
+    "keyPage": 24,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Faraday’s law, $\\mathcal E=-\\frac{\\mathrm{d}}{\\mathrm{d}t}(NBA\\cos\\omega t)=\\omega NBA\\sin\\omega t$. The maximum is therefore $(2\\pi f)NBA$. Using $f=1800/60\\ \\mathrm{Hz}$ and $A=\\pi(1.0\\times10^{-2})^2/4\\ \\mathrm{m^2}$ gives $\\mathcal E_{\\max}=1.8\\times10^{-5}\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Underestimates the peak rate of change of the total flux linkage.",
+        "B": "Uses $f$ in place of $\\omega=2\\pi f$.",
+        "C": "Correct. The peak emf is $\\omega NBA$.",
+        "D": "Overestimates the peak rate of change of the total flux linkage."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Differentiate the flux linkage and use the coil area and angular frequency in SI units.",
+    "misconception": "Confusing frequency in hertz with angular frequency.",
+    "transcription": "A plane circular coil of 30 turns, each of diameter $1.0\\ \\mathrm{cm}$, rotates 1800 times each minute about a diameter which is perpendicular to a uniform magnetic field of flux density $4.0\\times10^{-5}\\ \\mathrm{T}$.\n\nWhat is the maximum instantaneous value of the induced electromotive force?\n\nA $1.2\\times10^{-6}\\ \\mathrm{V}$\nB $2.8\\times10^{-6}\\ \\mathrm{V}$\nC $1.8\\times10^{-5}\\ \\mathrm{V}$\nD $2.3\\times10^{-5}\\ \\mathrm{V}$"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q27",
+    "keyPage": 24,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Squaring the magnitude of the wavefunction gives the probability density, $|\\psi|^2$. The wavefunction has its largest magnitude at Q and S, so the probability density is highest at both positions.",
+      "perOption": {
+        "A": "Counts the positive peak but misses the equally large magnitude at the negative trough.",
+        "B": "Correct. The squared magnitude is maximal at Q and S.",
+        "C": "Includes P and R, where the wavefunction is zero.",
+        "D": "Selects the nodes, where the probability density is zero."
+      }
+    },
+    "issues": "The question’s probability at a position refers to probability density, as the key explains.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.f",
+      "quantum-physics.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognize that the maximum and minimum of the wavefunction have the same squared magnitude.",
+    "misconception": "Treating the signed wavefunction as probability density.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q28",
+    "keyPage": 25,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $E=p^2/(2m)$, the proton momentum is $p=\\sqrt{2mE}=\\sqrt{2(1.67\\times10^{-27})(1.00\\times10^6)(1.6\\times10^{-19})}=2.3117\\times10^{-20}\\ \\mathrm{kg\\,m\\,s^{-1}}$. The $1.00\\%$ uncertainty gives $\\Delta p=2.3117\\times10^{-22}\\ \\mathrm{kg\\,m\\,s^{-1}}$. Using the syllabus estimate $\\Delta x\\,\\Delta p\\gtrsim h$, the minimum is about $h/\\Delta p=2.87\\times10^{-12}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses a momentum uncertainty far larger than the stated 1.00% when substituted into $h/\\Delta p$.",
+        "B": "Also implies a momentum uncertainty far larger than 1.00% of the calculated momentum.",
+        "C": "Correct. This is the result with the syllabus uncertainty estimate.",
+        "D": "Implies a smaller momentum uncertainty than the stated 1.00%."
+      }
+    },
+    "issues": "C follows the H2 syllabus estimate using h. The exact standard-deviation bound uses h/(4π), which gives about 2.28 × 10⁻¹³ m, absent from the options.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Convert the proton energy to joules, calculate its momentum uncertainty, and apply the syllabus uncertainty relation.",
+    "misconception": "Using the full momentum or the percentage alone for momentum uncertainty.",
+    "transcription": "A proton has a kinetic energy of $1.00\\ \\mathrm{MeV}$. If its momentum is measured with an uncertainty of $1.00\\%$, what is the minimum uncertainty in its position?\n\nA $4.14\\times10^{-19}\\ \\mathrm{m}$\nB $1.15\\times10^{-18}\\ \\mathrm{m}$\nC $2.87\\times10^{-12}\\ \\mathrm{m}$\nD $1.99\\times10^{-11}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q29",
+    "keyPage": 26,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "An alpha decay moves two squares left and two down, removing two protons and two neutrons. A beta-minus decay moves one square right and one down, changing a neutron into a proton. Working backwards from Y by two beta-minus steps leads to P, so two successive beta-minus decays take P to Y.",
+      "perOption": {
+        "A": "Correct. Two beta-minus decays take P to Y.",
+        "B": "Q needs one alpha and two beta-minus decays, for three steps.",
+        "C": "R has mass number 231, which cannot fall to 228 in changes of zero or four.",
+        "D": "S has mass number 235, which cannot fall to 228 in changes of zero or four."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Translate the two decay types into grid displacements and identify the parent two steps from Y.",
+    "misconception": "Changing mass number in beta-minus decay.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2026-prelim-p1-q30",
+    "keyPage": 27,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Subtract the background first to get the source count rate of $532-24=508$ counts per minute. After two half-lives, the source count rate is $508/4=127$ counts per minute. Adding back the background gives $127+24=151$ counts per minute.",
+      "perOption": {
+        "A": "Reports the decayed source count without restoring the background.",
+        "B": "Quarters the entire initial detector reading, including the background.",
+        "C": "Correct. It includes the source count after decay and the background.",
+        "D": "Quarters the total initial reading and then adds the background again."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Subtract the background before applying two half-lives and restore it to obtain the detector reading.",
+    "misconception": "Applying radioactive decay to the background count.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking the cyclist’s mass as $80\\ \\mathrm{kg}$ and speed as $5\\ \\mathrm{m\\,s^{-1}}$ gives $E_k=\\tfrac12(80)(5)^2=1000\\ \\mathrm J$, so B is realistic. From $v=f\\lambda$, a $10\\ \\mathrm m$ radio wave has frequency $3\\times10^7\\ \\mathrm{Hz}$. An atom with mass number 1 to 200 has a mass of order $10^{-27}$ to $10^{-25}\\ \\mathrm{kg}$, and a $1000\\ \\mathrm{kg}$ car at $12\\ \\mathrm{m\\,s^{-1}}$ has momentum $1.2\\times10^4\\ \\mathrm{kg\\,m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "The frequency is far too low, with a $10\\ \\mathrm m$ radio wavelength giving $3\\times10^7\\ \\mathrm{Hz}$.",
+        "B": "Correct. A cyclist can have about $1\\ \\mathrm{kJ}$ of kinetic energy.",
+        "C": "Atomic masses are typically of order $10^{-27}$ to $10^{-25}\\ \\mathrm{kg}$.",
+        "D": "The estimate is far too high, as $1000\\ \\mathrm{kg}$ at $12\\ \\mathrm{m\\,s^{-1}}$ gives $1.2\\times10^4\\ \\mathrm{kg\\,m\\,s^{-1}}$."
+      }
+    },
+    "issues": "The key’s atom-mass line gives a single number for a range of mass numbers. The explanation expresses the resulting orders of magnitude as a range.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use typical everyday and atomic scales to evaluate four different estimates.",
+    "misconception": "Confusing everyday or atomic orders of magnitude.",
+    "transcription": "Which estimate is realistic?\n\nA The frequency of a radio wave is $3\\times10^{-10}\\ \\mathrm{Hz}$.\nB The kinetic energy of a cyclist along East Coast Park is $1\\times10^3\\ \\mathrm{J}$.\nC The mass of an atom is $1\\times10^{-7}\\ \\mathrm{kg}$.\nD The momentum of a car on an expressway is $2\\times10^6\\ \\mathrm{kg\\,m\\,s^{-1}}$."
+  },
+  {
+    "id": "yijc-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange each set of force vectors tip to tail without changing their directions or lengths. Only D gives a closed vector triangle and hence zero resultant force, as required for equilibrium. A, B and C all give a nonzero resultant.",
+      "perOption": {
+        "A": "Both diagonal vectors have rightward components, so the horizontal forces cannot cancel.",
+        "B": "The vertical and diagonal vectors both have downward components, with no upward component to balance them.",
+        "C": "All three vectors have downward components, so the vertical forces cannot cancel.",
+        "D": "Correct. The three vectors form a closed triangle when arranged tip to tail."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Rearrange the vectors tip to tail while preserving their directions to check for zero resultant.",
+    "misconception": "Taking any triangular arrangement to mean zero vector sum.",
+    "transcription": "Four combinations of vectors are shown, each representing all the forces acting on an object. The forces all act in the same plane.\n\nThe object is in equilibrium.\n\nWhich combination of vectors could represent the forces acting on the object?\n\n[A: A vertical downward vector forms the left side of a triangle. The vectors from its top and bottom both point towards the right vertex.\nB: A vertical downward vector and a down-left diagonal both end at a corner from which a horizontal rightward vector starts.\nC: A diagonal vector points down-left into a junction. Two vectors leave the junction, one pointing steeply down-left and one pointing down-right.\nD: An upward vertical vector and a down-right diagonal start at the same point. A down-left diagonal starts at the tip of the down-right vector and ends directly below the start of the upward vector.]"
+  }
+]

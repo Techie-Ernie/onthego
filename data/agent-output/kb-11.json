@@ -1,0 +1,342 @@
+[
+  {
+    "id": "njc-2026-prelim-p1-q22",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The charge added is $Q=It=(2.5\\times10^{-6})(200)=5.0\\times10^{-4}\\ \\mathrm{C}$. Dividing by the voltage increase gives $C=Q/\\Delta V=(5.0\\times10^{-4})/5.0=100\\ \\mathrm{\\mu F}$.",
+      "perOption": {
+        "A": "Gives too little capacitance to store the calculated charge at the stated voltage increase.",
+        "B": "Correct.",
+        "C": "Uses millifarads and also gives the wrong numerical value in microfarads.",
+        "D": "Uses millifarads for a value calculated in microfarads."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q23",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each parallel group has capacitance $C+C+C=3C$. The two groups are in series, giving $C_{\\mathrm{total}}=(1/(3C)+1/(3C))^{-1}=3C/2$.",
+      "perOption": {
+        "A": "Treats all six capacitors as being in series.",
+        "B": "Reverses the series and parallel connections by treating the circuit as two parallel branches of three series capacitors.",
+        "C": "Correct.",
+        "D": "Treats all six capacitors as being in parallel."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q24",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both ions pass through the velocity selector undeflected, so they have the same speed. In the uniform magnetic field, $Bqv=mv^2/r$, giving $r=mv/(Bq)$. Since $B$ and $v$ are the same for both ions, $r_Q=(3.7)(1.5/2)=2.8\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Divides by both the mass factor and the charge factor.",
+        "B": "Correct.",
+        "C": "Inverts the mass-to-charge ratio when scaling the radius.",
+        "D": "Multiplies by the charge factor even though radius is inversely proportional to charge."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q25",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From the force on the current-carrying wire, $B=F/(IL)$. The induced e.m.f. peaks at the maximum wire speed, $v_{\\max}=\\omega x_0=2\\pi f x_0$. Thus $E_0=BLv_{\\max}=(10\\times10^{-3})(2\\pi\\times90)(1.8\\times10^{-3})/5.0=0.00204\\ \\mathrm{V}$, or $2.0\\ \\mathrm{mV}$ to two significant figures.",
+      "perOption": {
+        "A": "Uses frequency in place of angular frequency and misses the factor of $2\\pi$.",
+        "B": "Correct.",
+        "C": "Misses the factor of $2\\pi$ and reads the result in volts instead of millivolts.",
+        "D": "Reads the numerical result in volts instead of millivolts."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q26",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The flux linkage is $NBA\\cos(\\omega t)$. Taking its negative time derivative gives $E=2\\pi NBAf\\sin(2\\pi ft)$. Doubling $f$ doubles the peak e.m.f. to $2(2\\pi NBAf)$ and halves the period.",
+      "perOption": {
+        "A": "Doubles the peak e.m.f. but keeps the original period.",
+        "B": "Halves the period but incorrectly reduces the peak e.m.f.",
+        "C": "Halves the period but keeps the original peak e.m.f.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q27",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The threshold frequency depends on the minimum energy required to release an electron from europium, which is independent of light intensity. At the same frequency, higher intensity means more photons reach the metal per unit time, so more electrons are emitted per unit time.",
+      "perOption": {
+        "A": "Incorrectly lowers the threshold and overlooks the increase in photon arrival rate.",
+        "B": "Incorrectly lowers the threshold frequency when only intensity changes.",
+        "C": "Overlooks the increase in electron emission rate as more photons arrive each second.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q28",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "When electrons escape, the electroscope becomes positively charged and the gold leaf rises. Using $E=hc/\\lambda$, a red photon has energy $1.9125\\ \\mathrm{eV}$, below both work functions. A blue photon has energy $2.7625\\ \\mathrm{eV}$, above potassium’s work function but below aluminium’s, so the leaf rises only for potassium under blue light.",
+      "perOption": {
+        "A": "Assumes blue photons can also overcome aluminium’s $4.3\\ \\mathrm{eV}$ work function.",
+        "B": "Correct.",
+        "C": "Reverses the predictions for potassium and assumes both photon energies exceed aluminium’s work function.",
+        "D": "Reverses the predictions for potassium and incorrectly treats red photons as energetic enough for aluminium."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q29",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The positively charged gold nucleus repels both alpha particles. Of the two particles with equal energies, the one passing closer to the nucleus is deflected through the larger angle.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows the farther particle continuing straight even though the nucleus also repels it.",
+        "C": "Shows the same deflection for both particles despite their different distances from the nucleus.",
+        "D": "Shows both particles bending towards the positively charged nucleus."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q30",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The number of parent nuclei halves from its initial value in about 3 years. To estimate the half-life of $D_1$, use the part of the curve where very little P remains, so production of new $D_1$ is negligible. The number of $D_1$ nuclei at year 29 is about halved by year 44, giving 15 years.",
+      "perOption": {
+        "A": "Uses a 20-year interval for the daughter, whose late-time count halves in about 15 years.",
+        "B": "Correct.",
+        "C": "Overestimates both half-lives by reading intervals longer than the respective halving times.",
+        "D": "Uses about 6 years for P, by which time its count has roughly quartered."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q1",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange the expression to $k=2E/\\omega^2$. Since radians are dimensionless, the unit of $k$ is $(\\mathrm{kg\\,m^2\\,s^{-2}})(\\mathrm{s^{-1}})^{-2}=\\mathrm{kg\\,m^2}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives the units of linear momentum instead of dividing the energy units by angular speed squared.",
+        "C": "Gives the units of force and loses a power of length from the energy units.",
+        "D": "Multiplies the energy units by angular speed squared instead of dividing."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q2",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The density is $\\rho=m/(\\pi D^2t/4)$. The percentage uncertainty contributions are $0.19\\%$ from mass, $2(0.97\\%)=1.94\\%$ from diameter, and $1.5\\%$ from thickness. The diameter contributes the most.",
+      "perOption": {
+        "A": "Mass contributes only $0.19\\%$.",
+        "B": "Correct.",
+        "C": "Thickness appears to contribute the most if the diameter’s percentage uncertainty is counted only once.",
+        "D": "Resistance does not enter the density calculation."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q3",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The spring’s extension increases from $5\\ \\mathrm{mm}$ to $15\\ \\mathrm{mm}$. The increase in elastic potential energy is $\\tfrac12 k(x_f^2-x_i^2)=\\tfrac12(380)(0.015^2-0.005^2)=0.038\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Uses $\\tfrac12 k(\\Delta x)^2$ instead of subtracting the initial energy from the final energy.",
+        "B": "Correct.",
+        "C": "Omits the factor of $\\tfrac12$.",
+        "D": "Uses the spring’s total lengths in place of its extensions."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q4",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A couple consists of two equal and opposite forces and produces a pure turning effect. When their moments are added, the terms that depend on the pivot cancel, leaving a torque that is independent of the pivot.",
+      "perOption": {
+        "A": "Zero resultant force still allows a nonzero resultant torque.",
+        "B": "Correct.",
+        "C": "The forces have zero total moment about their intersection, but their resultant force can be nonzero.",
+        "D": "If the forces share a line of action, their net torque is zero."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q5",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "PQ describes the initial fall, so positive velocity on this graph is directed downwards. Q is the greatest downward velocity, while the greatest upward speed occurs at R immediately after the first bounce.",
+      "perOption": {
+        "A": "The area under PQ gives the downward displacement from release at P to first impact at Q.",
+        "B": "The reduced speed after each impact shows a loss of kinetic energy in the collision.",
+        "C": "The positive gradient of RS gives the downward acceleration of free fall.",
+        "D": "Correct. Q is the point of maximum downward speed."
+      }
+    },
+    "issues": "The key’s comment on option A misidentifies P as the point of impact. P is release and Q is first impact."
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q6",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rotor sweeps out area $A=\\pi(D/2)^2=\\pi D^2/4$, so the mass flow rate is $\\Delta m/\\Delta t=\\rho Av$. The air starts at rest, so the rate of increase of its kinetic energy is $P=\\tfrac12(\\Delta m/\\Delta t)v^2=\\tfrac18\\pi\\rho D^2v^3$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the diameter as the radius when calculating the swept area.",
+        "C": "Applies $P=Fv$ with the outgoing air speed and misses the factor of $\\tfrac12$ in the kinetic energy.",
+        "D": "Gives the force from the change in momentum per unit time instead of the power."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q7",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Thermal energy dissipated equals the work done against air resistance. This is the area under the force–displacement graph for $R$, which is region $Q$.",
+      "perOption": {
+        "A": "Uses the work done by the resultant force, which is the increase in kinetic energy.",
+        "B": "Correct.",
+        "C": "Subtracts the resistance work from the net work, which already accounts for resistance.",
+        "D": "Uses the total work done by the applied force, including the increase in kinetic energy."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q8",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial vertical speed is zero, so the first fall obeys $y=\\tfrac12gt_1^2$ and takes $t_1=\\sqrt{2y/g}$. The second fall takes $t_2=\\sqrt{2(4y)/g}=2t_1$. The horizontal speed stays constant and is the same for both objects, so the second travels $2x$.",
+      "perOption": {
+        "A": "Assumes the same launch speed gives the same time of flight.",
+        "B": "Correct.",
+        "C": "Treats the time of flight as directly proportional to the drop height.",
+        "D": "Treats horizontal distance as proportional to the square of the drop height."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q9",
+    "keyPage": 8,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking X’s initial direction as positive, X changes momentum by $\\Delta p_X=(2.5)(2.0-6.0)=-10.0\\ \\mathrm{N\\,s}$. Newton’s third law gives Y the opposite impulse, $+10.0\\ \\mathrm{N\\,s}$. The average force on Y has magnitude $F_{\\mathrm{avg}}=10.0/(20\\times10^{-3})=500\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Uses the impulse without dividing by the contact time.",
+        "B": "Uses Y’s mass with X’s change in velocity.",
+        "C": "Uses X’s final momentum of $5.0\\ \\mathrm{N\\,s}$ in place of the $10.0\\ \\mathrm{N\\,s}$ momentum change.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s comment attributes 250 N to using Y’s final momentum. Y’s final momentum is 6 N s, which would give 300 N. Using X’s final momentum would give 250 N."
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q10",
+    "keyPage": 9,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At mid-height the limiting speed is zero, so energy conservation gives $\\tfrac12mv^2=mgr$ and a minimum entry speed of $\\sqrt{2gr}$. At the top, gravity alone supplies the centripetal force at the contact threshold, so the minimum speed there is $\\sqrt{gr}$. For an entry speed just sufficient to maintain contact at the top, $\\tfrac12mv^2-\\tfrac12mgr=mg(2r)$, giving $v=\\sqrt{5gr}$. The body leaves the track between mid-height and the top, so $\\sqrt{2gr}<v<\\sqrt{5gr}$.",
+      "perOption": {
+        "A": "Gives too little entry energy to reach mid-height.",
+        "B": "Only reaches mid-height with zero speed.",
+        "C": "Correct.",
+        "D": "Exceeds the minimum entry speed needed to maintain contact throughout the loop."
+      }
+    },
+    "issues": "The key prints a strict inequality for the centripetal force condition at the top. Equality holds at the minimum speed, where the normal force is zero."
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q11",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GMm/r^2=mr(2\\pi/T)^2$ and $T^2=4\\pi^2r^3/(GM)$. For the original and new periods, $T^2/T_2^2=r^3/(0.25r)^3=64$. Thus $T=8T_2$, and the planet completes eight revolutions in time $T$.",
+      "perOption": {
+        "A": "Gives the new period as a fraction of the original period instead of the number of revolutions.",
+        "B": "Uses the radius ratio as the number of revolutions.",
+        "C": "Assumes the period is directly proportional to radius.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  }
+]

@@ -4161,5 +4161,3645 @@
   "difficultyReason": "Direct application of the definitions of systematic and random error to a distribution.",
   "misconception": "Confusing systematic error (offset) with random error (spread)",
   "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q2": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "practical"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "A routine application of the rule for combining percentage uncertainties.",
+  "misconception": "Subtracting uncertainties for quantities in the denominator",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q3": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.h",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must apply the three-forces-concurrent condition and account for friction at both contact surfaces.",
+  "misconception": "Assuming the wall force is purely horizontal (normal only) even on a rough wall",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q4": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "collisions"
+  ],
+  "outcomes": [
+   "motion-and-forces.h",
+   "motion-and-forces.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must link the thrust to the rate of change of momentum of the air and share the weight among four propellers.",
+  "misconception": "Forgetting to share the weight among the four propellers",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q5": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "energy-and-fields.b",
+   "energy-and-fields.e",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "This needs a direct link from balanced forces to constant speed and a linear loss of $E_p$.",
+  "misconception": "Assuming gravitational potential energy is always converted into kinetic energy during a fall",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q6": {
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "projectile-motion.b",
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must recognise that the ball inherits the upward velocity and then solve a quadratic for the time.",
+  "misconception": "Ignoring the initial upward velocity inherited from the moving balloon",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q7": {
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "energy-and-fields",
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "collisions.c",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must identify the common velocity at maximum compression and combine momentum with energy conservation.",
+  "misconception": "Not realising that the blocks share a common velocity at maximum compression",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q8": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must resolve the tension in two directions, use the right radius and eliminate the unknown angle.",
+  "misconception": "Taking the string length as the radius of the circular path",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q9": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A simple proportionality argument once friction is identified as the centripetal force.",
+  "misconception": "Assuming the maximum speed is proportional to the friction force",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q10": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard null-point problem with a simple square root.",
+  "misconception": "Forgetting to take the square root of the mass ratio",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q11": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.e",
+   "gravitational-fields.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A direct use of $\\phi = -GM/r$, but sign handling trips up some students.",
+  "misconception": "Sign errors when subtracting negative potentials",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q12": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.c",
+   "oscillations.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must convert scale readings into displacements from equilibrium and solve two inverse-cosine equations.",
+  "misconception": "Measuring displacement from the end of the scale rather than from equilibrium",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q13": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.f",
+   "oscillations.h",
+   "oscillations.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "graph"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must read $x_0$ and $v_0$ from the ellipse and realise that constant energy forces $\\omega$ to change.",
+  "misconception": "Assuming the angular frequency stays the same when the amplitude changes",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q14": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.d",
+   "wave-motion.e",
+   "wave-motion.i",
+   "wave-motion.b"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must read the wavelength from a particle-position diagram and recall basic wave properties.",
+  "misconception": "Taking compression-to-rarefaction distance as a full wavelength",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q15": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must halve the angle, find $d/\\lambda$ and then count the orders on both sides plus the central maximum.",
+  "misconception": "Using 56° rather than 28° as the diffraction angle, or forgetting the central maximum",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q16": {
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "superposition.m",
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must choose a visible wavelength themselves and combine the Rayleigh criterion with the small-angle approximation.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q17": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A direct ratio calculation from the mean kinetic energy formula.",
+  "misconception": "Forgetting to square the r.m.s. speed ratio",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q18": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.f",
+   "thermodynamic-systems.d"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Straightforward use of the first law, with care over sign conventions.",
+  "misconception": "Confusing heat supplied to the gas with heat lost by the gas",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q19": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.d"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires $V \\propto d^3$ and using the change in volume for the work done.",
+  "misconception": "Using final volume instead of change in volume for work done",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q20": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.b"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must read the distances off a grid (including diagonals) and apply the inverse square law.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q21": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.d",
+   "electric-fields.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard result, though students often confuse zero field with zero potential.",
+  "misconception": "Zero electric field inside implies zero potential inside",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q22": {
+  "chapter": "currents",
+  "secondaryChapters": [
+   "circuits"
+  ],
+  "outcomes": [
+   "currents.b",
+   "circuits.c",
+   "circuits.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines the current and resistance equations and cancels area.",
+  "misconception": "Assuming radius affects drift speed at fixed voltage",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q23": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.b",
+   "circuits.g",
+   "circuits.l"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires identifying the active loop and accounting for the internal voltage drop.",
+  "misconception": "Assuming a charged capacitor opens every loop",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q24": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding the initial current and recalculating the signed net force at half that current.",
+  "misconception": "Halving net force when only magnetic force halves",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q25": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.b",
+   "electromagnetic-forces.c",
+   "quantities-and-measurement.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires visualizing the rotated wire and adding two perpendicular field vectors.",
+  "misconception": "Adding field magnitudes without checking directions",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q26": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.g"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Applies the ideal transformer turns ratio at fixed input voltage.",
+  "misconception": "Treating load resistance as a control for ideal secondary voltage",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q27": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.j"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires rearranging the energy equation and forming a ratio involving three quantities.",
+  "misconception": "Omitting the quantum-number factor",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q28": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "quantum-physics.h",
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires recalling the atomic length scale and using it to estimate the momentum uncertainty.",
+  "misconception": "Using a nuclear length scale for an atom",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q29": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.f",
+   "nuclear-physics.g",
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires isolating two source rates, decaying them separately and restoring the background.",
+  "misconception": "Applying radioactive decay to background counts",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "ri-2026-prelim-p1-q30": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.n",
+   "nuclear-physics.r"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires calculating total binding energies and allocating the released energy to kinetic energy and the photon.",
+  "misconception": "Equating total released energy to photon energy",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q1": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "motion-and-forces",
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.g",
+   "motion-and-forces.i",
+   "forces-and-moments.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "practical"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires deriving the mass and propagating uncertainties through a subtraction and a division.",
+  "misconception": "Treating relative uncertainty as absolute uncertainty",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q2": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.c",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires identifying which weights each spring supports before applying Hooke's law.",
+  "misconception": "Assuming identical tension in both springs",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q3": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.g",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires applying the momentum-rate form of Newton's second law to incoming rain at constant car speed.",
+  "misconception": "Assuming constant car speed means the collected rain requires no force",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q4": {
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "collisions.a",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires opposite velocity signs in a direct impulse calculation.",
+  "misconception": "Subtracting speeds when velocity reverses",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q5": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "energy-and-fields.m",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires using force balance to find the speed ratio and then using the power relation.",
+  "misconception": "Assuming power scales directly with thrust as speed changes",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q6": {
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "projectile-motion.b",
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires relating horizontal displacement and vertical rise over the same time and using trajectory symmetry.",
+  "misconception": "Using the displacement to the apex as the full range",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q7": {
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "projectile-motion.e",
+   "motion-and-forces.b",
+   "motion-and-forces.c",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires matching three graphs by their initial values, slopes and terminal behavior.",
+  "misconception": "Treating zero net force as zero speed",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q8": {
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "collisions.a",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires comparing the impulses delivered by gravity and the floor over the short contact time.",
+  "misconception": "Assuming gravity stops acting during contact",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q9": {
+  "chapter": "collisions",
+  "secondaryChapters": [],
+  "outcomes": [
+   "collisions.c",
+   "collisions.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires solving simultaneous signed momentum and relative-speed equations.",
+  "misconception": "Assigning the other trolley's velocity to P",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q10": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.b",
+   "temperature-and-ideal-gases.c"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires comparing gas states at equal pressure and converting both temperatures to kelvin.",
+  "misconception": "Reporting the fraction that escapes",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q11": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.b",
+   "thermodynamic-systems.d",
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires using the first law to connect rapid compression with a temperature rise.",
+  "misconception": "Confusing work on the gas with heat from the surroundings",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q12": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.d",
+   "circular-motion.f"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognising uniform speed is enough to test the statement about resultant force.",
+  "misconception": "Confusing the rod force with the resultant force",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q13": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.j"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Use the orbital period–radius scaling and convert days to hours.",
+  "misconception": "Using the wrong power of orbital radius",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q14": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "gravitational-fields.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Identify both distances from the Moon’s centre and apply conservation of energy.",
+  "misconception": "Using height in place of distance from the centre",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q15": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.b",
+   "oscillations.c",
+   "oscillations.g",
+   "oscillations.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Read the positions of equilibrium and the turning points from the graph.",
+  "misconception": "Taking the peak-to-peak distance as the amplitude",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q16": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.f",
+   "oscillations.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Substitute the total energy into the kinetic energy expression and solve for displacement.",
+  "misconception": "Treating energy as linear in displacement",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q17": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.c"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Identify the standard phase, spacing and amplitude properties of a stationary wave.",
+  "misconception": "Confusing nodes with antinodes",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q18": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.c",
+   "superposition.d"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Apply different resonance conditions to open and closed pipes.",
+  "misconception": "Applying the same resonance condition to both pipe types",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q19": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.d",
+   "electric-fields.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Add the signed potential energies of both charge pairs and then conserve energy.",
+  "misconception": "Losing the sign or factor of two in the kinetic energy change",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q20": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.f",
+   "energy-and-fields.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Check both the angle of the field lines at the plates and how their spacing changes.",
+  "misconception": "Drawing field lines that meet conductors obliquely",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q21": {
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.d",
+   "currents.f",
+   "currents.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "graph",
+   "proportionality"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Compare the mean squares of two waveforms over a full cycle before equating the powers.",
+  "misconception": "Using the full sine-wave RMS factor for a half-wave rectified sine",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q22": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.b",
+   "circuits.h",
+   "circuits.i",
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Identify the three circuit nodes and reduce the redrawn network.",
+  "misconception": "Reading the physical layout as a series connection",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q23": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.b",
+   "electromagnetic-forces.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Determine which side permits cancellation and use the two different distances in the field equation.",
+  "misconception": "Equating field magnitudes where both fields point the same way",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q24": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.k",
+   "electromagnetic-forces.l"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Compare the curvature of particle paths using the mass-to-charge ratio.",
+  "misconception": "Comparing charge alone to predict deflection",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q25": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.d",
+   "electromagnetic-induction.e",
+   "electromagnetic-induction.f"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Compare how fast the flux changes at each stage in the two-coil circuit.",
+  "misconception": "Equating the largest primary current with the largest induced current",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q26": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.c",
+   "electromagnetic-induction.e",
+   "currents.a"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combine Faraday’s law with the current–charge relation and include both resistances.",
+  "misconception": "Using only the coil resistance or mis-converting square centimetres",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q27": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Use the inverse relationship and keep the order of the ratio straight.",
+  "misconception": "Treating the two uncertainties as directly proportional",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q28": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Express momentum in terms of kinetic energy before substituting into the de Broglie equation.",
+  "misconception": "Inverting the de Broglie relation or dropping the kinetic energy factor of one half",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q29": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.a"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "practical"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Distinguish the inferences from scattering data from claims about nuclear composition.",
+  "misconception": "Inferring neutrons directly from Rutherford scattering",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "rvhs-2026-prelim-p1-q30": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.b",
+   "nuclear-physics.c",
+   "nuclear-physics.g",
+   "nuclear-physics.n"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Track both proton and nucleon numbers across the three successive decays.",
+  "misconception": "Tracking the alpha decay without both beta decays",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q1": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.c",
+   "quantities-and-measurement.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Express tension and linear mass density in base units and equate the exponents.",
+  "misconception": "Using mass instead of mass per unit length",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q2": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [
+   "electromagnetic-forces",
+   "electromagnetic-induction"
+  ],
+  "outcomes": [
+   "quantities-and-measurement.c",
+   "electromagnetic-forces.g",
+   "electromagnetic-induction.a"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires rearranging familiar field equations and converting derived units.",
+  "misconception": "Confusing magnetic flux with magnetic flux density",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q3": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires applying Newton’s second law to the pair and then to one block.",
+  "misconception": "Applying the full pulling force to Y alone",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q4": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.c",
+   "energy-and-fields.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires reading a triangular area as net work and equating it to the gain in kinetic energy.",
+  "misconception": "Treating the force as constant",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q5": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.b"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Requires adding the initial energies and subtracting a single friction loss.",
+  "misconception": "Adding dissipated energy to kinetic energy",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q6": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "energy-and-fields.m",
+   "quantities-and-measurement.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires resolving weight along the slope, converting force into power and adding the original engine power.",
+  "misconception": "Confusing additional power with total power",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q8": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires recognising that the separation grows with the square of time for two cars starting from rest.",
+  "misconception": "Assuming separation grows linearly with time",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q9": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "projectile-motion"
+  ],
+  "outcomes": [
+   "motion-and-forces.c",
+   "projectile-motion.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires comparing the signs and relative sizes of velocity gradients through four stages.",
+  "misconception": "Reading acceleration from the height of a velocity graph",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q10": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires writing separate radial force equations at the top and bottom before subtracting.",
+  "misconception": "Equating tension with centripetal force everywhere",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q11": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.a",
+   "gravitational-fields.j",
+   "circular-motion.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires distinguishing the distance between the stars from star b’s orbital radius.",
+  "misconception": "Using the same radius for gravity and circular motion",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q12": {
+  "chapter": "oscillations",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "oscillations.d",
+   "oscillations.f",
+   "oscillations.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires identifying simple harmonic motion from the force graph and recognising the quadratic energy dependence.",
+  "misconception": "Assuming any two curves with constant total energy fit SHM",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q13": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [
+   "oscillations"
+  ],
+  "outcomes": [
+   "wave-motion.e",
+   "oscillations.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires finding the equilibrium crossings and reading the direction of motion there.",
+  "misconception": "Confusing maximum displacement with maximum speed",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q14": {
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "superposition.c",
+   "wave-motion.b"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "graph"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires comparing phase in a progressive wave with phase within and between standing-wave loops.",
+  "misconception": "Applying progressive-wave phase rules within a standing-wave loop",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q15": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires using the final absolute temperature and distinguishing the escaped fraction from the remaining fraction.",
+  "misconception": "Reporting the fraction remaining",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q16": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.e",
+   "temperature-and-ideal-gases.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires distinguishing the mechanical assumptions behind gas pressure from a later result about temperature.",
+  "misconception": "Treating the temperature relation as an input to the pressure derivation",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q17": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.a",
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires carrying the same internal-energy change across both paths and assigning the correct sign to work.",
+  "misconception": "Treating work done by the gas as positive in Q + W",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q18": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "electric-fields.g",
+   "electric-fields.h",
+   "electric-fields.i",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding the electric force and subtracting weight before calculating acceleration.",
+  "misconception": "Ignoring weight in the net force",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q19": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.f",
+   "electric-fields.i",
+   "energy-and-fields.i"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires tracking the motion of a negative charge and the associated energy transfer.",
+  "misconception": "Assuming a negative charge moves toward lower potential",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q20": {
+  "chapter": "currents",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "currents.a",
+   "circular-motion.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding the period from angular speed and counting the charge that passes in one revolution.",
+  "misconception": "Using orbital speed instead of revolution frequency",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q21": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.c",
+   "circuits.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires distinguishing static resistance from the reciprocal slope of a straight line with a nonzero intercept.",
+  "misconception": "Taking reciprocal I–V gradient as resistance",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q22": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.b",
+   "circuits.c",
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding the potential of both midpoints before applying Ohm’s law to the connecting wire.",
+  "misconception": "Using a supply voltage as the bridge voltage",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q23": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electric-fields.j",
+   "currents.a"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It uses two short charge equations and a unit conversion.",
+  "misconception": "Confusing milliampere and ampere",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q24": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.c",
+   "electromagnetic-forces.f",
+   "electromagnetic-forces.i"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The two current products, separations and force directions must all be compared.",
+  "misconception": "Ignoring force direction or wire separation",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q25": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.f"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It combines Fleming’s left-hand rule with recognition that the angle to the field stays at a right angle.",
+  "misconception": "Using the angle to the horizontal in the magnetic force formula",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q26": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.a",
+   "electromagnetic-induction.c"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires distinguishing flux density from flux and flux linkage in a variable-area core.",
+  "misconception": "Confusing flux density with flux linkage",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q27": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It combines power conservation, rms values and the transformer voltage ratio.",
+  "misconception": "Inverting the primary-to-secondary turns ratio",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q28": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.k"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires finding the highest accessible level and counting transitions between all accessible levels.",
+  "misconception": "Counting only transitions to the ground state",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q29": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.i",
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires equating two decay laws with different half-lives and simplifying the powers.",
+  "misconception": "Confusing elapsed time with the number of half-lives",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "sajc-2026-prelim-p1-q30": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.r"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires scaling the binding energy per nucleon and identifying the direction of energy transfer.",
+  "misconception": "Confusing binding energy per nucleon with total binding energy",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q1": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.a",
+   "quantities-and-measurement.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires expressing energy in base units and simplifying the units of the rearranged equation.",
+  "misconception": "Using degrees Celsius as an SI base unit",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q2": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires estimating familiar lengths and converting them to volumes by powers of ten.",
+  "misconception": "Using an atomic length directly as an atomic volume",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q3": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.d",
+   "forces-and-moments.e",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires checking both force and torque balance separately for three configurations.",
+  "misconception": "Equating zero resultant force with equilibrium",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q4": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.b",
+   "forces-and-moments.h",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires resolving the sloping plane’s normal reaction and applying equilibrium in two directions.",
+  "misconception": "Confusing the two normal reactions",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q5": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires reading the momentum gradient and using its sign in a force balance.",
+  "misconception": "Confusing resultant force with an individual force",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q6": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "It requires linking the last second and the whole ascent through their shared endpoint at zero speed.",
+  "misconception": "Assuming distance is proportional to time during the ascent",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q7": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.b",
+   "energy-and-fields.l"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires comparing conserved energy separately from energy converted per unit time.",
+  "misconception": "Confusing energy transferred with its rate of transfer",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q8": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.l",
+   "energy-and-fields.m",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires finding the same tension from two force balances and using it to calculate power.",
+  "misconception": "Adding the weights to compute the power delivered by the string",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q9": {
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "projectile-motion.b",
+   "energy-and-fields.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires obtaining the horizontal speed from the range and then calculating the kinetic energy at the apex.",
+  "misconception": "Assuming all velocity components vanish at the apex",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q10": {
+  "chapter": "projectile-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "projectile-motion.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires resolving the drag force and combining its vertical component with weight.",
+  "misconception": "Applying the no-drag acceleration components when drag is present",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q11": {
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "motion-and-forces.g",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires resolving momentum perpendicular to the cushion and accounting for its reversal.",
+  "misconception": "Ignoring the sign reversal of the normal momentum",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q12": {
+  "chapter": "collisions",
+  "secondaryChapters": [],
+  "outcomes": [
+   "collisions.c",
+   "collisions.d"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires applying both momentum and kinetic-energy conservation to interpret the result of a collision between equal masses.",
+  "misconception": "Equating an elastic collision with equal and opposite outgoing velocities",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q13": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "circular-motion.d",
+   "forces-and-moments.b"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must identify which force provides the inward acceleration.",
+  "misconception": "Friction must oppose the mass’s velocity.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q14": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "energy-and-fields",
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "energy-and-fields.b",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must combine energy conservation, radial dynamics and Newton’s third law.",
+  "misconception": "The normal force equals the centripetal force.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q15": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.a"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must infer both the zero of the resultant force and its location.",
+  "misconception": "Opposing gravitational forces cancel at the midpoint.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q16": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.j",
+   "oscillations.k"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must distinguish changes in peak height, width and frequency.",
+  "misconception": "Reducing damping shifts resonance to a lower frequency.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q17": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.g",
+   "wave-motion.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must use spherical spreading and convert the microphone area to square metres.",
+  "misconception": "A square-centimetre conversion uses the linear conversion factor.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q18": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must track the transmitted intensity and polarisation axis through three filters.",
+  "misconception": "Malus’ law always uses the angle relative to the first filter.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q19": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must convert line density to spacing, bound the order and count both sides.",
+  "misconception": "The highest order equals the number of maxima.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q20": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "thermodynamic-systems.g",
+   "energy-and-fields.l"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must add the heat capacities and convert the required energy into a heating time.",
+  "misconception": "Only the water absorbs energy.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q21": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.c",
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must combine the ideal-gas law with the square-root dependence of rms speed on temperature.",
+  "misconception": "Rms speed is directly proportional to absolute temperature.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q22": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [
+   "thermodynamic-systems"
+  ],
+  "outcomes": [
+   "temperature-and-ideal-gases.g",
+   "thermodynamic-systems.a"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must distinguish the temperature dependence of kinetic energy from the mass dependence of speed.",
+  "misconception": "Gas molecules at the same temperature have the same rms speed.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q23": {
+  "chapter": "currents",
+  "secondaryChapters": [
+   "circuits"
+  ],
+  "outcomes": [
+   "currents.b",
+   "circuits.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must convert the area and use the drift-current and resistance equations in sequence.",
+  "misconception": "Square millimetres convert to square metres by a factor of $10^{-3}$.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q24": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.b",
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must identify the measured resistor and infer the effect of increasing the LDR resistance.",
+  "misconception": "The voltmeter is across the LDR.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q25": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "electric-fields.h",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must scale the droplet’s volume and account for the reduced charge in the equilibrium equation.",
+  "misconception": "Droplet mass scales linearly with radius.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q26": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.f",
+   "energy-and-fields.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Students must check both the crossing angles and the direction of decreasing potential.",
+  "misconception": "Field lines can cross equipotentials obliquely.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q27": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "quantities-and-measurement.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must find each force direction and resolve the symmetric forces into components.",
+  "misconception": "Magnetic force magnitudes on bent segments add directly.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q28": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-induction.f",
+   "circular-motion.c"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Students must relate rim speed to rotation frequency and then to the flux swept per unit time.",
+  "misconception": "Every point along the radius moves at the rim speed.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q29": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must convert the energy, calculate the momentum and apply the percentage uncertainty.",
+  "misconception": "The full momentum can be substituted for its uncertainty.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tjc-2026-prelim-p1-q30": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.r",
+   "nuclear-physics.t"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must convert binding energies per nucleon to total energies before finding the difference.",
+  "misconception": "Binding energies per nucleon can be subtracted directly to get the energy released.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q1": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.b"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Students only need to recall and compare the prefix powers of ten.",
+  "misconception": "Micro and milli represent the same factor.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q2": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.f",
+   "forces-and-moments.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must locate the rod’s centre of gravity and calculate both lever arms about the shifted pivot.",
+  "misconception": "The rod’s own centre of gravity shifts when the suspended mass is added.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q3": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires finding the acceleration relative to the elevator before applying a standard motion equation.",
+  "misconception": "Ignoring the floor's acceleration",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q4": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "motion-and-forces.g",
+   "motion-and-forces.h",
+   "quantities-and-measurement.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must resolve the velocity perpendicular to the wall and account for its reversal.",
+  "misconception": "Omitting the reversal of the normal velocity",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q5": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "projectile-motion"
+  ],
+  "outcomes": [
+   "energy-and-fields.b",
+   "energy-and-fields.c",
+   "energy-and-fields.e",
+   "projectile-motion.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The ramp length must be calculated before frictional work can be included in the energy balance.",
+  "misconception": "Using horizontal distance for frictional work",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q6": {
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "projectile-motion.b",
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The final speed must be resolved into components before using the vertical motion equation.",
+  "misconception": "Treating gravity as an acceleration along the velocity",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q7": {
+  "chapter": "collisions",
+  "secondaryChapters": [],
+  "outcomes": [
+   "collisions.b",
+   "collisions.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires distinguishing conservation of momentum from loss of kinetic energy.",
+  "misconception": "Assuming momentum is lost in an inelastic collision",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q8": {
+  "chapter": "collisions",
+  "secondaryChapters": [],
+  "outcomes": [
+   "collisions.d"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student can identify the correct diagram by comparing the signed velocities.",
+  "misconception": "Adding speeds without checking directions",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q9": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "circular-motion.f",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The tension and orbital radius both change and must be included in the speed ratio.",
+  "misconception": "Confusing string length with extension",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q10": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "gravitational-fields.f",
+   "energy-and-fields.i"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student must apply inverse-distance scaling and identify the sign of gravitational work.",
+  "misconception": "Confusing the distance dependence of potential and field strength",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q11": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.f",
+   "oscillations.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires evaluating the kinetic-energy fraction at half amplitude and finding the remaining fraction.",
+  "misconception": "Assuming energy varies linearly with displacement",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q12": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "It requires translating the spatial profile to infer the instantaneous direction and magnitude of particle velocity.",
+  "misconception": "Reading particle velocity directly from the spatial slope",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q13": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires finding the greatest allowed integer order and counting maxima on both sides of the centre.",
+  "misconception": "Omitting the central maximum",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q14": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.c",
+   "superposition.d"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The end conditions and node count determine how many quarter wavelengths fit in the pipe.",
+  "misconception": "Miscounting quarter wavelengths between the end conditions",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q15": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.a",
+   "thermodynamic-systems.d",
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must interpret the compression path, the cycle direction and the return to the original state.",
+  "misconception": "Confusing work done by the gas with work done on it",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q16": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [
+   "temperature-and-ideal-gases"
+  ],
+  "outcomes": [
+   "thermodynamic-systems.b",
+   "thermodynamic-systems.f",
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student applies the first law twice and takes the ratio of the resulting internal energy changes.",
+  "misconception": "Assigning positive work on the gas during expansion",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q17": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.b",
+   "temperature-and-ideal-gases.c",
+   "temperature-and-ideal-gases.d"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "It requires identifying the fixed pressure and volume and forming a ratio using absolute temperatures.",
+  "misconception": "Using Celsius temperatures in the ideal-gas equation",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q18": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.b",
+   "electric-fields.d"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student applies two familiar distance laws to the same change in separation.",
+  "misconception": "Confusing inverse-distance and inverse-square scaling",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q19": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must infer both the field direction and its changing strength from graph gradients.",
+  "misconception": "Equating zero potential with zero electric field",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q20": {
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.a"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student must combine the two charge flows and convert a per-minute count into current.",
+  "misconception": "Subtracting currents for opposite charge motions",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q21": {
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "electric-fields"
+  ],
+  "outcomes": [
+   "circuits.k",
+   "electric-fields.j"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student finds two equivalent capacitances and uses the same cell voltage for both.",
+  "misconception": "Applying a factor of three to only one arrangement",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q22": {
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "circuits.b",
+   "circuits.j",
+   "currents.d"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must infer the voltage division and square the voltage ratio to obtain the power split.",
+  "misconception": "Assuming identical resistors always dissipate equal power",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q23": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The two voltmeters measure different parts of their potential dividers.",
+  "misconception": "Assuming both voltmeters measure the variable resistor.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q24": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.j",
+   "electromagnetic-forces.l"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student must reverse the electron’s direction to apply Fleming’s left-hand rule.",
+  "misconception": "Treating electron motion as conventional current.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q25": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "electromagnetic-forces.h",
+   "forces-and-moments.g"
+  ],
+  "primaryType": "practical",
+  "types": [
+   "practical",
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The calculation combines magnetic force on a wire with the principle of moments.",
+  "misconception": "Using the full side length as the length in the field.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q26": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-induction.f"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "The rotating disc requires tracking the radial dependence and sign of the induced e.m.f.",
+  "misconception": "Adding the two centre-to-point e.m.f. magnitudes along QOS.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q27": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "One transformer ratio gives both requested values with straightforward arithmetic.",
+  "misconception": "Inverting the current ratio.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q28": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.e"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The comparison links energy gained through a potential difference to momentum and wavelength.",
+  "misconception": "Assuming equal kinetic energies imply equal momenta.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q29": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.f",
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must halve successive drops because the measured rate includes a constant background.",
+  "misconception": "Applying the half-life to the measured total.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "tmjc-2026-prelim-p1-q30": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.b",
+   "nuclear-physics.c",
+   "nuclear-physics.m",
+   "nuclear-physics.n"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must track both nucleon and proton numbers through several decays.",
+  "misconception": "Reading mass number as neutron number.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q1": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.c",
+   "quantities-and-measurement.d"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student must express energy and charge in base units and match exponents.",
+  "misconception": "Inverting the units of charge rather than cancelling the current units.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q2": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "motion-and-forces.b",
+   "motion-and-forces.c",
+   "motion-and-forces.i",
+   "forces-and-moments.b"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Identifying the curves requires relating speed to the height gradient and drag to resultant force.",
+  "misconception": "Treating a falling height curve as a falling speed curve.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q3": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "forces-and-moments.b"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student distinguishes free fall from situations where a contact force supports the person.",
+  "misconception": "Equating zero acceleration with weightlessness.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q4": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "forces-and-moments.b",
+   "energy-and-fields.c"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A stationary object under static friction supplies a counterexample to the claim that friction always dissipates energy.",
+  "misconception": "Assuming all friction dissipates energy.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q5": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "The calculation uses the component of a given force along a given displacement.",
+  "misconception": "Using the full pulling force for horizontal work.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q6": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.k",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must distinguish extension from total length and find the area against the correct axis.",
+  "misconception": "Treating length as extension or using the area against the force axis.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q7": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must recognise zero tension and resolve weight along the inward radius.",
+  "misconception": "Using the component of weight perpendicular to the radius.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q8": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.j",
+   "circular-motion.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must derive the orbital speed dependence before comparing kinetic energies.",
+  "misconception": "Comparing kinetic energies using mass alone.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q9": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.d",
+   "oscillations.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The student must compare the slope of the displacement graph with the direction of the restoring acceleration.",
+  "misconception": "Reading the sign of displacement as the sign of acceleration.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q10": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.c",
+   "oscillations.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must read an energy–position pair and connect it to angular frequency and period.",
+  "misconception": "Using the full horizontal span as the displacement.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q11": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.b",
+   "wave-motion.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must use the direction of travel to identify which zero crossing will reach Q first.",
+  "misconception": "Using the nearest crossing on the wrong side of Q.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q12": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.j"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The calculation requires converting the percentage reduction to a transmitted fraction before applying Malus’ law.",
+  "misconception": "Using the percentage lost as the percentage transmitted.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q13": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Find the grating spacing, then calculate and subtract two diffraction angles.",
+  "misconception": "Confusing an angle from the grating normal with the angular separation.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q14": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.k",
+   "superposition.l"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Relate the angular position of the first minimum to the width measured on the screen.",
+  "misconception": "Confusing angular width with width on the screen.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q15": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Identify the two phase-change plateaus and compare their durations at constant heating power.",
+  "misconception": "Comparing plateau temperatures instead of durations.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q16": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.c",
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Combine the ideal-gas law with the kinetic-energy relation before taking the speed ratio.",
+  "misconception": "Treating r.m.s. speed as proportional to the pressure–volume product.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q17": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.a",
+   "thermodynamic-systems.d",
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Use the isothermal condition and the work sign convention to infer the heat-transfer sign.",
+  "misconception": "Reversing the signs of work done on and by a gas.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q18": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Calculate the trapezium area and apply the negative sign in the potential gradient.",
+  "misconception": "Using the slope of the field graph or reversing the sign for an electron.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q19": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.d",
+   "electric-fields.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Add the signed potentials from two charges at different distances, then multiply by the test charge.",
+  "misconception": "Using the inverse-square field law for potential.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q20": {
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Connect number density to total electron count and recognize that the cross-sectional area cancels.",
+  "misconception": "Confusing number density with the total number of electrons.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q21": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.b",
+   "circuits.c",
+   "circuits.g",
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Track how the voltmeter reading, series current, internal voltage drop and LDR resistance change together.",
+  "misconception": "Equating the fixed-resistor voltage with the cell terminal voltage.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q22": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "electromagnetic-forces.h",
+   "forces-and-moments.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative",
+   "practical"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combine the magnetic-force equation with torque balance using the correct moment arms.",
+  "misconception": "Confusing the length of wire in the field with a moment arm.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q23": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.f"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Identify the current–field angle for each side and use the opposite current directions on the vertical sides.",
+  "misconception": "Assuming every segment of a current loop experiences a magnetic force.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q24": {
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Read the time spent at each voltage and weight the squared levels over one period.",
+  "misconception": "Giving unequal-duration levels equal weight.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q25": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "electromagnetic-forces"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-induction.f",
+   "electromagnetic-forces.j"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Find the motional emf and determine its polarity relative to the direction of flight.",
+  "misconception": "Reversing the direction of magnetic force on positive charge.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q26": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.b",
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Differentiate the flux linkage and use the coil area and angular frequency in SI units.",
+  "misconception": "Confusing frequency in hertz with angular frequency.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q27": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.f",
+   "quantum-physics.i"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognize that the maximum and minimum of the wavefunction have the same squared magnitude.",
+  "misconception": "Treating the signed wavefunction as probability density.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q28": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Convert the proton energy to joules, calculate its momentum uncertainty, and apply the syllabus uncertainty relation.",
+  "misconception": "Using the full momentum or the percentage alone for momentum uncertainty.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q29": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.b",
+   "nuclear-physics.g",
+   "nuclear-physics.n"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Translate the two decay types into grid displacements and identify the parent two steps from Y.",
+  "misconception": "Changing mass number in beta-minus decay.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "vjc-2026-prelim-p1-q30": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.f",
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Subtract the background before applying two half-lives and restore it to obtain the detector reading.",
+  "misconception": "Applying radioactive decay to the background count.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q1": {
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.e"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Use typical everyday and atomic scales to evaluate four different estimates.",
+  "misconception": "Confusing everyday or atomic orders of magnitude.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q2": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "forces-and-moments.h",
+   "forces-and-moments.i",
+   "quantities-and-measurement.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Rearrange the vectors tip to tail while preserving their directions to check for zero resultant.",
+  "misconception": "Taking any triangular arrangement to mean zero vector sum.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q3": {
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.g",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires balancing both moments and vertical forces.",
+  "misconception": "Treating both rod forces as upward.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q4": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Requires identifying the two bodies in one gravitational interaction.",
+  "misconception": "Confusing balanced forces with a third-law pair.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q5": {
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires finding and adding the times for two successive stages.",
+  "misconception": "Omitting the sound travel time.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q6": {
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.l",
+   "energy-and-fields.n"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires converting minutes to seconds and applying efficiency to the power balance.",
+  "misconception": "Multiplying useful power by efficiency.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q7": {
+  "chapter": "projectile-motion",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "projectile-motion.b",
+   "projectile-motion.d",
+   "energy-and-fields.b"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires relating impact speed to energy while distinguishing vertical distance from displacement.",
+  "misconception": "Assuming launch direction changes impact speed.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q8": {
+  "chapter": "collisions",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "collisions.c",
+   "motion-and-forces.g",
+   "motion-and-forces.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires matching momentum-change magnitudes and solving for the speed-change ratio.",
+  "misconception": "Confusing equal impulses with equal velocity changes.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q9": {
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.c",
+   "circular-motion.e"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Both quantities follow directly from their radius dependence at fixed angular velocity.",
+  "misconception": "Equating constant angular velocity with constant linear speed.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q11": {
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.j",
+   "gravitational-fields.k"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires distinguishing mass-dependent quantities from quantities fixed by the common orbit.",
+  "misconception": "Confusing gravitational force with gravitational acceleration.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q12": {
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.i",
+   "oscillations.j",
+   "oscillations.k"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires inferring relative damping from free oscillations and applying it to forced response curves.",
+  "misconception": "Expecting stronger damping to raise the resonance peak.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q13": {
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding the incident angle at the inserted filter and applying Malus’ law twice.",
+  "misconception": "Using the angle between filters for both transmissions.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q14": {
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "superposition.a",
+   "wave-motion.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires converting intensities to amplitudes before combining and squaring them.",
+  "misconception": "Adding or subtracting intensities directly.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q15": {
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires converting line density to spacing, finding the highest integer order and counting both sides.",
+  "misconception": "Omitting the zero-order maximum.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q16": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires equating mean kinetic energies and taking a square root.",
+  "misconception": "Assuming equal temperatures imply equal r.m.s. speeds.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q17": {
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.c",
+   "temperature-and-ideal-gases.d"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires recognising the common pressure and relating gas mass to volume and temperature.",
+  "misconception": "Assuming the volumes alone determine the mass ratio.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q18": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.a",
+   "thermodynamic-systems.d",
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires tracking the signs of heat, work and internal energy during isobaric expansion.",
+  "misconception": "Using the sign of work done by the gas for work done on it.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q19": {
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.a",
+   "thermodynamic-systems.c"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires distinguishing thermal equilibrium from equality of total energy and radiation rates.",
+  "misconception": "Equating temperature with total internal energy.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q20": {
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electric-fields.g",
+   "electric-fields.j",
+   "currents.a"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires chaining charge transfer, capacitance and uniform-field relations.",
+  "misconception": "Multiplying by capacitance to find the voltage change.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q21": {
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.d",
+   "currents.f"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires equating heating powers and taking the square root of the resistance ratio.",
+  "misconception": "Treating the steady current as the AC peak current.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q22": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.d"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires relating local wire thickness to the gradient of cumulative resistance.",
+  "misconception": "Confusing local resistance per unit length with total resistance.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q23": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.c",
+   "circuits.g",
+   "circuits.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step",
+   "conceptual"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires tracking total current, lost volts and redistribution between the parallel branches.",
+  "misconception": "Assuming both branch currents fall when the terminal voltage falls.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q24": {
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.b",
+   "circuits.h",
+   "circuits.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The diagram requires several series and parallel reductions.",
+  "misconception": "Grouping resistors by appearance instead of shared nodes.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q25": {
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.e",
+   "electromagnetic-forces.f",
+   "electromagnetic-forces.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must resolve the magnetic force relative to the vertical wire.",
+  "misconception": "Assuming the magnetic force acts along the line separating the wires.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q26": {
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.a",
+   "electromagnetic-induction.b",
+   "electromagnetic-induction.c"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The expression follows once the normal component of the field is identified.",
+  "misconception": "Using the angle to the plane as the angle to the normal.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q27": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.b"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The calculation combines photon energy from wavelength with a milliwatt-to-watt conversion.",
+  "misconception": "Treating power as the energy of a single photon.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q28": {
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.h"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must identify which coordinate the slit confines before applying the uncertainty relation.",
+  "misconception": "Assigning the uncertainty to the direction of travel.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q29": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.i",
+   "nuclear-physics.j",
+   "nuclear-physics.k"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The daughter-to-parent ratio must be converted to a surviving fraction before using the decay law.",
+  "misconception": "Confusing the daughter-to-parent ratio with the initial-to-remaining ratio.",
+  "model": "claude-opus-5-5 via Claude Code"
+ },
+ "yijc-2026-prelim-p1-q30": {
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.n",
+   "nuclear-physics.r",
+   "nuclear-physics.t"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The student must convert per-nucleon binding energies into totals and account for energy released.",
+  "misconception": "Counting free neutrons as bound nucleons.",
+  "model": "claude-opus-5-5 via Claude Code"
  }
 }

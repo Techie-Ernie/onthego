@@ -1,0 +1,342 @@
+[
+  {
+    "id": "njc-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Estimate the football’s diameter as $20\\ \\mathrm{cm}=0.20\\ \\mathrm{m}$, giving a radius of $0.10\\ \\mathrm{m}$. The volume scales as $r^3$, and $\\frac{4}{3}\\pi(0.10)^3\\approx 4\\times10^{-3}\\ \\mathrm{m^3}$, closest to $10^{-3}\\ \\mathrm{m^3}$.",
+      "perOption": {
+        "A": "Implies a sphere only about a centimetre across.",
+        "B": "Correct.",
+        "C": "Uses the surface area $4\\pi r^2$, which is measured in $\\mathrm{m^2}$.",
+        "D": "Implies a sphere over ten metres across."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the threshold of slipping, the maximum friction $0.25mg$ balances the downslope component $mg\\sin\\theta$. Thus $\\sin\\theta=0.25$ and $\\theta\\approx14^\\circ$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses an angle at which the downslope component is already half the weight.",
+        "C": "Uses the $60^\\circ$ angle at which the downslope component is about $0.87mg$.",
+        "D": "Uses the perpendicular component $mg\\cos\\theta$ in the friction balance."
+      }
+    },
+    "issues": "The key and option A give 14°, while arcsin(0.25) is about 14.48°."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q4",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the regular hexagon, $\\angle OBA=60^\\circ$. Balancing moments about $O$ gives $P(OD)=200(OB)\\sin60^\\circ$, so with $OD=OB$, $P\\approx170\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Uses $\\cos60^\\circ$ for the moment factor.",
+        "B": "Correct.",
+        "C": "Treats the $200\\ \\mathrm{N}$ force as perpendicular to $OB$.",
+        "D": "Divides by $\\sin60^\\circ$, applying the moment factor to the wrong force."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q5",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $a=g\\sin30^\\circ$ be the common downslope acceleration. At collision, A is $4t-\\frac12at^2$ up from the bottom and B is $\\frac12at^2$ down from the top. These displacements sum to $5.00\\ \\mathrm{m}$, so the acceleration terms cancel and $t=5.00/4.00=1.25\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Double-counts the effect of gravity on the closing motion by treating A as speeding up the slope.",
+        "B": "Correct.",
+        "C": "Uses a time at which $4.00t=6.00\\ \\mathrm{m}$, greater than the initial separation.",
+        "D": "Uses a time long enough for B to have already reached the bottom."
+      }
+    },
+    "issues": "The opening sentence reverses the positions of A and B relative to the diagram and launch description. The question’s speed unit is malformed. The key’s first method calls A’s net displacement a distance even though A turns before collision, and one line of its second method prints 1.25 m instead of 1.25 s."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q6",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a constant interval $T$, bead $n$ must fall for $nT$, so its starting height is $s=\\frac12g(nT)^2$. The heights above the floor are therefore proportional to $0,1,4,9,16,\\ldots$, as in D.",
+      "perOption": {
+        "A": "Spaces the beads more closely toward the ceiling, where the gaps need to be larger.",
+        "B": "Uses equal height gaps, which give shorter time gaps at greater heights.",
+        "C": "Increases the gaps but misses the square-number heights, starting with heights in the ratio $1:3$ instead of $1:4$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The worked solution begins on page 1 and continues on page 2."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $P=Fv$ for the useful output power gives $0.40(800)=13F$, so the driving force is $24.6\\ \\mathrm{N}$. At constant velocity the driving and resistive forces balance, giving a resistive force of about $25\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the $60\\%$ of power lost by the engine.",
+        "C": "Uses all $800\\ \\mathrm{W}$ as useful output power.",
+        "D": "Divides the input power by the efficiency before using $P=Fv$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q8",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Friction supplies the centripetal force $mr\\omega^2$. Before slipping, Q needs more friction because both objects share the same angular velocity and Q is farther from the axis. Q reaches the maximum available static friction first.",
+      "perOption": {
+        "A": "Q needs more friction than P before slipping.",
+        "B": "P needs less friction because it is closer to the axis.",
+        "C": "Q and P have the same angular velocity while they rotate with the turntable.",
+        "D": "Correct. Q reaches the friction limit first."
+      }
+    },
+    "issues": "The stem describes increasing angular velocity and also calls the initial motion uniform. During spin-up friction has a tangential component as well, but the larger-radius object still reaches the friction limit first."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q9",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "If $F_T$ is the tension and $T$ is the period, the horizontal component satisfies $F_T\\sin\\theta=mr(2\\pi/T)^2$. Vertically, $F_T\\cos\\theta=mg$. Dividing gives $\\tan\\theta=4\\pi^2r/(gT^2)$, so $T=\\sqrt{4\\pi^2r/(g\\tan\\theta)}$.",
+      "perOption": {
+        "A": "Drops the $\\tan\\theta$ factor from the force ratio.",
+        "B": "Uses only the horizontal projection factor and misses the vertical component in the ratio.",
+        "C": "Correct.",
+        "D": "Puts $r$ in the denominator, giving the wrong dimensions for a period."
+      }
+    },
+    "issues": "The question options and key duplicate some trigonometric function names. C is correct with the intended single tangent. The key also uses T for both period and tension."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q10",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The orbital radii measured from Earth's centre are $2R$ for P and $4R$ for Q. Gravity supplies the centripetal force, so $mv^2/r=GMm/r^2$ and orbital speed is proportional to $1/\\sqrt r$. Hence $v_P/v_Q=\\sqrt{4R/(2R)}=\\sqrt2$ and $v_P=\\sqrt2\\,v$.",
+      "perOption": {
+        "A": "Uses the surface altitudes as radii and makes the inner satellite slower.",
+        "B": "Inverts the orbital-radius ratio for the two speeds.",
+        "C": "Correct.",
+        "D": "Uses the surface altitudes $R$ and $3R$ as orbital radii."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q11",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational potential at the surface is $\\phi=-GM/r$. The Moon’s radius is $0.25$ times Earth’s radius, the same ratio as for the diameters. Thus $\\phi_M=(0.012/0.25)(-63)\\approx-3.0\\ \\mathrm{MJ\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Multiplies by the radius ratio although potential varies inversely with radius.",
+        "B": "Correct.",
+        "C": "Uses an inverse-square dependence appropriate to gravitational field strength.",
+        "D": "Inverts the ratio of the Moon’s potential to Earth’s potential."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q12",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For simple harmonic motion, the acceleration and displacement amplitudes obey $a_0=\\omega^2x_0$. The graph gives $0.30\\times10^{-2}=\\omega^2(6.0\\times10^{-2})$, so $\\omega=0.22\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses $\\omega^2$ directly as the angular frequency.",
+        "B": "Correct.",
+        "C": "Takes the square root of the reciprocal ratio $x_0/a_0$.",
+        "D": "Uses $x_0/a_0$ and also omits the square root."
+      }
+    },
+    "issues": "The graph omits minus signs at the negative ticks and malforms the acceleration unit. The slope and axis positions establish the intended signs and unit."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q13",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "P starts at its positive maximum, so its displacement is $y_P=A\\cos(\\omega t)$. S is $0.75\\lambda$ to the right of P, so it lags by $2\\pi(0.75)=3\\pi/2$.",
+      "perOption": {
+        "A": "Uses the correct initial motion for S but gives half the phase lag.",
+        "B": "Makes P start at zero displacement and gives half the phase lag.",
+        "C": "Correct.",
+        "D": "Makes S start at $-A$ although it starts at zero."
+      }
+    },
+    "issues": "The angular-frequency symbol is missing from the stem and the option formulas. C uses the intended cosine argument and gives the lag of S relative to P."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q14",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cross-sectional area grows by a factor of $(16/2.0)^2=64$. The same wave power crosses both areas, so the intensity falls to $I/64$. Since intensity is proportional to amplitude squared, the amplitude falls to $A/\\sqrt{64}=A/8$.",
+      "perOption": {
+        "A": "Scales intensity by the width ratio and gives an amplitude inconsistent with that intensity.",
+        "B": "Gets the intensity right but takes the wrong square root for the amplitude ratio.",
+        "C": "Correct.",
+        "D": "Uses $16$ as the width ratio instead of dividing by the initial width of $2.0\\ \\mathrm{cm}$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q15",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pipe closed at one end has fundamental wavelength $4L$, so the sound speed is $v=4fL$. At frequency $f/2$ the wavelength is $v/(f/2)=8L$. The fundamental of an open pipe fits half a wavelength, so its length is $4L$.",
+      "perOption": {
+        "A": "Uses an open pipe whose fundamental is $2f$, already above $f/2$.",
+        "B": "Uses a quarter wavelength, which fits the fundamental of a pipe closed at one end.",
+        "C": "Correct.",
+        "D": "Fits one and a half half-wavelengths, whereas an open pipe requires a whole number of half-wavelengths."
+      }
+    },
+    "issues": "The worked solution starts on page 2 and continues on page 3."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q16",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the longest wavelength, $600\\ \\mathrm{nm}$, because it diffracts through the largest angle in each order. With grating spacing $d=0.001/500\\ \\mathrm{m}$, $d\\sin\\theta=n\\lambda$ gives $\\sin\\theta=0.30n\\leq1$. Orders 1 through 3 are complete on each side, giving six spectra.",
+      "perOption": {
+        "A": "Counts the complete spectra on only one side.",
+        "B": "Correct.",
+        "C": "Includes the excluded central maximum.",
+        "D": "Includes fourth orders, which lack the longest wavelengths."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q17",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially, the ideal gas law gives a total of $9pV/(283R)$ moles at common pressure $p$. At steady state, conservation of moles gives $p'V/(353R)+8p'V/(283R)=9pV/(283R)$, so $p'=1.022530p$. The fraction remaining in A is $1.022530(283/353)=0.819762$, so about $0.18n$ moles leave A.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Overestimates the transfer by leaving less gas in A than the final common pressure requires.",
+        "C": "Reports the amount remaining in A as the amount transferred.",
+        "D": "Overestimates the transfer by leaving only $0.14n$ in A."
+      }
+    },
+    "issues": "The last line of the key calls 0.18n a fraction. It is the transferred amount in moles."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q18",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For specific latent heat $L$, the two power balances are $P_1=m_1L+h$ and $P_2=m_2L+h$. Subtracting cancels the common heat loss, leaving $P_1-P_2=(m_1-m_2)L$. Thus $L=(P_1-P_2)/(m_1-m_2)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats all of the first heater input as power used for boiling.",
+        "C": "Averages two estimates that each include a contribution from heat loss.",
+        "D": "Adds the balances, retaining a heat-loss term of $2h$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "njc-2026-prelim-p1-q19",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two charges each contribute $kq/r$ to the potential at R, so $V_R=2k(-30\\times10^{-6})/0.20\\approx-2.7\\times10^6\\ \\mathrm{V}$. The work required from infinity is $\\Delta U=(-e)V_R\\approx4.3\\times10^{-13}\\ \\mathrm{J}$, where $e$ is the magnitude of the electron charge.",
+      "perOption": {
+        "A": "Has the wrong sign and power of ten for the work required to bring in the electron.",
+        "B": "Uses the negative electric potential directly as the work.",
+        "C": "Uses the magnitude of the electric potential as work without multiplying by the electron charge magnitude.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The question PNG corrupts or omits the micro prefix on the two source charges. The key’s intermediate potential confirms the intended microcoulombs, but the key labels the potential in C and omits the electron’s negative sign in the work expression. The literal diagram labels in coulombs would give no listed answer."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q20",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For square side $r$, the fields at Z from W and X initially have magnitudes $kQ/r^2$ and $kQ/(2r^2)$, with $45^\\circ$ between them. The cosine rule gives an initial resultant of about $1.399kQ/r^2$. At Y, the moved charge produces a field at Z of magnitude $kQ/r^2$ perpendicular to W’s field, so the resultant rises to about $1.414kQ/r^2$.",
+      "perOption": {
+        "A": "The moved charge is closer to Z, so the potential there increases.",
+        "B": "The charges are farther apart, so their potential energy decreases.",
+        "C": "The charges are farther apart, so their repulsive force decreases.",
+        "D": "Correct. The resultant field at Z increases."
+      }
+    },
+    "issues": "The key’s proof spans pages 3–4 and describes the field from Y at Z as rightward. It points left. The perpendicular geometry and numerical result are unaffected."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q21",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The turns ratio gives the secondary r.m.s. voltage $V_S=(1600/200)(25)=200\\ \\mathrm{V}$. Ohm’s law gives the secondary r.m.s. current $200/150=1.333\\ \\mathrm{A}$. The mean resistor power is $V_S^2/R=200^2/150=266.7\\ \\mathrm{W}$, which rounds to $270\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Inverts the turns ratio and predicts a step-down.",
+        "B": "Uses the primary voltage directly across the secondary resistor.",
+        "C": "Correct.",
+        "D": "Uses the peak voltage to calculate mean power, doubling the result."
+      }
+    },
+    "issues": null
+  }
+]

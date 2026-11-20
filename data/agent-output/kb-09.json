@@ -1,0 +1,342 @@
+[
+  {
+    "id": "mi-2026-prelim-p1-q11",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The average translational kinetic energy of one helium atom is $\\frac32 kT$, with $T$ in kelvin. Substituting gives $\\frac32(1.38\\times10^{-23})(27+273.15)=6.2\\times10^{-21}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Substitutes $27$ directly instead of converting the temperature to kelvin.",
+        "B": "Correct.",
+        "C": "The calculation must use the Boltzmann constant to obtain the energy per atom.",
+        "D": "Uses the energy of the full $2.0\\ \\mathrm{mol}$ of helium."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q12",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At steady state the pressures in the two flasks are equal. The ideal gas law gives $\\frac{n_PRT_P}{V_P}=\\frac{n_QRT_Q}{V_Q}$. Since both flasks contain the same gas, $\\frac{M_P}{M_Q}=\\frac{n_P}{n_Q}=\\frac{T_Q}{T_P}\\frac{V_P}{V_Q}=3\\times3=9$.",
+      "perOption": {
+        "A": "Reverses the requested mass ratio.",
+        "B": "Uses only the inverse volume ratio and misses the temperature difference.",
+        "C": "Accounts for only one of the two factors of three.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q13",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Internal energy is the sum of the microscopic kinetic and potential energies of the molecules in a system. Work done on the system can increase that sum even when no energy is transferred by heating.",
+      "perOption": {
+        "A": "During a change of state, internal energy can rise while the temperature stays constant.",
+        "B": "Correct. Work can increase internal energy by itself.",
+        "C": "Samples with different amounts of gas can have the same total internal energy at different temperatures.",
+        "D": "Heat transferred into the system plus work done on it gives the change in internal energy."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q14",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For resonance, the frequency of hitting the bumps equals the suspension’s natural frequency. The time between bumps is $T=1/2.0=0.50\\ \\mathrm{s}$. Using $d=vT$ gives $5.0=v(0.50)$, so $v=10\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This speed gives one bump every $5.0\\ \\mathrm{s}$, so the driving frequency is too low.",
+        "B": "Multiplies by the period instead of dividing the spacing by it.",
+        "C": "This speed gives one bump per second, only half the natural frequency.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q15",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing the damping decreases the oscillation frequency and therefore increases the period. With the damping held fixed, the amplitude decreases over time while the period stays constant.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Increasing the damping increases the period because the frequency falls.",
+        "C": "Damping dissipates energy, so the amplitude decreases over time.",
+        "D": "At fixed damping the period stays constant as the amplitude decays."
+      }
+    },
+    "issues": "The key says damping does not change the period or frequency when discussing C and D. This applies to the passage of time at fixed damping. Changing the damping changes the period and frequency."
+  },
+  {
+    "id": "mi-2026-prelim-p1-q16",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Malus’ law, the intensity after rotating Q through $\\theta$ is $I\\cos^2\\theta$. A 30% reduction gives $0.70I=I\\cos^2\\theta$, with an acute solution of $33^\\circ$. Since $\\cos^2\\theta$ repeats every $180^\\circ$, $180^\\circ+33^\\circ=213^\\circ$ is a possible rotation.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Its equivalent angle of $46^\\circ$ transmits about 48% of $I$.",
+        "C": "Its equivalent angle of $57^\\circ$ transmits about 30% of $I$, a reduction of about 70%.",
+        "D": "Its equivalent angle of $73^\\circ$ transmits only about 9% of $I$."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q17",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Sound intensity $I$ is proportional to the square of the amplitude $A$. With $y$ as one vertical grid unit, the original amplitude is $4y$, so $\\frac{I_{\\mathrm{new}}}{I_{\\mathrm{old}}}=0.50=\\left(\\frac{A_{\\mathrm{new}}}{4y}\\right)^2$. This gives $A_{\\mathrm{new}}=2.8y$, with the original period unchanged.",
+      "perOption": {
+        "A": "Keeps the original amplitude and halves the period.",
+        "B": "Keeps the original amplitude and shortens the period.",
+        "C": "Halves the amplitude, which would reduce the intensity to one-quarter.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q18",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the limiting angle $\\theta \\approx \\lambda/b$, the minimum angular separation is $\\frac{500\\times10^{-9}}{25\\times10^{-3}}=2.0\\times10^{-5}\\ \\mathrm{rad}$. At $9.0\\ \\mathrm{m}$, the small-angle relation gives a minimum separation of $(9.0)(2.0\\times10^{-5})=0.18\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Halves the calculated separation, which already represents the full gap between the points.",
+        "B": "Correct.",
+        "C": "Uses a separation much larger than the diffraction limit at the given distance.",
+        "D": "Overestimates the limiting angle for a $25\\ \\mathrm{mm}$ aperture."
+      }
+    },
+    "issues": "The key uses the syllabus approximation θ ≈ λ/b. The circular-aperture Rayleigh factor 1.22 would give about 0.22 mm, which is absent from the options."
+  },
+  {
+    "id": "mi-2026-prelim-p1-q19",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each corner contributes the same field magnitude at the centre. The vectors cancel completely in A and B, while D leaves two aligned contributions. In C the vertical components cancel and all four horizontal components add, giving $4\\cos45^\\circ=2\\sqrt2$ times the field from one corner, the largest resultant.",
+      "perOption": {
+        "A": "The fields from diagonally opposite charges cancel in pairs.",
+        "B": "The equal-sign charges on each diagonal produce opposing fields that cancel.",
+        "C": "Correct. All four horizontal components reinforce each other.",
+        "D": "One diagonal pair cancels, leaving only two aligned fields."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q20",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For proton number density $n$ and beam cross-sectional area $A$, the current is $I=evAn$. A beam segment of length $\\ell$ containing $N$ protons has $An=A\\frac{N}{A\\ell}=\\frac{N}{\\ell}$. Thus the number per unit length is $An=\\frac{I}{ev}$.",
+      "perOption": {
+        "A": "Gives the number of protons passing per unit time.",
+        "B": "Correct.",
+        "C": "Multiplies the proton rate by $v$ instead of dividing by it.",
+        "D": "Gives charge per unit length and omits division by the charge $e$ per proton."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q21",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diodes in A and B are reverse-biased. When the thermistor is cold, its resistance is high and the potential difference across it is high. The heater branch should therefore be connected across the thermistor with the diode forward-biased.",
+      "perOption": {
+        "A": "Its reverse-biased diode blocks current through the heater.",
+        "B": "Its reverse-biased diode blocks current through the heater.",
+        "C": "The heater branch is across the fixed resistor, whose potential difference falls as the thermistor cools.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q22",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current is $I=Q/t=6.0/(2.0\\times60)=0.050\\ \\mathrm A$. The power dissipated in $R$ satisfies $P=VI$, so $48/(2.0\\times60)=V(0.050)$ and $V=8.0\\ \\mathrm V$. Using $\\mathcal E=IR+Ir$ gives $9.0=8.0+0.050r$, so $r=20\\ \\Omega$.",
+      "perOption": {
+        "A": "Divides the $1.0\\ \\mathrm V$ lost voltage by the charge $6.0\\ \\mathrm C$ instead of by the current.",
+        "B": "Treats the current in coulombs per minute as amperes when dividing the lost voltage by current.",
+        "C": "Correct.",
+        "D": "Uses the voltage across the external resistor and finds its resistance."
+      }
+    },
+    "issues": "The question expands e.m.f. as electromagnetic force. The term is electromotive force."
+  },
+  {
+    "id": "mi-2026-prelim-p1-q23",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force provides the centripetal force, so $B|q|v=mv^2/r$. Cancelling $v$ and using $v=2\\pi r/T$ gives $B|q|=2\\pi m/T$. Therefore $T=2\\pi m/(B|q|)$, independent of the particle’s velocity.",
+      "perOption": {
+        "A": "The period is directly proportional to the mass.",
+        "B": "The period is inversely proportional to the magnitude of the charge.",
+        "C": "The period is inversely proportional to the magnetic flux density.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q24",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric force gives a vertical acceleration of $a=F_E/m=|q|E/m=(1.6\\times10^{-19})(20000)/(9.11\\times10^{-31})=3.51\\times10^{15}\\ \\mathrm{m\\,s^{-2}}$. The initial vertical velocity is zero, so $s=ut+\\frac12 at^2=\\frac12(3.51\\times10^{15})(4.0\\times10^{-9})^2=0.0281\\ \\mathrm m$.",
+      "perOption": {
+        "A": "The vertical displacement must be calculated using the electron’s acceleration $|q|E/m$ and the squared transit time.",
+        "B": "The field acting for $4.0\\times10^{-9}\\ \\mathrm s$ produces a much larger displacement when the electron’s mass is included in the acceleration.",
+        "C": "Correct.",
+        "D": "Adds the horizontal travel $vt$ to the vertical displacement."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q26",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over one period $T$, the current spends half the time at $I_0$ and half at $-I_0$, so $I_{\\mathrm{rms}}=\\sqrt{[I_0^2(T/2)+I_0^2(T/2)]/T}=I_0$. The original average power is $P=I_0^2R$. Doubling the peak doubles the rms current, giving a new average power of $(2I_0)^2R=4P$.",
+      "perOption": {
+        "A": "Assumes the rms current is unchanged when the peak doubles.",
+        "B": "Uses a square-root factor instead of squaring the doubled current.",
+        "C": "Treats average power as proportional to current instead of current squared.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q27",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The de Broglie relation $\\lambda=h/(mv)$ gives $v=h/(m\\lambda)$. At a fixed wavelength, speed is inversely proportional to mass. The helium-4 nucleus has the largest mass, so it has the smallest speed.",
+      "perOption": {
+        "A": "A proton is lighter than the helium-4 nucleus and must move faster.",
+        "B": "Correct.",
+        "C": "The electron has the smallest mass and requires the greatest speed.",
+        "D": "A neutron is lighter than the helium-4 nucleus and must move faster."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q28",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each photon has momentum of magnitude $p=h/\\lambda$. Total reflection reverses that momentum, so the change in momentum has magnitude $p-(-p)=2h/\\lambda$. At $n$ photons per second, the force on the mirror is the rate of momentum transfer, $2nh/\\lambda$.",
+      "perOption": {
+        "A": "Multiplies by $\\lambda$ instead of dividing and omits the factor of two from reflection.",
+        "B": "Counts only the incident momentum, as for absorption.",
+        "C": "Accounts for the reversal but multiplies by wavelength instead of dividing.",
+        "D": "Correct."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q29",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total linear momentum is zero before the stationary nucleus emits the $\\gamma$ photon. By conservation of linear momentum, the recoiling nucleus must have momentum equal in magnitude and opposite in direction to the photon’s momentum.",
+      "perOption": {
+        "A": "Nuclear stability is compared using binding energy per nucleon rather than total binding energy.",
+        "B": "A reaction with greater product rest mass can occur if enough energy is supplied to the reactants.",
+        "C": "Correct.",
+        "D": "In the usual nuclear-decay model, chemical reactions leave the half-life of the radionuclide unchanged."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "mi-2026-prelim-p1-q30",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released is the total binding energy of the products minus that of the reactant. Multiplying each binding energy per nucleon by its nucleon number gives $(8.2\\times146)+(8.6\\times87)-(7.6\\times235)=159.4\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Combines the tabulated per-nucleon values without weighting by nucleon number.",
+        "B": "Undercounts the net binding-energy gain of the two fragments combined.",
+        "C": "Undercounts the net binding-energy gain of the two fragments combined.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The two named fragments account for 233 of the 235 nucleons. Two free neutrons are implicit and contribute zero binding energy."
+  },
+  {
+    "id": "njc-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearranging gives $g=2h/t^2$. The maximum fractional uncertainties add as $\\frac{\\Delta g}{g}=\\frac{\\Delta h}{h}+2\\frac{\\Delta t}{t}$. The maximum percentage uncertainty in $h$ is therefore $2.0\\%-2(0.0008/0.4000)\\times100\\%=1.6\\%$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Subtracts the time uncertainty only once, forgetting the squared time in the denominator.",
+        "C": "Adds the time uncertainty once instead of subtracting it twice.",
+        "D": "Adds the doubled percentage uncertainty in time to the 2% budget."
+      }
+    },
+    "issues": null
+  }
+]

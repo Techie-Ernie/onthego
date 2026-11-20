@@ -1,0 +1,657 @@
+[
+  {
+    "id": "tjc-2026-prelim-p1-q13",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Static friction supplies the centripetal force on the mass. It acts from P towards the centre O.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is tangent to the circle opposite the velocity, so it would slow the mass.",
+        "C": "This is tangent to the circle along the velocity, so it would speed the mass up.",
+        "D": "This points radially outward, opposite the centripetal acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must identify which force provides the inward acceleration.",
+    "misconception": "Friction must oppose the mass’s velocity.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q14",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The loss in gravitational potential energy equals the gain in kinetic energy, so $mgh=\\frac12mv^2$ and $v=\\sqrt{2gh}$. At the bottom, $N-mg=mv^2/R$, so $N=mg+2mgh/R=mg(1+2h/R)$. By Newton’s third law, the block exerts a force of this magnitude downward on the track.",
+      "perOption": {
+        "A": "Sets the normal force equal to the weight, giving zero radial acceleration.",
+        "B": "Correct.",
+        "C": "Uses $v^2=gh$, missing the factor of two from kinetic energy.",
+        "D": "Gives the net inward force on the block and omits the weight term."
+      }
+    },
+    "issues": "The worked solution starts on page 3 and continues on page 4.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine energy conservation, radial dynamics and Newton’s third law.",
+    "misconception": "The normal force equals the centripetal force.",
+    "transcription": "A small block of mass $m$ at height $h$ is released from rest and slides down a frictionless track to enter a vertical loop of radius $R$.\n\nWhat is the normal contact force exerted by the block on the track at the bottom of the loop?\n\n[The block starts on a downward slope at height $h$ above the loop’s lowest point. The vertical loop is labelled with radius $R$ from its bottom to its centre.]\n\nA $mg$\nB $mg\\left(1+\\frac{2h}{R}\\right)$\nC $mg\\left(1+\\frac{h}{R}\\right)$\nD $\\frac{2mgh}{R}$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q15",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the point where the net force on the third mass is zero, the attractions from $M$ and $m$ are equal in magnitude and opposite in direction. Since $M>m$, that point is nearer the smaller mass $m$.",
+      "perOption": {
+        "A": "Places the zero near the midpoint, where the larger mass still pulls more strongly.",
+        "B": "Keeps the resultant positive throughout the gap, missing the cancellation point.",
+        "C": "Correct.",
+        "D": "Places the minimum nearer the smaller mass but leaves a nonzero force there."
+      }
+    },
+    "issues": "The curves are schematic. For spherical masses with inverse-square external fields, the force magnitude has a cusp at an interior zero, whereas C draws a smooth minimum.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must infer both the zero of the resultant force and its location.",
+    "misconception": "Opposing gravitational forces cancel at the midpoint.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q16",
+    "keyPage": 4,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Reducing damping reduces energy loss, increasing the amplitude near resonance. The resonance peak narrows and shifts towards the undamped natural frequency, which is higher than the damped peak frequency. Only statement 3 is correct.",
+      "perOption": {
+        "A": "Statement 1 reverses the effect of lower damping on the amplitude near resonance.",
+        "B": "Statement 2 reverses the shift of the peak frequency.",
+        "C": "Correct.",
+        "D": "Includes statements 1 and 2, which reverse the changes in amplitude and peak frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish changes in peak height, width and frequency.",
+    "misconception": "Reducing damping shifts resonance to a lower frequency.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q17",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The microphone intercepts the fraction $a/(4\\pi r^2)$ of the emitted power. Its detected power is $P'=\\frac{0.85\\times10^{-4}}{4\\pi(4.0)^2}(50.0)=2.1\\times10^{-5}\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Underestimates the intercepted fraction for the stated area and radius.",
+        "B": "Correct.",
+        "C": "Treating the numerical area in square centimetres as square metres makes the result $10^4$ times too large.",
+        "D": "This is close to the intensity $50.0/(4\\pi r^2)$, which still needs to be multiplied by the microphone area."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must use spherical spreading and convert the microphone area to square metres.",
+    "misconception": "A square-centimetre conversion uses the linear conversion factor.",
+    "transcription": "A point source emits $50.0\\ \\mathrm{W}$ of sound. A small microphone of area $0.85\\ \\mathrm{cm^2}$ detects the sound at $4.0\\ \\mathrm{m}$ from the source. What is the power detected by the microphone?\n\nA $1.6\\times10^{-5}\\ \\mathrm{W}$\nB $2.1\\times10^{-5}\\ \\mathrm{W}$\nC $2.1\\times10^{-1}\\ \\mathrm{W}$\nD $2.5\\times10^{-1}\\ \\mathrm{W}$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q18",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first filter transmits $I/2$ from the unpolarised beam. By Malus’ law, the second transmits $(I/2)\\cos^2 10^\\circ$. For the third, $(I/2)\\cos^2 10^\\circ\\cos^2\\theta=I/3$, where $\\theta$ is the angle between the second and third axes. Solving gives $\\theta=34^\\circ$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Adds the initial $10^\\circ$ tilt and reports an angle relative to the first filter.",
+        "C": "An angle of $47^\\circ$ attenuates the beam below one-third of its initial intensity.",
+        "D": "Using $54^\\circ$ in the last Malus factor gives too little transmitted light."
+      }
+    },
+    "issues": "The key’s third-filter equation contains a stray intermediate equality and drops the factor I in its next term. The rewrite retains the intended Malus factors.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must track the transmitted intensity and polarisation axis through three filters.",
+    "misconception": "Malus’ law always uses the angle relative to the first filter.",
+    "transcription": "A narrow, parallel beam of unpolarised light is directed towards three ideal polarising filters. The beam meets the first filter with its axis of polarisation vertical. The axis of polarisation of the second filter is at an angle of $10^\\circ$ to the first filter. The third filter has its axis of polarisation parallel to the second filter as shown.\n\n[Unpolarised light passes through three filters labelled $0^\\circ$, $10^\\circ$ and $10^\\circ$, in order. The outgoing beam is labelled transmitted light.]\n\nThe third filter is now turned.\nAt what angle must the third filter be with respect to the second filter so that the intensity of the transmitted light is reduced to $\\frac13$ of the intensity of the unpolarised light?\n\nA $34^\\circ$\nB $44^\\circ$\nC $47^\\circ$\nD $54^\\circ$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q19",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $d\\sin\\theta=n\\lambda$, with $d=1/(6\\times10^5)\\ \\mathrm{m}$. For $n=1$, $\\sin\\theta=(490\\times10^{-9})/d$ gives $\\theta=17^\\circ$. Since $\\sin\\theta\\leq1$, $n\\leq d/\\lambda=3.4$, so the highest order is 3. There are $2(3)+1=7$ maxima including the central maximum.",
+      "perOption": {
+        "A": "The grating equation gives a first-order angle of $17^\\circ$.",
+        "B": "The third order is still allowed because $3\\lambda/d<1$.",
+        "C": "Increasing the line density decreases the spacing and lowers the upper bound on the order.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The worked solution starts on page 4 and continues on page 5.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert line density to spacing, bound the order and count both sides.",
+    "misconception": "The highest order equals the number of maxima.",
+    "transcription": "Monochromatic light of wavelength $490\\ \\mathrm{nm}$ falls normally on a diffraction grating that has $6\\times10^5$ lines per metre. Which one of the following is correct?\n\nA The first order is observed at angle of diffraction of $12^\\circ$.\nB The third and higher orders are not produced.\nC A grating with more lines per metre could produce more orders.\nD Total number of maximas produced is 7."
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q20",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The heater heats both the water and the tank, so $Q=(mc+C)\\Delta T=[10(4200)+5000](45-25)=9.4\\times10^5\\ \\mathrm{J}$. Using $P=Q/t$, the time is $t=(9.4\\times10^5)/(3.0\\times10^3)=313\\ \\mathrm{s}$, which rounds to $310\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Uses too small an energy input for the combined heat capacities and the $20\\ \\mathrm{K}$ rise.",
+        "B": "Accounts for heating the water alone and omits the tank.",
+        "C": "Correct.",
+        "D": "Uses too large an energy input for the stated temperature rise and combined heat capacities."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.g",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must add the heat capacities and convert the required energy into a heating time.",
+    "misconception": "Only the water absorbs energy.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q21",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a fixed amount of ideal gas, $pV\\propto T$, so $T_f/T_i=(p_fV_f)/(p_iV_i)=2\\times2=4$. Since $\\frac12mv_{\\mathrm{rms}}^2=\\frac32kT$, the squared speed ratio is also 4. Hence $v_f=2v_i=2u$.",
+      "perOption": {
+        "A": "Assumes the temperature stays constant even though $pV$ quadruples.",
+        "B": "Counts only one of the two factors of two in $pV$.",
+        "C": "Correct.",
+        "D": "Scales speed directly with temperature instead of scaling its square."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine the ideal-gas law with the square-root dependence of rms speed on temperature.",
+    "misconception": "Rms speed is directly proportional to absolute temperature.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q22",
+    "keyPage": 5,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both gases have the same temperature, so their molecules have the same mean translational kinetic energy, $\\frac32 kT$. Since this energy is also $\\frac12m\\langle v^2\\rangle$, the lighter nitrogen molecules have a greater mean square speed and rms speed.",
+      "perOption": {
+        "A": "Internal energy is a system quantity and can depend on the amount of each gas.",
+        "B": "The lighter nitrogen molecules have greater mean square speed at the same temperature.",
+        "C": "Correct.",
+        "D": "Taking the square root of the mean square speed preserves the difference between the gases."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "temperature-and-ideal-gases.g",
+      "thermodynamic-systems.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish the temperature dependence of kinetic energy from the mass dependence of speed.",
+    "misconception": "Gas molecules at the same temperature have the same rms speed.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q23",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The drift current is $I=nqvA=(8.2\\times10^{28})(1.6\\times10^{-19})(2.3\\times10^{-5})(8.0\\times10^{-6})=2.41\\ \\mathrm{A}$. The resistance is $R=V/I=3.0/2.41=1.2\\ \\Omega$.",
+      "perOption": {
+        "A": "Would require a current of about $38\\ \\mathrm{A}$, much larger than the drift current.",
+        "B": "Would require a current of about $19\\ \\mathrm{A}$, much larger than the drift current.",
+        "C": "Implies a current of $3.75\\ \\mathrm{A}$, overestimating the drift current.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The school prints no letter, but its worked value of 1.2 Ω corresponds to D. The batch keyAnswer is A and keyStatus is answer-missing.",
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.b",
+      "circuits.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert the area and use the drift-current and resistance equations in sequence.",
+    "misconception": "Square millimetres convert to square metres by a factor of $10^{-3}$.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q24",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Reducing the light intensity increases the LDR’s resistance. The total circuit resistance therefore increases and the current decreases. The potential difference across the fixed resistor decreases as well.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Applies the voltage change across the LDR to the voltmeter, which is across the fixed resistor.",
+        "C": "Reverses the current change and overlooks that the fixed resistor’s voltage follows the current.",
+        "D": "Overlooks that the increased total resistance reduces the current."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must identify the measured resistor and infer the effect of increasing the LDR resistance.",
+    "misconception": "The voltmeter is across the LDR.",
+    "transcription": "A potential divider circuit with a light-dependent resistor (LDR) is shown below.\n\n[A battery, ammeter A, fixed resistor and LDR form a series loop. Voltmeter V is connected across the fixed resistor. Two arrows point towards the LDR.]\n\nThe intensity of the light incident on the LDR is reduced.\n\nWhich row correctly describes the observed change on the ammeter and voltmeter readings?\n\nOption | Ammeter reading | Voltmeter reading\nA | decreases | decreases\nB | decreases | increases\nC | increases | stays the same\nD | stays the same | decreases"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q25",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the original stationary droplet, $qE=mg$. The oil density stays the same, so $m\\propto r^3$ and doubling the radius gives $m_2=8m$. The second droplet has charge $q/2$, so $(q/2)E_2=8mg=8qE$. Cancelling $q$ gives $E_2=16E$.",
+      "perOption": {
+        "A": "Accounts for halving the charge but keeps the original weight.",
+        "B": "Treats the mass as proportional to radius, giving only a factor of two in weight.",
+        "C": "Accounts for the eightfold weight increase but keeps the original charge.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electric-fields.h",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must scale the droplet’s volume and account for the reduced charge in the equilibrium equation.",
+    "misconception": "Droplet mass scales linearly with radius.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q26",
+    "keyPage": 6,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric field lines are perpendicular to equipotentials at every crossing. They point from higher to lower potential, here from $7\\ \\mathrm{V}$ through $5\\ \\mathrm{V}$ to $3\\ \\mathrm{V}$. Only C satisfies both rules.",
+      "perOption": {
+        "A": "The arrows point towards lower potential but cross the outer equipotentials obliquely.",
+        "B": "The arrows point towards higher potential and cross the outer equipotentials obliquely.",
+        "C": "Correct.",
+        "D": "The lines cross perpendicularly but the arrows point towards higher potential."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must check both the crossing angles and the direction of decreasing potential.",
+    "misconception": "Field lines can cross equipotentials obliquely.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q27",
+    "keyPage": 6,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each segment experiences a force of magnitude $BIL$. Fleming’s left-hand rule gives upward components for both forces and horizontal components that cancel. Each upward component is $BIL\\sin30^\\circ$, so the resultant is $2BIL\\sin30^\\circ=BIL$ towards the top of the page.",
+      "perOption": {
+        "A": "Reverses the force direction given by the current and inward field.",
+        "B": "Correct.",
+        "C": "Adds the full force magnitudes and reverses the resultant direction.",
+        "D": "Adds the full magnitudes instead of their upward components."
+      }
+    },
+    "issues": "The printed letter B agrees with the batch and the question. The key’s worked text describes a different straight-wire question, so it provides no usable working for this diagram.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must find each force direction and resolve the symmetric forces into components.",
+    "misconception": "Magnetic force magnitudes on bent segments add directly.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q28",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the rim, $v=r\\omega=2\\pi fr$, so $f=v/(2\\pi r)$. A radius sweeps an area $\\pi r^2$ per revolution, giving $E=B\\pi r^2f$. Substituting gives $E=Brv/2=Bdv/4$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the entire radius as moving at the rim speed, giving $B(d/2)v$.",
+        "C": "Uses the full diameter with the rim speed in the straight-conductor expression.",
+        "D": "Omits a length factor, so the expression does not have units of voltage."
+      }
+    },
+    "issues": "The letter is on page 6 and the working is on page 7.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must relate rim speed to rotation frequency and then to the flux swept per unit time.",
+    "misconception": "Every point along the radius moves at the rim speed.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q29",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $K=p^2/(2m)$ with $K=(1.00\\times10^6)(1.6\\times10^{-19})\\ \\mathrm{J}$ and $m=1.67\\times10^{-27}\\ \\mathrm{kg}$ gives $p=2.312\\times10^{-20}\\ \\mathrm{kg\\,m\\,s^{-1}}$. The momentum uncertainty is $\\Delta p=0.01p=2.312\\times10^{-22}\\ \\mathrm{kg\\,m\\,s^{-1}}$. Using the syllabus estimate $\\Delta p\\,\\Delta x\\approx h$, the minimum position uncertainty is approximately $2.87\\times10^{-12}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Requires a much smaller momentum uncertainty than the stated 1.0% of the calculated momentum.",
+        "B": "Correct.",
+        "C": "Is about $\\sqrt{10}$ too large, consistent with a factor-of-ten underestimate of the energy in the momentum calculation.",
+        "D": "Implies a momentum uncertainty larger than the full proton momentum under the syllabus estimate."
+      }
+    },
+    "issues": "The key and syllabus use the order-of-magnitude convention ΔxΔp ≳ h. The exact standard-deviation bound ħ/2 would yield about 2.28 × 10⁻¹³ m, which is absent from the options.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert the energy, calculate the momentum and apply the percentage uncertainty.",
+    "misconception": "The full momentum can be substituted for its uncertainty.",
+    "transcription": "A proton has a kinetic energy of $1.00\\ \\mathrm{MeV}$.\n\nIf its momentum is measured with an uncertainty of $1.0\\%$, what is the minimum uncertainty in its position?\n\nA $1.22\\times10^{-10}\\ \\mathrm{m}$\nB $2.87\\times10^{-12}\\ \\mathrm{m}$\nC $9.08\\times10^{-12}\\ \\mathrm{m}$\nD $6.59\\times10^{-15}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "tjc-2026-prelim-p1-q30",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The energy released is the total binding energy of the products minus that of the reactants. Multiply each binding energy per nucleon by the corresponding nucleon number, with zero binding energy for free neutrons. This gives $121(8.26)+113(8.52)-235(7.59)=178.57\\ \\mathrm{MeV}\\approx179\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Uses a much smaller binding-energy gain than the difference between the nuclear totals.",
+        "B": "Underestimates the gain by failing to account for the full change in nuclear binding energy.",
+        "C": "Undercounts the binding-energy gain of the two daughter nuclei.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The printed key shows D, but the batch keyAnswer is A and keyStatus is answer-missing. The key prints 112 for silver-113, which gives 170.05 MeV. Using the printed question’s 113 gives the key’s stated 179 MeV.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert binding energies per nucleon to total energies before finding the difference.",
+    "misconception": "Binding energies per nucleon can be subtracted directly to get the energy released.",
+    "transcription": "The equation\n\n$^{235}_{92}\\mathrm{U}+{}^{1}_{0}\\mathrm{n}\\rightarrow{}^{121}_{45}\\mathrm{Rh}+{}^{113}_{47}\\mathrm{Ag}+2\\,{}^{1}_{0}\\mathrm{n}$\n\nshows the fission of a uranium-235 nuclide by a slow-moving neutron into a rhodium-121 nuclide, a silver-113 nuclide and two neutrons.\n\nbinding energy per nucleon of $^{235}_{92}\\mathrm{U}=7.59\\ \\mathrm{MeV}$\nbinding energy per nucleon of $^{121}_{45}\\mathrm{Rh}=8.26\\ \\mathrm{MeV}$\nbinding energy per nucleon of $^{113}_{47}\\mathrm{Ag}=8.52\\ \\mathrm{MeV}$\n\nWhat is the energy released during this fission process?\n\nA $9.19\\ \\mathrm{MeV}$\nB $24.4\\ \\mathrm{MeV}$\nC $73.9\\ \\mathrm{MeV}$\nD $179\\ \\mathrm{MeV}$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q1",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Tera, kilo and micro represent $10^{12}$, $10^3$ and $10^{-6}$, respectively. These powers of ten are in decreasing order.",
+      "perOption": {
+        "A": "Mega is larger than nano, so the final step increases.",
+        "B": "Tera is larger than deci, so the final step increases.",
+        "C": "The powers increase from micro to milli to kilo.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The worked key gives micro as 10⁻³. Micro is 10⁻⁶, and correcting the exponent leaves the keyed order D unchanged.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.b"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students only need to recall and compare the prefix powers of ten.",
+    "misconception": "Micro and milli represent the same factor.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q2",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rod’s original balance point is its centre of gravity. After the mass is attached, the new pivot is $0.27\\ \\mathrm{m}$ to its left and the suspended mass is $1.05-0.10-0.27=0.68\\ \\mathrm{m}$ from the new pivot. Taking moments about the new pivot gives $mg(0.27)=0.200g(0.68)$, so $m=0.503\\ \\mathrm{kg}$, approximately $500\\ \\mathrm{g}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Requires too large a lever arm for the suspended mass about the new pivot.",
+        "C": "Uses the approximately $0.95\\ \\mathrm{m}$ distance from the mass to the original pivot.",
+        "D": "Would require a lever arm greater than $1.05\\ \\mathrm{m}$ for the suspended mass, even though the new pivot lies only $0.78\\ \\mathrm{m}$ from Y."
+      }
+    },
+    "issues": "The key substitutes 1.0 m where the question and the key’s own 0.503 kg result require 1.05 m. The shifted pivot is the centre of gravity of the combined system, while the rod’s own centre of gravity stays at the original pivot.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must locate the rod’s centre of gravity and calculate both lever arms about the shifted pivot.",
+    "misconception": "The rod’s own centre of gravity shifts when the suspended mass is added.",
+    "transcription": null
+  }
+]

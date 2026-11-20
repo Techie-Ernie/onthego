@@ -1,0 +1,654 @@
+[
+  {
+    "id": "tmjc-2026-prelim-p1-q3",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball accelerates downwards relative to the elevator at $9.81+5.8=15.61\\ \\mathrm{m\\,s^{-2}}$. Its initial relative velocity is zero, so $s=ut+\\frac12at^2$ gives $2.0=\\frac12(15.61)t^2$. Thus $t=0.51\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the floor as unaccelerated and uses $g$ alone.",
+        "C": "Uses the elevator's acceleration alone and omits the ball's downward acceleration.",
+        "D": "Overestimates the time by underestimating how quickly the gap closes."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the acceleration relative to the elevator before applying a standard motion equation.",
+    "misconception": "Ignoring the floor's acceleration",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q4",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Along XY, the momentum changes by $0.40[0.080\\sin 60^\\circ-(-0.080\\sin 60^\\circ)]=0.0554\\ \\mathrm{kg\\,m\\,s^{-1}}$, taking the rebound direction as positive. Dividing by the contact time gives an average force of $0.0554/0.20=0.28\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Uses the component parallel to the wall and counts only one momentum term.",
+        "B": "Uses only the incoming normal momentum, as if the mass stopped along XY.",
+        "C": "Uses the component parallel to the wall as the component that reverses.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve the velocity perpendicular to the wall and account for its reversal.",
+    "misconception": "Omitting the reversal of the normal velocity",
+    "transcription": "A mass of $0.40\\ \\mathrm{kg}$ moving along a smooth surface at $0.080\\ \\mathrm{m\\,s^{-1}}$ collides with the side of a vertical wall at an angle of $60^\\circ$. The mass is in contact with the side of the wall for $0.20\\ \\mathrm{s}$. It bounces off at the same angle with the same speed. [A dashed horizontal line XY is perpendicular to the wall, with X to the left and Y to the right. The incoming path runs from the lower left towards the wall, and the outgoing path runs towards the upper left. Each path makes $60^\\circ$ with the wall. The incoming arrow is labelled $0.080\\ \\mathrm{m\\,s^{-1}}$.] What is the magnitude of the average force the wall exerts on the ball along XY?\nA $0.080\\ \\mathrm{N}$\nB $0.14\\ \\mathrm{N}$\nC $0.16\\ \\mathrm{N}$\nD $0.28\\ \\mathrm{N}$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q5",
+    "keyPage": 2,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The length of the slope is $s=\\sqrt{1^2+2^2}=\\sqrt{5}\\ \\mathrm{m}$. The energy balance is $\\frac12mv^2=mgh-Fs$, so $\\frac12(5)v^2=5(9.81)(1)-4\\sqrt{5}$. This gives $v=4.00\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Ignores the energy dissipated by friction.",
+        "C": "Reports the numerical value of $v^2$ as the speed.",
+        "D": "Reports the numerical value of the final kinetic energy as the speed."
+      }
+    },
+    "issues": "The key gives 4.00 m/s. The unrounded substitution gives about 4.005 m/s, which rounds to the listed 4.0 m/s.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The ramp length must be calculated before frictional work can be included in the energy balance.",
+    "misconception": "Using horizontal distance for frictional work",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q6",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The final speed is $12\\ \\mathrm{m\\,s^{-1}}$, with horizontal component $v_x=6.00\\ \\mathrm{m\\,s^{-1}}$. From $v_x^2+v_y^2=12^2$, we get $36+v_y^2=144$, giving a downward component of $10.4\\ \\mathrm{m\\,s^{-1}}$. Using $v_y=u_y+at$ downwards gives $10.4=0+9.81t$, so $t=1.06\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Treats the increase in total speed as the vertical velocity gained, underestimating the time.",
+        "B": "Correct.",
+        "C": "Doubles the time obtained from the vertical velocity gain.",
+        "D": "Overestimates the time required for gravity to build the vertical component to $10.4\\ \\mathrm{m\\,s^{-1}}$."
+      }
+    },
+    "issues": "The school key prints the vertical component of velocity as 10.4 s. The explanation uses the correct unit.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The final speed must be resolved into components before using the vertical motion equation.",
+    "misconception": "Treating gravity as an acceleration along the velocity",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q7",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The inelastic collision reduces the total kinetic energy, so $E/2$ is the only listed energy that can apply. Since Y starts at rest, the initial total momentum is $p$, and conservation of momentum keeps the total at $p$ after the collision.",
+      "perOption": {
+        "A": "Incorrectly halves the system's momentum.",
+        "B": "Correct.",
+        "C": "Keeps the kinetic energy unchanged and incorrectly halves the momentum.",
+        "D": "Keeps the kinetic energy unchanged despite the inelastic collision."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.b",
+      "collisions.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing conservation of momentum from loss of kinetic energy.",
+    "misconception": "Assuming momentum is lost in an inelastic collision",
+    "transcription": "A ball X moving on a frictionless table with kinetic energy $E$ and momentum $p$ makes a head-on inelastic collision with an identical ball Y which is initially at rest. Which of the following options shows possible values for the total kinetic energy and total momentum of both X and Y after the collision?\n[Table columns are total kinetic energy and total momentum.]\nA $E/2$, $p/2$\nB $E/2$, $p$\nC $E$, $p/2$\nD $E$, $p$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q8",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In an elastic collision, the relative speed of separation equals the relative speed of approach. The two masses approach at a relative speed of $2u$, and only C gives that separation speed.",
+      "perOption": {
+        "A": "The masses move in the same direction and separate at $2u/3-u/6=u/2$.",
+        "B": "The masses separate at $u/6+2u/3=5u/6$.",
+        "C": "Correct.",
+        "D": "The masses move together, so their separation speed is zero."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student can identify the correct diagram by comparing the signed velocities.",
+    "misconception": "Adding speeds without checking directions",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q9",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The tension provides the centripetal force, so $\\frac{mv^2}{1.20L}=k(0.20L)$ and $\\frac{mv_1^2}{1.40L}=k(0.40L)$. Dividing the equations gives $\\frac{1.40v^2}{1.20v_1^2}=\\frac{0.20}{0.40}=\\frac12$, so $v_1\\approx1.5v$.",
+      "perOption": {
+        "A": "Uses the inverse radius ratio as the speed ratio and omits the increase in tension.",
+        "B": "Treats the full string length as the extension, giving a speed ratio of $1.40/1.20$.",
+        "C": "Underestimates the increase in $v^2$ from the combined increase in radius and tension.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The tension and orbital radius both change and must be included in the speed ratio.",
+    "misconception": "Confusing string length with extension",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q10",
+    "keyPage": 3,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational potential follows $\\phi=-GM/r$, so $\\phi_X:\\phi_Y=1:3$. Gravitational potential energy decreases from X to Y, so the field does positive work. For the reverse transfer at unchanged kinetic energy, the external agent does positive work.",
+      "perOption": {
+        "A": "Reverses the inverse-distance ratio, which is $1:3$.",
+        "B": "The potential is inversely proportional to distance, giving $1:3$.",
+        "C": "Correct.",
+        "D": "The external agent does positive work when moving the mass from Y to X at unchanged kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.f",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must apply inverse-distance scaling and identify the sign of gravitational work.",
+    "misconception": "Confusing the distance dependence of potential and field strength",
+    "transcription": "Two points X and Y are on equipotential lines with potentials $\\phi_X$ and $\\phi_Y$ which are at distances $3r$ and $r$ respectively from a star. [Two concentric dashed circles are centred on the star. X is on the outer circle labelled $\\phi_X$, and Y is on the inner circle labelled $\\phi_Y$. Lines from the star to X and Y are labelled $3r$ and $r$.] Which statement is correct?\nA The ratio of $\\phi_X:\\phi_Y$ is $3:1$.\nB The ratio of $\\phi_X:\\phi_Y$ is $9:1$.\nC Work done by gravitational field to move a mass from X to Y is positive.\nD Work done by external agent to move a mass from Y to X is negative."
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q11",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For amplitude $x_0$, the total energy is $E_{\\mathrm T}=\\frac12m\\omega^2x_0^2$. At $x=x_0/2$, $E_{\\mathrm K}=\\frac12m\\omega^2[x_0^2-(x_0/2)^2]=\\frac34E_{\\mathrm T}$. Since $E_{\\mathrm T}=E_{\\mathrm K}+E_{\\mathrm P}$, $E_{\\mathrm P}=\\frac14E_{\\mathrm T}$.",
+      "perOption": {
+        "A": "Interchanges the kinetic and potential energy fractions.",
+        "B": "Assumes the energies are equal halfway to the turning point.",
+        "C": "Overestimates the potential-energy fraction, which is $(x/x_0)^2=1/4$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires evaluating the kinetic-energy fraction at half amplitude and finding the remaining fraction.",
+    "misconception": "Assuming energy varies linearly with displacement",
+    "transcription": "A particle is oscillating in simple harmonic motion. The kinetic energy of the particle is $E_{\\mathrm K}$, its potential energy is $E_{\\mathrm P}$ and the total energy is $E_{\\mathrm T}$. When the particle is mid-way between the equilibrium position and an amplitude position, what are the values of the ratios $E_{\\mathrm K}:E_{\\mathrm T}$ and $E_{\\mathrm P}:E_{\\mathrm T}$?\n[Table columns are $E_{\\mathrm K}:E_{\\mathrm T}$ and $E_{\\mathrm P}:E_{\\mathrm T}$.]\nA $1:4$, $3:4$\nB $1:2$, $1:2$\nC $2:3$, $1:3$\nD $3:4$, $1:4$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q12",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Shift the displacement profile slightly to the right to represent a later instant. At D, the displacement then becomes negative, so the particle moves left. D is on the steepest rising part of the original profile, giving the greatest rate of decrease in displacement.",
+      "perOption": {
+        "A": "At the crest, the particle is at maximum displacement and is momentarily at rest.",
+        "B": "The rightward shift of the profile increases the displacement at B, so the particle moves right.",
+        "C": "At the trough, the particle is at its negative displacement extreme and is momentarily at rest.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires translating the spatial profile to infer the instantaneous direction and magnitude of particle velocity.",
+    "misconception": "Reading particle velocity directly from the spatial slope",
+    "transcription": "The graph shows how the displacement of particles in a longitudinal wave varies with the position $x$ along the wave. The wave travels towards the positive $x$ direction. Positive displacements are taken as displacements to the right of the equilibrium position. At the instant shown, which point along the wave has the maximum leftward velocity? [A sinusoidal graph of displacement against $x$ starts at zero and rises to crest A, falls through zero at B to trough C, then rises through zero at D to another crest before returning to zero.]"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q13",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The grating equation is $d\\sin\\theta=n\\lambda$. At $\\theta=90^\\circ$, the upper bound on $n$ is $2.8\\lambda\\sin90^\\circ/\\lambda=2.8$, so the highest integer order is 2. There are $2\\times2+1=5$ maxima including the central maximum.",
+      "perOption": {
+        "A": "Counts only the first and second orders on one side.",
+        "B": "Counts both pairs of side maxima but omits the central maximum.",
+        "C": "Correct.",
+        "D": "Rounds the upper bound up and includes an impossible third order on each side."
+      }
+    },
+    "issues": "The key writes 2.8 = 2 when selecting the maximum order. The explanation states the integer-order restriction.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires finding the greatest allowed integer order and counting maxima on both sides of the centre.",
+    "misconception": "Omitting the central maximum",
+    "transcription": "Monochromatic light of wavelength $\\lambda$ is incident normally on a diffraction grating. The slit separation of the diffraction grating is $2.8\\lambda$. How many diffraction maxima are present in the transmitted light?\nA 2\nB 4\nC 5\nD 7"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q14",
+    "keyPage": 4,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two-node pattern has a displacement node at the closed end, one interior node, and an antinode at the open end. The pipe length contains three quarters of a wave, so $L=3\\lambda/4$ and $\\lambda=4L/3$.",
+      "perOption": {
+        "A": "Mistakes the quarter-wave segment length for the wavelength.",
+        "B": "Applies the factor $3/4$ to $L$ when solving $L=3\\lambda/4$ for $\\lambda$.",
+        "C": "Correct.",
+        "D": "Fits five quarter wavelengths, producing three displacement nodes."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "superposition.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The end conditions and node count determine how many quarter wavelengths fit in the pipe.",
+    "misconception": "Miscounting quarter wavelengths between the end conditions",
+    "transcription": "A stationary sound wave is formed in a pipe of length $L$ that is closed at one end. The stationary sound wave has two nodes. What is the wavelength of the stationary wave?\nA $L/4$\nB $3L/4$\nC $4L/3$\nD $4L/5$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q15",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From P to Q, the volume decreases, so the gas is compressed. The PQ curve is steeper than the isothermal curve through Q, which is consistent with adiabatic compression. A rapid compression could allow negligible heat exchange.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "QR is an isothermal expansion, so Q and R have equal temperatures.",
+        "C": "The expansion area exceeds the compression area, so the net work done on the gas is negative.",
+        "D": "Internal energy depends on the state, and the gas returns to its initial state."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret the compression path, the cycle direction and the return to the original state.",
+    "misconception": "Confusing work done by the gas with work done on it",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q16",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the first law, $\\Delta U=\\frac32nR\\Delta T=Q+W_{\\mathrm{on}}$. In the first case $\\frac32nR\\Delta T_1=1000-500=500\\ \\mathrm J$, and in the second $\\frac32nR\\Delta T_2=2000-500=1500\\ \\mathrm J$. Hence $\\Delta T_1/\\Delta T_2=500/1500=0.33$.",
+      "perOption": {
+        "A": "Subtracts the work in the first case but adds it in the second, giving $500/2500$.",
+        "B": "Correct.",
+        "C": "Takes the ratio of the heat inputs alone and omits the work.",
+        "D": "Adds the work done by the gas to the heat input, giving $1500/2500$."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.f",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies the first law twice and takes the ratio of the resulting internal energy changes.",
+    "misconception": "Assigning positive work on the gas during expansion",
+    "transcription": "When a sample of ideal monatomic gas has $1000\\ \\mathrm J$ of heat added to it and it does $500\\ \\mathrm J$ of work, its temperature changes by $\\Delta T_1$. When twice the amount of heat is added to it and it does the same amount of work, its temperature changes by $\\Delta T_2$. What is the ratio $\\Delta T_1/\\Delta T_2$?\nA 0.20\nB 0.33\nC 0.50\nD 0.60"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q17",
+    "keyPage": 5,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV=nRT$, the fixed cylinder volume and limiting pressure give $n_1RT_1=n_2RT_2$. With molar mass $M_{\\mathrm r}$, this is $\\frac{m_1}{M_{\\mathrm r}}RT_1=\\frac{m_2}{M_{\\mathrm r}}RT_2$. Thus $m_2=\\frac{273.15+10}{273.15+30}(15)=14.0\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Uses inverse proportionality with temperatures in degrees Celsius.",
+        "B": "Correct.",
+        "C": "Makes the mass directly proportional to absolute temperature.",
+        "D": "Makes the mass directly proportional to the Celsius temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires identifying the fixed pressure and volume and forming a ratio using absolute temperatures.",
+    "misconception": "Using Celsius temperatures in the ideal-gas equation",
+    "transcription": "A gas cylinder is fitted with a safety valve which releases a gas when the pressure inside the cylinder reaches $2.0\\times10^6\\ \\mathrm{Pa}$. The maximum mass of this gas the cylinder can hold at $10\\,^\\circ\\mathrm C$ is $15\\ \\mathrm{kg}$. The gas behaves as an ideal gas. What would be the maximum mass at $30\\,^\\circ\\mathrm C$?\nA $5\\ \\mathrm{kg}$\nB $14\\ \\mathrm{kg}$\nC $16\\ \\mathrm{kg}$\nD $45\\ \\mathrm{kg}$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q18",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At distance $d$, $V=Q/(4\\pi\\varepsilon_0d)$ and $E=Q/(4\\pi\\varepsilon_0d^2)$. Replacing $d$ by $d/4$ gives $V_{\\mathrm{new}}=Q/[4\\pi\\varepsilon_0(d/4)]=4V$. The field becomes $E_{\\mathrm{new}}=Q/[4\\pi\\varepsilon_0(d/4)^2]=16E$.",
+      "perOption": {
+        "A": "Uses 8 as the field multiplier instead of squaring the distance factor of 4.",
+        "B": "Correct.",
+        "C": "Overstates the potential multiplier and understates the inverse-square increase in field strength.",
+        "D": "Applies a factor of 8 to the potential even though it scales inversely with distance."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies two familiar distance laws to the same change in separation.",
+    "misconception": "Confusing inverse-distance and inverse-square scaling",
+    "transcription": "The electric potential and the electric field strength due to a point charge at distance $d$ from the charge is $V$ and $E$ respectively. What is the electric potential and the electric field strength at a distance $d/4$ from the point charge?\n[Table columns are electric potential and electric field strength.]\nA $4V$, $8E$\nB $4V$, $16E$\nC $8V$, $8E$\nD $8V$, $16E$"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q19",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field is the negative potential gradient, $E=-\\mathrm dV/\\mathrm dx$. The potential gradient is negative throughout, so the field is positive. Near the middle the slope has its smallest magnitude and remains nonzero, so the field has a positive minimum.",
+      "perOption": {
+        "A": "Confuses the zero of potential with a zero of its gradient.",
+        "B": "Uses the wrong field sign and gives zero at a point where the slope remains nonzero.",
+        "C": "Correct.",
+        "D": "Uses the potential gradient itself, giving a negative field."
+      }
+    },
+    "issues": "The key's phrase “minimum gradient” refers to the smallest gradient magnitude. The graphs also show finite endpoint values, whereas ideal point-charge potential and field diverge at the charge positions. C matches the intended trend between the charges.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer both the field direction and its changing strength from graph gradients.",
+    "misconception": "Equating zero potential with zero electric field",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q20",
+    "keyPage": 6,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electrons and positive mercury ions move in opposite directions, so their conventional currents add. In one minute the effective charge transferred is $Q=(1.5\\times10^{15}+4.4\\times10^{15})(1.6\\times10^{-19})=9.44\\times10^{-4}\\ \\mathrm C$. Thus $I=Q/t=(9.44\\times10^{-4})/60=1.57\\times10^{-5}\\ \\mathrm A\\approx16\\ \\mu\\mathrm A$.",
+      "perOption": {
+        "A": "Subtracts the charge-carrier counts even though both streams contribute current in the same direction.",
+        "B": "Correct.",
+        "C": "Subtracts the two charge contributions and treats the one-minute charge as a per-second flow.",
+        "D": "Treats the total charge crossing in one minute as if it crossed in one second."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine the two charge flows and convert a per-minute count into current.",
+    "misconception": "Subtracting currents for opposite charge motions",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q21",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For cell voltage $V$, the series capacitance is $C/3$, so $Q_1=CV/3$. The parallel capacitance is $3C$, so $Q_2=3CV$. Hence $Q_1/Q_2=(CV/3)/(3CV)=1/9$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Accounts for the factor of three in only one of the two combinations.",
+        "C": "Uses a single factor of three in the reverse direction.",
+        "D": "Inverts the ratio of series charge to parallel charge."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "circuits.k",
+      "electric-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student finds two equivalent capacitances and uses the same cell voltage for both.",
+    "misconception": "Applying a factor of three to only one arrangement",
+    "transcription": "When three identical capacitors of capacitance $C$ are connected to a cell in series, the total charge stored is $Q_1$. When the same capacitors are connected to the same cell in parallel, the total charge stored is $Q_2$. [The first circuit shows three capacitors, each labelled $C$, in series with the cell. The second shows three separate parallel branches, each containing a capacitor labelled $C$, across the cell.] What is the ratio $Q_1/Q_2$?\nA $1/9$\nB $1/3$\nC 3\nD 9"
+  },
+  {
+    "id": "tmjc-2026-prelim-p1-q22",
+    "keyPage": 7,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Power is $P=V^2/R$, so for identical resistors $P\\propto V^2$. Q and R are in parallel and S carries twice either branch current, giving $V_S:V_R:V_Q=2:1:1$. Squaring gives a power ratio of $4:1:1$, so R dissipates $\\frac16(12)=2\\ \\mathrm W$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Allocates power in proportion to voltage, giving R one part out of four.",
+        "C": "Divides the total power equally among all three resistors based on their equal resistances.",
+        "D": "Assigns to R the four-sixths power share that belongs to S."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the voltage division and square the voltage ratio to obtain the power split.",
+    "misconception": "Assuming identical resistors always dissipate equal power",
+    "transcription": null
+  }
+]

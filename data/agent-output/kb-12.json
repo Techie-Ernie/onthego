@@ -1,0 +1,342 @@
+[
+  {
+    "id": "nyjc-2026-prelim-p1-q12",
+    "keyPage": 10,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity provides the centripetal force, so $\\frac{GMm}{r^2}=mr(2\\pi/T)^2$. This gives $T^2=\\frac{4\\pi^2}{GM}r^3$, which is independent of the satellite’s mass. The claim that all such satellites must have the same mass is false.",
+      "perOption": {
+        "A": "A geostationary orbit lies in the equatorial plane so the satellite stays above one point on the equator.",
+        "B": "Correct. The satellite’s mass cancels.",
+        "C": "The orbital period must match Earth’s rotation period, about 24 hours.",
+        "D": "The required period fixes a unique radius because $T^2\\propto r^3$."
+      }
+    },
+    "issues": "The 24-hour period is rounded. The exact requirement is one sidereal day."
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q13",
+    "keyPage": 11,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=0$, the body is at equilibrium ($x=0$), where its speed and kinetic energy are greatest. It passes through equilibrium twice per oscillation, so the kinetic energy completes two cycles in one displacement period.",
+      "perOption": {
+        "A": "Copies the displacement graph and gives negative kinetic energy.",
+        "B": "Uses a signed velocity-like curve, which gives negative kinetic energy.",
+        "C": "Starts at zero even though the body has maximum speed at equilibrium.",
+        "D": "Correct. It starts at a maximum and repeats every half-period."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q14",
+    "keyPage": 12,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Sketch particle displacement against equilibrium position. For a wave travelling to the right, the particle velocity has the opposite sign to the local slope of that graph. Particle D is moving away from equilibrium, while its acceleration points back towards equilibrium.",
+      "perOption": {
+        "A": "A is at an extreme displacement, where its instantaneous velocity is zero.",
+        "B": "B is moving towards equilibrium, so its velocity and acceleration point in the same direction.",
+        "C": "C is at equilibrium, where its speed is greatest and its acceleration is zero.",
+        "D": "Correct. D moves away from equilibrium while accelerating towards it."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q15",
+    "keyPage": 12,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Complete destructive interference occurs where a crest from one slit meets a trough from the other. At C, a curved wavefront from one slit is halfway between successive wavefronts from the other slit.",
+      "perOption": {
+        "A": "A is at the upper slit, before the two outgoing waves overlap there.",
+        "B": "B lies on the central line, where both waves travel equal distances and arrive in phase.",
+        "C": "Correct. A crest meets a trough.",
+        "D": "D is where two drawn wavefronts meet, so the waves arrive in phase."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q16",
+    "keyPage": 13,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=r\\theta$, the yellow stars subtend $\\theta=1.7\\times10^{-6}\\ \\mathrm{rad}$. With $\\theta_{\\min}\\approx\\lambda/b$, the aperture diameter is $b\\approx0.35\\ \\mathrm{m}$, or about $0.4\\ \\mathrm{m}$. Red light has a longer wavelength, so its minimum resolvable angle exceeds the unchanged angular separation of the stars.",
+      "perOption": {
+        "A": "The yellow-light limit gives an aperture diameter of about $0.4\\ \\mathrm{m}$.",
+        "B": "The resolution criterion depends on both $\\lambda$ and the aperture diameter.",
+        "C": "Correct. The red stars are too close in angle to resolve.",
+        "D": "The new separation of $3\\times10^{-6}\\ \\mathrm{rad}$ exceeds the yellow-light resolution limit."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q17",
+    "keyPage": 13,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the kinetic theory of an ideal gas, molecules move randomly with a range of speeds. The temperature fixes their mean translational kinetic energy, so equal molecular speeds are unnecessary.",
+      "perOption": {
+        "A": "Correct. Molecules can have different speeds.",
+        "B": "Random molecular motion is an assumption of the model.",
+        "C": "The model treats the molecules’ own volume as negligible compared with the gas volume.",
+        "D": "The model neglects intermolecular forces between collisions."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q18",
+    "keyPage": 14,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gas returns to its initial state, so $\\Delta U=0$. The loop is clockwise, so the net work done on the gas is minus the enclosed area, $W=-[(3-2)\\times10^5][(3-1)\\times10^{-3}]=-200\\ \\mathrm{J}$. Using $\\Delta U=Q+W$ gives $Q=200\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Reverses the signs of work and heat for the clockwise cycle.",
+        "B": "Correct. The gas absorbs 200 J of heat over the cycle.",
+        "C": "Assigns a nonzero internal-energy change to a complete cycle and reverses the work sign.",
+        "D": "Uses the internal-energy change from only W to Y and consequently gives the wrong heat transfer."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q19",
+    "keyPage": 15,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric potential is a scalar, so at X it is $V=6\\frac{Q}{4\\pi\\varepsilon_0r}+2\\frac{-Q}{4\\pi\\varepsilon_0r}=\\frac{Q}{\\pi\\varepsilon_0r}$. The external work to bring in $+2Q$ equals the increase in potential energy, $(2Q)V=\\frac{2Q^2}{\\pi\\varepsilon_0r}$. The field does the negative of this work, $-\\frac{2Q^2}{\\pi\\varepsilon_0r}$.",
+      "perOption": {
+        "A": "Uses $+Q$ for the incoming charge instead of $+2Q$.",
+        "B": "Correct. The field does negative work as potential energy increases.",
+        "C": "Gives the work done by the external force.",
+        "D": "Treats the two negative charges as positive when summing the potentials."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q20",
+    "keyPage": 16,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The alpha particle has charge $+2e$ and the separation is $0.10\\times10^{-12}\\ \\mathrm{m}$. Coulomb’s law gives $F=\\frac{(1.4\\times10^{-17})(2\\times1.6\\times10^{-19})}{4\\pi(8.85\\times10^{-12})(0.10\\times10^{-12})^2}=4.0\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Uses the numerical distance in picometres without converting to metres.",
+        "B": "Divides by the separation only once instead of squaring it.",
+        "C": "Correct. The force is repulsive.",
+        "D": "Uses $+4e$ for the alpha particle instead of $+2e$."
+      }
+    },
+    "issues": "The key includes a stray sentence about scalar potential. Its force calculation is correct."
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q21",
+    "keyPage": 16,
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $R=\\rho\\ell/A$, the radial path length $\\ell$ is fixed by the spacing between the rod and the case. The area for radial conduction in the key’s model is $A=2\\pi r_{\\mathrm{avg}}x$, so $R=\\rho\\ell/(2\\pi r_{\\mathrm{avg}}x)\\propto 1/x$.",
+      "perOption": {
+        "A": "Treats the depth as setting an area proportional to its square and makes resistance increase with area.",
+        "B": "Treats the liquid depth as the current path length, which is radial.",
+        "C": "Correct. The area for radial conduction grows in proportion to the depth.",
+        "D": "Assumes the conduction area grows with the square of the liquid depth."
+      }
+    },
+    "issues": "The key uses an average-radius approximation for the resistance. The inverse-depth scaling is exact in the ideal radial model."
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q22",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "If the third lamp’s filament alone is broken, the open circuit carries no current and the intact lamps have no potential drop. The full supply potential difference appears across the third lamp, so the voltmeter would give a nonzero reading.",
+      "perOption": {
+        "A": "A break in another lamp stops current through the intact third lamp, giving zero potential difference.",
+        "B": "Correct. The full supply voltage would appear across the break.",
+        "C": "A blown fuse interrupts the supply, so the intact third lamp has zero potential difference.",
+        "D": "A broken supply wire stops current through the intact third lamp, giving zero potential difference."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q23",
+    "keyPage": 17,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $C$ be the capacitance of one capacitor. In P, the three capacitors are in parallel, giving $3C$. In Q, they are in series, so $1/C_Q=3/C$ and $C_Q=C/3$. In R, the series pair is in parallel with the single capacitor, giving $C_R=C+1/(2/C)=3C/2$. The increasing order is Q, R, P.",
+      "perOption": {
+        "A": "Lists the capacitances in decreasing order.",
+        "B": "Correct. The order is Q, R, P.",
+        "C": "Places the all-parallel arrangement first even though it has the greatest capacitance.",
+        "D": "Places the mixed arrangement below the all-series arrangement."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q24",
+    "keyPage": 18,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $B=\\mu_0 I/(2\\pi d)$, wire X gives $3.0\\times10^{-7}\\ \\mathrm{T}$ towards the bottom of the page at $d=2.0\\ \\mathrm{m}$. Wire Y gives $4.0\\times10^{-7}\\ \\mathrm{T}$ out of the page at $d=3.0\\ \\mathrm{m}$. The fields are perpendicular, so $B_{\\mathrm{resultant}}=\\sqrt{(3.0\\times10^{-7})^2+(4.0\\times10^{-7})^2}=5.0\\times10^{-7}\\ \\mathrm{T}$.",
+      "perOption": {
+        "A": "Uses $\\varepsilon_0$ in place of $\\mu_0$.",
+        "B": "Correct. The fields add at right angles.",
+        "C": "Swaps the distances from P to wires X and Y.",
+        "D": "Adds the field magnitudes directly as if the fields were parallel."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q25",
+    "keyPage": 19,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Lenz’s law, the eddy currents induced in the rotating disc oppose the change in magnetic flux through the disc. Their torque on the suspended magnet reduces the relative rotation, so the magnet turns in the same direction as the disc.",
+      "perOption": {
+        "A": "Opposite rotation would increase the relative motion driving the induction.",
+        "B": "Correct. The induced torque drags the magnet in the disc’s direction.",
+        "C": "Ignores the torque exerted by the induced currents.",
+        "D": "Assumes a reversing torque even though the rotating disc initially drags the magnet in one direction."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q26",
+    "keyPage": 20,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean input power is $120(60.0)=7200\\ \\mathrm{W}$. The ideal transformer supplies the same power at $4500/\\sqrt{2}\\ \\mathrm{V}$ r.m.s., so the cable current is $I_{\\rm rms}=7200\\sqrt{2}/4500\\ \\mathrm{A}$. After the cable loss, the power delivered is $P'=7200-I_{\\rm rms}^2(40.0)$. The percentage delivered is $(P'/7200)\\times100\\%\\approx97.2\\%$.",
+      "perOption": {
+        "A": "Uses the peak cable current in the mean power-loss formula and doubles the loss.",
+        "B": "Correct. About 97.2% of the power reaches the consumers.",
+        "C": "Treats 4500 V as the r.m.s. voltage, halving the calculated cable loss.",
+        "D": "Converts peak voltage to r.m.s. in the wrong direction by multiplying by √2, leaving only a quarter of the correct cable loss."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q27",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each photon has momentum $h/\\lambda$ and energy $hc/\\lambda$, so a beam of power $P$ delivers $P/(hc/\\lambda)$ photons per second. Assuming complete reflection, each photon’s momentum reverses, giving a force of $2P/c$ on the photons and an equal force magnitude on the screen. Dividing by the spot area $\\pi D^2/4$ gives $8P/(c\\pi D^2)$. The two beams have equal power and spot diameter, so the red beam also exerts pressure $p$.",
+      "perOption": {
+        "A": "Uses the momentum ratio of individual photons and overlooks the higher photon rate for red light.",
+        "B": "Correct. The wavelength factors cancel.",
+        "C": "Uses the photon-rate ratio and overlooks the lower momentum per red photon.",
+        "D": "Squares the per-photon momentum ratio even though the force is the photon rate times the momentum change."
+      }
+    },
+    "issues": "The key assumes complete reflection. Equal pressure also requires equivalent momentum-transfer conditions for both beams, which the question does not specify."
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q28",
+    "keyPage": 21,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron’s state is represented by a wavefunction $\\psi$. Its squared magnitude $|\\psi|^2$ is the probability density, and the electron cloud visualises where the electron is likely to be found.",
+      "perOption": {
+        "A": "Confines the electron to a single radius even though its probability density extends over a region.",
+        "B": "Assumes a uniform charge distribution even though the probability density varies with position.",
+        "C": "Treats the electron cloud as a classical trajectory.",
+        "D": "Correct. The cloud shows where the electron is likely to be found."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q29",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Activity is proportional to the number of radioactive nuclei, so $1.0\\ \\mathrm{g}$ of live wood would have an activity of $120/10=12.0\\ \\mathrm{min^{-1}}$. Using $A=A_0e^{-\\lambda t}$ and $\\lambda=\\ln 2/5730\\ \\mathrm{yr}^{-1}$ gives $8.05=12.0e^{-(\\ln 2)t/5730}$, with $t$ in years. Solving gives $t\\approx3300$ years.",
+      "perOption": {
+        "A": "This age allows too little decay, leaving more than $8.05\\ \\mathrm{min^{-1}}$ from a $12.0\\ \\mathrm{min^{-1}}$ starting activity.",
+        "B": "Correct. The mass-adjusted activity ratio gives about 3300 years.",
+        "C": "Uses an age beyond one half-life even though more than half the initial activity remains.",
+        "D": "Compares the activities directly without adjusting for the tenfold difference in sample mass."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "nyjc-2026-prelim-p1-q30",
+    "keyPage": 22,
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released equals the products’ total binding energy minus the reactants’ total binding energy. Free neutrons contribute zero binding energy, so $195=143X+90X-235(7.6)$, with energies in MeV. Solving gives $X=8.50\\ \\mathrm{MeV}$ per nucleon.",
+      "perOption": {
+        "A": "Reverses the energy difference and also uses too many bound product nucleons.",
+        "B": "Subtracts the released energy from the initial binding energy instead of adding it.",
+        "C": "Averages over too many nucleons by counting free neutrons in the product binding-energy calculation.",
+        "D": "Correct. The 195 MeV increase is shared across 233 bound product nucleons."
+      }
+    },
+    "issues": null
+  },
+  {
+    "id": "ri-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Systematic error is indicated by how far the mean measured value lies from the true value $x_0$. Random error is indicated by the spread of measurements about the mean. Graph B is narrow and centred well away from $x_0$, showing small random error and large systematic error.",
+      "perOption": {
+        "A": "The narrow distribution is centred at $x_0$, showing little systematic error.",
+        "B": "Correct. The narrow distribution is offset from the true value.",
+        "C": "The distribution is broad and centred at $x_0$, showing large random error and little systematic error.",
+        "D": "The offset shows systematic error, but the broad spread indicates large random error."
+      }
+    },
+    "issues": null
+  }
+]
