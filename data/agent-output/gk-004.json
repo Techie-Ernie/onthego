@@ -1,0 +1,498 @@
+[
+  {
+    "id": "acjc-2023-prelim-p1-q16",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In steady state, the periodic driver sets the frequency of the spring–mass system. The natural frequency governs free oscillation and helps determine where the driven amplitude peaks.",
+      "perOption": {
+        "A": "The amplitude can fall as the driving frequency moves above resonance.",
+        "B": "A larger driving amplitude can produce a larger response.",
+        "C": "The natural frequency governs free oscillation.",
+        "D": "Correct. The steady-state motion follows the driving frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It tests the basic distinction between the driving and natural frequencies.",
+    "misconception": "Confusing driving frequency with natural frequency",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q17",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The travel-time difference is $3.5-3.0=0.5\\ \\mathrm{s}$. Each cycle is $2\\pi$ radians, so the phase difference is $2\\pi f\\Delta t=2\\pi(0.40)(0.5)=2\\pi/5$ radians.",
+      "perOption": {
+        "A": "Uses $\\pi$ radians for a full cycle.",
+        "B": "Correct.",
+        "C": "This is the numerical value of the period in seconds, $5/2$, multiplied by $\\pi$.",
+        "D": "Uses the numerical value of the period, 2.5, as the number of cycles in the phase calculation."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must turn a travel-time difference into a fraction of a cycle.",
+    "misconception": "Using half a cycle as the radian conversion factor",
+    "transcription": "Two identical water waves travel from two sources X and Y to meet at point P. The frequency of the waves is $0.40\\ \\mathrm{Hz}$ and the sources are in phase.\n\n[Two arrows point from source X and source Y toward P.]\n\nWaves from source X take $3.0\\ \\mathrm{s}$ to arrive at P, while waves from source Y take $3.5\\ \\mathrm{s}$ to arrive at P.\n\nWhat is the phase difference, in radians, between the two waves at P?\n\nA $\\pi/5$\nB $2\\pi/5$\nC $5\\pi/2$\nD $5\\pi$"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q18",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the second order, $d\\sin31^\\circ=2\\lambda$. Since $\\sin\\theta\\leq 1$, the order satisfies $m\\leq d/\\lambda=2/\\sin31^\\circ\\approx3.88$. The allowed orders are $0,\\pm1,\\pm2,\\pm3$, giving seven maxima.",
+      "perOption": {
+        "A": "Counts only the three nonzero orders on one side.",
+        "B": "Counts the central maximum and the orders on just one side.",
+        "C": "Correct.",
+        "D": "Rounds the order limit up and counts a fourth-order maximum on each side."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The grating equation gives the order limit, which must be converted into a count on both sides.",
+    "misconception": "Rounding the maximum order up",
+    "transcription": "A narrow beam of monochromatic light falls on a diffraction grating at normal incidence. The second order diffracted beam occurs at an angle of $31^\\circ$ to the normal.\n\nWhat is the total number of intensity maxima from the grating that can be observed?\n\nA 3\nB 4\nC 7\nD 9"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q19",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The air column has a displacement node at the water surface and an antinode near the open end. Successive resonances occur at effective lengths that differ by $\\lambda/2$, so $x=\\lambda/2$ and $\\lambda=2x$.",
+      "perOption": {
+        "A": "Halves the measured separation even though it is already half a wavelength.",
+        "B": "Treats the separation as one full wavelength.",
+        "C": "The factor $3/2$ misstates the relation between successive resonances.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.d"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognize what the change in air-column length measures.",
+    "misconception": "Confusing resonance spacing with a full wavelength",
+    "transcription": "Water flows out from a vertical tube that was initially full. A vibrating tuning fork is held near the top of the tube.\n\n[A tuning fork is shown above a vertical tube with an outlet near its bottom. Two water levels labelled positions of maximum loudness are separated vertically by $x$. The lower position is the drawn water surface.]\n\nThe distance between the two consecutive positions when the sound is at maximum loudness is $x$.\n\nWhat is the wavelength of the sound emitted by the tuning fork?\n\nA $x/2$\nB $x$\nC $3x/2$\nD $2x$"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q20",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Every point on PO is equidistant from A and D and from B and C, so the opposite-charge contributions to electric potential cancel in pairs. Thus $\\Delta U=q\\Delta V=0$. The proton’s kinetic energy is constant, so $W_{\\mathrm{ext}}=\\Delta K+\\Delta U=0$.",
+      "perOption": {
+        "A": "Assumes a rise in potential even though the potentials at P and O are both zero.",
+        "B": "Assigns opposite signs to external work and the potential energy change at constant speed.",
+        "C": "Assumes a drop in potential even though the opposite charges cancel in pairs at both endpoints.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d",
+      "electric-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It combines scalar potential cancellation with the work–energy relation.",
+    "misconception": "Confusing electric potential with electric field",
+    "transcription": "Four point charges are at the corners of a square ABCD. The point charges A and B are negatively charged and the point charges C and D are positively charged. The magnitude of the charges are the same. A proton is brought from point P to point O in a straight line by an external force without any change in speed.\n\n[A is at the top left, B at the bottom left, C at the bottom right and D at the top right. P is the midpoint of AD, and a vertical line joins P to O at the centre of the square.]\n\nWhich row about the change in electric potential energy of the system and the work done by the external force is correct?\n\nOption | change in electric potential energy | work done by the external force\nA | increase | positive\nB | increase | negative\nC | decrease | negative\nD | no change | zero"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q21",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The voltage across the plates is $630\\ \\mathrm{V}$ and their separation is $0.020\\ \\mathrm{m}$, giving $E=630/0.020=3.15\\times10^4\\ \\mathrm{V\\,m^{-1}}$. The force magnitude is $eE=5.0\\times10^{-15}\\ \\mathrm{N}$, directed toward the positive plate.",
+      "perOption": {
+        "A": "Multiplies by the plate separation when calculating the field.",
+        "B": "Multiplying the local potential of $472.5\\ \\mathrm{V}$ by the electron charge gives an energy.",
+        "C": "Multiplying the full plate voltage by the electron charge gives an energy.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the full plate separation and then apply the electron charge.",
+    "misconception": "Using potential in place of electric field",
+    "transcription": "A pair of parallel plates placed $2.0\\ \\mathrm{cm}$ apart is shown below. One of the plates is charged positively and the other is earthed. An electron is placed at a distance $0.5\\ \\mathrm{cm}$ away from the positive plate as shown in the diagram.\n\n[Two vertical parallel plates are $2.0\\ \\mathrm{cm}$ apart. The left plate is earthed and the right plate is at $+630\\ \\mathrm{V}$. The electron is between the plates, $0.5\\ \\mathrm{cm}$ from the right plate.]\n\nWhat is the force on the electron by the electric field?\n\nA $2.0\\times10^{-18}\\ \\mathrm{N}$\nB $7.6\\times10^{-17}\\ \\mathrm{N}$\nC $1.0\\times10^{-16}\\ \\mathrm{N}$\nD $5.0\\times10^{-15}\\ \\mathrm{N}$"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q22",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Closing A gives a direct path from the junction of $R_1$ and $R_2$ to Y, so $R_1=12\\ \\mathrm{k\\Omega}$. With A open, closing B bypasses $R_3$, so the resistance drops from $24$ to $20\\ \\mathrm{k\\Omega}$ and $R_3=4\\ \\mathrm{k\\Omega}$. Hence $R_1/R_3=3.0$.",
+      "perOption": {
+        "A": "Inverts the requested ratio to obtain $R_3/R_1$.",
+        "B": "Divides $R_3$ by $R_2$, whose resistance is $20-12=8\\ \\mathrm{k\\Omega}$.",
+        "C": "The other two resistors total $12\\ \\mathrm{k\\Omega}$ in series, but $R_3$ alone is $4\\ \\mathrm{k\\Omega}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must trace the conducting paths for several switch settings.",
+    "misconception": "Overlooking a bypass around a resistor",
+    "transcription": "A circuit consists of three resistors $R_1$, $R_2$ and $R_3$, and two switches A and B, as shown in the figure.\n\n[From X, $R_1$ connects to a junction and $R_2$ connects that junction to a common left node ending in an unlabelled terminal. $R_3$ connects the left node to Y. Switch A joins the junction between $R_1$ and $R_2$ to Y, and switch B joins Y to the common left node. Both switches are drawn open.]\n\nThe resistance between the terminals X and Y is measured for different settings of the switches A and B.\n\nThe results are shown in the table.\n\nswitch A | switch B | resistance between X and Y / $\\mathrm{k\\Omega}$\nopen | open | 24\nopen | closed | 20\nclosed | open | 12\nclosed | closed | 12\n\nWhat is the ratio of the resistance of $R_1$ to the resistance of $R_3$?\n\nA 0.33\nB 0.50\nC 1.0\nD 3.0"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q23",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The voltmeter measures the potential drop from X, so its reading starts near zero and increases along the paper. The narrow region has greater resistance per unit length, so the same current produces a steeper potential drop there. As the paper widens, the graph becomes less steep.",
+      "perOption": {
+        "A": "Starts above zero and treats the measured drop from X as a decreasing quantity.",
+        "B": "Starts above zero and treats the uniform-width sections as having no resistance per unit length.",
+        "C": "Makes the slope larger where the paper is wider and has less resistance per unit length.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It links the paper width to the slope of a cumulative voltage reading.",
+    "misconception": "Confusing potential drop with local potential",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q24",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "ST is parallel to the field and experiences zero magnetic force. The two vertical sides each experience a force of magnitude $BIy$, in opposite directions perpendicular to the loop. They form a couple with separation $x$, giving a moment of $BIxy$.",
+      "perOption": {
+        "A": "Applies $BIl$ to a side parallel to the field, for which $\\sin\\theta=0$.",
+        "B": "Correct.",
+        "C": "The equal and opposite forces on the vertical sides cancel in the net force.",
+        "D": "The vertical sides each experience a magnetic force because they are perpendicular to the field."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.e",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the two forces forming the couple and their separation.",
+    "misconception": "Confusing zero net force with zero torque",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q25",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At each instant, the resistor dissipates power $I^2R$, so halving the current amplitude reduces the mean power to $P/4$ before rectification. An ideal diode removes one of the two equal contributions from the half-cycles, giving a mean power of $P/8$ over a full cycle.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Accounts for halving the current amplitude but ignores the blocked half-cycle.",
+        "C": "Accounts for the blocked half-cycle alone.",
+        "D": "Leaves the mean power unchanged despite the reduced current amplitude and the blocked half-cycle."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.h",
+      "currents.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Two distinct changes to the average power must be combined.",
+    "misconception": "Treating power as proportional to current",
+    "transcription": "When an alternating current, $I=I_0\\cos\\omega t$, passes through a resistor, the mean power dissipated in the resistor is $P$.\n\nThe peak value of the alternating current is then reduced by half and the current is passed through a diode.\n\nWhat is the mean power dissipated in the resistor in terms of $P$?\n\nA $P/8$\nB $P/4$\nC $P/2$\nD $P$"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q26",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The coil normal is at $30^\\circ$ to the field. With $A=20\\times10^{-4}\\ \\mathrm{m^2}$, the flux linkage is $N\\Phi=NBA\\cos30^\\circ=15(0.50)(20\\times10^{-4})\\cos30^\\circ=1.3\\times10^{-2}\\ \\mathrm{Wb}$.",
+      "perOption": {
+        "A": "Makes the converted area a factor of 100 too small.",
+        "B": "Uses $\\sin30^\\circ$ even though $30^\\circ$ is the angle to the coil normal.",
+        "C": "Correct.",
+        "D": "Converts the area with a factor of $10^{-2}$ instead of $10^{-4}$."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires the angle to the coil normal and a square-unit conversion.",
+    "misconception": "Using the coil plane in the cosine formula",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q27",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Higher intensity at the same frequency delivers more photons per second, so more photoelectrons are emitted per second and the saturation current increases. Photon energy $hf$ and maximum photoelectron kinetic energy $hf-\\phi$ stay the same, so the stopping potential is unchanged. Curve A shows both features.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows a higher saturation current but also makes the stopping potential more negative.",
+        "C": "Shows a lower saturation current and a more negative stopping potential.",
+        "D": "Keeps the stopping potential the same but makes the saturation current smaller."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish how intensity and frequency affect different features of the graph.",
+    "misconception": "Confusing photon energy with photon arrival rate",
+    "transcription": "A photoelectric cell is connected to a variable d.c. power supply and a sensitive ammeter.\n\nIt is illuminated with ultraviolet radiation and photoelectrons are emitted. The variation with the electromotive force (e.m.f.) supplied of the current is obtained.\n\nWhich graph will be obtained if the experiment is repeated with a higher intensity of the ultraviolet radiation of the same frequency?\n\n[Graph of current against e.m.f. with zero marked on both axes. From highest to lowest saturation current, the curves are labelled A, B, original graph, C and D. A and D share the original graph’s negative e.m.f. intercept. B and C share an intercept farther to the left.]"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q28",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The highest-energy X-ray photon can receive the electron’s entire kinetic energy, so $hc/\\lambda_{\\min}=p^2/(2m_e)$ in the nonrelativistic model. Doubling $p$ quadruples that energy and gives a new minimum wavelength of $\\lambda_0/4$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats maximum photon energy as proportional to the electron’s momentum, or uses the electron’s de Broglie wavelength.",
+        "C": "Makes wavelength increase linearly with electron momentum.",
+        "D": "Correctly obtains a fourfold increase in energy but makes wavelength increase with it."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires linking electron momentum to kinetic energy and then photon wavelength.",
+    "misconception": "Applying the electron de Broglie relation to the emitted X-ray",
+    "transcription": "X-rays are produced when electrons are accelerated from rest by a potential difference and collide with a metal target.\n\nThe minimum wavelength of X-rays produced is $\\lambda_0$.\n\nWhat is the minimum wavelength of X-rays produced if the momentum of the electrons when they collide with the metal target is doubled?\n\nA $\\lambda_0/4$\nB $\\lambda_0/2$\nC $2\\lambda_0$\nD $4\\lambda_0$"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q29",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles passed through the thin foil with little or no deflection. The rare large deflections show that the region producing strong scattering occupies very little of each atom, so most of the atom is empty space.",
+      "perOption": {
+        "A": "Alpha particles are positively charged.",
+        "B": "The positive charge of the incident alpha particles was already known.",
+        "C": "Correct.",
+        "D": "The observation that most particles pass through does not determine gold’s exact proton number."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It asks for the standard inference from most alpha particles passing through the foil.",
+    "misconception": "Confusing known projectile properties with experimental deductions",
+    "transcription": "In the Rutherford $\\alpha$-particle scattering experiment, $\\alpha$-particles are directed at a thin gold foil.\n\nWhich is a direct deduction from the results of the experiment?\n\nA The $\\alpha$-particles are negatively charged.\nB The $\\alpha$-particles are positively charged.\nC The atom consists of a large amount of empty space.\nD The proton number of the gold nucleus is 79."
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q30",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released is the increase in total binding energy, and free neutrons contribute zero binding energy. For the two product nuclei and the original uranium nucleus, this gives $92(8.70)+141(8.33)-235(7.59)=191.28\\ \\mathrm{MeV}$, or $191\\ \\mathrm{MeV}$ to three significant figures.",
+      "perOption": {
+        "A": "Accounts for only part of the change in binding energy, which requires both product nuclei and the full uranium contribution.",
+        "B": "Leaves out part of the net increase in binding energy across the two product nuclei.",
+        "C": "Correct.",
+        "D": "Using 234 instead of 235 for the uranium nucleon count gives this value."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert binding energy per nucleon to total binding energy and take the difference.",
+    "misconception": "Comparing binding energies per nucleon without tracking the nuclei",
+    "transcription": "30 Consider the following nuclear fission reaction.\n\n${}^{235}_{92}\\mathrm{U}+{}^{1}_{0}\\mathrm{n}\\rightarrow{}^{92}_{36}\\mathrm{Kr}+{}^{141}_{56}\\mathrm{Ba}+3{}^{1}_{0}\\mathrm{n}$\n\nThe binding energy per nucleon for the particles are as shown.\n\nParticle | Binding energy per nucleon / MeV\nU | 7.59\nKr | 8.70\nBa | 8.33\n\nWhat is the amount of energy released by the reaction?\n\nA $81.4\\ \\mathrm{MeV}$\nB $110\\ \\mathrm{MeV}$\nC $191\\ \\mathrm{MeV}$\nD $199\\ \\mathrm{MeV}$"
+  }
+]

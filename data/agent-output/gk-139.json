@@ -1,0 +1,407 @@
+[
+  {
+    "id": "tmjc-2025-other-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Current from the a.c. supply flows in both directions around the circuit as the supply alternates.\n\nHowever, the arrangement of the four diodes (a bridge) makes the current through R flow only upward in both half-cycles. So both halves of each cycle appear across R with the same polarity: a full-wave rectified trace.",
+      "perOption": {
+        "A": "Shows the unrectified a.c.; the diodes stop the current through R from ever reversing.",
+        "B": "Correct. Both half-cycles pass through R in the same direction (full-wave rectification).",
+        "C": "This is half-wave rectification from a single diode; the bridge conducts during both half-cycles.",
+        "D": "Assumes the diodes block all current; in each half-cycle one pair of diodes conducts through R."
+      }
+    },
+    "issues": "Key gives only a brief qualitative explanation. Full-wave bridge rectification is slightly beyond the 9478 outcome (single-diode half-wave).",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": ["currents.j"],
+    "primaryType": "diagram",
+    "types": ["diagram", "conceptual"],
+    "difficulty": 3,
+    "difficultyReason": "Students must trace current paths through a diode bridge for both half-cycles, which is less familiar than single-diode rectification.",
+    "misconception": "Thinking a diode circuit always gives half-wave output",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2025-other-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Find the speed from the kinetic energy: $\\frac{1}{2}mv^2 = 9.3 \\times 10^{-16}$, so $\\frac{1}{2}(9.11 \\times 10^{-31})v^2 = 9.3 \\times 10^{-16}$, giving $v = 4.52 \\times 10^{7}\\ \\mathrm{m\\,s^{-1}}$.\n\nThen $\\lambda = \\dfrac{h}{mv} = \\dfrac{6.63 \\times 10^{-34}}{(9.11 \\times 10^{-31})(4.52 \\times 10^{7})} = 1.6 \\times 10^{-11}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Too large by a factor of about 30; does not follow from $\\lambda = h/\\sqrt{2mE_k}$ with the given energy.",
+        "B": "Correct. $\\lambda = h/mv$ with $v$ found from the kinetic energy.",
+        "C": "Off by a factor of about 3; arises from a slip such as omitting the factor 2 or the square root in $p = \\sqrt{2mE_k}$.",
+        "D": "Treats the electron like a photon, using $\\lambda = hc/E$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": ["quantum-physics.e"],
+    "primaryType": "multi-step",
+    "types": ["multi-step", "quantitative"],
+    "difficulty": 2,
+    "difficultyReason": "Standard two-step calculation from kinetic energy to momentum to de Broglie wavelength.",
+    "misconception": "Using the photon relation $\\lambda = hc/E$ for an electron",
+    "transcription": "An electron is accelerated from rest through a potential difference to achieve a final kinetic energy of $9.3 \\times 10^{-16}$ J.\n\nWhat is the de Broglie wavelength of the electron after being accelerated through this potential difference?\n\nA $5.1 \\times 10^{-10}$ m\nB $1.6 \\times 10^{-11}$ m\nC $5.1 \\times 10^{-12}$ m\nD $3.6 \\times 10^{-19}$ m"
+  },
+  {
+    "id": "tmjc-2025-other-p1-q28",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $\\Delta x \\Delta p \\approx h$: $(7.2 \\times 10^{-9})(\\Delta p) \\approx 6.63 \\times 10^{-34}$, so $\\Delta p \\approx 9.2 \\times 10^{-26}\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\nThe uncertainty in position is the slit width, which lies along the $y$-direction, so the uncertainty in momentum is also in the $y$-direction. This sideways spread in momentum is what spreads the electrons out into a diffraction pattern.",
+      "perOption": {
+        "A": "Wrong magnitude (a powers-of-ten slip with the nm) and wrong direction: the slit width is along $y$, not $x$.",
+        "B": "Right direction, but the magnitude comes from a powers-of-ten slip when converting 7.2 nm.",
+        "C": "Right magnitude, but the position uncertainty (slit width) is along $y$, so $\\Delta p$ is along $y$, not along the beam.",
+        "D": "Correct. $\\Delta p \\approx h/\\Delta y$, perpendicular to the beam."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": ["quantum-physics.h"],
+    "primaryType": "application",
+    "types": ["application", "quantitative", "conceptual"],
+    "difficulty": 3,
+    "difficultyReason": "The calculation is one line, but students must recognise that the momentum uncertainty is along the slit width, perpendicular to the beam.",
+    "misconception": "Momentum uncertainty is along the direction of travel",
+    "transcription": "When an electron beam passes through a slit, a diffraction pattern is observed on a suitable screen. This phenomenon can be explained using Heisenberg position-momentum uncertainty principle.\n\n[Diagram: an electron beam travels in the $x$-direction (to the right) through a slit of width 7.2 nm; the slit width is measured along the $y$-direction (vertical). Axes show $y$ up and $x$ to the right. A screen on the right is labelled 'screen where diffraction pattern is observed'.]\n\nThe slit width is 7.2 nm.\n\nFor an electron passing through the slit, what is the uncertainty in the momentum of the electron and its direction that best relates to the phenomenon?\n\n| | uncertainty in momentum / kg m s$^{-1}$ | direction |\n|---|---|---|\n| A | $9.2 \\times 10^{-35}$ | $x$ |\n| B | $9.2 \\times 10^{-35}$ | $y$ |\n| C | $9.2 \\times 10^{-26}$ | $x$ |\n| D | $9.2 \\times 10^{-26}$ | $y$ |"
+  },
+  {
+    "id": "tmjc-2025-other-p1-q29",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most α-particles pass through undeflected or with only small deflections, so the chance of an α-particle getting close to the positive charge is small: the atom is mostly empty space.\n\nA small fraction (<1%) are deflected through large angles, and a few bounce back close to 180°. Such large deflections need a large force, so all the positive charge must be concentrated in a nucleus that is tiny compared with the atom.\n\nHence the nucleus is small and very massive.",
+      "perOption": {
+        "A": "Electrons are far too light to deflect a massive α-particle through large angles.",
+        "B": "Diffraction by the lattice would give a regular pattern, not rare large-angle scattering; the effect is due to Coulomb repulsion by nuclei.",
+        "C": "Correct. A small, massive, positive nucleus explains both observations.",
+        "D": "Fission is not involved; the α-particles are simply scattered."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": ["nuclear-physics.a"],
+    "primaryType": "recall",
+    "types": ["recall", "conceptual"],
+    "difficulty": 1,
+    "difficultyReason": "Direct recall of the conclusion of Rutherford's scattering experiment.",
+    "misconception": null,
+    "transcription": "It is observed that α-particles incident on a thin gold foil are mostly undeflected, while a small proportion of them are deflected at very large angles.\n\nWhich statement provides the explanation for these observations?\n\nA The α-particles are scattered by electrons.\nB The α-particles are diffracted by the crystal lattice.\nC The α-particles collide with small but massive nuclei.\nD The α-particles undergo nuclear fission."
+  },
+  {
+    "id": "tmjc-2025-other-p1-q30",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Typical stopping materials: α is stopped by about $10^{-2}$ mm of aluminium or a few cm of air; β by about 5 mm of aluminium; γ by about 100 mm of lead.\n\nThe 0.1 mm aluminium sheet halves the count rate, so α radiation must be present and is blocked by the sheet.\n\nThe 7 mm aluminium sheet has no further effect, so β radiation is absent.\n\nThe 10 cm of lead reduces the count rate to nearly zero, so γ radiation must be present.",
+      "perOption": {
+        "A": "With α only, the 0.1 mm aluminium would stop everything; 500 counts per second still get through until the lead.",
+        "B": "β would be stopped by 7 mm of aluminium, but the count rate is unchanged from 0.1 mm to 7 mm.",
+        "C": "β would be stopped by the 7 mm sheet, and something must be stopped by 0.1 mm of aluminium (only α is).",
+        "D": "Correct. α is stopped by thin aluminium; γ passes through aluminium and is stopped by thick lead."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": ["nuclear-physics.g"],
+    "primaryType": "graph",
+    "types": ["graph", "conceptual"],
+    "difficulty": 2,
+    "difficultyReason": "Requires interpreting count-rate data against known penetrating powers, a standard exercise.",
+    "misconception": "Thinking a few mm of aluminium does not stop β",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A: Bukit Timah Hill is about 160 m high, so $E_p = mgh = (60)(9.81)(160) = 94\\ \\mathrm{kJ}$, close to 100 kJ.\n\nB: A classroom is about $7 \\times 8 \\times 3 = 147\\ \\mathrm{m^3}$, close to 150 m³.\n\nC: 100 g for an apple is reasonable.\n\nD: 300 K is only 27 °C, which is unrealistic for the temperature of a fire.",
+      "perOption": {
+        "A": "Realistic: $mgh = (60)(9.81)(160) \\approx 94$ kJ.",
+        "B": "Realistic: a $7 \\times 8 \\times 3$ m room holds about 147 m³ of air.",
+        "C": "Realistic: an apple has a mass of about 100 g.",
+        "D": "Correct. 300 K is about room temperature (27 °C), far too low for fire."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": ["quantities-and-measurement.e"],
+    "primaryType": "recall",
+    "types": ["recall", "application"],
+    "difficulty": 1,
+    "difficultyReason": "Simple order-of-magnitude estimates; converting 300 K to 27 °C makes D obvious.",
+    "misconception": null,
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q2",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Displacement = area under the v–t graph, with area below the time axis counted as negative: $\\frac{1}{2}(2+10)(20) - \\frac{1}{2}(10)(4) = 120 - 20 = 100\\ \\mathrm{m}$.\n\nAverage velocity $= \\dfrac{100}{14} = 7.1\\ \\mathrm{m\\,s^{-1}}$.\n\nDistance is a scalar, so both areas count as positive: $120 + 20 = 140\\ \\mathrm{m}$.\n\nAverage speed $= \\dfrac{140}{14} = 10\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the displacement (100 m) for both quantities; speed must use total distance.",
+        "B": "Swaps the two: speed uses distance (140 m), velocity uses displacement (100 m).",
+        "C": "Correct. Speed $= 140/14$, velocity $= 100/14$.",
+        "D": "Uses total distance for both; the area below the axis must be subtracted for displacement."
+      }
+    },
+    "issues": "Key's second line is labelled 'Average velocity = displacement/time = 140/14'; it should read 'Average speed = distance/time'. Rewritten correctly.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": ["motion-and-forces.a", "motion-and-forces.c"],
+    "primaryType": "graph",
+    "types": ["graph", "quantitative"],
+    "difficulty": 2,
+    "difficultyReason": "Requires area under a v–t graph with a negative region and distinguishing distance from displacement.",
+    "misconception": "Treating area below the time axis as positive displacement",
+    "transcription": "The velocity-time graph of a particle moving in a straight line is shown in Fig. 2:\n\n[Fig. 2: v / m s$^{-1}$ against t / s. Velocity rises linearly from 0 at t = 0 (passing 10 at t = 2 s) to 20 at t = 4 s, stays at 20 until t = 6 s, falls linearly to 0 at t = 10 s, continues to −10 at t = 12 s, then rises back to 0 at t = 14 s.]\n\nWhat are the average speed and velocity of the particle between time t = 0 and t = 14 s?\n\n| | Average speed / m s$^{-1}$ | Average velocity / m s$^{-1}$ |\n|---|---|---|\n| A | 7.1 | 7.1 |\n| B | 7.1 | 10 |\n| C | 10 | 7.1 |\n| D | 10 | 10 |"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q3",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resultant force is $2.1 - 1.2 = 0.9\\ \\mathrm{N}$ upwards, since the upward force is larger.\n\nIf the object moves up, in the same direction as the resultant force, it accelerates (so B is true and C is wrong).\n\nIf the object moves down, opposite to the resultant force, it decelerates (so D is true).",
+      "perOption": {
+        "A": "True: $2.1 - 1.2 = 0.9$ N.",
+        "B": "True: moving up along the upward resultant force means speeding up.",
+        "C": "Correct (this is the wrong statement). Moving up with an upward resultant force means accelerating, not decelerating.",
+        "D": "True: moving down against the upward resultant force means slowing down."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": ["motion-and-forces.h", "motion-and-forces.i"],
+    "primaryType": "conceptual",
+    "types": ["conceptual", "diagram"],
+    "difficulty": 2,
+    "difficultyReason": "Requires realising the force fixes the acceleration direction but not the direction of motion.",
+    "misconception": "The direction of motion must be the direction of the resultant force",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q4",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Upthrust equals the weight of water displaced by the cube. The cube's external volume does not change, so the upthrust does not change.\n\nFor the cube in equilibrium, tension + upthrust = weight, so the balance reading (tension) = weight − upthrust; it is not the upthrust itself.\n\nAs water fills the empty space, the weight of the cube (with its contents) increases while the upthrust stays the same, so the balance reading increases.",
+      "perOption": {
+        "A": "Upthrust depends on the volume displaced, which is unchanged, so upthrust does not increase.",
+        "B": "The reading is the tension, equal to weight − upthrust, not the upthrust.",
+        "C": "Upthrust does not change, so the extra weight of water is not offset and the reading rises.",
+        "D": "Correct. The weight increases while the upthrust is unchanged."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": ["forces-and-moments.b"],
+    "primaryType": "conceptual",
+    "types": ["conceptual", "application"],
+    "difficulty": 2,
+    "difficultyReason": "Needs the idea that upthrust depends only on the displaced volume, not on what is inside the cube.",
+    "misconception": "Water entering the cube increases the upthrust",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q5",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top there is only gravitational potential energy, so elastic PE and KE are both 0.\n\nAt the bottom all the GPE has been converted to elastic PE and the jumper is momentarily at rest, so KE = 0 (B is wrong).\n\nAt the middle the GPE lost is converted into both elastic PE and KE; the jumper is still moving, so KE cannot be 0 (D is wrong).\n\nThe total energy stays constant at 120 kJ (C is wrong, as its middle row adds to 150 kJ). Only A fits.",
+      "perOption": {
+        "A": "Correct. Total is 120 kJ at every point, KE is 0 at the top and bottom, and non-zero in the middle.",
+        "B": "At the bottom the jumper is momentarily at rest, so KE must be 0 and all 120 kJ is elastic PE.",
+        "C": "The middle row totals 60 + 30 + 60 = 150 kJ, breaking conservation of energy.",
+        "D": "The jumper is still moving at the middle, so KE cannot be 0."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": ["energy-and-fields.b", "energy-and-fields.j"],
+    "primaryType": "conceptual",
+    "types": ["conceptual", "application"],
+    "difficulty": 2,
+    "difficultyReason": "Requires checking conservation of total energy and the zero-KE condition at the lowest point.",
+    "misconception": "Maximum speed occurs at the lowest point",
+    "transcription": "Which row in the table gives the gravitational potential energy, the elastic potential energy and the kinetic energy of a bungee jumper during the first fall? Air resistance is negligible.\n\n| | | gravitational potential energy / kJ | elastic potential energy / kJ | kinetic energy / kJ |\n|---|---|---|---|---|\n| A | top | 120 | 0 | 0 |\n| | middle | 60 | 10 | 50 |\n| | bottom | 0 | 120 | 0 |\n| B | top | 120 | 0 | 0 |\n| | middle | 60 | 30 | 30 |\n| | bottom | 0 | 60 | 60 |\n| C | top | 120 | 0 | 0 |\n| | middle | 60 | 30 | 60 |\n| | bottom | 0 | 120 | 0 |\n| D | top | 120 | 0 | 0 |\n| | middle | 60 | 60 | 0 |\n| | bottom | 0 | 120 | 0 |"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q6",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Power needed = power with no passengers + power to lift 20 passengers of average mass 60 kg.\n\n$P = P_{\\text{escalator}} + Fv = P_{\\text{escalator}} + (mg\\sin\\theta)v$, where $\\sin\\theta = \\frac{30}{60}$.\n\n$P = 2.0 \\times 10^{3} + 20(60)(9.81)\\left(\\frac{30}{60}\\right)(0.75) = 6414\\ \\mathrm{W} \\approx 6.4\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Leaves out the 2.0 kW needed to overcome friction (gives only 4.4 kW for the passengers).",
+        "B": "Correct. 2.0 kW + 4.4 kW for lifting the passengers.",
+        "C": "Uses the full weight times the speed along the slope, missing the factor $\\sin\\theta$, and also leaves out friction.",
+        "D": "Misses the factor $\\sin\\theta = 30/60$, using $mgv$ instead of $mgv\\sin\\theta$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": ["energy-and-fields.l", "energy-and-fields.m"],
+    "primaryType": "multi-step",
+    "types": ["multi-step", "application"],
+    "difficulty": 3,
+    "difficultyReason": "Requires resolving weight along the incline, using $P = Fv$, and adding the constant friction power.",
+    "misconception": "Using the full weight rather than its component along the slope",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q7",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The number of revolutions per second, $f$, is constant for every point on the turntable.\n\nSo the angular velocity $\\omega = 2\\pi f$ is the same constant for all points, independent of their distance from the centre.",
+      "perOption": {
+        "A": "Confuses angular velocity with linear speed $v = r\\omega$, which is proportional to distance.",
+        "B": "All points complete a revolution in the same time, so $\\omega$ cannot depend on $r$.",
+        "C": "No quantity of uniform rotation gives $\\omega \\propto r^2$; $\\omega = 2\\pi f$ is fixed.",
+        "D": "Correct. $\\omega = 2\\pi f$ is the same for every point."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": ["circular-motion.b"],
+    "primaryType": "conceptual",
+    "types": ["conceptual", "recall"],
+    "difficulty": 1,
+    "difficultyReason": "Direct application of $\\omega = 2\\pi f$ for a rigid rotating body.",
+    "misconception": "Confusing angular velocity with linear speed",
+    "transcription": "A turntable is rotating at a constant number of revolutions per second. What is the relationship between the angular velocity of a point on the turntable and the distance of the point from the centre of the turntable?\n\nA Angular velocity is directly proportional to the distance.\nB Angular velocity is inversely proportional to the distance.\nC Angular velocity is directly proportional to the distance squared.\nD Angular velocity is independent of distance."
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q8",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the first satellite, gravity provides the centripetal force: $\\dfrac{GM_E M}{r^2} = Mr\\omega^2 = Mr\\left(\\dfrac{2\\pi}{T}\\right)^2$, so $T = 2\\pi\\sqrt{\\dfrac{r^3}{GM_E}}$.\n\nThe satellite's mass cancels, so for the second satellite $T' = 2\\pi\\sqrt{\\dfrac{(4r)^3}{GM_E}} = 8T$.",
+      "perOption": {
+        "A": "Wrongly assumes the period decreases with radius; $T$ increases as $r^{3/2}$.",
+        "B": "Uses $T \\propto r^{1/2}$ instead of $T \\propto r^{3/2}$.",
+        "C": "Uses $T \\propto r$ instead of $T \\propto r^{3/2}$.",
+        "D": "Correct. $T \\propto r^{3/2}$, independent of satellite mass: $4^{3/2} = 8$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": ["circular-motion"],
+    "outcomes": ["gravitational-fields.j"],
+    "primaryType": "proportionality",
+    "types": ["proportionality"],
+    "difficulty": 2,
+    "difficultyReason": "Standard Kepler's third law ratio with an irrelevant change in satellite mass as a distractor.",
+    "misconception": "Orbital period depends on the satellite's mass",
+    "transcription": "A satellite of mass $M$ is in circular orbit with radius $r$ around the Earth with a period of $T$. A second satellite of mass $2M$ moves around the Earth with radius $4r$. What is the period of this second satellite in terms of $T$?\n\nA $\\frac{T}{4}$\nB $2T$\nC $4T$\nD $8T$"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $pV = NkT$ with $T = 27 + 273.15$ K:\n\n$(1 \\times 10^{5})(1) = N(1.38 \\times 10^{-23})(27 + 273.15)$\n\n$N = 2.41 \\times 10^{25} \\approx 2 \\times 10^{25}$.",
+      "perOption": {
+        "A": "Far too small; does not follow from $N = pV/kT$.",
+        "B": "This is the Avogadro constant (one mole), but 1 m³ of gas at these conditions holds about 40 mol.",
+        "C": "Correct. $N = pV/kT = 2.4 \\times 10^{25}$.",
+        "D": "Uses 27 instead of 300 K, forgetting to convert °C to kelvin."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": ["temperature-and-ideal-gases.b", "temperature-and-ideal-gases.c"],
+    "primaryType": "quantitative",
+    "types": ["quantitative"],
+    "difficulty": 1,
+    "difficultyReason": "Single substitution into $pV = NkT$ with a temperature conversion.",
+    "misconception": "Using temperature in °C in the ideal gas equation",
+    "transcription": "What is the approximate number of atoms in a cubic metre of an ideal monatomic gas at the temperature of 27 °C and a pressure of $1 \\times 10^{5}$ Pa?\n\nA $1 \\times 10^{22}$\nB $6 \\times 10^{23}$\nC $2 \\times 10^{25}$\nD $3 \\times 10^{26}$"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q10",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV = NkT$: the volume stays the same and the pressure doubles, so the temperature also doubles.\n\nInitial: $\\frac{1}{2}m\\langle c^2 \\rangle = \\frac{3}{2}kT$. Final: $\\frac{1}{2}m\\langle c_f^2 \\rangle = \\frac{3}{2}k(2T)$.\n\nSo $\\sqrt{\\langle c_f^2 \\rangle} = \\sqrt{2}\\sqrt{\\langle c^2 \\rangle} = 1.4c$.",
+      "perOption": {
+        "A": "Halves the speed; the temperature increases, so the r.m.s. speed must increase.",
+        "B": "Uses $1/\\sqrt{2}$, wrongly assuming the temperature halves.",
+        "C": "Correct. $T$ doubles, so $c_{\\text{rms}}$ increases by $\\sqrt{2}$.",
+        "D": "Forgets the square root: $\\langle c^2 \\rangle$ doubles, not $c_{\\text{rms}}$."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": ["temperature-and-ideal-gases.c", "temperature-and-ideal-gases.g"],
+    "primaryType": "proportionality",
+    "types": ["proportionality", "multi-step"],
+    "difficulty": 2,
+    "difficultyReason": "Combines $pV = NkT$ with $\\frac{1}{2}m\\langle c^2 \\rangle = \\frac{3}{2}kT$ and a square-root scaling.",
+    "misconception": "The r.m.s. speed is proportional to temperature",
+    "transcription": null
+  }
+]

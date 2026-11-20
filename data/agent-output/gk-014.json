@@ -1,0 +1,513 @@
+[
+  {
+    "id": "asrjc-2024-prelim-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the non-relativistic model, the gain in kinetic energy is $e\\Delta V=p^2/(2m)$, so $p=\\sqrt{2me\\Delta V}$. The de Broglie wavelength is $\\lambda=h/p=h/\\sqrt{2me\\Delta V}$. Both electrons have the same mass and charge magnitude, so $\\lambda_0/\\lambda_1=\\sqrt{100/1}=10$.",
+      "perOption": {
+        "A": "Inverts the wavelength ratio.",
+        "B": "Treats the two momenta as equal despite the different accelerating voltages.",
+        "C": "Correct. The ratio is the square root of the inverse voltage ratio.",
+        "D": "Uses the voltage ratio directly and misses the square root."
+      }
+    },
+    "issues": "The key uses non-relativistic momentum. Relativistic momentum gives a ratio of about 10.5, so C remains the closest choice.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "quantum-physics.e",
+      "currents.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect the accelerating voltage to momentum before taking the wavelength ratio.",
+    "misconception": "Treating wavelength as inversely proportional to voltage",
+    "transcription": "$\\lambda_0$ is the de Broglie wavelength of an electron accelerated from rest through a potential difference of $1\\ \\mathrm{kV}$.\n\n$\\lambda_1$ is the de Broglie wavelength of another electron accelerated from rest through a potential difference of $100\\ \\mathrm{kV}$.\n\nWhat is the value of the ratio $\\frac{\\lambda_0}{\\lambda_1}$?\n\nA 0.1\nB 1\nC 10\nD 100"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The combined rest mass of the proton and neutron exceeds that of the deuteron, so the reaction needs an energy input. The mass difference is $(1.0086+1.0097-2.0150)\\ \\mathrm{u}=0.0033\\ \\mathrm{u}$. Using $E=\\Delta mc^2$ gives about $3.07\\ \\mathrm{MeV}$, rounded to $3\\ \\mathrm{MeV}$ in the key.",
+      "perOption": {
+        "A": "Photon emission takes energy away from a reaction that requires energy input.",
+        "B": "Even a 3 MeV emitted photon would carry energy away from the breakup.",
+        "C": "A 2 MeV photon supplies less than the binding energy.",
+        "D": "Correct under the key’s rounding to whole MeV."
+      }
+    },
+    "issues": "The key rounds 3.07 MeV to 3 MeV and omits the eV-to-MeV conversion factor in its printed expression. Taken literally with the supplied masses, a 3 MeV photon is below threshold and no option is physically valid. D is the intended rounded choice.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.q",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare rest masses and convert the mass difference to an energy threshold.",
+    "misconception": "Confusing binding energy with energy released during breakup",
+    "transcription": "The rest-masses of deuteron ${}^{2}_{1}\\mathrm{H}$, proton and neutron are $2.0150\\ \\mathrm{u}$, $1.0086\\ \\mathrm{u}$ and $1.0097\\ \\mathrm{u}$ respectively. Which one of the following reactions takes place so that the deuteron may disintegrate to a proton and neutron?\n\nA Releasing a photon of energy $2\\ \\mathrm{MeV}$.\nB Releasing a photon of energy $3\\ \\mathrm{MeV}$.\nC Capturing a photon of energy $2\\ \\mathrm{MeV}$.\nD Capturing a photon of energy $3\\ \\mathrm{MeV}$."
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Alpha decay decreases the proton number by 2, beta-minus decay increases it by 1, and gamma emission leaves it unchanged. One alpha emission followed by two beta-minus emissions gives a net change of $-2+1+1=0$.",
+      "perOption": {
+        "A": "Two alpha emissions and one beta-minus emission give a net change of −3.",
+        "B": "Correct. The changes cancel.",
+        "C": "One alpha and one beta-minus emission give a net change of −1, and gamma emission leaves it unchanged.",
+        "D": "Two beta-minus emissions raise the proton number by 2, and gamma emission leaves it unchanged."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must add the proton-number changes associated with successive emissions.",
+    "misconception": "Reversing the proton-number change in beta-minus decay",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A typical small car has a mass of about $1500\\ \\mathrm{kg}$. Its kinetic energy is $\\frac12(1500)(30)^2\\approx0.68\\times10^6\\ \\mathrm{J}$, so $10^6\\ \\mathrm{J}$ is the closest estimate.",
+      "perOption": {
+        "A": "This energy at the stated speed would require a mass below 1 kg.",
+        "B": "This energy corresponds to a mass of only about 22 kg.",
+        "C": "Correct. It is the closest estimate.",
+        "D": "This energy would require a mass of about 220 tonnes."
+      }
+    },
+    "issues": "The key calls the change from 0.68 × 10⁶ J to 1 × 10⁶ J rounding to one significant figure. It is a choice of the closest listed power of ten.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student needs a plausible car mass and one substitution into the kinetic-energy formula.",
+    "misconception": "Using an implausible car mass",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a fixed resistor, $V/I=R$ is constant, so the expected $I$–$V$ line passes through the origin. The nonzero current intercept indicates a systematic error. All the points lie on the best-fit line, so there is no visible random scatter.",
+      "perOption": {
+        "A": "Random error would produce scatter about the line and does not explain the consistent offset.",
+        "B": "Correct. The data show a systematic offset.",
+        "C": "The offset is systematic, and the points show no visible scatter.",
+        "D": "The nonzero intercept indicates a systematic error."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish a consistent offset from scatter about a straight line.",
+    "misconception": "Confusing a nonzero intercept with random scatter",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $s=ut+\\tfrac12at^2$ with $u=0$ and constant $a$, so $s\\propto t^2$. If $x$ is the distance fallen in $0.50T$, then $x/L=(0.50T)^2/T^2=0.25$, giving $x=0.25L$.",
+      "perOption": {
+        "A": "Keeps an extra factor of one-half when taking the ratio, although that factor cancels.",
+        "B": "Correct. Halving the time quarters the distance.",
+        "C": "The distance is fixed by the squared time ratio, which gives $0.25L$.",
+        "D": "Assumes constant speed and takes the distance to be proportional to time."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the square of the time ratio for free fall from rest.",
+    "misconception": "Assuming distance is proportional to time",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The horizontal section shows that the stone reaches terminal velocity in water. The area under the graph in air is larger than the area in water, so the stone travels farther in air. The gradient in air decreases with time, so the acceleration in air also decreases.",
+      "perOption": {
+        "A": "The air section still has a positive slope at water entry.",
+        "B": "The area under the water section is smaller than the area under the air section.",
+        "C": "Correct. The slope decreases during the fall through air.",
+        "D": "A constant rate of change would give a straight line in air."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the air and water sections and interpret both their slopes and areas.",
+    "misconception": "Confusing height or duration with area on a velocity–time graph",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A Newton’s third-law pair consists of forces of the same type that act in opposite directions on different bodies. $P$ is the upward contact force of Earth on the box, and $R$ is the downward contact force of the box on Earth.",
+      "perOption": {
+        "A": "Both act on the box, and one is a contact force while the other is gravitational.",
+        "B": "Both point upward and come from different interactions.",
+        "C": "Correct. They are the mutual contact forces.",
+        "D": "Pairs a contact force with a gravitational force."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the interaction and the body on which each force acts.",
+    "misconception": "Pairing forces that balance on the same object",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mass flow rate is $90\\ \\mathrm{kg\\,min^{-1}}=1.5\\ \\mathrm{kg\\,s^{-1}}$. The horizontal rate of momentum transfer is $F=v\\,\\Delta m/\\Delta t=20(1.5)=30\\ \\mathrm{N}$. The person applies this force in the direction of the jet to balance the backward reaction.",
+      "perOption": {
+        "A": "Correct. The jet carries away momentum at a rate of 30 N.",
+        "B": "A force of 270 N would require a mass flow of 13.5 kg per second at the stated jet speed.",
+        "C": "Uses 90 kg per minute as though it were 90 kg per second.",
+        "D": "A force of 10,800 N would require using 540 kg per second, 360 times the actual mass flow."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert the flow rate and use the rate of change of momentum as a force.",
+    "misconception": "Using mass per minute as mass per second",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rod is in equilibrium, so $\\sum\\tau=0$ about $O$. The triangle has equal sides $PO$ and the rod, both $2L$, so the rod is at $60^\\circ$ to the horizontal. Taking moments about $O$ gives $T(2L\\sin30^\\circ)=20g(\\frac{L}{2}\\cos60^\\circ)+30g(\\frac{3L}{2}\\cos60^\\circ)$. Hence $T=269.78\\ \\mathrm{N}\\approx270\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Underestimates the combined moment, giving a value close to the moment of B alone with its weight placed at the junction.",
+        "B": "Using the junction as the point of action of B’s weight shortens its moment arm and gives about 196 N.",
+        "C": "Omitting the moment from A gives about 221 N, close to this choice.",
+        "D": "Correct. Both weights contribute to the moment about the pivot."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the rod angle and find three perpendicular moment arms before balancing torques.",
+    "misconception": "Using along-rod distances as perpendicular moment arms",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key estimates the work done stretching the band as $\\tfrac12(0.5)(35)\\approx9\\ \\mathrm{J}$ and the energy recovered as $\\tfrac12(0.6)(20)=6\\ \\mathrm{J}$. The net work in one cycle is about $9-6=3\\ \\mathrm{J}$. Counting about six squares between the curves also gives $(5\\times0.1)\\times6=3\\ \\mathrm{J}$, the quantity the key calls the energy remaining.",
+      "perOption": {
+        "A": "The unloading area gives about 6 J of recovered energy.",
+        "B": "Correct in the key’s intended sense of net work over the cycle.",
+        "C": "Net work is the loading area minus the unloading area, about 3 J.",
+        "D": "The loading area gives about 9 J of work during stretching."
+      }
+    },
+    "issues": "The loop area is about 3 J of net mechanical work dissipated by hysteresis. The graph cannot establish how much of that energy remains in the rubber band as internal energy after unloading. B is intended, but its literal claim is unsupported and no other option fits.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must estimate the areas under both curves and take their difference.",
+    "misconception": "Treating energy lost in hysteresis as recoverable elastic energy",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A constant force gives a constant acceleration $a$. Since the body starts from rest, $v=u+at=at$. Thus $P=Fv=Fat$, so power increases linearly from zero.",
+      "perOption": {
+        "A": "Assumes constant force gives constant power even while speed increases.",
+        "B": "Correct. Power increases linearly from zero.",
+        "C": "The increasing slope would require an increasing acceleration with constant force.",
+        "D": "The decreasing slope would require a decreasing acceleration with constant force."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.e",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine constant acceleration from rest with the expression for instantaneous power.",
+    "misconception": "Assuming constant force gives constant power",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top of the path, the vertical component is the centripetal acceleration and points down toward the centre. The horizontal component points to the right, along the velocity, because the drone is speeding up. The resultant therefore points down and to the right.",
+      "perOption": {
+        "A": "Shows only the centripetal component, so the speed is instantaneously constant.",
+        "B": "The leftward component is opposite the velocity and would slow the drone down.",
+        "C": "Shows only tangential acceleration and omits the inward component needed to turn.",
+        "D": "Correct. Both inward and forward components are shown."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine inward acceleration with acceleration along the direction of motion.",
+    "misconception": "Assuming acceleration in circular motion is always entirely centripetal",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "On P, $g_P=W_P/m=1.0/1.0=1.0\\ \\mathrm{m\\,s^{-2}}$. On Q, $g_Q=10g_P=10\\ \\mathrm{m\\,s^{-2}}$ and the mass is still $1.0\\ \\mathrm{kg}$. The weight on Q is therefore $W_Q=1.0(10)=10\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Reverses the field-strength ratio and divides the weight by ten.",
+        "B": "Correct. The same mass weighs 10 N in the stronger field.",
+        "C": "Scales up the mass even though the weight is correctly estimated.",
+        "D": "Scales up both the mass and field strength, applying the same factor twice."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student must keep mass fixed and multiply weight by the field-strength ratio.",
+    "misconception": "Treating mass as dependent on local gravity",
+    "transcription": "The gravitational field strength on the surface of planet P is one tenth of that on the surface of planet Q.\n\nOn the surface of P, a body has a mass of $1.0\\ \\mathrm{kg}$ and a weight of $1.0\\ \\mathrm{N}$.\n\nWhat are the mass and weight of the same body on the surface of planet Q?\n\n|   | mass on Q / kg | weight on Q / N |\n|---|---:|---:|\n| A | 1.0 | 0.1 |\n| B | 1.0 | 10 |\n| C | 10 | 10 |\n| D | 10 | 100 |"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From kinetic theory, $P=\\frac13(Nm/V)\\langle c^2\\rangle=\\frac13\\rho\\langle c^2\\rangle$. Substitution gives $1.0\\times10^5=\\frac13(1.2)\\langle c^2\\rangle$. Therefore $\\sqrt{\\langle c^2\\rangle}=500\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Using $3/2$ in place of the factor 3 when solving for mean square speed gives about this value.",
+        "B": "Correct. This is the square root of $3P/\rho$.",
+        "C": "A speed of 3700 m/s would imply a pressure far above the one given.",
+        "D": "Reports the mean square speed and omits the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must replace mass per volume with density and take the square root after rearranging.",
+    "misconception": "Confusing mean square speed with root-mean-square speed",
+    "transcription": "The density of an ideal gas is $1.2\\ \\mathrm{kg\\,m^{-3}}$ at a pressure of $1.0\\times10^5\\ \\mathrm{Pa}$.\n\nWhat is the root-mean-square (r.m.s.) speed of the molecules of the gas?\n\nA $350\\ \\mathrm{m\\,s^{-1}}$\nB $500\\ \\mathrm{m\\,s^{-1}}$\nC $3700\\ \\mathrm{m\\,s^{-1}}$\nD $2.50\\times10^5\\ \\mathrm{m\\,s^{-1}}$"
+  }
+]

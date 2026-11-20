@@ -1,0 +1,487 @@
+[
+ {
+  "id": "tmjc-2024-other-p1-q11",
+  "keyPage": 20,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Taking displacement to the right as positive: molecules with positive displacement have moved right, those with negative displacement have moved left.\n\nJust to the left of C (around B) the displacement is negative, so molecules move to the left; just to the right of C the displacement is positive, so molecules move to the right. Molecules move away from C on both sides, so C is the centre of a rarefaction.\n\nHence C has the minimum pressure.",
+   "perOption": {
+    "A": "At A, molecules on the left are displaced right and those on the right are displaced left, so A is a compression (maximum pressure).",
+    "B": "B has maximum displacement but zero displacement gradient, so the pressure there is at its normal (undisturbed) value.",
+    "C": "Correct. Molecules on both sides are displaced away from C, giving a rarefaction.",
+    "D": "D has maximum displacement but the pressure there is at its undisturbed value, not a minimum."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires converting a displacement–distance graph of a longitudinal wave into compressions and rarefactions, which many students find unintuitive.",
+  "misconception": "Thinking pressure is extreme where displacement is maximum",
+  "transcription": "A sound wave travelling towards the right through air causes the air molecules to be displaced from their original positions. The graph below shows the variation with distance of the displacement of air molecules at a particular instant of time.\n\n[Graph of displacement against distance: a sinusoid starting at the origin, rising to a crest, falling through zero at A, reaching a trough at B, rising through zero at C, reaching a crest at D, then falling to another trough.]\n\nTaking the displacement towards the right as positive, at which point is the pressure minimum?\n\nA  A\nB  B\nC  C\nD  D"
+ },
+ {
+  "id": "tmjc-2024-other-p1-q12",
+  "keyPage": 20,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Since $I \\propto A^2$: $\\dfrac{I_1}{I_2} = \\dfrac{A_1^2}{A_2^2} \\Rightarrow \\sqrt{\\dfrac{0.36}{0.25}} = \\dfrac{A_1}{A_2} \\Rightarrow A_1 = 1.2A_2$.\n\nAt P (a minimum) the waves arrive in antiphase, so the resultant amplitude is $A_P = 1.2A_2 - A_2 = 0.2A_2$.\n\n$\\dfrac{I_P}{0.25I} = \\dfrac{(0.2A_2)^2}{A_2^2} = 0.040 \\Rightarrow I_P = 0.010I$.\n\nEquivalently, $A_P = 0.6A - 0.5A = 0.1A$, so $I_P = 0.010I$.",
+   "perOption": {
+    "A": "Zero only if the two waves had equal amplitudes; here the amplitudes differ.",
+    "B": "Correct. Amplitudes subtract: $(0.6-0.5)^2 I = 0.010I$.",
+    "C": "Subtracts the intensities ($0.36I - 0.25I$) instead of the amplitudes.",
+    "D": "Does not come from subtracting amplitudes and squaring; intensities cannot be combined linearly."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "superposition.a",
+   "wave-motion.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the intensity–amplitude relation and the realisation that amplitudes, not intensities, subtract at a minimum.",
+  "misconception": "Subtracting intensities instead of amplitudes",
+  "transcription": "$S_1$ and $S_2$ are two wave generators producing waves of intensity $0.36I$ and $0.25I$ respectively at P. A resultant intensity minima occurs at P as shown in the diagram below.\n\n[Diagram: two sources $S_1$ (upper) and $S_2$ (lower) on the left, with straight lines drawn from each to a point P at the upper right.]\n\nWhat is the resultant intensity at point P in terms of $I$?\n\nA  zero\nB  $0.010I$\nC  $0.11I$\nD  $0.31I$"
+ },
+ {
+  "id": "tmjc-2024-other-p1-q13",
+  "keyPage": 20,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Points in alternate segments (loops) of a standing wave are in antiphase, with a phase difference of $\\pi$, while points in the same segment, or in segments two apart, are in phase.\n\nX is in the first segment, so the point in the adjacent (second) segment, B, has a phase difference of $\\pi$ with X.",
+   "perOption": {
+    "A": "A is in the same segment as X, so it oscillates in phase with X.",
+    "B": "Correct. B is in the adjacent segment, so it is in antiphase with X.",
+    "C": "C is two segments away from X, so it is in phase with X.",
+    "D": "D is two segments away from X, so it is in phase with X."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.c"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct application of the rule for phase in a standing wave, read from the diagram.",
+  "misconception": "Using distance along the string to work out phase as for a progressive wave",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2024-other-p1-q14",
+  "keyPage": 20,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Since the container is sealed and rigid, the volume and the number of molecules stay constant. Hence the average distance between the gas molecules does not change.\n\nHeating raises the temperature, so the molecules move faster and hit the walls harder and more often.",
+   "perOption": {
+    "A": "Heating raises the temperature, so the mean kinetic energy and hence the average speed increase.",
+    "B": "Correct. Fixed volume and fixed number of molecules means fixed average separation.",
+    "C": "Faster molecules undergo larger momentum changes at the wall, so the average force increases (the pressure rises).",
+    "D": "Faster molecules reach the walls more often, so the collision rate increases."
+   }
+  },
+  "issues": null,
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.f",
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Straightforward kinetic-theory reasoning about a constant-volume heating.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2024-other-p1-q15",
+  "keyPage": 20,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "From the first law of thermodynamics, $\\Delta U = Q + W$.\n\nWhen $Q$ is zero, the internal energy of the system can still increase if work is done on the system ($W$ positive). So internal energy can be increased without any transfer of heat.",
+   "perOption": {
+    "A": "Internal energy also depends on the amount of substance and its potential energy; temperature depends only on mean kinetic energy per molecule.",
+    "B": "During a change of state, internal energy rises (potential energy increases) while temperature stays constant.",
+    "C": "Internal energy is the sum of the random kinetic and potential energies of the molecules, not just the kinetic energies.",
+    "D": "Correct. Work done on the system raises $U$ with $Q = 0$."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.a",
+   "thermodynamic-systems.f"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "recall"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Tests standard definitions of internal energy and the first law.",
+  "misconception": "Internal energy depends only on temperature / heating is the only way to raise internal energy",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2024-other-p1-q16",
+  "keyPage": 21,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The liquid loses heat at the same rate while cooling and while freezing: $P_\\text{cooling} = P_\\text{freezing}$.\n\n$\\dfrac{mc\\Delta\\theta}{t} = \\dfrac{m l_f}{t_f}$\n\nWith $\\Delta\\theta / t = 1.5\\ \\mathrm{K\\ min^{-1}}$ and $t_f = 30\\ \\mathrm{min}$: $\\dfrac{c}{l_f} = \\dfrac{1}{1.5 \\times 30} = \\dfrac{1}{45}$.",
+   "perOption": {
+    "A": "Correct. $c/l_f = 1/(1.5 \times 30)$.",
+    "B": "Divides 30 by 1.5 instead of multiplying them.",
+    "C": "Gives $30/1.5$, inverting the ratio and dividing instead of multiplying.",
+    "D": "Gives $l_f/c$, the inverse of the required ratio."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "proportionality"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires the insight that the rate of heat loss is the same during cooling and freezing.",
+  "misconception": "Not equating the rates of heat loss before and during solidification",
+  "transcription": "A hot liquid initially cools at a rate of 1.5 K per minute until it reaches its freezing point. The temperature then remains constant for 30 min as all of the liquid solidifies.\n\nWhat is the ratio of the specific heat capacity of the liquid to its specific latent heat of fusion?\n\nA  $\\dfrac{1}{45}$\nB  $\\dfrac{1}{20}$\nC  20\nD  45"
+ },
+ {
+  "id": "tmjc-2024-other-p1-q17",
+  "keyPage": 21,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Y is the same distance from both charges, so the field strengths due to $+q$ and $-q$ have equal magnitude.\n\nThe field $E_A$ due to $+q$ at P points away from P (down and to the right), and the field $E_B$ due to $-q$ at Q points towards Q (down and to the left).\n\nTheir horizontal components cancel and their vertical components add, so the resultant field at Y is downwards.",
+   "perOption": {
+    "A": "Correct. Horizontal components cancel; both vertical components point down.",
+    "B": "Reverses the field directions: field points away from $+q$ and towards $-q$, which gives downward components.",
+    "C": "The horizontal components are equal and opposite and cancel, so there is no leftward resultant.",
+    "D": "Fields from opposite charges only cancel in magnitude horizontally; the vertical components add."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.b"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Vector addition of two symmetric fields from a clear diagram.",
+  "misconception": "Assuming fields from equal and opposite charges cancel at an equidistant point",
+  "transcription": "Two oppositely charged particles are fixed in positions P and Q as shown. Y is equidistant from P and Q.\n\n[Diagram: P with charge $+q$ at the top, Q with charge $-q$ directly below it (joined by a vertical dashed line), and Y to the right, joined to P and to Q by dashed lines of equal length, forming an isosceles triangle.]\n\nWhich one of the following options describes the resultant electric field strength at point Y?\n\nA  downwards\nB  upwards\nC  towards the left\nD  zero"
+ },
+ {
+  "id": "tmjc-2024-other-p1-q18",
+  "keyPage": 21,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The middle (vertical) resistor is redundant: by symmetry the potential is the same at both of its ends, so no current flows through it.\n\nHence $R_E = \\left(\\dfrac{1}{R+R} + \\dfrac{1}{R+R}\\right)^{-1} = R$.",
+   "perOption": {
+    "A": "Treats all the resistors as if they were in parallel paths incorrectly, or includes the middle resistor as carrying current.",
+    "B": "Correct. Two parallel paths of $2R$ each give $R$.",
+    "C": "Takes only one path of $2R$, ignoring the second parallel branch.",
+    "D": "Adds resistors in series that are actually in parallel."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.h",
+   "circuits.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard balanced-bridge network; spotting the redundant resistor is the only step.",
+  "misconception": "Assuming every resistor in a network carries current",
+  "transcription": "Five similar resistors each of resistance R are connected as shown below.\n\n[Circuit: from X a wire splits into an upper and a lower branch. Each branch has two resistors in series; the upper and lower midpoints are joined by a fifth, vertical resistor. The two branches rejoin and lead to Y.]\n\nWhat is the effective resistance across points X and Y?\n\nA  $\\dfrac{2R}{5}$\nB  R\nC  2R\nD  $\\dfrac{5R}{2}$"
+ },
+ {
+  "id": "tmjc-2024-other-p1-q19",
+  "keyPage": 21,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Between P and Q, the 20 Ω resistor is in parallel with the 8.0 Ω and 3.0 Ω in series:\n\n$R_{PQ} = \\left(\\dfrac{1}{20} + \\dfrac{1}{8 + 3}\\right)^{-1} = 7.10\\ \\Omega$\n\nThis combination is in series with the 10 Ω resistor across the 6.0 V battery, so by the potential divider:\n\n$V_{PQ} = \\dfrac{7.10}{7.10 + 10} \\times 6.0 = 2.5\\ \\mathrm{V}$",
+   "perOption": {
+    "A": "Gives the p.d. across only part of the parallel network, e.g. across the 8.0 Ω or 3.0 Ω resistor alone.",
+    "B": "Results from an incorrect combination of the resistances in the parallel network.",
+    "C": "Correct. Potential divider with $R_{PQ} = 7.10\\ \\Omega$ and 10 Ω.",
+    "D": "Uses the 20 Ω branch alone with the 10 Ω resistor ($\frac{20}{30} \times 6.0$), ignoring the parallel 11 Ω branch."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires redrawing the circuit to see the parallel combination before applying the potential divider.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2024-other-p1-q20",
+  "keyPage": 21,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "With bulb 3 in parallel with bulb 2, the p.d. across bulb 2 is a smaller fraction of the cell's e.m.f. than the p.d. across bulbs 1 and 4.\n\nWith bulb 3 removed, the resistance of that section increases, so the p.d. across bulb 2 increases while the p.d.s across bulbs 1 and 4 decrease correspondingly.\n\nWith fixed resistance, power dissipated increases as p.d. increases, so bulbs 1 and 4 become dimmer and bulb 2 becomes brighter.",
+   "perOption": {
+    "A": "Correct. Bulb 2 gets a larger share of the e.m.f.; bulbs 1 and 4 get less.",
+    "B": "Bulbs 1 and 4 are in series and carry the same current, so they must change in the same way.",
+    "C": "Reverses the effect: removing bulb 3 raises the resistance of the parallel section, increasing its share of the p.d.",
+    "D": "Bulbs 1 and 4 carry the same current and cannot change differently; bulb 2 actually gets brighter."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Qualitative reasoning about how removing a parallel branch redistributes p.d. in a series circuit.",
+  "misconception": "Thinking removing a bulb makes every remaining bulb brighter",
+  "transcription": "An ideal cell and four identical bulbs are connected as shown.\n\n[Circuit: an ideal cell in series with bulb 1, then a parallel pair of bulbs 2 and 3, then bulb 4, back to the cell.]\n\nBulb 3 is removed. Which of the following describes the changes in the brightness of bulbs 1, 2 and 4?\n\n| | Bulb 1 | Bulb 2 | Bulb 4 |\n|---|---|---|---|\n| A | dimmer | brighter | dimmer |\n| B | dimmer | brighter | brighter |\n| C | brighter | dimmer | dimmer |\n| D | brighter | dimmer | brighter |"
+ },
+ {
+  "id": "tmjc-2024-other-p1-q21",
+  "keyPage": 21,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Apply $F = BIL\\sin\\theta$ to each section:\n\n$F_{AB} = (0.50)(1.0)(0.20)\\sin 30^\\circ = 0.050\\ \\mathrm{N}$ into the paper\n\n$F_{BC} = (0.50)(1.0)(0.20)\\sin 0^\\circ = 0$\n\n$F_{CD} = (0.50)(1.0)(0.20)\\sin 90^\\circ = 0.10\\ \\mathrm{N}$ out of the paper\n\nNet force $= 0.10 - 0.050 = 0.050\\ \\mathrm{N}$ out of the paper.",
+   "perOption": {
+    "A": "Correct. $0.10\\ \\mathrm{N}$ out minus $0.050\\ \\mathrm{N}$ in.",
+    "B": "Gets the directions of the forces on AB and CD reversed.",
+    "C": "Adds the magnitudes of the forces on AB and CD instead of taking their opposite directions into account.",
+    "D": "Adds the magnitudes and also takes the wrong net direction."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs $F = BIL\\sin\theta$ for each segment plus Fleming's left-hand rule to get opposing directions.",
+  "misconception": "Adding force magnitudes without considering direction",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2024-other-p1-q22",
+  "keyPage": 22,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Each wire produces a field at the centre perpendicular to the line joining it to the centre, with directions given by the right-hand grip rule.\n\n$B_Q$ (into the page) points down-left, $B_R$ (into the page) points up-left, and $B_S$ (out of the page) points to the left.\n\nThe vertical components of $B_Q$ and $B_R$ cancel, and all three have components to the left, so $B_\\text{resultant}$ points towards C.",
+   "perOption": {
+    "A": "Reverses the right-hand grip rule for all three wires.",
+    "B": "The vertical components of $B_Q$ and $B_R$ cancel by symmetry, so there is no upward resultant.",
+    "C": "Correct. Vertical components cancel; all horizontal components point left.",
+    "D": "The vertical components of $B_Q$ and $B_R$ cancel by symmetry, so there is no downward resultant."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.b"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires applying the right-hand grip rule to three wires and adding the field vectors.",
+  "misconception": null,
+  "transcription": "Three wires, Q, R and S, are arranged in an equilateral triangle as shown. The currents in wires Q and R are directed into the plane of the paper, while the current in wire S is directed out of the plane of the paper.\n\nThe direction of the magnetic field at the centre of the equilateral triangle is\n\n[Diagram: Q (current into page, ⊗) at top left, R (into page, ⊗) at top right, S (out of page, ⊙) at the bottom. At the centre, arrows labelled B (up), A (right), D (down) and C (left).]"
+ },
+ {
+  "id": "tmjc-2024-other-p1-q23",
+  "keyPage": 22,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "As the coil moves parallel to the conductor, its distance from the wire does not change, so the magnetic flux linking it stays constant.\n\nThe rate of change of magnetic flux linkage is zero, so the induced e.m.f. is zero and there is no induced current.",
+   "perOption": {
+    "A": "Correct. The flux linkage does not change, so no e.m.f. is induced.",
+    "B": "There is no induced current at all, so it has no direction.",
+    "C": "There is no induced current, so its magnitude cannot depend on anything.",
+    "D": "Moving faster parallel to the wire still gives no change in flux, so the current stays zero."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognising that the field is uniform along the direction of motion gives the answer quickly.",
+  "misconception": "Thinking any motion of a coil in a magnetic field induces a current",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2024-other-p1-q24",
+  "keyPage": 22,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Electrons accumulate either at the centre or at the rim. In either case, two points equidistant from O have the same potential, and the potential difference between O and a point gets larger with distance from O. Y and X are on the same line from O, and Z is at the same radius as X, so $E_{XY} = E_{YZ}$.\n\nPoints further from O travel faster, so the segment XY cuts flux faster than YO. Therefore $E_{XY} > E_{YO}$.",
+   "perOption": {
+    "A": "Section XY moves faster than YO and cuts flux faster, so $E_{XY} > E_{YO}$.",
+    "B": "Points further from O move faster, so equal lengths XY and YO do not give equal e.m.f.s.",
+    "C": "X and Z are at the same radius and hence the same potential, so $E_{YZ} = E_{XY}$.",
+    "D": "Correct. X and Z are equidistant from O, so they have the same potential."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires reasoning about potential distribution in a rotating disc, an unfamiliar context.",
+  "misconception": "Assuming equal lengths of the disc give equal induced e.m.f.s",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2024-other-p1-q25",
+  "keyPage": 22,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Using $I_\\text{rms} = \\dfrac{P}{V}$, $I_\\text{rms}$ ranges from $9.55\\ \\mathrm{A}$ to $10.4\\ \\mathrm{A}$, so the peak current $I_0 = \\sqrt{2}\\,I_\\text{rms}$ ranges from $13.5\\ \\mathrm{A}$ to $14.7\\ \\mathrm{A}$.\n\nFor $f = 50$ to $60\\ \\mathrm{Hz}$, $\\omega = 2\\pi f$ lies between $314$ and $377\\ \\mathrm{rad\\,s^{-1}}$.\n\nHence the most probable expression for the current is $I = 14.1 \\sin(375t)$.",
+   "perOption": {
+    "A": "Uses the r.m.s. value as the peak, and $\\omega = 300\\ \\mathrm{rad\\,s^{-1}}$ corresponds to $f \u0007pprox 48\\ \\mathrm{Hz}$, outside the rated range.",
+    "B": "The peak is reasonable, but $\\omega = 300\\ \\mathrm{rad\\,s^{-1}}$ gives $f \u0007pprox 48\\ \\mathrm{Hz}$, below 50 Hz.",
+    "C": "Uses the r.m.s. current as the amplitude of the sinusoid instead of $\\sqrt{2}\\,I_\text{rms}$.",
+    "D": "Correct. Peak 14.1 A and $\\omega = 375\\ \\mathrm{rad\\,s^{-1}}$ ($f \u0007pprox 60\\ \\mathrm{Hz}$) both fit the label."
+   }
+  },
+  "issues": "School's I_rms range (9.55–10.4 A) pairs 2100 W with 220 V and 2500 W with 240 V; the full possible range is 8.75–11.4 A. Answer D is unaffected.",
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.g",
+   "currents.i"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines r.m.s.–peak conversion with $\\omega = 2\\pi f$ in a real-label context.",
+  "misconception": "Using the r.m.s. value as the amplitude of the sinusoid",
+  "transcription": "An electric kettle has the following label:\n\npower : 2100 to 2500 W\nvoltage : 220 to 240 V\nfrequency : 50 to 60 Hz\n\nWhich of the following is a probable expression that describes the current flowing through the kettle when it is operational?\n\nA  $I = 10.4 \\sin(300t)$\nB  $I = 14.1 \\sin(300t)$\nC  $I = 10.4 \\sin(375t)$\nD  $I = 14.1 \\sin(375t)$"
+ }
+]

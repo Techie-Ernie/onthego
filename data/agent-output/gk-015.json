@@ -1,0 +1,513 @@
+[
+  {
+    "id": "asrjc-2025-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over a full cycle, the change in internal energy is zero. Using $\\Delta U=Q+W$, with $W$ the work done on the gas, $0=Q+[-4.2+(1.0\\times10^5)(20.0-5.0)\\times10^{-6}]$. The heat gain is $Q=2.7\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Assigns the wrong sign to the expansion work when finding the net work on the gas.",
+        "B": "Reports the net work done on the gas as the heat gain.",
+        "C": "Correct. The gas gains $2.7\\ \\mathrm{J}$ of heat.",
+        "D": "Adds the magnitudes of the expansion and compression work."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires finding the compression work and applying the first law over a closed cycle.",
+    "misconception": "Confusing work done on the gas with work done by the gas.",
+    "transcription": "A fixed mass of an ideal gas undergoes a cycle PQRP of changes, as shown below.\n\n[Pressure–volume graph. The vertical axis is pressure / $10^5\\ \\mathrm{Pa}$ and the horizontal axis is volume / $10^{-6}\\ \\mathrm{m^3}$. P to Q is a descending curve directed rightward. Q to R is directed leftward at a pressure-axis value of 1.0, from a volume-axis value of 20.0 to 5.0. R to P is directed vertically upward at 5.0.]\n\nWork done by gas from P to Q is $4.2\\ \\mathrm{J}$.\n\nWhat is the overall heat gain in a cycle PQRP of changes?\n\nA $-5.7\\ \\mathrm{J}$\nB $-2.7\\ \\mathrm{J}$\nC $2.7\\ \\mathrm{J}$\nD $5.7\\ \\mathrm{J}$"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The bob starts at equilibrium, $x=0$, with amplitude $50\\ \\mathrm{mm}$ and period $2.0\\ \\mathrm{s}$. At the end of the exposure, $x=25\\ \\mathrm{mm}$, so $25=50\\sin(2\\pi t/2.0)$. The shutter is open for $t=0.17\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct. The bob reaches half its amplitude in one twelfth of a period.",
+        "B": "Treats half the amplitude as half the time from equilibrium to an extreme.",
+        "C": "Uses the full quarter-period needed to reach the extreme.",
+        "D": "Uses a half-period, which would return the bob to equilibrium."
+      }
+    },
+    "issues": "The key prints “x = 0 s” in one line. The starting displacement is 0 mm.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the equilibrium position and invert the SHM displacement equation.",
+    "misconception": "Assuming equal distances take equal times in SHM.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The air molecules undergo simple harmonic motion. Wave intensity is proportional to the square of the displacement amplitude $x_0$, so raising the intensity increases $x_0$ and hence the maximum molecular speed $v_0=(2\\pi f)x_0$. The speed of sound is set by the properties of the air, which are unchanged.",
+      "perOption": {
+        "A": "Assumes greater intensity also makes the wave travel faster.",
+        "B": "Correct. The molecular speed increases and the wave speed stays fixed.",
+        "C": "Keeps molecular speed fixed despite the larger amplitude and incorrectly increases wave speed.",
+        "D": "Overlooks the increase in molecular speed at fixed frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.a",
+      "wave-motion.g",
+      "oscillations.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It links intensity to particle amplitude and distinguishes particle speed from wave speed.",
+    "misconception": "Confusing particle speed with wave speed.",
+    "transcription": "As the intensity of a single frequency sound wave travelling through the air is increased, how do the maximum speed of vibration of the air molecules and the speed of wave travel change?\n\n[Table columns in order: maximum speed of vibration of air molecules, speed of wave travel.]\nA increase, increase\nB increase, no change\nC no change, increase\nD no change, no change"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The phase difference at P is the source phase difference plus $2\\pi$ times the path difference divided by the wavelength. Zero intensity requires destructive interference, for which the waves arrive with a phase difference of an odd multiple of $\\pi$.",
+      "perOption": {
+        "A": "Correct. The phase difference is $2\\pi+\\pi=3\\pi$.",
+        "B": "The phase difference is $\\tfrac12(2\\pi)+\\pi=2\\pi$, giving constructive interference.",
+        "C": "The phase difference is $2\\pi+\\tfrac{\\pi}{2}=\\tfrac{5\\pi}{2}$, which does not give cancellation.",
+        "D": "The phase difference is $2\\pi+0=2\\pi$, giving constructive interference."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a",
+      "superposition.e",
+      "superposition.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires combining the source phase difference with the phase difference caused by the paths.",
+    "misconception": "Ignoring the initial phase difference between the sources.",
+    "transcription": "Light of wavelength $\\lambda$ is emitted from two point sources R and S and falls onto a distant screen.\n\n[Point source R is above point source S on the left. Point P is marked on the vertical screen to their right. NOT TO SCALE.]\n\nAt point P on the screen, the light intensity is zero.\n\nWhat could explain the zero intensity at P?\n\nA Light from the two sources is emitted $180^\\circ$ out of phase and the path difference to P is $\\lambda$.\nB Light from the two sources is emitted $180^\\circ$ out of phase and the path difference to P is $\\tfrac12\\lambda$.\nC Light from the two sources is emitted $90^\\circ$ out of phase and the path difference to P is $\\lambda$.\nD Light from the two sources is emitted in phase and the path difference to P is $\\lambda$."
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The grating equation is $d\\sin\\theta=n\\lambda$. Both maxima have the same $d$ and $\\theta$, so $3\\lambda_X=2\\lambda_{\\mathrm{red}}=2(720\\times10^{-9})\\ \\mathrm{m}$. Thus $\\lambda_X=480\\ \\mathrm{nm}$.",
+      "perOption": {
+        "A": "Correct. Both orders have the same product of order and wavelength.",
+        "B": "Uses a wavelength ratio of three quarters instead of two thirds.",
+        "C": "Makes the third-order wavelength larger even though the order–wavelength product is fixed.",
+        "D": "Reverses the order ratio, giving about $1100\\ \\mathrm{nm}$."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Matching the screen positions lets the student equate the order–wavelength products.",
+    "misconception": "Assuming wavelength increases with order at a fixed diffraction angle.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric force is $F=qE$, so $ma=qE$ and $a=qE/m$ is constant. From $v^2=u^2+2ax$ with $u=0$, we get $v^2=2ax$. Therefore $E_{\\mathrm K}=\\tfrac12 m(2ax)$ is proportional to $x$.",
+      "perOption": {
+        "A": "Shows nonzero initial kinetic energy and no gain from the electric force.",
+        "B": "Shows an increasing energy gain per unit distance even though the force is constant.",
+        "C": "Shows a decreasing energy gain per unit distance even though the force is constant.",
+        "D": "Correct. The energy increases linearly from zero."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.h",
+      "electric-fields.i",
+      "motion-and-forces.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must connect constant electric acceleration to a linear kinetic-energy graph.",
+    "misconception": "Assuming constant acceleration makes kinetic energy quadratic in distance.",
+    "transcription": "Two oppositely-charged horizontal metal plates are placed in a vacuum. A positively-charged particle starts from rest and moves from one plate to the other plate, as shown.\n\n[Two parallel horizontal plates. The upper plate is marked − and the lower plate +. A positively charged particle above the lower plate has an arrow pointing up toward the upper plate.]\n\nWhich graph shows how the kinetic energy $E_{\\mathrm K}$ of the particle varies with the distance $x$ moved from the positive plate?\n\n[All graphs plot $E_{\\mathrm K}$ vertically against $x$ horizontally.]\nA [Horizontal line above the origin.]\nB [Rising curve from the origin that becomes steeper.]\nC [Rising curve from the origin that becomes less steep.]\nD [Rising straight line from the origin.]"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By definition, $V=W/Q=(W/t)/(Q/t)=P/I$. Using $R=V/I$ gives $P=IV=I^2R=V^2/R=W^2/(Q^2R)$. Hence $R=W^2/(PQ^2)$, so D is the invalid relationship.",
+      "perOption": {
+        "A": "This relationship is valid because $I=P/V=PQ/W$.",
+        "B": "This relationship is valid because $Q=W/V=W/(IR)$.",
+        "C": "This relationship is valid because $P=V^2/R$.",
+        "D": "Correct. $W/(PQ)=1/I$."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.c",
+      "currents.d",
+      "currents.a",
+      "circuits.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires rearranging the definitions of potential difference, current and power.",
+    "misconception": "Confusing the reciprocal of current with resistance.",
+    "transcription": "A resistor has resistance $R$. When the potential difference across the resistor is $V$, the current in the resistor is $I$. The power dissipated in the resistor is $P$. Work $W$ is done when charge $Q$ flows through the resistor.\n\nWhat is not a valid relationship between these variables?\n\nA $I=\\frac{PQ}{W}$\nB $Q=\\frac{W}{IR}$\nC $R=\\frac{V^2}{P}$\nD $R=\\frac{W}{PQ}$"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Closing S adds a parallel path, which lowers the effective external resistance and raises the current measured by the ammeter. The larger current increases the potential difference across the internal resistance, so the terminal potential difference measured by the voltmeter falls.",
+      "perOption": {
+        "A": "Correct. The voltmeter reading falls as the ammeter reading rises.",
+        "B": "Assumes a second parallel branch reduces the total current.",
+        "C": "Overlooks the increased potential difference across the internal resistance.",
+        "D": "Reverses the change in current and therefore the change in terminal potential difference."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g",
+      "circuits.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires tracing the extra parallel path and relating total current to the internal voltage drop.",
+    "misconception": "Treating terminal potential difference as fixed when current changes.",
+    "transcription": "A battery, with internal resistance, is connected to a parallel arrangement of two resistors and a switch S, as shown.\n\n[The battery and its internal resistor are shown in a dashed box. The voltmeter is across the battery terminals. An ammeter is in series with the parallel arrangement, whose upper branch has a resistor and whose lower branch has switch S in series with a resistor.]\n\nInitially switch S is open.\n\nWhat happens to the voltmeter and ammeter readings when switch S is closed?\n\n[Table columns in order: voltmeter reading, ammeter reading.]\nA decreases, increases\nB decreases, decreases\nC increases, increases\nD increases, decreases"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $2\\ \\Omega$ and $4\\ \\Omega$ resistors form a potential divider across the cell. The voltmeter reads the share across the $4\\ \\Omega$ resistor, so $V_{\\mathrm{out}}=\\frac{4}{2+4}E$ and $V_{\\mathrm{out}}/E=2/3$.",
+      "perOption": {
+        "A": "Uses the wrong resistance fraction for the $4\\ \\Omega$ resistor in the divider.",
+        "B": "Gives the share across the $2\\ \\Omega$ resistor.",
+        "C": "Treats the unequal series resistors as sharing the cell voltage equally.",
+        "D": "Correct. The voltmeter measures two thirds of the cell e.m.f."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires identifying the correct potential divider inside a branched circuit.",
+    "misconception": "Including a parallel resistor in the potential-divider ratio.",
+    "transcription": "A cell of electromotive force (e.m.f.) $E$ and negligible internal resistance is connected into a circuit, as shown.\n\n[The cell $E$ is connected across a $12\\ \\Omega$ resistor and a separate branch containing $2\\ \\Omega$ and $4\\ \\Omega$ resistors in series. A voltmeter is connected across the $4\\ \\Omega$ resistor.]\n\nThe voltmeter has a very high resistance and reads a potential difference $V_{\\mathrm{out}}$.\n\nWhat is the ratio $\\frac{V_{\\mathrm{out}}}{E}$?\n\nA $\\frac16$\nB $\\frac13$\nC $\\frac12$\nD $\\frac23$"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential gradient of XY is $k=V_{XY}/\\ell_{XY}=\\frac{[0.50/(0.50+0.50)](1.5)}{0.96}=0.781\\ \\mathrm{V\\,m^{-1}}$. At balance, $E=k\\ell_{XZ}=(0.781)(0.64)=0.50\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Correct. The unknown e.m.f. equals the potential difference along XZ at balance.",
+        "B": "Uses the potential difference along the entire wire XY.",
+        "C": "Applies the length fraction to the full driving e.m.f., overlooking the internal resistance.",
+        "D": "Overestimates the driving voltage available along XZ by undercounting the drop elsewhere in the circuit."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the wire’s potential gradient before applying the galvanometer balance condition.",
+    "misconception": "Using the driving cell’s e.m.f. as the full wire voltage.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The key’s diagram places P at the end of a current-carrying solenoid. In the marked region just outside that end, the field lines curve inwards and point towards P, matching the pattern in the question.",
+      "perOption": {
+        "A": "Places the coil’s axis perpendicular to PQ even though the central field shown runs along PQ.",
+        "B": "Correct. The lines curve into the solenoid end at P.",
+        "C": "A straight wire produces concentric field lines around PQ.",
+        "D": "A south pole at Q would draw field lines towards Q."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.a",
+      "electromagnetic-forces.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires recognising the field at a solenoid end from the shape and direction of the lines.",
+    "misconception": "Confusing axial magnetic fields with the circular field of a straight wire.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Fleming’s left-hand rule gives a force out of the page. As $\\theta$ tends to $0^\\circ$, the wire becomes perpendicular to the field and the force is greatest. Each half contributes a perpendicular length $(L/2)\\cos\\theta$, so $F=BI(2)(L/2)\\cos\\theta=BIL\\cos\\theta$.",
+      "perOption": {
+        "A": "Correct. The force is out of the page and depends on the perpendicular length.",
+        "B": "Reverses the force direction given by Fleming’s left-hand rule.",
+        "C": "Uses the length component parallel to the field.",
+        "D": "Uses the parallel length component and reverses the force direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires resolving the wire length perpendicular to the field and applying Fleming’s left-hand rule.",
+    "misconception": "Using the angle to the normal directly in the sine form of the force equation.",
+    "transcription": "The diagram shows a bent wire in a uniform magnetic field of flux density $B$.\n\nThe length of wire in the field is $L$ and each half of the wire is inclined at an angle $\\theta$ normal to the field direction. There is a current $I$ in the wire.\n\n[Horizontal magnetic field lines point right. The current follows a bent wire from top to bottom. Two segments of length $L/2$ meet at a bend to the left of the dashed vertical line joining the entry and exit points. Each segment makes angle $\\theta$ with that vertical line.]\n\nWhich row gives the magnitude and the direction of the force acting on the wire?\n\n[Table columns in order: magnitude, direction.]\nA $BIL\\cos\\theta$, out of the page\nB $BIL\\cos\\theta$, into the page\nC $BIL\\sin\\theta$, out of the page\nD $BIL\\sin\\theta$, into the page"
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Split the frame into its triangular front and rectangular rear. As the triangular section enters or leaves the field, the area crossing the boundary per unit time grows, so the magnitudes of the rate of flux change, induced e.m.f. and induced current all rise. While the rectangular section crosses, the rate of flux change and the induced current magnitude are constant. The current is zero while the frame is wholly inside and reverses for exit because the flux then decreases.",
+      "perOption": {
+        "A": "Shows a constant exit current first, although the triangular tip reaches the exit boundary first.",
+        "B": "Gives entry and exit the same current direction despite opposite flux changes.",
+        "C": "Treats the rectangular section as crossing first at both boundaries.",
+        "D": "Correct. Each crossing gives a ramp and a plateau, with opposite current directions."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires tracking the rate of change of overlap area and the reversal of current at exit.",
+    "misconception": "Using the flux itself to predict the induced current.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In one period, the current is $-I_0$ for two time units and $2I_0$ for one time unit. Squaring, averaging over the period and taking the square root gives $I_{\\mathrm{rms}}=\\sqrt{\\frac{2I_0^2+(2I_0)^2}{3}}=\\sqrt{2}\\,I_0$.",
+      "perOption": {
+        "A": "Correct. It is the square root of the time-weighted mean square.",
+        "B": "Applies the sinusoidal formula to the lower current magnitude.",
+        "C": "Underestimates the mean square by failing to account for the interval at twice the current magnitude.",
+        "D": "Uses the peak current in place of the root-mean-square current."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires reading the time at each level and weighting the squared currents over a period.",
+    "misconception": "Using the sinusoidal RMS formula for a non-sinusoidal waveform.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Violet light has a frequency of about $7\\times10^{14}\\ \\mathrm{Hz}$, or a wavelength of roughly $400\\ \\mathrm{nm}$. Using $E=hf$, the photon energy is $(6.63\\times10^{-34})(7\\times10^{14})\\approx5\\times10^{-19}\\ \\mathrm{J}$ to one significant figure.",
+      "perOption": {
+        "A": "Overestimates the photon energy, which is about $3\\ \\mathrm{eV}$.",
+        "B": "Overestimates the photon frequency into the ultraviolet range.",
+        "C": "Underestimates the photon frequency, giving an energy closer to that of red light.",
+        "D": "Correct. It gives the violet photon’s energy to one significant figure."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It uses a standard photon-energy equation but requires estimating the frequency of violet light.",
+    "misconception": "Misjudging the photon energy scale for visible light.",
+    "transcription": "What is the reasonable estimate, to one significant figure, of the energy of a photon of violet light?\n\nA $4\\ \\mathrm{eV}$\nB $6\\ \\mathrm{eV}$\nC $3\\times10^{-19}\\ \\mathrm{J}$\nD $5\\times10^{-19}\\ \\mathrm{J}$"
+  }
+]

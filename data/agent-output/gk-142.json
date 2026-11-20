@@ -1,0 +1,496 @@
+[
+ {
+  "id": "vjc-2025-prelim-p1-q11",
+  "keyPage": 9,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Power output $P = F_{\\text{driving}}v$. At maximum speed the driving force equals the drag force, $F_{\\text{driving}} = kv^2$, so $P = (kv^2)v = kv^3$.\n\nHence $\\dfrac{P_1}{P_2} = \\dfrac{v_1^3}{v_2^3}$. With one motor, $P_1 = \\tfrac{1}{2}P_2$:\n\n$\\sqrt[3]{\\tfrac{1}{2}} = \\dfrac{v_1}{36}$, so $v_1 = 28.6\\ \\mathrm{m\\,s^{-1}}$.",
+   "perOption": {
+    "A": "Divides by 4, as if speed were inversely proportional to the square of the power ratio.",
+    "B": "Halves the speed, assuming speed is proportional to power.",
+    "C": "Uses the wrong power law; with drag $\\propto v^2$, power $\\propto v^3$.",
+    "D": "Correct. $P \\propto v^3$, so $v = 36/\\sqrt[3]{2}$."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "energy-and-fields.m"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires combining P = Fv with drag ∝ v² to get P ∝ v³, then a cube-root ratio.",
+  "misconception": "Assuming maximum speed is proportional to power",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q12",
+  "keyPage": 10,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Loss in GPE = gain in elastic potential energy. The ball falls through $h + x$, not just $h$:\n\n$mg(h+x) = \\tfrac{1}{2}kx^2$\n\n$(0.020)(9.81)(0.10 + 0.024) = \\tfrac{1}{2}k(0.024)^2$\n\n$k = 84\\ \\mathrm{N\\,m^{-1}}$",
+   "perOption": {
+    "A": "Does not follow from the energy balance; likely a unit or arithmetic slip.",
+    "B": "Treats the final position as static equilibrium ($mg = kx$), but the ball is momentarily at rest, not in equilibrium.",
+    "C": "Uses a fall height of only 10 cm, ignoring the extra 2.4 cm fall while compressing the spring.",
+    "D": "Correct. $mg(h+x) = \\tfrac{1}{2}kx^2$."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.b",
+   "energy-and-fields.k"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Straightforward energy conservation, but students often forget the extra compression distance in the GPE term.",
+  "misconception": "Forgetting the extra drop during compression",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q13",
+  "keyPage": 10,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "At the top of the circle both the weight and the tension act downwards, towards the centre, so the net (centripetal) force is $mg + T$.\n\n$\\dfrac{mv^2}{r} = mg + 4mg = 5mg$\n\n$v = \\sqrt{5rg}$",
+   "perOption": {
+    "A": "This is the minimum speed at the top, when tension is zero.",
+    "B": "Takes the net force as $T - mg$, treating the weight as acting away from the centre.",
+    "C": "Uses only the tension as the centripetal force, ignoring the weight.",
+    "D": "Correct. $mv^2/r = T + mg = 5mg$."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single application of Newton's second law in a vertical circle.",
+  "misconception": "Ignoring or subtracting weight at the top of a vertical circle",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q14",
+  "keyPage": 11,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "A geostationary orbit has period $T = 24$ hours. Gravitational force provides the centripetal force:\n\n$\\dfrac{GMm}{r^2} = mr\\omega^2 = mr\\left(\\dfrac{2\\pi}{T}\\right)^2$\n\nThe mass $m$ cancels, so $T^2 \\propto r^3$: the orbital radius is the same for all geostationary satellites, independent of mass.\n\nGravitational force, centripetal force and total energy all depend on the satellite's mass, so they differ for A and B.",
+   "perOption": {
+    "A": "Correct. $r$ depends only on $T$ and $M$, not the satellite's mass.",
+    "B": "Centripetal force $mr\\omega^2$ is proportional to mass, so B's is twice A's.",
+    "C": "Total energy $-GMm/2r$ is proportional to mass, so B's is twice A's.",
+    "D": "Gravitational force $GMm/r^2$ is proportional to mass, so B's is twice A's."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [
+   "circular-motion"
+  ],
+  "outcomes": [
+   "gravitational-fields.j",
+   "gravitational-fields.k"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Recognising that orbital radius is mass-independent while forces and energies scale with mass.",
+  "misconception": "Thinking orbit radius depends on satellite mass",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q15",
+  "keyPage": 11,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "At the Earth's surface, $\\tfrac{1}{2}mv_{esc}^2 = \\dfrac{GMm}{R}$, so $v_{esc} = \\sqrt{\\dfrac{2GM}{R}} = 1.1\\times10^4\\ \\mathrm{m\\,s^{-1}}$.\n\nAt $4R$ from the centre, $\\tfrac{1}{2}mv_{esc}'^2 = \\dfrac{GMm}{4R}$, so\n\n$v_{esc}' = \\sqrt{\\dfrac{2GM}{4R}} = 1.1\\times10^4 \\times \\dfrac{1}{2} = 5.5\\times10^3\\ \\mathrm{m\\,s^{-1}}$",
+   "perOption": {
+    "A": "Correct. $v_{esc} \\propto 1/\\sqrt{r}$, so it halves at $4R$.",
+    "B": "Uses $3R$ (the height above the surface) instead of $4R$ from the centre.",
+    "C": "Assumes escape speed is the same everywhere.",
+    "D": "Escape speed decreases with distance; it cannot be larger than at the surface."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.i"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct ratio using v_esc ∝ 1/√r.",
+  "misconception": "Measuring distance from the surface instead of the centre",
+  "transcription": "The escape speed of an oxygen molecule at the Earth's surface is $1.1\\times10^4\\ \\mathrm{m\\,s^{-1}}$. What is the escape speed at $4R$ from the centre of the Earth, where $R$ is the radius of the Earth?\n\nA $5.5\\times10^3\\ \\mathrm{m\\,s^{-1}}$\nB $6.4\\times10^3\\ \\mathrm{m\\,s^{-1}}$\nC $1.1\\times10^4\\ \\mathrm{m\\,s^{-1}}$\nD $1.2\\times10^4\\ \\mathrm{m\\,s^{-1}}$"
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q16",
+  "keyPage": 12,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The given PE graph shows only half a period of the oscillation: PE goes from maximum (at an extreme) to zero (at equilibrium) and back to maximum (at the other extreme).\n\n$PE \\propto \\cos^2\\omega t$, so $KE \\propto \\sin^2\\omega t$, giving $v \\propto \\sin\\omega t$, i.e. $v = v_0\\sin\\omega t$.\n\nOver half a period, $v$ rises from zero to a maximum and returns to zero without changing sign. Option C shows exactly this half-period $v$–$t$ graph.",
+   "perOption": {
+    "A": "Shows a full period of $v$ over 2 s; PE would then complete two cycles in 2 s.",
+    "B": "Starts at maximum velocity, but PE is maximum (so $v = 0$) at $t = 0$; it also shows a full period.",
+    "C": "Correct. Half a period of $v = v_0\\sin\\omega t$.",
+    "D": "Starts at maximum velocity, but at $t = 0$ PE is maximum so $v$ must be zero."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.f",
+   "oscillations.g",
+   "oscillations.h"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires realising PE has twice the frequency of the motion, so the 2 s window is only half a period.",
+  "misconception": "Assuming the energy graph has the same period as the oscillation",
+  "transcription": "A particle oscillates with simple harmonic motion. The graph shows the variation, with time $t$, of the potential energy of the particle from $t = 0$ to $t = 2$ s.\n\n[Graph: potential energy against $t$/s; PE starts at a maximum at $t = 0$, falls smoothly to zero at $t = 1$ s, and rises back to the maximum at $t = 2$ s.]\n\nWhich graph could represent the variation, with time $t$, of the velocity $v$ of the particle from $t = 0$ to $t = 2$ s?\n\nA [$v$–$t$: starts at 0, one full sine cycle (positive peak then negative trough) ending at 0 at $t = 2$ s]\nB [$v$–$t$: starts at a positive maximum, one full cosine cycle down to a negative minimum and back to the maximum at $t = 2$ s]\nC [$v$–$t$: starts at 0, rises to a single positive maximum at $t = 1$ s, returns to 0 at $t = 2$ s]\nD [$v$–$t$: starts at a positive maximum, falls through zero at $t = 1$ s to a negative minimum at $t = 2$ s]"
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q17",
+  "keyPage": 13,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The mean kinetic energy of an atom of a monoatomic ideal gas is $E = \\tfrac{3}{2}kT$, independent of mass. Both gases are at $T$, so the KE of an atom of Y is also $E$.\n\nFor X: $\\tfrac{3}{2}kT = \\tfrac{1}{2}mV^2$. For Y: $\\tfrac{3}{2}kT = \\tfrac{1}{2}(2m)V_Y^2$.\n\nComparing, $V^2 = 2V_Y^2$, so $V_Y = \\sqrt{\\tfrac{1}{2}}\\,V = 0.71V$.",
+   "perOption": {
+    "A": "Correct. Same KE at the same $T$; $v_{rms} \\propto 1/\\sqrt{m}$.",
+    "B": "Assumes rms speed is independent of mass; equal KE with double mass means lower speed.",
+    "C": "Inverts the mass dependence; the heavier atom moves more slowly.",
+    "D": "Mean KE depends only on temperature, not on mass, so it is not doubled."
+   }
+  },
+  "issues": null,
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Applying ⟨KE⟩ = 3/2 kT and v_rms ∝ 1/√m to two gases.",
+  "misconception": "Thinking heavier gas atoms have more kinetic energy at the same temperature",
+  "transcription": "Two monoatomic ideal gases X and Y are mixed together in a sealed container. The molar mass of Y is twice that of X. At thermodynamic temperature $T$, the kinetic energy and root-mean-square speed of an atom of X are given by $E$ and $V$ respectively.\n\nWhat is the kinetic energy and root-mean-square speed of an atom of Y at temperature $T$?\n\n| | kinetic energy | root-mean-square speed |\n|---|---|---|\n| A | $E$ | $0.71V$ |\n| B | $E$ | $V$ |\n| C | $E$ | $1.4V$ |\n| D | $2E$ | $0.71V$ |"
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q18",
+  "keyPage": 14,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The phase difference between two points on a progressive wave is $\\phi = \\dfrac{x}{\\lambda}\\times 2\\pi$, where $x$ is their fixed separation.\n\nSince $x$ and $\\lambda$ do not change, $\\phi$ is independent of $t$: the graph is a horizontal line at a constant non-zero value.",
+   "perOption": {
+    "A": "Plots something like the displacement of a particle, which varies with time; the phase difference does not.",
+    "B": "Also a time-varying curve; phase difference between two fixed points is constant.",
+    "C": "Phase difference does not grow with time; both particles oscillate at the same frequency.",
+    "D": "Correct. $\\phi = 2\\pi x/\\lambda$ is constant."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.b"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Conceptual: phase difference between fixed points on a progressive wave is constant.",
+  "misconception": "Confusing phase difference with displacement varying in time",
+  "transcription": "In a progressive water wave, two particles P and Q, on the surface of the water, are a fixed horizontal distance apart. P and Q oscillate vertically.\n\nAt time $t = 0$, the wave is as shown.\n\n[Diagram: a sinusoidal water surface; P is at a crest, Q is on the falling slope partway between the crest and the next trough, below the equilibrium level. Labelled \"surface of water\".]\n\nWhich graph best represents the variation with time $t$ of the phase difference $\\phi$ between the oscillation of the water particle P and the oscillation of the water particle Q?\n\nA [$\\phi$–$t$: cosine-like curve starting positive, dipping below zero and rising again above zero]\nB [$\\phi$–$t$: cosine-like curve starting positive, dipping below zero and returning to zero]\nC [$\\phi$–$t$: straight line with positive gradient starting from a negative value]\nD [$\\phi$–$t$: horizontal line at a constant positive value]"
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q19",
+  "keyPage": 15,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Let $I_0$ be the intensity of the incident light. By Malus' law:\n\n$I_{30} = I_0\\cos^2 30^\\circ = 0.75I_0$\n\n$I_{60} = I_0\\cos^2 60^\\circ = 0.25I_0$\n\nComparing, $I_{60} = \\dfrac{0.25}{0.75}I_{30} = 0.33I_{30}$.",
+   "perOption": {
+    "A": "Gives $I_{60}$ as a fraction of $I_0$, not of $I_{30}$.",
+    "B": "Correct. $\\cos^2 60^\\circ/\\cos^2 30^\\circ = 1/3$.",
+    "C": "This is $I_{30}/I_0$; also treats the second rotation as relative to the first transmitted light rather than the original vertical polarisation.",
+    "D": "Uses $\\cos\\theta$ instead of $\\cos^2\\theta$ for intensity."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.j"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires measuring the total angle from the original polarisation and expressing the answer relative to I30.",
+  "misconception": "Applying Malus' law to the incremental 30° rotation instead of the total angle",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q20",
+  "keyPage": 16,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "A stationary wave with three nodes and two antinodes is two loops long, so the length is one wavelength.\n\nWhen the frequency is doubled, the wavelength is halved, so the same length now holds two wavelengths, i.e. four loops.\n\nHence there are 4 antinodes.",
+   "perOption": {
+    "A": "Fewer antinodes would require a longer wavelength, i.e. a lower frequency.",
+    "B": "Adds one antinode instead of doubling the number of loops.",
+    "C": "Correct. Halving $\\lambda$ doubles the number of loops from 2 to 4.",
+    "D": "Counts nodes (5) instead of antinodes."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.c"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Simple reasoning about loops per wavelength when frequency doubles.",
+  "misconception": "Confusing nodes with antinodes",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q21",
+  "keyPage": 16,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The droplet is suspended, so the net force is zero: $QE = mg$.\n\nWith $Q = ne$ and $m = \\rho\\cdot\\tfrac{4}{3}\\pi r^3$:\n\n$n = \\dfrac{\\rho\\,\\tfrac{4}{3}\\pi r^3 g}{eE} = \\dfrac{1000\\times\\tfrac{4}{3}\\pi(0.60\\times10^{-6})^3\\times 9.81}{(1.6\\times10^{-19})(462)} = 120$",
+   "perOption": {
+    "A": "This is the total charge in coulombs ($1.92\\times10^{-17}$ C), not the number of electrons.",
+    "B": "Correct. $n = mg/(eE) = 120$.",
+    "C": "Arithmetic slip in converting the charge to a number of electrons.",
+    "D": "Uses the wrong radius or unit (e.g. not converting μm to m, or using diameter in place of radius)."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Chains volume, mass, force balance and charge quantisation with powers of ten.",
+  "misconception": "Using diameter instead of radius",
+  "transcription": "A spherical water droplet with density $1000\\ \\mathrm{kg\\,m^{-3}}$ and diameter $1.20\\ \\mu\\mathrm{m}$ is suspended in a uniform electric field. The electric field strength is $462\\ \\mathrm{N\\,C^{-1}}$ and is directed downwards. How many excess electrons does it have?\n\nA $1.92\\times10^{-17}$\nB $120$\nC $192$\nD $1.20\\times10^{11}$"
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q22",
+  "keyPage": 17,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The voltmeter measures the p.d. across the filament lamp and the ammeter the current through it, so the graph is the lamp's I–V characteristic.\n\nThe resistance of the bulb increases with temperature, so the gradient of the I–V graph decreases as V increases. Its resistance is also never zero, which is why D (vertical at the origin) is wrong.",
+   "perOption": {
+    "A": "A straight line means constant resistance (ohmic conductor), not a filament lamp.",
+    "B": "Gradient increasing means resistance decreasing, like a thermistor.",
+    "C": "Correct. Resistance rises with temperature; finite resistance at the origin.",
+    "D": "Infinite gradient at the origin implies zero resistance at low current, which a lamp never has."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.e",
+   "circuits.f"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard recall of the filament lamp I–V characteristic.",
+  "misconception": "Thinking a lamp has zero resistance when cold",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q23",
+  "keyPage": 18,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "No current flows through P, because it is short-circuited by the wire connected in parallel with it.\n\nLet each resistance be $r$ and the e.m.f. be $\\varepsilon$. Q and R are in parallel, so their effective resistance is $0.5r$, and the total resistance is $r + 0.5r = 1.5r$.\n\nTotal power $P = \\dfrac{\\varepsilon^2}{1.5r} = 12.0\\ \\mathrm{W}$.\n\nBy the potential divider principle, the p.d. across R is $\\dfrac{0.5r}{1.5r}\\varepsilon = \\dfrac{\\varepsilon}{3}$, so\n\n$P_R = \\dfrac{(\\varepsilon/3)^2}{r} = \\dfrac{\\varepsilon^2}{9r} = \\dfrac{1.5}{9}\\times12.0 = 2.0\\ \\mathrm{W}$",
+   "perOption": {
+    "A": "Correct. P is shorted; R takes $\\varepsilon/3$, giving 2.0 W.",
+    "B": "Shares the 12 W equally among all four resistors, ignoring the short and the different currents.",
+    "C": "Shares the 12 W equally among S, Q and R, ignoring that S carries twice the current of R.",
+    "D": "Does not follow from the circuit; misidentifies how the resistors are connected."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "circuits.j",
+   "currents.d"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires spotting that P is short-circuited and Q, R are in parallel before applying power and potential-divider ideas.",
+  "misconception": "Not noticing a short-circuited resistor",
+  "transcription": null
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q24",
+  "keyPage": 18,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Using Fleming's left-hand rule, the conventional current is from X to Y. Electron flow is opposite to conventional current, so electrons flow from Y to X.\n\n$F = BIL$: $0.0024 = (0.50)(I)(0.10)$, so $I = 0.048\\ \\mathrm{A}$.\n\n$\\dfrac{N}{t}e = 0.048$, so $\\dfrac{N}{t} = \\dfrac{0.048}{1.60\\times10^{-19}} = 3.0\\times10^{17}\\ \\mathrm{s^{-1}}$",
+   "perOption": {
+    "A": "Gives the current in amperes as the electron rate, and takes electron flow in the conventional-current direction.",
+    "B": "Correct direction, but $4.8\\times10^{-2}$ is the current in A, not electrons per second.",
+    "C": "Correct rate, but X to Y is the conventional current direction; electrons flow the opposite way.",
+    "D": "Correct. Electrons flow Y to X at $I/e = 3.0\\times10^{17}$ per second."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f",
+   "currents.a"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines Fleming's left-hand rule on a 3D diagram with F = BIL and I = Ne/t.",
+  "misconception": "Treating electron flow as the same direction as conventional current",
+  "transcription": "A current-carrying conductor is placed at right angles to a uniform magnetic field of flux density 0.50 T. A 10 cm length of conductor lies within the field and experiences a force of 2.4 mN.\n\n[Diagram: horizontal magnetic field lines pointing to the right (\"field direction\"); a rod runs diagonally from end X (front, lower left) to end Y (back, upper right), perpendicular to the field; an arrow from the rod points vertically downwards labelled \"force direction\".]\n\nWhat is the direction of electron flow and rate of flow of electrons in the conductor?\n\n| | direction of electron flow | rate of flow of electrons / s |\n|---|---|---|\n| A | X to Y | $4.8\\times10^{-2}$ |\n| B | Y to X | $4.8\\times10^{-2}$ |\n| C | X to Y | $3.0\\times10^{17}$ |\n| D | Y to X | $3.0\\times10^{17}$ |"
+ },
+ {
+  "id": "vjc-2025-prelim-p1-q25",
+  "keyPage": 19,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The e.m.f. between the centre O and a point at radius $r$ is $E = B\\pi r^2 f$ (flux swept per revolution times revolutions per second).\n\nBetween O and Q, at radius $r/2$: $E_{OQ} = B\\pi\\left(\\dfrac{r}{2}\\right)^2 f = \\dfrac{E}{4}$.\n\nSo the e.m.f. between Q and P is $E - \\dfrac{E}{4} = \\dfrac{3E}{4}$.",
+   "perOption": {
+    "A": "Assumes no e.m.f. because P and Q are both on the rotating disc; but they are at different radii.",
+    "B": "This is the e.m.f. between O and Q, not between Q and P.",
+    "C": "Assumes e.m.f. is proportional to $r$; it is proportional to $r^2$ (area swept).",
+    "D": "Correct. $E_{QP} = E - E/4 = 3E/4$."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "multi-step"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Requires knowing the disc e.m.f. scales with r² and taking a difference between two radii.",
+  "misconception": "Assuming the disc e.m.f. is proportional to radius",
+  "transcription": "An aluminium disc of radius $r$ rotates about its centre at a constant speed. It is placed in a uniform magnetic field perpendicular to its surface. A steady electromotive force (e.m.f.) $E$ is generated between the centre O and the rim at P.\n\n[Diagram: a circular disc with centre O and radius $r$ marked by an arrow; P is on the rim at the left; Q is inside the disc to the lower right of O; a curved arrow below the disc shows the direction of rotation.]\n\nWhat is the e.m.f. generated between points Q and P, where Q is a distance $\\dfrac{r}{2}$ from the centre?\n\nA zero\nB $\\dfrac{E}{4}$\nC $\\dfrac{E}{2}$\nD $\\dfrac{3E}{4}$"
+ }
+]

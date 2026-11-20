@@ -1,0 +1,510 @@
+[
+ {
+  "id": "tmjc-2025-other-p1-q11",
+  "keyPage": 3,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "A frequency of $2\\ \\mathrm{kHz}$ has a period of $T = 1/f = 0.5\\ \\mathrm{ms}$.\n\nA typical C.R.O. screen has 10 horizontal divisions of $1\\ \\mathrm{cm}$ each. With a time-base of $0.1\\ \\mathrm{ms\\,cm^{-1}}$, one period spans $0.5/0.1 = 5$ divisions, so two full cycles fill the screen.",
+   "perOption": {
+    "A": "At $10\\ \\mathrm{ms\\,cm^{-1}}$ one period is only $0.05\\ \\mathrm{cm}$ wide, so about 200 cycles are crammed onto the screen.",
+    "B": "Correct. One period spans 5 cm, so two clear cycles fit on the 10 cm screen.",
+    "C": "At $1\\ \\mathrm{\\mu s\\,cm^{-1}}$ one period would be $500\\ \\mathrm{cm}$ wide, so the screen shows only a tiny fraction of a cycle.",
+    "D": "At $10\\ \\mathrm{ns\\,cm^{-1}}$ the screen spans only $100\\ \\mathrm{ns}$, a minute fraction of the $0.5\\ \\mathrm{ms}$ period."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [
+   "quantities-and-measurement"
+  ],
+  "outcomes": [
+   "wave-motion.b",
+   "quantities-and-measurement.b"
+  ],
+  "primaryType": "practical",
+  "types": [
+   "practical",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires converting frequency to period and comparing with the screen width, with some prefix handling.",
+  "misconception": "Choosing a time-base without checking how many cycles fit on the screen",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q12",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The two supports must be nodes. Taking the distance between the supports as $L$, the wave shown (one loop) has wavelength $2L$, and the next possible stationary wave (two loops) has wavelength $L$.\n\nUsing $v = f\\lambda$ with the same wave speed: $f = \\dfrac{v}{2L}$ and $f' = \\dfrac{v}{L} = 2f$.",
+   "perOption": {
+    "A": "Correct. The next mode has two loops, halving the wavelength and doubling the frequency.",
+    "B": "$3f$ is the third harmonic; it skips the two-loop mode, as if only odd harmonics were allowed (as in a pipe closed at one end).",
+    "C": "$\\tfrac{1}{2}f$ would need wavelength $4L$, which cannot have nodes at both supports; the mode shown is already the lowest.",
+    "D": "$\\tfrac{3}{2}f$ would need 1.5 loops, leaving an antinode at a fixed support."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "superposition.b",
+   "superposition.c",
+   "wave-motion.d"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard harmonic reasoning for a string fixed at both ends, read off a simple diagram.",
+  "misconception": "Thinking only odd harmonics are allowed on a string fixed at both ends",
+  "transcription": "A wire is stretched between two supports and plucked. A stationary wave is formed as shown.\n\n[Diagram: a wire between two fixed supports vibrating in a single loop, with nodes at both supports and an antinode in the middle (solid and dashed curves show the extreme positions).]\n\nGiven that the frequency of the stationary wave shown above is $f$, what is the next possible frequency for a stationary wave to be formed in the setup?\n\nA $2f$\nB $3f$\nC $\\frac{1}{2}f$\nD $\\frac{3}{2}f$"
+ },
+ {
+  "id": "tmjc-2025-other-p1-q13",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "For a diffraction grating, $d\\sin\\theta = n\\lambda$. Coinciding maxima are at the same angle $\\theta$ for the same grating spacing $d$, so\n\n$3\\lambda_X = 5\\lambda_Y$\n\n$\\dfrac{\\lambda_X}{\\lambda_Y} = \\dfrac{5}{3}$",
+   "perOption": {
+    "A": "Has no basis in the orders given; the ratio follows from $3\\lambda_X = 5\\lambda_Y$.",
+    "B": "Inverts the ratio: $3/5$ is $\\lambda_Y/\\lambda_X$.",
+    "C": "Correct. $3\\lambda_X = 5\\lambda_Y$ gives $\\lambda_X/\\lambda_Y = 5/3$.",
+    "D": "$d$ and $\\sin\\theta$ are the same for both, so they cancel and the ratio can be found."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "One-line ratio from the grating equation; main risk is inverting the ratio.",
+  "misconception": "Inverting the ratio (higher order means shorter wavelength)",
+  "transcription": "Two monochromatic radiations X and Y of wavelengths $\\lambda_X$ and $\\lambda_Y$ respectively, are incident normally on a diffraction grating. The third order intensity maximum for X coincides with the fifth order intensity maximum for Y.\n\nWhat is the ratio of $\\dfrac{\\lambda_X}{\\lambda_Y}$?\n\nA $\\frac{1}{2}$\nB $\\frac{3}{5}$\nC $\\frac{5}{3}$\nD Not able to determine with given information."
+ },
+ {
+  "id": "tmjc-2025-other-p1-q14",
+  "keyPage": 4,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Use the first law of thermodynamics, $\\Delta U = Q + W$.\n\nThe container is insulated, so $Q = 0$, and $W$ (work done on the gas) is positive for a compression. Hence $\\Delta U$ is positive, so the internal energy and the temperature of the ideal gas increase.",
+   "perOption": {
+    "A": "$\\Delta U = 0 + W > 0$, so the internal energy increases.",
+    "B": "Correct. Positive work on the gas with no heat loss raises its internal energy and hence its temperature.",
+    "C": "The container is insulated, so $Q = 0$.",
+    "D": "In a compression, positive work is done on the gas (negative work is done by the gas)."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [
+   "temperature-and-ideal-gases"
+  ],
+  "outcomes": [
+   "thermodynamic-systems.f",
+   "thermodynamic-systems.a"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Direct application of the first law with the sign convention for work on the gas.",
+  "misconception": "Assuming an insulated gas keeps a constant temperature",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q15",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The blocks are identical, so the final temperature at thermal equilibrium is the midpoint, $50\\ ^{\\circ}\\mathrm{C}$. The hot block falls by $30\\ \\mathrm{K}$.\n\n$Q = mc\\Delta\\theta = 0.200 \\times 390 \\times 30 = 2340 \\approx 2300\\ \\mathrm{J}$",
+   "perOption": {
+    "A": "Correct. The hot block cools by 30 K to the 50 °C equilibrium temperature.",
+    "B": "Uses the full $60\\ \\mathrm{K}$ initial temperature difference instead of the $30\\ \\mathrm{K}$ drop of the hot block.",
+    "C": "Does not match the 30 K drop of the hot block; the change in temperature has been taken wrongly.",
+    "D": "Far too large; it uses a temperature change much greater than the 30 K drop of the hot block."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.c",
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Simple specific heat capacity calculation once the 50 °C equilibrium temperature is seen.",
+  "misconception": "Using the initial temperature difference instead of each block's temperature change",
+  "transcription": "Two identical blocks of copper, each of mass 0.20 kg, are at temperatures of 80 °C and 20 °C respectively. They are placed in thermal contact in an insulated container.\n\nThe specific heat capacity of copper is $390\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$.\n\nWhat is the amount of heat lost by the block that was initially at a higher temperature when thermal equilibrium is reached?\n\nA 2300 J\nB 4700 J\nC 7000 J\nD 12000 J"
+ },
+ {
+  "id": "tmjc-2025-other-p1-q16",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Mean kinetic energy is $\\tfrac{3}{2}kT$, so $(c_{rms})^2 \\propto T$.\n\n$\\dfrac{T_2}{T_1} = \\dfrac{(1.2\\,c_{rms})^2}{c_{rms}^2} = 1.44$\n\n$T_2 = 1.44 \\times 350 = 504 \\approx 500\\ \\mathrm{K}$",
+   "perOption": {
+    "A": "Treats a 20% increase as adding 20 K to the temperature.",
+    "B": "Does not follow from $T \\propto c_{rms}^2$; the temperature must rise by a factor of 1.44.",
+    "C": "Assumes $T \\propto c_{rms}$, giving $1.2 \\times 350 = 420\\ \\mathrm{K}$.",
+    "D": "Correct. $T \\propto c_{rms}^2$, so $T_2 = 1.2^2 \\times 350 \\approx 500\\ \\mathrm{K}$."
+   }
+  },
+  "issues": null,
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single proportionality step; the common trap is forgetting to square.",
+  "misconception": "Assuming temperature is proportional to r.m.s. speed rather than its square",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q17",
+  "keyPage": 5,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The force on a charge in the field is $F = qE$. The field is uniform, so $E$ is constant, and the proton and electron have the same magnitude of charge. So the proton experiences the same magnitude of force as the electron, making C the incorrect statement.\n\nThe other statements are correct. A: the electric force does positive work on both particles, and $W_{\\text{by field}} = -\\Delta U$, so both lose electric potential energy. B: the proton feels the same force but has a larger mass, so it has a smaller acceleration and a smaller deflection; the work done on it is smaller, giving a smaller $|\\Delta U|$. D: the proton loses less electric potential energy, so by conservation of energy it gains less kinetic energy.",
+   "perOption": {
+    "A": "True statement: the field does positive work on both particles, so both lose electric potential energy.",
+    "B": "True statement: equal force but larger mass gives a smaller deflection, so less work is done and $|\\Delta U|$ is smaller.",
+    "C": "Correct (this is the incorrect statement). $F = qE$ is the same in magnitude for both, since $|q|$ and $E$ are equal.",
+    "D": "True statement: the proton loses less potential energy, so by conservation of energy it gains less kinetic energy."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "electric-fields.h",
+   "electric-fields.i",
+   "energy-and-fields.i"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires separating force (same) from deflection and energy change (smaller for the heavier proton) and spotting the 'incorrect' wording.",
+  "misconception": "Thinking a heavier particle feels a smaller electric force",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q18",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Both resistors are connected directly across the supply, so they are in parallel.\n\n$R_{\\text{eff}} = \\left(\\dfrac{1}{1300} + \\dfrac{1}{1900}\\right)^{-1} = 772\\ \\Omega$\n\n$I = \\dfrac{240}{772} = 0.31\\ \\mathrm{A}$\n\n$P_{\\text{total}} = \\dfrac{240^2}{1300} + \\dfrac{240^2}{1900} = 75\\ \\mathrm{W}$",
+   "perOption": {
+    "A": "Treats the resistors as being in series: $240/3200 = 0.075\\ \\mathrm{A}$ and $240^2/3200 = 18\\ \\mathrm{W}$.",
+    "B": "Series current $240/3200 = 0.075\\ \\mathrm{A}$ is wrong; the resistors are in parallel.",
+    "C": "Series power $240^2/3200 = 18\\ \\mathrm{W}$ is wrong; each parallel resistor has the full 240 V across it.",
+    "D": "Correct. In parallel, $I = 240/772 = 0.31\\ \\mathrm{A}$ and $P = 75\\ \\mathrm{W}$."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [
+   "currents"
+  ],
+  "outcomes": [
+   "circuits.i",
+   "circuits.b",
+   "currents.d"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The unusual circular layout disguises a simple parallel connection, which must be recognised before calculating.",
+  "misconception": "Assuming resistors drawn one after another are in series",
+  "transcription": "The diagram shows two resistors connected to a 240 V power supply of negligible internal resistance.\n\n[Diagram: a circular outer wire. A 1300 Ω resistor runs from the top of the circle to a small central ring; a 1900 Ω resistor runs from the central ring to the right side of the circle. The 240 V supply connects the central ring to the lower-left of the circle. Both resistors therefore connect between the outer circle and the central node, i.e. in parallel across the supply.]\n\nWhat is the current supplied by the power supply and total power dissipated by the resistors?\n\n| | current / A | total power dissipated / W |\n|---|---|---|\n| A | 0.075 | 18 |\n| B | 0.075 | 75 |\n| C | 0.31 | 18 |\n| D | 0.31 | 75 |"
+ },
+ {
+  "id": "tmjc-2025-other-p1-q19",
+  "keyPage": 5,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "At about $2.4\\ \\mathrm{V}$ the graphs of the diode and the lamp intersect, so they have the same $V$ and $I$ there.\n\nSince $R = V/I$, the diode and the lamp have the same resistance at that voltage.",
+   "perOption": {
+    "A": "Above 1.8 V the diode's graph is roughly straight but does not pass through the origin, so $V/I$ still changes.",
+    "B": "At 2.0 V the lamp has $2.0/0.4 = 5\\ \\Omega$ and the resistor $2.0/0.2 = 10\\ \\Omega$, so the lamp's resistance is half, not twice.",
+    "C": "Correct. The lamp and diode curves cross near 2.4 V, so $V/I$ is equal there.",
+    "D": "At 2.0 V the diode and resistor share a point (10 Ω), but the lamp is at 0.4 A (5 Ω); no voltage has all three equal."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.c",
+   "circuits.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires reading several curves and using $R = V/I$ rather than the gradient.",
+  "misconception": "Taking resistance as the gradient of the I–V graph",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q20",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The voltmeter measures the p.d. across the fixed resistor, which is in series with the LDR and thermistor (in parallel). For the voltmeter reading to be highest, the combined resistance of the thermistor and LDR must be lowest (potential divider principle).\n\nHigh brightness (high light intensity) gives the LDR its lowest resistance, and high temperature gives the NTC thermistor its lowest resistance.",
+   "perOption": {
+    "A": "Low temperature gives the thermistor a high resistance, so the fixed resistor gets a smaller share of the e.m.f.",
+    "B": "Correct. Both the LDR and the thermistor have their lowest resistance, so the fixed resistor takes the largest p.d.",
+    "C": "Low brightness and low temperature both raise the resistances, giving the lowest voltmeter reading.",
+    "D": "Low brightness gives the LDR a high resistance, so the fixed resistor gets a smaller share of the e.m.f."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.f",
+   "circuits.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Combines LDR and NTC thermistor behaviour with a potential divider in which the voltmeter is across the fixed resistor.",
+  "misconception": "Thinking the voltmeter reading rises when the sensor resistances rise, regardless of where it is connected",
+  "transcription": "NTC thermistors and light-dependent resistors (LDR) are often used in circuits which requires resistance to vary according to temperature and light intensity respectively.\n\nBelow shows such a circuit.\n\n[Circuit diagram: a cell in series with (i) an LDR and an NTC thermistor connected in parallel with each other, and (ii) a fixed resistor. A voltmeter V is connected across the fixed resistor.]\n\nWhat conditions will produce the highest reading on the voltmeter?\n\n| | brightness | temperature |\n|---|---|---|\n| A | high | low |\n| B | high | high |\n| C | low | low |\n| D | low | high |"
+ },
+ {
+  "id": "tmjc-2025-other-p1-q21",
+  "keyPage": 6,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The electron moves to the left, so the equivalent conventional current (middle finger) is to the right.\n\nUsing the right-hand grip rule for the upward current in the wire, the magnetic field at the electron (left of the wire) is out of the paper.\n\nApplying Fleming's left-hand rule with field out of the paper and conventional current to the right, the force on the electron is vertically downwards.",
+   "perOption": {
+    "A": "The force must be perpendicular to the field, which is into/out of the paper here, so it cannot be into the paper.",
+    "B": "Out of the paper is the direction of the magnetic field at the electron, not of the force.",
+    "C": "Correct. Field out of paper, conventional current to the right, so the force is downwards.",
+    "D": "This is the force on a positive charge moving left; the electron's negative charge reverses it."
+   }
+  },
+  "issues": "The school's working is cut off mid-sentence ('force on electron'); the final step (force vertically downwards) was completed to match the key letter C. The key also says 'Flemming's left hand grip rule', rewritten as Fleming's left-hand rule.",
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.b",
+   "electromagnetic-forces.j"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Two direction rules in sequence plus reversing for the negative charge.",
+  "misconception": "Forgetting to reverse the current direction for a negative charge",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q22",
+  "keyPage": 6,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "For the wire to start to lift off, the magnetic force must equal the weight of the wire.\n\n$mg = BIL\\sin\\theta$\n\n$0.004(9.81) = 0.040(0.30)(\\sin 30^\\circ)\\,I$\n\n$I = 6.54 \\approx 6.5\\ \\mathrm{A}$",
+   "perOption": {
+    "A": "Ignores the angle (takes $\\sin\\theta = 1$), giving 3.3 A.",
+    "B": "Correct. $I = mg/(BL\\sin 30^\\circ) = 6.5\\ \\mathrm{A}$.",
+    "C": "Uses 0.04 kg instead of 0.004 kg for 4.0 g and also ignores the $\\sin 30^\\circ$ factor.",
+    "D": "Uses 0.04 kg instead of 0.004 kg for the 4.0 g mass."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "electromagnetic-forces.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs to realise the horizontal field gives a vertical force and use the 30° angle between wire and field.",
+  "misconception": "Ignoring the angle between the wire and the field",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q23",
+  "keyPage": 6,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The induced e.m.f. is $\\varepsilon = BLv\\cos\\theta$, where $v$ is the rod's speed at the bottom of the slope (only the component of velocity perpendicular to the vertical field counts).\n\nTo find $v$: $v^2 = u^2 + 2as = 0 + 2(g\\sin\\theta)y$, so $v = \\sqrt{2yg\\sin\\theta}$.\n\nHence $\\varepsilon = BL\\sqrt{2yg}\\,\\left(\\sqrt{\\sin\\theta}\\right)\\cos\\theta$.\n\nEvaluating $\\sqrt{\\sin\\theta}\\cos\\theta$: $35^\\circ$ gives $0.620$, $40^\\circ$ gives $0.614$, $45^\\circ$ gives $0.595$, $50^\\circ$ gives $0.563$. So $35^\\circ$ gives the largest e.m.f.",
+   "perOption": {
+    "A": "Correct. $\\sqrt{\\sin\\theta}\\cos\\theta = 0.620$ is the largest of the four.",
+    "B": "$\\sqrt{\\sin 40^\\circ}\\cos 40^\\circ = 0.614$, slightly smaller than at $35^\\circ$.",
+    "C": "$\\sqrt{\\sin 45^\\circ}\\cos 45^\\circ = 0.595$; maximising $\\sin\\theta\\cos\\theta$ (forgetting the square root on speed) would wrongly favour $45^\\circ$.",
+    "D": "$\\sqrt{\\sin 50^\\circ}\\cos 50^\\circ = 0.563$; a steeper slope gives more speed but a smaller perpendicular velocity component."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "motion-and-forces"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Combines kinematics on an incline with the perpendicular velocity component in the e.m.f., then compares a non-obvious trade-off.",
+  "misconception": "Using the full speed rather than the component perpendicular to the field",
+  "transcription": "A conducting rod of length $L$ is released from rest at the top of a smooth sloping surface. The surface has a fixed length $y$, but the angle $\\theta$ of the slope to the horizontal can be varied. There is a uniform magnetic field of flux density $B$ throughout the region of the sloping surface directed vertically downwards.\n\n[Diagram: 3D view of a wedge with a horizontal rod lying across the slope, moving down the slope of length $y$ at angle $\\theta$ to the horizontal; $B$ points vertically downwards. A side view shows the rod on the incline moving down the slope, with $B$ vertically downwards.]\n\nWhich value of $\\theta$ will induce the largest e.m.f. in the rod when it reaches the bottom of the slope?\n\nA $35^\\circ$\nB $40^\\circ$\nC $45^\\circ$\nD $50^\\circ$"
+ },
+ {
+  "id": "tmjc-2025-other-p1-q24",
+  "keyPage": 7,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Inserting an iron core concentrates the magnetic field lines and gives better flux linkage between coils P and Q. The flux linkage through both coils is larger, so the amplitude of the voltage induced in coil Q increases, while the frequency stays at 50 Hz.",
+   "perOption": {
+    "A": "Increasing the frequency raises the amplitude in Q (faster rate of change of flux linkage), but the number of cycles per unit time also increases.",
+    "B": "According to the school, decreasing the cross-sectional area of coil P does not change the flux density it produces, so the flux linkage does not increase.",
+    "C": "Fewer turns in Q gives a lower amplitude, since $V_Q/V_P = N_Q/N_P$.",
+    "D": "Correct. The iron core increases the flux linkage without changing the frequency."
+   }
+  },
+  "issues": "Key's reason for option B (no change in flux linkage) is debatable: a smaller coil P would reduce the flux linking Q. Either way B does not increase the amplitude, so the answer D is unaffected.",
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [
+   "electromagnetic-forces"
+  ],
+  "outcomes": [
+   "electromagnetic-induction.e",
+   "electromagnetic-induction.f",
+   "electromagnetic-forces.d"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires keeping frequency fixed while increasing induced e.m.f., ruling out the tempting frequency change.",
+  "misconception": "Forgetting that changing supply frequency also changes the trace's frequency",
+  "transcription": null
+ },
+ {
+  "id": "tmjc-2025-other-p1-q25",
+  "keyPage": 7,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Mean power is $V_{\\text{rms}}^2/R$ for each waveform:\n\nA (sinusoid): $\\dfrac{(60/\\sqrt{2})^2}{8.0} = 225\\ \\mathrm{W}$\n\nB (half-wave sinusoid): $\\tfrac{1}{2}(225) = 112.5\\ \\mathrm{W}$\n\nC (square wave): $\\dfrac{60^2}{8.0} = 450\\ \\mathrm{W}$\n\nD (square wave, on half the time): $\\tfrac{1}{2}(450) = 225\\ \\mathrm{W}$\n\nOnly C gives $450\\ \\mathrm{W}$.",
+   "perOption": {
+    "A": "A sinusoid of peak 60 V has $V_{\\text{rms}} = 60/\\sqrt{2}$, giving only 225 W.",
+    "B": "The half-wave sinusoid gives half of 225 W, i.e. 112.5 W.",
+    "C": "Correct. A ±60 V square wave has $V_{\\text{rms}} = 60\\ \\mathrm{V}$, so $P = 60^2/8.0 = 450\\ \\mathrm{W}$.",
+    "D": "The voltage is zero for half of each cycle, so the mean power is half of 450 W, i.e. 225 W."
+   }
+  },
+  "issues": null,
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.f",
+   "currents.h",
+   "currents.i"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires finding r.m.s. values for sinusoidal, rectified and square waveforms.",
+  "misconception": "Treating every waveform's peak as if it were its r.m.s. value",
+  "transcription": null
+ }
+]

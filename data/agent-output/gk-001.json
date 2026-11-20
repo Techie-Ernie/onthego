@@ -1,0 +1,517 @@
+[
+  {
+    "id": "acjc-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A car of mass about $2000\\ \\mathrm{kg}$ travelling at $100\\ \\mathrm{km\\,h^{-1}}\\approx28\\ \\mathrm{m\\,s^{-1}}$ has kinetic energy $\\tfrac12mv^2=0.784\\ \\mathrm{MJ}$, so $100\\ \\mathrm{MJ}$ is unrealistic. An A4 sheet measures $210\\ \\mathrm{mm}\\times297\\ \\mathrm{mm}$, giving an area of $0.062\\ \\mathrm{m^2}$ and a mass of about $5.0\\ \\mathrm{g}$ at $80\\ \\mathrm{g\\,m^{-2}}$.",
+      "perOption": {
+        "A": "A laptop can draw about $50\\ \\mathrm W$, so this is realistic.",
+        "B": "Correct. The estimate is over 100 times the example’s kinetic energy.",
+        "C": "Standard $80\\ \\mathrm{g\\,m^{-2}}$ A4 paper has a mass of about $5\\ \\mathrm g$ per sheet.",
+        "D": "$500\\ \\mathrm K$ is about $227\\,^\\circ\\mathrm C$, a plausible temperature for an iron’s heating element."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The car estimate requires a familiar mass and speed plus one kinetic-energy calculation.",
+    "misconception": "Overestimating everyday kinetic energy",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top, the vertical velocity is zero and the speed is $u\\cos\\theta$, where $u$ is the launch speed. The kinetic-energy ratio is $\\frac{\\tfrac12m(u\\cos\\theta)^2}{\\tfrac12mu^2}=\\cos^2\\theta$, so the kinetic energy there is $E\\cos^2\\theta$.",
+      "perOption": {
+        "A": "Uses the horizontal speed factor without squaring it.",
+        "B": "Uses the vertical launch component, which has fallen to zero at the top.",
+        "C": "Correct.",
+        "D": "Keeps the full launch kinetic energy even though the vertical component of velocity has fallen to zero."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must identify the surviving velocity component and square it in the kinetic-energy ratio.",
+    "misconception": "Scaling kinetic energy linearly with speed",
+    "transcription": "A cannon ball is launched at an angle $\\theta$ above the horizontal with an initial kinetic energy $E$. Assume air resistance is negligible.\n\nWhat is the kinetic energy of the cannon ball at the top of its trajectory?\n\nA $E\\cos\\theta$\nB $E\\sin^2\\theta$\nC $E\\cos^2\\theta$\nD $E$"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $1.4\\ \\mathrm{m\\,s^{-1}}$, air resistance balances the downhill component of weight, so $1.4k=(80.0)(9.81)\\sin 5^\\circ$ and $k=48.857\\ \\mathrm{N\\,s\\,m^{-1}}$. At $5.5\\ \\mathrm{m\\,s^{-1}}$, the air resistance is $(5.5)(48.857)=268.71\\ \\mathrm N$. The additional downhill force is $268.71-(80.0)(9.81)\\sin5^\\circ=200\\ \\mathrm N$ to two significant figures.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Adds the downhill weight component to the uphill drag magnitude.",
+        "C": "Using the full weight in place of its downslope component inflates the calculated drag and the required force.",
+        "D": "Using nearly the full weight to infer the drag and then adding gravity instead of subtracting it inflates the result further."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.b",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use force balance at both speeds and scale the drag between them.",
+    "misconception": "Adding gravity and drag as if they act in the same direction",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant speed the compression is $x_1=10.0-7.5=2.5\\ \\mathrm{cm}$ and $mg=kx_1$. While the container slows, its acceleration is downward and $mg-kx_2=ma$. Substituting $mg=kx_1$ and dividing by $mg$ gives $a/g=(x_1-x_2)/x_1$, so $x_2=1.99\\ \\mathrm{cm}\\approx2.0\\ \\mathrm{cm}$. The new length is $10.0-2.0=8.0\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Treats the acceleration as upward and increases the compression.",
+        "B": "Correct.",
+        "C": "Adds the reduced compression to the natural length as though the spring were stretched.",
+        "D": "Adds an increased compression to the natural length, reversing both the acceleration and the deformation."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.c",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must determine the acceleration direction and eliminate the spring constant using the initial compression.",
+    "misconception": "Treating upward motion as upward acceleration",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The angle between the incoming and outgoing velocity vectors is $45^\\circ$. The cosine rule gives $(\\Delta v)^2=20^2+15^2-2(20)(15)\\cos45^\\circ$, so $\\Delta v=14.2\\ \\mathrm{m\\,s^{-1}}$. The impulse magnitude is $\\Delta p=m\\Delta v=(0.140)(14.2)=2.0\\ \\mathrm{N\\,s}$ to two significant figures.",
+      "perOption": {
+        "A": "Uses only the vertical change in momentum.",
+        "B": "Correct.",
+        "C": "Adds the two momentum magnitudes as if the velocity reversed along a straight line.",
+        "D": "Overstates the vector change, which is bounded by the sum of the initial and final momentum magnitudes of $4.9\\ \\mathrm{N\\,s}$."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.g",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify the angle between velocity vectors and use their vector difference to calculate impulse.",
+    "misconception": "Ignoring the horizontal change in momentum",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For X, Y and Z together, $F=6ma$. For X alone, $F-F_{Y\\to X}=ma$, so $F_{Y\\to X}=5ma=\\tfrac56F$. By Newton’s third law, the force of X on Y has the same magnitude.",
+      "perOption": {
+        "A": "Gives the resultant force on X.",
+        "B": "Gives the contact force accelerating Z alone.",
+        "C": "Correct.",
+        "D": "Assigns the entire applied force to the contact even though X also accelerates."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must apply Newton’s laws to the whole system and to one block in isolation.",
+    "misconception": "Confusing the net force on a block with the contact force",
+    "transcription": "Three blocks X, Y and Z of masses $m$, $2m$ and $3m$ respectively, are accelerated along a smooth horizontal surface by a force $F$ applied to block X as shown in the diagram below.\n\n[Blocks X, Y and Z touch in that order from left to right on a smooth horizontal surface. A rightward arrow labelled $F$ points at the left face of X.]\n\nWhat is the force exerted on Y by X?\n\nA $\\frac{1}{6}F$\nB $\\frac{1}{2}F$\nC $\\frac{5}{6}F$\nD $F$"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the point where the beam contacts the wall. For beam length $L$ and weight $W$, the clockwise and anticlockwise moments balance when $(T\\cos30^\\circ)(L\\sin60^\\circ)=(T\\sin30^\\circ)(L\\cos60^\\circ)+\\tfrac12W(L\\sin60^\\circ)$. With $W=(10)(9.81)\\ \\mathrm N$, this gives $T=85\\ \\mathrm N$ to two significant figures.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Balancing the vertical tension component against the full weight gives about $110\\ \\mathrm N$ and overlooks the wall’s friction.",
+        "C": "This tension gives too large a clockwise moment after both tension components are included.",
+        "D": "Uses the full horizontal span as the weight’s lever arm even though the weight acts at the midpoint."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must determine the lever arms and opposing moments of both tension components and the beam’s weight.",
+    "misconception": "Using the full beam length for the weight’s lever arm",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $r$ be the hemisphere’s radius. Conservation of energy between P and T gives $mgr=\\tfrac12m(4.0)^2$, so $gr=8\\ \\mathrm{m^2\\,s^{-2}}$. When $75\\%$ of the initial gravitational potential energy remains, $mgr=mg(3r/4)+\\tfrac12mv^2$. This gives $v^2=gr/2$ and $v=2.0\\ \\mathrm{m\\,s^{-1}}$, the speed at R.",
+      "perOption": {
+        "A": "Uses one-quarter of the final speed as though kinetic energy were proportional to speed.",
+        "B": "Correct.",
+        "C": "Uses three-quarters of the final speed even though the remaining fraction refers to gravitational potential energy.",
+        "D": "Overlooks that the calculated speed is listed at R."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must infer the mass’s speed from the fraction of potential energy converted to kinetic energy.",
+    "misconception": "Assuming kinetic energy is proportional to speed",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The tape speed is $v=r\\omega$. With constant $\\omega$ and a radius that decreases at a steady rate, the graph is a straight line with a negative gradient. The speed stays above zero while the radius is positive.",
+      "perOption": {
+        "A": "Confuses constant angular velocity with constant tape speed.",
+        "B": "Shows the speed dropping more slowly over time, which would require the radius to shrink more slowly.",
+        "C": "Correct.",
+        "D": "Shows the speed dropping faster over time, which would require the radius to shrink faster."
+      }
+    },
+    "issues": "The key writes $v\\propto r\\propto t$, although $r$ decreases linearly with time from a nonzero initial value. The key’s graph and answer are correct.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must translate the steady decrease in radius into the shape of a speed–time graph.",
+    "misconception": "Equating constant angular velocity with constant linear speed",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "All geostationary satellites have the same orbital radius and angular speed $\\omega=2\\pi/T$, so they have the same linear speed $v=r\\omega$. Equating $mr\\omega^2=GMm/r^2$ gives $T^2=4\\pi^2r^3/(GM)$. With $T=24\\times60\\times60\\ \\mathrm s$ and the given Earth mass, $r=4.231\\times10^7\\ \\mathrm m$. The height above Earth’s surface is $h=r-R$.",
+      "perOption": {
+        "A": "A geostationary satellite must stay above a fixed point on the equator.",
+        "B": "A geostationary orbit must follow Earth’s eastward rotation.",
+        "C": "Uses the orbital radius $4.231\\times10^7\\ \\mathrm m$ as the height without subtracting Earth’s radius.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.k",
+      "gravitational-fields.j",
+      "circular-motion.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify the shared geostationary orbit and distinguish its radius from its altitude.",
+    "misconception": "Confusing orbital radius with height above Earth",
+    "transcription": "A satellite of mass $150\\ \\mathrm{kg}$ is launched into a geostationary orbit around the Earth. The Earth has a radius of $6.4\\times10^3\\ \\mathrm{km}$ and a mass of $6.0\\times10^{24}\\ \\mathrm{kg}$.\n\nWhich statement is correct?\n\nA The satellite need not be above the equator.\nB The satellite is launched in the westerly direction.\nC The height of the orbit from the surface of the Earth is $4.23\\times10^7\\ \\mathrm m$.\nD All geostationary satellites must have the same orbital radius and linear speed."
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity provides the centripetal force on both stars, so $Md\\omega^2=3MD\\omega^2=GM(3M)/(d+D)^2$. Comparing the two centripetal expressions gives $d=3D$. Substituting into the equation for the $3M$ star gives $\\omega^2=GM/(16D^3)$. The total kinetic energy is $\\tfrac12M(d\\omega)^2+\\tfrac12(3M)(D\\omega)^2=6MD^2\\omega^2=3GM^2/(8D)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats $3D$ as the separation and applies the single-orbit expression $GM(3M)/[2(3D)]$.",
+        "C": "Treats $D$ as the separation and applies the single-orbit expression $GM(3M)/(2D)$.",
+        "D": "Adds two single-orbit expressions using $3D$ and $D$ separately as the separation."
+      }
+    },
+    "issues": "The printed letter and the start of the solution are on page 2. Page 3 contains the kinetic-energy calculation and distractor working.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion",
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must relate the two orbital radii through their common gravitational force, then calculate both kinetic energies.",
+    "misconception": "Using a star’s orbital radius as the separation in the gravitational force",
+    "transcription": "A binary star is a system of two stars that orbit around each other with angular velocity $\\omega$ about their centre of mass. The stars have masses $M$ and $3M$ respectively and the distances of stars from their centre of mass are $d$ and $D$ respectively.\n\n[The centre of mass lies on the line between star $M$ at upper left and star $3M$ at lower right. The distances from it to $M$ and $3M$ are labelled $d$ and $D$, respectively. Curved arrows labelled $\\omega$ indicate the same anticlockwise rotation. Not to scale.]\n\nWhich expression gives the total kinetic energy of the two stars?\n\nA $\\frac{3GM^2}{8D}$\nB $\\frac{GM^2}{2D}$\nC $\\frac{3GM^2}{2D}$\nD $\\frac{2GM^2}{D}$"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "All three objects are at the same temperature and are in thermal equilibrium. Their heat capacities differ, and equal temperatures alone do not imply equal internal energies. Energy can still be exchanged in both directions at thermal equilibrium, with zero net transfer.",
+      "perOption": {
+        "A": "Assumes equal temperatures guarantee equal internal energies for different materials and masses.",
+        "B": "Confuses zero net transfer with the absence of any exchange.",
+        "C": "Infers temperature from touch even though all three temperatures are equal.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key treats different heat capacities as proof of different internal energies. The given information supports only that equal temperature does not guarantee equal internal energy.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish temperature, internal energy and net energy transfer at equilibrium.",
+    "misconception": "Confusing zero net energy transfer with no exchange",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "With the amount of gas and temperature constant, $pV=nRT$ gives $p_1V_1=p_2V_2$. The pressures at the bottom and surface are equivalent to $30\\ \\mathrm m$ and $10\\ \\mathrm m$ of water, respectively. Thus $30V_1=10V_2$ and $V_2=3V_1$.",
+      "perOption": {
+        "A": "Uses the water pressure alone at the bottom and omits the atmospheric contribution there.",
+        "B": "Correct.",
+        "C": "Reverses the pressure–volume relation and predicts compression as the bubble rises.",
+        "D": "Assumes constant temperature implies constant volume even though pressure decreases."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must include atmospheric pressure at both depths and use the inverse pressure–volume relation.",
+    "misconception": "Ignoring atmospheric pressure at the bottom",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Square the five speeds and take their mean. The root mean square speed is $\\sqrt{\\frac{250^2+300^2+400^2+100^2+500^2}{5}}=340\\ \\mathrm{m\\,s^{-1}}$ to two significant figures.",
+      "perOption": {
+        "A": "Divides by five after taking the square root.",
+        "B": "Underestimates the root mean square, which must be at least as large as the arithmetic mean of $310\\ \\mathrm{m\\,s^{-1}}$.",
+        "C": "Correct.",
+        "D": "Takes the square root of the sum of squares without dividing by five first."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The speeds can be substituted directly into the definition of root mean square speed.",
+    "misconception": "Taking the average outside the square root",
+    "transcription": "Five gas molecules have the following velocities:\n\nvelocity / $\\mathrm{m\\,s^{-1}}$ | 250 | 300 | 400 | 100 | 500\n\nWhat is the root mean square speed?\n\nA $150\\ \\mathrm{m\\,s^{-1}}$\nB $270\\ \\mathrm{m\\,s^{-1}}$\nC $340\\ \\mathrm{m\\,s^{-1}}$\nD $750\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top of the motion, the downward force equation is $ma=mg-N$. At the limiting amplitude $N=0$, so $m\\omega^2x_0=mg$. Hence $x_0=g/\\omega^2=g/(2\\pi f)^2=9.81/[4\\pi^2(2.0)^2]=6.2\\ \\mathrm{cm}$ to two significant figures.",
+      "perOption": {
+        "A": "Chooses an amplitude for which the normal force still remains well above zero at the top.",
+        "B": "Sets the limit at a downward acceleration below free fall, so the object still presses on the platform.",
+        "C": "Correct.",
+        "D": "Requires a downward acceleration greater than gravity at the top, so the object loses contact."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must identify the zero-normal-force threshold and link it to the largest downward SHM acceleration.",
+    "misconception": "Missing the zero-normal-force condition at the contact limit",
+    "transcription": null
+  }
+]

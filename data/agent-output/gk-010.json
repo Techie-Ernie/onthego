@@ -1,0 +1,516 @@
+[
+  {
+    "id": "asrjc-2022-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "P is at a crest and its transverse speed is zero. The displacement of Q varies sinusoidally with time. At the trough R the speed is zero, so its kinetic energy is zero. At S the displacement is greatest in magnitude, and $a=-\\omega^2x$ gives the greatest acceleration magnitude.",
+      "perOption": {
+        "A": "P is at a crest where its transverse speed is zero.",
+        "B": "Q passes through equilibrium and continues to oscillate.",
+        "C": "R has zero transverse speed at the trough, so its kinetic energy is zero.",
+        "D": "Correct. S has maximum acceleration magnitude."
+      }
+    },
+    "issues": "The key calls the energy at R entirely potential. In an ideal stretched string the local elastic energy density also vanishes at the trough because the slope is zero. D is valid when acceleration means magnitude.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.a",
+      "wave-motion.e",
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer instantaneous motion from a spatial snapshot.",
+    "misconception": "Treating a zero crossing as a fixed node",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Intensity is proportional to amplitude squared. The bright fringe has $I_o\\propto(2A+A)^2$ and the dark fringe has $I\\propto(2A-A)^2$. Thus $I/I_o=(A/3A)^2=1/9$.",
+      "perOption": {
+        "A": "Complete cancellation requires equal amplitudes.",
+        "B": "The factor of two compares the individual slit amplitudes and gives no fringe intensity ratio.",
+        "C": "This squares the ratio of the individual slit amplitudes in place of the resultant amplitudes.",
+        "D": "Correct. The dark-fringe intensity is one ninth of the bright-fringe intensity."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.a",
+      "superposition.f",
+      "wave-motion.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine unequal amplitudes before squaring their ratio.",
+    "misconception": "Assuming all destructive interference gives zero intensity",
+    "transcription": "In a double-slit interference experiment, one slit transmits waves of twice the amplitude compared to the other slit. The intensity at one of the bright fringes on the screen is $I_o$.\n\nWhat is the intensity at the dark fringe closest to this bright fringe?\n\nA zero\nB $I_o/2$\nC $I_o/4$\nD $I_o/9$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=r\\theta$, the angular separation is $\\theta=25/(335\\times10^3)=7.46\\times10^{-5}\\ \\mathrm{rad}$, or $7.5\\times10^{-5}\\ \\mathrm{rad}$. The minimum angle of resolution is $\\theta_m\\approx\\lambda/b=(500\\times10^{-9})/(200\\times10^{-3})=2.5\\times10^{-6}\\ \\mathrm{rad}$. The images are resolved because the angular separation exceeds this minimum.",
+      "perOption": {
+        "A": "The angle quoted is the resolution limit.",
+        "B": "Correct. The panel separation exceeds the resolution limit.",
+        "C": "This substitutes the resolution limit for the larger actual separation.",
+        "D": "The quoted separation exceeds the minimum needed for resolution."
+      }
+    },
+    "issues": "The key assumes an overhead view and panel separation transverse to the line of sight. It uses the syllabus approximation for the resolution limit.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must calculate the observed angle and compare it with the diffraction limit.",
+    "misconception": "Confusing angular separation with the resolution limit",
+    "transcription": "A space station orbits at a height of 335 km above the surface of the Earth. It carries two panels separated by a distance of 25 m. The panels reflect light of wavelength 500 nm towards an observer on the Earth’s surface.\n\nThe observer views the panels with a telescope that has an aperture diameter of 200 mm. Assume that the panels act as point sources of light for the observer.\n\nWhich of the following is correct?\n\nWill the two images seen by the observer be resolved? | Angular separation of two panels as measured from aperture / rad\nA Yes | $2.5\\times10^{-6}$\nB Yes | $7.5\\times10^{-5}$\nC No | $2.5\\times10^{-6}$\nD No | $7.5\\times10^{-5}$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric force on P must initially act upwards to balance its weight, so the upper plate is at lower potential than the lower plate. Reducing the voltage makes P fall towards the higher-potential plate, so its electric potential energy increases during the fall. Its gravitational potential energy decreases as it loses height.",
+      "perOption": {
+        "A": "During the fall the positive charge moves towards higher electric potential.",
+        "B": "Correct. The fall raises electric potential energy and lowers gravitational potential energy.",
+        "C": "During the rise the positive charge moves towards lower electric potential.",
+        "D": "After the voltage change the two forces have different magnitudes and do unequal amounts of work over the same displacement."
+      }
+    },
+    "issues": "The key describes the motion after adjusting the voltage. Comparing the electric potential energy across the voltage adjustment itself would require a common reference for the plate potentials.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.h",
+      "electric-fields.i",
+      "energy-and-fields.i",
+      "energy-and-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the field direction from equilibrium and track both potential energies.",
+    "misconception": "Confusing reduced plate voltage with reduced particle potential energy",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric field strength is the negative potential gradient, $E=-\\mathrm{d}V/\\mathrm{d}x$. From P to the $0\\ \\mathrm{V}$ line, successive drops of $100\\ \\mathrm{V}$ occur over increasing distances, so the field weakens. From the centre towards Q the distances for the same potential drops decrease, so the field strengthens.",
+      "perOption": {
+        "A": "Correct. The field is weakest at the centre.",
+        "B": "This misses the strengthening field where the equipotentials close up near Q.",
+        "C": "This makes the field strongest where the equipotentials are farthest apart.",
+        "D": "This misses the weakening field where the equipotentials spread out away from P."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must translate spacings between equipotentials into a field profile.",
+    "misconception": "Reading field strength from potential instead of its gradient",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The metal wire at constant temperature has constant resistance, giving straight line Y. The filament lamp’s resistance rises with potential difference, giving Z. The diode begins conducting appreciably at about $0.3$–$0.7\\ \\mathrm{V}$ in forward bias, after which the current rises steeply as in X.",
+      "perOption": {
+        "A": "This assigns the diode’s threshold to the metal wire and the straight line to the lamp.",
+        "B": "Correct. Wire, diode and lamp are Y, X and Z respectively.",
+        "C": "This swaps the diode’s threshold curve and the lamp’s flattening curve.",
+        "D": "This swaps the constant-resistance wire and the filament lamp whose resistance rises."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise three standard current–voltage characteristics.",
+    "misconception": "Confusing diode turn-on with filament heating",
+    "transcription": "The graphs show the variation with potential difference $V$ of the current $I$ for three circuit components.\n\n[Three graphs with $I$ vertical and $V$ horizontal. Graph X stays near zero up to a positive voltage and then rises steeply. Graph Y is a straight line through the origin. Graph Z rises from the origin and gradually flattens.]\n\nThe components are a metal wire at constant temperature, a semiconductor diode and a filament lamp.\n\nWhich row correctly identifies these graphs?\n\nMetal wire at constant temperature | Semiconductor diode | Filament lamp\nA X | Z | Y\nB Y | X | Z\nC Y | Z | X\nD Z | X | Y"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "No current flows through the ideal voltmeter, so $I_1=I_2$ and the ammeter reads $I_2$. The voltmeter measures the drop across $R_1$, which equals the drop across the parallel branch containing $R_2$. The loop rule gives $V=I_2R_1=I_3R_2=E-I_4R_3$.",
+      "perOption": {
+        "A": "$I_1$ is a valid current reading, but $I_4R_3+I_3R_2$ gives the full battery e.m.f.",
+        "B": "The proposed current includes other branches and the proposed voltage ignores the drop across $R_3$.",
+        "C": "Correct. The readings are $I_2$ and $E-I_4R_3$.",
+        "D": "The voltage is right, but $I_1+I_3$ includes the current in the parallel branch."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must trace current through ideal meters and follow potential differences around the circuit.",
+    "misconception": "Counting other branches in the ammeter reading",
+    "transcription": "The figure below shows a circuit that comprises of a battery, 3 resistors, an ideal voltmeter and an ideal ammeter. The electromotive force (e.m.f.) of the battery is $E$.\n\n[Three branches connect two rails. The top branch contains battery $E$ with its positive terminal on the left and resistor $R_3$ in series, with $I_4$ directed left. The middle branch contains $R_2$ with $I_3$ directed right. On the lower left, $I_1$ heads down to a junction. The ideal voltmeter is in parallel with $R_1$, through which $I_2$ is directed right. Their right junction connects to the right rail through the ideal ammeter.]\n\nWhich of the following shows the correct expression for the ammeter reading and voltmeter reading?\n\nAmmeter reading / A | Voltmeter reading / V\nA $I_1$ | $I_4R_3+I_3R_2$\nB $I_3+I_4$ | $E$\nC $I_2$ | $E-I_4R_3$\nD $I_1+I_3$ | $I_2R_1$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force on XY must be downwards to balance the moment of the rider’s weight. With the current flowing from X to Y, Fleming’s left-hand rule gives a field directed to the right.",
+      "perOption": {
+        "A": "A downward field gives a sideways force.",
+        "B": "The leftward field gives an upward force.",
+        "C": "An upward field gives a sideways force.",
+        "D": "Correct. The rightward field gives a downward force."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the balancing force and apply Fleming’s left-hand rule to the perspective drawing.",
+    "misconception": "Reversing the field direction across the gap",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The induced e.m.f. is $E=Blv$, where $v$ is the horizontal component of the rod’s velocity. From P to Q the rod moves parallel to the field and $E=0$. From Q to R the constant component of weight along the slope makes the horizontal speed increase at a constant rate, so $E$ rises linearly. After R the rod is in projectile motion with constant horizontal velocity, so $E$ stays constant while it is in the field.",
+      "perOption": {
+        "A": "This drops the e.m.f. to zero at launch even though the rod retains horizontal velocity in the field.",
+        "B": "Correct. The e.m.f. follows the horizontal velocity through all three stages.",
+        "C": "This continues the horizontal acceleration after launch, when gravity acts vertically.",
+        "D": "This gives a nonzero e.m.f. during the fall parallel to the field."
+      }
+    },
+    "issues": "The key idealises the transition to rolling at Q. The impact transient and eventual exit from the field are outside the model used for the best-fit graph.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.d",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must follow the component of velocity perpendicular to the field through three stages.",
+    "misconception": "Using the total speed in the motional e.m.f. formula",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first source gives $V_{\\mathrm{rms}}=150/\\sqrt{2}\\ \\mathrm{V}$. Using $P=V_{\\mathrm{rms}}^2/R$ gives $13=150^2/(2R)$, so $R=865\\ \\Omega$ and the series resistance is $2\\times865\\ \\Omega$. The total power is $240^2/(2\\times865)\\approx33\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Treating the first peak voltage as r.m.s. doubles the inferred resistance and halves the final power.",
+        "B": "Correct. The series pair dissipates 33 W.",
+        "C": "The calculation requires the square of the r.m.s. voltage divided by the full series resistance.",
+        "D": "This applies the full mains voltage to just one resistor."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.d",
+      "currents.i",
+      "circuits.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert the first voltage to r.m.s., infer one resistance, and use the series total.",
+    "misconception": "Mixing peak and r.m.s. voltages",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The voltage ratio gives $V_s/V_p=5/1$, so $V_s=5\\times240=1200\\ \\mathrm{V}$. The secondary current is $I_s=1200/1000=1.2\\ \\mathrm{A}$. Since $I_p/I_s=5/1$, the primary current is $I_p=5\\times1.2=6.0\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "This can result from reversing the current ratio or applying the primary voltage directly to the load.",
+        "B": "This is the secondary current through the load.",
+        "C": "Correct. The primary current is five times the secondary current.",
+        "D": "This overstates the current multiplication, which is a factor of five applied to 1.2 A."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "circuits.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must step up the voltage, calculate the load current, and apply the transformer current ratio.",
+    "misconception": "Confusing primary and secondary current",
+    "transcription": "An ideal transformer is used to step-up a 240 V a.c. power supply. The output is used to heat a $1000\\ \\Omega$ resistive load. The ratio of the primary turns to secondary turns is 1:5.\n\n[The primary coil on the left is connected to the 240 V a.c. supply. The secondary coil on the right is connected across a $1000\\ \\Omega$ resistor.]\n\nWhat is the current in the primary coil?\n\nA 0.24 A\nB 1.2 A\nC 6.0 A\nD 36.0 A"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron emission rate at maximum current is $I/e=(2.0\\times10^{-6})/(1.6\\times10^{-19})=1.25\\times10^{13}\\ \\mathrm{s^{-1}}$. The incident photon rate is $P/E_\\gamma=(3.1\\times10^{-3})/(3.11\\times1.6\\times10^{-19})=6.23\\times10^{15}\\ \\mathrm{s^{-1}}$. The ratio is $(1.25\\times10^{13})/(6.23\\times10^{15})=2.0\\times10^{-3}$.",
+      "perOption": {
+        "A": "This uses the current directly without converting it to electrons per second.",
+        "B": "Correct. About two electrons are emitted per thousand incident photons.",
+        "C": "This assumes that every incident photon ejects an electron.",
+        "D": "This omits the electronvolt-to-joule conversion for the photon rate."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "currents.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate two particle rates and convert photon energy to joules.",
+    "misconception": "Using current directly as a particle rate",
+    "transcription": "A 3.1 mW beam of electromagnetic radiation comprising photons each with energy 3.11 eV is incident on a clean metal plate M. The potential difference $V$ is varied until the ammeter gives a maximum reading of $2.0\\ \\mu\\mathrm{A}$.\n\n[Electromagnetic radiation strikes plate M, the left plate in a two-electrode tube. The electrodes are connected in series with an ammeter A and a variable voltage source $V$.]\n\nWhat is the ratio (electrons emitted per unit time) / (photons incident per unit time)?\n\nA $3.2\\times10^{-22}$\nB $2.0\\times10^{-3}$\nC 1.0\nD $1.3\\times10^{16}$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the syllabus estimate $\\Delta p_x\\Delta x\\gtrsim h$, with $\\Delta p_x=m\\Delta v$ and $\\Delta x=0.25\\times10^{-3}\\ \\mathrm{m}$. Substitution gives $(5.30\\times10^{-26}\\Delta v)(0.25\\times10^{-3})\\gtrsim6.63\\times10^{-34}$. The closest offered velocity uncertainty scale is $10^{-5}\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. This is the closest offered uncertainty scale.",
+        "B": "Using the diameter in millimetres as though it were in metres lowers the estimate by a factor of a thousand.",
+        "C": "This assigns too little momentum spread for confinement to an alveolus.",
+        "D": "This would require a much larger confinement length for a molecule of the given mass."
+      }
+    },
+    "issues": "The key’s use of h gives 5.0 × 10⁻⁵ m/s before rounding. A is the closest offered choice. The exact standard-deviation bound uses ℏ/2.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert position confinement to a momentum and then velocity uncertainty scale.",
+    "misconception": "Leaving the confinement length in millimetres",
+    "transcription": "In the lungs, there are tiny sacs of air known as alveoli. The average diameter of an alveolus is 0.250 mm. Consider an oxygen molecule of mass $5.30\\times10^{-26}\\ \\mathrm{kg}$ that is trapped in an alveolus. What is the order of magnitude of the uncertainty in the velocity of this oxygen molecule?\n\nA $10^{-5}\\ \\mathrm{m\\,s^{-1}}$\nB $10^{-8}\\ \\mathrm{m\\,s^{-1}}$\nC $10^{-10}\\ \\mathrm{m\\,s^{-1}}$\nD $10^{-12}\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles pass through the foil undeflected, so $n$ peaks sharply at $0^\\circ$. Very few particles are deflected through large angles, so the count rate stays low at large positive and negative angles.",
+      "perOption": {
+        "A": "This puts the highest rates near backscattering angles and misses the strong undeviated beam.",
+        "B": "This gives backscattering peaks comparable to the forward peak even though backscattering is rare.",
+        "C": "Correct. A narrow forward peak dominates the low counts at large angles.",
+        "D": "The broad peak implies too many particles are scattered through intermediate angles."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must translate the Rutherford scattering result into an angular count-rate graph.",
+    "misconception": "Overestimating the frequency of backscattering",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Two days is very short compared with the 33-year half-life, so the activity is effectively constant. Activity is the number of decays per unit time, giving $N_{\\mathrm{decay}}\\approx At=(4.0\\times10^5)(2\\times24\\times3600)=6.912\\times10^{10}$ decays.",
+      "perOption": {
+        "A": "This undercounts the decays by using an effective duration far shorter than two days.",
+        "B": "This is close to what results from using the number of minutes in two days as the number of seconds.",
+        "C": "Correct. The activity times the elapsed seconds gives about 69 billion decays.",
+        "D": "This would require a much larger activity or a much longer time than given."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.h",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must justify constant activity over two days and convert the duration to seconds.",
+    "misconception": "Using becquerels with a duration in days",
+    "transcription": null
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "id": "asrjc-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "One joule is $1\\ \\mathrm{kg\\,m^2\\,s^{-2}}$. Substituting into $\\mathrm{J\\,kg^{-1}\\,K^{-1}}$ cancels the kilogram and leaves $\\mathrm{m^2\\,s^{-2}\\,K^{-1}}$.",
+      "perOption": {
+        "A": "Uses only one factor of length in the joule.",
+        "B": "Correct.",
+        "C": "Retains the mass unit and uses the wrong powers of length and time.",
+        "D": "Retains the mass unit and uses $$\\mathrm{s^{-1}}$ for the time factor."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The joule is the only derived unit that needs to be expanded.",
+    "misconception": "Using the dimensions of force for energy.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The factor of $3$ cancels when the absolute uncertainty of $3X$ is divided by $3X$, leaving $x$. Squaring $Y$ gives a fractional uncertainty of $2y$, and the fractional uncertainties add for the quotient, giving $x+2y$.",
+      "perOption": {
+        "A": "Incorrectly multiplies the fractional uncertainty of $X$ by 3.",
+        "B": "Multiplies the fractional uncertainty of $X$ by 3 and subtracts the denominator's contribution.",
+        "C": "Correct.",
+        "D": "Subtracts the denominator's fractional uncertainty."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must handle both the exact coefficient and the squared denominator.",
+    "misconception": "Subtracting fractional uncertainties in division.",
+    "transcription": "Quantity $X$ has a fractional uncertainty of $x$. Quantity $Y$ has a fractional uncertainty of $y$.\n\nWhat is the fractional uncertainty in $\\frac{3X}{Y^2}$?\n\nA $3x+2y$\nB $3x-2y$\nC $x+2y$\nD $x-2y$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Before braking, $v$ is constant. During braking, $v^2=u^2+2as$, with $a$ constant and negative and $s$ measured from the start of braking. Thus $v=\\sqrt{u^2+2as}$, which falls increasingly steeply as the car comes to rest.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats uniform deceleration as a constant gradient on a velocity–distance graph.",
+        "C": "Shows the curve flattening as the speed falls, whereas its gradient grows steeper.",
+        "D": "Shows an instantaneous drop in velocity, which requires more than a finite deceleration."
+      }
+    },
+    "issues": "The key’s alternative method says the gradient tends to infinity without specifying the sign. With negative acceleration, it tends to negative infinity.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish a velocity–distance graph from a velocity–time graph.",
+    "misconception": "Treating uniform deceleration as a constant slope on any velocity graph.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The object starts from rest, where air resistance is negligible, so the initial velocity–time gradient is the same as in vacuum, $g$. As speed increases, air resistance increases and the gradient falls.",
+      "perOption": {
+        "A": "Shows a constant acceleration smaller than $g$ from release.",
+        "B": "Starts with an acceleration greater than $g$.",
+        "C": "Correct.",
+        "D": "Shows acceleration increasing with speed despite the increasing drag."
+      }
+    },
+    "issues": "The key says initial velocity where the comparison that distinguishes C is initial acceleration.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "motion-and-forces.c",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare initial slopes on the same scales and account for increasing drag.",
+    "misconception": "Confusing initial velocity with the initial slope of a velocity–time graph.",
+    "transcription": "An object falls freely from rest in a vacuum. The graph shows the variation with time $t$ of the velocity $v$ of the object.\n\n[Graph of $v$ against $t$ showing a straight line rising from the origin.]\n\nWhich graph, using the same scales, represents the object falling in air?\n\nA [Straight line from the origin with a smaller slope than the vacuum line.]\nB [Curve from the origin steeper initially than the vacuum line, then flattening.]\nC [Curve from the origin with the same initial slope as the vacuum line, then becoming less steep.]\nD [Curve from the origin initially nearly horizontal, then becoming steeper.]"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The horizontal change in momentum is $p\\cos\\theta-p\\cos\\theta=0$, so the average horizontal force is zero. Taking upward as positive, the vertical change is $p\\sin\\theta-(-p\\sin\\theta)=2p\\sin\\theta$. Dividing by the contact time gives an average resultant force of magnitude $2p\\sin\\theta/t$.",
+      "perOption": {
+        "A": "Confuses equal momentum magnitudes with an unchanged momentum vector.",
+        "B": "Assumes the whole momentum vector reverses.",
+        "C": "Uses the horizontal component, which is unchanged.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key labels the average force with a derivative. The average uses the finite momentum change divided by the contact time.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve both momentum vectors and track which signed component reverses.",
+    "misconception": "Treating momentum change as the change in momentum magnitude.",
+    "transcription": "A ball strikes a horizontal surface with momentum $p$ at an angle $\\theta$ to the surface, as shown.\n\n[The incoming momentum arrow $p$ points down and right toward the horizontal surface. The outgoing momentum arrow $p$ points up and right away from the same point. Each path makes angle $\\theta$ with the surface.]\n\nThe ball rebounds with the same magnitude of momentum at an angle $\\theta$ to the surface.\n\nThe ball is in contact with the surface for time $t$.\n\nWhat is the magnitude of the average resultant force acting on the ball during the collision?\n\nA zero\nB $\\frac{2p}{t}$\nC $\\frac{2p\\cos\\theta}{t}$\nD $\\frac{2p\\sin\\theta}{t}$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "About the bottom-left corner of the book, its weight acts with horizontal lever arm $x/2$, producing a clockwise moment $Wx/2$. For rotational equilibrium the net moment about that corner is zero, so the student supplies an anticlockwise moment $Wx/2$.",
+      "perOption": {
+        "A": "Uses the vertical half-height as the lever arm of the vertical weight.",
+        "B": "Correct.",
+        "C": "Uses the difference between the dimensions as the lever arm and gives the wrong direction.",
+        "D": "Uses the full width and adds a clockwise moment."
+      }
+    },
+    "issues": "The worked solution starts on page 1 and concludes on page 2.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the shelf pivot and the perpendicular distance to the centre of gravity.",
+    "misconception": "Using the vertical dimension as the lever arm of a vertical force.",
+    "transcription": "A student pulls a book from a shelf by its top corner, holding it between his forefinger and thumb. The book is uniform and has weight $W$ and dimensions $x$ and $y$ as shown.\n\n[An upright book of horizontal width $x$ and vertical height $y$ is shown at the shelf edge, with a hand gripping its upper-right corner.]\n\nWhat moment must the student provide at the corner of the book to stop it from rotating just before it leaves the shelf?\n\nA $\\frac{Wy}{2}$ anticlockwise\nB $\\frac{Wx}{2}$ anticlockwise\nC $\\frac{W(y-x)}{2}$ clockwise\nD $Wx$ clockwise"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rate of increase of kinetic energy is the net mechanical power, $F_{\\mathrm{net}}v$. With $F_{\\mathrm{net}}=ma$, this gives $(250000)(0.90)(5.0)\\ \\mathrm{W}\\approx1.1\\ \\mathrm{MW}$.",
+      "perOption": {
+        "A": "Calculates only the power dissipated by resistance.",
+        "B": "Correct.",
+        "C": "Uses the engine's total output power, including power dissipated by resistance.",
+        "D": "Calculates the kinetic energy at that instant and reports it as a power."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.m",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the resultant force to find the kinetic energy gain per second.",
+    "misconception": "Confusing engine output power with net mechanical power.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Convert the radius to $1.22\\times10^9\\ \\mathrm{m}$ and the period to $(15.9)(24)(3600)\\ \\mathrm{s}$. Using $a=r\\omega^2$ gives $a=(1.22\\times10^9)\\left[\\frac{2\\pi}{(15.9)(24)(3600)}\\right]^2\\ \\mathrm{m\\,s^{-2}}\\approx2.55\\times10^{-2}\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Omits one factor of $2\\pi$ in the squared angular-speed term.",
+        "B": "Correct.",
+        "C": "Arises from leaving the radius in kilometres and converting the period to minutes.",
+        "D": "Would require an angular speed much greater than the given orbital period implies."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert the orbital data to SI units and use angular speed in the acceleration formula.",
+    "misconception": "Omitting a factor of $2\\pi$ when converting period to angular speed.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "All points on the record have the same constant angular speed $\\omega$. Since $v=r\\omega$, linear speed is directly proportional to radius and the graph is a straight line through the origin.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the common angular speed as a common linear speed.",
+        "C": "Shows speed decreasing as the radius increases.",
+        "D": "Shows the slope decreasing even though it equals the constant angular speed."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "One direct proportionality determines the shape and intercept of the graph.",
+    "misconception": "Confusing a common angular speed with a common linear speed.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the minimum escape speed the total energy is zero, so $-\\frac{GMm}{r}+\\frac12mv^2=0$ and $v=\\sqrt{\\frac{2GM}{r}}$. At a height $2R_{\\mathrm E}$ the radius is $3R_{\\mathrm E}$, giving $v_{\\mathrm{new}}=\\frac{1.1\\times10^4}{\\sqrt3}\\ \\mathrm{m\\,s^{-1}}\\approx6.4\\times10^3\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the altitude $2R_{\\mathrm E}$ as the radius.",
+        "C": "Uses the altitude as the radius and makes escape speed increase with radius.",
+        "D": "Uses the correct radius but reverses the square-root scaling."
+      }
+    },
+    "issues": "The key’s alternative method omits the square root in the first speed-ratio equation. The following substitution and final answer use the correct square root.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the inverse square-root relationship and measure radius from Earth's centre.",
+    "misconception": "Using altitude as the distance from Earth's centre.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A geostationary satellite stays above a fixed point on the equator by matching Earth's angular velocity, including its west-to-east direction. Its orbital radius is greater than the equatorial radius, so its linear speed is greater.",
+      "perOption": {
+        "A": "A geostationary satellite can remain directly above only an equatorial point.",
+        "B": "At the same angular speed, the satellite's larger orbital radius gives it a greater linear speed.",
+        "C": "Correct.",
+        "D": "It travels west to east with Earth's rotation."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.k",
+      "circular-motion.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish angular velocity from linear speed and recall the equatorial orbit requirement.",
+    "misconception": "Equating linear speeds for two objects with the same angular velocity.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For container X, $p_X=n_X R(2T)/(2V)=n_XRT/V$. For container Y, $p_Y=n_YRT/V$. The tube connects the gases, so $p_X=p_Y$ and hence $n_X/n_Y=1$.",
+      "perOption": {
+        "A": "Inverts the volume ratio while also halving the result for X’s higher temperature.",
+        "B": "Correct.",
+        "C": "Uses the volume ratio alone and ignores the temperature difference.",
+        "D": "Treats the amount of gas as directly proportional to temperature and volume at equal pressure."
+      }
+    },
+    "issues": "The key’s first equation for container X prints the volume of Y on the left. Its subsequent calculation uses the correct volume of X.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer equal pressures and account for simultaneous changes in volume and temperature.",
+    "misconception": "Assuming that equal pressure also requires equal temperature.",
+    "transcription": "An ideal gas is contained in two spherical containers X and Y of volume $2V$ and $V$ respectively, connected by a hollow tube of negligible volume. The containers X and Y are maintained at temperatures $2T$ and $T$ respectively. The setup is shown in the diagram below.\n\n[The larger sphere X is labelled $2V$ and $2T$. A horizontal tube joins it to the smaller sphere Y, labelled $V$ and $T$.]\n\nWhat is the ratio $\\frac{\\text{number of moles of gas in container X}}{\\text{number of moles of gas in container Y}}$?\n\nA 0.25\nB 1\nC 2\nD 4"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The same heat input gives $Q=mc_{\\mathrm w}\\Delta T_{\\mathrm w}=mc_{\\mathrm i}\\Delta T_{\\mathrm i}$. Hence $\\Delta T_{\\mathrm i}/\\Delta T_{\\mathrm w}=c_{\\mathrm w}/c_{\\mathrm i}>1$. Both start at the same temperature, so iron ends up warmer.",
+      "perOption": {
+        "A": "Assumes equal final temperatures despite the larger temperature rise of the iron.",
+        "B": "Assumes equal final temperatures and makes a claim about heating rates without information on the heating power.",
+        "C": "Correct.",
+        "D": "Reverses the relationship between specific heat capacity and temperature rise for equal heat input."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer which sample warms more at equal mass and energy input.",
+    "misconception": "Assuming equal heat inputs produce equal temperature rises.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The clockwise cycle gives net work done by the gas equal to the enclosed triangular area, $\\frac12(4-1)\\times10^{-3}(8-4)\\times10^4\\ \\mathrm{J}=60\\ \\mathrm{J}$. The net work done on the gas is therefore $-60\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Includes only the work done on the gas during expansion.",
+        "B": "Correct.",
+        "C": "Gives the net work done by the gas.",
+        "D": "Includes only the work done on the gas during compression."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read the scaled axes, find the signed cycle area, and distinguish work on the gas from work by it.",
+    "misconception": "Confusing work done on the gas with work done by it.",
+    "transcription": "A gas undergoes one cycle of pressure and volume changes $\\mathrm{X}\\to\\mathrm{Y}\\to\\mathrm{Z}\\to\\mathrm{X}$ as shown.\n\n[$P$–$V$ graph. The vertical axis is $P$ in units of $10^4\\ \\mathrm{Pa}$, with ticks at 2.0, 4.0, 6.0 and 8.0. The horizontal axis is $V$ in units of $10^{-3}\\ \\mathrm{m^3}$, with ticks at 1.0, 2.0, 3.0 and 4.0. In scaled $(V,P)$ coordinates, the arrows run vertically down from X $(4.0,8.0)$ to Y $(4.0,4.0)$, horizontally left to Z $(1.0,4.0)$, then diagonally back to X.]\n\nWhat is the net work done on the gas?\n\nA $-180\\ \\mathrm{J}$\nB $-60\\ \\mathrm{J}$\nC $60\\ \\mathrm{J}$\nD $120\\ \\mathrm{J}$"
+  },
+  {
+    "id": "asrjc-2022-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Under light damping the amplitude of oscillation decreases exponentially. The energy associated with that amplitude scales with its square, so the total energy decreases along a curve that gradually flattens.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows energy being lost at a constant rate.",
+        "C": "Shows no energy loss despite damping.",
+        "D": "Shows total energy periodically increasing even though damping removes mechanical energy."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must connect the decay of amplitude with the shape of the total-energy curve.",
+    "misconception": "Confusing changes in kinetic and potential energy with changes in total energy.",
+    "transcription": null
+  }
+]

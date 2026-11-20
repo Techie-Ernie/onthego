@@ -1,0 +1,510 @@
+[
+  {
+    "id": "acjc-2022-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The particle undergoes simple harmonic motion, so $F=-kr$. Equivalently, $F=-\\mathrm{d}U/\\mathrm{d}r$, and the negative gradient of the potential energy gives a straight force graph through the origin sloping downwards.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Plots the force magnitude and loses its sign.",
+        "C": "Copies the potential-energy graph for the force.",
+        "D": "Makes the force point away from equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The graph follows directly from the restoring-force relation.",
+    "misconception": "Confusing force and potential energy",
+    "transcription": "The potential energy $U$ of a particle in simple harmonic motion is directly proportional to the square of its displacement $r$ from the origin.\n\n[Graph of $U$ against $r$: upward-opening parabola with its vertex at the origin.]\n\nWhich of the following graphs best represents the variation with displacement $r$ of the net force $F$ acting on the particle?\n\nA [Graph of $F$ against $r$: straight line through the origin with negative gradient.]\nB [Graph of $F$ against $r$: upward V with vertex at the origin.]\nC [Graph of $F$ against $r$: upward-opening parabola with vertex at the origin.]\nD [Graph of $F$ against $r$: straight line through the origin with positive gradient.]"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "With transmitted amplitude $A_0$, the receiving aerial measures $A=A_0\\sin\\theta$. The received power and intensity are proportional to $A^2=A_0^2\\sin^2\\theta$. The transmitted power and intensity are proportional to $A_0^2=A^2/\\sin^2\\theta$.",
+      "perOption": {
+        "A": "Uses a horizontal projection and applies it again to the received amplitude.",
+        "B": "Uses cosine as though the angle were measured from the vertical.",
+        "C": "Projects the received amplitude again instead of recovering the transmitted amplitude.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must undo the vertical projection and square the recovered amplitude.",
+    "misconception": "Taking the angle from the wrong axis",
+    "transcription": "A transmitting aerial emits vertically polarised radio waves. A receiving aerial is positioned at an angle $\\theta$ from the horizontal and is in the plane perpendicular to the direction of plane-polarised waves. The amplitude of the wave received is $A$.\n\nWhich of the following is the total power of the transmitting aerial directly proportional to?\n\nA $A^2\\cos^2\\theta$\nB $\\frac{A^2}{\\cos^2\\theta}$\nC $A^2\\sin^2\\theta$\nD $\\frac{A^2}{\\sin^2\\theta}$"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Consecutive resonant lengths differ by half a wavelength, so $\\lambda/2=0.49-0.15=0.34\\ \\mathrm{m}$ and $\\lambda=0.68\\ \\mathrm{m}$. Using $v=f\\lambda$ gives $330=f(0.68)$ and hence $f=490\\ \\mathrm{Hz}$ to two significant figures.",
+      "perOption": {
+        "A": "Implies an 85 cm wavelength, larger than twice the measured resonance spacing.",
+        "B": "Correct.",
+        "C": "Rounds the calculated frequency too coarsely.",
+        "D": "Treats the first 15 cm length as exactly one quarter wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.b",
+      "superposition.d",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the wavelength from the spacing of successive resonances.",
+    "misconception": "Ignoring the open-end correction",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Glass has a higher refractive index than air, so the light travels more slowly and has a shorter wavelength inside the glass. The block therefore contains more wavelengths than the same thickness of air. The central maximum shifts upwards, where the shorter geometric path from $S_1$ compensates for the extra phase delay.",
+      "perOption": {
+        "A": "Uses the wavelength in glass to predict the fringe spacing on the screen.",
+        "B": "Treats the delay from the thin glass block as varying from fringe to fringe.",
+        "C": "Confuses the phase delay with an improvement in the balance of the two beam intensities.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f",
+      "superposition.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect the added phase delay to the direction of the fringe shift.",
+    "misconception": "Confusing fringe shift with fringe spacing",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "To the left of $-Q$ the two fields oppose each other. Let $x$ be the charge separation and $y$ the distance to $-Q$. Equating field magnitudes gives $\\frac{Q}{4\\pi\\varepsilon_0y^2}=\\frac{4Q}{4\\pi\\varepsilon_0(x+y)^2}$, hence $x+y=2y$ and $y=x$, as at B.",
+      "perOption": {
+        "A": "At A the field from $+4Q$ is stronger.",
+        "B": "Correct.",
+        "C": "At C the field from $-Q$ is stronger.",
+        "D": "At D the larger charge is also closer, so its field dominates."
+      }
+    },
+    "issues": "The key defines x as the distance to +4Q, but its equation uses x as the separation between the charges.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must check field directions and compare inverse-square magnitudes.",
+    "misconception": "Ignoring the directions of the fields",
+    "transcription": "Two point charges $-Q$ and $+4Q$ are situated as shown below. The gridlines are evenly spaced.\n\n[Horizontal line with 15 evenly spaced ticks. Counting from the left, A is at tick 1, B at tick 5, C at tick 6, $-Q$ at tick 7, $+4Q$ at tick 9 and D at tick 11.]\n\nAt which point could the resultant electric field due to these charges be zero?"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The particle can be positively or negatively charged, so it can deflect upwards or downwards. Deflection begins at entry, as shown by paths 1 and 3. The equipotentials for equal potential intervals are closer together in region P, indicating a stronger electric field.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Delays the initial deflection and selects the region with wider equipotential spacing.",
+        "C": "Identifies the possible paths but selects the region with wider equipotential spacing.",
+        "D": "Identifies the stronger field region but delays the initial deflection."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "energy-and-fields.h",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The diagram requires interpreting the initial deflection and comparing equipotential spacings.",
+    "misconception": "Assuming a delay before the electric force acts",
+    "transcription": "A charged particle enters a region of non-uniform electric field with speed $v$ as shown in the figure below.\n\n[The particle enters a rectangular region horizontally from the left. Curved equipotentials are labelled 200 V, 240 V, 280 V, 320 V and 360 V from top to bottom. Dashed lines cross the equipotentials at right angles. Region Q is at the upper right and region P is near the lower middle. Paths 1 and 2 curve upwards and paths 3 and 4 downwards. Paths 1 and 3 curve from entry, while paths 2 and 4 are drawn nearly horizontal initially.]\n\nWhich row is correct?\n\nOption | possible path of charged particle | region with maximum electric field strength\nA | 1 or 3 | P\nB | 2 or 4 | Q\nC | 1 or 3 | Q\nD | 2 or 4 | P"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Density is $d=m/(AL)$, so $A=m/(dL)$. Substituting into $R=\\rho L/A$ gives $R=\\rho L^2d/m$, hence $m=\\rho L^2d/R$. Since $L$ and $R$ are equal, $m_{\\mathrm{Al}}/m_{\\mathrm{Cu}}=(2/1)(1/3)=0.67$ to two significant figures.",
+      "perOption": {
+        "A": "Inverts the resistivity ratio.",
+        "B": "Uses the density ratio alone, assuming equal cross-sections.",
+        "C": "Correct.",
+        "D": "Gives the copper-to-aluminium mass ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine the resistance and density equations before comparing masses.",
+    "misconception": "Assuming equal rod cross-sections",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $0.20\\ \\mathrm{A}$ the graph gives $2.0\\ \\mathrm{V}$ for A and $3.0\\ \\mathrm{V}$ for B. Using $R=V/I$ gives $10\\ \\Omega$ for A and $15\\ \\Omega$ for B, so B has 50% more resistance.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A dissipates $0.40\\ \\mathrm{W}$ and B dissipates $0.60\\ \\mathrm{W}$, a factor of 1.5.",
+        "C": "The parallel currents add to $0.30+0.20=0.50\\ \\mathrm{A}$.",
+        "D": "At the common current of $0.20\\ \\mathrm{A}$, A has $2.0\\ \\mathrm{V}$ and B has $3.0\\ \\mathrm{V}$ across it."
+      }
+    },
+    "issues": "The key prints A correctly but swaps the resistance labels. The graph gives A = 10 Ω and B = 15 Ω at 0.20 A.",
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "statements",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The options require reading the same graph under fixed-current, series and parallel conditions.",
+    "misconception": "Using tangent slope to find resistance",
+    "transcription": "The current-voltage characteristics of two electrical components A and B are shown below.\n\n[Graph of current against voltage, with axes marked from 0 to 0.40 A in 0.10 A steps and from 0 to 4.0 V in 1.0 V steps. A is a straight line from the origin to $(4.0,0.40)$. B is concave upwards between the same endpoints and passes approximately through $(2.0,0.10)$ and $(3.0,0.20)$.]\n\nWhich statement is correct?\n\nA For a current of 0.20 A, the resistance of B is 50% more than the resistance of A.\nB For a current of 0.20 A, the power dissipated in B is double that of the power dissipated in A.\nC When A and B are connected in parallel with an e.m.f. of 3.0 V placed across it, the total current is 0.3 A.\nD When A and B are connected in series with an e.m.f. of 5.0 V placed across it, the potential difference across B is 2.0 V."
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The Earth and solenoid fields are perpendicular, so $\\tan68^\\circ=B_{\\mathrm{solenoid}}/B_{\\mathrm{Earth}}$. Thus $B_{\\mathrm{solenoid}}=(2.0\\times10^{-5})\\tan68^\\circ=4.95\\times10^{-5}\\ \\mathrm{T}$. Substituting into $B_{\\mathrm{solenoid}}=\\mu_0nI$ gives $4.95\\times10^{-5}=(4\\pi\\times10^{-7})(20/0.15)I$, so $I=0.30\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Reverses the field components in the tangent ratio.",
+        "B": "Uses the Earth’s field in place of the solenoid field.",
+        "C": "Correct.",
+        "D": "Uses 20 turns per metre instead of 20 turns over 15 cm."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain the solenoid field from the vector triangle before calculating the current.",
+    "misconception": "Confusing total turns with turns per metre",
+    "transcription": "A light magnet is suspended inside a solenoid as shown in the figure below. The Earth’s magnetic flux density is $2.0\\times10^{-5}\\ \\mathrm{T}$ and the solenoid has 20 turns and a length of 15 cm. When a current is passed through the solenoid, it is found that the magnet rotates through an angle of $68^\\circ$ from its original direction.\n\n[Top view with N, E, S and W marked. The solenoid axis runs east–west. The upper row of winding cross-sections is marked with dots and the lower row with crosses. The magnet lies across the axis with its N pole pointing north.]\n\nWhat is the value of the current flowing through the solenoid?\n\nA 0.048 A\nB 0.11 A\nC 0.30 A\nD 2.0 A"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Sliding the rod induces an e.m.f. across it and produces currents in opposite senses in the two loops. Increasing the magnetic flux density increases the outward flux linkage through the frame. By Lenz’s law the induced field points into the page, so the current around the frame is clockwise.",
+      "perOption": {
+        "A": "A decreasing outward flux induces an outward field and an anticlockwise current.",
+        "B": "Correct.",
+        "C": "Sliding left produces opposite circulation in the two loops, with clockwise circulation only in the right loop.",
+        "D": "Sliding right produces opposite circulation in the two loops, with clockwise circulation only in the left loop."
+      }
+    },
+    "issues": "The intended answer reads “through the frame” as circulation around the entire perimeter. Either rod motion gives clockwise circulation in one subloop.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must distinguish circulation around the full frame from circulation in the two subloops.",
+    "misconception": "Treating the flux change in one subloop as a change through the whole frame",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The period is $T=1/f=1/50=0.020\\ \\mathrm{s}$ and spans two horizontal divisions, giving a time-base of $10\\ \\mathrm{ms\\,div^{-1}}$. The $2.8\\ \\mathrm{V}$ peak spans 1.4 vertical divisions, so the Y-gain is $2.8/1.4=2.0\\ \\mathrm{V\\,div^{-1}}$.",
+      "perOption": {
+        "A": "Uses the peak-to-peak height with the peak voltage.",
+        "B": "Uses a half-cycle for the period and the peak-to-peak height for the peak voltage.",
+        "C": "Correct.",
+        "D": "Uses a half-cycle for the period."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Each setting follows from dividing a known quantity by its span on the trace.",
+    "misconception": "Confusing peak with peak-to-peak height",
+    "transcription": "An alternating p.d. is applied across the Y-plates of a cathode-ray-oscilloscope (CRO) and produces the trace shown below. The peak voltage of the alternating p.d. is 2.8 V and its frequency is 50 Hz.\n\n[Sinusoidal trace across a grid six divisions wide and four divisions high. Three full cycles are shown and each peak is about 1.4 divisions above the central horizontal line.]\n\nWhat are the time-base and Y-gain settings of the CRO?\n\nOption | time-base / $\\mathrm{ms\\,div^{-1}}$ | Y-gain / $\\mathrm{V\\,div^{-1}}$\nA | 10 | 1.0\nB | 20 | 1.0\nC | 10 | 2.0\nD | 20 | 2.0"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cut-off wavelength is the shortest wavelength present. Since $E=hc/\\lambda$, it corresponds to the most energetic photon released.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Braking radiation from decelerating electrons produces the continuous spectrum with a short-wavelength cutoff.",
+        "C": "Outer-shell electrons can emit X-rays when they fill vacancies in inner shells.",
+        "D": "The sharp peaks arise from transitions between discrete energy levels in tungsten."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.k"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The false statement follows directly from the inverse energy–wavelength relation.",
+    "misconception": "Associating shorter wavelengths with lower photon energies",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "These uncertainties arise from the wave nature of matter and persist regardless of the equipment. Reducing the position spread raises the lower bound on the corresponding momentum spread, so equipment cannot make both spreads arbitrarily small together.",
+      "perOption": {
+        "A": "Exact position and its corresponding momentum component cannot be achieved simultaneously.",
+        "B": "The uncertainty relation pairs position and momentum components along the same axis.",
+        "C": "This statement is also false as written because the standard-deviation bound is $\\Delta x\\,\\Delta p_x\\ge h/(4\\pi)$, allowing the product to be below $h$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "D is the intended answer, but C is also false as written. The strict lower bound for standard deviations is h/(4π), even though the syllabus gives an order-of-magnitude relation.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the intrinsic trade-off from experimental limits and read the bound precisely.",
+    "misconception": "Treating quantum uncertainty as an equipment limitation",
+    "transcription": "Which statement about the Heisenberg position-momentum uncertainty principle on a particle is not correct?\n\nA The exact values of momentum $p$ and position $x$ cannot be achieved simultaneously.\nB The uncertainty of momentum $\\Delta p$ is in the same direction as the uncertainty of position $\\Delta x$.\nC The product of uncertainties of momentum $\\Delta p$ and position $\\Delta x$ will always be greater than the Planck constant.\nD The uncertainties of momentum $\\Delta p$ and position $\\Delta x$ can be minimised concurrently with the same experimental equipment."
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Subtract the total product mass from the total reactant mass to get $\\Delta m=[(235.04393+1.00866)-(140.91440+91.92617+3\\times1.00866)]\\ \\mathrm{u}$. This is $3.088\\times10^{-28}\\ \\mathrm{kg}$. The energy released is $E=(\\Delta m)c^2=2.78\\times10^{-11}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Reports the mass difference in kilograms as an energy in joules.",
+        "B": "Multiplies the mass difference by the speed of light only once.",
+        "C": "Correct.",
+        "D": "Omits the three outgoing neutrons from the product mass."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.p",
+      "nuclear-physics.q"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must account for all neutron masses, convert units and apply mass–energy equivalence.",
+    "misconception": "Omitting free neutrons from the mass balance",
+    "transcription": "The nuclear fission reaction of Uranium-235 may be represented by the following equation\n\n$\\vphantom{U}^{235}_{92}\\mathrm{U} + {}^{1}_{0}\\mathrm{n} \\rightarrow {}^{141}_{56}\\mathrm{Ba} + {}^{92}_{36}\\mathrm{Kr} + 3\\,{}^{1}_{0}\\mathrm{n} + \\text{energy}$\n\nThe rest masses of the nuclei are\n\nnuclide | rest mass\n$\\vphantom{U}^{235}_{92}\\mathrm{U}$ | $235.04393\\ \\mathrm{u}$\n$\\vphantom{B}^{141}_{56}\\mathrm{Ba}$ | $140.91440\\ \\mathrm{u}$\n$\\vphantom{K}^{92}_{36}\\mathrm{Kr}$ | $91.92617\\ \\mathrm{u}$\n$\\vphantom{n}^{1}_{0}\\mathrm{n}$ | $1.00866\\ \\mathrm{u}$\n\nWhat is the energy released when one nuclide of $\\vphantom{U}^{235}_{92}\\mathrm{U}$ undergoes fission?\n\nA $3.09\\times10^{-28}\\ \\mathrm{J}$\nB $9.26\\times10^{-20}\\ \\mathrm{J}$\nC $2.78\\times10^{-11}\\ \\mathrm{J}$\nD $3.29\\times10^{-10}\\ \\mathrm{J}$"
+  },
+  {
+    "id": "acjc-2022-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph of $\\ln C$ against $t$ is linear, with gradient $(0-5.20)/(26.0-0)=-0.20\\ \\mathrm{s^{-1}}$. The gradient is $-\\lambda$, so $t_{1/2}=\\ln 2/\\lambda=\\ln 2/0.20=3.5\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Reports the magnitude of the gradient, which is the decay constant in inverse seconds.",
+        "B": "Correct.",
+        "C": "Reads the time for the logarithm of the count rate to halve.",
+        "D": "Reads the time intercept, where the count rate is one count per second."
+      }
+    },
+    "issues": "The key labels the negative gradient λ and then uses a positive λ in the calculation. The gradient equals −λ.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain the decay constant from the logarithmic plot before calculating the half-life.",
+    "misconception": "Halving the logarithm instead of the count rate",
+    "transcription": null
+  }
+]

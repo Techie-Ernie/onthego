@@ -1,0 +1,424 @@
+[
+  {
+    "id": "yijc-2024-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "W (+2q) attracts X to the left and Y (+q) attracts X downwards. For the net force to act purely to the left, Q must exert a force on X that cancels the downward force from Y, so Q must repel X (push it up and to the right). Thus Q is negative.\n\nThe vertical component of the force on X by Q equals the force on X by Y. With side $r$, the diagonal ZX is $\\sqrt{2}r$:\n\n$k\\dfrac{Qq}{(\\sqrt{2}r)^2}\\cos 45^\\circ = k\\dfrac{qq}{r^2} \\Rightarrow Q = 2.8q$\n\nThus $Q = -2.8q$.",
+      "perOption": {
+        "A": "Correct. A negative Q of magnitude $2.8q$ exactly cancels the downward pull from Y.",
+        "B": "Forgets that only the vertical component ($\\cos 45^\\circ$) of Q's force cancels Y's force, or omits the factor of 2 from the squared diagonal.",
+        "C": "Wrong sign and wrong magnitude: a positive Q would attract X towards Z, adding to the downward force.",
+        "D": "Right magnitude but wrong sign: a positive Q attracts X downwards, so the net force cannot be horizontal."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires resolving Coulomb forces in two dimensions and deducing the sign of Q from the direction of the net force.",
+    "misconception": "Ignoring that only a component of the diagonal force cancels the perpendicular force",
+    "transcription": "The figure below shows three charges $+2q$, $-q$ and $+q$ placed at the corners W, X and Y of a square WXYZ respectively. A fourth charge $Q$ is placed at Z, after which the charge at X experiences a net electric force indicated by the arrow.\n\n[Square WXYZ: W top-left ($+2q$), X top-right ($-q$), Y bottom-right ($+q$), Z bottom-left ($Q$). An arrow labelled 'net force' points from X horizontally to the left, towards W.]\n\nWhat is the value of $Q$?\n\nA $-2.8q$\nB $-1.4q$\nC $1.4q$\nD $2.8q$"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Work done on the charge by the external agent = change in potential energy = final EPE $-$ initial EPE.\n\n$W = (-q)V_2 - (-q)V_1 = q(V_1 - V_2)$",
+      "perOption": {
+        "A": "Adds the potentials instead of taking the change in potential energy.",
+        "B": "Treats the charge as negative but adds the two potential energies rather than subtracting initial from final.",
+        "C": "Uses $+q$ instead of $-q$ for the charge, giving the wrong sign.",
+        "D": "Correct. $\\Delta U = (-q)(V_2 - V_1) = q(V_1 - V_2)$."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.c",
+      "electric-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "A one-line relation, but the negative charge makes sign errors likely.",
+    "misconception": "Forgetting the negative sign of the charge when computing potential energy",
+    "transcription": "A point charge $-q$ is brought from a point $P_1$ in space to another point $P_2$ by an external agent. The electric potentials at points $P_1$ and $P_2$ are $V_1$ and $V_2$ respectively.\n\nWhat is the work done on the charge?\n\nA $q(V_2 + V_1)$\nB $q(-V_2 - V_1)$\nC $q(V_2 - V_1)$\nD $q(V_1 - V_2)$"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Wire P: $R = \\dfrac{\\rho l}{\\pi (d/2)^2} = \\dfrac{4\\rho l}{\\pi d^2}$, so $d^2 = \\dfrac{4\\rho l}{\\pi R}$.\n\nWire Q: $\\dfrac{1}{4}R = \\dfrac{(\\frac{1}{3}\\rho)(2l)}{\\pi (d_Q/2)^2} = \\dfrac{2}{3}\\dfrac{4\\rho l}{\\pi d_Q^2}$, so $d_Q^2 = \\dfrac{8}{3}\\dfrac{4\\rho l}{\\pi R} = \\dfrac{8}{3}d^2$.\n\n$d_Q = \\sqrt{8/3}\\,d = 1.6d$",
+      "perOption": {
+        "A": "Inverts the ratio, giving $\\sqrt{3/8}\\,d$.",
+        "B": "Correct. $d_Q^2 = \\frac{8}{3}d^2$.",
+        "C": "Finds the area ratio $8/3$ and treats it as the diameter ratio, forgetting the square root.",
+        "D": "Squares the ratio instead of taking its square root, giving $(8/3)^2 d$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Straightforward ratio with $R = \\rho l/A$, but three quantities change at once and area depends on diameter squared.",
+    "misconception": "Treating cross-sectional area as proportional to diameter",
+    "transcription": "The table shows the properties of two different wires, P and Q.\n\n[Table: Wire P — length $l$, resistance $R$, resistivity of material $\\rho$. Wire Q — length $2l$, resistance $\\frac{1}{4}R$, resistivity $\\frac{1}{3}\\rho$.]\n\nWire P has a cross-section of diameter $d$.\n\nWhat is the diameter of the cross-section of wire Q?\n\nA $0.41d$\nB $1.6d$\nC $2.7d$\nD $7.1d$"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $E = Ir + IR$ for each setting:\n\n$E = 3r + 3(1)$\n\n$E = 2r + 2(2)$\n\nSolving simultaneously gives $r = 1.0\\ \\Omega$ and $E = 6.0\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Takes the terminal p.d. in the first setting ($3.0 \\times 1.0$) as the e.m.f., ignoring internal resistance.",
+        "B": "Averages the two terminal p.d.s (3.0 V and 4.0 V) instead of accounting for the internal resistance.",
+        "C": "Takes the terminal p.d. in the second setting ($2.0 \\times 2.0$) as the e.m.f., ignoring internal resistance.",
+        "D": "Correct. $r = 1.0\\ \\Omega$, so $E = 3.0(1.0 + 1.0) = 6.0\\ \\mathrm{V}$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Standard pair of simultaneous equations from $E = I(R + r)$.",
+    "misconception": "Equating terminal p.d. with e.m.f.",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since the galvanometer reads zero when PS = 40.0 cm, the p.d. across PS = 5.00 mV.\n\nA 40.0 cm length of wire has resistance $\\dfrac{40.0}{100.0}(5.00) = 2.00\\ \\Omega$.\n\nUsing the potential divider rule on the driver circuit:\n\n$\\dfrac{2.0}{5.0 + R}(2.000) = 5.00 \\times 10^{-3} \\Rightarrow R = 795\\ \\Omega$",
+      "perOption": {
+        "A": "Gives a total driver resistance of $400\\ \\Omega$, so 5.0 mA flows and PS would have 10 mV across it, not 5.00 mV.",
+        "B": "Correct. The driver current is 2.5 mA, so total resistance is 800 $\\Omega$ and $R = 795\\ \\Omega$.",
+        "C": "Gives a total driver resistance of $1000\\ \\Omega$, so 2.0 mA flows and PS would have only 4.0 mV across it.",
+        "D": "Gives a total driver resistance of $1060\\ \\Omega$, so PS would have about 3.8 mV across it; balance would not occur at 40.0 cm."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Needs the balance condition plus a potential divider over the whole driver circuit including the series resistor.",
+    "misconception": "Applying the potential divider to the wire alone, forgetting the series resistor carries the same current",
+    "transcription": "A power supply and a solar cell are compared using the potentiometer circuit shown.\n\n[Circuit: a 2.000 V power supply (positive terminal on the left) in series with resistor $R$, connected across potentiometer wire PQ. A solar cell is connected from P (positive to P side) through a galvanometer to a sliding contact S on the wire, with PS = 40.0 cm.]\n\nThe e.m.f. produced by the solar cell is measured on the potentiometer.\n\nThe potentiometer wire PQ is 100.0 cm long and has a resistance of $5.00\\ \\Omega$. The power supply has an e.m.f. of 2.000 V and the solar cell has an e.m.f. of 5.00 mV.\n\nWhat is the value of resistance $R$ so that the galvanometer reads zero when PS = 40.0 cm?\n\nA $395\\ \\Omega$\nB $795\\ \\Omega$\nC $995\\ \\Omega$\nD $1055\\ \\Omega$"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "$B_S = \\mu_0 n I = 4\\pi \\times 10^{-7} \\times 15 \\times 0.20$\n\n$B_C = \\dfrac{\\mu_0 N I}{2r} = \\dfrac{4\\pi \\times 10^{-7} \\times 0.90}{2 \\times 1.6}$\n\nThe currents circulate in opposite senses, so the fields at the centre are opposite: $B_{\\text{resultant}} = B_S - B_C = 3.4 \\times 10^{-6}\\ \\mathrm{T}$.",
+      "perOption": {
+        "A": "Assumes the two fields cancel completely.",
+        "B": "Uses the wrong formula for one of the fields (e.g. $\\mu_0 I/2\\pi r$ for the loop or omits $n$).",
+        "C": "Correct. $3.77 \\times 10^{-6} - 0.35 \\times 10^{-6} = 3.4 \\times 10^{-6}\\ \\mathrm{T}$.",
+        "D": "Adds the two fields, ignoring that the currents flow in opposite directions."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Two field formulas plus reading current directions from the diagram to decide whether the fields add or subtract.",
+    "misconception": "Adding magnetic fields without considering their directions",
+    "transcription": "A long solenoid S has 15 turns per unit length. A circular loop of wire C is placed over S as shown in the diagram below. S and C are coaxial. A current $I_S$ of 0.20 A is passed through S and a current $I_C$ of 0.90 A is passed through C in the directions shown.\n\n[End-on view: inner thick circle S with arrow $I_S$ at the top pointing right (clockwise); outer circle C with arrow $I_C$ at the top pointing left (anticlockwise).]\n\nThe radius of S is 0.80 m and the radius of C is 1.6 m.\n\nWhat is the magnitude of the resultant magnetic flux density at the centre of C?\n\nA 0 T\nB $1.0 \\times 10^{-6}$ T\nC $3.4 \\times 10^{-6}$ T\nD $4.1 \\times 10^{-6}$ T"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Parallel wires with currents in opposite directions repel; with currents in the same direction they attract.\n\nPS carries current opposite to XY (repulsion) and QR carries current in the same direction as XY (attraction). Since PS is nearer to XY than QR, the repulsion is greater than the attraction, so the loop moves away from the long wire (to the right).",
+      "perOption": {
+        "A": "Assumes the attraction on QR dominates, ignoring that the field is stronger closer to the wire.",
+        "B": "Correct. The nearer side PS is repelled more strongly than the farther side QR is attracted.",
+        "C": "The forces on PS and QR are both in the plane and perpendicular to XY, and the forces on PQ and SR cancel, so there is no turning effect about an axis parallel to XY.",
+        "D": "Assumes the forces on PS and QR cancel, but they differ because the field falls off with distance."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Standard application of forces between parallel currents with an inverse-distance comparison.",
+    "misconception": "Assuming equal and opposite forces on the two sides of the loop cancel",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using Fleming's left-hand rule, electrons in the conductor moving to the right experience an upward force in a magnetic field pointing out of the page. Electrons gather at R, so S is at the higher potential.\n\n$\\varepsilon = Blv = (2.8 \\times 10^{-3})(15 \\times 10^{-2} \\times \\sin 60^\\circ)(10) = 3.6 \\times 10^{-3}\\ \\mathrm{V} = 3.6\\ \\mathrm{mV}$\n\nEach quantity in the equation must be the components perpendicular to each other, so only the vertical length $l\\sin 60^\\circ$ counts.",
+      "perOption": {
+        "A": "Correct p.d., but the wrong end: the electrons are pushed towards R, making R negative.",
+        "B": "Wrong end, and uses the full 15 cm length instead of its component perpendicular to the velocity.",
+        "C": "Correct. Electrons collect at R, and $\\varepsilon = B(l\\sin 60^\\circ)v = 3.6\\ \\mathrm{mV}$.",
+        "D": "Correct end, but uses the full 15 cm length instead of the component perpendicular to the velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combines the direction of force on moving charges with resolving the rod length perpendicular to the velocity.",
+    "misconception": "Using the full rod length instead of its component perpendicular to the velocity",
+    "transcription": "A straight conductor of length 15 cm is moved through a magnetic field at $10\\ \\mathrm{m\\,s^{-1}}$. It is oriented $60^\\circ$ from the horizontal as shown in the diagram. The magnetic flux density is 2.8 mT.\n\n[Diagram: magnetic field pointing out of the plane of the page. A rod RS of length 15 cm, with R at the top-left and S at the bottom-right, makes $60^\\circ$ with a horizontal dashed line. The rod moves horizontally to the right at $10\\ \\mathrm{m\\,s^{-1}}$.]\n\nWhich point is at a higher potential and what is the potential difference, p.d., measured across the conductor RS?\n\n| | higher potential at | p.d./mV |\n|---|---|---|\n| A | R | 3.6 |\n| B | R | 4.2 |\n| C | S | 3.6 |\n| D | S | 4.2 |"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "$I_{\\max} = \\dfrac{V_{\\max}}{R} = \\dfrac{150}{20} = 7.5\\ \\mathrm{A}$\n\n$I_{\\text{rms}} = \\dfrac{I_{\\max}}{\\sqrt{2}} = \\dfrac{7.5}{\\sqrt{2}} = 5.3\\ \\mathrm{A}$\n\nAverage power $= \\dfrac{1}{2} I_{\\max} V_{\\max} = \\dfrac{1}{2}(7.5)(150) = 560\\ \\mathrm{W}$ (2 s.f.)",
+      "perOption": {
+        "A": "Correct. Full-wave rectification keeps the r.m.s. value $I_0/\\sqrt{2}$, and mean power is half the peak power.",
+        "B": "Gives the peak current 7.5 A instead of the r.m.s. value.",
+        "C": "Correct r.m.s. current, but uses peak power $I_0 V_0 = 1100\\ \\mathrm{W}$ instead of the mean.",
+        "D": "Uses peak values for both current and power."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.h",
+      "currents.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Direct use of $I_0/\\sqrt{2}$ and mean power = half peak power once the student sees rectification does not change the r.m.s. value.",
+    "misconception": "Thinking rectification changes the r.m.s. value, or using peak power as average power",
+    "transcription": "An alternating current is supplied to a full wave rectifier. The output from the rectifier has the shape shown in the diagram, with a maximum value of 150 V.\n\n[Graph of potential difference / V against time: a series of identical positive half-sine humps, each rising from 0 to a peak of 150 V (dashed line) and back to 0.]\n\nA $20\\ \\Omega$ resistor is placed in series with this output.\n\nWhat are the r.m.s. value of the current and the average power to the resistor?\n\n| | r.m.s. current / A | power / W |\n|---|---|---|\n| A | 5.3 | 560 |\n| B | 7.5 | 560 |\n| C | 5.3 | 1100 |\n| D | 7.5 | 1100 |"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The maximum kinetic energy of the photoelectrons, $hf - \\Phi$, depends only on the frequency of the light and the metal, not on the intensity, so C is correct.\n\nA is wrong: electrons are ejected only if the wavelength is smaller than some maximum value. B is wrong: the de Broglie wavelength of the ejected electrons is not the same as the wavelength of the incident light. D is wrong: the maximum energy depends on the type of metal.",
+      "perOption": {
+        "A": "Reversed: electrons are ejected only if the wavelength is smaller than some maximum (threshold) value.",
+        "B": "The de Broglie wavelength of the ejected electrons is not the same as the wavelength of the incident light.",
+        "C": "Correct. Intensity changes only the number of photoelectrons, not their maximum energy.",
+        "D": "The maximum energy depends on the type of metal through its work function."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Standard photoelectric facts that are drilled heavily.",
+    "misconception": "Threshold condition stated as a minimum wavelength instead of a maximum",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "B is correct: the wavelengths of the characteristic X-ray lines depend on the material used to make the target, not on the potential difference applied to the electrons.\n\nA is wrong: most of the electrons' energy goes towards heating the metal target. C is wrong: $\\dfrac{hc}{eV}$ is the minimum wavelength. D is wrong: the intensity of the X-ray spectrum increases when $V$ is increased.",
+      "perOption": {
+        "A": "Most of the electrons' energy is converted to heat in the target; only a small fraction becomes X-rays.",
+        "B": "Correct. Characteristic lines come from transitions between the target atoms' energy levels.",
+        "C": "$hc/eV$ is the minimum (cut-off) wavelength, not the maximum.",
+        "D": "Increasing $V$ gives the electrons more energy, so the overall X-ray intensity increases."
+      }
+    },
+    "issues": "X-ray spectra are not an explicit outcome in the 9478 syllabus; classified under quantum-physics without an outcome id.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Needs knowledge of continuous vs characteristic X-ray features and the cut-off wavelength.",
+    "misconception": "Confusing the cut-off (minimum) wavelength with a maximum wavelength",
+    "transcription": "The diagram shows a sketch of the X-ray spectrum produced when electrons strike a metal target.\n\n[Graph of intensity against wavelength: a continuous curve rising from zero at a cut-off wavelength to a broad maximum and tailing off at long wavelengths, with two sharp characteristic peaks superimposed on it.]\n\nThe potential difference $V$ applied to the electrons incident on the metal is now increased.\n\nWhich of the following statements is correct?\n\nA All the energy of the electrons is converted into X-rays.\nB The wavelengths of the characteristic X-ray spectral lines are independent of the potential difference applied to accelerate the electrons.\nC The maximum X-ray wavelength obtained is $\\dfrac{hc}{eV}$.\nD There is no change to the overall intensity of the X-ray spectrum."
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the nucleus is very small compared with the atom, there is a lot of empty space, so most alpha particles pass straight through.\n\nWhen an $\\alpha$-particle comes very close to a gold nucleus, it experiences a large repulsive force and so can be deviated through a large angle.",
+      "perOption": {
+        "A": "Large deflections are caused by electrostatic repulsion from the nucleus, not by particles bouncing off a dense surface.",
+        "B": "Alpha particles pass through whole atoms (mostly empty space); they miss nuclei, not atoms, and are repelled rather than bouncing off atoms.",
+        "C": "Correct. The tiny nucleus is rarely approached closely, but a close approach gives a large Coulomb repulsion.",
+        "D": "Large-angle scattering shows the positive charge is concentrated; it is a single close encounter, not many small deflections."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Standard interpretation of Rutherford scattering.",
+    "misconception": "Thinking alpha particles miss whole atoms or bounce off a surface",
+    "transcription": "When $\\alpha$-particles are directed at gold leaf:\n1. almost all $\\alpha$-particles pass through without deflection\n2. a few $\\alpha$-particles are deviated through large angles.\n\nWhat are the reasons for these effects?\n\n| | 1 | 2 |\n|---|---|---|\n| A | most $\\alpha$-particles have enough energy to pass right through the gold leaf | gold is very dense, so a few low energy $\\alpha$-particles bounce back from the gold surface |\n| B | most $\\alpha$-particles miss all gold atoms | a few $\\alpha$-particles bounce off gold atoms |\n| C | the gold nucleus is very small so most $\\alpha$-particles miss all nuclei | occasionally the path of an $\\alpha$-particle is close to a nucleus |\n| D | the positive charge in an atom is not concentrated enough to deflect an $\\alpha$-particle | occasionally an $\\alpha$-particle experiences many small deflections in the same direction |"
+  },
+  {
+    "id": "yijc-2024-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "An alpha decay changes the nucleon number by $-4$ and the proton number by $-2$; a beta decay leaves the nucleon number unchanged and adds $+1$ to the proton number.\n\nHence the new nuclide has nucleon number 234 and proton number $92 - 2 + 1 = 91$.\n\nIts neutron number is therefore $234 - 91 = 143$.",
+      "perOption": {
+        "A": "Gives the nucleon number (234) instead of the neutron number.",
+        "B": "Gives the nucleon number as the neutron number and ignores the $+1$ in proton number from beta decay.",
+        "C": "Correct. Nucleon number 234, proton number 91, so neutron number 143.",
+        "D": "Correct neutron number but forgets that beta decay raises the proton number by 1."
+      }
+    },
+    "issues": "Key text says alpha decay gives '+2 in proton number'; it should be $-2$ (the final 91 is consistent with $-2$). Explanation corrected.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Simple bookkeeping of nucleon and proton numbers through two decays.",
+    "misconception": "Confusing neutron number with nucleon number",
+    "transcription": "The nuclide $^{238}_{92}\\mathrm{U}$ emits an $\\alpha$-particle. The resulting nuclide decays by emitting a $\\beta$-particle to form a new nuclide.\n\nWhat are the neutron number and the proton number of the new nuclide?\n\n| | neutron number | proton number |\n|---|---|---|\n| A | 234 | 91 |\n| B | 234 | 90 |\n| C | 143 | 91 |\n| D | 143 | 90 |"
+  }
+]

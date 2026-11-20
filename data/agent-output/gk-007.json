@@ -1,0 +1,504 @@
+[
+  {
+    "id": "acjc-2025-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The speed is constant, so $|\\mathbf v_f|=|\\mathbf v_i|$. Draw $\\Delta\\mathbf v=\\mathbf v_f+(-\\mathbf v_i)$ by adding the down-right final velocity to the leftward reverse of the initial velocity. The resultant points steeply down and left.",
+      "perOption": {
+        "A": "Points down and right even though the horizontal velocity decreases.",
+        "B": "Points up and left even though the vertical change is downward.",
+        "C": "Correct. The vector difference points steeply down and left.",
+        "D": "Reverses the direction of the velocity change."
+      }
+    },
+    "issues": "If the uniform field supplies the sole force, its fixed direction is incompatible with a curved path at constant speed. C follows from the stipulated endpoint velocities.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.a",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Subtracting two equal-length velocity vectors requires reading their directions from the path.",
+    "misconception": "Treating final velocity as the change in velocity.",
+    "transcription": "A moving object enters a uniform field of force at M, travels at constant speed and exits the field at N as shown.\n\n[The path enters the shaded rectangular region horizontally to the right at M, curves downward and exits through the lower edge at N, heading down and right. The region is labelled “region of uniform field” and the incoming line is labelled “path of object”.]\n\nWhich arrow best represents the direction of the change in velocity of the object from M to N?\n\n[A: shallow down-right arrow. B: shallow up-left arrow. C: steep down-left arrow. D: steep up-right arrow.]"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "On the way up, both weight and air resistance act downward, so the object slows at a rate greater than $g$. On the way down, air resistance opposes weight, so the downward acceleration is less than $g$. Over the same height interval the descent therefore takes longer, so $t_{\\mathrm d}>t_{\\mathrm u}$.",
+      "perOption": {
+        "A": "Correct. Drag adds to weight during the ascent and opposes it during the descent.",
+        "B": "At the same height the object is slower on the way down because drag has dissipated energy.",
+        "C": "Reverses the force comparison because drag reduces the resultant on descent.",
+        "D": "Ignores the upward drag during descent and incorrectly infers a shorter descent time."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare the direction of drag and the resulting acceleration on each leg.",
+    "misconception": "Assuming gravity makes the descent faster despite air resistance.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Treat carts 3 and 4 as one system of mass $800\\ \\mathrm{kg}$. The bar tension $T$ is the only external horizontal force on this system. By $F=ma$, $T=800(2.0)=1600\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Uses the mass of one cart as the force without applying the acceleration.",
+        "B": "Uses the mass of only one trailing cart in $F=ma$.",
+        "C": "Uses $600\\ \\mathrm{kg}$ in $F=ma$ even though the two trailing carts total $800\\ \\mathrm{kg}$.",
+        "D": "Correct. The tension accelerates both trailing carts."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is direct once the two trailing carts are treated as one system.",
+    "misconception": "Choosing the wrong carts for the system.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For balls of mass $m$, the initial momentum is $mv$, so the final momentum must also be $mv$. Options A and B give $mv$, while C gives $\\tfrac12mv$ and D gives zero.\n\nAn elastic collision has equal relative speeds of approach and separation. A gives a separation speed of $v$, whereas B gives zero and fails to conserve kinetic energy.",
+      "perOption": {
+        "A": "Correct. Both momentum and the relative speed are conserved.",
+        "B": "Conserves momentum but gives zero relative speed of separation, so kinetic energy is lost.",
+        "C": "Gives a total final momentum of $\\tfrac34mv-\\tfrac14mv=\\tfrac12mv$.",
+        "D": "Gives zero total final momentum because the two momenta cancel."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must check both momentum and relative speed against the pictured velocities.",
+    "misconception": "Assuming momentum conservation alone guarantees elasticity.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The object starts and finishes at the same height, so its gravitational potential energy is unchanged. The spring energy becomes kinetic energy and work done against friction, so $\\tfrac12kx^2=(K_{\\mathrm f}-K_{\\mathrm i})+fd$. Since $K_{\\mathrm i}=0$, $K_{\\mathrm f}=\\tfrac12kx^2-fd$.",
+      "perOption": {
+        "A": "Correct. Subtract the energy dissipated by friction from the initial spring energy.",
+        "B": "Subtracts $mgH$ even though the object finishes at its starting height.",
+        "C": "Adds $fd$ even though friction removes mechanical energy.",
+        "D": "Adds the frictional loss and treats the dip as a net drop in height."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.k"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track the frictional loss and compare the initial and final heights.",
+    "misconception": "Counting the dip depth as a net height change.",
+    "transcription": "A small object of mass $m$ is launched by a spring and travels along a rough track to a point P as shown.\n\n[The compressed spring is between a wall and the object at the left. The track dips by depth $H$ and rises to point P at the same height as the object’s starting position.]\n\nThe spring constant of the spring is $k$ and its initial compression is $x$.\n\nAs it travels to P, it goes through a distance $d$ and a dip of depth $H$. The object experiences a constant frictional force $f$ for the entire motion.\n\nWhat is the kinetic energy of the object at point P?\n\nA $\\tfrac12kx^2-fd$\nB $\\tfrac12kx^2-fd-mgH$\nC $\\tfrac12kx^2+fd$\nD $\\tfrac12kx^2+fd+mgH$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the bottom, the inward direction is upward, so $N-mg=mv^2/r$. Hence $N=mg+mv^2/r=0.52(9.3^2/1.3+9.81)=39.7\\ \\mathrm N\\approx40\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Equates the normal force to the weight, giving zero upward acceleration.",
+        "B": "Subtracts the weight from the required inward resultant.",
+        "C": "Gives the inward resultant alone and omits the downward weight.",
+        "D": "Correct. The normal force supplies the inward resultant and balances the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the upward resultant and include the downward weight.",
+    "misconception": "Equating the normal force with the centripetal resultant.",
+    "transcription": "A pail of water is spun vertically in a circular motion with a radius of $1.3\\ \\mathrm m$ as shown.\n\n[A dashed vertical circle has a horizontal radius marked $1.3\\ \\mathrm m$. The water-filled pail is at the bottom, with a rightward velocity arrow labelled $9.3\\ \\mathrm{m\\,s^{-1}}$.]\n\nThe mass of water is $0.52\\ \\mathrm{kg}$ and the speed of the pail at the bottom of the circle is $9.3\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the normal contact force acting on the water at the bottom of the circle?\n\nA $5.1\\ \\mathrm N$\nB $30\\ \\mathrm N$\nC $35\\ \\mathrm N$\nD $40\\ \\mathrm N$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each mass is a distance $r=\\sqrt{10^2+10^2}\\ \\mathrm m$ from P. The horizontal field components cancel, so the resultant is $2(6.67\\times10^{-11})(30)\\cos45^\\circ/r^2=1.4\\times10^{-11}\\ \\mathrm{N\\,kg^{-1}}$ upward.\n\nThe two potentials add as scalars, giving $\\phi=-2(6.67\\times10^{-11})(30)/r=-2.8\\times10^{-10}\\ \\mathrm{J\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Correct. Add the upward field components and both negative potentials.",
+        "B": "Incorrectly cancels the two equal negative scalar potentials.",
+        "C": "Adds the full field magnitudes without resolving them.",
+        "D": "Adds the full field magnitudes and incorrectly cancels the scalar potentials."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.f",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the diagonal distance and combine a vector field and a scalar potential differently.",
+    "misconception": "Treating fields and potentials as if they add in the same way.",
+    "transcription": "Two identical $30\\ \\mathrm{kg}$ point masses X and Y are placed $20\\ \\mathrm m$ apart as shown.\n\n[X and Y lie on a horizontal line, $20\\ \\mathrm m$ apart. P lies $10\\ \\mathrm m$ vertically below their midpoint, with a right-angle marker at the midpoint.]\n\nP is a point $10\\ \\mathrm m$ perpendicular to the midpoint between X and Y.\n\nWhat is the resultant gravitational field strength $g$ and gravitational potential $\\phi$ at P?\n\nOptions in order of $g$ in $\\mathrm{N\\,kg^{-1}}$ and $\\phi$ in $\\mathrm{J\\,kg^{-1}}$.\nA $1.4\\times10^{-11}$, $-2.8\\times10^{-10}$\nB $1.4\\times10^{-11}$, $0$\nC $2.0\\times10^{-11}$, $-2.8\\times10^{-10}$\nD $2.0\\times10^{-11}$, $0$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At radius $r$, the orbital kinetic energy is $E_{\\mathrm k}=GMm/(2r)=3.2\\ \\mathrm{MJ}$. The potential energy there is $E_{\\mathrm p}=-GMm/r=-6.4\\ \\mathrm{MJ}$. At $2r$ it is $E_{\\mathrm p}=-GMm/(2r)=-3.2\\ \\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Divides the given kinetic energy by four using inverse-square scaling and gives it a negative sign.",
+        "B": "Halves the given kinetic energy and changes its sign, missing the factor of two between the energy magnitudes at a given radius.",
+        "C": "Correct. Doubling the radius halves the magnitude of the initial potential energy.",
+        "D": "Gives the potential energy at $r$ without scaling it to $2r$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must relate orbital kinetic energy to potential energy before scaling with radius.",
+    "misconception": "Using inverse-square scaling for gravitational potential energy.",
+    "transcription": "A satellite orbits a planet at a distance $r$ from its centre. Its kinetic energy is $3.2\\ \\mathrm{MJ}$.\n\nAnother identical satellite orbits the planet at a distance $2r$ from its centre.\n\nWhat is the gravitational potential energy of this second satellite?\n\nA $-0.80\\ \\mathrm{MJ}$\nB $-1.6\\ \\mathrm{MJ}$\nC $-3.2\\ \\mathrm{MJ}$\nD $-6.4\\ \\mathrm{MJ}$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The key treats the two portions as initially at the same temperature, as they would be if they contained equal amounts of gas at the given pressure and volume. With the portions initially at the same temperature, removing the partition leaves the temperature and pressure unchanged, so the final pressure is $P$.",
+      "perOption": {
+        "A": "Accounts for expansion into twice the volume but counts only the gas from one half.",
+        "B": "Correct. Both halves contribute to the final pressure.",
+        "C": "Counts one half’s original pressure in full and halves only the other half’s contribution.",
+        "D": "Adds the two original pressures without allowing each portion to spread through twice its original volume."
+      }
+    },
+    "issues": "Equal initial pressure and volume imply equal NT, not equal T unless the amounts are equal. B is still valid for the intended same ideal gas with constant heat capacity, by conservation of internal energy.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must account for the gas initially present in both halves when the volume available to each portion doubles.",
+    "misconception": "Treating one compartment as a vacuum.",
+    "transcription": "An isolated container is divided into two sections of equal volumes by a partition. The ideal gas in each section has the same pressure $P$.\n\nWhat is the final pressure after the partition is removed?\n\nA $\\tfrac12P$\nB $P$\nC $\\tfrac32P$\nD $2P$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the same temperature, both gases have the same mean molecular kinetic energy $\\tfrac12m\\langle c^2\\rangle$. Thus $\\langle c^2\\rangle\\propto1/m$, and $c_{\\mathrm{rms},X}/c_{\\mathrm{rms},Y}=\\sqrt{m_Y/m_X}=\\sqrt{1/2}=0.71$.",
+      "perOption": {
+        "A": "Uses the inverse mass ratio directly without taking its square root.",
+        "B": "Correct. RMS speed scales as the inverse square root of mass.",
+        "C": "Reverses the mass ratio under the square root.",
+        "D": "Uses the direct mass ratio and omits the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the inverse-mass scaling of mean-square speed from the scaling of RMS speed.",
+    "misconception": "Treating RMS speed as inversely proportional to molecular mass.",
+    "transcription": "A fixed volume container contains a mixture of two monatomic gases X and Y at the same temperature. The mass of the molecules of X is twice that of molecules of Y.\n\nWhat is the ratio $\\frac{\\text{root mean square speed of molecules of X}}{\\text{root mean square speed of molecules of Y}}$?\n\nA 0.50\nB 0.71\nC 1.4\nD 2.0"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $\\Delta U=Q+W$, where $W$ is work done on the gas. Along path 1, $\\Delta U=10+(-4)=+6\\ \\mathrm J$. The endpoints are the same for path 2, so $6=Q+(-2)$ and $Q=+8\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Subtracts the work done by the gas from the internal energy increase when solving for heat input.",
+        "B": "Correct. Path 2 requires $6\\ \\mathrm J$ for the internal energy increase and $2\\ \\mathrm J$ for work done by the gas.",
+        "C": "Adds the work for path 2 to the heat input for path 1, instead of to the common internal energy change.",
+        "D": "Treats work done by the gas in path 1 as positive in $\\Delta U=Q+W$."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must carry the same internal energy change across both paths and use the correct work signs.",
+    "misconception": "Treating heat or work as fixed by the endpoints.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Heavy damping prevents the system from oscillating after release. The resistance to motion is large, so the object approaches equilibrium slowly.",
+      "perOption": {
+        "A": "Correct. Heavy damping gives a slow approach to equilibrium.",
+        "B": "An exponentially decaying oscillation is characteristic of light damping.",
+        "C": "Heavy damping prevents repeated oscillations, so there is no oscillation amplitude that decays linearly.",
+        "D": "Critical damping gives the fastest return without overshoot."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question asks for the characteristic response of a heavily damped oscillator.",
+    "misconception": "Confusing heavy damping with critical damping.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For simple harmonic motion, $a_0=\\omega^2x_0$. The graph gives $6.0=\\omega^2(0.30)$, so $\\omega=\\sqrt{6.0/0.30}=4.47\\ \\mathrm{rad\\,s^{-1}}\\approx4.5\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Divides displacement by acceleration and leaves the result unsquared-rooted.",
+        "B": "Multiplies $6.0$ by $0.30$ instead of dividing and taking the square root.",
+        "C": "Correct. The angular frequency is the square root of the gradient magnitude.",
+        "D": "Gives the magnitude of the gradient, which equals $\\omega^2$."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read matching acceleration and displacement magnitudes and take a square root.",
+    "misconception": "Reading the magnitude of the gradient as angular frequency.",
+    "transcription": "A particle moves such that its acceleration $a$ is related to its displacement $x$ from a fixed point as shown below.\n\n[The vertical axis is $a/\\mathrm{m\\,s^{-2}}$ and the horizontal axis is $x/\\mathrm m$. A straight line passes through the origin and the points $(-0.30,6.0)$ and $(0.30,-6.0)$, with dashed guides to the axes.]\n\nWhat is its angular frequency?\n\nA $0.050\\ \\mathrm{rad\\,s^{-1}}$\nB $1.8\\ \\mathrm{rad\\,s^{-1}}$\nC $4.5\\ \\mathrm{rad\\,s^{-1}}$\nD $20\\ \\mathrm{rad\\,s^{-1}}$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "P and S are at the centres of compressions, while T is at the centre of a rarefaction. A compression centre and a rarefaction centre differ in phase by $\\pi\\ \\mathrm{rad}$, so P and T have that phase difference.",
+      "perOption": {
+        "A": "P and S are both compression centres, so they are in phase.",
+        "B": "Correct. P is at a compression centre and T is at a rarefaction centre.",
+        "C": "Mistakes the relatively wide spacing between Q and R for a half-cycle separation.",
+        "D": "R is between a rarefaction centre and the compression centred at S, so the pair is less than half a cycle apart."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify opposite phases from particle spacing in a longitudinal wave.",
+    "misconception": "Confusing successive compressions with opposite phases.",
+    "transcription": "A progressive longitudinal sound wave moves through air. P, Q, R, S and T are the positions of the air particles along part of the wave at one instant.\n\n[Ten dots lie on a horizontal line. The first three are close together with P at the middle dot. Q labels the fourth dot, the fifth is unlabelled and R labels the sixth. Dots seven to nine are close together with S at the middle dot, and T labels the tenth dot. Q, the fifth dot and R are widely and evenly spaced.]\n\nWhich pair of particles has a phase difference of $\\pi\\ \\mathrm{rad}$?\n\nA P and S\nB P and T\nC Q and R\nD R and S"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "One full cycle spans $4.0\\ \\mathrm{cm}$ on the screen, giving $T=4(4.0\\times10^{-5})=1.6\\times10^{-4}\\ \\mathrm s$. The frequency is $f=1/T=6250\\ \\mathrm{Hz}$. Hence $\\lambda=v/f=330/6250=5.3\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Uses one horizontal division for a whole cycle.",
+        "B": "Uses two horizontal divisions, which span only half a cycle.",
+        "C": "Reads the width of a cycle on the screen as a physical wavelength in air.",
+        "D": "Correct. The full-cycle time gives a wavelength of $5.3\\ \\mathrm{cm}$."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d",
+      "wave-motion.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read a full cycle, apply the time-base scale and convert the frequency into a wavelength.",
+    "misconception": "Treating the horizontal trace as distance travelled by the sound.",
+    "transcription": "A microphone and a cathode-ray oscilloscope (CRO) are used to analyse a sound wave. The trace is displayed on the screen of the CRO as shown.\n\n[The CRO grid shows a sinusoidal trace over six major horizontal divisions, with a dashed centreline. The first and second troughs are at one and five divisions from the left edge, and the crest is at three divisions. One major division is marked $1.0\\ \\mathrm{cm}$ on both axes.]\n\nThe speed of sound is $330\\ \\mathrm{m\\,s^{-1}}$ and the CRO has a time-base setting of $4.0\\times10^{-5}\\ \\mathrm{s\\,cm^{-1}}$.\n\nWhat is the wavelength of the sound wave?\n\nA $1.3\\ \\mathrm{cm}$\nB $2.6\\ \\mathrm{cm}$\nC $4.0\\ \\mathrm{cm}$\nD $5.3\\ \\mathrm{cm}$"
+  }
+]

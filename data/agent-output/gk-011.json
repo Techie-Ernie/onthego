@@ -1,0 +1,502 @@
+[
+  {
+    "id": "asrjc-2023-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The train starts from rest. Take $60\\ \\mathrm{km\\,h^{-1}}$, or about $17\\ \\mathrm{m\\,s^{-1}}$, as a representative speed reached after about $15\\ \\mathrm{s}$. This gives $a\\approx 17/15\\approx 1.1\\ \\mathrm{m\\,s^{-2}}$, so $1\\ \\mathrm{m\\,s^{-2}}$ is a reasonable estimate. This is below $g=9.81\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "At this acceleration the train would take about 170 s to reach the estimated speed.",
+        "B": "Correct. It matches the estimated speed gain per second.",
+        "C": "This would bring the train to the estimated speed in less than 2 s.",
+        "D": "This is about ten times gravitational acceleration."
+      }
+    },
+    "issues": "The key gives 1.111 for 17/15, which is about 1.13. The estimate and answer are unaffected.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.e",
+      "motion-and-forces.a"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is short once a plausible speed and acceleration time are chosen.",
+    "misconception": "Using an unrealistic scale for everyday acceleration",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The speed is $v=(s_2-s_1)/(t_2-t_1)$. Add the absolute uncertainties within each difference, then add the fractional uncertainties for the quotient. This gives $\\Delta v/v=(1+1)/270+(0.02+0.02)/2.00=2/270+0.04/2.00$.",
+      "perOption": {
+        "A": "Correct. Both differences and the quotient use the appropriate uncertainty rules.",
+        "B": "Subtracts the fractional time uncertainty even though the fractional uncertainties add.",
+        "C": "Uses single-reading uncertainties and multiplies the fractions.",
+        "D": "Uses single-reading uncertainties and divides the fractions."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must propagate uncertainties through two differences and then through a quotient.",
+    "misconception": "Subtracting fractional uncertainties when dividing",
+    "transcription": "The diagram shows an experiment to measure the speed of a small ball falling at constant speed through a clear liquid in a glass tube.\n\n[A downward arrow shows the ball falling through the liquid in the vertical tube beside a rule. The upper mark is labelled $1.50\\ \\mathrm{s}$ and $115\\ \\mathrm{mm}$, and the lower mark is labelled $3.50\\ \\mathrm{s}$ and $385\\ \\mathrm{mm}$.]\n\nThere are two marks on the tube. The top mark is positioned at $115\\pm1\\ \\mathrm{mm}$ on the adjacent rule and the lower mark at $385\\pm1\\ \\mathrm{mm}$. The ball passes the top mark at $1.50\\pm0.02\\ \\mathrm{s}$ and passes the lower mark at $3.50\\pm0.02\\ \\mathrm{s}$.\n\nThe constant speed of the ball is calculated by\n\n$\\frac{385-115}{3.50-1.50}=\\frac{270}{2.00}=135\\ \\mathrm{mm\\,s^{-1}}$\n\nWhich expression calculates the fractional uncertainty in the value of this speed?\n\nA  $\\frac{2}{270}+\\frac{0.04}{2.00}$\nB  $\\frac{2}{270}-\\frac{0.04}{2.00}$\nC  $\\frac{1}{270}\\times\\frac{0.02}{2.00}$\nD  $\\frac{1}{270}\\div\\frac{0.02}{2.00}$"
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $t$ be the time spent accelerating from rest. The distance is the trapezium area under the velocity–time graph, so $100=\\frac{11.0+(11.0-t)}{2}\\times10$. This gives $t=2.0\\ \\mathrm{s}$ and $a=10/t=5.0\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "This acceleration would take 20 s to reach the stated speed, longer than the race.",
+        "B": "Divides the speed gain by the full 11.0 s, including the constant-speed phase.",
+        "C": "This implies almost 6 s of acceleration and gives only about 81 m in 11.0 s.",
+        "D": "Correct. The speed increases by 10 m/s over 2.0 s."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the total distance to infer the duration of the acceleration phase.",
+    "misconception": "Using total race time as acceleration time",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of a displacement–time graph gives velocity. In D, the speed rises from zero to a constant maximum, shown by the final straight section.",
+      "perOption": {
+        "A": "The slope flattens towards zero, so the sphere slows towards rest.",
+        "B": "The slope keeps getting steeper without reaching a constant value.",
+        "C": "The final horizontal section represents rest.",
+        "D": "Correct. The final slope is constant and nonzero."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.c",
+      "projectile-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student needs to recognise a nonzero constant slope as terminal velocity.",
+    "misconception": "Reading displacement as velocity",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The blocks stay in contact, so they have the same acceleration $a$. If $F_{YX}$ is the magnitude of the backward contact force on X, then $a=(F-F_{YX})/m_X$. Since X accelerates forward, $F_{YX}<F$. Newton’s third law gives $F_{XY}=F_{YX}$ in magnitude, so X exerts a force smaller than $F$ on Y.",
+      "perOption": {
+        "A": "This treats F as the resultant on X and ignores the backward contact force.",
+        "B": "If X exerted F on Y, Y would exert an equal opposing force on X, giving X zero acceleration.",
+        "C": "Correct. The contact force is smaller than the applied force.",
+        "D": "The two contact forces form a Newton’s third-law pair and have equal magnitudes."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the applied force from the resultant force on X and use Newton’s third law.",
+    "misconception": "Treating the applied force as the resultant on X",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Newton’s second law, $F_{\\mathrm{net}}=\\mathrm{d}p/\\mathrm{d}t$, the gradient of the momentum–time graph. As the force magnitude increases, the graph must get steeper. In B the slope becomes increasingly negative, so the magnitude of the force opposing the motion increases.",
+      "perOption": {
+        "A": "Its positive gradient becomes less steep, so the force magnitude decreases.",
+        "B": "Correct. The magnitude of the negative slope increases.",
+        "C": "Its negative gradient becomes less steep, so the force magnitude decreases.",
+        "D": "Its constant gradient represents a constant force."
+      }
+    },
+    "issues": "B is correct if “increased” refers to force magnitude. Its signed gradient becomes more negative. The key’s comment about C should refer to the decreasing magnitude of its gradient.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret the magnitude of a negative momentum gradient as a force magnitude.",
+    "misconception": "Reading momentum as force",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Constant velocity means the forces balance, so $X=Y+Z$. The bubble’s weight is tiny, making it the shorter downward arrow $Y$. The upward force $X$ is upthrust, leaving the downward force $Z$ as viscous drag.",
+      "perOption": {
+        "A": "Correct. Upthrust balances the bubble’s weight and drag.",
+        "B": "The inequality implies upward acceleration.",
+        "C": "It assigns the bubble’s small weight to the larger downward arrow.",
+        "D": "It swaps weight and drag and implies an upward resultant."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.b",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student combines force directions and relative arrow lengths with the condition for constant velocity.",
+    "misconception": "Assuming upward motion requires a net upward force",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The frictionless ground exerts only a vertical upward normal force $R$. The weight $W$ acts vertically downwards. At the rough wall, upward friction and the horizontal normal force combine to give the upward-angled contact force $P$.",
+      "perOption": {
+        "A": "Weight should point vertically downwards.",
+        "B": "Correct. The force directions match both contact surfaces and gravity.",
+        "C": "The tilted ground reaction implies ground friction, and the horizontal wall force omits wall friction.",
+        "D": "The tilted ground reaction implies friction at the icy ground."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine the wall’s normal force and friction while keeping the ground reaction vertical.",
+    "misconception": "Adding a friction component at a frictionless contact",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Efficiency is useful output power divided by input power, expressed as a percentage. Over the same time interval, the power ratio equals the energy ratio, giving $\\frac{U}{E_{\\mathrm{in}}}\\times100\\%$.",
+      "perOption": {
+        "A": "Correct. It uses useful output energy over total input energy.",
+        "B": "It gives the percentage of input energy wasted.",
+        "C": "It divides useful output by wasted energy.",
+        "D": "It counts both useful and wasted energy as useful output."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.n"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student only needs to identify the useful output and total input in the efficiency formula.",
+    "misconception": null,
+    "transcription": "The total energy input $E_{\\mathrm{in}}$ in a process is partly transferred to useful energy output $U$ and partly transferred to energy that is wasted $W$.\n\nWhat is the efficiency of the process?\n\nA  $\\frac{U}{E_{\\mathrm{in}}}\\times100\\%$\nB  $\\frac{W}{E_{\\mathrm{in}}}\\times100\\%$\nC  $\\frac{U}{W}\\times100\\%$\nD  $\\frac{U+W}{E_{\\mathrm{in}}}\\times100\\%$"
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Before the jump the jumper is stationary and the cord is slack. On the way down before the cord extends, its elastic potential energy is still zero. When the net force is zero on the way down, the jumper is above ground and moving, and the cord is stretched, so all three energies are nonzero. At maximum extension the jumper is momentarily at rest.",
+      "perOption": {
+        "A": "The stationary jumper and slack cord give zero kinetic and elastic potential energy.",
+        "B": "The cord is still slack, so its elastic potential energy is zero.",
+        "C": "Correct. The jumper is moving above ground with the cord stretched.",
+        "D": "The jumper momentarily stops, so kinetic energy is zero."
+      }
+    },
+    "issues": "The key assumes the ground is the zero level for gravitational potential energy.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.a",
+      "energy-and-fields.b",
+      "energy-and-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track the jumper’s height, speed and cord extension at each stage.",
+    "misconception": "Equating zero net force with zero speed",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The hour hand turns through $2\\pi$ radians in 12 hours. Its average angular velocity has magnitude $\\omega=\\theta/t=2\\pi/(12\\times3600)=1.45\\times10^{-4}\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses one revolution as one radian, omitting the factor of 2π.",
+        "B": "Uses a 24-hour period for the hour hand.",
+        "C": "Correct. It uses one full turn in 12 hours.",
+        "D": "Uses the minute hand’s one-hour period."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a",
+      "circular-motion.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The calculation requires one revolution in radians and conversion of 12 hours into seconds.",
+    "misconception": "Using the minute hand’s period",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gravitational force is $F=\\frac{G(2M)M}{(3x)^2}=\\frac{2GM^2}{9x^2}$. Comparing this with $\\frac{kGM^2}{x^2}$ gives $k=2/9=0.22$.",
+      "perOption": {
+        "A": "Correct. Both stellar masses and the full separation are used.",
+        "B": "Uses the larger orbital radius, 2x, as the separation.",
+        "C": "Uses the separation factor 3 without squaring it.",
+        "D": "Uses the smaller orbital radius, x, as the separation."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The key step is using the separation of the two stars in the inverse-square law.",
+    "misconception": "Using an orbital radius as the separation",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a satellite in a circular orbit, $E_k=GMm/(2r)$ and $E_{\\mathrm{p}}=-GMm/r$. As the orbital radius increases, kinetic energy decreases and gravitational potential energy increases because it becomes less negative.",
+      "perOption": {
+        "A": "The potential energy increases, but the kinetic energy falls as the radius grows.",
+        "B": "It reverses both trends with increasing radius.",
+        "C": "Correct. The kinetic energy falls and the potential energy becomes less negative.",
+        "D": "It treats the decrease in the magnitude of potential energy as a decrease in potential energy itself."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare two inverse-radius expressions and account for the negative sign of potential energy.",
+    "misconception": "Treating gravitational potential energy as positive",
+    "transcription": "A satellite is moved from a circular orbit of radius $R_1$ around the Earth to a new circular orbit of radius $R_2$ where $R_2>R_1$.\n\nWhat happens to its kinetic energy and gravitational potential energy?\n\n| Option | kinetic energy | gravitational potential energy |\n| --- | --- | --- |\n| A | increases | increases |\n| B | increases | decreases |\n| C | decreases | increases |\n| D | decreases | decreases |"
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=0$ the mass passes through equilibrium, where its speed and kinetic energy are greatest. The displacement–time graph is a sine curve, so $v=\\mathrm{d}y/\\mathrm{d}t$ varies as a cosine. Since $E=\\tfrac12mv^2$, kinetic energy follows a cosine-squared curve.",
+      "perOption": {
+        "A": "It places zero kinetic energy at the initial equilibrium crossing.",
+        "B": "It shows only one peak and misses the repeated maxima at later equilibrium crossings.",
+        "C": "It places kinetic energy maxima at the displacement extrema, where the mass is stationary.",
+        "D": "Correct. Kinetic energy peaks at each equilibrium crossing."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.g",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the phase of the velocity and account for the doubled frequency of kinetic energy.",
+    "misconception": "Using displacement squared for kinetic energy",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2023-promo-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "With more damping, the response amplitude is lower at nonzero driving frequencies. At zero driving frequency, the response amplitude still equals the driver’s, so the curve starts at the same height as X.",
+      "perOption": {
+        "A": "It exceeds the original response at some nonzero frequencies.",
+        "B": "Correct. It starts at the same amplitude as X and lies below X at nonzero frequencies.",
+        "C": "It incorrectly reduces the zero-frequency amplitude.",
+        "D": "It starts below X, so it incorrectly reduces the zero-frequency amplitude."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must check both the shape of the response and its zero-frequency limit.",
+    "misconception": "Assuming damping reduces the static amplitude",
+    "transcription": "The solid line X on the graph shows how the amplitude of an oscillating system varies with the frequency at which it is driven. The driving oscillator has a constant amplitude at all frequencies.\n\nWhich dashed line shows the response of the system under conditions where there is more damping?\n\n[Graph of amplitude against frequency. The solid curve X starts at a nonzero amplitude, rises to a sharp peak and then falls. Dashed curve A has a broader, lower peak and lies above X on the high-frequency side. Dashed curve B starts at the same height as X and has a lower peak. Dashed curves C and D start below X, with D starting lower than C. The curves are labelled A, B, C and D from top to bottom at the right.]"
+  }
+]

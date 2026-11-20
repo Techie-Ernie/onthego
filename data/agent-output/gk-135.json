@@ -1,0 +1,497 @@
+[
+  {
+    "id": "tmjc-2023-other-p1-q25",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For an ideal transformer, $V_s = \\dfrac{N_s}{N_p}V_p$.\n\nPower in the secondary $= \\dfrac{V_s^2}{R} = \\dfrac{(N_s V_p/N_p)^2}{R} = \\dfrac{N_s^2 V_p^2}{N_p^2 R}$, and since the transformer is ideal this equals the power in the primary coil.",
+      "perOption": {
+        "A": "Inverts the turns ratio and does not square $V_p$.",
+        "B": "Does not square the turns ratio when squaring $V_s$.",
+        "C": "Correct. $P = V_s^2/R$ with $V_s = (N_s/N_p)V_p$.",
+        "D": "Squares the turns ratio but forgets to square $V_p$."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Two standard relations (turns ratio and $V^2/R$) combined algebraically.",
+    "misconception": "squaring only part of the expression for $V_s$",
+    "transcription": "25 The figure below shows an ideal transformer with $N_p$ turns in its primary coil and $N_s$ turns in its secondary coil.\n[Diagram: an a.c. supply $V_p$ connected to a primary coil of $N_p$ turns on an iron core; the secondary coil of $N_s$ turns is connected to a resistor $R$.]\nAn alternating voltage supply of $V_p$ is connect to the primary coil. A resistor of $R$ ohms is connected to the secondary coil.\nWhich expression gives the power in the primary coil?\nA $\\dfrac{N_p^2 V_p}{N_s^2 R}$\nB $\\dfrac{N_s V_p^2}{N_p R}$\nC $\\dfrac{N_s^2 V_p^2}{N_p^2 R}$\nD $\\dfrac{N_s^2 V_p}{N_p^2 R}$"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q26",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Consider one period ($1.0\\ \\mathrm{ms}$), in which $V = 46\\ \\mathrm{V}$ for $0.25\\ \\mathrm{ms}$ and zero otherwise.\n\n1. Square the graph: $V^2 = 46^2 = 2116\\ \\mathrm{V^2}$.\n\n2. Mean over one period: $\\langle V^2 \\rangle = \\dfrac{\\text{area}}{\\text{period}} = \\dfrac{(2116)(0.25\\times10^{-3})}{1.0\\times10^{-3}} = 529\\ \\mathrm{V^2}$.\n\n3. Take the square root: $V_{rms} = \\sqrt{529} = 23\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "This is roughly the mean voltage ($46 \\times 0.25 \\approx 12\\ \\mathrm{V}$), not the r.m.s. value.",
+        "B": "Correct. $\\sqrt{\\langle V^2\\rangle} = \\sqrt{529} = 23\\ \\mathrm{V}$.",
+        "C": "Uses $V_0/\\sqrt{2}$, which applies only to sinusoidal voltages.",
+        "D": "Gives the mean of $V^2$ but forgets to take the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying the r.m.s. definition to a non-sinusoidal pulse waveform read from a graph.",
+    "misconception": "applying $V_0/\\sqrt{2}$ to a non-sinusoidal waveform",
+    "transcription": "26 The figure below shows the variation with time, $t$, of a periodic voltage supply, $V$.\n[Graph: $V$/V from 0 to 60.0 against $t$/ms from 0 to 3.0. The voltage is 0 V except for rectangular pulses of 46 V lasting 0.25 ms, from 0.75 to 1.00 ms, 1.75 to 2.00 ms and 2.75 to 3.00 ms; period 1.0 ms.]\nWhat is the root-mean-square value of the voltage?\nA 12 V\nB 23 V\nC 33 V\nD 529 V"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q27",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $hf = \\phi + E_{max}$, $E_{max} = hf - hf_0$.\n\nThe $x$-intercept is the threshold frequency $f_0 = \\phi/h$, so a larger work function gives a larger threshold frequency: Y's line starts further right. The gradient of the graph is Planck's constant, so it does not change and the lines are parallel.",
+      "perOption": {
+        "A": "Shows a smaller threshold frequency, which corresponds to a smaller work function.",
+        "B": "Correct. Larger $f_0$, same gradient $h$.",
+        "C": "Shows a smaller threshold frequency and a steeper gradient; the gradient must stay $h$.",
+        "D": "Has the larger threshold frequency but a smaller gradient; the gradient must stay $h$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Standard interpretation of the photoelectric $E_{max}$–$f$ graph's gradient and intercept.",
+    "misconception": "thinking the gradient depends on the metal",
+    "transcription": "27 Light is incident on the surface of metal X so that it emits electrons. The variation with frequency $f$ of the incident light of the maximum kinetic energy $E_{max}$ of the electrons is given below.\n[Graph: $E_{max}$ against $f$; a straight line X starting from a positive intercept on the $f$-axis.]\nThe experiment is repeated with a metal Y of a larger work function.\nWhich of the following shows the graph for Y?\nA [Y is parallel to X (dashed) but with a smaller $f$-intercept]\nB [Y is parallel to X but with a larger $f$-intercept]\nC [Y has a smaller $f$-intercept and a steeper gradient than X]\nD [Y has a larger $f$-intercept and a smaller gradient than X]"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q28",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Uncertainty in momentum: $\\Delta p = m\\Delta v = (9.11\\times10^{-31})(5.8\\times10^{6})\\left(\\dfrac{0.2}{100}\\right) = 1.0568\\times10^{-26}\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\nUsing $\\Delta p\\,\\Delta x \\geq h$: $\\Delta x_{min} = \\dfrac{6.63\\times10^{-34}}{1.0568\\times10^{-26}} = 6.3\\times10^{-8}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Divides $h$ by $\\Delta v$ only, omitting the electron mass.",
+        "B": "This is $\\Delta p$, not $\\Delta x$.",
+        "C": "Uses the full momentum $mv$ (giving the de Broglie wavelength) instead of the uncertainty $\\Delta p$.",
+        "D": "Correct. $\\Delta x = h/\\Delta p$ with $\\Delta p = 0.2\\%$ of $mv$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Two-step substitution into $\\Delta p = m\\Delta v$ and the uncertainty principle.",
+    "misconception": "using the full momentum instead of its uncertainty",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q30",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The count rate drops sharply when paper is inserted, so the radiation is stopped by paper: it must be $\\alpha$ radiation, which has low penetrating power.\n\nThe remaining $24\\ \\mathrm{min^{-1}}$ is the background count rate, so the initial count rate due to the source is $532 - 24 = 508\\ \\mathrm{min^{-1}}$.\n\nAfter two half-lives the source count rate is $\\tfrac{1}{4}(508) = 127\\ \\mathrm{min^{-1}}$, so the reading is $127 + 24 = 151\\ \\mathrm{min^{-1}}$.",
+      "perOption": {
+        "A": "Correct radiation, but forgets to add the background count back to the reading.",
+        "B": "$\\beta$ radiation would not be stopped by paper, and the background is not added back.",
+        "C": "Correct. $\\alpha$; $\\tfrac{1}{4}(532-24) + 24 = 151\\ \\mathrm{min^{-1}}$.",
+        "D": "$\\beta$ radiation would pass through paper."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.g",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying background count and correcting for it before and after halving.",
+    "misconception": "applying half-life decay to the background count",
+    "transcription": "30 A radioactive source emits radiation of type X.\nA counter is placed at a fixed position close to the source.\nWhen a piece of paper is placed between the counter and the source, the average count rate is 24 counts per minute.\nWhen the paper is removed, the average count rate is 532 counts per minute.\nWhat is radiation X and the average count rate immediately after two half-lives?\n[Table: radiation X | count rate after two half-lives / min$^{-1}$]\nA $\\alpha$ | 127\nB $\\beta$ | 127\nC $\\alpha$ | 151\nD $\\beta$ | 151"
+  },
+  {
+    "id": "tmjc-2024-other-p1-q1",
+    "keyPage": 17,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Estimate a pen as a cylinder of length $14.0\\ \\mathrm{cm}$ and diameter $1.0\\ \\mathrm{cm}$.\n\nVolume $= \\pi\\left(\\dfrac{1.0}{2}\\right)^2(14.0) \\approx 11\\ \\mathrm{cm^3}$, closest to $10\\ \\mathrm{cm^3}$.",
+      "perOption": {
+        "A": "Far too small; about the volume of a small bead.",
+        "B": "Too small by a factor of ten; a pen is much longer than 1 cm.",
+        "C": "Correct. $\\pi(0.5)^2(14) \\approx 11\\ \\mathrm{cm^3}$.",
+        "D": "Too large; that is about the volume of a small cup of water."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Simple everyday estimation of a cylinder volume.",
+    "misconception": null,
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q2",
+    "keyPage": 17,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Change in velocity = total area under the $a$–$t$ graph.\n\nTotal area $= \\tfrac{1}{2}(4.0)(2.4) + \\left(-\\tfrac{1}{2}(6.0)(3.6)\\right) = 4.8 - 10.8 = -6.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Assumes the positive and negative areas cancel; they do not.",
+        "B": "Averages the two extreme accelerations instead of finding the area.",
+        "C": "Correct. Net area $= 4.8 - 10.8 = -6.0\\ \\mathrm{m\\,s^{-1}}$.",
+        "D": "Treats both areas as negative ($-(4.8 + 10.8)$) instead of taking the area above the axis as positive."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Straightforward area under an $a$–$t$ graph with a sign change.",
+    "misconception": "ignoring the sign of areas below the time axis",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q3",
+    "keyPage": 17,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Newton's 2nd law: the forces must act on the same body to produce a resultant force. Only $F_3$ and $F_4$ (both on the concrete) satisfy this.\n\nNewton's 3rd law: the forces must act on different bodies. Only $F_2$ (on the Earth) and $F_4$ (on the concrete) satisfy this.",
+      "perOption": {
+        "A": "Correct. $F_3, F_4$ both act on the concrete; $F_2, F_4$ act on different bodies.",
+        "B": "$F_1$ and $F_2$ both act on the Earth, so they cannot be a 3rd-law pair.",
+        "C": "$F_1$ acts on the Earth and $F_3$ on the concrete, so they cannot combine into one body's resultant force.",
+        "D": "$F_1, F_3$ act on different bodies (not a 2nd-law pair) and $F_1, F_2$ act on the same body (not a 3rd-law pair)."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires careful identification of which body each force acts on.",
+    "misconception": "thinking a Newton's 3rd-law pair can act on the same body",
+    "transcription": "3 A large block of concrete is placed on the ground at the equator where it is rotating with the Earth. The forces acting on the Earth and on the concrete are shown.\n[Diagram, left: the Earth with axis of rotation and equator; forces acting on the Earth are $F_1$ (pointing towards the concrete position) and $F_2$ (at the surface, pointing back into the Earth). Right: forces acting on the concrete: $F_3$ pointing towards the Earth's centre and $F_4$ pointing outwards.]\nWhich pairs of forces demonstrate Newton's 2nd Law & Newton's 3rd Law?\n[Table: Newton's 2nd Law | Newton's 3rd Law]\nA $F_3$ and $F_4$ | $F_2$ and $F_4$\nB $F_3$ and $F_4$ | $F_1$ and $F_2$\nC $F_1$ and $F_3$ | $F_2$ and $F_4$\nD $F_1$ and $F_3$ | $F_1$ and $F_2$"
+  },
+  {
+    "id": "tmjc-2024-other-p1-q4",
+    "keyPage": 18,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Two pairs of the forces are antiparallel and separated by a perpendicular distance $d$, forming two couples, each of torque $Fd$.\n\nTotal torque $= Fd + Fd = 2Fd$.\n\nThe other forces act along lines through the centre, so they produce no torque.",
+      "perOption": {
+        "A": "Counts only one of the two couples.",
+        "B": "Correct. Two couples of $Fd$ each.",
+        "C": "Counts an extra couple; forces whose lines of action pass through the centre give no torque.",
+        "D": "Treats all eight forces as producing torque, but four act through the centre."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Needs careful reading of the lines of action of eight forces on the diagram.",
+    "misconception": "assuming every force contributes a torque",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q5",
+    "keyPage": 18,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Atmospheric pressure acts on both the top and bottom of the drum, so its effect cancels.\n\nAt equilibrium, weight of drum and content = weight of water displaced $= V\\rho g = 0.80\\times0.19\\times1.1\\times10^{3}\\times9.81 = 1640\\ \\mathrm{N}$.\n\nMass of drum and content $= \\dfrac{1640}{9.81} = 167\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Correct. $m = \\rho V = 1.1\\times10^3 \\times 0.80 \\times 0.19 = 167\\ \\mathrm{kg}$.",
+        "B": "Does not follow from the displaced volume and the seawater density.",
+        "C": "This is the weight in newtons, not the mass in kilograms.",
+        "D": "Does not follow from the displaced volume; the upthrust equals the weight, so the mass is $\\rho V$."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Direct application of upthrust equals weight for a floating body.",
+    "misconception": "confusing weight in N with mass in kg",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q6",
+    "keyPage": 18,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The net force from the rope on the wheel is $100 - 20 = 80\\ \\mathrm{N}$, and the rim moves at $0.30 \\times 50\\ \\mathrm{m\\,s^{-1}}$.\n\nOutput power of the motor $= (100-20)(0.30)(50) = 1200\\ \\mathrm{W}$.\n\nElectrical power supplied $= \\dfrac{1200}{0.2} = 6000\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Multiplies the output power by the efficiency instead of dividing.",
+        "B": "Adds the two tensions and multiplies by the efficiency instead of dividing.",
+        "C": "Correct. $P_{in} = (80)(15)/0.2 = 6000\\ \\mathrm{W}$.",
+        "D": "Adds the tensions ($120\\ \\mathrm{N}$) instead of taking their difference."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.m",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must realise the useful force is the tension difference (friction) and apply efficiency correctly.",
+    "misconception": "using the sum of tensions rather than their difference",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q7",
+    "keyPage": 19,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Angular velocity $\\omega = \\dfrac{v}{r} = \\dfrac{6.0}{0.40} = 15\\ \\mathrm{rad\\,s^{-1}}$.\n\nFrom A to B the body turns through a right angle, so the angular displacement is $\\dfrac{\\pi}{2} = 1.6\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Multiplies $v$ by $r$ for $\\omega$ and gives the arc length ($0.63\\ \\mathrm{m}$) instead of the angle.",
+        "B": "Multiplies $v$ by $r$ instead of dividing.",
+        "C": "Gives the arc length $r\\theta = 0.63\\ \\mathrm{m}$ instead of the angle in radians.",
+        "D": "Correct. $\\omega = v/r$ and $\\theta = \\pi/2$."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a",
+      "circular-motion.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Direct use of $v = r\\omega$ and a quarter-turn angle.",
+    "misconception": "confusing arc length with angular displacement",
+    "transcription": "7 A body moves in a uniform circular motion from A to B as shown in the diagram. The radius of the circle is 0.40 m and the speed of the body is $6.0\\ \\mathrm{m\\,s^{-1}}$.\n[Diagram: circle of radius 0.40 m; A on the right at the end of a horizontal radius, B at the top, with a right angle between the two radii; velocity $6.0\\ \\mathrm{m\\,s^{-1}}$ at B pointing left.]\nWhat is its angular velocity and angular displacement?\n[Table: angular velocity / rad s$^{-1}$ | angular displacement / rad]\nA 2.4 | 0.63\nB 2.4 | 1.6\nC 15 | 0.63\nD 15 | 1.6"
+  },
+  {
+    "id": "tmjc-2024-other-p1-q8",
+    "keyPage": 19,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational force $F = \\dfrac{GMm}{r^2}$.\n\nOn the ground, $r = R$: $W = \\dfrac{GMm}{R^2}$ (1). At a height $2R$ above the ground, $r = 3R$: $F = \\dfrac{GMm}{(3R)^2}$ (2).\n\nDividing (2) by (1) gives $F = \\dfrac{W}{9}$.",
+      "perOption": {
+        "A": "Treats the force as inversely proportional to height, not to the square of distance from the centre.",
+        "B": "Uses $r = 3R$ but forgets to square it.",
+        "C": "Uses the height $2R$ as the distance from the Earth's centre.",
+        "D": "Correct. $r = 3R$, so $F = W/3^2$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Common trap of measuring distance from the surface instead of the centre.",
+    "misconception": "measuring $r$ from the Earth's surface instead of its centre",
+    "transcription": "8 On the surface of the Earth, the gravitational force on an object is $W$.\nWhat is the gravitational force on the object when it is at a height of $2R$ above the surface of the Earth, where $R$ is the radius of the Earth?\nA $\\dfrac{W}{2}$\nB $\\dfrac{W}{3}$\nC $\\dfrac{W}{4}$\nD $\\dfrac{W}{9}$"
+  },
+  {
+    "id": "tmjc-2024-other-p1-q9",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For an orbiting satellite, gravitational force provides the centripetal force: $\\dfrac{GMm}{r^2} = mr\\left(\\dfrac{2\\pi}{T}\\right)^2$, so $T^2 = \\dfrac{4\\pi^2}{GM}r^3$.\n\nThe orbit radius is independent of the satellite's mass $m$, so with the same period the radius is the same: ratio $= 1$.",
+      "perOption": {
+        "A": "Wrongly assumes the radius is inversely proportional to the satellite's mass.",
+        "B": "Correct. $m$ cancels, so $r$ depends only on $T$.",
+        "C": "Wrongly assumes the radius depends on the square root of the satellite's mass.",
+        "D": "Wrongly assumes the radius is proportional to the satellite's mass."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "gravitational-fields.k"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognising that satellite mass cancels is a standard idea.",
+    "misconception": "thinking orbit radius depends on satellite mass",
+    "transcription": "9 A communications satellite which takes 24 hours to orbit the Earth is replaced by a new satellite which has twice the mass of the old one.\nThe new satellite also has an orbit time of 24 hours.\nWhat is the value of $\\dfrac{\\text{radius of orbit of new satellite}}{\\text{radius of orbit of old satellite}}$?\nA $\\dfrac{1}{2}$\nB $\\dfrac{1}{1}$\nC $\\dfrac{\\sqrt{2}}{1}$\nD $\\dfrac{2}{1}$"
+  },
+  {
+    "id": "tmjc-2024-other-p1-q10",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From the graph, amplitude $x_0 = 4.0\\ \\mathrm{m}$ and maximum speed $v_0 = 20\\ \\mathrm{m\\,s^{-1}}$.\n\n$v_0 = \\omega x_0 \\Rightarrow 20 = \\omega \\times 4.0$, so $\\omega = 5.0\\ \\mathrm{rad\\,s^{-1}}$ and $T = \\dfrac{2\\pi}{5.0} = 1.257\\ \\mathrm{s}$.\n\nSpeed goes from maximum (at equilibrium) to zero (at the extreme) in $\\tfrac{1}{4}T = 0.31\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Gives $1/\\omega$ instead of a quarter period.",
+        "B": "Correct. $\\tfrac{1}{4}T = \\tfrac{1}{4}(2\\pi/5.0) = 0.31\\ \\mathrm{s}$.",
+        "C": "This is the full period; maximum to zero speed takes only a quarter period.",
+        "D": "Reads the amplitude in metres as a time."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires extracting $x_0$ and $v_0$ from a $v$–$x$ graph and knowing max-to-zero speed is a quarter cycle.",
+    "misconception": "taking the full period instead of a quarter period",
+    "transcription": null
+  }
+]

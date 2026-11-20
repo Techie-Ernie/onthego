@@ -1,0 +1,488 @@
+[
+  {
+    "id": "acjc-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Because $k$ is dimensionless, $P$ and $\\rho Av^n$ have the same base units. This gives $(\\mathrm{kg\\,m\\,s^{-2}})(\\mathrm{m\\,s^{-1}})=(\\mathrm{kg\\,m^{-3}})(\\mathrm{m^2})(\\mathrm{m\\,s^{-1}})^n$, so $\\mathrm{kg\\,m^2\\,s^{-3}}=\\mathrm{kg\\,m^{-3+2+n}\\,s^{-n}}$. Matching the powers of seconds gives $n=3$.",
+      "perOption": {
+        "A": "Gives a time factor of $\\mathrm{s^{-1}}$ for power.",
+        "B": "Gives a time factor of $\\mathrm{s^{-2}}$ for power.",
+        "C": "Correct.",
+        "D": "Gives a time factor of $\\mathrm{s^{-4}}$ for power."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Matching the time exponents requires expressing power and speed in base units.",
+    "misconception": "Treating the constant as dimensional.",
+    "transcription": "The maximum theoretical power $P$ of a wind turbine is given by the equation $P=k\\rho Av^n$, where $\\rho$ is the density of air, $A$ is the area swept by the turbine blades, $v$ is the speed of the air and $k$ is a constant with no units.\n\nWhat is the value of $n$?\n\nA 1\nB 2\nC 3\nD 4"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the displacement–time graph gives velocity. Its gradient changes most rapidly in interval A, so A has the greatest magnitude of acceleration.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The gradient is nearly constant, so the velocity changes little.",
+        "C": "The constant gradient represents constant velocity and zero acceleration.",
+        "D": "The horizontal segment represents zero velocity throughout the interval."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare changes in gradient over the marked intervals.",
+    "misconception": "Confusing velocity with acceleration.",
+    "transcription": "The graph shows the variation with time $t$ of the displacement $s$ of an object moving along a straight path.\n\n[Graph with vertical axis $s$, horizontal axis $t$ and origin 0. The curve starts nearly horizontal at the origin, descends to a rounded minimum and then rises in a straight line through $s=0$ to a horizontal positive plateau. It ends with a vertical line down to the time axis. Dashed guides mark four intervals of equal width: A begins at the origin on the steepening descent, B is on the flattening descent, C is on the straight rising segment just before it crosses $s=0$, and D lies on the plateau.]\n\nWhich time interval has the greatest magnitude of acceleration?"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $s=ut+\\frac12at^2$ with $u=0$ at release. Subtracting the two displacements gives $h=\\frac12a(t_2^2-t_1^2)$, so $a=\\frac{2h}{t_2^2-t_1^2}$. Since $a=g\\sin\\theta$, $g=\\frac{2h}{(t_2^2-t_1^2)\\sin\\theta}$.",
+      "perOption": {
+        "A": "Gives the acceleration along the incline.",
+        "B": "Uses $(t_2-t_1)^2$ as if the block started from rest at the first sensor.",
+        "C": "Uses $\\cos\\theta$, the factor for the component perpendicular to the slope.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.e",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires comparing two displacements from release and resolving gravity along the incline.",
+    "misconception": "Treating the block as stationary at the first sensor.",
+    "transcription": "A block is released from rest down a frictionless inclined plane of angle $\\theta$. The block passes two light sensors $\\mathrm{S_1}$ and $\\mathrm{S_2}$ at time $t_1$ and $t_2$ respectively.\n\n[The block is uphill of $\\mathrm{S_1}$ on a plane sloping down to the right at angle $\\theta$ to the horizontal. $\\mathrm{S_2}$ is farther downhill. Two dashed lines perpendicular to the slope mark the sensor positions, separated by distance $h$ along the slope.]\n\nWhat is the acceleration of free fall?\n\nA $\\frac{2h}{t_2^2-t_1^2}$\nB $\\frac{2h}{(t_2-t_1)^2}$\nC $\\frac{2h}{(t_2^2-t_1^2)\\cos\\theta}$\nD $\\frac{2h}{(t_2^2-t_1^2)\\sin\\theta}$"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rate of change of momentum is $v\\frac{\\Delta m}{t}$, where $v$ is the water speed relative to the nozzle. In time $t$, a column of water of length $h$ passes through the nozzle, giving $\\Delta m=\\rho\\pi r^2h$. Since $h/t=v$, the momentum rate is $\\rho\\pi r^2v^2=1000\\pi(0.012)^2(10)^2\\approx45\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Using the radius directly in place of $\\pi r^2$ and counting the speed only once gives 120 but has the wrong units.",
+        "C": "Uses $\\pi r$ in place of the nozzle area $\\pi r^2$.",
+        "D": "Uses the circumference $2\\pi r$ in place of the nozzle area $\\pi r^2$."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must turn a volume flow rate into a mass flow rate and then into a momentum rate.",
+    "misconception": "Confusing mass flow rate with momentum flow rate.",
+    "transcription": "A toy rocket consists of a plastic bottle which is partially filled with water as shown in the figure below. The space above the water contains compressed air.\n\n[An upright bottle with fins has compressed air above the water and a nozzle at the bottom.]\n\nAt one instant during the flight of the rocket bottle, water of density $1000\\ \\mathrm{kg\\,m^{-3}}$ is forced out of the nozzle of radius $0.012\\ \\mathrm{m}$ at a speed of $10\\ \\mathrm{m\\,s^{-1}}$ relative to the nozzle.\n\nWhat is the rate of change of momentum of the water?\n\nA $45\\ \\mathrm{N}$\nB $120\\ \\mathrm{N}$\nC $3800\\ \\mathrm{N}$\nD $7500\\ \\mathrm{N}$"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take rightward as positive and conserve momentum for Charlie and the ball during the throw. From $0=(1.5)(2.5)+60u$, Charlie recoils at $u=-0.0625\\ \\mathrm{m\\,s^{-1}}$. When Charlie catches the returning ball, $(60)(-0.0625)+(1.5)(-2.5)=(61.5)v$. This gives $v=-0.122\\ \\mathrm{m\\,s^{-1}}$, so Charlie's speed is $0.12\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Treats the returning ball's momentum as opposite to Charlie's recoil momentum.",
+        "B": "Uses Charlie's speed immediately after the throw.",
+        "C": "Correct.",
+        "D": "Uses Charlie's mass alone for the final moving mass, giving a speed of $0.125\\ \\mathrm{m\\,s^{-1}}$ before rounding."
+      }
+    },
+    "issues": "The key uses −0.0626 m/s in the catch equation after deriving −0.0625 m/s, and its symbolic throw equation has an inconsistent sign convention. The rewrite uses one signed velocity throughout.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Momentum conservation must be applied separately to the throw and catch with consistent signs.",
+    "misconception": "Assuming Charlie and the returning ball move in opposite directions.",
+    "transcription": "Two stationary ice-skaters Charlie and Sam, each of mass $60\\ \\mathrm{kg}$, are directly facing one another on an ice-skating rink. Charlie throws a $1.5\\ \\mathrm{kg}$ ball towards Sam with a horizontal speed of $2.5\\ \\mathrm{m\\,s^{-1}}$. Sam catches the ball and throws it back to Charlie with the same horizontal speed.\n\nWhat is the speed of Charlie after catching the ball?\n\nA $0\\ \\mathrm{m\\,s^{-1}}$\nB $0.063\\ \\mathrm{m\\,s^{-1}}$\nC $0.12\\ \\mathrm{m\\,s^{-1}}$\nD $0.13\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Vertical equilibrium gives $T\\cos18^\\circ=W$, so $T=520/\\cos18^\\circ\\approx550\\ \\mathrm{N}$. Horizontal equilibrium gives $R=T\\sin18^\\circ=(520/\\cos18^\\circ)\\sin18^\\circ\\approx170\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Calculates the tension by multiplying the weight by the cosine, leaving its vertical component too small.",
+        "B": "Uses a tension smaller than the weight and assigns the cosine component to the horizontal reaction.",
+        "C": "Correct.",
+        "D": "Sets the horizontal reaction equal to the weight, which balances the vertical component."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must resolve the tension using an angle measured from the vertical.",
+    "misconception": "Swapping the sine and cosine components.",
+    "transcription": "A climber is supported by a light rope on a vertical wall as shown.\n\n[The rope runs from the climber up to point P on the wall at $18^\\circ$ to the vertical. The tension $T$ points up the rope, reaction $R$ points horizontally away from the wall and weight $W$ points vertically down.]\n\nThe weight $W$ of the climber is $520\\ \\mathrm{N}$ and the reaction force $R$ acts at right angles to the wall. The climber is in equilibrium.\n\nWhich row shows the value of the tension $T$ in the rope and $R$?\n\n$T/\\mathrm{N}$ | $R/\\mathrm{N}$\nA 500 | 150\nB 500 | 480\nC 550 | 170\nD 550 | 520"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking moments about the pivot gives $P(30)=Q(70)$. The required ratio is therefore $P/Q=7/3$, which is satisfied by $P=21\\ \\mathrm{N}$ and $Q=9.0\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Reverses the required load ratio.",
+        "B": "Uses a ratio of 7 and drops the factor of 3 from the shorter arm.",
+        "C": "Correct.",
+        "D": "Uses a ratio of 3, making the moment from P too large."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.g"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "A single moments equation determines the required ratio of the loads.",
+    "misconception": "Assigning the larger load to the longer arm.",
+    "transcription": "A beam on a pivot supports a load $P$ at one end and a load $Q$ at the other end.\n\n[A horizontal beam has load $P$ suspended $30\\ \\mathrm{cm}$ to the left of the pivot and load $Q$ suspended $70\\ \\mathrm{cm}$ to the right.]\n\nThe weight of the beam is negligible and the beam is maintained in a horizontal position as shown.\n\nWhich row gives possible values for $P$ and for $Q$?\n\n$P/\\mathrm{N}$ | $Q/\\mathrm{N}$\nA 3.0 | 7.0\nB 49 | 7.0\nC 21 | 9.0\nD 27 | 9.0"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The useful power for lifting the water is $P=mg\\Delta h/\\Delta t=\\rho Vg\\Delta h/\\Delta t$. Substituting gives $P=\\frac{1000(0.20)(9.81)(10)}{5\\times60}=65.4\\ \\mathrm{W}$. At 40% efficiency the required input power is $65.4/0.40=163.5\\ \\mathrm{W}$, which rounds to $160\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Multiplies the useful lifting power by the efficiency.",
+        "B": "Gives the useful lifting power before converting to input power.",
+        "C": "Correct. This is the required input power.",
+        "D": "Uses 5 seconds for the lifting time."
+      }
+    },
+    "issues": "The key interprets “power generated by the motor” as required input power (C). If the phrase means useful mechanical output under the key's energy model, the result is 65 W (B).",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation links density, gravitational energy, elapsed time and efficiency.",
+    "misconception": "Multiplying useful output by efficiency to find input.",
+    "transcription": "A motor driving a pump raises $0.20\\ \\mathrm{m^3}$ of water through a vertical height of $10\\ \\mathrm{m}$ in $5.0$ minutes. The efficiency of the motor is 40% and the density of water is $1000\\ \\mathrm{kg\\,m^{-3}}$.\n\nWhat is the power generated by the motor?\n\nA $26\\ \\mathrm{W}$\nB $65\\ \\mathrm{W}$\nC $160\\ \\mathrm{W}$\nD $9800\\ \\mathrm{W}$"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The hour hand takes $T=12\\times60\\times60\\ \\mathrm{s}$ to complete one revolution. Its angular speed is $\\omega=2\\pi/T\\approx1.5\\times10^{-4}\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses a six-hour period, doubling the angular speed.",
+        "C": "Uses the one-hour period of the minute hand.",
+        "D": "Implies roughly a one-minute period, treating the hour hand as a seconds hand."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a",
+      "circular-motion.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The only calculation is dividing one revolution in radians by the 12-hour period in seconds.",
+    "misconception": "Using the minute hand's period.",
+    "transcription": "The hour hand of a large clock is $2.5\\ \\mathrm{m}$ long.\n\nWhat is the average angular speed of this hand?\n\nA $1.5\\times10^{-4}\\ \\mathrm{rad\\,s^{-1}}$\nB $3.0\\times10^{-4}\\ \\mathrm{rad\\,s^{-1}}$\nC $1.8\\times10^{-3}\\ \\mathrm{rad\\,s^{-1}}$\nD $1.0\\times10^{-1}\\ \\mathrm{rad\\,s^{-1}}$"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The linear speed is $v=r\\omega$ and the centripetal acceleration is $a=\\omega^2r$. With radius $r/2$ and angular speed $2\\omega$, the new linear speed is $(r/2)(2\\omega)=v$. The new centripetal acceleration is $(r/2)(2\\omega)^2=2a$.",
+      "perOption": {
+        "A": "Ignores the doubled angular speed in the speed calculation and misses the doubling of acceleration.",
+        "B": "Accounts for the smaller radius alone when calculating the linear speed.",
+        "C": "Treats the acceleration as constant because the linear speed stays constant, overlooking the halved radius.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c",
+      "circular-motion.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must apply both changes and account for the square of angular speed in the acceleration.",
+    "misconception": "Assuming unchanged linear speed means unchanged centripetal acceleration.",
+    "transcription": "A sphere moves in a horizontal circle with constant angular speed.\n\nWhat is its linear speed and its centripetal acceleration when the radius of the horizontal circle is halved and angular speed is doubled?\n\nlinear speed | centripetal acceleration\nA halved | constant\nB halved | doubled\nC constant | constant\nD constant | doubled"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The gravitational field strength due to a planet of mass $M$ is proportional to $M/r^2$. The key places the neutral point at B, close to Planet 1, where the short distance helps its field compete with the fields of the more massive planets. At A, on the line joining Planets 1 and 2, their fields can balance each other, but Planet 3 adds an off-axis field.",
+      "perOption": {
+        "A": "Considers only the balance of the two fields along the line joining Planets 1 and 2.",
+        "B": "Correct. B lies near Planet 1 and off the line joining Planets 1 and 2.",
+        "C": "Places the balance farther from Planet 1, where the key expects its field to be too weak.",
+        "D": "Places the balance still farther from the least massive planet, weakening its contribution further."
+      }
+    },
+    "issues": "B is the intended qualitative choice. Mass ratios and an unscaled sketch do not determine the exact neutral point or justify rejecting C and D by distance alone.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must consider both the strength and direction of all three fields.",
+    "misconception": "Ignoring the third planet's contribution.",
+    "transcription": "The figure below shows a group of three planets. The mass of Planet 2 is about 80 times that of Planet 1 while the mass of Planet 3 is about 350 000 times that of Planet 2. The neutral point in the gravitational field is the point at which the resultant gravitational field due to the three planets is zero.\n\n[Planet 1 is upper left, Planet 2 is below and to its left, and Planet 3 is far to the right and vertically between them. A lies just below and left of Planet 1 on the line joining Planets 1 and 2. B lies just below and right of Planet 1. C is farther down and right of B, and D is farther down and right again. The figure is marked “(not to scale)”.]\n\nWhich position is a possible neutral point?"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ideal gas equation $pV=nRT$ gives $1/p=V/(nRT)$. Halving both $n$ and $T$ reduces $nRT$ to one quarter of its original value, so the gradient becomes four times as large. This is line A.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Doubles the gradient by accounting for only one of the two changes.",
+        "C": "Halves the gradient as if it were directly proportional to only one of the changed quantities.",
+        "D": "Quarters the gradient as if it were directly proportional to the product of amount and temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Rearranging the gas law exposes how the two changes combine in the graph gradient.",
+    "misconception": "Treating gradient as proportional to the amount of gas and temperature.",
+    "transcription": "A fixed amount of an ideal gas has pressure $p$ and volume $V$.\n\nThe graph shows the variation of $\\frac{1}{p}$ with $V$ at a constant temperature.\n\n[Graph of $1/p$ vertically against $V$ horizontally, with a straight line from the origin to the top-right corner of a square grid.]\n\nThe amount of gas and the thermodynamic temperature are then both decreased by half.\n\nWhich line shows the variation of $\\frac{1}{p}$ with $V$?\n\n[The second graph has the same axes and shows the original line dashed. Four solid lines pass through the origin. A and B reach the top of the grid at one quarter and one half of its width, respectively. C and D reach the right edge at one half and one quarter of its height, respectively.]"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Add the energy to warm the ice, melt it, and warm the resulting water. This gives $Q=(mc\\Delta\\theta)_{\\mathrm{ice}}+ml_f+(mc\\Delta\\theta)_{\\mathrm{water}}$. Substituting gives $Q=2.1(2108)(4.5)+2.1(334\\times10^3)+2.1(4190)(96)\\approx1.57\\ \\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Counts the warming and melting of the ice but leaves out the warming of the water.",
+        "B": "Counts only the two temperature increases, omitting the latent heat of fusion.",
+        "C": "Omits the energy needed to warm the ice to its melting point.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must add two sensible heating terms and a latent heat term with consistent units.",
+    "misconception": "Omitting the heating of the ice to its melting point.",
+    "transcription": "Thermal energy is supplied to $2.1\\ \\mathrm{kg}$ of ice at $-4.5\\ ^\\circ\\mathrm{C}$. All the ice becomes water at $96\\ ^\\circ\\mathrm{C}$. There is no heat loss to the surroundings.\n\nSpecific heat capacity of water = $4190\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$\nSpecific latent heat of vaporization of water = $2260\\ \\mathrm{kJ\\,kg^{-1}}$\nSpecific heat capacity of ice = $2108\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$\nSpecific latent heat of fusion of water = $334\\ \\mathrm{kJ\\,kg^{-1}}$\n\nHow much thermal energy is supplied to the ice?\n\nA $721\\ \\mathrm{kJ}$\nB $865\\ \\mathrm{kJ}$\nC $1.55\\ \\mathrm{MJ}$\nD $1.57\\ \\mathrm{MJ}$"
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The kinetic theory assumes that the molecules together occupy a negligible fraction of the container's volume. Option C instead treats the volumes as comparable.",
+      "perOption": {
+        "A": "Random molecular motion is part of the model.",
+        "B": "The model allows a distribution of molecular speeds.",
+        "C": "Correct.",
+        "D": "Perfectly elastic collisions are part of the model."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question asks for direct recall of the ideal-gas particle volume assumption.",
+    "misconception": "Treating molecular volume as comparable to container volume.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "With critical damping, the system returns to equilibrium quickly without oscillating. Graph D shows the displacement approaching zero on that short timescale.",
+      "perOption": {
+        "A": "Shows undamped oscillations with constant amplitude.",
+        "B": "Shows a slower nonoscillatory approach to equilibrium, characteristic of overdamping in the comparison.",
+        "C": "Shows underdamping because the system still oscillates as its amplitude falls.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The graphs label signed displacement as amplitude. The intended B–D distinction is the relative return time shown schematically.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish a fast nonoscillatory return from slower decay and oscillatory responses.",
+    "misconception": "Equating any nonoscillatory decay with critical damping.",
+    "transcription": null
+  }
+]

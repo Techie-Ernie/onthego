@@ -1,0 +1,508 @@
+[
+  {
+    "id": "acjc-2025-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The double-slit relation is $\\lambda=ax/D$, so $x=\\lambda D/a$. Fringe separation is directly proportional to wavelength, and the plotted range starts at $400\\ \\mathrm{nm}$, where the separation is already positive.",
+      "perOption": {
+        "A": "Treats the left edge of the graph as zero wavelength.",
+        "B": "Correct. The spacing rises linearly from a positive value at 400 nm.",
+        "C": "Makes the spacing decrease linearly as wavelength increases.",
+        "D": "Makes the spacing decrease nonlinearly as wavelength increases."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main challenge is reading the truncated wavelength axis.",
+    "misconception": "Treating 400 nm as the origin",
+    "transcription": "The wavelength $\\lambda$ of light incident normally on a double slit is varied from $400\\ \\mathrm{nm}$ to $700\\ \\mathrm{nm}$. This causes a variation in the distance $x$ between the centres of two adjacent bright fringes on the screen.\n\nWhich graph shows the variation of $x$ with $\\lambda$?\n\n[All four graphs plot $x$ against $\\lambda/\\mathrm{nm}$ from 400 to 700, with $x=0$ at the horizontal axis.\nA: Straight line rising from $x=0$ at 400 nm.\nB: Straight line rising from a positive $x$ at 400 nm.\nC: Straight line falling with wavelength and remaining above zero.\nD: Curve falling steeply at first and flattening close to zero.]"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The limiting angle is $\\theta\\approx\\lambda/b$, where $b$ is the dish diameter. By the small-angle approximation, $x/D\\approx\\theta$, so $x=\\lambda D/b=(0.40\\times10^{-6})(2.8\\times10^{25})/5.1=2.2\\times10^{18}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Halves the full source separation found from the limiting angle.",
+        "B": "Correct. The minimum separation is the distance multiplied by the limiting angle.",
+        "C": "Inverting the limiting angle and then halving the resulting distance gives this value.",
+        "D": "Divides the source distance by the limiting angle instead of multiplying."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation links angular resolution to linear separation using the small-angle approximation.",
+    "misconception": "Inverting the diffraction angle",
+    "transcription": "The diameter of the receiving dish of a telescope is $5.1\\ \\mathrm{m}$. It receives light of wavelength $0.40\\ \\mu\\mathrm{m}$ from two point sources at a distance of $2.8\\times10^{25}\\ \\mathrm{m}$ away.\n\nWhat is the minimum separation of the two points sources so that the light from them can be resolved?\n\nA. $1.1\\times10^{18}\\ \\mathrm{m}$\nB. $2.2\\times10^{18}\\ \\mathrm{m}$\nC. $1.8\\times10^{32}\\ \\mathrm{m}$\nD. $3.6\\times10^{32}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The receiver travels $33.5/12.0=2.79$ wavelengths. Since X is an antinode, the nodes occur $0.25\\lambda$, $0.75\\lambda$, $1.25\\lambda$, $1.75\\lambda$, $2.25\\lambda$ and $2.75\\lambda$ from X, so six minima are detected.",
+      "perOption": {
+        "A": "Counts only complete wavelengths, missing the nodes spaced half a wavelength apart.",
+        "B": "Counting just the nodes at quarter-wavelength plus whole-wavelength offsets skips every second node.",
+        "C": "Counting only complete half-wavelength intervals misses the sixth node at $2.75\\lambda$.",
+        "D": "Correct. Six nodes lie within the distance travelled."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must locate the first node from an antinode before counting the remaining nodes.",
+    "misconception": "Counting nodes from the wrong starting phase",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The electric field $E$ between the parallel charged plates is uniform. The force $F=qE$ on the $\\alpha$-particle is therefore constant throughout the gap.",
+      "perOption": {
+        "A": "The force must stay at the same nonzero value throughout the uniform field.",
+        "B": "The fixed charge and uniform field require a horizontal force graph.",
+        "C": "Correct. The force is constant between the plates.",
+        "D": "The field is uniform, so the force cannot vary with position."
+      }
+    },
+    "issues": "The question PNG cuts off all four option graphs. C is supported by the worked key, but the graph labels and distractor shapes could not be independently verified.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The graph follows directly from the uniform field and the fixed particle charge.",
+    "misconception": "Assuming the force varies with distance between parallel plates",
+    "transcription": "Two oppositely-charged parallel plates are arranged as shown.\n\n[Two vertical parallel plates, with the left plate marked positive and the right plate marked negative.]\n\nAn $\\alpha$-particle is released from rest from the surface of the positively-charged plate.\n\nWhich graph shows how the force $F$ on the $\\alpha$-particle varies with its distance $x$ from the positive plate?\n\n[The labels A, B, C and D and the tips of the vertical axes are visible. The graphs are cut off.]"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Moving along a field line takes you from one equipotential to another. The potential therefore changes in both an electric field and a gravitational field.",
+      "perOption": {
+        "A": "Electric potential is work done per unit charge, and gravitational potential is work done per unit mass.",
+        "B": "For point sources, both potentials vary as $1/r$.",
+        "C": "The electric potential of a positively charged object can be positive.",
+        "D": "Correct. A field line crosses equipotentials."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "electric-fields.c",
+      "electric-fields.d",
+      "electric-fields.f",
+      "gravitational-fields.e",
+      "gravitational-fields.f",
+      "gravitational-fields.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students compare familiar definitions and recognise that a field line crosses equipotentials.",
+    "misconception": "Confusing field lines with equipotentials",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $I=nevA$, the drift speed is $v=I/(neA)$. Since $I$, $n$ and $e$ are the same for both wires, $v\\propto1/A\\propto1/d^2$. Hence $v_Y/v_X=d_X^2/d_Y^2=d^2/(2d)^2=0.25$.",
+      "perOption": {
+        "A": "Correct. Quadrupling the area quarters the drift speed.",
+        "B": "Uses inverse diameter instead of inverse cross-sectional area.",
+        "C": "Treats drift speed as directly proportional to diameter.",
+        "D": "Treats drift speed as directly proportional to cross-sectional area."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students apply the current equation and square the diameter ratio to obtain the area ratio.",
+    "misconception": "Using diameter instead of cross-sectional area",
+    "transcription": "Two wires, X and Y, are made from the same metal. The diameter of wire Y is twice that of wire X.\n\nBoth wires are connected in series to a battery as shown.\n\n[A single loop contains a battery across the top and wire X followed by the thicker wire Y along the bottom.]\n\nWhat is the ratio $\\frac{\\text{average drift speed of free electrons in wire Y}}{\\text{average drift speed of free electrons in wire X}}$?\n\nA. 0.25\nB. 0.50\nC. 2.0\nD. 4.0"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Between $6.0\\ \\mathrm{V}$ and $9.0\\ \\mathrm{V}$, the ratio $I/V$ increases as $V$ increases. Its reciprocal, $V/I$, decreases, so the resistance decreases.",
+      "perOption": {
+        "A": "Correct. The ratio $V/I$ falls as the voltage rises over this interval.",
+        "B": "Calculates $I/V$, which gives conductance in siemens.",
+        "C": "Uses the inverse slope $\\Delta V/\\Delta I$ instead of the point ratio $V/I$.",
+        "D": "Zero current at a nonzero voltage indicates effectively infinite resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The straight segment tempts students to confuse its inverse slope with the resistance at a point.",
+    "misconception": "Reading resistance from the inverse tangent slope",
+    "transcription": "The graph shows the variation with potential difference $V$ of the current $I$ in an electrical component.\n\n[The vertical axis is $I/\\mathrm{A}$ and the horizontal axis is $V/\\mathrm{V}$. The graph is horizontal at $I=0$ from $V=0$ to $6.0\\ \\mathrm{V}$, then rises in a straight line to $I=0.50\\ \\mathrm{A}$ at $V=9.0\\ \\mathrm{V}$.]\n\nWhich statement about the electrical component is correct?\n\nA. The resistance decreases at voltages from $6.0\\ \\mathrm{V}$ to $9.0\\ \\mathrm{V}$.\nB. The resistance is $0.056\\ \\Omega$ at a voltage of $9.0\\ \\mathrm{V}$.\nC. The resistance is $6.0\\ \\Omega$ at a voltage of $9.0\\ \\mathrm{V}$.\nD. The resistance is zero at voltages between $0$ and $6.0\\ \\mathrm{V}$."
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q23",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "When Q blows, the effective resistance of the right-hand part of the circuit increases. By the potential divider principle, S receives a larger share of the cell voltage and brightens, while P and R receive a smaller share and dim.",
+      "perOption": {
+        "A": "P receives a smaller potential difference and becomes dimmer.",
+        "B": "Correct. S receives a larger share of the cell voltage.",
+        "C": "S still has a complete path through the left-hand parallel pair.",
+        "D": "The voltage across the P–R pair falls, so both lamps dim."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must recognise the two parallel groups and track how the voltage divides after a branch opens.",
+    "misconception": "Treating a blown parallel lamp as an open circuit for both lamps",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the right-hand grip rule at each wire and add the four field contributions at each midpoint. The resultant points down at P, right at Q, up at R and left at S.",
+      "perOption": {
+        "A": "Correct. The four resultant directions are different.",
+        "B": "P and Q have perpendicular fields, as do R and S.",
+        "C": "P and R have opposite fields, as do Q and S.",
+        "D": "The resultant changes direction from one midpoint to the next."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students apply the grip rule to several wires and combine the field directions by symmetry.",
+    "misconception": "Assuming equal currents produce the same resultant field at every midpoint",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force on the electron points out of the page and has magnitude $F_B=Bev\\sin\\theta$. To keep the electron undeflected, the electric force must have the same magnitude, so $E=F_E/e=Bv\\sin\\theta$. The electric force points into the page, so the electric field points out of the page because the electron is negatively charged.",
+      "perOption": {
+        "A": "Keeps the charge rather than the speed in the field magnitude and reverses the required field direction.",
+        "B": "Keeps the charge rather than the speed after dividing the magnetic force by $e$.",
+        "C": "Assigns the electric force direction to the field even though the electron is negatively charged.",
+        "D": "Correct. The field is $Bv\\sin\\theta$ out of the page."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must balance the force magnitudes and reverse the direction of the electric force to find the field.",
+    "misconception": "Confusing the electric force direction with the field direction for an electron",
+    "transcription": "An electron is travelling in a vacuum at speed $v$. The electron enters a region of uniform magnetic field of flux density $B$. A uniform electric field also exists in the region so that the electron remains undeflected and exits the region at point P as shown.\n\n[In the shaded field region, magnetic field arrows point horizontally to the right. The electron enters from the lower left along a straight path sloping upwards to the right and exits at P on the top edge. The path makes angle $\\theta$ with the horizontal magnetic field direction.]\n\nThe initial direction of the electron is at an angle of $\\theta$ to the direction of the magnetic field.\n\nWhat is the magnitude and direction of the electric field?\n\nA. $Be\\sin\\theta$, into the page\nB. $Be\\sin\\theta$, out of the page\nC. $Bv\\sin\\theta$, into the page\nD. $Bv\\sin\\theta$, out of the page"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In one rotation, the spoke sweeps an area $A=\\pi r^2$, so the flux swept is $BA$. The rotation period is $T=2\\pi/\\omega$, so the induced e.m.f. is $BA/T=\\tfrac12 Br^2\\omega$. Substituting gives $\\tfrac12(0.23)(0.65)^2(120)=5.8\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Halving the flux rate again gives half the e.m.f. across one spoke.",
+        "B": "Correct. The spoke sweeps flux at a rate of $5.8\\ \\mathrm{Wb\\,s^{-1}}$.",
+        "C": "Uses the rim speed along the whole spoke, giving twice the correct e.m.f.",
+        "D": "Uses $B\\omega r$, omitting the additional length and the factor of one-half from the swept-area calculation."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e",
+      "circular-motion.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must recognise the rotating spoke as sweeping out flux at a constant rate and relate the rotation period to angular speed.",
+    "misconception": "Using rim speed as the speed of the entire spoke",
+    "transcription": "A metal wheel consists of an axle A, eight spokes and a rim as shown.\n\n[A circular rim is joined by eight equally spaced radial spokes to the central axle A. One spoke and the rim are labelled.]\n\nThe rim has a radius of $0.65\\ \\mathrm{m}$ and the wheel rotates with an angular speed of $120\\ \\mathrm{rad\\,s^{-1}}$. There is a uniform magnetic field of flux density $0.23\\ \\mathrm{T}$ perpendicular to the plane of the page.\n\nWhat is the magnitude of the e.m.f. induced across each spoke?\n\nA. $2.9\\ \\mathrm{V}$\nB. $5.8\\ \\mathrm{V}$\nC. $12\\ \\mathrm{V}$\nD. $18\\ \\mathrm{V}$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diode rectifies the square wave so the resistor sees $V_0$ for half a period $T$ and zero for the other half. Thus $V_{\\mathrm{rms}}=\\sqrt{V_0^2(T/2)/T}=V_0/\\sqrt{2}$. The mean power is $P_{\\mathrm{ave}}=V_{\\mathrm{rms}}^2/R=V_0^2/(2R)$.",
+      "perOption": {
+        "A": "Squares the mean voltage $V_0/2$ rather than taking the mean of the squared voltage.",
+        "B": "Correct. The resistor dissipates peak power for half the cycle.",
+        "C": "Applies the RMS factor $1/\\sqrt{2}$ to only one of the two voltage factors in the power calculation.",
+        "D": "Treats the resistor as dissipating peak power throughout the cycle."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must account for diode conduction over half the cycle before finding the RMS voltage and power.",
+    "misconception": "Squaring the mean voltage instead of taking the mean square",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A photon of wavelength $650\\ \\mathrm{nm}$ has energy $E=hc/\\lambda=(6.63\\times10^{-34})(3.0\\times10^8)/(650\\times10^{-9})$, which converts to $1.9\\ \\mathrm{eV}$. The transition from $E_3$ to $E_2$ releases the same energy, $20.6-18.7=1.9\\ \\mathrm{eV}$.",
+      "perOption": {
+        "A": "This transition releases $2.7\\ \\mathrm{eV}$, exceeding the photon energy.",
+        "B": "This transition releases $20.6\\ \\mathrm{eV}$, exceeding the photon energy.",
+        "C": "This transition releases $4.6\\ \\mathrm{eV}$, exceeding the photon energy.",
+        "D": "Correct. The level difference is $1.9\\ \\mathrm{eV}$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires converting the photon energy to electronvolts and matching it to a level gap.",
+    "misconception": "Matching photon energy to an energy level instead of a level difference",
+    "transcription": "Some electron energy levels for a mixture of gas are shown in the diagram.\n\n[Four horizontal energy levels are marked, from highest to lowest, $E_3=20.6\\ \\mathrm{eV}$, $E_2=18.7\\ \\mathrm{eV}$, $E_1=16.0\\ \\mathrm{eV}$ and $E_0=0\\ \\mathrm{eV}$ (ground state).]\n\nWhich transition will result in the emission of light of wavelength $650\\ \\mathrm{nm}$?\n\nA. $E_2\\to E_1$\nB. $E_3\\to E_0$\nC. $E_3\\to E_1$\nD. $E_3\\to E_2$"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing the accelerating potential difference gives the electrons more kinetic energy, increasing the maximum energy of the emitted X-rays. This reduces the cutoff wavelength. The target is unchanged, so its characteristic wavelengths stay the same.",
+      "perOption": {
+        "A": "Treats the characteristic wavelengths as voltage-dependent even though the target's energy gaps are unchanged.",
+        "B": "Correct. The cutoff decreases and the characteristic wavelengths stay fixed.",
+        "C": "Reverses the cutoff shift and incorrectly makes the characteristic wavelengths depend on voltage.",
+        "D": "Higher maximum photon energy corresponds to a shorter cutoff wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students distinguish the voltage-dependent spectral cutoff from the fixed wavelengths of the target's emission lines.",
+    "misconception": "Assuming the accelerating voltage shifts characteristic lines",
+    "transcription": "The diagram shows an X-ray spectrum produced when electrons strike a heavy metal target.\n\n[Intensity is plotted against wavelength. The continuous spectrum starts at a nonzero cutoff wavelength, rises to a broad maximum and falls towards longer wavelengths. Two sharp characteristic peaks are superimposed on its rising side.]\n\nThe potential difference through which electrons are accelerated from rest is now increased.\n\nWhich row describes the change in the spectrum?\n\n[Columns are minimum X-ray wavelength and wavelengths of characteristic spectra, respectively.]\nA. decreases | decreases\nB. decreases | no change\nC. increases | decreases\nD. increases | no change"
+  },
+  {
+    "id": "acjc-2025-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key selects the large drop in count rate over $1\\ \\mathrm{cm}$ of air because alpha radiation has a short range in air. Beta and gamma radiation are more penetrating, so the key uses the short-distance drop as the distinguishing observation.",
+      "perOption": {
+        "A": "Correct. Alpha radiation has a short range in air.",
+        "B": "A lead block can shield alpha, beta and gamma radiation.",
+        "C": "Both alpha and beta particles are charged and deflect in a perpendicular electric field.",
+        "D": "A magnetic field parallel to the beam leaves alpha, beta and gamma radiation undeflected."
+      }
+    },
+    "issues": "A is the intended and best available option, but none of the options establishes exclusive alpha emission. A significant drop is compatible with an alpha-dominated mixture that also emits beta or gamma, and a change in detector distance can reduce count rate through geometry alone.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The intended answer relies on recognising the short range of alpha radiation in air.",
+    "misconception": "Treating electric deflection as unique to alpha particles",
+    "transcription": "Which observation shows that a radioactive source emits only $\\alpha$-radiation?\n\nA. The count rate reduces significantly 1 cm away from the source in air.\nB. The count rate reduces significantly when the source is surrounded by a lead block.\nC. The radiation beam is deflected by an electric field perpendicular to it.\nD. The radiation beam remains undeflected by a magnetic field parallel to it."
+  }
+]

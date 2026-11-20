@@ -1,0 +1,484 @@
+[
+ {
+  "id": "yijc-2023-prelim-p1-q17",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Q has no net force, so the force on $Q$ from the 4.0 C charge equals the force from the 9.0 C charge. Q is $x$ from the 9.0 C charge and $(1-x)$ from the 4.0 C charge:\n\n$\\dfrac{4.0Q}{(1-x)^2} = \\dfrac{9.0Q}{x^2}$, so $\\dfrac{x^2}{(1-x)^2} = \\dfrac{9}{4}$\n\nTaking square roots, $\\dfrac{x}{1-x} = \\dfrac{3}{2}$, giving $x = 0.60\\ \\mathrm{m}$.",
+   "perOption": {
+    "A": "Uses $x/(1-x) = 4/9$ with no square root, which also puts the charges the wrong way round.",
+    "B": "This is the distance from the 4.0 C charge, $1 - x$, not from the 9.0 C charge.",
+    "C": "Correct. Equal Coulomb forces give $x/(1-x) = 3/2$.",
+    "D": "Uses $x/(1-x) = 9/4$, forgetting that the force depends on $1/r^2$."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.a"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard null-point problem with Coulomb's law. It only needs a square root of the charge ratio.",
+  "misconception": "Forgetting the inverse-square dependence on distance",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q18",
+  "keyPage": 3,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The drop is stationary, so the net force on it is zero: electric force = weight.\n\n$\\dfrac{qV}{d} = mg$, so $ne = \\dfrac{mgd}{V}$ and $n = \\dfrac{mgd}{eV}$.",
+   "perOption": {
+    "A": "This is the reciprocal of the correct expression.",
+    "B": "Correct. From $neV/d = mg$.",
+    "C": "Multiplies by $mV$ instead of using $E = V/d$ and balancing the force with $mg$.",
+    "D": "Wrongly places $m$ and $V$ in the denominator together, which is dimensionally inconsistent."
+   }
+  },
+  "issues": null,
+  "chapter": "electric-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electric-fields.g",
+   "electric-fields.h"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "A direct force balance using $E = V/d$.",
+  "misconception": null,
+  "transcription": "A charged oil drop of mass $m$, with a charge of $ne$, is held stationary in the uniform electric field between two horizontal plates separated by a distance $d$. [Diagram: a cell of voltage $V$ connected across two horizontal parallel plates a distance $d$ apart, with the drop $m$ between them.] The voltage between the plates is $V$, the elementary charge is $e$ and the acceleration of free fall is $g$. What is the value of $n$? A $\\dfrac{eV}{mgd}$ B $\\dfrac{mgd}{eV}$ C $\\dfrac{meV}{gd}$ D $\\dfrac{gd}{meV}$"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q19",
+  "keyPage": 3,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "For X: $R = \\dfrac{\\rho L}{A_X} = \\dfrac{\\rho L}{V/L} = \\dfrac{\\rho L^2}{V}$, where $V$ is the volume.\n\nFor Y the volume is the same, so $A_Y = V/2L$: $R_Y = \\dfrac{\\rho(2L)}{V/2L} = \\dfrac{4\\rho L^2}{V}$.\n\nThe metal is the same, so $\\rho$ is the same. Therefore $R_Y = 4R$.",
+   "perOption": {
+    "A": "Assumes that keeping the volume constant keeps the resistance constant.",
+    "B": "Doubles the length but forgets that the cross-sectional area halves.",
+    "C": "Correct. Length doubles and area halves, so $R \\propto L^2$.",
+    "D": "Treats the area as quartering, as if the diameter halved, instead of halving."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.d"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Needs the constant-volume link between length and area as well as $R = \\rho L/A$.",
+  "misconception": "Forgetting that the cross-sectional area changes when the length changes at constant volume",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q20",
+  "keyPage": 4,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "$I = \\dfrac{E}{R + r}$. $E$ and $R$ are constant, so increasing $r$ decreases the current $I$.\n\nTerminal p.d. $V = E - Ir = E - \\dfrac{E}{R+r}r = \\dfrac{ER}{R+r}$. So increasing $r$ also decreases $V$.",
+   "perOption": {
+    "A": "Correct. Both $I = E/(R+r)$ and $V = ER/(R+r)$ fall as $r$ rises.",
+    "B": "The current cannot rise, because the total resistance $R + r$ increases.",
+    "C": "Treats $V$ as if it were the p.d. across $r$; the terminal p.d. $V = IR$ falls with $I$.",
+    "D": "Both quantities fall, not rise, because the total resistance increases."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.g"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A routine internal-resistance argument, but students may confuse the terminal p.d. with the p.d. across $r$.",
+  "misconception": "Confusing the terminal p.d. with the p.d. across the internal resistance",
+  "transcription": "A cell of constant electromotive force drives a current $I$ through an external resistor of resistance $R$. The terminal potential difference (p.d.) across the cell is $V$. [Circuit: a cell with internal resistance $r$ shown inside a dashed box, with $V$ marked across the box, in series with an external resistor $R$; current $I$ flows around the loop.] When the internal resistance $r$ of the cell increases, what is the effect on $V$ and on $I$? [Table — $V$ / $I$:] A decreases / decreases; B decreases / increases; C increases / decreases; D increases / increases"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q21",
+  "keyPage": 4,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The 70 Ω resistor is in parallel with the series branch of 50 Ω, 30 Ω and 60 Ω. Call their currents $I_1$ and $I_2$.\n\nEqual p.d.s: $70 I_1 = (50+30+60) I_2 = 140 I_2$, so $I_1 = 2I_2$.\n\nWith $I_1 + I_2 = 1.5$, solving gives $I_2 = 0.50\\ \\mathrm{A}$. This is the current through the 30 Ω resistor.",
+   "perOption": {
+    "A": "Shares the current in proportion to $30/210$ instead of finding the branch currents.",
+    "B": "Correct. The 140 Ω branch carries one third of 1.5 A.",
+    "C": "Assumes the current splits equally between the two branches.",
+    "D": "This is the current in the 70 Ω branch, $I_1$."
+   }
+  },
+  "issues": null,
+  "chapter": "circuits",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circuits.j",
+   "circuits.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Seeing that the 70 Ω resistor is in parallel with the other three in series is the only real step.",
+  "misconception": "Misidentifying series and parallel combinations in a diamond network",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q22",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Use the right-hand grip rule at Q. A current into the plane at Q produces clockwise field lines, so at O, to the left of Q, the field points along OY.\n\nThe current cannot be at P, because a wire at P would produce a horizontal (along OX) field at O.",
+   "perOption": {
+    "A": "A wire at P on the OY axis gives a field at O along OX (horizontal), not along OY.",
+    "B": "A wire at P gives a horizontal field at O, whatever the current direction.",
+    "C": "Correct. With the grip rule, a current into the plane at Q gives an upward field at O.",
+    "D": "A current out of the plane at Q gives a field at O along $-$OY (downwards)."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.b"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "The right-hand grip rule applied in a plan view.",
+  "misconception": "Thinking the field points towards or away from the wire instead of tangentially",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q23",
+  "keyPage": 4,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "If the current in Y is doubled, the B-field at X due to Y doubles. The B-field at Y due to X is unaffected.\n\nThe force on X doubles, because the field at X due to Y has doubled. The force on Y also doubles, because the current in Y has doubled. This agrees with Newton's third law.\n\nSo the diagram shows $2B_Y$, $B_X$ and $2F$ on each wire.",
+   "perOption": {
+    "A": "The forces are a Newton's third law pair, so the force on X must also be $2F$. Also, $B_Y$ should double.",
+    "B": "The field at X due to Y should double to $2B_Y$, since Y's current doubled.",
+    "C": "$B_X$ depends only on the current in X, so it stays $B_X$. The force on Y must also be $2F$.",
+    "D": "Correct. Only Y's field doubles, and both forces double equally."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-forces.c",
+   "electromagnetic-forces.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Students must separate each wire's own field from the field acting on it, and apply Newton's third law to the forces.",
+  "misconception": "Thinking the wire with the larger current experiences the larger force",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q25",
+  "keyPage": 5,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "At half the speed the rate of change of flux linkage halves, so the induced e.m.f. and current are smaller: less than 10 units.\n\nPushing a N pole into the left end makes the coil act as a magnet with N at that end. Pushing a S pole into the right end makes the right end S, which is the same N–S polarity of the coil. So the induced current is in the same direction and the needle again moves to the left.",
+   "perOption": {
+    "A": "Correct. Same current direction, smaller rate of flux change.",
+    "B": "The direction does not reverse. Reversing the pole and the end together gives the same induced polarity in the coil.",
+    "C": "Half the speed gives a smaller e.m.f., not a larger one.",
+    "D": "Both the direction and the size are wrong: the deflection is to the left and smaller."
+   }
+  },
+  "issues": null,
+  "chapter": "electromagnetic-induction",
+  "secondaryChapters": [],
+  "outcomes": [
+   "electromagnetic-induction.e"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs Lenz's law applied to both the pole and the end being changed, plus Faraday's law for the size.",
+  "misconception": "Thinking that changing the pole always reverses the current, regardless of which end it enters",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q26",
+  "keyPage": 5,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Mean power in the a.c. resistor $= I_\\mathrm{rms}^2 R = (2.0)^2 R = 4R$.\n\nMean power with the steady current $= I^2(2R) = 4R$, so $I^2 = 2$ and $I = 1.4\\ \\mathrm{A}$.",
+   "perOption": {
+    "A": "Introduces an extra factor of $1/2$, for example by treating 2.0 A as a peak value and halving again.",
+    "B": "Correct. $I^2(2R) = (2.0)^2 R$.",
+    "C": "Ignores that the steady current flows through $2R$, not $R$.",
+    "D": "Doubles the current instead of using $I^2 \\propto 1/R$ at equal power."
+   }
+  },
+  "issues": null,
+  "chapter": "currents",
+  "secondaryChapters": [],
+  "outcomes": [
+   "currents.d",
+   "currents.f"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Equates two power expressions, one of which uses the r.m.s. current.",
+  "misconception": "Treating r.m.s. current as needing a further $\\sqrt{2}$ conversion",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q27",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "(A) Electron diffraction is evidence for the wave nature of particles.\n\n(B) and (C) Diffraction and interference of light are evidence for the wave nature of electromagnetic radiation.\n\n(D) A threshold frequency for photoelectric emission is evidence for the particulate (photon) nature of electromagnetic radiation.",
+   "perOption": {
+    "A": "Electron diffraction shows the wave nature of particles, not the particle nature of radiation.",
+    "B": "Diffraction is evidence for the wave nature of electromagnetic radiation.",
+    "C": "Interference is evidence for the wave nature of electromagnetic radiation.",
+    "D": "Correct. The threshold frequency shows that energy arrives in photons of $hf$."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.a",
+   "quantum-physics.d"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "A standard recall of wave versus particle evidence.",
+  "misconception": "Confusing evidence for the wave nature of particles with evidence for the particle nature of light",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q28",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$E_p = \\Phi + KE_\\mathrm{max}$, where the work function is $\\Phi = hf_0$ and $KE_\\mathrm{max} = eV_s$.\n\n$6.63\\times10^{-34} f = (6.63\\times10^{-34})(4.0\\times10^{14}) + (1.6\\times10^{-19})(1.5)$\n\n$f = 7.6\\times10^{14}\\ \\mathrm{Hz}$",
+   "perOption": {
+    "A": "A power-of-ten or arithmetic slip; $f$ must exceed the threshold of $4.0\\times10^{14}$ Hz.",
+    "B": "This is only the $eV_s/h$ term. It omits the threshold frequency.",
+    "C": "Too small an increase above the threshold for a 1.5 V stopping potential, likely from a unit slip with eV.",
+    "D": "Correct. $f = f_0 + eV_s/h$."
+   }
+  },
+  "issues": null,
+  "chapter": "quantum-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantum-physics.a",
+   "quantum-physics.b"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A direct use of the photoelectric equation, with the work function given as a threshold frequency.",
+  "misconception": null,
+  "transcription": "Electrons are only just emitted from a metal surface when illuminated with light of frequency $4.0 \\times 10^{14}$ Hz. When illuminated with light of frequency $f$, the stopping potential is found to be 1.5 V. What is the value of the frequency $f$? A $3.8 \\times 10^{13}$ Hz B $3.6 \\times 10^{14}$ Hz C $4.2 \\times 10^{14}$ Hz D $7.6 \\times 10^{14}$ Hz"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q29",
+  "keyPage": 5,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The $\\alpha$-particles are deflected by the nuclei of the metal atoms in the foil. These nuclei are small, heavy and positively charged, so a few $\\alpha$-particles are deflected through large angles, up to $180^\\circ$.",
+   "perOption": {
+    "A": "Electrons are far too light to deflect massive $\\alpha$-particles through large angles.",
+    "B": "Most $\\alpha$-particles pass straight through the foil, so surface reflection cannot explain the spread of angles.",
+    "C": "The de Broglie wavelength of the $\\alpha$-particles is far too small for lattice diffraction to give large-angle deviation.",
+    "D": "Correct. Small, massive, positively charged nuclei cause the large-angle scattering."
+   }
+  },
+  "issues": null,
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.a"
+  ],
+  "primaryType": "recall",
+  "types": [
+   "recall",
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "A direct recall of the conclusion of the Rutherford scattering experiment.",
+  "misconception": null,
+  "transcription": "The deviation of $\\alpha$-particles by thin metal foils through angles that range from $0^\\circ$ to $180^\\circ$. Which of the following could explain this observation? A scattering from bound electrons in the foil B reflection from the foil surface C diffraction from the crystal lattice in the foil D scattering from small and heavy positively charged regions in the foil"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q30",
+  "keyPage": 5,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "If a 10 g sample of ancient wood gives 50 counts per minute, a 5 g sample of it would give 25 counts per minute.\n\nSo for the same mass, the ancient wood's count rate is $\\tfrac{1}{4}$ of the living wood's (100 counts per minute). Two half-lives have passed, so the age is $2 \\times 5600 = 11200$ years.",
+   "perOption": {
+    "A": "Divides the half-life by 4 instead of counting half-lives.",
+    "B": "Compares 50 with 100 directly without correcting for the different masses, giving one half-life.",
+    "C": "Correct. Per unit mass the activity has fallen to $\\tfrac{1}{4}$, which is two half-lives.",
+    "D": "Takes four half-lives, confusing a factor of 4 with the number of half-lives."
+   }
+  },
+  "issues": null,
+  "chapter": "nuclear-physics",
+  "secondaryChapters": [],
+  "outcomes": [
+   "nuclear-physics.j"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "The trap is normalising the count rate per unit mass before counting half-lives.",
+  "misconception": "Comparing count rates of samples with different masses without normalising",
+  "transcription": "The value of the $^{14}\\mathrm{C} : {}^{12}\\mathrm{C}$ ratio of living material is constant whereas the value of the ratio decreases after death because the radioactive $^{14}\\mathrm{C}$ is not replenished. The half-life of $^{14}\\mathrm{C}$ is 5600 years. From a 5.0 g sample of living wood, it was found that the $^{14}\\mathrm{C}$ content causes a radioactive count rate of 100 counts per minute. What is the age of a 10 g sample of ancient wood, given that the ancient wood causes a count rate of 50 counts per minute? A 1400 years B 5600 years C 11200 years D 22400 years"
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q1",
+  "keyPage": 1,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Surface area of the open cylinder: $A = 2\\pi rL = 282.7\\ \\mathrm{cm^2}$.\n\n$\\dfrac{\\Delta A}{A} = \\dfrac{\\Delta r}{r} + \\dfrac{\\Delta L}{L}$, so $\\Delta A = \\left(\\dfrac{0.1}{3.0} + \\dfrac{0.1}{15.0}\\right)(282.7) = 10\\ \\mathrm{cm^2}$ (to 1 s.f.).\n\nTherefore $A = (280 \\pm 10)\\ \\mathrm{cm^2}$.",
+   "perOption": {
+    "A": "Correct. Fractional uncertainties add to 4%, and the value is rounded to match the uncertainty.",
+    "B": "Adds the absolute uncertainties instead of the fractional ones, and quotes too many significant figures.",
+    "C": "Calculates the volume $\\pi r^2 L$, not the curved surface area.",
+    "D": "Calculates the volume $\\pi r^2 L$ with a wrongly propagated uncertainty and too many significant figures."
+   }
+  },
+  "issues": null,
+  "chapter": "quantities-and-measurement",
+  "secondaryChapters": [],
+  "outcomes": [
+   "quantities-and-measurement.g"
+  ],
+  "primaryType": "practical",
+  "types": [
+   "practical",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard propagation of fractional uncertainty with correct rounding.",
+  "misconception": "Adding absolute uncertainties for a product",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q2",
+  "keyPage": 1,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "During free fall: $v = u + at = 0 + (-9.81)(1.0) = -9.81\\ \\mathrm{m\\,s^{-1}}$.\n\nOn hitting the sand: $v^2 = u^2 + 2as$, so $0 = (-9.81)^2 + 2a(8.0\\times10^{-3})$, giving $a = -6.0\\times10^{3}\\ \\mathrm{m\\,s^{-2}}$.\n\nThe average deceleration is $6.0\\times10^{3}\\ \\mathrm{m\\,s^{-2}}$.",
+   "perOption": {
+    "A": "A power-of-ten slip when converting 8.0 mm to metres.",
+    "B": "Uses $v$ instead of $v^2$, or another arithmetic slip; $v^2/2s$ gives about $6\\times10^3$.",
+    "C": "Correct. $a = v^2/2s = 9.81^2/(2 \\times 0.0080)$.",
+    "D": "Omits the factor of 2 in $v^2 = u^2 + 2as$."
+   }
+  },
+  "issues": "Key working labels the impact velocity unit as m s^-2 (typo for m s^-1); corrected in the explanation.",
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Two chained kinematics equations with a unit conversion.",
+  "misconception": null,
+  "transcription": "A metal ball is dropped from rest over a bed of sand. It hits the sand bed one second later and makes an impression of maximum depth of 8.0 mm in the sand. Assuming air resistance is negligible, what is the average deceleration of the ball on hitting the sand? A $6.0 \\times 10^{2}\\ \\mathrm{m\\,s^{-2}}$ B $1.2 \\times 10^{3}\\ \\mathrm{m\\,s^{-2}}$ C $6.0 \\times 10^{3}\\ \\mathrm{m\\,s^{-2}}$ D $1.2 \\times 10^{4}\\ \\mathrm{m\\,s^{-2}}$"
+ }
+]

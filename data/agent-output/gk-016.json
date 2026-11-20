@@ -1,0 +1,496 @@
+[
+  {
+    "id": "asrjc-2025-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $\\Delta x\\Delta p\\ge h$, halving $\\Delta x$ gives $(1.00\\times10^{-20})\\Delta p\\ge6.63\\times10^{-34}$. The minimum $\\Delta p$ is $6.63\\times10^{-14}\\ \\mathrm{N\\,s}$. The change is $\\frac{6.63-4.00}{4.00}\\times100\\%\\approx66\\%$.",
+      "perOption": {
+        "A": "A 100% reduction would make the momentum uncertainty zero.",
+        "B": "Reverses the sign even though the new minimum exceeds the original uncertainty.",
+        "C": "Correct. The new minimum is about 66% higher.",
+        "D": "Assumes the initial momentum uncertainty was already at its lower bound."
+      }
+    },
+    "issues": "The key uses the syllabus-scale bound with $h$. For the exact standard-deviation bound $h/(4\\pi)$, no increase is required and no option expresses that.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Finds a new uncertainty bound and compares it with the initial value.",
+    "misconception": "Assuming the initial uncertainty is minimal",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2025-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The key tracks the charged products using $\\vphantom{X}{}^{a}_{b}\\mathrm{X}\\to{}^{a-4}_{b}\\mathrm{Y}+{}^{4}_{2}\\mathrm{He}+2\\,{}^{0}_{-1}\\mathrm{e}$. X and Y have the same proton number and different neutron numbers, so Y is an isotope of X.",
+      "perOption": {
+        "A": "A beta-minus electron is produced when a neutron in the nucleus becomes a proton.",
+        "B": "Alpha emission lowers the daughter nucleus's nucleon number by four.",
+        "C": "Correct. Y has the same proton number and four fewer neutrons.",
+        "D": "The products carry kinetic energy, so their total rest mass is smaller."
+      }
+    },
+    "issues": "The key's equation omits the two electron antineutrinos.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.c",
+      "nuclear-physics.g",
+      "nuclear-physics.m",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Tracks proton and nucleon numbers through three emissions.",
+    "misconception": "Confusing proton number with nucleon number",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q1",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The absolute uncertainty is $47.12\\times10\\%=4.71\\ \\Omega$, which rounds to $5\\ \\Omega$ to one significant figure. Round the reading to the same place to obtain $(47\\pm5)\\ \\Omega$.",
+      "perOption": {
+        "A": "Correct. Both values are reported to the nearest ohm.",
+        "B": "Uses an uncertainty much smaller than the stated 10%.",
+        "C": "Keeps two significant figures in the uncertainty under the school's one-significant-figure convention.",
+        "D": "Keeps hundredths of an ohm when the uncertainty is rounded to whole ohms."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "practical",
+    "types": [
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Converts a percentage uncertainty and rounds the reading to match.",
+    "misconception": "Reporting excess precision",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q2",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $t$ be the time in seconds since Train B starts. Using $s=ut+\\frac12at^2$, Train A travels $\\frac12(0.30)(t+120)^2$ and Train B travels $\\frac12(0.50)t^2$. Equating the displacements at catch-up gives $\\frac12(0.30)(t+120)^2=\\frac12(0.50)t^2$, so $t\\approx410\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "This time is far too short for B to erase A's 120 s head start.",
+        "B": "This is when the trains have equal speeds, while A is still ahead.",
+        "C": "At 210 s, B's displacement from the station is still smaller than A's.",
+        "D": "Correct. Both trains have travelled the same distance."
+      }
+    },
+    "issues": "Printed key letter D differs from keyAnswer A (answer-missing placeholder).",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Uses two elapsed times in the displacement equations and solves for catch-up.",
+    "misconception": "Ignoring Train A's head start",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "With air resistance neglected, horizontal acceleration is zero, so horizontal velocity is constant. The vertical acceleration is a constant $9.81\\ \\mathrm{m\\,s^{-2}}$ downward, so the upward velocity decreases uniformly as the stone rises.",
+      "perOption": {
+        "A": "Assumes the horizontal velocity decreases despite zero horizontal acceleration.",
+        "B": "Assumes horizontal acceleration and treats downward gravity as increasing the upward velocity.",
+        "C": "Treats downward gravity as increasing the upward component.",
+        "D": "Correct. Horizontal velocity is constant and upward velocity decreases uniformly."
+      }
+    },
+    "issues": "Printed key letter D differs from keyAnswer A (answer-missing placeholder).",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "projectile-motion.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Identifies the effect of gravity on each velocity component.",
+    "misconception": "Assuming gravity slows horizontal motion",
+    "transcription": "A stone is thrown from X and moves under gravity to Y, at the top of its path.\n\n[The stone follows a curved path from X at the lower right to Y at the upper left, where the path is horizontal. An arrow points up and left along the path towards Y.]\n\nWhich row correctly describes its motion horizontally and vertically between X and Y? Neglect air resistance.\n\nOption | horizontally | vertically\nA | travels at decreasing velocity | velocity decreases uniformly\nB | travels at increasing velocity | velocity increases uniformly\nC | travels at constant velocity | velocity increases uniformly\nD | travels at constant velocity | velocity decreases uniformly"
+  },
+  {
+    "id": "cjc-2022-promo-p1-q4",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take right as positive. Conservation of momentum gives $(0.5)(2.0)+(0.4)(-3.0)=(0.5+0.4)v$. Thus $v=-0.22\\ \\mathrm{m\\,s^{-1}}$, so the blocks move left.",
+      "perOption": {
+        "A": "Correct. The combined velocity is negative with right taken as positive.",
+        "B": "Reverses the direction of the net initial momentum.",
+        "C": "Adds the magnitudes of opposing momenta and assigns the result to the left.",
+        "D": "Adds the magnitudes of opposing momenta and assigns the result to the right."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Uses opposite signs for the initial velocities in one momentum equation.",
+    "misconception": "Adding opposing momentum magnitudes",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q5",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key takes the impulse to be the ball's change in momentum. With upward positive, $m(v_f-v_i)=0.060[14-(-21)]=2.1\\ \\mathrm{N\\,s}$.",
+      "perOption": {
+        "A": "Subtracts the speed magnitudes despite the reversal in direction.",
+        "B": "Correct. It gives the net impulse used by the key.",
+        "C": "Divides the momentum change by contact time, giving the mean net force in newtons.",
+        "D": "Uses 60 as the mass in kilograms instead of converting 60 g to 0.060 kg."
+      }
+    },
+    "issues": "Printed key letter B differs from keyAnswer A (answer-missing placeholder). Printed B is the net impulse. The ground's impulse is $2.1+0.060(9.81)(0.30)\\approx2.28\\ \\mathrm{N\\,s}$ upward, so none of the options is strictly correct. B is the intended and closest choice.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Tracks a velocity reversal and distinguishes net impulse from contact impulse.",
+    "misconception": "Confusing net impulse with contact impulse",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q6",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Hooke's law, $F=ke$, with extension $e=0.10\\ \\mathrm{m}$. The stored energy is $\\frac12ke^2=\\frac12Fe=\\frac12(2)(0.10)=0.1\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Correct. The energy is half the final force times the extension.",
+        "B": "Uses the final force over the full extension and misses the factor of one-half.",
+        "C": "Multiplies the final force by the unstretched length.",
+        "D": "Multiplies the final force by the stretched length."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Uses the extension and accounts for the increasing spring force.",
+    "misconception": "Using the full length as the extension",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q7",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "When floating, the upthrust equals the block's weight, $\\rho_{\\mathrm{b}}Vg$, where $V$ is the block's volume. When fully submerged, the upthrust equals the weight of displaced water, $\\rho_{\\mathrm{w}}Vg$. Their submerged-to-floating ratio is $\\frac{\\rho_{\\mathrm{w}}Vg}{\\rho_{\\mathrm{b}}Vg}=\\frac{1000}{700}=1.43$.",
+      "perOption": {
+        "A": "Places the decimal point one place too far left in the density ratio.",
+        "B": "Divides the floating upthrust by the fully submerged upthrust.",
+        "C": "Correct. The ratio equals the water density divided by the wood density.",
+        "D": "The densities differ by a factor of about 1.4, so a sevenfold increase is too large."
+      }
+    },
+    "issues": "Printed key letter C differs from keyAnswer A (answer-missing placeholder).",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Applies floating equilibrium and Archimedes' principle to different states.",
+    "misconception": "Inverting the upthrust ratio",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q8",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rod's weight acts at its centre, initially $0.30\\ \\mathrm{m}$ left of the pivot. Taking moments gives $(Mg)(0.30)=(mg)(1.2)$, so $M/m=4$. After moving the pivot right and doubling the hanging mass, $(Mg)(0.30+x)=(2mg)(1.2-x)$. Thus $\\frac{2(1.2-x)}{0.30+x}=4$, giving $x=0.20\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Correct. The two moments balance at the new pivot.",
+        "B": "Increases the rod's moment arm too far, so the rod's moment dominates.",
+        "C": "Moves the pivot far enough right to give the rod a larger moment than the doubled mass.",
+        "D": "Shortens the doubled mass's moment arm to 0.40 m, making its moment too small."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Balances moments twice as both lever arms change.",
+    "misconception": "Updating only one lever arm",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant speed the resultant force is zero, so the driving force balances friction, $F=kv^2$. Using $P=Fv=kv^3$ gives $\\frac{100}{30^3}=\\frac{200}{v^3}$. Hence $v=2^{1/3}(30)=37.8\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. Doubling power multiplies speed by the cube root of two.",
+        "B": "Uses square-root scaling and misses the extra speed factor in power.",
+        "C": "Overestimates the speed increase and would require about five times the original power.",
+        "D": "Doubles the speed as though power were directly proportional to speed."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combines force balance with the additional speed factor in power.",
+    "misconception": "Assuming power scales like friction",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q10",
+    "keyPage": 9,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $W=\\int F\\,\\mathrm{d}s$, the force is the gradient of the work–displacement graph. The gradient starts at zero, increases, is briefly approximately constant, then falls to zero at the maximum work. The work then decreases, so the force is negative.",
+      "perOption": {
+        "A": "Shows an initially constant positive force even though the work gradient starts at zero and increases.",
+        "B": "Correct. The force follows the gradient and becomes negative after the maximum.",
+        "C": "Omits the negative force needed for work to decrease.",
+        "D": "Copies the work curve and stays positive where the gradient is negative."
+      }
+    },
+    "issues": "Printed key letter B differs from keyAnswer A (answer-missing placeholder). The question PNG cuts off options C and D. Their full graphs appear on page 9 of the key.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Tracks the sign and magnitude of the work gradient.",
+    "misconception": "Confusing cumulative work with force",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q11",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The speed $v$ remains constant in uniform circular motion. With fixed radius $r$, the magnitude $a_{\\mathrm{c}}=v^2/r$ stays constant, so its variation over a revolution is zero.",
+      "perOption": {
+        "A": "Correct. The magnitude stays constant throughout the revolution.",
+        "B": "Confuses gravity's effect on the rod force with a change in centripetal acceleration magnitude.",
+        "C": "Gives the constant magnitude itself.",
+        "D": "Uses the difference between opposite acceleration vectors when the question asks about changes in magnitude."
+      }
+    },
+    "issues": "The key refers to constant linear velocity, although its calculation requires constant speed and the direction changes.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.d",
+      "circular-motion.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Distinguishes a vector's constant magnitude from its changing direction.",
+    "misconception": "Confusing acceleration magnitude with its change",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q12",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Geostationary satellites have a period of one day, giving them the same angular velocity. Their common orbital radius also gives them the same centripetal acceleration. Their kinetic energies may differ because kinetic energy depends on satellite mass.",
+      "perOption": {
+        "A": "All geostationary satellites share Earth's angular velocity.",
+        "B": "Their common orbital radius and angular speed give the same centripetal acceleration.",
+        "C": "Correct. Satellite masses may differ.",
+        "D": "Each geostationary orbit has the same period as Earth's rotation."
+      }
+    },
+    "issues": "Printed key letter C differs from keyAnswer A (answer-missing placeholder).",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion",
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "gravitational-fields.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identifies which quantities depend on satellite mass.",
+    "misconception": "Assuming equal speeds imply equal kinetic energies",
+    "transcription": null
+  },
+  {
+    "id": "cjc-2022-promo-p1-q13",
+    "keyPage": 10,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mass starts at maximum displacement, so $x=x_0\\cos(3.14t)$. At equilibrium $x=0$, which occurs for $3.14t=\\pi/2,3\\pi/2,5\\pi/2,\\ldots$. Hence $t=0.50,\\ 1.50,\\ 2.50,\\ldots\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Halves both the first crossing time and the interval between crossings.",
+        "B": "Uses the correct interval but starts the crossings too early.",
+        "C": "Counts the turning point at 1.00 s as an equilibrium crossing.",
+        "D": "Correct. Crossings start at 0.50 s and repeat every 1.00 s."
+      }
+    },
+    "issues": "Printed key letter D differs from keyAnswer A (answer-missing placeholder).",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Uses the initial phase to find successive zeroes of displacement.",
+    "misconception": "Using the wrong release phase or crossing interval",
+    "transcription": null
+  }
+]

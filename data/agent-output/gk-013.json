@@ -1,0 +1,502 @@
+[
+  {
+    "id": "asrjc-2024-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A single speed bump transfers energy to the rear-view mirror once, so it provides no periodic driving force. In the other examples, resonance can occur when the driving frequency matches a natural frequency of the system.",
+      "perOption": {
+        "A": "Correct. A single bump gives the mirror a one-off disturbance.",
+        "B": "The vibrating reed can excite a resonance of the clarinet’s air column.",
+        "C": "Wind gusts can drive a bridge mode if the forcing has a component near its natural frequency.",
+        "D": "The speaker note can drive the ornament at its natural frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing a single disturbance from periodic driving.",
+    "misconception": "Any vibration is resonance.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Amplitude is the maximum magnitude of a particle’s displacement from its rest position. Compare the positions of corresponding bars in the two rows and take the largest shift.",
+      "perOption": {
+        "A": "Halves a displacement already measured from equilibrium.",
+        "B": "Uses half the spacing between particles as if it were half a peak-to-peak displacement.",
+        "C": "Correct. This is the maximum displacement from equilibrium.",
+        "D": "Measures separation between particles instead of displacement from each particle’s rest position."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires applying the definition of amplitude to the two rows.",
+    "misconception": "Confusing particle spacing with particle displacement.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $x=\\lambda D/a$, the wavelength is $\\lambda=(0.008)(0.0001)/2.0=4.0\\times10^{-7}\\ \\mathrm{m}$. The slit sources are in phase, so dark fringes occur at path differences $(n+\\tfrac12)\\lambda$ with $n=0,1,\\dots$. The second dark fringe has $n=1$, so its path difference is $1.5\\lambda=6.0\\times10^{-7}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses $\\lambda/2$, which gives the first dark fringe.",
+        "B": "Uses $\\lambda$, which gives the first bright fringe away from the centre.",
+        "C": "Correct. The second dark fringe has a path difference of one and a half wavelengths.",
+        "D": "Uses $2\\lambda$, which gives the second bright fringe away from the centre."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the wavelength and identifying the second destructive-interference condition.",
+    "misconception": "Using a whole-wavelength path difference for a dark fringe.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The node at the mouthpiece and the antinode at the open end allow only odd harmonics. Their frequencies follow $(2n+1)f$ for $n=0,1,2,\\dots$, with $f=92\\ \\mathrm{Hz}$, giving $92$, $276$, $460$, $644$ and $828\\ \\mathrm{Hz}$ as the first five.",
+      "perOption": {
+        "A": "Includes frequencies such as 138 Hz that are not odd integer multiples of the fundamental.",
+        "B": "Includes even harmonics such as 184 Hz.",
+        "C": "Correct. These are the first five odd harmonics.",
+        "D": "Successive tripling skips allowed harmonics such as 460 Hz."
+      }
+    },
+    "issues": "D also consists entirely of allowed odd harmonics (1st, 3rd, 9th, 27th and 81st) under the stated model. C uniquely lists the first five, but the question does not ask for consecutive or lowest frequencies.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires identifying the allowed harmonics for a tube with a node at one end and an antinode at the other.",
+    "misconception": "Treating a node–antinode tube as supporting every integer harmonic.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For wire X, $n=I/(vAq)=3.0/[(2.8\\times10^{-2})\\pi(5.0\\times10^{-5})^2(1.6\\times10^{-19})]=8.526\\times10^{28}\\ \\mathrm{m^{-3}}$. Both wires are copper, so they have the same free-electron number density. For wire Y, $v=I/(nAq)=2.0/[(8.526\\times10^{28})\\pi(1.0\\times10^{-4})^2(1.6\\times10^{-19})]=4.7\\times10^{-3}\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats twice the radius as twice the area, though the area increases fourfold.",
+        "C": "Underestimates the effect of the larger cross-sectional area on the drift speed.",
+        "D": "Scales by the current alone, treating the two cross-sectional areas as equal."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding carrier density first and applying it to a wire with a different cross-sectional area.",
+    "misconception": "Scaling drift speed by radius instead of cross-sectional area.",
+    "transcription": "Free electrons flow along a copper wire X of radius $5.0\\times10^{-5}\\ \\mathrm{m}$ with an average drift speed of $2.8\\times10^{-2}\\ \\mathrm{m\\,s^{-1}}$. The current in the wire is $3.0\\ \\mathrm{A}$.\n\nThere is a current of $2.0\\ \\mathrm{A}$ in a copper wire Y of radius $1.0\\times10^{-4}\\ \\mathrm{m}$.\n\nWhat is the average drift speed of the free electrons in copper wire Y?\n\nA $4.7\\times10^{-3}\\ \\mathrm{m\\,s^{-1}}$\nB $9.3\\times10^{-3}\\ \\mathrm{m\\,s^{-1}}$\nC $1.1\\times10^{-2}\\ \\mathrm{m\\,s^{-1}}$\nD $1.9\\times10^{-2}\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each wire has resistance $R=\\rho l/A$, so its potential drop is $IR=I\\rho l/A$. The current and resistivity are the same throughout, giving a constant drop per unit length $I\\rho/A$ within each wire. The narrowest wire has the steepest drop, and the potential reaches zero at Y.",
+      "perOption": {
+        "A": "Correct. The downward slope gets steeper at each reduction in area.",
+        "B": "Makes the potential drop per unit length smaller as the wire gets narrower.",
+        "C": "Places the voltage drops at discrete steps even though each length of wire has resistance.",
+        "D": "Treats the wires as equipotential stretches with drops only at steps."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires translating resistance per unit length into the slope of a potential graph.",
+    "misconception": "Assuming the thickest wire has the steepest potential gradient.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The central horizontal and vertical wires form a single node. The two-resistor paths in the upper-right and lower-left corners each begin and end at this node, so they carry no current. The remaining circuit is two parallel pairs in series, giving $R_{PQ}=R/2+R/2=R$.",
+      "perOption": {
+        "A": "Treats all eight resistors as parallel across P and Q.",
+        "B": "Counts only one parallel pair and omits the second in series.",
+        "C": "Correct. Both parallel pairs contribute to the total.",
+        "D": "Takes one resistor from each side in series and overlooks their parallel partners."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h",
+      "circuits.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires recognising the common central node before reducing the resistor network.",
+    "misconception": "Counting resistors without identifying which nodes they connect.",
+    "transcription": "Eight identical resistors, each of resistance $R$, are connected in a network as shown below.\n\nWhat is the effective resistance between the terminals P and Q?\n\n[Square network with P at the upper-left corner and Q at the lower-right corner. Each side contains two resistors of resistance $R$, one on each side of its midpoint. A horizontal wire joins the midpoints of the left and right sides, and a vertical wire joins the midpoints of the top and bottom sides. These wires are connected at the centre.]\n\nA $R/8$\nB $R/2$\nC $R$\nD $2R$"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the thermistor heats up, its resistance falls, so its share of the $10\\ \\mathrm{V}$ supply falls and the potential difference across the fixed resistor rises. When that potential difference exceeds the diode’s forward threshold (about $0.3$–$0.7\\ \\mathrm{V}$ in the key), current can flow down through the diode and lamp to light it.",
+      "perOption": {
+        "A": "Correct. Heating raises the voltage across the forward-oriented lamp branch.",
+        "B": "Takes the lamp-branch voltage across the thermistor, where it falls as temperature rises.",
+        "C": "The diode is reverse biased even when the voltage across the fixed resistor exceeds its forward threshold.",
+        "D": "The reversed diode blocks lamp current, and the branch voltage falls as the thermistor heats."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.e",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires checking how heating changes the divider output and whether the diode can conduct.",
+    "misconception": "Taking the divider output across the thermistor for a high-temperature alarm.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field at X is tangent to the field line and points left, the direction of the force on a positive test charge. An electron is negatively charged, so its force is in the opposite direction, to the right.",
+      "perOption": {
+        "A": "Points along the field, which is the force direction for a positive charge.",
+        "B": "Gives the force a downward component even though the field-line tangent at X is horizontal.",
+        "C": "Gives the force a downward component even though the field-line tangent at X is horizontal.",
+        "D": "Correct. The force points right."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "energy-and-fields.g",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reading the tangent to the field line and reversing the direction for an electron.",
+    "misconception": "Using the electric field direction as the force direction on a negative charge.",
+    "transcription": "An electric dipole is a pair of one negative charge and one positive charge of equal magnitude. The electric field of an electric dipole is shown below.\n\nWhat is the direction of the force that acts on an electron placed at point X?\n\n[The negative charge is on the left and the positive charge is on the right. Point X is at the top of an outer field line, directly above the midpoint. Four arrows start at X. A points horizontally left, B points down and slightly left, C points down and slightly right, and D points horizontally right.]"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The equal and opposite charges contribute scalar potentials that cancel at the midpoint, so the potential is III or IV. Between the charges, both fields point from the positive charge toward the negative charge, so the signed field keeps the same sign. Since $E=-\\mathrm{d}V/\\mathrm{d}r$, the negative field in II requires the rising potential in IV.",
+      "perOption": {
+        "A": "Graph I gives a nonzero midpoint potential, and graph IV would make the field reverse direction.",
+        "B": "Graph II gives a nonzero midpoint potential, and graph III would make the field reverse direction.",
+        "C": "The falling potential in III requires a positive field, whereas II shows a negative field.",
+        "D": "Correct. The rising potential gives a negative axial field."
+      }
+    },
+    "issues": "The key interprets electric field strength as the signed axial component between the charges. If read as a nonnegative magnitude, graph I is required for the field and no listed pair is valid.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d",
+      "electric-fields.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires combining signed potentials and relating their gradient to the signed axial field.",
+    "misconception": "Assuming the field vanishes where the potential is zero.",
+    "transcription": "Two point charges of equal magnitude and opposite signs are separated by a distance. Which of the following graphs represents how the electric potential and electric field strength vary along a line joining the two point charges?\n\n[All four graphs have distance on the horizontal axis. I is a U-shaped curve entirely above the axis. II is an inverted U-shaped curve entirely below the axis. III falls from positive to negative, is steep near both ends and crosses the axis near the middle. IV rises from negative to positive, is steep near both ends and crosses the axis near the middle.]\n\nOption | electric potential | electric field strength\nA | I | IV\nB | II | III\nC | III | II\nD | IV | II"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field lines around each conductor are concentric circles, so its field at O is tangent to the circle through O. By the right-hand grip rule, a current into the page at P gives a field toward S. With currents into the page at R and S and out of the page at P and Q, the vertical components cancel and the rightward components add.",
+      "perOption": {
+        "A": "Reverses all the currents in D, producing a leftward field.",
+        "B": "Produces a downward field because the horizontal components cancel.",
+        "C": "Pairs equal currents at opposite corners, so the fields cancel at O.",
+        "D": "Correct. The resultant points right."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying the right-hand grip rule at four positions and summing the field vectors.",
+    "misconception": "Adding field directions without resolving their components.",
+    "transcription": "Four parallel conductors, carrying equal currents, pass vertically through the four corners of a square PQRS. In two conductors, the current is directed into the page and, in the other two, it is directed out of the page.\n\n[Square PQRS has P at the upper left, Q at the upper right, R at the lower right and S at the lower left. An arrow at the centre O points to the right and is labelled resultant magnetic field.]\n\nDue to the current in the four conductors, the resultant magnetic field at O is in the direction shown.\n\nWhich of the following must be the directions of the currents in each of the four conductors?\n\nOption | into the page | out of the page\nA | P, Q | R, S\nB | P, S | Q, R\nC | Q, S | P, R\nD | R, S | P, Q"
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the wire approaches the coil at constant speed, its field $B=\\mu_0 I/(2\\pi d)$ grows at an increasing rate as $d$ shrinks. The flux linkage therefore changes faster, increasing the induced e.m.f. and hence the coil current.",
+      "perOption": {
+        "A": "Correct. The rate of change of flux linkage increases.",
+        "B": "Assumes the flux linkage changes more slowly as the wire moves closer.",
+        "C": "Assumes constant speed gives a constant rate of flux change despite the inverse-distance field.",
+        "D": "Assumes a reversal even though the flux through the coil keeps increasing in the same direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires linking the inverse-distance field to an increasing rate of flux change.",
+    "misconception": "Assuming constant wire speed implies constant induced current.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For perpendicular motion in a uniform magnetic field, the induced e.m.f. is $E=Blv$. With $B$ and $l$ fixed, $E$ is proportional to the speed, given by the gradient of the $s$–$t$ graph. The gradient is initially small and constant, then larger and constant, and finally falls to zero and stays there, as shown in C.",
+      "perOption": {
+        "A": "Shows a falling e.m.f. while the rod initially moves at a constant speed.",
+        "B": "Follows the shape of the distance graph and leaves a nonzero e.m.f. after the rod stops.",
+        "C": "Correct. The e.m.f. follows the gradient of the distance–time graph.",
+        "D": "Shows the e.m.f. rising during deceleration and staying nonzero after the rod stops."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.d",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using the gradient of a distance–time graph to infer the motional e.m.f.",
+    "misconception": "Reading the distance itself as proportional to the e.m.f.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diode passes only one half-cycle, and the peak current is $100\\ \\mathrm{V}/(100\\ \\Omega)=1.0\\ \\mathrm{A}$. A current of $1.0\\ \\mathrm{A}$ for half a period and zero for the other half would average $0.5\\ \\mathrm{A}$. The rectified sinusoid stays below $1.0\\ \\mathrm{A}$ except at its peak, so its mean is less than $0.5\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct. The conducting half-wave averages less than its peak.",
+        "B": "Treats the current as being at its peak throughout the conducting half-cycle.",
+        "C": "Uses the approximate r.m.s. current of the unrectified sine wave as the mean.",
+        "D": "Uses the peak current as the mean."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing a half-wave rectified sine with a half-duty rectangular pulse.",
+    "misconception": "Halving the peak to get the mean of a half-wave rectified sine.",
+    "transcription": null
+  },
+  {
+    "id": "asrjc-2024-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The shortest wavelength corresponds to the highest photon frequency, and the photon energy $hf$ equals the energy difference between the levels. For each atom, the largest possible drop is from the highest level reachable with energy $W$ down to the ground state. Atom B has the largest such energy difference.",
+      "perOption": {
+        "A": "A’s level above $W$ cannot be reached, and its accessible excited level gives a smaller drop than B’s.",
+        "B": "Correct. B has the greatest accessible energy drop.",
+        "C": "C’s highest accessible level is below B’s, so its maximum photon energy is smaller.",
+        "D": "D’s highest level is farther below the energy limit, so its maximum drop is smaller."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the largest accessible energy drop and relating it to photon wavelength.",
+    "misconception": "Using an excited level above the incident electron energy.",
+    "transcription": "The diagram shows the electron energy levels, referred to the ground state (the lowest energy level) as zero, for four different isolated atoms.\n\nWhich atom can produce radiation of the shortest wavelength when atoms in the ground state are bombarded with electrons of energy $W$?\n\n[Four columns of horizontal energy levels are labelled A, B, C and D from left to right, with their ground levels aligned. A dashed horizontal line is drawn at energy $W$ above the ground state. A has one excited level above $W$ and one below it. B has one above $W$, one just below it and one lower excited level. C has four excited levels below $W$, the highest slightly below B’s highest reachable level. D has four excited levels below $W$, the highest below the highest reachable levels of A, B and C.]"
+  }
+]

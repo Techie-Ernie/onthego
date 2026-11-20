@@ -1,0 +1,407 @@
+[
+  {
+    "id": "yijc-2022-promo-p1-q11",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $F = kv^2$, $k = 800/20^2 = 2.0\\ \\mathrm{N\\,s^2\\,m^{-2}}$.\n\nAt $40\\ \\mathrm{m\\,s^{-1}}$ the resistive force is $F = 2.0 \\times 40^2 = 3200\\ \\mathrm{N}$ (doubling $v$ quadruples $F$).\n\nAt steady speed the engine's driving force equals this resistance, so $P = Fv = 3200 \\times 40 = 1.28 \\times 10^5\\ \\mathrm{W} = 128\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Uses the 800 N force at 20 m s⁻¹ instead of the larger force at 40 m s⁻¹ ($800 \\times 40$).",
+        "B": "Treats the force as proportional to $v$, not $v^2$ ($1600 \\times 40$).",
+        "C": "Correct. $P = Fv$ with $F = 3200\\ \\mathrm{N}$.",
+        "D": "Overscales the force; power scales as $v^3$, giving a factor of 8 on $800 \\times 20 = 16\\ \\mathrm{kW}$, not 32."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": ["energy-and-fields.m"],
+    "primaryType": "multi-step",
+    "types": ["multi-step", "proportionality"],
+    "difficulty": 2,
+    "difficultyReason": "Two short steps: scale the force with v² and apply P = Fv.",
+    "misconception": "Using the force at the original speed when computing power at the new speed",
+    "transcription": "The force resisting the motion of a car is taken as being proportional to the square of the car's speed. The magnitude of the force at a speed of $20\\ \\mathrm{m\\,s^{-1}}$ is 800 N.\n\nWhat effective power is required from the car's engine to maintain a steady speed of $40\\ \\mathrm{m\\,s^{-1}}$?\n\nA 32 kW\nB 64 kW\nC 128 kW\nD 512 kW"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q12",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Useful output power = rate of gain of GPE: $P_{out} = \\dfrac{Wh}{t} = \\dfrac{2.0 \\times 0.80}{4.0} = 0.40\\ \\mathrm{W}$.\n\nEfficiency $= P_{out}/P_{in}$, so $P_{in} = 0.40/0.20 = 2.0\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Multiplies the output power by the efficiency instead of dividing ($0.40 \\times 0.20$).",
+        "B": "Divides the weight by the time, ignoring the height raised.",
+        "C": "Correct. $P_{in} = P_{out}/\\eta = 0.40/0.20$.",
+        "D": "Arithmetic/unit error, e.g. treating 80 cm as metres or multiplying the weight by g again."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": ["energy-and-fields.l", "energy-and-fields.n"],
+    "primaryType": "multi-step",
+    "types": ["multi-step", "quantitative"],
+    "difficulty": 1,
+    "difficultyReason": "Direct use of power = work/time and the efficiency ratio.",
+    "misconception": "Multiplying by efficiency instead of dividing to find input power",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q13",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The hour hand turns through $2\\pi$ rad in 12 hours.\n\n$\\omega = \\dfrac{2\\pi}{12 \\times 3600} = 1.45 \\times 10^{-4}\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Gives the rotation frequency $1/43200$ s⁻¹ — leaves out the factor $2\\pi$.",
+        "B": "Uses a period of 24 hours (the Earth's rotation), not 12 hours.",
+        "C": "Correct. $\\omega = 2\\pi/T$ with $T = 12$ h.",
+        "D": "This is the angular velocity of the minute hand ($T = 1$ h)."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": ["circular-motion.b"],
+    "primaryType": "quantitative",
+    "types": ["quantitative"],
+    "difficulty": 1,
+    "difficultyReason": "Single-step ω = 2π/T once the 12-hour period is recognised.",
+    "misconception": "Confusing the hour hand's period with 24 h or 1 h",
+    "transcription": "The diagram shows an analogue watch.\n\n[Diagram: an analogue wristwatch face marked 12, 3, 6 and 9, with an hour hand and a minute hand.]\n\nWhat is the average angular velocity of the hour hand?\n\nA $2.31 \\times 10^{-5}\\ \\mathrm{rad\\,s^{-1}}$\nB $7.27 \\times 10^{-5}\\ \\mathrm{rad\\,s^{-1}}$\nC $1.45 \\times 10^{-4}\\ \\mathrm{rad\\,s^{-1}}$\nD $1.75 \\times 10^{-3}\\ \\mathrm{rad\\,s^{-1}}$"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q14",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The radius of the circle is the arm length plus the horizontal extent of the string: $r = 3.0 + 5.0\\sin 30^\\circ = 5.5\\ \\mathrm{m}$.\n\nVertically $T\\cos 30^\\circ = mg$; horizontally $T\\sin 30^\\circ = mr\\omega^2$. Dividing: $\\tan 30^\\circ = \\dfrac{r\\omega^2}{g}$.\n\n$\\omega = \\sqrt{\\dfrac{9.81 \\tan 30^\\circ}{5.5}} = 1.01\\ \\mathrm{rad\\,s^{-1}}$, so the period is $2\\pi/\\omega = 6.2\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Far too short; it misses the factor $2\\pi$ or uses an incorrect radius.",
+        "B": "Comes from using the wrong radius or resolving the tension the wrong way.",
+        "C": "Uses only part of the radius (e.g. 3.0 m or 2.5 m) or a simple-pendulum formula, not the full 5.5 m radius.",
+        "D": "Correct. $\\tan 30^\\circ = r\\omega^2/g$ with $r = 5.5\\ \\mathrm{m}$."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "circular-motion",
+    "secondaryChapters": ["forces-and-moments"],
+    "outcomes": ["circular-motion.f"],
+    "primaryType": "multi-step",
+    "types": ["multi-step", "diagram"],
+    "difficulty": 3,
+    "difficultyReason": "Needs the radius to include the 3.0 m arm, then resolving tension to find ω and the period.",
+    "misconception": "Taking the radius as only the string's horizontal extent, ignoring the arm",
+    "transcription": "A mass $m$, attached to one end of an inextensible string of length 5.0 m, is made to move in a horizontal circle as the central axle is rotated. In a particular circular motion, the string makes an angle of $30^\\circ$ with the vertical as shown.\n\n[Diagram: a vertical central axle with a horizontal arm of length 3.0 m at the top. From the end of the arm hangs a 5.0 m string at $30^\\circ$ to the vertical (dashed), with mass $m$ at its lower end, pointing away from the axle.]\n\nWhat is the period of the mass's motion about the central axle?\n\nA 1.0 s\nB 3.5 s\nC 4.8 s\nD 6.2 s"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q15",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the surface $g = \\dfrac{GM}{R^2}$, so $R = \\sqrt{GM/g}$.\n\nWith equal $g$, $R \\propto \\sqrt{M}$, so $\\dfrac{R_N}{R_E} = \\sqrt{17} = 4.1$.",
+      "perOption": {
+        "A": "Gives $1/17$; it inverts the ratio and leaves out the square root.",
+        "B": "Gives $1/\\sqrt{17}$, which inverts the ratio.",
+        "C": "Correct. $R \\propto \\sqrt{M}$ for equal $g$.",
+        "D": "Treats $R \\propto M$ and drops the square root that comes from the inverse-square law."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": ["gravitational-fields.c"],
+    "primaryType": "proportionality",
+    "types": ["proportionality"],
+    "difficulty": 2,
+    "difficultyReason": "One-step ratio from g = GM/R².",
+    "misconception": null,
+    "transcription": "The acceleration of free fall at the surface of Neptune is approximately equal to the acceleration of free fall at the surface of the Earth. The mass of Neptune is 17 times the mass of the Earth.\n\nWhat is the value of the ratio $\\dfrac{\\text{radius of Neptune}}{\\text{radius of the Earth}}$?\n\nA 0.059\nB 0.24\nC 4.1\nD 17"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q16",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the equator part of the gravitational force provides the centripetal force: $mg - N = m\\omega^2R$, so $N = mg - m\\omega^2R$. At the poles $N = mg$.\n\nIf the rotation slows, $\\omega$ decreases, so less force is needed for circular motion and $N$ at the equator increases.\n\nFor uniform density, $g = \\dfrac{GM}{R^2} = \\dfrac{4}{3}\\pi G\\rho R$, so a larger $R$ gives a larger $g$, and $N$ increases at both the pole and the equator ($N_{eq} = mR(\\frac{4}{3}\\pi G\\rho - \\omega^2)$).",
+      "perOption": {
+        "A": "At the equator some of the gravitational force supplies the centripetal force, so N is smaller there than at the poles.",
+        "B": "Correct. Smaller $\\omega$ means a smaller $m\\omega^2R$, so $N$ increases.",
+        "C": "With constant density $g \\propto R$, so $N$ at the pole increases.",
+        "D": "$N_{eq} = mR(\\frac{4}{3}\\pi G\\rho - \\omega^2)$ increases with $R$; assuming $g \\propto 1/R^2$ ignores that $M$ grows as $R^3$."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": ["circular-motion"],
+    "outcomes": ["gravitational-fields.c", "circular-motion.f"],
+    "primaryType": "conceptual",
+    "types": ["conceptual", "proportionality"],
+    "difficulty": 4,
+    "difficultyReason": "Combines apparent weight on a rotating planet with the constant-density result g ∝ R, which students often miss.",
+    "misconception": "Assuming g ∝ 1/R² when the radius changes at constant density",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q17",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "$\\Delta U = GMm\\left(\\dfrac{1}{r_1} - \\dfrac{1}{r_2}\\right)$ with $r_1 = 6.4 \\times 10^6\\ \\mathrm{m}$ and $r_2 = 7.6 \\times 10^6\\ \\mathrm{m}$.\n\n$\\Delta U = (6.67 \\times 10^{-11})(6.0 \\times 10^{24})(320)\\left(\\dfrac{1}{6.4 \\times 10^6} - \\dfrac{1}{7.6 \\times 10^6}\\right) = 3.2 \\times 10^9\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Not the result of any valid method; comes from a wrong formula or unit slip.",
+        "B": "This is the change in gravitational potential (per kg); it forgets to multiply by the 320 kg mass.",
+        "C": "Correct. $\\Delta U = GMm(1/r_1 - 1/r_2)$.",
+        "D": "Uses $mgh$ with $g = 9.81\\ \\mathrm{m\\,s^{-2}}$, wrongly assuming g is constant over 1200 km."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": ["gravitational-fields.g"],
+    "primaryType": "quantitative",
+    "types": ["quantitative"],
+    "difficulty": 2,
+    "difficultyReason": "Standard substitution into U = −GMm/r at two radii.",
+    "misconception": "Using mgh for large height changes where g is not constant",
+    "transcription": "Earth has a mass of $6.0 \\times 10^{24}$ kg and a radius of 6400 km.\n\nA satellite of mass 320 kg is lifted from the Earth's surface to an orbit 1200 km above its surface.\n\nWhat is the change in the gravitational potential energy of the satellite?\n\nA $9.1 \\times 10^{2}$ J\nB $9.9 \\times 10^{6}$ J\nC $3.2 \\times 10^{9}$ J\nD $3.8 \\times 10^{9}$ J"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q18",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "$n$ oscillations per second means the frequency is $f = n$.\n\nAngular frequency $\\omega = 2\\pi f = 2\\pi n$.",
+      "perOption": {
+        "A": "This is the frequency $f$, not the angular frequency.",
+        "B": "This is $2\\pi T$ inverted incorrectly; $\\omega = 2\\pi/T$ with $T = 1/n$ gives $2\\pi n$.",
+        "C": "This is the period $T = 1/n$.",
+        "D": "Correct. $\\omega = 2\\pi f = 2\\pi n$."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": ["oscillations.c"],
+    "primaryType": "recall",
+    "types": ["recall"],
+    "difficulty": 1,
+    "difficultyReason": "Direct recall of ω = 2πf.",
+    "misconception": "Confusing period, frequency and angular frequency",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q20",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "In a partial vacuum there is less air resistance, so the damping is lighter.\n\nLighter damping gives a larger maximum amplitude (above $a_0$) and a sharper, narrower resonance peak. The peak also moves very slightly towards the natural frequency, so it stays close to $f_0$.\n\nOnly graph C shows a taller, sharper peak.",
+      "perOption": {
+        "A": "Shows a lower, broader peak, which is what heavier damping would give.",
+        "B": "Shows a lower, broader peak shifted to a higher frequency; heavier damping, not lighter.",
+        "C": "Correct. Less damping gives a higher, sharper resonance peak.",
+        "D": "Same peak amplitude as in air; it ignores the reduced damping."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently. Graph C's peak appears marginally offset from f0 in the figure; the choice rests on C being the only taller, sharper peak.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": ["oscillations.j", "oscillations.k"],
+    "primaryType": "graph",
+    "types": ["graph", "conceptual"],
+    "difficulty": 2,
+    "difficultyReason": "Needs the qualitative link between reduced damping and a taller, sharper resonance curve.",
+    "misconception": "Thinking damping changes only the width, not the peak height",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q21",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "$\\lambda = v/f = 320/400 = 0.80\\ \\mathrm{m}$.\n\n$\\Delta\\phi = \\dfrac{x}{\\lambda} \\times 2\\pi = \\dfrac{0.20}{0.80} \\times 2\\pi = \\dfrac{\\pi}{2}$.",
+      "perOption": {
+        "A": "Uses a wrong wavelength (e.g. $f/v$ in place of $v/f$).",
+        "B": "Uses $\\Delta\\phi = (x/\\lambda)\\pi$, missing a factor of 2.",
+        "C": "Correct. A quarter wavelength is $\\pi/2$.",
+        "D": "Uses a wrong wavelength; $0.20\\ \\mathrm{m}$ is exactly $\\lambda/4$."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": ["wave-motion.b", "wave-motion.d"],
+    "primaryType": "quantitative",
+    "types": ["quantitative"],
+    "difficulty": 1,
+    "difficultyReason": "Straightforward v = fλ then phase difference = 2πx/λ.",
+    "misconception": null,
+    "transcription": "A sound wave of frequency 400 Hz is travelling in air at a speed of $320\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the difference in phase between two points on the wave 0.20 m apart in the direction of travel?\n\nA $\\dfrac{\\pi}{5}$\nB $\\dfrac{\\pi}{4}$\nC $\\dfrac{\\pi}{2}$\nD $\\dfrac{4\\pi}{5}$"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q22",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wave travels from P to Q, so Q lags P by $\\lambda/4$, i.e. a quarter of a cycle: Q does now what P did a quarter period earlier.\n\nP is above equilibrium and moving down, so it is between the crest and equilibrium on the way down. A quarter period earlier, P was between equilibrium and the crest, moving up.\n\nSo Q is displaced upwards and moving upwards.",
+      "perOption": {
+        "A": "Describes Q as being in the same state as P, ignoring the quarter-cycle lag.",
+        "B": "Correct. Q lags P by a quarter cycle, so it is above equilibrium and still rising.",
+        "C": "This is Q's state if it led P, or with the wave travelling from Q to P, wrongly placed below equilibrium.",
+        "D": "This is the state half a cycle away (antiphase with option B), not a quarter cycle."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": ["wave-motion.b", "wave-motion.e"],
+    "primaryType": "conceptual",
+    "types": ["conceptual"],
+    "difficulty": 3,
+    "difficultyReason": "Needs careful reasoning about phase lag and direction of travel without a diagram.",
+    "misconception": "Getting the direction of phase lag wrong for a progressive wave",
+    "transcription": "Transverse progressive sinusoidal waves of wavelength $\\lambda$ are passing vertically along a horizontal rope.\n\nP and Q are $\\lambda/4$ apart and the waves are travelling from P to Q.\n\nWhich one of the following correctly describes Q at an instant when P is displaced upwards but is moving downwards?\n\n[Table: displacement of Q / movement of Q]\nA upwards / downwards\nB upwards / upwards\nC downwards / upwards\nD downwards / downwards"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q23",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Polariser A halves the intensity of unpolarised light: $I_A = I/2$.\n\nBy Malus' law, $I_B = \\dfrac{I}{2}\\cos^2\\theta = \\dfrac{I}{8}$, so $\\cos^2\\theta = \\dfrac{1}{4}$, $\\cos\\theta = \\dfrac{1}{2}$ and $\\theta = 60^\\circ$.",
+      "perOption": {
+        "A": "Gives $\\cos^2\\theta = 3/4$; it confuses sine and cosine.",
+        "B": "Gives $\\cos^2\\theta = 1/2$, which leads to $I/4$, not $I/8$.",
+        "C": "Correct. $\\frac{1}{2}\\cos^2\\theta = \\frac{1}{8}$.",
+        "D": "Sets $\\cos^2\\theta = 1/8$, forgetting that the first polariser halves the unpolarised intensity."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": ["wave-motion.i", "wave-motion.j"],
+    "primaryType": "quantitative",
+    "types": ["quantitative"],
+    "difficulty": 2,
+    "difficultyReason": "Standard Malus' law with the halving at the first polariser.",
+    "misconception": "Applying Malus' law directly to unpolarised light",
+    "transcription": "When unpolarised light of intensity $I$ is incident on a system of two polariser A followed by B, the intensity of the emergent light is $I/8$. What is the angle between polarisers A and B?\n\n[Diagram: unpolarised light of intensity $I$ passes through polariser A (vertical transmission axis), then polariser B (axis tilted), emerging with intensity $I/8$.]\n\nA $30^\\circ$\nB $45^\\circ$\nC $60^\\circ$\nD $69^\\circ$"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q24",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In a standing wave every point vibrates at the same frequency. Amplitude varies with position, from zero at nodes to a maximum at antinodes.\n\nP and Q are the same distance from node $N_2$, so they have the same amplitude.\n\nThey lie in adjacent loops on opposite sides of a node, so they vibrate in antiphase, not in phase.",
+      "perOption": {
+        "A": "Points in adjacent loops (either side of $N_2$) vibrate in antiphase.",
+        "B": "Amplitude varies along the string, from zero at the nodes to a maximum at the antinodes.",
+        "C": "P and Q are on opposite sides of a node, so they are in antiphase.",
+        "D": "Correct. Same frequency, and equal distances from a node give equal amplitudes."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' is a placeholder; answer derived independently.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": ["superposition.c"],
+    "primaryType": "conceptual",
+    "types": ["conceptual", "diagram"],
+    "difficulty": 2,
+    "difficultyReason": "Standard properties of stationary waves (phase across nodes, amplitude variation).",
+    "misconception": "Thinking all points of a standing wave vibrate in phase",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q25",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At a displacement node the air particles do not move, so displacement is minimum (zero).\n\nThe particles on either side move towards it, then away from it, together. The air there is alternately compressed and rarefied, so the pressure change is maximum.\n\nDisplacement nodes are therefore pressure antinodes.",
+      "perOption": {
+        "A": "Correct. Displacement nodes coincide with pressure antinodes.",
+        "B": "Describes a displacement antinode, not a node.",
+        "C": "Displacement and pressure nodes do not coincide; they are a quarter wavelength apart.",
+        "D": "A node by definition has minimum displacement."
+      }
+    },
+    "issues": "No answer key available: the 'key' file for yijc-2022-promo-p1 is the question paper itself (no answers). keyAnswer 'A' happens to match the derived answer, but it is only a placeholder.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": ["superposition.c"],
+    "primaryType": "recall",
+    "types": ["recall", "conceptual"],
+    "difficulty": 2,
+    "difficultyReason": "Requires knowing that displacement nodes are pressure antinodes for sound.",
+    "misconception": "Assuming displacement and pressure nodes coincide",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2023-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "$V = \\frac{4}{3}\\pi r^3 = \\frac{4}{3}\\pi\\left(\\frac{d}{2}\\right)^3$, so $V \\propto d^3$.\n\n$\\dfrac{\\Delta V}{V} \\times 100\\% = 3\\dfrac{\\Delta d}{d} \\times 100\\% = 3\\left(\\dfrac{0.01}{6.00}\\right) \\times 100\\% = 0.5\\%$.",
+      "perOption": {
+        "A": "Gives only the uncertainty in $d$ ($0.17\\%$), without the factor of 3 from $d^3$.",
+        "B": "Uses a factor of 2 in place of 3 for the power of $d$.",
+        "C": "Correct. Three times the fractional uncertainty in $d$.",
+        "D": "Overestimates the uncertainty, e.g. using the radius with the full 0.01 mm uncertainty or an extra factor."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": ["quantities-and-measurement.g"],
+    "primaryType": "practical",
+    "types": ["practical", "quantitative"],
+    "difficulty": 1,
+    "difficultyReason": "Standard fractional uncertainty for a cubic dependence.",
+    "misconception": "Forgetting to multiply the fractional uncertainty by the power",
+    "transcription": null
+  }
+]

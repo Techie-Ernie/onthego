@@ -1,0 +1,506 @@
+[
+  {
+    "id": "dhs-2022-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The net force is the centripetal force, $F=mr\\omega^2$. The forces on the $5.0\\ \\mathrm{kg}$ and $8.0\\ \\mathrm{kg}$ masses are $(5.0)(2.0)\\omega^2=10\\omega^2$ and $(8.0)(6.0)\\omega^2=48\\omega^2$, respectively. Both masses have the same $\\omega$, so the ratio is $10:48=5:24$.",
+      "perOption": {
+        "A": "Inverts the ratio obtained by assuming both masses have the same linear speed.",
+        "B": "Correct.",
+        "C": "Uses the inverse-radius dependence for equal linear speeds, although the platform fixes the angular speed.",
+        "D": "Reverses the order of the two forces."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The shared angular speed cancels in a direct centripetal-force ratio.",
+    "misconception": "Assuming the masses share a linear speed.",
+    "transcription": "Two objects of masses $5.0\\ \\mathrm{kg}$ and $8.0\\ \\mathrm{kg}$ are fixed on a horizontal circular platform $2.0\\ \\mathrm{m}$ and $6.0\\ \\mathrm{m}$ from the centre respectively.\n\nWhen the platform is rotated with uniform circular motion, what is the ratio of the net force on the $5.0\\ \\mathrm{kg}$ mass to the $8.0\\ \\mathrm{kg}$ mass?\n\nA $8:15$\nB $5:24$\nC $15:8$\nD $24:5$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a uniform sphere of density $\\rho$, the surface field is $g=GM/r^2=(G/r^2)(\\rho\\,4\\pi r^3/3)=(4\\pi G\\rho/3)r$. Doubling the radius at the same density doubles the surface field to $2X$.",
+      "perOption": {
+        "A": "Applies the inverse-square law while holding the mass fixed.",
+        "B": "Treats the surface field as inversely proportional to radius at fixed density.",
+        "C": "Correct.",
+        "D": "Uses a quadratic dependence on radius, although the mass scales as the cube of the radius."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The inverse-square law must be combined with how mass scales at fixed density.",
+    "misconception": "Holding mass fixed when the sphere grows.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A geostationary satellite has a period of $24$ hours. Its orbital speed is $v=r\\omega=2\\pi r/T=2\\pi(6.40\\times10^6+3.59\\times10^7)/(24\\times60\\times60)=3.08\\ \\mathrm{km\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Omits the factor of $2\\pi$ in the circumference.",
+        "B": "Uses the altitude alone as the orbital radius.",
+        "C": "Correct.",
+        "D": "Uses the period in minutes and reports the result in kilometres per second."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.k",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires the orbital radius and the period implied by geostationary motion.",
+    "misconception": "Using altitude as the orbital radius.",
+    "transcription": "A communication satellite is in a geostationary orbit at a height of $3.59\\times10^7\\ \\mathrm{m}$ above the equator. The radius of the Earth is $6.40\\times10^6\\ \\mathrm{m}$.\n\nHow fast is the satellite travelling?\n\nA $0.490\\ \\mathrm{km\\,s^{-1}}$\nB $2.60\\ \\mathrm{km\\,s^{-1}}$\nC $3.08\\ \\mathrm{km\\,s^{-1}}$\nD $186\\ \\mathrm{km\\,s^{-1}}$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two curves are half a cycle apart. In simple harmonic motion, the acceleration–time and displacement–time graphs are $\\pi$ radians out of phase.",
+      "perOption": {
+        "A": "Acceleration and velocity are a quarter of a cycle apart.",
+        "B": "Correct.",
+        "C": "Displacement and velocity are a quarter of a cycle apart.",
+        "D": "Resultant force is in phase with acceleration and a quarter of a cycle from velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify a half-cycle phase difference and match it to SHM variables.",
+    "misconception": "Confusing a quarter-cycle phase shift with a half-cycle shift.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total energy scales as $E\\propto\\omega^2x_0^2\\propto x_0^2/T^2$, where $x_0$ is the amplitude and $T$ is the period. Thus $E_2/E_1=(T_1/3T_1)^2(2x_{0,1}/x_{0,1})^2=4/9$, giving $E_2=(4/9)(18\\ \\mathrm{mJ})=8.0\\ \\mathrm{mJ}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Scales the energy by the unsquared ratio $2/3$.",
+        "C": "Doubles the energy as if it were proportional to amplitude alone.",
+        "D": "Squares the amplitude factor but leaves out the change in period."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine the squared amplitude dependence with the inverse-square period dependence.",
+    "misconception": "Scaling energy linearly with amplitude or period.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The period is $T=1/f=1/5000=0.20\\ \\mathrm{ms}$. One period spans two horizontal squares ($2\\ \\mathrm{cm}$), so the time base is $0.20/2=0.10\\ \\mathrm{ms\\,cm^{-1}}=100\\ \\mathrm{\\mu s\\,cm^{-1}}$.",
+      "perOption": {
+        "A": "This time base gives only $20\\ \\mathrm{\\mu s}$ across the two squares of one cycle.",
+        "B": "Correct.",
+        "C": "This setting gives a period of $20\\ \\mathrm{ms}$, a factor of 100 too large.",
+        "D": "This setting gives a period of $200\\ \\mathrm{ms}$, a factor of 1000 too large."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student converts frequency to period and reads the horizontal length of one cycle.",
+    "misconception": "Using the whole display width for one period.",
+    "transcription": "A cathode-ray oscilloscope (CRO) is used to display a wave of frequency $5.0\\ \\mathrm{kHz}$. The display is shown.\n\n[The display shows a sinusoidal trace with five complete cycles across ten horizontal squares on a grid six squares high. Scale arrows show that each square is $1\\ \\mathrm{cm}$ wide and $1\\ \\mathrm{cm}$ high.]\n\nWhat is the time-base setting of the CRO?\n\nA $10\\ \\mathrm{\\mu s\\,cm^{-1}}$\nB $100\\ \\mathrm{\\mu s\\,cm^{-1}}$\nC $10\\ \\mathrm{ms\\,cm^{-1}}$\nD $100\\ \\mathrm{ms\\,cm^{-1}}$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the position shown, the path difference is $OY-OX=XY$. The waves meet in phase when this is $n\\lambda$, with $n$ an integer. With $\\lambda=0.75\\ \\mathrm{m}$, $XY=1.50\\ \\mathrm{m}$ gives $n=2$.",
+      "perOption": {
+        "A": "The path difference is $3.50\\ \\mathrm{m}$ outside the pair or $1.00\\ \\mathrm{m}$ between the speakers, neither an integer multiple of the wavelength.",
+        "B": "The path difference is $2.75\\ \\mathrm{m}$ outside the pair or $1.25\\ \\mathrm{m}$ between the speakers, neither an integer multiple of the wavelength.",
+        "C": "The path difference is $2.00\\ \\mathrm{m}$, which is not an integer multiple of $0.75\\ \\mathrm{m}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key applies the path-difference formula for the exterior position shown. The stem also permits O between the speakers, but checking those positions gives no additional correct option.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must translate a collinear arrangement into a path difference and test for a whole number of wavelengths.",
+    "misconception": "Using one source-to-observer distance as the path difference.",
+    "transcription": "Two loudspeakers X and Y emit sound waves that are in phase and of wavelength $0.75\\ \\mathrm{m}$.\n\nAn observer O is able to stand anywhere on a straight line that passes through X and Y, as shown. The observer stands at a point where the sound waves from X and Y meet in phase.\n\n[O, X and Y lie on a dashed straight line in that order from left to right.]\n\nWhat could be the distances OY and XY?\n\nDistance OY / m | Distance XY / m\nA $1.25$ | $3.50$\nB $2.00$ | $2.75$\nC $2.75$ | $2.00$\nD $3.25$ | $1.50$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first diffraction minimum satisfies $\\sin\\theta=\\lambda/b$, where $b$ is the slit width. At small angles this makes the central maximum width proportional to $D\\lambda/b$, where $D$ is the slit-to-screen distance, so B, C and D are true. Widening the slit lets more light through and increases the area under the intensity graph, making A the incorrect statement.",
+      "perOption": {
+        "A": "Correct. A wider slit increases the area under the graph.",
+        "B": "A longer wavelength increases the width of the central maximum, so this statement is true.",
+        "C": "A larger slit-to-screen distance increases the width of the central maximum, so this statement is true.",
+        "D": "A narrower slit increases the width of the central maximum, so this statement is true."
+      }
+    },
+    "issues": "The key writes $x/D=\\lambda/b$ as a small-angle relation. The diagram defines $x$ as the full central maximum width, so $x/D\\approx2\\lambda/b$. The proportionality and answer are unaffected.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.k",
+      "superposition.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish changes to the central maximum width from changes to the total transmitted light.",
+    "misconception": "Assuming a wider slit transmits the same amount of light.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant horizontal speed $u$, travelling a horizontal distance $s_x$ takes $t=s_x/u$. The vertical displacement is $s_y=\\tfrac12 at^2=\\tfrac12 a(s_x/u)^2$, so for constant $a$ and $u$ it is proportional to $s_x^2$. With $p=kx^2=1.0\\ \\mathrm{mm}$, $q=4p=4.0\\ \\mathrm{mm}$, $r=9p=9.0\\ \\mathrm{mm}$ and $s=16p=16.0\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Uses a square-root dependence on horizontal distance.",
+        "B": "Uses a linear dependence on horizontal distance.",
+        "C": "Doubles the deflection at each equal horizontal interval, assuming exponential growth.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "electric-fields.i",
+      "projectile-motion.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine constant horizontal velocity and uniform vertical acceleration to obtain a square law.",
+    "misconception": "Treating deflection as proportional to horizontal travel.",
+    "transcription": "The diagram shows the path of a horizontal beam of electrons passing through the uniform vertical electric field between two horizontal electrodes. The diagram is not to scale.\n\n[The electrons enter from the left at the position marked $0$ and curve upwards between the electrodes. Vertical offsets from the dashed horizontal entry line to the beam are labelled $p$, $q$, $r$ and $s$ at horizontal distances $x$, $2x$, $3x$ and $4x$.]\n\nThe vertical displacements of the beam after travelling through horizontal distances of $x$, $2x$, $3x$ and $4x$ are represented by $p$, $q$, $r$ and $s$.\n\nWhich row represents the values of $p$, $q$, $r$ and $s$?\n\n$p/\\mathrm{mm}$ | $q/\\mathrm{mm}$ | $r/\\mathrm{mm}$ | $s/\\mathrm{mm}$\nA $1.0$ | $1.4$ | $1.7$ | $2.0$\nB $1.0$ | $2.0$ | $3.0$ | $4.0$\nC $1.0$ | $2.0$ | $4.0$ | $8.0$\nD $1.0$ | $4.0$ | $9.0$ | $16.0$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Redraw the ladder so that the two rightmost resistors in series form a branch parallel to the middle vertical resistor. The series branch carries $1.0\\ \\mathrm{A}$ and drops $2.0\\ \\mathrm{V}$, so the parallel resistor carries $2.0\\ \\mathrm{A}$ and the middle top resistor carries $3.0\\ \\mathrm{A}$. This makes the first vertical branch’s p.d. $5.0\\ \\mathrm{V}$, so it draws $5.0\\ \\mathrm{A}$ and the first top resistor carries $8.0\\ \\mathrm{A}$. The input p.d. is $V=8.0+3.0+2.0=13.0\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Counts only the voltage across the two rightmost resistors in series.",
+        "B": "Stops at the voltage across the first vertical branch.",
+        "C": "Counts only the voltage across the first top resistor.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The ladder requires alternating voltage and current calculations across two successive junctions.",
+    "misconception": "Using the end-branch current for all the resistors.",
+    "transcription": "A network of resistors, each of resistance $1.0\\ \\Omega$, is connected as shown.\n\n[The input terminals on the left have potential difference $V$. Three $1.0\\ \\Omega$ resistors lie along the top rail. After each top resistor, a vertical $1.0\\ \\Omega$ resistor connects that node to the common bottom rail. The bottom wire from the rightmost branch carries $1.0\\ \\mathrm{A}$ to the left.]\n\nThe current passing through the end resistor is $1.0\\ \\mathrm{A}$.\n\nWhat is the potential difference $V$ across the input terminals?\n\nA $2.0\\ \\mathrm{V}$\nB $5.0\\ \\mathrm{V}$\nC $8.0\\ \\mathrm{V}$\nD $13.0\\ \\mathrm{V}$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The filament lamp’s $I$-against-$V$ graph starts at the origin and flattens as $V$ rises. Swapping the axes reflects the curve across the line that interchanges the axes, giving a $V$-against-$I$ graph that gets steeper as $I$ rises.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows a constant resistance characteristic.",
+        "C": "Shows a nonzero potential difference at zero current and the wrong curvature.",
+        "D": "Uses the flattening shape of the $I$-against-$V$ characteristic with the axes swapped."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The familiar filament-lamp characteristic must be interpreted with voltage on the vertical axis.",
+    "misconception": "Keeping the usual current-on-vertical-axis curve after swapping axes.",
+    "transcription": "Which graph shows the variation with current $I$ of the potential difference $V$ of a filament lamp?\n\n[All four graphs have $V$ on the vertical axis and $I$ on the horizontal axis.]\nA [An increasing curve from the origin that gets steeper.]\nB [An increasing straight line through the origin.]\nC [An increasing curve that starts at a positive $V$ when $I=0$ and flattens.]\nD [An increasing curve from the origin that flattens.]"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The branches share the same p.d., so $2I_1=3I_2=4I_3$. The supply current is $I=I_1+I_2+I_3=(3/2)I_2+I_2+(3/4)I_2$, giving $I_2=4I/13$. Substitution gives $I_1=6I/13$ and $I_3=3I/13$, so $I_1:I_2:I_3=6:4:3$.",
+      "perOption": {
+        "A": "Reverses the branch-current order, putting the smallest current through the smallest resistance.",
+        "B": "Correct.",
+        "C": "Makes current increase with resistance despite the common branch voltage.",
+        "D": "Splits the current in descending order but gives unequal branch voltages, since $2(18)\\ne3(16)$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The equal branch voltages make the current ratio the inverse of the resistance ratio.",
+    "misconception": "Assigning the largest current to the largest resistance.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cable carries current into the page and the field lies in the plane of the page, so the angle between them is $90^\\circ$. The force is $F=BIL\\sin\\theta=(4.0\\times10^{-5})(3.0)(2.0)\\sin90^\\circ=240\\ \\mathrm{\\mu N}$.",
+      "perOption": {
+        "A": "Uses too small an effective field component even though the entire field is perpendicular to the cable.",
+        "B": "Uses $\\sin65^\\circ$ by taking the field’s inclination to the horizontal as the current–field angle.",
+        "C": "Correct.",
+        "D": "Exceeds $BIL$, the maximum possible force for the given field, current and length."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is direct once the angle between the current and the field is read in three dimensions.",
+    "misconception": "Using the field’s angle to the horizontal as its angle to the current.",
+    "transcription": "The figure shows a horizontal power cable of length $2.0\\ \\mathrm{m}$ carrying a steady current $I$ of $3.0\\ \\mathrm{A}$ into the plane of the paper.\n\n[The current symbol is a cross in a circle. Earth’s magnetic field arrows point down and to the right in the plane of the paper, at $65^\\circ$ to a dotted horizontal line.]\n\nWhat is the force acting on the cable that is caused by the Earth’s magnetic field of flux density $4.0\\times10^{-5}\\ \\mathrm{T}$, in a region where this field is at $65^\\circ$ to the horizontal?\n\nA $82\\ \\mathrm{\\mu N}$\nB $220\\ \\mathrm{\\mu N}$\nC $240\\ \\mathrm{\\mu N}$\nD $660\\ \\mathrm{\\mu N}$"
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A neutral point occurs where the two magnetic flux densities are equal in magnitude and opposite in direction. By the right-hand grip rule, the fields oppose each other only between the wires, in region 2.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The fields reinforce each other in both outer regions.",
+        "C": "Changing the relative current magnitudes cannot reverse either field in an outer region.",
+        "D": "The fields oppose each other in region 2 and can have equal magnitudes there."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The right-hand grip rule identifies the region in which the two fields can cancel.",
+    "misconception": "Assuming parallel currents produce fields in the same direction everywhere.",
+    "transcription": null
+  },
+  {
+    "id": "dhs-2022-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two oppositely oriented diodes allow current through $R_1$ in both directions. One diode is in series with $R_2$, so the current in that direction has a smaller peak magnitude.",
+      "perOption": {
+        "A": "Shows equal peak magnitudes even though one direction adds $R_2$ in series.",
+        "B": "Suppresses one half-cycle even though the second diode provides a path for it.",
+        "C": "Correct.",
+        "D": "Shows both half-cycles with the same sign, although the current reverses through $R_1$."
+      }
+    },
+    "issues": "The supplied question PNG crops the lower parts of graphs C and D. The circuit and worked key establish that C represents alternating current with unequal peak magnitudes.",
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.f",
+      "circuits.b",
+      "circuits.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must trace both half-cycles and compare the total series resistance in each direction.",
+    "misconception": "Treating opposite diodes as a full-wave rectifier or as equal-resistance paths.",
+    "transcription": null
+  }
+]

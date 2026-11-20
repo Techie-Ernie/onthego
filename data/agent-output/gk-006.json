@@ -1,0 +1,500 @@
+[
+  {
+    "id": "acjc-2024-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In simple harmonic motion, $v=\\pm\\omega\\sqrt{A_0^2-x^2}$. At $x=A_0/2$, the squared speed is $\\omega^2[A_0^2-(A_0/2)^2]=\\tfrac34 v_{\\max}^2$. Since the total energy equals the maximum kinetic energy, the ratio is $\\tfrac34=0.75$.",
+      "perOption": {
+        "A": "Treats the kinetic energy fraction as linear in displacement.",
+        "B": "Correct.",
+        "C": "Uses the speed ratio instead of its square.",
+        "D": "Assumes all the energy is kinetic, as it is at equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "types": [
+      "quantitative"
+    ],
+    "primaryType": "quantitative",
+    "difficulty": 2,
+    "difficultyReason": "Squaring the SHM speed relation gives the energy ratio directly.",
+    "misconception": "Using the speed ratio as the energy ratio",
+    "transcription": "A particle undergoes simple harmonic motion with amplitude $A_0$ and period $T$.\n\nWhat is the ratio of its kinetic energy to the total energy when its displacement is $\\frac12 A_0$?\n\nA 0.50\nB 0.75\nC 0.87\nD 1.0",
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "One wavelength is the distance between adjacent compressions. The $100\\ \\mathrm{m}$ span contains five wavelengths, so $\\lambda=100/5=20\\ \\mathrm{m}$. Using $v=f\\lambda$ gives $350=20f$, so $f\\approx18\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Uses twice the compression-to-compression spacing as the wavelength.",
+        "B": "Correct.",
+        "C": "Uses the compression-to-rarefaction spacing as a full wavelength.",
+        "D": "Implies a sub-metre wavelength, whereas adjacent compressions are 20 m apart."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d",
+      "wave-motion.e"
+    ],
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "primaryType": "diagram",
+    "difficulty": 2,
+    "difficultyReason": "The student counts compression intervals and substitutes into the wave equation.",
+    "misconception": "Treating a compression-to-rarefaction interval as a wavelength",
+    "transcription": null,
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wavelength is $\\lambda=v/f=36/400=0.090\\ \\mathrm{m}$. Using $\\Delta x/\\lambda=\\Delta\\phi/(2\\pi)$ gives $\\Delta\\phi=[0.18/(36/400)](2\\pi)=4\\pi$. This is equivalent to the listed phase difference of $2\\pi$, since both describe points in phase.",
+      "perOption": {
+        "A": "$0.50\\pi$ represents a quarter-cycle phase offset.",
+        "B": "This gives half a cycle, whereas the two points are in phase.",
+        "C": "Correct. It is equivalent to the calculated two complete cycles.",
+        "D": "$2.5\\pi$ leaves a quarter-cycle offset after one full cycle is removed."
+      }
+    },
+    "issues": "The unwrapped result is 4π rad and the principal phase difference is 0 rad. Neither is listed, but C is the only equivalent option.",
+    "chapter": "wave-motion",
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "primaryType": "multi-step",
+    "difficulty": 3,
+    "difficultyReason": "The student calculates the wavelength and recognises when a whole-cycle phase difference is equivalent.",
+    "misconception": "Treating equivalent whole-cycle phases as distinct",
+    "transcription": "The frequency of a water wave is $400\\ \\mathrm{Hz}$ and its speed is $36\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the phase difference between the motions of two points on the wave that are $0.18\\ \\mathrm{m}$ apart?\n\nA $0.50\\pi$\nB $1.0\\pi$\nC $2.0\\pi$\nD $2.5\\pi$",
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Rayleigh’s criterion, $\\theta\\approx\\lambda/b$. Doubling the slit width gives $\\theta_{\\mathrm{new}}/\\theta_{\\mathrm{old}}=b_{\\mathrm{old}}/b_{\\mathrm{new}}=0.5$. The new angular resolution is $2.0\\times10^{-2}\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Assumes inverse-square dependence on slit width.",
+        "B": "Correct.",
+        "C": "Assumes direct rather than inverse proportionality.",
+        "D": "Assumes angular resolution grows as the square of slit width."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "outcomes": [
+      "superposition.m"
+    ],
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "primaryType": "proportionality",
+    "difficulty": 1,
+    "difficultyReason": "The Rayleigh criterion gives an immediate inverse-proportion calculation.",
+    "misconception": "Assuming angular resolution increases with slit width",
+    "transcription": "The angular resolution of a vertical slit for a pair of objects is $4.0\\times10^{-2}\\ \\mathrm{rad}$.\n\nWhat is the new angular resolution if the width of the slit is doubled?\n\nA $1.0\\times10^{-2}\\ \\mathrm{rad}$\nB $2.0\\times10^{-2}\\ \\mathrm{rad}$\nC $8.0\\times10^{-2}\\ \\mathrm{rad}$\nD $16\\times10^{-2}\\ \\mathrm{rad}$",
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric potential is a scalar. The charges at P and R are equal and opposite and equidistant from Q, so their potentials cancel. Only S contributes to the net potential at Q, giving $V_Q=\\frac{1}{4\\pi(8.85\\times10^{-12})}\\frac{100\\times10^{-6}}{20\\times10^{-2}}=+4.5\\ \\mathrm{MV}$.",
+      "perOption": {
+        "A": "Cancels the contributions from P and R but omits S.",
+        "B": "Correct.",
+        "C": "Uses 10 cm instead of 20 cm for the distance from S to Q.",
+        "D": "Adds the magnitude of the negative contribution from P as if it were positive."
+      }
+    },
+    "issues": "The key uses A, B, C and D for the points labelled P, Q, R and S in the question.",
+    "chapter": "electric-fields",
+    "outcomes": [
+      "electric-fields.d"
+    ],
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "primaryType": "quantitative",
+    "difficulty": 2,
+    "difficultyReason": "The student recognises scalar cancellation and calculates the remaining point-charge contribution.",
+    "misconception": "Ignoring the sign of a charge when adding potentials",
+    "transcription": "Points P, Q, R and S are spaced $10\\ \\mathrm{cm}$ apart as shown in the diagram below. A $-50\\ \\mu\\mathrm{C}$ point charge, a $+50\\ \\mu\\mathrm{C}$ point charge and a $+100\\ \\mu\\mathrm{C}$ point charge are placed at P, R and S respectively.\n\n[The points lie on a horizontal line, in the order P, Q, R, S from left to right. Each adjacent pair is separated by $10\\ \\mathrm{cm}$. P, R and S are labelled $-50\\ \\mu\\mathrm{C}$, $+50\\ \\mu\\mathrm{C}$ and $+100\\ \\mu\\mathrm{C}$ respectively.]\n\nWhat is the electric potential at point Q?\n\nA $0\\ \\mathrm{MV}$\nB $+4.5\\ \\mathrm{MV}$\nC $+9.0\\ \\mathrm{MV}$\nD $+14\\ \\mathrm{MV}$",
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Field lines point away from a positive charge, and the potential due to that charge decreases with distance from it. In general, the field points in the direction of decreasing potential. Whether the field strength itself increases or decreases depends on how the spacing between field lines changes along the path.",
+      "perOption": {
+        "A": "Reverses the direction of change of potential.",
+        "B": "Correct.",
+        "C": "The field weakens along an outward field line from a positive charge.",
+        "D": "The field strengthens along an inward field line toward a negative charge."
+      }
+    },
+    "issues": "The key says distance from the field line where the argument needs distance from the positive charge, and explicitly discusses only a positive source.",
+    "chapter": "electric-fields",
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.b"
+    ],
+    "types": [
+      "conceptual"
+    ],
+    "primaryType": "conceptual",
+    "difficulty": 2,
+    "difficultyReason": "The student distinguishes the direction of falling potential from the change in field strength.",
+    "misconception": "Confusing decreasing potential with decreasing field strength",
+    "transcription": null,
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The central wires form a single node, and the loops connected only to that node carry no current. The circuit reduces to two pairs of parallel resistors in series. The effective resistance is $2(1/R+1/R)^{-1}=R$.",
+      "perOption": {
+        "A": "Counts only one of the two parallel pairs.",
+        "B": "Correct.",
+        "C": "Counts a single two-resistor path and ignores its parallel alternatives.",
+        "D": "Follows four outer resistors in series and overlooks the central connections."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "outcomes": [
+      "circuits.h",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "primaryType": "diagram",
+    "difficulty": 3,
+    "difficultyReason": "The central wires must be recognised as one node before the network can be reduced.",
+    "misconception": "Counting resistors without identifying common nodes",
+    "transcription": null,
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q23",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Along JML the same current $I$ flows through $R$ and $2R$, so the total drop is $3IR$. Since L is earthed, $V_L=0$ and $V_J=3IR$. The drop is $IR$ along JM and $2IR$ along ML, so the equal-length second segment is twice as steep.",
+      "perOption": {
+        "A": "Reverses which wire has the greater potential drop.",
+        "B": "Shows constant potential along each resistive wire and leaves L above zero.",
+        "C": "Gives both equal-length wires the same potential drop.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "outcomes": [
+      "circuits.c",
+      "circuits.j"
+    ],
+    "types": [
+      "graph",
+      "diagram",
+      "proportionality"
+    ],
+    "primaryType": "graph",
+    "difficulty": 3,
+    "difficultyReason": "The student must convert the voltage drops on the two equal-length wires into graph slopes.",
+    "misconception": "Assuming equal-length wires have equal voltage drops",
+    "transcription": null,
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A vertical magnetic field would initially deflect a positive particle into the page or a negative particle out of the page. The observed deflection is downwards, so the field is electric. The particle is positive because its deflection is in the direction of the electric field.",
+      "perOption": {
+        "A": "A negative charge in the electric field would deflect upwards.",
+        "B": "A negative charge in the magnetic field would initially deflect out of the page.",
+        "C": "Correct.",
+        "D": "A positive charge in the magnetic field would initially deflect into the page."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.l",
+      "electric-fields.i"
+    ],
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "primaryType": "diagram",
+    "difficulty": 2,
+    "difficultyReason": "The student compares the initial electric and magnetic force directions with the observed deflection.",
+    "misconception": "Assuming a magnetic force acts along the field",
+    "transcription": "A charged particle is projected horizontally at P into a uniform vertical field. The particle follows the path shown below.\n\n[The particle enters horizontally to the right at P. Parallel vertical field arrows point downwards, and the particle’s path curves downwards to the right in the plane of the diagram.]\n\nIgnoring gravitational effects, what describes the charge of the particle and the nature of the field?\n\nOption | charge | field\nA | negative | electric\nB | negative | magnetic\nC | positive | electric\nD | positive | magnetic",
+    "secondaryChapters": [
+      "electric-fields"
+    ]
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At speed $v$ down the slope, the induced e.m.f. is $BLv\\cos\\theta$, so $I=BLv\\cos\\theta/R$. The magnetic force has magnitude $BIL$ and its component up the slope is $BIL\\cos\\theta$. At terminal speed, $mg\\sin\\theta=B(BLv\\cos\\theta/R)L\\cos\\theta$. Solving gives $v=\\frac{mgR\\tan\\theta}{B^2L^2\\cos\\theta}$.",
+      "perOption": {
+        "A": "Uses the plane width and loses one factor of $\\cos\\theta$.",
+        "B": "Uses the rod length but loses one factor of $\\cos\\theta$.",
+        "C": "Uses the plane width for the conductor length.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.f"
+    ],
+    "types": [
+      "multi-step",
+      "application",
+      "diagram"
+    ],
+    "primaryType": "multi-step",
+    "difficulty": 5,
+    "difficultyReason": "The student must combine motional e.m.f., current and magnetic force, resolving components for both induction and force balance.",
+    "misconception": "Applying the inclination factor only once",
+    "transcription": "The figure below shows a conducting rod of length $L$ and mass $m$ placed on a very long and smooth plane of width $w$ which makes an angle of $\\theta$ to the horizontal. The rod is connected to a resistor of resistance $R$ through light and flexible wires. The rod is then released from rest at the top of the plane and moves in a uniform magnetic flux density $B$ that is vertically downwards everywhere. The rod attains terminal velocity after some time.\n\n[The conducting rod lies across the inclined plane, perpendicular to the downhill direction. Both ends are connected by flexible wires to an external resistor labelled $R$. The plane’s cross-slope width is labelled $w$ and the angle between the plane and the horizontal is labelled $\\theta$.]\n\nWhat is the magnitude of the rod’s terminal velocity?\n\nA $\\frac{mgR\\tan\\theta}{B^2w^2}$\nB $\\frac{mgR\\tan\\theta}{B^2L^2}$\nC $\\frac{mgR\\tan\\theta}{B^2w^2\\cos\\theta}$\nD $\\frac{mgR\\tan\\theta}{B^2L^2\\cos\\theta}$",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ]
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over the first half-period, $V(t)=(2V_0/T)t$, and the other half has the same mean square. Thus $V_{\\mathrm{rms}}=\\sqrt{\\frac{2}{T}\\int_0^{T/2}\\frac{4V_0^2}{T^2}t^2\\,dt}$. Evaluating gives $\\sqrt{\\frac{8V_0^2}{T^3}\\frac{T^3}{3\\times8}}=\\frac{V_0}{\\sqrt3}$.",
+      "perOption": {
+        "A": "Uses the average voltage, which is zero.",
+        "B": "Correct.",
+        "C": "Uses the RMS value for a sinusoidal waveform.",
+        "D": "Uses the RMS value for an alternating voltage of constant magnitude $V_0$."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "outcomes": [
+      "currents.f"
+    ],
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "primaryType": "graph",
+    "difficulty": 4,
+    "difficultyReason": "The student must square and average a non-sinusoidal waveform before taking the square root.",
+    "misconception": "Using the sinusoidal RMS factor for any alternating voltage",
+    "transcription": null,
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photoelectric equation is $hf=\\Phi+eV_s$, with $\\Phi=hf_m$. Thus $V_s=(h/e)f-\\Phi/e$. A smaller work function lowers the threshold frequency while the gradient remains $h/e$, so the line shifts left and stays parallel to the original.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Keeps the original threshold and makes the line steeper.",
+        "C": "Keeps the original threshold and makes the line shallower.",
+        "D": "Keeps the slope but shifts the threshold to a higher frequency."
+      }
+    },
+    "issues": "The key prints the wrong sign in the photoelectric equation and omits division by e in the intercept for Vₛ. Its graph reasoning and letter A are correct.",
+    "chapter": "quantum-physics",
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "primaryType": "graph",
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the effect of the work function on the threshold from the universal slope.",
+    "misconception": "Assuming the work function changes the graph gradient",
+    "transcription": "The graph shows the variation of stopping potential $V_{\\mathrm{s}}$ with frequency $f$ for photoelectric electrons emitted from the surface of a metal illuminated with electromagnetic radiation.\n\n[The graph has vertical axis $V_{\\mathrm{s}}$ and horizontal axis $f$. A straight line rises from zero stopping potential at frequency $f_{\\mathrm{m}}$.]\n\nThe metal is replaced with one that has a smaller work function.\n\nWhich line shows the variation of stopping potential with frequency for the new metal?\n\n[The second graph has the same axes and shows the original line dashed. A is parallel to the dashed line and starts left of $f_{\\mathrm{m}}$. B starts at $f_{\\mathrm{m}}$ and is steeper than the dashed line. C starts at $f_{\\mathrm{m}}$ and is shallower than the dashed line. D is parallel to the dashed line and starts right of $f_{\\mathrm{m}}$.]",
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Decreasing the tube voltage gives the electrons less energy, so the cutoff wavelength $\\lambda_1$ increases. The target material is the same, so the characteristic wavelength $\\lambda_2$ stays fixed.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the cutoff as fixed and the characteristic wavelength as voltage-dependent.",
+        "C": "Reverses the effect of tube voltage on the cutoff.",
+        "D": "Reverses the cutoff shift and assumes the characteristic wavelength also decreases."
+      }
+    },
+    "issues": "The characteristic wavelength stays fixed provided the reduced voltage still allows that line to be excited.",
+    "chapter": "quantum-physics",
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.m"
+    ],
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "primaryType": "graph",
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the voltage-dependent cutoff from a characteristic emission line.",
+    "misconception": "Assuming tube voltage sets the characteristic wavelengths",
+    "transcription": "The diagram below shows a typical X-ray spectrum produced by an X-ray tube.\n\n[Intensity is plotted against wavelength. The continuous spectrum begins at the short-wavelength cutoff $\\lambda_1$ and rises to a broad maximum before falling. Two sharp peaks appear on the rising side, with the longer-wavelength peak marked $\\lambda_2$.]\n\nThe operating voltage across the X-ray tube is decreased.\n\nWhich of the following gives the corresponding changes in $\\lambda_1$ and $\\lambda_2$?\n\nOption | $\\lambda_1$ | $\\lambda_2$\nA | increase | no change\nB | no change | decrease\nC | decrease | no change\nD | decrease | decrease",
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles still pass through with negligible deviation because atoms are mainly empty space. The heavier isotope has the same nuclear charge, and the chance of a nearly head-on encounter is approximately unchanged. The scattering pattern therefore shows no significant change.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Extra neutrons leave the nuclear charge and the chance of near-head-on scattering essentially unchanged.",
+        "C": "The higher nuclear mass does not substantially strengthen the Coulomb repulsion responsible for large deflections.",
+        "D": "Changing the isotope does not appreciably change the chance of an encounter that deflects an alpha particle."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "outcomes": [
+      "nuclear-physics.a",
+      "nuclear-physics.c"
+    ],
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "primaryType": "conceptual",
+    "difficulty": 2,
+    "difficultyReason": "The student applies the unchanged nuclear charge of an isotope to Rutherford scattering.",
+    "misconception": "Assuming extra neutrons increase nuclear charge",
+    "transcription": null,
+    "secondaryChapters": []
+  },
+  {
+    "id": "acjc-2024-prelim-p1-q30",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fission products Y and Z are more stable than X. Each therefore has a higher binding energy per nucleon than X, so both ratios in row A exceed 1.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Both products have greater binding energy per nucleon than X, so the second ratio also exceeds 1.",
+        "C": "Y has greater binding energy per nucleon than X, so the first ratio exceeds 1.",
+        "D": "Reverses the binding-energy-per-nucleon comparison for the parent and its fission products."
+      }
+    },
+    "issues": "The printed phrase 'total binding energy per nucleon of Y and Z' is ambiguous. For the usual heavy-nucleus fission assumed by the key, both the sum of the two values and the combined binding energy per nucleon exceed the value for X.",
+    "chapter": "nuclear-physics",
+    "outcomes": [
+      "nuclear-physics.s",
+      "nuclear-physics.t"
+    ],
+    "types": [
+      "conceptual"
+    ],
+    "primaryType": "conceptual",
+    "difficulty": 2,
+    "difficultyReason": "The student uses the relation between binding energy per nucleon and stability to compare the nuclei.",
+    "misconception": "Assuming the heavier parent is more tightly bound per nucleon",
+    "transcription": "A nucleus of element X absorbs a neutron and undergoes nuclear fission to give a nucleus of element Y and a nucleus of element Z.\n\nWhich row gives the correct relation of the binding energy per nucleon of the respective nuclei?\n\nOption | (binding energy per nucleon of Y) / (binding energy per nucleon of X) | (total binding energy per nucleon of Y and Z) / (binding energy per nucleon of X)\nA | greater than 1 | greater than 1\nB | greater than 1 | less than 1\nC | less than 1 | greater than 1\nD | less than 1 | less than 1",
+    "secondaryChapters": []
+  }
+]

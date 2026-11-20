@@ -1,0 +1,488 @@
+[
+ {
+  "id": "yijc-2023-prelim-p1-q2",
+  "keyPage": 1,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "The express train overtakes the goods train at time $t$ when both have the same displacement from the station.\n\nGoods train: $s_1 = ut = 10t$\n\nExpress train: $s_2 = ut + \\tfrac{1}{2}at^2 = 0 + \\tfrac{1}{2}(0.50)t^2$\n\nSetting $s_1 = s_2$: $10t = \\tfrac{1}{2}(0.50)t^2$, so $t = 40\\ \\mathrm{s}$.",
+   "perOption": {
+    "A": "Not the time at which the two displacements are equal.",
+    "B": "Not the time at which the two displacements are equal; at 10 s the express train has covered only 25 m against the goods train's 100 m.",
+    "C": "This is when the two trains have equal speeds (or results from dropping the ½ in $\\tfrac{1}{2}at^2$); the express train is still behind at that moment.",
+    "D": "Correct. Equal displacements give $10t = 0.25t^2$."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.e"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A standard equal-displacement kinematics problem with one quadratic.",
+  "misconception": "Taking the overtaking moment as when the speeds are equal",
+  "transcription": "A goods train passes through a station at a steady speed of $10\\ \\mathrm{m\\,s^{-1}}$. An express train is at rest at the station. The express train leaves the station with a uniform acceleration of $0.5\\ \\mathrm{m\\,s^{-2}}$ just as the goods train goes past. Both trains move in the same direction on straight, parallel tracks.\n\nHow much time passes before the express train overtakes the goods train?\n\nA 6.0 s  B 10 s  C 20 s  D 40 s"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q3",
+  "keyPage": 1,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The force in question is the backward push by the back wheel on the road.\n\nIts Newton's third law (action–reaction) partner acts on the other body, the back wheel, and is the forward push of the road on the back wheel.",
+   "perOption": {
+    "A": "Acts between the cyclist and the pedals, not between the wheel and the road.",
+    "B": "Correct. Same pair of bodies, equal magnitude, opposite direction.",
+    "C": "Involves the front wheel, a different contact; third-law pairs act between the same two bodies.",
+    "D": "These forces balance the driving force on the bicycle (Newton's first law), but they are not its third-law pair."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.h"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires identifying the two bodies in a third-law pair, a common but well-drilled idea.",
+  "misconception": "Confusing balanced forces on one body with a Newton's third law pair",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q4",
+  "keyPage": 1,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Consider the whole system (7.0 kg) along the string:\n\n$\\Sigma F = ma$: $(5)(9.81) - (2)(9.81)\\sin 30^\\circ - 7.0 = 7a$, so $a = 4.61\\ \\mathrm{m\\,s^{-2}}$.\n\nNow the 5.0 kg block alone: $(5)(9.81) - T = 5(4.61)$, so $T = 26\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "Correct. The hanging block accelerates downward, so $T < 5g$.",
+    "B": "Not consistent with the system's acceleration of $4.61\\ \\mathrm{m\\,s^{-2}}$; check the forces on each block.",
+    "C": "Too large; the tension must be less than the 49 N weight by $ma = 23\\ \\mathrm{N}$.",
+    "D": "Equals the weight of the 5.0 kg block, which would only hold if it were not accelerating."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "diagram"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs a connected-body analysis with an incline component and friction in two steps.",
+  "misconception": "Taking tension equal to the hanging weight even when the system accelerates",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q5",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The load (weight $W$) is constant and the pivot is fixed, a distance $h$ from the load.\n\nTaking moments about the pivot: $Wh = Fx$.\n\n$Wh$ is constant since $W$ and $h$ are constant, so $Fx$ = constant and $F \\propto 1/x$. Graph B shows this relationship.",
+   "perOption": {
+    "A": "A straight line with negative gradient would mean $F$ decreases linearly, not $F \\propto 1/x$.",
+    "B": "Correct. $Fx$ is constant, an inverse-proportion curve.",
+    "C": "$F$ decreases, not increases, as its moment arm $x$ grows.",
+    "D": "$F$ must fall as $x$ increases, since a larger arm needs a smaller force for the same moment."
+   }
+  },
+  "issues": null,
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "A direct application of the principle of moments followed by recognising an inverse-proportion graph.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q6",
+  "keyPage": 2,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The cylinder is in equilibrium under three forces: $R$, $W$ and the tension in the thread.\n\nFor a body in equilibrium under three non-parallel forces, their lines of action must pass through a common point. Only in option C do all three lines meet at one point.",
+   "perOption": {
+    "A": "The lines of action of the three forces do not meet at a single point, so there is a resultant torque.",
+    "B": "The thread's line of action does not pass through the point where $R$ and $W$ meet.",
+    "C": "Correct. $R$, $W$ and the tension are concurrent.",
+    "D": "The three lines of action do not pass through a common point."
+   }
+  },
+  "issues": null,
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.h",
+   "forces-and-moments.i"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires knowing the concurrency condition for three forces and checking it carefully on diagrams.",
+  "misconception": "Thinking that balanced force magnitudes alone guarantee equilibrium, ignoring torque",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q7",
+  "keyPage": 2,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "C: An electric heater's purpose is to produce thermal energy, and all the electrical energy input can end up as thermal energy, so it can be 100% efficient.\n\nA: The velocity changes direction on bouncing, but kinetic energy has no direction and stays positive.\n\nB: The engine's power equals the gravitational potential energy gained per unit time plus the rate of work done against friction.\n\nD: Momentum must be conserved in a collision (for an isolated system).",
+   "perOption": {
+    "A": "Kinetic energy is a scalar and is never negative; only velocity changes sign.",
+    "B": "Ignores the rate of work done against friction on the rough slope.",
+    "C": "Correct. All the electrical energy can be converted to the desired thermal energy.",
+    "D": "Momentum is always conserved in a collision of an isolated system."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "collisions"
+  ],
+  "outcomes": [
+   "energy-and-fields.n",
+   "energy-and-fields.l"
+  ],
+  "primaryType": "statements",
+  "types": [
+   "statements",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Each statement tests a basic energy or momentum fact.",
+  "misconception": "Believing no device can ever be 100% efficient",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q8",
+  "keyPage": 2,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "In uniform circular motion, the net force (the centripetal force) points towards the centre of the circle.\n\nThere is no displacement in the direction of the net force, since it is always perpendicular to the velocity, so the work done by $F$ is zero.",
+   "perOption": {
+    "A": "Correct. Centripetal force is perpendicular to the motion, so it does no work.",
+    "B": "$\\pi rF$ treats the force as acting along the path; it is perpendicular to it.",
+    "C": "The net force is centripetal, towards the centre, not outwards.",
+    "D": "Wrong direction, and the force does no work since it is perpendicular to the velocity."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "circular-motion.d",
+   "energy-and-fields.c"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Recall of centripetal force direction and that a perpendicular force does no work.",
+  "misconception": "Believing there is an outward (centrifugal) net force, or that a force always does work over a distance",
+  "transcription": "The mass at the end of a pendulum is made to move in a horizontal circle of radius $r$ at constant speed. The magnitude of the net force on the mass is $F$.\n\n[Diagram: a conical pendulum; the string hangs from a point above the centre of a dashed horizontal circle of radius r, with the bob on the circle.]\n\nWhat is the direction of $F$ and the work done by $F$ during half a revolution?\n\n| | direction of F | work done by F |\n|---|---|---|\n| A | towards centre of circle | zero |\n| B | towards centre of circle | $\\pi rF$ |\n| C | away from centre of circle | zero |\n| D | away from centre of circle | $\\pi rF$ |"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q9",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The glue will snap at the lowest position of the vertical circle, where the tension it must supply is greatest.\n\nAt the bottom: $T - W = mr\\omega^2$\n\n$18 - 3 = \\left(\\dfrac{3}{9.81}\\right)(0.85)\\,\\omega^2$\n\n$\\omega = 7.6\\ \\mathrm{rad\\,s^{-1}}$",
+   "perOption": {
+    "A": "Uses the weight 3.0 N as the mass instead of $m = W/g$.",
+    "B": "Correct. Snapping occurs first at the lowest point.",
+    "C": "Uses $T + W = mr\\omega^2$, the condition at the top, where the glue tension is smallest.",
+    "D": "This is $\\omega^2$, not $\\omega$."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "circular-motion.f"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step",
+   "application"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires identifying the lowest point as the critical position and converting weight to mass.",
+  "misconception": "Assuming the critical position in a vertical circle is always the top",
+  "transcription": "A stone of weight 3.0 N is fixed, using glue, to one end P of a rigid rod CP as shown in the diagram. The rod is rotated about end C so that the stone moves in a vertical circle of radius 85 cm.\n\n[Diagram: a dashed vertical circle of radius 85 cm centred at C; rod CP with the stone glued at P on the circle, rotating with angular speed $\\omega$.]\n\nThe angular speed $\\omega$ of the rod and stone is gradually increased from zero until the glue snaps when the tension in it is 18 N.\n\nWhat is the angular speed of the stone?\n\nA $2.4\\ \\mathrm{rad\\,s^{-1}}$  B $7.6\\ \\mathrm{rad\\,s^{-1}}$  C $9.0\\ \\mathrm{rad\\,s^{-1}}$  D $58\\ \\mathrm{rad\\,s^{-1}}$"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q10",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Moving at right angles to a vertical gravitational field means the object stays at the same level as before.\n\nSince the field is uniform, there is no change in the gravitational potential energy of the object.",
+   "perOption": {
+    "A": "GPE decreases only if the object moves down, along the field.",
+    "B": "Correct. No displacement along the field, so no work is done by gravity.",
+    "C": "GPE increases only with an upward displacement against the field.",
+    "D": "No dependence on horizontal displacement at all in a uniform vertical field."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "gravitational-fields"
+  ],
+  "outcomes": [
+   "energy-and-fields.i"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Simple recognition that horizontal motion does no work against a vertical field.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q11",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The heater supplies energy at constant power, so a longer flat section means a longer time and therefore more energy transferred.\n\nQ is melting and S is boiling. Since S is longer than Q, the specific latent heat of vaporisation is larger than the specific latent heat of fusion.",
+   "perOption": {
+    "A": "Gradients of the sloped sections relate to specific heat capacities, not latent heats.",
+    "B": "Correct. The plateau length is proportional to the latent heat absorbed for the same mass.",
+    "C": "Compares heating rates of ice and water, which depend on specific heat capacities.",
+    "D": "U and V are the boiling and melting points; temperatures say nothing about latent heats."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [],
+  "outcomes": [
+   "thermodynamic-systems.g"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "conceptual"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Requires linking plateau length to energy supplied at constant power.",
+  "misconception": "Thinking a higher phase-change temperature implies a larger latent heat",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q12",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Apply $pV = nRT$ to the total amount of gas after the tap is opened:\n\n$(3.9\\times10^{5})(2.5 + 1.6)\\times10^{3}\\times10^{-6} = (0.34 + 0.20)(8.31)\\,T$\n\n$T = 360\\ \\mathrm{K}$",
+   "perOption": {
+    "A": "Not consistent with $pV = nRT$ for the combined gas.",
+    "B": "Correct. Total volume and total moles give $T \\approx 356\\ \\mathrm{K}$.",
+    "C": "Not consistent with $pV = nRT$ for the combined gas.",
+    "D": "Not consistent with $pV = nRT$ for the combined gas; check the volume conversion and total moles."
+   }
+  },
+  "issues": null,
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single application of the ideal gas equation to the combined gas, with unit conversion.",
+  "misconception": null,
+  "transcription": "Two thermally insulated cylinders A and B are connected by a tube of negligible volume, as shown.\n\n[Diagram: cylinder A, $2.5\\times10^{3}\\ \\mathrm{cm^3}$, $3.4\\times10^{5}\\ \\mathrm{Pa}$, 300 K, connected via a tube with tap T to cylinder B, $1.6\\times10^{3}\\ \\mathrm{cm^3}$, $4.9\\times10^{5}\\ \\mathrm{Pa}$.]\n\nInitially, tap T is closed and the cylinders contain an ideal gas at different pressures. Cylinder A contains 0.34 mol of gas and cylinder B contains 0.20 mol of gas. When tap T is opened, the pressure of the gas in both cylinders is $3.9\\times10^{5}\\ \\mathrm{Pa}$.\n\nWhat is the final temperature of the gas?\n\nA 320 K  B 360 K  C 380 K  D 390 K"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q13",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Amplitude: $x_0 = 600/4 = 150\\ \\mathrm{mm} = 0.150\\ \\mathrm{m}$ (one oscillation covers four amplitudes).\n\nFrequency: $f = 50/47 = 1.064\\ \\mathrm{Hz}$, so $\\omega = 2\\pi f = 6.684\\ \\mathrm{rad\\,s^{-1}}$.\n\nMax KE $= \\tfrac{1}{2}m\\omega^2x_0^2 = \\tfrac{1}{2}(5.0\\times10^{-3})(6.684)^2(0.150)^2 = 2.5\\times10^{-3}\\ \\mathrm{J}$",
+   "perOption": {
+    "A": "Uses $f = 47/50$ (inverting the frequency).",
+    "B": "Correct. $x_0 = 0.150\\ \\mathrm{m}$ and $\\omega = 6.684\\ \\mathrm{rad\\,s^{-1}}$.",
+    "C": "Results from an incorrect amplitude or angular frequency.",
+    "D": "Omits the factor of $\\tfrac{1}{2}$ in the kinetic energy."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.c",
+   "oscillations.f",
+   "oscillations.h"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires deducing amplitude from distance per cycle and chaining frequency, angular frequency and KE.",
+  "misconception": "Taking the distance per oscillation as two amplitudes rather than four",
+  "transcription": "A particle of mass $5.0\\times10^{-3}\\ \\mathrm{kg}$ performing simple harmonic motion takes 47 s to make 50 oscillations. In each complete oscillation, the particle travels a total distance of 600 mm.\n\nWhat is the maximum kinetic energy of the particle?\n\nA $2.0\\times10^{-3}\\ \\mathrm{J}$  B $2.5\\times10^{-3}\\ \\mathrm{J}$  C $3.9\\times10^{-3}\\ \\mathrm{J}$  D $5.0\\times10^{-3}\\ \\mathrm{J}$"
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q14",
+  "keyPage": 3,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "$v = f\\lambda$: $24 = 15\\lambda$, so $\\lambda = 1.6\\ \\mathrm{m}$.\n\nPhase difference $= \\dfrac{2.0}{1.6} = 1.25$ cycles.\n\nA whole cycle adds nothing, so the two points 2.0 m apart have a phase difference of a quarter of a cycle.",
+   "perOption": {
+    "A": "Only true if the separation were a whole number of wavelengths.",
+    "B": "Correct. 1.25 cycles is equivalent to 0.25 cycle.",
+    "C": "Would need a separation of an odd number of half-wavelengths.",
+    "D": "Uses $\\lambda/d = 1.6/2.0$ instead of $d/\\lambda$."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.b",
+   "wave-motion.d"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Computing wavelength then reducing a phase difference above one cycle.",
+  "misconception": "Inverting the ratio of separation to wavelength",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q15",
+  "keyPage": 3,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Fringe separation $x = \\dfrac{\\lambda D}{a}$. To increase it:\n\nthe wavelength should be increased, so the frequency should be decreased;\n\nthe distance $D$ between the slits and the screen should be increased;\n\nthe slit separation $a$ should be reduced.\n\nIncreasing the distance between the light source and the slits does not affect the fringe separation.",
+   "perOption": {
+    "A": "The source-to-slit distance does not appear in $x = \\lambda D/a$.",
+    "B": "Correct. $x \\propto D$.",
+    "C": "$x \\propto 1/a$, so a larger slit separation reduces the fringe spacing.",
+    "D": "Higher frequency means shorter wavelength, which reduces the fringe spacing."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.h"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality",
+   "practical"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of $x = \\lambda D/a$.",
+  "misconception": "Thinking the source-to-slit distance affects fringe spacing",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2023-prelim-p1-q16",
+  "keyPage": 3,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "For single-slit diffraction, the first minimum is at $\\sin\\theta = \\dfrac{\\lambda}{b} = \\dfrac{600\\times10^{-9}}{0.20\\times10^{-3}}$, so $\\theta = 0.0030\\ \\mathrm{rad}$.\n\nDistance from centre to first minimum: $s = r\\theta = 2.0\\times0.0030 = 0.0060\\ \\mathrm{m}$.\n\nWidth of central maximum $\\approx 2s = 2\\times0.0060 = 0.012\\ \\mathrm{m} = 12\\ \\mathrm{mm}$.",
+   "perOption": {
+    "A": "This is the angle $\\theta$ in radians (0.0030), not a width on the screen.",
+    "B": "Misreads $s = 0.0060\\ \\mathrm{m}$ as millimetres.",
+    "C": "This is $s$, the half-width; the central maximum spans from one first minimum to the other.",
+    "D": "Correct. Width $= 2D\\lambda/b$."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.l"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the first-minimum condition plus the doubling for the full central width.",
+  "misconception": "Taking the half-width as the full width of the central maximum",
+  "transcription": null
+ }
+]

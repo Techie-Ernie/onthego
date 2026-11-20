@@ -216,6 +216,7 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
     if (q.flags.some((f) => f === "answer-missing" || f === "answer-conflict")) reasons.push("no unambiguous letter in the key");
     if (q.flags.includes("key-letter-mismatch")) reasons.push("letter on the key page differs from the parsed key");
     if (!explanations[q.id]) reasons.push("not yet checked by an agent (no key-verified explanation)");
+    if (q.flags.includes("content-below-options")) reasons.push("content below the options may be cut off the crop");
     if (reasons.length) {
       q.status = "needs-review";
       if (!q.flags.includes("ambiguous")) q.flags.push("ambiguous");

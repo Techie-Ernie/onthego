@@ -1,0 +1,513 @@
+[
+  {
+    "id": "acjc-2023-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electromotive force is energy supplied per unit charge, so its unit is the joule per coulomb. Since $\\mathrm{J}=\\mathrm{kg\\,m^2\\,s^{-2}}$ and $\\mathrm{C}=\\mathrm{A\\,s}$, this gives $\\mathrm{kg\\,m^2\\,s^{-3}\\,A^{-1}}$.",
+      "perOption": {
+        "A": "Correct. It uses kilogram, metre, second and ampere.",
+        "B": "Momentum has units $\\mathrm{kg\\,m\\,s^{-1}}$, which use three base units.",
+        "C": "From $B=F/(IL)$ for a perpendicular conductor, the metre cancels and the unit is $\\mathrm{kg\\,s^{-2}\\,A^{-1}}$.",
+        "D": "Power is energy per time, with units $\\mathrm{kg\\,m^2\\,s^{-3}}$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must break several familiar derived units into base units.",
+    "misconception": "Counting powers instead of distinct base units.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Assuming the force acts along the initial motion, $a=F/m$ gives the gradient of the speed–time graph. The speed stays constant at first, rises with an increasingly steep gradient as the force grows, and stays constant at its new value once the force drops to zero.",
+      "perOption": {
+        "A": "Correct. It shows a progressively steeper rise followed by constant speed.",
+        "B": "Its straight rising segment implies constant force.",
+        "C": "Its final decline requires a backward force after the applied force ends.",
+        "D": "Its instantaneous speed jump requires a finite impulse delivered in zero time."
+      }
+    },
+    "issues": "The force direction relative to the initial velocity is unspecified. The keyed graph assumes a force parallel to and in the same direction as the initial motion.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must translate the force profile into the changing slope of a speed graph.",
+    "misconception": "Reading force as speed.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Distance is the area under the speed–time graph. The triangle from 5 to 10 s has half the base and half the height of the whole triangle, so it covers one quarter of the total area. The first 5 s therefore account for three quarters of the total distance, giving a ratio of $4/3\\approx 1.3$.",
+      "perOption": {
+        "A": "It underestimates the contribution of the last 5 s.",
+        "B": "Correct. The first 5 s cover three quarters of the total distance.",
+        "C": "It overestimates the last 5 s by treating its distance as half the first interval’s.",
+        "D": "It assigns almost as much distance to the last 5 s as to the first despite the much lower speed."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students need to compare a triangle and a trapezium on a speed–time graph.",
+    "misconception": "Using the speed at one instant in place of the area.",
+    "transcription": "A drone descends from a height for 10 s. The variation with time of the vertical speed of the drone is shown.\n\n[Speed–time graph. A straight line falls from an unlabelled positive speed at $t=0$ to zero at $t=10\\ \\mathrm{s}$. The horizontal axis is labelled time / s, with 0, 5 and 10 marked.]\n\nWhat is the ratio $\\dfrac{\\text{distance travelled between 0 s to 10 s}}{\\text{distance travelled between 0 s to 5 s}}$?\n\nA  1.2\nB  1.3\nC  1.5\nD  1.8"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force changes the velocity by a vector of magnitude $Ft/m=(1.5)(2.0)/3.0=1.0\\ \\mathrm{m\\,s^{-1}}$. The final speed is smallest when this change opposes the initial velocity and largest when it points along it. It can range from $1.0$ to $3.0\\ \\mathrm{m\\,s^{-1}}$, so $0.5\\ \\mathrm{m\\,s^{-1}}$ is impossible.",
+      "perOption": {
+        "A": "Correct. It is below the minimum final speed.",
+        "B": "This is possible when the force opposes the initial velocity.",
+        "C": "This is possible with a force angled so the final velocity has the original magnitude.",
+        "D": "This is possible when the force points along the initial velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must calculate the velocity change and then find the range of possible vector sums.",
+    "misconception": "Treating change in velocity as a scalar.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The component of weight down the slope is $mg\\sin30^\\circ$. The block slides down the slope, so both tension and friction act uphill. Newton’s second law gives $a=(5.0g\\sin30^\\circ-2.0-3.0)/5.0=3.9\\ \\mathrm{m\\,s^{-2}}$ down the slope.",
+      "perOption": {
+        "A": "Correct. Both tension and friction reduce the downhill resultant.",
+        "B": "Adds friction downslope while subtracting tension.",
+        "C": "Adds both friction and tension to the downhill weight component.",
+        "D": "Uses the perpendicular weight component $mg\\cos30^\\circ$ in the along-slope equation."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must resolve the weight and assign signs to both forces along the slope.",
+    "misconception": "Assigning friction the same direction as the downhill motion.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In diagram 1 both moments are anticlockwise, so $M=2F(r/2)=Fr$. In diagram 2 the top force produces a clockwise moment $Fr$, and the left force produces an anticlockwise moment $3Fr/4$. The clockwise moment is larger, leaving a net moment of $Fr/4=M/4$ clockwise.",
+      "perOption": {
+        "A": "Reverses the sense of the larger moment.",
+        "B": "Correct. The clockwise moment exceeds the anticlockwise moment by $M/4$.",
+        "C": "Uses a ratio of moment arms for the magnitude and reverses the direction.",
+        "D": "Uses a ratio of moment arms in place of subtracting the opposing moments."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify both moment arms and track the sense of each moment.",
+    "misconception": "Losing the sign of a moment.",
+    "transcription": "Diagram 1 shows two forces $F$ acting on a circular disc of radius $r$. The disc is pivoted at a fixed point O which is the center of the disc. The forces give rise to a net moment $M$.\n\n[Diagram 1. A downward force $F$ acts $r/2$ to the left of O, and an upward force $F$ acts $r/2$ to the right of O.]\n\nIn diagram 2, the lines of action of forces are moved to new points.\n\n[Diagram 2. A downward force $F$ acts $3r/4$ to the left of O, and a horizontal force $F$ acts to the right, tangentially at the top of the disc.]\n\nWhat is the net moment now?\n\nOption — magnitude — direction\nA — $M/4$ — anti-clockwise\nB — $M/4$ — clockwise\nC — $\\frac{4}{3}M$ — anti-clockwise\nD — $\\frac{4}{3}M$ — clockwise"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking right and up as positive, the resultant has components $R_x=40+50\\sin45^\\circ-70\\sin72^\\circ=8.78\\ \\mathrm{N}$ and $R_y=50\\cos45^\\circ+70\\cos72^\\circ=57.0\\ \\mathrm{N}$. Its magnitude is $\\sqrt{R_x^2+R_y^2}=57.7\\ \\mathrm{N}$, at about $9^\\circ$ clockwise from P. The balancing force points in the opposite direction, at $189^\\circ$ clockwise from P.",
+      "perOption": {
+        "A": "Gives the direction of the original resultant.",
+        "B": "Correct. It gives the equal and opposite balancing force.",
+        "C": "Adds the leftward component as if it pointed right and reports the resulting direction without reversing it.",
+        "D": "Reverses a resultant calculated by adding the leftward component as if it pointed right."
+      }
+    },
+    "issues": "The question omits the angle convention. The keyed angle is measured clockwise from line P.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must resolve three forces, find their resultant and reverse its direction.",
+    "misconception": "Reporting the resultant instead of the balancing force.",
+    "transcription": "Three forces act on a body in various directions shown below.\n\n[Three arrows share a common origin. Line P is a vertical dashed ray extending upward from the origin. The $70\\ \\mathrm{N}$ force points up and left at $72^\\circ$ to P. The $50\\ \\mathrm{N}$ force points up and right, making $45^\\circ$ with P and $45^\\circ$ with the horizontal $40\\ \\mathrm{N}$ force pointing right.]\n\nAn additional force will be required for the system to be at equilibrium.\n\nWhat is the magnitude and direction of the additional force measured from line P?\n\nOption — force — direction\nA — $57.7\\ \\mathrm{N}$ — $9^\\circ$\nB — $57.7\\ \\mathrm{N}$ — $189^\\circ$\nC — $153\\ \\mathrm{N}$ — $68^\\circ$\nD — $153\\ \\mathrm{N}$ — $248^\\circ$"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q8",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant power $P$, the upward pulling force at speed $v$ is $P/v$. As the block speeds up, the pull decreases while its weight $mg$ stays constant, so the upward acceleration decreases. The speed approaches $P/(mg)$ as the pull approaches the weight.",
+      "perOption": {
+        "A": "Shows constant acceleration followed by a sudden drop to zero.",
+        "B": "Shows constant acceleration throughout the rise.",
+        "C": "Correct. The gradient gradually decreases as the pull approaches the weight.",
+        "D": "Shows increasing acceleration while the pulling force is falling."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must link constant power to a falling pulling force and then to the gradient of the speed graph.",
+    "misconception": "Equating constant power with constant force.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q9",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The masses share the disc’s angular speed $\\omega$ while they rotate with it. Static friction supplies the required centripetal force $mr\\omega^2$, which is greatest at $6R$. For identical masses on the same surface, the maximum static friction is the same, so the outermost mass reaches that limit first.",
+      "perOption": {
+        "A": "At fixed angular speed, the required centripetal force increases with radius.",
+        "B": "Correct. The mass at $6R$ requires the greatest static friction.",
+        "C": "All three masses complete the same number of revolutions per unit time while co-rotating.",
+        "D": "Kinetic energy scales with the square of linear speed, giving a factor of nine."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c",
+      "circular-motion.f",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish shared angular speed from radius-dependent speed and centripetal force.",
+    "misconception": "Confusing linear speed and angular speed.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q10",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stars exert equal gravitational forces on each other and have the same angular speed $\\omega=2\\pi/T$, so $M_A r_A\\omega^2=M_B r_B\\omega^2$. Thus $r_B=0.2r_A$, and $r_A+r_B=d$ gives $r_A=5d/6$. The force on B equals the force on A, $M_A r_A\\omega^2=10\\pi^2 dM_A/(3T^2)$.",
+      "perOption": {
+        "A": "Correct. Both the orbital radius and force magnitude agree.",
+        "B": "Uses the mass of B with the larger orbital radius of A.",
+        "C": "Uses the full separation for A’s orbital radius.",
+        "D": "Uses the full separation for A’s orbital radius and pairs B’s mass with the force coefficient for A’s radius."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.f",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must connect the equal mutual forces to the two orbital radii before calculating the force.",
+    "misconception": "Using the separation as either star’s orbital radius.",
+    "transcription": "A binary star consists of two stars A and B. The two stars may be considered to be isolated in space. The centre of the two stars are separated by a constant distance $d$.\n\nStar A, of mass $M_A$ has a smaller mass than star B of mass $M_B$, such that $\\dfrac{M_A}{M_B}=0.2$.\n\nThe stars are in circular orbits about each other such that the centre of their orbits is at a fixed point with orbital period $T$.\n\nWhich row is correct?\n\nOption — orbital radius of star A — magnitude of gravitational force on star B\nA — $\\frac{5}{6}d$ — $\\frac{10\\pi^2dM_A}{3T^2}$\nB — $\\frac{5}{6}d$ — $\\frac{10\\pi^2dM_B}{3T^2}$\nC — $d$ — $\\frac{10\\pi^2dM_A}{3T^2}$\nD — $d$ — $\\frac{10\\pi^2dM_B}{3T^2}$"
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q11",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a planet of mass $m$ orbiting the Sun, $GM_\\odot m/r^2=4\\pi^2mr/T^2$, so $T^2$ is proportional to $r^3$. Saturn therefore takes $9.5^{3/2}$ Earth years, or about $29$ years.",
+      "perOption": {
+        "A": "Applies too small a power to the orbital radius ratio.",
+        "B": "Correct. The period scales as $r^{3/2}$.",
+        "C": "Squares the radius ratio, giving about 90 years.",
+        "D": "Cubes the radius ratio without taking the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must establish or recall the period–radius scaling and apply it relative to Earth.",
+    "misconception": "Confusing the scaling of orbital period with its square.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q12",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant temperature, the molecules’ mean kinetic energy stays constant. The ice absorbs latent heat during melting, and its microscopic potential energy increases as its structure changes. The internal energy therefore increases, making A the incorrect statement.",
+      "perOption": {
+        "A": "Correct. Melting increases internal energy.",
+        "B": "Constant temperature keeps the mean molecular kinetic energy constant.",
+        "C": "Ice contracts on melting, so the surroundings do positive pressure–volume work on it.",
+        "D": "The energy absorbed is $mL_f$ for the $30\\ \\mathrm{g}$ sample, while $L_f$ is energy per unit mass."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect constant temperature with mean kinetic energy and account for energy absorbed on melting.",
+    "misconception": "Equating constant temperature with constant internal energy.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q13",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "Using the intended mean-energy criterion, equate $\\tfrac32 kT$ to the escape energy $GMm/r$ for a helium-4 atom. With $r=3.4\\times10^6\\ \\mathrm{m}$ and $m\\approx6.65\\times10^{-27}\\ \\mathrm{kg}$, this gives $T=2GMm/(3kr)\\approx4.03\\times10^3\\ \\mathrm{K}$. This puts the school’s keyed value, $4.1\\times10^3\\ \\mathrm{K}$, near the estimate, but the estimate rounds to option C at the stated precision.",
+      "perOption": {
+        "A": "Using the diameter as the radius halves the result to about $2.0\\times10^3\\ \\mathrm{K}$.",
+        "B": "This is near the half-value obtained by using the diameter in the escape-energy expression.",
+        "C": "This is the two-significant-figure result of the mean-energy calculation.",
+        "D": "Correct. This is the keyed estimate, though the calculation rounds to C."
+      }
+    },
+    "issues": "The school key and keyAnswer both give D. The intended mean-energy calculation gives about 4030 K, which rounds to C. An ideal gas has a distribution of speeds, so this criterion gives a characteristic temperature rather than a strict minimum for individual atoms to escape.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "gravitational-fields.i",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must combine escape energy with the mean kinetic energy per helium atom and convert the diameter to metres.",
+    "misconception": "Treating the planetary diameter as the radius.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q14",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "After heating and leakage, the gas is at $1050\\ \\mathrm{K}$ and pressure $2P$. During cooling, assume no further gas escapes, so $p/T$ is constant at fixed volume. The final pressure is $2P(150/1050)=0.29P$.",
+      "perOption": {
+        "A": "Correct. It scales the post-leak pressure by $150/1050$.",
+        "B": "Uses the temperature rise of $900\\ \\mathrm{K}$ as the hot temperature.",
+        "C": "Assumes a pressure decrease by a factor of two even though the absolute temperature falls by a factor of seven.",
+        "D": "Assumes the original pressure returns when the original temperature returns, overlooking the loss of gas."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must choose the post-leak state and use the absolute hot temperature.",
+    "misconception": "Treating the temperature increase as the final temperature.",
+    "transcription": null
+  },
+  {
+    "id": "acjc-2023-prelim-p1-q15",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The block completes several oscillations while viscous forces dissipate its mechanical energy. Its amplitude decreases until it is effectively at rest, which is characteristic of light damping.",
+      "perOption": {
+        "A": "Critical damping returns the block to equilibrium without repeated oscillations.",
+        "B": "Heavy damping gives a slower, nonoscillatory return to equilibrium.",
+        "C": "Correct. Oscillations persist while their amplitude decreases.",
+        "D": "Without damping, the oscillations would continue at constant amplitude."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The presence of repeated cycles with decreasing amplitude identifies the damping regime.",
+    "misconception": "Inferring the damping regime from the liquid’s viscosity alone.",
+    "transcription": null
+  }
+]

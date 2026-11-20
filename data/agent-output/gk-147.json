@@ -1,0 +1,495 @@
+[
+ {
+  "id": "yijc-2024-prelim-p1-q3",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Treat car and trailer as one system: $F_{net} = 5600 - 1200 - 400 = 4000\\ \\mathrm{N}$, so $a = \\frac{4000}{1500+500} = 2.0\\ \\mathrm{m\\,s^{-2}}$.\n\nNow consider the trailer alone: $F_{net} = m_{trailer}a = 500(2.0) = 1000\\ \\mathrm{N}$.\n\nSince $F_{net} = T - f_{trailer}$: $1000 = T - 400$, so $T = 1400\\ \\mathrm{N}$.",
+   "perOption": {
+    "A": "The trailer accelerates against a 400 N resistance, so the coupling must pull on it.",
+    "B": "Correct. $T = m_{trailer}a + f_{trailer} = 1000 + 400$.",
+    "C": "Finds the acceleration ignoring all resistive forces ($2.8\\ \\mathrm{m\\,s^{-2}}$), then adds the trailer's resistance.",
+    "D": "Applies Newton's second law to the car but forgets the car's own 1200 N resistance ($5600 - 1500 \\times 2.0$)."
+   }
+  },
+  "issues": null,
+  "chapter": "motion-and-forces",
+  "secondaryChapters": [],
+  "outcomes": [
+   "motion-and-forces.h",
+   "motion-and-forces.i"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Standard two-body connected system: find common acceleration, then isolate the trailer.",
+  "misconception": "Forgetting to include resistive forces when isolating one body",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q4",
+  "keyPage": 2,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "Take moments about P: the weight acts further from P than the tension (which equals it), so the weight's clockwise moment is larger. The force at Q must be upwards to balance it.\n\nTake moments about Q: the tension acts further from Q than the weight, giving a larger (clockwise about Q) moment from the tension. The force at P must be downwards to balance it.",
+   "perOption": {
+    "A": "If both sockets pushed up, the total upward force would exceed the weight, since tension already equals weight.",
+    "B": "Reverses both directions; moments about P show Q must push up, not down.",
+    "C": "Correct. Moments about P and about Q fix Q upwards and P downwards.",
+    "D": "Two downward socket forces cannot balance moments about P, where the weight's moment exceeds the tension's."
+   }
+  },
+  "issues": null,
+  "chapter": "forces-and-moments",
+  "secondaryChapters": [],
+  "outcomes": [
+   "forces-and-moments.g",
+   "forces-and-moments.h"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "conceptual"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires choosing pivots and comparing moment arms rather than just balancing vertical forces.",
+  "misconception": "Assuming supports always push upwards",
+  "transcription": "A horizontal beam has its centre of gravity at X. It is supported by a vertical wire attached to the beam at point R as indicated on the diagram. The tension in the wire is equal to the weight of the beam.\n[Diagram: horizontal beam between two hatched walls with sockets P (left) and Q (right). Point R is near the left end, with an upward arrow labelled 'tension'. X, the centre of gravity, is to the right of R, near the middle of the beam, with a downward arrow labelled 'weight'.]\nThe ends of the beam fit into the sockets P and Q in two rigid vertical walls which keep the beam in equilibrium.\nWhat are the directions of the forces acting on the beam at sockets P and Q?\n| | socket P | socket Q |\n| A | upwards | upwards |\n| B | upwards | downwards |\n| C | downwards | upwards |\n| D | downwards | downwards |"
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q5",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Hooke's law holds along the straight-line section, up to a length of 40 mm where $F = 70\\ \\mathrm{N}$. The extension is measured from the natural length of 20 mm.\n\n$EPE = \\frac{1}{2}Fx = \\frac{1}{2}(70)(0.040 - 0.020) = 0.70\\ \\mathrm{J}$",
+   "perOption": {
+    "A": "Unit-conversion slip in the extension.",
+    "B": "Correct. Area under the linear section: $\\frac{1}{2}(70)(0.020)$.",
+    "C": "Forgets the factor $\\frac{1}{2}$ (uses $Fx$ instead of the triangle area).",
+    "D": "Leaves the extension in mm instead of converting to m."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.k",
+   "forces-and-moments.c"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "quantitative"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Read the limit of proportionality off the graph and find a triangle's area, remembering the natural length offset.",
+  "misconception": "Using length instead of extension",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q6",
+  "keyPage": 2,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "The component of weight along the slope is $W\\sin30^\\circ = (1.0\\times10^3)(0.50) = 0.50\\times10^3\\ \\mathrm{N}$.\n\nAt constant velocity the applied force equals this component, so $WD = Fx = (0.50\\times10^3)(5.0) = 2500\\ \\mathrm{J}$.",
+   "perOption": {
+    "A": "Correct. $F = W\\sin30^\\circ$, $WD = 500 \\times 5.0$.",
+    "B": "Uses $W\\cos30^\\circ$ (the normal component) instead of $W\\sin30^\\circ$.",
+    "C": "Uses the full weight as the applied force.",
+    "D": "Divides by $\\sin30^\\circ$ instead of multiplying."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [
+   "forces-and-moments"
+  ],
+  "outcomes": [
+   "energy-and-fields.c"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative",
+   "diagram"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Single resolution of weight along an incline followed by $W = Fs$.",
+  "misconception": null,
+  "transcription": "The figure shows a barrel of weight $1.0 \\times 10^3$ N on a frictionless slope inclined at 30° to the horizontal.\n[Diagram: a circular barrel on a slope inclined at 30° to the horizontal. Arrows: 'force' acting up and parallel to the slope; 'force of slope on barrel' acting perpendicular to the slope; weight $1.0 \\times 10^3$ N acting vertically downwards.]\nA force is applied to the barrel to move it up the slope at constant speed. The force is parallel to the slope.\nWhat is the work done by the force in moving the barrel a distance of 5.0 m up the slope?\nA $2.5 \\times 10^3$ J  B $4.3 \\times 10^3$ J  C $5.0 \\times 10^3$ J  D $1.0 \\times 10^4$ J"
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q7",
+  "keyPage": 2,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "Useful work done in lifting the weight $= (480)(3.5) = 1680\\ \\mathrm{J}$.\n\nWork done by the man pulling the rope $= (200)(10.5) = 2100\\ \\mathrm{J}$.\n\nEfficiency $= \\frac{1680}{2100}\\times100\\% = 80\\%$",
+   "perOption": {
+    "A": "Does not follow from useful output over input work.",
+    "B": "Does not follow from useful output over input work.",
+    "C": "Does not follow from useful output over input work.",
+    "D": "Correct. $1680/2100 = 0.80$."
+   }
+  },
+  "issues": null,
+  "chapter": "energy-and-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "energy-and-fields.n"
+  ],
+  "primaryType": "quantitative",
+  "types": [
+   "quantitative"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct efficiency calculation from two work-done products.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q8",
+  "keyPage": 2,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "The period of the sound wave is $T = \\frac{1}{f}$, the time for the disc to turn from one hole to the next.\n\nAngle between successive holes: $\\theta = \\frac{2\\pi}{16} = \\frac{\\pi}{8}\\ \\mathrm{rad}$.\n\n$\\omega = \\frac{\\theta}{T} = \\theta f = \\frac{\\pi}{8}(2200) = 864\\ \\mathrm{rad\\,s^{-1}}$",
+   "perOption": {
+    "A": "Uses $\\pi/16$ instead of $2\\pi/16$ for the angle between holes.",
+    "B": "Correct. $\\omega = (\\pi/8)(2200) \\approx 860\\ \\mathrm{rad\\,s^{-1}}$.",
+    "C": "Doubles the correct angle between holes (uses $2\\pi/8$).",
+    "D": "Does not divide the full-revolution angle correctly among the 16 holes."
+   }
+  },
+  "issues": null,
+  "chapter": "circular-motion",
+  "secondaryChapters": [
+   "wave-motion"
+  ],
+  "outcomes": [
+   "circular-motion.a",
+   "circular-motion.b"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Novel context: must realise one sound period corresponds to 1/16 of a revolution.",
+  "misconception": "Treating the sound frequency as the rotation frequency",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q9",
+  "keyPage": 2,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Using $KE = \\frac{GMm}{2R}$ and $TE = -\\frac{GMm}{2R}$, both satellites have the same total energy if their KE is equal. Hence A is false.\n\nSince KE is the same, the satellite's mass is proportional to $R$, so X (larger mass) has a larger orbital radius: B is valid.\n\nKepler's third law then gives X a larger period, and since angular velocity is inversely proportional to period, X has a smaller angular velocity.",
+   "perOption": {
+    "A": "Correct (this is the false statement). $TE = -KE$, so equal KE means equal total energy.",
+    "B": "True: equal $\\frac{GMm}{2R}$ means $R \\propto m$, so X orbits further out.",
+    "C": "True: larger radius gives larger period by Kepler's third law ($T^2 \\propto R^3$).",
+    "D": "True: larger period means smaller $\\omega = 2\\pi/T$."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.g",
+   "gravitational-fields.j"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "statements"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Needs the relation $TE = -KE$ for circular orbits and reasoning with mass as a variable.",
+  "misconception": "Thinking a more massive satellite has more negative total energy",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q10",
+  "keyPage": 3,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Work done moving from X to Z: $W_{X\\to Z} = 100 + (-120) = -20\\ \\mathrm{J}$.\n\nThen $W_{X\\to\\infty} = -20 + 2000 = 1980\\ \\mathrm{J}$.\n\n$\\phi_X = \\frac{W_{\\infty\\to X}}{m} = \\frac{-W_{X\\to\\infty}}{2.0} = -990\\ \\mathrm{J\\,kg^{-1}}$",
+   "perOption": {
+    "A": "Correct. $-1980/2.0$.",
+    "B": "Sign error on the X-to-Z work ($+20$ instead of $-20$), giving $-2020/2.0$.",
+    "C": "Subtracts the $-120$ J instead of adding it, giving $-2220/2.0$.",
+    "D": "Forgets to divide by the 2.0 kg mass."
+   }
+  },
+  "issues": null,
+  "chapter": "gravitational-fields",
+  "secondaryChapters": [],
+  "outcomes": [
+   "gravitational-fields.e"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Requires careful sign handling across three work steps and the definition of potential.",
+  "misconception": "Sign confusion between work done to infinity and work done from infinity",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q11",
+  "keyPage": 3,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "Heat supplied by kettle = heat absorbed by water + heat loss:\n\n$(1.2\\times10^3)(30\\times60) = (0.80)(4.2\\times10^3)(100-25) + (0.80)(2300\\times10^3) + \\text{heat loss}$\n\nHeat loss $= 6.8\\times10^4\\ \\mathrm{J}$, so power loss $= \\frac{6.8\\times10^4}{30\\times60} = 38\\ \\mathrm{W}$.",
+   "perOption": {
+    "A": "Correct. $6.8\\times10^4\\ \\mathrm{J}$ over 1800 s.",
+    "B": "Does not match the energy balance; check heating plus latent-heat terms.",
+    "C": "Omits the latent heat of vaporisation, so the 'loss' includes the boiling energy.",
+    "D": "Confuses the latent heat value with the power."
+   }
+  },
+  "issues": null,
+  "chapter": "thermodynamic-systems",
+  "secondaryChapters": [
+   "energy-and-fields"
+  ],
+  "outcomes": [
+   "thermodynamic-systems.g",
+   "energy-and-fields.l"
+  ],
+  "primaryType": "multi-step",
+  "types": [
+   "multi-step"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Energy balance with specific heat and latent heat; arithmetic is routine.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q12",
+  "keyPage": 3,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "high",
+  "explanation": {
+   "body": "$U = \\frac{3}{2}NkT = \\frac{1}{2}Nm\\langle c^2\\rangle$, so $\\frac{T}{c_{rms}^2}$ is constant.\n\n$\\frac{330}{c_{rms}^2} = \\frac{T_{final}}{(1.20\\,c_{rms})^2}$, giving $T_{final} = 330 \\times 1.44 = 475\\ \\mathrm{K}$.",
+   "perOption": {
+    "A": "Divides by $1.2^2$ instead of multiplying.",
+    "B": "Divides by 1.2 instead of multiplying by $1.2^2$.",
+    "C": "Assumes $T \\propto c_{rms}$ rather than $T \\propto c_{rms}^2$.",
+    "D": "Correct. $T \\propto c_{rms}^2$: $330 \\times 1.44$."
+   }
+  },
+  "issues": null,
+  "chapter": "temperature-and-ideal-gases",
+  "secondaryChapters": [],
+  "outcomes": [
+   "temperature-and-ideal-gases.g"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Single proportionality, but the square is a common trap.",
+  "misconception": "Taking temperature proportional to r.m.s. speed",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q13",
+  "keyPage": 3,
+  "keyLetter": "A",
+  "explanationSource": "key",
+  "derivedAnswer": "A",
+  "confidence": "high",
+  "explanation": {
+   "body": "With greater damping, more energy is lost per cycle, so the amplitude of the forced oscillations is lower at all frequencies (the resonance peak is lower and flatter).",
+   "perOption": {
+    "A": "Correct. More damping reduces amplitude across the response curve.",
+    "B": "Damping removes energy, so it cannot raise the amplitude.",
+    "C": "Damping lowers the curve below resonance as well, especially at the peak.",
+    "D": "Damping never increases amplitude."
+   }
+  },
+  "issues": null,
+  "chapter": "oscillations",
+  "secondaryChapters": [],
+  "outcomes": [
+   "oscillations.k"
+  ],
+  "primaryType": "conceptual",
+  "types": [
+   "conceptual",
+   "graph"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "Direct recall of the effect of damping on a resonance curve.",
+  "misconception": null,
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q14",
+  "keyPage": 3,
+  "keyLetter": "B",
+  "explanationSource": "key",
+  "derivedAnswer": "B",
+  "confidence": "high",
+  "explanation": {
+   "body": "Look for the minimum pattern that repeats: the distance between two successive tall peaks is 5 cm.\n\n$T = (5\\ \\mathrm{cm})(2.00\\ \\mathrm{ms\\,cm^{-1}}) = 10\\ \\mathrm{ms}$, so $f = \\frac{1}{10\\times10^{-3}} = 100\\ \\mathrm{Hz}$.",
+   "perOption": {
+    "A": "Takes two full repeats (10 cm) as one period.",
+    "B": "Correct. Period 5 cm = 10 ms.",
+    "C": "Uses 4 cm as the period, not the full repeating pattern.",
+    "D": "Takes 2.5 cm (e.g. tall peak to small peak) as the period, missing that the pattern repeats only every 5 cm."
+   }
+  },
+  "issues": null,
+  "chapter": "wave-motion",
+  "secondaryChapters": [],
+  "outcomes": [
+   "wave-motion.b",
+   "wave-motion.e"
+  ],
+  "primaryType": "graph",
+  "types": [
+   "graph",
+   "practical"
+  ],
+  "difficulty": 2,
+  "difficultyReason": "Must identify the full repeating unit in a complex waveform before using the time-base.",
+  "misconception": "Taking the time between any two pulses as the period",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q15",
+  "keyPage": 3,
+  "keyLetter": "D",
+  "explanationSource": "key",
+  "derivedAnswer": "D",
+  "confidence": "medium",
+  "explanation": {
+   "body": "After the polariser is rotated to $45^\\circ$, each emergent beam has amplitude $A' = A\\cos45^\\circ$.\n\nSince the two beams arrive in phase, they superpose: total amplitude $= 2A' = 2A\\cos45^\\circ = \\sqrt{2}A$.\n\nSince $I \\propto A^2$: $\\frac{I_E}{I} = \\left(\\frac{\\sqrt{2}A}{A}\\right)^2 = 2$, so $I_E = 2I$.",
+   "perOption": {
+    "A": "Applies $\\cos^2 45^\\circ$ twice or halves the single-beam result.",
+    "B": "Considers only one beam passing through ($I\\cos^2 45^\\circ$).",
+    "C": "Adds the two transmitted intensities ($0.5I + 0.5I$) instead of adding amplitudes of the in-phase beams.",
+    "D": "Correct. Coherent in-phase amplitudes add: $(\\sqrt{2}A)^2 = 2A^2$."
+   }
+  },
+  "issues": "Key answer 2I assumes the polariser is rotated 45° toward the direction of the combined (resultant) polarisation; rotating 45° the other way would give 0. The question wording ('angle of polarisation ... rotated to 45°') does not specify the sense of rotation, so the question is somewhat ambiguous.",
+  "chapter": "wave-motion",
+  "secondaryChapters": [
+   "superposition"
+  ],
+  "outcomes": [
+   "wave-motion.j",
+   "superposition.a"
+  ],
+  "primaryType": "application",
+  "types": [
+   "application",
+   "multi-step"
+  ],
+  "difficulty": 4,
+  "difficultyReason": "Unusual combination of Malus' law with coherent superposition of amplitudes.",
+  "misconception": "Adding intensities instead of amplitudes for coherent waves",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q16",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "The tube is closed at the bottom (node) and open at the top (antinode). The current pattern is $\\frac{3}{4}\\lambda$; the next higher resonance is $\\frac{5}{4}\\lambda$.\n\n$\\frac{5}{4}\\lambda = 60\\ \\mathrm{cm} \\Rightarrow \\lambda = 48\\ \\mathrm{cm} = 0.48\\ \\mathrm{m}$\n\n$v = f\\lambda$: $330 = f(0.48)$, so $f = 688\\ \\mathrm{Hz}$.",
+   "perOption": {
+    "A": "Fundamental ($\\frac{1}{4}\\lambda = 60$ cm), a lower resonance not a higher one.",
+    "B": "The current resonance ($\\frac{3}{4}\\lambda = 60$ cm), not the next higher one.",
+    "C": "Correct. $\\frac{5}{4}\\lambda = 0.60$ m gives 688 Hz.",
+    "D": "Skips a harmonic ($\\frac{7}{4}\\lambda = 60$ cm)."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.c",
+   "superposition.d"
+  ],
+  "primaryType": "diagram",
+  "types": [
+   "diagram",
+   "quantitative"
+  ],
+  "difficulty": 3,
+  "difficultyReason": "Must identify the current mode from the diagram and know only odd harmonics exist in a closed tube.",
+  "misconception": "Thinking the next resonance adds a half wavelength rather than stepping to the next odd quarter",
+  "transcription": null
+ },
+ {
+  "id": "yijc-2024-prelim-p1-q17",
+  "keyPage": 4,
+  "keyLetter": "C",
+  "explanationSource": "key",
+  "derivedAnswer": "C",
+  "confidence": "high",
+  "explanation": {
+   "body": "$d\\sin\\theta = n\\lambda$. Same angle: $d\\sin\\theta = 5\\lambda_1 = 4\\lambda_2$.\n\n$\\lambda_2 = \\frac{5(480)}{4} = 600\\ \\mathrm{nm}$",
+   "perOption": {
+    "A": "Inverts the order ratio in some form instead of $\\lambda_2 = \\frac{5}{4}\\lambda_1$.",
+    "B": "Assumes the same wavelength despite different orders.",
+    "C": "Correct. $5\\lambda_1 = 4\\lambda_2$.",
+    "D": "Uses an incorrect ratio of orders (larger than 5/4)."
+   }
+  },
+  "issues": null,
+  "chapter": "superposition",
+  "secondaryChapters": [],
+  "outcomes": [
+   "superposition.i"
+  ],
+  "primaryType": "proportionality",
+  "types": [
+   "proportionality"
+  ],
+  "difficulty": 1,
+  "difficultyReason": "One-line ratio from the grating equation.",
+  "misconception": null,
+  "transcription": "A light source emits light which is a mixture of two wavelengths, $\\lambda_1$ and $\\lambda_2$.\nWhen the light is incident on a diffraction grating it is found that the fifth order of light of wavelength $\\lambda_1$ occurs at the same angle as the fourth order for light of wavelength $\\lambda_2$.\nIf $\\lambda_1$ is 480 nm, what is $\\lambda_2$?\nA 400 nm  B 480 nm  C 600 nm  D 750 nm"
+ }
+]
