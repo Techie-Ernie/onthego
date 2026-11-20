@@ -1,0 +1,12 @@
+# never upload source papers, archives, pipeline caches or tooling
+Other JC Prelim 2026
+*.zip
+*.pdf
+pipeline
+.agents
+.taste-skill
+data/overrides
+data/ingest-report.json
+PROMPT.md
+node_modules
+.next

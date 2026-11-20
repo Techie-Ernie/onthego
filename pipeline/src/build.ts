@@ -139,6 +139,7 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
   const overrides = readJson<Record<string, Override>>(overridesFile, {});
   const classifications = readJson<Record<string, Classification>>(classificationsFile, {});
   const explanations = readJson<Record<string, Question["explanation"] & { derivedAnswer?: string }>>(explanationsFile, {});
+  const transcriptions = readJson<Record<string, string>>(path.join(DATA, "transcriptions", `${SUBJECT}.json`), {});
   const syllabus = readJson<Syllabus | null>(path.join(ROOT, "syllabus", `${SUBJECT}.json`), null);
   const topicIds = new Set(syllabus?.topics.map((t) => t.id) ?? []);
 
@@ -161,13 +162,8 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
         misconception: c.misconception,
       });
     } else q.flags.push("unclassified");
-    const ex = explanations[q.id];
-    if (ex) {
-      const { derivedAnswer, ...rest } = ex;
-      if (derivedAnswer && derivedAnswer !== q.answer) {
-        q.flags.push("explanation-disagrees-with-key");
-      } else q.explanation = rest;
-    }
+    const tr = transcriptions[q.id];
+    if (tr && q.renderMode === "image") q.stemText = tr;
     const o = overrides[q.id];
     if (o) {
       if (o.renderMode) {
@@ -194,6 +190,17 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
       if (o.approved) q.reviewedAt = o.reviewedAt ?? "approved";
       if (o.recrop) for (const rc of o.recrop) q.flags.push(`recrop-pending:${rc.target}`); // applied by `pipeline recrop`
     }
+  }
+
+  // ---- explanations: published only when the independently derived answer matches the (possibly corrected) key ----
+  for (const { q } of all) {
+    const ex = explanations[q.id];
+    if (!ex) continue;
+    const { derivedAnswer, confidence, issues, ...rest } = ex as typeof ex & { confidence?: string; issues?: string };
+    if (issues) q.flags.push("agent-note");
+    if (derivedAnswer !== q.answer) q.flags.push("explanation-disagrees-with-key");
+    else if (confidence === "low") q.flags.push("explanation-low-confidence");
+    else q.explanation = { body: rest.body, perOption: rest.perOption, model: rest.model, verified: true };
   }
 
   // ---- dedupe ----

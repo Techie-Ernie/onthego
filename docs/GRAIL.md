@@ -153,3 +153,19 @@ QP sittings by year:
 | 12 | 5 | 7 | 12 | 4 | 20 | 11 | 3 | 12 | 21 | 20 | 18 | 14 | 14 |
 
 At 30 MCQs per 9749 paper, that is about **4,000 candidate questions**, or about 3,300 with answer keys.
+
+## Running the scraper (implemented in `pipeline/src/grail.ts`)
+
+```bash
+npm run pipeline -- grail-index     # conditional GET of data.json (fine for anyone, incl. agents)
+npm run pipeline -- grail-select    # offline filter → pipeline/cache/grail/manifest.json
+npm run pipeline -- grail-fetch     # YOU run this in a normal terminal (refuses inside an AI agent session)
+npm run pipeline -- grail-status    # downloaded / missing; lists Drive-only files to save by hand
+npm run pipeline -- all             # ingest local + downloaded grail papers, then build
+```
+
+Why `grail-fetch` refuses to run from Claude Code: `document.grail.moe` disallows ClaudeBot and anthropic-ai by name, so an Anthropic agent doesn't fetch from it even when asked. A person running the script under a generic UA is allowed by the same robots.txt.
+
+Google Drive downloads (`drive.google.com/uc`, `drive.usercontent.google.com`) are disallowed for every bot, so the scraper never fetches them. Open each listed link in a browser and save the PDF to the printed `pipeline/cache/grail/manual/<fileId>.pdf` path. The ingest step picks them up.
+
+Local papers win over grail copies of the same sitting. Papers whose cover shows the 9646 syllabus, or doesn't look like a Paper 1 MCQ, are skipped and logged.
