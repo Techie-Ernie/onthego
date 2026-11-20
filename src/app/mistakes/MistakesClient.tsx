@@ -4,14 +4,15 @@ import Link from "next/link";
 import { useBank, useUserData } from "@/lib/hooks";
 import { Empty, Segmented, Skeleton, pct } from "@/components/ui/controls";
 import { SECTIONS, topicName } from "@/subjects/topics";
+import { schoolName } from "@/subjects/schools";
 import { isDue } from "@/lib/quiz/srs";
 
 type Tab = "due" | "wrong" | "shaky" | "saved";
 
 /** Mistake book: everything you got wrong, guessed or saved, grouped by chapter, with SM-2 review queue on top. */
 export function MistakesClient() {
-  const { index } = useBank();
-  const { data } = useUserData();
+  const { index, error } = useBank();
+  const { data, error: localError } = useUserData();
   const [tab, setTab] = useState<Tab>("due");
 
   const groups = useMemo(() => {
@@ -25,7 +26,7 @@ export function MistakesClient() {
     if (tab === "wrong") for (const [k, s] of Object.entries(data.stats)) if (s.wrong > 0) ids.add(k);
     if (tab === "shaky") data.attempts.filter((a) => a.guessed || a.unsure).forEach((a) => ids.add(a.qid));
     if (tab === "saved") data.bookmarks.forEach((b) => ids.add(b.qid));
-    const m = new Map<string, { id: string; wrong: number; seen: number; last?: boolean; due?: number }[]>();
+    const m = new Map<string, { id: string; label: string; wrong: number; seen: number; last?: boolean; due?: number }[]>();
     const srs = new Map(data.srs.map((c) => [c.qid, c]));
     for (const id of ids) {
       const q = byId.get(id);
@@ -33,12 +34,15 @@ export function MistakesClient() {
       const k = q.chapter ?? "";
       if (!m.has(k)) m.set(k, []);
       const s = data.stats[id];
-      m.get(k)!.push({ id, wrong: s?.wrong ?? 0, seen: s?.seen ?? 0, last: lastAttempt.get(id)?.correct, due: srs.get(id)?.due });
+      const n = id.match(/-q(\d+)/)?.[1];
+      const label = [schoolName(q.schools[0] ?? "Unknown school"), q.years[0], n ? `Q${Number(n)}` : null].filter(Boolean).join(" ");
+      m.get(k)!.push({ id, label, wrong: s?.wrong ?? 0, seen: s?.seen ?? 0, last: lastAttempt.get(id)?.correct, due: srs.get(id)?.due });
     }
     const order = SECTIONS.flatMap((s) => s.topicIds);
     return [...m.entries()].sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]));
   }, [index, data, tab]);
 
+  if (error || localError) return <p role="alert">{localError || "Couldn’t load the question bank. Reconnect and try again."}</p>;
   if (!groups || !data) return <Skeleton lines={5} />;
   const total = groups.reduce((n, [, l]) => n + l.length, 0);
   const allIds = groups.flatMap(([, l]) => l.map((x) => x.id));
@@ -61,7 +65,7 @@ export function MistakesClient() {
         ]}
       />
       {total > 0 && (
-        <Link href={`/build?${tab === "due" ? "pool=due&start=1" : tab === "saved" ? "pool=bookmarked&start=1" : tab === "wrong" ? "pool=wrong&start=1" : ""}&n=${Math.min(total, 20)}`} className="btn btn--primary btn--block">
+        <Link href={`/build?${tab === "due" ? "pool=due&start=1" : tab === "saved" ? "pool=bookmarked&start=1" : tab === "wrong" ? "pool=wrong&start=1" : `ids=${allIds.slice(0, 20).join(",")}&start=1`}&n=${Math.min(total, 20)}`} className="btn btn--primary btn--block">
           {tab === "due" ? `Review ${Math.min(total, 20)} due now` : `Practise these (${Math.min(total, 20)})`}
         </Link>
       )}
@@ -85,7 +89,7 @@ export function MistakesClient() {
                 <li key={x.id}>
                   <Link href={`/q?id=${x.id}&from=review&ids=${allIds.join(",")}`} className="card flex min-h-14 items-center gap-3 px-4 py-2">
                     <span className="min-w-0 flex-1">
-                      <span className="block truncate text-[15px]">{x.id.replace(/-2026-prelim-p1-q/, " · Q").toUpperCase()}</span>
+                      <span className="block text-[15px]">{x.label}</span>
                       <span className="block text-[13px] text-muted">
                         missed {x.wrong}/{x.seen} · {pct(x.seen - x.wrong, x.seen)}% right
                         {x.due ? ` · next ${new Date(x.due).toLocaleDateString(undefined, { day: "numeric", month: "short" })}` : ""}

@@ -1,5 +1,5 @@
 "use client";
-import type { ReactNode } from "react";
+import { useId, type KeyboardEvent, type ReactNode } from "react";
 
 /** Toggle chip (multi-select). */
 export function Chip({ on, onClick, children, count }: { on: boolean; onClick: () => void; children: ReactNode; count?: number }) {
@@ -23,23 +23,35 @@ export function Segmented<T extends string | number>({
   onChange: (v: T) => void;
   label: string;
 }) {
+  const name = useId();
   return (
     <div role="radiogroup" aria-label={label} className="flex flex-wrap gap-2">
       {options.map((o) => (
-        <button
-          key={String(o.value)}
-          type="button"
-          role="radio"
-          aria-checked={value === o.value}
-          title={o.hint}
-          onClick={() => onChange(o.value)}
-          className={`chip ${value === o.value ? "chip--on" : ""}`}
-        >
+        <label key={o.value} title={o.hint} className="chip relative min-w-11 focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-action" data-selected={value === o.value}>
+          <input
+            type="radio"
+            name={name}
+            checked={value === o.value}
+            onChange={() => onChange(o.value)}
+            className="absolute inset-0 m-0 h-full w-full cursor-pointer opacity-0"
+          />
           {o.label}
-        </button>
+        </label>
       ))}
     </div>
   );
+}
+
+export function moveRadio(event: KeyboardEvent<HTMLDivElement>) {
+  const step = { ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 }[event.key];
+  if (!step) return;
+  const radios = Array.from(event.currentTarget.querySelectorAll<HTMLButtonElement>('button[role="radio"]:enabled'));
+  const i = radios.findIndex((radio) => radio === event.target);
+  if (i < 0) return;
+  event.preventDefault();
+  const next = radios[(i + step + radios.length) % radios.length];
+  next.focus();
+  next.click();
 }
 
 export function Section({ title, aside, children }: { title: string; aside?: ReactNode; children: ReactNode }) {
@@ -76,7 +88,7 @@ export function Empty({ title, children, action }: { title: string; children?: R
 
 export function Skeleton({ lines = 3 }: { lines?: number }) {
   return (
-    <div aria-busy="true" aria-label="Loading" className="flex flex-col gap-3">
+    <div role="status" aria-busy="true" aria-label="Loading" className="flex flex-col gap-3">
       {Array.from({ length: lines }, (_, i) => (
         <div key={i} className="h-12 animate-pulse rounded-md bg-surface" />
       ))}

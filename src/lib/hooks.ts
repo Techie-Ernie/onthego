@@ -11,7 +11,17 @@ export function useBank() {
   const [index, setIndex] = useState<BankIndex | null>(null);
   const [error, setError] = useState<string | null>(null);
   useEffect(() => {
-    loadIndex().then(setIndex, (e) => setError(String(e?.message ?? e)));
+    let cancelled = false;
+    const load = () => loadIndex().then(
+      (result) => { if (!cancelled) { setIndex(result); setError(null); } },
+      () => { if (!cancelled) setError("Couldn’t load the question bank. Reconnect and try again."); },
+    );
+    void load();
+    window.addEventListener("online", load);
+    return () => {
+      cancelled = true;
+      window.removeEventListener("online", load);
+    };
   }, []);
   return { index, error };
 }
@@ -51,24 +61,31 @@ export function deriveUserData(attempts: Attempt[], srs: SrsCard[], bookmarks: B
 
 export function useUserData() {
   const [data, setData] = useState<UserData | null>(null);
+  const [error, setError] = useState("");
   const refresh = useCallback(async () => {
-    const s = store();
-    const [a, c, b] = await Promise.all([s.listAttempts(), s.listSrs(), s.listBookmarks()]);
-    setData(deriveUserData(a, c, b));
+    try {
+      const s = store();
+      const [a, c, b] = await Promise.all([s.listAttempts(), s.listSrs(), s.listBookmarks()]);
+      setData(deriveUserData(a, c, b));
+      setError("");
+    } catch {
+      setError("Couldn’t load your progress on this device.");
+    }
   }, []);
   useEffect(() => {
     refresh();
   }, [refresh]);
-  return { data, refresh };
+  return { data, refresh, error };
 }
 
 export function useSettings() {
   const [settings, setSettings] = useState<Settings | null>(null);
+  const [error, setError] = useState("");
   useEffect(() => {
-    store().getSettings().then(setSettings);
+    store().getSettings().then(setSettings, () => setError("Couldn’t load settings on this device."));
   }, []);
   const save = useCallback(async (p: Partial<Settings>) => setSettings(await store().saveSettings(p)), []);
-  return { settings, save };
+  return { settings, save, error };
 }
 
 /** Index entries by id, memoised. */

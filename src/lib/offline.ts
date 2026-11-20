@@ -17,19 +17,38 @@ export async function downloadTopic(shard: string, onProgress: (done: number, to
   const sw = await swReady();
   if (!sw) throw new Error("Offline downloads need the installed app (service worker not active; it runs in production builds only).");
   const data = await loadShard(shard);
-  const urls = [`/bank/h2-physics/${shard}.json`, ...data.questions.flatMap(questionAssetUrls)];
-  return new Promise((resolve) => {
+  const urls = [...new Set([`/bank/h2-physics/${shard}.json`, ...data.questions.flatMap(questionAssetUrls)])];
+  return new Promise((resolve, reject) => {
+    const workers = navigator.serviceWorker;
+    const cleanup = () => {
+      clearTimeout(timeout);
+      workers.removeEventListener("message", onMsg);
+    };
+    const stalled = () => {
+      cleanup();
+      reject(new Error("Download stopped responding. Try again."));
+    };
+    let timeout = setTimeout(stalled, 60_000);
     const onMsg = (e: MessageEvent) => {
       const m = e.data;
       if (m?.shard !== shard) return;
-      if (m.type === "topic-progress") onProgress(m.done, m.total);
+      if (m.type === "topic-progress") {
+        clearTimeout(timeout);
+        timeout = setTimeout(stalled, 60_000);
+        onProgress(m.done, m.total);
+      }
       if (m.type === "topic-done") {
-        navigator.serviceWorker.removeEventListener("message", onMsg);
+        cleanup();
         resolve({ failed: m.failed });
       }
     };
-    navigator.serviceWorker.addEventListener("message", onMsg);
-    sw.postMessage({ type: "cache-topic", shard, urls });
+    workers.addEventListener("message", onMsg);
+    try {
+      sw.postMessage({ type: "cache-topic", shard, urls });
+    } catch (error) {
+      cleanup();
+      reject(error);
+    }
   });
 }
 

@@ -73,6 +73,35 @@ export interface AgentResult {
   keyPage?: number;
 }
 
+const AMBIGUOUS_RE = /ambig|arguab|could (also )?be|also correct|either|not specif|does not specify|unclear|debat|inconsistent|imprecise|two (options|answers)|more than one/i;
+
+/**
+ * Questions any agent pass found ambiguous: its own answer differed from the key, it was not fully confident,
+ * or its notes say the question or key is open to more than one reading. These are left out of the bank
+ * (unless a reviewer approves them in data/overrides).
+ */
+export function ambiguityReasons(): Record<string, string[]> {
+  const out: Record<string, string[]> = {};
+  if (!fs.existsSync(AGENT_OUT)) return out;
+  for (const f of fs.readdirSync(AGENT_OUT).filter((f) => f.endsWith(".json")).sort()) {
+    let rows: AgentResult[] = [];
+    try {
+      rows = JSON.parse(fs.readFileSync(path.join(AGENT_OUT, f), "utf8"));
+    } catch {
+      continue;
+    }
+    for (const r of rows) {
+      if (!r.explanation?.body) continue; // a refusal / empty record is not evidence about the question
+      const why: string[] = [];
+      if (r.confidence && r.confidence !== "high") why.push(`${f}: confidence ${r.confidence}`);
+      if (r.issues && AMBIGUOUS_RE.test(r.issues)) why.push(`${f}: ${r.issues.slice(0, 200)}`);
+      if (r.derivedAnswer === null) why.push(`${f}: agent could not decide`);
+      if (why.length) (out[r.id] ??= []).push(...why);
+    }
+  }
+  return out;
+}
+
 export function importResults(model = "claude-opus-5-5 via Claude Code") {
   const syllabus = JSON.parse(fs.readFileSync(path.join(ROOT, "syllabus/h2-physics.json"), "utf8")) as Syllabus;
   const topics = new Set(syllabus.topics.map((t) => t.id));

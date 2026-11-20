@@ -60,14 +60,15 @@ function summarise(questions: QuestionIndexEntry[]) {
   };
 }
 
-function Bar({ count, total }: { count: number; total: number }) {
+/** Bars are scaled to the largest row (so the leader fills the track); the tooltip gives the share of the bank. */
+function Bar({ count, total, max }: { count: number; total: number; max: number }) {
   return (
     <span
       aria-hidden="true"
-      title={`${count} of ${total} published questions`}
+      title={`${count} of ${total} published questions (${pct(count, total)}%)`}
       className="block h-1.5 overflow-hidden rounded-full bg-surface"
     >
-      <span className="block h-full rounded-full bg-ink" style={{ width: `${pct(count, total)}%` }} />
+      <span className="block h-full rounded-full bg-ink" style={{ width: `${pct(count, max)}%` }} />
     </span>
   );
 }
@@ -81,7 +82,7 @@ function Distribution({ rows, total }: { rows: { label: string; count: number }[
             <span className="min-w-0 text-ink-2">{label}</span>
             <span className={numberStyle}>{count}</span>
           </div>
-          <Bar count={count} total={total} />
+          <Bar count={count} total={total} max={Math.max(1, ...rows.map((r) => r.count))} />
         </li>
       ))}
     </ul>
@@ -101,7 +102,7 @@ export function TrendsClient() {
       </header>
 
       {error ? (
-        <Empty title="Could not load the question bank" />
+        <p role="alert" className="text-muted">{error}</p>
       ) : !stats ? (
         <Skeleton />
       ) : (
@@ -123,7 +124,7 @@ export function TrendsClient() {
                       <li key={id}>
                         <Link
                           href={`/build?chapter=${encodeURIComponent(id)}`}
-                          className="group flex flex-col gap-2 py-2.5"
+                          className="group flex min-h-11 flex-col gap-2 py-2.5"
                         >
                           <div className="flex items-start justify-between gap-3 text-sm">
                             <div className="min-w-0">
@@ -134,7 +135,7 @@ export function TrendsClient() {
                             </div>
                             <span className={numberStyle}>{count}</span>
                           </div>
-                          <Bar count={count} total={stats.total} />
+                          <Bar count={count} total={stats.total} max={Math.max(1, ...stats.chapters.map((c) => c[1]))} />
                         </Link>
                       </li>
                     ))}

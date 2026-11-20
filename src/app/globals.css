@@ -158,6 +158,16 @@ h3 {
   cursor: not-allowed;
   transform: none;
 }
+.btn,
+.chip,
+.tap-target {
+  min-width: var(--tap);
+}
+.tap-target {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--tap);
+}
 .btn--primary {
   background: var(--action);
   color: var(--action-ink);
@@ -221,6 +231,7 @@ button.card:active {
 }
 .chip[aria-pressed="true"],
 .chip[aria-checked="true"],
+.chip[data-selected="true"],
 .chip--on {
   background: var(--ink);
   color: var(--bg);
@@ -254,17 +265,44 @@ button.card:active {
   margin: 0.5em 0;
   overflow-x: auto;
   overflow-y: hidden;
+  max-width: 100%;
+}
+
+.katex:not(.katex-display .katex) {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  vertical-align: middle;
 }
 
 .measure {
   max-width: 62ch;
 }
 
+html {
+  scroll-padding-bottom: calc(80px + var(--safe-b));
+}
+html:has(.build-actions) {
+  scroll-padding-bottom: calc(208px + var(--safe-b));
+}
+html:has(.quiz-actions) {
+  scroll-padding-top: 112px;
+}
 @media (prefers-reduced-motion: reduce) {
+  .btn:hover,
+  .btn:active,
+  a.card:hover,
+  button.card:hover,
+  button[role="radio"]:active {
+    transform: none;
+    scale: none;
+    translate: none;
+  }
   *,
   *::before,
   *::after {
     transition-duration: 0ms !important;
-    animation-duration: 0ms !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
   }
 }

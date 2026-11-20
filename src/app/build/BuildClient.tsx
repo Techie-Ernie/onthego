@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useBank, useSettings, useUserData } from "@/lib/hooks";
 import { createQuiz, DEFAULT_CONFIG, poolFor } from "@/lib/quiz/session";
@@ -23,15 +23,21 @@ const MINUTES = [5, 10, 15, 30, 60];
 
 /** Reads ?pool=due&chapter=x&start=1 so Home / Insights can deep-link a ready quiz. */
 export function BuildClient() {
-  const router = useRouter();
   const params = useSearchParams();
+  return <BuildForm key={params.toString()} params={params} />;
+}
+
+function BuildForm({ params }: { params: URLSearchParams }) {
+  const router = useRouter();
   const { index, error } = useBank();
-  const { data: user } = useUserData();
-  const { settings } = useSettings();
-  const [config, setConfig] = useState<QuizConfig>(DEFAULT_CONFIG);
+  const { data: user, error: userError } = useUserData();
+  const { settings, error: settingsError } = useSettings();
+  const [config, setConfig] = useState<QuizConfig | null>(null);
   const [timeBoxed, setTimeBoxed] = useState(false);
   const [more, setMore] = useState(false);
   const [presets, setPresets] = useState<Preset[]>([]);
+  const startLock = useRef(false);
+  const attemptedAutoStart = useRef(false);
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
 
@@ -42,24 +48,27 @@ export function BuildClient() {
     const chapters = params.getAll("chapter");
     const types = params.getAll("type");
     const timer = params.get("timer") as QuizConfig["timer"] | null;
-    setConfig((c) => ({
-      ...c,
-      length: Number(params.get("n")) || settings.defaultLength,
+    const length = Number(params.get("n"));
+    const ids = (params.get("ids") ?? "").split(",").filter(Boolean);
+    setConfig({
+      ...DEFAULT_CONFIG,
+      length: Number.isSafeInteger(length) && length > 0 ? length : settings.defaultLength,
       feedback: settings.feedback,
-      timer: timer ?? settings.timer,
+      timer: timer && ["off", "overall", "per-question"].includes(timer) ? timer : settings.timer,
       examPace: settings.examPace,
-      ...(pool ? { pool } : {}),
+      ...(POOLS.some((o) => o.value === pool) && pool ? { pool } : {}),
+      ...(ids.length ? { ids } : {}),
       ...(chapters.length ? { chapters } : {}),
       ...(types.length ? { types } : {}),
-    }));
+    });
   }, [settings, params]);
   useEffect(() => {
-    store().listPresets().then(setPresets);
+    store().listPresets().then(setPresets).catch(() => {});
   }, []);
 
-  const cfg = useMemo<QuizConfig>(() => ({ ...config, minutes: timeBoxed ? config.minutes ?? 15 : undefined }), [config, timeBoxed]);
+  const cfg = useMemo<QuizConfig>(() => ({ ...DEFAULT_CONFIG, ...config, minutes: timeBoxed ? config?.minutes ?? 15 : undefined }), [config, timeBoxed]);
   const pool = useMemo(() => (index ? poolFor(index, cfg, user) : []), [index, cfg, user]);
-  const want = effectiveLength(cfg, activeSubject.mcqPaper.minutesPerQuestion);
+  const want = cfg.ids?.length || effectiveLength(cfg, activeSubject.mcqPaper.minutesPerQuestion);
   const n = Math.min(want, pool.length);
 
   // per-chapter counts under the other filters (so chips show what's available)
@@ -74,24 +83,36 @@ export function BuildClient() {
   const schools = useMemo(() => [...new Set(index?.questions.flatMap((q) => q.schools) ?? [])].sort(), [index]);
   const years = useMemo(() => [...new Set(index?.questions.flatMap((q) => q.years) ?? [])].sort((a, b) => b - a), [index]);
 
+  const updateConfig = (update: (c: QuizConfig) => QuizConfig) => setConfig((c) => c && update(c));
   const toggle = <K extends "chapters" | "types" | "schools">(k: K, v: string) =>
-    setConfig((c) => ({ ...c, [k]: c[k].includes(v) ? c[k].filter((x) => x !== v) : [...c[k], v] }));
+    updateConfig((c) => ({ ...c, [k]: c[k].includes(v) ? c[k].filter((x) => x !== v) : [...c[k], v] }));
 
-  const start = async (c: QuizConfig = cfg) => {
-    if (!index) return;
+  const start = useCallback(async (c: QuizConfig = cfg) => {
+    if (!index || !user || startLock.current) return;
+    startLock.current = true;
     setBusy(true);
-    const quiz = await createQuiz(index, c, user);
+    setMsg(null);
+    try {
+      const quiz = await createQuiz(index, c, user);
+      if (quiz) {
+        if (params.get("start") === "1") router.replace(`/quiz?id=${quiz.id}`);
+        else router.push(`/quiz?id=${quiz.id}`);
+        return;
+      }
+      setMsg("No questions match. Loosen a filter or switch the pool to All.");
+    } catch {
+      setMsg("Couldn’t start a quiz. Try again.");
+    }
+    startLock.current = false;
     setBusy(false);
-    if (!quiz) return setMsg("No questions match. Loosen a filter or switch the pool to All.");
-    router.push(`/quiz?id=${quiz.id}`);
-  };
+  }, [cfg, index, params, router, user]);
 
-  // auto-start deep links (e.g. "Review 8 due" on Home)
   const autostart = params.get("start") === "1";
   useEffect(() => {
-    if (autostart && index && user && settings && !busy) start();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [autostart, index, user, settings]);
+    if (!autostart || !index || !user || !config || attemptedAutoStart.current) return;
+    attemptedAutoStart.current = true;
+    void start();
+  }, [autostart, config, index, start, user]);
 
   const savePreset = async () => {
     const name = prompt("Name this preset", cfg.chapters.length === 1 ? TOPIC_BY_ID[cfg.chapters[0]]?.name : "My quiz");
@@ -101,11 +122,11 @@ export function BuildClient() {
     setPresets(await store().listPresets());
   };
 
-  if (error) return <p className="text-bad">Couldn&apos;t load the question bank ({error}). If you&apos;re offline, open a downloaded topic from Settings → Offline.</p>;
-  if (!index || !settings || autostart) return <Skeleton lines={6} />;
+  if (error || userError || settingsError) return <p role="alert" className="text-bad">{error || userError || settingsError}</p>;
+  if (!index || !config || !user || (autostart && !msg)) return <Skeleton lines={6} />;
 
   return (
-    <div className="flex flex-col gap-7 pb-28">
+    <div className="flex flex-col gap-7 pb-40">
       <header className="flex flex-col gap-1">
         <h1 className="text-[28px] leading-tight">Build a quiz</h1>
         <p className="m-0 text-muted">Pick what to practise. Everything is optional.</p>
@@ -115,14 +136,14 @@ export function BuildClient() {
         <Section title="Presets">
           <div className="flex flex-wrap gap-2">
             {presets.map((p) => (
-              <span key={p.id} className="inline-flex items-center">
-                <button type="button" className="chip rounded-r-none" onClick={() => start(p.config)}>
+              <span key={p.id} className="inline-flex max-w-full items-center">
+                <button type="button" className="chip min-w-0 wrap-anywhere text-left" disabled={busy} onClick={() => start(p.config)}>
                   {p.name}
                 </button>
                 <button
                   type="button"
                   aria-label={`Delete preset ${p.name}`}
-                  className="chip rounded-l-none border-l-0 px-3 text-muted"
+                  className="chip shrink-0 px-3 text-muted"
                   onClick={async () => {
                     await store().deletePreset(p.id);
                     setPresets(await store().listPresets());
@@ -136,15 +157,22 @@ export function BuildClient() {
         </Section>
       )}
 
+      {!!cfg.ids?.length && (
+        <Section title="Selected questions">
+          <p className="m-0 text-muted">{cfg.ids.length} questions selected from your review list.</p>
+          <button type="button" className="chip self-start" onClick={() => updateConfig((c) => ({ ...c, ids: undefined }))}>Clear selection</button>
+        </Section>
+      )}
+
       <Section title="From">
-        <Segmented label="Question pool" value={cfg.pool} options={POOLS} onChange={(pool) => setConfig((c) => ({ ...c, pool }))} />
+        <Segmented label="Question pool" value={cfg.pool} options={POOLS} onChange={(pool) => updateConfig((c) => ({ ...c, pool }))} />
       </Section>
 
       <Section
         title="Chapters"
         aside={
           cfg.chapters.length > 0 && (
-            <button type="button" className="text-[14px] font-medium underline underline-offset-4" onClick={() => setConfig((c) => ({ ...c, chapters: [] }))}>
+            <button type="button" className="min-h-11 text-[14px] font-medium underline underline-offset-4" onClick={() => updateConfig((c) => ({ ...c, chapters: [] }))}>
               Clear ({cfg.chapters.length})
             </button>
           )
@@ -182,10 +210,10 @@ export function BuildClient() {
             label="Minutes"
             value={cfg.minutes ?? 15}
             options={MINUTES.map((m) => ({ value: m, label: `${m} min` }))}
-            onChange={(minutes) => setConfig((c) => ({ ...c, minutes }))}
+            onChange={(minutes) => updateConfig((c) => ({ ...c, minutes }))}
           />
         ) : (
-          <Segmented label="Questions" value={cfg.length} options={LENGTHS.map((l) => ({ value: l, label: String(l) }))} onChange={(length) => setConfig((c) => ({ ...c, length }))} />
+          <Segmented label="Questions" value={cfg.length} options={LENGTHS.map((l) => ({ value: l, label: String(l) }))} onChange={(length) => updateConfig((c) => ({ ...c, length }))} />
         )}
       </Section>
 
@@ -197,7 +225,7 @@ export function BuildClient() {
             { value: "immediate", label: "After each question", hint: "See the answer and explanation straight away" },
             { value: "exam", label: "At the end (exam)", hint: "No feedback until you submit" },
           ]}
-          onChange={(feedback) => setConfig((c) => ({ ...c, feedback }))}
+          onChange={(feedback) => updateConfig((c) => ({ ...c, feedback }))}
         />
       </Section>
 
@@ -210,12 +238,12 @@ export function BuildClient() {
             { value: "overall", label: "Countdown", hint: `${activeSubject.mcqPaper.minutesPerQuestion} min per question (exam pace)` },
             { value: "per-question", label: "Pace per question", hint: "Shows a pace bar for each question" },
           ]}
-          onChange={(timer) => setConfig((c) => ({ ...c, timer }))}
+          onChange={(timer) => updateConfig((c) => ({ ...c, timer }))}
         />
       </Section>
 
       <div>
-        <button type="button" className="text-[15px] font-medium underline underline-offset-4" aria-expanded={more} onClick={() => setMore((m) => !m)}>
+        <button type="button" className="min-h-11 text-left text-[15px] font-medium underline underline-offset-4" aria-expanded={more} onClick={() => setMore((m) => !m)}>
           {more ? "Fewer filters" : "More filters: type, difficulty, figures, school, year"}
         </button>
       </div>
@@ -241,7 +269,7 @@ export function BuildClient() {
                 { value: "3-3", label: "Typical" },
                 { value: "4-5", label: "Harder" },
               ]}
-              onChange={(v) => setConfig((c) => ({ ...c, difficulty: v.split("-").map(Number) as [number, number] }))}
+              onChange={(v) => updateConfig((c) => ({ ...c, difficulty: v.split("-").map(Number) as [number, number] }))}
             />
           </Section>
           <Section title="Figures">
@@ -253,7 +281,7 @@ export function BuildClient() {
                 { value: "with", label: "With diagrams" },
                 { value: "without", label: "Text only" },
               ]}
-              onChange={(figure) => setConfig((c) => ({ ...c, figure }))}
+              onChange={(figure) => updateConfig((c) => ({ ...c, figure }))}
             />
           </Section>
           <Section title="School">
@@ -269,7 +297,7 @@ export function BuildClient() {
             <Section title="Year">
               <div className="flex flex-wrap gap-2">
                 {years.map((y) => (
-                  <Chip key={y} on={cfg.years.includes(y)} onClick={() => setConfig((c) => ({ ...c, years: c.years.includes(y) ? c.years.filter((x) => x !== y) : [...c.years, y] }))}>
+                  <Chip key={y} on={cfg.years.includes(y)} onClick={() => updateConfig((c) => ({ ...c, years: c.years.includes(y) ? c.years.filter((x) => x !== y) : [...c.years, y] }))}>
                     {y}
                   </Chip>
                 ))}
@@ -280,23 +308,23 @@ export function BuildClient() {
       )}
 
       {/* sticky start bar with live count */}
-      <div className="fixed inset-x-0 bottom-16 z-10 border-t border-line bg-bg/95 pb-[var(--safe-b)] backdrop-blur">
-        <div className="mx-auto flex max-w-[720px] items-center gap-3 px-4 py-3">
+      <div className="build-actions fixed inset-x-0 bottom-[calc(65px+var(--safe-b))] z-10 border-t border-line bg-bg/95 backdrop-blur">
+        <div className="mx-auto flex max-w-[720px] flex-wrap items-center gap-2 px-4 py-3">
           <div className="flex min-w-0 flex-1 flex-col" aria-live="polite">
             <span className="font-mono text-[15px] tabular-nums">
               {n} {n === 1 ? "question" : "questions"}
               {timeBoxed ? ` · ${cfg.minutes} min` : ""}
             </span>
-            <span className="truncate text-[13px] text-muted">{pool.length} match{pool.length < want ? " (fewer than you asked for)" : ""}</span>
+            <span className="text-[13px] leading-tight text-muted">{pool.length} match{pool.length < want ? " (fewer than you asked for)" : ""}</span>
           </div>
-          <button type="button" className="btn btn--secondary" onClick={savePreset} disabled={!pool.length}>
+          <button type="button" className="btn btn--secondary" aria-label="Save quiz preset" onClick={savePreset} disabled={!pool.length}>
             Save
           </button>
           <button type="button" className="btn btn--primary" onClick={() => start()} disabled={busy || !pool.length}>
             {busy ? "Starting…" : "Start"}
           </button>
         </div>
-        {msg && <p className="mx-auto max-w-[720px] px-4 pb-2 text-[14px] text-bad">{msg}</p>}
+        {msg && <p role="alert" className="mx-auto max-w-[720px] px-4 pb-2 text-[14px] text-bad">{msg}</p>}
       </div>
     </div>
   );

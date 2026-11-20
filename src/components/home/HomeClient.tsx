@@ -9,13 +9,13 @@ import { weakChapters } from "@/lib/quiz/build";
 import { topicName } from "@/subjects/topics";
 
 export function HomeClient() {
-  const { index } = useBank();
-  const { data } = useUserData();
+  const { index, error } = useBank();
+  const { data, error: localError } = useUserData();
   const [active, setActive] = useState<Quiz | null>(null);
   const [recent, setRecent] = useState<Quiz[]>([]);
   useEffect(() => {
-    store().activeQuiz().then((q) => setActive(q ?? null));
-    store().listQuizzes().then((l) => setRecent(l.filter((q) => q.status === "finished").slice(0, 3)));
+    store().activeQuiz().then((q) => setActive(q ?? null)).catch(() => {});
+    store().listQuizzes().then((l) => setRecent(l.filter((q) => q.status === "finished").slice(0, 3))).catch(() => {});
   }, []);
 
   const published = index?.questions.filter((q) => q.status === "published").length ?? 0;
@@ -76,6 +76,8 @@ export function HomeClient() {
         <Stat label="Bank" value={index ? `${seen}/${published}` : "–"} sub="seen" />
       </section>
 
+      {(error || localError) && <p role="status" className="m-0 text-muted">{error || localError}</p>}
+
       {recent.length > 0 && (
         <section className="flex flex-col gap-2">
           <h2 className="label">Recent</h2>
@@ -94,7 +96,7 @@ export function HomeClient() {
           </ul>
         </section>
       )}
-      <Link href="/search" className="text-[15px] font-medium underline underline-offset-4">Search questions</Link>
+      <Link href="/search" className="tap-target text-[15px] font-medium underline underline-offset-4">Search questions</Link>
     </div>
   );
 }

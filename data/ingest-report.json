@@ -185,8 +185,8 @@
     "extracted": 450,
     "afterDedupe": 447,
     "duplicatesRemoved": 3,
-    "published": 445,
-    "needsReview": 2,
+    "published": 430,
+    "needsReview": 17,
     "classified": 447,
     "withExplanation": 447
   },
@@ -211,16 +211,134 @@
     "table-options": 54,
     "stem": 347,
     "content-below-options": 17,
+    "ambiguous": 17,
     "agent-note": 110,
-    "explanation-disagrees-with-key": 3,
-    "explanation-low-confidence": 9,
+    "explanation-disagrees-with-key": 4,
+    "explanation-low-confidence": 8,
     "options-not-found": 22,
     "option-X-cell-crop": 92,
     "has-duplicates": 3,
     "shared-context": 2,
     "spans-pages": 4,
-    "near-duplicate-different-answer": 2
+    "near-duplicate-different-answer": 2,
+    "answer-missing": 1
   },
+  "ambiguous": [
+    {
+      "id": "acjc-2026-prelim-p1-q19",
+      "reasons": [
+        "batch-01.json: confidence low",
+        "batch-01.json: Answer disagreement: key says C, derived B. In the image, path X's arrowhead ends on the innermost equipotential while Y and Z end on the middle one, so W_X > W_Y = W_Z. Either the key is wrong or the"
+      ]
+    },
+    {
+      "id": "acjc-2026-prelim-p1-q28",
+      "reasons": [
+        "kb-02.json: confidence low",
+        "kb-02.json: Printed key and keyAnswer both give A. The uncertainty relation only sets a lower bound on momentum spread. Taken literally as a real sinusoid, A has opposite momentum components at ±ℏk, while C’s bro",
+        "agent answer C vs key A"
+      ]
+    },
+    {
+      "id": "asrjc-2026-prelim-p1-q1",
+      "reasons": [
+        "batch-02.json: confidence medium",
+        "batch-02.json: Option A is arguably also true (averaging repeated readings reduces random error in the mean); the key relies on the convention that A's uncertainty is limited by instrument precision. Key C is the cl",
+        "kb-02.json: confidence low"
+      ]
+    },
+    {
+      "id": "asrjc-2026-prelim-p1-q22",
+      "reasons": [
+        "kb-03.json: confidence medium"
+      ]
+    },
+    {
+      "id": "asrjc-2026-prelim-p1-q28",
+      "reasons": [
+        "kb-03.json: confidence low"
+      ]
+    },
+    {
+      "id": "cjc-2026-prelim-p1-q25",
+      "reasons": [
+        "kb-05.json: confidence low"
+      ]
+    },
+    {
+      "id": "dhs-2026-prelim-p1-q6",
+      "reasons": [
+        "batch-05.json: confidence medium"
+      ]
+    },
+    {
+      "id": "dhs-2026-prelim-p1-q8",
+      "reasons": [
+        "batch-05.json: confidence low",
+        "kb-05.json: confidence low",
+        "agent answer C vs key D"
+      ]
+    },
+    {
+      "id": "dhs-2026-prelim-p1-q15",
+      "reasons": [
+        "batch-06.json: confidence low",
+        "kb-06.json: confidence low",
+        "agent answer B vs key A"
+      ]
+    },
+    {
+      "id": "jpjc-2026-prelim-p1-q2",
+      "reasons": [
+        "kb-07.json: confidence low"
+      ]
+    },
+    {
+      "id": "mi-2026-prelim-p1-q15",
+      "reasons": [
+        "batch-09.json: confidence medium"
+      ]
+    },
+    {
+      "id": "nyjc-2026-prelim-p1-q27",
+      "reasons": [
+        "kb-12.json: The key assumes complete reflection. Equal pressure also requires equivalent momentum-transfer conditions for both beams, which the question does not specify."
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q11",
+      "reasons": [
+        "kb-16.json: confidence low"
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q27",
+      "reasons": [
+        "kb-17.json: confidence low",
+        "kb-17.json: The key assumes unity power factor (for example, a resistive load). The question does not specify the load or power factor. With a power factor of 0.04, B is also possible."
+      ]
+    },
+    {
+      "id": "tjc-2026-prelim-p1-q23",
+      "reasons": [
+        "kb-18.json: confidence low",
+        "agent answer D vs key A",
+        "no unambiguous letter in the key"
+      ]
+    },
+    {
+      "id": "tjc-2026-prelim-p1-q30",
+      "reasons": [
+        "kb-18.json: confidence low"
+      ]
+    },
+    {
+      "id": "yijc-2026-prelim-p1-q25",
+      "reasons": [
+        "kb-23.json: confidence low"
+      ]
+    }
+  ],
   "lowConfidence": [
     {
       "id": "acjc-2026-prelim-p1-q16",
@@ -230,13 +348,29 @@
       ]
     },
     {
+      "id": "acjc-2026-prelim-p1-q19",
+      "flags": [
+        "image-fallback",
+        "ambiguous"
+      ]
+    },
+    {
       "id": "acjc-2026-prelim-p1-q28",
       "flags": [
         "stem:unmapped-glyph",
         "stem:math-font:SymbolMT",
         "image-fallback",
+        "ambiguous",
         "agent-note",
         "explanation-disagrees-with-key"
+      ]
+    },
+    {
+      "id": "asrjc-2026-prelim-p1-q1",
+      "flags": [
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
       ]
     },
     {
@@ -259,6 +393,13 @@
       ]
     },
     {
+      "id": "asrjc-2026-prelim-p1-q22",
+      "flags": [
+        "ambiguous",
+        "agent-note"
+      ]
+    },
+    {
       "id": "asrjc-2026-prelim-p1-q23",
       "flags": [
         "options-not-found",
@@ -266,10 +407,29 @@
       ]
     },
     {
+      "id": "asrjc-2026-prelim-p1-q28",
+      "flags": [
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
+      ]
+    },
+    {
       "id": "cjc-2026-prelim-p1-q11",
       "flags": [
         "options-not-found",
         "image-fallback"
+      ]
+    },
+    {
+      "id": "cjc-2026-prelim-p1-q25",
+      "flags": [
+        "option-B-cell-crop",
+        "stem:math-font:CambriaMath",
+        "image-fallback",
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
       ]
     },
     {
@@ -281,12 +441,20 @@
       ]
     },
     {
+      "id": "dhs-2026-prelim-p1-q6",
+      "flags": [
+        "ambiguous",
+        "agent-note"
+      ]
+    },
+    {
       "id": "dhs-2026-prelim-p1-q8",
       "flags": [
         "shared-context",
         "spans-pages",
         "table-options",
         "image-fallback",
+        "ambiguous",
         "agent-note",
         "explanation-disagrees-with-key"
       ]
@@ -296,6 +464,7 @@
       "flags": [
         "stem:stacked-lines",
         "image-fallback",
+        "ambiguous",
         "agent-note",
         "explanation-disagrees-with-key"
       ]
@@ -305,6 +474,14 @@
       "flags": [
         "options-not-found",
         "image-fallback"
+      ]
+    },
+    {
+      "id": "jpjc-2026-prelim-p1-q2",
+      "flags": [
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
       ]
     },
     {
@@ -325,6 +502,13 @@
       "flags": [
         "options-not-found",
         "image-fallback"
+      ]
+    },
+    {
+      "id": "mi-2026-prelim-p1-q15",
+      "flags": [
+        "ambiguous",
+        "agent-note"
       ]
     },
     {
@@ -377,6 +561,16 @@
       ]
     },
     {
+      "id": "nyjc-2026-prelim-p1-q27",
+      "flags": [
+        "stem:unmapped-glyph",
+        "stem:math-font:SymbolMT",
+        "image-fallback",
+        "ambiguous",
+        "agent-note"
+      ]
+    },
+    {
       "id": "rvhs-2026-prelim-p1-q7",
       "flags": [
         "table-options",
@@ -403,6 +597,17 @@
       ]
     },
     {
+      "id": "sajc-2026-prelim-p1-q11",
+      "flags": [
+        "stem:unmapped-glyph",
+        "stem:math-font:SymbolMT",
+        "image-fallback",
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
+      ]
+    },
+    {
       "id": "sajc-2026-prelim-p1-q12",
       "flags": [
         "options-not-found",
@@ -421,6 +626,39 @@
       "flags": [
         "options-not-found",
         "image-fallback"
+      ]
+    },
+    {
+      "id": "sajc-2026-prelim-p1-q27",
+      "flags": [
+        "table-options",
+        "image-fallback",
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
+      ]
+    },
+    {
+      "id": "tjc-2026-prelim-p1-q23",
+      "flags": [
+        "answer-missing",
+        "ambiguous",
+        "agent-note",
+        "explanation-disagrees-with-key"
+      ]
+    },
+    {
+      "id": "tjc-2026-prelim-p1-q30",
+      "flags": [
+        "stem:small-fragment",
+        "stem:math-font:SymbolMT",
+        "stem:wide-gap",
+        "stem:stacked-rows",
+        "stem:stacked-lines",
+        "image-fallback",
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
       ]
     },
     {
@@ -572,6 +810,14 @@
         "options-not-found",
         "image-fallback"
       ]
+    },
+    {
+      "id": "yijc-2026-prelim-p1-q25",
+      "flags": [
+        "ambiguous",
+        "agent-note",
+        "explanation-low-confidence"
+      ]
     }
   ],
   "duplicates": [
@@ -629,22 +875,22 @@
       },
       "currents": {
         "questions": 17,
-        "jsonBytes": 40157,
+        "jsonBytes": 40194,
         "assetBytes": 285858
       },
       "electric-fields": {
         "questions": 30,
-        "jsonBytes": 80005,
+        "jsonBytes": 80035,
         "assetBytes": 784928
       },
       "electromagnetic-forces": {
         "questions": 23,
-        "jsonBytes": 62221,
+        "jsonBytes": 62251,
         "assetBytes": 728636
       },
       "electromagnetic-induction": {
         "questions": 25,
-        "jsonBytes": 65702,
+        "jsonBytes": 65717,
         "assetBytes": 917802
       },
       "energy-and-fields": {
@@ -659,22 +905,22 @@
       },
       "gravitational-fields": {
         "questions": 23,
-        "jsonBytes": 56869,
+        "jsonBytes": 56896,
         "assetBytes": 630916
       },
       "motion-and-forces": {
         "questions": 26,
-        "jsonBytes": 66702,
+        "jsonBytes": 66732,
         "assetBytes": 696078
       },
       "nuclear-physics": {
         "questions": 28,
-        "jsonBytes": 67927,
+        "jsonBytes": 67942,
         "assetBytes": 903084
       },
       "oscillations": {
         "questions": 21,
-        "jsonBytes": 51443,
+        "jsonBytes": 51458,
         "assetBytes": 429886
       },
       "projectile-motion": {
@@ -684,12 +930,12 @@
       },
       "quantities-and-measurement": {
         "questions": 22,
-        "jsonBytes": 49884,
+        "jsonBytes": 49899,
         "assetBytes": 461802
       },
       "quantum-physics": {
         "questions": 27,
-        "jsonBytes": 65718,
+        "jsonBytes": 65763,
         "assetBytes": 810036
       },
       "superposition": {
@@ -699,7 +945,7 @@
       },
       "temperature-and-ideal-gases": {
         "questions": 20,
-        "jsonBytes": 49472,
+        "jsonBytes": 49484,
         "assetBytes": 390062
       },
       "thermodynamic-systems": {

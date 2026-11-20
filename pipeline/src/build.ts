@@ -6,6 +6,7 @@
  * Deterministic: the same inputs give byte-identical outputs.
  */
 import fs from "node:fs";
+import { ambiguityReasons } from "./agent-batches";
 import path from "node:path";
 import { CACHE, DATA, PUBLIC, ROOT } from "./paths";
 import type { PaperExtract, RawQuestion } from "./extract";
@@ -139,6 +140,7 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
   const overrides = readJson<Record<string, Override>>(overridesFile, {});
   const classifications = readJson<Record<string, Classification>>(classificationsFile, {});
   const explanations = readJson<Record<string, Question["explanation"] & { derivedAnswer?: string }>>(explanationsFile, {});
+  const ambiguousLog: { id: string; reasons: string[] }[] = [];
   const transcriptions = readJson<Record<string, string>>(path.join(DATA, "transcriptions", `${SUBJECT}.json`), {});
   const syllabus = readJson<Syllabus | null>(path.join(ROOT, "syllabus", `${SUBJECT}.json`), null);
   const topicIds = new Set(syllabus?.topics.map((t) => t.id) ?? []);
@@ -187,6 +189,23 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
       if (o.status) q.status = o.status;
       if (o.approved) q.reviewedAt = o.reviewedAt ?? "approved";
       if (o.recrop) for (const rc of o.recrop) q.flags.push(`recrop-pending:${rc.target}`); // applied by `pipeline recrop`
+    }
+  }
+
+  // ---- ambiguity: leave out anything an agent found ambiguous, any answer the agent disagreed with, and any key
+  //      with no printed letter. A reviewer can bring one back with { "approved": true } in data/overrides. ----
+  const ambiguous = ambiguityReasons();
+  for (const { q } of all) {
+    const o = overrides[q.id];
+    if (o?.approved) continue;
+    const ex = explanations[q.id] as { derivedAnswer?: string } | undefined;
+    const reasons = [...(ambiguous[q.id] ?? [])];
+    if (ex?.derivedAnswer && ex.derivedAnswer !== q.answer) reasons.push(`agent answer ${ex.derivedAnswer} vs key ${q.answer}`);
+    if (q.flags.some((f) => f === "answer-missing" || f === "answer-conflict")) reasons.push("no unambiguous letter in the key");
+    if (reasons.length) {
+      q.status = "needs-review";
+      if (!q.flags.includes("ambiguous")) q.flags.push("ambiguous");
+      ambiguousLog.push({ id: q.id, reasons });
     }
   }
 
@@ -342,6 +361,7 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
     textQuality: count(questions.map((q) => q.textQuality)),
     withFigures: questions.filter((q) => q.hasFigure).length,
     flags: count(questions.flatMap((q) => q.flags.map((f) => f.replace(/^option-[A-D]/, "option-X").replace(/:.*$/, "")))),
+    ambiguous: ambiguousLog,
     lowConfidence: questions
       .filter((q) => q.status === "needs-review" || q.flags.some((f) => /answer|content-below|options-not-found|disagree/.test(f)))
       .map((q) => ({ id: q.id, flags: q.flags.filter((f) => !/^option-[A-D]:low-text$/.test(f)) })),

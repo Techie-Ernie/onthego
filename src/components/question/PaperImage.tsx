@@ -13,6 +13,7 @@ const CSS_PER_PT = 1.4;
  */
 export function PaperImage({ img, className = "", zoomable = true, fill = false }: { img: ImageRef; className?: string; zoomable?: boolean; fill?: boolean }) {
   const [open, setOpen] = useState(false);
+  const trigger = useRef<HTMLButtonElement>(null);
   const natural = (img.w / PX_PER_PT) * CSS_PER_PT;
   const content = (
     <img
@@ -30,9 +31,11 @@ export function PaperImage({ img, className = "", zoomable = true, fill = false 
     <>
       {zoomable ? (
         <button
+          ref={trigger}
           type="button"
+          aria-haspopup="dialog"
           onClick={() => setOpen(true)}
-          className={`paper group relative block w-full cursor-zoom-in overflow-hidden p-2 text-left ${className}`}
+          className={`paper group relative block min-h-11 w-full cursor-zoom-in overflow-hidden p-2 text-left ${className}`}
           aria-label={`Enlarge: ${img.alt}`}
         >
           <span className="flex justify-center">{content}</span>
@@ -43,7 +46,10 @@ export function PaperImage({ img, className = "", zoomable = true, fill = false 
       ) : (
         <div className={`paper flex justify-center p-2 ${className}`}>{content}</div>
       )}
-      {open && <ZoomDialog img={img} onClose={() => setOpen(false)} />}
+      {open && <ZoomDialog img={img} onClose={() => {
+        setOpen(false);
+        trigger.current?.focus();
+      }} />}
     </>
   );
 }
@@ -53,34 +59,34 @@ function ZoomDialog({ img, onClose }: { img: ImageRef; onClose: () => void }) {
   const [scale, setScale] = useState(1);
   useEffect(() => {
     const d = ref.current;
-    d?.showModal();
+    if (d && !d.open) d.showModal();
     const onKey = (e: KeyboardEvent) => {
       if (e.key === "+" || e.key === "=") setScale((s) => Math.min(4, s * 1.25));
       if (e.key === "-") setScale((s) => Math.max(0.5, s / 1.25));
     };
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
+    d?.addEventListener("keydown", onKey);
+    return () => d?.removeEventListener("keydown", onKey);
   }, []);
   const base = (img.w / PX_PER_PT) * CSS_PER_PT;
   return (
     <dialog
       ref={ref}
       onClose={onClose}
-      onClick={(e) => e.target === ref.current && onClose()}
+      onClick={(e) => e.target === ref.current && ref.current?.close()}
       className="m-0 h-dvh max-h-none w-screen max-w-none bg-black/85 p-0 backdrop:bg-black/60"
       aria-label={img.alt}
     >
       <div className="flex h-full flex-col">
-        <div className="flex items-center justify-between gap-2 p-3 text-white">
+        <div className="flex items-center justify-between gap-2 px-3 pb-3 pt-[max(12px,env(safe-area-inset-top))] text-white">
           <span className="text-[13px] opacity-80">Pinch or use the buttons to zoom</span>
           <div className="flex gap-2">
             <button type="button" className="btn btn--secondary !min-h-11 !px-3" onClick={() => setScale((s) => Math.max(0.5, s / 1.25))} aria-label="Zoom out">−</button>
             <button type="button" className="btn btn--secondary !min-h-11 !px-3" onClick={() => setScale((s) => Math.min(4, s * 1.25))} aria-label="Zoom in">+</button>
-            <button type="button" className="btn btn--secondary !min-h-11" onClick={onClose} autoFocus>Close</button>
+            <button type="button" className="btn btn--secondary !min-h-11" onClick={() => ref.current?.close()} autoFocus>Close</button>
           </div>
         </div>
         <div className="flex-1 overflow-auto overscroll-contain" style={{ touchAction: "pan-x pan-y pinch-zoom" }}>
-          <div className="flex min-h-full min-w-full items-center justify-center p-4">
+          <div className="grid min-h-full w-max min-w-full place-items-center p-4 pb-[calc(16px+var(--safe-b))]">
             <div className="paper p-3" style={{ width: base * scale, maxWidth: "none" }}>
               <img src={img.src} alt={img.alt} width={img.w} height={img.h} style={{ width: "100%", height: "auto" }} />
             </div>

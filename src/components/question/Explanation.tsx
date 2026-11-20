@@ -1,14 +1,16 @@
 "use client";
 import type { OptionLabel, Question } from "@/lib/types";
 import { MathText } from "./MathText";
+import { schoolName } from "@/subjects/schools";
 import { topicName } from "@/subjects/topics";
 
 /** Answer + worked solution. Source line says whether it came from the school's answer key or was written by us. */
 export function Explanation({ q, chosen }: { q: Question; chosen?: OptionLabel | null }) {
   const ex = q.explanation;
+  const school = q.appearances[0] ? schoolName(q.appearances[0].school) : "The school";
   const correct = chosen != null && chosen === q.answer;
   return (
-    <section aria-label="Explanation" className="card flex flex-col gap-3 p-4">
+    <section aria-label="Explanation" className="card flex min-w-0 flex-col gap-3 p-4 break-words">
       <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
         <span className={`text-[17px] font-medium ${chosen == null ? "" : correct ? "text-good" : "text-bad"}`}>
           {chosen == null ? `Answer: ${q.answer}` : correct ? `Correct, ${q.answer}` : `Answer: ${q.answer} · you chose ${chosen}`}
@@ -38,7 +40,7 @@ export function Explanation({ q, chosen }: { q: Question; chosen?: OptionLabel |
                 ))}
             </ul>
           )}
-          <p className="m-0 text-[12px] text-muted">{ex.source === "key" ? "Based on the school's worked solution." : "No worked solution in the school's key; explanation written for onthego."}</p>
+          <p className="m-0 text-[12px] text-muted">{ex.source === "key" ? `Worked solution adapted from ${school}'s answer key.` : `${school}'s answer key has no worked solution for this question; this explanation was written for onthego. The answer is from the school's key.`}</p>
         </>
       ) : (
         <p className="m-0 text-muted">No explanation yet. The answer is from the school&apos;s answer key.</p>

@@ -18,9 +18,9 @@ function heatStyle(c: Cell | undefined) {
 }
 
 export function InsightsClient() {
-  const { index } = useBank();
+  const { index, error } = useBank();
   const map = useIndexMap(index);
-  const { data } = useUserData();
+  const { data, error: localError } = useUserData();
   const [table, setTable] = useState(false);
 
   const r = useMemo(() => (data && index ? analyse(data.attempts, map) : null), [data, index, map]);
@@ -37,6 +37,7 @@ export function InsightsClient() {
     return m;
   }, [index, data]);
 
+  if (error || localError) return <p role="alert">{error || localError}</p>;
   if (!r || !data) return <Skeleton lines={6} />;
   if (r.overall.n === 0)
     return (
@@ -45,7 +46,7 @@ export function InsightsClient() {
         <Empty title="No answers yet" action={<Link href="/build?n=10&start=1" className="btn btn--primary mt-2">Start a quick 10</Link>}>
           Do a few quizzes and this page will show which chapters and question types need work, the traps you keep falling for, and your pace.
         </Empty>
-        <Link href="/trends" className="text-[15px] underline underline-offset-4">Meanwhile: what the prelim papers test most →</Link>
+        <Link href="/trends" className="tap-target text-[15px] underline underline-offset-4">Meanwhile: what the prelim papers test most →</Link>
       </div>
     );
 
@@ -98,7 +99,7 @@ export function InsightsClient() {
       <section className="flex flex-col gap-3">
         <div className="flex items-baseline justify-between">
           <h2 className="label">Chapter × question type (accuracy)</h2>
-          <button type="button" className="text-[14px] underline underline-offset-4" onClick={() => setTable((t) => !t)}>
+          <button type="button" className="tap-target text-[14px] underline underline-offset-4" aria-expanded={table} onClick={() => setTable((t) => !t)}>
             {table ? "Show heatmap" : "Show as table"}
           </button>
         </div>
@@ -127,7 +128,7 @@ export function InsightsClient() {
             </tbody>
           </table>
         ) : (
-          <div className="-mx-4 overflow-x-auto px-4">
+          <div className="-mx-4 min-w-0 overflow-x-auto px-4" tabIndex={0} role="region" aria-label="Chapter and question type accuracy table">
             <table className="border-separate border-spacing-[2px] text-[12px]">
               <thead>
                 <tr>
@@ -144,7 +145,7 @@ export function InsightsClient() {
                 {chapterRows.map((ch) => (
                   <tr key={ch}>
                     <th scope="row" className="sticky left-0 max-w-[132px] truncate bg-bg pr-2 text-left font-normal text-ink-2">
-                      <Link href={`/build?chapter=${ch}`} className="hover:underline">{topicName(ch)}</Link>
+                      <Link href={`/build?chapter=${ch}`} className="tap-target hover:underline">{topicName(ch)}</Link>
                     </th>
                     {typeCols.map((t) => {
                       const c = r.heat[ch]?.[t];
@@ -180,7 +181,7 @@ export function InsightsClient() {
           <ul className="m-0 flex list-none flex-col gap-2 p-0">
             {r.traps.slice(0, 6).map((t) => (
               <li key={t.text} className="flex items-start justify-between gap-3 text-[15px]">
-                <Link href={`/q?id=${t.qids[0]}&ids=${t.qids.join(",")}`} className="min-w-0 hover:underline">{t.text}</Link>
+                <Link href={`/q?id=${t.qids[0]}&ids=${t.qids.join(",")}`} className="tap-target min-w-0 hover:underline">{t.text}</Link>
                 <span className="font-mono text-[13px] text-muted">×{t.count}</span>
               </li>
             ))}
@@ -237,7 +238,7 @@ export function InsightsClient() {
         </ul>
       </section>
 
-      <Link href="/trends" className="text-[15px] font-medium underline underline-offset-4">What the prelim papers test most →</Link>
+      <Link href="/trends" className="tap-target text-[15px] font-medium underline underline-offset-4">What the prelim papers test most →</Link>
     </div>
   );
 }

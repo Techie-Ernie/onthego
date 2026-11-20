@@ -1,5 +1,7 @@
 "use client";
 import type { OptionLabel, Question, QuestionOption } from "@/lib/types";
+import { sourceLine } from "@/subjects/schools";
+import { moveRadio } from "@/components/ui/controls";
 import { MathText } from "./MathText";
 import { PaperImage } from "./PaperImage";
 
@@ -26,7 +28,7 @@ export function QuestionView({ q, selected = null, onSelect, reveal = false, dis
   const optionsInImage = q.renderMode === "image" && q.options.every((o) => !o.text && !o.image);
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="flex min-w-0 flex-col gap-4 break-words">
       {q.renderMode === "image" && q.stemImage ? (
         <PaperImage img={q.stemImage} />
       ) : (
@@ -53,12 +55,13 @@ export function QuestionView({ q, selected = null, onSelect, reveal = false, dis
         </div>
       )}
 
-      <div role="radiogroup" aria-label="Answer options" className={optionGridClass(q, optionsInImage)}>
-        {q.options.map((o) => (
-          <OptionButton key={o.label} o={o} q={q} selected={selected === o.label} reveal={reveal} disabled={disabled} onSelect={onSelect} labelOnly={optionsInImage} />
+      <div role="radiogroup" aria-label="Answer options" aria-disabled={disabled || undefined} onKeyDown={moveRadio} className={optionGridClass(q, optionsInImage)}>
+        {q.options.map((o, i) => (
+          <OptionButton key={o.label} o={o} q={q} selected={selected === o.label} reveal={reveal} disabled={disabled} onSelect={onSelect} labelOnly={optionsInImage} tabStop={selected ? selected === o.label : i === 0} />
         ))}
       </div>
       {optionsInImage && <p className="label -mt-2 text-center">Options A–D are in the question above.</p>}
+      {q.appearances.length > 0 && <p className="m-0 text-[12px] text-muted">Source: {q.appearances.map(sourceLine).join(" · ")}</p>}
     </div>
   );
 }
@@ -77,6 +80,7 @@ function OptionButton({
   disabled,
   onSelect,
   labelOnly,
+  tabStop,
 }: {
   o: QuestionOption;
   q: Question;
@@ -85,6 +89,7 @@ function OptionButton({
   disabled: boolean;
   onSelect?: (l: OptionLabel) => void;
   labelOnly: boolean;
+  tabStop: boolean;
 }) {
   const correct = o.label === q.answer;
   const state = reveal ? (correct ? "correct" : selected ? "wrong" : "idle") : selected ? "selected" : "idle";
@@ -115,8 +120,9 @@ function OptionButton({
       aria-checked={selected}
       aria-label={labelOnly || o.image ? `Option ${o.label}${o.image ? `: ${o.image.alt}` : ""}${srState}` : undefined}
       disabled={disabled}
+      tabIndex={tabStop ? 0 : -1}
       onClick={() => onSelect?.(o.label)}
-      className={`rounded-md border text-left transition-[border-color,background-color,transform] duration-150 active:scale-[0.99] disabled:cursor-default ${ring} ${
+      className={`min-h-11 min-w-0 rounded-md border text-left transition-[border-color,background-color,transform] duration-150 active:scale-[0.99] disabled:cursor-default ${ring} ${
         labelOnly ? "flex min-h-14 items-center justify-center" : o.image ? "flex flex-col items-stretch gap-2 p-2" : "flex min-h-14 items-center gap-3 px-3 py-2"
       }`}
     >

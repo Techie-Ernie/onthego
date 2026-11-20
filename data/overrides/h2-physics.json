@@ -8,9 +8,8 @@
   "note": "Key working uses 30\u00b0 instead of 60\u00b0; independent solve gives C. Decide in review."
  },
  "tjc-2026-prelim-p1-q23": {
-  "answer": "D",
-  "status": "published",
-  "note": "Key prints no letter; its worked value 1.2 \u03a9 is option D."
+  "status": "needs-review",
+  "note": "Key prints no letter for Q23 (only a worked value). Left out as ambiguous."
  },
  "tjc-2026-prelim-p1-q30": {
   "answer": "D",

@@ -50,16 +50,39 @@ export async function createQuiz(index: BankIndex, config: QuizConfig, user: Use
   return quiz;
 }
 
-/** Score + persist attempts and SRS updates. Idempotent per quiz (attempt ids are quizId:qid). */
-export async function finishQuiz(quiz: Quiz, questions: Question[]): Promise<Quiz> {
+const finishing = new Map<string, Promise<Quiz>>();
+const reviewed = new Map<string, Quiz>();
+
+/** Share concurrent submissions and resume a failed final write without grading the deck twice. */
+export function finishQuiz(quiz: Quiz, questions: Question[]): Promise<Quiz> {
+  const pending = finishing.get(quiz.id);
+  if (pending) return pending;
+  const task = persistFinishedQuiz(quiz, questions).finally(() => finishing.delete(quiz.id));
+  finishing.set(quiz.id, task);
+  return task;
+}
+
+async function persistFinishedQuiz(quiz: Quiz, questions: Question[]): Promise<Quiz> {
   const s = store();
+  const saved = await s.getQuiz(quiz.id);
+  if (saved?.status === "finished") {
+    reviewed.delete(quiz.id);
+    return saved;
+  }
+  if (saved?.status === "abandoned") throw new Error("Quiz was abandoned");
+  const previous = reviewed.get(quiz.id);
+  if (previous) {
+    await s.putQuiz(previous);
+    reviewed.delete(quiz.id);
+    return previous;
+  }
   const now = Date.now();
   const byId = new Map(questions.map((q) => [q.id, q]));
   const attempts: Attempt[] = [];
   for (const qid of quiz.qids) {
     const q = byId.get(qid);
-    const a = quiz.answers[qid];
-    if (!q || !q.answer || !a) continue;
+    const a = quiz.answers[qid] ?? blankAnswer();
+    if (!q?.answer) continue;
     attempts.push({
       id: `${quiz.id}:${qid}`,
       quizId: quiz.id,
@@ -90,27 +113,33 @@ export async function finishQuiz(quiz: Quiz, questions: Question[]): Promise<Qui
   await s.putSrs(updates);
 
   const done: Quiz = { ...quiz, status: "finished", finishedAt: now };
+  reviewed.set(quiz.id, done);
   await s.putQuiz(done);
+  reviewed.delete(quiz.id);
   return done;
 }
 
-export function scoreQuiz(quiz: Quiz, questions: Question[]) {
-  const byId = new Map(questions.map((q) => [q.id, q]));
+export function scoreQuiz(quiz: Quiz, questions: Question[], attempts: Attempt[] = []) {
+  const keys = new Map(questions.map((q) => [q.id, q.answer]));
+  for (const attempt of attempts) {
+    if (attempt.quizId === quiz.id) keys.set(attempt.qid, attempt.answer);
+  }
   let correct = 0;
   let answered = 0;
-  let time = 0;
+  let total = 0;
   for (const qid of quiz.qids) {
-    const a = quiz.answers[qid];
-    if (!a) continue;
-    time += a.timeMs;
-    if (a.chosen) answered++;
-    if (a.chosen && a.chosen === byId.get(qid)?.answer) correct++;
+    const answer = keys.get(qid);
+    if (!answer) continue;
+    total++;
+    const chosen = quiz.answers[qid]?.chosen;
+    if (chosen) answered++;
+    if (chosen === answer) correct++;
   }
-  return { correct, answered, total: quiz.qids.length, timeMs: time };
+  return { correct, answered, total, timeMs: quiz.elapsedMs };
 }
 
 export function setAnswer(quiz: Quiz, qid: string, patch: Partial<QuizAnswer>): Quiz {
-  return { ...quiz, answers: { ...quiz.answers, [qid]: { ...quiz.answers[qid], ...patch } } };
+  return { ...quiz, answers: { ...quiz.answers, [qid]: { ...(quiz.answers[qid] ?? blankAnswer()), ...patch } } };
 }
 
 export const DEFAULT_CONFIG: QuizConfig = {

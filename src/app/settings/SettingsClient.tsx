@@ -7,24 +7,27 @@ import type { Report, Settings, UserDataExport } from "@/lib/store/schema";
 import { cachedTopics, downloadTopic, dropTopic } from "@/lib/offline";
 import { Section, Segmented, Skeleton } from "@/components/ui/controls";
 import { topicName } from "@/subjects/topics";
+import { schoolName } from "@/subjects/schools";
 import { activeSubject } from "@/subjects";
 
 const mb = (b: number) => `${(b / 1e6).toFixed(b < 1e6 ? 2 : 1)} MB`;
 
 export function SettingsClient() {
-  const { settings, save } = useSettings();
-  const { index } = useBank();
+  const { settings, save, error: settingsError } = useSettings();
+  const { index, error: bankError } = useBank();
   const [cached, setCached] = useState<Set<string>>(new Set());
   const [progress, setProgress] = useState<Record<string, string>>({});
   const [msg, setMsg] = useState<string | null>(null);
   const [reports, setReports] = useState<Report[]>([]);
+  const downloads = useRef(new Set<string>());
   const file = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    cachedTopics().then(setCached);
-    store().listReports().then(setReports);
+    cachedTopics().then(setCached).catch(() => {});
+    store().listReports().then(setReports).catch(() => {});
   }, []);
 
+  if (settingsError) return <p role="alert">{settingsError}</p>;
   if (!settings) return <Skeleton lines={6} />;
 
   const setTheme = (theme: Settings["theme"]) => {
@@ -61,6 +64,8 @@ export function SettingsClient() {
   };
 
   const download = async (shard: string) => {
+    if (downloads.current.has(shard)) return;
+    downloads.current.add(shard);
     setProgress((p) => ({ ...p, [shard]: "Starting…" }));
     try {
       const r = await downloadTopic(shard, (d, t) => setProgress((p) => ({ ...p, [shard]: `${d}/${t}` })));
@@ -68,8 +73,24 @@ export function SettingsClient() {
       setCached(await cachedTopics());
     } catch (e) {
       setProgress((p) => ({ ...p, [shard]: (e as Error).message }));
+    } finally {
+      downloads.current.delete(shard);
     }
   };
+
+  const credits = new Map<string, Set<string>>();
+  for (const q of index?.questions ?? []) {
+    for (const school of q.schools) {
+      const name = schoolName(school);
+      const papers = credits.get(name) ?? new Set<string>();
+      for (const year of q.years) {
+        for (const exam of q.exams) {
+          papers.add(`${year} ${exam === "Prelim" ? "Preliminary Examination" : exam}, Paper 1`);
+        }
+      }
+      credits.set(name, papers);
+    }
+  }
 
   return (
     <div className="flex flex-col gap-8 pb-24">
@@ -113,7 +134,7 @@ export function SettingsClient() {
 
       <Section title="Offline" aside={<span className="label">{cached.size} downloaded</span>}>
         <p className="m-0 text-[14px] text-muted measure">Download a topic to practise it with no signal. The questions you&apos;re currently doing are always kept offline.</p>
-        {!index ? (
+        {bankError ? <p role="alert">Couldn’t load the topic list. Reconnect and try again.</p> : !index ? (
           <Skeleton />
         ) : (
           <ul className="m-0 flex list-none flex-col divide-y divide-[var(--line)] p-0">
@@ -121,13 +142,13 @@ export function SettingsClient() {
               .filter((s) => s.count > 0)
               .sort((a, b) => topicName(a.id).localeCompare(topicName(b.id)))
               .map((s) => {
-                const on = cached.has(s.id);
+                const on = cached.has(s.id) && !progress[s.id];
                 const p = progress[s.id];
                 return (
                   <li key={s.id} className="flex min-h-14 items-center gap-3 py-2">
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-[15px]">{topicName(s.id === "_unclassified" ? null : s.id)}</span>
-                      <span className="block text-[13px] text-muted">
+                      <span className="block wrap-break-word text-[13px] text-muted" aria-live="polite">
                         {s.count} questions · {mb(s.jsonBytes + s.assetBytes)}
                         {p ? ` · ${p}` : ""}
                       </span>
@@ -144,7 +165,7 @@ export function SettingsClient() {
                         Remove
                       </button>
                     ) : (
-                      <button type="button" className="chip" disabled={!!p && p.includes("/")} onClick={() => download(s.id)}>
+                      <button type="button" className="chip" disabled={downloads.current.has(s.id)} onClick={() => download(s.id)}>
                         Download
                       </button>
                     )}
@@ -159,7 +180,12 @@ export function SettingsClient() {
         <p className="m-0 text-[14px] text-muted measure">Progress is stored on this device only. There&apos;s no account. Export a backup to move it to another phone or browser.</p>
         <div className="flex flex-wrap gap-2">
           <button type="button" className="btn btn--secondary" onClick={exportData}>Export backup</button>
-          <button type="button" className="btn btn--secondary" onClick={() => file.current?.click()}>Import (merge)</button>
+          <button type="button" className="btn btn--secondary" onClick={() => {
+            if (file.current) {
+              file.current.dataset.mode = "merge";
+              file.current.click();
+            }
+          }}>Import (merge)</button>
           <button
             type="button"
             className="btn btn--secondary"
@@ -179,7 +205,7 @@ export function SettingsClient() {
             hidden
             onChange={(e) => {
               const f = e.target.files?.[0];
-              const mode = (e.target.dataset.mode as "replace") ?? "merge";
+              const mode = e.target.dataset.mode;
               e.target.dataset.mode = "";
               e.target.value = "";
               if (f) importData(f, mode === "replace" ? "replace" : "merge");
@@ -189,7 +215,7 @@ export function SettingsClient() {
         {msg && <p className="m-0 text-[14px]" role="status">{msg}</p>}
         <button
           type="button"
-          className="self-start text-[14px] text-bad underline underline-offset-4"
+          className="tap-target self-start text-[14px] text-bad underline underline-offset-4"
           onClick={async () => {
             if (!confirm("Delete all progress, bookmarks and presets on this device? Export a backup first if you want to keep them.")) return;
             await store().clearAll();
@@ -206,7 +232,7 @@ export function SettingsClient() {
           <ul className="m-0 flex list-none flex-col gap-1 p-0 text-[14px]">
             {reports.map((r) => (
               <li key={r.id}>
-                <Link href={`/q?id=${r.qid}`} className="underline underline-offset-4">{r.qid}</Link> · {r.kind.replace("-", " ")}
+                <Link href={`/q?id=${r.qid}`} className="tap-target underline underline-offset-4">{r.qid}</Link> · {r.kind.replace("-", " ")}
                 {r.note ? ` · ${r.note}` : ""}
               </li>
             ))}
@@ -216,15 +242,26 @@ export function SettingsClient() {
 
       <Section title="More">
         <div className="flex flex-col gap-3 text-[15px]">
-          <Link href="/insights" className="underline underline-offset-4">Insights</Link>
-          <Link href="/trends" className="underline underline-offset-4">Bank trends: what the papers test</Link>
-          <Link href="/search" className="underline underline-offset-4">Search questions</Link>
+          <Link href="/insights" className="tap-target underline underline-offset-4">Insights</Link>
+          <Link href="/trends" className="tap-target underline underline-offset-4">Bank trends: what the papers test</Link>
+          <Link href="/search" className="tap-target underline underline-offset-4">Search questions</Link>
         </div>
+      </Section>
+
+      <Section title="Credits">
+        {bankError ? <p role="alert">Couldn’t load school credits. Reconnect and try again.</p> : !index ? <Skeleton /> : (
+          <ul className="m-0 list-none space-y-2 p-0 text-[14px] text-muted">
+            {[...credits].sort(([a], [b]) => a.localeCompare(b)).map(([school, papers]) => (
+              <li key={school}><span className="font-medium text-ink">{school}</span>{papers.size ? `: ${[...papers].sort().join(" · ")}` : ""}</li>
+            ))}
+          </ul>
+        )}
+        <p className="m-0 text-[14px] text-muted measure">Questions, answers and worked solutions are reproduced from these schools&apos; papers and answer keys for personal revision. All rights remain with the schools.</p>
       </Section>
 
       <Section title="About">
         <p className="m-0 text-[14px] text-muted measure">
-          onthego · {activeSubject.name} ({activeSubject.code}). Questions come from JC preliminary examination papers. Answers are from each school&apos;s answer key; explanations are based on the schools&apos; worked solutions where available. Papers remain the property of their schools; for personal revision only.
+          onthego · {activeSubject.name} ({activeSubject.code}).
           {index && ` Bank built ${new Date(index.builtAt).toLocaleDateString()}.`}
         </p>
       </Section>
