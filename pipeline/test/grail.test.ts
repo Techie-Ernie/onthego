@@ -32,3 +32,11 @@ describe("grail selectEntries", () => {
     expect(examOf("CT2 P1")).toBe("CT");
   });
 });
+
+describe("grail combined files", () => {
+  it("treats 'qn and soln' files as question papers with embedded answers", () => {
+    const { sittings } = selectEntries([e({ id: "9", school: "SAJC", original_name: "(SAJC) 2024 H2 Phy Prelim P1_qn and soln_for sharing", paper_info: "Prelim P1" })]);
+    expect(sittings[0].qp).toHaveLength(1);
+    expect(sittings[0].key_).toHaveLength(0);
+  });
+});

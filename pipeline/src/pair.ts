@@ -37,6 +37,18 @@ export function pairPapers(files: PaperFile[]): { pairs: PaperPair[]; problems: 
     const k = pairKey(f);
     groups.set(k, [...(groups.get(k) ?? []), f]);
   }
+  // Answer files and question papers for the same school/year/paper are often labelled with different exam names
+  // ("2017 RI Prelims P1 QP" vs "2017 RI P1 solutions" → Prelim vs Other). Move a keys-only group into the single
+  // QP group of that school+year+paper when that QP group has no key of its own.
+  const sy = (k: string) => k.split("|").filter((_, i) => i !== 2).join("|");
+  for (const [k, fs] of [...groups]) {
+    if (fs.some((f) => f.role === "qp")) continue;
+    const homes = [...groups].filter(([k2, f2]) => k2 !== k && sy(k2) === sy(k) && f2.some((f) => f.role === "qp") && !f2.some((f) => f.role === "key"));
+    if (homes.length === 1) {
+      homes[0][1].push(...fs);
+      groups.delete(k);
+    }
+  }
   const pairs: PaperPair[] = [];
   const problems: PairingProblem[] = [];
   for (const [key, fs] of [...groups].sort((a, b) => a[0].localeCompare(b[0]))) {

@@ -70,6 +70,7 @@ export interface AgentResult {
   transcription?: string | null;
   issues?: string | null;
   explanationSource?: "key" | "generated";
+  keyLetter?: "A" | "B" | "C" | "D" | null;
   keyPage?: number;
 }
 
@@ -132,6 +133,7 @@ export function importResults(model = "claude-opus-5-5 via Claude Code") {
             model,
             verified: false,
             source: r.explanationSource ?? "generated",
+            keyLetter: r.keyLetter ?? undefined,
             derivedAnswer: r.derivedAnswer ?? "?",
             confidence: r.confidence,
             issues: r.issues ?? undefined,
@@ -166,6 +168,7 @@ export function importResults(model = "claude-opus-5-5 via Claude Code") {
           model,
           verified: false, // set by build when derivedAnswer matches the key
           source: r.explanationSource ?? "generated",
+          keyLetter: r.keyLetter ?? undefined,
           derivedAnswer: r.derivedAnswer ?? "?",
           confidence: r.confidence,
           issues: r.issues ?? undefined,

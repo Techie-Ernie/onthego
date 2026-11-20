@@ -73,7 +73,9 @@ export async function cropToWebp(
     parts.push(await sharp(renderer.pagePath(pc.page)).extract(ext).png().toBuffer());
   }
   let img: Sharp;
-  if (parts.length === 1) img = sharp(parts[0]);
+  // no pieces (a split failure): a small blank placeholder; the agent pass flags it unreadable → excluded
+  if (parts.length === 0) img = sharp({ create: { width: 24, height: 24, channels: 3, background: "#ffffff" } });
+  else if (parts.length === 1) img = sharp(parts[0]);
   else {
     const metas = await Promise.all(parts.map((p) => sharp(p).metadata()));
     const W = Math.max(...metas.map((m) => m.width!));

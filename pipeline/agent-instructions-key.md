@@ -18,7 +18,8 @@ Question type ids: `quantitative`, `multi-step`, `proportionality`, `conceptual`
 ## For each item
 1. Read the question image.
 2. Find the school's solution for question `questionNumber`. Start from `keyPageHint` and search `keyText` (Grep works well). Then **open the page image(s)**: equations and diagrams are often lost in the text layer. Some keys are just a letter table with no working; some are full worked solutions.
-3. Check the answer. Confirm the key's letter for this question matches `keyAnswer`. If the solution page shows a different letter than `keyAnswer`, record both in `issues`. Also check the physics yourself: if the key's answer looks wrong, say so in `issues`, set `confidence` to "low", and still explain the key's answer. Put the letter you believe is correct in `derivedAnswer`, which is normally the same as `keyAnswer`.
+3. Record `keyLetter`: the letter (A–D) that the school's key prints for this question, read from the page images. Use `null` if the key prints no letter for it, or if there is no key at all. This matters most when `keyStatus` is "answer-missing", because our parser could not read the key. In that case `keyAnswer` may be a meaningless placeholder; use the key pages instead.
+   Then check the answer. Confirm the key's letter for this question matches `keyAnswer`. If the solution page shows a different letter than `keyAnswer`, record both in `issues`. Also check the physics yourself: if the key's answer looks wrong, say so in `issues`, set `confidence` to "low", and still explain the key's answer. Put the letter you believe is correct in `derivedAnswer`, which is normally the same as `keyAnswer`.
 4. Write the explanation:
    - If the school has a worked solution: `explanationSource` = "key". Write `body` as a clean, faithful rewrite of the school's working: same method, same steps, same numbers. Fix OCR and formatting, use `$…$` LaTeX (e.g. `$v = \sqrt{gr}$`, `$3.0\ \mathrm{m\,s^{-1}}$`), and keep it short enough for a phone (2–6 sentences or short lines, paragraphs separated by a blank line, no headings). Don't add a different method. You may add one short connecting clause where the school's working skips an obvious step.
    - If there is only a letter, or no usable working: `explanationSource` = "generated", and write the explanation yourself from first principles.
@@ -41,6 +42,7 @@ Write a single JSON array to the batch's `output` path: one object per item, in 
 {
   "id": "ri-2026-prelim-p1-q7",
   "keyPage": 3,
+  "keyLetter": "A",
   "explanationSource": "key",
   "derivedAnswer": "A",
   "confidence": "high",

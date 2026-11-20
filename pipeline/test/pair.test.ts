@@ -45,3 +45,13 @@ describe("pairPapers", () => {
     expect(pairs[0].answer?.rel).toBe("VJC/P1 Ans.pdf");
   });
 });
+
+describe("pairPapers exam-label mismatch", () => {
+  it("joins a keys-only group to the same school/year QP group", async () => {
+    const { pairPapers } = await import("../src/pair");
+    const f = (rel: string, exam: string, role: "qp" | "key") => ({ source: "grail", rel, abs: rel, school: "RI", year: 2017, exam, level: "H2", paperNo: 1, role }) as never;
+    const r = pairPapers([f("2017 RI Prelims P1 QP", "Prelim", "qp"), f("2017 RI P1 solutions", "Other", "key")]);
+    expect(r.pairs).toHaveLength(1);
+    expect(r.pairs[0].answer).toMatchObject({ rel: "2017 RI P1 solutions" });
+  });
+});

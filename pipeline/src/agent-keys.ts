@@ -9,7 +9,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import sharp from "sharp";
 import { CACHE, DATA, LOCAL_PAPERS } from "./paths";
-import { loadExtracts, readJson, classificationsFile } from "./build";
+import { loadExtracts, readJson, classificationsFile, explanationsFile } from "./build";
 import { discoverLocal } from "./discover";
 import { grailPaperFiles } from "./grail";
 import { pdfPagesText, solutionsStartPage } from "./keys";
@@ -40,14 +40,16 @@ function pageHint(pages: string[], n: number, from: number): number[] {
   return hits.slice(0, 4);
 }
 
-export async function prepareKeyBatches(size = 20, explainOnlyFirst = 0) {
+export async function prepareKeyBatches(size = 20, explainOnlyFirst = 0, opts: { prefix?: string; onlyMissing?: boolean } = {}) {
+  const prefix = opts.prefix ?? "kb";
   const bank = path.join(DATA, "bank", "h2-physics");
-  const qs: Question[] = fs
+  let qs: Question[] = fs
     .readdirSync(bank)
     .filter((f) => f !== "index.json")
     .flatMap((f) => JSON.parse(fs.readFileSync(path.join(bank, f), "utf8")).questions as Question[])
     .sort((a, b) => a.id.localeCompare(b.id, "en", { numeric: true }));
   const cls = readJson<Record<string, unknown>>(classificationsFile, {});
+  const explained = readJson<Record<string, unknown>>(explanationsFile, {});
   const extracts = loadExtracts();
   const raw = new Map(extracts.flatMap((e) => e.questions.map((r) => [r.localId, { r, e }] as const)));
   const abs = new Map<string, string>();
@@ -55,10 +57,12 @@ export async function prepareKeyBatches(size = 20, explainOnlyFirst = 0) {
   for (const f of grailPaperFiles()) abs.set(f.rel, f.abs);
 
   fs.mkdirSync(DIR, { recursive: true });
-  for (const d of fs.readdirSync(DIR)) if (d.startsWith("kb-")) fs.rmSync(path.join(DIR, d), { recursive: true });
+  for (const d of fs.readdirSync(DIR)) if (d.startsWith(`${prefix}-`)) fs.rmSync(path.join(DIR, d), { recursive: true });
+  // only questions with no explanation yet (new papers); existing results are never redone
+  if (opts.onlyMissing) qs = qs.filter((q) => !explained[q.id] && !fs.existsSync(path.join(OUT, `${prefix}-done`, q.id)));
   const batches: string[] = [];
   for (let i = 0; i < qs.length; i += size) {
-    const name = `kb-${String(batches.length + 1).padStart(2, "0")}`;
+    const name = `${prefix}-${String(batches.length + 1).padStart(3, "0")}`;
     const dir = path.join(DIR, name);
     fs.mkdirSync(dir, { recursive: true });
     const items = [];

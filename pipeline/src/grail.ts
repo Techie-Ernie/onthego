@@ -67,6 +67,8 @@ export interface ManifestSitting {
 const ALIASES: Record<string, string> = { RJC: "RI", TPJC: "TMJC", MJC: "TMJC", IJC: "YIJC", YJC: "YIJC", SRJC: "ASRJC", AJC: "ASRJC", JJC: "JPJC", PJC: "JPJC" };
 const ANSWER_RE = /(?<![a-z])(ans(wers?)?|sol(n|ns|ution|utions)?|mark ?scheme|ms|guide|worked|suggested)(?![a-z])/i;
 
+const COMBINED_RE = /(qn|qns|qp|questions?)\s*(and|&|\+|with)\s*(ans|answers?|soln|sol|solutions?|guide)/i;
+
 export function examOf(s: string): ExamType {
   if (/promo/i.test(s)) return "Promo";
   if (/prelim/i.test(s)) return "Prelim";
@@ -113,7 +115,9 @@ export function selectEntries(entries: GrailEntry[], minYear = 2017): { sittings
       continue;
     }
     const exam = examOf(text);
-    const role = ANSWER_RE.test(name) || ANSWER_RE.test(e.paper_info ?? "") ? "key" : "qp";
+    // "qn and soln", "Qn and Ans", "QP + Guide", "Questions & Answers": one file with both → a QP with embedded answers
+    const combined = COMBINED_RE.test(name) || COMBINED_RE.test(e.paper_info ?? "");
+    const role = !combined && (ANSWER_RE.test(name) || ANSWER_RE.test(e.paper_info ?? "")) ? "key" : "qp";
     const isDrive = e.source === "drive" || String(e.id).startsWith("gdrive:");
     const fileId = isDrive ? String(e.id).replace(/^gdrive:/, "") : String(e.id);
     const f: ManifestFile = {

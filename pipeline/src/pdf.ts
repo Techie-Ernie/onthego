@@ -40,8 +40,16 @@ export interface PageData {
   graphics: Graphic[];
 }
 
+/**
+ * Documents are kept referenced for the life of the process: MuPDF-WASM's finalizer can crash
+ * ("function signature mismatch" in fz_drop_document) when the GC frees some PDFs mid-run.
+ * The CLI exits right after a run, so nothing leaks beyond it.
+ */
+const KEEP: mupdf.Document[] = [];
 export function openPdf(file: string): mupdf.Document {
-  return mupdf.Document.openDocument(fs.readFileSync(file), "application/pdf");
+  const doc = mupdf.Document.openDocument(fs.readFileSync(file), "application/pdf");
+  KEEP.push(doc);
+  return doc;
 }
 
 const STROKE = () =>

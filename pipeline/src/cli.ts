@@ -45,7 +45,13 @@ async function ingest() {
       continue;
     }
     const t = Date.now();
-    const e = await extractPaper(p, { force: flag("force") });
+    let e;
+    try {
+      e = await extractPaper(p, { force: flag("force") });
+    } catch (err) {
+      console.log(`  ${p.key.padEnd(24)} FAILED: ${(err as Error).message}`);
+      continue;
+    }
     const answers = Object.keys(e.keyResult.answers).length;
     console.log(`  ${p.key.padEnd(24)} ${e.questions.length} questions, ${answers} answers (${e.keyResult.method})${e.keyResult.issues.length ? `, ${e.keyResult.issues.length} key issues` : ""} ${Date.now() - t}ms`);
   }
@@ -75,7 +81,7 @@ async function main() {
     console.log(`${r.count} questions in ${r.batches.length} batches under pipeline/cache/agent/`);
   }
   if (cmd === "agent-key-batches") {
-    const b = await prepareKeyBatches(Number(arg("size") ?? 20), Number(arg("explain-only-first") ?? 0));
+    const b = await prepareKeyBatches(Number(arg("size") ?? 20), Number(arg("explain-only-first") ?? 0), { prefix: arg("prefix") ?? "kb", onlyMissing: flag("only-missing") });
     console.log(`${b.length} key-based batches under pipeline/cache/agent-kb/`);
   }
   if (cmd === "agent-import") {

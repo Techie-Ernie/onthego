@@ -194,6 +194,18 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
 
   // ---- ambiguity: leave out anything an agent found ambiguous, any answer the agent disagreed with, and any key
   //      with no printed letter. A reviewer can bring one back with { "approved": true } in data/overrides. ----
+  // Answers our parser could not read: use the letter the agent read off the key's page image, but only when its
+  // independent solve gives the same letter. A key letter that differs from the parsed one makes the question ambiguous.
+  for (const { q } of all) {
+    const ex = explanations[q.id] as { keyLetter?: OptionLabel; derivedAnswer?: string } | undefined;
+    if (!ex?.keyLetter || overrides[q.id]?.answer) continue;
+    if (!q.answer && ex.derivedAnswer === ex.keyLetter) {
+      q.answer = ex.keyLetter;
+      q.flags = q.flags.filter((f) => f !== "answer-missing" && f !== "answer-conflict");
+      q.flags.push("answer-from-key-image");
+      if (q.status === "needs-review" && !q.flags.some((f) => /^(content-below|near-duplicate)/.test(f))) q.status = "published";
+    } else if (q.answer && ex.keyLetter !== q.answer) q.flags.push("key-letter-mismatch");
+  }
   const ambiguous = ambiguityReasons();
   for (const { q } of all) {
     const o = overrides[q.id];
@@ -202,6 +214,8 @@ export function build(opts: { write?: boolean } = {}): BuildResult {
     const reasons = [...(ambiguous[q.id] ?? [])];
     if (ex?.derivedAnswer && ex.derivedAnswer !== q.answer) reasons.push(`agent answer ${ex.derivedAnswer} vs key ${q.answer}`);
     if (q.flags.some((f) => f === "answer-missing" || f === "answer-conflict")) reasons.push("no unambiguous letter in the key");
+    if (q.flags.includes("key-letter-mismatch")) reasons.push("letter on the key page differs from the parsed key");
+    if (!explanations[q.id]) reasons.push("not yet checked by an agent (no key-verified explanation)");
     if (reasons.length) {
       q.status = "needs-review";
       if (!q.flags.includes("ambiguous")) q.flags.push("ambiguous");
