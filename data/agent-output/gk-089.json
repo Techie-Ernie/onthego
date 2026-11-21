@@ -1,0 +1,505 @@
+[
+  {
+    "id": "nyjc-2023-other-p1-q8",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The water’s centre of mass falls by $4.0/2=2.0\\ \\mathrm{m}$. The average electrical power is $P_{\\mathrm{out}}=\\frac{mgh}{t}\\times0.40=\\frac{500(9.81)(4.0/2)}{5.0}\\times0.40=784.8\\ \\mathrm{W}\\approx780\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the full water depth as the centre-of-mass drop.",
+        "C": "Uses the mechanical power for the correct drop and omits the 40% efficiency.",
+        "D": "Uses the full depth and omits the 40% efficiency."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires finding the drop of the water’s centre of mass before applying efficiency.",
+    "misconception": "Using the surface height for all the water",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The free-body diagram shows tilted lift and downward weight. The horizontal component of lift supplies the inward resultant, so there is no separate centripetal-force arrow.",
+      "perOption": {
+        "A": "Counts the inward resultant as an extra force alongside lift.",
+        "B": "Omits the lift that balances the weight and supplies the inward resultant.",
+        "C": "Draws lift vertically and adds a separate centripetal force.",
+        "D": "Correct. Tilted lift provides the inward component."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The diagram requires identifying the inward resultant of the tilted lift and weight.",
+    "misconception": "Treating centripetal force as a separate force",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q10",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The school takes the linear speed to be unchanged, so $v_{\\mathrm{small}}=v_{\\mathrm{big}}$. Using $v=r\\omega$, $(0.194/2)\\omega_{\\mathrm{small}}=(0.324/2)(63.0)$, giving $\\omega_{\\mathrm{small}}=105\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Inverts the radius ratio, making angular speed decrease in the smaller loop.",
+        "B": "Assumes angular speed stays constant as the radius changes.",
+        "C": "Correct.",
+        "D": "Doubles the angular speed as though the smaller diameter were half the larger one."
+      }
+    },
+    "issues": "The question leaves unchanged linear speed implicit. The keyed value assumes no change in speed during the transition.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main step is recognizing that constant linear speed makes angular speed inversely proportional to radius.",
+    "misconception": "Confusing constant linear speed with constant angular speed",
+    "transcription": "A small sphere is travelling horizontally around the circumference of the bigger circular loop in the figure below with an angular velocity of $63.0\\ \\mathrm{rad\\,s^{-1}}$.\n\n[Two connected circular loops are shown. The bigger loop on the right has diameter $32.4\\ \\mathrm{cm}$ and shows the sphere near its upper edge with a left-pointing direction arrow. The smaller loop on the left has diameter $19.4\\ \\mathrm{cm}$.]\n\nThe sphere then moves into the smaller loop and continues to move along its circumference.\n\nWhat will be the angular velocity of the sphere when it is moving in the smaller loop?\n\nA $37.7\\ \\mathrm{rad\\,s^{-1}}$\nB $63.0\\ \\mathrm{rad\\,s^{-1}}$\nC $105\\ \\mathrm{rad\\,s^{-1}}$\nD $126\\ \\mathrm{rad\\,s^{-1}}$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q13",
+    "keyPage": 10,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The contents are maintained at constant temperature, so $\\Delta U=0$ in this steady state. Heat enters and leaves at equal rates, so the net heat supplied is $Q=0$. The first law, $\\Delta U=Q+W$, then gives $W=0$.",
+      "perOption": {
+        "A": "Overlooks the cancellation of heat entering and leaving and the resulting zero work.",
+        "B": "Overlooks the steady internal energy of the contents and the resulting zero work.",
+        "C": "Overlooks both the steady internal energy and the cancellation of heat transfers.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The first law applies once the student identifies the net heat transfer and the energy change of the contents.",
+    "misconception": "Confusing heat entering with net heat supplied",
+    "transcription": "The contents of a refrigerator are at a constant temperature, and the surroundings of the refrigerator are at a higher temperature. As a result, heat is transferred into the refrigerator from the surroundings. With the help of the cooling mechanism, heat from the refrigerator is also removed at the same rate.\n\nThe first law of thermodynamics may be applied to the contents of the refrigerator. This law is represented by $\\Delta U=Q+W$, where $\\Delta U$ is the increase in internal energy of the contents, $Q$ is the net heat supplied to the contents, and $W$ is the work done on the contents.\n\nFor the contents of the refrigerator, which of the quantities $\\Delta U$, $Q$ and $W$ is/ are zero?\n\nA $\\Delta U$ only\nB $Q$ only\nC $W$ only\nD $\\Delta U$, $Q$ and $W$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q14",
+    "keyPage": 10,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Internal energy includes the kinetic energy of the random motion of the air molecules and their intermolecular potential energy. Their sum is $30+(-3)=27\\ \\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the negative intermolecular potential energy as positive.",
+        "C": "Adds the kinetic energy of the aircraft to the internal energy of the air.",
+        "D": "Adds both the aircraft’s bulk kinetic energy and its gravitational potential energy."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The calculation is a signed sum once the two microscopic energy terms are identified.",
+    "misconception": "Including bulk mechanical energy in internal energy",
+    "transcription": "The air in an aircraft when travelling has the following energy as listed in the table below.\n\nType of energy | As a result of | Amount of energy / MJ\nKinetic energy | motion of the aircraft | 8\nKinetic energy | random movement of the air molecules | 30\nPotential energy | altitude of the aircraft | 75\nPotential energy | intermolecular attraction between the air molecules | $-3$\n\nWhat is the internal energy of the air in the aircraft?\n\nA $27\\ \\mathrm{MJ}$\nB $33\\ \\mathrm{MJ}$\nC $35\\ \\mathrm{MJ}$\nD $110\\ \\mathrm{MJ}$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q15",
+    "keyPage": 11,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The kinetic energy goes through two cycles per displacement period because speed peaks twice per oscillation. The particle starts at an extreme displacement, where it is instantaneously at rest, so its initial kinetic energy is zero.",
+      "perOption": {
+        "A": "Starts at maximum kinetic energy and shows only one energy cycle per displacement period.",
+        "B": "Starts at zero but shows only one energy cycle per displacement period.",
+        "C": "Shows the correct period but starts at maximum kinetic energy.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The graphs can be distinguished using the initial kinetic energy and its period.",
+    "misconception": "Giving kinetic energy the same period as displacement",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q16",
+    "keyPage": 11,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Represent the two waves by a sine and a cosine of amplitude $A$, giving a phase difference of $\\pi/2$. Their sum peaks at phase angle $\\pi/4$, with amplitude approximately $1.414A$. Squaring the amplitude and multiplying by the same proportionality constant $k$ gives $k(1.414A)^2\\approx 2I$, where $I=kA^2$ is the intensity of either wave alone.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A phase difference of $\\pi$ gives complete cancellation.",
+        "C": "A phase difference of $2\\pi$ doubles the amplitude, giving four times the single-wave intensity.",
+        "D": "A phase difference of $3\\pi$ is equivalent to $\\pi$ and gives complete cancellation."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a",
+      "superposition.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect the phase difference to the resultant amplitude and then square the amplitude to obtain intensity.",
+    "misconception": "Adding intensities directly for coherent waves",
+    "transcription": "Two coherent light waves that are same plane polarized of equal frequency and intensity superpose at a point that is equal distance from the two sources. The intensity of light at that point is twice the intensity of light due to either wave alone.\n\nWhat is a possible phase difference between the two waves at that point?\n\nA $\\frac{\\pi}{2}$\nB $\\pi$\nC $2\\pi$\nD $3\\pi$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q17",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "X and Z are nodes, where the two travelling waves interfere destructively and are in antiphase. The values $-\\pi$ and $\\pi$ describe the same antiphase relationship. Y is an antinode, where the waves interfere constructively with zero phase difference.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A phase difference of $\\pm\\pi/2$ cannot produce complete cancellation at either node.",
+        "C": "The node phases do not give complete cancellation, and $\\pi$ would give cancellation at the antinode.",
+        "D": "This assigns in-phase addition to the nodes and destructive interference to the antinode."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "superposition.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identifying the nodes and antinode gives the required phase relationships directly.",
+    "misconception": "Confusing the component waves with the standing-wave profiles",
+    "transcription": "The stationary wave shown below is the result of the superposition of two identical waves travelling in opposite directions.\n\n[Solid and dashed curves show the opposite extreme profiles of a stationary wave with three loops. X and Z mark the crossings at the ends of the middle loop. Y marks the trough of the solid curve midway between them.]\n\nWhich of the following best states the phase difference between the two waves at points X, Y and Z?\n\nOption | X | Y | Z\nA | $-\\pi$ | $0$ | $\\pi$\nB | $-\\pi/2$ | $0$ | $\\pi/2$\nC | $\\pi/2$ | $\\pi$ | $3\\pi/2$\nD | $0$ | $\\pi$ | $2\\pi$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q18",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wire length is approximately $L=N\\pi D$, and its cross-sectional area is $A=\\pi(d/2)^2$. Thus $R=\\rho L/A=\\rho\\frac{N\\pi D}{\\pi(d/2)^2}=\\frac{4N\\rho D}{d^2}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Swaps the diameter of the core with the diameter of the wire.",
+        "C": "Doubles the correct result, as would using $2\\pi D$ for one turn.",
+        "D": "Swaps the two diameters and introduces an extra factor of two."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation uses the core diameter for the turn length and the wire diameter for the cross-sectional area.",
+    "misconception": "Swapping the coil and wire diameters",
+    "transcription": "A coil contains $N$ turns of insulated copper wire wound on to a cylindrical iron core of diameter $D$. The copper wire has a diameter $d$. The resistivity of copper is $\\rho$. Diameter $D$ is much greater than diameter $d$.\n\nWhat is the total resistance between the two ends of the coil?\n\nA $\\frac{4N\\rho D}{d^2}$\nB $\\frac{4N\\rho d}{D^2}$\nC $\\frac{8N\\rho D}{d^2}$\nD $\\frac{8N\\rho d}{D^2}$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q19",
+    "keyPage": 13,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The voltmeter reads zero, so its terminals are at equal potential and no current flows through it. The current through $P$ equals that through $Q$, and the current through $R$ equals that through $S$. The corresponding voltage drops match across the two branches, so $P/Q=R/S$, which gives $PS=QR$.",
+      "perOption": {
+        "A": "Equates resistance differences where balance requires equal divider ratios.",
+        "B": "Uses a subtraction relation that does not follow from equal midpoint potentials.",
+        "C": "Pairs the products within each branch instead of cross-multiplying the equal ratios.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The question prints “Which equation is must be correct?”",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer equal midpoint potentials and relate the voltage drops to resistance ratios.",
+    "misconception": "Equating resistance differences in a balanced bridge",
+    "transcription": "The circuit diagram shows four resistors of different resistances $P$, $Q$, $R$ and $S$ connected to a battery.\n\n[The battery is connected across two parallel branches. The upper branch has $P$ on the left in series with $Q$ on the right. The lower branch has $R$ on the left in series with $S$ on the right. A voltmeter connects the two branch midpoints.]\n\nThe voltmeter reading is zero.\n\nWhich equation is must be correct?\n\nA $P-Q=R-S$\nB $P-S=Q-R$\nC $PQ=RS$\nD $PS=QR$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q20",
+    "keyPage": 14,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "With the switch open, no current flows through the test cell at balance, so $E=(0.70/1.0)(2.0)=1.4\\ \\mathrm{V}$. With the switch closed, the terminal voltage is $E-Ir=(0.50/1.0)(2.0)=1.0\\ \\mathrm{V}$. Using $I=1.4/(2.0+r)$ gives $1.4-\\frac{1.4}{2.0+r}r=1.0$, so $r=0.80\\ \\Omega$.",
+      "perOption": {
+        "A": "This resistance is too small to account for the measured terminal-voltage drop under load.",
+        "B": "Uses the $0.40\\ \\mathrm{V}$ drop as a resistance without dividing by the load current.",
+        "C": "Treats the numerical balance length or load current as a resistance.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "practical"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The two balance lengths must be converted to voltages and used with the loaded-cell current.",
+    "misconception": "Equating the open-circuit e.m.f. with the loaded terminal voltage",
+    "transcription": "The diagram below shows a potentiometer circuit used to determine the internal resistance $r$ of a cell of e.m.f. $E$. The driver cell has an e.m.f. of $2.0\\ \\mathrm{V}$ with negligible internal resistance and the resistance wire PQ is $1.0\\ \\mathrm{m}$ long. The cell is connected in parallel with a resistor of $2.0\\ \\Omega$. When the switch is open, the balance length is $0.70\\ \\mathrm{m}$ and when the switch is closed, the balance length is $0.50\\ \\mathrm{m}$.\n\nWhat is the value of $r$?\n\n[The $2.0\\ \\mathrm{V}$ driver cell is connected across wire PQ with its positive terminal toward P. The positive terminal of the test cell $E$ connects to P and the other terminal connects through its series internal resistance $r$ and a galvanometer to a sliding contact on PQ. Switch S and the $2.0\\ \\Omega$ resistor form a series branch across the test cell’s terminals.]\n\nA $0.15\\ \\Omega$\nB $0.40\\ \\Omega$\nC $0.50\\ \\Omega$\nD $0.80\\ \\Omega$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q21",
+    "keyPage": 14,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking downward as positive gives $mg-F_E=ma$ before reversal and $mg+F_E=3ma$ after reversal. Subtracting the first equation from the second gives $2F_E=2ma$. Since $F_E=qV/x$, the charge magnitude is $q=max/V$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the entire change $2ma$ as the electric force, though reversal changes the net force by twice that force.",
+        "C": "Uses the post-reversal net force $3ma$ as the electric force, including the contribution of gravity.",
+        "D": "Adds the two net forces to obtain $4ma$, which is twice the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must write two signed force equations and eliminate the weight before using the field strength.",
+    "misconception": "Treating the change in net force as the electric force",
+    "transcription": "A charged oil droplet of mass $m$ is falling, initially freely, in a vacuum between two horizontal metal plates that are separated by a distance $x$.\n\nA potential difference (p.d.) $V$ is then applied across the plates. This results in the oil droplet continuing to accelerate downwards but with a reduced acceleration $a$.\n\nThe polarity of the applied p.d. is then reversed so that the direction of the electric force on the droplet is reversed. This results in the downwards acceleration of the oil droplet increasing to $3a$.\n\nWhat is the magnitude of the charge on the oil droplet?\n\nA $\\frac{max}{V}$\nB $2\\frac{max}{V}$\nC $3\\frac{max}{V}$\nD $4\\frac{max}{V}$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q22",
+    "keyPage": 15,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Arrangement 4 gives zero field because equal charges at diametrically opposite positions cancel in pairs. In arrangement 1, the negative charge’s field partly cancels the resultant of the two positive charges. In units of the field from one charge, the remaining magnitudes are $\\sqrt{2}-1$ for 1, $1$ for 3, $2$ for 5 and $1+\\sqrt{2}$ for 2, giving the order $4,1,3,5,2$.",
+      "perOption": {
+        "A": "Places arrangement 4 last even though all of its field contributions cancel.",
+        "B": "Correct.",
+        "C": "Places arrangement 4 last and puts arrangement 5 below 3 despite its larger uncancelled field.",
+        "D": "Places arrangement 1 last despite the negative charge partly cancelling the two positive contributions."
+      }
+    },
+    "issues": "The key gives a partial comparison. The completed ranking assumes equal charge magnitudes and the symmetric angular positions indicated by the diagrams.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Ranking the fields requires identifying cancelling pairs and comparing the remaining vector sums.",
+    "misconception": "Adding field magnitudes without accounting for direction",
+    "transcription": "The diagrams below show 5 different arrangements of charges around a circle with centre O. Rank in ascending order the magnitude of the electric field strength at point O.\n\n[Five circles are labelled 1 to 5. Each has a marked centre O and charges at the following approximate clock directions. Taking the top as north, the charge positions are:\n1. Positive at N and E, negative at NE.\n2. Positive at W, NW, N, NE and E.\n3. Positive at W, NW, N, NE, E, S and SW.\n4. Positive at W, NW, N, NE, E, SE, S and SW.\n5. Positive at W, NW, N, NE, E, S and SW, negative at SE.]\n\nA 1 2 3 5 4\nB 4 1 3 5 2\nC 1 2 5 3 4\nD 4 3 5 2 1"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q23",
+    "keyPage": 15,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The beam passes undeflected, so the electric and magnetic forces balance: $B|q|v=|q|E$, giving $B=E/v$ for a perpendicular field. For a positive charge moving right, a field into the page gives an upward magnetic force to balance the downward electric force. Both forces reverse for a negative charge.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A field out of the page makes the magnetic force reinforce the electric force.",
+        "C": "The direction is correct, but balancing the forces requires dividing $E$ by $v$.",
+        "D": "Multiplies by $v$ and reverses the field direction needed for cancellation."
+      }
+    },
+    "issues": "The key works out the magnitude only. The direction follows from force cancellation for the perpendicular fields offered in the options.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.m",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must balance the forces and check which magnetic-field direction produces the required opposing force.",
+    "misconception": "Choosing fields without checking the directions of the forces",
+    "transcription": "A narrow parallel beam of charged particles, each with speed $v$, passes through a slit $S_1$ into an evacuated region, moving in the direction towards slit $S_2$.\n\nThe evacuated region is shown shaded on the diagram.\n\n[Particles enter the shaded region horizontally from the left through slit $S_1$ at speed $v$. Slit $S_2$ is on the right at the same height, and the arrow for the uniform electric field $E$ points vertically downwards.]\n\nUniform magnetic and electric fields are applied in the same evacuated region, with the electric field $E$ in the direction shown. The particles continue to exit through slit $S_2$.\n\nWhat is the magnitude and direction of the magnetic field?\n\nOption | magnitude | direction\nA | $\\frac{E}{v}$ | into the plane of the paper\nB | $\\frac{E}{v}$ | out of the plane of the paper\nC | $Ev$ | into the plane of the paper\nD | $Ev$ | out of the plane of the paper"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q24",
+    "keyPage": 16,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Consider the radius from M to N, which is moving downwards at N as the disc rotates clockwise. By Lenz’s law the magnetic force opposes that motion, so it points upwards. Fleming’s left-hand rule gives conventional current from M to N within the disc, so a steady current returns from N through $R$ to M.",
+      "perOption": {
+        "A": "Uses the constant flux through the entire disc and misses the motional e.m.f. along its radius.",
+        "B": "Assumes the e.m.f. reverses even though the rotation and magnetic field keep the same direction.",
+        "C": "Uses the current direction inside the disc for the external return path.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the induced current along a moving radius and trace its return path through the resistor.",
+    "misconception": "Applying the flux through the whole disc to the moving radius",
+    "transcription": null
+  }
+]

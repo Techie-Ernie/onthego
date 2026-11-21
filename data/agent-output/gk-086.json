@@ -1,0 +1,508 @@
+[
+  {
+    "id": "nyjc-2021-other-p1-q21",
+    "keyPage": 10,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential difference across PQ is $V_{PQ}=\\frac{3.0}{3.0+1.5+22}(12.0)\\approx 1.36\\ \\mathrm{V}$. A test e.m.f. of a few millivolts requires a smaller potential gradient for an observable balance length, so increase the $22\\ \\Omega$ resistor to $1\\ \\mathrm{k\\Omega}$.",
+      "perOption": {
+        "A": "Reversing the test cell leaves the potential gradient unchanged and would prevent balance if the cell was already correctly connected.",
+        "B": "A higher driver e.m.f. increases the potential gradient and shortens the balance length.",
+        "C": "Correct. The larger series resistance lowers the potential gradient.",
+        "D": "For the same length, a higher wire resistance increases the fraction of the driver e.m.f. across PQ."
+      }
+    },
+    "issues": "The key prints 1.31 V, but its substitution gives 1.36 V. The answer remains C.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.j"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must link the voltage divider to the balance length.",
+    "misconception": "Increasing the voltage across PQ lengthens the balance length.",
+    "transcription": "A student attempts to measure the e.m.f. of a test cell using a potentiometer circuit as shown in the diagram.\n\n[The primary loop contains the wire PQ, a $12.0\\ \\mathrm{V}$ driver cell with its positive terminal toward P, a $1.5\\ \\Omega$ internal resistance, and a $22\\ \\Omega$ series resistor. Test-cell terminal X is connected to P, and terminal Y is connected through a galvanometer to a sliding contact on PQ.]\n\nThe wire PQ has a resistance of $3.0\\ \\Omega$ and the driver cell has an e.m.f. of $12.0\\ \\mathrm{V}$. He was unable to obtain an observable balance length on PQ when he connected the circuit. The tutor he consulted told him that the test cell has an e.m.f. of a few millivolts. What could he do in order to obtain an observable balance length?\n\nA. Reversed the polarity of the test cell at XY.\nB. Use a driver cell of e.m.f. $20\\ \\mathrm{V}$.\nC. Change the resistance of the connected resistor to $1\\ \\mathrm{k\\Omega}$.\nD. Change the wire PQ to a wire of resistance $20\\ \\Omega$."
+  },
+  {
+    "id": "nyjc-2021-other-p1-q22",
+    "keyPage": 11,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially the sphere is stationary, so its upward electric force balances its weight, $|Q|E=mg$. When the charge magnitude increases, the upward electric force exceeds the weight and the sphere accelerates upward towards plate X.",
+      "perOption": {
+        "A": "The increased electric force points upward.",
+        "B": "The initial imbalance drives the sphere upward, away from Z.",
+        "C": "Correct. There is a sustained upward resultant force.",
+        "D": "The uniform field gives the same upward force as the sphere approaches X, so it keeps accelerating."
+      }
+    },
+    "issues": "The question implicitly uses an increase in charge magnitude with the sign unchanged.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.h",
+      "electric-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer the initial force balance and determine how it changes.",
+    "misconception": "Assuming a new equilibrium in a uniform field.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q23",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $d$ be the side of the square and $K=\\mu_0 I/(2\\pi d)$. W and X are each $d/2$ from O, giving a field of magnitude $2K$ each, while Y and Z are each $\\sqrt{5}d/2$ from O and give $4K/\\sqrt{5}$ each. The fields from Y and Z are tangential about their respective wires, so each has a component perpendicular to WX of magnitude $(4K/\\sqrt{5})(1/\\sqrt{5})=4K/5$. With W and Z into the plane and X and Y out, all four vertical contributions point down and the horizontal components cancel.",
+      "perOption": {
+        "A": "Correct. All four downward contributions reinforce.",
+        "B": "The upward fields from W and X outweigh the downward components from Y and Z.",
+        "C": "The upward components from Y and Z partly cancel the downward fields from W and X.",
+        "D": "All four vertical contributions point upward."
+      }
+    },
+    "issues": "The diagram is on page 11 and the letter and written working are on page 12. The working mislabels Y as X in the field-magnitude line and as Z in the component line.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must determine four field directions and resolve and combine their components.",
+    "misconception": "Adding magnetic flux densities as scalars.",
+    "transcription": "Four parallel current carrying conductors are placed vertically at the corners of a square WXYZ. The magnitudes of the current at W and X are $I$ while the magnitudes of the current at Y and Z are $2I$.\n\n[Square with W at the top left, X at the top right, Y at the bottom right and Z at the bottom left. A vertical arrow points down from O, midway along WX.]\n\nO is the mid-point between W and X. If there is to be a resultant magnetic flux density produced at O in the direction shown, which option gives the largest magnetic flux density?\n\nOption | Current into the plane | Current out of the plane\nA | W and Z | X and Y\nB | X and Z | W and Y\nC | W and Y | X and Z\nD | X and Y | W and Z"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q24",
+    "keyPage": 12,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force provides the centripetal force, so $B|q|v=mv^2/r$ and $r=mv/(B|q|)$. Since $\\omega=v/r=B|q|/m$, the period is $T=2\\pi m/(B|q|)$. Both electrons have the same $m$, $|q|$ and $B$, so Q has speed $2v$ at radius $2r$ and the same period $T$.",
+      "perOption": {
+        "A": "Doubling the circumference would double the period at fixed speed, but the speed also doubles.",
+        "B": "The speed cannot stay fixed when the radius doubles, and the period is independent of the radius.",
+        "C": "Correct. The radius and speed double together.",
+        "D": "The radius is directly proportional to speed, so the speed doubles."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l",
+      "circular-motion.c",
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine magnetic and centripetal force and identify what determines the period.",
+    "misconception": "Assuming a longer orbit always takes longer.",
+    "transcription": "An electron P, having a speed $v$, travels at right-angles to a uniform magnetic field. P then travels in a circular orbit of period $T$ and orbital radius $r$.\n\nAnother electron Q travels at right-angles to the same magnetic field. Q travels in a circular orbit of radius $2r$. What are the period and speed of Q?\n\nOption | Period | Speed\nA | $2T$ | $v$\nB | $0.5T$ | $v$\nC | $T$ | $2v$\nD | $T$ | $0.5v$"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q25",
+    "keyPage": 13,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The components of both halves perpendicular to the field point down, giving $F=BI[(L/2)\\cos\\theta+(L/2)\\cos\\theta]=BIL\\cos\\theta$. Fleming’s left-hand rule gives a force out of the page.",
+      "perOption": {
+        "A": "Fleming’s left-hand rule gives the opposite direction.",
+        "B": "Correct. Both perpendicular components contribute to the outward force.",
+        "C": "The sine projects onto the field direction, and the force direction is reversed.",
+        "D": "The sine projects onto the field direction, which contributes no force."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must project both wire segments and apply Fleming’s left-hand rule.",
+    "misconception": "Using the angle to the normal as the angle to the field.",
+    "transcription": "The diagram shows a V-shaped wire in the magnetic field of flux density $B$. The length of the wire in the field is $L$ and the first half of the wire is inclined with an angle $\\theta$ normal to the field direction. The current in the wire is $I$.\n\n[The uniform magnetic field points right. The wire runs down from the upper endpoint, diagonally down-left to the vertex, then diagonally down-right to the lower endpoint. Both sloping segments are labelled $L/2$ and make angle $\\theta$ with the dashed vertical line joining the endpoints. Current arrows point down at both endpoints.]\n\nWhich row gives the magnitude and direction of the force acting on the wire?\n\nOption | Magnitude | Direction\nA | $BIL\\cos\\theta$ | into of the page\nB | $BIL\\cos\\theta$ | out of the page\nC | $BIL\\sin\\theta$ | into the page\nD | $BIL\\sin\\theta$ | out of the page"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q26",
+    "keyPage": 13,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=3\\ \\mathrm{s}$, the graph is on the straight falling segment, so $|\\mathrm{d}B/\\mathrm{d}t|=(5.0\\times10^{-2})/(5-1)\\ \\mathrm{T\\,s^{-1}}$. Taking the field perpendicular to the coil, Faraday’s law gives $|\\mathcal{E}|=NA|\\mathrm{d}B/\\mathrm{d}t|=120(5.0\\times10^{-4})(5.0\\times10^{-2})/4=750\\ \\mathrm{\\mu V}$.",
+      "perOption": {
+        "A": "This is the induced e.m.f. per turn, leaving out the factor of 120.",
+        "B": "This uses the average slope over all 5 seconds, including the flat segment.",
+        "C": "Correct. It uses the local slope and all 120 turns.",
+        "D": "This exceeds the e.m.f. given by the falling segment’s slope and the coil’s flux linkage."
+      }
+    },
+    "issues": "The key gives only the letter. The coil orientation is unstated, and the keyed value assumes the field is perpendicular to the coil.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the slope on the falling segment and multiply by the coil area and turns.",
+    "misconception": "Using the average field change from the start of the graph.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q27",
+    "keyPage": 14,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Resistive heating depends on $I^2$, so reversing the current does not cancel the heating. An alternating current of $12\\ \\mathrm{A}$ r.m.s. produces the same mean heating as a steady current of $12\\ \\mathrm{A}$, which is what the calibrated device reads.",
+      "perOption": {
+        "A": "A zero mean current does not imply zero mean heating.",
+        "B": "This treats the given r.m.s. value as a sinusoidal peak and divides by the square root of two.",
+        "C": "Correct. The meter reads the equivalent steady heating current.",
+        "D": "This converts the r.m.s. value to a sinusoidal peak, which is not the heating-equivalent reading."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question directly tests the heating interpretation of r.m.s. current.",
+    "misconception": "Confusing the mean current with its heating equivalent.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q28",
+    "keyPage": 14,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The secondary r.m.s. voltage is $(200/4000)(240)=12\\ \\mathrm{V}$. The diode removes one half-cycle, so the unrectified mean power would be $2(90)=180\\ \\mathrm{W}$ and $12^2/R=180$, giving $R=0.80\\ \\Omega$. With the diode in place, $I_{\\mathrm{rms}}^2(0.80)=90$, giving $I_{\\mathrm{rms}}=10.6\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Dividing by the primary voltage uses the wrong side of the transformer and ignores rectification.",
+        "B": "Doubling the load power and dividing by the primary voltage still does not give the secondary current.",
+        "C": "Dividing 90 W by 12 V treats the full-wave secondary voltage as the r.m.s. load voltage.",
+        "D": "Correct. This uses the mean power of the half-wave current."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.d",
+      "currents.f",
+      "currents.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must account for both the transformer turns ratio and half-wave rectification before finding the r.m.s. current.",
+    "misconception": "Applying the unrectified secondary voltage directly across the load.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q29",
+    "keyPage": 15,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At fixed intensity $I=(N/t)hf/A$, increasing the frequency $f$ raises the energy $hf$ per photon and lowers the rate $N/t$ at which photons reach the metal. Above threshold, this gives a lower photoelectron emission rate if the fraction of incident photons that eject electrons stays constant.",
+      "perOption": {
+        "A": "Even very weak radiation can eject photoelectrons when its frequency exceeds the threshold.",
+        "B": "The threshold frequency corresponds to a maximum wavelength, since wavelength decreases as frequency increases.",
+        "C": "At fixed frequency the maximum kinetic energy $hf-\\Phi$, and hence the maximum speed, is unchanged by intensity.",
+        "D": "Correct. Fewer photons arrive per second at fixed intensity."
+      }
+    },
+    "issues": "D assumes both frequencies are above threshold and comparable photoelectric yield per incident photon.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish photon energy, photon arrival rate and photoelectron speed.",
+    "misconception": "Confusing light intensity with energy per photon.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q30",
+    "keyPage": 16,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The coloured lines are visible, at about $400$–$700\\ \\mathrm{nm}$ or $1.8$–$3.1\\ \\mathrm{eV}$. Using $\\Delta E=hc/\\lambda$, only $E_6\\to E_2$ and $E_3\\to E_2$ fall in that range among the options. X has the longest visible wavelength, so it comes from the smaller of those two energy gaps, $E_3\\to E_2$.",
+      "perOption": {
+        "A": "This transition emits ultraviolet radiation.",
+        "B": "This line is visible but has a larger energy gap and shorter wavelength than X.",
+        "C": "Correct. It gives the longest wavelength among the visible choices.",
+        "D": "This transition emits infrared radiation."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must filter transitions by the visible range before comparing their wavelengths.",
+    "misconception": "Choosing the smallest energy gap without checking visibility.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q1",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Visible wavelengths of order $10^{-7}\\ \\mathrm{m}$ and beta-particle speeds of order $10^7\\ \\mathrm{m\\,s^{-1}}$ are reasonable estimates. Using $V=\\frac43\\pi r^3$ with an orange radius of about $5\\ \\mathrm{cm}$ gives a volume of order $10^{-4}\\ \\mathrm{m^3}$. A frequency of $10^9\\ \\mathrm{Hz}$ is far above the range of human hearing.",
+      "perOption": {
+        "A": "Correct. A gigahertz is far above the audible range.",
+        "B": "Visible wavelengths are typically several times $10^{-7}\\ \\mathrm{m}$.",
+        "C": "The volume of a sphere of radius about $5\\ \\mathrm{cm}$ is of order $10^{-4}\\ \\mathrm{m^3}$.",
+        "D": "A speed of order $10^7\\ \\mathrm{m\\,s^{-1}}$ is plausible for a beta particle."
+      }
+    },
+    "issues": "The key’s broader claim that even ultrasound cannot reach GHz frequencies is incorrect. Human audibility is sufficient to establish A.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must judge orders of magnitude across several physical contexts.",
+    "misconception": "Overestimating the upper limit of human hearing.",
+    "transcription": "Which of the following is not a reasonable estimate?\n\nA. Sound of frequency in the order of $10^9\\ \\mathrm{Hz}$ is audible to human beings.\nB. Light of wavelength in the order of $10^{-7}\\ \\mathrm{m}$ is visible to human beings.\nC. The volume of an average-sized orange is in the order of $10^{-4}\\ \\mathrm{m^3}$.\nD. The speed of beta particles emitted from a nucleus is in the order of $10^7\\ \\mathrm{m\\,s^{-1}}$."
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q2",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange $E_{\\mathrm{k}}=2\\pi^2I/T^2$ to $I=E_{\\mathrm{k}}T^2/(2\\pi^2)$. Kinetic energy has the units of $mv^2$, so the unit of $I$ is $(\\mathrm{kg\\,m^2\\,s^{-2}})(\\mathrm{s^2})=\\mathrm{kg\\,m^2}$.",
+      "perOption": {
+        "A": "This leaves an extra inverse second after multiplying by the squared time unit.",
+        "B": "Correct. The time units cancel completely.",
+        "C": "The joule is a derived unit and needs to be expanded into base units.",
+        "D": "The newton is a derived unit and needs to be expanded into base units."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must rearrange the formula and express kinetic energy in base units.",
+    "misconception": "Leaving derived units in an SI base-unit answer.",
+    "transcription": "The kinetic energy $E_{\\mathrm{k}}$ of a rotating solid sphere is given by the following expression\n\n$E_{\\mathrm{k}}=\\frac{2\\pi^2 I}{T^2}$\n\nwhere $I$ is the moment of inertia and $T$ is the period of rotation of the solid sphere.\n\nWhat is the unit for the moment of inertia $I$, expressed in SI base units?\n\nA. $\\mathrm{kg\\,m^2\\,s^{-1}}$\nB. $\\mathrm{kg\\,m^2}$\nC. $\\mathrm{J\\,s^2}$\nD. $\\mathrm{N\\,m\\,s^2}$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange to $M=ywt^3/(kL^3)$, so $\\Delta M/M=\\Delta y/y+\\Delta w/w+3\\Delta t/t+3\\Delta L/L$. The contributions from $y$ and $w$ are $0.01/0.25=0.040$ and $0.5/23.0=0.022$. The contributions from $t$ and $L$ are $3(0.1/6.0)=0.050$ and $3(0.2/80.0)=0.0075$. The thickness $t$ contributes the most.",
+      "perOption": {
+        "A": "The unweighted contribution of 0.040 is smaller than the thickness contribution.",
+        "B": "Even after tripling the fractional uncertainty, the contribution is only 0.0075.",
+        "C": "Correct. The cubed thickness contributes 0.050.",
+        "D": "The width contributes only 0.022."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must rearrange for mass and compare four fractional uncertainties weighted by their powers.",
+    "misconception": "Comparing fractional uncertainties without weighting by the exponents.",
+    "transcription": "A ruler is supported horizontally by two pivots as shown.\n\n[The ruler bows down between two pivots, one at each end. Its vertical displacement $y$ at the centre is measured from a dashed horizontal line between the ends.]\n\nThe vertical displacement $y$ at the centre of the ruler can be used to measure the mass loaded on it and is given by the equation\n\n$y=\\frac{kML^3}{wt^3}$\n\nwhere $k$ is a constant, $L$ is the distance between the pivots, $M$ is the mass loaded onto the ruler, $t$ is the thickness of the ruler and $w$ is the width of the ruler.\n\nWhen a particular $M$ is loaded onto the ruler, the following results are obtained:\n\n$y=(0.25\\pm0.01)\\ \\mathrm{mm}$\n$L=(80.0\\pm0.2)\\ \\mathrm{cm}$\n$t=(6.0\\pm0.1)\\ \\mathrm{mm}$\n$w=(23.0\\pm0.5)\\ \\mathrm{mm}$\n\nWhich measurement contributes the most to the uncertainty of $M$?\n\nA. $y$\nB. $L$\nC. $t$\nD. $w$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q4",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The plane’s velocity relative to Earth is $\\vec v_{\\mathrm{PE}}=\\vec v_{\\mathrm{PW}}+\\vec v_{\\mathrm{WE}}$, where the terms on the right are the plane’s velocity relative to the wind and the wind’s velocity relative to Earth. The velocity triangle requires the plane’s westward component to cancel the eastward wind, so $\\sin\\theta=85/200$ and the pilot steers $25.2^\\circ$ west of north.",
+      "perOption": {
+        "A": "This uses the tangent with 200 as the northward component and steers in the direction of the wind.",
+        "B": "This uses the tangent with 200 as the northward component, although it is the hypotenuse.",
+        "C": "An eastward heading component adds to the eastward wind.",
+        "D": "Correct. The westward component cancels the wind."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must construct a velocity triangle with an eastward wind and a due-north resultant.",
+    "misconception": "Treating the still-air speed as the northward component.",
+    "transcription": "The speed of an aeroplane in still air is $200\\ \\mathrm{km\\,h^{-1}}$. The wind pushes it from the west at a speed of $85.0\\ \\mathrm{km\\,h^{-1}}$.\n\nIn which direction must the pilot steer in order to fly due north?\n\nA. $23.0^\\circ$ east of north\nB. $23.0^\\circ$ west of north\nC. $25.2^\\circ$ east of north\nD. $25.2^\\circ$ west of north"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q5",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The signed area under the velocity–time graph gives the displacement $\\Delta s$. The positive and negative areas cancel, so $\\Delta s=0$ and $v_{\\mathrm{avg}}=\\Delta s/t=0.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Averaging the two velocities equally overlooks the unequal durations.",
+        "B": "Correct. The signed areas cancel.",
+        "C": "This divides the total distance by the journey time, giving average speed.",
+        "D": "This averages the two speed magnitudes without weighting by their durations."
+      }
+    },
+    "issues": "The working appears on page 5 and the printed answer B appears on page 6.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read signed areas and divide the displacement by total time.",
+    "misconception": "Using total distance to calculate average velocity.",
+    "transcription": "A radio-controlled toy car travels along a straight line for a time of $15\\ \\mathrm{s}$.\n\nThe variation with time $t$ of the velocity $v$ of the car is shown below.\n\n[Velocity–time graph with $t$ in seconds and $v$ in $\\mathrm{m\\,s^{-1}}$. The velocity is $+3.0\\ \\mathrm{m\\,s^{-1}}$ from 0 to 10 s, then drops to $-6.0\\ \\mathrm{m\\,s^{-1}}$ from 10 to 15 s.]\n\nWhat is the average velocity of the toy car for the 15 s journey?\n\nA. $-1.5\\ \\mathrm{m\\,s^{-1}}$\nB. $0.0\\ \\mathrm{m\\,s^{-1}}$\nC. $4.0\\ \\mathrm{m\\,s^{-1}}$\nD. $4.5\\ \\mathrm{m\\,s^{-1}}$"
+  }
+]

@@ -1,0 +1,507 @@
+[
+  {
+    "id": "njc-2021-promo-p1-q2",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "High precision means repeated readings have little spread, so random error is small. Low accuracy despite that tight spread points to a large systematic error, such as a calibration offset.",
+      "perOption": {
+        "A": "Large random error would give widely scattered readings.",
+        "B": "Large random error conflicts with high precision, and low systematic error misses the bias.",
+        "C": "Correct.",
+        "D": "Small errors of both kinds would usually give accurate as well as precise readings."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is C.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The distinction follows directly from the meanings of precision and accuracy.",
+    "misconception": "Confusing precision with accuracy",
+    "transcription": "A voltmeter connected across a resistor in a circuit gives readings which have high precision but low accuracy.\n\nWhich of the following best describes the likely error in readings taken with this voltmeter?\n\n[Table columns: random error; systematic error.]\nA. high; high\nB. high; low\nC. low; high\nD. low; low"
+  },
+  {
+    "id": "njc-2021-promo-p1-q3",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Follow the path from $P$ to $S$ to $T$. The first displacement is $-\\mathbf{x}$ and the second is $\\mathbf{y}$, giving $\\mathbf{z}=\\mathbf{y}-\\mathbf{x}$.",
+      "perOption": {
+        "A": "Adds the two original vectors without reversing the first.",
+        "B": "Reverses the direction of the required resultant.",
+        "C": "Reverses both vectors even though the horizontal displacement points right.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is D.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The diagram requires translating one vector and reversing the other.",
+    "misconception": "Ignoring vector direction",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q4",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball starts with zero velocity relative to the floor. Its downward acceleration relative to the floor is $9.81-5.8=4.01\\ \\mathrm{m\\,s^{-2}}$, so $2.0=\\tfrac12(4.01)t^2$ gives $t=1.00\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Adds the downward accelerations when calculating the rate at which the gap closes.",
+        "B": "Uses free-fall acceleration alone and treats the floor as stationary.",
+        "C": "Uses the elevator's acceleration alone to close the gap.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is D.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the relative acceleration before applying a constant-acceleration equation.",
+    "misconception": "Adding accelerations in the same direction",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q5",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Car Y continues at $30\\ \\mathrm{m\\,s^{-1}}$, so X's gain is the area above the $30\\ \\mathrm{m\\,s^{-1}}$ line. The two triangular regions contribute $2(\\tfrac12)(5.0)(5.0)=25\\ \\mathrm{m}$, leaving $75\\ \\mathrm{m}$ for the plateau. Thus $5.0T=75$ and $T=15\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Treats both speed ramps as if X held its maximum relative speed throughout.",
+        "B": "Correct.",
+        "C": "Omits the distance gained during both speed ramps.",
+        "D": "Gives the full overtaking time, including the two ramps."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is B. The calculation takes Y to continue at its initial speed.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read three areas above the velocity of Y and solve for the plateau duration.",
+    "misconception": "Omitting the triangular areas",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q6",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the net the ball has fallen $3.0-1.0=2.0\\ \\mathrm{m}$. With zero initial vertical velocity, $2.0=\\tfrac12gt^2$ gives $t=0.639\\ \\mathrm{s}$. The horizontal speed is constant, so $v=12/0.639\\approx19\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the full launch height as the vertical fall, overestimating the flight time.",
+        "B": "Correct.",
+        "C": "Implies a flight time of only $0.40\\ \\mathrm{s}$, too short for a $2.0\\ \\mathrm{m}$ fall.",
+        "D": "Implies a flight time of about $0.32\\ \\mathrm{s}$, half the time needed to fall $2.0\\ \\mathrm m$."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is B.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The vertical fall gives the flight time, which must then be used for the horizontal motion.",
+    "misconception": "Using launch height as the fall distance",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q7",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The impulse up to $100\\ \\mathrm{ms}$ is the first triangle's area, $\\tfrac12(0.100)(80)=4.0\\ \\mathrm{N\\,s}$. The speed increases by $4.0/2=2.0\\ \\mathrm{m\\,s^{-1}}$, giving $15+2.0=17\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses twice the required impulse by taking the full triangle through 200 ms.",
+        "C": "Treats milliseconds as seconds and reports the resulting change in speed alone.",
+        "D": "Uses twice the required area, treats milliseconds as seconds and reports the resulting change in speed alone."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must isolate the first triangular area, convert milliseconds and use the impulse to find the final velocity.",
+    "misconception": "Using the full impulse through 200 ms",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q8",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two initial momenta cancel because they are equal and opposite. Kinetic energy is scalar, so the initial total is $2(\\tfrac12mv^2)=mv^2$. The collision is elastic, so the final total is also $mv^2$.",
+      "perOption": {
+        "A": "Adds momentum magnitudes despite the opposite directions.",
+        "B": "Treats the two positive kinetic energies as signed quantities that cancel.",
+        "C": "Correct.",
+        "D": "Sticking would make this collision perfectly inelastic."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is C.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish vector momentum from scalar kinetic energy and apply the elastic-collision condition.",
+    "misconception": "Assuming opposite velocities cancel kinetic energy",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q9",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total initial momentum is zero, so the car and launcher leave with equal and opposite momenta. If the car's speed is $v$, the launcher's speed is $v/4$. Its kinetic energy is $\\tfrac12(4m)(v/4)^2=\\tfrac14(\\tfrac12mv^2)=K/4$.",
+      "perOption": {
+        "A": "Gives the launcher's share of the combined kinetic energy, but $K$ is the car's kinetic energy alone.",
+        "B": "Correct.",
+        "C": "Squares the speed ratio without including the launcher's fourfold mass.",
+        "D": "Uses the combined mass to get a one-fifth speed ratio and neglects the launcher's mass in the energy ratio."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is B.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The recoil speed follows from momentum conservation and must be squared in the kinetic-energy comparison.",
+    "misconception": "Squaring the speed ratio without including the mass ratio",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q10",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a stream of objects brought to rest, the average force magnitude is the momentum lost per object multiplied by the number stopped per second. Substitution in SI units gives $F=(0.0056)(840)(750/60)\\approx59\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Understates the momentum transferred per second, corresponding to about 7.4 objects per second instead of 12.5.",
+        "B": "Correct.",
+        "C": "Uses the per-minute count as if it were the per-second count.",
+        "D": "Treats the mass in grams as a mass in kilograms."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is B. The calculation treats the board as stationary and the stated velocity as the impact speed.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main steps are converting the mass and rate to SI units and applying Newton's second law in momentum form.",
+    "misconception": "Using a per-minute rate as a per-second rate",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q11",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For equilibrium, the horizontal components of cable and rope tension balance. With $T$ the cable tension, $T\\sin30^\\circ=300\\cos30^\\circ$, giving $T=520\\ \\mathrm N$ to two significant figures. The rope also supplies an upward component that helps support the crate's weight.",
+      "perOption": {
+        "A": "Makes the cable's vertical component balance the full weight and omits the rope's upward component.",
+        "B": "Equates the cable tension directly to the weight despite the cable's inclination and the rope's contribution.",
+        "C": "Correct.",
+        "D": "Equates the two tension magnitudes even though their horizontal components have different direction factors."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is C. The calculation assumes the crate is in equilibrium.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret different angle references and choose an equilibrium component equation.",
+    "misconception": "Ignoring the rope's upward component",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q12",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about $H$. The cable attaches closer to $H$ than the line of action of the weight, so its upward component must exceed the weight. The wall therefore pushes the shelf assembly downward and to the right, balancing the cable's excess upward force and leftward pull. The hinge exerts the opposite force on the wall, upward and to the left.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Omits the leftward component needed in the force on the wall.",
+        "C": "Omits the upward component and gives the wrong horizontal direction.",
+        "D": "Shows the direction of the wall's force on the shelf assembly."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.g",
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The problem combines moments, horizontal force balance and the distinction between the wall's force and the force on the wall.",
+    "misconception": "Answering with the force on the shelf",
+    "transcription": "A hinged shelf is held horizontally against a wall by a cable PQ. The forces acting on the shelf are its weight, the force exerted by the cable and the force exerted by the hinge H.\n\n[Diagram: The shelf extends horizontally to the right from hinge H on a vertical wall. Cable PQ slopes down and right from P on the wall above H to Q on the shelf. The weight of the shelf is shown by a downward arrow to the right of Q.]\n\nWhich arrow could represent the direction of the force the hinge exerts on the wall?\n\n[Four arrows share an origin: A points up and left, B points vertically up, C points horizontally right and D points down and right. A and D point along the same diagonal in opposite directions.]"
+  },
+  {
+    "id": "njc-2021-promo-p1-q13",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Pressure increases with depth, leading to a net upward force on the ice. The ice floats at rest where this upthrust equals its weight, so the resultant vertical force is zero.",
+      "perOption": {
+        "A": "Uses a surface-area comparison without establishing the balance of forces.",
+        "B": "Describes the pressure difference but does not establish that the upthrust balances the weight.",
+        "C": "Equates a mass with a force instead of using the weight of the displaced water.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is D.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the origin of upthrust from the condition for floating equilibrium.",
+    "misconception": "Confusing displaced mass with displaced weight",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q14",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The ball starts at rest, so its gravitational potential energy initially has zero slope. As the ball speeds up and approaches terminal speed, its kinetic energy levels off. Viscous drag dissipates energy, so the final kinetic energy must be below the initial gravitational potential energy when the bottom is the zero level. D is the best schematic match.",
+      "perOption": {
+        "A": "Shows approximately all the initial potential energy becoming kinetic despite drag.",
+        "B": "Shows potential energy falling at a constant rate from release and approximately all of it becoming kinetic.",
+        "C": "Shows potential energy falling at a constant rate from release, implying a nonzero initial speed.",
+        "D": "Correct. It best matches release from rest and mechanical energy loss."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is D. D is the best schematic option. Its drawn kinetic-energy curve starts steeply, although release from rest with finite acceleration implies an initially zero slope.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must interpret the initial slope and compare initial and final mechanical energy while accounting for drag.",
+    "misconception": "Treating mechanical energy as conserved in a viscous fluid",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q15",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mass flow rate is $1000(6.0)=6000\\ \\mathrm{kg\\,s^{-1}}$. The gravitational energy supplied per second is $6000(9.81)(80)=4.71\\ \\mathrm{MW}$. The electrical output is $0.60(4.71)=2.8\\ \\mathrm{MW}$.",
+      "perOption": {
+        "A": "Reports the gravitational input power before applying efficiency.",
+        "B": "Correct.",
+        "C": "Uses the 40% loss fraction as the electrical output fraction.",
+        "D": "Underestimates the power by a factor of about ten, as would using an 8 m head."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is B.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must turn volume flow into mass flow, then apply the head and efficiency to obtain useful power.",
+    "misconception": "Reporting input power as output power",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q16",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Constant speed means the driving force balances both downhill terms, $F=W\\sin10^\\circ+W/5$, with $W=1100(9.81)\\ \\mathrm N$. The useful power is $P=Fv=1100(9.81)(\\sin10^\\circ+1/5)(15)\\approx60\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Uses the full weight in place of its downhill component.",
+        "B": "Correct.",
+        "C": "Includes the power needed to overcome friction alone.",
+        "D": "Includes the power needed to gain gravitational potential energy alone."
+      }
+    },
+    "issues": "The supplied key is an unmarked question paper. keyAnswer A is an unverified placeholder. The derived answer is B.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments",
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve weight along the slope, balance the forces and multiply by speed.",
+    "misconception": "Using the full weight along the slope",
+    "transcription": "A car of mass $1100\\ \\mathrm{kg}$ is travelling at a constant speed of $15\\ \\mathrm{m\\,s^{-1}}$ up a slope inclined at $10^\\circ$ to the horizontal. The combined frictional forces acting on the car are directed down the slope and are equal to $\\frac{W}{5}$, where $W$ is the weight of the car.\n\n[Diagram: A car is on a slope rising to the right at $10^\\circ$ above the horizontal. An arrow parallel to the slope points uphill and is labelled $15\\ \\mathrm{m\\,s^{-1}}$.]\n\nWhat is the useful output power of the car’s engine?\n\nA. $190\\ \\mathrm{kW}$\nB. $60\\ \\mathrm{kW}$\nC. $32\\ \\mathrm{kW}$\nD. $28\\ \\mathrm{kW}$"
+  }
+]

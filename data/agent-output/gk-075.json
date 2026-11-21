@@ -1,0 +1,490 @@
+[
+  {
+    "id": "njc-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The absolute uncertainty is $0.03(327.66)=9.8\\ldots\\ \\mathrm{m\\,s^{-1}}$, which rounds to $10\\ \\mathrm{m\\,s^{-1}}$. Round the speed to the tens place to give $330\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Rounds to the hundreds place and discards a justified digit.",
+        "B": "Rounds down even though 327.66 is nearer 330.",
+        "C": "Reports the ones place despite an uncertainty of about ten.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert the percentage to an absolute uncertainty, then round to the corresponding place.",
+    "misconception": "Reporting more digits than the uncertainty supports",
+    "transcription": "A student makes measurements from which he calculates the speed of sound as $327.66\\ \\mathrm{m\\,s^{-1}}$. He estimates that his result is accurate to $\\pm 3\\%$. Which of the following gives his results reduced to the appropriate number of significant figures?\n\nA. $300\\ \\mathrm{m\\,s^{-1}}$\nB. $320\\ \\mathrm{m\\,s^{-1}}$\nC. $328\\ \\mathrm{m\\,s^{-1}}$\nD. $330\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The speed–time graph is a straight line from the origin. The area from $0$ to $8\\ \\mathrm{s}$ is one triangular part, and the area from $8$ to $16\\ \\mathrm{s}$ is three such parts, giving a ratio of $3$.\n\nUsing the equations of motion, the car travels $0(8)+\\tfrac12 a(8)^2=32a$ in the first interval and reaches speed $8a$. It then travels $(8a)(8)+\\tfrac12 a(8)^2=96a$, giving $96a/(32a)=3$.",
+      "perOption": {
+        "A": "Assumes equal time intervals imply equal distances.",
+        "B": "Uses the ratio of endpoint speeds in place of the ratio of distances.",
+        "C": "Correct.",
+        "D": "Uses the total distance over 16 s for the numerator."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The ratio can be found by comparing areas on a speed–time graph or by splitting the motion into two intervals.",
+    "misconception": "Using the total distance for the second interval",
+    "transcription": "A car accelerates uniformly from rest for $16\\ \\mathrm{s}$ along a straight track.\n\nWhat is the ratio $\\dfrac{\\text{distance travelled between }8\\ \\mathrm{s}\\text{ and }16\\ \\mathrm{s}}{\\text{distance travelled between }0\\ \\mathrm{s}\\text{ and }8\\ \\mathrm{s}}$?\n\nA. 1\nB. 2\nC. 3\nD. 4"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "After $4.0\\ \\mathrm{s}$, the horizontal velocity is still $35\\cos 40^\\circ=26.8\\ \\mathrm{m\\,s^{-1}}$. The vertical velocity is $35\\sin 40^\\circ-9.81(4.0)=-16.7\\ \\mathrm{m\\,s^{-1}}$. The speed is $\\sqrt{(35\\cos40^\\circ)^2+(35\\sin40^\\circ-9.81\\times4.0)^2}=32\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Is close to the horizontal component alone and omits the vertical component.",
+        "B": "Correct.",
+        "C": "Is consistent with adding the gravitational change to the upward component, giving gravity the wrong sign.",
+        "D": "Overstates the speed by treating gravity as increasing the launch speed without resolving the velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Resolve the launch velocity, update the vertical component, and recombine the components.",
+    "misconception": "Applying gravity in the wrong direction",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of momentum gives $5.00(15.0)+10.0(0)=15.0v$, so the common speed is $5.00\\ \\mathrm{m\\,s^{-1}}$. The kinetic energy lost is $\\tfrac12(5.00)(15.0)^2-\\tfrac12(15.0)(5.00)^2=375\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Gives the rounded final kinetic energy.",
+        "B": "Correct.",
+        "C": "Gives the rounded initial kinetic energy, as if the combined object stopped.",
+        "D": "Exceeds the initial kinetic energy, so it cannot be the loss."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the common velocity from momentum conservation before calculating the kinetic energy difference.",
+    "misconception": "Confusing final kinetic energy with kinetic energy lost",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mercury surfaces differ in height by $1.90-0.38=1.52\\ \\mathrm{m}$. The oxygen pressure is atmospheric pressure plus the mercury head, $1.01\\times10^5+1.52(13.6\\times10^3)(9.81)=3.038\\times10^5\\ \\mathrm{Pa}$. Dividing by $1.01\\times10^5\\ \\mathrm{Pa}$ gives approximately $3.0$.",
+      "perOption": {
+        "A": "Treats the lower $0.38\\ \\mathrm{m}$ segment as the entire mercury head.",
+        "B": "Divides the mercury pressure contribution by atmospheric pressure and omits atmospheric pressure from the numerator.",
+        "C": "Uses the top of the trapped oxygen to measure the head, giving $1.14\\ \\mathrm{m}$ instead of $1.52\\ \\mathrm{m}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Identify the height difference between the mercury surfaces and use it to find the absolute pressure ratio.",
+    "misconception": "Confusing gauge pressure with absolute pressure",
+    "transcription": "Oxygen is compressed in the sealed end of a long J-tube by means of a column of mercury open to the atmosphere, as shown.\n\n[The short left limb is sealed and contains oxygen above mercury. The left mercury surface is $0.38\\ \\mathrm{m}$ above the bottom reference line, and the top of the oxygen is $0.38\\ \\mathrm{m}$ above that surface. The mercury surface in the tall open right limb is $1.90\\ \\mathrm{m}$ above the bottom reference line.]\n\nMercury has density $13.6\\times10^3\\ \\mathrm{kg\\,m^{-3}}$ and atmospheric pressure $1.01\\times10^5\\ \\mathrm{Pa}$.\n\nWhat is approximate value of $\\dfrac{\\text{pressure of oxygen}}{\\text{pressure of atmosphere}}$?\n\nA. 1.5\nB. 2.0\nC. 2.5\nD. 3.0"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Extend the line of the strut until it meets the vertical line through $G$. For the bonnet to be in equilibrium under three forces, the hinge force must act along the line from $H$ through that intersection. It points up and left, matching C.",
+      "perOption": {
+        "A": "A horizontal line through the hinge misses the intersection of the other two force lines.",
+        "B": "This uses the marked bonnet angle, so the line through the hinge misses the force-line intersection.",
+        "C": "Correct.",
+        "D": "Points down and right, reinforcing the strut’s rightward component."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Infer the line of action of the hinge force by extending the other two force lines and then determine its sense.",
+    "misconception": "Assuming the hinge force acts along the bonnet",
+    "transcription": "To inspect the engine of a car, the bonnet, hinged at H, is held open by a strut. The weight of the bonnet acts through its centre of gravity G.\n\n[Side view of a car with its bonnet raised to the left of hinge H. The bonnet has centre of gravity G, and a nearly vertical strut rising slightly to the right from the car body supports its raised end. The angle $\\theta$ at H is marked between the leftward horizontal and a dashed line sloping up to the left.]\n\nWhich arrow best represent the approximate direction of the force on the bonnet at the hinge H?\n\n[Four arrows share a common tail. A points horizontally left. B points up-left at angle $\\theta$ above A. C points more steeply up-left. D points down-right along the same line as C.]"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Power is work done per unit time, so $P=Fs/t$. Since $s/t=v$, the required power is $Fv$.",
+      "perOption": {
+        "A": "Gives momentum.",
+        "B": "Gives kinetic energy.",
+        "C": "Has units of work and omits division by time.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The question says ‘against a constant F’, with ‘force’ implied.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.m"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The answer follows directly from the definition of mechanical power.",
+    "misconception": "Confusing power with energy or momentum",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The angular speed is $\\omega=2\\pi/3\\ \\mathrm{rad\\,s^{-1}}$. The force is $F=mr\\omega^2=(2)(5)(2\\pi/3)^2=\\frac{40\\pi^2}{9}\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives a value 1.5 times too large because it does not retain the full squared angular-speed factor.",
+        "B": "Gives half the force, as when the mass factor of 2 is omitted.",
+        "C": "Correct.",
+        "D": "Gives too large a force by overcounting the radius dependence."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert the period to angular speed and substitute into the centripetal force equation.",
+    "misconception": "Using the period without squaring it",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $x$ be the distance from $M_1$ to the third particle between the two masses. Equating the gravitational forces gives $\\frac{GM_1m}{x^2}=\\frac{GM_2m}{(d-x)^2}$. Taking square roots gives $\\frac{x}{\\sqrt{M_1}}=\\frac{d-x}{\\sqrt{M_2}}$, so $x=\\frac{d\\sqrt{M_1}}{\\sqrt{M_1}+\\sqrt{M_2}}$.",
+      "perOption": {
+        "A": "Uses the full separation for the distance to the second mass.",
+        "B": "Uses an inverse-distance law instead of the inverse-square law.",
+        "C": "Correct.",
+        "D": "Combines the masses inside one square root instead of adding their separate square roots."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Set up the inverse-square balance with two different distances and solve for the unknown position.",
+    "misconception": "Treating gravitational force as inversely proportional to distance",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q12",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential at Y is $\\phi_Y=-GM/(2L)=\\tfrac12\\phi_X=-4\\ \\mathrm{kJ\\,kg^{-1}}$. From X to Y the potential increases by $(-4)-(-8)=4\\ \\mathrm{kJ\\,kg^{-1}}$. For a $2\\ \\mathrm{kg}$ mass, the gain in gravitational potential energy is $2(4)=8\\ \\mathrm{kJ}$.",
+      "perOption": {
+        "A": "Reverses the subtraction of the potentials before multiplying by mass.",
+        "B": "Uses the potential at Y in place of the change in potential energy.",
+        "C": "Uses the change in potential without multiplying by mass.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key omits the minus sign in its symbolic expressions for gravitational potential. Its substitution and final result use the correct sign.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.f",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use inverse-distance scaling, subtract the initial potential, and multiply by mass.",
+    "misconception": "Confusing gravitational potential with gravitational potential energy",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "At thermal equilibrium, microscopic energy exchanges can still occur in both directions. The school selects B because these exchanges balance, so the net heat flow is zero.",
+      "perOption": {
+        "A": "This statement is true because the ideal-gas model neglects intermolecular potential energy.",
+        "B": "Correct under the key’s interpretation of heat flow.",
+        "C": "This statement is true for melting ice at constant pressure.",
+        "D": "This statement is true for the mean translational kinetic energy of ideal-gas molecules."
+      }
+    },
+    "issues": "B is the intended answer, but heat flow conventionally means net thermal energy transfer. On that reading B is true and the question has no uniquely incorrect option.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The intended distinction is between microscopic energy exchange and net transfer at equilibrium.",
+    "misconception": "Confusing microscopic energy exchange with net heat transfer",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For this fixed amount of gas, $pV=nRT$ gives $T\\propto pV$. Since $(pV)_A=8000\\ \\mathrm{J}$ and $(pV)_B=18000\\ \\mathrm{J}$, the temperature and internal energy increase. The gas expands and does work, so work done on the gas $W$ is negative. Thus $Q=\\Delta U-W>0$, and the gas gains heat.",
+      "perOption": {
+        "A": "The rise in temperature increases the internal energy.",
+        "B": "The gas expands and does work on its surroundings.",
+        "C": "The higher temperature at B gives a higher mean molecular kinetic energy.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Read both states on the pressure–volume graph and combine the internal energy and work signs.",
+    "misconception": "Confusing work done on the gas with work done by it",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Work done on a system can increase its internal energy without heating. Internal energy is the sum of microscopic kinetic and potential energies. During boiling, for example, the internal energy increases while the temperature stays constant.",
+      "perOption": {
+        "A": "This holds for a fixed amount of ideal gas, while other systems can also have changing microscopic potential energy.",
+        "B": "Correct.",
+        "C": "During a phase change such as boiling, internal energy can rise at constant temperature.",
+        "D": "Equal total microscopic kinetic and potential energies combined do not require equal mean kinetic energies or temperatures."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Distinguish heating from work and recognize how microscopic potential energy contributes to internal energy.",
+    "misconception": "Equating internal energy with temperature",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force is the negative gradient of the potential-energy graph, $F=-\\mathrm{d}E_p/\\mathrm{d}r$. The given force decreases linearly through zero, so the energy gradient increases linearly through zero. The energy curve therefore has a minimum at $r=0$ and opens upwards.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the force as the gradient and gives a maximum at the origin.",
+        "C": "A constant negative gradient would give a constant positive force.",
+        "D": "A constant positive gradient would give a constant negative force."
+      }
+    },
+    "issues": "The question calls r a distance, but the graph includes negative r and uses it as a signed coordinate.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Translate the changing force into the sign and magnitude of the potential-energy gradient.",
+    "misconception": "Confusing force with the potential-energy gradient",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $v=f\\lambda$, the wavelength is $\\lambda=320/400=0.80\\ \\mathrm{m}$. The phase difference satisfies $\\frac{\\Delta\\phi}{2\\pi}=\\frac{0.2}{0.80}$, so $\\Delta\\phi=\\frac{\\pi}{2}\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Treats the separation as one eighth of a wavelength rather than one quarter.",
+        "B": "Correct.",
+        "C": "Treats the numerical separation 0.2 as the fraction of a wavelength.",
+        "D": "Treats 0.80, the wavelength in metres, as the fraction of a cycle."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Calculate the wavelength and express the separation as a fraction of a cycle.",
+    "misconception": "Using the separation alone as the fraction of a cycle",
+    "transcription": null
+  }
+]

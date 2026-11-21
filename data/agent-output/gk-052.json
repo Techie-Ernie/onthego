@@ -1,0 +1,505 @@
+[
+  {
+    "id": "ejc-2024-prelim-p1-q19",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Find the change in potential energy by subtracting the initial total from the final total. This gives $\\Delta U=\\frac{qQ_1}{4\\pi\\varepsilon_0}\\left(\\frac1{x_1+x_2}-\\frac1{x_1}\\right)+\\frac{qQ_2}{4\\pi\\varepsilon_0}\\left(\\frac1{x_2+x_3}-\\frac1{x_3}\\right)$. The electric field does work $W=-\\Delta U$, so both brackets reverse sign.",
+      "perOption": {
+        "A": "Correct. The field does work equal to the decrease in potential energy.",
+        "B": "Gives the change in potential energy with the opposite sign to the field work.",
+        "C": "Reverses the work contribution from the positive source charge.",
+        "D": "Reverses the work contribution from the negative source charge."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.d",
+      "electric-fields.e",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires superposing two signed potential-energy contributions and reversing the resulting change.",
+    "misconception": "Confusing field work with the change in potential energy.",
+    "transcription": "A test charge $q$ is moved from one position to another along the line joining a positive charge $Q_1$ and a negative charge $-Q_2$. The distances between the positions of the charges are $x_1$, $x_2$ and $x_3$, as shown in the diagram below.\n\n[From left to right are $Q_1$, the initial position of $q$, the final position of $q$, and $-Q_2$. The successive spacings are $x_1$, $x_2$ and $x_3$.]\n\nWhat is the work done by the electric field?\n\nA $\\frac{qQ_1}{4\\pi\\varepsilon_0}\\left(\\frac1{x_1}-\\frac1{x_1+x_2}\\right)+\\frac{qQ_2}{4\\pi\\varepsilon_0}\\left(\\frac1{x_3}-\\frac1{x_2+x_3}\\right)$\nB $\\frac{qQ_1}{4\\pi\\varepsilon_0}\\left(\\frac1{x_1+x_2}-\\frac1{x_1}\\right)+\\frac{qQ_2}{4\\pi\\varepsilon_0}\\left(\\frac1{x_2+x_3}-\\frac1{x_3}\\right)$\nC $\\frac{qQ_1}{4\\pi\\varepsilon_0}\\left(\\frac1{x_1+x_2}-\\frac1{x_1}\\right)+\\frac{qQ_2}{4\\pi\\varepsilon_0}\\left(\\frac1{x_3}-\\frac1{x_2+x_3}\\right)$\nD $\\frac{qQ_1}{4\\pi\\varepsilon_0}\\left(\\frac1{x_1}-\\frac1{x_1+x_2}\\right)+\\frac{qQ_2}{4\\pi\\varepsilon_0}\\left(\\frac1{x_2+x_3}-\\frac1{x_3}\\right)$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q20",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field is uniform between the plates, so $F_{\\mathrm A}=F_{\\mathrm B}$. Point A is closer to the negative plate, so $V_{\\mathrm A}<V_{\\mathrm B}$. Since $U=qV$ and $q<0$ for an electron, $U_{\\mathrm A}>U_{\\mathrm B}$.",
+      "perOption": {
+        "A": "The field is uniform and the potential is lower at A, giving the electron higher potential energy there.",
+        "B": "Assigns different force magnitudes in a uniform electric field.",
+        "C": "Reverses the potential ordering and hence the electron’s potential-energy ordering.",
+        "D": "Correct. The force is equal at both points and the electron has higher potential energy at A."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing field strength, potential and the potential energy of a negative charge.",
+    "misconception": "Assuming electric potential and electron potential energy vary in the same direction.",
+    "transcription": "An electron enters the region between two charged parallel plates through a small opening, in the direction as shown in the diagram below. A and B are two points on the path of the electron.\n\n[The electron enters vertically downwards through a hole in the upper plate at $-V$. Points A and B lie directly below the opening, with A above B and the lower plate at $+V$ below both.]\n\nThe two plates are at electric potentials $-V$ and $+V$.\n\nWhich row correctly describes the relations between the electric forces $F$, potentials $V$ and potential energies $U$ at A and B?\n\nA $F_{\\mathrm A}>F_{\\mathrm B}$, $V_{\\mathrm A}>V_{\\mathrm B}$, $U_{\\mathrm A}<U_{\\mathrm B}$\nB $F_{\\mathrm A}>F_{\\mathrm B}$, $V_{\\mathrm A}<V_{\\mathrm B}$, $U_{\\mathrm A}>U_{\\mathrm B}$\nC $F_{\\mathrm A}=F_{\\mathrm B}$, $V_{\\mathrm A}>V_{\\mathrm B}$, $U_{\\mathrm A}<U_{\\mathrm B}$\nD $F_{\\mathrm A}=F_{\\mathrm B}$, $V_{\\mathrm A}<V_{\\mathrm B}$, $U_{\\mathrm A}>U_{\\mathrm B}$"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q21",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For wires separated by $d$, substituting $B=\\mu_0 I/(2\\pi d)$ into the magnetic force law gives a pairwise force magnitude $kI_1I_2/d$, with $k=\\mu_0 L/(2\\pi)$. Take right as positive and add each wire’s three contributions, using attraction for like currents and repulsion for opposite currents. In units of $kI^2/a$, the resultants on W, X, Y and Z are $-7/6$, $-1$, $5/2$ and $-1/3$, respectively. Wire Y has the largest magnitude.",
+      "perOption": {
+        "A": "W’s two attractions partly cancel its repulsion from X, leaving a magnitude of only $7kI^2/(6a)$.",
+        "B": "On X, the equal repulsions from W and Y cancel, leaving only the weaker repulsion from Z.",
+        "C": "Correct. The force on Y has the largest magnitude.",
+        "D": "The repulsion from X partly cancels both leftward attractions on Z."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires summing three signed inverse-distance forces per wire and comparing magnitudes.",
+    "misconception": "Adding magnetic forces without accounting for their directions.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q22",
+    "keyPage": 10,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upward electric field exerts a downward force on the electron. For an electron moving out of the page in the downward magnetic field, the magnetic force points left. Together the forces deflect the beam down and to the left.",
+      "perOption": {
+        "A": "Correct. Both deflection directions agree with the forces.",
+        "B": "Reverses the magnetic deflection.",
+        "C": "Reverses the electric deflection.",
+        "D": "Reverses both deflection directions."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.l",
+      "electric-fields.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying the magnetic force rule to an electron and combining perpendicular deflections.",
+    "misconception": "Using the electron’s velocity as conventional current.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q23",
+    "keyPage": 10,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use Faraday’s law and divide the induced e.m.f. by the resistance. This gives $I=\\frac{(4.0\\times10^{-5})\\sin 50^\\circ\\,\\pi(0.50/2)^2}{(2.0)(3.0)}=1.0\\times10^{-6}\\ \\mathrm A$. The current is constant because the flux changes at a constant rate.",
+      "perOption": {
+        "A": "Correct. The constant flux-change rate gives a steady current.",
+        "B": "Omits the $\\sin 50^\\circ$ projection onto the ring normal.",
+        "C": "Treats the current as increasing with the accumulated flux change despite the constant rate of change.",
+        "D": "Omits the field projection and incorrectly makes the current increase with time."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e",
+      "circuits.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires projecting the field onto the ring normal and linking the rate of flux change to current.",
+    "misconception": "Using the angle to the ring plane as the angle to its normal.",
+    "transcription": "A uniform magnetic field directed at $50^\\circ$ to the plane of a circular metal ring passes through the ring of diameter $0.50\\ \\mathrm m$ and resistance $3.0\\ \\Omega$, as shown in the diagram.\n\n[Parallel magnetic field arrows pass diagonally through the ring, making $50^\\circ$ with its plane.]\n\nThe magnetic flux density through the ring decreases by $4.0\\times10^{-5}\\ \\mathrm T$ at a constant rate in $2.0\\ \\mathrm s$. During this change, what is the current induced in the ring?\n\nA It remains constant at $1.0\\ \\mu\\mathrm A$.\nB It remains constant at $1.3\\ \\mu\\mathrm A$.\nC It increases from zero to $1.0\\ \\mu\\mathrm A$ at a constant rate.\nD It increases from zero to $1.3\\ \\mu\\mathrm A$ at a constant rate."
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q24",
+    "keyPage": 11,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Square the current waveform, find the area over one period, divide by the period and take the square root. This gives $I_{\\mathrm{rms}}=\\sqrt{[4.0^2(1)+2.0^2(2)]/4}=2.45\\ \\mathrm A$. The average power is $I_{\\mathrm{rms}}^2R=(2.45)^2(11)=66\\ \\mathrm W$.",
+      "perOption": {
+        "A": "Uses the zero mean current to infer zero heating.",
+        "B": "Using the mean current magnitude of $2.0\\ \\mathrm A$ as the r.m.s. current gives this value.",
+        "C": "Correct. The power follows from the mean square current.",
+        "D": "This is the average over the three nonzero-current seconds, omitting the zero-current second."
+      }
+    },
+    "issues": "Use the intended 1 s, 2 s and 1 s intervals from the key. Some waveform transitions are drawn slightly off their labelled integer times.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires reading dwell times from a rectangular waveform and averaging squared current over a period.",
+    "misconception": "Averaging signed current before calculating heating power.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q25",
+    "keyPage": 11,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The two curves have the same saturation current, so they have the same photoelectron emission rate and, assuming unchanged photoelectric yield, the same photon arrival rate. The new stopping potential has a smaller magnitude, so $hf=\\phi+e|V_s|$ gives a lower frequency for the same metal. With the same arrival rate and illuminated area, intensity $(n_{\\mathrm{photon}}/t)hf/A$ is lower.",
+      "perOption": {
+        "A": "The smaller stopping-potential magnitude implies a lower frequency.",
+        "B": "Correct. The new photons carry less energy at the same assumed arrival rate.",
+        "C": "The stopping potential gives a lower frequency, and unchanged current does not imply unchanged optical intensity.",
+        "D": "At the same assumed photon arrival rate, the lower frequency reduces the intensity."
+      }
+    },
+    "issues": "B is the intended answer under the key’s assumption of unchanged photoelectric yield and illuminated area. Saturation current alone fixes the photoelectron rate, so without that assumption the intensity comparison is underdetermined.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires using the stopping potential and saturation current together to infer optical intensity.",
+    "misconception": "Equating photon arrival rate with optical intensity.",
+    "transcription": "In a photoelectric effect experiment, the variation of the photocurrent with the potential difference applied is shown in the diagram below, as the solid curve.\n\n[Photocurrent is plotted against potential difference. The solid original curve starts rising at a more negative potential difference than the dashed new curve. Both reach the same plateau at zero potential difference.]\n\nThe light source is then replaced with a new one, and the dashed curve is obtained.\n\nWhich row correctly describes the new light source relative to the original source?\n\nOption | intensity | frequency\nA | lower | higher\nB | lower | lower\nC | same | higher\nD | same | lower"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q26",
+    "keyPage": 11,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Changing the accelerating potential changes the kinetic energy of the incident electrons, so $\\lambda_{\\min}$ and intensities across the spectrum change. The spikes come from energy differences between inner shells of the target atoms, which are fixed by the metal. Their wavelengths stay fixed as long as the incident electrons can eject inner-shell electrons.",
+      "perOption": {
+        "A": "The cutoff changes because the maximum photon energy depends on the accelerating potential.",
+        "B": "Correct. The target’s inner-shell energy differences fix the spike wavelengths.",
+        "C": "Changing electron energy can change the rate of inner-shell ionisation and thus spike intensity.",
+        "D": "Changing electron energy changes the intensity of the continuous spectrum."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing characteristic lines from the continuous spectrum.",
+    "misconception": "Linking characteristic wavelengths to incident electron energy.",
+    "transcription": "X-rays are produced when a beam of electrons, accelerated to a high speed by a potential difference, collides with a metal target.\n\nThe variation with wavelength of the intensity of the X-rays is illustrated in the diagram below.\n\n[The vertical axis is X-ray intensity and the horizontal axis is wavelength. A broad continuous curve starts at $\\lambda_{\\min}$, rises to a maximum and declines towards longer wavelengths. Two sharp spikes sit on the declining part, with the second spike taller than the first.]\n\nWhich feature of the X-ray graph remains unchanged when the accelerating potential changes?\n\nA the wavelength $\\lambda_{\\min}$\nB the wavelengths at which the spikes occur\nC the intensity of the spikes\nD the intensity of the continuous spectrum"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q27",
+    "keyPage": 11,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stated uncertainty principle gives $\\Delta p\\,\\Delta x\\ge h$ for the position and momentum uncertainties. For a fixed positive $\\Delta x$, it therefore sets a lower bound of $h/\\Delta x$ on $\\Delta p$.",
+      "perOption": {
+        "A": "Treats the lower bound as an equality that every measurement must satisfy.",
+        "B": "Interprets uncertainties as physical changes in position and momentum.",
+        "C": "Correct. The given inequality sets this minimum.",
+        "D": "Increasing momentum uncertainty lowers the bound on position uncertainty."
+      }
+    },
+    "issues": "C follows from the printed inequality. The exact standard-deviation bound is ℏ/2, while the syllabus gives an order-of-magnitude form.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires interpreting an inequality as a lower bound.",
+    "misconception": "Treating the uncertainty bound as an exact inverse proportionality.",
+    "transcription": "The Heisenberg uncertainty principle is given by the relationship\n\n$\\Delta p\\Delta x\\ge h$\n\nwhere $p$ = momentum\n$x$ = position\n$h$ = Planck constant.\n\nWhich statement about the interpretation of this relationship is correct?\n\nA The uncertainty in position $\\Delta x$ is proportional to the reciprocal of the uncertainty in momentum $\\Delta p$.\nB If the position of a particle is changed by $\\Delta x$, its momentum must change by at least $\\Delta p=h/\\Delta x$.\nC If the position of a particle is measured with an uncertainty $\\Delta x$, the minimum uncertainty of its momentum is $\\Delta p=h/\\Delta x$.\nD The greater the uncertainty in the momentum $p$ of a particle, the greater is the uncertainty in its position $x$."
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q28",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most $\\alpha$-particles pass straight through or scatter by less than $10^\\circ$, and only about 1 in 8000 scatter through more than $90^\\circ$ or straight back. The key estimates that graph A drops from $10^8$ at $0^\\circ$ to $10^5$ at $10^\\circ$. This much sharper decline best represents the strong concentration near the forward direction.",
+      "perOption": {
+        "A": "Correct. The key estimates a drop to about one-thousandth of the forward count.",
+        "B": "The key estimates a drop of only 50%, from $0.7\\times10^9$ to $0.35\\times10^9$.",
+        "C": "The key estimates only a small drop, from $0.7\\times10^9$ to $0.68\\times10^9$.",
+        "D": "The key estimates a drop from $10^8$ to $10^{7.8}$, less than a factor of ten."
+      }
+    },
+    "issues": "The key’s numerical readings at 10° are rough estimates from the sketches.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires interpreting both logarithmic and linear axes to compare fractional drops.",
+    "misconception": "Comparing curve shapes without checking vertical scales.",
+    "transcription": "In an $\\alpha$-particle scattering experiment, a student set up the apparatus below to determine the number $N$ of $\\alpha$-particle incident per unit time on a detector held at various angles $\\theta$.\n\n[An $\\alpha$-particle beam enters from the left and strikes a thin gold foil at the centre of a circular detector path. The forward direction is marked $0^\\circ$, with $+90^\\circ$ at the top, $-90^\\circ$ at the bottom, and $+175^\\circ$ and $-175^\\circ$ beside the beam entry. The detector is shown in the upper right at angle $\\theta$ from the forward direction.]\n\nWhich graph best represents the variation of $N$ with $\\theta$?\n\n[All four graphs put $\\theta/^\\circ$ on the horizontal axis, with marked values 0, 40, 80 and 120.]\nA [Vertical axis $\\log_{10}N$. The curve drops very sharply from about 8 at $0^\\circ$ and levels off below 2.]\nB [Vertical axis $N/10^9$. The curve falls sharply from about 0.7 and gradually levels off slightly above zero.]\nC [Vertical axis $N/10^9$. The curve starts around 0.7, falls slowly at first, then steeply near $40^\\circ$, and levels off slightly above zero.]\nD [Vertical axis $\\log_{10}N$. The curve starts around 8 and falls slowly at first, then increasingly steeply to 1.]"
+  },
+  {
+    "id": "ejc-2024-prelim-p1-q30",
+    "keyPage": 13,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each reaction uses one hydrogen nucleus, so the number of reactions is $(0.0010\\ \\mathrm{kg})/(1.008\\ \\mathrm u)=5.976\\times10^{23}$ after converting the nuclear mass to kilograms. One reaction releases $[7.018+1.008-2(4.004)]\\,\\mathrm u\\,c^2=2.689\\times10^{-12}\\ \\mathrm J$. Multiplying by the reaction count gives $1.61\\times10^{12}\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Gives the energy released by just one reaction.",
+        "B": "This is on the scale of one helium nucleus’s rest energy, whereas the calculation uses the mass lost across the whole sample.",
+        "C": "Correct. Multiply the energy per reaction by the number of reactions.",
+        "D": "This is on the scale of the rest energy of one helium product per reaction, whereas released energy comes from the mass difference."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.q"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires calculating the reaction count and converting mass loss per reaction to joules.",
+    "misconception": "Reporting energy per reaction for a macroscopic sample.",
+    "transcription": "Consider the following nuclear reaction:\n\n$\\vphantom{X}^{7}_{3}\\mathrm{Li}+\\vphantom{X}^{1}_{1}\\mathrm H\\to 2\\,\\vphantom{X}^{4}_{2}\\mathrm{He}$\n\nThe masses of the nuclei are as follow: $\\vphantom{X}^{7}_{3}\\mathrm{Li}$: $7.018\\ \\mathrm u$, $\\vphantom{X}^{1}_{1}\\mathrm H$: $1.008\\ \\mathrm u$, $\\vphantom{X}^{4}_{2}\\mathrm{He}$: $4.004\\ \\mathrm u$.\n\nHow much energy is released when $1.0\\ \\mathrm g$ of $\\vphantom{X}^{1}_{1}\\mathrm H$ is fused with a sufficient amount of $\\vphantom{X}^{7}_{3}\\mathrm{Li}$?\n\nA $2.7\\times10^{-12}\\ \\mathrm J$\nB $6.1\\times10^{-10}\\ \\mathrm J$\nC $1.6\\times10^{12}\\ \\mathrm J$\nD $3.6\\times10^{14}\\ \\mathrm J$"
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean reading is $47.78\\ \\mathrm{mm}$, far from the true diameter of $42.03\\ \\mathrm{mm}$, so the measurements are inaccurate. The spread of the five readings indicates poor precision.",
+      "perOption": {
+        "A": "Both the offset from the true value and the spread are substantial.",
+        "B": "The mean is well above $42.03\\ \\mathrm{mm}$, so the measurements are inaccurate.",
+        "C": "Correct. The full set shows both an offset and a spread.",
+        "D": "Calling the set precise overlooks the $46.80\\ \\mathrm{mm}$ reading, which sits well below the others."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the mean with the true value and considering the full spread.",
+    "misconception": "Equating digital resolution with precision.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first $90\\ \\mathrm{km}$ takes $90/80=1.125\\ \\mathrm h$. The remaining $110\\ \\mathrm{km}$ must be covered in $2.000-1.125=0.875\\ \\mathrm h$. The required average speed is $110/0.875\\approx126\\ \\mathrm{km\\,h^{-1}}$.",
+      "perOption": {
+        "A": "This uses a full hour for the last $110\\ \\mathrm{km}$.",
+        "B": "At $120\\ \\mathrm{km\\,h^{-1}}$, the last leg takes about $0.917\\ \\mathrm h$, exceeding the remaining time.",
+        "C": "At $122\\ \\mathrm{km\\,h^{-1}}$, the last leg takes about $0.902\\ \\mathrm h$, still exceeding the remaining time.",
+        "D": "Correct. It covers the remaining distance in the available time to the given precision."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires finding the remaining time before dividing the remaining distance by it.",
+    "misconception": "Assuming one hour remains.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "With three wires, equilibrium gives $3kx=mg$. With two wires it gives $2kx'=mg$, so $2x'/(3x)=1$ and $x'=3x/2$. The lamp falls by $x'-x=0.5x=0.5(0.40)=0.20\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Correct. The height falls by the additional extension.",
+        "B": "Multiplying the initial extension by $2/3$ gives this value, but each remaining wire must carry more load.",
+        "C": "This is the original extension, while the added extension is only half of it.",
+        "D": "This gives the final extension measured from the unstretched length."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using two equilibrium conditions and converting the new extension into a height change.",
+    "misconception": "Reporting the total final extension.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2025-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the hanging block, Newton’s second law gives $(0.50)(9.81)-T=(0.50)a$. For the block on the table it gives $T-3.5=(0.20)a$. Adding the equations eliminates $T$ and gives $a=2.0\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct. The hanging weight minus friction accelerates both blocks.",
+        "B": "Dividing the net driving force by only the hanging mass gives this value.",
+        "C": "Using the table block’s weight per unit hanging mass gives about this value, but the table block’s weight is balanced by the normal reaction.",
+        "D": "Dividing the friction force alone by the hanging mass gives this value."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires writing force equations for two blocks with a common acceleration and eliminating tension.",
+    "misconception": "Using only one block’s mass with the net driving force.",
+    "transcription": null
+  }
+]

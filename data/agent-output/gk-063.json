@@ -1,0 +1,521 @@
+[
+  {
+    "id": "hci-2026-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cheetah’s velocity relative to the gazelle is $\\vec v_{CG}=\\vec v_{CO}-\\vec v_{GO}$. The two ground-frame velocities are separated by $40^\\circ$, so the cosine rule gives $v_{CG}=\\sqrt{25^2+30^2-2(25)(30)\\cos 40^\\circ}=19\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Subtracts the speeds as though both animals were moving due east.",
+        "B": "Correct.",
+        "C": "Uses the $50^\\circ$ bearing from north as the angle between the velocities.",
+        "D": "Adds the velocity vectors instead of subtracting the gazelle’s velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires vector subtraction and the correct included angle.",
+    "misconception": "Subtracting speeds as scalars",
+    "transcription": "A cheetah is sprinting at $30\\ \\mathrm{m\\,s^{-1}}$ directly towards a gazelle that is located at a direction of $50^\\circ$ East of North relative to the cheetah. The gazelle spots the cheetah and immediately bolts due East at $25\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is then the magnitude of the velocity of the cheetah relative to the gazelle?\n\nA $5.0\\ \\mathrm{m\\,s^{-1}}$\nB $19\\ \\mathrm{m\\,s^{-1}}$\nC $24\\ \\mathrm{m\\,s^{-1}}$\nD $52\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The signed area under the acceleration–time graph gives the change in velocity, so the velocity is greatest at $2T$. The car slows after $2T$ but still moves forward, since its velocity at $3T$ equals its positive velocity at $T$. Its displacement is therefore greatest at $3T$ over the interval shown.",
+      "perOption": {
+        "A": "Treats peak acceleration at $T$ as peak velocity and stops counting displacement at $2T$.",
+        "B": "Treats zero acceleration at $2T$ as the point where forward motion stops.",
+        "C": "Correct.",
+        "D": "Overlooks the negative area from $2T$ to $3T$, which reduces the velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track the signed area and distinguish slowing down from reversing.",
+    "misconception": "Confusing negative acceleration with negative velocity",
+    "transcription": "A car is travelling along a straight road from rest at time $t=0$. The graph shows the variation with $t$ of its acceleration $a$ during part of the journey.\n\n[Graph of $a$ against $t$. Straight segments go from $(0,0)$ to $(T,a_0)$ and then to $(3T,-a_0)$, crossing $a=0$ at $2T$. A vertical line at $3T$ connects the endpoint to the time axis.]\n\nAt which points in time does the car have its greatest velocity and greatest displacement?\n\ngreatest velocity | greatest displacement\nA $T$ | $2T$\nB $2T$ | $2T$\nC $2T$ | $3T$\nD $3T$ | $3T$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top, the ball is still moving horizontally to the right, so air resistance acts to the left. Weight acts downwards, giving a resultant force and hence an acceleration diagonally down and to the left.",
+      "perOption": {
+        "A": "Includes weight only and omits the air resistance implied by the trajectory.",
+        "B": "Correct.",
+        "C": "Shows the direction of velocity at the top and omits both force components.",
+        "D": "Treats the top of the flight as a point of zero resultant force."
+      }
+    },
+    "issues": "The question does not explicitly state that air resistance is significant. The asymmetric trajectory indicates drag and supports B. With air resistance neglected, A would apply.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer drag from the drawn trajectory and combine it with weight.",
+    "misconception": "Taking acceleration to be along the velocity",
+    "transcription": "A ball thrown at an angle travels in a trajectory as shown.\n\n[A ball leaves a hand at the left. A dashed trajectory rises to the right, rounds over at its highest point and descends more steeply to the right.]\n\nWhen the ball is at the top of its flight, which of the following shows the direction of its acceleration?\n\nA [Arrow vertically down.]\nB [Arrow diagonally down and left.]\nC [Arrow horizontally right.]\nD [Ball with no arrow.]"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The man and platform are in vertical equilibrium, so the upward force from the water equals their weight. By Newton’s third law, the platform exerts an equal downward force on the water. The water enters horizontally and leaves vertically, so Newton’s second law gives a vertical force of $(\\Delta m/\\Delta t)v=40v$ in SI units. Thus $v=(96)(9.81)/40=23.54\\ \\mathrm{m\\,s^{-1}}\\approx24\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Divides the mass by the mass flow rate and omits the factor of $g$.",
+        "B": "Uses a speed whose momentum flow supplies only about $276\\ \\mathrm{N}$ of thrust, too little to balance the weight.",
+        "C": "Correct.",
+        "D": "Uses a speed that would produce about twice the thrust needed for equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect vertical equilibrium and Newton’s third law to a momentum flow rate.",
+    "misconception": "Using the mass flow rate as a force",
+    "transcription": null
+  },
+  {
+    "id": "hci-2026-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Impulse equals final momentum minus initial momentum. Taking the direction away from the player as positive gives $6.7=0.45v_f-0.45(-3.2)$. The new speed is $12\\ \\mathrm{m\\,s^{-1}}$ to two significant figures.",
+      "perOption": {
+        "A": "Reports the numerical value of the final momentum as a speed without dividing by the mass.",
+        "B": "Adds the magnitudes of the impulse and initial momentum and reports the result as a speed without dividing by the mass.",
+        "C": "Correct.",
+        "D": "Uses the initial velocity as positive, so it adds the incoming speed to the speed change."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main step is assigning opposite signs to the incoming and outgoing velocities.",
+    "misconception": "Ignoring the initial momentum’s direction",
+    "transcription": "A soccer ball of mass $0.45\\ \\mathrm{kg}$ is travelling towards a player at $3.2\\ \\mathrm{m\\,s^{-1}}$.\n\nThe player kicks the ball with an impulse of $6.7\\ \\mathrm{N\\,s}$, returning it in the direction of approach. What is the new speed of the ball?\n\nA $5.3\\ \\mathrm{m\\,s^{-1}}$\nB $8.1\\ \\mathrm{m\\,s^{-1}}$\nC $12\\ \\mathrm{m\\,s^{-1}}$\nD $18\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The frame is in equilibrium, so the resultant $R$ of the tensions is vertically upwards and equal in magnitude to the weight. Here $T_2$ is larger than $T_1$ even though its cord is shorter, because the cord lengths do not determine the tensions.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the resultant of the two tensions, pointing it downwards.",
+        "C": "Leaves a horizontal component in the resultant even though the horizontal components must cancel.",
+        "D": "Reverses the vector sum and leaves a horizontal component despite equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Equilibrium fixes the direction of the resultant before comparing the vector triangles.",
+    "misconception": "Using cord length to infer tension magnitude",
+    "transcription": null
+  },
+  {
+    "id": "hci-2026-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By conservation of energy, the gravitational potential energy lost over the full fall equals the magnitude of the work done by the mean ground force during penetration. Thus $mg(h+x)=Fx$, where $h=4.5\\ \\mathrm m$ and $x=0.25\\ \\mathrm m$. This gives $F=(3.0)(9.81)(4.5+0.25)/0.25=560\\ \\mathrm N$ to two significant figures.",
+      "perOption": {
+        "A": "Divides the energy at ground level by 25, treating the penetration distance in centimetres as metres.",
+        "B": "Allows the ground force to do only $25\\ \\mathrm J$ of work in magnitude, too little to account for the energy lost over the fall.",
+        "C": "Omits the additional gravitational potential energy lost during penetration.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation uses the full height loss for gravity and only the penetration distance for the ground force.",
+    "misconception": "Omitting gravitational work during penetration",
+    "transcription": null
+  },
+  {
+    "id": "hci-2026-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The difference between the two belt tensions is $60-25=35\\ \\mathrm N$. With the belt stationary, the motor works against this tangential load at the speed of the wheel rim, which travels $20\\pi d$ per second. Hence $P=35(20\\pi\\times0.35)=770\\ \\mathrm W$ to two significant figures.",
+      "perOption": {
+        "A": "Omits $\\pi$ from the circumference used to calculate rim speed.",
+        "B": "Correct.",
+        "C": "Uses the $60\\ \\mathrm N$ tension alone and ignores the opposing $25\\ \\mathrm N$ tension.",
+        "D": "Adds the two tensions even though they exert opposing torques."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires the belt tension difference and the linear speed of the wheel rim.",
+    "misconception": "Using one belt tension or the belt speed in the power calculation",
+    "transcription": "The diagram shows an arrangement used to find the output power of an electric motor.\n\nThe wheel attached to the motor’s axle has a diameter of $35\\ \\mathrm{cm}$. The belt which passes over it is stationary when the wheel is making $20$ revolutions per second.\n\n[The motor turns a wheel clockwise as viewed from its exposed face. A belt passes over the wheel, with a $60\\ \\mathrm N$ weight hanging on the left and a $25\\ \\mathrm N$ weight hanging on the right.]\n\nWhat is the output power of the motor?\n\nA $250\\ \\mathrm W$\nB $770\\ \\mathrm W$\nC $1300\\ \\mathrm W$\nD $1900\\ \\mathrm W$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The horizontal tension supplies the centripetal force, $T=mv^2/r=(0.30)(4.0)^2/0.60=8.0\\ \\mathrm N$. The weight $W$ acts vertically, so the net force has magnitude $F=\\sqrt{T^2+W^2}=\\sqrt{8.0^2+(0.30\\times9.81)^2}=8.52\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Includes only the weight and omits the horizontal tension.",
+        "B": "Includes only the centripetal force and omits the perpendicular weight.",
+        "C": "Correct.",
+        "D": "Adds the magnitudes of the tension and weight as if they acted in the same direction."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate the radial force and combine it with a perpendicular tangential force.",
+    "misconception": "Equating the net force with the centripetal force",
+    "transcription": "A ball of mass $0.30\\ \\mathrm{kg}$ is attached to a light, inextensible string. It is rotated in a vertical circle. The length of the string is $0.60\\ \\mathrm m$ and the tangential speed of the ball when the string is horizontal is $4.0\\ \\mathrm{m\\,s^{-1}}$.\n\n[A dashed vertical circle is shown with the ball at its rightmost point and a horizontal string joining the centre to the ball.]\n\nWhat is the net force acting on the ball when the string is horizontal?\n\nA $2.9\\ \\mathrm N$\nB $8.0\\ \\mathrm N$\nC $8.5\\ \\mathrm N$\nD $10.9\\ \\mathrm N$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $P$, the fields due to $M$ and $9M$ have magnitudes $GM/x^2$ and $G(9M)/y^2$. Since the resultant field is zero, the magnitudes are equal, giving $1/x^2=9/y^2$ and $x:y=1:3$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assumes the balance distances scale directly with the source masses.",
+        "C": "Takes the square root correctly but reverses the order of the distances.",
+        "D": "Uses the mass ratio directly and reverses the order of the distances."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must equate the inverse-square field magnitudes and take a square root.",
+    "misconception": "Using a linear distance dependence for gravitational field strength",
+    "transcription": null
+  },
+  {
+    "id": "hci-2026-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resultant gravitational field strength at $Q$ is zero. Since $g=-\\mathrm d\\phi/\\mathrm dr$ along the line between the planets, the gravitational potential gradient there is zero.",
+      "perOption": {
+        "A": "The potential is highest along the line between the planets at $Q$, so moving toward the smaller planet lowers the mass’s gravitational potential energy.",
+        "B": "The potential is least negative along that line at $Q$ and still has a negative value.",
+        "C": "The two planets determine the gravitational potential at $Q$ independently of the test mass.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.e",
+      "gravitational-fields.f",
+      "gravitational-fields.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish potential, potential energy and the potential gradient at the field null.",
+    "misconception": "Equating zero field with zero potential",
+    "transcription": "Point Q is a point between two planets of different masses where an object will experience zero resultant gravitational force due to the two planets.\n\nWhich statement about point Q is correct?\n\nA A mass moved along the line from point Q to the surface of the planet of smaller mass experiences an increase in gravitational potential energy.\nB The total gravitational potential at point Q is zero.\nC The gravitational potential at point Q depends on the mass of any object placed there.\nD The gravitational potential gradient at point Q is zero."
+  },
+  {
+    "id": "hci-2026-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of each acceleration–displacement line is $-\\omega^2$, so $\\omega_P^2=4\\omega_Q^2$. The graph gives $P$ half the amplitude of $Q$. In $E_{K,\\max}=\\tfrac12mv_0^2=\\tfrac12m\\omega^2x_0^2$, the factor of four from $\\omega^2$ cancels the factor of one quarter from $x_0^2$, giving equal maxima.",
+      "perOption": {
+        "A": "Gives $P$ a lower peak despite the larger $\\omega^2$ exactly compensating for its smaller squared amplitude.",
+        "B": "Correct.",
+        "C": "Gives $P$ twice the peak energy, as if the amplitude entered the energy formula linearly.",
+        "D": "Gives $P$ four times the peak energy, as if both oscillations had the same amplitude."
+      }
+    },
+    "issues": "The key treats the endpoints of each plotted acceleration–displacement line as the turning points. The stem leaves that convention implicit.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer both angular-frequency and amplitude ratios from the graph and combine them in the energy equation.",
+    "misconception": "Ignoring the squared amplitude in the energy of oscillation",
+    "transcription": "The graph shows the variation of acceleration $a$ with displacement $x$ for two objects, P and Q of the same mass.\n\n[Two descending straight lines on an $a$–$x$ grid pass through the origin. P runs from two grid squares left and two up to two right and two down. Q runs from four left and one up to four right and one down.]\n\nWhich of the following graphs shows the corresponding variation of kinetic energy $E_K$ with displacement $x$ for P and Q?\n\n[In each option, P and Q are shown as downward-opening curves centred on $x=0$. P meets the horizontal axis two grid squares to either side of the origin, and Q meets it four grid squares to either side. Q peaks one grid square above the horizontal axis in all four options.]\n\nA [P peaks half a grid square above the horizontal axis.]\nB [P peaks one grid square above the horizontal axis.]\nC [P peaks two grid squares above the horizontal axis.]\nD [P peaks four grid squares above the horizontal axis.]"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gain in elastic potential energy is $\\tfrac12k(x_f^2-x_i^2)=\\tfrac12(25)(0.070^2-0.055^2)=0.0234\\ \\mathrm J$. The energy of oscillation is the external work done in pulling the mass down, given by the elastic energy gain minus the gravitational energy loss, $0.0234-(0.140)(9.81)(0.015)=0.00280\\ \\mathrm J$. Equivalently, using $\\omega^2=k/m$, the maximum kinetic energy is $\\tfrac12m\\omega^2x_0^2=\\tfrac12(25)(0.015)^2=0.00281\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Uses the full gain in elastic energy as the oscillation energy and omits the loss in gravitational potential energy.",
+        "B": "Correct.",
+        "C": "Swaps the elastic energy gain and the energy of oscillation.",
+        "D": "Uses the pull-down distance as the full spring extension when calculating the elastic energy gain."
+      }
+    },
+    "issues": "The key rounds the elastic energy gain before subtracting the loss in gravitational potential energy. Both methods still give 0.0028 J to the precision of the choices.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "oscillations.h",
+      "energy-and-fields.k",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must use extension from natural length for elastic energy and account for gravity when finding oscillation energy.",
+    "misconception": "Using displacement from equilibrium as the spring’s total extension",
+    "transcription": "A mass of $0.140\\ \\mathrm{kg}$ extends a spring by $0.055\\ \\mathrm m$ at equilibrium. The spring has a force constant of $25.0\\ \\mathrm{N\\,m^{-1}}$.\n\nThe mass is pulled down a further $0.015\\ \\mathrm m$ from its equilibrium position and set into simple harmonic motion.\n\nDetermine the gain in elastic potential energy (EPE) of the mass when it is pulled down $0.015\\ \\mathrm m$, and its energy of oscillation.\n\ngain in EPE / J | energy of oscillation / J\nA 0.023 | 0.023\nB 0.023 | 0.0028\nC 0.0028 | 0.023\nD 0.0028 | 0.0028"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Point $X$ is at maximum compression in the progressive sound wave. At that instant the air particle there has zero displacement from its equilibrium position.",
+      "perOption": {
+        "A": "Applies pressure nodes and antinodes, which occur in stationary waves, to a progressive wave.",
+        "B": "Correct.",
+        "C": "Uses instant pressure readings to infer different displacement amplitudes, although all particles here oscillate with the same amplitude.",
+        "D": "Misreads the separation of $Y$ and $Z$, which corresponds to $5\\pi/6$."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "superposition"
+    ],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e",
+      "superposition.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must relate a pressure maximum to instantaneous particle displacement and distinguish amplitude from a snapshot value.",
+    "misconception": "Treating a pressure crest as maximum particle displacement",
+    "transcription": "The graph shows the variation with position $x$, at a particular instant, of the pressure $p$ in a progressive sound wave travelling through air, where $P_{\\mathrm{atm}}$ is the atmospheric pressure.\n\n[The sinusoidal $p$–$x$ graph is centred on $P_{\\mathrm{atm}}$. W is an upward crossing of this level, X is the next crest and Y the next downward crossing. Z lies on the rising slope after the next trough, halfway in pressure between that trough and $P_{\\mathrm{atm}}$.]\n\nWhich of the following statements is correct?\n\nA W is a pressure node and X is a pressure antinode.\nB The air particle at position X has zero displacement from its equilibrium position.\nC The amplitude of oscillation of the air particle at point X is twice that of the particle at point Z.\nD The phase difference between the oscillations of the air particles at point Y and point Z is $\\frac{3}{2}\\pi$."
+  },
+  {
+    "id": "hci-2026-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Moving the sliding section inwards by $2.5\\ \\mathrm{cm}$ shortens both arms of path I, changing its length by $5.0\\ \\mathrm{cm}=0.050\\ \\mathrm m$. The change from a minimum to the next maximum corresponds to $\\lambda/2=0.050\\ \\mathrm m$, so $\\lambda=0.10\\ \\mathrm m$. Hence $f=v/\\lambda=340/0.10=3.4\\ \\mathrm{kHz}$.",
+      "perOption": {
+        "A": "Uses a wavelength of $0.20\\ \\mathrm m$, twice the wavelength set by the minimum-to-maximum change.",
+        "B": "Correct.",
+        "C": "Uses the full path-length change as one wavelength or counts only one arm while applying the half-wavelength condition.",
+        "D": "Uses the slider travel as one full wavelength, missing both factors of two."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must double the slider displacement and connect adjacent interference extrema to half a wavelength.",
+    "misconception": "Counting only one side of the sliding tube",
+    "transcription": "A sound source S emits a continuous sound wave of constant frequency into a tube. The sound wave travels along two paths, I and II, before recombining at D where a microphone connected to a cathode ray oscilloscope (c.r.o) is placed.\n\n[S enters at the top of a loop, and D, labelled microphone and c.r.o., is at the bottom. Path I runs round the left and Path II round the right. The left U-shaped section slides horizontally inwards. Its old and new positions are $2.5\\ \\mathrm{cm}$ apart.]\n\nThe sliding section in Path I is adjusted until a minimum sound intensity is detected at D. The sliding section is then slowly pushed inwards. The next maximum sound intensity is detected when the sliding section has moved through a horizontal distance of $2.5\\ \\mathrm{cm}$.\n\nGiven that the speed of sound in the tube is $340\\ \\mathrm{m\\,s^{-1}}$, what is the frequency of the sound wave?\n\nA $1.7\\ \\mathrm{kHz}$\nB $3.4\\ \\mathrm{kHz}$\nC $6.8\\ \\mathrm{kHz}$\nD $14\\ \\mathrm{kHz}$"
+  }
+]

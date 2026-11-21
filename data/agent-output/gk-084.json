@@ -1,0 +1,499 @@
+[
+  {
+    "id": "njc-2025-prelim-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Coulomb’s law, $F\\propto 1/r^2$. The force ratio is $F'/F=(200/600)^2=1/9$, so $F'=180/9=20\\ \\mathrm{\\mu N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Squares the twofold increase in separation instead of using the threefold final-to-initial ratio.",
+        "C": "Uses an inverse-linear dependence on separation.",
+        "D": "Divides by two without applying the inverse-square law."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The force follows directly from squaring the separation ratio.",
+    "misconception": "Treating an inverse-square law as inverse-linear",
+    "transcription": "Two point charges are separated by a distance of $200\\ \\mathrm{mm}$. The force of attraction between them is $180\\ \\mathrm{\\mu N}$.\n\nThe distance between the point charges is increased to $600\\ \\mathrm{mm}$.\n\nWhat is the new force of attraction?\n\nA $20\\ \\mathrm{\\mu N}$\nB $45\\ \\mathrm{\\mu N}$\nC $60\\ \\mathrm{\\mu N}$\nD $90\\ \\mathrm{\\mu N}$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At closest approach in a head-on encounter, the loss of kinetic energy equals the gain in electric potential energy. Thus $9.0\\times10^{-13}=\\frac{79\\times2\\times(1.6\\times10^{-19})^2}{4\\pi\\varepsilon_0r}$, giving $r=4.0\\times10^{-14}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Omits the factor of 158 from the product of the two nuclear charge numbers.",
+        "B": "Uses a charge of $e$ for the alpha particle, which has charge $2e$.",
+        "C": "Correct.",
+        "D": "An exponent error of this size gives a separation where the electric potential energy is far below the initial kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the energy conversion and use both nuclear charges in the potential energy.",
+    "misconception": "Treating an alpha particle as singly charged",
+    "transcription": "An alpha particle is moving towards a stationary gold nucleus. The alpha particle has a kinetic energy $9.0\\times10^{-13}\\ \\mathrm{J}$ when it is a large distance from the gold nucleus.\n\nThe gold nucleus contains 79 protons.\n\nWhat is the closest possible distance of approach of the alpha particle to the gold nucleus?\n\nA $2.5\\times10^{-16}\\ \\mathrm{m}$\nB $2.0\\times10^{-14}\\ \\mathrm{m}$\nC $4.0\\times10^{-14}\\ \\mathrm{m}$\nD $2.0\\times10^{-7}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q21",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearranging $I=Anqv$ gives $v=I/(Anq)$. Substituting gives $v=\\frac{0.30}{[1.0(10^{-3})^2](8.5\\times10^{28})(1.60\\times10^{-19})}=2.2\\times10^{-5}\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Using an area 100 times too small makes the drift speed 100 times too large.",
+        "C": "Using an area 1000 times too small makes the drift speed 1000 times too large.",
+        "D": "This speed is four orders of magnitude too high and would imply a current of about $3000$ A."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The formula is direct, but the square-millimetre conversion must be handled correctly.",
+    "misconception": "Mishandling the squared length conversion",
+    "transcription": "A copper wire of cross-sectional area $1.0\\ \\mathrm{mm^2}$ carries a current of $0.30\\ \\mathrm{A}$.\n\nIf the free electron density of copper is $8.5\\times10^{28}\\ \\mathrm{m^{-3}}$, what is the drift velocity of the electrons in the copper wire?\n\nA $2.2\\times10^{-5}\\ \\mathrm{m\\,s^{-1}}$\nB $2.2\\times10^{-3}\\ \\mathrm{m\\,s^{-1}}$\nC $2.2\\times10^{-2}\\ \\mathrm{m\\,s^{-1}}$\nD $2.2\\times10^{-1}\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q22",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "When $XJ=0.50\\ \\mathrm{m}$, $R_{XJ}=20(50/100)=10\\ \\Omega$. The lamp voltage is then $1.5(10/20)=0.75\\ \\mathrm{V}$. Since $P=V^2/R$ and the lamp resistance is constant, $P'/P=(0.75/1.5)^2=0.25$.",
+      "perOption": {
+        "A": "Applies an extra factor of one-half to the squared voltage ratio.",
+        "B": "Correct.",
+        "C": "Assumes lamp power is directly proportional to the lamp voltage.",
+        "D": "Mistakes the new lamp voltage of $0.75$ V for the fraction of the original power."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "currents.d",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify the active wire segment, find the voltage division and square the voltage ratio.",
+    "misconception": "Assuming power scales linearly with voltage",
+    "transcription": "A cell of e.m.f. $1.5\\ \\mathrm{V}$ of negligible internal resistance is connected in series with a lamp of resistance $10\\ \\Omega$ which is in turn connected to a resistance wire XY of length $1.00\\ \\mathrm{m}$ with total resistance $20\\ \\Omega$ via a movable jockey J.\n\n[Circuit diagram: X is connected through the $1.5\\ \\mathrm{V}$ cell and lamp to the movable jockey J, which contacts wire XY between X and Y. The positive terminal of the cell is on the X side.]\n\nWhen J is at X, the power of the lamp is $P$.\n\nAssuming that the resistance of the lamp remains constant, what is the power of the lamp when the length XJ is $0.50\\ \\mathrm{m}$?\n\nA $0.13P$\nB $0.25P$\nC $0.50P$\nD $0.75P$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q23",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial force is $F=BIL$. After the current increases, $F+3.6\\times10^{-3}=B(I+4.0)(0.15)=F+0.60B$. Cancelling $F$ gives $B=0.0060\\ \\mathrm{T}$.",
+      "perOption": {
+        "A": "Uses 150 for the wire length in a formula requiring metres.",
+        "B": "Correct.",
+        "C": "Inverts the ratio of force change to the product of current change and length.",
+        "D": "Inverts the ratio and uses 150 for the length in metres."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The perpendicular-wire force law must be applied to the changes, with the length in metres.",
+    "misconception": "Inverting the force-change ratio",
+    "transcription": "A $150\\ \\mathrm{mm}$ long wire is at right angles to a uniform magnetic field and carries an electric current. When the current in the wire is increased by $4.0\\ \\mathrm{A}$, the force acting on the wire increases by $3.6\\times10^{-3}\\ \\mathrm{N}$.\n\nWhat is the magnetic flux density of the field?\n\nA $6.0\\times10^{-6}\\ \\mathrm{T}$\nB $6.0\\times10^{-3}\\ \\mathrm{T}$\nC $1.7\\times10^{2}\\ \\mathrm{T}$\nD $1.7\\times10^{5}\\ \\mathrm{T}$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both isotopes experience the same magnetic force $Bqv$. Equating this to the centripetal force gives $mv^2/r=Bqv$, so $r=mv/(Bq)$. The isotopes have different masses and therefore follow paths with different radii.",
+      "perOption": {
+        "A": "Both isotopes have the same force $Bqv$.",
+        "B": "Correct.",
+        "C": "Each ion is in uniform circular motion, so its speed and kinetic energy remain constant.",
+        "D": "The acceleration $a=Bqv/m$ differs because the ion masses differ."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l",
+      "circular-motion.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish how mass affects the radius and acceleration when the magnetic force is fixed.",
+    "misconception": "Assuming equal force implies equal acceleration",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The angular speed is $\\omega=2\\pi/T=2\\pi/(1/50)=100\\pi\\ \\mathrm{rad\\,s^{-1}}$. The maximum magnetic flux linkage is $NBA$. Hence $E_0=\\omega NBA=(100\\pi)(200)(0.20)[\\pi(0.10)^2]=395\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Uses the rotation frequency of 50 directly as the angular speed.",
+        "B": "This amounts to using an angular speed of about 100 radians per second instead of 100π.",
+        "C": "This is approximately half the maximum and understates the peak flux linkage or the angular speed.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The given expression requires computing angular speed and maximum flux linkage before substitution.",
+    "misconception": "Confusing frequency with angular speed",
+    "transcription": "A circular coil with a radius of $0.10\\ \\mathrm{m}$ has 200 turns. The coil rotates at 50 revolutions per second about an axis which is perpendicular to a uniform magnetic field and in the plane of the coil. The magnetic flux density of the field is $0.20\\ \\mathrm{T}$.\n\nThe maximum induced e.m.f. $E_0$ is given by the expression\n\n$E_0$ = maximum magnetic flux linkage $\\times$ angular speed of the coil\n\nWhat is the maximum e.m.f. induced in the coil?\n\nA $63\\ \\mathrm{V}$\nB $126\\ \\mathrm{V}$\nC $195\\ \\mathrm{V}$\nD $395\\ \\mathrm{V}$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph gives $I_{\\mathrm{peak}}^2=10\\ \\mathrm{A^2}$. The mean power is half the peak power, so $I_{\\mathrm{dc}}^2R=\\tfrac12(10)R$. The key gives $2.23\\ \\mathrm{A}$ for the square root, which matches the listed value $I_{\\mathrm{dc}}\\approx2.2\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A current of $2.8\\ \\mathrm{A}$ would give $I^2\\approx7.8\\ \\mathrm{A^2}$, above the mean of $5\\ \\mathrm{A^2}$.",
+        "C": "Uses the peak current, which gives the peak power.",
+        "D": "Treats the peak squared current of 10 as a peak current and divides it by the square root of two."
+      }
+    },
+    "issues": "The key prints 2.23 A; the square root of 5 rounds to 2.24 A at three significant figures. The listed answer is unaffected.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.h",
+      "currents.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the peak of the squared-current graph and convert mean square to current.",
+    "misconception": "Reading squared current as current",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q27",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": null,
+    "confidence": "low",
+    "explanation": {
+      "body": "The question was removed from the paper for syllabus coverage. The available image contains no question or answer choices to evaluate.",
+      "perOption": {
+        "A": "Option not printed.",
+        "B": "Option not printed.",
+        "C": "Option not printed.",
+        "D": "Option not printed."
+      }
+    },
+    "issues": "The question image is a removal notice and the school key skips Q27. The input keyAnswer A is a placeholder. No answer, classification or difficulty can be determined.",
+    "chapter": null,
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": null,
+    "types": [],
+    "difficulty": null,
+    "difficultyReason": null,
+    "misconception": null,
+    "transcription": "Removed, not in 9478 syllabus."
+  },
+  {
+    "id": "njc-2025-prelim-p1-q28",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The de Broglie relation gives $p=h/\\lambda=(6.63\\times10^{-34})/(2.0\\times10^{-12})=3.32\\times10^{-22}\\ \\mathrm{kg\\,m\\,s^{-1}}$. Using $E_k=p^2/(2m)$ with $m=9.11\\times10^{-31}\\ \\mathrm{kg}$ gives $E_k=6.0\\times10^{-14}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Halving the de Broglie momentum before squaring would give one-quarter of the expected energy.",
+        "B": "An extra factor of two in the denominator of $p^2/(2m)$ would halve the expected energy.",
+        "C": "Correct.",
+        "D": "Omits the factor of two in $E_k=p^2/(2m)$."
+      }
+    },
+    "issues": "The key uses nonrelativistic kinetic energy. At this wavelength the relativistic result is about 4.7 × 10⁻¹⁴ J, and C is still the nearest listed choice.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert picometres, calculate momentum from wavelength and convert momentum to kinetic energy.",
+    "misconception": "Dropping the factor of two in the kinetic energy formula",
+    "transcription": "Electrons are accelerated through a potential difference and produce similar diffraction patterns as a wave of wavelength $2.0\\ \\mathrm{pm}$.\n\nWhat is the kinetic energy of one of the electrons?\n\nA $1.5\\times10^{-14}\\ \\mathrm{J}$\nB $3.0\\times10^{-14}\\ \\mathrm{J}$\nC $6.0\\times10^{-14}\\ \\mathrm{J}$\nD $1.2\\times10^{-13}\\ \\mathrm{J}$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q29",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The order of the decays does not affect the net change. One $\\alpha$ decay and two $\\beta^-$ decays give a net change of zero protons and a loss of four neutrons. The parent therefore has the same proton number as X and four more neutrons, which is point B.",
+      "perOption": {
+        "A": "Has two fewer protons than X, although the proton number is unchanged overall.",
+        "B": "Correct.",
+        "C": "Has three extra protons and five extra neutrons, which do not match the net changes.",
+        "D": "Has three extra protons and only three extra neutrons."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine three decay changes and work backwards from X on the graph.",
+    "misconception": "Applying beta-minus decay with the wrong sign",
+    "transcription": "Which of the following nuclides will produce nuclide X by undergoing a series of decays to emit an alpha particle and two beta particles?\n\n[Graph of neutron number on the vertical axis from 120 to 127 against proton number on the horizontal axis from 85 to 93. In (proton number, neutron number) order, the plotted points are A (87, 123), B (89, 125), C (92, 126), D (92, 124) and X (89, 121).]"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q30",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $N_0$ be the initial number of antimony nuclei. A ratio of one antimony nucleus to two tellurium nuclei means $N/N_0=1/3$. This fraction lies between $1/2$ after one half-life and $1/4$ after two half-lives, so the time is between 60 and 120 days.",
+      "perOption": {
+        "A": "Before one half-life, more antimony than tellurium remains.",
+        "B": "After one half-life, the ratio is $1:1$.",
+        "C": "Correct.",
+        "D": "After two half-lives, the ratio is $1:3$."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert the parent-to-daughter ratio to the surviving fraction and compare it with successive half-lives.",
+    "misconception": "Confusing a parent-to-daughter ratio with the surviving fraction",
+    "transcription": "Antimony-124 undergoes radioactive decay, with a half-life of 60 days, to becomes tellurium-124. Tellurium-124 is stable.\n\nInitially, a sample of antimony-124 contains no tellurium.\n\nFor this sample, after what period of time will the ratio of antimony-124 to tellurium-124 be $\\frac12$?\n\nA between 30 days and 60 days\nB 60 days\nC between 60 days and 120 days\nD 120 days"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q1",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using an approximate value of $g$, a fast stopwatch or an instrument with zero error biases results consistently, so these are systematic errors. When timing a sprint manually, variations in reaction time can make the measured duration higher or lower, giving a random error.",
+      "perOption": {
+        "A": "The same approximation for $g$ consistently biases results.",
+        "B": "Correct. Reaction times vary between measurements.",
+        "C": "A fast stopwatch consistently overstates elapsed times.",
+        "D": "Zero error shifts readings consistently in one direction."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Identifying the variable reaction delay distinguishes the one random error from three consistent biases.",
+    "misconception": "Confusing random variation with consistent bias",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q2",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Before and after the ceiling collision, the ball is in free fall with constant downward acceleration $9.81\\ \\mathrm{m\\,s^{-2}}$, so both parts of the velocity–time graph have the same negative gradient. During contact, the ceiling exerts a downward force in addition to the ball’s weight, giving a steeper negative gradient as the velocity reverses.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The velocity stays positive and the slope becomes positive after contact.",
+        "C": "The flat sections imply zero acceleration in free fall.",
+        "D": "The collision segment shows an upward acceleration, although both forces during contact are downward."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish the free-fall gradients from the steeper gradient during contact.",
+    "misconception": "Assuming acceleration reverses when velocity reverses",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The horizontal velocity stays at $v_x=40\\cos60^\\circ=20.0\\ \\mathrm{m\\,s^{-1}}$, and the initial vertical velocity is $u_y=40\\sin60^\\circ=34.6\\ \\mathrm{m\\,s^{-1}}$. After $5.0\\ \\mathrm{s}$, $v_y=34.6+(-9.81)(5.0)=-14.4\\ \\mathrm{m\\,s^{-1}}$. The speed is $v=\\sqrt{v_x^2+v_y^2}=25\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses only the magnitude of the final vertical component.",
+        "B": "Correct.",
+        "C": "Adds the magnitudes of the two perpendicular final components directly.",
+        "D": "This would imply a speed greater than the launch speed even though the projectile is still above its launch height."
+      }
+    },
+    "issues": "The key labels the initial vertical component as uₓ on its first occurrence. The explanation uses uᵧ.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must resolve the launch velocity, update the vertical component and recombine the components.",
+    "misconception": "Adding perpendicular velocity components as scalars",
+    "transcription": null
+  }
+]

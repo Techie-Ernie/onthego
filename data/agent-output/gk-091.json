@@ -1,0 +1,499 @@
+[
+  {
+    "id": "nyjc-2024-a-level-p1-q11",
+    "keyPage": 9,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant pressure, $\\frac{V_1}{V_2}=\\frac{T_1}{T_2}$. For a fixed mass, $\\frac{\\rho_2}{\\rho_1}=\\frac{V_1}{V_2}$.\n\nThus $\\frac{\\rho_2}{1.20}=\\frac{20+273.15}{27+273.15}$, giving $\\rho_2=1.172\\ \\mathrm{kg\\,m^{-3}}$.",
+      "perOption": {
+        "A": "Uses the Celsius ratio $20/27$ in place of the kelvin ratio.",
+        "B": "Correct.",
+        "C": "Reverses the kelvin temperature ratio.",
+        "D": "Uses the inverted Celsius ratio $27/20$."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Relates the volume and density ratios and converts both temperatures to kelvin.",
+    "misconception": "Using Celsius temperatures in gas-law ratios",
+    "transcription": "The density of air is $1.20\\ \\mathrm{kg\\,m^{-3}}$ at a temperature of $20\\,^\\circ\\mathrm{C}$ and atmospheric pressure.\n\nAssuming that the air behaves as an ideal gas, what is the density of air at a temperature of $27\\,^\\circ\\mathrm{C}$ and atmospheric pressure?\n\nA $0.89\\ \\mathrm{kg\\,m^{-3}}$\nB $1.17\\ \\mathrm{kg\\,m^{-3}}$\nC $1.23\\ \\mathrm{kg\\,m^{-3}}$\nD $1.62\\ \\mathrm{kg\\,m^{-3}}$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q12",
+    "keyPage": 9,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The heat lost by X equals the heat gained by Y, so $mc(80-T)=2m(2c)(T-30)$. This gives $80-T=4T-120$, hence $T=40\\,^\\circ\\mathrm{C}$.",
+      "perOption": {
+        "A": "Leaves Y at its initial temperature despite heat transfer from X.",
+        "B": "Correct.",
+        "C": "Takes the arithmetic mean as if the blocks had equal heat capacities.",
+        "D": "Reverses the heat-capacity weighting of X and Y."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires weighting the two temperature changes by the blocks’ different heat capacities.",
+    "misconception": "Averaging temperatures without weighting by heat capacity",
+    "transcription": "A metal block X of mass $m$, specific heat capacity $c$ and temperature $80\\,^\\circ\\mathrm{C}$ is placed in good thermal contact with a second metal block Y of mass $2m$, specific heat capacity $2c$ and temperature $30\\,^\\circ\\mathrm{C}$.\n\nAssuming there is no energy loss to the surroundings, what will be the final temperature of both blocks?\n\nA $30\\,^\\circ\\mathrm{C}$\nB $40\\,^\\circ\\mathrm{C}$\nC $55\\,^\\circ\\mathrm{C}$\nD $70\\,^\\circ\\mathrm{C}$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q13",
+    "keyPage": 10,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The kinetic-energy graph repeats every $200\\ \\mathrm{ms}$, so the motion has period $T=400\\ \\mathrm{ms}$. Using $E_{\\mathrm{K,max}}=\\tfrac12m\\omega^2x_0^2=1.0\\ \\mathrm{J}$ gives $x_0=0.30\\ \\mathrm{m}$. Hence $a_{\\max}=\\omega^2x_0=74\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Uses 90.0 as the mass in kilograms and 400 as the period in seconds.",
+        "B": "Combines the gram and millisecond conversion errors with the shorter energy period.",
+        "C": "Uses half the correct angular frequency, as if the motion took 800 ms per cycle.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires inferring the motion period from the energy graph and using peak energy to find acceleration.",
+    "misconception": "Confusing the kinetic-energy period with the SHM period",
+    "transcription": "A particle of a mass of $90.0\\ \\mathrm{g}$ undergoes simple harmonic motion. The graph shows the variation of its kinetic energy, $E_{\\mathrm{K}}$ with time, $t$.\n\n[Graph of $E_{\\mathrm{K}}$ in J against $t$ in ms. The smooth periodic curve is zero at 0, 200 and 400 ms and peaks at 1.0 J at 100 and 300 ms.]\n\nWhat is the maximum acceleration of the particle?\n\nA $0.074\\ \\mathrm{m\\,s^{-2}}$\nB $0.148\\ \\mathrm{m\\,s^{-2}}$\nC $37\\ \\mathrm{m\\,s^{-2}}$\nD $74\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q14",
+    "keyPage": 11,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The shadow moves in simple harmonic motion, so its speed is zero at the turning points. Its maximum speed is $\\omega x_0=\\frac{2\\pi}{2.16}\\times0.500=1.45\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Treats the maximum speed as constant throughout the motion.",
+        "B": "Assumes constant speed and uses the value of the maximum acceleration as a speed.",
+        "C": "Correct.",
+        "D": "Uses the numerical value of the maximum acceleration as the maximum speed."
+      }
+    },
+    "issues": "The key assumes an orthographic projection with parallel light rays. A finite-distance point lamp generally gives a different shadow motion and maximum speed.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "circular-motion.c"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires recognising that a projection of uniform circular motion has a varying speed.",
+    "misconception": "Assuming the shadow inherits the bob’s constant speed",
+    "transcription": "A conical pendulum undergoes uniform circular motion in a horizontal plane. The radius of the circular path is $0.500\\ \\mathrm{m}$ and the time taken to complete one revolution is $2.16\\ \\mathrm{s}$. A lamp shines on the pendulum bob as shown.\n\n[The bob hangs on an inclined string and moves around a dashed horizontal circular path. The lamp is to the left and the vertical screen is to the right.]\n\nThe shadow of the bob on the screen was observed to move back and forth along a horizontal line with\n\nA constant speed of $1.45\\ \\mathrm{m\\,s^{-1}}$.\nB constant speed of $4.23\\ \\mathrm{m\\,s^{-1}}$.\nC speed varying between 0 and $1.45\\ \\mathrm{m\\,s^{-1}}$.\nD speed varying between 0 and $4.23\\ \\mathrm{m\\,s^{-1}}$."
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q16",
+    "keyPage": 13,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A stable interference pattern requires a constant phase difference between the sources. Similar amplitudes give a clear pattern because very unequal amplitudes give little contrast between maxima and minima. The waves must overlap, and perpendicular polarisations prevent interference.",
+      "perOption": {
+        "A": "A constant phase difference can be nonzero.",
+        "B": "Correct. Similar amplitudes give clear contrast.",
+        "C": "The school’s explanation requires the paths to intersect so the waves overlap.",
+        "D": "The school notes that the waves can be unpolarised, provided they have components that can interfere."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing the conditions for fringe contrast from the condition for stability.",
+    "misconception": "Equating coherence with zero phase difference",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q17",
+    "keyPage": 13,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "After $4\\ \\mathrm{s}$, shift the left pulse $4\\ \\mathrm{cm}$ right and the right pulse $4\\ \\mathrm{cm}$ left, as in the key’s overlay. Add their signed displacements at each position. The two rising slopes add in the overlap, with a downward jump at each end.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Smooths away the jumps made by the vertical pulse edges.",
+        "C": "Loses the outer slopes by treating too much of the pulses as overlapping.",
+        "D": "Cancels the rising segments across the overlap even though their sum varies with position."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires translating both asymmetric pulses and adding signed displacements over the overlap.",
+    "misconception": "Adding pulse magnitudes instead of signed displacements",
+    "transcription": "Two waves approach each other with speed $1\\ \\mathrm{cm\\,s^{-1}}$, as shown in the figure below.\n\n[On a grid with 1 cm horizontal squares, count columns from 0 at the left border and measure displacements in vertical squares from the baseline. The rightward pulse drops vertically to −1 at column 2, rises to +1 at column 4, then returns to zero at column 5. The leftward pulse falls from zero at column 8 to −1 at column 9, rises to +1 at column 11, then drops vertically to zero.]\n\nWhich of the following gives the result of the superposition of the waves $4\\ \\mathrm{s}$ later?\n\n[A: Zero to column 4, down to −1 at 5, up to zero at 6, then a vertical drop to −1. It rises to +1 at 7, drops vertically to zero there, rises to +1 at 8 and falls to zero at 9.]\n[B: Zero to column 4, down to −1 at 5, flat to 6, up to +1 at 8, flat to 9, then down to zero at 10.]\n[C: Zero to column 5, then a vertical drop to −1, flat to 6, up to +1 at 7, flat to 8, then a vertical drop to zero.]\n[D: Zero to column 4, down to −1 at 5, flat to 6, then a vertical rise to zero. Zero to column 8, then a vertical rise to +1, flat to 9 and down to zero at 10.]"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q18",
+    "keyPage": 14,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Add the signed point-charge potentials at O, using the distances from O to the charges. This gives $V=V_1+V_2=\\frac{1}{4\\pi\\varepsilon_0}\\left(\\frac{-7.4\\times10^{-9}}{0.49}+\\frac{3.6\\times10^{-9}}{0.36}\\right)=-46\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Swaps the distances to the positive and negative charges.",
+        "B": "Uses 45 cm in place of the 49 cm distance to the negative charge.",
+        "C": "Correct.",
+        "D": "Drops the negative sign of the contribution from the negative charge."
+      }
+    },
+    "issues": "The key labels the target Q instead of O and repeats $Q_1/r_1$ in its factored expression. Its unfactored expression and numerical answer use the correct contributions.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires selecting the two distances to the target point and adding signed scalar contributions.",
+    "misconception": "Using the separation between charges in the potential calculation",
+    "transcription": "Two fixed point charges of magnitudes $Q_1=-7.4\\ \\mathrm{nC}$ and $Q_2=+3.6\\ \\mathrm{nC}$, are located at points X and Y respectively. Their distances from another point O and from each other are shown below.\n\n[X and Y lie on a horizontal line, with X to the left of Y and $XY=45\\ \\mathrm{cm}$. Point O lies below the line, with $XO=49\\ \\mathrm{cm}$ and $YO=36\\ \\mathrm{cm}$.]\n\nWhat is the value of the potential at point O?\n\nA $-120\\ \\mathrm{V}$\nB $-56\\ \\mathrm{V}$\nC $-46\\ \\mathrm{V}$\nD $220\\ \\mathrm{V}$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q19",
+    "keyPage": 14,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field points from higher to lower potential and is given by $E=-\\frac{\\mathrm{d}V}{\\mathrm{d}r}$. A uniform potential around a point has zero gradient there, so the electric field is zero.",
+      "perOption": {
+        "A": "A zero field fixes the gradient at zero and leaves the value of the potential undetermined.",
+        "B": "A uniform nonzero field gives a constant nonzero potential gradient.",
+        "C": "Correct.",
+        "D": "Differentiates the electric field in place of taking the negative gradient of potential."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing the value of a potential from its spatial gradient.",
+    "misconception": "Confusing zero potential with zero potential gradient",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q20",
+    "keyPage": 15,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electrons and protons have opposite charges and travel in opposite directions, so their conventional currents add. Using a charge magnitude of $1.6\\times10^{-19}\\ \\mathrm{C}$ for each particle, $I=I_e+I_p=(5.0\\times10^{18})(1.6\\times10^{-19})+(2.0\\times10^{18})(1.6\\times10^{-19})=1.1\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Counts an effective rate of only $1.0 \\times 10^{18}$ elementary charges per second.",
+        "B": "Subtracts the two current contributions because the particles move in opposite directions.",
+        "C": "Counts only the electrons.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.a"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires recognising that opposite charges moving in opposite directions produce currents in the same direction.",
+    "misconception": "Subtracting electron and proton currents",
+    "transcription": "A high electric potential difference is applied between two electrodes of a hydrogen discharge tube so that the gas is ionized. Electrons then move towards the positive electrode and protons towards the negative electrode. In each second, $5.0\\times10^{18}$ electrons and $2.0\\times10^{18}$ protons pass a cross-section of the tube. What is the current, in amperes, flowing in the discharge tube?\n\nA 0.16\nB 0.48\nC 0.80\nD 1.1"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q21",
+    "keyPage": 15,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Moving the slider in A, B or D changes the voltage across the lamp. In C, the lamp is connected directly across the supply terminals, so its voltage stays fixed.",
+      "perOption": {
+        "A": "The slider varies the voltage between the tap and the negative terminal.",
+        "B": "The slider varies the resistance in series with the lamp and thus its voltage.",
+        "C": "Correct.",
+        "D": "The slider varies the voltage between the positive terminal and the tap."
+      }
+    },
+    "issues": "The batch labels this item as text, but the four circuit diagrams are essential and the extracted text does not represent their connections.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires tracing the lamp terminals in four variable-resistor configurations.",
+    "misconception": "Assuming a parallel resistor can vary the load voltage of an ideal supply",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q22",
+    "keyPage": 16,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The T–S–R branch is in parallel with the upper branch, so it does not enter the divider calculation. The two resistors from U to R take a share of the $10.0\\ \\mathrm{V}$ across T–U–Q–R, giving $V_{UR}=\\frac{50+50}{50+50+50}\\times10.0=6.67\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Uses the full supply voltage across T–R for the smaller section U–R.",
+        "B": "Assigns too much of the supply voltage to U–R by undercounting the drop across T–U.",
+        "C": "Correct.",
+        "D": "Assigns too little of the supply voltage to the two resistors between U and R."
+      }
+    },
+    "issues": "The key writes QR in the divider formula, but its numerator and answer are for U–Q–R.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.h",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying the two relevant resistors within one branch of a parallel network.",
+    "misconception": "Including a parallel branch in a series potential-divider ratio",
+    "transcription": "Five resistors, each of resistance $50\\ \\Omega$, are connected in a loop as shown below. A $10.0\\ \\mathrm{V}$ battery of negligible internal resistance is connected across TR.\n\n[The loop follows T–U–Q–R–S–T, with one resistor on each segment. The battery connects T to R, with its positive terminal at T.]\n\nWhat is the potential difference between points U and R?\n\nA $10.0\\ \\mathrm{V}$\nB $8.7\\ \\mathrm{V}$\nC $6.7\\ \\mathrm{V}$\nD $3.7\\ \\mathrm{V}$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q23",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The right-hand grip rule gives an anticlockwise magnetic field around X, with a downward component at P and an upward component at Q. Applying Fleming’s left-hand rule to the rightward current in Y gives a force into the page at P and out of the page at Q.",
+      "perOption": {
+        "A": "Reverses the force directions at both points.",
+        "B": "Correct.",
+        "C": "Treats the force as radial to X, although it must be perpendicular to the current in Y.",
+        "D": "Applies the attraction rule for parallel currents to perpendicular wires."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires combining the right-hand grip rule with Fleming’s left-hand rule at two points.",
+    "misconception": "Applying parallel-wire attraction rules to perpendicular wires",
+    "transcription": "Two long straight wires X and Y are placed perpendicular to each other at a distance $d$ apart. A current flows out of the page in wire X. The same current flows from left to right in wire Y.\n\nWhat are the directions of the forces acting on wire Y at the point P and Q due to the magnetic field produced by wire X?\n\n[Wire Y lies horizontally with current $I$ to the right. Wire X is shown end-on with a dot, a perpendicular distance $d$ above Y. P and Q lie on Y to the left and right of X respectively.]\n\nOption | force at P | force at Q\nA | out of page | into page\nB | into page | out of page\nC | towards X | away from X\nD | towards X | towards X"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q24",
+    "keyPage": 17,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The induced e.m.f. equals the rate of increase of flux linkage while the coil enters the field. The area inside the field increases at rate $Hv$, so $E=BHv$.",
+      "perOption": {
+        "A": "Correct. Increasing $L$ extends the entry time.",
+        "B": "Increasing $H$ increases the area entering the field per second.",
+        "C": "Increasing $v$ increases the area entering the field per second.",
+        "D": "Increasing $B$ increases the flux through each unit of area."
+      }
+    },
+    "issues": "The question diagram depicts the field into the page and the key diagram depicts it out of the page. The magnitude of the induced e.m.f. is the same.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying which coil dimension controls how fast the area inside the field changes.",
+    "misconception": "Confusing total flux change with its rate of change",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q25",
+    "keyPage": 18,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean power is $\\langle P\\rangle=\\tfrac12P_0=3.0\\ \\mathrm{W}$. From $P_0=I_0^2R$, the peak current is $I_0=2.0\\ \\mathrm{A}$.\n\nUsing $\\langle P\\rangle=V_{\\mathrm{rms}}^2/R$ gives $V_{\\mathrm{rms}}\\approx2.1\\ \\mathrm{V}$. The power period is half the current period, so the source frequency is $1/0.040=25\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Mistakes mean power for peak power divided by the sinusoidal current’s factor of $\\sqrt{2}$.",
+        "B": "Correct.",
+        "C": "Misuses the mean-power relation: $4.5\\ \\mathrm{V^2}$ is the square of the r.m.s. voltage.",
+        "D": "Uses the power waveform’s frequency as the source frequency."
+      }
+    },
+    "issues": "The key gives an r.m.s. voltage of 3.0 V, which is the peak voltage. Its mean-power equation gives 2.1 V r.m.s.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.h",
+      "currents.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires reading peak power and separating the power period from the current period.",
+    "misconception": "Taking the power period as the source period",
+    "transcription": "The figure below shows the power supplied by a sinusoidal a.c. source to a load of resistance $1.5\\ \\Omega$ over $60\\ \\mathrm{ms}$.\n\n[Graph of power in W against time in ms. The curve is zero at 0, 20, 40 and 60 ms and peaks at 6 W at 10, 30 and 50 ms.]\n\nWhich of the following is correct?\n\nA The mean value of the power supplied is $4.2\\ \\mathrm{W}$.\nB The peak value of the current supplied is $2.0\\ \\mathrm{A}$.\nC The root mean square value of the voltage supplied is $4.5\\ \\mathrm{V}$.\nD The frequency of the source is $50\\ \\mathrm{Hz}$."
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q26",
+    "keyPage": 18,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The key’s current paths show C shunting the half-cycle that would drive current upward through the load. D shunts the opposite half-cycle, leaving load current flowing upward, which gives the reverse of the marked polarity.",
+      "perOption": {
+        "A": "The series diode in the upper wire allows downward current through the load on the conducting half-cycle.",
+        "B": "The series diode in the lower wire also allows downward current through the load on the conducting half-cycle.",
+        "C": "The shunt diode conducts on the half-cycle that would make the lower load terminal positive.",
+        "D": "Correct. The load polarity is reversed."
+      }
+    },
+    "issues": "The shunt circuits C and D require source or series impedance to limit current on the clamped half-cycle. With an ideal zero-impedance voltage source they would short it during that half-cycle. The extracted text also omits the circuit connections and diode directions.",
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.j",
+      "circuits.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires tracking which half-cycle a series or shunt diode passes to the load.",
+    "misconception": "Ignoring the polarity of the half-cycle passed by the diode",
+    "transcription": null
+  }
+]

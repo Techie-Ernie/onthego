@@ -1,0 +1,518 @@
+[
+  {
+    "id": "nyjc-2025-other-p1-q28",
+    "keyPage": 22,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron’s loss of electric potential energy equals its gain in kinetic energy, so $eV=p^2/(2m)$ and $p=\\sqrt{2meV}$. Its de Broglie wavelength is $\\lambda=h/\\sqrt{2meV}$. The photon of that wavelength has frequency $f=c/\\lambda=c\\sqrt{2meV}/h$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives the electron’s de Broglie wavelength and stops before converting it to frequency.",
+        "C": "Gives the photon wavelength that would correspond to an energy of $eV$.",
+        "D": "Assumes the photon energy equals the electron’s kinetic energy $eV$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantum-physics.e",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must link the accelerating potential to momentum, then convert the de Broglie wavelength to a photon frequency.",
+    "misconception": "Equating photon energy with electron kinetic energy",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q29",
+    "keyPage": 23,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The daughter nucleus takes negligible kinetic energy, so the beta particle and neutrino share the fixed energy released. The spectrum ends at $13.4\\ \\mathrm{MeV}$, where the beta particle takes essentially all of that energy. For a beta particle with $6.0\\ \\mathrm{MeV}$, the neutrino therefore takes $13.4-6.0=7.4\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Using the peak of the spectrum confuses the most frequent beta energy with the energy available to share.",
+        "B": "Uses the beta particle’s kinetic energy for the neutrino as well.",
+        "C": "Correct.",
+        "D": "Assigns the full decay energy to the neutrino even though the beta particle carries $6.0\\ \\mathrm{MeV}$."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.o",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the endpoint and subtract the beta particle’s share of the energy.",
+    "misconception": "Using the spectrum peak as the decay energy",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q30",
+    "keyPage": 23,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "After 20 days, two half-lives have elapsed, so the source count rate is one quarter of its initial value. Subtracting the constant background $C_{\\mathrm{bg}}$ from both measurements gives $34-C_{\\mathrm{bg}}=\\tfrac14(100-C_{\\mathrm{bg}})$. Solving gives $C_{\\mathrm{bg}}=12\\ \\mathrm{s^{-1}}$.",
+      "perOption": {
+        "A": "Applies the decay factor to the full initial reading and subtracts $25$ from $34$.",
+        "B": "Correct.",
+        "C": "Halves the final measured rate without separating the source and background.",
+        "D": "Divides the $66$ drop by three, which gives the source’s final contribution."
+      }
+    },
+    "issues": "The key prints “12 days” for the background count rate, which should be 12 counts per second.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must subtract the same unknown background from both readings before applying two half-lives.",
+    "misconception": "Applying the half-life to the total measured rate",
+    "transcription": null
+  },
+  {
+    "id": "ri-2017-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "SI base units include the kilogram for mass, metre for length, mole for amount of substance and ampere for electric current. All four entries in A are base units.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Mass is a physical quantity measured in kilograms.",
+        "C": "The coulomb is derived from the ampere and second.",
+        "D": "The base unit of mass is the kilogram."
+      }
+    },
+    "issues": "The parser marked the answer missing, but the key image clearly prints A, matching keyAnswer.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.a",
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question requires recognising the SI base units and distinguishing them from a quantity and a derived unit.",
+    "misconception": "Treating gram as the SI base unit for mass",
+    "transcription": null
+  },
+  {
+    "id": "ri-2017-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A classroom about $10\\ \\mathrm{m}\\times10\\ \\mathrm{m}\\times3\\ \\mathrm{m}$ has volume $300\\ \\mathrm{m^3}$. At room temperature (about $300\\ \\mathrm{K}$) and atmospheric pressure (about $10^5\\ \\mathrm{Pa}$), use $n=pV/(RT)$. The key’s substitution, $(10^5\\times300)/(8.31\\times288)$, gives approximately $1.3\\times10^4\\ \\mathrm{mol}$, several times the stated $3000\\ \\mathrm{mol}$.",
+      "perOption": {
+        "A": "A typical $1500\\ \\mathrm{kg}$ car occupies roughly $5\\ \\mathrm{m^3}$, giving a density of about $300\\ \\mathrm{kg\\,m^{-3}}$.",
+        "B": "An A4 sheet measuring $210\\ \\mathrm{mm}\\times297\\ \\mathrm{mm}$ at $80\\ \\mathrm{g\\,m^{-2}}$ has a mass of about $5\\ \\mathrm{g}$.",
+        "C": "At a lifting speed of about $1\\ \\mathrm{m\\,s^{-1}}$, the useful power is $mgv\\approx10^3\\times10\\times1=10^4\\ \\mathrm{W}$.",
+        "D": "Correct. The estimated amount of air is several times larger."
+      }
+    },
+    "issues": "The key states 300 K, substitutes 288 K, and prints approximately 10^5 mol. Its substitution gives about 1.25 × 10^4 mol, and 300 K gives about 1.20 × 10^4 mol. D remains the intended answer for the stated classroom dimensions.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.e",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must assess several order-of-magnitude estimates, including an ideal-gas estimate with a plausible classroom volume.",
+    "misconception": "Underestimating the moles of air in a classroom",
+    "transcription": "Which of the following estimates is not reasonable?\n\nA The average density of a car is about $300\\ \\mathrm{kg\\,m^{-3}}$.\nB The mass of one sheet of paper in this booklet is about $5\\ \\mathrm{g}$.\nC The useful power delivered by a crane in lifting a $1000\\ \\mathrm{kg}$ concrete block is about $10^4\\ \\mathrm{W}$.\nD A typical classroom in RI contains about $3000\\ \\mathrm{mol}$ of air molecules at room temperature."
+  },
+  {
+    "id": "ri-2017-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "In interval A the speed changes, so the vehicle accelerates. In intervals B, C and D the slopes are constant, so velocity is constant and acceleration is zero within each interval. A therefore has the greatest acceleration magnitude.",
+      "perOption": {
+        "A": "Correct. Its changing slope gives a nonzero acceleration magnitude.",
+        "B": "The straight descending segment gives constant negative velocity and zero acceleration.",
+        "C": "The horizontal segment gives zero velocity and zero acceleration.",
+        "D": "The straight rising segment gives constant positive velocity and zero acceleration before the sharp peak."
+      }
+    },
+    "issues": "The key interprets “greatest” as greatest magnitude. With signed acceleration, A is negative and the interiors of B, C and D tie at zero. Acceleration at the sharp peak itself is undefined. A is correct under the intended magnitude reading.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the slope of a displacement–time graph from a change in that slope.",
+    "misconception": "Reading acceleration directly from a displacement–time slope",
+    "transcription": "The graph shows the variation with time $t$ of the displacement $s$ of a vehicle moving along a straight road.\n\n[Displacement $s$ is vertical and time $t$ is horizontal. The curve begins at the origin and bends downwards through interval A. Interval B lies on the straight descending segment, and interval C lies on the flat minimum. The graph then rises in a straight line through zero to a sharp peak, followed by a straight descent to zero. Interval D spans the rising segment from the zero crossing to the peak. Dashed vertical lines and double-headed arrows mark A, B, C and D.]\n\nDuring which time interval is the acceleration of the vehicle the greatest?"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial vertical velocity relative to the ground is $u_y=3.5\\sin20^\\circ+10\\sin5.0^\\circ=2.0686\\ \\mathrm{m\\,s^{-1}}$. Taking upward as positive, $s_y=u_yt+\\tfrac12a_yt^2$ gives $-300=2.0686t-\\tfrac12(9.81)t^2$. The roots are $8.03\\ \\mathrm{s}$ and $-7.61\\ \\mathrm{s}$, so the flight time is $8.03\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Takes the magnitude of the negative root, which corresponds to a time before launch.",
+        "B": "Omits the balloon’s upward velocity component.",
+        "C": "Omits the ball’s upward velocity component relative to the balloon.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces",
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Finding the relevant velocity requires resolving and adding two velocities before solving the vertical displacement equation.",
+    "misconception": "Using only one contribution to the initial vertical velocity",
+    "transcription": "A hot air balloon is rising at an angle of $20.0^\\circ$ above the horizontal with a speed of $3.50\\ \\mathrm{m\\,s^{-1}}$. When it is $300\\ \\mathrm{m}$ above the ground, a ball is projected at an angle of $5.00^\\circ$ above the horizontal with a speed of $10.0\\ \\mathrm{m\\,s^{-1}}$ relative to the balloon. Air resistance is negligible.\n\nWhat is the time taken for the ball to hit the ground?\n\nA $7.61\\ \\mathrm{s}$\nB $7.91\\ \\mathrm{s}$\nC $7.94\\ \\mathrm{s}$\nD $8.03\\ \\mathrm{s}$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The signed area under the acceleration–time graph is the change in velocity, $\\Delta v=\\tfrac12(1+3)(2x)-\\tfrac12(2)(x)=3x$. Since $\\Delta p=m\\Delta v$, $30=(2.0)(3x)$. Hence $x=5.0$.",
+      "perOption": {
+        "A": "Adds the area below the axis, giving $5x$ for the velocity change.",
+        "B": "Correct.",
+        "C": "This value gives a momentum change of $36\\ \\mathrm{kg\\,m,s^{-1}}$ when the signed area is used.",
+        "D": "Equates the signed area $3x$ directly to the momentum change, omitting the mass."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must take a signed area and convert the velocity change to a momentum change.",
+    "misconception": "Adding the area below the time axis",
+    "transcription": "The variation with time $t$ of acceleration $a$ for a $2.0\\ \\mathrm{kg}$ mass moving along a straight line is shown. The change in momentum of the mass in $6.0\\ \\mathrm{s}$ is $30\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\n[Acceleration $a$ in $\\mathrm{m\\,s^{-2}}$ is plotted against time $t$ in seconds. Straight segments connect $(0,0)$, $(1,2x)$, $(2,2x)$, $(3,0)$, $(4,0)$, $(5,-x)$ and $(6,0)$. The vertical scale marks $2x$, $x$ and $-x$.]\n\nWhat is the value of $x$?\n\nA 3.0\nB 5.0\nC 6.0\nD 10"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In a perfectly elastic collision, both total momentum and total kinetic energy are conserved. Applying both conservation laws gives equality of the relative speeds of approach and separation.",
+      "perOption": {
+        "A": "Exchanging the particles’ speeds is a special case, such as a head-on elastic collision between equal masses.",
+        "B": "An incident particle can stop after a head-on elastic collision with an identical stationary particle.",
+        "C": "Perfect elasticity requires conservation of total kinetic energy as well as momentum.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.d"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student needs to recognise a standard consequence of momentum and kinetic-energy conservation.",
+    "misconception": "Assuming all elastic collisions exchange particle speeds",
+    "transcription": null
+  },
+  {
+    "id": "ri-2017-prelim-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "With B removed, the applied force and friction must balance the moment associated with the missing material. Horizontal equilibrium requires friction equal and opposite to $F$, so the forces form a couple of moment $F(2r)$. The removed portion weighed $48-36=12\\ \\mathrm{N}$, and its moment about the centre of the original cylinder has magnitude $12(r/3)=4r$. Equating moments gives $F(2r)=4r$, so $F=2.0\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses $r$ in place of $2r$ as the separation of the forces in the couple.",
+        "C": "Uses $r$ in place of $r/3$ for the removed portion’s moment arm.",
+        "D": "Uses the weight of the removed material directly as the balancing horizontal force."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.e",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the moment of the missing material and identify the full lever arm of the balancing couple.",
+    "misconception": "Using the radius for the separation of the couple",
+    "transcription": "A uniform cylinder A of radius $r$ and weight $48\\ \\mathrm{N}$ is placed on a rough floor. When a cylindrical hole B is drilled through cylinder A, the weight of the remaining portion is $36\\ \\mathrm{N}$. The centre of B is at a distance of $r/3$ from the centre of A as shown.\n\nA force $F$ is applied horizontally to the top of the cylinder so that the centres of A and B are at the same height from the floor as shown.\n\n[End view of cylinder A resting on the rough floor. The circular hole B lies to the right of the centre of A along the horizontal diameter. The distance between the centres is $r/3$. The distance from the left rim to the centre of A is $r$. The force $F$ points to the right at the top of the cylinder.]\n\nWhat is the force $F$ required to keep the cylinder in this equilibrium position?\n\nA $2.0\\ \\mathrm{N}$\nB $4.0\\ \\mathrm{N}$\nC $6.0\\ \\mathrm{N}$\nD $12\\ \\mathrm{N}$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The balance supports the beaker and fluid of weight $Z$ and the object on the bottom of weight $X$. The fluid exerts an upthrust $Y$ on the suspended object, which exerts an equal downward force on the fluid. Thus the balance reads $X+Y+Z$.",
+      "perOption": {
+        "A": "Omits the downward force $Y$ exerted on the fluid by the suspended object.",
+        "B": "Counts only the buoyancy reaction for the bottom object and omits the load it transmits through contact.",
+        "C": "Correct.",
+        "D": "Uses both objects’ apparent weights and overlooks how the forces are transmitted to the beaker."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.b",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student has to trace which forces the suspended and bottom objects transmit to the balance.",
+    "misconception": "Ignoring the reaction to upthrust",
+    "transcription": "A beaker of fluid has weight $Z$. A solid object of weight $X$ in air displaces weight $Y$ of the fluid when it is fully immersed in the fluid. An identical solid object is placed at the bottom of the beaker as shown.\n\n[A beaker of fluid stands on a balance. One solid object is fully immersed and hangs by a string from an external fixed support. The other identical solid object rests on the bottom of the beaker.]\n\nWhat is the balance reading?\n\nA $X+Z$\nB $2Y+Z$\nC $X+Y+Z$\nD $2X-2Y+Z$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The kinetic energies are $K_1=p_1^2/(2m_1)$ and $K_2=p_2^2/(2m_2)$. With $p_2=2p_1$, their ratio is $K_1/K_2=(p_1^2/p_2^2)(m_2/m_1)=m_2/(4m_1)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the momentum ratio without squaring it.",
+        "C": "Inverts the squared momentum ratio.",
+        "D": "Computes $K_2/K_1$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.e",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must account for the square of the momentum ratio and keep the masses in the correct order.",
+    "misconception": "Treating kinetic energy as directly proportional to momentum",
+    "transcription": "Two objects have masses $m_1$ and $m_2$, and kinetic energies $K_1$ and $K_2$, respectively.\n\nIf the momentum of mass $m_2$ is two times that of mass $m_1$, the ratio $K_1/K_2$ is equal to\n\nA $\\dfrac{m_2}{4m_1}$\nB $\\dfrac{m_2}{2m_1}$\nC $\\dfrac{4m_2}{m_1}$\nD $\\dfrac{4m_1}{m_2}$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the same distance from the sphere, the lighter positron has greater acceleration than the proton. Released from rest, it travels farther in the same time $t$. The repulsive electric force does positive work over the extra distance, so more work is done on the positron.",
+      "perOption": {
+        "A": "The equality of the forces at a given position does not make the work equal when the distances travelled differ.",
+        "B": "The two particles finish at different electric potentials, so they lose different amounts of potential energy.",
+        "C": "Correct.",
+        "D": "The force weakens with distance for both particles, and the extra distance travelled by the positron still adds positive work."
+      }
+    },
+    "issues": "The key’s first method assumes equal impulses from equal initial forces and elapsed times. The force varies with position, and the particles follow different trajectories. The explanation follows the key’s valid alternative.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.d",
+      "energy-and-fields.i",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The question requires comparing displacements and work in a force field that weakens with distance.",
+    "misconception": "Equating work when the initial forces are equal",
+    "transcription": "A positive point charge X is released from rest a distance $d$ from the centre of a positively charged sphere as shown.\n\n[Point charge X is to the right of the sphere. A horizontal double-headed arrow labelled $d$ spans from the centre of the sphere to X.]\n\nWhich of the following statements best describes the work done in moving point charge X in time $t$, if X is a positron and if X is a proton?\n\nA The work done on the positron is the same as that on the proton because the same force acts on them.\nB The work done on the positron is the same as that on the proton because of the principle of conservation of energy.\nC The work done on the positron is more than that on the proton because the positron moves a larger distance than the proton.\nD The work done on the positron is less than that on the proton because the force acting on the positron weakens more rapidly than that on the proton."
+  },
+  {
+    "id": "ri-2017-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The car’s speed is constant, so there is no tangential acceleration and the road’s friction must have a rightward component to balance air resistance. The road force also needs a component towards the centre of the circle to provide the centripetal force. These components give direction C.",
+      "perOption": {
+        "A": "Its leftward component acts in the same direction as air resistance.",
+        "B": "It supplies the inward component but leaves the air resistance unbalanced.",
+        "C": "Correct.",
+        "D": "It balances air resistance but supplies no inward component."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the inward resultant from the road force that also cancels air resistance.",
+    "misconception": "Confusing the road force with the net horizontal force",
+    "transcription": "A car is travelling at a constant speed on a horizontal circular road as shown. $F_{\\mathrm{air}}$ is the air resistance on the car.\n\nWhich of the arrows best represents the horizontal force of the road on the car?\n\n[Plan view of a car at the top of an arc, with the centre of curvature below it. The arrow $F_{\\mathrm{air}}$ points horizontally left. From the car, A points diagonally down-left, B straight down, C diagonally down-right and D horizontally right.]"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For Q, with $\\theta$ measured from the vertical, $T\\sin\\theta=m_Qv^2/r$ and $T\\cos\\theta=m_Qg$, so $T^2=(m_Qg)^2+(m_Qv^2/r)^2$. Since P is stationary, $T=m_Pg$. Substituting and dividing by $m_Q^2$ gives $(v^2/r)^2=(m_Pg/m_Q)^2-g^2$. Thus $2.3^4/r^2=(2g)^2-g^2=3(9.81)^2$, giving $r=0.311\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "A radius this small would require a horizontal force greater than the entire string tension.",
+        "B": "Correct.",
+        "C": "Uses too small a radial force for the perpendicular components of the tension.",
+        "D": "Inverts the calculated radius by interchanging $v^2$ and the radial acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The question requires resolving tension on Q and using the stationary mass to eliminate the tension and the angle.",
+    "misconception": "Using the full tension as the centripetal force",
+    "transcription": "Two masses P and Q are connected by a light inextensible string through a smooth hollow tube as shown. When mass Q is swung in a horizontal circle at a constant speed of $2.3\\ \\mathrm{m\\,s^{-1}}$, mass P remains stationary.\n\n[A vertical smooth hollow tube guides the string. Mass P hangs straight down from the lower end. From the upper end, the string slopes down and out to mass Q, which travels along a dashed horizontal circle centred on the tube axis. The horizontal distance from the axis to Q is labelled $r$.]\n\nIf the mass of P is twice the mass of Q, what is radius $r$ of the horizontal circle?\n\nA $0.14\\ \\mathrm{m}$\nB $0.31\\ \\mathrm{m}$\nC $0.93\\ \\mathrm{m}$\nD $3.21\\ \\mathrm{m}$"
+  }
+]

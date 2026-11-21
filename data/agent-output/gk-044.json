@@ -1,0 +1,506 @@
+[
+  {
+    "id": "ejc-2022-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Blue light gives the smallest resolvable angle because it has the shortest wavelength. By the Rayleigh criterion, $d/0.10<\\lambda/b=(470\\times10^{-9})/(4.0\\times10^{-3})$, giving a limiting spacing of $1.2\\times10^{-5}\\ \\mathrm m$.",
+      "perOption": {
+        "A": "Correct. Blue sets the limit.",
+        "B": "This uses a viewing distance a factor of ten too small.",
+        "C": "This uses the red wavelength and would allow blue pixels to be resolved.",
+        "D": "This uses the red wavelength and a viewing distance a factor of ten too small."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must select the limiting colour and apply the angular resolution criterion.",
+    "misconception": "Using the longest wavelength.",
+    "transcription": "The screen on most modern smartphones uses tiny, regularly-spaced pixels each capable of producing red, green, or blue light to make up an image. At typical viewing distances, the human eye is unable to resolve the individual pixels that make up the image on the screen.\n\nThe wavelengths for red, green, and blue are 660 nm, 550 nm, and 470 nm respectively. The diameter of the pupil through which light enters the eye is 4.0 mm. Humans tend to place the mobile phone screens closest to the eye at about 10 cm when lying down.\n\nWhat is the maximum distance between adjacent pixels?\n\nA $1.2\\times10^{-5}\\ \\mathrm m$\nB $1.2\\times10^{-6}\\ \\mathrm m$\nC $1.7\\times10^{-5}\\ \\mathrm m$\nD $1.7\\times10^{-6}\\ \\mathrm m$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wire makes the surfaces equipotential, so $V_1=V_2$ and $q_1/r_1=q_2/r_2$. Since $E$ is proportional to $|q|/r^2$, the equal charge-to-radius ratios cancel and $E_1/E_2=r_2/r_1$.",
+      "perOption": {
+        "A": "This assumes the spheres have equal charges.",
+        "B": "Correct. Equal potential cancels one power of the radius ratio.",
+        "C": "This reduces to the squared radius ratio under the equipotential condition.",
+        "D": "This reduces to unity because it uses the same charge-to-radius factor as for potential."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine the equipotential condition with the inverse-square field law.",
+    "misconception": "Assuming connected spheres have equal charge.",
+    "transcription": "Two spherical conductors of radii $r_1$ and $r_2$ are separated by a distance much greater than the radius of either sphere. The spheres are connected by a conducting wire as shown in the diagram below. The charges on the spheres in equilibrium are $q_1$ and $q_2$ respectively.\n\n[The larger left sphere, labelled $r_1$ and $q_1$, and the smaller right sphere, labelled $r_2$ and $q_2$, are joined by a straight wire.]\n\nWhat is the ratio of the magnitudes of the electric field strengths at the surfaces of the spheres?\n\nA $(r_2/r_1)^2$\nB $r_2/r_1$\nC $q_2r_2/(q_1r_1)$\nD $q_1r_2/(q_2r_1)$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The charge at X is negative, so the resultant electric field at X points right. The vertical field components from Z and Y cancel, giving $0=\\frac{q}{L^2+L^2}\\cos45^\\circ-\\frac{Q}{L^2}$ after cancelling the common Coulomb constant. With $\\cos45^\\circ=1/\\sqrt2$, this gives $q=2\\sqrt2Q$.",
+      "perOption": {
+        "A": "Equal charges give too small a vertical field from the farther corner Z.",
+        "B": "This accounts for the diagonal distance but omits the $45^\\circ$ projection.",
+        "C": "Taking the square root of the charge gives the wrong dimensions.",
+        "D": "Correct. The vertical components cancel."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electric-fields.b",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must reverse the field relative to the force on a negative charge and resolve the diagonal field.",
+    "misconception": "Omitting the diagonal projection.",
+    "transcription": "Point charges $+Q$, $-Q$, $-Q$, and $q$ are located at the corners W, X, Y and Z of a square respectively as shown.\n\nThe charge at X experiences a net electric force towards W.\n\n[W and X are at the upper left and upper right. Z and Y are at the lower left and lower right. An arrow labelled $F_{\\mathrm{on\\ X}}$ points left from X towards W.]\n\nWhat is the magnitude of charge $q$ in terms of $Q$?\n\nA $+Q$\nB $+2Q$\nC $+2\\sqrt{Q}$\nD $+2\\sqrt{2}Q$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Closing S puts $R_2$ in parallel with $R_3$, so their combined resistance is less than $R_3$ alone. By the potential divider rule, the p.d. across $R_1$ increases and that across $R_3$ decreases. The total resistance drops, increasing the battery power $P=\\mathcal E^2/R_{\\mathrm{total}}$.",
+      "perOption": {
+        "A": "Lower total resistance increases both battery power and the drop across the series resistor.",
+        "B": "This misses the increased share of voltage across $R_1$ and the increased battery power.",
+        "C": "Correct. The added branch reduces total resistance.",
+        "D": "The p.d. across $R_3$ falls as $R_1$ takes a greater share of the fixed battery voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.i",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track how a parallel branch affects voltage division and total power.",
+    "misconception": "Treating the voltage across the parallel branch as fixed.",
+    "transcription": "The diagram shows a network of resistors $R_1$, $R_2$, and $R_3$ connected to a battery of negligible internal resistance.\n\n[The battery and $R_1$ are in series with two parallel branches. One branch contains the open switch S in series with $R_2$. The other branch contains $R_3$.]\n\nWhen switch S is closed, the potential difference (p.d.) across $R_2$ (originally zero) rapidly increases to a steady value.\n\nWhat happens to the potential difference (p.d.) across each of the other two resistors, and to the power output of the battery?\n\n[Columns give p.d. across $R_1$, p.d. across $R_3$, and battery power output.]\nA decreases, decreases, decreases\nB decreases, stays the same, decreases\nC increases, decreases, increases\nD increases, stays the same, increases"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the potential divider rule, $\\frac{R_1}{R_1+R_2}\\mathcal E_{\\mathrm{sec}}=\\frac{60}{L}\\mathcal E_{\\mathrm{main}}$. The p.d. across $R_2$ balances the 20 cm between X and Y’s balance points, so $\\frac{R_2}{R_1+R_2}\\mathcal E_{\\mathrm{sec}}=\\frac{20}{L}\\mathcal E_{\\mathrm{main}}$. Dividing gives $R_2/R_1=20/60=1/3$.",
+      "perOption": {
+        "A": "Correct. The balance spans are 20 cm and 60 cm.",
+        "B": "This compares the 60 cm span with the span for both resistors together.",
+        "C": "This reverses the resistance ratio.",
+        "D": "This assigns the full 80 cm span to $R_2$."
+      }
+    },
+    "issues": "The final line of the key prints R₂/R₂ in place of R₂/R₁.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "practical",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the balance span that corresponds to each resistor.",
+    "misconception": "Using the full 80 cm for the second resistor.",
+    "transcription": "Potential differences across two resistors of resistances $R_1$ and $R_2$ are compared using a potentiometer wire (uniform resistance wire) in the electrical circuit shown.\n\n[A battery drives the potentiometer wire. A separate cell drives series resistors $R_1$ and $R_2$, with their left end connected to the left end of the wire. X is between the resistors and Y is at the right end of $R_2$. Galvanometers connect X and Y to points 60 cm and 80 cm from the left end of the wire respectively.]\n\nOne terminal of a galvanometer is connected to point X. The galvanometer reads zero when its other terminal is connected to a point that is a distance of 60 cm from one end of the potentiometer wire.\n\nOne terminal of a second galvanometer is connected to point Y. This galvanometer reads zero when its other terminal is connected to a point that is a distance of 80 cm from the same end of the potentiometer wire.\n\nWhat is the ratio $R_2/R_1$?\n\nA $1/3$\nB $3/4$\nC $3/1$\nD $4/3$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resistor across A and B completes the circuit, so an induced current flows and damps the oscillations. The flux increases on approach and decreases on departure, yielding opposite-polarity pulses with peaks that shrink on successive passes.",
+      "perOption": {
+        "A": "The constant peaks omit damping.",
+        "B": "Correct. The opposite-polarity peaks shrink.",
+        "C": "This omits both the polarity reversal and damping.",
+        "D": "This omits the polarity reversal as the magnet moves away."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "oscillations.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine polarity reversal with damping from the loaded coil.",
+    "misconception": "Ignoring damping or polarity reversal.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The half-turn reverses the flux, so $\\Delta\\Phi=-2(25\\times10^{-4})(2.0\\times10^{-4})\\sin60^\\circ\\ \\mathrm{Wb}$. Faraday’s law and Ohm’s law relate the induced e.m.f. to $RI$, with $I=dQ/dt$. Hence the magnitude of the net charge is $N|\\Delta\\Phi|/R=8.66\\times10^{-5}\\ \\mathrm C$.",
+      "perOption": {
+        "A": "This is over a thousand times too large for a 25 cm² coil and is consistent with a gross overestimate of the area.",
+        "B": "This is over a thousand times too large and misses the conversion from square centimetres to square metres.",
+        "C": "This uses only the initial flux magnitude and misses the doubling from reversal.",
+        "D": "Correct. The half-turn reverses the flux linkage."
+      }
+    },
+    "issues": "One intermediate line in the key prints 10⁶ instead of 10⁻⁶. The stem’s “average charge” is interpreted as net charge transferred.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e",
+      "currents.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must project the field, account for the flux reversal and use Faraday’s law to find charge.",
+    "misconception": "Using only the initial flux change.",
+    "transcription": "A uniform magnetic field of magnetic flux density $B=2.0\\times10^{-4}\\ \\mathrm T$ is directed down through a wire coil at an angle of $60^\\circ$ with the horizontal as shown. The coil has 500 turns, a total resistance $5.0\\ \\Omega$ and an area of $25\\ \\mathrm{cm^2}$.\n\n[A horizontal wire coil of area $25\\ \\mathrm{cm^2}$ has a dashed horizontal axis through it. Parallel arrows labelled $B$ pass down through the coil at $60^\\circ$ to the horizontal.]\n\nWhat is the average charge that flows when the coil is turned $\\pi$ rad about the horizontal axis?\n\nA $0.22\\ \\mathrm C$\nB $0.11\\ \\mathrm C$\nC $4.3\\times10^{-5}\\ \\mathrm C$\nD $8.7\\times10^{-5}\\ \\mathrm C$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over one $5\\ \\mathrm{ms}$ period the area under the $I^2$ graph is $9(2)+1(2)=20\\ \\mathrm{A^2\\,ms}$. The mean square is $20/5=4\\ \\mathrm{A^2}$, so $I_{\\mathrm{rms}}=2\\ \\mathrm A$. The average power is $I_{\\mathrm{rms}}^2R=52\\ \\mathrm W$.",
+      "perOption": {
+        "A": "Correct. Power follows the time-weighted mean of $I^2$.",
+        "B": "This underestimates the time-weighted squared current.",
+        "C": "This greatly understates the contribution from the 3.0 A intervals.",
+        "D": "This reports the numerical value of the r.m.s. current as though it were power."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify a full period and time-average the square of a non-sinusoidal current.",
+    "misconception": "Averaging the signed current before finding power.",
+    "transcription": "The diagram below shows the variation with time of an alternating current which flows through a $13\\ \\Omega$ resistor.\n\n[Step graph of $I$ in A against $t$ in ms. The current is $+3.0$ from 0 to 1, $-1.0$ from 1 to 3, zero from 3 to 4, $+3.0$ from 4 to 6, $-1.0$ from 6 to 8, zero from 8 to 9, $+3.0$ from 9 to 11, $-1.0$ from 11 to 13, and zero from 13 to 14. It steps up to $+3.0$ A at 14 ms.]\n\nWhat is the average power dissipated by the resistor?\n\nA $52\\ \\mathrm W$\nB $36\\ \\mathrm W$\nC $2.8\\ \\mathrm W$\nD $2.0\\ \\mathrm W$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Low-intensity light can eject photoelectrons if its frequency is high enough. Since $eV_s=hf-\\Phi$, doubling $f$ does not double $V_s$, and the minimum frequency corresponds to a maximum wavelength. Increasing intensity at fixed frequency above threshold supplies more photons per second and increases the photocurrent.",
+      "perOption": {
+        "A": "Low-intensity light can cause emission at sufficiently high frequency.",
+        "B": "The work function is subtracted once, so doubling frequency does not double stopping potential.",
+        "C": "The minimum frequency corresponds to a maximum wavelength.",
+        "D": "Correct. Greater intensity at fixed frequency increases the photocurrent above threshold."
+      }
+    },
+    "issues": "The key loosely associates higher intensity with higher energy per photon. At fixed frequency, the increase is in photon flux.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the effects of intensity and frequency on photoemission.",
+    "misconception": "Confusing photon energy with photon arrival rate.",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the shortest wavelength the electron’s kinetic energy is converted into one photon, so $eV=hc/\\lambda_{\\min}$. Taking logarithms gives $\\lg V=\\lg(hc/e)-\\lg\\lambda_{\\min}$. The graph of $\\lg\\lambda_{\\min}$ against $\\lg V$ is therefore a straight line with gradient $-1$.",
+      "perOption": {
+        "A": "Correct. The log–log slope is negative.",
+        "B": "The positive slope would imply that the cutoff wavelength increases with voltage.",
+        "C": "The inverse relation is curved on linear axes but straight on log–log axes.",
+        "D": "A horizontal line implies the cutoff wavelength is independent of voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect the X-ray cutoff to the full electron energy and interpret the logarithmic slope.",
+    "misconception": "Treating an inverse relation as curved on log–log axes.",
+    "transcription": "Electrons are accelerated from rest by a potential difference $V$. They bombard a metal target to produce X-rays. On the resulting X-ray spectrum, $\\lambda_{\\min}$ is the shortest wavelength observed.\n\nWhich of the following shows the variation with $\\lg V$ of $\\lg\\lambda_{\\min}$?\n\n[Each graph has $\\lg V$ horizontally and $\\lg\\lambda_{\\min}$ vertically.]\nA [Straight line sloping downwards.]\nB [Straight line sloping upwards.]\nC [Decreasing curve that becomes less steep.]\nD [Horizontal straight line.]"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the course estimate $\\Delta p\\,\\Delta x\\gtrsim h$, calculate $\\Delta p=(0.20/100)m_ev$. The estimated minimum position uncertainty is $h/\\Delta p=(6.63\\times10^{-34})/[(0.20/100)(9.11\\times10^{-31})(1.5\\times10^6)]=2.4\\times10^{-7}\\ \\mathrm m$.",
+      "perOption": {
+        "A": "Correct. This uses the course estimate and the stated precision.",
+        "B": "This uses $\\hbar$ in place of $h$ in the course estimate.",
+        "C": "This is consistent with using $h/(4p)$, based on the full momentum instead of its stated uncertainty.",
+        "D": "This is consistent with using $\\hbar/(2p)$, with the full momentum $p$ in place of the momentum spread."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert the stated percentage precision into an absolute momentum spread.",
+    "misconception": "Using full momentum in place of its uncertainty.",
+    "transcription": "An electron moves with a constant velocity of $1.5\\times10^6\\ \\mathrm{m\\,s^{-1}}$. Its momentum is measured to a precision of 0.20%.\n\nWhat is the uncertainty associated with its position along its direction of travel?\n\nA $2.4\\times10^{-7}\\ \\mathrm m$\nB $3.9\\times10^{-8}\\ \\mathrm m$\nC $1.2\\times10^{-10}\\ \\mathrm m$\nD $1.9\\times10^{-10}\\ \\mathrm m$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Only the sample count rate decays, so subtract the background before applying the exponential and restore it afterwards. The reading is $(77.3-8.3)\\exp[-(\\ln2/752)(280)]+8.3=61.6\\ \\mathrm{s^{-1}}$.",
+      "perOption": {
+        "A": "This omits the background from the final reading.",
+        "B": "This lets the entire initial count rate decay, including the background.",
+        "C": "Correct. The background is restored after the sample contribution decays.",
+        "D": "This decays the entire initial reading and then adds the background again."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.i",
+      "nuclear-physics.k"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must remove the background before applying decay and restore it for the meter reading.",
+    "misconception": "Applying decay to the background count.",
+    "transcription": "The half-life of a radioactive substance is 752 s. The background count is found to be $8.3\\ \\mathrm{s^{-1}}$. A Geiger Muller (GM) counter reads $77.3\\ \\mathrm{s^{-1}}$ when the GM tube is placed near a radioactive sample.\n\nWhat will be the reading on the GM counter 280 s later?\n\nA $53.3\\ \\mathrm{s^{-1}}$\nB $59.7\\ \\mathrm{s^{-1}}$\nC $61.6\\ \\mathrm{s^{-1}}$\nD $68.0\\ \\mathrm{s^{-1}}$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": null,
+    "confidence": "low",
+    "explanation": {
+      "body": "The key calculates the increase in rest energy as $(1.007825+16.999130-14.003074-4.002604)uc^2$. This gives $0.001277(1.66\\times10^{-27})(3\\times10^8)^2=1.91\\times10^{-13}\\ \\mathrm J=1.19\\times10^6\\ \\mathrm{eV}$, corresponding to the keyed option D.",
+      "perOption": {
+        "A": "This labels the value in joules as electronvolts.",
+        "B": "This gives the wrong scale in electronvolts and differs even from the rest-energy change in joules.",
+        "C": "This omits the factor of a million in the value expressed in electronvolts.",
+        "D": "Correct by the key’s rest-energy calculation."
+      }
+    },
+    "issues": "The key omits the product kinetic energy required by conservation of momentum for a stationary target. Using the invariant mass at threshold gives T = Δmc²(1 + mα/mN) + (Δm)²c²/(2mN), about 1.53 MeV, so no option gives it. The listed values are atomic masses, with electron counts balancing across the reaction.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.q"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare the reactant and product masses and convert the rest-energy increase to electronvolts.",
+    "misconception": "Equating the rest-energy increase with the stationary-target threshold.",
+    "transcription": "A stationary nitrogen nucleus reacts with a high speed $\\alpha$-particle to produce a proton and a nucleus of an oxygen isotope as shown in the equation:\n\n${}^{14}_{7}\\mathrm N+{}^{4}_{2}\\alpha\\to{}^{17}_{8}\\mathrm O+{}^{1}_{1}\\mathrm H$\n\nThe masses of the nuclides involved are as follows\n\n[Table headed nuclide and mass / $u$.]\n${}^{4}_{2}\\alpha$ 4.002604\n${}^{1}_{1}\\mathrm H$ 1.007825\n${}^{14}_{7}\\mathrm N$ 14.003074\n${}^{17}_{8}\\mathrm O$ 16.999130\n\nWhich is the minimum energy that the $\\alpha$-particle possess in order for the reaction to occur?\n\nA $1.9\\times10^{-13}\\ \\mathrm{eV}$\nB $4.0\\times10^{-13}\\ \\mathrm{eV}$\nC $1.2\\ \\mathrm{eV}$\nD $1.2\\times10^6\\ \\mathrm{eV}$"
+  },
+  {
+    "id": "ejc-2022-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Two successive alpha decays from Y decrease both proton and neutron numbers by four, producing P. An alpha decay and a beta-minus decay in either order decrease proton number by one and neutron number by three, producing R.",
+      "perOption": {
+        "A": "This omits R, which is reached by one alpha and one beta-minus decay.",
+        "B": "Correct. Both P and R are reached in two decays.",
+        "C": "Q is the one-alpha intermediate and S is unreachable in two of these decays.",
+        "D": "S is unreachable by any of the two-decay combinations."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must apply the changes in proton and neutron number twice and read the grid.",
+    "misconception": "Including a one-decay intermediate.",
+    "transcription": "Isotope Y undergoes two successive decays to form another isotope. Each decay can be either alpha-emission or beta-emission. Four other isotopes P, Q, R and S, are shown on the diagram.\n\n[Grid of neutron number against proton number. The coordinates (proton number, neutron number) are Y (94, 138), P (90, 134), Q (92, 136), R (93, 135), and S (95, 135). Proton numbers range from 90 to 97 and neutron numbers from 133 to 140.]\n\nWhich of the isotopes P, Q, R and S could be the final isotope after the two successive decays of isotope Y?\n\nA P only\nB P and R\nC Q, R and S\nD S only"
+  },
+  {
+    "id": "ejc-2022-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The speed $v$ has units $\\mathrm{m\\,s^{-1}}$. Pressure is force per area, so its units are $\\mathrm{N\\,m^{-2}}=\\mathrm{kg\\,m^{-1}\\,s^{-2}}$, and density has units $\\mathrm{kg\\,m^{-3}}$. The ratio $p/d$ has units $\\mathrm{m^2\\,s^{-2}}$ whose square root matches the units of $v$, leaving $\\gamma$ dimensionless.",
+      "perOption": {
+        "A": "These are the units of the speed.",
+        "B": "These are the units of $p/d$ before taking the square root.",
+        "C": "These are the units of $d/p$ alone and omit the cancelling units of $v^2$.",
+        "D": "Correct. The units cancel for $\\gamma$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must express pressure and density in SI base units and take the square root.",
+    "misconception": "Assigning the units of the full expression to the constant.",
+    "transcription": "1 The speed of sound in a gas is given by the following formula\n\n$v=\\sqrt{\\gamma p/d}$\n\nwhere $p$ is the gas pressure\n$d$ is the gas density\n$v$ is the speed of sound\n\nWhich of the following correctly indicates the unit for $\\gamma$?\n\nA $\\mathrm{m\\,s^{-1}}$\nB $\\mathrm{m^2\\,s^{-2}}$\nC $\\mathrm{m^{-2}\\,s^2}$\nD dimensionless"
+  }
+]

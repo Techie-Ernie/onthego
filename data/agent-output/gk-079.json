@@ -1,0 +1,516 @@
+[
+  {
+    "id": "njc-2023-prelim-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking downward as positive and using the key’s drag model, $mg-kv=ma$. As the ball speeds up, drag increases and $a$ falls toward zero. The speed changes at a varying rate, so $a=g-kv/m$ decreases along a curve.",
+      "perOption": {
+        "A": "Starts at zero and increases, although the ball initially has no drag and accelerates at $g$.",
+        "B": "Shows the speed-like approach to a nonzero limit, whereas acceleration tends to zero.",
+        "C": "Correct. Acceleration falls from $g$ toward zero along a curve.",
+        "D": "A straight decline would require speed, and hence the drag in this model, to increase at a constant rate."
+      }
+    },
+    "issues": "Printed key C differs from keyAnswer A (parser placeholder). Question PNG cuts off the plots for C and D, which are visible on key page 4.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish decreasing acceleration from increasing speed during the fall.",
+    "misconception": "Confusing terminal speed with terminal acceleration",
+    "transcription": "A ball, initially at rest, is dropped in the air from a great height. Air resistance is not negligible.\n\nWhich of the following graphs best shows the variation with time $t$ of the acceleration $a$ of the ball?\n\n[Each graph plots $a$ against $t$, with the origin marked 0.]\nA [Rises from the origin with increasing slope.]\nB [Rises from the origin and levels off at a positive acceleration.]\nC [Starts at a positive acceleration and curves downward, flattening toward zero.]\nD [Starts at a positive acceleration and falls linearly to zero.]"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q4",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The inextensible cable gives the falling balancing weight and rising passenger car the same acceleration magnitude. For the connected system, $1320(9.81)-(1200+80)(9.81)=(1320+1200+80)a$, so $a=0.15092\\ \\mathrm{m\\,s^{-2}}$. The net force on the passenger is $80a=12.074\\ \\mathrm{N}$ upward. The contact force therefore satisfies $N-80(9.81)=12.074$, giving $N=797\\ \\mathrm{N}$ to the nearest newton.",
+      "perOption": {
+        "A": "This is the net upward force on the passenger and omits the passenger’s weight.",
+        "B": "Subtracts the net force from the weight as if the passenger accelerated downward.",
+        "C": "Uses the passenger’s weight alone, as if the acceleration were zero.",
+        "D": "Correct. The normal force equals the weight plus the net upward force."
+      }
+    },
+    "issues": "Printed key D differs from keyAnswer A (parser placeholder). The key reverses the stated motion directions in its opening sentence and mistypes 12.074 N as 12.704 N in its final line. Its method and printed answer D are valid with those slips corrected.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the common acceleration and then apply Newton’s second law to the passenger alone.",
+    "misconception": "Confusing the normal force with the net force",
+    "transcription": "A lift consists of a passenger car supported by a cable which runs over a light, frictionless pulley to a balancing weight. The balancing weight falls as the passenger car rises.\n\n[The cable passes over the pulley, with the balancing weight hanging on the left and the passenger car containing a passenger hanging on the right. The diagram is not drawn to scale.]\n\nThe masses are shown in the table.\nPassenger car: $1200\\ \\mathrm{kg}$\nBalancing weight: $1320\\ \\mathrm{kg}$\nPassenger: $80\\ \\mathrm{kg}$\n\nWhat is the magnitude of the force between the passenger and the passenger car when carrying just one passenger and when the pulley is free to rotate?\n\nA $12\\ \\mathrm{N}$\nB $773\\ \\mathrm{N}$\nC $785\\ \\mathrm{N}$\nD $797\\ \\mathrm{N}$"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q5",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the beam’s centre of gravity. The balance of moments gives $T_1(L/2)=T_2(L/6)$. Hence $T_1/T_2=(L/6)/(L/2)=1/3$.",
+      "perOption": {
+        "A": "Correct. The moment arm of the second cord is one-third that of the first.",
+        "B": "Uses the ratio of the two labelled beam segments in place of the moment arms about the centre of gravity.",
+        "C": "Uses the inverse ratio of the labelled beam segments in place of the actual moment arms.",
+        "D": "Inverts the correct tension ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Choosing the centre of gravity as pivot reduces the problem to one moment equation.",
+    "misconception": "Using distances measured from the end of the beam",
+    "transcription": "A heavy uniform beam of length $L$ is supported by two vertical cords as shown.\n\n[A horizontal uniform beam hangs from two vertical cords. The left cord exerts upward tension $T_1$ at the left end. The second cord exerts upward tension $T_2$ at a distance $2L/3$ from the left end and $L/3$ from the right end.]\n\nWhat is the ratio $T_1/T_2$ of the tensions in these cords?\n\nA $1/3$\nB $1/2$\nC $2/1$\nD $3/1$"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q6",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The constant force gives the body constant acceleration. From $v=u+at$ with $u=0$, the speed increases linearly from zero. Since $P=Fv$, the power also increases linearly from zero.",
+      "perOption": {
+        "A": "Treats constant force as constant power and gives nonzero power at rest.",
+        "B": "Correct. Power grows linearly with speed and therefore with time.",
+        "C": "A falling slope would require the speed to increase at a decreasing rate.",
+        "D": "A rising slope would require the speed to increase at an increasing rate."
+      }
+    },
+    "issues": "Printed key B differs from keyAnswer A (parser placeholder).",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.e",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must link constant acceleration to increasing speed and then to power.",
+    "misconception": "Assuming constant force supplies constant power",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q7",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "With no slip, the rims move through equal distances at the contact in the same time, so $V=v$. Using the rim speeds gives $R\\Omega=r\\omega$, hence $\\Omega=(r/R)\\omega$.",
+      "perOption": {
+        "A": "Equates angular speeds even though equal rim speeds at different radii require different angular speeds.",
+        "B": "Equates angular speeds and assigns different rim speeds at a no-slip contact.",
+        "C": "Correct. Equal rim speeds give $ROmega=romega$.",
+        "D": "Inverts the angular-speed ratio and assigns unequal rim speeds."
+      }
+    },
+    "issues": "Printed key C differs from keyAnswer A (parser placeholder).",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify which speed is shared before applying the radius relation.",
+    "misconception": "Equating angular speeds at a no-slip contact",
+    "transcription": "A turntable has radius $R$. It is driven by a rubber drive wheel of radius $r$ in contact with the inside of the rim of the turntable, as shown below.\n\n[Plan view of a circular turntable of radius $R$, with a smaller drive wheel of radius $r$ touching the inside of its rim at the top. Arrows show clockwise rotation for both the turntable and the wheel.]\n\nThe turntable rotates with angular velocity $\\Omega$ and the linear speed of a point on its rim is $V$. The drive wheel rotates with angular velocity $\\omega$ and the linear speed of a point on its rim is $v$.\n\nWhich pair of equations show the relationship between the angular velocities and the linear speeds of the turntable and the wheel?\n\nOption | angular velocities | linear speeds\nA | $\\Omega=\\omega$ | $V=v$\nB | $\\Omega=\\omega$ | $V=(r/R)v$\nC | $\\Omega=(r/R)\\omega$ | $V=v$\nD | $\\Omega=(R/r)\\omega$ | $V=(r/R)v$"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q8",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wavelength is $\\lambda=v/f$, so doubling both $v$ and $f$ leaves $\\lambda$ at $0.20\\ \\mathrm{m}$. The amplitude remains $2.0\\ \\mathrm{cm}$. Only A shows both values.",
+      "perOption": {
+        "A": "Correct. The amplitude and wavelength both match.",
+        "B": "Shows a shorter wavelength even though doubling speed and frequency leaves their ratio unchanged.",
+        "C": "Halves the wavelength as if only the frequency doubled.",
+        "D": "Doubles the amplitude and halves the wavelength, although both should stay the same."
+      }
+    },
+    "issues": "The answer key highlights A without worked reasoning.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare spatial periods after both speed and frequency double.",
+    "misconception": "Assuming doubled frequency always halves wavelength",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q9",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The amplitude is $x_0=22/2=11\\ \\mathrm{mm}$. At contact the needle is $11-8.0=3.0\\ \\mathrm{mm}$ from equilibrium. The SHM speed is $v=\\omega\\sqrt{x_0^2-x^2}=2\\pi(4.5)\\sqrt{(11\\times10^{-3})^2-(3\\times10^{-3})^2}=0.299\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Leaves out the square root in the SHM speed formula.",
+        "B": "Uses $\\omega$ times the displacement magnitude in place of the SHM speed formula.",
+        "C": "Uses the $8.0\\ \\mathrm{mm}$ drop as the distance factor in $v=\\omega(8.0\\ \\mathrm{mm})$.",
+        "D": "Correct. The displacement magnitude at contact is $3.0 mathrm{mm}$."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain the amplitude and locate the cloth relative to equilibrium before calculating speed.",
+    "misconception": "Measuring SHM displacement from the highest point",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q10",
+    "keyPage": 10,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the turning point, $U_{\\max}=1.0\\ \\mathrm{J}$, so the maximum kinetic energy is also $1.0\\ \\mathrm{J}$. From $\\tfrac12(5.0)v_{\\max}^2=1.0$, the maximum speed is $0.632\\ \\mathrm{m\\,s^{-1}}$. With $v_{\\max}=\\omega x_0$ and $x_0=0.8\\ \\mathrm{m}$, the period is $T=2\\pi(0.8)/0.632=7.9\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct. The maximum speed and amplitude give a period of 7.9 s.",
+        "B": "Using a rough interior graph reading can distort the inferred speed-to-amplitude ratio.",
+        "C": "Omitting the factor of two when solving the kinetic-energy equation for speed gives a speed too low and a period near 11 s.",
+        "D": "Using 1.0 J as the spring constant confuses energy with stiffness and gives a period near 20 s."
+      }
+    },
+    "issues": "The key’s intermediate line has a stray equality after the maximum-speed relation. Its final substitution uses the correct relation.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret the energy graph and connect the maximum speed to the period.",
+    "misconception": "Confusing maximum speed with average speed",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q11",
+    "keyPage": 10,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the Rayleigh criterion and the small-angle approximation, $\\theta\\approx\\lambda/3.0\\approx x/(1.9\\times10^{17})$. For violet light at $400\\ \\mathrm{nm}$, $x\\approx2.5\\times10^{10}\\ \\mathrm{m}$. For red light at $700\\ \\mathrm{nm}$, $x\\approx4.4\\times10^{10}\\ \\mathrm{m}$. The only choice in this visible-light range is $3.0\\times10^{10}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This separation would require a wavelength far shorter than visible light.",
+        "B": "This separation also gives a resolving angle smaller than the telescope can achieve in visible light.",
+        "C": "Correct. This separation lies within the estimated visible-light range.",
+        "D": "This separation is about an order of magnitude larger than the visible-light estimate."
+      }
+    },
+    "issues": "Printed key C differs from keyAnswer A (parser placeholder). The key assumes observations use visible light, which the question leaves implicit.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must estimate the resolving angle and convert it to a separation at the given distance.",
+    "misconception": "Confusing angular resolution with linear separation",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q12",
+    "keyPage": 11,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational field strength along the horizontal is the negative potential gradient. The potential drops from $-20$ to $-30\\ \\mathrm{J\\,kg^{-1}}$ over $2\\ \\mathrm{m}$ to the right, so $g=-[(-30)-(-20)]/2=5.0\\ \\mathrm{N\\,kg^{-1}}$ to the right.",
+      "perOption": {
+        "A": "Correct. The local potential decreases to the right at 5.0 joules per kilogram per metre.",
+        "B": "Uses the correct magnitude but points toward increasing potential.",
+        "C": "Uses the correct direction but overestimates the local gradient between the adjacent equipotentials.",
+        "D": "Overestimates the local gradient and points toward increasing potential."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.h",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the local spacing and use the sign of the potential gradient.",
+    "misconception": "Taking the field direction to be toward higher potential",
+    "transcription": "The diagram below represents equipotential lines of a gravitational field.\n\n[A square grid shows three curved equipotential lines, labelled from left to right $-10$, $-20$ and $-30\\ \\mathrm{J\\,kg^{-1}}$. A horizontal scale bar marks $2\\ \\mathrm{m}$. Point P lies midway between the $-20$ and $-30\\ \\mathrm{J\\,kg^{-1}}$ lines, which are one scale-bar length apart horizontally at P’s height.]\n\nWhich of the following is the direction and strength of the field at point P?\n\nOption | direction | strength\nA | $\\rightarrow$ | $5.0\\ \\mathrm{N\\,kg^{-1}}$\nB | $\\leftarrow$ | $5.0\\ \\mathrm{N\\,kg^{-1}}$\nC | $\\rightarrow$ | $13\\ \\mathrm{N\\,kg^{-1}}$\nD | $\\leftarrow$ | $13\\ \\mathrm{N\\,kg^{-1}}$"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q13",
+    "keyPage": 12,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Earth rotates eastward, so Edison has the greater angular speed about Earth’s axis. The inward resultant is $mg-N=mr\\omega^2$, and the balance reads the normal force $N$. Thus $N=mg-mr\\omega^2$, so Wilson has the larger reading.",
+      "perOption": {
+        "A": "Edison’s greater angular speed requires a larger inward resultant and hence a smaller normal force.",
+        "B": "Correct. Wilson’s smaller angular speed gives him a larger normal force.",
+        "C": "The trains’ kinetic energy does not increase the twins’ masses in this Newtonian calculation.",
+        "D": "Equal speeds relative to the ground give different angular speeds about Earth’s axis."
+      }
+    },
+    "issues": "Printed key B differs from keyAnswer A (parser placeholder).",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must account for Earth’s rotation and distinguish the normal force from the gravitational force.",
+    "misconception": "Assuming a larger centripetal acceleration raises apparent weight",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q14",
+    "keyPage": 13,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For fixed resistance $R$ and cell e.m.f. $\\mathcal{E}$, the power is $P=I^2R=\\mathcal{E}^2R/(R+r)^2$. Increasing $r$ reduces the current, so the power decreases according to an inverse-square dependence on the total resistance.",
+      "perOption": {
+        "A": "Shows a linear decrease even though power depends on the inverse square of total resistance.",
+        "B": "Correct. Power decreases along a curve as the series resistance rises.",
+        "C": "Increasing the series resistance decreases the current and therefore the power in the fixed resistor.",
+        "D": "A peak at positive $r$ is inconsistent with fixed-resistor power, which is greatest at $r=0$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.h",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must express the fixed resistor’s power in terms of the total series resistance.",
+    "misconception": "Treating the variable resistance as the resistor whose power is plotted",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q15",
+    "keyPage": 14,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Closing the switch lowers the effective external resistance by adding lamp Y in parallel. Because the battery has internal resistance, the increased total current produces a larger internal voltage drop. The terminal potential difference across lamp X falls, so it dims.",
+      "perOption": {
+        "A": "Treats the original current as fixed even though the battery supplies more total current after the switch closes.",
+        "B": "The voltage drop across the battery’s existing internal resistance rises as the current increases.",
+        "C": "Correct. Lamp X has less voltage across it.",
+        "D": "Both lamps share the same operating potential difference when connected in parallel."
+      }
+    },
+    "issues": "Printed key C differs from keyAnswer A (parser placeholder).",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must relate the lower parallel load resistance to the battery’s terminal voltage.",
+    "misconception": "Assuming the battery supplies a fixed total current",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q16",
+    "keyPage": 15,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both cells are at their respective balance lengths when the readings are taken. At balance both galvanometers read zero, so neither test cell draws current and the two branches can be read simultaneously.",
+      "perOption": {
+        "A": "The branches can interact away from balance, but at the simultaneous null neither branch draws current.",
+        "B": "Different internal resistances cause no internal voltage drops at zero current.",
+        "C": "A driver voltage below a test cell’s e.m.f. prevents the wire from supplying a sufficient balancing potential difference.",
+        "D": "Correct. Both test cells carry zero current at their balance points."
+      }
+    },
+    "issues": "Printed key D differs from keyAnswer A (parser placeholder).",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must apply the null condition to both potentiometer branches simultaneously.",
+    "misconception": "Assuming balanced potentiometer branches still load the wire",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q17",
+    "keyPage": 16,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnitude of the electric field equals the magnitude of the potential gradient, $E=|\\mathrm{d}V/\\mathrm{d}x|$. The equipotentials are closer together near both charges, so the gradient is steeper and the field is stronger at both ends than in the middle.",
+      "perOption": {
+        "A": "Correct. The field has a minimum near the middle.",
+        "B": "Places the strongest field where the equipotentials are most widely spaced.",
+        "C": "Misses the stronger field near P, where the equipotentials are also close together.",
+        "D": "Misses the stronger field near Q, where the equipotentials are also close together."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must translate equipotential spacing into a graph of electric field strength.",
+    "misconception": "Confusing electric potential with electric field strength",
+    "transcription": null
+  }
+]

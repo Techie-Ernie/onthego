@@ -1,0 +1,515 @@
+[
+  {
+    "id": "jpjc-2023-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $\\lambda=v/f=v/12.5$, $v=12.5\\lambda$. The zero at P travels $d=\\lambda/8=0.125\\lambda$ to reach Q. The time is $d/v=0.125\\lambda/(12.5\\lambda)=0.010\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct. The wave moves one eighth of a wavelength.",
+        "B": "Uses the crossing three ticks ahead of Q, which moves away from Q.",
+        "C": "Uses a full period for a shift of one eighth of a wavelength.",
+        "D": "Waits longer than a full period although the first zero arrives in 0.010 s."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.d",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Read the separation as a fraction of a wavelength and calculate the travel time.",
+    "misconception": "Using the crossing ahead of Q",
+    "transcription": "The diagram shows a transverse wave at a particular instant. The wave is travelling to the right. The frequency of the wave is 12.5 Hz.\n\n[Sinusoidal wave plotted against distance, with eight tick intervals per wavelength. P is at a downward zero crossing and Q is one tick to its right.]\n\nAt the instant shown the displacement is zero at the point P.\n\nWhat is the shortest time to elapse before the displacement is zero at point Q?\n\nA 0.010 s\n\nB 0.030 s\n\nC 0.080 s\n\nD 0.100 s"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the lowest frequency $L=\\lambda_1/4$, so $f_1=v/(4L)=98\\ \\mathrm{Hz}$. The next two modes have $L=3\\lambda_2/4$ and $L=5\\lambda_3/4$, giving $f_2=3v/(4L)=3f_1$ and $f_3=5v/(4L)=5f_1$. The frequencies are $f_1,3f_1,5f_1,7f_1,\\ldots$.",
+      "perOption": {
+        "A": "Includes fractional multiples of the fundamental, such as 147 Hz.",
+        "B": "Includes even harmonics such as 196 Hz and 392 Hz.",
+        "C": "Includes the even harmonics $2f_1$, $4f_1$ and $6f_1$.",
+        "D": "Correct. All four frequencies are odd multiples of 98 Hz."
+      }
+    },
+    "issues": "The key calls the third-lowest mode the “third highest frequency.”",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "superposition.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the end conditions to find the wavelengths of successive modes.",
+    "misconception": "Including even harmonics",
+    "transcription": "A musical instrument is made using a long tube with a mouthpiece at one end. The other end is open and flared, as shown.\n\n[A long tube has a mouthpiece at the left and a flared opening at the right.]\n\nA musician maintains stationary sound waves with a node at the mouthpiece and an antinode at the other end. The lowest frequency of sound that the instrument can produce is 98 Hz.\n\nWhich different frequencies of sound can be produced by the instrument?\n\nA 98 Hz, 147 Hz, 196 Hz, 245 Hz\n\nB 98 Hz, 196 Hz, 294 Hz, 392 Hz\n\nC 98 Hz, 196 Hz, 392 Hz, 588 Hz\n\nD 98 Hz, 294 Hz, 490 Hz, 686 Hz"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $\\theta\\approx\\lambda/b$, the diameter is $b\\approx(590\\times10^{-9})/(2.0\\times10^{-6})=0.295\\ \\mathrm{m}\\approx0.30\\ \\mathrm{m}$. For red light at 700 nm, the minimum resolvable angle is about $2.3\\times10^{-6}\\ \\mathrm{rad}$, larger than the given separation.",
+      "perOption": {
+        "A": "Correct. The syllabus approximation gives about 0.30 m.",
+        "B": "At equal angular separation, red stars are unresolved because their longer wavelength raises the minimum angle to $2.3\\times10^{-6}\\ \\mathrm{rad}$.",
+        "C": "The minimum angle depends on wavelength through $\\theta\\approx\\lambda/b$.",
+        "D": "The angle is below the $2.0\\times10^{-6}\\ \\mathrm{rad}$ limit for yellow light."
+      }
+    },
+    "issues": "The key uses the syllabus approximation θ ≈ λ/b. The circular-aperture factor of 1.22 gives about 0.36 m. The key assumes equal angular separation in B and yellow light in D.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Rearrange the syllabus resolution formula and interpret the minimum angle.",
+    "misconception": "Treating resolution as independent of wavelength",
+    "transcription": "An optical telescope just resolves two distant yellow stars. They are subtended at an angle of $2.0\\times10^{-6}$ radians at the telescope. The wavelength of yellow light is about 590 nm.\n\nWhich statement is correct?\n\nA The aperture of the telescope has a diameter of about 0.30 m.\n\nB The telescope can be used to distinguish two red stars at similar distance.\n\nC The resolving power of the telescope is independent of the wavelength of light.\n\nD The telescope can be used to distinguish stars subtended at an angle of $3.0\\times10^{-7}$ radians."
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q20",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first 2.0 m is toward higher potential, in the direction of the force on the negative charge. The field does work of $(5.0)(4.0)(2.0)=40\\ \\mathrm{J}$, so the work against it is $-40\\ \\mathrm{J}$. The other 3.5 m is along an equipotential and contributes zero work.",
+      "perOption": {
+        "A": "Correct. The work against the field is $-40\\ \\mathrm{J}$.",
+        "B": "Gives the work done by the field.",
+        "C": "Uses the 3.5 m displacement perpendicular to the force.",
+        "D": "Uses the perpendicular displacement and the sign for work by the field."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the displacement along the electric force and assign the work its sign.",
+    "misconception": "Confusing work by and against the field",
+    "transcription": "A $-5.0\\ \\mathrm{C}$ point charge is initially stationary at a point P in a uniform electric field of field strength $4.0\\ \\mathrm{V\\,m^{-1}}$.\n\nIt is then moved within the field 2.0 m parallel to the field and 3.5 m perpendicular to the field to a point Q as shown.\n\n[Uniform field arrows point downwards. Q is 2.0 m above and 3.5 m to the right of P.]\n\nWhat is the work done against the electric field?\n\nA $-40\\ \\mathrm{J}$\n\nB 40 J\n\nC $-70\\ \\mathrm{J}$\n\nD 70 J"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q21",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron just reaches AB when its velocity perpendicular to the plates falls to zero. By conservation of energy, work done against the electric force equals the loss in kinetic energy, so $eV=\\tfrac12m_e(v\\cos\\theta)^2$.",
+      "perOption": {
+        "A": "Uses a point-charge potential expression for the energy change between the plates.",
+        "B": "Includes the kinetic energy parallel to the plates, which stays constant.",
+        "C": "Correct. The perpendicular component supplies the energy $eV$.",
+        "D": "Uses $v\\sin\\theta$, the component parallel to the plates."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Resolve the entry velocity and apply energy conservation to the component that falls to zero.",
+    "misconception": "Using total kinetic energy for motion across the gap",
+    "transcription": "An electron of charge $e$ and mass $m_e$ enters through a hole into a space between two parallel metal plates AB and CD, separated by a distance $d$.\n\nCD is maintained at a positive potential $V$ relative to AB.\n\n[AB is horizontal above CD. Arrow $v$ points up and right through a hole in CD, making angle $\\theta$ with the dashed normal. A double arrow marks separation $d$.]\n\nThe velocity of the electron is $v$.\n\nWhich expression is correct for the electron to just reach AB?\n\nA $\\tfrac12m_ev^2=\\frac{e}{4\\pi\\varepsilon_0d}$\n\nB $\\tfrac12m_ev^2=eV$\n\nC $\\tfrac12m_e(v\\cos\\theta)^2=eV$\n\nD $\\tfrac12m_e(v\\sin\\theta)^2=eV$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The copper and iron act as resistors in parallel. For one metre their resistances are $(1.7\\times10^{-8})/(2.0\\times10^{-3})=8.5\\times10^{-6}\\ \\Omega$ and $(1.0\\times10^{-7})/(1.0\\times10^{-3})=1.0\\times10^{-4}\\ \\Omega$, respectively. The effective resistance per unit length is $(1/(8.5\\times10^{-6})+1/(1.0\\times10^{-4}))^{-1}=7.8\\times10^{-6}\\ \\Omega\\,\\mathrm{m^{-1}}$.",
+      "perOption": {
+        "A": "Correct. The two materials provide parallel paths.",
+        "B": "Uses the copper resistance alone.",
+        "C": "Gives a resistance above that of copper alone, although adding the iron path increases conductance.",
+        "D": "Gives a resistance above that of copper alone, although the iron layer is in parallel."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Calculate the resistance of each material per metre and combine the two paths.",
+    "misconception": "Treating the materials as series resistors",
+    "transcription": "A resistor is made of a copper cylindrical core of cross-sectional area $2.0\\times10^{-3}\\ \\mathrm{m^2}$ which is surrounded by iron of cross-sectional area $1.0\\times10^{-3}\\ \\mathrm{m^2}$.\n\n[An iron layer surrounds the copper cylinder. The direction of current flow is along the cylinder's axis.]\n\nThe resistivities of copper and iron are $1.7\\times10^{-8}\\ \\Omega\\,\\mathrm{m}$ and $1.0\\times10^{-7}\\ \\Omega\\,\\mathrm{m}$ respectively.\n\nWhat is the resistance per unit length of such a resistor?\n\nA $7.8\\times10^{-6}\\ \\Omega\\,\\mathrm{m^{-1}}$\n\nB $8.5\\times10^{-6}\\ \\Omega\\,\\mathrm{m^{-1}}$\n\nC $8.3\\times10^{-5}\\ \\Omega\\,\\mathrm{m^{-1}}$\n\nD $9.2\\times10^{-5}\\ \\Omega\\,\\mathrm{m^{-1}}$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q23",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The reading measures the current through the $3\\ \\Omega$ ammeter. For applied potential difference $V$, the currents in A, B, C and D are $V/3$, $V/3.67$, $V/6$ and $V/4$, respectively, with resistances in ohms. The smallest reading is $V/6$ in C.",
+      "perOption": {
+        "A": "The meter is in parallel with both resistors and reads $V/(3\\ \\Omega)$.",
+        "B": "The parallel pair is in series with the meter, giving $V/(3.67\\ \\Omega)$.",
+        "C": "Correct. The three components are in series, giving $V/(6\\ \\Omega)$.",
+        "D": "The meter branch also contains the $1\\ \\Omega$ resistor and gives $V/(4\\ \\Omega)$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.h",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Trace all four circuits and compare the ammeter currents at the same terminal voltage.",
+    "misconception": "Confusing total current with ammeter current",
+    "transcription": "In each arrangement of resistors, the ammeter has a resistance of $3\\ \\Omega$.\n\nWhich arrangement gives the smallest reading on the ammeter when the same potential difference is applied between points P and Q?\n\nA [The $1\\ \\Omega$ resistor, $2\\ \\Omega$ resistor and meter are drawn in a row. Wires connect the node between the resistors to Q and the node between the $2\\ \\Omega$ resistor and the meter to P.]\n\nB [The $1\\ \\Omega$ and $2\\ \\Omega$ resistors are in parallel, with the meter in series between that pair and Q.]\n\nC [P, the $1\\ \\Omega$ resistor, the meter, the $2\\ \\Omega$ resistor and Q are in series.]\n\nD [One branch from P to Q contains the $1\\ \\Omega$ resistor and meter in series, and the other branch contains the $2\\ \\Omega$ resistor.]"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For zero deflection, the magnetic and electric forces must be equal and opposite. For motion perpendicular to both fields, $Bqv=qE$ using $q$ as the charge magnitude, so $v=E/B$. The particle must travel in the sense that makes the magnetic force oppose the electric force.",
+      "perOption": {
+        "A": "Motion parallel to $B$ produces zero magnetic force.",
+        "B": "Motion parallel to $E$ produces a magnetic force perpendicular to the electric force.",
+        "C": "Inverts the speed ratio from the force balance.",
+        "D": "Correct. The appropriate perpendicular velocity of magnitude $E/B$ balances the forces."
+      }
+    },
+    "issues": "D is a valid listed configuration. Only the perpendicular sense along E × B works, and an additional velocity component parallel to B also allows zero net force.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.m"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find a direction and speed that let the magnetic force balance the electric force.",
+    "misconception": "Inverting the crossed-field speed ratio",
+    "transcription": "A charged particle is projected with velocity $v$ into an evacuated region. A uniform electric field of field strength $E$ and a uniform magnetic field of flux density $B$ are applied perpendicular to each other in the same evacuated region.\n\nIf the velocity $v$ is to stay constant, what is its magnitude and direction?\n\nMagnitude / direction\n\nA $B/E$, parallel to $B$\n\nB $E/B$, parallel to $E$\n\nC $B/E$, perpendicular to both $B$ and $E$\n\nD $E/B$, perpendicular to both $B$ and $E$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q25",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the right-hand grip rule, the wire produces a field out of the page through the coil. As the wire current increases, the outward flux increases. By Lenz's law the induced field points into the page, so the right-hand grip rule gives a clockwise induced current.",
+      "perOption": {
+        "A": "The increasing wire current changes the flux through the coil and induces a current.",
+        "B": "Correct. Clockwise current produces a field into the page.",
+        "C": "Anticlockwise current reinforces the increase in outward flux.",
+        "D": "The outward flux keeps increasing, so the induced current keeps the same direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Apply the right-hand grip rule for the wire and coil with Lenz's law between them.",
+    "misconception": "Reinforcing the change in flux",
+    "transcription": "A current carrying wire is placed below a vertical coil in its plane, with current flowing towards the right as shown.\n\n[A circular coil is above a horizontal wire with a rightward arrow labelled “direction of current flow”.]\n\nWhich statement correctly describes the possible effect on the coil when the current in the wire increases?\n\nA No current will be induced in the coil.\n\nB A clockwise current will be induced in the coil.\n\nC An anti-clockwise current will be induced in the coil.\n\nD The current induced in the coil will be first anticlockwise and then clockwise."
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diode half-wave rectifies the a.c., so the RMS reading of 2.5 V gives a peak across NB of $2(2.5)=5.0\\ \\mathrm{V}$. By the potential divider principle, the peak across AB is $(100/40)(5.0)=12.5\\ \\mathrm{V}$. The peak power is $12.5^2/10=15.6\\ \\mathrm{W}\\approx16\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Uses the RMS voltage across NB with the full wire resistance.",
+        "B": "Uses the full-wire RMS voltage and so obtains mean power.",
+        "C": "Uses the full-sine factor $\\sqrt{2}$ in place of the half-wave factor of 2.",
+        "D": "Correct. The peak power rounds to 16 W."
+      }
+    },
+    "issues": "The key assumes a sinusoidal supply and a true RMS voltmeter reading over the full cycle.",
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.j",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Convert the half-wave RMS voltage to peak voltage, scale to the full wire and calculate peak power.",
+    "misconception": "Using the full-sine RMS factor after rectification",
+    "transcription": "The uniform wire AB has length 1.0 m and resistance of $10\\ \\Omega$. It is connected in series with an a.c. supply and an ideal diode.\n\n[The supply, wire AB and diode form a loop, with A at the top, B at the bottom and the diode's cathode toward the supply. The voltmeter is connected between N on the wire and B.]\n\nWhen NB is 40 cm, the a.c. voltmeter gives a steady reading of 2.5 V.\n\nWhat is the instantaneous peak power provided by the supply?\n\nA 0.63 W\n\nB 3.9 W\n\nC 7.8 W\n\nD 16 W"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The de Broglie wavelength is $\\lambda=h/p$. Since $E=p^2/(2m)=eV$, $p=\\sqrt{2meV}$. Hence $\\lambda=h/\\sqrt{2meV}\\propto1/\\sqrt V$.",
+      "perOption": {
+        "A": "Shows wavelength increasing ever more steeply as $V$ rises.",
+        "B": "Correct. The curve falls and flattens as $V$ increases.",
+        "C": "Shows an increase consistent with momentum growing as $\\sqrt V$, while wavelength is inversely proportional to momentum.",
+        "D": "Shows direct proportionality to $V$ in place of inverse square-root dependence."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "quantum-physics.e",
+      "currents.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combine the energy and momentum equations and identify the resulting curve.",
+    "misconception": "Making wavelength increase with momentum",
+    "transcription": "Electrons are accelerated from rest through a potential difference $V$.\n\nWhich graph shows the variation of the de Broglie wavelength $\\lambda$ of the electrons with $V$?\n\n[All graphs have $\\lambda$ vertically and $V$ horizontally, with zero labelled on both axes.]\n\nA [Curve rising from the origin and steepening.]\n\nB [Decreasing curve starting high just to the right of the vertical axis and flattening toward the horizontal axis.]\n\nC [Curve rising from the origin and flattening.]\n\nD [Rising straight line from the origin.]"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The peak wavelengths are characteristic of the target metal and stay fixed. Raising the potential difference gives electrons more kinetic energy, allowing more energetic X-rays to be produced. The cutoff wavelength decreases because $eV_{\\mathrm{AC}}=hc/\\lambda_{\\min}$.",
+      "perOption": {
+        "A": "Assumes the increased voltage shifts the characteristic peaks to longer wavelengths.",
+        "B": "Correct. The cutoff moves to a shorter wavelength and the peaks stay fixed.",
+        "C": "Reverses the cutoff trend and assumes the characteristic lines shift despite fixed atomic energy gaps.",
+        "D": "Reverses the dependence of the cutoff wavelength on voltage."
+      }
+    },
+    "issues": "The supplied 9478 syllabus has no explicit X-ray tube outcome. The cited outcomes cover photon energy and atomic transitions.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.m"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguish the voltage-dependent cutoff from lines set by atomic energy gaps.",
+    "misconception": "Assuming voltage shifts characteristic lines",
+    "transcription": "The graph shows the spectrum of X-rays emitted from an X-ray tube.\n\n[The graph plots intensity against wavelength. The curve labelled “original X-ray spectra” begins at $\\lambda_{\\min}$, rises to a broad hump and has two sharp peaks at longer wavelengths.]\n\nThe potential difference between the target and cathode is increased.\n\nHow do the minimum wavelength and the wavelengths of the peaks change?\n\nMinimum wavelength / wavelengths of peaks\n\nA decrease / increase\n\nB decrease / remain the same\n\nC increase / increase\n\nD increase / remain the same"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Subtracting background gives an initial source count rate of $210-30=180\\ \\mathrm{s^{-1}}$. Two half-lives elapse in 10 hours, leaving one quarter of that rate, or $45\\ \\mathrm{s^{-1}}$. Adding the background back gives $45+30=75\\ \\mathrm{s^{-1}}$.",
+      "perOption": {
+        "A": "Gives the source count rate alone after two half-lives.",
+        "B": "Quarters the initial total rate, including background.",
+        "C": "Uses a remaining source contribution of $30\\ \\mathrm{s^{-1}}$ instead of $45\\ \\mathrm{s^{-1}}$.",
+        "D": "Correct. The reading includes the remaining source counts and background."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Remove the background before applying two half-lives and restore it at the end.",
+    "misconception": "Applying decay to background counts",
+    "transcription": "In the absence of any radioactive source, the average value of the background radiation is found to be 30 counts per second.\n\nWhen a radioactive source with half-life of 5 hours is placed at a fixed distance from the counter, the average total count rate is 210 counts per second.\n\nWhat average count rate is expected with the source in the same position 10 hours later?\n\nA $45\\ \\mathrm{s^{-1}}$\n\nB $53\\ \\mathrm{s^{-1}}$\n\nC $60\\ \\mathrm{s^{-1}}$\n\nD $75\\ \\mathrm{s^{-1}}$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The decay equation is $\\,^{111}_{47}\\mathrm{Ag}\\rightarrow{}^{111}_{48}\\mathrm{Cd}+{}^{0}_{-1}\\mathrm{e}$. The mass number stays at 111 and the proton number increases from 47 to 48.",
+      "perOption": {
+        "A": "Correct. Silver-111 produces cadmium-111 by beta-minus decay.",
+        "B": "Silver-110 retains its mass number 110 in beta-minus decay.",
+        "C": "Indium-111 would increase its proton number to 50 in beta-minus decay.",
+        "D": "Tin-112 has the wrong mass number and would increase its proton number to 51."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.c",
+      "nuclear-physics.g",
+      "nuclear-physics.m",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Balance the mass and proton numbers for beta-minus decay.",
+    "misconception": "Reversing the proton-number change",
+    "transcription": "Which isotope decays by emission of a $\\beta$-particle to produce $\\,^{111}_{48}\\mathrm{Cd}$?\n\nA $\\,^{111}_{47}\\mathrm{Ag}$\n\nB $\\,^{110}_{47}\\mathrm{Ag}$\n\nC $\\,^{111}_{49}\\mathrm{In}$\n\nD $\\,^{112}_{50}\\mathrm{Sn}$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Assume the wire diameter is $1\\ \\mathrm{mm}=0.001\\ \\mathrm{m}$. The cross-sectional area is $\\pi(0.001/2)^2=7.85\\times10^{-7}\\ \\mathrm{m^2}\\approx8\\times10^{-7}\\ \\mathrm{m^2}$.",
+      "perOption": {
+        "A": "Implies a wire diameter of about 3.6 cm, comparable to the length of a clip.",
+        "B": "Implies a diameter of about 1 cm, roughly ten times too large.",
+        "C": "Correct. It corresponds to a diameter of about 1 mm.",
+        "D": "Implies a diameter of about $36\\ \\mathrm{\\mu m}$, far too thin for a paper clip."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.b",
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Estimate the wire diameter, convert to metres and calculate the area from its radius.",
+    "misconception": "Estimating the clip's size instead of wire thickness",
+    "transcription": "What is a reasonable estimate of the cross-sectional area of the wire in a paper clip?\n\nA $1\\times10^{-3}\\ \\mathrm{m^2}$\n\nB $8\\times10^{-5}\\ \\mathrm{m^2}$\n\nC $8\\times10^{-7}\\ \\mathrm{m^2}$\n\nD $1\\times10^{-9}\\ \\mathrm{m^2}$"
+  }
+]

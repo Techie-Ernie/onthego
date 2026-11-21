@@ -1,0 +1,513 @@
+[
+  {
+    "id": "njc-2025-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upward pull is $9.0\\sin45^\\circ=6.36\\ \\mathrm N$, less than the weight of $19.6\\ \\mathrm N$, so the crate stays on the ground. The net horizontal force is $9.0\\cos45^\\circ-2.0=4.36\\ \\mathrm N$. Hence $a=4.36/2.0=2.2\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Ignores friction.",
+        "C": "Subtracts friction from the full angled pull.",
+        "D": "Uses the full pull as the net force."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments",
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Resolve the pull, subtract friction and apply Newton’s second law.",
+    "misconception": "Using the full pull horizontally",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conserving momentum gives $(5.0)(4.0)+(2.0)(-3.0)=(5.0+2.0)v$. The common velocity is $v=(20.0-6.0)/7.0=2.0\\ \\mathrm{m\\,s^{-1}}$. The final kinetic energy is $\\tfrac12(5.0+2.0)(2.0)^2=14\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Severely underestimates the common speed from the net momentum.",
+        "B": "Correct.",
+        "C": "Adds the opposing momenta as magnitudes.",
+        "D": "Reports the kinetic energy lost."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student needs signed momenta, a common velocity and the final kinetic energy.",
+    "misconception": "Adding opposing momenta as magnitudes",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stationary spring tension is $F_s=1.2(9.81)=11.772\\ \\mathrm N$. The spring tilts so that the horizontal tension component accelerates the mass, giving $F_a=\\sqrt{11.772^2+(1.2\\times5.0)^2}=13.213\\ \\mathrm N$. Since extension is proportional to tension, $x_a=(13.213/11.772)(2.4)=2.7\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Uses only the horizontal component to determine the extension.",
+        "B": "Underestimates the resultant spring tension.",
+        "C": "Correct.",
+        "D": "Adds perpendicular components as scalars."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.c",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine perpendicular tension components and use the force ratio to scale the extension.",
+    "misconception": "Adding perpendicular tensions directly",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cord must pull with $900\\ \\mathrm N$, giving a minimum torque of $900(0.20)=180\\ \\mathrm{N\\,m}$. The couple on the lever provides this torque, so each force is $F=180/1.20=150\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Uses the full lever length as each force’s individual moment arm.",
+        "B": "Correct.",
+        "C": "Counts the torque of only one force about the spindle.",
+        "D": "Treats the lever force as roughly equal to the load and misses the torque advantage."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.e",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must relate the disc torque to the couple on the lever.",
+    "misconception": "Omitting one force of the couple",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The useful power is $0.9$ times the rate of gravitational potential energy loss $mgh/t$, with $m=\\rho V$. Thus $P=0.9(V/t)\\rho gh=0.9(5.7)(1000)(9.81)(30)=1.5\\ \\mathrm{MW}$.",
+      "perOption": {
+        "A": "Underestimates the useful power by an order of magnitude.",
+        "B": "Correct.",
+        "C": "Reports the input power before applying efficiency.",
+        "D": "Treats the efficiency percentage as the power in megawatts."
+      }
+    },
+    "issues": "The key’s opening power expression omits the time divisor from mgh/t. Its subsequent expressions use the correct rate.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student combines volume flow, gravitational energy loss and efficiency.",
+    "misconception": "Confusing input power with useful output",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the threshold of slipping, maximum static friction provides the centripetal force. Thus $0.20=0.010(0.050)\\omega^2$, giving $\\omega=20\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Underestimates the angular speed by using an excessively large mass–radius product.",
+        "B": "Gives the tangential speed of $1.0\\ \\mathrm{m\\,s^{-1}}$ as the angular speed.",
+        "C": "Correct.",
+        "D": "Reports $\\omega^2$ without taking its square root."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student equates limiting friction to the centripetal force and solves for angular speed in SI units.",
+    "misconception": "Confusing angular speed with its square or with linear speed",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Immediately after launch, the spacecraft is still near Earth’s surface, so the gravitational field strength remains approximately $g$. The astronaut’s gravitational force is therefore $mg$.",
+      "perOption": {
+        "A": "Gives the upward support force $m(g+0.2g)$.",
+        "B": "Correct.",
+        "C": "Subtracts the spacecraft acceleration from $g$ when calculating gravity.",
+        "D": "Assumes gravity vanishes at liftoff."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.d",
+      "energy-and-fields.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student only needs to distinguish gravitational field strength from spacecraft acceleration.",
+    "misconception": "Confusing gravitational force with apparent weight",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the two surfaces, $g_E=GM_E/r_E^2$ and $g_N=GM_N/r_N^2$. Dividing the Neptune equation by the Earth equation and rearranging gives $r_N/r_E=\\sqrt{M_Ng_E/(M_Eg_N)}=\\sqrt{17}=4.1$.",
+      "perOption": {
+        "A": "Inverts the mass ratio and omits the square root.",
+        "B": "Gives the reciprocal of the requested radius ratio.",
+        "C": "Correct.",
+        "D": "Uses the mass ratio directly."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student divides the two field equations and takes a square root.",
+    "misconception": "Assuming radius is proportional to mass at fixed surface gravity",
+    "transcription": "The gravitational field strength at the surface of Neptune is approximately equal to the gravitational field strength at the surface of the Earth. The mass of Neptune is 17 times the mass of the Earth.\n\nWhat is the value of the ratio $\\dfrac{\\text{radius of Neptune}}{\\text{radius of Earth}}$?\n\nA 0.059\nB 0.24\nC 4.1\nD 17"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The hot water cools to $0^\\circ\\mathrm C$, releasing $0.160(4200)(100)=67\\,200\\ \\mathrm J$. The mass of ice melted is $67\\,200/336\\,000=0.200\\ \\mathrm{kg}$. The total water mass is $200+160=360\\ \\mathrm g$.",
+      "perOption": {
+        "A": "Assumes the liquid mass falls below the initial 160 g even though ice melts.",
+        "B": "Counts only the melted ice.",
+        "C": "Adds just 100 g of meltwater, underestimating the amount melted.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.g",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student links cooling to melting and adds the original water mass.",
+    "misconception": "Confusing melted mass with total water mass",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q13",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Heating transfers $80\\ \\mathrm J$ into the system, and work transfers $100\\ \\mathrm J$ out. The internal energy change is $80+(-100)=-20\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Counts only work.",
+        "B": "Correct.",
+        "C": "Counts only heating.",
+        "D": "Adds the work done by the system as an energy gain."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The calculation is a single signed addition.",
+    "misconception": "Treating work done by the system as an energy gain",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q14",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The four graphs show similar kinetic and total energy curves. Gravitational potential energy increases linearly with height. As the mass rises over the range shown, the spring extension $x$ decreases, so the elastic potential energy $\\tfrac12kx^2$ decreases along a quadratic curve.",
+      "perOption": {
+        "A": "Makes gravitational potential energy quadratic and puts zero spring extension at equilibrium.",
+        "B": "Swaps the gravitational and elastic potential energy curves.",
+        "C": "Keeps gravitational potential energy constant despite the change in height.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The batch marks this item as text, but all four options are graphs.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "oscillations.h",
+      "energy-and-fields.j",
+      "energy-and-fields.k",
+      "projectile-motion.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the dependence on height from the dependence on spring extension.",
+    "misconception": "Treating displacement from equilibrium as spring extension",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Light damping lowers the amplitude throughout the frequency range shown. More damping also shifts the resonance peak to a slightly lower frequency.",
+      "perOption": {
+        "A": "Raises the amplitude above the original curve away from resonance.",
+        "B": "Moves the peak to a higher frequency.",
+        "C": "Keeps nearly the original peak height and increases amplitude away from resonance.",
+        "D": "Correct. The amplitude is lower throughout the plotted range."
+      }
+    },
+    "issues": "Option D draws the peaks at essentially the same frequency, so the slight downward shift cited by the key is not clearly visible.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student compares amplitudes across the frequency range and checks the direction of the peak shift.",
+    "misconception": "Assuming damping increases amplitude away from resonance",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Malus’s law gives $I=I_0\\cos^2\\theta$. Since intensity is proportional to the square of amplitude, $kA^2=kE_0^2\\cos^2\\theta$, giving $A=E_0\\cos\\theta$ for the angle shown. Equivalently, resolving the field along the filter’s plane of polarisation gives $E_0\\cos\\theta$.",
+      "perOption": {
+        "A": "Gives the square of the transmitted amplitude.",
+        "B": "Correct.",
+        "C": "Uses the component perpendicular to the transmission direction.",
+        "D": "Squares the perpendicular component."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish field amplitude from intensity and interpret the angle to the filter axis.",
+    "misconception": "Applying the intensity factor to the field amplitude",
+    "transcription": "A plane-polarised electromagnetic wave is incident on a polarising filter as shown below.\n\n[The wave’s electric field oscillates vertically. The wave travels towards a polarising filter whose plane of polarisation is shown at angle $\\theta$ to the vertical.]\n\nThe electric field of the wave before reaching the filter is vertical and the magnitude $E$ of the field is\n\n$E=E_0\\sin(\\omega t)$.\n\nwhere $E_0$ is the amplitude and $t$ is the time.\n\nThe plane of polarisation of the filter is at $\\theta$ from the vertical.\n\nWhat is the amplitude of the electric field emerging from the filter?\n\nA $E_0^2\\cos^2\\theta$\nB $E_0\\cos\\theta$\nC $E_0\\sin\\theta$\nD $E_0^2\\sin^2\\theta$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A narrower gap increases spreading due to diffraction. A longer wavelength also increases spreading, so both changes in C act in the same direction.",
+      "perOption": {
+        "A": "The narrower gap increases spreading while the shorter wavelength reduces it.",
+        "B": "Both changes reduce spreading.",
+        "C": "Correct.",
+        "D": "The longer wavelength increases spreading while the wider gap reduces it."
+      }
+    },
+    "issues": "The schematic depicts the gap as narrower than the incident wavefront spacing, whereas the stem says the wavelength is much smaller than the gap.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify which pair makes both changes increase spreading.",
+    "misconception": "Judging diffraction from gap width or wavelength alone",
+    "transcription": "The diagram shows a water wave in a shallow tank. The wave is diffracted though a gap in a barrier and spreads. The wavelength of the wave is much smaller than the width of the gap.\n\n[Straight, parallel wavefronts approach a gap in a vertical barrier from the left. Curved wavefronts spread out to the right.]\n\nThe wavelength of the wave and the width of the gap are both changed by a small amount.\n\nWhich combination of changes must increase the amount of spreading due to diffraction?\n\nwavelength | width of gap\nA decreases | decreases\nB decreases | increases\nC increases | decreases\nD increases | increases"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $d\\sin\\theta=n\\lambda$, with $d=0.001/400\\ \\mathrm m$ and $\\lambda=567\\times10^{-9}\\ \\mathrm m$. The key gives second- and third-order angles of about $27.00^\\circ$ and $42.87^\\circ$. On the same side of the central maximum, the separation is $42.87^\\circ-27.00^\\circ=15.87^\\circ$, or $15.9^\\circ$ to three significant figures.",
+      "perOption": {
+        "A": "Uses the first-order angle.",
+        "B": "Uses the separation between the first and second orders.",
+        "C": "Correct.",
+        "D": "Gives the second-order angle from the central maximum."
+      }
+    },
+    "issues": "The key assumes the two maxima lie on the same side. Its second-order angle is given as 27.00° (more precisely 26.97°). The keyed option is unaffected.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student converts line density to spacing, calculates two diffraction angles and finds their difference.",
+    "misconception": "Assuming equal angular spacing between orders",
+    "transcription": "Light of wavelength $567\\ \\mathrm{nm}$ is incident normally on a diffraction grating.\nThe grating has 400 lines per mm.\n\nWhat is the angle between the second-order and the third-order maxima?\n\nA $13.1^\\circ$\nB $13.9^\\circ$\nC $15.9^\\circ$\nD $27.0^\\circ$"
+  }
+]

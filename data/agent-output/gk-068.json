@@ -1,0 +1,504 @@
+[
+  {
+    "id": "jpjc-2024-prelim-p1-q17",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Coulomb’s law, $F\\propto |q_1q_2|/r^2$. At A the attraction to $-2Q$ dominates, so the resultant points down. At B and C the resultant points up. At D the horizontal components cancel, and downward repulsion can balance upward attraction.",
+      "perOption": {
+        "A": "The nearby negative charge produces the dominant downward force.",
+        "B": "Both repulsions have upward components that reinforce the attraction.",
+        "C": "The repulsions cancel horizontally, leaving an upward attraction.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Resolve the three forces and compare their vertical components.",
+    "misconception": "Ignoring force components",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cross-sectional area is $ac$ and the drift speed is $b/t$. Hence $I=Anvq=(ac)n(b/t)q=nqabc/t=nqV/t$.",
+      "perOption": {
+        "A": "Gives charge without dividing by time.",
+        "B": "Correct.",
+        "C": "Omits thickness $a$ from the volume.",
+        "D": "Adds an extra length factor and omits division by time."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the cross-section and drift speed before substitution.",
+    "misconception": "Using area instead of volume",
+    "transcription": "The diagram shows a metal block.\n\n[Rectangular block with thickness $a$, horizontal length $b$ and depth $c$. Current arrows marked $I$ point right along the $b$ direction.]\n\nThe block has sides of length $a$, $b$ and $c$ as shown, and its volume is $V$. Each charge carrier has a charge $-q$ and the number density of the charge carriers in the metal is $n$. It takes each charge carrier an average time of $t$ to pass through the block.\n\nWhat is an expression for the current $I$?\n\nA  $I=nqabc$\nB  $I=\\frac{nqV}{t}$\nC  $I=\\frac{nqbc}{t}$\nD  $I=nqaV$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $5\\ \\mathrm{mA}$, Fig. 19.1 gives a diode p.d. of $0.8\\ \\mathrm V$. The resistor p.d. is $V=IR=(5\\times10^{-3})(50)=0.25\\ \\mathrm V$. The supply p.d. is $0.8+0.25=1.05\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Includes only the resistor drop.",
+        "B": "Underestimates the diode drop, which alone is 0.8 V.",
+        "C": "Correct.",
+        "D": "Would require a diode drop of 1.00 V, which corresponds to a higher current."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.e",
+      "circuits.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Read the diode characteristic and add the resistor drop.",
+    "misconception": "Omitting a series voltage drop",
+    "transcription": "A semiconductor diode with the forward characteristic shown in Fig. 19.1 is connected in series with a variable, low voltage d.c. power supply, a meter of negligible internal resistance and a $50\\ \\Omega$ resistor as shown in Fig. 19.2.\n\n[Fig. 19.1: Forward characteristic with vertical axis current / mA from 0 to 20 and horizontal axis p.d. / V from 0 to 1.0. The curve rises from near zero around 0.5 V through about 5 mA at 0.8 V and 10 mA at 0.9 V.]\n[Fig. 19.2: Series loop with a diode pointing up on the left, a mA meter at the top, a variable d.c. supply at the right and a $50\\ \\Omega$ resistor at the bottom.]\n\nWhat is the potential difference across the supply when the meter reads $5\\ \\mathrm{mA}$?\n\nA  0.25 V\nB  0.75 V\nC  1.05 V\nD  1.25 V"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential at X is $12\\ \\mathrm V$. The p.d. between X and Y equals the drop across the $3.0\\ \\Omega$ resistor, $(1.0)(3.0)=3.0\\ \\mathrm V$. The potential at Y is therefore $12-3=9\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Treats X as earthed and uses the full 4.0 V e.m.f. for the terminal p.d.",
+        "B": "Uses 4.0 V for the loaded cell's terminal p.d. instead of the 3.0 V resistor drop.",
+        "C": "Treats Y as earthed even though the galvanometer contact is away from earth.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.g"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use earth as the reference and obtain the smaller cell's terminal p.d. from the resistor.",
+    "misconception": "Equating e.m.f. with loaded terminal p.d.",
+    "transcription": "A $12\\ \\mathrm V$ cell with negligible internal resistance is connected to a resistance wire which is earthed at one end. Another cell of e.m.f. $4.0\\ \\mathrm V$ drives a current of $1.0\\ \\mathrm A$ through a $3.0\\ \\Omega$ resistor. The galvanometer is at zero deflection.\n\n[The resistance wire runs horizontally from X at left to earth at right, in parallel with the 12 V cell whose positive terminal is at X. The positive terminal of the 4.0 V cell connects to X and its negative terminal connects to Y. The 3.0 ohm resistor also joins X and Y, with a 1.0 A arrow down the left lead into the resistor branch. A galvanometer joins Y to a tapping point on the resistance wire near X.]\n\nWhat are the potentials at X and Y?\n\nOption | potential at X / V | potential at Y / V\nA | 0 | −4\nB | 12 | 8\nC | 3 | 0\nD | 12 | 9"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use Fleming’s left-hand rule with the current into the page and the field directed downwards and northwards. The force is perpendicular to the field and points downwards and southwards, along D.",
+      "perOption": {
+        "A": "A vertical force would not be perpendicular to the field.",
+        "B": "Reverses the direction given by Fleming’s left-hand rule.",
+        "C": "Points along the field even though the force must be perpendicular to it.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Apply Fleming’s left-hand rule to an inclined field and current into the page.",
+    "misconception": "Reversing the magnetic force",
+    "transcription": "A horizontal power cable carries a steady current in an east-to-west direction.\n\nWhich arrow shows the direction of the force on the cable caused by the Earth's magnetic field, in a region where this field is at $60^\\circ$ to the horizontal?\n\n[South is at left and north at right. Parallel field arrows slope down towards north at $60^\\circ$ to the horizontal. A cross marks current into the page. From the cable, A points up, B up and right, C down and right approximately along the field, and D down and left opposite B.]"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "While only the trailing edge is in the field, a magnetic force opposes the pull over a distance $L$, the side length of the loop. The induced e.m.f. is $BLv$, so $I=BLv/R$ for total loop resistance $R$. The work done is $W=F_BL=(BIL)L=(B^2L^3/R)v$. Thus $W$ is directly proportional to $v$.",
+      "perOption": {
+        "A": "Treats the work as independent of speed despite the increasing induced current.",
+        "B": "Correct.",
+        "C": "Confuses the faster-than-linear increase in power with the increase in work.",
+        "D": "Shows a decreasing slope despite the direct proportionality between drag force and speed."
+      }
+    },
+    "issues": "The key calls R the resistance of each side, but the calculation requires the total loop resistance. The graph is unaffected.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Link induced e.m.f. to magnetic force and work over a fixed distance.",
+    "misconception": "Confusing work with power",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q23",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Faraday’s law, the average induced e.m.f. is the magnitude of the change in flux linkage divided by the time. Thus $\\bar{\\mathcal E}=\\frac{NBA(1-\\cos45^\\circ)}{\\Delta t}=\\frac{3000(1.8)(\\pi/4)(0.020)^2}{0.060}(1-\\cos45^\\circ)=8.3\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Requires a flux-linkage change of 0.66 Wb-turn, exceeding the actual change of about 0.50 Wb-turn.",
+        "C": "Uses the diameter as the radius, quadrupling the area and the e.m.f.",
+        "D": "Would require a flux-linkage change exceeding even the full initial linkage."
+      }
+    },
+    "issues": "The key reverses the initial and final subscripts in an intermediate step after dropping the absolute value. Its numerical result uses the correct magnitude.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the change in flux linkage between two orientations and divide by time.",
+    "misconception": "Using final flux linkage alone",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For current from X to Y, the effective circuit resistance is $2.0\\ \\Omega$. For current from Y to X it is $3.0\\ \\Omega$. The peak currents are therefore different, with the larger peak in the X-to-Y direction.",
+      "perOption": {
+        "A": "Assumes one half-cycle is blocked even though the other diode conducts.",
+        "B": "Shows current flowing in the same direction on both half-cycles.",
+        "C": "Gives equal peaks despite the different resistances.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Trace the conducting branch and compare the resistance in each half-cycle.",
+    "misconception": "Assuming equal resistance in both directions",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q25",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The secondary peak voltage is $90\\ \\mathrm V$. Since $R_2$ and $R_3$ are in parallel, the total secondary resistance is $80+40=120\\ \\Omega$. The secondary r.m.s. voltage is $90/\\sqrt{2}\\ \\mathrm V$, so $I_\\mathrm{rms}=(90/\\sqrt{2})/120\\ \\mathrm A$. The average power in $R_1$ is $I_\\mathrm{rms}^2(80)=22.5\\ \\mathrm W\\approx23\\ \\mathrm W$.",
+      "perOption": {
+        "A": "Halves the power again after using the r.m.s. current.",
+        "B": "Correct.",
+        "C": "Uses peak current and obtains peak power.",
+        "D": "Uses the primary peak voltage in the secondary circuit, quadrupling the average power."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents",
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.i",
+      "currents.d",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Combine the turns ratio, equivalent resistance and r.m.s. current.",
+    "misconception": "Using peak current for average power",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Options A and B agree that $hf$ is the incident photon energy and $\\tfrac12mv_{\\max}^2$ is the maximum photoelectron kinetic energy. The middle term $hf_0$ is the minimum energy required to release a photoelectron, while $f_0$ is the threshold frequency.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Confuses the threshold frequency with the energy obtained by multiplying it by Planck’s constant.",
+        "C": "Swaps the roles of the incident photon and emitted electron.",
+        "D": "Misidentifies the work function and assigns the final kinetic energy to a photon."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Identify each term of the photoelectric equation.",
+    "misconception": "Confusing threshold frequency with work function",
+    "transcription": "The photoelectric effect equation can be written as $hf=hf_0+\\tfrac12mv_{\\max}^2$.\n\nWhat is the meaning of each term in this equation?\n\nOption | $hf$ | $hf_0$ | $\\tfrac12mv_{\\max}^2$\nA | the energy of an incoming photon | the least energy required to release a photoelectron | the maximum kinetic energy of the photoelectron\nB | the energy of an incoming photon | the threshold frequency which represents least energy required to release a photoelectron | the maximum kinetic energy of the photoelectron\nC | the energy of an incoming photoelectron | the least energy required to release a photon | the maximum kinetic energy of a photon\nD | the energy of an incoming photon | the work done by the incoming photon | the maximum kinetic energy of the outgoing photon"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Decreasing the electron speed increases the de Broglie wavelength, $\\lambda=h/(mv)$. The diffraction angles then increase, producing circles of larger diameter.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the change in ring diameter at the larger wavelength.",
+        "C": "Attributes the diffraction rings to refraction.",
+        "D": "Misidentifies diffraction as refraction and reverses the diameter change."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.d",
+      "quantum-physics.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Connect electron speed to wavelength and diffraction angle.",
+    "misconception": "Assuming slower electrons have shorter wavelengths",
+    "transcription": "When electrons with velocity $v$ travel through a vacuum and are incident on a thin carbon film, they produce a pattern of concentric circles on the fluorescent screen.\n\nWhat causes the pattern and how would the pattern change when the velocity $v$ is decreased?\n\nOption | cause | change to pattern\nA | diffraction | diameters of circles increase\nB | diffraction | diameters of circles decrease\nC | refraction | diameters of circles increase\nD | refraction | diameters of circles decrease"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q28",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The shortest wavelength corresponds to the full gap, $E_3-E_1=hc/\\lambda_3$. The adjacent gaps are $E_2-E_1=hc/\\lambda_2$ and $E_3-E_2=hc/\\lambda_1$. Subtracting both adjacent gaps from the full gap gives zero, so $1/\\lambda_3=1/\\lambda_2+1/\\lambda_1$.",
+      "perOption": {
+        "A": "Subtracts the adjacent gaps instead of adding them.",
+        "B": "Correct.",
+        "C": "Subtracts the larger adjacent gap from the smaller, giving a negative reciprocal wavelength.",
+        "D": "Adds wavelengths instead of the energies proportional to their reciprocals."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Map the wavelength ordering to the energy gaps and combine the adjacent transitions.",
+    "misconception": "Adding wavelengths directly",
+    "transcription": "Transitions between three energy levels in a particular atom give rise to three spectra lines of wavelengths in decreasing magnitudes, $\\lambda_1$, $\\lambda_2$ and $\\lambda_3$.\n\nWhich one of the following equations correctly relates $\\lambda_1$, $\\lambda_2$ and $\\lambda_3$?\n\nA  $\\frac{1}{\\lambda_3}=\\frac{1}{\\lambda_2}-\\frac{1}{\\lambda_1}$\nB  $\\frac{1}{\\lambda_3}=\\frac{1}{\\lambda_2}+\\frac{1}{\\lambda_1}$\nC  $\\frac{1}{\\lambda_3}=\\frac{1}{\\lambda_1}-\\frac{1}{\\lambda_2}$\nD  $\\lambda_1=\\lambda_2+\\lambda_3$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q29",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "Momentum conservation gives Y and Z equal momentum magnitudes $p$. From $p^2=2mE_k$, kinetic energy at fixed $p$ is inversely proportional to mass. The lighter fragment Y therefore has the greater kinetic energy.",
+      "perOption": {
+        "A": "The key reads mass-energy as conserved total energy, including kinetic energy, though A is also true if the term refers only to rest energy.",
+        "B": "Reverses the change in total binding energy for this energy-releasing decay.",
+        "C": "Correct.",
+        "D": "Reverses the inverse dependence of kinetic energy on mass at equal momentum."
+      }
+    },
+    "issues": "C is valid, but A is also valid if mass-energy means rest energy mc². The key’s claim that lower binding energy per nucleon implies lower total binding energy omits the nucleon count.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [
+      "collisions"
+    ],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.r",
+      "collisions.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use equal momentum magnitudes to compare the fragments’ kinetic energies.",
+    "misconception": "Assuming equal momentum implies equal kinetic energy",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q30",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At time $t$, there are $N_0$ nuclei of each type. After one half-life, $N_X=N_0/2$ and $N_Y=N_0+N_0/2=3N_0/2$. The ratio is $1:3$ after 15 days.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Waits two half-lives, giving a ratio of $1:7$.",
+        "C": "Waits three half-lives, giving a ratio of $1:15$.",
+        "D": "Waits four half-lives, giving a ratio of $1:31$."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Track the daughters formed while the parent population halves.",
+    "misconception": "Holding the daughter count fixed",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "Rewrite the subtraction as $\\mathbf X=\\mathbf P-\\mathbf R=\\mathbf P+(-\\mathbf R)$. Reverse $\\mathbf R$ and place its tail at the head of $\\mathbf P$. The resultant runs from the tail of $\\mathbf P$ to the head of $-\\mathbf R$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The supplied crop omits option B.",
+        "C": "The supplied crop omits option C.",
+        "D": "The supplied crop omits option D."
+      }
+    },
+    "issues": "The question crop is an answer-table row; the stem and distractor diagrams cannot be verified. Key page 1 confirms A and gives the method. Its diagram labels the vector added to P as R, although the written solution identifies it as −R.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The key’s construction requires reversing one vector and adding it tip to tail.",
+    "misconception": "Adding the vector without reversing it",
+    "transcription": "[The supplied crop shows only an answer-table row.]\n\n1 | A | 6 | B | 11 | C | 16 | B | 21 | C | 26 | B"
+  }
+]

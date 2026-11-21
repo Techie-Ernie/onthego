@@ -1,0 +1,501 @@
+[
+  {
+    "id": "njc-2024-prelim-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The slope has a constant gradient, so the acceleration $a$ is constant and negative when uphill is positive. Since $v^2=u^2+2as$ and $E_k=\\frac12 mv^2$, the kinetic energy starts at $\\frac12 mu^2$ and decreases linearly with displacement.",
+      "perOption": {
+        "A": "Correct. The graph has a constant negative gradient.",
+        "B": "The flattening curve implies the kinetic energy loss per metre decreases.",
+        "C": "The steepening curve implies the kinetic energy loss per metre increases.",
+        "D": "The curve starts at zero even though the block is launched with nonzero speed."
+      }
+    },
+    "issues": "The key calls kinetic energy proportional to displacement. The relationship is linear with a nonzero intercept.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.e",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student combines a constant-acceleration equation with the kinetic energy formula.",
+    "misconception": "Assuming kinetic energy has the same displacement dependence as speed.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $t$ be the interval between releases. The first drop falls for $3t$, so $9.0=\\frac12g(3t)^2$ and $t^2=2/g$ in SI units. The second and third drops have fallen for $2t$ and $t$, respectively, giving a separation of $\\frac12g(2t)^2-\\frac12gt^2=3.0\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the third drop’s distance below the roof as the separation.",
+        "B": "Correct. It is the difference between the two fall distances.",
+        "C": "Uses the second drop’s distance below the roof as the separation.",
+        "D": "Subtracts the second drop’s fall distance from the first drop’s $9.0 mathrm{m}$ fall."
+      }
+    },
+    "issues": "The key’s intermediate equations contain inconsistent release-time factors and swap the squared times for the second and third drops. Its final subtraction uses the correct times.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must count the elapsed intervals and subtract two free-fall distances.",
+    "misconception": "Counting drops instead of elapsed intervals.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "medium",
+    "explanation": {
+      "body": "For the two blocks together, $70=(20+6)a$, so $a=2.692\\ \\mathrm{m\\,s^{-2}}$. Friction on B supplies its acceleration to the right, so its magnitude is $6a=16.15\\ \\mathrm{N}$. By Newton’s third law, friction on A by B is $16\\ \\mathrm{N}$ to the left, to two significant figures.",
+      "perOption": {
+        "A": "Correct. Friction on A is opposite to friction on B.",
+        "B": "Gives the friction on B by A.",
+        "C": "Uses the magnitude of A’s net force, $20a$, as the friction magnitude.",
+        "D": "Gives A’s net force to the right instead of the friction acting on A."
+      }
+    },
+    "issues": "The question PNG has detached labels and no visible force arrow. The key’s working implies a rightward pull on A.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student finds the common acceleration and then identifies which friction force the question asks for.",
+    "misconception": "Confusing friction on A with friction on B.",
+    "transcription": "Two objects are being pulled along a smooth floor by a $70\\ \\mathrm{N}$ force as shown. Object A has a mass of $20\\ \\mathrm{kg}$ and object B has a mass of $6.0\\ \\mathrm{kg}$. The masses do not slide against each other.\n\n[Two blocks are stacked on a smooth horizontal floor. The lower block is labelled B. The labels A, B and $70\\ \\mathrm{N}$ also appear detached below the diagram, and the force arrow is missing.]\n\nWhich line of the table correctly states the magnitude and direction of friction on A by B?\n\nA. $16\\ \\mathrm{N}$ to the left\nB. $16\\ \\mathrm{N}$ to the right\nC. $54\\ \\mathrm{N}$ to the left\nD. $54\\ \\mathrm{N}$ to the right"
+  },
+  {
+    "id": "njc-2024-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about P using the perpendicular component of each force. A gives $4(2)=8\\ \\mathrm{N\\,m}$, while B, C and D each give $8\\sin45^\\circ\\approx5.7\\ \\mathrm{N\\,m}$, so A has the greatest moment.",
+      "perOption": {
+        "A": "Correct. The full $4 mathrm{N}$ is perpendicular to the lever arm.",
+        "B": "Only the perpendicular component of the $4 mathrm{N}$ contributes.",
+        "C": "The longer lever arm is offset by the smaller, oblique force.",
+        "D": "The leftward force component has no moment about P, leaving only the downward component."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student compares moments using the perpendicular component of each force.",
+    "misconception": "Using the full force when it is oblique.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Total momentum is conserved in both elastic and inelastic collisions when the net external impulse is zero. Total kinetic energy is conserved in an elastic collision and can change in an inelastic collision.",
+      "perOption": {
+        "A": "Assumes total kinetic energy is conserved even in inelastic collisions.",
+        "B": "Treats kinetic energy as always conserved and allows momentum to change without an external impulse.",
+        "C": "Correct. Total kinetic energy may change while total momentum is conserved.",
+        "D": "Allows total momentum to change despite the assumed zero net external impulse."
+      }
+    },
+    "issues": "The stem leaves the zero-net-external-impulse assumption implicit.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.b",
+      "collisions.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student distinguishes the conservation rules for elastic and inelastic collisions.",
+    "misconception": "Assuming total kinetic energy is always conserved.",
+    "transcription": "Before two moving bodies collide, they have kinetic energy and momentum.\n\nWhich row correctly states whether the total kinetic energy and the total momentum are conserved or not after the collision?\n\nA. Total kinetic energy always conserved, total momentum always conserved.\nB. Total kinetic energy always conserved, total momentum may change.\nC. Total kinetic energy may change, total momentum always conserved.\nD. Total kinetic energy may change, total momentum may change."
+  },
+  {
+    "id": "njc-2024-prelim-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The sliding mass loses $0.30(9.81)(2.0)=5.886\\ \\mathrm{J}$ of gravitational potential energy, so $\\frac12(0.30)v^2=5.886$ and $v=6.2641\\ \\mathrm{m\\,s^{-1}}$. At maximum compression the masses share speed $V$, so momentum conservation gives $0.30(6.2641)=(0.30+0.50)V$ and $V=2.3491\\ \\mathrm{m\\,s^{-1}}$. Their combined kinetic energy is then $\\frac12(0.80)(2.3491)^2\\approx2.20725\\ \\mathrm{J}$. The spring stores the difference, so $\\frac12k(0.20)^2=5.886-2.20725$ and $k=184\\ \\mathrm{N\\,m^{-1}}$.",
+      "perOption": {
+        "A": "Correct. It accounts for the kinetic energy of both masses at maximum compression.",
+        "B": "This value assigns too little kinetic energy to the two masses at their common speed.",
+        "C": "This value leaves only about $0.83\\ \\mathrm{J}$ of kinetic energy, close to counting just the lighter mass at the common speed.",
+        "D": "Converts essentially all the initial kinetic energy into spring energy and ignores the motion of the two masses."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "energy-and-fields.b",
+      "energy-and-fields.k"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must combine energy and momentum conservation and recognise that both masses share a speed at maximum compression.",
+    "misconception": "Assuming all initial kinetic energy becomes elastic energy.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At B the spanner loses contact, so the normal force is zero and the inward resultant force is $F_\\mathrm{net}=mg\\cos48.2^\\circ$. The centripetal acceleration is $F_\\mathrm{net}/m=g\\cos48.2^\\circ=6.54\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Uses half of $g$, which would require a radial angle of $60^\\circ$ to the vertical.",
+        "B": "Correct. The inward component of gravity supplies the centripetal acceleration.",
+        "C": "Uses $g\\sin48.2^\\circ$, the tangential component of gravity.",
+        "D": "Uses the full gravitational acceleration even though gravity is at an angle to the inward radius."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must recognise that the normal force vanishes at detachment and resolve the weight radially.",
+    "misconception": "Using the full gravitational acceleration as the radial component.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Geostationary satellites have the same orbital period and orbital radius. Satellite mass does not affect the orbit, so the satellites can have different masses.",
+      "perOption": {
+        "A": "This is true because the satellite must stay above the same point on the equator.",
+        "B": "Correct. Satellite mass does not determine whether an orbit is geostationary.",
+        "C": "This is true to the stated precision because the period is one Earth rotation relative to the stars.",
+        "D": "This is true because the required orbital period fixes the radius."
+      }
+    },
+    "issues": "Option C uses the usual rounded value of 24 hours for a sidereal day.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student recalls the equatorial orbit and Earth-matched period and recognises that satellite mass is irrelevant.",
+    "misconception": "Assuming satellite mass determines orbital period.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A uniform gravitational field has the same field strength at every point. Its direction is also the same throughout the field.",
+      "perOption": {
+        "A": "Uniformity means a common field direction at every point.",
+        "B": "Correct. The field strength is constant throughout the region.",
+        "C": "A stationary test mass still experiences the gravitational force $mg$.",
+        "D": "A nonzero uniform field gives a constant potential gradient, so potential changes along the field."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "energy-and-fields.h",
+      "gravitational-fields.h"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student recalls the definition of a uniform field and distinguishes strength from potential.",
+    "misconception": "Confusing a constant field with constant potential.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean speed is $(2+10+11)u/3=7.67u$. The mean square speed is $(4+100+121)u^2/3=75u^2$, so the r.m.s. speed is $u\\sqrt{75}=8.66u$. The r.m.s. speed therefore exceeds the mean speed by about $1u$.",
+      "perOption": {
+        "A": "Correct. The difference is about $0.99u$.",
+        "B": "Reverses the two speeds, since $8.66u$ exceeds $7.67u$.",
+        "C": "Overstates the difference, which is about $1u$.",
+        "D": "Reverses the ordering and overstates the size of the difference."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student computes the arithmetic mean and the root mean square from the same three speeds.",
+    "misconception": "Taking the arithmetic mean instead of the root mean square.",
+    "transcription": "Three particles have speeds of $2u$, $10u$ and $11u$. Which one of the following statements is correct?\n\nA. The r.m.s. speed exceeds the mean speed by about $1u$.\nB. The mean speed exceeds the r.m.s. by about $1u$.\nC. The r.m.s. speed exceeds the mean speed by more than $2u$.\nD. The mean speed exceeds the r.m.s. speed by more than $2u$."
+  },
+  {
+    "id": "njc-2024-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a gas of molar mass $M$, $pV=nRT=(m/M)RT$. At the same limiting pressure and cylinder volume, $mT$ is constant, so $m_2T_2=m_1T_1$. Hence $m_2=15(273+10)/(273+30)=14\\ \\mathrm{kg}$ to two significant figures.",
+      "perOption": {
+        "A": "Uses the Celsius ratio $10/30$ instead of the absolute-temperature ratio.",
+        "B": "Correct. The permitted mass decreases as absolute temperature rises.",
+        "C": "Ignores the drop in permitted mass as the gas warms.",
+        "D": "Uses the temperature ratio in the wrong direction, making the mass increase with temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must hold the valve pressure and cylinder volume fixed and convert both temperatures to kelvin.",
+    "misconception": "Using Celsius temperatures in an ideal gas ratio.",
+    "transcription": "A gas cylinder is fitted with a safety valve which releases a gas when the pressure inside the cylinder reaches $2.0\\times 10^6\\ \\mathrm{Pa}$. Given that the maximum mass of this gas the cylinder can hold at $10^\\circ\\mathrm{C}$ is $15\\ \\mathrm{kg}$, what would be the maximum mass at $30^\\circ\\mathrm{C}$?\n\nA. $5.0\\ \\mathrm{kg}$\nB. $14\\ \\mathrm{kg}$\nC. $15\\ \\mathrm{kg}$\nD. $16\\ \\mathrm{kg}$"
+  },
+  {
+    "id": "njc-2024-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the $650\\ \\mathrm{mm}$ mark as equilibrium, with amplitude $50\\ \\mathrm{mm}$, and use $x=50\\sin[(2\\pi/2.0)t]$ with $x$ in millimetres. From equilibrium to $675\\ \\mathrm{mm}$, $x=25\\ \\mathrm{mm}$ gives $0.167\\ \\mathrm{s}$. From $640\\ \\mathrm{mm}$ to equilibrium, the displacement magnitude is $10\\ \\mathrm{mm}$, giving $0.064\\ \\mathrm{s}$. Add the two times to get $0.231\\ \\mathrm{s}\\approx0.23\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Subtracts the two travel times even though the endpoints are on opposite sides of equilibrium.",
+        "B": "Correct. The two parts of the motion take a total of about $0.23\\ \\mathrm{s}$.",
+        "C": "Overestimates the phase interval between the two photographed positions.",
+        "D": "Uses too large a travel time for the two displacements on either side of equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student locates the equilibrium and finds the separate travel times on either side of it.",
+    "misconception": "Treating a displacement interval as a single displacement from equilibrium.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Write the displacement as $y=A\\cos\\theta$. For P, $y_P=\\pm A$ gives phases of $0^\\circ$ or $180^\\circ$. For Q, $y_Q=\\pm A/3$ gives representative phases of $70.5^\\circ$ or about $109^\\circ$, so $71^\\circ$ is a possible phase difference.",
+      "perOption": {
+        "A": "Gives Q’s approximate phase measured from a zero crossing, while P is at an extreme.",
+        "B": "A $45^\\circ$ separation from an extreme would put Q at a distance $A/\\sqrt{2}$ from equilibrium.",
+        "C": "A $60^\\circ$ separation from an extreme would put Q at a distance $A/2$ from equilibrium.",
+        "D": "Correct. The phase difference can be approximately $71^\\circ$."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.b",
+      "oscillations.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student converts distances from equilibrium into possible phases before comparing the particles.",
+    "misconception": "Taking a phase from equilibrium instead of the difference between the two phases.",
+    "transcription": "Two particles P and Q are in a sinusoidal wave of amplitude $A$. The distance of particle P from its equilibrium is $A$ while the distance of particle Q from its equilibrium is $\\frac13 A$.\n\nWhat can be the phase angle between the two particles P and Q?\n\nA. $19^\\circ$\nB. $45^\\circ$\nC. $60^\\circ$\nD. $71^\\circ$"
+  },
+  {
+    "id": "njc-2024-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Intensity is proportional to the square of the amplitude and the square of the frequency. Thus $I'/I=(1.2/2.4)^2(15/5)^2=9/4$, giving $I'=\\frac94 I$.",
+      "perOption": {
+        "A": "Reverses the new-to-original intensity ratio.",
+        "B": "Reverses the ratio and leaves the amplitude and frequency factors unsquared.",
+        "C": "Correct. The factors are $1/4$ from amplitude and $9$ from frequency.",
+        "D": "Treats the amplitude as doubling, giving an amplitude factor of $4$ instead of $1/4$."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must square both ratios and combine the effects of the two changes.",
+    "misconception": "Using unsquared ratios or reversing the amplitude change.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $d\\sin\\theta=n\\lambda$ with $d=4\\lambda$. For the second order, $\\sin\\theta_2=2/4$ gives $\\theta_2=30^\\circ$, and for the third order, $\\sin\\theta_3=3/4$ gives $\\theta_3=48.59^\\circ$. On the same side of the central maximum the separation is $48.59^\\circ-30^\\circ=18.59^\\circ\\approx18.6^\\circ$.",
+      "perOption": {
+        "A": "Uses the first-order angle as the separation between adjacent orders.",
+        "B": "Correct. It is the difference between the two same-side angles.",
+        "C": "Uses the third-order angle measured from the central maximum.",
+        "D": "Subtracts the same-side separation from $90^\\circ$ and gives its complement."
+      }
+    },
+    "issues": "The question leaves the same-side assumption implicit. Maxima on opposite sides would be separated by about 78.6°, which is absent from the options.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must calculate the two diffraction angles separately and take their difference.",
+    "misconception": "Subtracting diffraction orders before taking the inverse sine.",
+    "transcription": "Light of wavelength $\\lambda$ is incident normally on a diffraction grating of slit separation $4\\lambda$. What is the angle between the second order maximum and third order maximum?\n\nA. $14.5^\\circ$\nB. $18.6^\\circ$\nC. $48.6^\\circ$\nD. $71.4^\\circ$"
+  }
+]

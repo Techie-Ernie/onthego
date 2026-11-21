@@ -1,0 +1,517 @@
+[
+  {
+    "id": "ri-2017-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the diode is forward-biased, the equivalent resistance is $R/2$, so the peak power is $V_0^2/(R/2)$ and the half-cycle mean is $V_0^2/R$. When it is reverse-biased, the resistance is $R$, so the peak power is $V_0^2/R$ and the half-cycle mean is $V_0^2/(2R)$. Averaging the two half-cycle means gives $3V_0^2/(4R)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Adds the half-cycle means without dividing by two.",
+        "C": "Uses a single factor of $1/\\sqrt{2}$ to average power instead of squaring the voltage factor and averaging both halves.",
+        "D": "Adds the peak powers of the two half-cycles."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.d",
+      "currents.h",
+      "currents.j",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The diode changes the equivalent resistance between half-cycles, so the two power averages must be combined.",
+    "misconception": "Averaging peak power instead of instantaneous power",
+    "transcription": "An alternating current supply of negligible internal resistance is connected to two identical bulbs and an ideal diode as shown. The resistance of each bulb is $R$ and the peak voltage of the a.c. supply is $V_0$.\n\n[The top branch contains the a.c. source, the middle branch contains one bulb directly across the source, and the bottom branch contains the second bulb in series with a diode whose cathode is toward the right-hand supply node.]\n\nWhich of the following is the average power dissipated in the circuit?\nA. $\\frac{3V_0^2}{4R}$\nB. $\\frac{3V_0^2}{2R}$\nC. $\\frac{3V_0^2}{\\sqrt{2}\\,R}$\nD. $\\frac{3V_0^2}{R}$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Reducing the wavelength increases the photon energy $hf$, so the maximum photoelectron kinetic energy $K_{\\max}=hf-\\Phi$ increases. The reduced intensity means fewer incident photons per unit time, so the photoelectron emission rate decreases in the usual model.",
+      "perOption": {
+        "A": "Reverses both trends: shorter wavelength raises photon energy and the photon arrival rate falls.",
+        "B": "Treats the reduced intensity as a reduction in maximum kinetic energy even though each photon has more energy.",
+        "C": "Mistakes higher energy per photon for a higher photon arrival rate.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The question requires tracking how wavelength and intensity affect two different observables.",
+    "misconception": "Confusing photon energy with intensity",
+    "transcription": "Photoelectrons are emitted when an electromagnetic radiation is incident on a metal surface.\n\nWhen the intensity and wavelength of the radiation are reduced,\nA. the maximum kinetic energy of the photoelectrons is reduced, but their rate of emission is increased.\nB. both the maximum kinetic energy of the photoelectrons and their rate of emission are reduced.\nC. both the maximum kinetic energy of the photoelectrons and their rate of emission are increased.\nD. the maximum kinetic energy of the photoelectrons is increased, but their rate of emission is reduced."
+  },
+  {
+    "id": "ri-2017-prelim-p1-q30",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Before $T$, $C=C_0e^{-\\lambda t}$, giving $\\ln C=\\ln C_0-\\lambda t$, a straight line of gradient $-\\lambda$. At $T$, the added gas raises the count rate, and its larger decay constant makes the graph initially fall more steeply. As the faster-decaying gas contributes less, the gradient approaches its value before $T$.",
+      "perOption": {
+        "A": "Shows a curved logarithmic plot before $T$ even though only one gas is decaying.",
+        "B": "Correct.",
+        "C": "Treats the post-injection count rate as a single exponential with a permanently steeper log slope.",
+        "D": "Shows a shallower slope after injection even though the added gas decays faster."
+      }
+    },
+    "issues": "The key's equation gives gradient $-\\lambda$, but its prose omits the minus sign.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must interpret the logarithm of a count rate that combines two different exponential decays.",
+    "misconception": "Assuming the log of a sum of exponentials stays linear",
+    "transcription": "At time $t=0$, a radioactive gas is injected into a sealed vessel. At time $t=T$, a different radioactive gas of a shorter half-life than the first gas is injected into the same vessel.\n\nWhich of the following graphs best represents the variation of the logarithm of the count-rate $C$ of the gases with time $t$?\n\n[All four graphs plot $\\ln C$ against $t$, mark $0$ and $T$, and show an upward jump at $T$.]\nA. [The falling curve flattens before $T$ and again after the jump.]\nB. [A falling straight line before $T$ is followed by a falling curve that progressively flattens.]\nC. [A falling straight line before $T$ is followed by a steeper falling straight line.]\nD. [A falling straight line before $T$ is followed by a shallower falling straight line.]"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The liquid has mass $70-20=50\\ \\mathrm{g}$ with absolute uncertainty $1+1=2\\ \\mathrm{g}$. For $\\rho=m_{\\mathrm{liq}}/V_{\\mathrm{liq}}$, the fractional uncertainty is $\\Delta\\rho/\\rho=2/50+0.6/10.0$. Multiplying by $5.0\\ \\mathrm{g\\,cm^{-3}}$ gives $\\Delta\\rho=0.5\\ \\mathrm{g\\,cm^{-3}}$ to one significant figure.",
+      "perOption": {
+        "A": "Reports the fractional uncertainty $0.10$ as though it were the absolute uncertainty.",
+        "B": "Counting only one of the two mass-reading uncertainties gives this value.",
+        "C": "Correct.",
+        "D": "Adds the raw mass and volume uncertainties despite their different units."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation switches from absolute uncertainty for subtraction to fractional uncertainty for division.",
+    "misconception": "Using the same uncertainty rule for subtraction and division",
+    "transcription": "The density of a liquid is calculated by measuring its mass and its volume. The measurements taken are as shown.\nMass of beaker $=(20\\pm1)\\ \\mathrm{g}$\nMass of beaker and liquid $=(70\\pm1)\\ \\mathrm{g}$\nVolume of liquid $=(10.0\\pm0.6)\\ \\mathrm{cm^3}$\n\nThe density of the liquid calculated is $5.0\\ \\mathrm{g\\,cm^{-3}}$. What is the uncertainty in this value of density?\nA. $0.1\\ \\mathrm{g\\,cm^{-3}}$\nB. $0.4\\ \\mathrm{g\\,cm^{-3}}$\nC. $0.5\\ \\mathrm{g\\,cm^{-3}}$\nD. $2.6\\ \\mathrm{g\\,cm^{-3}}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "With negligible air resistance, the velocity–time segments have gradient $g$, so the speed just before the first bounce is $v_0=gt$. The ball retains $1-7/16=9/16$ of its kinetic energy, so its speed just after the bounce is $v_1=(3/4)v_0$. The speed gained from rest between R and S is $v_1$, giving $\\Delta t=v_1/g=0.75t$.",
+      "perOption": {
+        "A": "Uses the fraction of energy lost as the fraction of time remaining.",
+        "B": "Uses the retained kinetic-energy fraction directly as a speed fraction.",
+        "C": "Takes the square root of the energy fraction lost instead of the fraction retained.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "motion-and-forces.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert an energy fraction into a speed fraction and relate speed to the time interval on the graph.",
+    "misconception": "Treating the remaining kinetic-energy fraction as the remaining speed fraction",
+    "transcription": "A ball released from rest above a hard, horizontal surface undergoes several bounces. The graph shows the variation with time of the velocity of the bouncing ball.\n\n[The velocity–time graph starts at zero and rises linearly to the first impact at time $t$. At impact, velocity jumps to a negative value, then rises linearly through R at zero velocity to S just before the second impact. At the second impact, velocity jumps to a negative value again, then rises linearly through zero. Successive peaks are smaller.]\n\nThe time taken for the ball to first reach the ground after release is $t$. With each bounce, the ball loses $\\frac{7}{16}$ of the kinetic energy it has just before the bounce.\n\nAssuming air resistance is negligible, which of the following gives the time duration, in terms of $t$, between points R and S on the graph?\nA. $0.44t$\nB. $0.56t$\nC. $0.66t$\nD. $0.75t$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Horizontal motion gives $s_x=vt$, so the time to the net is $t=4.0/v$. The ball starts with zero vertical velocity, so its downward displacement is $s_y=\\tfrac12gt^2$. Hence $1.5-1.1=\\tfrac12g(4.0/v)^2$, which gives $v=14\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the full release height of $1.5\\ \\mathrm{m}$ as the drop to the net.",
+        "B": "Uses the net height of $1.1\\ \\mathrm{m}$ as the vertical drop.",
+        "C": "Correct.",
+        "D": "Uses $2(0.40)/g$ as the time without taking its square root."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Two standard kinematics equations are linked by the time to the net.",
+    "misconception": "Using height above the ground as vertical displacement",
+    "transcription": "In a junior tennis match, a player hits an incoming tennis ball such that it leaves his racket horizontally with speed $v$ as shown.\n\n[The launch point is $1.5\\ \\mathrm{m}$ above the ground and has a horizontal velocity arrow $v$ pointing toward a $1.1\\ \\mathrm{m}$ high net $4.0\\ \\mathrm{m}$ away.]\n\nThe tennis ball is hit at a height of $1.5\\ \\mathrm{m}$ above the ground and $4.0\\ \\mathrm{m}$ from the net. It just clears the net, which is $1.1\\ \\mathrm{m}$ high. Neglect the effects of air resistance.\n\nWhat is the value of $v$?\nA. $7.2\\ \\mathrm{m\\,s^{-1}}$\nB. $8.4\\ \\mathrm{m\\,s^{-1}}$\nC. $14\\ \\mathrm{m\\,s^{-1}}$\nD. $49\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The masses move together after impact, so the collision is completely inelastic. Some mechanical energy is converted to internal energy, making A the incorrect statement.",
+      "perOption": {
+        "A": "Correct. The common final velocity marks a completely inelastic collision.",
+        "B": "This statement is true because M exerts a backward contact force on N during impact.",
+        "C": "This statement is true because the two-mass system has zero net external horizontal force.",
+        "D": "This statement is true because the inelastic collision converts some mechanical energy to thermal energy."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.b",
+      "collisions.e",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish momentum conservation from mechanical energy loss in a sticking collision.",
+    "misconception": "Equating a shared final velocity with conservation of mechanical energy",
+    "transcription": "Mass M is dropped gently onto another mass N that is initially sliding on a smooth horizontal surface at constant velocity. After landing, the two masses move forward as one body as shown.\n\n[Before, M is above N with a downward arrow and N has a rightward arrow. After, M rests on N and they move right together.]\n\nWhich of the following statements regarding the two masses is incorrect?\nA. The total mechanical energy of the two masses is conserved because they move with the same velocity after the collision.\nB. Mass N slows down during the collision because M exerts a decelerating force on N.\nC. The total horizontal momentum of the two masses is conserved because the resultant horizontal force acting on them is zero.\nD. There is heat produced in the collision because the collision is inelastic."
+  },
+  {
+    "id": "ri-2018-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the two blocks together, Newton’s second law gives $F-F/5=(m+3m)a$, so $a=F/(5m)$. For Y alone, $F_{XY}-F/5=3m[F/(5m)]$. Hence $F_{XY}=3F/5+F/5=4F/5$.",
+      "perOption": {
+        "A": "Reports the externally applied leftward force on Y as the contact force.",
+        "B": "Reports the net force on Y, leaving out the opposing applied force when finding the contact force.",
+        "C": "Allocates three quarters of $F$ to Y as if the opposing $F/5$ were absent.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Newton's second law must be applied to both blocks together and then to Y alone.",
+    "misconception": "Confusing the net force on Y with the contact force",
+    "transcription": "Two blocks X and Y, of masses $m$ and $3m$ respectively, are placed in contact on a smooth horizontal surface. Forces $F$ and $F/5$ are applied on either side of the blocks as shown.\n\n[X is to the left of Y. Force $F$ pushes X rightward, and force $F/5$ pushes Y leftward.]\n\nWhat is the magnitude of the force exerted by block X on block Y during their subsequent motion?\nA. $\\frac{F}{5}$\nB. $\\frac{3F}{5}$\nC. $\\frac{3F}{4}$\nD. $\\frac{4F}{5}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the final position, the tension and weight act vertically. A nonzero normal reaction would have an unbalanced horizontal component, so equilibrium requires the reaction to be zero.",
+      "perOption": {
+        "A": "Includes a normal reaction whose horizontal component would be unbalanced.",
+        "B": "Correct.",
+        "C": "Omits the tension from the taut string and includes an unbalanced normal reaction.",
+        "D": "Omits the sphere’s weight and includes an unbalanced normal reaction."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use horizontal force balance to decide whether contact implies a normal force.",
+    "misconception": "Assuming geometric contact always creates a normal force",
+    "transcription": "A sphere resting on a smooth inclined plane is tied to a string that loops over a pulley as shown in Fig. (a).\n\n[Fig. (a), initial position, shows the sphere on an upward-right slope and the attached string sloping up and right to the pulley. Fig. (b), final position, shows the string vertical between the sphere and the pulley. In both figures the free end is pulled down and to the right.]\n\nThe string is slowly pulled until the end connected to the sphere becomes vertical as shown in Fig. (b). At this instant, the forces acting on the sphere are\nA. weight, tension and normal reaction.\nB. weight and tension.\nC. weight and normal reaction.\nD. tension and normal reaction."
+  },
+  {
+    "id": "ri-2018-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the point on the base through which $R$ acts, so the contact forces there give zero moment. Balancing moments gives $(5.0\\cos30^\\circ)x=(5.0\\sin30^\\circ)(0.050)+1.0(0.080)$. Thus $x=0.0473\\ \\mathrm{m}=4.7\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Uses the $3.0\\ \\mathrm{cm}$ offset from the centre for the applied force while omitting the other moments about the centre.",
+        "B": "Includes only the applied force’s moment about the base pivot.",
+        "C": "Includes only the downslope component of weight’s moment about the base pivot.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The calculation requires a pivot that eliminates contact forces and three different moment arms.",
+    "misconception": "Omitting the torque from the downslope component of weight",
+    "transcription": "A uniform rectangular block of dimensions $20\\ \\mathrm{cm}$ by $10\\ \\mathrm{cm}$ and weight $5.0\\ \\mathrm{N}$ is placed on a rough surface inclined at $30^\\circ$ to the horizontal. A force of $1.0\\ \\mathrm{N}$ parallel to the surface is then applied on the block $8.0\\ \\mathrm{cm}$ from its base.\n\n[The block is $20\\ \\mathrm{cm}$ along the slope and $10\\ \\mathrm{cm}$ perpendicular to it. The $1.0\\ \\mathrm{N}$ force points downslope. The normal reaction $R$ points perpendicular to the slope from a point downslope of the centre’s projection onto the base, with separation $x$ marked along the slope.]\n\nGiven that the block remains in equilibrium, what is the distance $x$ between the line of action of the normal contact force $R$ exerted by the surface on the block and the centre of the block?\nA. $0.7\\ \\mathrm{cm}$\nB. $1.8\\ \\mathrm{cm}$\nC. $2.9\\ \\mathrm{cm}$\nD. $4.7\\ \\mathrm{cm}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $0.10\\ \\mathrm{m}$ extension, $\\tfrac12k(0.10)^2=4.0\\ \\mathrm{J}$, so $k=800\\ \\mathrm{N\\,m^{-1}}$. At $0.20\\ \\mathrm{m}$ the total work is $\\tfrac12(800)(0.20)^2=16\\ \\mathrm{J}$. The additional work is $16-4.0=12\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Assumes equal increments of extension require equal work.",
+        "B": "Effectively uses half the average force over the second stretch by applying a triangular area formula to the average force.",
+        "C": "Correct.",
+        "D": "Gives the total work from the unstretched length to $20\\ \\mathrm{cm}$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must find the total elastic energy at the new extension and subtract the initial stored energy.",
+    "misconception": "Treating work as proportional to extension",
+    "transcription": "It takes $4.0\\ \\mathrm{J}$ of work to stretch a spring $10\\ \\mathrm{cm}$ from its unstretched length. Given that the spring obeys Hooke’s Law, what is the additional work required to stretch it a further $10\\ \\mathrm{cm}$?\nA. $4.0\\ \\mathrm{J}$\nB. $6.0\\ \\mathrm{J}$\nC. $12\\ \\mathrm{J}$\nD. $16\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Vertical balance gives $T\\cos40^\\circ=mg$. The horizontal component supplies the centripetal force, so $T\\sin40^\\circ=mv^2/(1.2\\sin40^\\circ)$. Dividing gives $\\tan40^\\circ=v^2/(g\\times1.2\\sin40^\\circ)$, hence $v=2.5\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Using the vertical projection of the string overstates the orbit radius and therefore the speed.",
+        "C": "A speed of $3.0\\ \\mathrm{m\\,s^{-1}}$ would require a larger inward force than the horizontal tension component provides.",
+        "D": "Uses the whole string length as the radius."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve tension and use the horizontal projection of the string as the radius.",
+    "misconception": "Using the string length as the orbit radius",
+    "transcription": "A simple pendulum of length $1.2\\ \\mathrm{m}$ is swung such that the mass goes round in a uniform circular motion in the horizontal plane. The string makes an angle of $40^\\circ$ with the vertical.\n\n[The string is labelled $1.2\\ \\mathrm{m}$ and slopes at $40^\\circ$ to a dashed vertical line through the pivot. The bob traces a horizontal circle centred on that vertical line.]\n\nWhat is the speed of the mass in its circular path?\nA. $2.5\\ \\mathrm{m\\,s^{-1}}$\nB. $2.8\\ \\mathrm{m\\,s^{-1}}$\nC. $3.0\\ \\mathrm{m\\,s^{-1}}$\nD. $3.3\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a circular orbit, $E_p=-GMm/R$ and $E_k=GMm/(2R)$. As $R$ increases, $E_p$ increases toward zero and $E_k$ decreases.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reads the decrease in $|E_p|$ as a decrease in $E_p$ itself.",
+        "C": "Assumes the higher orbit has greater orbital speed even though $E_k$ varies as $1/R$.",
+        "D": "Reverses both trends by treating potential energy as positive and orbital speed as increasing with radius."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The signs and radius dependence of two familiar orbital-energy formulas determine the answer.",
+    "misconception": "Confusing a decrease in the magnitude of negative potential energy with a decrease in potential energy",
+    "transcription": "A satellite is moved from a circular orbit of radius $R_1$ around the Earth to a new circular orbit of radius $R_2$ where $R_2>R_1$.\n\nWhat happens to its gravitational potential energy and kinetic energy?\n[The table lists potential energy first and kinetic energy second.]\nA. increases, decreases\nB. decreases, decreases\nC. increases, increases\nD. decreases, increases"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Escape requires $-GMm/R+\\tfrac12mv^2\\geq0$, so the minimum speed is $v_{\\mathrm{esc}}=\\sqrt{2GM/R}$. Substituting $M=\\tfrac43\\pi\\rho R^3$ gives $v_{\\mathrm{esc}}=\\sqrt{8\\pi G\\rho R^2/3}$, so $v_{\\mathrm{esc}}\\propto R\\sqrt{\\rho}$. The ratio is $(3/1)\\sqrt{9/4}=9/2=4.50$.",
+      "perOption": {
+        "A": "This ratio is below one even though X’s greater radius and density both increase its escape speed.",
+        "B": "Uses only one power of radius inside the square root, giving $\\sqrt{3(9/4)}$.",
+        "C": "Correct.",
+        "D": "Leaves the radius factor squared after taking the square root of the density factor, giving $3^2\\sqrt{9/4}$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must express planetary mass in terms of density and radius before taking the speed ratio.",
+    "misconception": "Treating density as planetary mass in the escape-speed formula",
+    "transcription": "The ratio of the densities and the ratio of the radii of Planet X to Planet Y are $\\frac94$ and $\\frac31$ respectively.\n\nWhat is the ratio $\\frac{\\text{escape speed from the surface of Planet X}}{\\text{escape speed from the surface of Planet Y}}$?\nA. $0.578$\nB. $2.60$\nC. $4.50$\nD. $13.5$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The block is in contact with the spring from $2.0$ to $2.5\\ \\mathrm{s}$ and undergoes simple harmonic motion over one quarter of a velocity cosine cycle. Thus $T=4(0.5)=2.0\\ \\mathrm{s}$ and $\\omega=2\\pi/T=3.14\\ \\mathrm{rad\\,s^{-1}}$. The maximum compression is $x_0=v_0/\\omega=0.30/\\pi=0.095\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the $0.5\\ \\mathrm{s}$ contact interval as the full period.",
+        "B": "Treats the curved velocity segment as a straight line and takes its triangular area.",
+        "C": "Correct.",
+        "D": "Multiplies $v_0$ by $\\omega$ instead of dividing by it."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must identify a quarter-cycle of simple harmonic motion and convert its maximum speed into an amplitude.",
+    "misconception": "Treating the stopping interval as a full period",
+    "transcription": "A block of mass $0.500\\ \\mathrm{kg}$ sliding on a smooth table at $0.30\\ \\mathrm{m\\,s^{-1}}$ collides with a board attached to a spring which obeys Hooke’s Law.\n\n[The block moves right with velocity $v$ toward a board at the left end of a horizontal spring fixed to a wall at the right.]\n\nThe graph shows the variation with time $t$ of the velocity $v$ of the block up to the moment just before it reverses its motion.\n\n[The velocity–time graph is horizontal at $0.30\\ \\mathrm{m\\,s^{-1}}$ up to $2.0\\ \\mathrm{s}$, then curves downward with increasing steepness to zero at $2.5\\ \\mathrm{s}$.]\n\nGiven that the magnitude of the acceleration of the block is directly proportional to the compression of the spring, what is the maximum compression experienced by the spring?\nA. $0.024\\ \\mathrm{m}$\nB. $0.075\\ \\mathrm{m}$\nC. $0.095\\ \\mathrm{m}$\nD. $0.94\\ \\mathrm{m}$"
+  }
+]

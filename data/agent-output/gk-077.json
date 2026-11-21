@@ -1,0 +1,511 @@
+[
+  {
+    "id": "njc-2022-promo-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Double the percentage uncertainty in $x$ because it is squared, then add the percentage uncertainties in $y$ and $z$. For B, the total is $2(1\\%)+2\\%+2\\%=6\\%$.",
+      "perOption": {
+        "A": "Doubling the contribution from $x$ gives $2(1\\%)+1\\%+4\\%=7\\%$.",
+        "B": "Correct.",
+        "C": "These values give $2(2\\%)+3\\%+2\\%=9\\%$.",
+        "D": "These values give $2(4\\%)+1\\%+1\\%=10\\%$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires applying one percentage-uncertainty rule and testing the listed values.",
+    "misconception": "Counting the uncertainty of a squared quantity only once.",
+    "transcription": "After taking measurements of the quantities in the expression $\\frac{x^2y}{z}$, the total percentage uncertainty is calculated as $6\\%$.\n\nWhich individual percentage uncertainties of $x$, $y$ and $z$ when combined give this total of $6\\%$?\n\nOption | $x$ / % | $y$ / % | $z$ / %\nA | 1 | 1 | 4\nB | 1 | 2 | 2\nC | 2 | 3 | 2\nD | 4 | 1 | 1"
+  },
+  {
+    "id": "njc-2022-promo-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first bearing is already moving when the second is released. It remains faster throughout their fall, so the distance between them keeps increasing.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A constant gap would require equal speeds, but the first bearing falls faster.",
+        "C": "The gap could shrink only if the second bearing became faster, which equal downward accelerations prevent.",
+        "D": "Both bearings gain speed at the same rate after the second release, preserving the first bearing’s speed advantage."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare the bearings’ speeds after accounting for the delay between releases.",
+    "misconception": "Assuming equal accelerations imply equal velocities.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "Y is height because its slope starts at zero, becomes more negative and settles at a constant negative value at terminal speed. Z is speed because it rises from zero and levels off at terminal speed. X is the magnitude of the resultant force because increasing air resistance offsets the constant weight until the resultant is zero.",
+      "perOption": {
+        "A": "Y starts above zero so it cannot be the speed of an object dropped from rest.",
+        "B": "X levels off at zero as drag balances weight, while Y keeps falling with a constant negative slope as the object descends.",
+        "C": "Correct. Y, Z and X represent height, speed and resultant force respectively.",
+        "D": "Z rises from zero, but the height starts above ground and decreases."
+      }
+    },
+    "issues": "The answer table prints B, matching keyAnswer, but the school's working gives Y, Z, X, which is option C in the question image. The graphs support C.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.c",
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect the shapes of three graphs to the motion and changing forces.",
+    "misconception": "Confusing a declining height with a declining resultant force.",
+    "transcription": "An object is dropped at time $t = 0\\ \\mathrm{s}$ from a tall building. Air resistance is significant.\n\nThree quantities are plotted against time:\n• height of object above ground\n• speed of object\n• magnitude of resultant force on object\n\n[Three plots with time on the horizontal axis. X starts positive, falls steeply at first and levels off at zero. Y starts positive with an approximately horizontal tangent, then falls and ends with a roughly constant negative slope while still positive. Z rises from zero and levels off at a positive value.]\n\nWhat are the quantities X, Y and Z?\n\nOption | height of object above ground | speed of object | magnitude of resultant force on object\nA | X | Y | Z\nB | X | Z | Y\nC | Y | Z | X\nD | Z | Y | X"
+  },
+  {
+    "id": "njc-2022-promo-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball and floor share an initial upward velocity $u$. Their displacements from their respective starting positions are $s_{\\mathrm{ball}}=ut-\\tfrac12gt^2$ and $s_{\\mathrm{floor}}=ut+\\tfrac12(5.8)t^2$. At contact, $s_{\\mathrm{floor}}=s_{\\mathrm{ball}}+2.0$, so $ut+\\tfrac12(5.8)t^2=ut-\\tfrac12(9.81)t^2+2.0$ and $t=0.51\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Using gravity alone leaves out the floor’s upward acceleration.",
+        "C": "Using only the elevator’s acceleration leaves out the ball’s downward acceleration.",
+        "D": "Subtracting the acceleration magnitudes gives a closing acceleration that is too small because the accelerations are in opposite directions."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must model the ball and floor separately and equate their positions at contact.",
+    "misconception": "Treating the accelerating elevator floor as stationary after release.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rate of change of momentum equals the resultant force. Its magnitude is $\\sqrt{(10000-9000)^2+500^2}\\approx1100\\ \\mathrm{kg\\,m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "This uses only the sideways force and omits the net upward force.",
+        "B": "This uses only the net upward force and omits the sideways force.",
+        "C": "Correct.",
+        "D": "This adds the magnitudes of perpendicular force components directly."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must subtract opposing forces and combine the perpendicular components.",
+    "misconception": "Adding perpendicular force components as scalars.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q8",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking rightward as positive, the impulse equals the change in momentum, $0.100(-30-20)=-5.0\\ \\mathrm{N\\,s}$. The magnitude is $5.0\\ \\mathrm{N\\,s}$.",
+      "perOption": {
+        "A": "This subtracts the two speeds as if the ball continued in the same direction.",
+        "B": "Correct.",
+        "C": "This uses the mass in grams and subtracts the speeds as if the velocities pointed the same way.",
+        "D": "This uses 100 as the mass in kilograms, making the impulse 1000 times too large."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "motion-and-forces.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires converting grams to kilograms and assigning opposite signs to the two velocities.",
+    "misconception": "Subtracting speeds when the ball reverses direction.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q9",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $2.0\\ \\mathrm{kg}$ trolley has momentum $2.0(2.0)=4.0\\ \\mathrm{kg\\,m\\,s^{-1}}$ to the left. Total momentum was initially zero, so the $1.0\\ \\mathrm{kg}$ trolley has the same momentum magnitude to the right and a speed of $4.0\\ \\mathrm{m\\,s^{-1}}$. The spring energy is the total final kinetic energy, $\\tfrac12(2.0)(2.0)^2+\\tfrac12(1.0)(4.0)^2=12\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "This counts only the kinetic energy of the heavier trolley.",
+        "B": "This gives both trolleys the heavier trolley’s speed, which fails to conserve momentum.",
+        "C": "This counts only the kinetic energy of the lighter trolley.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The worked solution starts on page 1 and continues on page 2.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "energy-and-fields.b",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must first use momentum conservation to find the lighter trolley’s speed, then add both kinetic energies.",
+    "misconception": "Assuming equal and opposite momenta also mean equal kinetic energies.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The lines of action of the applied force and the barrel’s weight meet on the vertical through the barrel’s centre of gravity. The ramp force must pass through that point so the resultant moment about it is zero, as shown by C. The three forces also form a closed vector triangle so their resultant is zero.",
+      "perOption": {
+        "A": "A points too far left for its line of action to pass through the intersection of the other two forces.",
+        "B": "B is approximately normal to the ramp, but that line misses the intersection of the weight and applied force.",
+        "C": "Correct. Its line of action passes through the intersection of the other two forces.",
+        "D": "A vertical ramp force leaves the horizontal component of the applied force unbalanced."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the line of action of a contact force using both torque and force balance.",
+    "misconception": "Treating the resultant contact force as the normal force alone.",
+    "transcription": "A barrel half-filled with oil of uniform density is on a ramp as shown. The force $F$ is applied in a direction parallel to the ramp such that the barrel is at rest.\n\n[A circular cross-section of the barrel rests on a ramp rising to the right. The oil fills the lower half with a horizontal surface. Force $F$ points up the ramp and meets the left edge of the barrel at the oil level. Four arrows originate at the barrel–ramp contact point. A points diagonally up and left, B points up and left more steeply at roughly a right angle to the ramp, C points up and slightly left, and D points vertically up.]\n\nWhich arrow best represents the resultant force the ramp exerts on the barrel?"
+  },
+  {
+    "id": "njc-2022-promo-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking moments about the pin, the anticlockwise moment of $F$ equals the clockwise moment of the weight. For hoop radius $r$, $F(r+r\\cos40^\\circ)=20r\\sin40^\\circ$, giving $F=7.3\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Using $r\\sin40^\\circ$ for the pin’s vertical offset shortens the moment arm of $F$ and gives $7.8\\ \\mathrm{N}$.",
+        "C": "Swapping sine and cosine in both moment arms gives $20\\cos40^\\circ/(1+\\sin40^\\circ)=9.3\\ \\mathrm{N}$.",
+        "D": "Using $r-r\\cos40^\\circ$ for the arm of $F$ subtracts two vertical distances that should be added."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find two different perpendicular lever arms before taking moments about the pin.",
+    "misconception": "Measuring the lever arm to the point of application instead of to the line of action.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The same mass of sand displaces less air than cotton and experiences less upthrust. The upward contact force and upthrust together balance the weight. The contact force is therefore larger for sand, giving it the larger balance reading.",
+      "perOption": {
+        "A": "Equal true weights still produce different balance readings because the air upthrusts differ.",
+        "B": "Correct.",
+        "C": "The larger upthrust on cotton reduces the force it exerts on the balance.",
+        "D": "The relative densities and equal masses establish which sample displaces more air."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect displaced air volume to upthrust and the force measured by the balance.",
+    "misconception": "Equating the balance reading with true weight in air.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q13",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The applied force does $100\\times40=4000\\ \\mathrm{J}$ of work. The gain in gravitational potential energy is $mgh=20.0\\times9.81\\times12=2354.4\\ \\mathrm{J}$. At constant speed the rest is work against friction, with magnitude $4000-2354.4=1645.6\\ \\mathrm{J}\\approx1.6\\ \\mathrm{kJ}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the gravitational potential energy gain, which must be subtracted from the applied work.",
+        "C": "Subtracting kinetic energy from the applied work wrongly treats kinetic energy as changing at constant speed.",
+        "D": "This is the full applied work and omits the energy transferred to gravitational potential energy."
+      }
+    },
+    "issues": "The key prints 1645 J after subtracting its displayed 2354 J from 4000 J. The unrounded difference is 1645.6 J, and option A is unchanged.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the distance along the slope from the vertical rise and account for both energy transfers.",
+    "misconception": "Treating all the applied work as work against friction.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q14",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant velocity, the driving force balances the resistive force $kv$. The required power is $P=Fv=kv^2$, so the graph starts at the origin and gets steeper as $v$ increases.",
+      "perOption": {
+        "A": "This shows fixed nonzero power even at zero speed.",
+        "B": "This gives a linear relationship by omitting the velocity factor in the power formula.",
+        "C": "This curve flattens as speed increases, whereas the slope of the quadratic increases.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key interprets required power as the power needed to maintain a steady speed.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine two proportional relationships and recognise the resulting graph shape.",
+    "misconception": "Assuming power follows the same speed dependence as the resistive force.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q15",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph gives an initial extension of $0.040\\ \\mathrm{m}$ at $10\\ \\mathrm{N}$ and a final extension of $0.080\\ \\mathrm{m}$ at $20\\ \\mathrm{N}$. The added energy is the area under this part of the graph, $\\tfrac12(10+20)(0.080-0.040)=0.600\\ \\mathrm{J}$.\n\nEquivalently, with $k=10/0.040$, the initial and final values of $\\tfrac12kx^2$ are $0.200\\ \\mathrm{J}$ and $0.800\\ \\mathrm{J}$. Their difference is $0.600\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "This is the energy stored at the initial extension.",
+        "B": "This underestimates the trapezium area because the average force over the extra extension is 15 N.",
+        "C": "Correct.",
+        "D": "This is the total final stored energy and includes the energy already stored initially."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read two points and calculate the area over the added extension only.",
+    "misconception": "Using the final stored energy as the increase.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q16",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For tension $P$, the horizontal component supplies the centripetal force, $P\\sin\\theta=mr\\omega^2$, and the vertical component balances weight, $P\\cos\\theta=mg$. Dividing gives $\\tan\\theta=\\frac{r\\omega^2}{g}=\\frac{r}{g}\\frac{4\\pi^2}{T^2}$. Hence $T=\\sqrt{\\frac{4\\pi^2r}{g\\tan\\theta}}$.",
+      "perOption": {
+        "A": "This omits the angle dependence of the horizontal force.",
+        "B": "This uses $P=mg$, omitting the $\\cos\\theta$ from vertical balance.",
+        "C": "Correct.",
+        "D": "This puts $r$ in the denominator even though solving the centripetal equation gives $T^2$ proportional to $r$ at fixed $\\theta$."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve tension, eliminate it and express angular speed in terms of period.",
+    "misconception": "Using the bob’s weight as the magnitude of the tension.",
+    "transcription": "A metal bob is suspended with a light inextensible cord from the ceiling. It is set to whirl in a horizontal circle of radius $r$ with a constant speed such that the cord is inclined at an angle $\\theta$ to the vertical as shown in the diagram.\n\n[The cord is drawn from the ceiling to the bob on the left edge of a dashed horizontal circular path. The angle between the cord and the dashed vertical through the suspension point is $\\theta$. The horizontal distance from the bob to the centre of the circle is $r$.]\n\nWhat is the period of rotation of the metal bob?\n\nA $\\sqrt{\\frac{4\\pi^2r}{g}}$\nB $\\sqrt{\\frac{4\\pi^2r}{g\\sin\\theta}}$\nC $\\sqrt{\\frac{4\\pi^2r}{g\\tan\\theta}}$\nD $\\sqrt{\\frac{4\\pi^2}{rg\\tan\\theta}}$"
+  },
+  {
+    "id": "njc-2022-promo-p1-q17",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The vertical component of the contact force balances weight, so $F\\sin\\theta=mg$. The horizontal component provides the centripetal force, so $F\\cos\\theta=mv^2/r$. Dividing gives $\\tan\\theta=gr/v^2=9.81(30)/20^2=0.73575$, hence $\\theta=\\tan^{-1}(0.73575)\\approx36^\\circ$.",
+      "perOption": {
+        "A": "The number 13 is close to the centripetal acceleration $v^2/r$ in $\\mathrm{m\\,s^{-2}}$, which is an input to the force balance.",
+        "B": "Correct.",
+        "C": "This is the angle to the vertical, obtained by inverting the component ratio for the angle to the horizontal.",
+        "D": "An angle of $86^\\circ$ would make the vertical component much larger than the horizontal component, but $g<v^2/r$."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify which force components are vertical and horizontal when the angle is measured from the ground.",
+    "misconception": "Reporting the angle to the vertical instead of to the horizontal.",
+    "transcription": "A boy on a bicycle pedals around a circle of radius $30\\ \\mathrm{m}$ at a speed of $20\\ \\mathrm{m\\,s^{-1}}$. G is the centre of gravity of the boy and the bicycle. The line of action of the contact force between the ground and the bicycle passes through G. The combined mass of the boy and the cycle is $90\\ \\mathrm{kg}$.\n\n[Rear view of the rider and bicycle leaning left, with G marked on the inclined bicycle–rider system. A dashed vertical passes through the ground contact point. The angle $\\theta$ is marked between the inclined bicycle and the horizontal ground.]\n\nWhat is the angle $\\theta$ that he makes with the horizontal?\n\nA $13^\\circ$\nB $36^\\circ$\nC $54^\\circ$\nD $86^\\circ$"
+  }
+]

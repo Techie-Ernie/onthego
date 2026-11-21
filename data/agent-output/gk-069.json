@@ -1,0 +1,497 @@
+[
+  {
+    "id": "mi-2023-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "As the dropped object speeds up, air resistance increases and its downward acceleration decreases. Its downward velocity increases at a decreasing rate until it reaches a constant terminal velocity.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "Correct.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows an answer-table row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives C, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "projectile-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognising how increasing drag changes the velocity–time gradient is the main step.",
+    "misconception": "Constant acceleration despite increasing drag",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The change in momentum equals the impulse, given by the area under the force–time graph. Thus $m(v_f-v_i)=10(0.5)+5(0.5)=7.5\\ \\mathrm{N\\,s}$. Substituting $3(v_f-0.50)=7.5$ gives $v_f=3.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "Correct.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows an answer-table row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives B, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The solution combines two areas on a force–time graph with the initial momentum.",
+    "misconception": "Confusing change in velocity with final velocity",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The system experiences no net external force, so its total momentum is conserved. The initial vertical momentum is zero, giving $p_X\\sin\\theta-p_Y\\sin\\alpha=0$, hence $p_X\\sin\\theta=p_Y\\sin\\alpha$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "Correct.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows an answer-table row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives B, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "collisions.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The solution requires resolving the two momenta vertically and equating their magnitudes.",
+    "misconception": "Equating momentum magnitudes instead of vertical components",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "Let $L$ be the distance from the hip joint pivot to the centre of mass. Balancing moments about the hip gives $TL\\sin 8^\\circ=WL\\sin 70^\\circ$. Thus $T=W\\sin 70^\\circ/\\sin 8^\\circ=400(6.752)\\approx2700\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied question PNG shows answer-table and worked-solution material. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives D, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires identifying two perpendicular moment arms about the hip joint.",
+    "misconception": "Using the full pivot distance as the moment arm",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The upthrust is $V\\rho g=(2.0\\times10^{-4})(800)(9.81)\\approx1.6\\ \\mathrm{N}$. The spring balance reads $8.0-1.6=6.4\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "Correct.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives B, while keyAnswer is the placeholder A (answer-missing). The printed spring-balance line omits the subtraction sign, which is implied by the result.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation combines displaced-fluid weight with vertical force balance.",
+    "misconception": "Adding upthrust to the weight",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "By conservation of energy, the loss in gravitational potential energy equals the gain in kinetic energy plus the work done against resistance. Hence $(600)(80-h)(9.81)=[\\tfrac12(600)(12.0)^2-0]+(200)(1500)$. Solving gives $h\\approx22\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "Correct.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives B, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation accounts for both the kinetic energy gained and the energy dissipated before finding the final height.",
+    "misconception": "Ignoring work done against resistance",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The resultant of the $160\\ \\mathrm{N}$ force and the $120\\ \\mathrm{N}$ weight is the horizontal centripetal force. Its magnitude is $\\sqrt{160^2-120^2}\\approx105.8\\ \\mathrm{N}$. Using $F=ma$ gives $105.8=(120/9.81)a$, so $a\\approx8.65\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "Correct.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives C, while keyAnswer is the placeholder A (answer-missing). The printed resultant-force line omits the square root, which is implied by 105.8 N.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "circular-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The solution requires finding the horizontal resultant and converting weight to mass before applying Newton’s second law.",
+    "misconception": "Treating the entire supporting force as centripetal",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The gravitational field strength is $g=GM/r^2=(GM)(1/r^2)$. For a plot of $g$ against $1/r^2$, the gradient is $GM$, where $M$ is the planet’s mass.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives D, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The solution requires identifying the coefficient of the plotted inverse-square variable.",
+    "misconception": "Confusing the gradient with G alone",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The orbital speed is $v=r\\omega=r(2\\pi/T)$. Adding the altitude to Earth’s radius and converting the period to seconds gives $v=(36000+6400)\\times10^3\\times 2\\pi/(24\\times60\\times60)\\approx3100\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives D, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires finding the orbital radius and converting the period before using the speed formula.",
+    "misconception": "Using altitude as the orbital radius",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The total translational kinetic energy is $\\tfrac32 nRT=\\tfrac32 pV$. Substituting $\\tfrac32(1.0\\times10^5)(0.010)$ gives $1500\\ \\mathrm{J}$. For a fixed amount of gas, the total is unchanged at the same temperature.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "Correct.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives C, while keyAnswer is the placeholder A (answer-missing). The key prints 10⁻⁵ in the pressure substitution, while its result of 1500 J requires 10⁵. The fixed amount of gas is implicit in the key’s comparison and cannot be checked against the missing stem.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The solution combines the molecular kinetic-energy relation with the ideal-gas equation.",
+    "misconception": "Confusing total and mean molecular kinetic energy",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "From $\\tfrac12m\\langle c^2\\rangle=\\tfrac32kT$, the rms speed is $c_{\\mathrm{rms}}=\\sqrt{3kT/m}$. For the same gas, $c'_{\\mathrm{rms}}/c_{\\mathrm{rms}}=\\sqrt{T'/T}$, so $0.8=\\sqrt{T'/295}$. This gives $T'=188.8\\ \\mathrm{K}$, or approximately $-84.4^\\circ\\mathrm{C}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The key confirms the batch placeholder A. The key prints positive 84.4 °C, but 188.8 K converts to approximately −84.4 °C. Option A cannot be checked against the missing options.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation squares the speed ratio on the Kelvin scale before converting the result to Celsius.",
+    "misconception": "Scaling Celsius temperature or using a linear speed ratio",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "The energy supplied by the potatoes is the sum of that absorbed by the calorimeter and the water. Thus $Q=C\\Delta T+mc\\Delta T=200(12)+(2000)(4.18)(12)=102720\\ \\mathrm{J}$. Dividing by the potato mass gives $102720/75=1369.6\\ \\mathrm{J\\,g^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The key confirms the batch placeholder A.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation adds the energy absorbed by water and the calorimeter before dividing by the potato mass.",
+    "misconception": "Ignoring the calorimeter’s heat capacity",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The maximum acceleration is $a_{\\max}=\\omega^2x_0$, where $x_0=0.30\\ \\mathrm{cm}$ and $\\omega=2\\pi/T$. The oscillation period is twice the kinetic-energy graph’s period, so $T=2(0.20)=0.40\\ \\mathrm{s}$. Thus $a_{\\max}=(2\\pi/0.40)^2(0.30\\times10^{-2})\\approx0.74\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "Correct.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives B, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires doubling the kinetic-energy period and converting the amplitude to metres.",
+    "misconception": "Using the kinetic-energy period as the oscillation period",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "With increased damping, the amplitude at zero driving frequency stays the same. The peak amplitude decreases, and resonance occurs at a frequency slightly below the natural frequency.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This option is absent from the supplied image, so its error cannot be identified.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The key confirms the batch placeholder A.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The solution requires recognising how increased damping affects the resonance curve.",
+    "misconception": "Assuming damping changes only the peak height",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  },
+  {
+    "id": "mi-2023-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "By Malus’ law, the transmitted intensity is $I_p=I_0\\cos^2\\theta$. Substituting gives $I_p=2.0\\cos^2 60^\\circ=0.5\\ \\mathrm{W\\,m^{-2}}$.",
+      "perOption": {
+        "A": "This option is absent from the supplied image, so its error cannot be identified.",
+        "B": "Correct.",
+        "C": "This option is absent from the supplied image, so its error cannot be identified.",
+        "D": "This option is absent from the supplied image, so its error cannot be identified."
+      }
+    },
+    "issues": "The supplied question PNG shows a worked-solution row. The original stem and options are unavailable, so the option mapping cannot be independently verified and the classification is inferred from the key. The printed key gives B, while keyAnswer is the placeholder A (answer-missing).",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The calculation is a direct substitution into Malus’ law.",
+    "misconception": "Using $cos\theta$ instead of $cos^2\theta$",
+    "transcription": "[Original question stem and options absent from the supplied image.]"
+  }
+]

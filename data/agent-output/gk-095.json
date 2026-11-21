@@ -1,0 +1,502 @@
+[
+  {
+    "id": "ri-2017-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Above the equator, gravity provides the centripetal force for a satellite orbiting in the same direction as Earth’s rotation. At another fixed latitude, maintaining the path would require continuous thrust and an energy supply. Under gravity alone an inclined orbit instead carries the satellite through different latitudes.",
+      "perOption": {
+        "A": "Correct. Sustained thrust is needed to stay above a fixed non-equatorial latitude.",
+        "B": "An inclined orbit can also have a period of 24 hours.",
+        "C": "An inclined orbit can travel in the same direction as Earth’s rotation.",
+        "D": "Satellite mass does not determine whether a gravity-only orbit can stay above a fixed latitude."
+      }
+    },
+    "issues": "A is the intended choice for a continuously powered non-equatorial path. The direct requirement is sustained thrust, and the rotation period commonly called 24 hours is one sidereal day.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.k",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish a fixed latitude from an inclined orbit with the same period.",
+    "misconception": "A 24-hour orbit is automatically geostationary.",
+    "transcription": "All geostationary satellites lie on the equatorial plane of $0^\\circ$ latitude.\n\n[Earth diagram with the equatorial plane marked $0^\\circ$ and latitudes of $20^\\circ$, $40^\\circ$, $60^\\circ$, $80^\\circ$ and $90^\\circ$ marked north and south.]\n\nThere is no geostationary satellite at the other latitudes shown because such a satellite would\n\nA require a continuous input of energy to maintain its orbit.\nB not have a period of 24 hours.\nC orbit from east to west.\nD be too heavy."
+  },
+  {
+    "id": "ri-2017-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the valve’s pressure limit, $p$ and $V$ are fixed, so $pV=nRT$ gives constant $nT$. For the same gas, $n$ is proportional to mass, so $m_1T_1=m_2T_2$.\n\nThus $20(20+273.15)=15(\\theta+273.15)$, giving $\\theta=117.7\\,^\\circ\\mathrm{C}$, or about $120\\,^\\circ\\mathrm{C}$.",
+      "perOption": {
+        "A": "Uses direct proportionality with the Celsius temperature.",
+        "B": "Uses a Celsius temperature ratio instead of a kelvin ratio.",
+        "C": "Correct.",
+        "D": "Reports the maximum temperature in kelvin as though it were in Celsius."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student keeps pressure and volume fixed and uses the inverse mass–temperature relation in kelvin.",
+    "misconception": "Using Celsius in an ideal-gas ratio.",
+    "transcription": "A gas cylinder is fixed with a safety valve which releases a gas when the pressure inside the cylinder reaches $1.5\\times10^6\\ \\mathrm{Pa}$. The mass of the gas that the cylinder can hold at $20\\,^\\circ\\mathrm{C}$ is $20\\ \\mathrm{kg}$.\n\nWhat is the maximum temperature of the gas if the cylinder were to hold a mass of $15\\ \\mathrm{kg}$?\n\nA $15\\,^\\circ\\mathrm{C}$\nB $27\\,^\\circ\\mathrm{C}$\nC $120\\,^\\circ\\mathrm{C}$\nD $390\\,^\\circ\\mathrm{C}$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $30.0\\,^\\circ\\mathrm{C}$, $\\tfrac12 m_Ac^2=\\tfrac32 k(303.15)$. At $300\\,^\\circ\\mathrm{C}$, $\\tfrac12 m_Bc_B^2=\\tfrac32 k(573.15)$.\n\nDividing gives $\\dfrac{m_Bc_B^2}{m_Ac^2}=\\dfrac{573.15}{303.15}$. With $m_B/m_A=2$, $c_B=0.972c$.",
+      "perOption": {
+        "A": "Uses the ratio of squared speeds, $0.945$, as the speed ratio.",
+        "B": "Correct.",
+        "C": "Reverses the molecular mass ratio and so predicts a higher speed.",
+        "D": "Uses an incorrect speed ratio that fails to account for both the absolute temperatures and the larger molecular mass."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine two absolute temperatures with the molecular mass ratio and take a square root.",
+    "misconception": "Scaling r.m.s. speed like mean square speed.",
+    "transcription": "A molecule of gas A has half the mass of a molecule of gas B. The molecules of gas A have a root-mean-square speed of $c$ at a temperature of $30.0\\,^\\circ\\mathrm{C}$. Assume that both gases are ideal.\n\nWhat is the root-mean-square speed of the molecules of gas B at $300\\,^\\circ\\mathrm{C}$\n\nA $0.945c$\nB $0.972c$\nC $1.94c$\nD $2.24c$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The solid melts from $2$ to $4\\ \\mathrm{min}$. Using $Q=Pt=mL$, we get $1000(2)=1(L)$, so $L=2000\\ \\mathrm{J\\,kg^{-1}}$.\n\nUsing $Q/t=mc\\,\\Delta T/t$, the solid warms by $4\\ \\mathrm K$ in $2\\ \\mathrm{min}$ and the liquid warms by $4\\ \\mathrm K$ in $4\\ \\mathrm{min}$. Hence $c_\\mathrm{solid}=500\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$ and $c_\\mathrm{liquid}=1000\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$.",
+      "perOption": {
+        "A": "Melting starts at 2 min and finishes at 4 min.",
+        "B": "The graph shows the liquid warming through 8 min with no boiling plateau.",
+        "C": "The liquid has the larger specific heat capacity, $1000\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$ versus $500\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student reads the melting interval and uses the slopes to distinguish the two heat capacities.",
+    "misconception": "The melting plateau starts when melting is complete.",
+    "transcription": "The graph shows the variation of temperature change $\\Delta T$ with time $t$ for $1\\ \\mathrm{kg}$ of a substance, initially solid at room temperature. The substance is heated at a uniform rate of $1000\\ \\mathrm{J\\,min^{-1}}$.\n\n[Graph of $\\Delta T$ in K against $t$ in min. Straight segments join $(0,0)$, $(2,4)$, $(4,4)$ and $(8,8)$.]\n\nWhat can be deduced from this graph?\n\nA After 2 min of heating, the substance is all liquid.\nB After 8 min of heating, the substance is all gaseous.\nC The specific heat capacity of the substance is smaller when liquid than when solid.\nD The specific latent heat of fusion of the substance is $2000\\ \\mathrm{J\\,kg^{-1}}$."
+  },
+  {
+    "id": "ri-2017-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The heat-loss rate depends on the temperature difference between the boiling water and the surroundings. Both temperatures stay the same at the two heater powers, so the heat-loss rate is the same in both runs. Subtracting the two power balances eliminates this common rate.",
+      "perOption": {
+        "A": "To reduce random error, repeat at the same power and average the measured mass rates.",
+        "B": "Correct.",
+        "C": "Averaging two values calculated without allowing for heat loss leaves the bias in place.",
+        "D": "To check reproducibility, the key calls for repeating the measurement at the same power and for the same duration."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must recognise which term stays the same when heater power changes.",
+    "misconception": "Averaging removes heat-loss bias.",
+    "transcription": "To determine the specific latent heat of vaporisation of water, a student uses a heater to boil water. When the water is boiling, the mass of water vapour produced per minute is measured at two different powers of the heater.\n\nThe student repeats the experiment using a different power of the heater to\n\nA reduce random errors in the measurements of the mass of water vapour produced per minute.\nB allow the rate of heat loss from the apparatus to be eliminated from the calculations.\nC determine an average value of the specific latent heat of vaporisation.\nD check for reproducibility of the measurements."
+  },
+  {
+    "id": "ri-2017-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The maximum potential energy equals the maximum kinetic energy, so $1.800=\\tfrac12 m(x_0\\omega)^2$ in SI units. The five potential-energy cycles in $0.600\\ \\mathrm{s}$ represent $2.5$ full oscillations, giving $T=0.600/2.5=0.240\\ \\mathrm{s}$.\n\nSubstituting $\\omega=2\\pi/T$ gives $1.800=\\tfrac12 m(0.050\\times 2\\pi/0.240)^2$, so $m=2.1\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Treats the $0.120\\ \\mathrm{s}$ energy period as the displacement period.",
+        "B": "Confuses the $1.8\\ \\mathrm J$ energy peak with the mass.",
+        "C": "Correct.",
+        "D": "Overestimates the oscillation period for the given amplitude and energy."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must recover the displacement period from the energy graph before calculating maximum speed and mass.",
+    "misconception": "The potential-energy period equals the SHM period.",
+    "transcription": "18 A particle performs simple harmonic motion of amplitude $0.050\\ \\mathrm m$. The graph shows the variation of the potential energy of the particle with time.\n\n[Potential energy in J is plotted against time in s from $0$ to $0.6\\ \\mathrm{s}$. The five peaks reach about $1.8\\ \\mathrm J$, halfway between successive zeroes at $0$, $0.12$, $0.24$, $0.36$, $0.48$ and $0.60\\ \\mathrm s$.]\n\nWhat is the mass of the particle?\n\nA $0.53\\ \\mathrm{kg}$\nB $1.8\\ \\mathrm{kg}$\nC $2.1\\ \\mathrm{kg}$\nD $2.8\\ \\mathrm{kg}$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "While the first wavefront expands by six squares, the dipper moves three squares. Its speed is therefore $\\tfrac12(20)=10\\ \\mathrm{cm\\,s^{-1}}$.\n\nThe first two wavefront radii differ by $\\tfrac12(12-8)=2\\ \\mathrm{cm}$, the distance a wavefront travels in one emission period. The frequency is $f=20/2=10\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Uses the diameter difference instead of the radius difference to find the frequency.",
+        "B": "Correct.",
+        "C": "Equates the dipper speed with the wave speed and uses the diameter difference for the frequency.",
+        "D": "Equates the dipper speed with the wave speed even though the dipper travels half as far."
+      }
+    },
+    "issues": "The key calls the radius difference a wavelength. It is the wavefront’s radial expansion in one emission period, while the observed spacing between fronts depends on direction.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must read both the source displacement and the radii of successive wavefronts on the grid.",
+    "misconception": "Using the difference in diameters for the distance travelled by a wavefront.",
+    "transcription": "An oscillator vibrates vertically in a ripple tank and moves to the right with speed $v$, as shown in Fig. 19(a).\n\n[Fig. 19(a) shows the oscillator dipping into the tank, with a vertical double arrow and a rightward arrow labelled $v$.]\n\nFig. 19(b) represents the water waves as seen from the top of the ripple tank. The speed of the water waves is $20\\ \\mathrm{cm\\,s^{-1}}$.\n\n[Fig. 19(b) shows three circular wavefronts of diameters $12$, $8$ and $4\\ \\mathrm{cm}$ on a $1\\ \\mathrm{cm}$ square grid. Their centres lie on the same horizontal line, each one square to the right of the previous centre from largest to smallest. A black dot lies one square to the right of the smallest circle’s centre.]\n\nWhat is the speed $v$ and frequency $f$ of the oscillator?\n\nOptions ($v$ in $\\mathrm{cm\\,s^{-1}}$, $f$ in $\\mathrm{Hz}$)\nA $(10,5.0)$\nB $(10,10)$\nC $(20,5.0)$\nD $(20,10)$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $I_0$ be the intensity incident on Q. Malus’ law gives $I=I_0\\cos^2 30^\\circ$ and $I'=I_0\\cos^2 120^\\circ$.\n\nDividing gives $I'=I\\dfrac{\\cos^2 120^\\circ}{\\cos^2 30^\\circ}=0.33I$.",
+      "perOption": {
+        "A": "Multiplies the two transmission factors instead of dividing them.",
+        "B": "Applies the second transmission factor directly to the intensity already transmitted at 30 degrees.",
+        "C": "Correct.",
+        "D": "Uses the magnitude of the cosine ratio without squaring it for intensity."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the intensity reference and take the ratio of two Malus-law results.",
+    "misconception": "Treating the transmitted intensity at 30 degrees as the incident intensity on Q.",
+    "transcription": "Two sheets of polaroids P and Q are placed such that their directions of polarisation are at an angle $\\theta$ to each other as shown.\n\n[Unpolarised incident light travels through polaroid P and then polaroid Q. The polarisation direction of P is vertical, and the direction of Q is at angle $\\theta$ to the vertical reference.]\n\nA beam of light passes through both polaroids. After passing through polaroid Q, the transmitted beam has intensity $I$ when $\\theta$ is $30^\\circ$.\n\nWhen $\\theta$ is $120^\\circ$, what is the intensity of the transmitted beam?\n\nA $0.19I$\nB $0.25I$\nC $0.33I$\nD $0.58I$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the pipe open at both ends, $L=\\lambda/2$, so the fundamental frequency is $f=v/(2L)$. For the pipe closed at one end, $L=\\lambda'/4$, so its fundamental is $f'=v/(4L)=f/2$.",
+      "perOption": {
+        "A": "Uses the quarter-wavelength condition without comparing it with the open pipe’s half-wavelength condition.",
+        "B": "Correct.",
+        "C": "Assumes that doubling the wavelength doubles the frequency.",
+        "D": "Treats the quarter-wavelength condition as a fourfold increase in frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student compares the fundamental standing-wave patterns for two sets of boundary conditions.",
+    "misconception": "A quarter wavelength in the pipe means a quarter of the original frequency.",
+    "transcription": "The lowest resonant frequency emitted by a cylindrical pipe that is open at both ends is $f$.\n\nWhat is the lowest resonant frequency emitted by a pipe of the same length that is closed at one end?\n\nA $\\dfrac f4$\nB $\\dfrac f2$\nC $2f$\nD $4f$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Add the two electric-field vectors at each point. At V the $-9Q$ charge is three times as far away as $Q$, so the opposite fields have equal magnitudes and cancel. At X both fields point right, and at Z the nearer $-9Q$ charge gives the stronger, leftward field.",
+      "perOption": {
+        "A": "Misses the cancellation at V caused by the threefold distance and ninefold charge magnitude.",
+        "B": "Misses the cancellation at V and treats the two rightward fields at X as opposing.",
+        "C": "Reverses the field direction at X and the direction of the stronger contribution at Z.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare inverse-square magnitudes and add the signed field contributions at three points.",
+    "misconception": "Fields from opposite charges always oppose each other.",
+    "transcription": "Points V, W, X, Y and Z are evenly spaced along a straight line. A positive charge of magnitude $Q$ is placed at point W. A negative charge of magnitude $9Q$ is placed at point Y.\n\n[From left to right the diagram shows V, W with $Q$, X, Y with $-9Q$, and Z.]\n\nWhich of the following gives the directions of the electric fields at points V, X and Z?\n\nOptions (at point V, at point X, at point Z)\nA to the left, to the right, to the left\nB to the left, no net electric field, to the left\nC no net electric field, to the left, to the right\nD no net electric field, to the right, to the left"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q23",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At fixed temperature, an ohmic conductor has potential difference directly proportional to current. Thus the filament is ohmic if its resistance $V/I$ is constant as the current varies at that temperature.",
+      "perOption": {
+        "A": "The ratio $V/I$ defines resistance even when that ratio varies with current.",
+        "B": "Independence of resistivity from physical dimensions does not establish proportionality between voltage and current.",
+        "C": "Correct.",
+        "D": "Changing the applied potential difference can heat the filament and change its resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e",
+      "circuits.f"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student distinguishes the condition for ohmic behaviour from the general definition of resistance.",
+    "misconception": "Defining resistance as V/I is sufficient for ohmic behaviour.",
+    "transcription": "Which of the following statements regarding the filament of a light bulb is true?\n\nA The filament is ohmic if its resistance is always equal to the ratio of the potential difference across it to the current through it.\nB The filament is ohmic if its resistivity does not depend on its physical dimensions.\nC The filament is ohmic if its resistance is constant at a fixed temperature.\nD The filament is ohmic regardless of the potential difference applied across it."
+  },
+  {
+    "id": "ri-2017-prelim-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two equal cells oppose one another between the outer terminals, so $V=0$. Each resistor still has $3.0\\ \\mathrm V$ across it in its own loop.\n\nThe currents are $I_1=3.0/(6.0\\times10^3)=0.50\\ \\mathrm{mA}$ and $I_2=3.0/(3.0\\times10^3)=1.0\\ \\mathrm{mA}$.",
+      "perOption": {
+        "A": "Assumes the zero outer-terminal voltage also makes the potential difference across each resistor zero.",
+        "B": "Correct.",
+        "C": "Adds the two cell voltages even though their polarities oppose along the path between the outer terminals.",
+        "D": "Ignores the middle connection and treats the opposing cells and both resistors as one series loop."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must recognise two loops sharing a node and track the polarities of both cells.",
+    "misconception": "Zero potential difference between outer nodes implies zero current everywhere.",
+    "transcription": "Two $3.0\\ \\mathrm V$ cells are connected to resistors of resistance $3.0\\ \\mathrm{k\\Omega}$ and $6.0\\ \\mathrm{k\\Omega}$ as shown.\n\n[Two rectangular loops share a horizontal middle wire. Each loop has a $3.0\\ \\mathrm V$ cell on the left with its positive terminal facing the outer wire. On the right is a $6.0\\ \\mathrm{k\\Omega}$ resistor in the upper loop and a $3.0\\ \\mathrm{k\\Omega}$ resistor in the lower loop. $I_1$ and $I_2$ point right along the top and bottom wires respectively. A double arrow labelled $V$ spans the top and bottom nodes.]\n\nWhat are the currents $I_1$ and $I_2$, and the potential difference $V$?\n\nOptions ($I_1$ in mA, $I_2$ in mA, $V$ in V)\nA $(0,0,0)$\nB $(0.50,1.0,0)$\nC $(0.50,1.0,6.0)$\nD $(0.67,0.67,6.0)$"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Four wires carry current in the same direction as P and attract it towards the left. Their vertical components cancel in pairs. The furthest wire carries opposite current and repels P to the right, but its force is weaker than the combined leftward components, so the net force points left.",
+      "perOption": {
+        "A": "Keeps an upward component even though the vertical components cancel by symmetry.",
+        "B": "Lets the distant wire’s repulsion outweigh the four wires’ combined leftward attraction.",
+        "C": "Keeps a downward component even though the vertical components cancel by symmetry.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.i",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish attraction from repulsion and use symmetry and distance to find the net force.",
+    "misconception": "Opposite currents attract.",
+    "transcription": "Six vertical wires are placed at the corners of a regular hexagon. The wires carry equal currents in the directions shown.\n\nWhat is the direction of the force acting on wire P?\n\n[P is at the rightmost vertex of a regular hexagon. The leftmost wire carries current out of the page. All other wires, including P, carry current into the page. The arrows from P are A up, B right, C down and D left.]"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Pushing the magnet towards the coil induces a current in the coil and builds up its magnetic field through the ring. By Faraday’s and Lenz’s laws, the ring’s induced current opposes that buildup, so the coil repels it to the left. When the magnet is pulled away, the coil’s field builds up in the opposite direction, so the ring’s current also reverses and the ring is again repelled to the left.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Predicts attraction on approach even though the ring opposes the buildup of the coil’s field.",
+        "C": "Predicts attraction on withdrawal even though the coil’s field builds up in the opposite direction and the ring’s current reverses too.",
+        "D": "Predicts attraction in both cases even though the ring initially opposes the buildup of the coil’s field in each case."
+      }
+    },
+    "issues": "The key describes the initial force when the coil field builds from negligible current for each motion. It does not specify timing or account for the force during field decay.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must follow induction from the magnet to the coil and then from the coil to the ring in both cases.",
+    "misconception": "Reversing the coil current alone reverses the force on the ring.",
+    "transcription": "An aluminium ring is suspended near one end of a long coil of wire and a magnet is placed near the other end with its north pole facing the coil as shown. Assume that the magnetic field from the magnet does not reach the ring.\n\n[The ring hangs to the left of the coil and the bar magnet lies to the right, all on the same axis. The magnet's N pole is on the left and its S pole is on the right. A wire joins the coil terminals to form a closed circuit.]\n\nWhich of the following describes the motion of the ring when the magnet is first pushed towards the coil, and then pulled away?\n\nOptions (magnet pushed towards coil, magnet pulled away from coil)\nA ring swings left, ring swings left\nB ring swings right, ring swings left\nC ring swings left, ring swings right\nD ring swings right, ring swings right"
+  },
+  {
+    "id": "ri-2017-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Faraday’s law, the induced e.m.f. is proportional to the negative time derivative of the flux linkage. A sinusoidal flux linkage therefore gives a cosine e.m.f. up to a sign, so the phase difference is $\\pi/2\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Treats the e.m.f. as proportional to the flux linkage itself.",
+        "B": "Uses an eighth-cycle shift where differentiation gives a quarter-cycle shift.",
+        "C": "Correct.",
+        "D": "Uses the minus sign alone and omits the phase shift from differentiation."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student links Faraday’s law to the quarter-cycle shift between sine and cosine.",
+    "misconception": "The minus sign in Faraday’s law gives a half-cycle shift relative to the flux.",
+    "transcription": "The magnetic flux linking a conducting loop changes sinusoidally with time.\n\nWhich of the following describes the phase difference between the magnetic flux linkage and the e.m.f. induced?\n\nA They are in phase with each other.\nB They are out of phase by $\\pi/4\\ \\mathrm{rad}$.\nC They are out of phase by $\\pi/2\\ \\mathrm{rad}$.\nD They are out of phase by $\\pi\\ \\mathrm{rad}$."
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "hci-2024-other-p1-q17",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At a shared angle, $d\\sin\\theta=n\\lambda$ gives $n\\lambda_{\\mathrm{long}}=(n+1)\\lambda_{\\mathrm{short}}$. First-order red at $700\\ \\mathrm{nm}$ coincides with second-order $350\\ \\mathrm{nm}$, outside the given range, so those orders are separate. Second-order red coincides with third-order $467\\ \\mathrm{nm}$, inside the range, so the first order is the highest clear of the next.",
+      "perOption": {
+        "A": "Correct. First-order red falls short of second-order violet.",
+        "B": "Second-order red overlaps the third-order spectrum.",
+        "C": "Third-order red overlaps the fourth-order spectrum.",
+        "D": "Fourth-order red overlaps the visible portion of the fifth order."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Comparing adjacent orders requires applying the grating equation to spectral endpoints.",
+    "misconception": "Comparing equal wavelengths across orders",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The model assumes elastic collisions with the walls. In the head-on collision shown, the molecule rebounds at the same speed in the opposite direction, so its momentum changes by a magnitude $mv-m(-v)=2mv$.",
+      "perOption": {
+        "A": "Negligible molecular volume is a valid assumption.",
+        "B": "Negligible collision duration compared with the time between collisions is a valid assumption.",
+        "C": "Correct. The wall collision changes the molecule’s momentum.",
+        "D": "Elastic collisions preserve average molecular kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e",
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recognising that a bounce reverses momentum identifies the invalid assumption.",
+    "misconception": "Confusing unchanged speed with unchanged momentum",
+    "transcription": "In deriving the equation $p=\\frac13\\rho\\langle c^2\\rangle$ using the kinetic theory of gases, which of the following is not a valid assumption?\n\nA. The volume of the molecules is negligible compared with the volume of the gas.\nB. The duration of a collision is negligible compared with the time between collisions.\nC. The molecules experience negligible change of momentum on collision with the walls of the container.\nD. Collisions with the walls of the container and with other molecules cause no change in the average kinetic energy of the molecules."
+  },
+  {
+    "id": "hci-2024-other-p1-q19",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially $pV=NkT$ and $U=\\frac32NkT$. After the addition, $p'V=(2N)kT'$ and $U'=\\frac32(2N)kT'$. Equating $U'$ and $U$ gives $T'=T/2$. Dividing the new gas equation by the original gives $p'/p=2T'/T=1$.",
+      "perOption": {
+        "A": "Correct. Temperature halves and pressure stays the same.",
+        "B": "The pressure calculation misses the doubled molecule count.",
+        "C": "Keeping the temperature fixed would double the internal energy.",
+        "D": "Unchanged pressure with twice as many molecules at fixed volume requires half the original temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g",
+      "thermodynamic-systems.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine constant internal energy with the ideal gas equation at fixed volume.",
+    "misconception": "Confusing total internal energy with energy per molecule",
+    "transcription": "$N$ molecules of a monatomic ideal gas are contained in a rigid box at pressure $p$ and temperature $T$. An additional $N$ molecules of the same gas are added to the box in such a way that the internal energy is kept constant at its original value.\n\nWhich of the following indicates the values of the temperature and pressure of the gas after the addition?\n\nTemperature, pressure\nA. $\\frac12T$, $p$\nB. $\\frac12T$, $\\frac12p$\nC. $T$, $2p$\nD. $T$, $p$"
+  },
+  {
+    "id": "hci-2024-other-p1-q20",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential at W is $V_W=kQ_1/r_{1W}+kQ_2/r_{2W}$. Moving $-Q$ from Y to Z brings it closer to W, making its negative contribution larger in magnitude while the positive contribution stays fixed. The potential at W therefore decreases.",
+      "perOption": {
+        "A": "The statement is true because increasing the separation makes $U=-kQ^2/r$ less negative.",
+        "B": "The statement is true because the dominant leftward field grows from $kQ/(2r)^2$ to $kQ/r^2$ while the rightward field stays at $kQ/(3r)^2$.",
+        "C": "Correct. The potential at W decreases.",
+        "D": "The statement is true because Y is then equidistant from the opposite charges, so their potentials cancel."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.d",
+      "electric-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish potential, field strength, and potential energy.",
+    "misconception": "Ignoring the sign of the negative charge’s potential",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q21",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The volume $V=AL$ is constant, so $A=V/L$. Substitution into $R=\\rho L/A$ gives $R=\\rho L^2/V$, so the graph rises with increasing gradient.",
+      "perOption": {
+        "A": "A longer cylinder is thinner, so constant volume does not keep resistance fixed.",
+        "B": "A linear rise treats the cross-sectional area as fixed.",
+        "C": "This curve flattens as length increases, whereas the quadratic relation steepens.",
+        "D": "Correct. Resistance increases with the square of length."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use constant volume to eliminate cross-sectional area and recognise the resulting curve.",
+    "misconception": "Holding cross-sectional area fixed",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each lamp has resistance $R=V_{\\mathrm{rated}}^2/P_{\\mathrm{rated}}$. The voltage ratings are equal, so $R_A/R_B=P_{\\mathrm{rated},B}/P_{\\mathrm{rated},A}=40/10=4$. In series both carry the same current, so $P=I^2R$ gives $P_A/P_B=4$.",
+      "perOption": {
+        "A": "The power ratio equals the resistance ratio directly, so taking its square root gives the wrong factor.",
+        "B": "Correct. A emits four times as much power as B.",
+        "C": "This reverses which lamp has greater resistance and uses a factor of two instead of four.",
+        "D": "This uses the rated power ratio as though each lamp still had its rated voltage across it."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.d",
+      "circuits.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer resistances from equal rated voltages and then compare powers at equal current.",
+    "misconception": "Applying rated powers directly to lamps in series",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q23",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Low temperature raises the thermistor’s resistance, increasing the secondary cell’s terminal p.d. because of its internal resistance. In the dark, the LDR’s resistance increases, so less of the driver cell’s e.m.f. drops across PQ. The smaller p.d. per unit length of PQ requires a longer balance length to match the larger terminal p.d.",
+      "perOption": {
+        "A": "Correct. Low temperature raises the voltage to balance and darkness lowers the wire’s potential gradient.",
+        "B": "Bright light lowers the LDR resistance and increases the potential gradient along PQ.",
+        "C": "High temperature lowers the thermistor resistance and the loaded secondary cell’s terminal p.d.",
+        "D": "High temperature lowers the voltage to balance and bright light raises the wire’s potential gradient."
+      }
+    },
+    "issues": "The key assumes nonzero secondary-cell internal resistance, represented by the series resistor beside the cell.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must track the effect of each sensor on a different side of the balance condition.",
+    "misconception": "Overlooking the secondary cell’s internal resistance",
+    "transcription": "A NTC thermistor and a light-dependent resistor are connected in a potentiometer circuit. PQ is a resistance wire.\n\n[The driver loop contains a two-cell source and a light-dependent resistor in series with wire PQ. In the secondary loop, a cell and a series resistor are connected across the thermistor. The thermistor’s left end connects to P, and its right end connects via a galvanometer to a sliding contact on PQ.]\n\nWhich combination of temperature and lighting condition maximises the balance length?\n\nTemperature, lighting\nA. low, dark\nB. low, bright\nC. high, dark\nD. high, bright"
+  },
+  {
+    "id": "hci-2024-other-p1-q24",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force per unit length from X is $B_XI=\\mu_0 I^2/[2\\pi(2d)]=F$. The force per unit length from Y is $B_YI=3\\mu_0 I^2/(2\\pi d)=6F$. Y attracts Z because their currents run in the same direction, while X repels Z because their currents run in opposite directions. The net force per unit length is $6F-F=5F$ towards Y.",
+      "perOption": {
+        "A": "This uses the magnitude of X’s force alone and omits Y’s stronger attraction.",
+        "B": "Correct. Y’s attraction exceeds X’s repulsion by $5F$.",
+        "C": "This subtracts the magnitudes correctly but points the result in the direction of the weaker force.",
+        "D": "This adds the magnitudes of forces that act in opposite directions."
+      }
+    },
+    "issues": "The school’s expression for the force from Y labels the current factor with Y’s subscript, but the substitution correctly uses Z’s current for that factor.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must scale both forces by current and separation before combining their directions.",
+    "misconception": "Adding the magnitudes of opposite forces",
+    "transcription": "The diagram below shows three long, parallel, straight wires X, Y and Z placed in the same plane in a vacuum. Wires X and Z each carries a current of $I$, and wire Y carries a current of $3I$. Wire Y is halfway between wire X and wire Z.\n\n[Three horizontal wires are arranged top to bottom as X, Y and Z, with adjacent wires separated by $d$. The current in X points left, and the currents in Y and Z point right.]\n\nThe magnitude of the force per unit length acting between X and Z is $F$.\n\nWhat is the direction and magnitude of the net force per unit length acting on Z?\n\nDirection, magnitude\nA. Towards Y, $F$\nB. Towards Y, $5F$\nC. Away from Y, $5F$\nD. Away from Y, $7F$"
+  },
+  {
+    "id": "hci-2024-other-p1-q25",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the magnet rotates, each part of the disc sees a pole approach or recede, changing the magnetic flux and inducing eddy currents. By Lenz’s law, their effect opposes the change that produces them, so the disc tends to rotate with the magnet and reduce their relative motion.",
+      "perOption": {
+        "A": "Copper conducts, so changing magnetic flux can induce eddy currents and exert a torque.",
+        "B": "The direction is right, but the torque comes from induced eddy currents rather than ferromagnetism.",
+        "C": "Correct. The eddy currents drive the disc in the magnet’s direction.",
+        "D": "Counter-rotation would increase the relative motion that the induction opposes."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must apply Lenz’s law to the relative motion of the disc and magnet.",
+    "misconception": "Equating opposition with counter-rotation",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The secondary load is $1500\\ \\Omega$, so the potential divider gives a secondary voltage of $80(1500/1000)=120\\ \\mathrm{V}$. The secondary current passes through X and is $80/1000=0.080\\ \\mathrm{A}$. The secondary delivers $IV=0.080(120)=9.60\\ \\mathrm{W}$. The primary voltage is $120(200/500)=48.0\\ \\mathrm{V}$. With no power loss, $I_p=9.60/48.0=0.20\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "This gives the secondary current through X while the ammeter is on the primary side.",
+        "B": "Correct. The primary ammeter reads $0.20\\ \\mathrm{A}$.",
+        "C": "This doubles the primary current, as would happen if X’s current were added to the total of the parallel branch currents.",
+        "D": "At $48.0\\ \\mathrm{V}$ this would require far more than the $9.60\\ \\mathrm{W}$ drawn by the load."
+      }
+    },
+    "issues": "The key describes power as dissipated by the coils. An ideal transformer transfers it to the load without loss.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circuits",
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "circuits.c",
+      "circuits.i",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must analyse the load and combine the turns ratio with power conservation.",
+    "misconception": "Confusing secondary current with the primary ammeter reading",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At a fixed frequency above threshold, higher intensity means more photons strike the surface per second. The photoelectron emission rate therefore increases in proportion to intensity. The maximum kinetic energy is $K_{\\max}=hf-\\phi$, set by the frequency and the work function.",
+      "perOption": {
+        "A": "At fixed frequency, intensity changes the emission rate while maximum speed stays the same.",
+        "B": "Increasing wavelength lowers photon energy and the maximum electron kinetic energy.",
+        "C": "Correct. At fixed frequency, higher intensity increases the emission rate.",
+        "D": "The threshold wavelength is the longest wavelength that can eject an electron."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish what intensity controls from what photon energy controls.",
+    "misconception": "Confusing photon arrival rate with energy per photon",
+    "transcription": null
+  },
+  {
+    "id": "hci-2024-other-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photon energy is $E=hc/\\lambda=(6.63\\times10^{-34})(3\\times10^8)/(435\\times10^{-9})=4.57\\times10^{-19}\\ \\mathrm{J}=2.86\\ \\mathrm{eV}$. Transition B has an energy difference of $(-0.54)-(-3.40)=2.86\\ \\mathrm{eV}$, which matches.",
+      "perOption": {
+        "A": "The drop to $-13.60\\ \\mathrm{eV}$ releases $13.06\\ \\mathrm{eV}$, which is too much.",
+        "B": "Correct. The energy drop is $2.86\\ \\mathrm{eV}$.",
+        "C": "The drop to $-1.51\\ \\mathrm{eV}$ releases only $0.97\\ \\mathrm{eV}$.",
+        "D": "The drop to $-0.85\\ \\mathrm{eV}$ releases only $0.31\\ \\mathrm{eV}$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert photon energy to electronvolts and match it to a level difference.",
+    "misconception": "Using an absolute energy level in place of an energy difference",
+    "transcription": "The energy level diagram represents the five lowest energy levels of hydrogen.\n\nA spectral line of wavelength $435\\ \\mathrm{nm}$ corresponds to one of the lines in the spectrum of hydrogen.\n\nWhich of the transitions gives this particular spectral line?\n\n[Five horizontal energy levels are labelled $-0.54$, $-0.85$, $-1.51$, $-3.40$ and $-13.60\\ \\mathrm{eV}$ from top to bottom. All four arrows start at $-0.54\\ \\mathrm{eV}$ and point down. A ends at $-13.60\\ \\mathrm{eV}$, B at $-3.40\\ \\mathrm{eV}$, C at $-1.51\\ \\mathrm{eV}$, and D at $-0.85\\ \\mathrm{eV}$.]"
+  },
+  {
+    "id": "hci-2024-other-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released equals helium’s total binding energy minus the two deuterium nuclei’s total binding energy. If $b$ is the deuterium binding energy per nucleon in MeV, then $3.26=4(2.54)-4b$. Hence $b=1.725\\ \\mathrm{MeV}$, which rounds to $1.73\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "This is too low and would give an energy release of $10.16-4(1.45)=4.36\\ \\mathrm{MeV}$.",
+        "B": "Correct. The reactants’ total binding energy is shared by four nucleons.",
+        "C": "This exceeds the stated helium binding energy per nucleon, so it would require energy input.",
+        "D": "Dividing the reactants’ total binding energy by two gives the binding energy of one deuterium nucleus."
+      }
+    },
+    "issues": "B follows from the stipulated numbers. The printed helium-4 binding energy and reaction energy differ from physical values. AME2020 gives about 7.074 MeV per nucleon for helium-4 and 1.112 MeV per nucleon for deuterium, implying about 23.85 MeV released for the reaction as written. Source https://cpc.ihep.ac.cn/article/doi/10.1088/1674-1137/abddaf",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert per-nucleon values to total binding energies and account for both deuterium nuclei.",
+    "misconception": "Counting nucleons in only one reactant nucleus",
+    "transcription": "Two deuterium nuclei undergo a fusion reaction to form a helium nucleus as represented by\n\n${}^{2}_{1}\\mathrm{H}+{}^{2}_{1}\\mathrm{H}\\rightarrow{}^{4}_{2}\\mathrm{He}+\\mathrm{energy}$\n\nThe binding energy per nucleon of helium is $2.54\\ \\mathrm{MeV}$.\nThe minimum amount of energy released in this reaction is $3.26\\ \\mathrm{MeV}$.\n\nWhat is the binding energy per nucleon of deuterium?\n\nA. $1.45\\ \\mathrm{MeV}$\nB. $1.73\\ \\mathrm{MeV}$\nC. $3.36\\ \\mathrm{MeV}$\nD. $3.45\\ \\mathrm{MeV}$"
+  },
+  {
+    "id": "hci-2024-other-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let the background count-rate be $C_B$. After two half-lives the source count-rate is one quarter of its initial value, so $\\frac14(600-C_B)=180-C_B$. Rearranging gives $0.75C_B=30$, hence $C_B=40\\ \\mathrm{counts\\,min^{-1}}$.",
+      "perOption": {
+        "A": "This leaves source readings of $585$ and $165$, which fail the one-quarter test.",
+        "B": "Correct. The source alone drops from $560$ to $140\\ \\mathrm{counts\\,min^{-1}}$.",
+        "C": "This leaves a final source rate of $120$, below one quarter of the initial $540$.",
+        "D": "This leaves a final source rate of $60$, only one eighth of the initial $480$."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must subtract the background from both readings before applying the two-half-life reduction.",
+    "misconception": "Applying decay to the total detector reading",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Approximate the basketball as a sphere of radius $12\\ \\mathrm{cm}$. Its volume is $\\frac43\\pi r^3=\\frac43\\pi(12)^3\\approx7200\\ \\mathrm{cm^3}$, so $7000\\ \\mathrm{cm^3}$ is the closest estimate.",
+      "perOption": {
+        "A": "This implies a radius of about $2.6\\ \\mathrm{cm}$, much too small.",
+        "B": "This implies a radius of about $5.5\\ \\mathrm{cm}$, too small for a typical basketball.",
+        "C": "Correct. It is close to the estimate for a sphere of radius $12\\ \\mathrm{cm}$.",
+        "D": "This implies a radius of about $26\\ \\mathrm{cm}$, much too large for a typical basketball."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "A familiar size estimate and the formula for a sphere’s volume suffice.",
+    "misconception": "Underestimating how much volume changes with radius",
+    "transcription": null
+  }
+]

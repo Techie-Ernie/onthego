@@ -1,0 +1,493 @@
+[
+  {
+    "id": "njc-2022-prelim-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The path $S_2P$ is $5.0\\ \\mathrm{m}$, giving a path difference of $5.0-3.0=2.0\\ \\mathrm{m}=\\lambda$. This adds one full cycle, so the waves still arrive in antiphase and their equal amplitudes cancel.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This assumes partial cancellation even though the waves arrive exactly in antiphase.",
+        "C": "This is the amplitude due to one generator alone.",
+        "D": "This assumes the two waves arrive in phase."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a",
+      "superposition.e",
+      "superposition.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combines right-triangle geometry with the initial phase difference.",
+    "misconception": "Ignoring source phase",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "With one end closed, $L=\\lambda/4$, so $f=v/(4L)$. With both ends open, $L=\\lambda'/2$, so $f'=v/(2L)=2f$.",
+      "perOption": {
+        "A": "This implies the wavelength quadruples.",
+        "B": "This assumes the frequency falls when the wavelength halves.",
+        "C": "Correct.",
+        "D": "This implies the wavelength falls to a quarter of its original value."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires the two fundamental air-column patterns and their frequency ratio.",
+    "misconception": "Reversing the wavelength–frequency relationship",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each field points towards its source charge $-Q$. The equal fields towards the top-right and bottom-left charges add to give an up-left field, and the field due to the top-left charge points in that same direction.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The net horizontal component points left.",
+        "C": "The net vertical component points up.",
+        "D": "This reverses the resultant field direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires combining three field directions at one point.",
+    "misconception": "Drawing fields away from negative charges",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upward electric force initially balances the weight, so the lower plate is at higher potential. Decreasing $V$ makes P fall towards the lower plate, losing gravitational potential energy and gaining electric potential energy as it moves to higher potential. Increasing $V$ makes P rise towards the upper plate, gaining gravitational potential energy and losing electric potential energy as it moves to lower potential.",
+      "perOption": {
+        "A": "This reverses the electric energy change as P falls towards higher potential.",
+        "B": "Correct.",
+        "C": "This reverses the electric energy change as P rises towards lower potential.",
+        "D": "Changing the voltage upsets the force balance, so the energy changes need not have equal magnitudes."
+      }
+    },
+    "issues": "The key compares the energies during motion after the voltage adjustment. Comparing electric potential energy across the adjustment itself requires specifying how the individual plate potentials change.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires inferring the plate polarity and tracking two energy changes.",
+    "misconception": "Confusing electric potential with height",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q22",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Closing the switch causes current to flow through the internal resistance. The internal drop $Ir$ makes the terminal potential difference less than $E$.",
+      "perOption": {
+        "A": "Each resistor gets half the terminal voltage, which is less than $0.5E$.",
+        "B": "The two resistors share the terminal voltage, which is below $E$.",
+        "C": "This is the open-circuit reading when the current is zero.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing terminal potential difference under load from e.m.f.",
+    "misconception": "Ignoring internal resistance",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q23",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At X the voltmeter reads the full supply e.m.f. of $12\\ \\mathrm{V}$. At Y it is in series with the first lamp and draws negligible current, so it also reads $12\\ \\mathrm{V}$. At Z the broken filament cuts off the path to the positive terminal, so the voltmeter reads $0\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "This assumes voltage drops across the intact lamps even though the break stops the series current.",
+        "B": "X and Y are effectively at the positive supply potential, giving 12 V at both.",
+        "C": "Correct.",
+        "D": "X is directly at the positive terminal, while Z is at the negative terminal potential through the last lamp."
+      }
+    },
+    "issues": "At Z the key calls the circuit open. The broken filament isolates Z from the positive terminal, while the intact third lamp connects Z to the negative terminal.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires tracing each probe point to its supply terminal with the filament open.",
+    "misconception": "Assuming intact lamps still divide the voltage",
+    "transcription": "The diagram shows three lamps in series with a $12\\ \\mathrm{V}$ supply.\n\n[The circuit runs from the positive terminal through X, the first lamp, Y, lamp L, Z and the third lamp to the negative terminal. A voltmeter connects the negative terminal to a movable contact.]\n\nTo test the circuit, the contact is connected in turn to points X, Y and Z. The lamps do not light because lamp L has a broken filament.\nWhich of the following is correct?\n\nOption | reading at X | reading at Y | reading at Z\nA | 12 V | 8 V | 4 V\nB | 8 V | 8 V | 0 V\nC | 12 V | 12 V | 0 V\nD | 8 V | 12 V | 4 V"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The north pole experiences a force along the field and the south pole experiences a force opposite the field, turning the magnet anticlockwise. The lines are closer together at the south pole, so the stronger force there gives the resultant a leftward component.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The stronger force at the south pole gives a leftward resultant component.",
+        "C": "The north pole is pushed right and the south pole left, producing an anticlockwise turn.",
+        "D": "This reverses both the rotation and the horizontal resultant."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.a"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires inferring both the torque and the horizontal resultant from the field lines.",
+    "misconception": "Assuming equal pole forces in a non-uniform field",
+    "transcription": "A bar magnet is to be placed in a non-uniform magnetic field as shown.\n\n[Five field lines point right and spread apart towards the right. The middle line is horizontal. A dashed bar magnet lies diagonally across the field with S at the upper left and N at the lower right.]\n\nWhich line of the table describes the subsequent motion of the magnet?\n\nOption | rotation | movement\nA | anticlockwise | to the left\nB | anticlockwise | to the right\nC | clockwise | to the left\nD | clockwise | to the right"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q25",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The changing enclosed area changes the flux through the hanger. By Faraday's law the average induced e.m.f. has magnitude $B|\\Delta A|/\\Delta t=2.1(610-120)\\times10^{-4}/(16\\times10^{-3})=6.4\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "This ignores the flux change caused by the changing area.",
+        "B": "This treats the elapsed time as 16 seconds instead of 16 milliseconds.",
+        "C": "Correct.",
+        "D": "This is a factor of ten too high, as would result from converting square centimetres with $10^{-3}$."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using the change in enclosed area and converting both area and time.",
+    "misconception": "Assuming a uniform field guarantees constant flux",
+    "transcription": "An experiment is carried out in a very strong uniform magnet in order to confirm the Faraday’s Law under extreme conditions. A coat hanger made of aluminum wire is bent from Shape 1 to Shape 2 in a time of 16 ms as shown below.\n\n[Shape 1 has an inward-bent lower edge and encloses $120\\ \\mathrm{cm^2}$. Shape 2 has a diamond-like loop and encloses $610\\ \\mathrm{cm^2}$ (16 ms later). Crosses in both diagrams show $B=2.1\\ \\mathrm{T}$ into the page.]\n\nWhat is the magnitude of the average e.m.f. induced in the hanger?\n\nA $0\\ \\mathrm{V}$\nB $6.4\\times10^{-3}\\ \\mathrm{V}$\nC $6.4\\ \\mathrm{V}$\nD $64\\ \\mathrm{V}$"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "One cycle spans four divisions, so $T=4(5.0\\times10^{-3})=20\\ \\mathrm{ms}$. Then $\\omega=2\\pi/T=314\\ \\mathrm{rad\\,s^{-1}}\\approx310\\ \\mathrm{rad\\,s^{-1}}$. At $t=0$ the trace peaks two divisions above the midline, giving $V=1.0\\cos(310t)$.",
+      "perOption": {
+        "A": "This uses 50 Hz as the angular frequency.",
+        "B": "This uses both the peak-to-peak voltage as the amplitude and frequency as angular frequency.",
+        "C": "Correct.",
+        "D": "This uses the peak-to-peak voltage as the amplitude."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires reading both oscilloscope scales and converting period to angular frequency.",
+    "misconception": "Using frequency as angular frequency",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron gains energy $eV$. If all of that energy goes into one photon, $eV=hf=hc/\\lambda_0$, so $\\lambda_0=hc/(eV)$ is inversely proportional to $V$. The wavelength ratio is $8.0/6.0\\approx1.3$.",
+      "perOption": {
+        "A": "This predicts a shorter cutoff wavelength when lowering the voltage lowers the maximum photon energy.",
+        "B": "This uses the voltage ratio directly and misses the inverse dependence.",
+        "C": "Correct.",
+        "D": "The inverse ratio uses the full accelerating voltages, giving 8.0 divided by 6.0."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires linking the cutoff to the maximum photon energy and inverting the voltage ratio.",
+    "misconception": "Assuming cutoff wavelength is proportional to voltage",
+    "transcription": "An electron is accelerated from rest through a potential difference (p.d.) of 8.0 kV in a vacuum and incident on a tungsten target to produce X-ray spectrum below.\n\n[The intensity-versus-wavelength graph starts at zero intensity at $\\lambda_0$, rises to a broad maximum, then falls with several narrow peaks superimposed.]\n\n$\\lambda_0$ is the minimum wavelength of the spectrum.\n\nThe potential difference is reduced to 6.0 kV.\n\nWhat is the ratio $\\frac{\\text{minimum wavelength when p.d. is 6.0 kV}}{\\text{minimum wavelength when p.d. is 8.0 kV}}$?\n\nA 0.5\nB 0.75\nC 1.3\nD 1.5"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the slit width as the position uncertainty $\\Delta x$. Using $\\Delta p\\,\\Delta x\\approx h$ gives $\\Delta p=(6.63\\times10^{-34})/(1.00\\times10^{-10})=6.63\\times10^{-24}\\ \\mathrm{kg\\,m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the incident momentum $mv$.",
+        "C": "This is the corresponding speed uncertainty after dividing by the electron mass.",
+        "D": "This omits Planck’s constant and fails to give the momentum uncertainty."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires identifying the slit width as the transverse position uncertainty before substituting.",
+    "misconception": "Confusing momentum with momentum uncertainty",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles pass through undeflected because only a small fraction pass close enough to a nucleus to scatter appreciably. This implies that the nucleus has a much smaller diameter than the atom.",
+      "perOption": {
+        "A": "The undeflected fraction does not establish the total atomic charge.",
+        "B": "The undeflected majority gives evidence about nuclear size, while repulsive deflections give evidence about nuclear charge.",
+        "C": "Correct.",
+        "D": "The undeflected fraction does not determine the electron-to-nucleus mass ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires connecting the undeflected majority to the relative size of the nucleus.",
+    "misconception": "Confusing the evidence from undeflected and strongly deflected particles",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Alpha particles are stopped by a few centimetres of air or about $1\\ \\mathrm{mm}$ of aluminium, and beta particles typically by a few millimetres of aluminium, about $5\\ \\mathrm{mm}$ in the key's estimate. Gamma rays require several centimetres of lead or still thicker aluminium for substantial attenuation, so some gamma rays pass through the $10\\ \\mathrm{mm}$ aluminium wall.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The aluminium stops alpha and beta particles while allowing some gamma rays through.",
+        "C": "This overestimates the penetration of typical beta particles in aluminium.",
+        "D": "This assumes alpha and beta particles can also cross the wall."
+      }
+    },
+    "issues": "The key uses typical penetration ranges, which depend on energy, and the question refers to counts attributable to the sources.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.g"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the penetration of the three radiations with the aluminium thickness.",
+    "misconception": "Overestimating beta penetration",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Write $\\mathbf P-\\mathbf Q=\\mathbf P+(-\\mathbf Q)$. Since $\\mathbf P$ points right and $-\\mathbf Q$ points up, the resultant points diagonally up and to the right.",
+      "perOption": {
+        "A": "This gives $\\mathbf Q-\\mathbf P$.",
+        "B": "Correct.",
+        "C": "This gives the reverse of $\\mathbf P+\\mathbf Q$.",
+        "D": "This adds $\\mathbf Q$ in its original downward direction."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires reversing one vector and recognising the resultant’s direction.",
+    "misconception": "Adding the original vector instead of its negative",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Systematic errors shift results away from the true value, while random errors cause scatter. Good accuracy suggests that any systematic shift is small.",
+      "perOption": {
+        "A": "Removing zero error corrects a systematic shift and improves accuracy without narrowing the spread.",
+        "B": "Averaging reduces random fluctuations in the estimate but leaves systematic bias unchanged.",
+        "C": "A mean close to the true value indicates accuracy, while precision describes how closely readings agree.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Option B can also hold if random fluctuations caused an inaccurate estimate. The key treats the poor accuracy in B as systematic bias and intends D.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing systematic shift from random scatter and understanding the role of averaging.",
+    "misconception": "Equating precision with accuracy",
+    "transcription": null
+  }
+]

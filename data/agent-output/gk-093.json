@@ -1,0 +1,508 @@
+[
+  {
+    "id": "nyjc-2025-other-p1-q12",
+    "keyPage": 10,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean kinetic energy per particle is $\\frac32 kT$. The neon-to-argon ratio is therefore $T_X/T_Y=1$ because the gases are at the same temperature.",
+      "perOption": {
+        "A": "Uses the particle mass ratio as the energy ratio.",
+        "B": "Correct. The temperatures are equal.",
+        "C": "Uses the pressure ratio as the energy ratio.",
+        "D": "Combines the pressure ratio with the inverse mass ratio, although neither enters the mean energy at fixed temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The two temperatures can be compared directly using one kinetic-theory relation.",
+    "misconception": "Mean kinetic energy scales with particle mass or pressure.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q13",
+    "keyPage": 10,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Kinetic theory gives $p=\\frac13(Nm/V)\\langle c^2\\rangle=\\frac13\\rho\\langle c^2\\rangle$. Thus $c_{\\mathrm{rms}}=\\sqrt{3p/\\rho}=\\sqrt{3(150\\times10^3)/0.178}\\approx1600\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "This speed is too small to give the stated pressure at the given density.",
+        "B": "This speed is too small when the pressure is entered as 150,000 Pa.",
+        "C": "Using a factor of 2 in place of 3 in the speed formula gives about this value.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires substituting mass density and converting kilopascals to pascals.",
+    "misconception": "Using the wrong pressure units or kinetic-theory factor.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q14",
+    "keyPage": 11,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Along FG, $pV$ is constant, so the ideal gas undergoes an isothermal expansion. Its temperature stays constant, so its internal energy does not change.",
+      "perOption": {
+        "A": "The gas does net work over the cycle and returns to its initial internal energy, so it gains net heat.",
+        "B": "Correct. FG is isothermal.",
+        "C": "At constant volume the gas does zero work, so its increase in internal energy comes from heat gained.",
+        "D": "The areas under EF and GH differ, so the work magnitudes differ."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The cycle requires interpreting pressure–volume areas, temperature and heat transfer.",
+    "misconception": "Confusing heat transfer with work or internal-energy change.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q15",
+    "keyPage": 12,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Q is moving downwards on a downward slope, so the wave profile is travelling to the left. Shift the profile a little to the left and compare the displacements at the two possible positions of P, each $\\frac78\\lambda$ from Q. At the left position P is below equilibrium and moves downwards, while at the right position it is above equilibrium and also moves downwards.",
+      "perOption": {
+        "A": "At the possible position with positive displacement, P moves downwards.",
+        "B": "Neither possible position is at a crest or trough, where the transverse velocity would be zero.",
+        "C": "Neither possible position is at a zero crossing.",
+        "D": "Correct. This applies to the position to the left of Q."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer wave travel from the motion at Q and check both possible positions of P.",
+    "misconception": "Confusing particle motion with wave propagation.",
+    "transcription": "This diagram shows the displacement-distance graph of a transverse wave at time, $t=0$. Taking upwards as positive, point Q is a point on the wave and is travelling downwards at $t=0$. Another point P is $\\frac78$ of a wavelength from point Q.\n\n[Displacement is plotted vertically against distance along wave horizontally. Three sinusoidal cycles start at zero with a rising slope. Q is marked at the descending zero crossing after the second crest.]\n\nWhich of the following descriptions shows a possible displacement and direction of velocity of point P?\n\nOption | displacement | direction of velocity\nA | positive | positive\nB | positive | 0\nC | 0 | negative\nD | negative | negative"
+  },
+  {
+    "id": "nyjc-2025-other-p1-q16",
+    "keyPage": 13,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "P and S are separated by one complete period plus a quarter-period. The complete period contributes $2\\pi$ and leaves the same phase, so the phase difference within a cycle is $2\\pi(T/4)/T=\\pi/2\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Correct. The points differ in phase by a quarter-cycle.",
+        "B": "The acceleration magnitude is greatest at T because the displacement magnitude is greatest there.",
+        "C": "Potential energy is greatest at the turning point T and is smaller at Q.",
+        "D": "Kinetic energy is greatest at the equilibrium crossing R and is smaller at Q."
+      }
+    },
+    "issues": "The school uses a quarter-period separation modulo one period. The plotted elapsed time is five quarter-periods.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The graph gives the phase once the student accounts for the intervening complete cycle.",
+    "misconception": "Reading zero velocity at a turning point as zero acceleration.",
+    "transcription": "The graph below shows the variation with time $t$ of the displacement $x$ of a simple harmonic oscillator oscillating horizontally.\n\n[The sinusoidal curve starts at the origin with positive slope. P marks the first crest and Q lies on the following descending positive-displacement segment. R is the next rising zero crossing, S the following descending zero crossing and T the trough after S.]\n\nWhich statement is correct?\n\nA The phase difference between P and S is $\\frac{\\pi}{2}\\ \\mathrm{rad}$.\nB The acceleration at T is zero.\nC The potential energy of the oscillator is larger at Q compared to T.\nD The kinetic energy of the oscillator is larger at Q compared to R."
+  },
+  {
+    "id": "nyjc-2025-other-p1-q18",
+    "keyPage": 15,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The tube behaves as a pipe of length $L$ with one closed end and one open end. Its fundamental has $\\lambda=4L$ and $f=80\\ \\mathrm{Hz}$. The first and second overtones have wavelengths $4L/3$ and $4L/5$, giving $240\\ \\mathrm{Hz}$ and $400\\ \\mathrm{Hz}$. Only odd multiples of the fundamental are possible, including $9f=720\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "160 Hz and 320 Hz are even multiples of the fundamental.",
+        "B": "All three frequencies are even multiples of the fundamental.",
+        "C": "Correct. All three frequencies are odd multiples of 80 Hz.",
+        "D": "320 Hz and 480 Hz are even multiples of the fundamental."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.c",
+      "wave-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The node and antinode boundary conditions determine which multiples of the fundamental are allowed.",
+    "misconception": "Allowing even harmonics in a pipe with one closed end.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q19",
+    "keyPage": 16,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The charge is the triangular area under the current–time graph, $Q=\\frac12(1.0)(2.0\\times3600)=3600\\ \\mathrm C$. The energy transferred is $QV=3600(6.0)=21\\,600\\ \\mathrm J$, which rounds to $22\\,000\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Converting the two hours to 120 minutes and using 120 as seconds gives this value.",
+        "B": "Using 120 as seconds and treating the current as constant at 1.0 A gives this value.",
+        "C": "Correct.",
+        "D": "Uses the initial current for the whole interval, doubling the triangular area."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.a",
+      "currents.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student converts hours to seconds, reads the graph area and uses it to calculate energy.",
+    "misconception": "Using the peak current for the whole interval.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q20",
+    "keyPage": 17,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $2.0\\ \\mathrm{mA}$, the graph shows $V_Q=8.0\\ \\mathrm V$ and $V_P=4.0\\ \\mathrm V$. Since $P=IV$ and the currents are equal, Q dissipates twice as much power as P.",
+      "perOption": {
+        "A": "Q has the characteristic of a semiconductor diode, whereas a filament's resistance rises as it heats.",
+        "B": "Above the nonzero crossing, Q carries more current at the same voltage, giving it a lower resistance.",
+        "C": "Correct.",
+        "D": "At the nonzero intersection both components have the same voltage and current, so their resistances are equal."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e",
+      "currents.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The graph must be read at a specified current and interpreted using power and resistance relations.",
+    "misconception": "Treating the local graph slope as the reciprocal of resistance.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q21",
+    "keyPage": 18,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The parallel pair $R_2$ and $R_3$ has resistance $(1/R+1/R)^{-1}=R/2$, so the supply current is $I=E/(R+R/2)$. The p.d. across $R_1$ is $IR=2E/3$, leaving $E/3$ across $R_2$. Since both resistors have resistance $R$, the power ratio is $(2E/3)^2/(E/3)^2=4$.",
+      "perOption": {
+        "A": "Assumes the identical resistors have equal potential differences.",
+        "B": "Uses the voltage ratio directly without squaring it.",
+        "C": "Correct.",
+        "D": "Uses the full battery voltage for the numerator, giving a voltage ratio of 3."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.i",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must reduce the parallel pair and use the resulting voltage division to find a power ratio.",
+    "misconception": "Assuming equal resistances dissipate equal power.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q22",
+    "keyPage": 19,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At balance, the current through the secondary cell is zero. Its terminal p.d. $V_{AB}$ remains equal to its e.m.f. when its internal resistance decreases, so the wire length $L_{XZ}$ needed to match that p.d. is unchanged.",
+      "perOption": {
+        "A": "A lower driver e.m.f. reduces the p.d. across XY, so XZ must be longer to match the secondary e.m.f.",
+        "B": "A larger secondary e.m.f. requires a larger p.d. across XZ and hence a longer balance length.",
+        "C": "The series resistor lowers the p.d. across XY, so a longer length is required to match the secondary e.m.f.",
+        "D": "Correct."
+      }
+    },
+    "issues": "A–C increase the required balance length provided the new balance point still lies on the wire.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Solving the question requires identifying the null condition and how the driver circuit sets the wire's potential gradient.",
+    "misconception": "Assuming internal resistance changes terminal voltage even at zero current.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q23",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric potential decreases in the direction of the electric field. Moving against the field therefore takes you towards higher potential.",
+      "perOption": {
+        "A": "Potential decreases when moving along the field line in the arrow's direction.",
+        "B": "Correct.",
+        "C": "Field direction alone does not imply decreasing field strength, as a uniform field shows.",
+        "D": "Field direction alone does not imply increasing field strength, as a uniform field shows."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "This follows directly from the relationship between field direction and potential gradient.",
+    "misconception": "Confusing potential with electric field magnitude.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q24",
+    "keyPage": 20,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The opposite magnetic forces on the two sides form a couple with perpendicular separation $d=L\\cos30^\\circ$. With $N$ turns, the torque is $\\tau=NBILd=10(2.0)(15)(5.0/100)(5.0/100)\\cos30^\\circ\\approx0.65\\ \\mathrm{N\\,m}$.",
+      "perOption": {
+        "A": "Uses the sine projection and halves the couple's torque again.",
+        "B": "Uses half the perpendicular separation while counting only one force.",
+        "C": "Uses the sine projection for the separation of the forces.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the magnetic couple and project the coil width to find the perpendicular separation.",
+    "misconception": "Using the coil angle to project the wrong lever arm.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q25",
+    "keyPage": 20,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The coil axis is parallel to the field, so the field is normal to the area enclosed by the coil. The magnitude of the induced e.m.f. is $NA|\\Delta B|/\\Delta t=120(0.070)(80-20)\\times10^{-3}/4.0=0.126\\ \\mathrm V\\approx130\\ \\mathrm{mV}$.",
+      "perOption": {
+        "A": "Treats the coil's axis as if it lay in the coil's plane and assumes zero flux.",
+        "B": "Calculates the induced e.m.f. for just one turn.",
+        "C": "Correct.",
+        "D": "Uses the change in flux linkage without dividing by the 4.0 s interval."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must determine the field orientation and divide the flux-linkage change by time.",
+    "misconception": "Using change in flux linkage without dividing by time.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q26",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "During the conducting half-period, the mean of $V^2$ is $V_0^2/2$, giving an area of $(V_0^2/2)(T/2)=V_0^2T/4$ under the $V^2$–time graph over one period. The r.m.s. voltage is $\\sqrt{(V_0^2T/4)/T}=V_0/2=100\\ \\mathrm V$, so $V_0=200\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Halves the given r.m.s. value instead of doubling it to find the peak.",
+        "B": "Divides the r.m.s. voltage by the ordinary sinusoidal conversion factor when finding the peak.",
+        "C": "Uses the ordinary sinusoidal peak-to-r.m.s. ratio while ignoring the zero half-cycle.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.i",
+      "currents.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must average the squared voltage over the full period, including the zero half-cycle.",
+    "misconception": "Applying the unrectified sinusoidal RMS formula to a half-wave waveform.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q27",
+    "keyPage": 22,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photoelectric equation is $hf=eV_s+\\Phi$, where $V_s$ is the stopping voltage magnitude. The graph gives $V_{s,x}<V_{s,y}$, so $f_x<f_y$. With the usual assumption that higher saturation current indicates greater intensity, $i_x<i_y$ gives $I_x<I_y$.",
+      "perOption": {
+        "A": "The stopping voltage magnitude and saturation current are both smaller for x.",
+        "B": "The smaller saturation current for x indicates lower intensity in the model used here.",
+        "C": "The smaller stopping voltage magnitude for x indicates lower frequency.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The intensity comparison assumes a comparable photocell response. Saturation current alone measures collected photoelectrons per unit time and cannot determine intensity for arbitrary frequency-dependent quantum efficiencies.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the roles of stopping voltage and saturation current.",
+    "misconception": "Using saturation current to infer frequency.",
+    "transcription": "The figure shows the variation of the photoelectric current $i$ with voltage $V$ between the electrodes in a photocell for two different radiations, x and y.\n\n[Two curves show current $i$ against electrode voltage $V$. Both rise from zero at negative voltages and level off at positive voltages. Curve y starts at a more negative voltage and levels off at a higher current than curve x. The origin is labelled 0.]\n\nThe intensity and the frequency of radiation x are $I_x$ and $f_x$ while the intensity and the frequency of radiation y are $I_y$ and $f_y$. Which of the following shows the relationship between the intensities and frequencies of x and y?\n\nA $I_x>I_y$, $f_x>f_y$\nB $I_x>I_y$, $f_x<f_y$\nC $I_x<I_y$, $f_x>f_y$\nD $I_x<I_y$, $f_x<f_y$"
+  }
+]

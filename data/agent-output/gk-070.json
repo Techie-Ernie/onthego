@@ -1,0 +1,488 @@
+[
+  {
+    "id": "mi-2023-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The incident wave reflects at the water surface. The reflected wave interferes with the incident wave to form a stationary wave.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "Correct. The incident and reflected waves interfere."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints D, while keyAnswer is the answer-missing placeholder A.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognising reflection and superposition is enough to identify the mechanism.",
+    "misconception": "A single travelling wave can form a stationary pattern",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Using $x=\\lambda D/a$, the wavelength is $\\lambda=ax/D=(0.1\\times10^{-3})(8.0\\times10^{-3})/2.0=4.0\\times10^{-7}\\ \\mathrm{m}$. The path difference at the second dark fringe is $1.5\\lambda=6.0\\times10^{-7}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "Correct. The second dark fringe occurs at $1.5\\lambda$.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints C, while keyAnswer is the answer-missing placeholder A.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This combines the double-slit fringe-spacing equation with the condition for the second dark fringe.",
+    "misconception": "Counting the second dark fringe as two wavelengths",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The resultant field points left at A and right at B and C. At D, the field due to $+4Q$ points right and the field due to $-Q$ points left. Their magnitudes scale as $|Q|/r^2$, so the opposing fields can be equal there.",
+      "perOption": {
+        "A": "The resultant electric field at A points left.",
+        "B": "The resultant electric field at B points right.",
+        "C": "The resultant electric field at C points right.",
+        "D": "Correct. The opposing fields can cancel at D."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints D, while keyAnswer is the answer-missing placeholder A. The working continues on key page 4.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires comparing the directions and inverse-square magnitudes of two electric fields.",
+    "misconception": "Opposing fields always cancel",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The electric force on the positive charge points along the field, so the external force acts in the opposite direction. The external force is along the displacement, giving $W=Fs\\cos 0^\\circ=qEs\\cos 0^\\circ=(2.6\\times10^{-8})(3.0\\times10^5)(4.0\\times10^{-3})=+3.1\\times10^{-5}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "Correct. The external force does positive work.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints C, while keyAnswer is the answer-missing placeholder A. The negative exponent signs are missing from the rendered working and were restored consistently with the calculation.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires the direction of the external force and the sign of its work.",
+    "misconception": "Using the electric force to sign the external work",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The energy transferred is the power multiplied by the time. Thus $E=Pt=40\\times3=120\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "Correct. The energy transferred is $120\\ \\mathrm{J}$.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints C, while keyAnswer is the answer-missing placeholder A.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "This is a direct substitution into the definition of power.",
+    "misconception": null,
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Increasing the light intensity lowers the LDR resistance, increasing the supply current. Cooling the NTC thermistor raises its resistance, so more current passes through the lamp in the parallel branch. Together these changes make the lamp brighter.",
+      "perOption": {
+        "A": "Correct. Increase the light intensity and lower the thermistor temperature.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The candidate must track how two resistance changes affect the current in the lamp branch.",
+    "misconception": "Treating total current as lamp current",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q23",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "medium",
+    "explanation": {
+      "body": "At the midpoint between the wires, the charge moves parallel to the resultant magnetic field. The magnetic force is therefore zero.",
+      "perOption": {
+        "A": "Correct. The charge moves parallel to the resultant field.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires relating the direction of the resultant field to the charge velocity.",
+    "misconception": "A magnetic field always exerts a force on a moving charge",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The change described in the key strengthens the magnetic field, so a larger balancing force is required. A larger rider mass supplies the greater moment needed to restore balance.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "Correct. A larger rider mass supplies a greater balancing moment."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints D, while keyAnswer is the answer-missing placeholder A. The working refers to “the change in C” although both printed key entries give D. The missing choices prevent resolving that reference.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This links a stronger magnetic field to a larger balancing moment.",
+    "misconception": "Ignoring the change in balancing moment",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "medium",
+    "explanation": {
+      "body": "By Faraday’s law, the e.m.f. magnitude is $|\\varepsilon|=|\\Delta B\\,AN/\\Delta t|$. Substituting gives $|\\varepsilon|=|(0-0.15)(0.050)(0.080)(40)/3.0|=0.0080\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "Correct. The e.m.f. magnitude is $0.0080\\ \\mathrm{V}$.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints B, while keyAnswer is the answer-missing placeholder A.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires calculating the coil area and applying Faraday’s law to all turns.",
+    "misconception": "Using flux through one turn as the flux linkage",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The secondary rms current is $I_{\\mathrm{S,rms}}=\\langle P\\rangle/V_{\\mathrm{S,rms}}=12/6.5=1.8462\\ \\mathrm{A}$. Using $I_\\mathrm{P}/I_\\mathrm{S}=N_\\mathrm{S}/N_\\mathrm{P}$ gives $I_{\\mathrm{P,rms}}=(40/1000)(1.8462)=0.0738\\ \\mathrm{A}\\approx0.074\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "Correct. The primary rms current is $0.074\\ \\mathrm{A}$.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints B, while keyAnswer is the answer-missing placeholder A.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires finding the secondary rms current and applying the inverse turns ratio to obtain the primary current.",
+    "misconception": "Applying the voltage turns ratio to the current",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Light of sufficiently high frequency can eject photoelectrons even at very low intensity. Einstein’s equation $eV_s=hf-\\Phi$ gives a linear relation with a nonzero intercept. At fixed frequency, higher intensity increases the number of photons arriving per second while leaving the energy transferred in each photon–electron interaction unchanged.",
+      "perOption": {
+        "A": "Light above the threshold frequency can eject photoelectrons even at very low intensity.",
+        "B": "The work function gives the stopping-potential graph a nonzero intercept.",
+        "C": "Correct.",
+        "D": "Increasing intensity at fixed frequency increases photon arrival rate while leaving photon energy and photoelectron maximum kinetic energy unchanged."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints C, while keyAnswer is the answer-missing placeholder A. The key explains the three distractors and gives C, but does not reproduce the text of C.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires distinguishing the effects of frequency and intensity in the photoelectric effect.",
+    "misconception": "Higher intensity means higher photon energy",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The maximum kinetic energy reaches zero at $\\lambda=300\\ \\mathrm{nm}$, so this is the threshold wavelength. The photoelectric equation gives $\\Phi=hc/\\lambda-K_{\\max}=(6.63\\times10^{-34})(3.0\\times10^{8})/(300\\times10^{-9})-0=6.63\\times10^{-19}\\ \\mathrm{J}=4.14\\ \\mathrm{eV}$.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "Correct. The threshold wavelength gives a work function of $4.14\\ \\mathrm{eV}$.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints B, while keyAnswer is the answer-missing placeholder A.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This combines reading the threshold wavelength with applying the photoelectric equation and converting to electronvolts.",
+    "misconception": "Using a wavelength away from the threshold as the threshold wavelength",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The total binding energy before the reaction is $7.59(235)=1783.65\\ \\mathrm{MeV}$. After the reaction it is $(8.26)(121)+(8.52)(113)\\approx1962\\ \\mathrm{MeV}$. The more tightly bound products have about $179\\ \\mathrm{MeV}$ more binding energy, so about $179\\ \\mathrm{MeV}$ is released.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "The option text is unavailable, so its specific error cannot be verified.",
+        "D": "Correct. The increase in total binding energy is about $179\\ \\mathrm{MeV}$."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints D, while keyAnswer is the answer-missing placeholder A.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires converting binding energies per nucleon to totals before comparing reactants and products.",
+    "misconception": "Subtracting binding energies per nucleon directly",
+    "transcription": null
+  },
+  {
+    "id": "mi-2023-prelim-p1-q30",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The two samples have the same number $N$ of undecayed nuclei, so $A=\\lambda_X N$ and $3A=\\lambda_Y N$. Substituting $\\lambda=\\ln 2/t_{1/2}$ and dividing the equation for Y by the equation for X gives $3=t_{1/2,X}/t_{1/2,Y}$.",
+      "perOption": {
+        "A": "The option text is unavailable, so its specific error cannot be verified.",
+        "B": "The option text is unavailable, so its specific error cannot be verified.",
+        "C": "Correct. X has three times the half-life of Y.",
+        "D": "The option text is unavailable, so its specific error cannot be verified."
+      }
+    },
+    "issues": "Question PNG contains a worked-answer row. The original stem and choices could not be verified, so transcription is unavailable and distractor feedback is limited to what can be established from the key. The school prints C, while keyAnswer is the answer-missing placeholder A. The working continues on key page 6.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.h",
+      "nuclear-physics.k"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Dividing the two activity equations cancels the common number of nuclei and gives the half-life ratio.",
+    "misconception": "Assuming activity is directly proportional to half-life",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The factor of 2 is dimensionless, so the base units obey $\\mathrm{kg\\,m^2\\,s^{-2}}=\\frac{\\mathrm{A}^n\\,\\mathrm{s}^n}{\\mathrm{A^2\\,s^4\\,kg^{-1}\\,m^{-2}}}$. Matching the exponent of amperes gives $n-2=0$, so $n=2$.",
+      "perOption": {
+        "A": "With $n=-2$, the right-hand side retains a factor of $\\mathrm{A}^{-4}$.",
+        "B": "With $n=-1$, the right-hand side retains a factor of $\\mathrm{A}^{-3}$.",
+        "C": "With $n=1$, the right-hand side retains a factor of $\\mathrm{A}^{-1}$.",
+        "D": "Correct. The amperes cancel and the time exponent is $-2$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires expressing charge and energy in SI base units and matching exponents.",
+    "misconception": "Matching exponents before accounting for the denominator",
+    "transcription": "The energy $E$ stored in a certain electronic component is given by\n\n$E=\\frac{Q^n}{2k}$\n\nwhere $Q$ is the total charge in the component, $n$ is an unknown integer and $k$ is a physical quantity with SI base units $\\mathrm{A^2\\,s^4\\,kg^{-1}\\,m^{-2}}$.\n\nWhat is the value of $n$?\n\nA $-2$\nB $-1$\nC $1$\nD $2$"
+  }
+]

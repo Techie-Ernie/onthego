@@ -1,0 +1,502 @@
+[
+  {
+    "id": "mi-2024-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange $a=b^2c$ to give $c=a/b^2$. Fractional uncertainties add for a quotient, and the squared factor contributes twice its fractional uncertainty, giving $\\frac{\\Delta c}{c}=\\frac{\\Delta a}{a}+2\\frac{\\Delta b}{b}$.",
+      "perOption": {
+        "A": "Counts the uncertainty in the squared factor only once.",
+        "B": "Subtracts the uncertainty in the denominator and misses the factor of two.",
+        "C": "Correct.",
+        "D": "Subtracts the doubled uncertainty in the denominator."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Rearrange the equation and apply the power rule for fractional uncertainties.",
+    "misconception": "Subtracting fractional uncertainties in a quotient.",
+    "transcription": "Three quantities $a$, $b$ and $c$ are related by the equation $a=b^2c$. $a$ and $b$ have fractional uncertainties $\\frac{\\Delta a}{a}$ and $\\frac{\\Delta b}{b}$ respectively. What is the fractional uncertainty of $c$?\n\nA. $\\frac{\\Delta a}{a}+\\frac{\\Delta b}{b}$\nB. $\\frac{\\Delta a}{a}-\\frac{\\Delta b}{b}$\nC. $\\frac{\\Delta a}{a}+2\\frac{\\Delta b}{b}$\nD. $\\frac{\\Delta a}{a}-2\\frac{\\Delta b}{b}$"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A marks the first encounter with the ground, and B marks the ball leaving the ground after that bounce. At C the velocity passes through zero as the ball changes from rising to falling, so the ball is at its maximum height after the first bounce. At D it reaches the ground for the second time.",
+      "perOption": {
+        "A": "A lies on the velocity reversal at the first ground contact.",
+        "B": "B marks the ball about to leave the ground after the first bounce.",
+        "C": "Correct. The ball turns around at the top of its flight.",
+        "D": "D marks the second arrival at the ground."
+      }
+    },
+    "issues": "The question prints “veolcity”. The key describes A as first arrival, though A lies within the idealised impact jump.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the zero crossing during the first flight after a bounce.",
+    "misconception": "Treating every zero on a velocity–time graph as a height maximum.",
+    "transcription": "A ball is released from rest above the ground. The graph shows how the veolcity of the bouncing ball varies with time.\n\nAt which point on the graph does the ball reach the maximum height after the first bounce?\n\n[Velocity–time graph. Velocity rises linearly from zero to a positive value, then drops vertically through A at zero to B at a negative value. It then rises linearly through C at zero to D at a positive value. A second vertical drop is followed by another rising straight segment.]"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=ut+\\frac12at^2$ with $u=0$ and $s=2\\ \\mathrm{m}$ gives $2=\\frac12at^2$, so $t=2/\\sqrt{a}$ in SI units on Earth. The Moon’s acceleration is $a/6$. Substituting it gives $t_{\\mathrm{Moon}}=2/\\sqrt{a/6}=t\\sqrt{6}$.",
+      "perOption": {
+        "A": "Makes the time directly proportional to acceleration.",
+        "B": "Makes the time proportional to the square root of acceleration.",
+        "C": "Correct.",
+        "D": "Uses an inverse linear dependence on acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the constant-acceleration equation from rest and substitute the Moon’s acceleration.",
+    "misconception": "Treating fall time as inversely proportional to acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The area under the force–time graph is the impulse, so $\\Delta p=5(0.5)+15(0.5)=10\\ \\mathrm{N\\,s}$. Using $\\Delta p=m\\Delta v$ gives $\\Delta v=10/4.0=2.5\\ \\mathrm{m\\,s^{-1}}$. The force acts in the direction of motion, so the final speed is $2.5+2.5=5.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Gives the speed increase without adding it to the initial speed.",
+        "B": "Correct.",
+        "C": "Reads the numerical value of the impulse as a speed.",
+        "D": "Reads the final force level as a speed."
+      }
+    },
+    "issues": "The key’s intermediate line uses zero as the initial velocity when calculating the velocity increment, then correctly adds the given initial speed.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the area of two rectangles, convert impulse to a speed change, then add the initial speed.",
+    "misconception": "Confusing impulse with speed or change in speed with final speed.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about C, using $m$ and $x$ for the mass and width of one equal section. Omitting the common factor $g$, the clockwise moment is $(3m)(1.5x)=4.5mx$ and the anticlockwise moment is $(3m)(1.5x)+(m)(0.5x)=5mx$. The anticlockwise moment is slightly larger, so the centre of gravity lies just left of C, at B.",
+      "perOption": {
+        "A": "A is too far left, with the long arm producing a clockwise moment there.",
+        "B": "Correct.",
+        "C": "The anticlockwise moment about C exceeds the clockwise moment.",
+        "D": "D is too far right and leaves too much of the mass on its left."
+      }
+    },
+    "issues": "The key leaves the common factor g implicit in the moment comparison.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Compare moments of equal-size sections to locate the centre of gravity among nearby lines.",
+    "misconception": "Assuming the centre of gravity is at an apparent geometric midpoint.",
+    "transcription": "An object of uniform density with uniform cross sectional area is shown in the diagram (drawn to scale). Along which vertical line is its centre of gravity most probably located?\n\n[The solid has a vertical left portion three equal sections tall and a horizontal arm extending four equal sections to the right from its middle. Dashed vertical candidate lines are labelled A, B, C and D from left to right. A runs down the middle of the left portion, B is slightly left of C, C is one section to the right of the left portion, and D is one section farther right.]"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At equilibrium, the upthrust equals the combined weight of the balloon and helium plus the spring force, so $\\rho_{\\mathrm{air}}Vg=\\rho_{\\mathrm{He}}Vg+m_{\\mathrm{balloon}}g+kx$. Substituting gives $(1.29)(5.0)g=(0.180)(5.0)g+(3.5/1000)g+100x$. Hence $x=0.544\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This extension gives only $5.5 mathrm{N}$ of spring force, too small to balance the net upward force.",
+        "B": "This extension also gives too little spring force, only $20.1 mathrm{N}$.",
+        "C": "Correct.",
+        "D": "Balances the upthrust with the spring force alone, omitting both weights."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.c",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Set up an equilibrium equation using upthrust, both weights and the spring force.",
+    "misconception": "Ignoring one of the downward forces in equilibrium.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From the graph, $k=5.0/0.10=50\\ \\mathrm{N\\,m^{-1}}$. Using $x=F/k$, the extension changes from $3.0/50=0.06\\ \\mathrm{m}$ to $2.5/50=0.05\\ \\mathrm{m}$. The change in elastic potential energy is $\\frac12(50)(0.05)^2-\\frac12(50)(0.06)^2=-0.028\\ \\mathrm{J}$, a decrease of $0.028\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Uses half the final force times the change in extension.",
+        "B": "Uses half the initial force times the change in extension.",
+        "C": "Correct.",
+        "D": "Omits the factor of one half in the stored energy."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Read the spring constant from the graph and subtract the energies at two loads.",
+    "misconception": "Using one extension or force change in place of the difference between two stored energies.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Static friction supplies the centripetal force $mr\\omega^2$. P and Q have the same mass and angular speed while they rotate with the disc, so Q needs a larger inward force because its radius is larger. Q slides first when the required friction exceeds the available static friction.",
+      "perOption": {
+        "A": "Assumes equal mass and angular speed give equal friction despite the different radii.",
+        "B": "Reverses the radius dependence of the required friction.",
+        "C": "Confuses Q’s greater linear speed with a greater angular speed.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key considers only the radial component of static friction. During spin-up, friction also supplies a tangential component proportional to radius, so Q still reaches the limit first.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.f",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Compare the friction needed at different radii for the same angular speed.",
+    "misconception": "Confusing angular speed with linear speed.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By conservation of energy, the drop through one cord length $r$ gives $mgr=\\frac12mv^2$, so $mv^2=2mgr$. At P the radial force equation is $T-mg=mv^2/r$. Substituting gives $T=2mgr/r+mg=3mg$.",
+      "perOption": {
+        "A": "Assumes zero tension despite the need for an upward resultant force.",
+        "B": "Balances tension with weight, giving zero radial acceleration.",
+        "C": "Uses the net centripetal force as the tension and omits the weight term.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the bob’s speed by energy conservation and then use the radial force equation.",
+    "misconception": "Equating tension alone to the centripetal force.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $g=GM/r^2$, the ratio of the surface gravitational field strengths is $g_J/g_E=(M_J/M_E)(r_E/r_J)^2$. Using $g_E=9.81\\ \\mathrm{N\\,kg^{-1}}$ gives $g_J=318\\left(\\frac{6370\\times10^3}{7.15\\times10^7}\\right)^2(9.81)=24.8\\ \\mathrm{N\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "A value this small misses how Jupiter’s greater mass offsets its larger radius.",
+        "B": "Severely understates the field, which requires both the mass factor and the squared radius ratio.",
+        "C": "Correct.",
+        "D": "Uses the radius ratio to the first power instead of squaring it."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Compare the two planets using inverse-square scaling and consistent radius units.",
+    "misconception": "Using inverse-distance scaling for surface gravity.",
+    "transcription": "The planet Jupiter has a radius of $7.15\\times10^7\\ \\mathrm{m}$ and is approximately 318 times more massive than the Earth.\n\nGiven that the Earth has a radius of $6370\\ \\mathrm{km}$, what is the acceleration due to gravity on the surface of Jupiter?\n\nA. $2.41\\times10^{-5}\\ \\mathrm{N\\,kg^{-1}}$\nB. $2.73\\times10^{-3}\\ \\mathrm{N\\,kg^{-1}}$\nC. $24.8\\ \\mathrm{N\\,kg^{-1}}$\nD. $273\\ \\mathrm{N\\,kg^{-1}}$"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the same mass, $\\Delta U=m\\Delta\\phi$, so the ratio of energy changes equals the ratio of potential changes. Thus $\\frac{-5.0}{+20}=\\frac{\\phi_R+3.0}{-3.0+7.0}$, which gives $\\phi_R=-4.0\\ \\mathrm{J\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Subtracts $5.0$ directly from the potential at Q without converting the energy loss to energy per unit mass.",
+        "B": "Correct.",
+        "C": "Treats the loss in potential energy as a gain in potential.",
+        "D": "Adds the magnitude of the energy loss directly to the potential at Q."
+      }
+    },
+    "issues": "The key labels the points A, B and C where the question uses P, Q and R.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use a ratio of energy changes to infer the signed potential change between Q and R.",
+    "misconception": "Treating a change in energy as a change in potential per unit mass.",
+    "transcription": "Two points in space, P and Q, have gravitational potentials of $-7.0\\ \\mathrm{J\\,kg^{-1}}$ and $-3.0\\ \\mathrm{J\\,kg^{-1}}$ respectively as shown below.\n\n[Three points labelled P, Q and R lie from left to right. They are labelled $\\phi_P=-7.0\\ \\mathrm{J\\,kg^{-1}}$, $\\phi_Q=-3.0\\ \\mathrm{J\\,kg^{-1}}$ and $\\phi_R$ respectively.]\n\nWhen a mass is moved from P to Q, it gains gravitational potential energy of $20\\ \\mathrm{J}$. When it is moved from Q to R, it loses gravitational potential energy of $5.0\\ \\mathrm{J}$.\n\nWhat is the gravitational potential at R?\n\nA. $-8.0\\ \\mathrm{J\\,kg^{-1}}$\nB. $-4.0\\ \\mathrm{J\\,kg^{-1}}$\nC. $-2.0\\ \\mathrm{J\\,kg^{-1}}$\nD. $2.0\\ \\mathrm{J\\,kg^{-1}}$"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the objects touch, thermal energy flows from the hotter object to the colder one. The transfer continues until both reach the same temperature and are in thermal equilibrium.",
+      "perOption": {
+        "A": "Correct. The temperature difference determines the direction of net heat flow.",
+        "B": "A colder object can have greater total internal energy and still receive thermal energy.",
+        "C": "Heat capacity determines how much the temperature changes for a given energy transfer.",
+        "D": "Mass alone gives no indication of which object is hotter."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recall that net heating in thermal contact proceeds from higher to lower temperature.",
+    "misconception": "Using total internal energy to predict heat flow.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The average translational kinetic energy per helium atom is $\\frac32kT$, where $T$ is the kelvin temperature. Substituting gives $\\frac32(1.38\\times10^{-23})(27+273.15)=6.2\\times10^{-21}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Substitutes $27$ directly as a kelvin temperature.",
+        "B": "Correct.",
+        "C": "Uses a sample-scale energy instead of the mean energy of one atom.",
+        "D": "Uses $\frac32nRT$ for the whole gas sample."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert Celsius to kelvin and substitute into the mean energy formula for one atom.",
+    "misconception": "Using Celsius or calculating the energy of the whole sample.",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The constant heating power is $mc(\\Delta\\theta/\\Delta t)$ just before boiling and $mL/t_{\\mathrm b}$ during boiling. Equating these gives $L/c=(\\Delta\\theta/\\Delta t)t_{\\mathrm b}=4.0\\times40=160\\ \\mathrm{K}$.",
+      "perOption": {
+        "A": "Inverts the required ratio.",
+        "B": "Inverts the numerical boiling time and omits the heating rate.",
+        "C": "Omits the temperature rise of $4.0 mathrm{K}$ per minute.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key uses t for two different intervals. The rewrite distinguishes the warming interval from the boiling time. The calculation assumes negligible heat loss.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Equate the power during warming and boiling, then eliminate the liquid mass.",
+    "misconception": "Confusing the heating rate with the boiling time or inverting the ratio.",
+    "transcription": "In a heating experiment, energy is supplied at a constant rate to a liquid. The temperature of the liquid rises at $4.0\\ \\mathrm{K}$ per minute just before it begins to boil. After 40 minutes of boiling, all the liquid has boiled away.\n\nFor this liquid, what is the ratio $\\frac{\\text{specific latent heat of vaporisation}}{\\text{specific heat capacity}}$?\n\nA. $\\frac{1}{160}\\ \\mathrm{K}$\nB. $\\frac{1}{40}\\ \\mathrm{K}$\nC. $40\\ \\mathrm{K}$\nD. $160\\ \\mathrm{K}$"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Consecutive zero-velocity points are opposite turning points, so the amplitude is $x_0=0.36/2=0.18\\ \\mathrm{m}$ and the period is $T=2(0.30)=0.60\\ \\mathrm{s}$. The maximum speed is $v_{\\max}=\\omega x_0=(2\\pi/0.60)(0.18)=1.9\\ \\mathrm{m\\,s^{-1}}$. Graph C has these displacement and velocity limits.",
+      "perOption": {
+        "A": "Doubles the maximum speed, as when $0.30 mathrm{s}$ is taken as the full period.",
+        "B": "Uses the full turning-point separation as the amplitude despite the correct maximum speed.",
+        "C": "Correct.",
+        "D": "Uses $0.36 mathrm{m}$ as the amplitude, which also doubles the calculated maximum speed."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Infer the amplitude and period from consecutive turning points and match both graph intercepts.",
+    "misconception": "Treating the distance or time between opposite turning points as a full amplitude or period.",
+    "transcription": "An object undergoing simple harmonic motion takes $0.30\\ \\mathrm{s}$ to travel from one point of zero velocity to the next such point. The distance between these two points is $0.36\\ \\mathrm{m}$. Which of the following shows the correct velocity-displacement graph describing the motion?\n\n[All four options are ellipses centred on the origin, with $x$ in metres on the horizontal axis and $v$ in $\\mathrm{m\\,s^{-1}}$ on the vertical axis.\nA. $x$-intercepts $\\pm0.18$, $v$-intercepts $\\pm3.8$.\nB. $x$-intercepts $\\pm0.36$, $v$-intercepts $\\pm1.9$.\nC. $x$-intercepts $\\pm0.18$, $v$-intercepts $\\pm1.9$.\nD. $x$-intercepts $\\pm0.36$, $v$-intercepts $\\pm3.8$.]"
+  }
+]

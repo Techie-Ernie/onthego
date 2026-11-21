@@ -1,0 +1,501 @@
+[
+  {
+    "id": "njc-2022-promo-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top, the kinetic energy is the initial kinetic energy minus the gain in gravitational potential energy, giving $\\tfrac12(1.27)(5.75)^2-(1.27)(9.81)(1.20)=6.044\\ \\mathrm{J}$. From $\\tfrac12 mv^2=6.044\\ \\mathrm{J}$, the speed there is $3.085\\ \\mathrm{m\\,s^{-1}}$. At the top, weight and tension both act towards the centre, so $T=mv^2/r-mg=(1.27)(3.085)^2/0.600-(1.27)(9.81)\\approx7.69\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives the net inward force at the top, which includes the weight.",
+        "C": "Gives the net inward force computed using the bottom speed.",
+        "D": "Gives the tension at the bottom, where weight acts away from the centre."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It combines energy conservation over a two-radius rise with a radial force balance at the top.",
+    "misconception": "Using the bottom speed at the top",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The elastic potential energy varies with the square of the spring’s extension, giving the curved graph X. Gravitational potential energy increases linearly with height, giving Y. Kinetic energy is zero at both extremes and greatest at equilibrium, giving Z.",
+      "perOption": {
+        "A": "X has substantial energy at the lowest turning point, where kinetic energy is zero.",
+        "B": "Y rises linearly with height, while kinetic energy peaks at equilibrium.",
+        "C": "Z is kinetic energy, but this option swaps the two potential energy curves.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "oscillations.h",
+      "energy-and-fields.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The three energy graphs can be distinguished by their shapes and values at the turning points.",
+    "misconception": "Confusing spring extension with height",
+    "transcription": "A mass attached to a spring is set into simple harmonic motion vertically. Interchange between kinetic energy, gravitational potential energy and elastic potential energy takes place throughout the oscillation. Three energy graphs X, Y and Z are plotted on the same axes below.\n\n[Energy against displacement from the lowest point through equilibrium to the highest point. Total energy is horizontal. X is a decreasing, concave-up curve. Y is a rising straight line. Z is zero at both endpoints and peaks at equilibrium.]\n\nWhich of the following combinations correctly identifies the graphs X, Y and Z?\n\nX | Y | Z\nA. kinetic energy | elastic potential energy | gravitational potential energy\nB. gravitational potential energy | kinetic energy | elastic potential energy\nC. gravitational potential energy | elastic potential energy | kinetic energy\nD. elastic potential energy | gravitational potential energy | kinetic energy"
+  },
+  {
+    "id": "njc-2022-promo-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In simple harmonic motion, velocity takes both positive and negative values. Kinetic energy is proportional to velocity squared, so its time graph has the form of $\\sin^2(\\omega t)$ or $\\cos^2(\\omega t)$ and may be shifted in time.",
+      "perOption": {
+        "A": "Velocity changes sign during each oscillation.",
+        "B": "Velocity against displacement has two branches of opposite sign.",
+        "C": "Correct.",
+        "D": "Kinetic energy against displacement is a single inverted parabola."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish a squared sinusoid in time from the displacement relationships.",
+    "misconception": "Treating velocity as always positive",
+    "transcription": "The diagram below shows one possible graph for an object undergoing simple harmonic motion.\n\n[Unlabelled axes with origin 0. The curve starts at a positive maximum on the vertical axis, falls to touch the horizontal axis, and repeats. A dashed horizontal line joins the maxima.]\n\nWhich quantities could have been plotted to produce this graph?\n\nA. velocity and time\nB. velocity and displacement\nC. kinetic energy and time\nD. kinetic energy and displacement"
+  },
+  {
+    "id": "njc-2022-promo-p1-q21",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take downwards as positive. The upthrust is $U=-\\rho gV=-\\rho gAd$, so its graph is a straight line with negative slope that extrapolates through the origin. Since $F=W+U$ and the weight $W$ is positive and constant, the graph of $F$ is parallel to and above that of $U$. At equilibrium, $F=0$ at $d=D$.",
+      "perOption": {
+        "A": "The net force should change sign linearly at equilibrium.",
+        "B": "The upthrust varies linearly with submerged depth.",
+        "C": "The upthrust line extrapolates below the origin.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "oscillations.d",
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It requires tracking signed forces and extrapolating the upthrust graph to distinguish two similar options.",
+    "misconception": "Forgetting that upthrust vanishes at zero immersion",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q22",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Q is momentarily stationary at its maximum displacement. If the wave profile moves slightly to the right, the displacement at the fixed position P becomes negative, so P is moving downwards.",
+      "perOption": {
+        "A": "A rightward shift brings the lower part of the profile to P, so P moves downwards.",
+        "B": "P is moving downwards and Q is momentarily stationary at the crest.",
+        "C": "P is moving downwards and Q has zero instantaneous velocity.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.a",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "A small rightward shift of the profile reveals the instantaneous motion at both points.",
+    "misconception": "Reading the slope as the direction of particle motion",
+    "transcription": "The diagram shows a transverse wave on a rope. The wave is travelling from left to right.\n\nAt the instant shown, the points P and Q on the rope have zero displacement and maximum displacement respectively.\n\n[Snapshot of a sinusoidal rope wave. P is at a rising crossing of the equilibrium line and Q is at the next crest. The arrow labelled “direction of wave” points right.]\n\nWhich of the following describes the motion, if any, of the points P and Q at this instant?\n\nPoint P | Point Q\nA. upwards | stationary\nB. stationary | upwards\nC. stationary | downwards\nD. downwards | stationary"
+  },
+  {
+    "id": "njc-2022-promo-p1-q23",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph gives $T_X=3T_Y$, so $f_Y=3f_X$, and $A_Y=\\tfrac12 A_X$. Since $I\\propto f^2$ and $I\\propto A^2$, write $I_X=kf_X^2A_X^2=I$. Then $I_Y=k(3f_X)^2(\\tfrac12 A_X)^2=\\tfrac94 I$.",
+      "perOption": {
+        "A": "Squares the amplitude ratio alone and ignores the higher frequency.",
+        "B": "Uses the amplitude ratio directly and ignores the higher frequency.",
+        "C": "Correct.",
+        "D": "Squares the frequency ratio alone and ignores the smaller amplitude."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e",
+      "wave-motion.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read two ratios from the graph and square both.",
+    "misconception": "Ignoring one of the two squared factors",
+    "transcription": null
+  },
+  {
+    "id": "njc-2022-promo-p1-q24",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Apply Malus’ law, $I'=I\\cos^2\\theta$. At $\\theta=60.0^\\circ$, this gives $I'=I\\cos^2(60.0^\\circ)=0.250I$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the amplitude factor $\\cos\\theta$ directly for intensity.",
+        "C": "Uses $\\sin^2\\theta$, which gives the rejected fraction.",
+        "D": "Uses $\\sin\\theta$ instead of the squared transmission factor."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It is a direct substitution into Malus’ law.",
+    "misconception": "Using cosine without squaring",
+    "transcription": "Plane-polarised light of intensity $I$ is passed through a polarising filter.\n\n[A ray labelled “plane polarised light” and “intensity = $I$” passes through a polarising filter. The diagram marks $\\theta$ between the incident polarisation direction and the filter axis.]\n\n$\\theta$ is the angle between the plane of polarisation of the incident light and the polarisation axis of the polarising filter.\n\nWhat is the intensity of the emerging light when $\\theta=60.0^\\circ$?\n\nA. $0.250I$\nB. $0.500I$\nC. $0.750I$\nD. $0.866I$"
+  },
+  {
+    "id": "njc-2022-promo-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Rayleigh’s criterion, $\\theta_R\\approx\\lambda/d$, and a smaller $\\theta_R$ means better resolution. The ratios for (i), (ii) and (iii) are $5.0\\times10^{-7}$, $5.0\\times10^{-8}$ and $3.3\\times10^{-7}$, respectively. From worst to best, the order is (i), (iii), (ii).",
+      "perOption": {
+        "A": "Ranks (iii) as best even though (ii) has the smaller minimum angle.",
+        "B": "Correct.",
+        "C": "Lists the telescopes from best to worst.",
+        "D": "Places (i) last even though it has the largest minimum angle and therefore the worst resolution."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires comparing three wavelength-to-diameter ratios and interpreting their order.",
+    "misconception": "Equating a larger minimum angle with better resolution",
+    "transcription": "Three telescopes with apertures of different diameters are designed to observe an astronomical object at different wavelengths as shown below.\n\nTelescope | diameter / m | observation wavelength / nm\n(i) | 1.0 | 500\n(ii) | 2.0 | 100\n(iii) | 3.0 | 1000\n\nWhich of the following ranks the telescopes from the one with the worst resolution to the one with the best resolution?\n\nA. (i), (ii), (iii)\nB. (i), (iii), (ii)\nC. (ii), (iii), (i)\nD. (iii), (ii), (i)"
+  },
+  {
+    "id": "njc-2022-promo-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A smaller angular separation makes the stars harder to distinguish, while a longer wavelength increases the minimum angular separation the telescope can resolve. Keeping the separation at $\\theta$ and shortening the wavelength lowers the resolution threshold below $\\theta$, so the new pair can definitely be distinguished.",
+      "perOption": {
+        "A": "The unchanged wavelength leaves the threshold at $\\theta$, above the new separation.",
+        "B": "The longer wavelength raises the threshold above the unchanged separation.",
+        "C": "Both the threshold and the separation decrease, so resolution depends on how much each decreases.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s wording about a smaller separation is too absolute. Option C can be resolved if the wavelength drops sufficiently, but resolution is only guaranteed for D.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare the angle between the stars with a threshold that changes with wavelength.",
+    "misconception": "Assuming any decrease in wavelength guarantees resolution",
+    "transcription": "Two stars X and Y with a small angular displacement $\\theta$ emit light of wavelength $\\lambda$. The two stars are just resolved when observed with a particular telescope. Another pair of stars is viewed using the same telescope.\n\nWhich of the following pair of stars can definitely be distinguished?\n\nPair | angular displacement between pair of stars compared to $\\theta$ | wavelength of light from pair of stars compared to $\\lambda$\nA. smaller | same\nB. same | longer\nC. smaller | shorter\nD. same | shorter"
+  },
+  {
+    "id": "njc-2022-promo-p1-q27",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The original fringe separation is $d=\\lambda L/x$. Substituting the new values gives $d_{\\mathrm{new}}=(2\\lambda)(0.5L)/(4x)=0.25\\lambda L/x=0.25d$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Results from omitting the halving of the slit-to-screen distance.",
+        "C": "Doubles the fringe spacing with the wavelength and omits both changes to the experimental geometry.",
+        "D": "Results from multiplying by the slit separation factor instead of dividing by it."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires tracking three simultaneous changes in the double-slit formula.",
+    "misconception": "Treating slit separation as directly proportional to fringe spacing",
+    "transcription": "A double slit experiment is shown below. The light source has wavelength $\\lambda$, the slit separation is $x$, the fringe separation is $d$ and the distance between the slits and screen is $L$.\n\n[A monochromatic light source illuminates a single slit, then a double slit with separation $x$. The screen is a distance $L$ from the double slit. Adjacent fringes on the screen are separated by $d$.]\n\nThe wavelength is increased to $2\\lambda$, the slit separation is increased to $4x$ and the distance between the slits and the screen is decreased to $\\tfrac12 L$.\n\nWhat is the resulting fringe separation?\n\nA. $0.25d$\nB. $0.50d$\nC. $2.0d$\nD. $4.0d$"
+  },
+  {
+    "id": "njc-2022-promo-p1-q28",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Geostationary satellites share Earth’s rotation period, approximately 24 hours, and hence have the same angular velocity. Kepler’s law fixes the orbital radius for that period, so their centripetal acceleration is also the same. Satellites can have different masses, so their kinetic energies can differ.",
+      "perOption": {
+        "A": "The common rotation period fixes the angular velocity.",
+        "B": "The common angular velocity and orbital radius fix the centripetal acceleration.",
+        "C": "Correct.",
+        "D": "Every geostationary satellite has the same period as Earth’s rotation."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.k",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing the common orbit from a property that depends on satellite mass.",
+    "misconception": "Assuming equal orbital speed implies equal kinetic energy",
+    "transcription": "Which quantity is not necessarily the same for satellites in geostationary orbits around the Earth?\n\nA. angular velocity\nB. centripetal acceleration\nC. kinetic energy\nD. orbital period"
+  },
+  {
+    "id": "njc-2022-promo-p1-q29",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Earth's surface, $g=GM/R^2$. At a height $R$ above the surface, the astronaut is $2R$ from Earth's centre, so $g_{2R}/g=R^2/(2R)^2=1/4$. Her acceleration due to gravity is $g/4$.",
+      "perOption": {
+        "A": "Earth’s gravitational field remains nonzero at this altitude.",
+        "B": "Correct.",
+        "C": "Uses an inverse-distance dependence instead of inverse-square.",
+        "D": "Uses the altitude as the distance from Earth’s centre."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires converting altitude to distance from Earth’s centre before applying the inverse-square law.",
+    "misconception": "Using altitude in place of distance from Earth’s centre",
+    "transcription": "An astronaut is at a distance above the Earth equal to the radius of the Earth.\n\nIf the gravitational field strength at the surface of the earth is $g$, what is her acceleration due to gravity?\n\nA. zero\nB. $g/4$\nC. $g/2$\nD. $g$"
+  },
+  {
+    "id": "njc-2022-promo-p1-q30",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gravitational force provides the centripetal force, so $GMm/r^2=mr'(2\\pi/T)^2$, where $r$ is the separation and $r'$ is the radius about the centre of mass. Cancelling $m$ gives $G(4.0\\times10^{30})/(2.0\\times10^{11})^2=(1.0\\times10^{11})(2\\pi/T)^2$. Solving gives $T=2.4\\times10^7\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Uses the orbital radius as the separation in the gravitational force law.",
+        "B": "Results from using the combined mass in place of the mass of the other star.",
+        "C": "Correct.",
+        "D": "Uses the full separation as the radius of each star’s orbit."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires using the full separation in the gravitational force and half the separation in the centripetal term.",
+    "misconception": "Confusing the orbital radius with the separation between the stars",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q1",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Pressure is the normal force per unit area. Force and area are both physical quantities, so the definition applies whichever units are used.",
+      "perOption": {
+        "A": "A cubic metre is a unit, while the defining quantity is volume.",
+        "B": "Potential difference is energy transferred per unit charge.",
+        "C": "Correct.",
+        "D": "A second is a unit, while the defining quantity is elapsed time."
+      }
+    },
+    "issues": "The school prints C on page 4. The batch’s keyAnswer is A and is flagged answer-missing.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It requires recalling the definition of pressure and distinguishing quantities from named units.",
+    "misconception": "Confusing a physical quantity with its unit",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q2",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The units of $\\sqrt{g\\lambda}$ are $\\sqrt{(\\mathrm{m\\,s^{-2}})(\\mathrm{m})}=\\mathrm{m\\,s^{-1}}$. These are the units required for speed.",
+      "perOption": {
+        "A": "Including density introduces a mass dimension and gives $\\mathrm{kg^{1/2}m^{-1/2}s^{-1}}$.",
+        "B": "Dividing by height cancels the length dimension and gives $\\mathrm{s^{-1}}$.",
+        "C": "Correct.",
+        "D": "Dividing by density gives $\\mathrm{m^2kg^{-1/2}s^{-1}}$ after taking the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires comparing the dimensions of square-root expressions with the dimensions of speed.",
+    "misconception": "Overlooking how the square root acts on the units",
+    "transcription": "Which formula could be correct for the speed $v$ of ocean waves in terms of density $\\rho$ of sea-water, the acceleration of free fall $g$, the height $h$ of the wave and the wavelength $\\lambda$?\n\nA. $v=\\sqrt{\\rho gh}$\nB. $v=\\sqrt{\\dfrac{g}{h}}$\nC. $v=\\sqrt{g\\lambda}$\nD. $v=\\sqrt{\\dfrac{g}{\\rho}}$"
+  }
+]

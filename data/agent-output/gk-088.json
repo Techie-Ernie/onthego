@@ -1,0 +1,522 @@
+[
+  {
+    "id": "nyjc-2022-prelim-p1-q22",
+    "keyPage": 15,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "P and Q are connected in parallel, so both have the full $1.5\\ \\mathrm{V}$ across them. Potential difference is the electrical energy converted to thermal energy per unit charge in each resistor, so that quantity is the same for both.",
+      "perOption": {
+        "A": "The cell converts chemical energy to electrical energy.",
+        "B": "Correct. Both resistors have the same potential difference.",
+        "C": "Each parallel resistor has $1.5\\ \\mathrm{V}$ across it, so the sum is $3.0\\ \\mathrm{V}$.",
+        "D": "The total current entering the pair of branches at X equals the total current leaving at Y."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "currents.a",
+      "currents.c",
+      "currents.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reading a parallel circuit and interpreting potential difference as energy per unit charge.",
+    "misconception": "Adding the potential differences of parallel branches",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q23",
+    "keyPage": 16,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The zero ammeter reading means its terminals are at the same potential, so the $9.0\\ \\Omega$ and $6.0\\ \\Omega$ resistors have equal potential differences. In the upper loop, the potential divider gives $V_{9\\Omega}=4.0\\times 9.0/(9.0+3.0)=3.0\\ \\mathrm{V}$. In the lower loop, $3.0/9.0=6.0/(6.0+R)$, giving $R=12\\ \\Omega$.",
+      "perOption": {
+        "A": "This puts $6.75\\ \\mathrm{V}$ across the $6.0\\ \\Omega$ resistor, exceeding the required $3.0\\ \\mathrm{V}$.",
+        "B": "Equal lower-loop resistances would split the $9.0\\ \\mathrm{V}$ equally, giving $4.5\\ \\mathrm{V}$ across each.",
+        "C": "Correct. The two ammeter terminals are at the same potential.",
+        "D": "The divider equation gives $18\\ \\Omega$ for the total lower-loop resistance, which includes the $6.0\\ \\Omega$ resistor."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using the ammeter null to link two potential-divider calculations.",
+    "misconception": "Assuming zero ammeter current means zero current in both loops",
+    "transcription": "In the circuit shown, the cells have negligible internal resistance and the reading on the ammeter is zero.\n\n[The upper loop has a $4.0\\ \\mathrm{V}$ cell and $9.0\\ \\Omega$ and $3.0\\ \\Omega$ resistors in series, with the $9.0\\ \\Omega$ resistor on the left. The lower loop has a $9.0\\ \\mathrm{V}$ cell and $6.0\\ \\Omega$ and $R$ resistors in series, with the $6.0\\ \\Omega$ resistor on the left. Both cells have their positive terminals on the right. The loops share the left-hand node, and an ammeter marked A connects the two resistor junctions.]\n\nWhat is the resistance of $R$?\n\nA $2.0\\ \\Omega$\nB $6.0\\ \\Omega$\nC $12\\ \\Omega$\nD $18\\ \\Omega$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q24",
+    "keyPage": 17,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking $q$ as the charge magnitude, the energy gain gives $qV=\\tfrac12 mv^2$, so $v=\\sqrt{2qV/m}$. The magnetic force provides the centripetal force, $Bqv=mv^2/r$. Substituting the energy expression gives $\\sqrt{2qV/m}=2V/(Br)$. Squaring and rearranging gives $q/m=2V/(B^2r^2)$.",
+      "perOption": {
+        "A": "This leaves the radius unsquared and puts the factor of two in the denominator.",
+        "B": "This leaves the radius unsquared when squaring the expression for speed.",
+        "C": "This puts the factor of two from the kinetic-energy equation in the denominator.",
+        "D": "Correct. Eliminating speed gives the stated charge-to-mass magnitude."
+      }
+    },
+    "issues": "The printed question and key use q for the electron charge magnitude implicitly. The signed charge-to-mass ratio is negative.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion",
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l",
+      "circular-motion.f",
+      "energy-and-fields.e",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires linking the energy gain to magnetic circular motion and eliminating speed.",
+    "misconception": "Failing to square the radius when eliminating speed",
+    "transcription": "Electrons, each of mass $m$ and charge $q$, are accelerated from rest in a vacuum through a potential difference $V$.\n\nThe accelerated electrons are then projected at point S into a region of uniform magnetic field of flux density $B$, as shown. The electrons move in a circular path of radius $r$.\n\n[The electrons travel vertically down to S at the upper boundary of the shaded field region, then follow a dashed semicircular path of radius $r$ curving to the left within the region.]\n\nWhich of the following expressions represents the specific charge $\\frac{q}{m}$ of the electrons?\n\nA $\\frac{V}{2B^2r}$\nB $\\frac{2V}{B^2r}$\nC $\\frac{V}{2B^2r^2}$\nD $\\frac{2V}{B^2r^2}$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q25",
+    "keyPage": 18,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The flux linkage is $NBA\\sin(\\omega t)$, so the e.m.f. has magnitude $\\lvert\\omega NBA\\cos(\\omega t)\\rvert$. Its maximum is $\\omega NBA=(100)(100)(0.80)[30(10^{-2})^2]=24\\ \\mathrm{V}$. The flux linkage changes fastest when it is zero, with the plane of the coil parallel to the field.",
+      "perOption": {
+        "A": "Omitting $\\omega$ gives $0.24$, although the orientation is correct.",
+        "B": "This omits $\\omega$ and chooses the orientation where flux linkage is at an extremum.",
+        "C": "Correct. The flux linkage changes fastest with the coil parallel to the field.",
+        "D": "The magnitude is correct, but the e.m.f. is zero when the coil is perpendicular to the field."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires differentiating flux linkage and connecting the maximum slope to the coil orientation.",
+    "misconception": "Equating maximum flux linkage with maximum induced e.m.f.",
+    "transcription": "A rectangular coil made of 100 turns of wire with cross sectional area $30\\ \\mathrm{cm^2}$ is placed within a uniform magnetic field of $0.80\\ \\mathrm{T}$. The coil is rotated with an angular velocity of $100\\ \\mathrm{rad\\,s^{-1}}$. At different stages of its rotation, the cross sectional area of the coil can be parallel or perpendicular to the magnetic field, as shown.\n\n[Two diagrams show a rectangular coil rotating about a dashed axis between pole pieces marked N on the left and S on the right. The coil plane is parallel to the magnetic field in the first diagram and perpendicular to it in the second.]\n\nWhat is the maximum e.m.f. induced and the corresponding orientation of the coil?\n\nA $0.24\\ \\mathrm{V}$, parallel to magnetic field\nB $0.24\\ \\mathrm{V}$, perpendicular to magnetic field\nC $24\\ \\mathrm{V}$, parallel to magnetic field\nD $24\\ \\mathrm{V}$, perpendicular to magnetic field"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q26",
+    "keyPage": 19,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over one period, the area under the $I^2$ graph is $(2\\times 1^2+2\\times 4^2+4\\times 2^2)\\times 5=250\\ \\mathrm{A^2\\,ms}$. The mean squared current is $250/40=6.25\\ \\mathrm{A^2}$. The steady current with the same heating effect is therefore $I_\\mathrm{rms}=\\sqrt{6.25}=2.5\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "A steady $1.5\\ \\mathrm{A}$ has a squared current of only $2.25\\ \\mathrm{A^2}$.",
+        "B": "Averaging the current magnitudes gives $2.25\\ \\mathrm{A}$, which rounds to $2.3\\ \\mathrm{A}$.",
+        "C": "Correct. This is the root mean square over one period.",
+        "D": "Giving the three current levels equal weight yields about $2.6\\ \\mathrm{A}$ and overlooks the longer $-2\\ \\mathrm{A}$ interval."
+      }
+    },
+    "issues": "The key prints 380/40 in its mean-square step. The preceding area and the stated result both require 250/40.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires reading the durations of a nonsinusoidal waveform and taking a time-weighted root mean square.",
+    "misconception": "Averaging current magnitudes instead of squared currents",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q27",
+    "keyPage": 20,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the ideal transformer, $I_\\mathrm{p}/I_\\mathrm{s}=N_\\mathrm{s}/N_\\mathrm{p}=V_\\mathrm{s}/V_\\mathrm{p}=12/240=0.050$. At $20\\ \\Omega$, $I_\\mathrm{s}=12/20=0.60\\ \\mathrm{A}$ and $I_\\mathrm{p}=0.030\\ \\mathrm{A}$. At $50\\ \\Omega$, $I_\\mathrm{s}=12/50=0.24\\ \\mathrm{A}$ and $I_\\mathrm{p}=0.012\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct. The mains current decreases from 30 mA to 12 mA.",
+        "B": "This reverses the currents for the two load resistances.",
+        "C": "This gives the correct final current as the starting value and scales it down again by $20/50$.",
+        "D": "This uses the secondary currents and reverses their order."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "circuits.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires calculating current on the load side at two resistances and converting to mains current.",
+    "misconception": "Confusing secondary current with mains current",
+    "transcription": "An ideal transformer steps down the $240\\ \\mathrm{V}$ sinusoidal voltage from the mains to $12\\ \\mathrm{V}$, which is then applied to a variable load.\n\n[The left side of a block labelled transformer is connected to the $240\\ \\mathrm{V}$ mains, and the right side is connected to a variable load shown as a variable resistor.]\n\nWhat is the change in the current supplied by the mains when the resistance of the load is increased from $20\\ \\Omega$ to $50\\ \\Omega$?\n\nA Decrease from $30\\ \\mathrm{mA}$ to $12\\ \\mathrm{mA}$.\nB Increase from $12\\ \\mathrm{mA}$ to $30\\ \\mathrm{mA}$.\nC Decrease from $12\\ \\mathrm{mA}$ to $4.8\\ \\mathrm{mA}$.\nD Increase from $0.24\\ \\mathrm{A}$ to $0.60\\ \\mathrm{A}$."
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q28",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The lower accelerating potential for spectrum B gives the electrons a smaller gain in kinetic energy. The most energetic X-ray photon therefore has less energy, so B has a longer cutoff wavelength. The key also attributes B’s lower intensity to fewer X-ray photons being produced.",
+      "perOption": {
+        "A": "Correct. B’s longer cutoff wavelength indicates a lower accelerating potential.",
+        "B": "The shared peaks are consistent with the same target metal, and the higher accelerating potential for A can enable additional characteristic lines.",
+        "C": "A hotter cathode can raise the intensity, but equal accelerating potentials would give the same cutoff wavelength.",
+        "D": "A hotter cathode can raise the intensity, while additional characteristic peaks require access to higher excitation energies."
+      }
+    },
+    "issues": "The key treats the shorter cutoff as the reason for the extra peaks in A. The higher electron energy must also be sufficient to produce the corresponding inner-shell vacancies. The cutoff, rather than intensity alone, establishes A.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.m",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing the cutoff wavelength, characteristic peaks and overall intensity.",
+    "misconception": "Using intensity or peak count to infer accelerating voltage",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q29",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Activity is $A=\\lambda N=(\\ln 2)N/T_{1/2}$, where $N=nN_\\mathrm{A}$ is the number of undecayed nuclei. The activities can therefore be ranked using $n/T_{1/2}$. In option order the ratios are approximately $0.000300$, $0.000250$, $0.000286$ and $0.000208\\ \\mathrm{mol\\,day^{-1}}$.",
+      "perOption": {
+        "A": "Correct. This sample has the greatest amount-to-half-life ratio.",
+        "B": "Its ratio of $0.000250\\ \\mathrm{mol\\,day^{-1}}$ is below A’s.",
+        "C": "Its ratio of about $0.000286\\ \\mathrm{mol\\,day^{-1}}$ is close to A’s but smaller.",
+        "D": "Its long half-life leaves it with a ratio of only about $0.000208\\ \\mathrm{mol\\,day^{-1}}$."
+      }
+    },
+    "issues": "The key calls N the number of molecules and gives 0.00020 for 1.0/4800. N counts undecayed nuclei and the quotient is about 0.000208. The ranking is unaffected.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.h",
+      "nuclear-physics.k"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires combining the activity and half-life equations to rank four samples by a ratio.",
+    "misconception": "Comparing half-life or amount of substance on its own",
+    "transcription": "Which of the following radioactive samples has the greatest activity?\n\nOption | nuclide | amount / mole | half-life / day\nA | {}^{225}_{89}\\mathrm{Ac}$ | 0.003 | 10\nB | {}^{228}_{90}\\mathrm{Th}$ | 0.1 | 400\nC | {}^{228}_{88}\\mathrm{Ra}$ | 0.6 | 2100\nD | {}^{241}_{94}\\mathrm{Pu}$ | 1.0 | 4800"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q30",
+    "keyPage": 22,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Paper barely changes the count, which gives little evidence of alpha radiation. The $1\\ \\mathrm{mm}$ aluminium absorbs some of the radiation, and the count with $1\\ \\mathrm{cm}$ of lead is 6 per minute, close to the background of 5 per minute. These observations suggest beta radiation only.",
+      "perOption": {
+        "A": "Paper would cause a noticeable decrease if alpha particles made an appreciable contribution.",
+        "B": "Correct. The observed attenuation is consistent with beta radiation alone.",
+        "C": "The count behind the lead is near background, giving little evidence of a penetrating gamma component.",
+        "D": "The results give little evidence for alpha absorption by paper or for a gamma component above background behind lead."
+      }
+    },
+    "issues": "The worked text says 4 cm of lead. The question and its table specify 1 cm. The absorber data support the intended inference without establishing the complete absence of gamma radiation.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires comparing each absorber count with the unshielded count and the background level.",
+    "misconception": "Taking every count above zero as evidence of source radiation",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q1",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Precision corresponds to a small spread in repeated measurements. Poor accuracy means their centre is displaced from the true value $x_0$. Graph B shows a narrow peak away from $x_0$.",
+      "perOption": {
+        "A": "The measurements are precise and centred on $x_0$, so they are also accurate.",
+        "B": "Correct. The narrow peak is displaced from the true value.",
+        "C": "The peak is displaced, but its broad spread indicates poor precision.",
+        "D": "The broad peak indicates poor precision, and its centre is at $x_0$."
+      }
+    },
+    "issues": "The batch marks this item as text, but the options are entirely graphical and absent from the extracted text.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires identifying the spread and centre of a measurement distribution.",
+    "misconception": "Confusing precision with accuracy",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q2",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The reaction time when stopping a stopwatch varies from trial to trial, introducing random scatter in the measured times. The other examples introduce consistent biases through an offset, an uncorrected background contribution or an approximate constant.",
+      "perOption": {
+        "A": "A voltmeter zero error gives readings a consistent offset.",
+        "B": "Leaving the mean background count rate in the result systematically overestimates the source count rate.",
+        "C": "Correct. The stopwatch operator’s reaction time varies between trials.",
+        "D": "Using $10\\ \\mathrm{N\\,kg^{-1}}$ where $g=9.81\\ \\mathrm{N\\,kg^{-1}}$ systematically overestimates weight."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "practical"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires distinguishing variable timing error from a consistent measurement bias.",
+    "misconception": "Treating background count fluctuations and omission of the background correction as the same error",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "X and Y reach the same maximum height, so they have the same initial vertical speed, with Y’s given by $u\\sin\\theta$. Both have the same downward acceleration due to gravity and return to their starting height, so their times of flight are equal.",
+      "perOption": {
+        "A": "Y still has a horizontal velocity at its maximum height.",
+        "B": "Y needs a greater launch speed because its velocity also has a horizontal component.",
+        "C": "Correct. Both projectiles have the same vertical motion.",
+        "D": "Y travels farther because it covers horizontal distance while undergoing the same vertical motion."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reasoning about vertical motion independently of horizontal motion.",
+    "misconception": "Using total launch speed to determine the time of flight",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q4",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resistance acting on the trailer is one fifth of $4000\\ \\mathrm{N}$, or $800\\ \\mathrm{N}$. Applying $\\sum F=ma$ to the trailer at the tow-bar limit gives $3000-800=1000a$. The maximum acceleration is $2.2\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct. The trailer’s net forward force is 2200 N.",
+        "B": "This divides the maximum tow-bar force by the trailer mass without subtracting its resistance.",
+        "C": "This adds the trailer’s resistance to the tow-bar force, although the forces act in opposite directions.",
+        "D": "This adds the total resistance to the tow-bar force and divides by the mass of just one vehicle."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires isolating the trailer and using its share of the total resistance.",
+    "misconception": "Treating tow-bar tension as the net force on the trailer",
+    "transcription": "A tractor of mass $1000\\ \\mathrm{kg}$ pulls a trailer of mass $1000\\ \\mathrm{kg}$ via a tow-bar. The total resistance to motion has a constant value of $4000\\ \\mathrm{N}$. One fifth of this resistance acts on the trailer. If the maximum breaking force of the tow-bar is $3000\\ \\mathrm{N}$, what is maximum acceleration of the tractor and trailer?\n\nA $2.2\\ \\mathrm{m\\,s^{-2}}$\nB $3.0\\ \\mathrm{m\\,s^{-2}}$\nC $3.8\\ \\mathrm{m\\,s^{-2}}$\nD $7.0\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q5",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A cylinder made entirely of A would balance about O, so replacing part of it with B creates a moment due to the weight deficit at P. For cylinder length $\\ell$, the moment of that deficit about O is $\\tfrac12\\rho_A\\pi(0.45r)^2\\ell g(r/3)=0.03375\\rho_A\\pi r^3\\ell g$. Using $\\rho_A\\pi r^2\\ell g=90\\ \\mathrm{N}$ gives a moment of $(3.04\\ \\mathrm{N})r$. Floor friction has magnitude $F$ and acts opposite to the applied force, forming a couple of moment $2rF$. Equating the moments gives $F=1.5\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct. The force–friction couple balances the moment due to the weight deficit.",
+        "B": "A force of $2.0\\ \\mathrm{N}$ with the full diameter as its couple arm gives a moment larger than the weight-deficit moment.",
+        "C": "A force of $4.5\\ \\mathrm{N}$ with the full diameter as its couple arm gives about three times the required moment.",
+        "D": "A force of $7.5\\ \\mathrm{N}$ with the full diameter as its couple arm gives about five times the required moment."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.e",
+      "forces-and-moments.f",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires finding the off-centre weight deficit and balancing its moment against the applied force and friction couple.",
+    "misconception": "Using the cylinder radius as the couple arm",
+    "transcription": "A cylinder of radius $r$, made of material A and B, is placed on a rough floor as shown. The portion made of material B has a radius of $0.45r$ and a density of $\\rho$ that is half that of material A. O is the centre of the cylinder and P is the centre of the portion made of material B. The distance between O and P is $\\frac{r}{3}$. If the cylinder is entirely made of material A, its weight is $90\\ \\mathrm{N}$.\n\nA force $F$ is applied horizontally to the top of the cylinder so that O and P are at the same height from the floor as shown.\n\n[The larger circular cross section of material A rests on a horizontal rough floor directly below O. The smaller circular cross section of material B is centred at P, a distance $r/3$ to the right of O. A horizontal arrow marked $F$ points right from the top of the cylinder.]\n\nWhat is the force $F$ required to keep the cylinder in this equilibrium position?\n\nA $1.5\\ \\mathrm{N}$\nB $2.0\\ \\mathrm{N}$\nC $4.5\\ \\mathrm{N}$\nD $7.5\\ \\mathrm{N}$"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q6",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Combine the two weights into one downward force $2W$ acting midway between their lines of action. For the inclined reactions in equilibrium, the lines of action of $2W$, $R_1$ and $R_2$ must meet at one point, which rules out B. In C, separate moment balances require a downward hinge force on each rod, which is incompatible with Newton’s third law. In A, balancing the rods individually would require a downward-left hinge force on the left rod and a downward-right hinge force on the right rod, again violating the requirement for opposite directions.",
+      "perOption": {
+        "A": "The hinge forces needed to balance the two rods would both point downward, contradicting Newton’s third law.",
+        "B": "The two sloping reactions intersect away from the line of action of the combined weight.",
+        "C": "With vertical floor reactions, each rod would require a downward hinge force to balance its moment about its foot.",
+        "D": "Correct. The two floor reactions intersect on the line of action of the combined weight."
+      }
+    },
+    "issues": "The key’s concurrency argument by itself applies only to nonparallel forces. Option C requires a separate check of the individual rods because all three external lines of action are parallel.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires checking the lines of action for the whole structure and the hinge forces on the individual rods.",
+    "misconception": "Ignoring friction in the floor reaction or treating hinge forces as independent",
+    "transcription": "Two identical uniform rods, each of weight $W$, are hinged together to form a structure which is resting on a rough floor as shown.\n\n[The left rod slopes upward to the right from its foot and extends beyond the hinge. The right rod runs downward to the right from the hinge to the floor.]\n\nIf the reaction forces acting on the structure by the floor are $R_1$ and $R_2$, which of the following shows the forces acting on the structure?\n\n[In all four options, a vertical downward arrow labelled $W$ acts at each rod’s midpoint. $R_1$ starts at the left foot and $R_2$ at the right foot.]\nA [$R_1$ points shallowly up and right. $R_2$ points shallowly up and left, approximately along the right rod.]\nB [$R_1$ points shallowly up and right. $R_2$ points steeply up and left.]\nC [$R_1$ and $R_2$ both point vertically upward.]\nD [$R_1$ points steeply up and right. $R_2$ points steeply up and left.]"
+  }
+]

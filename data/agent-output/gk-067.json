@@ -1,0 +1,507 @@
+[
+  {
+    "id": "jpjc-2024-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At shutter opening, $v^2=u^2+2as=0+2(9.81)(2.5)$, giving $v=7.0\\ \\mathrm{m\\,s^{-1}}$. During the exposure, $s=ut+\\tfrac12at^2$ gives $0.12=7.0t+\\tfrac12(9.81)t^2$. The positive solution is $t=0.017\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the ball as starting from rest when the shutter opens.",
+        "C": "Gives the time from release to shutter opening.",
+        "D": "Gives the time from release to shutter closing."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Links two stages of free fall using the speed at shutter opening.",
+    "misconception": "Resetting the velocity to zero at shutter opening",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By conservation of momentum, $0=m_1v_1+(-m_2v_2)$ because the fragments move in opposite directions. Thus $m_1v_1=m_2v_2$, giving $v_1/v_2=m_2/m_1$.",
+      "perOption": {
+        "A": "Inverts the mass ratio obtained from equal momentum magnitudes.",
+        "B": "Inverts the mass ratio and takes an unjustified square root.",
+        "C": "Correct.",
+        "D": "Equates the fragments’ kinetic energies and so introduces a square root."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "A single momentum balance gives the speed ratio.",
+    "misconception": "Equating the fragments’ kinetic energies",
+    "transcription": "A mass initially at rest exploded into two pieces of mass $m_1$ and $m_2$ which moves apart from each other with speeds $v_1$ and $v_2$ respectively.\n\nWhat is the ratio of $\\frac{v_1}{v_2}$?\n\nA $\\frac{m_1}{m_2}$\nB $\\sqrt{\\frac{m_1}{m_2}}$\nC $\\frac{m_2}{m_1}$\nD $\\sqrt{\\frac{m_2}{m_1}}$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Resolve each force into horizontal and vertical components. In B, the down-left force can balance the rightward and upward forces in both directions, making B the most likely to be in equilibrium.",
+      "perOption": {
+        "A": "The combined leftward components exceed the rightward force.",
+        "B": "Correct.",
+        "C": "The upward force is unbalanced.",
+        "D": "The leftward component of the down-left force exceeds the rightward component of the other diagonal force."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the horizontal and vertical components shown by the arrows.",
+    "misconception": "Checking equilibrium along only one axis",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The loss in gravitational potential energy equals the gain in kinetic energy plus the work done against friction. For average frictional force $f$, $mgh=\\tfrac12mv^2+f(200)$, so $(60)g(50)=\\tfrac12(60)(20)^2+f(200)$. This gives $f=87\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Divides the full potential energy loss by the slope distance and ignores the kinetic energy gain.",
+        "C": "Adds the kinetic energy gain to the potential energy loss when estimating the energy dissipated.",
+        "D": "Implies that friction dissipates more energy over the slope than gravity supplies."
+      }
+    },
+    "issues": "The phrase “under the influence of gravity only” is ambiguous because the question explicitly includes friction. The key treats gravity as the only source of energy driving the skier downhill.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "energy-and-fields.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires an energy balance and the distance along the slope.",
+    "misconception": "Treating all lost potential energy as work against friction",
+    "transcription": "A skier of mass $60\\ \\mathrm{kg}$ skies down a slope from rest and reaches the bottom with a speed of $20\\ \\mathrm{m\\,s^{-1}}$. The vertical height of the slope is $50\\ \\mathrm{m}$ and the effective distance the skier moves along the slope is $200\\ \\mathrm{m}$.\n\nWhat is the average frictional force acting on his ski if he skies down the slope under the influence of gravity only?\n\nA $87\\ \\mathrm{N}$\nB $150\\ \\mathrm{N}$\nC $240\\ \\mathrm{N}$\nD $2100\\ \\mathrm{N}$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the highest point, the inward resultant is $mg-N=mv^2/r$. Since $W=mg$ and $N=W/3$, we have $W-W/3=2mg/3=mv^2/r$. Hence $v=\\sqrt{2gr/3}$.",
+      "perOption": {
+        "A": "Uses the scale reading as the inward resultant.",
+        "B": "Correct.",
+        "C": "Omits the upward normal force and uses the full weight as the inward resultant.",
+        "D": "Adds the upward normal force to the downward weight."
+      }
+    },
+    "issues": "The question asks for velocity and the choices give speed only.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires interpreting the scale reading and identifying the inward resultant force.",
+    "misconception": "Treating apparent weight as the centripetal force",
+    "transcription": "A block is resting on a weighing scale in a car. When the car is moving with constant velocity, the weighing scale gives a reading of $W$ in newtons. When the car drives over a hump of radius $r$, the weighing scale reads $\\frac{W}{3}$ at the highest point of the hump.\n\nWhat is the velocity of the car at this point?\n\nA $\\sqrt{\\frac{gr}{3}}$\nB $\\sqrt{\\frac{2gr}{3}}$\nC $\\sqrt{gr}$\nD $\\sqrt{\\frac{4gr}{3}}$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The inward resultant is $F_g-N=F_c$, so $GMm/R^2-N=mR(2\\pi/T)^2$. At the threshold of losing contact, $N=0$, giving $GMm/R^2=mR(2\\pi/T)^2$. Solving gives $T=2\\pi\\sqrt{R^3/(GM)}$.",
+      "perOption": {
+        "A": "Omits the extra factor of $R$ from centripetal acceleration when solving for $T^2$.",
+        "B": "Uses the square root of surface gravitational acceleration, which has the wrong units for a period.",
+        "C": "Correct.",
+        "D": "Multiplies $2\\pi$ by angular frequency instead of dividing by it."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying the zero-normal-force threshold and relating gravitation to the rotation period.",
+    "misconception": "Assuming a nonzero normal force at the threshold of losing contact",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph gives $a=a_0\\sin(\\omega t)$, so $a=-\\omega^2x$ gives $x=-x_0\\sin(\\omega t)$. At $t=T/3$, $x=-x_0\\sin[(2\\pi/T)(T/3)]=-x_0\\sin(2\\pi/3)=-0.87x_0$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the magnitude of the cosine at $2\\pi/3$ in place of the sine.",
+        "C": "Uses $-x_0\\cos(2\\pi/3)$, which has the wrong phase relative to the graph.",
+        "D": "Gives displacement the same sign as acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.e",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reading the phase from the graph and relating acceleration to displacement.",
+    "misconception": "Putting displacement in phase with acceleration",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Negligible intermolecular attraction and brief collisions are assumptions of simple kinetic theory, and elastic collisions preserve the average molecular kinetic energy. In a wall collision, the momentum component normal to the wall reverses from $p_\\perp$ to $-p_\\perp$, giving a momentum change of magnitude $2p_\\perp$. A negligible momentum change is therefore an invalid assumption.",
+      "perOption": {
+        "A": "Negligible attraction is a valid assumption of simple kinetic theory.",
+        "B": "Brief collisions compared with the time between collisions are a valid assumption.",
+        "C": "Elastic collisions preserve the average molecular kinetic energy in the model.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s full momentum reversal assumes a head-on collision or a one-dimensional model. In general only the wall-normal component reverses, and elasticity is the relevant assumption for retaining kinetic energy.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e",
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing unchanged kinetic energy from unchanged momentum.",
+    "misconception": "Assuming elastic collisions preserve each molecule’s momentum",
+    "transcription": "In deriving the equation $p=\\frac{1}{3}\\rho\\langle c^2\\rangle$ in kinetic theory of gases, which of the following is not taken as a valid assumption?\n\nA Attractive forces between the molecules are negligible.\nB The duration of a collision is negligible compared with the time between collisions.\nC Collisions with the walls of the container and with other molecules cause no change in the average kinetic energy of the molecules.\nD The molecules suffer negligible change in momentum on collision with the walls of the container."
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gas pressure comes from the force exerted by molecules colliding with the container walls. As the temperature rises, the molecules move faster and strike the walls more frequently, increasing the average force on the walls and hence the pressure.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Counts intermolecular collisions even though pressure on the container comes from impacts on its walls.",
+        "C": "Greater distances between intermolecular collisions do not explain the increased rate of momentum transfer to the walls.",
+        "D": "Attributes the pressure rise to energy transfer, while the force on the walls comes from momentum transfer."
+      }
+    },
+    "issues": "The key’s comment on C conflates distances between intermolecular collisions with intervals between wall impacts.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.f",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires linking higher temperature to more frequent momentum transfer to the container walls.",
+    "misconception": "Attributing pressure to collisions between molecules",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pellet loses three quarters of its initial kinetic energy. Using $Q=mc\\Delta T$, we get $\\tfrac34(\\tfrac12mv^2)=mc\\Delta T$. Cancelling $m$ gives $\\Delta T=3v^2/(8c)$.",
+      "perOption": {
+        "A": "Uses the quarter of the kinetic energy remaining as the energy lost.",
+        "B": "Correct.",
+        "C": "Uses the remaining kinetic energy and divides by specific heat capacity alone.",
+        "D": "Divides by specific heat capacity alone, leaving an extra factor of mass."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.g",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires finding the fraction of kinetic energy lost and relating it to the temperature rise.",
+    "misconception": "Confusing remaining energy with energy lost",
+    "transcription": "A metal pellet of mass $m$ and specific heat capacity $c$ hits a steel plate at speed $v$. During the impact, the kinetic energy is reduced to 25% of its original value. The loss in kinetic energy of the pellet is converted to thermal energy in the pellet.\n\nWhat is the rise in temperature of the pellet?\n\nA $\\frac{v^2}{8c}$\nB $\\frac{3v^2}{8c}$\nC $\\frac{mv^2}{8c}$\nD $\\frac{3mv^2}{8c}$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The separation perpendicular to the wavefronts is $5.0\\sin30^\\circ\\ \\mathrm{m}$. The phase difference is $\\Delta\\phi=\\left(\\frac{5.0\\sin30^\\circ}{10}\\right)2\\pi=1.6\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Gives half the required phase difference, as if one wavelength corresponded to $\\pi$ radians.",
+        "B": "Uses too small a projected separation, equivalent to about $1.5\\ \\mathrm{m}$ along propagation.",
+        "C": "Correct.",
+        "D": "Uses the full separation along the wall without projecting it perpendicular to the wavefronts."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires projecting the separation onto the propagation direction before finding the phase difference.",
+    "misconception": "Using the separation along the wall as the distance along propagation",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The amplitude along the antenna is $A_f=A\\cos\\theta$. By Malus’s law, the corresponding intensity is $I_f=k(A\\cos\\theta)^2=kA^2\\cos^2\\theta$. Received power is proportional to this intensity, so it varies as $A^2\\cos^2\\theta$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the projected amplitude without squaring it.",
+        "C": "Uses the perpendicular component and leaves it unsquared.",
+        "D": "Assumes the antenna is perpendicular to the polarisation for every tilt angle."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.j"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires projecting the amplitude along the antenna and squaring it.",
+    "misconception": "Treating received power as proportional to amplitude",
+    "transcription": "Vertical plane-polarised radio-waves of amplitude $A$ is transmitted towards a receiving antenna. The antenna is tilted at an angle $\\theta$ from the vertical in the plane perpendicular to the direction of propagation of the radio-waves.\n\nWhich of the following is the power received by the antenna proportional to?\n\nA $A^2\\cos^2\\theta$\nB $A\\cos\\theta$\nC $A\\sin\\theta$\nD zero"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For destructive interference at $Q$, the path difference between the routes from $P$ to $Q$ must be $(m-0.5)\\lambda$. The difference $PS_1Q-PS_2Q$ is therefore $(l_1+l_3)-(l_2+l_4)=\\left(\\frac{2m-1}{2}\\right)\\lambda$.",
+      "perOption": {
+        "A": "Omits the paths from the source to the slits and uses a whole-number wavelength condition.",
+        "B": "Uses the half-integer wavelength condition but omits the paths from the source to the slits.",
+        "C": "Includes both full paths but uses the condition for constructive interference.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.g"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the full routes and recognising the condition for destructive interference.",
+    "misconception": "Ignoring the path difference before the slits",
+    "transcription": "Two identical narrow slits $S_1$ and $S_2$ are illuminated by light of wavelength $\\lambda$ from a point source $P$ as shown. The light through the slits is then captured on a screen.\n\n[The source $P$ is left of the slits, with $S_1$ above $S_2$. The upper route from $P$ through $S_1$ to $Q$ on the screen has lengths $l_1$ and $l_3$. The lower route from $P$ through $S_2$ to $Q$ has lengths $l_2$ and $l_4$.]\n\nGiven that $m$ is a positive integer, what is the condition for destructive interference at $Q$?\n\nA $l_3-l_4=m\\lambda$\nB $l_3-l_4=\\left(\\frac{2m-1}{2}\\right)\\lambda$\nC $(l_1+l_3)-(l_2+l_4)=m\\lambda$\nD $(l_1+l_3)-(l_2+l_4)=\\left(\\frac{2m-1}{2}\\right)\\lambda$"
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The Rayleigh criterion gives the minimum angular separation $\\theta\\approx\\lambda/b=(550\\times10^{-9})/(2.0\\times10^{-3})=2.75\\times10^{-4}\\ \\mathrm{rad}$. With screen distance $D$ and pixel spacing $x$, $\\tan(\\theta/2)=(x/2)/D$. Hence $x=2(0.76)\\tan[(2.75\\times10^{-4})/2]=2.1\\times10^{-4}\\ \\mathrm{m}=0.21\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Uses the distance from the midpoint to one pixel as the full separation.",
+        "B": "Correct.",
+        "C": "Uses the pupil radius in the criterion, doubling the required spacing.",
+        "D": "Uses the pupil radius and then doubles the full pixel spacing again."
+      }
+    },
+    "issues": "The key uses the syllabus approximation for aperture width. The circular-pupil factor of 1.22 gives about 0.25 mm, with B still the closest listed option.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires converting the Rayleigh angular limit to a physical spacing at the screen.",
+    "misconception": "Confusing angular separation with physical pixel spacing",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2024-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At equilibrium, the upward electric force is $F_E=qV/d=mg$, with $q$ the charge magnitude. Doubling $d$ halves the electric force to $mg/2$. The downward resultant is $mg-mg/2=0.5mg=ma$, so the drop accelerates downward at $0.5g$.",
+      "perOption": {
+        "A": "Gets the magnitude right but reverses the direction of the resultant force.",
+        "B": "Treats the wider plate separation as increasing the upward electric force and overestimates the resultant.",
+        "C": "Correct.",
+        "D": "Overestimates the acceleration even though the upward electric force reduces the downward resultant below the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires finding how the electric force changes and using the resulting force imbalance.",
+    "misconception": "Assuming field strength increases with plate separation at fixed voltage",
+    "transcription": "A charged oil drop is balanced halfway between two horizontal plates separated by a distance $d$ when a potential difference $V$ is applied between the plates.\n\n[Two horizontal plates with the drop midway between them. Double-headed vertical arrows span the plates and are labelled $d$ and $V$.]\n\nWhen $d$ is doubled and $V$ remains unchanged, what is the motion of the oil drop and its acceleration?\n\nOption | motion of oil drop | acceleration\nA | upwards | $0.5g$\nB | upwards | $2g$\nC | downwards | $0.5g$\nD | downwards | $2g$"
+  }
+]

@@ -1,0 +1,501 @@
+[
+  {
+    "id": "mi-2024-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Damping opposes the motion of the vibrating system. Its force therefore points opposite to the velocity.",
+      "perOption": {
+        "A": "Acceleration follows the resultant force, which includes the restoring force.",
+        "B": "Correct.",
+        "C": "When the system moves away from equilibrium, damping acts opposite to displacement.",
+        "D": "Proportionality to displacement describes the simple harmonic restoring force."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student must recognise the direction of damping.",
+    "misconception": "Linking damping to displacement",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $I\\propto a^2$, the amplitudes are $a$ and $2a$. They add in phase to give $3a$, so the resultant intensity is $9I$.",
+      "perOption": {
+        "A": "Applies the amplitude multiplier directly to intensity.",
+        "B": "Adds the individual intensities and omits interference.",
+        "C": "Correct.",
+        "D": "Uses the intensity ratio of four as the amplitude ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.a",
+      "superposition.e",
+      "wave-motion.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert intensities to amplitudes before combining them.",
+    "misconception": "Adding coherent intensities",
+    "transcription": "Two coherent waves, of intensities $I$ and $4I$, meet in phase at a point.\n\nWhat is the resultant intensity at that point?\n\nA $3I$\nB $5I$\nC $9I$\nD $25I$"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the fundamental mode, $\\lambda/2=1.0\\ \\mathrm{m}$, so $\\lambda=2.0\\ \\mathrm{m}$ and the midpoint moves. Doubling the frequency gives the second harmonic, with three nodes. In the fifth harmonic, $5\\lambda/2=1.0\\ \\mathrm{m}$, giving $\\lambda=0.4\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "The rope length is half a fundamental wavelength.",
+        "B": "The midpoint is an antinode in the fundamental mode.",
+        "C": "The second harmonic has three nodes, including both ends.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must count half-wavelengths and nodes for different harmonics.",
+    "misconception": "Excluding the fixed ends when counting nodes",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The Rayleigh criterion gives $\\theta\\approx\\lambda/b$. For a small angle, $\\theta\\approx\\tan\\theta=x/5.0$, where $x$ is the separation in metres. Thus $(700\\times10^{-9})/(30\\times10^{-3})=x/5.0$, giving $x=1.2\\times10^{-4}\\ \\mathrm{m}=0.12\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Halves the full point-to-point separation.",
+        "B": "Correct.",
+        "C": "This separation subtends a much larger angle than the Rayleigh limit.",
+        "D": "This value is a factor of 100 too large after conversion to millimetres."
+      }
+    },
+    "issues": "The key uses the syllabus single-aperture approximation. The circular-aperture Rayleigh factor of 1.22 would give approximately 0.14 mm, which is absent from the options.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine the syllabus resolution formula with small-angle geometry.",
+    "misconception": "Confusing angular and linear resolution",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Along the coordinate considered, $E=-\\mathrm{d}V/\\mathrm{d}r$. A zero field implies a zero local potential gradient and allows a nonzero potential. Likewise, a potential of zero can occur where the local gradient is nonzero.",
+      "perOption": {
+        "A": "This correctly describes the force per unit positive charge.",
+        "B": "Correct. Zero potential can occur where the gradient is nonzero.",
+        "C": "This correctly relates the field to the potential gradient.",
+        "D": "This correctly gives the inverse-square dependence for a point charge."
+      }
+    },
+    "issues": "The key explains what zero field implies, while option B asks what zero potential implies.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.f",
+      "energy-and-fields.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish potential from its local gradient.",
+    "misconception": "Confusing zero potential with zero potential gradient",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $40\\ \\mathrm{mA}$, the graph gives a diode p.d. of about $1.2\\ \\mathrm{V}$. The resistor p.d. is $6.0-1.2=4.8\\ \\mathrm{V}$. Hence $R=4.8/0.040=120\\ \\Omega$.",
+      "perOption": {
+        "A": "Divides the diode voltage by the series current.",
+        "B": "Correct.",
+        "C": "Uses the full battery voltage across the resistor.",
+        "D": "Adds the diode voltage to the battery voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read the diode voltage and calculate the voltage left across the resistor.",
+    "misconception": "Using the supply voltage across one series component",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At balance, $V_{AB}=V_{DE}=E_2$ because no current flows through the lower cell. The upper-loop potential divider gives $V_{AC}=3.0\\times6.0/(6.0+1.0)=2.571\\ \\mathrm{V}$. Since $L_{AB}/L_{AC}=V_{AB}/V_{AC}$, $L_{AB}=1.0\\times1.5/2.571=0.58\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This length spans only about $0.22\\ \\mathrm{V}$ at the actual wire gradient.",
+        "B": "This length spans only about $0.26\\ \\mathrm{V}$ at the actual wire gradient.",
+        "C": "Uses the full $3.0\\ \\mathrm{V}$ as the wire voltage.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the null-current branch and apply the driving-loop potential divider.",
+    "misconception": "Using the driving emf as the wire voltage",
+    "transcription": "A potentiometer circuit is set up by connecting a cell with e.m.f. $3.0\\ \\mathrm{V}$ and internal resistance $1.0\\ \\Omega$ across a resistance wire of length $1.0\\ \\mathrm{m}$ and resistance $6.0\\ \\Omega$.\n\nAnother cell of e.m.f. $1.5\\ \\mathrm{V}$ and internal resistance $0.60\\ \\Omega$ is connected to the bottom of the potentiometer:\n\n[The $3.0\\ \\mathrm{V}$ cell and its $1.0\\ \\Omega$ internal resistor are connected across the horizontal $6.0\\ \\Omega$ wire, with the positive terminal on the left. The $1.5\\ \\mathrm{V}$ cell has its positive terminal connected to the left end of the wire and its negative terminal connected through its $0.60\\ \\Omega$ internal resistor and ammeter A to a sliding contact.]\n\nWhat is the balance length for the circuit?\n\nA $0.086\\ \\mathrm{m}$\nB $0.10\\ \\mathrm{m}$\nC $0.50\\ \\mathrm{m}$\nD $0.58\\ \\mathrm{m}$"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric force on a positive particle points towards SR. The initial magnetic force points towards PQ to balance the electric force. Increasing the magnetic field strengthens the magnetic force while the electric force stays the same, so the particles deviate towards PQ.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the direction of the weaker electric force.",
+        "C": "The original force balance requires an in-plane magnetic force.",
+        "D": "Increasing the field preserves the initial upward magnetic force direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.l",
+      "electromagnetic-forces.m",
+      "electric-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer the magnetic force direction from the original undeflected path.",
+    "misconception": "Confusing magnetic field and magnetic force directions",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Faraday’s law gives $\\mathcal{E}=-\\Delta(N\\Phi)/\\Delta t=-NB\\,\\Delta A/\\Delta t$. From the graph, $\\mathcal{E}=-(1)(1.2)(6\\times10^{-3}-0)/(3-0)=-0.0024\\ \\mathrm{V}$. The magnitude is $2.4\\times10^{-3}\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Uses half the graph’s area gradient.",
+        "B": "Correct.",
+        "C": "Uses an area gradient of $3.0\\times10^{-3}\\ \\mathrm{m^2\\,s^{-1}}$, which is too steep.",
+        "D": "Uses the total flux change and omits division by the $3\\ \\mathrm{s}$ interval."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must turn the projected-area gradient into a flux-linkage rate.",
+    "misconception": "Using flux change without dividing by time",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The turns ratio gives $V_s/V_p=N_s/N_p=1/60$, so $V_s=2.0\\ \\mathrm{V}$. The secondary current is $I_s=2.0/3.0=0.667\\ \\mathrm{A}$. For an ideal transformer, $V_pI_p=V_sI_s$, so $120I_p=2.0(0.667)$ and $I_p=0.011\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the secondary current.",
+        "C": "This is the numerical value of the secondary voltage.",
+        "D": "Applies the primary voltage to the secondary load resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "circuits.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must chain the voltage ratio, Ohm’s law and equality of power.",
+    "misconception": "Confusing primary and secondary currents",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Visible wavelengths of $400$–$700\\ \\mathrm{nm}$ correspond via $E=hc/\\lambda$ to $1.7759$–$3.1078\\ \\mathrm{eV}$. The gaps to the $4.28\\ \\mathrm{eV}$ level from $6.12$, $6.81$ and $7.02\\ \\mathrm{eV}$ are $1.84$, $2.53$ and $2.74\\ \\mathrm{eV}$, respectively. These are the only three gaps in the visible range.",
+      "perOption": {
+        "A": "Omits two of the three visible transitions ending at $4.28\\ \\mathrm{eV}$.",
+        "B": "Omits one of the three visible transitions ending at $4.28\\ \\mathrm{eV}$.",
+        "C": "Correct.",
+        "D": "Every additional downward transition has an energy gap outside the visible range."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert a wavelength interval to energy and check several level differences.",
+    "misconception": "Counting levels instead of transition gaps",
+    "transcription": null
+  },
+  {
+    "id": "mi-2024-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the cutoff wavelength, $eV=hc/\\lambda_{\\min}$. Graph 2 has half the cutoff wavelength of Graph 1, so its accelerating voltage is doubled. The characteristic peaks stay at the same wavelengths, indicating the same target metal.",
+      "perOption": {
+        "A": "Reverses the voltage ratio and assigns different metals despite the matching peaks.",
+        "B": "The matching characteristic wavelengths indicate the same metal.",
+        "C": "Treats cutoff wavelength as directly proportional to voltage.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret cutoff and peak positions as evidence for two different quantities.",
+    "misconception": "Confusing cutoff and characteristic wavelengths",
+    "transcription": "An X-ray spectrum is shown below.\n\nGraph 1 shows the original spectrum obtained.\nGraph 2 shows the new spectrum obtained after a change has been made to the accelerating voltage.\n\nIn both graphs, the two peaks correspond to the characteristic lines $K_\\alpha$ and $K_\\beta$.\n\n[Intensity is plotted against wavelength. Graph 2 is above Graph 1 and starts at $\\lambda_0$, while Graph 1 starts at $2\\lambda_0$. Both have a $K_\\beta$ peak at $\\lambda_1$ and a $K_\\alpha$ peak at $\\lambda_2$.]\n\nWhich of the following is correct?\n\nColumns: Ratio of accelerating voltage associated with Graph 2 to accelerating voltage associated with Graph 1 | Target metal used to obtain both graphs\nA $\\frac{1}{2}$ | Different\nB $2$ | Different\nC $\\frac{1}{2}$ | Same\nD $2$ | Same"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The increase in total binding energy equals the gain in kinetic energy plus the gamma-ray energy. In MeV, $(39.25+28.48-64.94)=2.31+E_\\gamma$. Hence $E_\\gamma=0.48\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the total energy released, including the products’ kinetic energy.",
+        "C": "Subtracts the two product binding energies from each other instead of adding them.",
+        "D": "Compares only boron and lithium and omits the alpha particle’s binding energy."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the total energy release from the photon energy.",
+    "misconception": "Assigning all released energy to the gamma ray",
+    "transcription": "When an isotope of boron, ${}^{10}_{5}\\mathrm{B}$ captures a slow neutron, it splits into lithium ${}^{7}_{3}\\mathrm{Li}$ and an alpha particle. An emission of $\\gamma$-ray occurs during this reaction.\n\nThe nuclear binding energies of the reactants and products are\n\n${}^{10}_{5}\\mathrm{B}$: $64.94\\ \\mathrm{MeV}$\n${}^{7}_{3}\\mathrm{Li}$: $39.25\\ \\mathrm{MeV}$\n${}^{4}_{2}\\mathrm{He}$: $28.48\\ \\mathrm{MeV}$\n\nIf the total kinetic energies of the products produced is $2.31\\ \\mathrm{MeV}$, what is the energy of the $\\gamma$-ray emitted?\n\nA $0.48\\ \\mathrm{MeV}$\nB $2.79\\ \\mathrm{MeV}$\nC $10.77\\ \\mathrm{MeV}$\nD $25.69\\ \\mathrm{MeV}$"
+  },
+  {
+    "id": "mi-2024-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The range of beta-particle kinetic energies shows that the particles are emitted with a range of speeds. If the daughter nucleus and beta particle were the only products, energy and momentum conservation would fix both speeds for a given transition. The varying speeds indicate an additional particle that can carry energy and momentum.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Total charge is conserved and the neutrino is neutral.",
+        "C": "The decrease in rest mass accounts for the energy released and by itself gives no evidence of a neutrino.",
+        "D": "A neutrino does not produce a visible ionisation track in a cloud chamber."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.o"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must connect the beta energy spectrum to two-body decay kinematics.",
+    "misconception": "Assuming a fixed beta-particle energy share",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q1",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Tera denotes $10^{12}$. The factor $10^9$ denotes giga, so the tera entry is incorrect.",
+      "perOption": {
+        "A": "Pico correctly denotes $10^{-12}$.",
+        "B": "Nano correctly denotes $10^{-9}$.",
+        "C": "Mega correctly denotes $10^6$.",
+        "D": "Correct. Tera denotes $10^{12}$."
+      }
+    },
+    "issues": "The supplied key file is the question paper and contains no answer letter or worked solution. The batch keyAnswer A is a placeholder with answer-missing status. The derived answer is D.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.b"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student must recall standard SI prefix powers.",
+    "misconception": "Confusing tera with giga",
+    "transcription": "The table shows the abbreviations for multiples and sub-multiples and their corresponding powers of ten.\n\nWhich power of ten is not stated correctly?\n\nA pico $10^{-12}$\nB nano $10^{-9}$\nC mega $10^6$\nD tera $10^9$"
+  }
+]

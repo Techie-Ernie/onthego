@@ -1,0 +1,508 @@
+[
+  {
+    "id": "jpjc-2023-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange $\\mathbf Z=\\mathbf X-\\mathbf Y$ to give $\\mathbf X=\\mathbf Z+\\mathbf Y$. In B, following $\\mathbf Z$ and then $\\mathbf Y$ gives the same displacement as $\\mathbf X$.",
+      "perOption": {
+        "A": "Shows $\\mathbf Y-\\mathbf X$, which points downwards.",
+        "B": "Correct. The upward vector completes the head-to-tail sum.",
+        "C": "Shows $\\mathbf X+\\mathbf Y$.",
+        "D": "Shows $-(\\mathbf X+\\mathbf Y)$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must rearrange a vector difference and recognise the correct head-to-tail diagram.",
+    "misconception": "Reversing the direction of the vector difference.",
+    "transcription": "Two vectors X and Y are shown in the given diagram.\n\n[Vector X points diagonally up and right. Vector Y points horizontally right and has the same length as the horizontal component of X.]\n\nIn which vector diagram does the vector Z represent the difference between X and Y such that $\\mathbf Z=\\mathbf X-\\mathbf Y$?\n\nA [Y points right across the top, X points from the lower left to the upper right, and Z points down along the left side.]\nB [Y points right across the top, X points from the lower left to the upper right, and Z points up along the left side.]\nC [Y points right along the base and X continues up and right from its tip. Z points from the tail of Y to the tip of X.]\nD [Y points right along the base and X continues up and right from its tip. Z points from the tip of X to the tail of Y.]"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of energy gives $\\frac12mv_f^2=\\frac12mv_i^2+mg\\Delta h$, where $\\Delta h$ is the vertical drop. Both stones have the same initial kinetic energy per unit mass and the same loss of gravitational potential energy per unit mass, so they hit the ground with the same speed.",
+      "perOption": {
+        "A": "The extra upward travel gives P no extra net drop from launch to impact.",
+        "B": "Q’s initial downward direction gives it no extra kinetic energy per unit mass.",
+        "C": "Correct. Both stones have the same initial speed and vertical drop.",
+        "D": "A different cliff height changes both impact speeds equally."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "A single conservation argument resolves the comparison once the direction of launch is distinguished from speed.",
+    "misconception": "Treating launch direction as a factor in final speed.",
+    "transcription": "Two stones P and Q are thrown from the top of a cliff, one straight up and the other straight down, at the same initial speed. Both eventually hit the ground.\n\n[At the top of the cliff, an upward arrow is shown at P and a downward arrow at Q.]\n\nThe effect of air resistance on the stones is negligible.\n\nWhich statement will be true of the speeds with which the stones hit the ground?\nA Stone P hits the ground with the greater speed.\nB Stone Q hits the ground with the greater speed.\nC Both stones hit the ground with the same speed.\nD The comparative speeds of impact depend on the height of the cliff."
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=ut+\\frac12at^2$ with $u=0$, the first $10\\ \\mathrm{s}$ gives $24=\\frac12 a(10)^2$, so $a=0.48\\ \\mathrm{m\\,s^{-2}}$. In the first $25\\ \\mathrm{s}$, the object travels $\\frac12(0.48)(25)^2=150\\ \\mathrm{m}$. From $t=10\\ \\mathrm{s}$ to $t=25\\ \\mathrm{s}$ it travels $150-24=126\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Scales the first distance linearly with time, as if the speed were constant.",
+        "B": "Treats the object as starting from rest again at the 10-second mark.",
+        "C": "Correct. Subtract the first 24 m from the total after 25 s.",
+        "D": "Gives the total distance from release to 25 s."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation uses a standard kinematics equation and requires isolating the distance in the second interval.",
+    "misconception": "Treating the next 15 seconds as a new start from rest.",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The inextensible string gives both blocks the same acceleration magnitude $a$. For A, $T=2.0a$, and for B, $(5.0)(9.81)-T=5.0a$. Substituting gives $49.05-2.0a=5.0a$, so $a=7.0\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct. The tension pulls A towards the pulley.",
+        "B": "Treats B as if there were no upward tension.",
+        "C": "Using the difference of the masses as the inertia gives about 16 m s⁻².",
+        "D": "Equates the tension to the full weight of B."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must write a force equation for each block and eliminate the tension.",
+    "misconception": "Treating the hanging block as if it were in free fall.",
+    "transcription": "Two blocks A and B of masses $2.0\\ \\mathrm{kg}$ and $5.0\\ \\mathrm{kg}$ respectively are connected by an inextensible string as shown.\n\n[Block A is on a horizontal table. The string runs horizontally from A to a pulley at the right edge of the table, then vertically down to block B.]\n\nBoth the table and the pulley are frictionless.\n\nWhen B is released, what is the acceleration of A?\nA $7.0\\ \\mathrm{m\\,s^{-2}}$\nB $9.8\\ \\mathrm{m\\,s^{-2}}$\nC $16\\ \\mathrm{m\\,s^{-2}}$\nD $25\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the initial direction of mass $m$ as positive. Conservation of linear momentum gives $m(2v)+3m(-v)=(m+3m)V$, so $V=-v/4$. The speed of mass $m$ after the collision is $v/4$.",
+      "perOption": {
+        "A": "Correct. Both masses share this speed after sticking together.",
+        "B": "Using only the incoming momentum of mass $m$ gives $v/2$.",
+        "C": "Dividing the net momentum magnitude by $m$ alone ignores the mass stuck to it.",
+        "D": "Adds the incoming momenta as though both masses travelled in the same direction."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "A one-dimensional momentum equation gives the common velocity once signs are assigned.",
+    "misconception": "Adding the magnitudes of opposing momenta.",
+    "transcription": "Two masses $m$ and $3m$ move towards each other in opposite directions with speeds $2v$ and $v$ respectively.\n\nThe masses collide and stick together.\n\nWhat is the speed of mass $m$ after the collision?\nA $\\frac{v}{4}$\nB $\\frac{v}{2}$\nC $v$\nD $\\frac{5v}{4}$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The boat’s weight equals the upthrust, which is the weight of fresh water displaced, $35.6\\ \\mathrm{kN}$. In the sea the displaced seawater must have this same weight, $\\rho Vg$. Thus $V=\\frac{35.6\\times10^3}{(1024)(9.81)}=3.54\\ \\mathrm{m^3}$.",
+      "perOption": {
+        "A": "This volume would displace a weight roughly a thousand times the boat’s weight.",
+        "B": "Divides the displaced weight by seawater density without first dividing by $g$.",
+        "C": "Uses the density of fresh water to calculate the displaced volume.",
+        "D": "Correct. This volume of seawater weighs 35.6 kN."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires relating the given displaced weight to upthrust before using seawater density.",
+    "misconception": "Confusing displaced weight with displaced mass.",
+    "transcription": null
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $x=F/k$, spring X extends by $1.5/5.0=0.30\\ \\mathrm{m}$ and spring Y by $1.5/10.0=0.15\\ \\mathrm{m}$. Each spring stores $\\frac12kx^2$, so the total is $\\frac12(5)(0.30)^2+\\frac12(10)(0.15)^2=0.34\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Counts only the energy in spring X.",
+        "B": "Correct. Add the elastic energies of both springs.",
+        "C": "Uses the final force throughout the extension, omitting the factor of one half.",
+        "D": "Treats the applied force of 1.5 N as an energy in joules."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "forces-and-moments.c",
+      "energy-and-fields.k"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find two different extensions under the same force and sum the stored energies.",
+    "misconception": "Assuming springs in series have the same extension.",
+    "transcription": "A spring X of force constant $5.0\\ \\mathrm{N\\,m^{-1}}$ is connected in series with a spring Y of force constant $10.0\\ \\mathrm{N\\,m^{-1}}$ as shown. A force of $1.5\\ \\mathrm N$ is applied to the other end.\n\n[Spring X is on the left and spring Y is on the right, joined end to end. The right end of Y is fixed to a wall. The force of $1.5\\ \\mathrm N$ pulls the free end of X to the left.]\n\nWhat is the total elastic potential energy stored in the springs?\nA $0.23\\ \\mathrm J$\nB $0.34\\ \\mathrm J$\nC $0.68\\ \\mathrm J$\nD $1.5\\ \\mathrm J$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gravitational potential energy lost by Y equals the gravitational potential energy gained by X plus the kinetic energy gained by both boxes. With their common speed $v$, $3.0(9.81)(3.0)\\sin40^\\circ=2.0(9.81)(3.0)\\sin30^\\circ+\\frac12(2.0+3.0)v^2$. This gives $v\\approx3.3\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Swapping the two incline angles gives about this speed.",
+        "B": "Omits the factor of one half in the kinetic energy term.",
+        "C": "Correct. Both boxes share the calculated speed.",
+        "D": "Counts only Y’s kinetic energy in the energy balance."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find both vertical height changes and include both masses in the final kinetic energy.",
+    "misconception": "Counting only one box in the system’s kinetic energy.",
+    "transcription": "Two boxes X and Y of masses $2.0\\ \\mathrm{kg}$ and $3.0\\ \\mathrm{kg}$ respectively are connected by a light inextensible rope passing over a smooth pulley. X and Y are on smooth inclined planes.\n\nX starts from rest and moves up the plane inclined at $30^\\circ$ to the horizontal.\n\n[X is on the left incline at $30^\\circ$ and Y on the right incline at $40^\\circ$. The rope passes over the pulley at the top. A double-headed arrow along X’s incline is labelled $3.0\\ \\mathrm m$.]\n\nWhat will be the final speed of Y after X has travelled $3.0\\ \\mathrm m$ along the plane?\nA $1.6\\ \\mathrm{m\\,s^{-1}}$\nB $2.3\\ \\mathrm{m\\,s^{-1}}$\nC $3.3\\ \\mathrm{m\\,s^{-1}}$\nD $4.3\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For $m_1$, $\\frac{m_1v^2}{L+e}=ke$, so $v^2=\\frac{ke(L+e)}{m_1}$. For $m_2$, $\\frac{m_2v^2}{2(L+e)}=k[2(L+e)-L]=k(L+2e)$. Substituting for $v^2$ in $m_2=\\frac{2k(L+e)(L+2e)}{v^2}$ gives $m_2=\\frac{2m_1(L+2e)}{e}$.",
+      "perOption": {
+        "A": "Uses the first stretched length $L+e$ as the second extension.",
+        "B": "Correct. The second extension is $L+2e$.",
+        "C": "Doubles $L$ while leaving $e$ unchanged in the second extension.",
+        "D": "Uses the entire second radius as the extension."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Doubling the radius changes both its value in the centripetal force equation and the extension that sets the tension.",
+    "misconception": "Using the stretched length in Hooke’s law.",
+    "transcription": "A mass $m_1$ is attached to one end of an elastic string of an unstretched length $L$. When the mass is rotating with a linear speed $v$ on a smooth table in a horizontal circle, an extension $e$ is obtained.\n\nA second mass $m_2$ rotates with the same linear speed $v$. The radius is twice that produced by $m_1$.\n\nWhat is the mass $m_2$?\nA $\\frac{2m_1(L+e)}{e}$\nB $\\frac{2m_1(L+2e)}{e}$\nC $\\frac{2m_1(2L+e)}{e}$\nD $\\frac{2m_1(2L+2e)}{e}$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of energy gives $mgh=\\frac12mv^2$, so $v^2=2gh$ at the bottom. Newton’s second law there gives $R-mg=\\frac{mv^2}{r}$, hence $R=\\frac{2mgh}{r}+mg$. The semicircular ramp shown has $r=h$, so $R=3mg$.",
+      "perOption": {
+        "A": "Assumes the normal force balances the weight even though the skateboarder has upward acceleration.",
+        "B": "Gives only the net upward force, omitting the weight when finding the contact force.",
+        "C": "Correct. The ramp supplies both the force to balance weight and the net upward force.",
+        "D": "Overstates the required net upward force as $3mg$ instead of $2mg$."
+      }
+    },
+    "issues": "The key takes $h=r$ from the semicircular diagram. The stem gives no explicit equality, and the general result is $R=mg+2mgh/r$.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain the speed from energy conservation, then identify the net radial force at the bottom.",
+    "misconception": "Equating the normal force to the centripetal force.",
+    "transcription": "A skateboarder rests on top of a smooth ramp of height $h$ and radius of curvature $r$. He moves off from his position of rest at A and slides down the smooth ramp.\n\n[A is at the left lip of a smooth semicircular ramp. The height $h$ is marked vertically from the lip to the level of the lowest point. The radius $r$ is marked from the arc towards its centre at lip height.]\n\nThe mass of the skateboarder is $m$.\n\nWhat is the magnitude of the contact force $R$ exerted by the ramp on the skateboarder at the lowest point of the ramp?\nA $mg$\nB $2mg$\nC $3mg$\nD $4mg$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational potential is zero at infinity, so the change from $-30$ to $-70\\ \\mathrm{MJ\\,kg^{-1}}$ means the satellite moves closer to Earth. The change in potential energy is $50[-70-(-30)]=-2000\\ \\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Correct. The satellite moves closer and loses 2000 MJ.",
+        "B": "Uses the potential change per kilogram as the total energy change.",
+        "C": "Interprets the decrease in potential as a move farther away and a gain in energy.",
+        "D": "Reverses the direction of the change and omits the mass factor."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.f",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must interpret a more negative potential and multiply the potential change by the satellite’s mass.",
+    "misconception": "Confusing gravitational potential with gravitational potential energy.",
+    "transcription": "A satellite of mass $50\\ \\mathrm{kg}$ moves from a point where the gravitational potential due to the Earth is $-30\\ \\mathrm{MJ\\,kg^{-1}}$ to another point where the gravitational potential is $-70\\ \\mathrm{MJ\\,kg^{-1}}$.\n\nDuring this change of position, it has moved\n\nA closer to the Earth and lost $2000\\ \\mathrm{MJ}$ of potential energy.\nB closer to the Earth and lost $40\\ \\mathrm{MJ}$ of potential energy.\nC further from the Earth and gained $2000\\ \\mathrm{MJ}$ of potential energy.\nD further from the Earth and gained $40\\ \\mathrm{MJ}$ of potential energy."
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In process A, $pV=nRT$ gives a doubling of temperature at constant pressure, and the gas does work $p\\Delta V=4P_{\\mathrm o}(2V_{\\mathrm o}-V_{\\mathrm o})=4P_{\\mathrm o}V_{\\mathrm o}$. In B, the volume is constant so $W=0$ and $\\Delta U=Q$. The pressure falls, so the temperature and internal energy decrease, making $Q$ negative. The graph alone does not establish that process C has zero heat exchange.",
+      "perOption": {
+        "A": "At fixed pressure, doubling the volume doubles the absolute temperature.",
+        "B": "The constant pressure $4P_{\\mathrm o}$ multiplied by the volume increase $V_{\\mathrm o}$ gives the stated work.",
+        "C": "The fall in internal energy at constant volume requires heat to leave the gas.",
+        "D": "Correct. Zero heat exchange in process C is not established."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must interpret three paths and use both the ideal gas equation and the first law.",
+    "misconception": "Assuming a curved pressure–volume path is adiabatic.",
+    "transcription": "A fixed mass of ideal gas undergoes changes in pressure $p$ and volume $V$ starting with process A, as shown.\n\n[Graph with $p$ on the vertical axis and $V$ on the horizontal axis. A goes right from $(V_{\\mathrm o},4P_{\\mathrm o})$ to $(2V_{\\mathrm o},4P_{\\mathrm o})$. B goes vertically down to $(2V_{\\mathrm o},P_{\\mathrm o})$. C curves up and left back to $(V_{\\mathrm o},4P_{\\mathrm o})$.]\n\nWhich statement about the processes is not necessarily true?\nA Temperature of the gas is doubled in process A.\nB Work done by the gas in process A is $4P_{\\mathrm o}V_{\\mathrm o}$.\nC Heat is removed from the system in process B.\nD There is no heat exchange in process C."
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV=nRT$, tripling both $p$ and $V$ multiplies the absolute temperature by nine. The new temperature is $(200+273)\\times9=4257\\ \\mathrm K$, or $3984\\,^\\circ\\mathrm C\\approx4000\\,^\\circ\\mathrm C$. Since $\\frac12mv^2=\\frac32kT$, the rms speed scales with $\\sqrt T$ and becomes $3v$.",
+      "perOption": {
+        "A": "Multiplies the Celsius temperature by nine.",
+        "B": "Multiplies the Celsius temperature by nine and assumes speed scales directly with absolute temperature.",
+        "C": "Correct. The absolute temperature increases ninefold and the rms speed threefold.",
+        "D": "Assumes the rms speed increases in direct proportion to absolute temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must scale absolute temperature and then apply a square-root relationship for molecular speed.",
+    "misconception": "Scaling Celsius temperature directly or taking rms speed as proportional to temperature.",
+    "transcription": "In an ideal gas at $200\\,^\\circ\\mathrm C$, the molecules are travelling at a root-mean-square speed $v$.\n\nBoth the pressure and volume of the gas are then tripled.\n\nWhat are the temperature of the gas and the root-mean-square speed of the molecules?\n\nOption | temperature / °C | root-mean-square speed of molecules\nA | 1800 | $3v$\nB | 1800 | $9v$\nC | 4000 | $3v$\nD | 4000 | $9v$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At fixed mass and amplitude, the maximum kinetic energy is proportional to the square of the frequency. The potential energy is maximum at the turning points, where the oscillator is momentarily at rest, and the kinetic energy is maximum at equilibrium. The energies are equal at positions between equilibrium and the turning points.",
+      "perOption": {
+        "A": "At fixed mass and amplitude, maximum kinetic energy scales with the square of frequency.",
+        "B": "The potential energy is maximum when the oscillator is momentarily at rest.",
+        "C": "The kinetic energy is maximum at equilibrium.",
+        "D": "Correct. The two energies are equal between equilibrium and the turning points."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the energy extrema and recognise where the two energy stores can be equal.",
+    "misconception": "Confusing equilibrium with a turning point.",
+    "transcription": "Which statement about a simple harmonic oscillator is correct?\n\nA The maximum kinetic energy of the oscillator is proportional to the frequency of its motion.\nB The potential energy of the oscillator is minimum when the oscillator is momentarily at rest.\nC The kinetic energy of the oscillator is zero when the oscillator is at the equilibrium position.\nD When the kinetic energy of the oscillator is equal to its potential energy, the oscillator is neither at the rest position nor at the maximum displacement positions."
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $v_0=x_0\\omega$ and $\\omega=2\\pi/T$, the amplitude is $x_0=\\frac{3.0(0.063)}{2\\pi}=0.030\\ \\mathrm m$. Then $a_0=\\omega^2x_0=(2\\pi/0.063)^2(0.030)=298\\ \\mathrm{m\\,s^{-2}}\\approx300\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Using $\\omega x_0$ gives the maximum speed, so it misses a factor of $\\omega$ in the acceleration.",
+        "B": "Correct. Use $v_0=\\omega x_0$ and $a_0=\\omega^2x_0$.",
+        "C": "Uses ordinary frequency to obtain the amplitude and omits a factor of angular frequency in calculating acceleration.",
+        "D": "Uses ordinary frequency in the amplitude calculation, making both values too large."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Two standard SHM relations give the amplitude and acceleration once the period is converted to angular frequency.",
+    "misconception": "Confusing ordinary frequency and angular frequency.",
+    "transcription": "A body performs simple harmonic motion with a period of $0.063\\ \\mathrm s$. The maximum speed of the body is $3.0\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat are the values of the amplitude $x_0$ and maximum acceleration $a_0$?\n\nOption | $x_0/\\mathrm m$ | $a_0/\\mathrm{m\\,s^{-2}}$\nA | 0.030 | 3.0\nB | 0.030 | 300\nC | 0.19 | 19\nD | 0.19 | 1900"
+  }
+]

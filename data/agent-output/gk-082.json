@@ -1,0 +1,514 @@
+[
+  {
+    "id": "njc-2024-prelim-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential at P is lower than at R, so $\\Delta V=V_P-V_R<0$. For a negative charge, $q<0$, so the external work is $W=q\\Delta V>0$.",
+      "perOption": {
+        "A": "At P the force is leftward for a positive charge and rightward for a negative charge.",
+        "B": "By $E=-\\mathrm{d}V/\\mathrm{d}r$, the steeper slope at P gives a stronger field there.",
+        "C": "Correct. Both the charge and the potential change are negative.",
+        "D": "For a positive charge, $U=qV$ is lower at P because its potential is more negative."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Reads both potentials and slopes and tracks the charge sign.",
+    "misconception": "Confusing electric potential and potential energy",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $F=ma$ gives $eE=m_ea$. With $E=V/d$, the acceleration is $a=e(V/d)/m_e=5.3\\times10^{17}\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "This value would require a much smaller field than $4.5\\ \\mathrm{kV}$ across $1.5\\ \\mathrm{mm}$.",
+        "B": "This value underestimates the force $eV/d$ on the electron.",
+        "C": "This is consistent with using the separation in millimetres in the SI calculation and dropping the factor 1.60 in the charge.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Combines the uniform field formula with Newton’s second law.",
+    "misconception": "Using voltage as field strength",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In diagram 2, the side junctions are at the same potential because they each sit between two identical lamps in a series path across the battery. The wire between those junctions has no effect on the lamp currents, so all four lamps have normal brightness.",
+      "perOption": {
+        "A": "The wire joins the side junctions, so P and Q each still have a potential difference across them.",
+        "B": "The identical lamp groups share the battery voltage equally, so neither changes brightness.",
+        "C": "Correct.",
+        "D": "Each lamp still receives half the battery terminal voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires recognising equipotential junctions in the rearranged circuit.",
+    "misconception": "Mistaking an equipotential link for a short across a lamp",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The battery supplies $10.0+50.0=60.0\\ \\mathrm{J}$, so its e.m.f. is $W/Q=60.0/20.0=3.00\\ \\mathrm{V}$. The potential differences across $r$ and $R$ are $10.0/20.0=0.50\\ \\mathrm{V}$ and $50.0/20.0=2.50\\ \\mathrm{V}$ respectively.",
+      "perOption": {
+        "A": "All three voltages are doubled, as if the energies were divided by 10 C instead of 20.0 C.",
+        "B": "This doubles the voltages and assigns the larger drop to the internal resistor.",
+        "C": "This swaps the voltage drops across the two resistors.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.g",
+      "currents.c",
+      "currents.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires calculating energy per unit charge for each resistor and for the battery.",
+    "misconception": "Swapping internal and external voltage drops",
+    "transcription": "A battery with internal resistance $r$ is connected to a resistor $R$ as shown in the figure below. A constant current passes through $R$. When a charge of $20.0\\ \\mathrm{C}$ passes through the circuit, the heat dissipated in $r$ is $10.0\\ \\mathrm{J}$ and the heat dissipated in $R$ is $50.0\\ \\mathrm{J}$.\n\n[Single series loop with a cell and internal resistor $r$ inside a dashed battery outline, and an external resistor $R$.]\n\nWhat is the e.m.f. of the battery and the potential differences across $r$ and $R$?\n\nColumns in order are e.m.f. of the battery, potential difference across $r$, and potential difference across $R$.\nA. $6.00\\ \\mathrm{V}$, $1.00\\ \\mathrm{V}$, $5.00\\ \\mathrm{V}$\nB. $6.00\\ \\mathrm{V}$, $5.00\\ \\mathrm{V}$, $1.00\\ \\mathrm{V}$\nC. $3.00\\ \\mathrm{V}$, $2.50\\ \\mathrm{V}$, $0.50\\ \\mathrm{V}$\nD. $3.00\\ \\mathrm{V}$, $0.50\\ \\mathrm{V}$, $2.50\\ \\mathrm{V}$"
+  },
+  {
+    "id": "njc-2024-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The forces on XY and ZW are equal and opposite, forming a couple. Its maximum torque is $\\tau=NBILd=(20)(0.80)I(0.17)(0.11)=1.35\\ \\mathrm{N\\,m}$, giving $I=4.5\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This doubles the current by using half the separation as the couple arm.",
+        "C": "This is ten times too large, as if only two turns contributed.",
+        "D": "This is the current required for a single turn."
+      }
+    },
+    "issues": "The vertex and pole labels are displaced in the question PNG.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying the force pair and using the full perpendicular separation to find its torque.",
+    "misconception": "Using half the separation as the couple arm",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $q$ be the magnitude of the ion charge. From the source to the container, the loss of electric potential energy becomes kinetic energy, so $qV=\\tfrac12 mv^2$ and $v^2=2V(q/m)$. For no deflection, $Bqv=q(V/d)$, giving $v=V/(Bd)$. Substituting gives $q/m=V/(2B^2d^2)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This puts the factor of two in the numerator when solving the energy equation.",
+        "C": "This gives the reciprocal, the mass-to-charge magnitude ratio.",
+        "D": "This has units of mass per charge and also misplaces the factor of two."
+      }
+    },
+    "issues": "The key uses the magnitude of the negative ion’s charge-to-mass ratio, as implied by all four options.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.m",
+      "electric-fields.g",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Combines the energy gained during acceleration with the speed selected by crossed fields.",
+    "misconception": "Failing to square the selected speed",
+    "transcription": "A part of a mass spectrometer is shown in the figure below. Negative ions are generated at the source S with negligible speed, which is at a potential of $-V$ with respect to the hollow metal container. Inside the container, there are parallel plates separated by distance $d$ and a uniform magnetic field $B$ is applied to the region between the parallel plates.\n\n[Source S at $-V$ is to the left of a hollow metal container at $0\\ \\mathrm{V}$. The horizontal ion path passes between parallel plates with potential difference $V$. Electric field arrows point downwards between the plates and crosses mark the region of magnetic field $B$ into the page.]\n\nIf the potential difference between the parallel plates is $V$, what is the charge to mass ratio of the ions that can pass through the fields undeviated?\n\nA. $\\frac{V}{2B^2d^2}$\nB. $\\frac{2V}{B^2d^2}$\nC. $\\frac{2B^2d^2}{V}$\nD. $\\frac{B^2d^2}{2V}$"
+  },
+  {
+    "id": "njc-2024-prelim-p1-q25",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In one turn, a radius of length $L$ sweeps area $\\pi L^2$. The e.m.f. magnitude is $B\\pi L^2/T=B\\pi L^2/(2\\pi/\\omega)=\\tfrac12 B L^2\\omega$. Between R and S it is $\\tfrac12 B\\omega[r^2-(r/2)^2]=\\tfrac34 E$.",
+      "perOption": {
+        "A": "This is the e.m.f. between O and S.",
+        "B": "This assumes e.m.f. scales linearly with radius.",
+        "C": "Correct.",
+        "D": "This uses the full O-to-R e.m.f. and ignores the O-to-S contribution."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires finding the squared-radius dependence and subtracting the two centre-to-point e.m.f.s.",
+    "misconception": "Assuming e.m.f. scales linearly with radius",
+    "transcription": "The figure below shows a copper disc rotating at constant angular speed about its centre O in a uniform magnetic field acting perpendicular to the page. Point R is at a distance $r$ from the centre O. The induced e.m.f. between O and R is $E$.\n\nPoint S is at a distance $\\frac r2$ from O.\n\n[A copper disc with centre O rotates clockwise in a uniform magnetic field perpendicular to the page. R is on the upper-left rim and S is above and to the right of O, inside the disc.]\n\nWhat is the induced e.m.f. between R and S?\n\nA. $E/4$\nB. $E/2$\nC. $3E/4$\nD. $E$"
+  },
+  {
+    "id": "njc-2024-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The decreasing clockwise outer current reduces the inward magnetic flux linkage through the inner loop. By Lenz’s law, the induced current flows clockwise to oppose that decrease. The outer current and hence the flux linkage decrease at a constant rate, so the induced e.m.f. and current are constant.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A constant rate of flux change gives a constant current.",
+        "C": "This follows the falling flux itself instead of its constant rate of change.",
+        "D": "An anticlockwise current would reinforce the reduction in inward flux, and the constant slope gives a constant induced current."
+      }
+    },
+    "issues": "The graph contains displaced labels and stray line fragments. The key interprets the descending straight segment as the intended trace.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Uses the graph slope for the magnitude and Lenz’s law for the direction.",
+    "misconception": "Confusing flux linkage with its rate of change",
+    "transcription": "Fig. (a) shows two concentric circular conductors lying in the same plane. The current in the outer loop is clockwise and changes with time as shown in Fig. (b).\n\n[Fig. (a) shows a circular inner loop surrounded by a concentric outer loop marked with a clockwise arrow. Fig. (b) is a current–time graph with a descending straight segment, detached labels and stray line fragments near the origin.]\n\nThe induced current in the inner loop is\n\nA. constant in the clockwise direction.\nB. increasing linearly with time in the clockwise direction.\nC. decreasing linearly with time in the clockwise direction.\nD. increasing linearly with time in the anticlockwise direction."
+  },
+  {
+    "id": "njc-2024-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Clockwise current passes through the $200\\ \\Omega$ resistor only. Anticlockwise current passes through both resistors, so that half-cycle has a smaller current magnitude.",
+      "perOption": {
+        "A": "The alternating source drives current through the resistor on both half-cycles, so the trace varies with time.",
+        "B": "Correct.",
+        "C": "The current through the resistor reverses and has unequal peak magnitudes.",
+        "D": "This suppresses one half-cycle, during which the other diode provides a conducting path."
+      }
+    },
+    "issues": "The option graphs have displaced axes and stray marks. B shows the intended opposite-polarity half-cycles with unequal magnitudes.",
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires following both diode paths and comparing the resulting current peaks.",
+    "misconception": "Treating the resistor current as half-wave rectified",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Photocurrent is proportional to light intensity, and intensity is proportional to amplitude squared. Thus $A_P/A_Q=\\sqrt{I_P/I_Q}=\\sqrt{4/1}=2.0$, where $I$ is the photocurrent.",
+      "perOption": {
+        "A": "This reverses the photocurrent ratio and omits the square root.",
+        "B": "This takes the square root of the reciprocal ratio.",
+        "C": "Correct.",
+        "D": "This uses the photocurrent ratio directly as the amplitude ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "wave-motion.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Links photocurrent to intensity and takes the square root of the ratio.",
+    "misconception": "Treating amplitude as proportional to intensity",
+    "transcription": "Two beams P and Q of light of the same wavelength is incident on the same metal surface causing photoelectrons to be emitted.\n\nThe photoelectric current produced by P is four times that produced by Q.\n\nWhich of the following gives the ratio $\\frac{\\text{amplitude of wave P}}{\\text{amplitude of wave Q}}$?\n\nA. 0.25\nB. 0.50\nC. 2.0\nD. 4.0"
+  },
+  {
+    "id": "njc-2024-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking $600\\ \\mathrm{nm}$ as an approximate red wavelength gives $E=hc/\\lambda\\approx [(6.63\\times10^{-34})(3\\times10^8)/(600\\times10^{-9})]/(1.6\\times10^{-19})=2.1\\ \\mathrm{eV}$. The $E_6$ to $E_5$ gap is closest to this value.",
+      "perOption": {
+        "A": "The 0.055 eV gap gives an infrared photon.",
+        "B": "Correct. The neon transition releases 1.964 eV.",
+        "C": "The 8.159 eV gap gives an ultraviolet photon.",
+        "D": "The 15.578 eV gap gives an ultraviolet photon."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires estimating the energy of a red photon and comparing it with level differences.",
+    "misconception": "Using a level energy instead of the energy gap",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The final nucleon number is $232-4+0+0+0-4=224$. The final proton number is $90-2+1+1+0-2=88$, giving $^{224}_{88}\\mathrm{Ra}$.",
+      "perOption": {
+        "A": "This misses both the eight-nucleon loss and the net change of two protons.",
+        "B": "This gives the right proton number but undercounts the nucleon loss by two.",
+        "C": "This omits the increase of one proton in each beta-minus decay.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.c",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires tracking the separate nucleon and proton number changes.",
+    "misconception": "Ignoring the proton-number increase in beta-minus decay",
+    "transcription": "Thorium $^{232}_{90}\\mathrm{Th}$ decays through a series of transformations. The particles emitted in successive transformations are\n\n$\\alpha\\quad\\beta\\quad\\beta\\quad\\gamma\\quad\\alpha$\n\nThe resulting nuclide may be represented by\n\nA. $^{230}_{82}\\mathrm{Pb}$\nB. $^{226}_{88}\\mathrm{Ra}$\nC. $^{224}_{86}\\mathrm{Rn}$\nD. $^{224}_{88}\\mathrm{Ra}$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "One coin has a mass of order $10^1\\ \\mathrm{g}$. Twelve coins have a total mass of order $10^2\\ \\mathrm{g}$.",
+      "perOption": {
+        "A": "This is approximately the mass of one paper clip.",
+        "B": "This is approximately the mass of one coin.",
+        "C": "Correct.",
+        "D": "A kilogram is an unreasonably large estimate for twelve coins."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Uses a familiar mass estimate and scales it to twelve coins.",
+    "misconception": "Estimating the mass of one coin instead of twelve",
+    "transcription": null
+  },
+  {
+    "id": "njc-2025-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The volume is $\\pi(d/2)^2h$, so the density is $\\rho=4m/(\\pi h d^2)$. Adding the percentage uncertainties, with the diameter contribution doubled, gives $10\\%+2(3\\%)+2\\%=18\\%$.",
+      "perOption": {
+        "A": "This counts only the height uncertainty.",
+        "B": "This leaves out the mass uncertainty and counts the diameter uncertainty only once.",
+        "C": "This counts the diameter uncertainty only once despite the squared diameter.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires expressing density in terms of the measurements and doubling the diameter contribution.",
+    "misconception": "Counting the diameter uncertainty only once",
+    "transcription": "A student takes measurements to calculate the density of a liquid in a beaker.\n\nThe height of the liquid is $0.20\\ \\mathrm{m}\\pm2\\%$.\n\nThe internal diameter of the beaker is $0.05\\ \\mathrm{m}\\pm3\\%$.\n\nThe mass of the liquid is $0.36\\ \\mathrm{kg}\\pm10\\%$.\n\nWhat is the percentage uncertainty in the calculated density of the liquid?\n\nA. $2\\%$\nB. $5\\%$\nC. $15\\%$\nD. $18\\%$"
+  },
+  {
+    "id": "njc-2025-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take upward as positive, so the acceleration is $-9.81\\ \\mathrm{m\\,s^{-2}}$. The displacement is $s=ut+\\tfrac12at^2=(15.0)(2.00)+\\tfrac12(-9.81)(2.00)^2=10.4\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This is too small after subtracting the gravitational term of 19.62 m from 30.0 m.",
+        "B": "Correct.",
+        "C": "This is approximately the maximum height, reached before 2.00 s.",
+        "D": "This exceeds the maximum height reached by the stone."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires one substitution in the constant-acceleration displacement equation.",
+    "misconception": "Using maximum height as the displacement at the specified time",
+    "transcription": null
+  }
+]

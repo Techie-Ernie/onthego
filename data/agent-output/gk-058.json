@@ -1,0 +1,512 @@
+[
+  {
+    "id": "hci-2022-prelim-p1-q21",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rated values give $R_X=10^2/20=5.0\\ \\Omega$ and $R_Y=5^2/2=12.5\\ \\Omega$. The series voltage divider gives $V_X=15.0(5.0)/(12.5+5.0)=4.3\\ \\mathrm V$ and $V_Y=15.0(12.5)/(12.5+5.0)=10.7\\ \\mathrm V$. Using $P=V^2/R$ with these resistances, X dissipates less than $20\\ \\mathrm W$ and Y dissipates more than $2\\ \\mathrm W$.",
+      "perOption": {
+        "A": "Assumes each bulb receives its rated voltage.",
+        "B": "Reverses which bulb is above its rated voltage.",
+        "C": "Correct. X is below its rated power and Y is above its rated power.",
+        "D": "Treats Y as underpowered even though its p.d. exceeds 5 V."
+      }
+    },
+    "issues": "Working continues on page 4. The key prints 12.0 for Y's divider numerator, but 12.5 Ω gives its stated 10.7 V.",
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the lamp resistances from their ratings and applying the voltage divider.",
+    "misconception": "Treating rated power as actual power",
+    "transcription": "Two bulbs are connected in series to a $15\\ \\mathrm V$ power supply. Bulb X is rated $10\\ \\mathrm V$, $20\\ \\mathrm W$ and Bulb Y is rated $5\\ \\mathrm V$, $2\\ \\mathrm W$.\n\n[One series loop contains the $15\\ \\mathrm V$ supply, an open switch and bulbs X and Y.]\n\nWhich of the following best describes the power output of the bulbs when the switch is closed?\n\nPower output of bulb X | Power output of bulb Y\nA. $20\\ \\mathrm W$ | $2\\ \\mathrm W$\nB. greater than $20\\ \\mathrm W$ | smaller than $2\\ \\mathrm W$\nC. smaller than $20\\ \\mathrm W$ | greater than $2\\ \\mathrm W$\nD. smaller than $20\\ \\mathrm W$ | smaller than $2\\ \\mathrm W$"
+  },
+  {
+    "id": "hci-2022-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resistance is $R=\\rho l/A$, and the volume $lA$ is constant. Hence $R=\\rho l^2/(lA)$ is proportional to $l^2$, so the graph rises with an increasing gradient.",
+      "perOption": {
+        "A": "Correct. The resistance is proportional to the square of the length.",
+        "B": "Treats cross-sectional area as fixed, giving a linear increase.",
+        "C": "Confuses constant volume with constant resistance.",
+        "D": "Predicts a decrease although the longer wire is also thinner."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires substituting the fixed-volume constraint before selecting a graph.",
+    "misconception": "Holding cross-sectional area constant across wires",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the right-hand grip rule for each wire. At O the fields from P and R point up and left, while those from Q and S point up and right. The fields have equal magnitudes, so the horizontal components cancel and the vertical components add upwards.",
+      "perOption": {
+        "A": "Correct. All four vertical components point upwards.",
+        "B": "Keeps a rightward component that is cancelled by equal leftward components.",
+        "C": "Reverses the vertical directions found with the grip rule.",
+        "D": "Keeps a leftward component that is cancelled by equal rightward components."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying the grip rule four times and adding the field components.",
+    "misconception": "Taking the field to point along the line to the wire",
+    "transcription": "Four parallel straight wires carrying equal currents pass through four corners of a square PQRS as shown below. The currents in wires P and Q are directed out of the page and the currents in wires R and S are directed into the page.\n\nWhich one of the options gives the direction of the resultant magnetic field at O?\n\n[Square with Q at top left, R at top right, P at bottom left and S at bottom right. O is the centre. The option arrows from O are A upwards, B rightwards, C downwards and D leftwards.]"
+  },
+  {
+    "id": "hci-2022-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A high steady direct current in X produces a large, constant flux linkage in Y. With no change in flux linkage, there is no induced e.m.f. and the voltmeter gives no reading.",
+      "perOption": {
+        "A": "A rapid increase in current changes Y's flux linkage and induces an e.m.f.",
+        "B": "Even a slow decrease changes Y's flux linkage and induces an e.m.f.",
+        "C": "An alternating current changes Y's flux linkage even at low amplitude.",
+        "D": "Correct. A steady direct current gives constant flux linkage."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.d",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing steady magnetic flux linkage from changing linkage.",
+    "misconception": "Assuming a large steady flux induces an e.m.f.",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Loops 3 and 4 have constant magnetic flux linkage, so neither has an induced e.m.f., induced current or magnetic force. Loop 2 loses outward flux, so by Lenz’s law it carries an anticlockwise induced current and Fleming’s left-hand rule gives a downward force. Loop 1 gains outward flux, so its induced current is clockwise and the force is upwards.",
+      "perOption": {
+        "A": "Includes loop 2, whose induced current produces a downward force.",
+        "B": "Assigns an upward force to loop 2 as it leaves the field.",
+        "C": "Correct. Only loop 1 experiences an upward force.",
+        "D": "Assumes motion within a uniform field changes flux linkage through the loops."
+      }
+    },
+    "issues": "The key’s final parenthetical says loop 2 where the upward force refers to loop 1.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Requires tracking flux changes and converting the resulting induced currents into force directions.",
+    "misconception": "Assuming any loop moving in a magnetic field experiences a net force",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the upper diode is forward-biased, the total resistance is $1\\ \\mathrm{k}\\Omega$, so the peak current is $V_{\\mathrm{peak}}/(1\\ \\mathrm{k}\\Omega)$. In the other half-cycle the diode in series with the $5\\ \\mathrm{k}\\Omega$ resistor conducts, so the total resistance is $6\\ \\mathrm{k}\\Omega$. Its peak current is $V_{\\mathrm{peak}}/(6\\ \\mathrm{k}\\Omega)$, smaller and in the opposite direction.",
+      "perOption": {
+        "A": "Treats both conducting paths as having equal resistance.",
+        "B": "Correct. The opposite-direction half-cycle has a smaller peak magnitude.",
+        "C": "Ignores the current through the lower branch in the reverse half-cycle.",
+        "D": "Shows both half-cycles flowing in the same direction."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.j",
+      "circuits.b",
+      "circuits.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires tracing conduction separately in both halves of the a.c. cycle.",
+    "misconception": "Assuming antiparallel diodes give equal or same-direction currents",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The shortest wavelength is $0.02\\ \\mathrm{nm}$, so the largest photon energy is $E=hc/\\lambda=(6.63\\times10^{-34})(3\\times10^8)/(0.02\\times10^{-9})=9.945\\times10^{-15}\\ \\mathrm J$. The electron must gain this energy from the accelerating field, so $(1.6\\times10^{-19})V=9.945\\times10^{-15}$ and $V\\approx62\\,000\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Uses the right-hand wavelength of $0.10\\ \\mathrm{nm}$.",
+        "B": "Uses the characteristic peak near $0.05\\ \\mathrm{nm}$.",
+        "C": "Uses the characteristic peak near $0.07\\ \\mathrm{nm}$.",
+        "D": "Correct. The shortest wavelength sets the minimum accelerating voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires reading the wavelength cutoff and linking photon energy to the accelerating potential.",
+    "misconception": "Using a characteristic peak instead of the short-wavelength cutoff",
+    "transcription": null
+  },
+  {
+    "id": "hci-2022-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Balancing nucleon and proton numbers gives $^{235}_{92}\\mathrm U+{}^{1}_{0}\\mathrm n\\to{}^{144}_{56}\\mathrm{Ba}+{}^{90}_{36}\\mathrm Z+2({}^{1}_{0}\\mathrm n)$. The nucleus of Z has $90-36=54$ neutrons.",
+      "perOption": {
+        "A": "Drops the incoming neutron from the nucleon balance.",
+        "B": "Correct. Subtracting the proton number from the nucleon number gives 54.",
+        "C": "Reports the nucleon number of Z as its neutron number.",
+        "D": "Can result from counting only one emitted neutron and reporting the resulting nucleon number."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires balancing nucleon and proton numbers and subtracting to find the neutron number.",
+    "misconception": "Confusing nucleon number with neutron number",
+    "transcription": "When a nucleus of uranium-235 absorbs a neutron in a nuclear reactor, it undergoes fission to form various products and releases further neutrons.\n\nIn one nuclear reaction involving the fission of uranium-235, barium-144 and another element, Z, are the products. Two neutrons are also released when these products are formed. The reaction is shown in the equation.\n\n$^{235}_{92}\\mathrm U+n\\to{}^{144}_{56}\\mathrm{Ba}+Z+2n$\n\nHow many neutrons are there in the nucleus of Z?\n\nA. 53\nB. 54\nC. 90\nD. 91"
+  },
+  {
+    "id": "hci-2022-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A $10\\ \\mathrm g$ sample of living wood would have a count rate of $200$ per minute. The count rate halves from $200$ to $100$ and then to $50$ per minute, so the age is two half-lives, or $2(5600)=11\\,200$ years.",
+      "perOption": {
+        "A": "Treats the quarter remaining as a quarter of a half-life.",
+        "B": "Uses half a half-life even though the count rate has halved twice.",
+        "C": "Compares the ancient sample directly with the 5 g living sample.",
+        "D": "Correct. The mass-matched count rate has halved twice."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires normalising the sample masses before counting half-lives.",
+    "misconception": "Comparing raw count rates from unequal masses",
+    "transcription": null
+  },
+  {
+    "id": "hci-2023-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Magnetic flux is $\\Phi=BA$, and for a perpendicular conductor the flux density is $B=F/(IL)$. The weber therefore has units $(\\mathrm{kg\\,m\\,s^{-2}})\\,\\mathrm{A^{-1}m^{-1}}\\mathrm{m^2}=\\mathrm{kg\\,m^2\\,s^{-2}\\,A^{-1}}$.",
+      "perOption": {
+        "A": "The option text is absent from the supplied image.",
+        "B": "The option text is absent from the supplied image.",
+        "C": "The option text is absent from the supplied image.",
+        "D": "Correct. The school key prints this letter."
+      }
+    },
+    "issues": "Printed key D differs from placeholder keyAnswer A (answer-missing). The supplied question PNG is a cropped worked solution. The original stem and options are absent, so the answer-to-option mapping, distractors and difficulty cannot be independently verified. Transcription is of the supplied image.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "electromagnetic-induction",
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "electromagnetic-induction.a",
+      "electromagnetic-forces.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The working requires combining two definitions and cancelling SI base units.",
+    "misconception": "Confusing the units of flux and flux density",
+    "transcription": "1  D\n\nmagnetic flux $\\Phi$ = magnetic flux density $B$ × area $A$,\nmagnetic flux density, $B=F/(IL)$\nUnit of magnetic flux $\\Phi$ = unit of $(F/IL)A$\n$\\mathrm{Wb}=(\\mathrm{kg\\,m\\,s^{-2}})\\,\\mathrm{A^{-1}m^{-1}m^2}=\\mathrm{kg\\,m^2\\,s^{-2}\\,A^{-1}}$"
+  },
+  {
+    "id": "hci-2023-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Intensity is power per unit area, so $P=4\\pi r^2 I=4\\pi(2.0)^2(0.25)=12.566\\ \\mathrm W$. The fractional uncertainty is $\\Delta P/P=\\Delta I/I+2\\Delta r/r=0.05/0.25+2(0.1/2.0)=0.3$. Hence the absolute uncertainty is $\\Delta P\\approx4\\ \\mathrm W$.",
+      "perOption": {
+        "A": "The option text is absent from the supplied image.",
+        "B": "The option text is absent from the supplied image.",
+        "C": "The option text is absent from the supplied image.",
+        "D": "Correct. The school key prints this letter."
+      }
+    },
+    "issues": "Printed key D differs from placeholder keyAnswer A (answer-missing). The supplied question PNG is a cropped worked solution. The original stem and options are absent, so the answer-to-option mapping, distractors and difficulty cannot be independently verified. Transcription is of the supplied image. The printed uncertainty formula has a stray equals sign before the plus sign. The numeric line confirms addition.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.g",
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The working combines spherical spreading with uncertainty propagation for a squared quantity.",
+    "misconception": "Omitting the factor of two for fractional radius uncertainty",
+    "transcription": "2  D\n\nintensity $I$ = (Power $P$) / (surface area $A$)\n$I=\\frac{P}{4\\pi r^2}$\n$P=4\\pi r^2 I=4\\pi(2.0)^2(0.25)=12.566\\ \\mathrm W$\n$\\frac{\\Delta P}{P}=\\frac{\\Delta I}{I}=+2\\frac{\\Delta r}{r}$\n$\\frac{\\Delta P}{12.566}=\\frac{0.05}{0.25}+2\\left(\\frac{0.1}{2.0}\\right)=0.3$\n$\\Delta P=4\\ \\mathrm W$"
+  },
+  {
+    "id": "hci-2023-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The car initially speeds up forwards and reaches maximum speed at X, where its acceleration is zero. After X it slows down, at an increasing rate up to Y and then at a decreasing rate up to Z. The positive area from O to X exceeds the magnitude of the negative area from X to Z, so the car is still moving forwards at Z and its displacement is greatest there.",
+      "perOption": {
+        "A": "The option text is absent from the supplied image.",
+        "B": "The option text is absent from the supplied image.",
+        "C": "The option text is absent from the supplied image.",
+        "D": "Correct. The school key prints this letter."
+      }
+    },
+    "issues": "Printed key D differs from placeholder keyAnswer A (answer-missing). The supplied question PNG is a cropped worked solution. The original stem and options are absent, so the answer-to-option mapping, distractors and difficulty cannot be independently verified. Transcription is of the supplied image.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The working requires comparing signed areas to determine whether the car reverses direction.",
+    "misconception": "Confusing zero acceleration with zero velocity",
+    "transcription": "3  D\n\nInitially, the speed of the car is increasing in the forward direction. At X, the car reaches maximum speed (where acceleration is zero).\n\nBeyond X, as the acceleration is in the opposite direction to the velocity, the car slows down in speed at an increasing rate to Y then at a decreasing rate to Z; but the car keeps moving in the forward direction even at Z as the positive change in velocity from O to X (positive area under the $a$–$t$ graph) is still greater than the negative change in velocity from X to Z (negative area under the $a$–$t$ graph).\n\nTherefore, maximum displacement is at Z."
+  },
+  {
+    "id": "hci-2023-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The downward acceleration means the resultant force on the block is downward. The upward force from the floor is therefore smaller than the block’s downward weight. A scale in the lift would read less than the block’s actual weight.",
+      "perOption": {
+        "A": "The option text is absent from the supplied image.",
+        "B": "Correct. The school key prints this letter.",
+        "C": "The option text is absent from the supplied image.",
+        "D": "The option text is absent from the supplied image."
+      }
+    },
+    "issues": "Printed key B differs from placeholder keyAnswer A (answer-missing). The supplied question PNG is a cropped worked solution. The original stem and options are absent, so the answer-to-option mapping, distractors and difficulty cannot be independently verified. Transcription is of the supplied image.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The working requires linking downward acceleration to the balance of vertical forces.",
+    "misconception": "Equating apparent weight with gravitational weight",
+    "transcription": "4  B\n\nThe acceleration is downwards, thus resultant force is downwards.\nThe magnitude of the force exerted on the block by the floor (upwards) is always less than the magnitude of the weight of the block (downwards).\n\nIf the block is placed on a weighing scale in the lift, the scale will read a value less than its original weight."
+  },
+  {
+    "id": "hci-2023-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "The tensions supplied by $W_1$ and $W_2$ balance the $10\\ \\mathrm N$ weight. The force vectors form a $6$–$8$–$10$ right triangle. The shallower string has the larger cosine, so horizontal balance requires $6.0\\cos\\theta_1=8.0\\cos\\theta_2$ with $\\theta_1<\\theta_2$. Thus $W_1=6.0\\ \\mathrm N$ and $W_2=8.0\\ \\mathrm N$.",
+      "perOption": {
+        "A": "The option text is absent from the supplied image.",
+        "B": "The option text is absent from the supplied image.",
+        "C": "Correct. The school key prints this letter.",
+        "D": "The option text is absent from the supplied image."
+      }
+    },
+    "issues": "Printed key C differs from placeholder keyAnswer A (answer-missing). The supplied question PNG is a cropped worked solution. The original stem and options are absent, so the answer-to-option mapping, distractors and difficulty cannot be independently verified. Transcription is of the supplied image.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The working requires recognising a force triangle and assigning the two tensions using horizontal equilibrium.",
+    "misconception": "Assigning the larger tension to the shallower string",
+    "transcription": "5  C\n\nThe weights $W_1$ and $W_2$ provide the tension forces, balancing the weight of the object in equilibrium. Drawing a vector triangle of proportional magnitudes:\n\n[Two strings pass over rods at left and right and meet at a junction supporting an object of weight $10\\ \\mathrm N$. The hanging weights are $W_1$ at left and $W_2$ at right. The angle between the sloping strings is $\\theta$, and they make angles $\\theta_1$ and $\\theta_2$ with the horizontal. The force triangle has a downward $10\\ \\mathrm N$ side, a $6.0\\ \\mathrm N$ side pointing up and left and an $8.0\\ \\mathrm N$ side pointing up and right.]\n\nRecognize it is a 6-8-10 right-angled triangle. (similar to a 3-4-5).\n\nAnalysing the horizontal components in equilibrium:\n$6.0\\cos\\theta_1=8.0\\cos\\theta_2\\Rightarrow\\theta_1<\\theta_2$\n\nThus, $W_1=6.0\\ \\mathrm N$, $W_2=8.0\\ \\mathrm N$"
+  },
+  {
+    "id": "hci-2024-other-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The temperature rise is $80-20=60\\,^\\circ\\mathrm C$. Its absolute uncertainty is the sum of the two reading uncertainties, $0.5+0.5=1\\,^\\circ\\mathrm C$. The percentage uncertainty is $(1/60)\\times100\\%\\approx1.7\\%$.",
+      "perOption": {
+        "A": "Treats the quoted absolute uncertainty as a percentage.",
+        "B": "Uses the uncertainty of just one reading over the temperature rise.",
+        "C": "Can result from dividing the combined uncertainty by the final temperature reading.",
+        "D": "Correct. Both reading uncertainties contribute to the uncertainty in the rise."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires adding the uncertainties of two readings before finding the percentage uncertainty.",
+    "misconception": "Counting the uncertainty of only one reading",
+    "transcription": "A thermometer can be read to an accuracy of $\\pm0.5\\,^\\circ\\mathrm C$. This thermometer is used to measure a temperature rise from $20\\,^\\circ\\mathrm C$ to $80\\,^\\circ\\mathrm C$.\n\nWhat is the percentage uncertainty in the measurement of the temperature rise?\n\nA. 0.5%\nB. 0.8%\nC. 1.3%\nD. 1.7%"
+  }
+]

@@ -1,0 +1,500 @@
+[
+  {
+    "id": "nyjc-2023-other-p1-q25",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each lamp draws $24/12=2.0\\ \\mathrm{A}$. The five lamps are in parallel, so the secondary current is $I_s=5(2.0)=10\\ \\mathrm{A}$. For an ideal transformer, $V_sI_s=V_pI_p$, so $12(10)=240I_p$ and $I_p=0.50\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Uses the power of just one lamp to calculate the supply current.",
+        "B": "Correct.",
+        "C": "Gives the current through a single lamp.",
+        "D": "Gives the total secondary current."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the lamp current, add the parallel currents, then apply ideal transformer power balance.",
+    "misconception": "Confusing primary and secondary current",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q27",
+    "keyPage": 18,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A $275\\ \\mathrm{nm}$ photon has energy $4.52\\ \\mathrm{eV}$, which is below copper’s work function. Sodium has the smallest work function, so its photoelectrons have the greatest maximum kinetic energy and require the largest stopping voltage in magnitude. The stopping voltage is read at the $I=0$ intercept, which puts sodium at X and aluminium at Y.",
+      "perOption": {
+        "A": "Neither surface would emit photoelectrons if both were copper.",
+        "B": "Copper at X would produce no photocurrent.",
+        "C": "Correct.",
+        "D": "Copper at Y would produce no photocurrent."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the photon energy to rule out copper, then compare the stopping voltages.",
+    "misconception": "Reading stopping voltage from the saturation current",
+    "transcription": "In a photoelectric effect experiment, a metallic surface X in an evacuated tube is illuminated with light of wavelength $275\\ \\mathrm{nm}$ causing the emission of photoelectrons which are collected at an adjacent electrode.\n\nThe experiment is repeated by replacing metallic surface X by another metallic surface Y.\n\nThe variation of photocurrent $I$ with the potential difference $V$ between each of the metallic surfaces and the adjacent electrode is shown in the diagram below.\n\n[Graph of $I$ against $V$ with origin O. The X curve starts at a more negative voltage than the Y curve. Both rise to the same plateau at $V=0$ and share that plateau at positive voltages.]\n\nThe table below lists the work functions of some elements.\n\nElement | Work Function (eV)\nSodium | 2.7\nAluminium | 4.3\nCopper | 4.7\n\nWhat materials are the metallic surfaces X and Y made of?\n\nOption | metallic surface X | metallic surface Y\nA | copper | copper\nB | copper | aluminium\nC | sodium | aluminium\nD | sodium | copper"
+  },
+  {
+    "id": "nyjc-2023-other-p1-q28",
+    "keyPage": 19,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Bremsstrahlung produces a continuous spectrum even when the incident electrons all have the same energy. The maximum incident electron energy sets the short-wavelength cutoff. The positions of the characteristic peaks depend on the target material and can identify its element.",
+      "perOption": {
+        "A": "A single incident electron energy can still produce a continuous bremsstrahlung spectrum.",
+        "B": "The peak wavelengths give characteristic transition energies of the target atoms.",
+        "C": "The cutoff wavelength is set by the maximum incident electron energy.",
+        "D": "Correct. The characteristic peaks identify the target element."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguish the characteristic peaks from the continuous spectrum and its cutoff.",
+    "misconception": "Confusing characteristic peaks with the short-wavelength cutoff",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2023-other-p1-q29",
+    "keyPage": 19,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The released energy is $3.27\\ \\mathrm{MeV}=5.23\\times10^{-13}\\ \\mathrm{J}$. Its mass equivalent is $\\Delta m=E/c^2=5.8\\times10^{-30}\\ \\mathrm{kg}$. The reactants have the greater combined mass because the fusion releases energy.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the sign of the mass change in an energy-releasing reaction.",
+        "C": "Drops the factor of $10^6$ in converting MeV to eV.",
+        "D": "Drops the factor of $10^6$ and reverses the sign of the mass change."
+      }
+    },
+    "issues": "The key prints 5.23 × 10⁻³⁰ J for 3.27 MeV. The correct conversion is 5.23 × 10⁻¹³ J, consistent with its mass equivalent and answer A.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.q"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert MeV to joules and use mass–energy equivalence with the correct sign.",
+    "misconception": "Forgetting the mega prefix or reversing the mass change",
+    "transcription": "The fusion of two deuterium nuclei produces a nuclide of helium and a neutron. The reaction liberates $3.27\\ \\mathrm{MeV}$ of energy.\n\nHow does the combined mass of the two deuterium nuclei, $\\sum M_{\\mathrm{Reactants}}$, compare with the combined mass of the helium nucleus and neutron, $\\sum M_{\\mathrm{Products}}$?\n\nA $\\sum M_{\\mathrm{Reactants}}$ is $5.8\\times10^{-30}\\ \\mathrm{kg}$ greater than $\\sum M_{\\mathrm{Products}}$.\nB $\\sum M_{\\mathrm{Reactants}}$ is $5.8\\times10^{-30}\\ \\mathrm{kg}$ smaller than $\\sum M_{\\mathrm{Products}}$.\nC $\\sum M_{\\mathrm{Reactants}}$ is $5.8\\times10^{-36}\\ \\mathrm{kg}$ greater than $\\sum M_{\\mathrm{Products}}$.\nD $\\sum M_{\\mathrm{Reactants}}$ is $5.8\\times10^{-36}\\ \\mathrm{kg}$ smaller than $\\sum M_{\\mathrm{Products}}$."
+  },
+  {
+    "id": "nyjc-2023-other-p1-q30",
+    "keyPage": 20,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Fission is unfavourable for the light nuclei in region P. Splitting them would move the products to smaller nucleon numbers and lower binding energy per nucleon, so the process would require energy.",
+      "perOption": {
+        "A": "Correct. The question asks for the false statement.",
+        "B": "Q has higher binding energy per nucleon than R, so this statement is true.",
+        "C": "Fusion increases nucleon number and moves the light nuclei in P towards Q, so this statement is true.",
+        "D": "The steep rise in P gives the largest increase in binding energy per nucleon, so this statement is true."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.t"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use changes in binding energy per nucleon to identify the false statement.",
+    "misconception": "Assuming fission releases energy for light nuclei",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q1",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Potential difference is work per unit charge, so $V=W/Q=Fs/(It)=mas/(It)$, where $s$ is displacement. This gives $\\mathrm{V}=\\frac{\\mathrm{kg}\\cdot\\mathrm{m\\,s^{-2}}\\cdot\\mathrm{m}}{\\mathrm{A}\\cdot\\mathrm{s}}=\\mathrm{kg\\,m^2\\,s^{-3}\\,A^{-1}}$.",
+      "perOption": {
+        "A": "Omits the mass and time units in the derived unit.",
+        "B": "Accounts for the base units of charge but omits mass and length from work.",
+        "C": "Omits the mass unit in the newton.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Expand work and charge into SI base units to find the units of voltage.",
+    "misconception": "Dropping mass when expanding the unit of force",
+    "transcription": "1 The base units of the SI system include those of\n\nmass, kg;    length, m;    time, s;    electric current, A.\n\nWhich base units would be needed to express the SI unit of potential difference (the volt)?\n\nA m and A only.\nB s and A only.\nC m, s and A only.\nD kg, m, s and A."
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q2",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "During braking, $v=u+at$ gives $0=15.0+a(1.20)$, so $a=-15.0/1.20\\ \\mathrm{m\\,s^{-2}}$. Using $v^2=u^2+2as$ gives $0=15.0^2+2(-15.0/1.20)s$, so the braking distance is $9.00\\ \\mathrm{m}$. During the reaction time the car travels $15.0(0.100)=1.50\\ \\mathrm{m}$. The minimum distance is $1.50+9.00=10.5\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Counts only the distance covered during the reaction time.",
+        "B": "Subtracts the reaction distance from the braking distance even though both contribute to the stopping distance.",
+        "C": "Counts only the braking distance.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Calculate the reaction and braking distances separately before adding them.",
+    "misconception": "Omitting the distance travelled during the reaction time",
+    "transcription": "2 A car travelling at a speed of $15.0\\ \\mathrm{m\\,s^{-1}}$ can be brought to rest in $1.20\\ \\mathrm{s}$ when a uniform braking force is applied. The reaction time of the driver is $0.100\\ \\mathrm{s}$.\n\nWhat is the minimum distance at which the driver must notice a stationary object in order to avoid hitting it?\n\nA $1.50\\ \\mathrm{m}$\nB $7.50\\ \\mathrm{m}$\nC $9.00\\ \\mathrm{m}$\nD $10.5\\ \\mathrm{m}$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $a=g\\sin\\theta$ be the downhill acceleration and $u$ the common launch speed. At collision, $s_P=ut-\\tfrac12at^2$ and $s_Q=ut+\\tfrac12at^2$, so $s_P+s_Q=2ut$. Since P alone would just reach the top, $v^2=u^2-2as$ with $v=0$ gives the slope length $s_P+s_Q=u^2/(2a)$. Thus $t=u/(4a)$, and substitution gives $s_Q/s_P=(9/8)/(7/8)=9/7\\approx1.3$.",
+      "perOption": {
+        "A": "Inverts the requested ratio and calculates P’s distance divided by Q’s.",
+        "B": "Treats the speeds as equal throughout, though P slows and Q speeds up.",
+        "C": "Correct.",
+        "D": "Overstates Q’s extra distance by using too large an acceleration correction for the time before collision."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Combine two displacement equations with the just-reaches condition to eliminate the unknown speed and acceleration.",
+    "misconception": "Assuming equal initial speeds imply equal distances",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q4",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Newton’s second law gives $\\mathrm{d}\\mathbf p/\\mathrm{d}t=\\mathbf F_{\\mathrm{net}}$. During contact, the resultant includes both the ground’s contact force and the ball’s weight.",
+      "perOption": {
+        "A": "Ignores the ground’s contact force during impact.",
+        "B": "Correct.",
+        "C": "Ignores the ball’s weight during impact.",
+        "D": "Confuses the ground force integrated over time with the rate of change of momentum."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recall Newton’s second law in momentum form.",
+    "misconception": "Identifying one force as the resultant during impact",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q5",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The net vertical force on the lift is $T-D-W_2$. If $T=D+W_2$, Newton’s laws give zero acceleration, so the lift moves with constant velocity, which may be zero.",
+      "perOption": {
+        "A": "The forces oppose each other, but their magnitudes differ when the woman accelerates.",
+        "B": "The cable tension equals the combined weights only when the lift and woman have zero acceleration.",
+        "C": "Balanced forces on the woman imply zero acceleration, which also allows motion at a steady nonzero velocity.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Read the lift’s free-body diagram and connect a zero resultant to zero acceleration.",
+    "misconception": "Equating zero acceleration with being at rest",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q6",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the step edge as the drum starts to tip. The perpendicular lever arm of $W$ is $\\sqrt{r^2-(r/2)^2}=\\tfrac{\\sqrt3}{2}r$, and that of $F$ is $2r-r/2=\\tfrac32r$. Equating moments gives $F=\\frac{W(\\sqrt3\\,r/2)}{3r/2}=\\frac{W}{\\sqrt3}$.",
+      "perOption": {
+        "A": "Using the radius $r$ for the weight’s lever arm and the full diameter $2r$ for the applied force’s lever arm gives this result.",
+        "B": "Correct.",
+        "C": "Assumes the weight and applied force have equal lever arms about the step edge.",
+        "D": "Uses $r$ instead of $3r/2$ for the applied force’s lever arm."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find both perpendicular lever arms about the step edge and balance moments at the tipping threshold.",
+    "misconception": "Measuring lever arms from the drum centre",
+    "transcription": "6 A cylindrical drum has radius $r$ and weight $W$. The drum is to be rolled over onto a step of height $\\frac r2$ by a horizontal force $F$ applied to the top of the drum.\n\n[The drum rests on a horizontal surface and touches the upper left corner of the step to its right. The radius $r$ is marked, $F$ acts horizontally to the right at the top, and $W$ acts vertically downwards through the centre. The step top is $r/2$ above the surface.]\n\nWhat is the minimum force $F$ required for the drum to start rolling on the step?\n\nA $\\frac W2$\nB $\\frac W{\\sqrt3}$\nC $W$\nD $\\frac{\\sqrt3}{2}W"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q7",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "During compression, the ball loses kinetic energy $\\tfrac12mv^2$ and gravitational potential energy $mgy$. The spring force rises linearly from zero to $F_{\\max}$, so the stored energy is $\\tfrac12F_{\\max}y=\\tfrac12mv^2+mgy$. Solving for the maximum force gives $F_{\\max}=\\frac{m}{y}(v^2+2gy)$.",
+      "perOption": {
+        "A": "Divides only the initial kinetic energy by $y$, omitting gravity and giving an average force.",
+        "B": "Subtracts a gravitational term even though gravity adds to the energy transferred to the spring.",
+        "C": "Uses the initial kinetic energy only and leaves out the gravitational energy lost during compression.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key page asks for average force, while the batch question asks for maximum force and prints a different expression for D. The key’s energy balance yields the batch’s maximum-force expression when solved for its peak force.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.k"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Include the gravitational energy lost during compression and use the spring’s increasing force to obtain its maximum.",
+    "misconception": "Using the average spring force as the maximum",
+    "transcription": "A ball of mass $m$ falls freely from rest as shown below. When it has reached a speed $v$, it just strikes a vertical spring. The spring is then compressed by a distance $y$ and the ball comes to a rest.\n\n[A ball falls towards a vertical spring. A second drawing shows the ball on the compressed spring, whose top is $y$ below its original level.]\n\nAssuming that all the energy the ball loses becomes elastic potential energy in the spring, what is the maximum force exerted by the spring during its compression?\n\nA $\\frac{mv^2}{2y}$\nB $\\frac{m}{2y}(v^2-4gy)$\nC $\\frac{mv^2}{y}$\nD $\\frac{m}{y}(v^2+2gy)$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q8",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The required centripetal force is $mv^2/r=1000(10^2)/100=1000\\ \\mathrm{N}$. The tyres can provide at most $900\\ \\mathrm{N}$ of friction, so the car cannot follow the intended curve and slides towards the outside.",
+      "perOption": {
+        "A": "Insufficient inward force makes the path curve less sharply, so the car goes outside the intended path.",
+        "B": "Assumes $900 mathrm{N}$ is enough to supply the required $1000 mathrm{N}$.",
+        "C": "Treats centrifugal force as a real force that slows the car along its path.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "circular-motion.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Calculate the required inward force and compare it with the friction limit.",
+    "misconception": "Treating centrifugal force as a real braking force",
+    "transcription": "8 The driver of a $1000\\ \\mathrm{kg}$ car tries to turn through a horizontal circular path of radius $100\\ \\mathrm{m}$ on an flat wet road at a speed of $10\\ \\mathrm{m\\,s^{-1}}$. The maximum frictional force between the tyres and the wet road is $900\\ \\mathrm{N}$. The car will\n\nA slide towards the inside of the curve.\nB make the turn.\nC slow down due to the centrifugal force.\nD slide towards the outside of the curve."
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From A to B, the bob gains gravitational potential energy equal to its loss of kinetic energy. It rises by $L$ and comes momentarily to rest at B, so $mgL=\\tfrac12mv^2$ and $mv^2=2mgL$. At A, $T-mg=mv^2/L=2mg$, giving $T=3mg$.",
+      "perOption": {
+        "A": "Balances tension with weight and omits the inward acceleration at A.",
+        "B": "Sets the tension itself equal to $mv^2/L$, ignoring the opposing weight.",
+        "C": "Correct.",
+        "D": "Overstates the inward resultant as $3mg$, whereas the energy calculation gives $2mg$."
+      }
+    },
+    "issues": "The key diagram swaps A and B relative to the batch question. The working has been expressed using the batch labels.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use conservation of energy to determine the speed term, then apply the radial force equation.",
+    "misconception": "Equating tension to the net centripetal force",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q10",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the surface, $W=GMm/R^2$. The final distance from Earth’s centre is $R+2R=3R$, so the required increase in gravitational potential energy is $\\Delta U=-\\frac{GMm}{3R}-\\left(-\\frac{GMm}{R}\\right)=\\frac{2GMm}{3R}=\\frac23WR$.",
+      "perOption": {
+        "A": "Uses only the magnitude of the final gravitational potential energy and omits the initial value.",
+        "B": "Correct.",
+        "C": "Inverts the factor $2/3$ that multiplies $WR$.",
+        "D": "Assumes the surface weight $W$ acts unchanged over the full height $2R$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the two distances from Earth’s centre and express the change in potential energy in terms of surface weight.",
+    "misconception": "Assuming weight stays constant over a height of two Earth radii",
+    "transcription": "An object X has weight $W$ on the surface of the Earth. How much energy is needed to raise X to height of $2R$ above the surface of the Earth, where $R$ is the radius of the Earth?\n\nA $\\frac13WR$\nB $\\frac23WR$\nC $\\frac32WR$\nD $2WR$"
+  }
+]

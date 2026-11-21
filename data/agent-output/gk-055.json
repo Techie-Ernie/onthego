@@ -1,0 +1,503 @@
+[
+  {
+    "id": "ejc-2026-prelim-p1-q6",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The area under a force-versus-extension graph gives the elastic potential energy stored. With force on the horizontal axis, the increase from $x_1$ to $x_2$ is the area to the left of the line between those extensions, region P.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Q gives the energy stored up to the initial extension.",
+        "C": "P + Q includes the energy already stored at the initial extension.",
+        "D": "R + S takes the area below a graph with force on the horizontal axis."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires recognising which area corresponds to the swapped axes.",
+    "misconception": "Reading below the line without checking the axes",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q7",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The relative speed of approach is $0.100c-(-0.050c)=0.150c$. In an elastic collision the relative speed of separation must equal this, and only A gives $0.150c$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "B leaves the particles approaching at $0.130c$.",
+        "C": "C leaves the particles approaching at $0.316c$.",
+        "D": "D gives a separation speed of $0.316c$."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires checking the relative speed before and after the collision.",
+    "misconception": "Ignoring the signs of velocities",
+    "transcription": "A proton ($1\\,\\mathrm u$) traveling with velocity $+0.100c$ collides elastically head-on with a helium nucleus ($4\\,\\mathrm u$) traveling with velocity $-0.050c$.\n\nWhat are the velocities of each particle after the collision?\n\nProton / Helium nucleus\nA. $-0.140c$ / $+0.010c$\nB. $+0.140c$ / $+0.010c$\nC. $+0.233c$ / $-0.083c$\nD. $-0.233c$ / $+0.083c$"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fixed radius and constant angular velocity give the same speed $v=r\\omega$ at A and B. The velocity vectors are $60^\\circ$ apart, so the triangle formed by the vectors and their difference is equilateral. Thus $|\\Delta\\mathbf v|=v=r\\omega$.",
+      "perOption": {
+        "A": "This treats constant speed as constant velocity.",
+        "B": "This gives half the side representing the velocity change.",
+        "C": "Correct.",
+        "D": "This adds the speeds as if the velocity vectors were opposite."
+      }
+    },
+    "issues": "The key describes velocity as constant, but only its magnitude is constant.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "circular-motion.c",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires subtracting two equal tangential velocities inclined at 60°.",
+    "misconception": "Confusing constant speed with constant velocity",
+    "transcription": "A particle moves with a constant angular velocity $\\omega$ in a circle of radius $r$ centered at point O.\n\n[Dashed circle centered at O. A is directly to the right, and B is above and to the right. The angle AOB is $60^\\circ$. Tangential arrows point up at A and up-left at B.]\n\nDiagram not drawn to scale\n\nWhat is the magnitude of the change in velocity between points A and B?\n\nA. zero\nB. $\\frac12r\\omega$\nC. $r\\omega$\nD. $2r\\omega$"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q9",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravitational attraction provides the centripetal force on each star. With the stars separated by $2R$, $\\frac{GM^2}{(2R)^2}=\\frac{Mv^2}{R}$. Thus $v^2=\\frac{GM}{4R}$ and $v=\\sqrt{\\frac{GM}{4R}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This uses $2R$ as the orbit radius as well as the separation.",
+        "C": "This uses $R$ for the separation in the force law.",
+        "D": "This treats both stars as a central mass $2M$ at distance $R$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires distinguishing the orbit radius from the separation used in the gravitational force.",
+    "misconception": "Using the orbit radius as the separation",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q10",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A geostationary orbit is equatorial, runs west to east, has a period of about 24 hours and stays at a fixed altitude. The object has Earth's angular velocity, but its larger orbital radius gives it a greater linear speed than an object on the Equator.",
+      "perOption": {
+        "A": "An equatorial orbit keeps the object above the Equator.",
+        "B": "Correct.",
+        "C": "The orbit must follow Earth's rotation to stay over the same point.",
+        "D": "Matching Earth's angular velocity keeps the object over the same longitude."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires recalling the orbit conditions and distinguishing linear speed from angular velocity.",
+    "misconception": "Equating linear speeds at equal angular velocity",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q11",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Less damping gives a higher maximum amplitude. The curves should start at the same amplitude at zero frequency and should not cross at positive frequencies. Only B meets these conditions relative to X.",
+      "perOption": {
+        "A": "A changes the zero-frequency amplitude.",
+        "B": "Correct.",
+        "C": "C crosses X and falls below it at some positive frequencies.",
+        "D": "D gives a lower peak than X."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires checking the peak, the intercept and whether the response curves cross.",
+    "misconception": "Choosing the highest peak without checking the intercept",
+    "transcription": "The solid line X on the graph shows how the amplitude of an oscillating system varies with the frequency at which it is driven. The amplitude of the driving force is constant at all frequencies.\n\nWhich dashed line shows the response of the system under conditions where there is less damping?\n\n[Graph of amplitude against frequency, with origin marked 0. Solid curve X rises to a broad peak and falls. Dashed curves A, B, C and D are labelled from top to bottom at the right. A starts above X, B and C start at the same amplitude as X, and D starts below X. Peak heights decrease in the order A, B, C, X, D. B stays above X at positive frequencies, and C crosses X on either side of its peak.]"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q12",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take mid-tide as equilibrium and the first low tide as $t=0$, so $x=-x_0\\cos\\omega t$. The range gives $2x_0=3.0-1.0=2.0\\ \\mathrm m$, so $x_0=1.0\\ \\mathrm m$. At the minimum depth, $x=-0.5\\ \\mathrm m$, so $-0.5=-1.0\\cos(2\\pi t/12)$ gives $2\\pi t/12=\\pi/3$ and $t=2.0\\ \\mathrm h$. By symmetry the depth is too low for $2.0\\ \\mathrm h$ at each end, giving a maximum stay of $12-2(2.0)=8\\ \\mathrm h$.",
+      "perOption": {
+        "A": "This gives half the time from low tide to the threshold.",
+        "B": "This is the time from low tide to entry.",
+        "C": "Correct.",
+        "D": "This subtracts the time below the threshold at only one end."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "This requires modelling the displacement from mid-tide and using symmetry to count both threshold crossings.",
+    "misconception": "Counting from low tide instead of from entry",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q13",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The separation in the direction of wave travel is $5.0\\sin30^\\circ$. The phase difference is $\\frac{5.0\\sin30^\\circ}{10}\\times2\\pi=1.58\\ \\mathrm{rad}\\approx1.6\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "This treats the points as lying on the same wavefront.",
+        "B": "Correct.",
+        "C": "This uses $\\cos30^\\circ$ in place of $\\sin30^\\circ$ for the projection.",
+        "D": "This uses the whole distance along the wall as the distance in the direction of travel."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires projecting the separation onto the propagation direction before finding the phase difference.",
+    "misconception": "Using the full distance along the wall",
+    "transcription": "Parallel water waves of wavelength $10\\ \\mathrm m$ strike a straight sea wall. The wave fronts make an angle of $30^\\circ$ with the wall as shown in the figure below.\n\n[Parallel wavefronts slope up to the right at $30^\\circ$ to the horizontal sea wall. Arrows perpendicular to the wavefronts point down and right towards the wall. Adjacent wavefronts are separated perpendicularly by $10\\ \\mathrm m$.]\n\nWhat is the phase difference at any instant between the waves at two points $5.0\\ \\mathrm m$ apart along the wall?\n\nA. $0\\ \\mathrm{rad}$\nB. $1.6\\ \\mathrm{rad}$\nC. $2.7\\ \\mathrm{rad}$\nD. $3.1\\ \\mathrm{rad}$"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q14",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each third-order maximum lies at $\\theta/2$ to the central direction. With slit spacing $a=1/d$, the grating equation gives $a\\sin(\\theta/2)=3\\lambda$, so $\\theta=2\\sin^{-1}(3\\lambda/a)$. The values for A to D are $51.189^\\circ$, $29.724^\\circ$, $77.217^\\circ$ and $43.492^\\circ$, respectively, so only B agrees with its listed angle of $30^\\circ$.",
+      "perOption": {
+        "A": "This uses approximately the one-sided angle, while the full separation is $51^\\circ$.",
+        "B": "Correct.",
+        "C": "This uses approximately the one-sided angle, while the full separation is $77^\\circ$.",
+        "D": "The wavelength and density predict $43^\\circ$, below the stated $46^\\circ$."
+      }
+    },
+    "issues": "The key uses d for slit spacing in its formula and substitutes the reciprocal of the question’s line density. The rewrite uses a for slit spacing.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires converting line density to spacing and testing angular separations.",
+    "misconception": "Confusing the one-sided angle with the full separation",
+    "transcription": "A beam of light of wavelength $\\lambda$ is incident normally on a diffraction grating. The angular separation between the two third order maxima is $\\theta$, and the number of lines per metre of the grating is $d$.\n\nWhich row shows possible values of $\\lambda$, $\\theta$ and $d$?\n\n$\\lambda$ / $\\theta$ / $d$\nA. $450\\ \\mathrm{nm}$ / $25^\\circ$ / $3.2\\times10^5$ lines per metre\nB. $450\\ \\mathrm{nm}$ / $30^\\circ$ / $1.9\\times10^5$ lines per metre\nC. $650\\ \\mathrm{nm}$ / $38^\\circ$ / $3.2\\times10^5$ lines per metre\nD. $650\\ \\mathrm{nm}$ / $46^\\circ$ / $1.9\\times10^5$ lines per metre"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q15",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The Rayleigh criterion gives $\\theta\\approx\\lambda/b$ for aperture width $b$. With star separation $x$ and telescope distance $D$, the small-angle relation gives $\\lambda/b=x/D$, so $\\frac{580\\times10^{-9}}{20\\times10^{-2}}=\\frac{x}{7.3\\times10^{17}}$. This gives $x=2.117\\times10^{12}\\ \\mathrm m\\approx2.1\\times10^{12}\\ \\mathrm m$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This implies an angle of about $0.034\\ \\mathrm{rad}$, far above the diffraction limit of $2.9\\times10^{-6}\\ \\mathrm{rad}$.",
+        "C": "This is consistent with treating nanometres as centimetres and inflating the result by $10^7$.",
+        "D": "This implies a separation vastly greater than the distance to the telescope, incompatible with the small resolution angle."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires converting the units and using angular resolution to find a physical separation.",
+    "misconception": "Mishandling length prefixes",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q16",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a fixed amount of gas, $p_1V_1=nRT_1$ and $p_2V_2=nRT_2$, giving $\\frac{p_1V_1}{p_2V_2}=\\frac{T_1}{T_2}$. With state 1 as the final state, $p_1=\\frac{T_1}{T_2}\\frac{V_2}{V_1}p_2=\\frac{100+273}{50+273}\\frac{40}{20}(100\\ \\mathrm{kPa})\\approx230\\ \\mathrm{kPa}$.",
+      "perOption": {
+        "A": "This inverts the volume ratio while using kelvins.",
+        "B": "This results from inverting the volume ratio and taking the temperature ratio in Celsius.",
+        "C": "Correct.",
+        "D": "This takes the temperature ratio in Celsius and gets a factor of two for heating."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires converting temperatures to kelvins and comparing the two gas states.",
+    "misconception": "Taking temperature ratios in Celsius",
+    "transcription": "An ideal gas has a volume of $40\\ \\mathrm{cm^3}$ at pressure $100\\ \\mathrm{kPa}$ and temperature $50\\,^\\circ\\mathrm C$.\n\nIt is compressed to $20\\ \\mathrm{cm^3}$ and heated to $100\\,^\\circ\\mathrm C$.\n\nWhat is its final pressure?\n\nA. $58\\ \\mathrm{kPa}$\nB. $100\\ \\mathrm{kPa}$\nC. $230\\ \\mathrm{kPa}$\nD. $400\\ \\mathrm{kPa}$"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q17",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first law gives $\\Delta U=W_{\\mathrm{on}}+Q_{\\mathrm{to}}$. In C, compression does positive work on the gas and the warmer surroundings transfer energy to it by heating. Both terms are positive, so the internal energy and temperature increase.",
+      "perOption": {
+        "A": "Expansion does work on the surroundings and can offset the heat input.",
+        "B": "Expansion and heat loss both decrease the internal energy.",
+        "C": "Correct.",
+        "D": "Heat loss can offset the work done by compression."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires determining the signs of heat and work in the first law.",
+    "misconception": "Reversing the sign of the work done on the gas",
+    "transcription": "The temperature of an ideal gas can be changed by either changing its volume or placing it in an environment with a different surrounding temperature compared to the temperature of the ideal gas.\n\nWhich scenario must result in an increase in the temperature of the ideal gas?\n\nVolume of gas / surrounding temperature\nA. increase / higher\nB. increase / lower\nC. decrease / higher\nD. decrease / lower"
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q18",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Thermal equilibrium means the objects have the same temperature. Internal energy also depends on the amount of matter in each object, so their internal energies can differ.",
+      "perOption": {
+        "A": "Thermal equilibrium requires equal temperatures.",
+        "B": "Correct.",
+        "C": "Equal temperatures imply zero net heat transfer on contact.",
+        "D": "In the syllabus model, equal temperatures imply equal mean random kinetic energies per particle."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires distinguishing a common temperature from total internal energy.",
+    "misconception": "Equating temperature with internal energy",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q19",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Between P and Y, the resultant field points towards X. A negative charge released there is forced in the opposite direction, so it starts moving towards Y.",
+      "perOption": {
+        "A": "The potential has a minimum at P along the line joining the two positive charges.",
+        "B": "Both positive charges contribute positive potential at P.",
+        "C": "Correct.",
+        "D": "The inverse-square dependence on distance from Y applies only to Y's contribution."
+      }
+    },
+    "issues": "The key calls P a potential minimum without specifying direction. P is a minimum along XY and a saddle point in space.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.d",
+      "electric-fields.f",
+      "energy-and-fields.h",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This requires using field superposition and reversing the field direction for a negative charge.",
+    "misconception": "Assuming a negative charge moves in the field direction",
+    "transcription": null
+  },
+  {
+    "id": "ejc-2026-prelim-p1-q20",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Add the capacitances in each parallel pair. The two equivalents and the $6.0\\ \\mathrm F$ capacitor are in series, so $\\frac1C=\\frac1{1+2}+\\frac16+\\frac1{1+1}$ with capacitances in farads. This gives $C=1.0\\ \\mathrm F$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This treats the $6.0\\ \\mathrm F$ capacitor as an additive contribution even though it is in series.",
+        "C": "This ignores the series rule that puts the total below the smallest section, $2.0\\ \\mathrm F$.",
+        "D": "This adds all five capacitances as if they were all in parallel."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.k"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "This requires reducing both parallel groups before combining the three series sections.",
+    "misconception": "Adding capacitances across series connections",
+    "transcription": null
+  }
+]

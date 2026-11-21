@@ -1,0 +1,516 @@
+[
+  {
+    "id": "hci-2026-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a string fixed at both ends, $f_n=nv/(2L)$. Setting $f_n=440\\ \\mathrm{Hz}$ gives $n=2$ for the $0.50\\ \\mathrm{m}$ string, so it can excite the fork.\n\nFor the $0.40\\ \\mathrm{m}$ string, $f_n=275n\\ \\mathrm{Hz}$ gives $n=1.6$. Its first two harmonics are $275$ and $550\\ \\mathrm{Hz}$, so $440\\ \\mathrm{Hz}$ is absent.",
+      "perOption": {
+        "A": "Overlooks the second harmonic of the 50 cm string.",
+        "B": "Treats the non-integer harmonic index of the 40 cm string as an allowed mode.",
+        "C": "The 40 cm string has no 440 Hz harmonic.",
+        "D": "Correct. The 50 cm string has a 440 Hz second harmonic."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c",
+      "oscillations.j"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must check whether 440 Hz is an integer harmonic of each string.",
+    "misconception": "Assuming resonance requires the string’s fundamental frequency",
+    "transcription": "Two guitar strings, one $40\\ \\mathrm{cm}$ long and the other $50\\ \\mathrm{cm}$ long, are fixed at both ends under tension such that the speed of the waves is $220\\ \\mathrm{m\\,s^{-1}}$ on both strings.\n\nThe strings are plucked simultaneously in the presence of a tuning fork of frequency $440\\ \\mathrm{Hz}$.\n\nWhich of the two strings can cause the tuning fork to resonate?\n\nA Neither string\nB Both strings\nC The 40 cm string only\nD The 50 cm string only"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Before boiling, $Q=mc\\Delta\\theta$, so $P=mc(4/60)$ with time in seconds. During boiling, $Q=mL$, so $P(40\\times60)=mL$.\n\nEquating the two expressions for $P$ gives $c(4/60)=L/(40\\times60)$, hence $c/L=1/160\\ \\mathrm{K^{-1}}\\approx0.0063\\ \\mathrm{K^{-1}}$.",
+      "perOption": {
+        "A": "Divides the warming rate by the boiling time instead of taking the reciprocal of their product.",
+        "B": "Uses the reciprocal of 40 minutes alone and omits the warming rate.",
+        "C": "Correct.",
+        "D": "Includes an extra factor of four in the denominator."
+      }
+    },
+    "issues": "The phrase “After 40 minutes” is ambiguous about when timing starts. The key takes 40 minutes as the duration of boiling.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must equate the power during warming and boiling and cancel the common mass.",
+    "misconception": "Using the boiling time without the warming rate",
+    "transcription": "In a heating experiment, energy is supplied at a constant rate to a liquid in a beaker of negligible heat capacity. The temperature of the liquid rises by $4.0\\ \\mathrm{K}$ per minute just before it begins to boil. After 40 minutes, all the liquid has boiled away.\n\nFor this liquid, what is the ratio of its specific heat capacity to specific latent heat of vaporisation?\n\nA $0.10\\ \\mathrm{K^{-1}}$\nB $0.025\\ \\mathrm{K^{-1}}$\nC $0.0063\\ \\mathrm{K^{-1}}$\nD $0.0016\\ \\mathrm{K^{-1}}$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $p=\\frac13\\frac{Nm}{V}\\langle c^2\\rangle$, where $Nm/V$ is the gas density. Substituting gives $1.00\\times10^5=\\frac13(1.60)\\langle c^2\\rangle$, so $\\langle c^2\\rangle=187500\\ \\mathrm{m^2\\,s^{-2}}$.\n\nTaking the square root gives $433\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Halves the root mean square speed after taking the square root.",
+        "B": "Omits the factor of three when solving for the mean square speed.",
+        "C": "Halves the mean square speed before taking the square root.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise the density term in the kinetic-theory pressure equation and take a square root.",
+    "misconception": "Dropping the factor of one third in the pressure equation",
+    "transcription": null
+  },
+  {
+    "id": "hci-2026-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Write the original charges as $q$ and $2q$. At the midpoint, the potential is $kq/2.0+k(2q)/2.0=3kq/2.0=6740\\ \\mathrm{V}$.\n\nAfter the smaller charge becomes negative, the two fields point in the same direction. Their sum is $kq/(2.0)^2+k(2q)/(2.0)^2=3kq/4.0=6740/2=3370\\ \\mathrm{N\\,C^{-1}}$.",
+      "perOption": {
+        "A": "Uses the original potential’s numerical value directly as the field strength.",
+        "B": "Correct.",
+        "C": "Divides the original potential by the full separation of 4.0 m.",
+        "D": "Subtracts the field magnitudes as though the charges still had the same sign."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use scalar potential to infer the charge factor and then add the two field magnitudes.",
+    "misconception": "Subtracting fields from opposite charges at their midpoint",
+    "transcription": "Two point charges of the same sign are placed $4.0\\ \\mathrm{m}$ apart. The magnitude of the charges is in the ratio $2:1$. The potential at the mid-point between the two charges is $6740\\ \\mathrm{V}$.\n\nIf the charge of smaller magnitude is changed to a negative charge of the same magnitude, calculate the electric field strength at the mid-point between the two charges.\n\nA $6740\\ \\mathrm{N\\,C^{-1}}$\nB $3370\\ \\mathrm{N\\,C^{-1}}$\nC $1690\\ \\mathrm{N\\,C^{-1}}$\nD $1120\\ \\mathrm{N\\,C^{-1}}$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Equate $I=nqv_dA$ and $I=V/R=VA/(\\rho L)$ to obtain $v_d=V/(\\rho Lnq)\\propto1/L$. The putty’s volume stays constant, so $AL=(A/4)L'$ and $L'=4L$.\n\nThus $v_d'/v_d=L/L'=1/4$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses a factor of two for the length increase even though the cross-sectional area falls by a factor of four.",
+        "C": "Overlooks the reduction in drift speed when the conductor becomes longer at fixed voltage.",
+        "D": "Holds the current fixed and infers a fourfold increase from the smaller area."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.b",
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine two current equations and use volume conservation to infer the new length.",
+    "misconception": "Holding the current fixed when only the voltage is fixed",
+    "transcription": "Conducting putty is a substance that conducts electricity and can be molded into various shapes. A cylinder made from this putty has a length $L$ and cross-sectional area $A$. A potential difference $V$ is applied across its two ends. The drift velocity of the charge carriers in the putty is $v_d$.\n\nThis cylinder is then reshaped to one with a cross-sectional area $\\frac{A}{4}$. The same potential difference $V$ is again applied across its ends.\n\nWhat is the new drift velocity of the charge carriers?\n\nA $\\frac{v_d}{4}$\nB $\\frac{v_d}{2}$\nC $v_d$\nD $4v_d$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The battery can supply energy $E=(12\\ \\mathrm{V})(60\\ \\mathrm{A\\,h})=720\\ \\mathrm{W\\,h}$. The lamp uses energy $(36\\ \\mathrm{W})t$.\n\nThus the maximum time is $t=12\\times60/36=20\\ \\mathrm{h}$.",
+      "perOption": {
+        "A": "Divides the ampere-hour rating by the lamp’s power without multiplying by the battery voltage.",
+        "B": "Calculates the current of 3.0 A and interprets it as a time.",
+        "C": "Correct.",
+        "D": "Multiplies the charge capacity by the 3.0 A current instead of dividing by it."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "currents.a",
+      "currents.d",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert a battery’s charge capacity into available energy before dividing by power.",
+    "misconception": "Treating ampere-hours as watt-hours",
+    "transcription": "The capacity of an electric battery is often specified in ampere-hours.\nA fully charged $12\\ \\mathrm{V}$ battery is rated $60$ ampere-hours.\n\nWhat is the maximum time this battery can supply power to a $36\\ \\mathrm{W}$ light bulb?\n\nA $1.67\\ \\mathrm{h}$\nB $3.0\\ \\mathrm{h}$\nC $20\\ \\mathrm{h}$\nD $180\\ \\mathrm{h}$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The right-hand parallel network has capacitance $C_\\parallel=C+(1/C+1/C)^{-1}=3C/2$. It is in series with X, so $Q_\\parallel=Q_X=CV$ and $V_\\parallel=CV/(3C/2)=2V/3$.\n\nThe identical capacitors in the lower branch are in series and carry equal charges, so they share this voltage equally. Thus $V_Y=V/3$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assigns the full lower-branch voltage to Y alone.",
+        "C": "Uses an incorrect voltage split because the two equal capacitors in the lower branch must each take half of $2V/3$.",
+        "D": "Multiplies $V$ by the capacitance ratio $3/2$ even though voltage at equal charge is inversely proportional to capacitance."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "circuits.k",
+      "electric-fields.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must reduce a series-parallel network, then use charge and voltage relationships to work back to one capacitor.",
+    "misconception": "Assigning the full branch voltage to one series capacitor",
+    "transcription": "A network of capacitors, all of the same capacitance $C$, is connected to a cell as shown.\n\n[Circuit diagram. The cell and capacitor X are in series with a parallel network. The upper branch of the network contains one capacitor. The lower branch contains two capacitors in series, with Y on the right. All four capacitors have capacitance $C$.]\n\nThe potential difference across capacitor X is $V$.\n\nWhat is the potential difference across capacitor Y?\n\nA $\\frac V3$\nB $\\frac{2V}3$\nC $\\frac{3V}4$\nD $\\frac{3V}2$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "On closing the switch, the capacitor voltage rises as $V_C=V_0(1-e^{-t/(RC)})$, where $V_0$ is the battery e.m.f. The resistor voltage is therefore $V_R=V_0e^{-t/(RC)}$.\n\nThe power is $P=V_R^2/R=(V_0^2/R)e^{-2t/(RC)}$, an exponential decay with a constant half-life.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows unequal time intervals for successive halvings.",
+        "C": "Shows a linear increase from zero even though the power is greatest initially.",
+        "D": "Shows power rising towards a plateau, like the capacitor voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.l",
+      "currents.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use resistor voltage to find power and recognise exponential decay.",
+    "misconception": "Confusing capacitor voltage with resistor power",
+    "transcription": "An uncharged capacitor $C$ is connected in series to a battery, resistor $R$ and a switch $S$.\n\n[Series circuit with battery at the top, open switch $S$ on the right, capacitor $C$ at the bottom and resistor $R$ on the left.]\n\nWhich of the following graphs shows the variation with time $t$ of the power $P$ dissipated in the resistor when switch $S$ is closed?\n\n[All graphs plot $P$ vertically against $t$ horizontally with the origin labelled 0.]\nA [Decreasing curve with equal intervals for successive halvings, approaching zero.]\nB [Decreasing curve taking one grid interval to halve, then two more intervals to halve again.]\nC [Straight line rising from the origin.]\nD [Curve rising from the origin and levelling off at a positive value.]"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q25",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force on a proton points upwards. For the proton to pass undeflected, the electric force and hence the electric field must point downwards.\n\nBalancing the forces gives $Bqv=qE$, so $E=Bv=(0.015)(2.0\\times10^7)=3.0\\times10^5\\ \\mathrm{N\\,C^{-1}}$.",
+      "perOption": {
+        "A": "Gives the right direction but a field too weak to balance the magnetic force.",
+        "B": "Gives a field that is too weak and acts in the same direction as the magnetic force.",
+        "C": "Correct.",
+        "D": "The upward electric force would add to the magnetic force."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.m",
+      "electric-fields.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must determine the force direction and balance the force magnitudes.",
+    "misconception": "Making the electric force reinforce the magnetic force",
+    "transcription": "A beam of protons passes through a velocity selector as shown in the diagram below. The magnetic flux density, $B$, is $0.015\\ \\mathrm{T}$ and directed into the plane of the paper.\n\n[The proton beam travels rightwards between two horizontal plates. Crosses mark the magnetic field into the page. Labels read $v=2.0\\times10^7\\ \\mathrm{m\\,s^{-1}}$ and $B=0.015\\ \\mathrm{T}$.]\n\nIf protons travelling at $2.0\\times10^7\\ \\mathrm{m\\,s^{-1}}$ pass through undeflected, what would be the direction and magnitude of the electric field?\n\nDirection | Magnitude\nA downwards | $1.3\\times10^3\\ \\mathrm{N\\,C^{-1}}$\nB upwards | $1.3\\times10^3\\ \\mathrm{N\\,C^{-1}}$\nC downwards | $3.0\\times10^5\\ \\mathrm{N\\,C^{-1}}$\nD upwards | $3.0\\times10^5\\ \\mathrm{N\\,C^{-1}}$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By energy conservation, $\\frac12mv^2=qV$, so $v=\\sqrt{2qV/m}$. The magnetic force supplies the centripetal force, so $Bqv=mv^2/r$ and $r=mv/(Bq)$.\n\nSubstituting gives $r=B^{-1}\\sqrt{2mV/q}$. With the same $B$ and $V$, $r_Y/r_X=\\sqrt{2\\times\\frac14}=1/\\sqrt2$.",
+      "perOption": {
+        "A": "Uses the mass-to-charge ratio directly without taking the square root.",
+        "B": "Correct.",
+        "C": "Assumes the mass and charge changes cancel even though they change by different factors.",
+        "D": "Reverses the ratio and predicts a larger radius."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion",
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.k",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must link acceleration through a voltage to the radius of magnetic circular motion.",
+    "misconception": "Assuming radius is linear in the mass-to-charge ratio",
+    "transcription": "Two charged particles, X and Y, are accelerated from rest through the same potential difference $V$. They then enter a region of uniform magnetic field of magnetic flux density $B$ acting perpendicular to their velocity.\n\nParticle X has mass $m$ and charge $q$, and moves in a circular path of radius $r$.\nParticle Y has mass $2m$ and charge $4q$.\n\nWhat is the radius of the circular path of particle Y?\n\nA $\\frac{r}{2}$\nB $\\frac{r}{\\sqrt2}$\nC $r$\nD $\\sqrt2r$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The forces are in the same direction, so $F=F_{XY}+F_{YZ}$. The perpendicular projection of XY equals the length $L$ of YZ, so $F_{XY}=F_{YZ}=F/2$.\n\nSince $L=L_{XY}\\cos\\theta$, $F/2=BI L_{XY}\\cos\\theta$, giving $L_{XY}=F/(2BI\\cos\\theta)$.",
+      "perOption": {
+        "A": "Assigns all of the force to XY.",
+        "B": "Correct.",
+        "C": "Assigns all of the force to XY and uses its projection parallel to the field.",
+        "D": "Uses the projection parallel to the field when calculating the force on XY."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the perpendicular projection and combine both forces.",
+    "misconception": "Using the angle to the vertical as the angle to the magnetic field",
+    "transcription": "A rigid conductor consisting of two straight segments, XY and YZ is placed in a uniform horizontal magnetic field of flux density $B$ as shown. A steady current $I$ flows through the conductor from X to Y to Z.\n\nSegment YZ has length $L$ and is perpendicular to the magnetic field. Segment XY makes an angle $\\theta$ with the vertical.\n\n[The magnetic field points right. X is below and to the left of Y, and Z is directly above Y. YZ and the vertical projection of XY both have length $L$. The angle $\\theta$ is between YX and the downward vertical through Y.]\n\nThe total magnetic force experienced by the entire conductor XYZ is $F$.\n\nWhat is the correct expression for the length of segment XY?\n\nA $\\frac{F}{BI\\cos\\theta}$\nB $\\frac{F}{2BI\\cos\\theta}$\nC $\\frac{F}{BI\\sin\\theta}$\nD $\\frac{F}{2BI\\sin\\theta}$"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electrons can excite the gas up to $n=4$. From the ground state, $E_4-E_1=3.61\\ \\mathrm{eV}$, but $E_5-E_1=3.75\\ \\mathrm{eV}$ exceeds the available $3.70\\ \\mathrm{eV}$.\n\nThe $4\\to1$, $4\\to2$, $3\\to1$ and $2\\to1$ transitions emit photons of $3.61$, $1.51$, $3.19$ and $2.10\\ \\mathrm{eV}$, respectively, all above the $1.50\\ \\mathrm{eV}$ work function. The $4\\to3$ and $3\\to2$ transitions give $0.42$ and $1.09\\ \\mathrm{eV}$, leaving four qualifying wavelengths.",
+      "perOption": {
+        "A": "Counts only transitions to the ground state and misses the 1.51 eV transition.",
+        "B": "Correct.",
+        "C": "Counts all six accessible transitions, including two below threshold.",
+        "D": "Counts all ten transitions among five levels, including the inaccessible fifth level and photons below threshold."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must identify the accessible levels and check every possible downward transition against the work function.",
+    "misconception": "Counting all accessible transitions as photoelectrically active",
+    "transcription": "A gas has the following energy levels. It is excited by incoming electrons of kinetic energy $3.70\\ \\mathrm{eV}$. Assume that the gas is cool and that all excitations of the gas by the incoming electrons are from the ground state.\n\n[Energy-level diagram. Energies in eV from top to bottom are $-1.38$ at $n=5$, $-1.52$ at $n=4$, $-1.94$ at $n=3$, $-3.03$ at $n=2$ and $-5.13$ at $n=1$.]\n\nThe photons emitted on subsequent de-excitation are incident on a metal with work function energy $1.50\\ \\mathrm{eV}$.\n\nHow many emitted photons of unique wavelength are capable of causing photoelectric effect on the metal?\n\nA 3\nB 4\nC 6\nD 10"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q29",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The count rate drops sharply when aluminium is placed between the source and the GM tube, indicating beta emission since the paper barely changes the count.\n\nThe count rate falls to about one eighth of its original value in 24 hours, corresponding to three half-lives. The half-life is $24/3=8\\ \\mathrm{h}$.",
+      "perOption": {
+        "A": "Identifies alpha emission even though thin paper barely changes the count.",
+        "B": "Identifies alpha emission and assumes two halvings instead of three.",
+        "C": "Correct.",
+        "D": "Two half-lives would leave about one quarter of the original source count rate after 24 hours."
+      }
+    },
+    "issues": "The key estimates three halvings without explicitly subtracting background. Using the aluminium-shielded readings as background estimates gives corrected rates of 3219 and 401 counts per minute, consistent with 8 hours.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.g",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must interpret absorber readings and estimate how many times the source count rate halves.",
+    "misconception": "Treating radioactive decay as linear",
+    "transcription": "An experiment is set up to determine the nature of the radiation emitted by a radioactive isotope and to estimate its half-life. The source is placed $2\\ \\mathrm{cm}$ away from a Geiger-Muller (GM) tube connected to a counter. The count-rate is measured after each duration, $t$, has elapsed.\n\n[The source faces the GM tube across a $2\\ \\mathrm{cm}$ gap. A cable connects the tube to the counter.]\n\nThe following data is obtained:\n\n$t$ / hours | Count-rate with source / $\\mathrm{min^{-1}}$ | Count-rate with source (behind a thin sheet of paper) / $\\mathrm{min^{-1}}$ | Count-rate with source (behind a $5\\ \\mathrm{mm}$ aluminum sheet) / $\\mathrm{min^{-1}}$\n0 | 3250 | 3247 | 31\n24 | 430 | 431 | 29\n\nWhich row correctly identifies the primary type of emission and the half-life of the source?\n\nType of emission | Half-life / hours\nA alpha | 8\nB alpha | 12\nC beta | 8\nD beta | 12"
+  },
+  {
+    "id": "hci-2026-prelim-p1-q30",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each $\\alpha$ decay decreases the nucleon number by 4 and proton number by 2. The $\\beta^-$ decay leaves the nucleon number unchanged and increases the proton number by 1.\n\nThe net decreases are 12 nucleons and 5 protons, giving $ {}^{225}_{88}\\mathrm{Ra}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Subtracts six nucleons across the three alpha decays instead of twelve.",
+        "C": "Gets the nucleon number right but subtracts only three protons overall instead of five.",
+        "D": "Accounts for only two alpha decays, which together with the beta-minus decay would give thorium-229."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.c",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track the nucleon and proton counts through four decays.",
+    "misconception": "Changing the mass number in beta-minus decay",
+    "transcription": "A sequence of radioactive decays involving three $\\alpha$-particles and a $\\beta$-particle is shown.\n\n[Decay chain. $ {}^{237}_{93}\\mathrm{Np}\\xrightarrow{\\alpha}Q\\xrightarrow{\\beta}R\\xrightarrow{\\alpha}S\\xrightarrow{\\alpha}T$.]\n\nWhat is nuclide T?\n\nA $ {}^{225}_{88}\\mathrm{Ra}$\nB $ {}^{231}_{88}\\mathrm{Ra}$\nC $ {}^{225}_{90}\\mathrm{Th}$\nD $ {}^{229}_{90}\\mathrm{Th}$"
+  },
+  {
+    "id": "jpjc-2023-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $R=\\sigma T^4$, $\\sigma=R/T^4$. The unit is $(\\mathrm{J\\,s^{-1}\\,m^{-2}})/\\mathrm{K^4}$.\n\nSubstituting $\\mathrm{J}=\\mathrm{kg\\,m^2\\,s^{-2}}$ gives $\\mathrm{kg\\,s^{-3}\\,K^{-4}}$.",
+      "perOption": {
+        "A": "Multiplies by the fourth power of kelvin instead of dividing by it.",
+        "B": "Correct.",
+        "C": "Places seconds in the numerator even though radiancy is energy per unit time per unit area.",
+        "D": "Uses a positive kelvin exponent even though the temperature factor is in the denominator."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must rearrange the equation and express the joule in base units.",
+    "misconception": "Multiplying by temperature to the fourth power when solving for the constant",
+    "transcription": "The radiancy $R$ is defined as the total energy emitted per unit time per unit area from a black body at thermodynamic temperature $T$. It is given by\n\n$R=\\sigma T^4$\n\nwhere $\\sigma$ is called the Stefan-Boltzmann constant.\n\nWhat is the correct unit for $\\sigma$?\n\nA $\\mathrm{W\\,m^{-2}\\,K^4}$\nB $\\mathrm{kg\\,s^{-3}\\,K^{-4}}$\nC $\\mathrm{J\\,s\\,m^{-2}\\,K^{-4}}$\nD $\\mathrm{J\\,s^{-1}\\,m^{-2}\\,K^4}$"
+  }
+]

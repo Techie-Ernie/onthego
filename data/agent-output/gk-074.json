@@ -1,0 +1,497 @@
+[
+  {
+    "id": "njc-2021-promo-p1-q17",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "One revolution takes $T=1.0\\ \\mathrm{s}$, so $\\omega=2\\pi/T=2\\pi\\ \\mathrm{rad\\,s^{-1}}$. The velocity changes direction throughout the motion, giving a centripetal acceleration of $a=r\\omega^2=4\\pi^2\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Treats constant speed as constant velocity.",
+        "B": "Uses one radian per revolution instead of $2\\pi$ radians.",
+        "C": "Uses $r\\omega$ instead of $r\\omega^2$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation uses the period to find angular speed before applying the centripetal acceleration formula.",
+    "misconception": "Constant speed implies zero acceleration",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q18",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top, both weight and the normal force point toward the centre. At the minimum speed for contact, the normal force just falls to zero, so $mg=mv^2/r$. Thus $v=\\sqrt{gr}=\\sqrt{9.81(0.10)}=0.99\\ \\mathrm{m\\,s^{-1}}$, which rounds to $1.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Divides by the radius inside the square root instead of multiplying by it.",
+        "B": "Uses the diameter in place of the radius.",
+        "C": "Correct.",
+        "D": "Gives $v^2/r<g$, which would require an outward normal force at the top."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the limiting normal force before calculating the speed.",
+    "misconception": "The track must exert a positive normal force at the minimum speed",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q19",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "With negligible friction, the drop in height is one radius, so $mgr=\\tfrac12mv^2$ and $v^2=2gr$. At the bottom, the net force toward the centre is $N-mg=mv^2/r=2mg$. Hence $N=3mg=3.0\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives a net inward force of only $1.5\\ \\mathrm{N}$ instead of $2.0\\ \\mathrm{N}$.",
+        "C": "Gives the net centripetal force and omits the weight when finding the normal reaction.",
+        "D": "Balances the weight and leaves no upward centripetal force."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder. The stem leaves friction unspecified. Option A assumes negligible friction.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the bottom speed from energy conservation and then resolve the radial forces.",
+    "misconception": "The normal reaction equals the net centripetal force",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q20",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In simple harmonic motion, $a=-\\omega^2x$. Using $a=-8\\ \\mathrm{mm\\,s^{-2}}$ at $x=2\\ \\mathrm{mm}$ gives $\\omega^2=4\\ \\mathrm{s^{-2}}$ and $\\omega=2\\ \\mathrm{rad\\,s^{-1}}$. The period is $T=2\\pi/\\omega=\\pi\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Inverts the period and frequency relation, giving the numerical value of $f$.",
+        "B": "Uses the ratio $\\omega/\\pi$ in place of $2\\pi/\\omega$.",
+        "C": "Treats the numerical value of $\\omega$ as the period.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student reads an acceleration–displacement pair and converts the inferred angular frequency to a period.",
+    "misconception": "Angular frequency and period have the same numerical value",
+    "transcription": "Values of the acceleration $a$ of a particle moving in simple harmonic motion as a function of its displacement $x$ are given in the table below.\n\n$a$ / $\\mathrm{mm\\,s^{-2}}$: 16, 8, 0, −8, −16\n$x$ / $\\mathrm{mm}$: −4, −2, 0, 2, 4\n\nThe period of the motion is\nA $\\frac{1}{\\pi}\\ \\mathrm{s}$\nB $\\frac{2}{\\pi}\\ \\mathrm{s}$\nC $2\\ \\mathrm{s}$\nD $\\pi\\ \\mathrm{s}$"
+  },
+  {
+    "id": "njc-2021-promo-p1-q21",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the direction of motion through P as positive, with $t=0$ at the crossing. Then $x=a\\sin(2\\pi t/T)$. At $t=T/8$, the phase is $\\pi/4$ and $x=a\\sin(\\pi/4)=a/\\sqrt{2}$.",
+      "perOption": {
+        "A": "Assumes displacement grows linearly with the fraction of the period elapsed.",
+        "B": "Correct.",
+        "C": "Introduces an extra factor of $\\tfrac12$ after evaluating $\\sin(\\pi/4)$.",
+        "D": "Uses a sine value of $\\tfrac12$ at phase $\\pi/4$."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder. The crossing direction is unspecified. The options give displacement magnitudes.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must choose the sine form for an equilibrium crossing and evaluate it at one eighth of a cycle.",
+    "misconception": "Displacement is proportional to elapsed time in SHM",
+    "transcription": "A small mass executes simple harmonic motion about a point P with amplitude $a$ and period $T$. Its displacement from P at time $\\frac{T}{8}$ after passing through P is\nA $\\frac{a}{8}$\nB $\\frac{a}{\\sqrt{2}}$\nC $\\frac{a}{2\\sqrt{2}}$\nD $\\frac{a}{2}$"
+  },
+  {
+    "id": "njc-2021-promo-p1-q22",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Velocity is the slope of the displacement–time graph, and acceleration has the opposite sign to displacement because $a=-\\omega^2x$. At C, the slope is positive and the displacement is positive, so velocity is positive and acceleration is negative.",
+      "perOption": {
+        "A": "Acceleration is zero at the equilibrium crossing.",
+        "B": "Velocity is zero at the trough.",
+        "C": "Correct.",
+        "D": "The slope is negative and displacement is positive, so both velocity and acceleration are negative."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must read velocity from the slope and acceleration from the displacement sign.",
+    "misconception": "Velocity has the sign of displacement",
+    "transcription": "The diagram shows the graph of displacement against time for a body performing simple harmonic motion.\n\nAt which point are the velocity and acceleration in opposite directions?\n\n[The displacement–time curve starts at zero and rises. A is the first downward zero crossing, B is the following trough, C is on the positive rising side of the next crest, and D is on the positive falling side of that crest.]"
+  },
+  {
+    "id": "njc-2021-promo-p1-q23",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "With light linear damping, the amplitude decays exponentially as the oscillator loses energy, while the period stays constant from cycle to cycle. At critical damping, the system returns to equilibrium without oscillating.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Light damping dissipates energy, so successive peaks get smaller.",
+        "C": "A critically damped system has no oscillation period.",
+        "D": "A critically damped system returns to equilibrium without repeated peaks."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish light damping from critical damping.",
+    "misconception": "Critical damping still produces oscillations",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q24",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At P, the initial displacement is positive. As the profile travels right, the higher part of the wave immediately to the left of P reaches P, so its displacement initially increases. Graph D shows both features.",
+      "perOption": {
+        "A": "Starts above zero but falls immediately, as it would if the profile travelled left.",
+        "B": "Starts at zero even though P is above equilibrium.",
+        "C": "Starts below zero even though P is above equilibrium.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must turn a spatial snapshot of a moving wave into a time trace at a fixed point.",
+    "misconception": "The spatial slope gives the time slope directly",
+    "transcription": "A wave moves along the surface of water. The diagram shows the variation of displacement $s$ with distance along the wave at time $t=0$.\n\n[The sinusoidal profile starts at zero and rises to a crest. P is on the descending side of the crest above the axis. An arrow shows the wave travelling right.]\n\nWhich graph best shows the variation with time $t$ of the displacement $s$ of the point P on the wave?\n\n[Each option shows a sinusoidal displacement–time graph. A starts positive and falls, B starts at zero and rises, C starts negative and falls, and D starts positive and rises.]"
+  },
+  {
+    "id": "njc-2021-promo-p1-q25",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the same frequency, intensity is proportional to the square of the displacement amplitude. Halving the intensity reduces the amplitude to $1/\\sqrt{2}\\approx0.71$ of the original, or about $2.8$ grid divisions from an original amplitude of $4$. Graph D shows approximately this amplitude with the original period.",
+      "perOption": {
+        "A": "Changes the period and keeps the original amplitude.",
+        "B": "Changes the period and keeps the original amplitude.",
+        "C": "Halves the amplitude, which would reduce the intensity to one quarter at the same frequency.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder. The amplitude in graph D is approximate, at about three grid divisions.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert an intensity ratio to an amplitude ratio and identify the matching trace.",
+    "misconception": "Intensity is directly proportional to displacement amplitude",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q26",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At distance $r$ from an isotropic point source, the intensity is $I=P/(4\\pi r^2)$. To keep $I$ fixed when $P$ is halved, $r^2$ must also halve. The new distance is $8.0/\\sqrt{2}=5.7\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Moves too close, to a distance where the new intensity would be eight times the original.",
+        "B": "Moves too close, to a distance where the new intensity would be about four times the original.",
+        "C": "Halves the distance, which quadruples the intensity for a given power.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must keep intensity fixed while applying inverse-square spreading.",
+    "misconception": "Halving the power requires halving the distance",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q27",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The angle between the incident polarisation and the filter axis is $45^\\circ$. By Malus’ law, the transmitted intensity is $I=I_0\\cos^2 45^\\circ=I_0/2$.",
+      "perOption": {
+        "A": "Assumes complete extinction, which requires crossed polarisation axes at $90^\\circ$.",
+        "B": "Uses the amplitude factor $\\cos45^\\circ$ for the intensity.",
+        "C": "Correct.",
+        "D": "Assumes the incident polarisation is aligned with the filter axis."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student applies Malus’ law directly at the given angle.",
+    "misconception": "Intensity follows the unsquared cosine projection",
+    "transcription": "A vertically polarised beam of light of intensity $I_0$ enters a polarising filter whose plane of polarisation is at $45^\\circ$ to the vertical.\n\nWhat is the intensity of the transmitted beam?\nA zero\nB $I_0/\\sqrt{2}$\nC $I_0/2$\nD $I_0$"
+  },
+  {
+    "id": "njc-2021-promo-p1-q28",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The crests of P line up with the troughs of Q, so the waves are in antiphase. Their displacements partly cancel, leaving amplitude $3Y-Y=2Y$. The larger wave Q determines the sign of the resultant, so it is in antiphase with P by $\\pi$ radians.",
+      "perOption": {
+        "A": "Subtracts the amplitudes correctly but assigns the phase of the smaller wave.",
+        "B": "Correct.",
+        "C": "Adds the amplitudes as if the waves were in phase.",
+        "D": "Identifies the phase relative to P but adds amplitudes despite the waves being in antiphase."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.a",
+      "wave-motion.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer antiphase from the graphs and track the sign of the resultant.",
+    "misconception": "Partial cancellation leaves the resultant in phase with the smaller wave",
+    "transcription": "Two waves P and Q, of same frequency, have amplitude $Y$ and $3Y$ respectively.\n\n[Two graphs show displacement against distance along the wave. P starts at zero and rises. Q starts at zero and falls. Their zero crossings align, and crests of either wave align with troughs of the other.]\n\nWhich list correctly shows the amplitude of the resultant wave and the phase difference the resultant wave and wave P?\n\nAmplitude of resultant wave | Phase difference between resultant wave and wave P / radians\nA $2Y$ | $0$\nB $2Y$ | $\\pi$\nC $4Y$ | $0$\nD $4Y$ | $\\pi$"
+  },
+  {
+    "id": "njc-2021-promo-p1-q29",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each loop spans half a wavelength, so for a fixed string length $L$ with $n$ loops, $\\lambda=2L/n$. The wave speed on the same string at the same tension is fixed, so $f=v/\\lambda$ is proportional to $n$. The diagram shows five loops at $75\\ \\mathrm{Hz}$, so two loops require $(2/5)(75)=30\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Gives the fundamental frequency, which produces one loop.",
+        "B": "Correct.",
+        "C": "Gives the fourth harmonic, which produces four loops.",
+        "D": "Keeps the frequency that produces five loops."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c",
+      "wave-motion.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student counts the standing-wave loops and scales the frequency to the requested harmonic.",
+    "misconception": "The fundamental produces two loops",
+    "transcription": null
+  },
+  {
+    "id": "njc-2021-promo-p1-q30",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A displacement node has no arrow, while a displacement antinode has a locally longest arrow. Molecules on opposite sides of a node move in opposite directions at the instant shown. D has two internal nodes, three antinodes, and an arrow direction that reverses across each node.",
+      "perOption": {
+        "A": "The arrows point the same way on both sides of the upper node.",
+        "B": "There is only one node, at the centre, and two antinodes, at the ends.",
+        "C": "There is only one antinode, in the middle, with nodes at the ends.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The supplied file is the question paper and has no answer key or worked solution. The parsed A is a placeholder.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must check both the node and antinode counts and the reversal of motion across each node.",
+    "misconception": "Neighbouring standing-wave regions move in phase",
+    "transcription": "The arrows on the diagrams represent the movement of air molecules in a pipe which a stationary longitudinal wave has been set up. The length of each arrow represents the amplitude of the motion, and the arrow head shows the direction of motion at a particular instant.\n\nWhich diagram shows a possible stationary wave in which there are two displacement nodes and three displacement antinodes?\n\n[Each vertical pipe shows nine dots. Listed from top to bottom, 0 denotes a dot with no arrow.\nA: ↓ ↓ 0 ↓ ↓ ↓ 0 ↑ ↑. The longest arrows are at the top, centre and bottom.\nB: ↑ ↑ ↑ ↑ 0 ↓ ↓ ↓ ↓. The arrows are longest at the ends and get shorter toward the centre.\nC: 0 ↓ ↓ ↓ ↓ ↓ ↓ ↓ 0. The arrows are longest in the middle and get shorter toward the ends.\nD: ↓ ↓ 0 ↑ ↑ ↑ 0 ↓ ↓. The longest arrows are at the top, centre and bottom.]"
+  },
+  {
+    "id": "njc-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Estimate the sprinter’s mass as $65\\ \\mathrm{kg}$ and speed as $24\\ \\mathrm{km\\,h^{-1}}=6.7\\ \\mathrm{m\\,s^{-1}}$. Using $E_\\mathrm{k}=\\tfrac12mv^2$ gives about $1500\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Implies a speed of only about $0.9\\ \\mathrm{m\\,s^{-1}}$ for a $65\\ \\mathrm{kg}$ runner.",
+        "B": "Correct.",
+        "C": "Implies about $10.4\\ \\mathrm{m\\,s^{-1}}$ for a $65\\ \\mathrm{kg}$ runner, well above the assumed typical speed.",
+        "D": "Implies about $18\\ \\mathrm{m\\,s^{-1}}$ for a $65\\ \\mathrm{kg}$ runner, an implausible sprint speed."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student needs plausible estimates of sprint speed and body mass before applying the kinetic energy formula.",
+    "misconception": "Kinetic energy scales linearly with speed",
+    "transcription": null
+  }
+]

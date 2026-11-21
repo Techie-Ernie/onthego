@@ -1,0 +1,490 @@
+[
+  {
+    "id": "hci-2025-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For stars just resolved, the small-angle approximation gives $d/D \\approx \\theta_{\\min} \\approx \\lambda/b$, where $d$ is their separation, $D$ is their distance and $b$ is the aperture width. Hence $d=\\lambda D/b=(630\\times10^{-9})(5.9\\times10^{16})/(45\\times10^{-2})=8.3\\times10^{10}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Underestimates the separation given by the wavelength-to-aperture ratio.",
+        "B": "Correct.",
+        "C": "Gives a separation inconsistent with the limiting angle for the stated aperture and wavelength.",
+        "D": "Treats the wavelength as a thousand times too large, as when converting nanometres as micrometres."
+      }
+    },
+    "issues": "The key diagram mislabels the telescope distance as $5.96\\times10^6$ m. Its calculation uses the printed $5.9\\times10^{16}$ m.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It combines the resolution criterion with the small-angle approximation.",
+    "misconception": "Incorrect conversion of aperture or wavelength",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first node is $\\lambda/4=0.17\\ \\mathrm{m}$ from the open end, so $\\lambda=0.68\\ \\mathrm{m}$ and $f=340/0.68=500\\ \\mathrm{Hz}$. A node at the same position requires $0.17\\ \\mathrm{m}$ to equal $\\lambda/4$, $3\\lambda/4$, $5\\lambda/4$, and so on. The corresponding frequencies are $500$, $1500$, $2500$, $3500$, $4500$, $5500\\ \\mathrm{Hz}$ and so on.",
+      "perOption": {
+        "A": "This is five times 500 Hz, so the microphone is at a node.",
+        "B": "Correct. This even multiple of 500 Hz puts the microphone at an antinode in the key’s displacement-wave model.",
+        "C": "This is seven times 500 Hz, so the microphone is at a node.",
+        "D": "This is eleven times 500 Hz, so the microphone is at a node."
+      }
+    },
+    "issues": "The key uses displacement nodes, while a microphone senses pressure. The stated initial position and the keyed exclusion are consistent with the displacement-node interpretation.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "superposition.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It requires finding the subset of tube modes that retain a node at the microphone.",
+    "misconception": "Assuming every tube resonance has a node at the microphone",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The charged metal plates produce a uniform field between them. Its magnitude is $E=\\Delta V/d=3V/(r_1+r_2)$. The force on the oil drop is $F=qE=3Vq/(r_1+r_2)$.",
+      "perOption": {
+        "A": "Subtracts two inverse-square point-charge force terms, which do not model the field of parallel plates.",
+        "B": "Adds two inverse-square point-charge force terms, which do not model the field of parallel plates.",
+        "C": "Calculates a field for each plate separately from its potential and distance to the drop.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The solution continues on page 5. The key incorrectly describes A as potential energy, although its inverse-square terms have units of force.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires using the full plate separation to calculate the field before finding the force.",
+    "misconception": "Treating parallel plates as point charges",
+    "transcription": "A small oil drop of charge $+q$ is suspended between two metal plates, as shown below.\n\n[Two horizontal metal plates enclose an oil drop of charge $+q$. The upper plate is labelled $-V$ and is a distance $r_2$ above the drop. The lower plate is labelled $+2V$ and is a distance $r_1$ below the drop.]\n\nThe small oil drop is a distance $r_1$ from the lower plate and $r_2$ from the upper plate. The lower plate has a charge $Q_1$ and is held at a potential of $+2V$, while the upper plate has charge $Q_2$ and is held at a potential of $-V$.\n\nWhat one of the expressions gives the magnitude of the electric force on the oil drop?\n\nA $\\frac{Q_1q}{4\\pi\\varepsilon_0r_1^2}-\\frac{Q_2q}{4\\pi\\varepsilon_0r_2^2}$\nB $\\frac{Q_1q}{4\\pi\\varepsilon_0r_1^2}+\\frac{Q_2q}{4\\pi\\varepsilon_0r_2^2}$\nC $\\frac{2Vq}{r_1}+\\frac{Vq}{r_2}$\nD $\\frac{3Vq}{r_1+r_2}$"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The external work is $\\Delta U=q\\Delta V$, where the net potential is the scalar sum of the two point-charge potentials. Only the endpoints matter. The potential is positive near $+2q$ and negative near $-q$, with zero potential between the charges closer to $-q$. Path B goes from a large negative potential to a large positive potential, giving the greatest $\\Delta V$.",
+      "perOption": {
+        "A": "The endpoints are at similar distances from each charge, so $\\Delta V\\approx0$.",
+        "B": "Correct.",
+        "C": "The endpoints are about equally far from each charge, so $\\Delta V\\approx0$.",
+        "D": "The potential goes from strongly negative to less negative, giving a smaller rise than on B."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.c",
+      "electric-fields.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires comparing endpoint potentials from both charges while ignoring the shape of each path.",
+    "misconception": "Basing electrostatic work on the route taken",
+    "transcription": "Two point charges $+2q$ and $-q$ are arranged as shown below. An external force moves a third point charge $+q$ along the paths shown, without any change in kinetic energy.\n\nAlong which path is the net work done on the third charge by the external force the greatest?\n\n[The fixed charge $+2q$ is on the left and $-q$ on the right at the same height. A starts above and slightly right of $+2q$, loops to its left and ends below and slightly right of it. B runs leftwards along a shallow arc from near and above $-q$ to near and above $+2q$. C runs vertically upwards from below the charges to above them, roughly midway between them. D starts just below and left of $-q$, loops leftward below and around $+2q$, and ends above and to the right of $-q$.]"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Resistance is $R=V/I$, the reciprocal of the slope of the line from the origin to a point on the curve. From W to X, $I/V$ is constant, so $R$ is constant. From X to Y, $I/V$ increases, so $R$ decreases. From Y to Z, $I/V$ decreases overall, so $R$ increases overall.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The origin-to-point slope increases from X to Y, so its reciprocal decreases.",
+        "C": "The straight segment WX gives constant resistance, and the smaller origin-to-point slope at Z gives higher resistance than at Y.",
+        "D": "WX has constant resistance, and the origin-to-point slopes give the opposite overall trends to those listed for XY and YZ."
+      }
+    },
+    "issues": "The schematic may show a short transition just after Y before resistance rises. A matches the overall change across each section.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires reading the slope from the origin to the curve and taking its reciprocal.",
+    "misconception": "Using the tangent slope as the reciprocal of resistance",
+    "transcription": "An electrical component has a potential difference $V$ across it and a current $I$ through it. A graph of $I$ against $V$ is drawn and is marked in three sections WX, XY and YZ.\n\n[The vertical axis is $I$ and the horizontal axis is $V$. W is at the origin. WX is a straight rising segment. XY curves upward and becomes steeper. YZ rises and levels off at Z.]\n\nWhich one of the options below correctly indicates the variation of the resistance of the component within each of the three sections of the $I$–$V$ graph?\n\nOption — WX, XY, YZ\nA — constant, decreases, increases\nB — constant, increases, increases\nC — increases, decreases, constant\nD — increases, increases, decreases"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The reverse-biased diode blocks current through the resistor measured by $V_2$, so $V_2=0$. The diode measured by $V_3$ is forward-biased and has zero voltage drop in the ideal model. Thus $V_2$ and $V_3$ give the same reading.",
+      "perOption": {
+        "A": "The reverse-biased diode takes the full supply voltage, so $V_1=\\varepsilon$.",
+        "B": "The two conducting resistors share the supply voltage, giving $V_4+V_5=\\varepsilon$ while $V_2=0$.",
+        "C": "Correct.",
+        "D": "The forward-biased diode has zero drop, while each conducting resistor has a drop of $\\varepsilon/2$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires applying the ideal-diode model to both branches and tracing the voltage drops.",
+    "misconception": "Assuming every ideal diode has zero voltage across it",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At balance, the voltage drops to the left and right of the contact equal the drops across the fixed resistor and LDR, respectively. Covering the LDR raises its resistance and, by the potential-divider principle, raises the fraction of the supply voltage across it. Moving the contact left lengthens the wire segment on the right, increasing its share of the voltage and restoring balance.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Moving right shortens the segment that needs a larger voltage drop.",
+        "C": "Increasing the supply scales both divider voltages without changing their fractions of the supply.",
+        "D": "Decreasing a nonzero supply scales both divider voltages without restoring equality."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires relating changes in the LDR voltage to the required lengths on a balanced slide wire.",
+    "misconception": "Moving the contact in the direction of the component with increased resistance",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current in P produces a clockwise magnetic field tangent to coil Q. The field and the current in each part of the coil are along the same line but in opposite directions. Fleming’s left-hand rule gives no force when the current has no component perpendicular to the field.",
+      "perOption": {
+        "A": "Misapplies the parallel-wire attraction rule to the coil and central wire.",
+        "B": "Misapplies the parallel-wire force rule to predict a radial repulsion.",
+        "C": "A perpendicular force would require a nonzero cross product of the current direction and magnetic field.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key calls the field parallel to the coil current. The arrows show that they are antiparallel, which also gives zero force.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires relating the field around a straight wire to the local current direction everywhere on the coil.",
+    "misconception": "Applying the parallel-wire attraction rule to perpendicular wires",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q25",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The turn density is $n=N/L=4000/(200\\times10^{-3})=20000\\ \\mathrm{m^{-1}}$. With $I=V/R$, the field is $B=\\mu_0 nI=(4\\pi\\times10^{-7})(20000)(6.0)/(3.26\\times10^3)=4.6\\times10^{-5}\\ \\mathrm{T}$.",
+      "perOption": {
+        "A": "Uses $3.26\\ \\Omega$ for a resistance of $3.26\\ \\mathrm{k\\Omega}$.",
+        "B": "Correct.",
+        "C": "Uses 4000 as the turn density and $3.26\\ \\Omega$ as the resistance.",
+        "D": "Uses the total turn count of 4000 as the number of turns per metre."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires converting the resistance and length before using the solenoid field equation.",
+    "misconception": "Using total turns where turns per metre are required",
+    "transcription": "A wire is tightly wound in a single layer to form a hollow solenoid of 4000 turns and resistance of $3.26\\ \\mathrm{k\\Omega}$. The resulting solenoid resembles a tube of length $200\\ \\mathrm{mm}$ and diameter $30\\ \\mathrm{mm}$. The solenoid is connected in series to a battery of e.m.f. $6.0\\ \\mathrm{V}$ and has negligible internal resistance.\n\n[The solenoid is labelled $200\\ \\mathrm{mm}$ along its length and $30\\ \\mathrm{mm}$ across its diameter. Its ends connect to a $6.0\\ \\mathrm{V}$ battery. The diagram is not drawn to scale.]\n\nDetermine the largest possible magnetic flux density at the center of the solenoid due to the current through the solenoid.\n\nA $4.6\\times10^{-2}\\ \\mathrm{T}$\nB $4.6\\times10^{-5}\\ \\mathrm{T}$\nC $9.3\\times10^{-3}\\ \\mathrm{T}$\nD $9.3\\times10^{-6}\\ \\mathrm{T}$"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Faraday’s law, the steady induced e.m.f. has magnitude $|\\varepsilon|=|\\Delta\\Phi|/\\Delta t$. The field is normal to the loop, so $|\\varepsilon|=1.2[\\pi(0.2)^2-\\pi(0.1)^2]/0.1=1.2\\pi(0.04-0.01)\\times10\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Squares the change in radius to calculate the lost area.",
+        "B": "Uses the whole initial area as if the loop shrank to zero.",
+        "C": "Uses the change in circumference to calculate the change in flux.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires taking the difference of two circular areas in Faraday’s law.",
+    "misconception": "Squaring the radius change to find the area change",
+    "transcription": "A circular loop of wire is placed in a uniform magnetic field of $1.2\\ \\mathrm{T}$ that is normal to the plane of the loop. The loop shrinks from a radius of $0.2\\ \\mathrm{m}$ to a radius of $0.1\\ \\mathrm{m}$ in $0.1\\ \\mathrm{s}$, at a rate which generates a steady e.m.f..\n\nWhich one of the following gives the induced e.m.f.?\n\nA $1.2\\times\\pi(0.2-0.1)^2\\times10\\ \\mathrm{V}$\nB $1.2\\times\\pi(0.2)^2\\times10\\ \\mathrm{V}$\nC $1.2\\times2\\pi(0.2-0.1)\\times10\\ \\mathrm{V}$\nD $1.2\\times\\pi(0.04-0.01)\\times10\\ \\mathrm{V}$"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The sinusoidal waveform has a peak voltage of $320\\ \\mathrm{V}$. Its r.m.s. voltage is $V_{\\mathrm{rms}}=320/\\sqrt{2}=226\\ \\mathrm{V}\\approx230\\ \\mathrm{V}$. This is the equivalent d.c. voltage that gives the same mean power.",
+      "perOption": {
+        "A": "Divides the peak voltage by 2 instead of $\\sqrt2$.",
+        "B": "Correct.",
+        "C": "Uses the peak voltage directly.",
+        "D": "Uses the peak-to-peak voltage."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires reading the peak voltage and applying the sinusoidal r.m.s. relation.",
+    "misconception": "Confusing peak and r.m.s. voltage",
+    "transcription": null
+  },
+  {
+    "id": "hci-2025-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photoelectric equation gives $eV_s=hf-\\Phi$, so the same ultraviolet source gives the same photon energy and stopping potential. Lower intensity means fewer photons strike the metal per second, so fewer photoelectrons are emitted and collected per second. The saturation current therefore decreases.",
+      "perOption": {
+        "A": "Shows a higher saturation current and a stopping potential closer to zero.",
+        "B": "Keeps the original saturation current despite the lower photon arrival rate.",
+        "C": "Correct.",
+        "D": "Shows a lower saturation current but puts the stopping potential closer to zero."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires tracking the independent effects of frequency and intensity on the current–voltage graph.",
+    "misconception": "Treating intensity as energy per photon",
+    "transcription": "A photocell is connected in a series circuit with a variable d.c. power supply and a sensitive ammeter.\n\nThe photocell is illuminated with ultra-violet radiation and photoelectrons are emitted. The electromotive force (e.m.f.) of the supply is then reduced and reversed and a graph is plotted of current against e.m.f. as shown.\n\n[The original current–e.m.f. graph shows zero current up to a negative stopping e.m.f., then a rising current that levels off as the e.m.f. becomes positive.]\n\nWhich graph is obtained if the experiment is repeated with a lower intensity of the same ultra-violet source?\n\n[Four curves share axes labelled current and e.m.f., with zero marked on both axes. A and D rise from a less negative e.m.f. than B and C. The plateaux in descending order are A, B (labelled original graph), C and D.]"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Reducing the accelerating potential difference reduces the maximum photon energy, so the minimum wavelength increases. The less energetic incident electrons are also less likely to eject inner-shell electrons from the target atoms, so the characteristic peaks can decrease in intensity.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assumes the peak intensities stay fixed as the probability of inner-shell ionisation falls.",
+        "C": "Reverses the cutoff shift: lower maximum photon energy gives a longer minimum wavelength.",
+        "D": "Reverses the cutoff shift and assumes the reduction in electron energy leaves peak intensities fixed."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires distinguishing the short-wavelength cutoff from the intensities of characteristic peaks.",
+    "misconception": "Confusing peak height with characteristic wavelength",
+    "transcription": "The following graph shows the spectrum of X-rays emitted from an X-ray tube.\n\n[Intensity is on the vertical axis and wavelength on the horizontal axis. The continuous spectrum begins at $\\lambda_{\\min}$, rises sharply and tails off at longer wavelengths. Two narrow peaks sit above the continuum, with the second peak taller than the first.]\n\nIf the potential difference between the target and cathode is decreased, which one of the following combinations represents a possible change in the minimum wavelength, $\\lambda_{\\min}$, and the intensity of the peaks?\n\nOption — Minimum Wavelength ($\\lambda_{\\min}$), Intensity\nA — increase, decrease\nB — increase, remain the same\nC — decrease, decrease\nD — decrease, remain the same"
+  },
+  {
+    "id": "hci-2025-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The decay equation is $A=\\lambda N$, with $A$ the activity and $N$ the number of undecayed nuclei. The decay constant $\\lambda$ is the proportionality constant linking these two quantities.",
+      "perOption": {
+        "A": "Counts the nuclei decaying over one half-life, which depends on the starting number.",
+        "B": "Defines activity, the number of disintegrations per unit time.",
+        "C": "Defines the half-life.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.h"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It tests the standard definition directly.",
+    "misconception": "Confusing decay constant with activity or half-life",
+    "transcription": null
+  },
+  {
+    "id": "hci-2026-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The terms $\\mu\\,dT/dt$, $I_0\\cos(\\omega t)$ and $\\kappa(T-T_G)$ have the same units. The cosine is dimensionless, so the units of $\\mu$ are $(\\mathrm{J\\,s^{-1}m^{-2}})/(\\mathrm{K\\,s^{-1}})=\\mathrm{J\\,m^{-2}K^{-1}}$. Using $\\mathrm{J}=\\mathrm{kg\\,m^2s^{-2}}$ gives $\\mathrm{kg\\,s^{-2}K^{-1}}$.",
+      "perOption": {
+        "A": "Has the right dimensions but still contains the derived unit joule.",
+        "B": "Retains the inverse second that cancels when dividing by the temperature rate.",
+        "C": "Retains an extra inverse second and leaves joules unexpanded.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires matching units across the equation and expanding joules into SI base units.",
+    "misconception": "Leaving a derived unit in a base-unit expression",
+    "transcription": "The solar radiation incident on the surface of a shallow lake causes the temperature $T$ of the lake to vary with time $t$. A climate model proposes that the rate of change of a lake’s temperature is governed by the following equation:\n\n$\\mu\\frac{dT}{dt}=I_0\\cos(\\omega t)-\\kappa(T-T_G)$\n\nwhere,\n$I_0$ is the peak power per unit area of the solar radiation on the lake,\n$T_G$ is the ground temperature, and\n$\\mu$, $\\omega$, $\\kappa$ are constant coefficients.\n\nWhat are the SI base units of the constant coefficient $\\mu$?\n\nA $\\mathrm{J\\,m^{-2}K^{-1}}$\nB $\\mathrm{kg\\,s^{-3}K^{-1}}$\nC $\\mathrm{J\\,m^{-2}s^{-1}K^{-1}}$\nD $\\mathrm{kg\\,s^{-2}K^{-1}}$"
+  }
+]

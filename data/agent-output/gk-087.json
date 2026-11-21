@@ -1,0 +1,518 @@
+[
+  {
+    "id": "nyjc-2022-prelim-p1-q6",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "During the long fall from the tall building, the downward component of velocity approaches a maximum, the terminal speed. Air resistance also slows the horizontal motion, so the horizontal component approaches zero.",
+      "perOption": {
+        "A": "Drag reduces the horizontal component, and gravity initially increases the downward component.",
+        "B": "This describes motion without air resistance.",
+        "C": "As upward drag increases, the downward acceleration falls toward zero.",
+        "D": "Correct. The velocity approaches a downward terminal value."
+      }
+    },
+    "issues": "The key treats terminal velocity as reached during the fall. Under ordinary drag models, the horizontal and vertical components approach their limiting values.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "projectile-motion.e",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires tracking drag separately in the horizontal and vertical directions.",
+    "misconception": "Treating a projectile with drag like a projectile in vacuum.",
+    "transcription": "A tennis ball is thrown horizontally in air from the top of a tall building. The effect of air resistance is not negligible.\n\nWhich of the following correctly describes the subsequent change in the horizontal and vertical components of the ball’s velocity?\n\nOption | horizontal component of velocity | vertical component of velocity\nA | constant | constant\nB | constant | increases at a constant rate\nC | decreases to zero | increases at a constant rate\nD | decreases to zero | increases to a maximum value"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q7",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By conservation of momentum, the moving fragment carries all the original momentum, $2mv$. Its mass is $m$, so its kinetic energy is $p^2/(2m)=(2mv)^2/(2m)=2mv^2$.",
+      "perOption": {
+        "A": "Uses the rock’s original speed for the moving fragment.",
+        "B": "Uses the rock’s initial kinetic energy, which need not be conserved in an explosion.",
+        "C": "This is too small for a fragment of mass $m$ carrying momentum $2mv$.",
+        "D": "Correct. The moving fragment carries the entire initial momentum."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires finding the moving fragment’s momentum and using it to calculate kinetic energy.",
+    "misconception": "Assuming kinetic energy is conserved in an explosion.",
+    "transcription": "A rock of mass $2m$ in deep space, initially travelling at velocity $v$, explodes into two parts of equal mass, one of which becomes stationary immediately after the explosion.\n\nWhat is the kinetic energy of the moving part after the explosion?\n\nA $\\frac12 mv^2$\nB $mv^2$\nC $\\frac32 mv^2$\nD $2mv^2$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For rotational equilibrium, the lines of action of the three nonparallel forces must meet at one point. Extend $P$ and $W$ to their intersection, then draw the resultant ramp force from the contact point through that intersection, along C.",
+      "perOption": {
+        "A": "Its line passes to the left of the intersection of $P$ and $W$.",
+        "B": "This shows the normal direction alone and misses the intersection of $P$ and $W$.",
+        "C": "Correct. Its line of action passes through the intersection.",
+        "D": "A vertical contact force would leave the horizontal component of $P$ unbalanced."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.g",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires locating the intersection of two lines of action and tracing the contact force through it.",
+    "misconception": "Treating the normal reaction as the entire contact force.",
+    "transcription": "A full barrel of weight $W$ is being rolled up a ramp. The force $P$ is required to hold the barrel at rest on the ramp. Friction between the barrel and the ramp stops the barrel from slipping.\n\nWhich arrow shows the resultant force that the ramp exerts on the barrel?\n\n[The ramp rises to the right. Force $P$ points up and to the right at the left side of the barrel, and $W$ points vertically downward through its centre. Four arrows extend upwards from the barrel–ramp contact point. From left to right they are A, angled furthest to the left, B, perpendicular to the ramp, C, angled slightly to the left of vertical, and D, vertical.]"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q10",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Check whether $\\sum F_x\\ne 0$ or $\\sum F_y\\ne 0$, then check the resultant moment about the disc’s centre. In B the forces give nonzero components and the two tangential forces both produce clockwise moments.",
+      "perOption": {
+        "A": "The rightward $F+2F$ balances the leftward $3F$.",
+        "B": "Correct. Both the resultant force and the clockwise resultant torque are nonzero.",
+        "C": "The vertical components cancel and the two leftward components each equal half of $F$, balancing the rightward $F$.",
+        "D": "The two tangential forces give equal and opposite moments, and the central force gives zero moment."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires comparing the force components and moments independently in four diagrams.",
+    "misconception": "Assuming nonzero torque implies a nonzero resultant force.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q11",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The block moves upwards, so its weight does negative work whose magnitude equals the gain in gravitational potential energy. The normal reaction does zero work because it is perpendicular to the displacement. The rope’s work covers both the gain in gravitational potential energy and the work done against friction.",
+      "perOption": {
+        "A": "Weight has a component opposite the displacement and does negative work.",
+        "B": "The rope’s work also supplies the gain in gravitational potential energy.",
+        "C": "The normal reaction is perpendicular to the displacement and does zero work.",
+        "D": "Correct. The magnitude of the negative work equals the gain in gravitational potential energy."
+      }
+    },
+    "issues": "The key incorrectly says the net work on the block is positive. At constant speed the total work on the block is zero. D is the intended answer and requires reading 'negative work done' as its magnitude.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.i",
+      "projectile-motion.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires using the displacement direction to determine work and accounting for the gain in height.",
+    "misconception": "Equating constant kinetic energy with zero work by each force.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q12",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each block moves $5.0\\times 10^{-2}\\ \\mathrm{m}$ before they reach the same height. The net loss in gravitational potential energy is $(4.0-2.0)(9.8)(5.0\\times10^{-2})=0.98\\ \\mathrm{J}$. Equating this to $\\frac12(2.0+4.0)v^2$ gives $v=0.57\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. Both blocks have speed $0.57\\ \\mathrm{m\\,s^{-1}}$.",
+        "B": "Uses the full $10.0\\ \\mathrm{cm}$ separation as the displacement of each block.",
+        "C": "Using only the $2.0\\ \\mathrm{kg}$ block’s mass in the kinetic-energy term gives this value.",
+        "D": "This speed would give the pair about six times the available kinetic energy."
+      }
+    },
+    "issues": "The worked solution prints a kinetic-energy gain of 0.33 J. The correct gain is 0.98 J, consistent with its final speed and answer A.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.e",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires recognizing that each block moves half the initial separation and using both masses in the energy balance.",
+    "misconception": "Using the full initial separation as each block’s displacement.",
+    "transcription": "The figure below shows a light inextensible rope that passes over a light smooth pulley with two blocks of masses $4.0\\ \\mathrm{kg}$ and $2.0\\ \\mathrm{kg}$ attached to its two ends. The two blocks are initially at rest with the $4.0\\ \\mathrm{kg}$ block $10.0\\ \\mathrm{cm}$ above the $2.0\\ \\mathrm{kg}$ block.\n\n[The rope passes over the pulley, with the $4.0\\ \\mathrm{kg}$ block on the left and the $2.0\\ \\mathrm{kg}$ block on the right. The vertical separation is marked $10.0\\ \\mathrm{cm}$, and the ground is shown below both blocks.]\n\nWhat is the speed of the blocks when they are at the same height above the ground?\n\nA $0.57\\ \\mathrm{m\\,s^{-1}}$\nB $0.81\\ \\mathrm{m\\,s^{-1}}$\nC $0.99\\ \\mathrm{m\\,s^{-1}}$\nD $1.4\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q13",
+    "keyPage": 10,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The end R travels an arc of length $D$ at radius $L$, so $D=L\\theta$. Hence the angle is $D/L$ radians.",
+      "perOption": {
+        "A": "Inverts the arc length and radius.",
+        "B": "Correct. The angle in radians is arc length divided by radius.",
+        "C": "Multiplies the arc length by the radius and gives units of area.",
+        "D": "Takes the reciprocal of the product, giving units of inverse area."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "diagram"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It requires applying the definition of a radian to a labelled arc and radius.",
+    "misconception": "Inverting the arc length and radius.",
+    "transcription": "A rod PR of length $L$ is turned about the point P through an angle $\\theta$.\n\n[PR makes an angle $\\theta$ above a dashed horizontal line from P. An arc marked $D$ runs from the end of the dashed line to R. The rod is marked $L$.]\n\nThe end R of the rod moves through a distance $D$. Both $D$ and $L$ are measured in metres.\n\nWhat is the angle $\\theta$, expressed in radians?\n\nA $L/D$\nB $D/L$\nC $DL$\nD $1/(DL)$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q14",
+    "keyPage": 11,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force along the line is $F=-dE_p/dr=-m\\,d\\phi/dr$. For the $1\\ \\mathrm{kg}$ mass, estimate the negative gradient at $r_2$ using the points at $r_1$ and $r_3$, which bracket it. This gives the numerical value $(\\phi_1-\\phi_3)/(r_3-r_1)$.",
+      "perOption": {
+        "A": "The secant from $r_1$ to $r_2$ is too shallow and underestimates the force.",
+        "B": "It applies the single-point-mass relation to the combined field of the planet and moon.",
+        "C": "Correct. This secant best approximates the tangent at $r_2$.",
+        "D": "The secant out to $r_4$ is too steep and overestimates the force."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.h",
+      "energy-and-fields.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires estimating a tangent gradient from the secant that best brackets the target point.",
+    "misconception": "Using potential divided by distance instead of the local potential gradient.",
+    "transcription": "The gravitational potential $\\phi$ along the line joining the centres of a planet and its moon varies with the distance $r$ from the centre of the moon as shown.\n\n[Graph of $\\phi$ against $r$. The curve stays below zero, rises steeply near the origin to a maximum, then falls increasingly steeply through the marked points $(r_1,\\phi_1)$, $(r_2,\\phi_2)$, $(r_3,\\phi_3)$ and $(r_4,\\phi_4)$. The four marked distances are equally spaced.]\n\nWhich of the following expressions gives a value that is closest to that of the gravitational force acting on a $1\\ \\mathrm{kg}$ mass at a distance of $r_2$?\n\nA $\\frac{\\phi_1-\\phi_2}{r_2-r_1}$\nB $-\\frac{\\phi_2}{r_2}$\nC $\\frac{\\phi_1-\\phi_3}{r_3-r_1}$\nD $\\frac{\\phi_1-\\phi_4}{r_4-r_1}$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q15",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential change is $\\phi_\\mathrm{final}-\\phi_\\mathrm{initial}=-GM/R-(-GM/(5R))=-4GM/(5R)$, so A has the wrong sign. Gravity acts along the displacement, doing positive work equal to the potential energy lost, $4GMm/(5R)$. This equals the kinetic energy gained, giving $v=\\sqrt{8GM/(5R)}$. The field strength increases by $GM/R^2-GM/(5R)^2=24GM/(25R^2)$.",
+      "perOption": {
+        "A": "Correct. The statement is false because the potential decreases.",
+        "B": "This statement is true because gravity acts along the displacement and does work equal to the potential energy lost.",
+        "C": "This statement is true because the loss of gravitational potential energy equals $\\tfrac12 mv^2$.",
+        "D": "This statement is true because the field strengths at $R$ and $5R$ differ by $24GM/(25R^2)$."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.f",
+      "gravitational-fields.g",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires distinguishing signed potential change from work, kinetic energy gain and field-strength change.",
+    "misconception": "Confusing a change in potential with the magnitude of the fall in potential.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q16",
+    "keyPage": 13,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graphs start in phase and first reach antiphase after $4.5T_Q$, when P is at a crest and Q is at a trough. Another $4.5T_Q$ produces the other half-cycle of phase difference. Since $T_Q=1/125\\ \\mathrm{s}$, the first return to equal phase is at $9T_Q=0.072\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Counts four periods of Q at the marked time, where Q has completed four and a half.",
+        "B": "This is the first time the waves are in antiphase.",
+        "C": "Counting eight periods of Q instead of nine leaves the phase slip short of one cycle.",
+        "D": "Correct. Q gains one full cycle on P in this time."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires reading a half-cycle phase slip from the graphs and using it to find a full-cycle slip.",
+    "misconception": "Mistaking antiphase for the next occurrence of equal phase.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q17",
+    "keyPage": 14,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The temperature stays constant as the solid melts, so the mean kinetic energy of its molecules stays the same. The energy absorbed during melting increases the intermolecular potential energy.",
+      "perOption": {
+        "A": "Treats melting as a rise in molecular kinetic energy and reverses the potential-energy change.",
+        "B": "Correct. Potential energy rises while mean kinetic energy stays constant.",
+        "C": "A decrease in mean kinetic energy would imply a fall in temperature, and melting increases potential energy.",
+        "D": "Ignores the increase in potential energy supplied by the absorbed latent heat."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires connecting constant melting temperature to one component of internal energy.",
+    "misconception": "Assuming energy absorbed during melting raises temperature.",
+    "transcription": "Which of the following correctly states the changes, if any, in the potential energy and kinetic energy of the molecules of a solid as it melts?\n\nOption | potential energy | kinetic energy\nA | decreases | increases\nB | increases | remains the same\nC | remains the same | decreases\nD | remains the same | remains the same"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q18",
+    "keyPage": 14,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wavelength is $\\lambda=v/f=330/600=0.550\\ \\mathrm{m}$. Apply the phase formula $\\Delta\\phi=2\\pi x/\\lambda$ to $x=0.275\\ \\mathrm{m}$ to get $\\pi\\ \\mathrm{rad}$.",
+      "perOption": {
+        "A": "Treats the points as in phase even though they are half a wavelength apart.",
+        "B": "This phase difference would correspond to one eighth of a wavelength.",
+        "C": "This phase difference would correspond to one quarter of a wavelength.",
+        "D": "Correct. Half a wavelength gives half a cycle of phase difference."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires finding the wavelength and expressing the separation as a fraction of one cycle.",
+    "misconception": "Using a phase change of half a turn for a whole wavelength.",
+    "transcription": "The frequency of a wave is $600\\ \\mathrm{Hz}$ and its speed is $330\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the phase difference between the oscillation of two points on the wave that are $0.275\\ \\mathrm{m}$ apart?\n\nA $0$\nB $\\frac{\\pi}{4}\\ \\mathrm{rad}$\nC $\\frac{\\pi}{2}\\ \\mathrm{rad}$\nD $\\pi\\ \\mathrm{rad}$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q19",
+    "keyPage": 14,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The intensity at distance $r$ is the emitted power divided by the area over which it spreads, $I=50.0/(4\\pi r^2)$. Multiply the intensity at $r=4.0\\ \\mathrm{m}$ by the microphone area, $8.5\\times10^{-5}\\ \\mathrm{m^2}$, to get $2.1\\times10^{-5}\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "This result underestimates the power intercepted by the stated microphone area at the calculated intensity.",
+        "B": "Correct. The received power is the local intensity times the microphone area.",
+        "C": "Uses $0.85\\ \\mathrm{m^2}$ instead of converting $0.85\\ \\mathrm{cm^2}$ to square metres.",
+        "D": "This is the numerical value of the local intensity in $\\mathrm{W\\,m^{-2}}$ before multiplying by detector area."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires dividing by the wavefront area and converting the detector area before multiplying.",
+    "misconception": "Using the numerical value in square centimetres as square metres.",
+    "transcription": "A point source emits $50.0\\ \\mathrm{W}$ of sound energy in all directions. A small microphone of area $0.85\\ \\mathrm{cm^2}$ detects the sound at $4.0\\ \\mathrm{m}$ from the source.\n\nWhat is the power received by the microphone?\n\nA $1.6\\times10^{-5}\\ \\mathrm{W}$\nB $2.1\\times10^{-5}\\ \\mathrm{W}$\nC $2.1\\times10^{-1}\\ \\mathrm{W}$\nD $2.5\\times10^{-1}\\ \\mathrm{W}$"
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q20",
+    "keyPage": 14,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Points within a single loop vibrate in phase, and points in adjacent loops vibrate in antiphase. Amplitude varies from a node to an antinode. The vibrating points share a frequency, and points equally far from $N_2$ on opposite sides have equal amplitudes by symmetry.",
+      "perOption": {
+        "A": "Points in adjacent loops vibrate in antiphase.",
+        "B": "Amplitude varies from zero at a node to a maximum at an antinode.",
+        "C": "Points on opposite sides of the central node are in antiphase.",
+        "D": "Correct. Symmetric vibrating points have the same frequency and amplitude."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.c",
+      "wave-motion.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing the frequency, phase and amplitude of points on adjacent loops.",
+    "misconception": "Assuming points with the same amplitude are in phase.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2022-prelim-p1-q21",
+    "keyPage": 15,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The particle loses $100\\ \\mathrm{\\mu J}$ of kinetic energy, so it gains that much electric potential energy. Because the charge is negative, X is at the higher potential and $V_X-V_Y=(250-150)/5.0=20\\ \\mathrm{V}$ when the energies and charge are expressed in micro-units. The potential falls overall towards Y, and the field between X and Y need not be uniform.",
+      "perOption": {
+        "A": "X is at higher potential because a negative charge gains electric potential energy as its potential falls.",
+        "B": "The potential difference is $100\\ \\mathrm{\\mu J}/(5.0\\ \\mathrm{\\mu C})=20\\ \\mathrm{V}$.",
+        "C": "Correct. The endpoint data do not establish a uniform field.",
+        "D": "The key takes the overall drop in potential to indicate a field towards Y."
+      }
+    },
+    "issues": "C prints N m⁻¹, but electric field strength is measured in N C⁻¹ or V m⁻¹. The endpoint data establish only the average field component towards Y. D need not hold pointwise if the field varies in direction, so C is the intended answer but D is also ambiguous.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.g",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires tracking energy and the charge sign, then distinguishing an average field component from a uniform field.",
+    "misconception": "Inferring a uniform electric field from an endpoint potential difference.",
+    "transcription": "A particle of charge $-5.0\\ \\mathrm{\\mu C}$ is projected from X towards Y with kinetic energy $250\\ \\mathrm{\\mu J}$. When the partice is at Y which is $0.25\\ \\mathrm{m}$ away from X, its kinetic energy decreased to $150\\ \\mathrm{\\mu J}$.\n\n[The negatively charged particle is shown on a dashed horizontal path from X on the left to Y on the right, with arrows pointing towards Y. X and Y are separated by $0.25\\ \\mathrm{m}$.]\n\nWhich of the following statements may not be correct?\n\nA X is at a higher electric potential than Y.\nB The potential difference between X and Y is $20\\ \\mathrm{V}$.\nC The electric field between X and Y is of uniform strength $80\\ \\mathrm{N\\,m^{-1}}$.\nD The electric field between X and Y is directed towards Y."
+  }
+]

@@ -1,0 +1,495 @@
+[
+  {
+    "id": "nyjc-2021-other-p1-q4",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the block and bob together, $250-60=100a$, so $a=1.9\\ \\mathrm{m\\,s^{-2}}$. For the bob, $T\\sin\\theta=m_{\\mathrm{bob}}a$ horizontally and $T\\cos\\theta=m_{\\mathrm{bob}}g$ vertically. Dividing gives $\\tan\\theta=a/g=1.9/9.81$, so $\\theta=11^\\circ$.",
+      "perOption": {
+        "A": "Correct. The angle is measured from the vertical.",
+        "B": "Uses the applied force alone to calculate the acceleration.",
+        "C": "Ignores friction and gives the angle from the horizontal.",
+        "D": "Uses the net force but gives the angle from the horizontal."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the acceleration of the whole system and then resolve the tension on the bob.",
+    "misconception": "Ignoring friction or measuring the angle from the horizontal",
+    "transcription": "A block with a pendulum bob hanging lies on a rough surface. The total mass of the block and the pendulum bob is $100\\ \\mathrm{kg}$. A force of $250\\ \\mathrm{N}$ is applied to the block and the pendulum bob makes an angle $\\theta$ to the vertical axis.\n\n[The block is on a horizontal rough surface. The string slopes down to the left from its support, making $\\theta$ with a dashed vertical line. A $250\\ \\mathrm{N}$ arrow points right on the block and a $60\\ \\mathrm{N}$ arrow points left along the surface.]\n\nWhat is the magnitude of $\\theta$ if a constant frictional force of $60\\ \\mathrm{N}$ is acting on the block?\n\nA $11^\\circ$\nB $14^\\circ$\nC $76^\\circ$\nD $79^\\circ$"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q5",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Newton’s third-law partners act on different bodies and arise from the same interaction. Upthrust is exerted by the water on the wood, while weight is exerted by Earth on the wood. Both forces act on the wood.",
+      "perOption": {
+        "A": "The thrust on the rocket pairs with the force the rocket exerts on the exhaust.",
+        "B": "Earth and the man exert gravitational forces on each other.",
+        "C": "Correct. Both forces act on the wood.",
+        "D": "The magnet and the current-carrying wire exert magnetic forces on each other."
+      }
+    },
+    "issues": "Option A describes the expulsion of exhaust, which is a process. The intended reaction force is the force of the rocket on the exhaust.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify which body each force acts on.",
+    "misconception": "Treating two forces on one body as an action–reaction pair",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q6",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Water pushes upward on the bottom with force $p_{\\mathrm b}A$ and downward on the top with force $p_{\\mathrm t}A$. Pressure on the vertical sides acts horizontally, so the upthrust is $(p_{\\mathrm b}-p_{\\mathrm t})A$.",
+      "perOption": {
+        "A": "Adds the block’s weight to the upward force from the water.",
+        "B": "Leaves out the area, giving a pressure difference.",
+        "C": "Correct. This is the net vertical force exerted by the water.",
+        "D": "Subtracts the weight, giving the resultant of upthrust and weight."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert each pressure to a force and distinguish upthrust from the net force.",
+    "misconception": "Including the block’s weight in the buoyant force",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q8",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The power used to raise the weight is $200(8.0)/4.0=400\\ \\mathrm{W}$. Dividing by the efficiency gives the electrical input power, $400/0.20=2000\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Multiplies the useful output power by the efficiency.",
+        "B": "Gives the useful lifting power alone.",
+        "C": "Gives the work done in joules, or equivalently the numerical value of the power lost in watts.",
+        "D": "Correct. The required electrical input is 2000 W."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student calculates useful power and then divides by efficiency to find the input power.",
+    "misconception": "Multiplying the useful output power by efficiency",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q9",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Friction supplies the centripetal force, $f=MR\\omega^2$. At impending slip, $\\omega_{\\mathrm{P,max}}^2=f_{\\mathrm{P,max}}/(mr)$ and $\\omega_{\\mathrm{Q,max}}^2=f_{\\mathrm{Q,max}}/(4mr)$. Since $f_{\\mathrm{Q,max}}=2f_{\\mathrm{P,max}}$, $\\omega_{\\mathrm{Q,max}}^2=f_{\\mathrm{P,max}}/(2mr)$. Q reaches its limit at a lower angular speed and slips first.",
+      "perOption": {
+        "A": "Compares friction limits alone and overlooks Q’s greater centripetal force requirement.",
+        "B": "Correct. Q reaches its friction limit at a lower angular speed.",
+        "C": "Accounts for the doubled mass and friction limit but overlooks Q’s doubled radius.",
+        "D": "Overlooks that the required centripetal force grows beyond the available static friction as the angular speed increases."
+      }
+    },
+    "issues": "The worked solution uses a radial-only approximation. While the turntable speeds up, static friction also supplies tangential acceleration. Including it preserves the ordering because Q requires four times the total friction of P and has only twice the limit.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare how mass, radius and maximum friction affect the slipping threshold.",
+    "misconception": "Comparing maximum friction without comparing the required force",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q10",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the $v$–$t$ graph is the acceleration, which equals the signed gravitational field strength. As the spaceship moves away, the field weakens and the negative gradient becomes less steep. After the graph crosses $v=0$, the ship moves back toward the planet, so the field strengthens and the gradient becomes more steeply negative.",
+      "perOption": {
+        "A": "Shows outward velocity increasing again even though gravity continues to act toward the planet.",
+        "B": "Shows an outward rebound after the ship reaches zero velocity.",
+        "C": "Correct. The negative slope flattens on the way out and steepens on the way back.",
+        "D": "Shows the gravitational acceleration growing in magnitude during outward travel and weakening on return."
+      }
+    },
+    "issues": "The turnaround in C assumes the speed at P is below escape speed. The question gives no speed, so C is the best listed graph for a trajectory that turns back.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "gravitational-fields.c",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect gravitational field strength to the changing slope of a velocity–time graph.",
+    "misconception": "Confusing the sign of velocity with the sign of acceleration",
+    "transcription": "A powered spaceship is moving directly away from a planet as shown below.\n\n[The planet is at the left. The spaceship points right along a straight line away from the planet, and point P is farther right on that line.]\n\nThe spaceship passes point P at $t=0$. At point P, the thrusters of the spaceship are switched off but the spaceship remains under the influence of the planet. Which one of the following graphs best represents the subsequent variation with time $t$ of the velocity $v$ of the spaceship?\n\n[Each graph plots $v$ vertically and $t$ horizontally and starts at a positive velocity.\nA: The curve falls to a positive minimum, then rises.\nB: The curve falls to zero, touches the time axis, then rises.\nC: The curve falls, becoming less steep as it crosses zero, then steepens as $v$ becomes more negative.\nD: The curve starts nearly flat, steepens as it crosses zero, then flattens at negative velocity.]"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q11",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The satellite’s gravitational potential energy is $U=-GMm/r$. For a circular orbit, its total energy is $E=-GMm/(2r)=U/2=m\\phi/2$. The increase is $\\Delta E=0.5(200)[-40-(-80)]=4000\\ \\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Assumes the increase in potential energy is fully offset by the decrease in kinetic energy.",
+        "B": "Applies the factor of one-half twice.",
+        "C": "Correct. The increase is half the change in gravitational potential energy.",
+        "D": "Calculates only the increase in gravitational potential energy."
+      }
+    },
+    "issues": "The question omits the circular-orbit assumption used by the key. In general, the two gravitational potentials alone are insufficient to determine the change in total orbital energy.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must relate total orbital energy to gravitational potential energy before taking the difference.",
+    "misconception": "Equating the increase in potential energy with the increase in total energy",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q12",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy absorbed to melt the ice is $Q=mL_{\\mathrm f}$, where $L_{\\mathrm f}$ is the energy per kilogram and $m=0.020\\ \\mathrm{kg}$. At constant temperature, the average molecular kinetic energy stays constant while the average intermolecular potential energy increases. The total mass of ice and water stays constant.",
+      "perOption": {
+        "A": "Correct. The quoted quantity is energy per kilogram.",
+        "B": "The temperature stays constant, so the average molecular kinetic energy stays constant.",
+        "C": "Melting increases the average intermolecular potential energy.",
+        "D": "Melting changes the state of the substance while conserving the total mass."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student distinguishes latent heat per unit mass from the energy changes during melting.",
+    "misconception": "Confusing latent heat per kilogram with total absorbed energy",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q13",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean molecular kinetic energy is $\\tfrac12 mv_{\\mathrm{rms}}^2=\\tfrac32 kT$, so $m\\propto T/v_{\\mathrm{rms}}^2$. Therefore $m_X/m_Y=(2/1)(1/3)^2=2/9$.",
+      "perOption": {
+        "A": "Uses the first power of the r.m.s. speed.",
+        "B": "Correct. The molecular mass ratio is 2:9.",
+        "C": "Inverts the ratio of the masses.",
+        "D": "Uses a linear speed factor and inverts the mass ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must rearrange the mean kinetic energy equation and square the speed ratio.",
+    "misconception": "Using r.m.s. speed in place of its square",
+    "transcription": "Two identical vessels contain two different gases X and Y with molecular mass $m_x$ and $m_y$ respectively. The thermodynamic temperature of gas X is twice that of gas Y and the root-mean-square speed of the molecules in X is three times that of the molecules in Y. What is the ratio of $\\frac{m_X}{m_Y}$?\n\nA 2 : 3\nB 2 : 9\nC 9 : 2\nD 3 : 2"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q14",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $\\Delta U=Q+W$, with $W$ the work done on the gas, gives $\\Delta U_1=1000-500=500\\ \\mathrm{J}$ and $\\Delta U_2=2000-500=1500\\ \\mathrm{J}$. Since $\\Delta U\\propto\\Delta T$ for this gas, $\\Delta T_1/\\Delta T_2=500/1500=1/3$.",
+      "perOption": {
+        "A": "Subtracts work done by the gas in the first case but adds it in the second.",
+        "B": "Correct. The internal energy changes are in the ratio 1:3.",
+        "C": "Adds the work done by the gas to the heat input in both cases.",
+        "D": "Treats equal work done as implying equal temperature changes."
+      }
+    },
+    "issues": "The key’s ratio drops the delta symbols on the temperatures. It is the temperature changes that are proportional to the internal energy changes.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies the first law twice and relates the changes in internal energy to the temperature changes.",
+    "misconception": "Using a positive sign for work done by the gas",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q15",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The amplitude is the displacement from equilibrium at release, $2.5\\ \\mathrm{cm}$. The angular frequency is $\\omega=2\\pi/T=2\\pi/0.45\\approx14\\ \\mathrm{rad\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Measures from the spring’s natural length and uses the period as the angular frequency.",
+        "B": "Measures amplitude from the spring’s natural length.",
+        "C": "Uses the period as the angular frequency.",
+        "D": "Correct. The amplitude is 2.5 cm and the angular frequency is 14 radians per second."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student identifies the displacement from equilibrium and converts period to angular frequency.",
+    "misconception": "Measuring amplitude from the spring’s natural length",
+    "transcription": "One end of a spring is fixed to a support. A block of mass $2.0\\ \\mathrm{kg}$ is attached to the other end of the spring, which causes the spring to extend by $5.0\\ \\mathrm{cm}$.\n\nThe block is then pulled down a distance of $2.5\\ \\mathrm{cm}$ and released to perform a simple harmonic motion of period $0.45\\ \\mathrm{s}$.\n\nWhat is the amplitude and angular frequency of the motion?\n\n[Table columns are amplitude / cm and angular frequency / $\\mathrm{rad\\,s^{-1}}$.]\nA 7.5, 0.45\nB 7.5, 14\nC 2.5, 0.45\nD 2.5, 14"
+  },
+  {
+    "id": "nyjc-2021-other-p1-q16",
+    "keyPage": 9,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Heavy damping exceeds the critical value, while light damping lies below it. In order of decreasing damping, the regimes are heavy, critical, then light.",
+      "perOption": {
+        "A": "Places heavy damping below both critical and light damping.",
+        "B": "Places critical damping above heavy damping.",
+        "C": "Correct. The damping decreases at each step.",
+        "D": "Places critical damping above heavy damping, despite putting undamped free oscillation last."
+      }
+    },
+    "issues": "The stem uses “oscillation” broadly. A freely released system with critical or heavy damping returns to equilibrium without oscillating.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student recalls the ordering of the three named damping regimes.",
+    "misconception": "Treating critical damping as the strongest damping",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q18",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The dry spots are antinodes, and consecutive antinodes are separated by $\\lambda/2$. Using the first two spots gives $\\lambda/2=84-14=70\\ \\mathrm{mm}$, so $\\lambda=0.140\\ \\mathrm{m}$. The microwave frequency is $f=c/\\lambda\\approx2.2\\ \\mathrm{GHz}$.",
+      "perOption": {
+        "A": "Correct. The 70 mm spacing is half a wavelength.",
+        "B": "Implies an antinode spacing of about 58 mm, smaller than the measured spacing.",
+        "C": "Uses the antinode spacing as a full wavelength.",
+        "D": "Implies a wavelength of about 59 mm, even shorter than the measured antinode spacing."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student interprets the dry spots as antinodes and uses their spacing to calculate frequency.",
+    "misconception": "Using adjacent antinode spacing as the full wavelength",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q19",
+    "keyPage": 10,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first minimum is at $\\sin\\theta=\\lambda/b$, where $b$ is the slit width. Using $\\lambda=600\\ \\mathrm{nm}$ and $b=0.01\\ \\mathrm{mm}$ gives $\\theta\\approx3.44^\\circ$, so the central maximum has angular width $2\\theta\\approx6.9^\\circ$.",
+      "perOption": {
+        "A": "Uses a wavelength-to-width ratio that is too small by a factor of 1000 and reports only the angle to one minimum.",
+        "B": "Doubles the angle but uses a wavelength-to-width ratio that is too small by a factor of 1000.",
+        "C": "Reports the angle from the centre to one first minimum.",
+        "D": "Correct. The width spans the first minima on both sides."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.l"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student finds the first-minimum angle and doubles it for the full central width.",
+    "misconception": "Using the angle to one first minimum as the full width",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2021-other-p1-q20",
+    "keyPage": 10,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Potential difference is energy transferred per unit charge, $V=E/Q$. For the ideal cell, the resistor’s potential difference equals the cell’s terminal potential difference, so the energy supplied is $E=VQ$.",
+      "perOption": {
+        "A": "Gives the power $I^2R$ but lacks the elapsed time needed to find the energy.",
+        "B": "Gives the power $IV$ but lacks the elapsed time needed to find the energy.",
+        "C": "Gives the charge but lacks the current needed to infer the potential difference from the resistance.",
+        "D": "Correct. The product of potential difference and total charge gives the energy."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.c",
+      "currents.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify the quantities that determine energy when the time is unknown.",
+    "misconception": "Confusing electrical power with energy",
+    "transcription": null
+  }
+]

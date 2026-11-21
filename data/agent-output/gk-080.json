@@ -1,0 +1,501 @@
+[
+  {
+    "id": "njc-2023-prelim-p1-q18",
+    "keyPage": 17,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At Z, the field from $+Q$ points down in both cases. With $-Q$ at X, its field points diagonally up and right and partly cancels the downward field. At Y, $-Q$ is closer and its field points directly right, so the resultant is stronger.",
+      "perOption": {
+        "A": "Moving $-Q$ closer to Z makes its contribution more negative, lowering the potential.",
+        "B": "Pulling the attracting charges apart requires work and increases their potential energy.",
+        "C": "Increasing the charge separation weakens the attraction.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a",
+      "electric-fields.b",
+      "electric-fields.d",
+      "electric-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must compare the vector sums and distinguish field, potential, energy and force.",
+    "misconception": "Treating electric field as a scalar.",
+    "transcription": "W, X, Y and Z are four points on a square as shown.\n\n[Dashed square with W at the top left, X at the top right, Y at the bottom right and Z at the bottom left.]\n\nA point charge $+Q$ is fixed at W. Another point charge $-Q$ is moved from X to Y.\n\nWhich of the following statements is true?\n\nA The electric potential at Z will increase.\nB The electric potential energy of the system will decrease.\nC The attractive force between the two charges will increase.\nD The magnitude of the electric field strength at Z will increase."
+  },
+  {
+    "id": "njc-2023-prelim-p1-q19",
+    "keyPage": 18,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At thermal equilibrium, both thermometers are at the temperature of the enclosure walls. Hence $T_1=T_2=T$.",
+      "perOption": {
+        "A": "Both thermometers reach the wall temperature at equilibrium.",
+        "B": "Correct.",
+        "C": "The unblackened bulb also reaches the wall temperature.",
+        "D": "Blackening affects the rate of radiative energy exchange, while the equilibrium temperature remains $T$."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students must the definition of thermal equilibrium gives the result directly.",
+    "misconception": "Confusing absorption rate with equilibrium temperature.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q20",
+    "keyPage": 18,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the fixed mass $M$, the total translational kinetic energy is $\\frac12 M\\langle c^2\\rangle=\\frac32pV$. Doubling the r.m.s. speed quadruples this energy. Since the pressure is constant, the new volume is $4V$.",
+      "perOption": {
+        "A": "This assumes constant pressure prevents expansion as the molecular kinetic energy rises.",
+        "B": "This applies the square-root relationship in the wrong direction.",
+        "C": "This scales volume with the speed instead of its square.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Page 18 prints D and the calculation gives D. The batch lists A with keyStatus answer-missing. The key equates internal energy with translational kinetic energy, which assumes a monatomic gas. The pressure relation for translational kinetic energy suffices here.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must square the speed ratio before relating it to the volume at constant pressure.",
+    "misconception": "Assuming volume scales linearly with r.m.s. speed.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q21",
+    "keyPage": 18,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let Y have volume $V$, so X has volume $2V$. At the common pressure $p$, $n=\\frac{p(2V)}{300R}+\\frac{pV}{600R}=\\frac{pV}{120R}$. Thus $p=120nR/V$, and X contains $\\frac{p(2V)}{300R}=\\frac{120nR}{V}\\frac{2V}{300R}=0.8n$ moles.",
+      "perOption": {
+        "A": "This can result from reversing the bulb volumes and overlooking the temperature difference.",
+        "B": "This assigns equal amounts even though X has twice the volume and half the temperature.",
+        "C": "This divides the gas in the volume ratio alone.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use the common pressure and account for both volumes and temperatures.",
+    "misconception": "Allocating moles by volume alone.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q22",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Keep the temperatures the same in both runs so the rate of heat loss stays the same. Change the heater input and flow rate to obtain two distinct energy balances with the same heat-loss term.",
+      "perOption": {
+        "A": "Repeating all settings gives the same energy balance twice.",
+        "B": "Correct.",
+        "C": "A different heater input cannot maintain the same steady temperatures at the same flow rate.",
+        "D": "Changing the temperatures changes the heat-loss rate."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify how two steady runs can eliminate the heat-loss term.",
+    "misconception": "Changing the temperatures while assuming heat loss stays constant.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q23",
+    "keyPage": 19,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Pumping does work on the air, with negligible heat transfer through the insulation. The first law, $\\Delta U=Q+W$, therefore gives an increase in internal energy and the air warms.",
+      "perOption": {
+        "A": "More frequent collisions alone do not explain an increase in mean molecular kinetic energy.",
+        "B": "The work done increases internal energy when heat transfer is negligible.",
+        "C": "Correct.",
+        "D": "The insulation makes heat transfer negligible, so work done on the air accounts for the warming."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must apply the first law to compression with negligible heat transfer.",
+    "misconception": "Equating a temperature rise with heat supplied.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q24",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially $F=BIL\\sin 90^\\circ$, so $BIL=8.0\\ \\mathrm{mN}$. After rotation, the wire is at $60^\\circ$ to the field and the flux density is halved, giving $F=\\frac12(8.0)\\sin 60^\\circ=3.5\\ \\mathrm{mN}$.",
+      "perOption": {
+        "A": "This uses $\\sin 30^\\circ$ even though the angle to the field is $60^\\circ$.",
+        "B": "Correct.",
+        "C": "Dividing the halved force by $\\sin60^\\circ$ reverses the effect of the angle.",
+        "D": "This retains the initial force and ignores both changes."
+      }
+    },
+    "issues": "Page 20 prints B and the calculation gives B. The batch lists A.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must read the angle to the field and account for the halved flux density.",
+    "misconception": "Using the rotation angle as the angle to the field.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q25",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant speed, $r$ increases steadily while the magnetic field $B$ at PQ decreases. PQ sweeps through less magnetic flux per unit time as it moves away, so the magnitude of the induced e.m.f. decreases. Fleming’s right-hand rule gives the direction from Q toward P for positive charges, so P is at higher potential.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Positive charge is driven toward P, making Q the lower-potential end.",
+        "C": "The field weakens as PQ moves away, so the induced e.m.f. decreases.",
+        "D": "The weakening field reduces the induced e.m.f. and positive charge is driven toward P."
+      }
+    },
+    "issues": "The key uses a flux sketch and refers to an induced current. PQ is open, so the direction given by the right-hand rule describes charge separation. The flux swept per unit time gives the induced e.m.f.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.d",
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must track the field strength with distance and apply a directional rule for polarity.",
+    "misconception": "Assuming constant speed gives constant motional e.m.f.",
+    "transcription": "The diagram below shows a long wire carrying a current $I$.\n\nA straight conductor PQ is placed on the same vertical plane as the wire and is moved at constant speed $v$ away from the wire.\n\n[The wire is vertical and carries an upward current $I$. Conductor PQ is vertical to its right, with P at the top and Q at the bottom. The horizontal separation is $r$, and the velocity $v$ points right.]\n\nHow does the magnitude of the induced e.m.f. in PQ vary and which end is at a higher potential?\n\nMagnitude of induced e.m.f. | End at higher potential\nA decreases | P\nB decreases | Q\nC increases | P\nD increases | Q"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q26",
+    "keyPage": 22,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph peaks at about $7.8\\ \\mathrm{A^2}$, giving a peak current of $\\sqrt{7.8}\\ \\mathrm{A}$. For a sinusoidal current, $I_{\\mathrm{rms}}=\\frac{\\sqrt{7.8}}{\\sqrt2}\\ \\mathrm{A}=1.97\\ \\mathrm{A}$. The equivalent direct current is $2.0\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the peak current, which would dissipate more power than the a.c. average.",
+        "C": "This takes half the peak $I^2$ but skips taking its square root.",
+        "D": "This divides the peak $I^2$ by $\\sqrt2$ as if it were the peak current."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.i",
+      "currents.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must extract the peak current from a graph of its square and then compute the r.m.s. value.",
+    "misconception": "Reading the peak of an $I^2$ graph as current.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q27",
+    "keyPage": 22,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The photoelectric equation is $hf=E_{\\mathrm{k,max}}+\\Phi$, where $\\Phi$ is the metal’s work function. At fixed frequency and for the same metal, the maximum kinetic energy is independent of intensity.",
+      "perOption": {
+        "A": "Emission requires a minimum frequency, which corresponds to a maximum wavelength.",
+        "B": "Correct.",
+        "C": "The work function depends on the metal, so the maximum kinetic energy does too.",
+        "D": "The electron spends energy escaping the metal and its wavelength follows $\\lambda=h/p$ using its own momentum."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish what controls photoelectron energy from what controls the emission rate.",
+    "misconception": "Assuming brighter light increases each photon’s energy.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2023-prelim-p1-q28",
+    "keyPage": 23,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The carbon film diffracts the electrons. Increasing $v$ increases their momentum $p$, so the de Broglie wavelength $\\lambda=h/p$ decreases. For fixed spacing $d$ and order $n$, $d\\sin\\theta=n\\lambda$ gives a smaller diffraction angle and hence smaller ring diameters.",
+      "perOption": {
+        "A": "The higher speed shortens the wavelength and reduces the diffraction angle.",
+        "B": "Correct.",
+        "C": "The rings form by diffraction, and the shorter wavelength makes them smaller.",
+        "D": "The diameters decrease, but diffraction by the carbon film produces the rings."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "superposition"
+    ],
+    "outcomes": [
+      "quantum-physics.d",
+      "quantum-physics.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must link momentum to wavelength and then to the size of the diffraction rings.",
+    "misconception": "Assuming faster electrons spread through larger angles.",
+    "transcription": "Electrons with velocity $v$ travel through a vacuum and are incident on a thin carbon film, as shown.\n\n[Electrons travel right towards a vertical carbon film. A vertical fluorescent screen is farther to the right.]\n\nThe electrons produce a pattern of concentric circles on the fluorescent screen.\n\nWhat causes the pattern and which change to the pattern occurs when the velocity $v$ is increased?\n\nCause | Change to pattern\nA diffraction | diameters of circles increase\nB diffraction | diameters of circles decrease\nC refraction | diameters of circles increase\nD refraction | diameters of circles decrease"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q29",
+    "keyPage": 23,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mass defect corresponds to a binding energy of $(939+940-1876)\\ \\mathrm{MeV}=3\\ \\mathrm{MeV}$. This energy must be supplied to split the nucleus, so the deuterium captures a $3\\ \\mathrm{MeV}$ photon at the precision of the question.",
+      "perOption": {
+        "A": "A $2\\ \\mathrm{MeV}$ photon supplies less than the binding energy calculated from the given masses.",
+        "B": "Emitting a photon removes energy when the nucleus needs an energy input.",
+        "C": "Correct.",
+        "D": "The $3\\ \\mathrm{MeV}$ is required as energy input for breakup, so emission has the wrong energy direction."
+      }
+    },
+    "issues": "The key uses rounded rest energies and neglects the small additional photon energy required by momentum conservation for a target initially at rest.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.p",
+      "nuclear-physics.q",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must subtract the rest energies and decide whether energy is absorbed or released.",
+    "misconception": "Confusing energy required for breakup with energy released.",
+    "transcription": "The rest mass of the deuterium, $\\vphantom{H}^{2}_{1}\\mathrm{H}$ is equivalent to an energy of 1876 MeV. The rest mass of a proton is equivalent to 939 MeV and that of a neutron to 940 MeV.\n\nHow may a deuterium disintegrate into a proton and a neutron?\n\nA by capturing a $\\gamma$-ray photon of energy 2 MeV\nB by emitting a $\\gamma$-ray photon of energy 2 MeV\nC by capturing a $\\gamma$-ray photon of energy 3 MeV\nD by emitting a $\\gamma$-ray photon of energy 3 MeV"
+  },
+  {
+    "id": "njc-2023-prelim-p1-q30",
+    "keyPage": 24,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In 48 years, X goes through two half-lives, leaving an activity of $A_0/4$. Y goes through three half-lives, leaving $A_0/8$. The total is $A_0/4+A_0/8=3A_0/8$.",
+      "perOption": {
+        "A": "This is already less than Y’s remaining activity alone.",
+        "B": "This averages the two remaining activities instead of adding them.",
+        "C": "This counts only the remaining activity of X.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must track the two half-life counts separately and then add the remaining activities.",
+    "misconception": "Averaging the activities instead of adding them.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q1",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Estimate the resting rate as one heartbeat per second. This gives about $3600$ beats in an hour, so $10^3$ is the closest listed power of ten.",
+      "perOption": {
+        "A": "Ten beats is on the scale of seconds at the estimated resting rate.",
+        "B": "This is closer to a count over a minute than over an hour.",
+        "C": "Correct.",
+        "D": "This would require about 28 beats per second for an hour."
+      }
+    },
+    "issues": "The key estimates 3600 beats and gives C. On a logarithmic scale, the nearest power of ten to 3600 would be 10^4, which is absent. C is the closest listed power and the intended option.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "A single rate estimate and time conversion are sufficient.",
+    "misconception": "Confusing a per-minute rate with an hourly count.",
+    "transcription": null
+  },
+  {
+    "id": "njc-2024-prelim-p1-q2",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "A nonzero ammeter reading at zero current is a systematic offset. Adjusting the ammeter to read zero before taking measurements removes that offset.",
+      "perOption": {
+        "A": "Averaging repeated readings reduces random scatter but leaves a persistent offset.",
+        "B": "Averaging spacings reduces the effect of random node-location errors without correcting a systematic bias.",
+        "C": "Correct.",
+        "D": "Timing many oscillations reduces the fractional timing uncertainty without removing an instrument bias."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students must recognising a zero error as a fixed offset identifies the technique directly.",
+    "misconception": "Expecting repeated measurements to remove a fixed offset.",
+    "transcription": null
+  }
+]
