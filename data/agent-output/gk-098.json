@@ -1,0 +1,502 @@
+[
+  {
+    "id": "ri-2018-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released is $(39.25+28.48-64.94)\\ \\mathrm{MeV}=2.79\\ \\mathrm{MeV}$. Subtract the kinetic energy of the nuclei to get $(2.79-2.31)\\ \\mathrm{MeV}=0.48\\ \\mathrm{MeV}$ for the $\\gamma$-ray.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assigns the entire release to the photon.",
+        "C": "Subtracts the lithium binding energy from boron’s, omitting helium and the kinetic energy.",
+        "D": "Treats the listed total binding energies as energies per nucleon."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "nuclear-physics.r"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the binding-energy gain before allocating the released energy.",
+    "misconception": "Assigning all released energy to the photon",
+    "transcription": "The following process shows a stationary isotope of boron when capturing a slow moving neutron, splits to become a lithium isotope and an alpha particle.\n\n${}^{10}_{5}\\mathrm{B}+{}^{1}_{0}\\mathrm{n}\\to{}^{7}_{3}\\mathrm{Li}+{}^{4}_{2}\\mathrm{He}$\n\n$\\gamma$-ray is emitted in the process.\n\nThe nuclear binding energies are:\n${}^{10}_{5}\\mathrm B$: $64.94\\ \\mathrm{MeV}$\n${}^{7}_{3}\\mathrm{Li}$: $39.25\\ \\mathrm{MeV}$\n${}^{4}_{2}\\mathrm{He}$: $28.48\\ \\mathrm{MeV}$\n\nWhat is the energy of the $\\gamma$-ray emitted, given that the total kinetic energy of ${}^{7}_{3}\\mathrm{Li}$ and ${}^{4}_{2}\\mathrm{He}$ is $2.31\\ \\mathrm{MeV}$?\nA $0.48\\ \\mathrm{MeV}$\nB $2.79\\ \\mathrm{MeV}$\nC $25.69\\ \\mathrm{MeV}$\nD $260.73\\ \\mathrm{MeV}$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $s$ be the downward displacement of the elevator and $u$ the common initial speed. With downward positive, $s=ut+\\tfrac12(3.5)t^2$ and $s+2.0=ut+\\tfrac12(9.81)t^2$ at impact. Subtract to get $2.0=\\tfrac12(9.81-3.5)t^2$, giving $t=0.796\\ \\mathrm{s}\\approx0.80\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Adds the accelerations as if the floor accelerated upward.",
+        "B": "Uses free-fall acceleration alone and ignores the floor’s acceleration.",
+        "C": "Correct.",
+        "D": "Uses the elevator’s acceleration alone for closing the gap."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The elevator and ball both move, so their displacements must be related.",
+    "misconception": "Treating the floor as stationary",
+    "transcription": "An elevator is moving downwards with a constant downward acceleration of $3.5\\ \\mathrm{m\\,s^{-2}}$. A ball, held $2.0\\ \\mathrm{m}$ above the floor of the elevator and at rest with respect to the elevator, is released.\n\nHow long does it take for the ball to reach the floor of the elevator?\nA $0.57\\ \\mathrm{s}$\nB $0.64\\ \\mathrm{s}$\nC $0.80\\ \\mathrm{s}$\nD $1.1\\ \\mathrm{s}$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The constant resultant force gives constant acceleration $a$. From rest, $v^2=2ad$, so $v=\\sqrt{2ad}$. Since $p=mv=m\\sqrt{2a}\\sqrt d$, the graph rises from the origin and gradually flattens.",
+      "perOption": {
+        "A": "Shows nonzero initial momentum.",
+        "B": "Makes momentum proportional to distance, as it is to time here.",
+        "C": "Shows an increasing gradient where the square-root relation gives a decreasing gradient.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e",
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Express velocity in terms of distance before choosing the momentum graph.",
+    "misconception": "Applying the momentum–time relation to distance",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Horizontal balance gives $T_A\\cos20^\\circ=T_B\\cos50^\\circ$, so $T_A=0.68404T_B$. Vertical balance gives $T_A\\sin20^\\circ+T_B\\sin50^\\circ=T_C=mg$. Substituting gives $T_B=mg=5.0(9.81)\\ \\mathrm{N}\\approx49\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives approximately the horizontal component of the tension in B.",
+        "B": "Gives approximately the tension in cable A.",
+        "C": "Correct.",
+        "D": "Divides the weight by the cosine of 20 degrees as if one projected tension balanced it."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The junction requires simultaneous horizontal and vertical force balances.",
+    "misconception": "Confusing tension with one of its components",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The vertical difference between the mercury surfaces is $h=x\\sin\\theta$. The helium surface is lower, so its pressure is $P+\\rho gh=P+x\\rho g\\sin\\theta$.",
+      "perOption": {
+        "A": "Uses the helium surface’s height above the bend and omits the nitrogen pressure.",
+        "B": "Uses the inclined length as the vertical depth.",
+        "C": "Correct.",
+        "D": "Measures from the bend to the nitrogen surface and reverses the pressure difference."
+      }
+    },
+    "issues": "The current syllabus lists no explicit hydrostatic-pressure outcome.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The tilted tube requires finding the vertical separation between the mercury surfaces.",
+    "misconception": "Using length along the tube as vertical depth",
+    "transcription": "An L-shaped tube is sealed at both ends and tilted at angle $\\theta$ as shown. One arm contains nitrogen gas at pressure $P$ and the other arm contains helium gas. The gases are separated by mercury of density $\\rho$ with dimensions as shown.\n\n[The left arm contains helium and the right arm contains nitrogen at pressure $P$. The arms meet at a right angle and the right arm makes angle $\\theta$ with the horizontal. Mercury fills the bend and rises higher on the right. A dashed horizontal line through the left mercury surface divides the right column into upper length $x$ and lower length $y$ along the arm. The left column has length $z$ along its arm.]\n\nWhat is the pressure of the helium gas?\nA $z\\rho g\\cos\\theta$\nB $P+x\\rho g$\nC $P+x\\rho g\\sin\\theta$\nD $P-(x+y)\\rho g\\sin\\theta$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The motor supplies the gravitational potential energy gain $mgh$ and the work $F_Rh$ against resistance. Its power is $P=(mgh+F_Rh)/t=[350(9.81)(110)+1000(110)]/(3.0\\times60)\\ \\mathrm{W}\\approx2700\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Subtracts the work against resistance from the gravitational potential energy gain.",
+        "B": "Counts only the gravitational potential energy gain.",
+        "C": "Correct.",
+        "D": "Overstates the rate at which the required total work is done over 180 seconds."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Add two work contributions and convert minutes to seconds.",
+    "misconception": "Omitting work against resistance",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mass falls and stretches the spring, then oscillates and loses energy to air resistance. From release, the gravitational potential energy lost equals the elastic potential energy gained plus the kinetic energy gained and the energy dissipated. At the lowest turning point the kinetic energy is zero, leaving only the elastic energy gain and dissipated heat.",
+      "perOption": {
+        "A": "Puts a loss of elastic energy on the side for gains and dissipation.",
+        "B": "Treats a gain in gravitational potential energy as supplying the other gains and dissipation.",
+        "C": "Counts dissipated heat as an input and puts an elastic energy loss on the gain side.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.j",
+      "oscillations.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The energy balance must include dissipation and recognise zero kinetic energy at a turning point.",
+    "misconception": "Treating dissipated heat as an input",
+    "transcription": "A mass is attached to the lower end of a vertical spring and supported such that the spring is unstretched. The mass is then released from rest. It oscillates and eventually comes to rest.\n\nWhich of the following correctly relates the changes in the energy of the spring-mass system which may occur during this process?\nA loss in gravitational potential energy = loss in elastic potential energy + gain in kinetic energy + energy dissipated as heat\nB gain in gravitational potential energy = gain in elastic potential energy + gain in kinetic energy + energy dissipated as heat\nC loss in gravitational potential energy + energy dissipated as heat = loss in elastic potential energy + gain in kinetic energy\nD loss in gravitational potential energy = gain in elastic potential energy + energy dissipated as heat"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The radius is $150/2=75\\ \\mathrm{m}$ and the period is $30\\times60\\ \\mathrm{s}$. Using $v=r\\omega$, the speed is $(150/2)[2\\pi/(30\\times60)]=0.26\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Omits the factor of $2\\pi$ radians per revolution.",
+        "B": "Correct.",
+        "C": "Uses the diameter as the radius.",
+        "D": "Uses 30 seconds for a 30-minute period."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Use the radius and period after converting units.",
+    "misconception": "Using diameter as radius",
+    "transcription": "A Ferris wheel takes 30 minutes to complete one revolution. The diameter of the wheel is $150\\ \\mathrm{m}$.\n\nWhat is the linear speed of the wheel?\nA $0.042\\ \\mathrm{m\\,s^{-1}}$\nB $0.26\\ \\mathrm{m\\,s^{-1}}$\nC $0.52\\ \\mathrm{m\\,s^{-1}}$\nD $16\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The centripetal force is $mv^2/r$ and the weight is $mg$. Their ratio is $F_c/W=v^2/(rg)=700^2/[85000(9.81)]=0.59$.",
+      "perOption": {
+        "A": "Uses $v$ in place of $v^2$.",
+        "B": "Correct.",
+        "C": "Divides the weight by centripetal force.",
+        "D": "Gives the centripetal acceleration without dividing by $g$."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.e",
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Express both forces and cancel the aircraft mass.",
+    "misconception": "Confusing acceleration with a force ratio",
+    "transcription": "An aircraft is performing a horizontal circular turn at a constant speed of $700\\ \\mathrm{m\\,s^{-1}}$ with a turning radius of $85\\ \\mathrm{km}$.\n\nWhat is the ratio of the centripetal force to the weight of the aircraft?\nA $0.00084$\nB $0.59$\nC $1.7$\nD $5.8$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The orbital radius is $6400+200=6600\\ \\mathrm{km}$. The ratio of field strengths, and therefore forces on the same satellite, is $g^\\prime/g=(6400/6600)^2\\approx0.94$. The gravitational force is about $6\\%$ smaller.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses an inverse-linear dependence and misses the square.",
+        "C": "Uses a direct linear dependence, predicting an increase.",
+        "D": "Inverts the inverse-square ratio, predicting an increase."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert the inverse-square ratio into a percentage decrease.",
+    "misconception": "Using inverse-linear gravity",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Earth’s rotation reduces the free-fall acceleration measured relative to its surface compared with the gravitational field strength. At the poles the rotational effect vanishes and the values are equal.",
+      "perOption": {
+        "A": "Assumes constant field strength over a surface whose distance from the centre varies.",
+        "B": "Reverses the latitude effect, since rotation reduces effective free-fall acceleration most at the Equator.",
+        "C": "Interprets a scale reading at the Equator as gravitational force, though it measures apparent weight.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Option C is ambiguous because “weight” can mean gravitational force itself. The key assumes a scale reading of apparent weight.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguish gravitational attraction from free-fall acceleration relative to the rotating surface.",
+    "misconception": "Equating apparent weight per unit mass with field strength",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q13",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $\\Delta\\theta$ be the temperature rise of the paraffin and calorimeter. Their heat gain equals the lead’s heat loss, so $(0.250)(2130)\\Delta\\theta+21.7\\Delta\\theta=(0.400)(130)(150-25-\\Delta\\theta)$. This gives $(532.5+21.7)\\Delta\\theta=52(125-\\Delta\\theta)$, so $\\Delta\\theta=10.7\\,^\\circ\\mathrm{C}$.",
+      "perOption": {
+        "A": "Uses a rise too small to account for the heat released by the lead.",
+        "B": "Still leaves some of the heat lost by the lead unaccounted for at the stated rise.",
+        "C": "Correct.",
+        "D": "Requires more heat than the lead loses at that final temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.g",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Include the calorimeter’s heat gain and express the lead’s cooling in terms of the unknown rise.",
+    "misconception": "Omitting the calorimeter",
+    "transcription": "A well-lagged copper calorimeter of mass $57\\ \\mathrm{g}$ is filled with $250\\ \\mathrm{g}$ of paraffin. The calorimeter and paraffin are both initially at $25\\,^\\circ\\mathrm{C}$. What will be the increase in the temperature of the paraffin if a lead cube of mass $400\\ \\mathrm{g}$ and temperature $150\\,^\\circ\\mathrm{C}$ is placed in the paraffin?\n\nheat capacity of copper calorimeter = $21.7\\ \\mathrm{J\\,K^{-1}}$\nspecific heat capacity of paraffin = $2130\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$\nspecific heat capacity of lead = $130\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$\n\nA $8.93\\,^\\circ\\mathrm{C}$\nB $9.21\\,^\\circ\\mathrm{C}$\nC $10.7\\,^\\circ\\mathrm{C}$\nD $12.9\\,^\\circ\\mathrm{C}$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q14",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $t=0.4\\ \\mathrm{s}$ the particle crosses equilibrium, where $a=0$ and speed is maximum. From the amplitude and period, $v_{\\max}=\\omega x_0=(2\\pi/0.8)(0.020)=0.157\\ \\mathrm{m\\,s^{-1}}\\approx16\\ \\mathrm{cm\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the average speed from an extreme to equilibrium as the instantaneous speed.",
+        "B": "Assigns the maximum kinetic energy to potential energy at equilibrium.",
+        "C": "Uses the average speed from an extreme to equilibrium even though the zero acceleration is correct.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.g",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Read the amplitude, period and equilibrium crossing to find the speed and acceleration.",
+    "misconception": "Using average speed for instantaneous equilibrium speed",
+    "transcription": "The variation with time of the displacement of a particle of mass $2.0\\ \\mathrm{kg}$ undergoing simple harmonic oscillations is shown below.\n\n[Graph of $x/\\mathrm{cm}$ against $t/\\mathrm{s}$. The sinusoid rises from zero to $2.0\\ \\mathrm{cm}$ at $0.2\\ \\mathrm{s}$, crosses zero at $0.4\\ \\mathrm{s}$, reaches a trough at $0.6\\ \\mathrm{s}$ and returns to zero at $0.8\\ \\mathrm{s}$.]\n\nAt $t=0.4\\ \\mathrm{s}$,\nA the speed is $10\\ \\mathrm{cm\\,s^{-1}}$ while the potential energy is $0\\ \\mathrm{J}$.\nB the speed is $16\\ \\mathrm{cm\\,s^{-1}}$ while the potential energy is $0.025\\ \\mathrm{J}$.\nC the speed is $10\\ \\mathrm{cm\\,s^{-1}}$ while the acceleration is $0\\ \\mathrm{m\\,s^{-2}}$.\nD the speed is $16\\ \\mathrm{cm\\,s^{-1}}$ while the acceleration is $0\\ \\mathrm{m\\,s^{-2}}$."
+  },
+  {
+    "id": "ri-2019-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking upward as positive, the vertical displacement is $y=-A\\cos\\omega t$. At $t=\\tau$, $y=-A/2$, so $\\cos(\\omega\\tau)=1/2$ and the first such phase is $\\pi/3$. Thus $\\omega=\\pi/(3\\tau)$ and $T=2\\pi/\\omega=6\\tau$.",
+      "perOption": {
+        "A": "Treats the halfway point as the end of a quarter-cycle at equilibrium.",
+        "B": "Correct.",
+        "C": "Treats half the distance to equilibrium as half the quarter-cycle, assuming constant speed.",
+        "D": "Uses a phase of 30 degrees, at which the mass has yet to reach halfway."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The initial displacement sets the phase needed to calculate the fraction of a period.",
+    "misconception": "Assuming equal distances take equal times in SHM",
+    "transcription": "A mass suspended from a vertical spring is displaced vertically downwards by a distance $A$ and released. It undergoes simple harmonic motion about the equilibrium position.\n\n[A mass hangs from a vertical spring. The release position is a distance $A$ below the marked equilibrium position, and the intermediate position is a distance $\\tfrac12 A$ above the release position.]\n\nIf the time taken for the mass to move through a distance of $\\tfrac12 A$ from the point of release is $\\tau$, what is the period of the oscillation of the mass?\nA $4\\tau$\nB $6\\tau$\nC $8\\tau$\nD $12\\tau$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first resonance fits a quarter wavelength between the displacement node at the piston and the antinode at the open end, giving $\\lambda=4(0.15)=0.60\\ \\mathrm{m}$. Using $v=f\\lambda$, $330=f(0.60)$ gives $f=550\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Implies a wavelength of $1.65\\ \\mathrm{m}$, whose quarter wavelength exceeds the air column length.",
+        "B": "Correct.",
+        "C": "Assumes the first resonance fits half a wavelength in the air column.",
+        "D": "Assumes the first resonance fits a full wavelength in the air column."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.c",
+      "superposition.d",
+      "wave-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert the first resonance length to a wavelength before using the wave equation.",
+    "misconception": "Using half a wavelength for a tube closed at one end",
+    "transcription": "A sound wave is generated by a speaker placed near the end Q of the tube QR. As the piston P is moved from end Q towards R, a loud sound is first heard when PQ is $0.15\\ \\mathrm{m}$. The speed of sound is $330\\ \\mathrm{m\\,s^{-1}}$.\n\n[The horizontal tube runs from R on the left to Q on the right. Piston P is inside, $0.15\\ \\mathrm{m}$ from the open end Q, with the speaker just outside Q.]\n\nWhat is the frequency of the sound generated by the speaker?\nA $200\\ \\mathrm{Hz}$\nB $550\\ \\mathrm{Hz}$\nC $1100\\ \\mathrm{Hz}$\nD $2200\\ \\mathrm{Hz}$"
+  }
+]

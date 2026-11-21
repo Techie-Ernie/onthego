@@ -1,0 +1,514 @@
+[
+  {
+    "id": "rvhs-2024-other-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The heat lost by the $130\\ \\mathrm{g}$ of warm water equals the heat used to melt the ice plus the heat used to warm the $20\\ \\mathrm{g}$ of meltwater. For a final temperature $T$ in degrees Celsius, $0.020(3.3\\times10^5)+0.020(4.2\\times10^3)(T-0)=0.130(4.2\\times10^3)(50-T)$. This gives $6.6\\times10^3+84T=27.3\\times10^3-546T$, so $630T=20700$ and $T\\approx33\\,^\\circ\\mathrm{C}$.",
+      "perOption": {
+        "A": "At this temperature the warm water would lose far more heat than the ice and meltwater gain.",
+        "B": "This temperature also leaves more heat released than the ice and meltwater absorb.",
+        "C": "Correct.",
+        "D": "Omits the heat gained by the meltwater as it warms from zero."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The energy balance includes both melting the ice and warming the meltwater.",
+    "misconception": "Omitting the warming of meltwater",
+    "transcription": "A polystyrene cup contains a mass of $130\\ \\mathrm{g}$ of water at $50\\,^\\circ\\mathrm{C}$. A cube of ice of mass $20\\ \\mathrm{g}$ and temperature $0\\,^\\circ\\mathrm{C}$ is placed in the water. The water is stirred until the temperature is homogenous.\n\nAssuming negligible heat loss to the cup and surroundings, what is the final temperature of the water?\n\nspecific heat capacity of water $=4.2\\times10^3\\ \\mathrm{J\\,kg^{-1}\\,K^{-1}}$\nspecific latent heat of fusion of ice $=3.3\\times10^5\\ \\mathrm{J\\,kg^{-1}}$\n\nA $3\\,^\\circ\\mathrm{C}$\nB $18\\,^\\circ\\mathrm{C}$\nC $33\\,^\\circ\\mathrm{C}$\nD $38\\,^\\circ\\mathrm{C}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Under the resonance model in the question, the incident microwave frequency matches the natural frequency of the water molecules. Changing the frequency reduces the vibration amplitude and hence energy absorption. Keeping the frequency fixed and increasing the incident amplitude makes the molecules vibrate more strongly and transfers energy to the food faster.",
+      "perOption": {
+        "A": "Increasing the driving frequency moves it away from resonance.",
+        "B": "Increasing the amplitude while changing frequency loses the original resonance condition.",
+        "C": "Correct.",
+        "D": "Increasing the natural frequency spoils the match to the unchanged driving frequency."
+      }
+    },
+    "issues": "The question uses an idealized resonance model for microwave heating.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.l"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The question applies frequency matching and driving amplitude to a familiar setting.",
+    "misconception": "Increasing the driving frequency at resonance",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a point source, $I\\propto 1/r^2$, so $I_Q/I_P=(1/2)^2=1/4$. Since $I\\propto A^2$, $I_Q/I_P=(A_Q/A_P)^2=(6.0/A_P)^2$ when amplitudes are expressed in micrometres. Therefore $A_P=12.0\\ \\mu\\mathrm{m}$.",
+      "perOption": {
+        "A": "An eightfold decrease misapplies the distance scaling and makes the closer point oscillate less.",
+        "B": "Divides the amplitude by four, using the intensity factor directly and in the wrong direction.",
+        "C": "Halves the amplitude as though P were twice as far from the source as Q.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key prints an inconsistent intermediate amplitude-ratio expression. The squared ratio and final answer are correct.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The distance ratio must be converted to an intensity ratio and then to an amplitude ratio.",
+    "misconception": "Applying the inverse-square law directly to amplitude",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The interval OS is two periods. At P, the acceleration has maximum magnitude, while the kinetic energies at Q and R are equal. Q and R are half a period apart, giving a phase difference of $180^\\circ$.",
+      "perOption": {
+        "A": "OS represents two periods because the horizontal axis measures time.",
+        "B": "Acceleration has maximum magnitude at the crest, where displacement is greatest.",
+        "C": "Correct.",
+        "D": "The particle has the same kinetic energy at both equilibrium crossings."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must read phase from a time graph and distinguish displacement, acceleration and speed.",
+    "misconception": "Reading wavelength from a time axis",
+    "transcription": "The graph below shows the variation with time $t$ of the displacement $x$ of a particle on a progressive wave.\n\n[Sinusoidal graph with vertical axis $x$ and horizontal axis $t$. O is the origin and an upward zero crossing. P is the first crest, Q the first downward zero crossing, R the next upward zero crossing, and S the upward zero crossing at the end of the second cycle.]\n\nWhich statement below is true?\n\nA OS represents two wavelengths.\nB At P, the acceleration of the particle is zero.\nC The phase difference between Q and R is $180^\\circ$.\nD The kinetic energy of the particle is higher when it is at Q than when it is at R."
+  },
+  {
+    "id": "rvhs-2024-other-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The steady minimum at P requires coherent sources, and their equal paths mean the sources must be $\\pi$ radians out of phase. Equal source amplitudes are consistent with the stated equal intensities. At Q the path difference is $\\sqrt{3^2+4^2}-4=1\\ \\mathrm{m}$, which is one wavelength because Q is the next minimum after P.",
+      "perOption": {
+        "A": "This statement is true because the sources emit waves of equal intensity.",
+        "B": "This statement is true because the steady minimum requires coherence.",
+        "C": "This statement is true because the minimum at equal path lengths requires antiphase sources.",
+        "D": "Correct. The wavelength is $1\\ \\mathrm{m}$."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.a",
+      "superposition.e",
+      "superposition.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students infer the source phase from the first minimum and use the path difference at the next minimum.",
+    "misconception": "Using the in-phase minimum condition for antiphase sources",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the vertical bright fringes to find the spacing of the horizontal threads. The second-order fringe has $\\tan\\theta=(0.0548/2)/2.00=0.0137$, so $\\theta=0.7849^\\circ$. The grating equation gives $d\\sin(0.7849^\\circ)=2(685\\times10^{-9})$, so $d=1.00\\times10^{-4}\\ \\mathrm{m}=0.100\\ \\mathrm{mm}$. The horizontal fringes give the vertical-thread spacing, using first order at the same angle to obtain $5.00\\times10^{-5}\\ \\mathrm{m}=0.0500\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Treats the full vertical span as a centre-to-fringe distance and uses first order.",
+        "B": "Uses the first-order horizontal diffraction angle, which gives the vertical-thread spacing.",
+        "C": "Correct.",
+        "D": "This spacing would put the second-order vertical spots much closer to the centre than shown."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must identify the relevant diffraction direction and order before applying the grating equation.",
+    "misconception": "Using horizontal fringe spacing for horizontal threads",
+    "transcription": "A fabric consists of closely-spaced horizontal and vertical threads as shown.\n\n[Fabric diagram showing a grid of horizontal and vertical threads.]\n\nWhen a laser with a wavelength of $685\\ \\mathrm{nm}$ is incident on the fabric, a diffraction pattern is observed on a screen placed at a distance of $2.00\\ \\mathrm{m}$ away, as shown below.\n\n[Screen diagram showing five rows of bright spots, with 1, 3, 5, 3 and 1 spots from top to bottom. The top and bottom spots are vertically separated by $54.8\\ \\mathrm{mm}$. The left and right spots on the row immediately below the central row are horizontally separated by $54.8\\ \\mathrm{mm}$.]\n\nThe separation between the horizontal threads of the fabric is\n\nA $2.50\\times10^{-5}\\ \\mathrm{m}$\nB $5.00\\times10^{-5}\\ \\mathrm{m}$\nC $1.00\\times10^{-4}\\ \\mathrm{m}$\nD $9.48\\times10^{-4}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially the electric force acts upwards, so $W-F_E=ma$. After the polarity is reversed it acts downwards, giving $W+F_E=7ma$. Subtracting the first equation from the second gives $2F_E=6ma$. Substituting $F_E=qV/x$ gives $2qV/x=6ma$, so $q=3max/V$.",
+      "perOption": {
+        "A": "Equates the electric force to the initial net force $ma$.",
+        "B": "Correct.",
+        "C": "Assigns the whole change in net force to a single electric force.",
+        "D": "Equates the electric force to the final net force $7ma$."
+      }
+    },
+    "issues": "The text extraction scrambles the choice fractions. The question PNG clearly shows A, B, C and D with numerators max, 3max, 6max and 7max, respectively.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "electric-fields.i",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The electric force must be isolated by combining two signed force equations.",
+    "misconception": "Treating the change in net force as one electric force",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field points upwards to provide an electric force that balances the downward weight. The lower plate is therefore at higher potential than the upper plate. The positive particle loses electric potential energy when it moves upwards, so when it falls after the voltage is reduced it gains electric potential energy and loses gravitational potential energy.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The particle falls, so its gravitational potential energy decreases.",
+        "C": "As the positive particle rises towards lower potential, its electric potential energy decreases.",
+        "D": "Once the voltage changes, the forces have different magnitudes, so their work over the same displacement need not have equal magnitudes."
+      }
+    },
+    "issues": "The keyed energy changes refer to motion after the voltage adjustment. Comparing electric potential energy across the adjustment itself would require specifying the plate potentials and reference.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.i",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must infer the plate potentials from equilibrium and track two forms of potential energy as the particle moves.",
+    "misconception": "Confusing electric potential with height",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "As current increases, the thermistor generates more heat and its equilibrium temperature rises. More electrons become mobile, so the resistance falls. Since $R=V/I$, the correct graph shows $I/V$ increasing.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A straight line through the origin gives constant resistance.",
+        "C": "The curve flattens as voltage rises, giving an increasing resistance.",
+        "D": "It shows a nonzero current at zero applied voltage and a falling current as voltage rises."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.e",
+      "circuits.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect self-heating to resistance and read the ratio of current to voltage from the graph.",
+    "misconception": "Treating an NTC thermistor as a fixed resistor",
+    "transcription": "Which of the following graphs correctly shows the variation with the potential difference $V$ across a negative temperature coefficient (NTC) thermistor of the current $I$ through it?\n\n[All graphs have $I$ on the vertical axis and $V$ on the horizontal axis.]\nA [Curve from the origin that rises and steepens.]\nB [Rising straight line through the origin.]\nC [Curve from the origin that rises and flattens.]\nD [Curve starting at a positive current on the vertical axis, then falling and flattening above the horizontal axis.]"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The outer loop consists of $3R$ in parallel with $R$, so its effective resistance is $R(3\\times1)/(3+1)=0.75R$. Add the two terminal resistors in series to get $R_{XY}=(0.75+1+1)R=2.75R$.",
+      "perOption": {
+        "A": "This is less than the combined resistance of the two terminal resistors, both of which carry the full current.",
+        "B": "Correct.",
+        "C": "Overestimates the resistance between the junctions, where the parallel combination is smaller than the central resistor.",
+        "D": "Counts the five resistors along the outer route in series and ignores the central branch."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.h",
+      "circuits.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must recognise the two parallel paths before adding the terminal resistors.",
+    "misconception": "Missing the central parallel branch",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The increased balance reading means a downward force acts on the horseshoe magnet, so by Newton’s third law the magnetic force on the wire is upwards. The current flows from Y to X, so Fleming’s left-hand rule gives a field from face A to the opposite face, making A the north pole.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A south pole at A would reverse the field and give a downward force on the wire.",
+        "C": "A downward force on the wire would give an upward force on the magnet and reduce the balance reading.",
+        "D": "With the observed balance reading and current from Y to X, the wire is pushed upwards and face A is north."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.e",
+      "electromagnetic-forces.f",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must infer the force on the wire from the balance reading before applying the left-hand rule.",
+    "misconception": "Assigning the force on the magnet to the wire",
+    "transcription": "A horseshoe magnet rests on a top-pan balance with a wire XY suspended between the poles of the magnet. The wire is not in contact with the horseshoe magnet and is a part of the circuit as shown. When the switch is closed, the reading on the balance increases.\n\n[The horseshoe magnet sits on the top-pan balance. Face A is the inner face of the rear pole. The wire runs from X to Y through the gap. X connects through a resistor to the battery’s negative terminal. Y connects through the open switch to the positive terminal.]\n\nWhich one of the following correctly gives the direction of the magnetic force on wire XY and the magnetic pole of face A of the horseshoe magnet?\n\n[Each row gives the direction of magnetic force on wire XY followed by the magnetic pole of face A.]\nA upwards, North pole\nB upwards, South pole\nC downwards, North pole\nD downwards, South pole"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "As X moves away, the magnetic flux through Y decreases, so Y produces a field in the same direction to oppose that decrease. The right-hand grip rule gives current from N to M, with the north pole of Y facing the south pole of X, so the solenoids attract. In the key’s inverse-cube field model, the rate of change of flux linkage falls as the solenoids separate, so the current diminishes.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Current from M to N would produce a field that reinforces the loss of flux, and repulsion would assist the separation.",
+        "C": "The current diminishes as the flux linkage changes more slowly, and the facing poles attract.",
+        "D": "The current falls in magnitude and flows from N to M."
+      }
+    },
+    "issues": "The inverse-cube field dependence used in the key is a far-field approximation for a finite solenoid.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.d",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must combine Lenz’s law, the winding direction and the changing rate of flux linkage.",
+    "misconception": "Assuming constant speed gives constant induced current",
+    "transcription": "X and Y are solenoids wound on cardboard tubes. X carries constant current $I$ as shown below and moves with constant speed away from Y among the common axis of the two tubes.\n\n[Coaxial solenoids X on the left and Y on the right have the same winding sense. An arrow points left from X. X is connected to a battery and resistor, and current $I$ flows upwards in its left lead and on the visible fronts of its turns and downwards in its right lead. Y has its left and right terminals joined by a wire labelled M at the left end and N at the right end.]\n\nAs a result of electromagnetic induction, a current will flow in the straight wire MN and there will be a force between X and Y.\n\nWhich one of the following correctly describes both the current and the force?\n\n[Each row gives the nature and direction of current in straight wire MN followed by the nature of force.]\nA diminishing, N to M, attraction\nB diminishing, M to N, repulsion\nC constant, N to M, repulsion\nD constant, M to N, attraction"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q23",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The school’s generator diagram shows the induced e.m.f. peaking as the magnetic flux crosses zero, where its rate of change is greatest. At that instant the plane of the coil is parallel to the magnetic field, as in A.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The flux is at an extremum in this orientation, so its instantaneous rate of change is zero.",
+        "C": "At $45^\\circ$ the flux changes less rapidly than when the coil plane is parallel to the field.",
+        "D": "This opposite $45^\\circ$ tilt also gives a smaller rate of change of flux than the parallel orientation."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect coil orientation to the rate of change of flux shown by the generator diagram.",
+    "misconception": "Equating maximum flux with maximum induced e.m.f.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current in the cables is $I=P/V=120000/6000=20\\ \\mathrm{A}$. The power dissipated in the cables is $I^2R=20^2(3.0)=1200\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Reports the line current in amperes as a power in watts.",
+        "B": "A loss of this size would require a current smaller than the line current inferred from transmitted power and voltage.",
+        "C": "Correct.",
+        "D": "Uses the full transmission voltage as the potential difference across the cable resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students first calculate the line current and then use it to find the resistive power loss.",
+    "misconception": "Using the transmission voltage as the cable voltage drop",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q25",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph starts at zero and rises, so use $V=V_0\\sin(\\omega t)$ with $V_0=1.5\\ \\mathrm{V}$. The period is $12.6\\ \\mathrm{s}$, giving $\\omega=2\\pi/T=2\\pi/12.6\\approx0.499\\ \\mathrm{rad\\,s^{-1}}$. Thus $V=1.5\\sin(0.499t)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the reciprocal of $2\\pi/T$ as the angular frequency.",
+        "C": "Uses the peak-to-peak voltage as the amplitude and doubles the period.",
+        "D": "Uses the period itself as the angular frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f",
+      "currents.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students read the peak voltage and period and convert the period to angular frequency.",
+    "misconception": "Using the period as the angular frequency",
+    "transcription": null
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "id": "sajc-2024-prelim-p1-q3",
+    "keyPage": 24,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Acceleration is the gradient of the velocity–time graph. The gradient starts positive, falls to zero by P, and stays zero until Q. Just after Q it is sharply negative, with a larger magnitude than at release, and returns to zero by R.",
+      "perOption": {
+        "A": "Underestimates the magnitude of acceleration just after Q relative to the initial acceleration.",
+        "B": "Correct. It matches the signs and relative steepness of the gradients.",
+        "C": "Reverses the signs of both nonzero gradients.",
+        "D": "Reverses both signs even though it shows the larger magnitude just after Q."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the signs and relative steepness of the velocity gradients.",
+    "misconception": "Confusing velocity with the gradient of velocity.",
+    "transcription": "A parachutist falls from a stationary balloon at time $t=0$. The velocity–time graph for the parachutist from time $t=0$ until the time when he is just above the ground is shown.\n\n[Velocity versus time: velocity rises from zero with decreasing gradient up to P, stays constant from P to Q, drops steeply just after Q and levels off by R, then remains constant at a small positive value to S.]\n\nWhich graph best shows the variation with time of the acceleration of the parachutist?\n\n[A–D show acceleration versus time, with zero acceleration from P to Q and R to S. A: positive acceleration falls to zero by P, then a negative excursion just after Q of about the same magnitude as the initial acceleration returns to zero by R. B: as A, but the negative excursion is much larger. C: negative acceleration rises to zero by P, then a positive excursion of about the same initial magnitude returns to zero by R. D: as C, but the positive excursion is much larger.]"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q4",
+    "keyPage": 24,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The launch angle is $\\theta=\\tan^{-1}(60/170)=19.44^\\circ$. Both objects have the same downward acceleration, so they meet when the bullet covers the horizontal distance to the clay pigeon. Horizontally, $170=300\\cos(19.44^\\circ)t$, giving $t=0.60\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "This time is too short to cover the horizontal separation even at the full launch speed.",
+        "B": "Uses the full launch speed in place of its horizontal component.",
+        "C": "Correct. The horizontal travel time is 0.60 s.",
+        "D": "Inverts the distance-to-speed ratio, giving a quantity with units of inverse seconds."
+      }
+    },
+    "issues": "The Q3 illustration overlaps Q4’s working on page 24. The text layer supplies the covered equations.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "projectile-motion.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the launch angle and using the horizontal component of velocity.",
+    "misconception": "Using the full launch speed as the horizontal speed.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q5",
+    "keyPage": 24,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the mass $m$, $\\tfrac12 mv_m^2=\\tfrac14(\\tfrac12 mu^2)$, so its rebound speed is $u/2$. Taking the original direction as positive, conservation of momentum gives $mu=m(-u/2)+4mv_{4m}$. Thus $v_{4m}=3u/8$.",
+      "perOption": {
+        "A": "Uses a positive velocity for the rebounding mass.",
+        "B": "Could result from dividing the momentum gained by $8m$ instead of $4m$.",
+        "C": "Treats one-quarter of the original kinetic energy as one-quarter of the original speed.",
+        "D": "Correct. The rebounding mass has velocity $-u/2$."
+      }
+    },
+    "issues": "The Q3 illustration covers Q5’s printed letter and part of its working on page 24. The answer table on page 23 prints D, and the page 24 text layer recovers the covered working.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires converting a kinetic-energy fraction to speed and assigning the rebound a negative velocity.",
+    "misconception": "Treating the fraction of kinetic energy as a fraction of speed.",
+    "transcription": "An object of mass $m$, moving at speed $u$ along a frictionless horizontal surface, collides head-on with a stationary object of mass $4m$.\n\n[Before the collision: on a horizontal line, the mass $m$ is on the left and has a rightward arrow labelled $u$. The stationary mass $4m$ is on the right.]\n\nAfter the collision, the object of mass $m$ rebounds along its initial path with $\\frac14$ of its kinetic energy before the collision.\n\nWhat is the speed of the object of mass $4m$ after the collision?\n\nA. $\\frac{u}{8}$\nB. $\\frac{3u}{16}$\nC. $\\frac{5u}{16}$\nD. $\\frac{3u}{8}$"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q6",
+    "keyPage": 25,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $N_1$ and $N_2$ be the normal forces from the vertical and slanted planes. Horizontal and vertical equilibrium give $N_2\\sin30^\\circ=N_1$ and $N_2\\cos30^\\circ=W$. Dividing gives $N_1=W\\tan30^\\circ=15\\tan30^\\circ=8.66\\ \\mathrm{N}$, or $8.7\\ \\mathrm{N}$ to two significant figures.",
+      "perOption": {
+        "A": "Ignores the horizontal component of the slanted plane’s reaction.",
+        "B": "Calculates $15sin30^circ$ by treating the weight as the slanted plane’s reaction.",
+        "C": "Correct. The horizontal reaction equals $15\\tan30^\\circ$.",
+        "D": "Uses the complementary angle and calculates $15\\tan60^\\circ$."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying the normal forces and resolving the slanted plane’s reaction in two directions.",
+    "misconception": "Treating the sphere’s weight as the slanted plane’s normal force.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q8",
+    "keyPage": 25,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking moments about X gives $R_Y(5L/6)=W(2L/6)$. Taking moments about Y gives $R_X(5L/6)=W(L/2)$. Dividing the second equation by the first gives $R_X/R_Y=(1/2)(6/2)=3/2$.",
+      "perOption": {
+        "A": "Correct. The ratio follows by dividing the two moment equations.",
+        "B": "Inverts the ratio and gives $R_Y/R_X$.",
+        "C": "Gives $R_X/W$ instead of $R_X/R_Y$.",
+        "D": "Gives $R_Y/W$ instead of $R_X/R_Y$."
+      }
+    },
+    "issues": "The stem’s wording about support X is incomplete. The diagram places it L/6 from the left end.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying both lever arms and applying the principle of moments about each support.",
+    "misconception": "Confusing the ratio of reactions with a reaction divided by the weight.",
+    "transcription": "A uniform bar of length $L$ and weight $W$ rests horizontally on two supports X and Y.\n\n[Support X is $L/6$ from the left end and exerts an upward force $R_X$. Support Y is at the right end and exerts an upward force $R_Y$. The weight $W$ acts downwards at the midpoint.]\n\nSupport X exerts a vertical force $R_X$ from one end of the bar while support Y exerts a vertical force $R_Y$ at the other end of the bar as shown.\n\nThe bar is in equilibrium.\n\nWhat is the ratio $\\frac{R_X}{R_Y}$?\n\nA. $\\frac32$\nB. $\\frac23$\nC. $\\frac35$\nD. $\\frac25$"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q9",
+    "keyPage": 26,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At speed $v$, the engine develops power $P=F_Dv$. With negligible resistance, the driving force is the net force, so $F_D=ma$. From rest, $v^2=u^2+2as=2as$, giving $P=ma\\sqrt{2as}$, which increases nonlinearly with distance $s$.",
+      "perOption": {
+        "A": "Treats constant driving force as constant power and ignores the rising speed.",
+        "B": "Assumes the car slows even though the net force accelerates it from rest.",
+        "C": "Confuses the linear dependence on time with the square-root dependence on distance.",
+        "D": "Correct. Power is proportional to the square root of distance."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.e",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires combining mechanical power with the dependence of speed on distance.",
+    "misconception": "Assuming that a constant force produces constant power.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q10",
+    "keyPage": 26,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A satellite in a circular orbit has total energy $E=-GMm/(2r)$. Satellite B has the larger orbital radius, so its total energy is less negative and therefore greater.",
+      "perOption": {
+        "A": "The smaller radius gives A a larger energy magnitude but a more negative total energy.",
+        "B": "Correct. Its larger radius gives a greater total energy.",
+        "C": "Equal masses still give different energies at different orbital radii.",
+        "D": "The higher altitude establishes the larger orbital radius, which is enough to compare the energies."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.g",
+      "gravitational-fields.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing negative orbital energies at two radii.",
+    "misconception": "Comparing magnitudes of negative energies instead of signed values.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q11",
+    "keyPage": 26,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity provides the centripetal force on star b, so $Gm^2/(d_a+d_b)^2=md_b\\omega^2$. Rearranging gives $\\omega^2=Gm/[d_b(d_a+d_b)^2]$. Taking the square root gives $\\omega=\\frac{1}{d_a+d_b}\\sqrt{\\frac{Gm}{d_b}}$.",
+      "perOption": {
+        "A": "Uses the full separation as star b’s orbital radius.",
+        "B": "Uses star a’s radius in the centripetal term for star b, although the two radii are equal here.",
+        "C": "Uses star b’s orbital radius as the separation in Newton’s law of gravitation.",
+        "D": "Correct. Gravity depends on the full separation and the centripetal term uses $d_b$."
+      }
+    },
+    "issues": "Equal masses imply d_a = d_b, so B and D are numerically equivalent under the stated premise. D directly uses star b’s orbital radius in the derivation.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing the separation of the stars from star b’s orbital radius.",
+    "misconception": "Using the same distance for gravitational separation and orbital radius.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q13",
+    "keyPage": 26,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean translational kinetic energy per molecule, $\\tfrac12 m\\langle c^2\\rangle$, is proportional to absolute temperature. The gases have the same temperature and the same number of molecules, so their total translational kinetic energies are equal.",
+      "perOption": {
+        "A": "Equal mean translational kinetic energies and different molecular masses imply different root mean square speeds.",
+        "B": "Equal temperatures give equal mean translational kinetic energies per molecule.",
+        "C": "Correct. Both gases have the same particle count and mean translational kinetic energy.",
+        "D": "With the same $n$ and $T$, $pV=nRT$ gives the same product for both gases."
+      }
+    },
+    "issues": "The letter is on page 26 and the working continues on page 27.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires linking temperature to the mean molecular kinetic energy and one mole to the particle count.",
+    "misconception": "Assuming equal temperature implies equal molecular speeds.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q14",
+    "keyPage": 27,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Velocity is the gradient of the displacement–time graph, $v=\\mathrm{d}x/\\mathrm{d}t$. Acceleration satisfies $a=-\\omega^2x$, so it points opposite to any nonzero displacement. At A the gradient is negative and displacement is positive, so velocity and acceleration are both negative.",
+      "perOption": {
+        "A": "Correct. Both velocity and acceleration are negative.",
+        "B": "The velocity is negative and acceleration is zero at equilibrium.",
+        "C": "The velocity is negative and acceleration is positive.",
+        "D": "The velocity is zero at the turning point and acceleration is positive."
+      }
+    },
+    "issues": "The key describes zero acceleration at B and zero velocity at D as producing opposite directions. A zero vector has no direction.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reading the sign of the slope and relating acceleration to displacement.",
+    "misconception": "Reading the acceleration direction from the slope of a displacement graph.",
+    "transcription": "The oscillations of a mass suspended on a spring are simple harmonic. The variation with time of the displacement of the mass is shown.\n\nAt which point is the mass travelling and accelerating in the same direction?\n\n[Displacement–time graph: the curve starts at a positive maximum and descends through A above the time axis, B at the zero crossing, and C below the time axis. D is at the negative minimum. The curve then rises through zero to the next positive maximum.]"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q15",
+    "keyPage": 27,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Intensity follows $I\\propto A^2$ and $I\\propto 1/r^2$, so $A\\propto 1/r$. Hence $A_Q/A_P=r/(2r)=1/2$. The amplitude at Q is $\\tfrac12(8.0\\ \\mathrm{\\mu m})=4.0\\ \\mathrm{\\mu m}$.",
+      "perOption": {
+        "A": "Reduces the amplitude by a factor of about 5.7, whereas doubling distance halves it.",
+        "B": "Applies the inverse-square intensity law directly to amplitude.",
+        "C": "Takes an amplitude ratio of about 0.35, which implies an intensity ratio of about one-eighth instead of one-quarter.",
+        "D": "Correct. Doubling the distance halves the amplitude."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires combining the inverse-square intensity law with the intensity–amplitude relation.",
+    "misconception": "Applying the inverse-square law directly to amplitude.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q16",
+    "keyPage": 27,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diagrams are snapshots, so the spatial patterns show relative amplitudes and wavelengths. Wave 1 has a greater contrast between compressions and rarefactions, indicating a greater amplitude.",
+      "perOption": {
+        "A": "Correct. Wave 1 shows greater variation in molecular spacing.",
+        "B": "Wave 1 has the longer wavelength and therefore the lower frequency for the same sound speed.",
+        "C": "Both waves travel at the same speed in the same air.",
+        "D": "Longitudinal sound waves in air cannot be polarised."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d",
+      "wave-motion.e",
+      "wave-motion.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires interpreting changes in molecular spacing and distinguishing amplitude from wavelength.",
+    "misconception": "Confusing stronger compressions with higher frequency.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q17",
+    "keyPage": 27,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The double-slit fringe separation is $x=\\lambda D/a$. With wavelength $\\lambda$ and screen distance $D$ fixed, $x\\propto 1/a$, so the curve decreases and becomes less steep as $a$ increases.",
+      "perOption": {
+        "A": "Correct. It shows an inverse relationship.",
+        "B": "Shows fringe separation growing ever faster as slit separation increases.",
+        "C": "Shows a decrease that gets steeper and approaches zero at a finite slit separation.",
+        "D": "Shows fringe separation increasing as slit separation increases."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires matching inverse proportionality to the shape of a graph.",
+    "misconception": "Choosing any decreasing curve for inverse proportionality.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q18",
+    "keyPage": 27,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential difference is the electrical work done per unit charge, $V=W/Q$. It measures the energy transferred for each coulomb passing through the component.",
+      "perOption": {
+        "A": "Charge per unit time is current.",
+        "B": "Correct. Potential difference is energy transferred per unit charge.",
+        "C": "Force per unit positive charge is electric field strength.",
+        "D": "For a resistive component, multiplying resistance by current gives the potential difference."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.c"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Requires recalling the definition of potential difference.",
+    "misconception": "Confusing energy per charge with force per charge.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q19",
+    "keyPage": 27,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The e.m.f. satisfies $E=Ir+V$, so $V=E-Ir=3.0-0.50I$. The voltage intercept is $3.0\\ \\mathrm{V}$ and the gradient is $-0.50\\ \\mathrm{V\\,A^{-1}}$. Using the gradient magnitude, the current intercept is $3.0/0.50=6.0\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Uses the numerical value of internal resistance as the voltage intercept instead of the e.m.f.",
+        "B": "Uses the numerical value of internal resistance as the current intercept instead of calculating $E/r$.",
+        "C": "Correct. The intercepts are 3.0 V and 6.0 A.",
+        "D": "Swaps the numerical values of the voltage and current intercepts."
+      }
+    },
+    "issues": "The question PNG omits the option graphs, which are on paper page 15. The key letter is on page 27 and the working is on page 28, where the gradient is printed as positive 0.50 despite the negative slope.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires relating terminal voltage to current and finding both intercepts.",
+    "misconception": "Using the internal resistance as a graph intercept.",
+    "transcription": "A cell of electromotive force (e.m.f.) $3.0\\ \\mathrm{V}$ and internal resistance $0.50\\ \\Omega$ is connected to a variable resistor, a voltmeter and an ammeter, as shown. The resistance of the variable resistor is varied.\n\n[The cell, its internal resistance, the ammeter and the variable resistor are in series. The voltmeter is connected across the variable resistor.]\n\nThe reading on the ammeter $I$ and the reading on the voltmeter $V$ are recorded.\n\nWhich graph shows how $V$ varies with $I$?\n\n[All four graphs plot $V/\\mathrm{V}$ vertically and $I/\\mathrm{A}$ horizontally and show a descending straight line. Intercepts $(I,V)$ in axis units are:\nA. $(0,0.50)$ and $(6.0,0)$.\nB. $(0,3.0)$ and $(0.5,0)$.\nC. $(0,3.0)$ and $(6.0,0)$.\nD. $(0,6.0)$ and $(3.0,0)$.]"
+  }
+]

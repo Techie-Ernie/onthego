@@ -1,0 +1,511 @@
+[
+  {
+    "id": "nyjc-2024-a-level-p1-q27",
+    "keyPage": 19,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $hf=\\Phi+eV$, rearrange to $V=(h/e)f-\\Phi/e$. A greater work function makes the extrapolated vertical intercept more negative and leaves the gradient unchanged, giving line C.",
+      "perOption": {
+        "A": "Changes the gradient and retains the same threshold frequency.",
+        "B": "The leftward shift indicates a smaller work function.",
+        "C": "Correct. The line is parallel with a higher threshold frequency.",
+        "D": "Changes the gradient and retains the same threshold frequency."
+      }
+    },
+    "issues": "The key uses upward arrows for the signed intercept, which becomes more negative. The cover identifies the 2024 paper as a prelim despite the batch’s A-Level label.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Compare the gradient and intercept.",
+    "misconception": "Assuming the gradient depends on the metal.",
+    "transcription": "In a photoelectric cell experiment, sodium (Na) metal is exposed to electromagnetic radiation of different frequencies and the potential required to stop the photoelectrons is measured.\n\nThe solid line labelled Na shows the results of the experiment.\n\nWhich line represents the results for a photoelectric cell which uses a metal that has a larger work function than sodium?\n\n[Graph of stopping potential / V against frequency / Hz, with both axes starting at zero. Dashed A is steeper than solid Na and has the same threshold frequency. Dashed B and C are parallel to Na with lower and higher threshold frequencies respectively. Dashed D is shallower than Na and has the same threshold frequency.]"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q28",
+    "keyPage": 20,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Photon energy is proportional to $1/\\lambda$, and the transition energy is proportional to $\\left|1/n_f^2-1/n_i^2\\right|$. Hence $\\lambda_X/\\lambda_Y=\\Delta E_Y/\\Delta E_X=(1/2^2-1/4^2)/(1/1^2-1/4^2)=(3/16)/(15/16)=1/5$.",
+      "perOption": {
+        "A": "Correct. The wavelength ratio is the inverse of the energy-gap ratio.",
+        "B": "Uses the final level energies alone and omits the common initial level.",
+        "C": "Uses the final level energy ratio directly and omits the common initial level.",
+        "D": "Uses the energy-gap ratio directly without inverting it."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.m"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Calculate both transition energies and invert their ratio.",
+    "misconception": "Using level energies instead of energy differences.",
+    "transcription": "The diagram shows the lowest four energy levels in the hydrogen atom. The energy levels of the hydrogen atom are given by $E_n=\\frac{-13.6\\ \\mathrm{eV}}{n^2}$.\n\nThe electron transitions X and Y result in the emission of two photons.\n\n[Four horizontal dashed levels are labelled $n=4$, $n=3$, $n=2$ and $n=1$ from top to bottom. Downward arrow X runs from $n=4$ to $n=1$, and downward arrow Y runs from $n=4$ to $n=2$.]\n\nWhich is the ratio $\\frac{\\text{wavelength of photon due to X}}{\\text{wavelength of photon due to Y}}$?\n\nA $\\frac15$\nB $\\frac14$\nC $4$\nD $5$"
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q29",
+    "keyPage": 21,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "After two years, the activity is $A_0(1/2)^{0.5}$. For the same treatment, the irradiation time is inversely proportional to activity, so it increases to $10/(1/2)^{0.5}\\approx14\\ \\mathrm{min}$.",
+      "perOption": {
+        "A": "Multiplies the original time by the remaining activity fraction.",
+        "B": "Increases the time by too little to compensate for the reduction in activity.",
+        "C": "Correct. The lower activity requires about 14 minutes.",
+        "D": "Treats two years as one full half-life."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Apply decay over half a half-life and relate activity to irradiation time.",
+    "misconception": "Scaling irradiation time directly with activity.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2024-a-level-p1-q30",
+    "keyPage": 21,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The required energy is the mass difference between tritium and its one proton and two neutrons, converted using $E=mc^2$. Its magnitude is $|(3.0160-1.0086-2\\times1.0097)\\,\\mathrm{u}|c^2\\approx11.2\\ \\mathrm{MeV}$. A $12\\ \\mathrm{MeV}$ photon supplies enough energy if absorbed.",
+      "perOption": {
+        "A": "A 10 MeV photon supplies less than the required 11.2 MeV.",
+        "B": "Correct. A 12 MeV photon supplies enough energy.",
+        "C": "Emitting a photon removes energy needed for breakup.",
+        "D": "Emitting a photon removes energy even at 12 MeV."
+      }
+    },
+    "issues": "The key subtracts the free-nucleon masses from the tritium mass without taking an absolute value, but uses the correct positive energy magnitude.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.c",
+      "nuclear-physics.q",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Count the nucleons and convert the mass difference to breakup energy.",
+    "misconception": "Confusing the energy required for breakup with the energy released on binding.",
+    "transcription": "The rest masses of three particles, tritium $\\,{}^{3}_{1}\\mathrm{H}$, proton $\\,{}^{1}_{1}\\mathrm{p}$, and neutron $\\,{}^{1}_{0}\\mathrm{n}$, are $3.0160\\ \\mathrm{u}$, $1.0086\\ \\mathrm{u}$ and $1.0097\\ \\mathrm{u}$ respectively. A tritium may disintegrate to its constituent protons and neutrons if it\n\nA captures a photon of energy $10\\ \\mathrm{MeV}$.\nB captures a photon of energy $12\\ \\mathrm{MeV}$.\nC emits a photon of energy of $10\\ \\mathrm{MeV}$.\nD emits a photon of energy of $12\\ \\mathrm{MeV}$."
+  },
+  {
+    "id": "nyjc-2025-other-p1-q1",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Subtract the negative zero error and add the absolute uncertainties to get $4t=(1.00\\pm0.04)\\ \\mathrm{mm}$. Dividing by four gives $t=(0.25\\pm0.01)\\ \\mathrm{mm}$. The percentage uncertainty is $(0.01/0.25)\\times100\\%=4.0\\%$.",
+      "perOption": {
+        "A": "Divides the uncertainty by four while retaining the stack thickness as the denominator.",
+        "B": "Includes only one of the two absolute uncertainties.",
+        "C": "Correct. Both the thickness and its uncertainty scale by one quarter.",
+        "D": "Subtracts the magnitude of the zero error and uses a thickness of 0.60 mm."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f",
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Correct the zero error and propagate both uncertainties.",
+    "misconception": "Subtracting uncertainties when subtracting readings.",
+    "transcription": "A single sheet of aluminium foil is folded twice to produce a stack of four sheets. The total thickness of the stack of sheets is measured to be $(0.80\\pm0.02)\\ \\mathrm{mm}$. This measurement is made using a digital calliper with zero error of $(-0.20\\pm0.02)\\ \\mathrm{mm}$.\n\nWhat is the percentage uncertainty in the calculated thickness of a single sheet?\n\nA $1.0\\%$\nB $2.0\\%$\nC $4.0\\%$\nD $6.7\\%$"
+  },
+  {
+    "id": "nyjc-2025-other-p1-q2",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "High precision means repeated readings are tightly clustered, so random error is low. Low accuracy despite the small scatter indicates a large systematic error that shifts the readings away from the true value.",
+      "perOption": {
+        "A": "High random error would spread the readings out and reduce precision.",
+        "B": "High random error contradicts the stated high precision.",
+        "C": "Correct. The readings have little scatter and a large systematic offset.",
+        "D": "Low systematic and random errors would give readings close to the true value."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "practical"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Match precision to scatter and accuracy to closeness to the true value.",
+    "misconception": "Confusing precision with accuracy.",
+    "transcription": "A voltmeter connected across a resistor in a circuit gives readings which have high precision but low accuracy.\n\nWhich of the following best describes the likely error in readings taken with this voltmeter?\n\n| Option | random error | systematic error |\n| --- | --- | --- |\n| A | high | high |\n| B | high | low |\n| C | low | high |\n| D | low | low |"
+  },
+  {
+    "id": "nyjc-2025-other-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take downward as positive, so the upward acceleration below ground is $a=-\\alpha$. From $v^2=u^2+2as$, the speed is $v=\\sqrt{u^2-2\\alpha s}$. Plotting this gives A, which starts at $u$ and steepens as the stone comes to rest.",
+      "perOption": {
+        "A": "Correct. The downward slope steepens as speed decreases.",
+        "B": "Starts at rest and shows speed increasing with depth.",
+        "C": "Assumes that speed decreases linearly with distance, as it does with time.",
+        "D": "Shows the slope flattening as the stone stops."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Translate the constant-acceleration equation into a speed–distance curve.",
+    "misconception": "Confusing speed–distance with speed–time.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q4",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "If each particle has mass $m$ and X starts at speed $v$, then $E_k=\\tfrac12mv^2$. Conservation of momentum gives $mv=2mv_f$, hence $v_f=v/2$. The kinetic energy lost is $\\tfrac12mv^2-\\tfrac12(2m)(v/2)^2=\\tfrac14mv^2=E_k/2$.",
+      "perOption": {
+        "A": "Assumes kinetic energy is conserved when the particles stick.",
+        "B": "Gives the final kinetic energy of one particle instead of the energy lost.",
+        "C": "Correct. Half of the initial kinetic energy is lost.",
+        "D": "Uses only one particle’s mass when calculating the pair’s final kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use momentum conservation to find the shared speed before comparing energies.",
+    "misconception": "Using one particle’s mass for the final kinetic energy.",
+    "transcription": "A particle X with kinetic energy $E_k$ collides with a stationary particle Y. Both particles have the same mass.\n\nAfter colliding, X and Y travel together as a single particle.\n\nHow much kinetic energy is lost in the collision?\n\nA zero\nB $\\frac{E_k}{4}$\nC $\\frac{E_k}{2}$\nD $\\frac{3E_k}{4}$"
+  },
+  {
+    "id": "nyjc-2025-other-p1-q5",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial momenta are $6.0\\ \\mathrm{kg\\,m\\,s^{-1}}$ north and $8.0\\ \\mathrm{kg\\,m\\,s^{-1}}$ east. Vector addition gives the resultant magnitude $\\sqrt{6.0^2+8.0^2}=10\\ \\mathrm{kg\\,m\\,s^{-1}}$. Conservation of momentum gives the same resultant after the collision.",
+      "perOption": {
+        "A": "Subtracts the magnitudes as if the momenta were opposite.",
+        "B": "Correct. The perpendicular momenta give a conserved resultant of 10 kg m/s.",
+        "C": "Adds the magnitudes as if both momenta pointed in the same direction.",
+        "D": "Confuses total momentum with kinetic energy, whose conservation depends on the collision type."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "quantities-and-measurement",
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.b",
+      "collisions.e",
+      "quantities-and-measurement.i",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Add perpendicular momentum vectors and apply conservation of momentum.",
+    "misconception": "Adding perpendicular momenta as scalars.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q6",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The block's downhill weight component and the downhill force from the sphere are each $mg\\sin\\theta$. Balancing forces along the slope gives $mg\\sin\\theta+mg\\sin\\theta-f=0$. At impending slip $f=mg$, giving $\\sin\\theta=0.5$ and $\\theta=30^\\circ$.",
+      "perOption": {
+        "A": "Correct. The combined downhill load reaches the friction limit at 30°.",
+        "B": "Allows the downhill load to exceed the friction limit by a factor of about 1.41.",
+        "C": "Uses the complementary angle, as when resolving the downhill component with cosine.",
+        "D": "Allows the downhill load to reach about 1.91 times the friction limit."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Include the load from the sphere in the limiting force balance.",
+    "misconception": "Ignoring the force transmitted by the sphere.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q7",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy lost by B goes into raising A, increasing the kinetic energy of both blocks and doing work against friction. Thus $6.0(9.81)(2.0)=4.0(9.81)(2.0\\sin30^\\circ)+E_{k,A+B}+3.0(2.0)$. This gives $E_{k,A+B}=72\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Gives the potential energy gained by A instead of the total kinetic energy.",
+        "B": "Correct. The energy remaining after raising A and overcoming friction is 72 J.",
+        "C": "Omits the 6 J of work against friction.",
+        "D": "Counts all the energy lost by B as kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Track both changes in height and the work done against friction.",
+    "misconception": "Omitting friction or the rising block’s potential energy.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q8",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Using $F=kx$, the force constant is $k=200/0.002=100\\,000\\ \\mathrm{N\\,m^{-1}}$. The work is the trapezium area under the force–extension graph over the additional extension, $\\tfrac12(200+250)(250/100000-0.002)=0.113\\ \\mathrm{J}$ to three significant figures.",
+      "perOption": {
+        "A": "Correct. The trapezium covers the additional extension.",
+        "B": "Uses the sum of the endpoint forces instead of their average.",
+        "C": "Treats the additional extension in millimetres as metres.",
+        "D": "Uses the sum of the endpoint forces and treats millimetres as metres."
+      }
+    },
+    "issues": "The key assumes Hooke’s law throughout the interval. Staying within the elastic limit alone does not guarantee proportionality.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the extra extension and compute the area over that interval.",
+    "misconception": "Using the sum of the forces instead of their average.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top the string just has zero tension, so $mg=mv_{\\mathrm{top}}^2/r$ and $v_{\\mathrm{top}}^2=rg$. Conservation of energy gives $\\tfrac12m(rg)+mg(2r)=\\tfrac12mv_{\\mathrm{bottom}}^2$. Hence $v_{\\mathrm{bottom}}^2=5rg$ and $a_c=v_{\\mathrm{bottom}}^2/r=5g$.",
+      "perOption": {
+        "A": "Uses the acceleration at the top and ignores the increase in speed.",
+        "B": "Omits the initial kinetic energy and uses a drop of one radius.",
+        "C": "Uses the full drop but assumes the mass starts from rest at the top.",
+        "D": "Correct. The final kinetic energy includes the initial kinetic energy and the energy gained during the drop."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.e",
+      "circular-motion.f",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Combine the zero-tension condition at the top with energy conservation.",
+    "misconception": "Assuming the mass starts from rest at the top.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q10",
+    "keyPage": 9,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity supplies the centripetal force, so $GMm/r^2=mv^2/r$ and the orbital speed is $\\sqrt{GM/r}$. The orbital radii measured from Earth's centre are $2R$ and $4R$. Thus $v_Q=\\sqrt{GM/(4R)}=(1/\\sqrt2)\\sqrt{GM/(2R)}=v/\\sqrt2$.",
+      "perOption": {
+        "A": "Uses the altitudes R and 3R as orbital radii.",
+        "B": "Correct. Doubling the orbital radius divides speed by the square root of two.",
+        "C": "Inverts the speed ratio for the correct orbital radii.",
+        "D": "Uses the altitudes as orbital radii and inverts the speed ratio."
+      }
+    },
+    "issues": "All four options contain square roots in the image, which are missing from the extracted text.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Derive the orbital speed law and convert the altitudes to radii.",
+    "misconception": "Using altitude as orbital radius.",
+    "transcription": null
+  },
+  {
+    "id": "nyjc-2025-other-p1-q11",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Surface gravitational potential is $\\phi=-GM/r$, so it scales directly with mass and inversely with radius. Mars has $0.1$ times Earth's mass and $0.5$ times its radius, giving $\\phi_{\\mathrm{Mars}}=(0.1/0.5)(-63)=-12.6\\ \\mathrm{MJ\\,kg^{-1}}$. This rounds to $-13\\ \\mathrm{MJ\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Correct. Mars has one fifth of Earth's surface potential.",
+        "B": "Uses the inverse-square dependence of field strength for potential.",
+        "C": "Overstates the magnitude even though the mass-to-radius ratio falls to one fifth.",
+        "D": "Inverts the mass-to-radius ratio, giving about five times Earth's potential magnitude."
+      }
+    },
+    "issues": "The key’s intermediate line drops the minus sign on 12.6, while the final value and letter are correct.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Scale the potential with the mass ratio and inverse radius ratio.",
+    "misconception": "Using an inverse-square dependence for potential.",
+    "transcription": null
+  }
+]

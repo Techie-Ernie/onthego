@@ -1,0 +1,520 @@
+[
+  {
+    "id": "sajc-2023-prelim-p1-q18",
+    "keyPage": 19,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "$L_X=2L_Y$ and $A_X=\\pi(0.5r_Y)^2=0.25A_Y$. Since the resistances are equal, $1=(\\rho_X L_X/A_X)/(\\rho_Y L_Y/A_Y)=8\\rho_X/\\rho_Y$. Hence $\\rho_X/\\rho_Y=1/8$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Ignores the doubled length.",
+        "C": "Inverts the area ratio and ignores the length ratio.",
+        "D": "Gives the reciprocal of the requested ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Combines the squared diameter ratio with the length ratio.",
+    "misconception": "Ignoring the doubled length.",
+    "transcription": "Two wires, X and Y, are made of different materials, but have the same resistance.\n\nX is twice as long as Y but has half the diameter of Y.\n\nWhat is the ratio of the resistivity of material from which wire X is made to the resistivity of material from which wire Y is made?\n\nA. $\\frac18$\nB. $\\frac14$\nC. $4$\nD. $8$"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q19",
+    "keyPage": 20,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the same rated voltage $V$, Q has four times the power of P, so $V^2/R_Q=4V^2/R_P$ and $R_P=4R_Q$. The lamps carry the same current in series. Therefore $P'_P=I^2R_P=4I^2R_Q=4P'_Q$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Underestimates the resistance ratio and hence the power ratio.",
+        "C": "Uses the rated powers as though the lamps still had equal voltages.",
+        "D": "Reverses which lamp has the greater resistance and understates the ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.d",
+      "circuits.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying power equations under two different operating conditions.",
+    "misconception": "Using the nameplate power as the series power.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q20",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "An electric force can be attractive or repulsive. The outward arrows show the direction of a repulsive force on a positive test charge, so this can be an electric field. Gravity is attractive, so gravitational field lines would point towards the sphere.",
+      "perOption": {
+        "A": "Includes gravity even though its field lines point inward.",
+        "B": "Correct. The arrows can show a positive sphere’s electric field.",
+        "C": "Assigns an outward force to gravity.",
+        "D": "Overlooks that a positive charge produces an outward electric field."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "electric-fields",
+      "gravitational-fields"
+    ],
+    "outcomes": [
+      "energy-and-fields.g",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The direction of the arrows directly identifies the type of field.",
+    "misconception": "Assuming all radial fields are attractive.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q21",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potentials of the three equal, equidistant charges add as scalars, giving $3V$. The fields due to the top-right and bottom-left charges are equal and opposite, so they cancel at X. The top-left charge supplies the resultant field of magnitude $E$.",
+      "perOption": {
+        "A": "Undercounts the potential because each of the three charges contributes a full $V$.",
+        "B": "Correct.",
+        "C": "Retains a net contribution from the two added charges even though their fields cancel.",
+        "D": "Adds the field magnitudes without accounting for their directions."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electric-fields.b",
+      "electric-fields.d",
+      "quantities-and-measurement.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires applying vector addition to fields and scalar addition to potentials.",
+    "misconception": "Adding field strengths as scalars.",
+    "transcription": "A point charge $+Q$ is placed at the top-left hand corner of a square as shown.\n\n[Dashed square with $+Q$ at the top-left corner and X at the centre.]\n\nAt the centre X of the square, the electric field strength is $E$ and the electric potential is $V$.\n\nTwo additional point charges of the same magnitude $+Q$ are placed at the top-right and bottom-left corners of the square as shown.\n\n[Dashed square with $+Q$ at the top-left, top-right and bottom-left corners and X at the centre.]\n\nWhat are the electric field strength and the electric potential at the centre X of this second square?\n\nOption | electric field strength | electric potential\nA | $E$ | $1.5V$\nB | $E$ | $3V$\nC | $2E$ | $3V$\nD | $3E$ | $3V$"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q22",
+    "keyPage": 20,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the initial position, the horizontal field component is normal to the coil and gives flux linkage $NBA\\sin\\theta$. In the horizontal position, the vertical field component is normal to the coil and gives $NBA\\cos\\theta$. The change is $NBA(\\cos\\theta-\\sin\\theta)$.",
+      "perOption": {
+        "A": "Gives the final linkage alone.",
+        "B": "Doubles the final linkage as if it had reversed from an equal and opposite value.",
+        "C": "Correct.",
+        "D": "Doubles the initial linkage as if the coil had flipped through 180 degrees."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying the normal field component in each orientation before subtracting.",
+    "misconception": "Confusing the angle to the plane with the angle to its normal.",
+    "transcription": "A coil has area $A$ and $N$ turns.\n\nA uniform magnetic field of flux density $B$ acts at an angle $\\theta$ to the plane of the coil, as shown in the figure below.\n\n[An upright rectangular coil labelled “coil area $A$” can rotate about a horizontal axis. Parallel arrows labelled “flux density $B$” point obliquely downward and make angle $\\theta$ with a dashed vertical line in the coil plane.]\n\nWhat is the change in magnetic flux linkage when the coil rotates to a horizontal position?\n\nA. $BAN\\cos\\theta$\nB. $2BAN\\cos\\theta$\nC. $BAN(\\cos\\theta-\\sin\\theta)$\nD. $2BAN\\sin\\theta$"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q23",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic forces on diametrically opposite points of the small coil are equal and opposite. Each pair cancels, leaving no resultant force on the coil.",
+      "perOption": {
+        "A": "The forces lie in the plane of the coil and cannot tip it about a horizontal axis.",
+        "B": "The radial forces have zero moment about the vertical axis.",
+        "C": "The forces have no vertical component.",
+        "D": "Correct. Forces on opposite segments cancel."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.e",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying symmetry to magnetic forces around the loop.",
+    "misconception": "Inferring a net force from one coil segment.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q24",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "When the solenoid’s flux through the ring increases in magnitude, the induced current opposes the increase, producing repulsion. When the flux magnitude decreases, the induced current acts to sustain it, producing attraction in the key’s model. The force therefore alternates, leading to the back-and-forth motion described by the key.",
+      "perOption": {
+        "A": "Ignores the induced current and its periodic magnetic force.",
+        "B": "Considers only the attractive part of the cycle in the key’s model.",
+        "C": "Considers only the repulsive part of the cycle in the key’s model.",
+        "D": "Correct. The key models the force as alternating between attraction and repulsion."
+      }
+    },
+    "issues": "D is the intended qualitative answer. The ring’s self-inductance can introduce a phase lag and a mean force, and the actual motion depends on the suspension’s response to the drive frequency.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.d",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying Lenz’s law to increasing and decreasing flux magnitude.",
+    "misconception": "Assuming induction always produces repulsion.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q25",
+    "keyPage": 21,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The secondary voltage is $240/20=12\\ \\mathrm{V}$ and the secondary current is $12/5.0=2.40\\ \\mathrm{A}$. The output power $12\\times12/5.0$ is $0.95$ times the input power. Thus $12\\times12/5.0=0.95(240)I$, giving $I=0.126\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Assumes the input and output powers are equal.",
+        "B": "Correct.",
+        "C": "Reports the secondary current as the primary current.",
+        "D": "Applies the primary voltage directly across the secondary load."
+      }
+    },
+    "issues": "The key uses the nominal turns ratio for the loaded secondary voltage and assumes unity input power factor.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents",
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.d",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Chains the turns ratio, secondary load power and efficiency.",
+    "misconception": "Assuming equal input and output powers for a lossy transformer.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q26",
+    "keyPage": 21,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At fixed peak current, changing the frequency does not change the mean power in the resistor. The mean power is $I_{\\mathrm{rms}}^2R=(2.0/\\sqrt2)^2(200)=400\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Halves the mean power when the frequency doubles.",
+        "B": "Correct.",
+        "C": "Substitutes the peak current and obtains the peak power.",
+        "D": "Doubles the peak power because the frequency doubles."
+      }
+    },
+    "issues": "The key assumes the supply voltage amplitude stays fixed when the frequency changes.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.h",
+      "currents.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires recognition that mean power depends on RMS current at fixed amplitude.",
+    "misconception": "Using peak current to calculate mean power.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q27",
+    "keyPage": 21,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electrons in sodium vapour atoms emit photons when they drop from higher to lower energy levels. A diffraction grating resolves the emitted light into spectral lines. These discrete wavelengths are evidence for discrete energy differences in the atoms.",
+      "perOption": {
+        "A": "Electron diffraction demonstrates the wave nature of electrons.",
+        "B": "The photoelectric threshold reflects the minimum energy needed to overcome the work function.",
+        "C": "Correct. The spectral lines reveal discrete energy differences.",
+        "D": "The X-ray cut-off is set by the maximum energy an incident electron can transfer to a photon."
+      }
+    },
+    "issues": "The stem says “explains” where “provides evidence for” is more precise. Option B prints “photos” where “photons” is intended.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires distinguishing atomic line spectra from other quantum phenomena.",
+    "misconception": "Confusing a threshold or cut-off with a line spectrum.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q28",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The position uncertainty is the pulse length, $\\Delta x=ct=(3.00\\times10^8)(3.0\\times10^{-9})=0.90\\ \\mathrm{m}$. Applying the syllabus estimate $\\Delta x\\Delta p\\gtrsim h$ gives $\\Delta p\\approx h/0.90=7.4\\times10^{-34}\\ \\mathrm{kg\\,m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses $h/(4\\pi)$ in place of the syllabus estimate $h$.",
+        "B": "Uses $h/(2\\pi)$ in place of the syllabus estimate $h$.",
+        "C": "Uses $h/2$ in place of the syllabus estimate $h$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key prints a positive exponent for the pulse duration in the substitution. The question and the key’s result of 0.90 m require −9. The result uses the syllabus order-of-magnitude convention.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires converting pulse duration to length before estimating momentum uncertainty.",
+    "misconception": "Using a different convention for the numerical uncertainty bound.",
+    "transcription": "A microwave pulse lasts for $3.0\\times10^{-9}\\ \\mathrm{s}$. A photon of the microwave may be considered to be anywhere within this pulse, although the exact location is not known.\n\nWhat is the uncertainty in the momentum of the photon?\n\nA. $5.9\\times10^{-35}\\ \\mathrm{kg\\,m\\,s^{-1}}$\nB. $1.2\\times10^{-34}\\ \\mathrm{kg\\,m\\,s^{-1}}$\nC. $3.7\\times10^{-34}\\ \\mathrm{kg\\,m\\,s^{-1}}$\nD. $7.4\\times10^{-34}\\ \\mathrm{kg\\,m\\,s^{-1}}$"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q29",
+    "keyPage": 22,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the initial electric potential energy as zero. Particle 1 stops at $d$, so $Qq/(4\\pi\\varepsilon_0d)=4.0\\ \\mathrm{MeV}$. At $2d$, particle 2 has electric potential energy $Qq/[4\\pi\\varepsilon_0(2d)]=2.0\\ \\mathrm{MeV}$. Energy conservation leaves $4.0-2.0=2.0\\ \\mathrm{MeV}$ of kinetic energy at X.",
+      "perOption": {
+        "A": "Assumes particle 2 stops at closest approach although it still has tangential velocity.",
+        "B": "Underestimates the remaining kinetic energy because the potential energy at twice the distance is only half the total energy.",
+        "C": "Correct.",
+        "D": "Ignores the increase in electric potential energy as particle 2 approaches."
+      }
+    },
+    "issues": "The key sets particle 2’s final kinetic energy to zero and labels 2.0 MeV as its initial kinetic energy. Its initial kinetic energy is 4.0 MeV. At X its kinetic and potential energies are each 2.0 MeV, so C is correct.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields",
+      "nuclear-physics"
+    ],
+    "outcomes": [
+      "electric-fields.e",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires inferring potential energy at one turning point and using it in a second trajectory.",
+    "misconception": "Assuming every particle stops at closest approach.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q30",
+    "keyPage": 22,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Subtracting background gives an initial source count rate of $352-16=336\\ \\mathrm{min^{-1}}$. Paper blocks alpha particles, so their initial contribution is $352-256=96\\ \\mathrm{min^{-1}}$, and the beta contribution is $336-96=240\\ \\mathrm{min^{-1}}$. After 12 days, the total is $96(1/2)^{12/4}+240(1/2)^{12/3}+16=43\\ \\mathrm{min^{-1}}$.",
+      "perOption": {
+        "A": "Omits the background from the final count rate.",
+        "B": "Adds less than the full background contribution to the decayed source count rate.",
+        "C": "Correct.",
+        "D": "Includes background in the beta component before decay and adds background again at the end."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.g",
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires isolating two count rates, applying different half-lives and restoring the background.",
+    "misconception": "Applying radioactive decay to the background count rate.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q1",
+    "keyPage": 23,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball starts with its top at P, and the timer stops when its bottom reaches Q, so it falls a distance PQ minus its diameter. The ball’s diameter is constant, so subtracting it corrects a systematic overestimate in the measured distance.",
+      "perOption": {
+        "A": "Subtracting a constant leaves the random error unchanged.",
+        "B": "Adding a constant leaves the random error unchanged and increases the distance bias.",
+        "C": "Correct. Subtracting the diameter reduces the systematic overestimate.",
+        "D": "Adding the diameter increases the systematic overestimate."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires comparing the ball’s displacement with the measured gap to identify a constant error.",
+    "misconception": "Treating a fixed distance offset as a random error.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q2",
+    "keyPage": 23,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $s=\\tfrac12at^2$, the acceleration is $a=2s/t^2=0.14667\\ \\mathrm{m\\,s^{-2}}$. Its fractional uncertainty is $\\Delta a/a=\\Delta s/s+2\\Delta t/t=0.1/16.5+2(1.0/15.0)=0.13939$. Thus $\\Delta a=0.02044\\ \\mathrm{m\\,s^{-2}}$ and the rounded result is $(0.15\\pm0.02)\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Underestimates the central acceleration and the propagated uncertainty.",
+        "B": "Uses an incorrect central acceleration despite giving the correct absolute uncertainty.",
+        "C": "Counts the fractional time uncertainty only once even though time is squared.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.g",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires calculating the central acceleration, propagating uncertainty and rounding consistently.",
+    "misconception": "Counting the fractional time uncertainty only once.",
+    "transcription": "A student takes measurements to determine the constant acceleration of a model car moving from rest in a straight line. The measured values with their absolute uncertainties are as shown.\n\nQuantity | measured value | uncertainty\ndisplacement | $16.5\\ \\mathrm{m}$ | $\\pm0.1\\ \\mathrm{m}$\ntime | $15.0\\ \\mathrm{s}$ | $\\pm1.0\\ \\mathrm{s}$\n\nThe student uses the equation $s=\\tfrac12at^2$ to calculate the acceleration of the car.\n\nWhat is the acceleration and its absolute uncertainty?\n\nA. $(0.11\\pm0.01)\\ \\mathrm{m\\,s^{-2}}$\nB. $(0.11\\pm0.02)\\ \\mathrm{m\\,s^{-2}}$\nC. $(0.15\\pm0.01)\\ \\mathrm{m\\,s^{-2}}$\nD. $(0.15\\pm0.02)\\ \\mathrm{m\\,s^{-2}}$"
+  }
+]

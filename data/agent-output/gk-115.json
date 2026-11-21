@@ -1,0 +1,504 @@
+[
+  {
+    "id": "rvhs-2023-other-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a coil rotating at angular speed $\\omega$, the flux linkage varies as $\\cos(\\omega t)$, so Faraday’s law gives an e.m.f. with peak proportional to $\\omega$. Halving the rotation speed halves the peak e.m.f. and doubles the period, as shown in B.",
+      "perOption": {
+        "A": "It doubles the frequency and leaves the peak e.m.f. unchanged.",
+        "B": "Correct.",
+        "C": "It doubles the period but leaves the peak e.m.f. unchanged.",
+        "D": "It doubles both the frequency and the peak e.m.f."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track how rotation speed changes both the peak e.m.f. and the period.",
+    "misconception": "Changing rotation speed changes only the period.",
+    "transcription": "When a coil is rotated in a magnetic field, the induced e.m.f. $E$ varies with time as shown below.\n\n[Graph of $E$ against $t$. The curve starts at zero and rises, completing two sinusoidal cycles in eight horizontal grid divisions with a peak of one vertical division above zero.]\n\nWhich of the following graphs, drawn to the same scale, would be obtained if the speed of rotation of the coil is halved?\n\n[A–D are graphs of $E$ against $t$. Each curve starts at zero and rises. A: four cycles, peak one vertical division above zero. B: one cycle, peak half a vertical division above zero. C: one cycle, peak one vertical division above zero. D: four cycles, peak two vertical divisions above zero.]"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $F=BIL$, the gradient of the force–current graph is $BL=10/0.25=40\\ \\mathrm{N\\,A^{-1}}$. The maximum e.m.f. in the key’s setup is $BLv_{\\max}=BLx_0\\omega=(40)(0.024)(2\\pi\\times80)\\approx480\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "It reads milliamperes as amperes and uses frequency in place of angular frequency.",
+        "B": "It reads milliamperes as amperes, making the gradient too small by a factor of 1000.",
+        "C": "It uses $f$ in place of $2\\pi f$ when calculating peak speed.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The wording specifies the plane of vibration but does not specify the direction of motion relative to the wire or that the vibration is sinusoidal. The key assumes sinusoidal motion perpendicular to both the wire and the field, which gives D.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces",
+      "oscillations"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.f",
+      "oscillations.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must obtain the magnetic factor from the graph and combine it with the peak speed of oscillation.",
+    "misconception": "Using frequency in place of angular frequency for peak speed.",
+    "transcription": "A straight wire which is part of a closed circuit, is positioned at right angles to a uniform magnetic field. The graph below shows the variation of the magnetic force acting on the wire with respect to the current flowing in the wire.\n\n[Force / N against current / mA. Force is marked from 0 to 12 N in steps of 2 N, and current from 0 to 300 mA in steps of 50 mA. A straight line runs from the origin to $(250\\ \\mathrm{mA},10\\ \\mathrm{N})$.]\n\nThe circuit is subsequently switched off and the same piece of wire is then vibrated at a frequency of $80\\ \\mathrm{Hz}$ and amplitude of $24\\ \\mathrm{mm}$. The plane of vibration is assumed to always remain perpendicular to the magnetic field.\n\nWhat is the maximum e.m.f. induced across the wire?\n\nA $0.077\\ \\mathrm{V}$\nB $0.48\\ \\mathrm{V}$\nC $77\\ \\mathrm{V}$\nD $480\\ \\mathrm{V}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q27",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The heating time is $t=mc\\Delta\\theta/P$. For steady d.c., $P=I^2R$, so $T=mc\\Delta\\theta/(I^2R)$. For a.c., the mean power is $(I/\\sqrt{2})^2(2R)=I^2R$, so the heating time is also $T$.",
+      "perOption": {
+        "A": "It overestimates the heating time by treating the heating power as linear in the r.m.s. current correction.",
+        "B": "Correct.",
+        "C": "It uses the peak current as the effective current and therefore doubles the mean power.",
+        "D": "It assumes quadruple the mean power, although the doubled resistance exactly offsets the squared r.m.s. correction."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.h",
+      "currents.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must square the r.m.s. current and compare the heating times at the same energy transfer.",
+    "misconception": "Using peak current to calculate mean power.",
+    "transcription": "When a steady direct current of value $I$ passes through a heating element of resistance $R$, the time taken to raise the temperature of water of mass $m$ by $10\\ \\mathrm{K}$ is $T$.\n\nWhen a sinusoidal alternating current with a peak current of value $I$ passes through a heating element of resistance $2R$, what is the time taken to raise water of mass $m$ by $10\\ \\mathrm{K}$?\n\nA $\\sqrt{2}\\,T$\nB $T$\nC $T/2$\nD $T/4$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q28",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The r.m.s. current is $I=P/V=(1.0\\times10^6)/(66\\times10^3)\\approx15.15\\ \\mathrm{A}$. The cable has resistance $5.0\\ \\Omega$, so the power loss is $I^2R\\approx1.1\\times10^3\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "It overestimates the line current, as happens if the transmission voltage is taken as $60\\ \\mathrm{kV}$.",
+        "B": "Correct.",
+        "C": "It effectively uses about $2.0\\ \\Omega$ instead of the full $5.0\\ \\Omega$ cable resistance.",
+        "D": "It uses the resistance of one kilometre of cable."
+      }
+    },
+    "issues": "The key squares a prematurely rounded current of 15.2 A in its displayed substitution. Using the unrounded current gives about 1148 W, which rounds to 1100 W at two significant figures.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must find the line current and total cable resistance before calculating resistive loss.",
+    "misconception": "Using resistance per kilometre as the total resistance.",
+    "transcription": "Electrical power of $1.0\\ \\mathrm{MW}$ from a substation is to be transmitted at $66\\ \\mathrm{kV}$ r.m.s. via a $5.0\\ \\mathrm{km}$ long cable to a factory.\n\nIf the cable resistance is $1.0\\ \\Omega\\,\\mathrm{km^{-1}}$, what is the power loss in the transmission cable?\n\nA $1400\\ \\mathrm{W}$\nB $1100\\ \\mathrm{W}$\nC $460\\ \\mathrm{W}$\nD $230\\ \\mathrm{W}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q29",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Einstein’s photoelectric equation gives $hc/\\lambda=\\phi+\\tfrac12m_ev_{\\max}^2$. Substituting gives $(6.63\\times10^{-34})(3.0\\times10^8)/(250\\times10^{-9})=4.0\\times10^{-19}+\\tfrac12(9.11\\times10^{-31})v_{\\max}^2$. Solving gives $v_{\\max}=9.3\\times10^5\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "It overestimates the rounded speed, for example by rounding the photon energy to $8.0\\times10^{-19}\\ \\mathrm{J}$ before subtracting the work function.",
+        "C": "It treats the full photon energy as kinetic energy and omits the work function.",
+        "D": "It overestimates the available kinetic energy, as happens if the work function is added."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert wavelength to photon energy and subtract the work function before finding the electron’s speed.",
+    "misconception": "Assigning the entire photon energy to electron kinetic energy.",
+    "transcription": "The work function of a certain metal is $4.0\\times10^{-19}\\ \\mathrm{J}$. It is irradiated with ultra-violet radiation of wavelength $250\\ \\mathrm{nm}$.\n\nWhat is the maximum speed of the photoelectron emitted?\n\nA $9.3\\times10^5\\ \\mathrm{m\\,s^{-1}}$\nB $9.4\\times10^5\\ \\mathrm{m\\,s^{-1}}$\nC $1.3\\times10^6\\ \\mathrm{m\\,s^{-1}}$\nD $1.6\\times10^6\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q30",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rate of decay is $A=\\lambda N=(\\ln2/t_{1/2})(nN_{\\mathrm A})$, where $n$ is the amount in moles. Hence $A\\propto n/t_{1/2}$. Option D has the smallest ratio, $200/6200=0.0323$.",
+      "perOption": {
+        "A": "Its ratio is $0.0476$, which exceeds D’s.",
+        "B": "Its ratio is $0.0755$, which exceeds D’s.",
+        "C": "Its ratio is $0.129$, which exceeds D’s.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.h",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compare the amount divided by half-life for four samples.",
+    "misconception": "Judging activity by amount or half-life alone.",
+    "transcription": "Which of the following samples of radioactive materials has the smallest rate of decay?\n\nOption | half life / year | amount / $10^{-7}\\ \\mathrm{mol}$\nA | 0.42 | 0.02\nB | 5.3 | 0.4\nC | 620 | 80\nD | 6200 | 200"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $F=ma$, a newton is $\\mathrm{kg\\,m\\,s^{-2}}$. From $f=1/T$, a hertz is $\\mathrm{s^{-1}}$, and from $W=Fd$, a joule is $\\mathrm{N\\,m}$. Rearranging $F=BIL\\sin\\theta$ gives $B=F/(IL\\sin\\theta)$, so a tesla is $\\mathrm{kg\\,A^{-1}\\,s^{-2}}$.",
+      "perOption": {
+        "A": "A newton is $\\mathrm{kg\\,m\\,s^{-2}}$ by $F=ma$.",
+        "B": "Frequency is inverse period, so a hertz is $\\mathrm{s^{-1}}$.",
+        "C": "Work is force times distance, so a joule is $\\mathrm{N\\,m}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key’s newton line prints an incorrect intermediate fraction, although its final SI base units and answer D are correct.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recall the units of familiar derived quantities and reduce the tesla to SI base units.",
+    "misconception": "Confusing the unit of momentum with the unit of force.",
+    "transcription": "An alternative form of the unit of resistance, the ohm ($\\Omega$), is $\\mathrm{V\\,A^{-1}}$.\n\nWhich of the following examples shows a similar correct alternative form of unit?\n\nOption | Unit | Alternative form\nA | Newton (N) | $\\mathrm{kg\\,m\\,s^{-1}}$\nB | Hertz (Hz) | $\\mathrm{s^{-2}}$\nC | Joule (J) | $\\mathrm{N\\,m^{-1}}$\nD | Tesla (T) | $\\mathrm{kg\\,A^{-1}\\,s^{-2}}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By symmetry, the ratio of distances over $0$–$20\\ \\mathrm{s}$ and $5$–$15\\ \\mathrm{s}$ equals the ratio over $0$–$10\\ \\mathrm{s}$ and $5$–$10\\ \\mathrm{s}$. Distance is the area under the speed–time graph, and the area from $5$ to $10\\ \\mathrm{s}$ is $0.75$ of the area from $0$ to $10\\ \\mathrm{s}$. The required ratio is $1/0.75\\approx1.3$.",
+      "perOption": {
+        "A": "It overestimates the fraction of the total area that lies between 5 and 15 s.",
+        "B": "Correct.",
+        "C": "It treats the middle area as two-thirds of the total, though it is three-quarters.",
+        "D": "It compares the durations and ignores the greater average speed over the middle interval."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use symmetry and compare areas under a speed–time graph.",
+    "misconception": "Comparing elapsed times instead of areas under a speed–time graph.",
+    "transcription": "A drone descends from a height for $20\\ \\mathrm{s}$. The variation with time $t$ of the vertical speed $v$ of the drone is shown.\n\n[Graph of $v$ / $\\mathrm{m\\,s^{-1}}$ against $t$ / s. The speed rises linearly from zero at 0 s to an unlabelled peak at 10 s, then falls linearly to zero at 20 s. Ticks are shown at 0, 5, 10, 15 and 20 s, with a dashed vertical line at the peak.]\n\nWhat is the ratio of distance travelled between 0 to 20 s to distance travelled between 5 to 15 s?\n\nA 1.1\nB 1.3\nC 1.5\nD 2.0"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "On the way up, the vertical component of air resistance acts in the same direction as weight, so the downward acceleration is greater than $g$. On the way down, air resistance has an upward component, so the downward acceleration is smaller. For a return to the launch height, the ascent takes less time, making D the incorrect statement.",
+      "perOption": {
+        "A": "The statement is true because drag changes both the horizontal speed and the vertical motion, breaking the trajectory’s symmetry.",
+        "B": "The statement is true because drag reduces the horizontal speed and shortens the range for a return to launch height.",
+        "C": "The statement is true because drag increases downward acceleration on ascent, reducing the maximum height.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key assumes the ball lands at its launch height when comparing flight times. The question does not explicitly state the landing height.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare the vertical effects of drag on the ascent and descent.",
+    "misconception": "Assuming drag has the same vertical effect during ascent and descent.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The impulse is the triangular area under the force–time graph, $\\tfrac12(62)(0.21)=6.51\\ \\mathrm{kg\\,m\\,s^{-1}}$. The ball starts from rest, so $v=p/m=6.51/0.150=43.4\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "It uses the rectangular area $62(0.21)$ directly as a velocity, omitting both the triangular factor and division by mass.",
+        "B": "Correct.",
+        "C": "It treats the force as constant at $62\\ \\mathrm{N}$ throughout contact.",
+        "D": "It divides the peak force by contact time, which gives a rate of change of force rather than a velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must calculate the triangular impulse and divide by the ball’s mass in kilograms.",
+    "misconception": "Using the peak force for the entire contact time.",
+    "transcription": "The graph below shows the variation with time of the force exerted by a baseball pitching machine that throws baseballs of mass $150\\ \\mathrm{g}$ from rest.\n\nWhat is the velocity of a ball immediately after leaving the machine?\n\n[Graph of $F$ / N against $t$ / s. The force rises linearly from zero to a peak of 62 N and then falls linearly to zero at 0.21 s. The peak time is unlabelled and lies closer to 0.21 s than to 0.]\n\nA $13\\ \\mathrm{m\\,s^{-1}}$\nB $43\\ \\mathrm{m\\,s^{-1}}$\nC $87\\ \\mathrm{m\\,s^{-1}}$\nD $295\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The weight of the hanging block accelerates both blocks, so $a=(10)(9.81)/(10+12)=4.459\\ \\mathrm{m\\,s^{-2}}$. Tension is the resultant horizontal force on the $12\\ \\mathrm{kg}$ block, so $T=(12)(4.459)=53.5\\ \\mathrm{N}$, or about $54\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "It takes the system’s acceleration as the tension.",
+        "B": "It underestimates the force needed to accelerate the 12 kg block at the system’s acceleration.",
+        "C": "Correct.",
+        "D": "It equates tension with the hanging block’s full weight, leaving no resultant force to accelerate that block."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must apply Newton’s second law first to the whole system and then to the block on the table.",
+    "misconception": "Equating tension to the hanging block’s weight.",
+    "transcription": "A block of mass $12\\ \\mathrm{kg}$ lies on a frictionless horizontal table. A rope connects the $12\\ \\mathrm{kg}$ block to another block of mass $10\\ \\mathrm{kg}$ that hangs freely via a frictionless pulley as shown in the diagram below. The system is then released from rest.\n\n[The 12 kg block rests on the table to the left of the pulley. The rope runs horizontally from the block to the pulley at the right edge, then vertically down to the hanging 10 kg block.]\n\nWhat is the tension in the rope?\n\nA $4.5\\ \\mathrm{N}$\nB $16\\ \\mathrm{N}$\nC $54\\ \\mathrm{N}$\nD $98\\ \\mathrm{N}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking the ratio of the inward and vertical components of tension gives $\\tan(3.80^\\circ)=a_{\\mathrm c}/9.81$, so $a_{\\mathrm c}=0.65158\\ \\mathrm{m\\,s^{-2}}$. Using $a_{\\mathrm c}=v^2/r$ and converting the speed to $\\mathrm{m\\,s^{-1}}$ gives $r=(57.8/3.6)^2/0.65158=396\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "It uses $v/a_{\\mathrm c}$, omitting the square on the speed.",
+        "B": "It is too small for the inward acceleration fixed by the measured angle and the given speed.",
+        "C": "Correct.",
+        "D": "It treats the numerical speed in kilometres per hour as metres per second."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "circular-motion.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must resolve the tension, convert the speed to SI units and relate centripetal acceleration to radius.",
+    "misconception": "Using the train speed in kilometres per hour in the centripetal acceleration equation.",
+    "transcription": "A train moving at $57.8\\ \\mathrm{km\\,h^{-1}}$ travels around a circular curve at constant speed. An object hung from a string in the train makes an angle of $3.80^\\circ$ with the vertical. What is the radius of the circular path?\n\n[Rear view of train. The string and object hang to the right of a dashed vertical line, at $3.80^\\circ$ to it. The centre of circular path is marked with a cross to the left of the train.]\n\nA $24.6\\ \\mathrm{m}$\nB $34.0\\ \\mathrm{m}$\nC $396\\ \\mathrm{m}$\nD $5130\\ \\mathrm{m}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A geostationary satellite has period $24\\ \\mathrm{h}=86400\\ \\mathrm{s}$, so $\\omega=2\\pi/86400$. Gravity supplies the centripetal force, giving $GMm/r^2=mr\\omega^2$ and $r=(GM/\\omega^2)^{1/3}=4.2227\\times10^7\\ \\mathrm{m}$. Hence $v=\\omega r=(2\\pi/86400)(4.2227\\times10^7)=3071\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "It is too slow to cover the circumference of the calculated orbit in 24 hours.",
+        "B": "Correct.",
+        "C": "It gives a speed far above that obtained by multiplying the orbital radius by the angular speed in radians per second.",
+        "D": "It reports the orbital radius in metres as a speed."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "gravitational-fields.k",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the geostationary period to find angular speed and link gravity to the orbital speed.",
+    "misconception": "Confusing orbital radius with orbital speed.",
+    "transcription": "Given that the mass of Earth is $5.97\\times10^{24}\\ \\mathrm{kg}$, what is the speed of a satellite in a geostationary orbit about Earth?\n\nA $1.66\\times10^3\\ \\mathrm{m\\,s^{-1}}$\nB $3.07\\times10^3\\ \\mathrm{m\\,s^{-1}}$\nC $2.00\\times10^7\\ \\mathrm{m\\,s^{-1}}$\nD $4.22\\times10^7\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The increase is $U_{\\mathrm f}-U_{\\mathrm i}=-GMm/r_{\\mathrm f}-(-GMm/r_{\\mathrm i})$. Substituting the initial radius and final radius gives $(6.67\\times10^{-11})(1.30\\times10^{22})(5500)[1/(1.19\\times10^6)-1/((1.19+0.24)\\times10^6)]=6.73\\times10^8\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "It uses the planet’s diameter as the initial radius.",
+        "B": "Correct.",
+        "C": "It gives the magnitude of the final potential energy and omits the initial energy.",
+        "D": "It gives the magnitude of the initial potential energy and omits the final energy."
+      }
+    },
+    "issues": "The key prints 10⁷ instead of 10⁶ for the radii in metres. Correcting both exponents gives the stated result and answer B.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find both centre-to-probe radii and subtract the corresponding negative potential energies.",
+    "misconception": "Using the planet’s diameter as its radius.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2024-other-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The kinetic-theory derivation gives $p=\\tfrac13(N/V)m\\langle c^2\\rangle$ using molecular motion and collisions. Combining this with $pV=NkT$ gives $\\tfrac12m\\langle c^2\\rangle=\\tfrac32kT$, so the proportionality to temperature is a result of the model.",
+      "perOption": {
+        "A": "Negligible intermolecular attraction lets the derivation treat molecules as moving freely between collisions.",
+        "B": "Treating the molecules’ own volume as negligible lets the model use the container volume for their motion.",
+        "C": "Random motion supports averaging over directions, and elastic wall collisions give the momentum change used to find pressure.",
+        "D": "Correct. This relation is derived."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e",
+      "temperature-and-ideal-gases.f",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "statements"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the assumptions of kinetic theory from a result derived using the pressure equation.",
+    "misconception": "Treating the kinetic energy–temperature relation as a starting assumption.",
+    "transcription": null
+  }
+]

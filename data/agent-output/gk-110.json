@@ -1,0 +1,495 @@
+[
+  {
+    "id": "ri-2025-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top of the circle, tension and weight both act toward the centre, so $T+mg=mv^2/r$. Hence $T=(0.10)(6.0)^2/0.50-(0.10)(9.81)=6.2\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives the ball’s weight alone.",
+        "B": "Correct. Weight supplies part of the inward force.",
+        "C": "Gives the resultant inward force alone.",
+        "D": "Adds the weight to the resultant inward force, as if the ball were at the bottom."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify both inward forces at the top, then substitute into the centripetal-force equation.",
+    "misconception": "Treating tension as the entire centripetal force.",
+    "transcription": "A ball of mass $0.10\\ \\mathrm{kg}$ is attached to a string and swung in a vertical circle of radius $0.50\\ \\mathrm{m}$. The speed of the ball at the top of the circle is $6.0\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the tension in the string at this instant?\n\nA $0.98\\ \\mathrm{N}$\nB $6.2\\ \\mathrm{N}$\nC $7.2\\ \\mathrm{N}$\nD $8.2\\ \\mathrm{N}$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the surface, $\\phi=-GM/r$, where $M$ is volume times density. Substituting $M=(4/3)\\pi r^3\\rho$ gives $\\phi=-\\frac{4}{3}\\pi G\\rho r^2$.",
+      "perOption": {
+        "A": "Omits the factor of one third in the sphere’s volume.",
+        "B": "Correct.",
+        "C": "Has the radial dependence of the gravitational field at the surface.",
+        "D": "Uses a positive potential despite the zero reference at infinity."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the sphere’s mass from its density and volume, then substitute into the surface potential.",
+    "misconception": "Confusing gravitational potential with field strength.",
+    "transcription": "A spherical body of radius $r$ has uniform density $\\rho$.\n\nWhat is the gravitational potential on its surface?\n\nA $-4\\pi G\\rho r^2$\nB $-\\frac{4}{3}\\pi G\\rho r^2$\nC $-\\frac{4}{3}\\pi G\\rho r$\nD $\\frac{4}{3}\\pi G\\rho r^2$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For either planet, $\\frac{GMm}{R^2}=mR\\omega^2$, so $\\omega=\\sqrt{GM/R^3}$. Thus $\\omega_Y/\\omega_X=(R_X/R_Y)^{3/2}=3^{3/2}$. Over the same time, $\\theta_Y/\\theta_X=\\omega_Y/\\omega_X$, giving $\\theta_Y=3^{3/2}(90^\\circ)=467.7^\\circ$. Subtracting one full turn leaves $107.7^\\circ$ anticlockwise from the starting position.",
+      "perOption": {
+        "A": "Places Y only slightly above its starting direction after one full turn.",
+        "B": "Correct. Y lies in the upper-left quadrant.",
+        "C": "Places Y beyond the leftmost point, past the calculated angle.",
+        "D": "Places Y at the bottom, a quarter turn short of completing its first revolution."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.b",
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Derive the angular-speed ratio, then remove a full revolution to locate Y on the diagram.",
+    "misconception": "Using the radius ratio as the angular-speed ratio.",
+    "transcription": "Two planets X and Y travel anticlockwise in circular orbits about a star. The radii of their orbits are in the ratio 3:1.\n\nDiagram 1 shows the positions of X and Y at time $t=0$. They are aligned such that they make a straight line with the star.\n\nDiagram 2 shows the position of X at a later time $t=t_1$. The angular displacement of planet X is $90^\\circ$ from its initial position.\n\n[Diagram 1: The star is at the centre of two circular orbits. X and Y are directly to its right, with X on the outer orbit and Y on the inner orbit.]\n[Diagram 2: X is at the top of the outer orbit. Y is not shown.]\n\nWhich diagram shows the position of planet Y at time $t=t_1$?\n\n[In all four options X is at the top of the outer orbit.]\nA [Y is on the inner orbit just above the rightmost point.]\nB [Y is on the inner orbit slightly to the left of its top.]\nC [Y is on the inner orbit just below the leftmost point.]\nD [Y is at the bottom of the inner orbit.]"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The kinetic energy is $\\frac12m\\omega^2(x_0^2-x^2)$ and the potential energy is $\\frac12m\\omega^2x^2$. Their ratio is $1$ when $(x_0^2-x^2)/x^2=1$. With $x_0=3.0\\ \\mathrm{m}$, this gives $3.0^2-x^2=x^2$, so the listed displacement is $2.1\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "At equilibrium the potential energy is zero and the kinetic energy is maximal.",
+        "B": "Takes half the amplitude as though potential energy were proportional to displacement.",
+        "C": "Correct. The energy is equally split there.",
+        "D": "At maximum displacement the kinetic energy is zero."
+      }
+    },
+    "issues": "The energies are equal at both positive and negative displacements of magnitude 2.1 m. Only the positive value is offered.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.e",
+      "oscillations.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Read the amplitude from the displacement equation and equate the two quadratic energy expressions.",
+    "misconception": "Assuming half the energy occurs at half the amplitude.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The child receives a push at regular intervals matching the swing’s natural frequency, so the amplitude increases with each push. This is resonance because the driving frequency matches the natural frequency.",
+      "perOption": {
+        "A": "A single hump starts transient oscillations without periodic driving.",
+        "B": "A single pluck excites free vibrations.",
+        "C": "A larger initial displacement sets a larger amplitude through the initial conditions.",
+        "D": "Correct. The pushes recur at the swing’s natural frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recognise the example in which a periodic driving force matches the natural frequency.",
+    "misconception": "Equating any large-amplitude oscillation with resonance.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $I_0$ be the incident intensity. Malus’s law gives $I=I_0\\cos^2 30^\\circ$. After the anticlockwise rotation, the transmission axis is $15^\\circ$ from vertical, so $I'=I_0\\cos^2 15^\\circ$. Dividing gives $I'/I=(\\cos15^\\circ/\\cos30^\\circ)^2$, hence $I'=1.2I$.",
+      "perOption": {
+        "A": "Adds the two rotation angles, giving a final angle of 75°.",
+        "B": "Uses 45° as the final angle to the incident polarisation.",
+        "C": "Correct. The final axis is 15° from vertical.",
+        "D": "Exceeds even the incident intensity, which a passive filter cannot do."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Track the net angle from vertical and take a ratio of two applications of Malus’s law.",
+    "misconception": "Treating the two filter orientations as two successive filters.",
+    "transcription": "A beam of vertically polarised light is incident normally on a polarising filter. The filter is rotated such that it is always in a plane perpendicular to the beam of light. The polarising axis of the filter is initially vertical as shown.\n\n[Vertically polarised light travels from left to right through a polarising filter with a vertical transmission axis. Transmitted light continues to the right.]\n\nThe filter is first rotated clockwise by an angle of $30^\\circ$ and the transmitted light waves have intensity $I$. The filter is then rotated anticlockwise by an angle of $45^\\circ$ from its current position.\n\nWhat is the new intensity of the transmitted light waves?\n\nA $0.089I$\nB $0.67I$\nC $1.2I$\nD $24I$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For tube length $L$, the allowed modes have $L=(2n-1)\\lambda/4$ for positive integers $n$, so $\\lambda=4L/(2n-1)$. Using $v=f\\lambda$ gives $f=(2n-1)v/(4L)$, or $f_0,3f_0,5f_0,7f_0,\\ldots$. With $f_0=92\\ \\mathrm{Hz}$, the first four frequencies are $92,\\ 276,\\ 460,\\ 644\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Includes the second and fourth harmonics, which fail the end conditions.",
+        "B": "Repeatedly doubles the frequency and includes even harmonics.",
+        "C": "Correct. These are the first four odd harmonics.",
+        "D": "Includes the sixth harmonic at 552 Hz."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c",
+      "wave-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the node–antinode boundary conditions to identify the allowed harmonic sequence.",
+    "misconception": "Including even harmonics in a tube with a node at one end and an antinode at the other.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the third order, the grating equation gives $d\\sin50.8^\\circ=3\\lambda$. At the limiting angle of $90^\\circ$, $d=n\\lambda$. Dividing these equations gives $n=3/\\sin50.8^\\circ=3.87$. The highest possible integer order is $3$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Rounds 3.87 upward to an order requiring a sine greater than one.",
+        "C": "Exceeds the upper bound of 3.87.",
+        "D": "Assumes a sixth order could fit even though it would require a sine greater than one."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the given order to eliminate the grating spacing and identify the greatest feasible integer order.",
+    "misconception": "Rounding the upper bound to the nearest integer.",
+    "transcription": "A beam of monochromatic light falls on a diffraction grating at normal incidence. The third order diffracted beam occurs at an angle of $50.8^\\circ$ to the normal.\n\nWhat is the highest order visible with this grating at this wavelength?\n\nA 3\nB 4\nC 5\nD 6"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gas molecules move at a range of speeds. An individual molecule’s speed can differ from the root-mean-square speed.",
+      "perOption": {
+        "A": "Random molecular motion is a basic assumption.",
+        "B": "Perfectly elastic molecular collisions are a basic assumption.",
+        "C": "Negligible molecular volume is a basic assumption.",
+        "D": "Correct. A fixed temperature still allows a distribution of speeds."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recall the assumptions of kinetic theory and distinguish individual speeds from the root-mean-square speed.",
+    "misconception": "Taking the root-mean-square speed to be the speed of every molecule.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the bottle is shaken, water molecules collide with the moving walls and can rebound at greater speeds. The total microscopic kinetic energy of the water molecules therefore increases.",
+      "perOption": {
+        "A": "Correct. Shaking transfers energy to the water by doing work.",
+        "B": "A temperature rise increases the microscopic kinetic energy, and an ideal gas’s internal energy rises.",
+        "C": "Work done by an expanding gas can offset the energy supplied by heating.",
+        "D": "Energy transferred out by heating can offset work done on the gas during compression."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Relate mechanical work to microscopic energy and consider both terms in the first law for the gas examples.",
+    "misconception": "Assuming one energy transfer determines the change in internal energy.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Add the pair energies $q_iq_j/(4\\pi\\varepsilon_0r_{ij})$ over the six distinct pairs. Write $q_+=5.0\\times10^{-6}\\ \\mathrm C$ and $q_-=-1.0\\times10^{-5}\\ \\mathrm C$. The four side pairs are opposite-sign and $2.0\\ \\mathrm m$ apart, while the two diagonals are like-sign and $2.0\\sqrt2\\ \\mathrm m$ apart. Thus $U=\\frac{1}{4\\pi\\varepsilon_0}\\left[\\frac{4q_+q_-}{2.0}+\\frac{q_-^2}{2.0\\sqrt2}+\\frac{q_+^2}{2.0\\sqrt2}\\right]=-0.50\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Sums the four negative side contributions alone.",
+        "B": "Correct. It includes all six distinct pairs.",
+        "C": "Counts only two of the four opposite-sign side pairs and omits the diagonals.",
+        "D": "Gives a positive total even though the negative side contributions outweigh the positive diagonal contributions."
+      }
+    },
+    "issues": "In the numerical substitution, the key prints a multiplication sign between two pair-energy terms that must be added. The symbolic sum and keyed result are correct.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Count all six distinct pairs and account for both separation and charge sign.",
+    "misconception": "Omitting diagonal pairs when summing electric potential energy.",
+    "transcription": "Two point charges of $+5.0\\times10^{-6}\\ \\mathrm{C}$ and two point charges of $-1.0\\times10^{-5}\\ \\mathrm{C}$ are fixed at the corners of a rigid square as shown. The length of each side of the square is $2.0\\ \\mathrm{m}$.\n\n[Square with $+5.0\\times10^{-6}\\ \\mathrm{C}$ at the top-left and bottom-right corners, and $-1.0\\times10^{-5}\\ \\mathrm{C}$ at the top-right and bottom-left corners. The top and left sides are labelled $2.0\\ \\mathrm{m}$.]\n\nWhat is the total electric potential energy of the system?\n\nA $-0.90\\ \\mathrm{J}$\nB $-0.50\\ \\mathrm{J}$\nC $-0.45\\ \\mathrm{J}$\nD $1.1\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "A negatively charged particle released from rest accelerates towards higher electric potential. It therefore provides a counterexample to the claim that a charged particle always moves towards lower potential.",
+      "perOption": {
+        "A": "At the midpoint between equal and opposite charges, the potentials cancel and the fields add.",
+        "B": "At the midpoint between equal positive charges, the fields cancel and the potentials add.",
+        "C": "The key takes “gradient” to mean its magnitude, which decreases as $E$ tends to zero.",
+        "D": "Correct. A negative charge released from rest can move towards higher potential."
+      }
+    },
+    "issues": "Option C is ambiguous. The magnitude $|dV/dr|$ decreases, but the signed gradient $dV/dr=-kQ/r^2$ increases towards zero. The key also refers to $dE/dr$ in its comment on C, where the relevant derivative is $dV/dr$. D is the intended answer, and C is also false under the signed reading.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d",
+      "electric-fields.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "statements"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguish a scalar potential from its gradient and consider how the charge sign affects the force.",
+    "misconception": "Assuming negative charges accelerate toward lower electric potential.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $I=nAve$, with $n=N_e/(AL)$ for $N_e$ free electrons in the wire. The area cancels, giving $I=(N_e/L)ve$. Substitution yields $I=(4.8\\times10^{22}/0.20)(3.2\\times10^{-5})(1.60\\times10^{-19})=1.2\\ \\mathrm A$.",
+      "perOption": {
+        "A": "Underestimates the number of carriers per metre, giving a current two orders of magnitude too small.",
+        "B": "Underestimates the charge that drifts past a cross-section each second.",
+        "C": "Correct.",
+        "D": "Divides by the wire length twice, introducing an extra factor of five."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Convert the total electron count into a number per unit length before applying the drift-current equation.",
+    "misconception": "Using the total carrier count as a number density.",
+    "transcription": "A metal wire of length $20\\ \\mathrm{cm}$ and uniform cross-sectional area contains $4.8\\times10^{22}$ free electrons. When a potential difference is applied across the ends of the wire, the free electrons move with an average drift speed of $3.2\\times10^{-5}\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the current in the wire?\n\nA $0.0098\\ \\mathrm{A}$\nB $0.050\\ \\mathrm{A}$\nC $1.2\\ \\mathrm{A}$\nD $6.1\\ \\mathrm{A}$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The three parallel branches have equivalent resistance $R_\\mathrm{eff}=(1/2+1/5+1)^{-1}=0.5882\\ \\Omega$. Their common potential difference is $V=5.0(0.5882)=2.9412\\ \\mathrm V$. The ammeter is in the $2.0\\ \\Omega$ branch, so it reads $I=2.9412/2.0=1.5\\ \\mathrm A$.",
+      "perOption": {
+        "A": "Underestimates the current through the 2.0 Ω branch at the common branch voltage.",
+        "B": "Correct.",
+        "C": "Assigns most of the total current to the 2.0 Ω branch, although the 1.0 Ω branch carries twice as much.",
+        "D": "Leaves too little of the total current for the 1.0 Ω branch, which must carry twice the ammeter current."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the equivalent resistance and use the common branch voltage to calculate the ammeter current.",
+    "misconception": "Using the total current in the ammeter branch.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing the temperature reduces the thermistor resistance, so $V_{PY}$ decreases, $V_{WP}$ increases, and the left midpoint potential $V_P$ falls. Increasing the light intensity reduces the LDR resistance, so $V_{XQ}$ decreases and the right midpoint potential $V_Q$ rises. Hence the voltmeter reading $V_{PQ}=V_P-V_Q$ decreases.",
+      "perOption": {
+        "A": "Correct. Both changes reduce the reading.",
+        "B": "Lower light intensity lowers the right midpoint potential and increases the reading.",
+        "C": "Lower temperature raises the left midpoint potential and increases the reading.",
+        "D": "Both changes increase the reading."
+      }
+    },
+    "issues": "The parser marks the answer missing, but page 4 clearly prints A, matching keyAnswer. The working continues on page 5, where the key swaps the LDR and thermistor names. The voltage changes and keyed answer are correct when the component names follow the diagram.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Track how the two sensor resistances change the divider midpoint potentials, then subtract them in the voltmeter’s polarity.",
+    "misconception": "Ignoring the voltmeter polarity when comparing the divider voltages.",
+    "transcription": "A student conducts an experiment by setting up a circuit as shown in the diagram. The diagram shows how the positive and negative terminals of a voltmeter are connected to the circuit. The initial reading on the voltmeter is positive.\n\n[A cell supplies two parallel voltage dividers, with its positive terminal connected to the top rail. The left branch has a fixed resistor above a thermistor. The right branch has a light-dependent resistor above a fixed resistor. The voltmeter’s positive terminal connects to the midpoint of the left branch and its negative terminal to the midpoint of the right branch.]\n\nWhich changes, if any, in temperature and light intensity would cause the voltmeter reading to decrease?\n\nOption | temperature | light intensity\nA | increase | increase\nB | no change | decrease\nC | decrease | no change\nD | decrease | decrease"
+  }
+]

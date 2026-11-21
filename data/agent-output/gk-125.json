@@ -1,0 +1,505 @@
+[
+  {
+    "id": "sajc-2025-prelim-p1-q6",
+    "keyPage": 21,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking rightward as positive, momentum conservation gives $5000u_1+5000u_2=10000(0.50)$, so $u_1+u_2=1$. Adding the lost kinetic energy to the final kinetic energy gives $\\tfrac12(5000)(u_1^2+u_2^2)=\\tfrac12(10000)(0.50)^2+11250$, so $u_1^2+u_2^2=5$.\n\nSolving gives $(u_1,u_2)=(-1.0,2.0)$ or $(2.0,-1.0)$ in $\\mathrm{m\\,s^{-1}}$. The first pair has the carriages moving apart, so $u_2=-1.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Assigns the larger speed to the second carriage with a negative sign, which would require $u_1=3.0\\ \\mathrm{m\\,s^{-1}}$ and violate the energy equation.",
+        "B": "Correct. The second carriage is moving left as the carriages approach each other.",
+        "C": "Giving $u_2$ a positive speed of $1.0\\ \\mathrm{m\\,s^{-1}}$ would make $u_1=0$ by momentum conservation and give too little initial kinetic energy.",
+        "D": "Uses the algebraic solution in which the carriages move away from each other."
+      }
+    },
+    "issues": "The diagram shows both velocity arrows pointing right, whereas the stem says the carriages roll toward one another. The key treats the velocities as signed quantities and correctly obtains B.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must solve two conservation equations and reject one solution using the carriages’ initial positions.",
+    "misconception": "Accepting a mathematical solution without checking the direction of approach.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q7",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the momentum–time graph is the resultant force, $(1.5-2.7)/0.40=-3.0\\ \\mathrm N$. The block slows down, so the resultant is to the left. Thus $F$ is smaller than the resistive force by $3.0\\ \\mathrm N$, giving $F=5.0-3.0=2.0\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Correct. The resistance exceeds the applied force by $3.0\\ \\mathrm N$.",
+        "B": "Implies a resultant of only $-0.8\\ \\mathrm N$, smaller in magnitude than the graph gradient.",
+        "C": "Implies a resultant of $+0.8\\ \\mathrm N$, even though momentum decreases.",
+        "D": "Uses a positive resultant of $3.0\\ \\mathrm N$ by dropping the negative sign of the gradient."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must calculate a signed gradient and use it to find the applied force.",
+    "misconception": "Treating the magnitude of the momentum gradient as a positive resultant.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q9",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The slanted arrow represents the combined effect of the normal contact force and friction, and the downward arrow represents weight. Their resultant must be horizontal and point towards the centre of the circle.",
+      "perOption": {
+        "A": "Correct. The upward component of the contact force balances the weight.",
+        "B": "Adds an inward force even though the contact force and weight already supply the centripetal resultant.",
+        "C": "Adds an outward force with no physical source.",
+        "D": "Leaves the weight unbalanced vertically by omitting the upward component of the contact force."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must recognise that the contact force has both radial and vertical components.",
+    "misconception": "Drawing centripetal force as an additional force.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q10",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The vertical component of the normal reaction balances the weight, so $N\\cos35^\\circ=mg$. Its horizontal component supplies the centripetal force, so $N\\sin35^\\circ=mr\\omega^2$. Dividing the equations gives $r=g\\tan35^\\circ/(8.0)^2=0.11\\ \\mathrm m$ to two significant figures.",
+      "perOption": {
+        "A": "At this radius the required inward acceleration is $3.2\\ \\mathrm{m\\,s^{-2}}$, too small for a normal reaction tilted at $35^\\circ$.",
+        "B": "At this radius the required inward acceleration is only $4.5\\ \\mathrm{m\\,s^{-2}}$, inconsistent with the ratio of the normal force components.",
+        "C": "Using $mg$ directly for the normal reaction and taking its sine component gives about $0.088\\ \\mathrm m$, but only the vertical component equals $mg$.",
+        "D": "Correct. The horizontal and vertical force equations give this radius."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must resolve the normal reaction in two directions and eliminate it.",
+    "misconception": "Swapping the sine and cosine components of the normal reaction.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q11",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The centripetal force is $F=mv^2/r$. For the same force and car mass, $r\\propto v^2$. The radius for $100\\ \\mathrm{km\\,h^{-1}}$ is therefore $(100/50)^2=4$ times the radius for $50\\ \\mathrm{km\\,h^{-1}}$.",
+      "perOption": {
+        "A": "Takes the square root of the speed ratio, reversing the relationship $v\\propto\\sqrt r$.",
+        "B": "Uses the speed ratio directly and misses the square.",
+        "C": "A factor of three would accommodate a speed increase by a factor of only $\\sqrt{3}$.",
+        "D": "Correct. Doubling the speed requires four times the radius."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students need one proportionality and must apply it to a doubling of speed.",
+    "misconception": "Assuming radius scales linearly with speed.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q12",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The loss of gravitational potential per unit mass is $E/m$, so the magnitude of the field is $g=(E/m)/x=E/(mx)$. The loss in potential energy means P is at higher potential than Q. The field points from P to Q, in the direction of decreasing potential.",
+      "perOption": {
+        "A": "Correct. The acceleration is $E/(mx)$ to the right.",
+        "B": "Points towards higher potential.",
+        "C": "Uses the force magnitude $E/x$ without dividing by mass.",
+        "D": "Uses the force magnitude $E/x$ without dividing by mass and points towards higher potential."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.h",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert potential energy to potential and use its gradient to find both magnitude and direction.",
+    "misconception": "Confusing potential energy per unit distance with field strength.",
+    "transcription": "A mass $m$ is situated in a uniform gravitational field.\n\n[Four parallel horizontal gravitational field lines have no arrows. P is to the left of Q, and their horizontal separation is labelled $x$.]\n\nWhen the mass moves through a displacement $x$, from P to Q, it loses an amount of potential energy $E$.\n\nWhich row correctly specifies the magnitude and the direction of the acceleration due to gravity in this field?\n\nMagnitude | Direction\nA $E/(mx)$ | $\\rightarrow$\nB $E/(mx)$ | $\\leftarrow$\nC $E/x$ | $\\rightarrow$\nD $E/x$ | $\\leftarrow$"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q13",
+    "keyPage": 22,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV=nRT$, we have $1/p=V/(nRT)$, so the gradient is $1/(nRT)$. Halving both $n$ and $T$ gives a gradient of $1/[(n/2)R(T/2)]=4/(nRT)$. Line A has four times the original gradient.",
+      "perOption": {
+        "A": "Correct. The gradient quadruples.",
+        "B": "Doubles the gradient by accounting for only one of the two halvings.",
+        "C": "Halves the gradient instead of taking the reciprocal effect of both changes.",
+        "D": "Quarters the gradient as though it were proportional to $nT$."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must rearrange the ideal gas equation and track two simultaneous changes to the gradient.",
+    "misconception": "Treating the reciprocal-pressure gradient as proportional to $nT$.",
+    "transcription": "A fixed amount of an ideal gas has pressure $p$ and volume $V$. The graph shows the variation of $1/p$ with $V$ at a constant temperature.\n\n[The graph of $1/p$ against $V$ is a straight line from the origin to $(4,0.4)$.]\n\nThe amount of gas and the thermodynamic temperature are both halved. Which line will be produced?\n\n[On axes of $1/p$ against $V$, the dashed original line and all four solid options start at the origin. A passes through $(1,0.4)$, B through $(2,0.4)$, C through $(4,0.2)$ and D through $(4,0.1)$.]"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q14",
+    "keyPage": 22,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gases approach ideal behaviour at low pressure, so use the $pV$ intercepts at $p=0$. They are $5.95\\ \\mathrm{kJ}$ for the boiling liquid and $2.275\\ \\mathrm{kJ}$ for the triple point of water. The temperature ratio equals the ratio of these intercepts, so $T/(273.16\\ \\mathrm K)=5.95/2.275$ and $T=714\\ \\mathrm K$.",
+      "perOption": {
+        "A": "Reports the dimensionless ratio of the intercepts as a temperature.",
+        "B": "Omits the triple-point calibration and does not satisfy $T/273.16=5.95/2.275$ with temperatures in kelvin.",
+        "C": "Assumes the liquid is water boiling at standard atmospheric pressure.",
+        "D": "Correct. Scaling the triple-point temperature by the intercept ratio gives $714\\ \\mathrm K$."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.a",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must extrapolate both plots to zero pressure and use the triple-point calibration.",
+    "misconception": "Reading a gas-dependent value at finite pressure.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q15",
+    "keyPage": 22,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The oscillation period is twice the period of the energy graph, so $T=400\\times10^{-3}\\ \\mathrm s$ and $\\omega=2\\pi/T=15.708\\ \\mathrm{rad\\,s^{-1}}$. The maximum potential energy equals the maximum kinetic energy, so $\\tfrac12(0.0900)x_0^2(15.708)^2=1.0\\ \\mathrm J$, giving $x_0=0.300\\ \\mathrm m$. Hence $a_{\\max}=x_0\\omega^2=74\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Is too small by a factor of $1000$ for the amplitude and angular frequency in SI units.",
+        "B": "Uses an acceleration far too small for the graph’s sub-second period, even though the amplitude is about $0.300\\ \\mathrm m$.",
+        "C": "Uses half the required acceleration, as would result from doubling the oscillation period again and recalculating the amplitude.",
+        "D": "Correct. The amplitude multiplied by the square of the angular frequency gives the maximum acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must infer the oscillation period from kinetic energy and use the maximum energy to find the amplitude.",
+    "misconception": "Reading the kinetic-energy period as the oscillation period.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q16",
+    "keyPage": 23,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The period is $500\\ \\mu\\mathrm s$, so $f=2000\\ \\mathrm{Hz}$ and $\\lambda=330/2000=0.165\\ \\mathrm m$. The second particle is $0.04125\\ \\mathrm m$, or $\\lambda/4$, farther along the direction of propagation.\n\nAt $t=0$ the reference particle is at equilibrium and then moves in the positive direction, so the initial displacement–distance profile falls to a trough a quarter wavelength downstream. As the profile moves forward, the second particle starts at its negative extreme and then moves towards equilibrium.",
+      "perOption": {
+        "A": "Advances the oscillation by a quarter period, so the graph starts at the positive extreme.",
+        "B": "Shifts the oscillation by half a period, corresponding to a separation of $\\lambda/2$.",
+        "C": "Correct. The downstream particle starts at the negative extreme and its displacement then increases.",
+        "D": "Shows the reference particle’s motion with no phase shift."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.d",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must convert a spatial separation to a phase shift and identify its sign on the time graph.",
+    "misconception": "Advancing the downstream particle’s oscillation instead of delaying it.",
+    "transcription": "The graph shows the variation with time of the displacement $X$ of an air particle as a continuous sound wave passes through the air.\n\n[The graph of $X$ against time in $\\mu\\mathrm s$ starts at zero and rises. It peaks at 125 and 625, and has troughs at 375 and 875. The time axis runs from 0 to 1000 in steps of 125. Positive displacement is away from the source and negative displacement is towards the source.]\n\nThe speed of sound in the air is $330\\ \\mathrm{m\\,s^{-1}}$. All the graphs below have the same scales for the time axes as the graph above.\n\nWhat is the displacement-time graph for another particle that is $0.04125\\ \\mathrm m$ away in the direction of the wave motion from this particle?\n\n[A starts at its positive maximum and next peaks at 500 and 1000. B starts at zero and decreases, with peaks at 375 and 875. C starts at its negative extreme, then rises, with peaks at 250 and 750. D starts at zero and rises, with peaks at 125 and 625. All times are in $\\mu\\mathrm s$.]"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q17",
+    "keyPage": 23,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Malus's law, $I_1=I_0\\cos^2 0^\\circ$ and $I_2=I_0\\cos^2\\theta$. Thus $\\cos^2\\theta=I_2/I_1=V_2/V_1=2.20/3.50=0.6286$. Taking the square root gives $\\cos\\theta=0.7928$, so $\\theta=37.5^\\circ$.",
+      "perOption": {
+        "A": "Correct. The voltmeter readings give the intensity ratio directly.",
+        "B": "This angle gives $\\cos^2\\theta\\approx0.604$, smaller than the measured ratio.",
+        "C": "Uses the intensity ratio as $\\cos\\theta$ without taking its square root.",
+        "D": "Uses the complementary angle, corresponding to measuring from the horizontal."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "practical"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must relate the meter readings to the intensity ratio and invert the squared cosine.",
+    "misconception": "Using the voltage ratio as the amplitude ratio.",
+    "transcription": "A student investigates the polarisation of microwaves. The microwaves from the transmitter are vertically polarised. A metal grille acts as a polarising filter when placed between the microwave transmitter and the receiver. The reading on the voltmeter is proportional to the intensity of microwaves transmitted through the grille.\n\nWhen the transmission axis of the grille is vertical, the voltmeter reads $3.50\\ \\mathrm V$.\n\n[The transmitter and receiver are aligned on either side of a metal grille. A curved arrow shows the grille rotating about their common axis. The receiver is wired to a voltmeter.]\n\nThe grille is then rotated through an angle $\\theta$. The voltmeter now reads $2.20\\ \\mathrm V$.\n\nWhat is $\\theta$?\n\nA $37.5^\\circ$\nB $39.0^\\circ$\nC $51.0^\\circ$\nD $52.5^\\circ$"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q18",
+    "keyPage": 23,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The grating spacing is $d=10^{-3}/500=2.0\\times10^{-6}\\ \\mathrm m$. At the boundary, $d\\sin45^\\circ=n\\lambda$, so $(2.0\\times10^{-6})\\sin45^\\circ=n(600\\times10^{-9})$ gives $n=2.36$. The highest integer order in the region is 2, so there are $2+2+1=5$ beams.",
+      "perOption": {
+        "A": "Counts the two nonzero orders on only one side of the centre.",
+        "B": "Counts only the centre and the first-order pair, omitting the second-order pair.",
+        "C": "Counts both nonzero pairs while omitting the central beam.",
+        "D": "Correct. The central beam and two pairs of side beams lie inside the region."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must convert line density to spacing, apply the angular cutoff and count the orders on both sides.",
+    "misconception": "Omitting the zero-order beam or counting only one side.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q19",
+    "keyPage": 23,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the first single-slit minimum, $\\sin\\theta=\\lambda/b$, where $b$ is the slit width. A smaller spread requires a shorter wavelength or wider slit. Decreasing the period increases the frequency and therefore shortens the wavelength.",
+      "perOption": {
+        "A": "Lowering the frequency increases the wavelength and the angular spread.",
+        "B": "Correct. A shorter period gives a shorter wavelength.",
+        "C": "Narrowing the slit increases the wavelength-to-width ratio and broadens the pattern.",
+        "D": "Increasing the wavelength increases the angular spread."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.l",
+      "wave-motion.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must connect the period to wavelength and then infer the change in angular spread.",
+    "misconception": "Assuming a narrower slit gives less diffraction.",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q22",
+    "keyPage": 24,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric potential is a signed scalar, with magnitude proportional to $|Q|/r$. Point C is twice as far from $+2Q$ as from $-Q$. The charge of twice the magnitude is twice as far away, so the two potentials are equal in magnitude and opposite in sign, giving zero total potential.",
+      "perOption": {
+        "A": "A is nearer to the larger positive charge, so the positive potential dominates.",
+        "B": "B is nearer to the larger positive charge, so the negative contribution is too small to cancel it.",
+        "C": "Correct. The distances give $2Q/r_+=Q/r_-$.",
+        "D": "D is so far to the right that its distance from the positive charge is less than twice its distance from the negative charge, leaving a positive potential."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must add signed potentials and infer the required distance ratio from the diagram.",
+    "misconception": "Treating electric potential as a vector or using inverse-square scaling.",
+    "transcription": "Two charges $+2Q$ and $-Q$ are situated as shown below.\n\nAt which point can the resultant potential due to the two charges be zero?\n\n[On a dashed horizontal line, the labels from left to right are A, $+2Q$, B, C, $-Q$ and D. B is roughly one-third of the way from $+2Q$ to $-Q$, C is roughly two-thirds of the way across, and D is farther to the right of $-Q$ than the two charges are from each other.]"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q23",
+    "keyPage": 25,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $B=\\mu_0 I/(2\\pi d)$, the horizontal wire gives $(4\\pi\\times10^{-7})(7.00)/[2\\pi(3.00)]=4.67\\times10^{-7}\\ \\mathrm T$ out of the page. The vertical wire gives $(4\\pi\\times10^{-7})(6.00)/[2\\pi(4.00)]=3.00\\times10^{-7}\\ \\mathrm T$ into the page. The fields oppose, so the resultant is $1.67\\times10^{-7}\\ \\mathrm T$ out of the page.",
+      "perOption": {
+        "A": "Correct. The larger field points out of the page.",
+        "B": "Subtracts the magnitudes correctly but reverses the resultant direction.",
+        "C": "Adds the magnitudes even though the fields point in opposite directions.",
+        "D": "Adds the magnitudes and gives the direction of the weaker field."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use the perpendicular distances and the right-hand grip rule before summing the fields.",
+    "misconception": "Adding magnetic field magnitudes without checking their directions.",
+    "transcription": "A wire carries a $7.00\\ \\mathrm A$ current along the $x$-axis and another wire carries a $6.00\\ \\mathrm A$ current along the $y$-axis, as shown below.\n\n[The $7.00\\ \\mathrm A$ current flows to the right along the horizontal wire. The $6.00\\ \\mathrm A$ current flows upwards along the vertical wire. Point $P(4.00,3.00)$ lies above the horizontal wire and to the right of the vertical wire, with dashed perpendicular guides to both axes.]\n\nWhich of the following shows the magnetic flux density at point $P$, located at $x=4.00\\ \\mathrm m$, $y=3.00\\ \\mathrm m$?\n\nMagnetic flux density / T | Direction\nA $1.67\\times10^{-7}$ | out of page\nB $1.67\\times10^{-7}$ | into page\nC $7.67\\times10^{-7}$ | out of page\nD $7.67\\times10^{-7}$ | into page"
+  }
+]

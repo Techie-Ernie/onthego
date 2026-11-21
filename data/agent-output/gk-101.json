@@ -1,0 +1,507 @@
+[
+  {
+    "id": "ri-2020-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At resonance a stationary wave forms in the tube. If $f$ is the fundamental frequency, the fork can excite $f$, $3f$, or any odd harmonic $(2n-1)f$ for $n=1,2,3,\\ldots$.",
+      "perOption": {
+        "A": "The closed end is a pressure antinode, so this deduction is true.",
+        "B": "The resonating air column makes the sound louder, so this deduction is true.",
+        "C": "Displacement amplitude varies with position in a stationary wave, so this deduction is true.",
+        "D": "Correct. The fork can also excite a higher odd harmonic."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c",
+      "oscillations.l"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It tests the boundary conditions and allowed harmonics of a closed–open tube.",
+    "misconception": "Assuming resonance occurs only at the fundamental.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2020-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing resolving power requires a smaller limiting angle $\\theta_{\\min}$. By the Rayleigh criterion, $\\theta_{\\min}\\approx\\lambda/b$, so decreasing wavelength $\\lambda$ by increasing frequency and increasing aperture width $b$ both reduce this angle.",
+      "perOption": {
+        "A": "Correct. Both changes decrease the limiting angle.",
+        "B": "The smaller aperture opposes the effect of higher frequency.",
+        "C": "The longer wavelength opposes the effect of a larger aperture.",
+        "D": "Both changes increase the limiting angle."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires relating frequency to wavelength and applying the Rayleigh criterion.",
+    "misconception": "Confusing resolving power with the limiting angle.",
+    "transcription": "An optical instrument is used to observe an object illuminated with monochromatic light.\n\nWhich of the following changes to the frequency of the light and the width of the aperture of the instrument will increase the resolving power of the instrument?\n\nFrequency | Aperture diameter\nA. increase | increase\nB. increase | decrease\nC. decrease | increase\nD. decrease | decrease"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field is the negative potential gradient, $E=-\\mathrm{d}V/\\mathrm{d}r$. The lines point from higher to lower potential, so $V$ rises from X to Y. The lines are closer together at X, indicating a stronger field and a larger potential gradient there.",
+      "perOption": {
+        "A": "The increasing slope implies that the field gets stronger towards Y.",
+        "B": "Correct. Potential rises with a decreasing positive slope.",
+        "C": "The decreasing potential implies that the field points towards Y.",
+        "D": "The constant slope implies a uniform field along XY."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires reading both field direction and field-line spacing to infer the potential gradient.",
+    "misconception": "Confusing the field direction with increasing potential.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2020-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $Eq=ma$, $a=Eq/m$. For plate length $L$ and horizontal speed $u$, $y=\\tfrac12(Eq/m)(L/u)^2$, so $y\\propto q/(mu^2)=0.5q/K$.\n\nComparing the alpha particle with the proton gives $y_\\alpha/y_{\\mathrm p}=[0.5(2e)/(4K)]/[0.5e/K]=0.50$, so $y_\\alpha=0.50y$.",
+      "perOption": {
+        "A": "Accounts for the fourfold kinetic energy but omits the doubled charge.",
+        "B": "Correct. The charge-to-kinetic-energy ratio is halved.",
+        "C": "Treats equal horizontal speeds as sufficient for equal deflections despite the different charge-to-mass ratios.",
+        "D": "Accounts for the doubled charge while overlooking the fourfold kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "electric-fields.h",
+      "electric-fields.i",
+      "projectile-motion.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It combines electric force, transit time, and kinetic energy to compare deflections.",
+    "misconception": "Scaling the deflection with kinetic energy alone.",
+    "transcription": "A proton with kinetic energy $K$ is directed horizontally between two charged horizontal plates and exits with a vertical displacement $y$.\n\n[The top plate is positive and the bottom plate is grounded. The proton enters from the left and curves down, exiting a vertical distance $y$ below the dashed extension of its initial path.]\n\nAn alpha particle (i.e. a $^4_2\\mathrm{He}$ nucleus) with kinetic energy $4K$ is now directed horizontally between the plates.\n\nWhat is the alpha particle’s vertical displacement as it exits the plates?\n(Ignore the effects of gravity.)\n\nA. $\\frac14 y$\nB. $\\frac12 y$\nC. $y$\nD. $2y$"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": null,
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The same current flows through both lamps, so $P\\propto R$ and $P_X/P_Y=R_X/R_Y=V_X/V_Y$. With voltages in volts, $1/3=V_X/(24-V_X)$, giving $V_X=24/4=6\\ \\mathrm V$.",
+      "perOption": {
+        "A": "Correct. Lamp X takes one quarter of the supply voltage.",
+        "B": "Divides the supply voltage by three, treating the ratio as three parts in total.",
+        "C": "Leaves only 8 V across Y, making the higher-power lamp take the smaller voltage drop.",
+        "D": "Gives the voltage across lamp Y."
+      }
+    },
+    "issues": "The rendered key page omits the answer letter. The text layer gives A and the worked result of 6 V matches A.",
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "currents.d",
+      "circuits.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It uses the common series current to convert a power ratio into a voltage ratio.",
+    "misconception": "Treating a 1:3 ratio as three parts in total.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2020-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The drops from P to Q and P to S are $3\\ \\mathrm V$ and $6\\ \\mathrm V$, so Q is $3\\ \\mathrm V$ above S and the p.d. across QS is $3\\ \\mathrm V$. Since Q is $5\\ \\mathrm V$ above R, S is $5-3=2\\ \\mathrm V$ above R.",
+      "perOption": {
+        "A": "Correct. The drops across SR and QS are 2 V and 3 V respectively.",
+        "B": "Swaps the drops across SR and QS.",
+        "C": "Assigns the whole drop from P to R to SR and overlooks the drop from P to S.",
+        "D": "Both values conflict with the node potentials fixed by the given drops."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires tracking node potentials along two paths through a bridge network.",
+    "misconception": "Confusing a branch voltage drop with the drop across the whole path.",
+    "transcription": "A current flows from P to R through a network of resistors such that the potential differences (p.d.) across PQ, QR and PS are $3\\ \\mathrm V$, $5\\ \\mathrm V$ and $6\\ \\mathrm V$ respectively.\n\n[The upper path from P to R contains resistors PQ and QR. The lower path contains resistors PS and SR. A fifth resistor joins Q and S.]\n\nWhich row is correct?\n\np.d. across SR | p.d. across QS\nA. $2\\ \\mathrm V$ | $3\\ \\mathrm V$\nB. $3\\ \\mathrm V$ | $2\\ \\mathrm V$\nC. $8\\ \\mathrm V$ | $3\\ \\mathrm V$\nD. $10\\ \\mathrm V$ | $2\\ \\mathrm V$"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The single turn gives $B_Q=\\mu_0I_Q/(2r)$ at its centre, and the wire gives $B_P=\\mu_0I_P/[2\\pi(2r)]$ there. Cancellation requires equal, opposite fields, so $B_Q=B_P$ in magnitude gives $I_Q=I_P/(2\\pi)$ and hence $I_P=2\\pi I_Q$.\n\nThe coil’s field is out of the page, so the wire’s field must be into the page at the coil centre. This requires a current to the right.",
+      "perOption": {
+        "A": "Correct. The two fields are equal and opposite.",
+        "B": "A leftward current makes the wire's field reinforce the coil's field.",
+        "C": "The direction is right but the current ratio is inverted.",
+        "D": "The ratio is inverted and the wire's field reinforces the coil's field."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires equating two field formulas and determining the current direction separately.",
+    "misconception": "Reversing the current ratio or wire field direction.",
+    "transcription": "A coil Q of a single turn and radius $r$, carries an anti-clockwise current $I_Q$ and lies flat on the table. A long straight wire P carrying current $I_P$ is placed on the same table such that its perpendicular distance from the centre of coil Q is $2r$.\n\n[Wire P is drawn horizontally above coil Q. The distance from the wire to the top of the coil is $r$, and that point is another $r$ from the coil centre. An arrow on the right of Q shows the anti-clockwise current $I_Q$.]\n\nWhich of the following will cause the resultant magnetic field at the centre of coil Q to be zero?\n\nA. $I_P$ to the right, $I_P=2\\pi I_Q$\nB. $I_P$ to the left, $I_P=2\\pi I_Q$\nC. $I_P$ to the right, $I_Q=2\\pi I_P$\nD. $I_P$ to the left, $I_Q=2\\pi I_P$"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electrons drift to the left, opposite to the conventional current. Fleming’s left-hand rule gives an upward magnetic force on the electrons, so they accumulate near Q. Q is therefore at a lower potential than R.",
+      "perOption": {
+        "A": "P and Q are separated along the field direction, while the magnetic force separates charge vertically.",
+        "B": "The charge separation is between the upper and lower sides, so P and Q are on the same side.",
+        "C": "Electron accumulation makes Q the lower-potential edge.",
+        "D": "Correct. R is at a higher potential than Q."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires determining the magnetic force on electrons and the resulting voltage polarity.",
+    "misconception": "Reversing the potential polarity of the electron-rich edge.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2020-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The key takes the changing magnetic flux per turn to be equal in X and Z. X has more turns, giving greater flux linkage $N\\Phi$ and a greater rate of change of flux linkage. By Faraday’s law, the induced e.m.f. is larger in X.",
+      "perOption": {
+        "A": "Equal flux per turn with unequal turn counts gives unequal induced e.m.f.s.",
+        "B": "Correct. X has more turns linking the same changing flux per turn.",
+        "C": "The larger area at Z does not imply greater flux per turn in the ideal core model.",
+        "D": "An open coil can have an induced e.m.f. even though it cannot sustain a current."
+      }
+    },
+    "issues": "The solution assumes negligible flux leakage. Equal flux per turn is not guaranteed for a finite open iron rod.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires distinguishing flux per turn from flux linkage.",
+    "misconception": "Treating cross-sectional area alone as a measure of flux.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2020-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The factory input is the generator output less the cable loss, so $P_{\\mathrm{factory}}=P-I^2R$. Substituting $I=P/V$ gives $P_{\\mathrm{factory}}=P-(P/V)^2R$.",
+      "perOption": {
+        "A": "Adds the cable loss to the power delivered.",
+        "B": "Adds the cable loss and incorrectly uses the cable drop to find the current from total power.",
+        "C": "Correct. It subtracts the cable’s resistive loss.",
+        "D": "Uses the cable drop with the whole generator power to calculate the current."
+      }
+    },
+    "issues": "Option C assumes unity power factor, which the question does not specify. In general, the cable loss is $V_{\\mathrm c}^2/R$ for RMS cable voltage $V_{\\mathrm c}$.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the line current and subtracting cable losses.",
+    "misconception": "Using the cable voltage drop with the total generator power.",
+    "transcription": "Transmission cables of total resistance $R$ are used to transfer electrical energy from an a.c. generator in a power station to a factory located several kilometers away.\n\nThe power and voltage outputs of the generator are $P$ and $V$ respectively. The potential difference across the transmission cables is $V_{\\mathrm c}$.\n\nWhat is the power input to the factory?\n\nA. $P+\\left(\\frac P V\\right)^2R$\nB. $P+\\left(\\frac P {V_{\\mathrm c}}\\right)^2R$\nC. $P-\\left(\\frac P V\\right)^2R$\nD. $P-\\left(\\frac P {V_{\\mathrm c}}\\right)^2R$"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The transition from $n=4$ to $n=2$ emits a photon of wavelength about $497\\ \\mathrm{nm}$, which is visible light. This transition is part of the Balmer series.",
+      "perOption": {
+        "A": "Correct. The wavelength is in the visible range.",
+        "B": "An incident electron can excite the atom to $n=2$ by transferring $10.2\\ \\mathrm{eV}$ and keeping the remaining kinetic energy.",
+        "C": "An upward transition from $-1.5\\ \\mathrm{eV}$ to $-0.9\\ \\mathrm{eV}$ requires absorption.",
+        "D": "The larger gap to the ground state gives a shorter wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires interpreting energy-level gaps and distinguishing electron impact from photon emission.",
+    "misconception": "Assuming an incoming electron must transfer all its energy.",
+    "transcription": "The diagram shows the first four energy levels of a hydrogen atom.\n\n[From top to bottom, the horizontal levels are $-0.9\\ \\mathrm{eV}$ ($n=4$), $-1.5\\ \\mathrm{eV}$ ($n=3$), $-3.4\\ \\mathrm{eV}$ ($n=2$) and $-13.6\\ \\mathrm{eV}$ ($n=1$).]\n\nWhich statement is correct?\n\nA. An electron transition from $n=4$ to $n=2$ produces visible light.\nB. An electron of energy $12.0\\ \\mathrm{eV}$ will not be able to excite a hydrogen atom in the ground state.\nC. A hydrogen atom in the $-1.5\\ \\mathrm{eV}$ state can emit a photon of energy $0.6\\ \\mathrm{eV}$ in order to arrive at the $-0.9\\ \\mathrm{eV}$ state.\nD. An electron transition from $n=4$ to $n=1$ produces a photon of a longer wavelength than a transition from $n=4$ to $n=2$."
+  },
+  {
+    "id": "ri-2020-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For $p=mv$, $\\Delta p/p=\\Delta m/m+\\Delta v/v=0.7/7.0+0.1/2.5=0.14$. Thus $\\Delta p=0.14(7.0\\times10^{-18})(2.5\\times10^{-6})=2.45\\times10^{-24}\\ \\mathrm{kg\\,m\\,s^{-1}}$.\n\nUsing the syllabus estimate $\\Delta x\\Delta p\\gtrsim h$, the minimum is about $h/\\Delta p=(6.63\\times10^{-34})/(2.45\\times10^{-24})=2.7\\times10^{-10}\\ \\mathrm m$, which rounds to $3\\times10^{-10}\\ \\mathrm m$.",
+      "perOption": {
+        "A": "Overestimates the minimum obtained when both mass and speed uncertainties are included.",
+        "B": "Correct. It is the rounded syllabus estimate.",
+        "C": "Uses an exponent incompatible with dividing Planck’s constant by the propagated momentum uncertainty.",
+        "D": "This is close to the scale of Planck’s constant alone and neglects the effect of dividing by the tiny momentum uncertainty."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "quantum-physics.h",
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "practical"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It requires propagating momentum uncertainty and converting speed units before applying the uncertainty relation.",
+    "misconception": "Confusing the momentum with its uncertainty.",
+    "transcription": "A virus of mass $(7.0\\pm0.7)\\times10^{-18}\\ \\mathrm{kg}$ is moving with a speed of $(2.5\\pm0.1)\\ \\mathrm{\\mu m\\,s^{-1}}$.\n\nWhat is the minimum uncertainty in the measurement of the position of the virus?\n\nA. $10\\times10^{-9}\\ \\mathrm m$\nB. $3\\times10^{-10}\\ \\mathrm m$\nC. $7\\times10^{-27}\\ \\mathrm m$\nD. $5\\times10^{-33}\\ \\mathrm m$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The density is $\\rho=m/(\\tfrac43\\pi r^3)=80/[\\tfrac43\\pi(2.0)^3]=2.3873\\ \\mathrm{g\\,cm^{-3}}$. The fractional uncertainty is $\\Delta\\rho/\\rho=\\Delta m/m+3\\Delta d/d=2/80+3(0.1/4.0)=0.10$. The absolute uncertainty is $0.24\\ \\mathrm{g\\,cm^{-3}}$, which rounds to $0.2\\ \\mathrm{g\\,cm^{-3}}$ to one significant figure, so $\\rho=(2.4\\pm0.2)\\ \\mathrm{g\\,cm^{-3}}$.",
+      "perOption": {
+        "A": "Treats diameter as a first-power quantity and understates the uncertainty.",
+        "B": "Correct. The absolute uncertainty rounds to 0.2.",
+        "C": "Overstates the absolute uncertainty implied by the 10% fractional uncertainty.",
+        "D": "Gives an uncertainty as large as the rounded density, far above the calculated 10%."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires propagating the cubed diameter’s uncertainty and matching decimal places.",
+    "misconception": "Omitting the factor of three in the diameter uncertainty.",
+    "transcription": "In an experiment to determine the density of a sphere, the following measurements are made.\nmass = $(80\\pm2)\\ \\mathrm g$\ndiameter = $(4.0\\pm0.1)\\ \\mathrm{cm}$\n\nHow should the value of density of the sphere be expressed?\n\nA. $(2.4\\pm0.1)\\ \\mathrm{g\\,cm^{-3}}$\nB. $(2.4\\pm0.2)\\ \\mathrm{g\\,cm^{-3}}$\nC. $(2.4\\pm0.4)\\ \\mathrm{g\\,cm^{-3}}$\nD. $(2\\pm2)\\ \\mathrm{g\\,cm^{-3}}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Between $t_1$ and $t_2$, displacement increases at an increasing rate. Between $t_2$ and $t_3$, it increases at a decreasing rate. After $t_3$, it stays constant because the velocity is zero.",
+      "perOption": {
+        "A": "The steps follow the sign of acceleration and show impossible jumps in displacement.",
+        "B": "The straight segments imply constant velocity, and the sudden jump is incompatible with the motion.",
+        "C": "Correct. The slope stays positive during motion and returns to zero at the end.",
+        "D": "The downward segment implies negative velocity although the given velocity stays positive until it reaches zero."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires interpreting velocity as the slope of displacement over successive intervals.",
+    "misconception": "Interpreting decreasing positive velocity as decreasing displacement.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of the $p_y$–$t$ graph gives a constant resultant force in the $y$ direction, so the $y$ acceleration is constant. The gradient of the $s_x$–$t$ graph gives a constant $x$ velocity. Together these give a parabolic path, as for a projectile under constant free-fall acceleration.",
+      "perOption": {
+        "A": "The motion has a constant direction of acceleration, whereas circular motion requires an acceleration component towards the centre.",
+        "B": "Correct. The perpendicular motions combine to give a parabola.",
+        "C": "The constant acceleration lacks the restoring dependence on displacement required for simple harmonic motion.",
+        "D": "The increasing vertical momentum shows that the velocity changes."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.c",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires extracting acceleration and velocity from separate graphs and combining the perpendicular motions.",
+    "misconception": "Interpreting straight time graphs as a straight spatial path.",
+    "transcription": null
+  }
+]

@@ -1,0 +1,504 @@
+[
+  {
+    "id": "rvhs-2025-other-p1-q29",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The de Broglie wavelength is $\\lambda=h/p$. Since $E=\\frac12 mv^2=\\frac{p^2}{2m}$, the momentum is $p=\\sqrt{2mE}$. Substitution gives $\\lambda=\\frac{h}{\\sqrt{2mE}}$.",
+      "perOption": {
+        "A": "Multiplies $h$ by the momentum, which should be in the denominator.",
+        "B": "Gives $p/h$, the reciprocal of the wavelength.",
+        "C": "Drops the factor of $2$ from $p^2=2mE$.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key gives a method cue only, with no worked derivation.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantum-physics.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It combines the de Broglie relation with the classical kinetic-energy formula.",
+    "misconception": "Inverting the de Broglie relation",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q30",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Only $\\alpha$ emission changes the nucleon number, so there are $(238-206)/4=8$ alpha emissions. Conservation of charge gives $92=82+8(2)+n(-1)$, where $n$ is the number of $\\beta^-$ particles. Solving gives $n=6$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Counts the alpha emissions.",
+        "C": "Uses the net drop in proton number without balancing the charge carried by the alpha particles.",
+        "D": "Counts the proton-number decrease due to the alpha emissions alone."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires balancing nucleon number before balancing charge.",
+    "misconception": "Confusing alpha and beta-minus changes",
+    "transcription": "A nucleus of uranium-238, $^{238}_{92}\\mathrm{U}$, decays in a series of steps to form a nucleus of lead-206, $^{206}_{82}\\mathrm{Pb}$, as shown.\n\n$^{238}_{92}\\mathrm{U}\\rightarrow \\cdots \\rightarrow {}^{206}_{82}\\mathrm{Pb}$\n\nAn $\\alpha$-particle or a $\\beta^-$-particle is emitted during each step. What is the total number of $\\beta^-$-particles that are emitted?\n\nA 6\nB 8\nC 10\nD 16"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q1",
+    "keyPage": 15,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take the depth of a swimming pool to be about $2\\ \\mathrm{m}$. The pressure at the bottom is $p_0+\\rho gh\\approx 10^5+(10^3)(10)(2)=1.2\\times10^5\\ \\mathrm{Pa}$, of order $10^5\\ \\mathrm{Pa}$.",
+      "perOption": {
+        "A": "A high-power heater can draw about 12 A.",
+        "B": "A mass of 70 kg is typical for an adult.",
+        "C": "An Olympic sprinter can reach about 10 metres per second.",
+        "D": "Correct. The pool is far too shallow for this pressure."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires estimating the depth of a pool and the resulting order of magnitude of the pressure.",
+    "misconception": "Overestimating pressure in shallow water",
+    "transcription": "The table below shows estimates of some physical quantities. Which quantity is not a reasonable estimate?\n\nQuantity | Estimate\nA electric current in a heater | $12\\ \\mathrm{A}$\nB mass of an adult person | $70\\ \\mathrm{kg}$\nC maximum speed of an Olympic sprinter | $10\\ \\mathrm{m\\,s^{-1}}$\nD water pressure at the bottom of a swimming pool | $10^7\\ \\mathrm{Pa}$"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q3",
+    "keyPage": 15,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The difference in diameters is $d_2-d_1=3.46\\ \\mathrm{mm}$. Its absolute uncertainty is the sum of the two absolute uncertainties, $0.03+0.02=0.05\\ \\mathrm{mm}$. The percentage uncertainty is $(0.05/3.46)\\times100\\%\\approx1.4\\%$.",
+      "perOption": {
+        "A": "Subtracts the absolute uncertainties.",
+        "B": "Uses only the uncertainty of the first diameter.",
+        "C": "Uses only the uncertainty of the second diameter.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires adding absolute uncertainties and converting the total into a percentage of the difference.",
+    "misconception": "Subtracting uncertainties when subtracting measurements",
+    "transcription": "A micrometer is used to measure the diameters of two cylinders.\n\ndiameter of first cylinder = $(12.78\\pm0.02)\\ \\mathrm{mm}$\ndiameter of second cylinder = $(16.24\\pm0.03)\\ \\mathrm{mm}$\n\nThe difference in the diameters is calculated. What is the percentage uncertainty in this difference?\n\nA 0.29\nB 0.58\nC 0.87\nD 1.4"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q4",
+    "keyPage": 15,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The driver slows down in one direction and speeds up in the opposite direction at the same rate. The acceleration therefore has the same direction and magnitude before and after the U-turn, while the velocity passes through zero and changes sign.",
+      "perOption": {
+        "A": "Shows the velocity remaining positive after the stop despite the reversal.",
+        "B": "Shows constant positive velocity gradient but an acceleration that changes sign.",
+        "C": "Correct.",
+        "D": "Changes the sign of acceleration despite the constant negative velocity gradient."
+      }
+    },
+    "issues": "The item is marked as text, but the answer options are graph pairs and require the image.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing the direction of velocity from the direction of acceleration during a reversal.",
+    "misconception": "Assuming acceleration reverses when velocity reverses",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q5",
+    "keyPage": 16,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Kinetic energy is $E_k=p^2/(2m)$. At fixed kinetic energy, $p^2$ is proportional to mass, so $p_M^2/p_m^2=M/m$. Taking the square root gives $p_M/p_m=\\sqrt{M/m}$.",
+      "perOption": {
+        "A": "Introduces a combined mass even though each momentum comes from its own mass.",
+        "B": "Treats the ratio as a share of combined mass.",
+        "C": "Correct.",
+        "D": "Reverses the mass ratio and gives the reciprocal momentum ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.e",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires expressing kinetic energy in terms of momentum and taking the square root of a mass ratio.",
+    "misconception": "Assuming equal kinetic energy implies equal speed",
+    "transcription": "Mass $M$ has the same kinetic energy as mass $m$. What is the ratio of their momenta $\\frac{p_M}{p_m}$?\n\nA $\\frac{M+m}{M}$\nB $\\frac{M}{M+m}$\nC $\\sqrt{\\frac{M}{m}}$\nD $\\sqrt{\\frac{m}{M}}$"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q6",
+    "keyPage": 16,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnitude of the resultant force is $|\\Delta p|/\\Delta t$, so $5=|\\Delta p|/4.0$. The momentum must change by $20\\ \\mathrm{kg\\,m\\,s^{-1}}$, as shown by C.",
+      "perOption": {
+        "A": "Shows a change of only $5\\ \\mathrm{kg\\,m\\,s^{-1}}$.",
+        "B": "Shows a change of only $10\\ \\mathrm{kg\\,m\\,s^{-1}}$.",
+        "C": "Correct.",
+        "D": "Starts at $20\\ \\mathrm{kg\\,m\\,s^{-1}}$ but changes by only $10\\ \\mathrm{kg\\,m\\,s^{-1}}$."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires finding the momentum change and comparing the line segments over the stated time.",
+    "misconception": "Confusing initial momentum with momentum change",
+    "transcription": "A resultant force of $5\\ \\mathrm{N}$ acts on a body for a time of $4.0\\ \\mathrm{s}$.\n\nWhich graph could show the variation with time $t$ of the momentum $p$ of the body?\n\n[Four straight lines on a graph of $p$ in $\\mathrm{kg\\,m\\,s^{-1}}$ against $t$ in seconds. From $t=0$ to $t=4.0\\ \\mathrm{s}$, A goes from 5 to 0, B from 10 to 0, C from 20 to 0, and D from 20 to 10.]"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q7",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total weight of the contents stays the same when the frozen water is returned. In the straight-sided cup, that same weight bears on the same bottom area, so the pressure stays at $P$.",
+      "perOption": {
+        "A": "Treats the exposed fraction of the ice as weight that the water no longer supports.",
+        "B": "Correct.",
+        "C": "Treats the expansion on freezing as an increase in the load on the cup bottom.",
+        "D": "Treats the exposed ice fraction as an increase in the water depth."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires relating the load due to floating ice to the bottom pressure in the straight-sided cup.",
+    "misconception": "Ignoring the load transmitted by floating ice",
+    "transcription": "A cup contains $100\\ \\mathrm{g}$ of water. The pressure at the bottom of the cup is $P$.\n\n[Two straight-sided cups labelled “before” and “after”. The first contains only water. The second contains water and a floating block of ice that extends above the surface. The water levels are drawn at the same height.]\n\n$50\\ \\mathrm{g}$ of water is removed from the cup, frozen into ice, and added back to the cup, as shown above. 10% of the volume of the ice is above the surface of the water.\n\nWhat is the new pressure at the bottom of the cup?\n\nA $0.95P$\nB $P$\nC $1.05P$\nD $1.10P$"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q9",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Ignore friction to obtain the minimum time, so the work done by the engine equals the increase in kinetic energy. At maximum power, $Pt=\\frac12 mv^2$, where $v=100\\ \\mathrm{km\\,h^{-1}}=27.78\\ \\mathrm{m\\,s^{-1}}$. Thus $t=\\frac{(2000)(27.78)^2}{2(50000)}=15.4\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "Allows too little energy transfer at the stated maximum power to reach the target speed.",
+        "B": "Correct.",
+        "C": "Omits the factor of $\\frac12$ in the kinetic energy.",
+        "D": "Uses $100\\ \\mathrm{m\\,s^{-1}}$ in place of $100\\ \\mathrm{km\\,h^{-1}}$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.e",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires converting the final speed and dividing the kinetic energy gained by maximum power.",
+    "misconception": "Omitting the factor of one-half in kinetic energy",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q10",
+    "keyPage": 16,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the $10.0\\ \\mathrm{g}$ mass, $T_2$ provides the centripetal force, so $T_2=(0.010)(0.150+0.050)(6.28)^2=0.079\\ \\mathrm{N}$. For the $21.0\\ \\mathrm{g}$ mass, the inward resultant is $T_1-T_2=(0.021)(0.150)(6.28)^2=0.124\\ \\mathrm{N}$. Thus $T_1=0.203\\ \\mathrm{N}$ and $T_1/T_2=0.203/0.079\\approx2.6$.",
+      "perOption": {
+        "A": "Makes the two tensions equal, leaving the inner mass with zero radial resultant.",
+        "B": "Computes $(T_1-T_2)/T_2$ and leaves out the contribution of $T_2$ to $T_1$.",
+        "C": "Uses the mass ratio alone, ignoring the different radii and the outward tension on the inner block.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The two masses have different radii, and the inward force on the inner mass is the difference of two tensions.",
+    "misconception": "Treating the inner tension as the inner mass’s net force",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q11",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top, the net force is downward and has magnitude $mv^2/r$. Taking downward as positive gives $mg-R=mv^2/r$, so $R=mg-mv^2/r$.",
+      "perOption": {
+        "A": "Makes the resultant force upward at the crest.",
+        "B": "Correct.",
+        "C": "Reverses the subtraction when solving for the upward reaction.",
+        "D": "Equates the upward reaction alone to the magnitude of the downward resultant."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.d",
+      "circular-motion.f",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires identifying the downward radial direction and taking the difference of the vertical forces.",
+    "misconception": "Treating the normal reaction as the centripetal force",
+    "transcription": "A car of mass $m$ moving at a constant speed $v$ passes over a humpback bridge of radius of curvature $r$.\n\nGiven that the car remains in contact with the road, what is the normal reaction force $R$ experienced by the car when it is at the top of the bridge?\n\n[A car at the crest moves right with velocity $v$. A dashed circle beneath the crest shows the curvature, with a vertical radius $r$ from the crest towards the centre.]\n\nA $R=mg+\\frac{mv^2}{r}$\nB $R=mg-\\frac{mv^2}{r}$\nC $R=\\frac{mv^2}{r}-mg$\nD $R=\\frac{mv^2}{r}$"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q12",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $g=GM/r^2$, the free-fall ratio of $6$ gives $M_\\mathrm{E}/M_\\mathrm{M}=6r_\\mathrm{E}^2/r_\\mathrm{M}^2$. The density ratio is $(M_\\mathrm{E}/M_\\mathrm{M})(r_\\mathrm{M}^3/r_\\mathrm{E}^3)=5/3$. Substituting the mass ratio gives $6r_\\mathrm{M}/r_\\mathrm{E}=5/3$, so $r_\\mathrm{E}/r_\\mathrm{M}=3.6$.",
+      "perOption": {
+        "A": "Uses too large a density correction, giving a radius ratio smaller than the required 3.6.",
+        "B": "Correct.",
+        "C": "Uses too small a density correction, giving a radius ratio larger than the required 3.6.",
+        "D": "Uses the gravity ratio directly, as if both bodies had the same mean density."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires combining the inverse-square field relation with the cubic dependence of volume on radius.",
+    "misconception": "Ignoring the separate roles of mass and density",
+    "transcription": "The acceleration of free fall on the surface of the Earth is 6 times its value on the surface of the Moon. The mean density of the Earth is $\\frac53$ times the mean density of the Moon.\n\nIf $r_\\mathrm{E}$ is the radius of the Earth and $r_\\mathrm{M}$ the radius of the Moon, what is the value of $\\frac{r_\\mathrm{E}}{r_\\mathrm{M}}$?\n\nA 2.4\nB 3.6\nC 4.8\nD 6.0"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q13",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial absolute pressure is $200+100=300\\ \\mathrm{kPa}$. At fixed tyre volume, absolute pressure is proportional to kelvin temperature, giving $p_f=300(50+273.15)/(25+273.15)\\approx325\\ \\mathrm{kPa}$. The final gauge reading is about $325-100=225\\ \\mathrm{kPa}$. Using the key's rounded readings, the percentage increase is $(225-200)/200\\times100\\%=12.5\\%$.",
+      "perOption": {
+        "A": "Gives the percentage increase in absolute pressure.",
+        "B": "Correct.",
+        "C": "Uses the doubling of the Celsius reading as the percentage increase in gauge pressure.",
+        "D": "Uses Celsius temperatures to double absolute pressure before converting back to gauge pressure."
+      }
+    },
+    "issues": "The key rounds absolute pressure to 325 kPa before calculating the percentage. Keeping unrounded values gives about 12.58%, so B is still the intended and closest option.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires using absolute pressure and kelvin in the gas law, then converting back to gauge pressure.",
+    "misconception": "Using gauge pressure or Celsius in the ideal gas law",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q14",
+    "keyPage": 17,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The heat supplied is $ML$ plus the heat lost to the environment, where $M$ is the mass vaporized. In rate form, $P=mL+h$, so $P_1=m_1L+h$ and $P_2=m_2L+h$. Subtracting the equations cancels $h$ and gives $L=\\frac{P_1-P_2}{m_1-m_2}$.",
+      "perOption": {
+        "A": "Uses one reading and treats all heater power as power for vaporization.",
+        "B": "Averages two estimates that both include heat loss.",
+        "C": "Correct.",
+        "D": "Adds the equations, leaving a heat-loss term of $2h$."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.g",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "practical"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires writing two power balances and eliminating the shared heat-loss term.",
+    "misconception": "Assuming all heater power vaporizes the liquid",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q16",
+    "keyPage": 17,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At P, $x$ is negative, so $F=ma=-m\\omega^2x$ is positive. The velocity at P is also negative. Sketch the sine-shaped velocity curve on the same time axis as the cosine-shaped acceleration curve represented by $F/m$. The velocity is positive at A and negative at D, so D matches both signs.",
+      "perOption": {
+        "A": "The force is positive here, but the velocity is positive.",
+        "B": "The force is negative here.",
+        "C": "The force is negative here.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It requires reading signed displacement and velocity on one graph and using the phase relationship to locate the matching point on the other.",
+    "misconception": "Confusing the signs of force and velocity",
+    "transcription": "An object undergoes simple harmonic motion.\n\nThe variation with displacement $x$ of the velocity $v$ of the object is as shown. P is a position during the oscillation.\n\n[An ellipse on a graph of $v$ against $x$, centred at the origin. P lies on the lower-left part of the ellipse, with negative $x$ and negative $v$.]\n\nThe variation with time $t$ of the net force $F$ acting on the object is as shown below. $T$ is the period of the oscillation.\n\nWhich point on the graph corresponds to the state of motion at position P?\n\n[A sinusoidal graph of $F$ against $t$ starts near a positive maximum and returns to a positive maximum at $T$. A is on the descending positive part, B on the descending negative part, C on the ascending negative part, and D on the ascending positive part.]"
+  }
+]

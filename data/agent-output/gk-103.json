@@ -1,0 +1,503 @@
+[
+  {
+    "id": "ri-2021-prelim-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $d\\sin\\theta=n\\lambda$ with $\\sin\\theta\\leq 1$. The order is bounded by $d/\\lambda=(10^{-3}/500)/(633\\times10^{-9})=3.16$, so the largest observable order is 3. There are three maxima on each side of the central maximum, giving seven in total.",
+      "perOption": {
+        "A": "Counts only the three maxima on one side.",
+        "B": "Counts the central maximum and the three maxima on one side only.",
+        "C": "Counts both sides but omits the central maximum.",
+        "D": "Correct. The central maximum and three on each side give seven."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student converts line density to spacing, finds the largest integer order, and counts the maxima.",
+    "misconception": "Counting diffraction orders on only one side",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric field lines point from higher to lower potential, here from $7\\ \\mathrm V$ towards $3\\ \\mathrm V$. They must also cross the equipotential lines at right angles.",
+      "perOption": {
+        "A": "The arrows point towards lower potential, but the field lines cross the curved equipotentials obliquely.",
+        "B": "The arrows point towards higher potential and cross the curved equipotentials obliquely.",
+        "C": "Correct. The lines cross perpendicularly and point towards lower potential.",
+        "D": "The lines cross perpendicularly, but the arrows point towards higher potential."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student checks both the crossing angle and the arrow direction.",
+    "misconception": "Confusing field direction with increasing potential",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q21",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Moving $-Q$ from X to Y brings it closer to Z, so its field at Z grows stronger. Its field points diagonally upwards and partly cancels the downward field of $+Q$ when it is at X. At Y its field points horizontally, so the two fields are perpendicular and their resultant is larger.",
+      "perOption": {
+        "A": "The nearer $-Q$ makes a more negative contribution to the potential at Z.",
+        "B": "Correct. The negative charge's field at Z strengthens and loses its upward component.",
+        "C": "The charges move farther apart, so the attractive force decreases.",
+        "D": "As the separation $r$ increases, $-kQ^2/r$ becomes less negative."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a",
+      "electric-fields.b",
+      "electric-fields.d",
+      "electric-fields.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student compares vector field contributions and distinguishes them from potential, force, and potential energy.",
+    "misconception": "Treating electric field strength as a scalar sum",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q22",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The battery supplies $2500+500=3000\\ \\mathrm J$ in total, including the energy dissipated inside it. Its e.m.f. is the total energy supplied per unit charge, so $\\mathcal E=3000/1500=2.00\\ \\mathrm V$.",
+      "perOption": {
+        "A": "This would account for only 750 J of the 3000 J supplied.",
+        "B": "Divides only the energy lost inside the battery by the charge.",
+        "C": "Divides only the energy dissipated in the external resistor by the charge.",
+        "D": "Correct. It includes both energy losses per unit charge."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.c",
+      "currents.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student adds the two energy losses and divides by the charge.",
+    "misconception": "Equating e.m.f. with terminal potential difference",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q23",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing $R_4$ increases the equivalent resistance of $R_2$ and $R_4$ in parallel. By the potential divider rule, the p.d. across that parallel combination increases. Since $R_2$ stays constant, the current through it and the ammeter reading increase.",
+      "perOption": {
+        "A": "Increasing $R_1$ reduces the share of the supply voltage across the parallel section.",
+        "B": "Increasing $R_2$ decreases its branch current, even though the p.d. across the parallel combination rises.",
+        "C": "Correct. The p.d. across the unchanged ammeter branch rises.",
+        "D": "Closing S adds a parallel path, reducing the equivalent resistance and the p.d. across $R_2$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student tracks how a change in one branch affects the parallel section and the current in another branch.",
+    "misconception": "Assuming the voltage across the parallel branches is fixed",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q24",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "A low temperature maximizes the NTC thermistor's resistance and minimizes the p.d. across XY by the potential divider rule. This reduces the p.d. per unit length of the wire. Darkness maximizes the LDR resistance and thus the terminal p.d. of the test cell, giving the greatest balance length.",
+      "perOption": {
+        "A": "Heat raises the wire's potential gradient, and bright light lowers the test cell's terminal p.d.",
+        "B": "Heat reduces the thermistor resistance and raises the wire's potential gradient.",
+        "C": "Bright light lowers the LDR resistance, increasing the lost volts inside the test cell.",
+        "D": "Correct. Cold gives the smallest gradient and darkness gives the greatest test p.d."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must optimize the wire’s potential gradient and the loaded test cell’s terminal p.d. independently.",
+    "misconception": "Treating the loaded test cell's terminal p.d. as its e.m.f.",
+    "transcription": "A NTC thermistor and a light-dependent resistor are connected in a potentiometer circuit. The batteries have finite internal resistance. XY is a resistance wire.\n\n[The driver battery and the NTC thermistor are in series with resistance wire XY. The positive terminal of the test cell is connected to X. An LDR is connected across the test cell, and its negative terminal connects through a galvanometer to a sliding contact on XY.]\n\nWhich row of environmental conditions maximizes the balance length of the potentiometer?\n\nOption | temperature | lighting condition\nA | high | bright\nB | high | dark\nC | low | bright\nD | low | dark"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the frame to remain horizontal, the magnetic torque must equal the extra torque from moving the rider. With $F=BIL$, the balance is $(60\\times10^{-3})I(3.0/100)(15/100)=(5.0/1000)(9.81)(4.3/100)$, where $4.3=6.8-2.5$. This gives $I=7.81\\ \\mathrm A$.",
+      "perOption": {
+        "A": "At $1.2\\ \\mathrm A$ the magnetic torque is too small to balance the extra torque from moving the rider.",
+        "B": "Using the $6.0\\ \\mathrm{cm}$ frame breadth as the length in the field halves the calculated current.",
+        "C": "Correct. The magnetic torque balances the extra moment from shifting the rider.",
+        "D": "Using the full $6.8\\ \\mathrm{cm}$ rider distance instead of its $4.3\\ \\mathrm{cm}$ shift overestimates the magnetic torque required."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.h",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "practical",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student finds the change in the rider's moment and uses the correct force length and lever arm.",
+    "misconception": "Using the whole wire segment as the length in the field",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ammeter completes the circuit, so an induced current flows. By Lenz's law, the magnetic force on that current opposes the coil's rotation, slowing it and increasing the period. By Faraday's law, slower rotation reduces the peak rate of change of flux linkage, so the induced e.m.f. and peak current fall. For steady rotation the e.m.f. amplitude is $NBA\\omega$, illustrating why it decreases as the angular speed falls.",
+      "perOption": {
+        "A": "Keeps both the period and peak current constant.",
+        "B": "Shows the increasing period but keeps the peak current constant.",
+        "C": "Shows the falling peak current but keeps the period constant.",
+        "D": "Correct. The period increases while the peak current falls."
+      }
+    },
+    "issues": "The key illustrates the amplitude using the constant-angular-speed sinusoid, which is not an exact time dependence for the slowing coil.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student uses Lenz's law to predict slowing and Faraday's law to predict a smaller peak current.",
+    "misconception": "Ignoring electromagnetic braking when air resistance is negligible",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q27",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially, the field component perpendicular to the coil is $B_\\perp=(0.15\\times10^{-3})\\sin 10^\\circ=2.60\\times10^{-5}\\ \\mathrm T$. The initial flux linkage is $B_\\perp NA=(2.60\\times10^{-5})(5)(0.12)=1.56\\times10^{-5}\\ \\mathrm{Wb}$. The final linkage is zero because the field lies in the plane of the coil, so the linkage decreases by $1.56\\times10^{-5}\\ \\mathrm{Wb}$.",
+      "perOption": {
+        "A": "Correct. The flux linkage falls from this value to zero.",
+        "B": "Using $\\cos 10^\\circ$ treats the given angle to the plane as the angle to the normal.",
+        "C": "Treats 0.15 mT as 0.15 T, making the result 1000 times too large.",
+        "D": "Uses $\\cos 10^\\circ$ and treats 0.15 mT as 0.15 T."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main step is finding the component of the field perpendicular to the plane before calculating flux linkage.",
+    "misconception": "Using the angle to the plane as the angle to the normal",
+    "transcription": "A coil has area $0.12\\ \\mathrm{m^2}$ and 5 turns. A uniform magnetic field of flux density $0.15\\ \\mathrm{mT}$ acts at an angle $10^\\circ$ to the plane of the coil.\n\n[The diagram shows a rectangular five-turn coil labelled with its area, field arrows labelled $0.15\\ \\mathrm{mT}$ inclined at $10^\\circ$ to the plane, and a dashed axis of rotation in the plane of the coil with a curved rotation arrow.]\n\nWhat is the change in magnetic flux linkage when the coil rotates such that the angle between the flux density and the plane of the coil is reduced to zero?\n\nA $1.56\\times10^{-5}\\ \\mathrm{Wb}$\nB $8.86\\times10^{-5}\\ \\mathrm{Wb}$\nC $1.56\\times10^{-2}\\ \\mathrm{Wb}$\nD $8.86\\times10^{-2}\\ \\mathrm{Wb}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q28",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The original mean power is $P=I_0^2R/2$. After doubling the peak current, $P'=(2I_0)^2R/2=4P$. Halving the frequency changes the period and leaves the mean over a cycle unchanged.",
+      "perOption": {
+        "A": "Treats the changes as cancelling, although frequency does not enter the mean power.",
+        "B": "Misapplies the $\\sqrt{2}$ peak-to-r.m.s. factor to the power ratio, even though it is the same for both currents.",
+        "C": "Misses the square dependence by doubling the power with the current, or incorrectly halves the result when frequency is halved.",
+        "D": "Correct. Doubling the peak current quadruples the mean power."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.h",
+      "currents.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies the square dependence on peak current and recognizes that frequency does not affect the mean.",
+    "misconception": "Assuming mean power scales linearly with peak current or frequency",
+    "transcription": "When an alternating current, $I=I_0\\sin\\omega t$, passes through a resistor, the mean power dissipated in the resistor is $P$. The peak value of the alternating current is then changed to $2I_0$ and the frequency is halved.\n\nWhat is now the mean power dissipated in the resistor?\n\nA $P$\nB $\\sqrt{2}P$\nC $2P$\nD $4P$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q29",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $p=\\sqrt{2mE_k}$, the fractional momentum uncertainty is $\\Delta p/p=\\tfrac12(\\Delta E_k/E_k)=\\tfrac12(0.0010)=0.00050$. Thus $\\Delta p=0.00050p$. Using the syllabus approximation $\\Delta x\\Delta p\\gtrsim h$ gives a minimum estimate of $h/(0.00050p)=2000h/p$.",
+      "perOption": {
+        "A": "Uses the fractional momentum uncertainty as a multiplier instead of taking its reciprocal.",
+        "B": "Uses the energy fraction directly and multiplies by it instead of inverting the momentum fraction.",
+        "C": "Takes the reciprocal of the energy fraction without first halving it for momentum.",
+        "D": "Correct. The reciprocal of the fractional momentum uncertainty is 2000."
+      }
+    },
+    "issues": "The keyed result uses the syllabus’s order-of-magnitude relation. The exact standard-deviation bound uses ℏ/2.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student propagates the energy uncertainty to momentum and then applies the position–momentum relation.",
+    "misconception": "Multiplying by the fractional momentum uncertainty instead of taking its reciprocal",
+    "transcription": "A proton travelling in a straight line with momentum $p$ has an uncertainty of $0.10\\%$ in its kinetic energy.\n\nWhat is the minimum uncertainty in its position, in terms of $p$ and the Planck constant $h$?\n\nA $0.0005\\dfrac{h}{p}$\nB $0.001\\dfrac{h}{p}$\nC $1000\\dfrac{h}{p}$\nD $2000\\dfrac{h}{p}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q30",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A red filter lets only red light reach the metal. Red photons have less energy than photons at the yellow threshold wavelength of $580\\ \\mathrm{nm}$, so no photoelectrons are emitted.",
+      "perOption": {
+        "A": "A violet filter removes other photons that could also cause emission, so it cannot increase the rate.",
+        "B": "Correct. Red photons have insufficient energy to eject electrons.",
+        "C": "Focusing changes the intensity but leaves the maximum photon energy and hence the maximum electron kinetic energy unchanged.",
+        "D": "Doubling the work function halves the threshold wavelength to $290\\ \\mathrm{nm}$, shorter than any wavelength in visible light."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student compares photon energies with the threshold and distinguishes intensity from energy per photon.",
+    "misconception": "Confusing light intensity with photon energy",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The absolute uncertainty is $\\Delta v=(4.5/100)(335.61)=15.1\\ \\mathrm{m\\,s^{-1}}$, which rounds to $20\\ \\mathrm{m\\,s^{-1}}$ to one significant figure. Round the measured speed to the tens place as well to obtain $(340\\pm20)\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses the tens place but rounds down instead of to the nearest ten.",
+        "B": "Keeps the tenths place, which is finer than the rounded uncertainty supports.",
+        "C": "Rounds to the units place although the uncertainty is rounded to the tens place.",
+        "D": "Correct. It rounds the speed to the same place as the absolute uncertainty."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student converts the percentage uncertainty to an absolute value and matches the result's place value to it.",
+    "misconception": "Rounding the measured value independently of its uncertainty",
+    "transcription": "A student makes measurements from which he calculates the speed of sound in air as $335.61\\ \\mathrm{m\\,s^{-1}}$. He estimates the percentage uncertainty in the speed of sound to be $\\pm4.5\\%$.\n\nHow should the student record the speed of sound, considering the uncertainty?\n\nA $330\\ \\mathrm{m\\,s^{-1}}$\nB $335.6\\ \\mathrm{m\\,s^{-1}}$\nC $336\\ \\mathrm{m\\,s^{-1}}$\nD $340\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange to $\\sigma=P/(AeT^4)$, where $e$ is dimensionless. Power is work per unit time, and work has the units of force times distance, so the units are those of $mad/(tAeT^4)$. This reduces to $(\\mathrm{kg\\,m\\,s^{-2}})(\\mathrm m)/(\\mathrm{s\\,m^2\\,K^4})=\\mathrm{kg\\,s^{-3}\\,K^{-4}}$.",
+      "perOption": {
+        "A": "Correct. The metres cancel when power is expressed in base units.",
+        "B": "Uses the wrong time exponent and puts the temperature factor in the numerator.",
+        "C": "Gives equivalent derived units but leaves the watt unexpanded.",
+        "D": "Uses both an unexpanded watt and degrees Celsius instead of kelvin."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.a",
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student isolates the constant and resolves power into base units using work and force.",
+    "misconception": "Leaving watts in an expression for SI base units",
+    "transcription": "The Stefan-Boltzmann law for the rate of thermal energy emitted per unit surface area of a body is given by\n\n$\\dfrac{P}{A}=e\\sigma T^4$,\n\nwhere $P$ is the rate of thermal energy emitted, $A$ is the surface area, $T$ is the thermodynamic temperature and $e$, a dimensionless constant, is the emissivity of the body and $\\sigma$ is the Stefan-Boltzmann constant.\n\nWhich is the S.I. base unit for $\\sigma$?\n\nA $\\mathrm{kg\\,s^{-3}\\,K^{-4}}$\nB $\\mathrm{kg\\,s^{-1}\\,K^{4}}$\nC $\\mathrm{W\\,m^{-2}\\,K^{-4}}$\nD $\\mathrm{W\\,m^{-2}\\,{}^\\circ C^{-4}}$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take rightwards and upwards as positive. From horizontal motion, the flight time is $t=(3.4\\cos30^\\circ)/(5.0\\cos60^\\circ)$. Then $v_y=5.0\\sin60^\\circ-9.81t=-7.2240\\ \\mathrm{m\\,s^{-1}}$. The direction is $\\tan^{-1}[7.2240/(5.0\\cos60^\\circ)]=70.911^\\circ$ below the horizontal, so the angle to the slope is $70.911^\\circ-30^\\circ=41^\\circ$ to the nearest degree.",
+      "perOption": {
+        "A": "An angle of $27^\\circ$ to the slope would put the velocity at $57^\\circ$ below horizontal, inconsistent with the impact velocity components.",
+        "B": "An angle of $32^\\circ$ to the slope would put the velocity at $62^\\circ$ below horizontal, underestimating the downward component relative to the horizontal one.",
+        "C": "Correct. Subtract the slope's inclination from the impact angle below horizontal.",
+        "D": "Gives the angle below the horizontal without subtracting the slope's inclination."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student resolves the launch and displacement horizontally, finds the vertical impact velocity, and converts the angle to the slope reference.",
+    "misconception": "Reporting the angle to the horizontal instead of to the slope",
+    "transcription": "A stone is projected perpendicularly to a slope with a velocity of $5.0\\ \\mathrm{m\\,s^{-1}}$ and lands $3.4\\ \\mathrm m$ down the slope. The slope is inclined at an angle of $30^\\circ$ to the horizontal. Air resistance is negligible.\n\n[The slope descends to the right at $30^\\circ$. The launch arrow of $5.0\\ \\mathrm{m\\,s^{-1}}$ is perpendicular to the slope. A dashed curved trajectory meets the slope $3.4\\ \\mathrm m$ from the launch point, measured along the slope. $\\theta$ is marked between the incoming trajectory and the slope.]\n\nWhat is the angle $\\theta$ that the velocity of the stone makes with the slope as it lands?\n\nA $27^\\circ$\nB $32^\\circ$\nC $41^\\circ$\nD $71^\\circ$"
+  }
+]

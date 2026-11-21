@@ -1,0 +1,496 @@
+[
+  {
+    "id": "sajc-2024-prelim-p1-q20",
+    "keyPage": 28,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In A, both voltmeter terminals are at the same potential, so it reads $0\\ \\mathrm{V}$. In B and D the voltmeter is across the $12\\ \\mathrm{V}$ supply. In C the voltmeter has much greater resistance than the series resistors, so nearly all the $12\\ \\mathrm{V}$ is across it.",
+      "perOption": {
+        "A": "Correct. The connecting wire makes the voltmeter terminals equipotential.",
+        "B": "The voltmeter is in parallel with the $12\\ \\mathrm{V}$ supply.",
+        "C": "The high-resistance voltmeter takes essentially the full $12\\ \\mathrm{V}$ in the series circuit.",
+        "D": "The voltmeter is across the same two rails as the $12\\ \\mathrm{V}$ supplies."
+      }
+    },
+    "issues": "The key treats C as 12 V using the ideal-voltmeter approximation. With finite meter resistance, C reads slightly below 12 V.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main trap is recognizing how a high-resistance voltmeter behaves in series.",
+    "misconception": "Treating the series voltmeter as a low-resistance component",
+    "transcription": "In which circuit does the voltmeter not read $12\\ \\mathrm{V}$?\n\nA [A $12\\ \\mathrm{V}$ terminal pair feeds two resistors, one on each side of a loop. A wire directly joins the lower ends of the resistors, and the voltmeter is connected across this wire.]\nB [A $12\\ \\mathrm{V}$ terminal pair, two separate resistor branches and a voltmeter branch all connect across the same two rails.]\nC [A single loop contains a $12\\ \\mathrm{V}$ terminal pair, two resistors and the voltmeter in series.]\nD [Two terminal pairs each marked $12\\ \\mathrm{V}$, a resistor branch and a voltmeter branch all connect across the same two rails.]"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q21",
+    "keyPage": 28,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the key’s diagram, Y is in a $2R$ path in parallel with the single resistor F, so F carries $2I$ and C carries $3I$. The parallel section has resistance $R_{AB}=(1+1/2)^{-1}R=2R/3$, so the path through C, AB and D has resistance $R+2R/3+R=8R/3$. This path carries $3I$, giving a p.d. of $8IR$ across the parallel resistor E, which therefore carries $8I$. The current in X is $3I+8I=11I$.",
+      "perOption": {
+        "A": "$19I$ overestimates the junction total, since the two branches carry $3I$ and $8I$.",
+        "B": "Correct. X carries the sum of the $3I$ and $8I$ branch currents.",
+        "C": "$7I$ undercounts the junction total by understating the current through E.",
+        "D": "This treats X and Y as a single series path and misses the branch currents."
+      }
+    },
+    "issues": "The printed answer is on page 28 and the working continues on page 29.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.h",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Solving the resistor ladder requires current division, an equivalent resistance and a final junction sum.",
+    "misconception": "Assuming identical resistors carry identical currents",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q22",
+    "keyPage": 29,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential at each point is $V=Er$ because P and Q lie the same distance $r$ from the point charge. The potential change from P to Q is zero, so the work done on moving a unit positive charge is $0\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Correct. P and Q are at the same potential.",
+        "B": "This uses the radius as a displacement along the field.",
+        "C": "This multiplies by the quarter-circle arc length even though the field is perpendicular to that path.",
+        "D": "This uses a semicircle length and ignores that the field is radial."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d",
+      "energy-and-fields.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognizing that equal distances from a point charge give equal potentials resolves the question.",
+    "misconception": "Multiplying field strength by path length without resolving the force",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q23",
+    "keyPage": 29,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upward curvature requires an upward electric force. A downward electric field exerts that force on a negative charge, giving the parabolic path shown.",
+      "perOption": {
+        "A": "A positive charge in a downward field accelerates downward.",
+        "B": "Reversing the horizontal motion still leaves the positive charge accelerating downward.",
+        "C": "A negative charge in an upward field accelerates downward.",
+        "D": "Correct. The downward field pushes the negative charge upward."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.h",
+      "electric-fields.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The curve gives the acceleration direction, which must be related to the sign of the charge.",
+    "misconception": "Assuming a negative charge accelerates along the electric field",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q24",
+    "keyPage": 29,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "low",
+    "explanation": {
+      "body": "The current in $W_1$ goes into the page. By the right-hand grip rule, $W_2$ produces a downward field at $W_1$, while the field from $W_3$ is parallel to the current in $W_1$ and contributes no force. Fleming’s left-hand rule gives a force to the left.",
+      "perOption": {
+        "A": "This reverses the force direction obtained from the downward field and the into-page current.",
+        "B": "Correct. The magnetic force is directed to the left.",
+        "C": "Downwards is the direction of the field from the wire that contributes to the force.",
+        "D": "An upward force would be inconsistent with the downward field and into-page current."
+      }
+    },
+    "issues": "The wire diagram is obscured in both available 2024 renders. The geometry and current directions could only be checked against the key’s description, which starts on page 29 and continues on page 30.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The solution combines the field direction from one wire with the force direction on another.",
+    "misconception": "Confusing magnetic field direction with magnetic force direction",
+    "transcription": "Three long wires $W_1$, $W_2$ and $W_3$ carrying the same current $I$ are arranged in the configuration as shown below.\n\n[The wire configuration is obscured by a black rectangle.]\n\nWhat is the direction of the resultant force acting on $W_1$?\n\nA to the right\nB to the left\nC downwards\nD upwards"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q25",
+    "keyPage": 30,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The moment about the pivot is $Fd$, where $d=0.23\\ \\mathrm{m}$. The force is $F=BIL\\sin 90^\\circ$, with $L=0.093\\ \\mathrm{m}$ and $B=3.6\\times10^{-2}\\ \\mathrm{T}$. Therefore $I=(7.4\\times10^{-3})/(BLd)=9.6\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "This value is too small to produce the required moment with both the wire length and lever arm included.",
+        "B": "This current gives only about $1.2\\times10^{-3}\\ \\mathrm{N\\,m}$ with the stated lever arm and crosspiece length.",
+        "C": "This current would produce a moment of only about $2.2\\times10^{-3}\\ \\mathrm{N\\,m}$.",
+        "D": "Correct. This current gives the stated moment."
+      }
+    },
+    "issues": "The question gives the magnetic flux density but omits its direction. The key assumes the field lies in the plane of the wire and is perpendicular to the 0.093 m crosspiece.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.h",
+      "forces-and-moments.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires identifying the force-bearing wire length and its moment arm.",
+    "misconception": "Using the arm length as the length of wire producing the turning force",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q26",
+    "keyPage": 30,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The magnitude of the induced emf between the centre and rim is $\\pi r^2 f B$, where $f$ is the rotation frequency. Since the disc rotates steadily in a constant field, this emf is constant with time.",
+      "perOption": {
+        "A": "An emf that starts from zero and alternates would require a varying rate or direction of flux cutting.",
+        "B": "Starting the alternating emf at a maximum still introduces a sign reversal absent from steady rotation.",
+        "C": "A steadily rising emf would require an increasing rotation frequency or magnetic field.",
+        "D": "Correct. The emf is constant in time."
+      }
+    },
+    "issues": "The 2024 disc and graph images are obscured in both available renders. The option shapes are inferred from the matching SAJC 2025 Q24 on page 16 and cannot be verified for the 2024 paper.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must recognize that a steadily rotating disc produces a steady centre-to-rim emf.",
+    "misconception": "Treating a rotating disc like a rotating coil",
+    "transcription": "The figure shows a copper disc rotating steadily about its centre O in a uniform magnetic field between two bar magnets. The magnetic field is acting perpendicularly to the disc.\n\n[The disc figure is obscured by a black rectangle.]\n\nWhich of the following graphs correctly shows the variation of the induced emf $\\varepsilon$ between the centre O and a point R on the rim of the disc with time $t$?\n\n[The option graphs are obscured in this image. The matching question in SAJC 2025 Paper 1 Q24 shows these graphs of $\\varepsilon$ against $t$.]\nA [Sinusoidal curve starting at zero and initially rising.]\nB [Sinusoidal curve starting at a positive maximum.]\nC [Straight line rising from the origin.]\nD [Horizontal line above zero.]"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q27",
+    "keyPage": 30,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Equal power gives $I^2R=I_{\\mathrm{rms}}^2(R/4)$, so $I_{\\mathrm{rms}}=2I$. For a sinusoid the peak current is $I_0=\\sqrt{2}\\,I_{\\mathrm{rms}}=2\\sqrt{2}\\,I$.",
+      "perOption": {
+        "A": "This makes the peak conversion but ignores the reduction in resistance.",
+        "B": "$2I$ is the rms value, so it still needs the peak conversion.",
+        "C": "Correct. The peak current is $2\\sqrt{2}\\,I$.",
+        "D": "This treats rms current as inversely proportional to resistance at fixed power."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must equate resistor powers and then convert the rms current to its peak value.",
+    "misconception": "Confusing the rms current with the peak current",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q28",
+    "keyPage": 30,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron emission rate is $\\mathrm{d}N_e/\\mathrm{d}t=I/e=(2.0\\times10^{-6})/(1.6\\times10^{-19})$. The incident photon rate is $\\mathrm{d}N_p/\\mathrm{d}t=P/E_\\gamma=(0.31\\times10^{-3})/(3.11\\times1.6\\times10^{-19})$. Dividing the electron rate by the photon rate gives $0.020$.",
+      "perOption": {
+        "A": "This is consistent with omitting the division by the elementary charge when finding the electron rate.",
+        "B": "Correct. About two electrons are emitted per hundred incident photons.",
+        "C": "This assumes every incident photon results in an emitted electron.",
+        "D": "This is far larger than one electron per photon and does not follow from the measured rates."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "currents.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain two particle rates from different measurements and then form their ratio.",
+    "misconception": "Confusing particle rates with charge flow or beam power",
+    "transcription": "A $0.31\\ \\mathrm{mW}$ beam of electromagnetic radiation is incident on a clean metal plate M. Each photon of the electromagnetic radiation has energy $3.11\\ \\mathrm{eV}$.\n\nThe potential difference $V$ in the circuit is varied until the microammeter gives a maximum reading of $2.0\\ \\mu\\mathrm{A}$.\n\n[The beam strikes the left plate M of a photocell. The two plates are connected in a loop with a microammeter and a variable voltage source marked $V$, drawn with its longer plate on the M side.]\n\nWhat is the ratio $\\frac{\\text{number of electrons emitted per unit time}}{\\text{number of photons incident per unit time}}$?\n\nA $3.2\\times10^{-21}$\nB $2.0\\times10^{-2}$\nC $1.0$\nD $1.3\\times10^{17}$"
+  },
+  {
+    "id": "sajc-2024-prelim-p1-q30",
+    "keyPage": 30,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing the cathode–target potential difference gives electrons more energy when they hit the target, so the minimum X-ray wavelength decreases. The overall intensity also increases because the more energetic electrons are more likely to produce X-ray photons.",
+      "perOption": {
+        "A": "Correct. Increasing the accelerating voltage moves the cutoff to shorter wavelengths and raises the intensity.",
+        "B": "Reducing the separation at fixed potential difference leaves the electron impact energy and the cutoff unchanged.",
+        "C": "Greater filament current supplies more electrons and raises intensity while leaving the cutoff unchanged.",
+        "D": "Changing target metal would shift the characteristic peak wavelengths."
+      }
+    },
+    "issues": "The question image clips parts of the graph labels. The shorter cutoff of Q and the matched peak positions are still discernible.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the shift in the short-wavelength cutoff from the unchanged characteristic peak positions.",
+    "misconception": "Confusing an intensity increase with a shift in the cutoff",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q1",
+    "keyPage": 20,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The exponent is dimensionless, so $\\Delta H$ has the same units as $RT$. These are $(\\mathrm{J\\,mol^{-1}\\,K^{-1}})(\\mathrm{K})=\\mathrm{J\\,mol^{-1}}$.",
+      "perOption": {
+        "A": "Correct. $\\mathrm{J\\,mol^{-1}}$ is energy per mole.",
+        "B": "This keeps the $\\mathrm{K^{-1}}$ in the units of $R$ after multiplying by temperature.",
+        "C": "This keeps only the units of $T$ and drops the units of $R$.",
+        "D": "The exponent is dimensionless, while $\\Delta H$ supplies units that cancel those of the other factors."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The unfamiliar equation reduces to a unit check once the exponent is recognized as dimensionless.",
+    "misconception": "Assuming that a dimensionless exponent makes every quantity in it dimensionless",
+    "transcription": "The Clausius-Clapeyron equation for measuring relative vapour pressure of a gas $\\frac{P}{P_o}$, at a temperature $T$ is as follows:\n\n$\\frac{P}{P_o}=e^{-\\frac{\\Delta H}{R}\\left(\\frac{1}{T}-\\frac{1}{T_o}\\right)}$\n\nwhere $\\Delta H$ is the enthalpy of vaporization, $R$ is the molar gas constant, $P$ and $P_o$ are the final and initial pressures and $T_o$ is the initial temperature of a gas.\n\nWhich of the following has the same units as $\\Delta H$?\n\nA energy per mole\nB molar gas constant\nC temperature\nD no units"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q2",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A and B both have a mean of $1.4925\\ \\mathrm{mm}$, close to the actual diameter of $1.49\\ \\mathrm{mm}$, whereas C and D give inaccurate means. B’s readings are more widely spread than A’s, so B is the less precise of the two accurate gauges.",
+      "perOption": {
+        "A": "A is accurate and its readings are also closely grouped.",
+        "B": "Correct. The mean is close to the true value and the readings have a large spread.",
+        "C": "C gives a mean well below the actual diameter.",
+        "D": "D gives a mean well below the actual diameter despite having one reading close to it."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student compares the means with the true value and then compares the spreads.",
+    "misconception": "Judging accuracy from spread alone",
+    "transcription": "A student made a series of measurements of the diameter $d$ of a wire using four micrometer screw gauges A, B, C and D. The table shows the measurements taken.\n\nIf the actual diameter of the wire was $1.49\\ \\mathrm{mm}$, which micrometer screw gauge produced a set of readings that could be described as accurate but not precise?\n\nMicrometer screw gauge | Readings $d$ / mm\nA | 1.49 | 1.46 | 1.52 | 1.50\nB | 1.48 | 1.58 | 1.51 | 1.40\nC | 1.35 | 1.37 | 1.42 | 1.42\nD | 1.32 | 1.37 | 1.41 | 1.50"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q3",
+    "keyPage": 20,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both cars start from rest, so at $3\\ \\mathrm{s}$ their separation is $36=\\tfrac12 a_1(3^2)-\\tfrac12 a_2(3^2)$, with car 1 the faster-accelerating car. Thus $a_1-a_2=8\\ \\mathrm{m\\,s^{-2}}$. At $5\\ \\mathrm{s}$ the separation is $\\tfrac12(5^2)(a_1-a_2)=100\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "This scales the separation linearly with time, as if the relative speed were constant.",
+        "B": "This underestimates the separation obtained using the same relative acceleration over the full five seconds.",
+        "C": "Correct. The common-start separation at $5\\ \\mathrm{s}$ is $100\\ \\mathrm{m}$.",
+        "D": "This results from using $8\\ \\mathrm{s}$ as the elapsed time, as if the five seconds started after the first three."
+      }
+    },
+    "issues": "The key labels the position difference as x₂ − x₁ while writing the displacement of car 1 minus that of car 2. The explanation uses a consistent ordering and retains the key’s calculation.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The first separation gives the difference in accelerations, which can then be used at the later time.",
+    "misconception": "Treating separation from rest as proportional to time",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q4",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Acceleration is proportional to force and is the gradient of the velocity–time graph. The acceleration is positive during contact, increasing at first and then decreasing to zero. The velocity therefore rises with a slope that first steepens and then flattens.",
+      "perOption": {
+        "A": "The slope starts steep, decreases and then increases again, reversing the trend in acceleration.",
+        "B": "Correct. The slope starts at zero, rises and returns to zero.",
+        "C": "The flat segment gives zero acceleration despite the applied force, and the vertical drop implies an abrupt velocity change.",
+        "D": "The straight segments imply constant acceleration and the sudden velocity reversal is incompatible with the positive force."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Solving requires translating the force graph into the changing slope of the velocity graph.",
+    "misconception": "Reading force as velocity instead of as proportional to its gradient",
+    "transcription": "A golf club hits a golf ball. The graph shows how the force $F$ on the ball varies with time $t$.\n\n[The $F$–$t$ graph is triangular, rising linearly from the origin to a positive peak and then falling linearly to zero.]\n\nWhich graph shows how the velocity $v$ of the ball varies with time $t$?\n\nA [The $v$–$t$ curve starts at the origin, rises steeply, becomes shallower, then steepens again.]\nB [The $v$–$t$ curve starts at the origin with a horizontal tangent, steepens, then flattens at a positive velocity.]\nC [The $v$–$t$ graph is initially horizontal at a positive velocity, then drops vertically through zero.]\nD [The $v$–$t$ graph rises linearly from zero, drops vertically from a positive to a negative velocity, then rises linearly to zero.]"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q5",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a mass $m$ of water striking the wall in time $t$, the horizontal momentum change is $0-mv$. The force magnitude is the rate of momentum change, $mv/t=\\rho Vv/t=\\rho ALv/t=A\\rho v^2$, since the length that arrives is $L=vt$. The water exerts the same force magnitude on the wall.",
+      "perOption": {
+        "A": "The factor of $\\tfrac12$ belongs to the kinetic energy formula and does not enter the momentum change.",
+        "B": "Correct. The wall receives horizontal momentum at a rate $A\\rho v^2$.",
+        "C": "This would require a horizontal rebound at speed $v/2$ after impact, whereas the water falls vertically.",
+        "D": "This doubles the change as if the water rebounded horizontally at speed $v$."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must obtain the mass hitting the wall each second and apply the horizontal momentum change.",
+    "misconception": "Treating the deflected water as rebounding horizontally",
+    "transcription": "A stream of water from a hose travels horizontally at speed $v$. The stream strikes a brick wall and falls vertically down it without splashing.\n\nThe stream of water is a cylinder of cross-sectional area $A$. The water has density $\\rho$.\n\nWhich expression is the force exerted on the wall by the water?\n\nA $\\frac12 A\\rho v^2$\nB $A\\rho v^2$\nC $\\frac32 A\\rho v^2$\nD $2A\\rho v^2$"
+  }
+]

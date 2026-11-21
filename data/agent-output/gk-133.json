@@ -1,0 +1,507 @@
+[
+  {
+    "id": "tjc-2025-prelim-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "AB and DE are parallel to the field and experience no magnetic force. By $F=BIL\\sin\\theta$, BC and CD experience equal forces of about $0.23\\ \\mathrm{N}$ into and out of the page, respectively. The forces cancel and form a clockwise couple about CF when viewed from the top.",
+      "perOption": {
+        "A": "Correct. The forces form a clockwise couple.",
+        "B": "Overlooks the torque from the separated lines of action.",
+        "C": "Adds the opposing forces as magnitudes and reverses the torque direction.",
+        "D": "Adds the opposing forces as magnitudes and overlooks the couple."
+      }
+    },
+    "issues": "The parser marked the answer missing, but page 4 prints A.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "forces-and-moments.e"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combine the magnetic force directions with the torque of a couple.",
+    "misconception": "Zero net force implies zero torque.",
+    "transcription": "A current of $0.3\\ \\mathrm{A}$ flows in a conductor ABCDE that lies on the plane of the paper as shown in the figure below.\n\n[The uniform magnetic field of $1.5\\ \\mathrm{T}$ points right. A, B, D and E lie on a horizontal line, in that order. BC slopes up to C and CD slopes back down to D. Each of AB, BC, CD and DE is labelled $0.6\\ \\mathrm{m}$. The angle between BC and CD at C is $60^\\circ$. Current arrows point from A towards E. A vertical dashed line runs through C to F below the conductor.]\n\nThe conductor is inside a region of a uniform magnetic field having a magnetic field strength of $1.5\\ \\mathrm{T}$. AB and DE are parallel to the magnetic field. Angle BCD is $60^\\circ$. The lengths of segments AB, BC, CD and DE are $0.6\\ \\mathrm{m}$ each.\n\nWhich of the following describe the resultant force and resultant torque on the conductor?\n\nMagnitude of resultant force | torque (view from the top)\nA. $0\\ \\mathrm{N}$ | Clockwise about CF\nB. $0\\ \\mathrm{N}$ | No resultant torque\nC. $0.47\\ \\mathrm{N}$ | Anti-clockwise about CF\nD. $0.47\\ \\mathrm{N}$ | No resultant torque"
+  },
+  {
+    "id": "tjc-2025-prelim-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Apply Fleming’s left-hand rule, taking conventional current opposite to the direction of electron motion. The electrons accumulate at P, so Q is at a higher electrical potential.",
+      "perOption": {
+        "A": "Correct. Electrons accumulate at P.",
+        "B": "The open rod carries no sustained current to produce the proposed magnetic force.",
+        "C": "Charge separation creates a potential difference without a sustained current.",
+        "D": "Gravity exerts a torque that increases the rod’s angular speed."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.f",
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Infer the potential difference from the direction of force on electrons.",
+    "misconception": "An induced potential difference requires a closed circuit.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2025-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Photoemission can occur at very low intensity if the frequency exceeds the threshold $f_0$, corresponding to a maximum wavelength $\\lambda_0=c/f_0$. The maximum kinetic energy follows $hf=\\Phi+E_{k,\\max}$ and depends on frequency and work function. For $N_p$ photons arriving on area $A$ in time $t$, $I=N_p hf/(tA)$, so increasing $f$ at fixed intensity lowers the rate of photon arrival and hence the rate of photoemission in this model.",
+      "perOption": {
+        "A": "Low-intensity radiation can cause emission if its frequency exceeds the threshold.",
+        "B": "The threshold wavelength $\\lambda_0=c/f_0$ is a maximum.",
+        "C": "Increasing intensity at fixed frequency leaves the maximum kinetic energy and speed unchanged.",
+        "D": "Correct. At fixed intensity, more energetic photons arrive at a lower rate."
+      }
+    },
+    "issues": "D assumes the photoelectron yield per incident photon stays effectively constant as frequency changes.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.a",
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Distinguish photon flux from photon energy at constant intensity.",
+    "misconception": "Fixed intensity means fixed photon flux.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2025-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "medium",
+    "explanation": {
+      "body": "At the same speed, a proton’s greater mass gives it more than 1000 times the electron’s momentum. Its de Broglie wavelength $\\lambda=h/p$ is therefore much shorter, and the rings are taken to be unobservable in this setup.",
+      "perOption": {
+        "A": "Smaller radii are expected for corresponding diffraction orders, but this assumes the rings remain resolvable.",
+        "B": "A shorter wavelength gives smaller angles for corresponding diffraction orders.",
+        "C": "Equal speeds give different momenta because the masses differ.",
+        "D": "Correct. The key treats the proton rings as too small to observe."
+      }
+    },
+    "issues": "D depends on the apparatus resolution, which is unspecified. A describes the corresponding rings if they can be resolved.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.d",
+      "quantum-physics.e"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Relate the change in mass at fixed speed to observable diffraction.",
+    "misconception": "Equal speeds imply equal de Broglie wavelengths.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2025-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial rates satisfy $A_{P0}+A_{Q0}=800$. After 120 minutes, $A_{P0}(1/2)^{120/60}+A_{Q0}(1/2)^{120/30}=80$. Multiplying the resulting equation by 16 gives $4A_{P0}+A_{Q0}=1280$. Subtracting the initial-rate equation gives $3A_{P0}=480$, so $A_{P0}=160\\ \\mathrm{min^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This split predicts a final total of $60+35=95\\ \\mathrm{min^{-1}}$.",
+        "C": "Uses 480 before dividing by 3.",
+        "D": "Gives the initial count rate of Q."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combine two separate decay factors in simultaneous equations.",
+    "misconception": "Applying one half-life to the total count rate.",
+    "transcription": "A radioactive source consists of a mixture of two isotopes P and Q.\n\nP has a half-life of 60 minutes and Q has a half-life of 30 minutes. The initial count rate recorded by a suitable counter is $800\\ \\mathrm{min^{-1}}$. After 120 minutes the counter registers a count rate of $80\\ \\mathrm{min^{-1}}$.\n\nWhat was the initial count rate of P?\n\nA. $160\\ \\mathrm{min^{-1}}$\nB. $240\\ \\mathrm{min^{-1}}$\nC. $480\\ \\mathrm{min^{-1}}$\nD. $640\\ \\mathrm{min^{-1}}$"
+  },
+  {
+    "id": "tjc-2025-prelim-p1-q30",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Only $\\alpha$ decay changes the mass number, reducing it by 4 each time. The final mass number must therefore differ from 238 by a multiple of 4, and only lead-206 meets this condition.",
+      "perOption": {
+        "A": "A mass-number loss of 33 is not divisible by 4.",
+        "B": "Correct. The mass-number loss is 32.",
+        "C": "A mass-number loss of 31 is not divisible by 4.",
+        "D": "A mass-number loss of 30 is not divisible by 4."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the mass-number change in alpha decay to eliminate three options.",
+    "misconception": "Beta or gamma decay changes the mass number.",
+    "transcription": "Uranium-238 decays by a series of alpha, beta and gamma decays into a final stable nuclide.\n\nWhich of the following is the final stable nuclide of the series?\n\nA. $^{205}\\mathrm{Tl}$\nB. $^{206}\\mathrm{Pb}$\nC. $^{207}\\mathrm{Pb}$\nD. $^{208}\\mathrm{Pb}$"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a perpendicular conductor, $F=BIL$, so $[B]=[F]/([I][L])$. Substituting base units gives $(\\mathrm{kg\\,m\\,s^{-2}})/(\\mathrm{A\\,m})=\\mathrm{kg\\,s^{-2}\\,A^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Drops one inverse power of seconds from the units.",
+        "C": "Uses the coulomb, a derived unit equivalent to an ampere-second.",
+        "D": "Uses the newton, which is a derived unit."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "electromagnetic-forces.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Rearrange the magnetic force equation and substitute SI base units.",
+    "misconception": "Treating named derived units as base units.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "First convert $42.195\\ \\mathrm{km}$ to $42195\\ \\mathrm{m}$. This equals $4.2195\\times10^6\\ \\mathrm{cm}$, $4.2195\\times10^7\\ \\mathrm{mm}$, $4.2195\\times10^{10}\\ \\mu\\mathrm{m}$ or $4.2195\\times10^{13}\\ \\mathrm{nm}$.",
+      "perOption": {
+        "A": "The centimetre value is too small by a factor of 10.",
+        "B": "The millimetre value is too small by a factor of 10.",
+        "C": "Correct.",
+        "D": "The nanometre value is too small by a factor of 10."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Apply standard SI prefixes to a single distance.",
+    "misconception": "Miscounting powers of ten in prefix conversion.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $s=ut+\\tfrac12 at^2$ with $u=0$, the distance after time $t$ is $x=\\tfrac12 gt^2$. After time $2t$ the total distance is $\\tfrac12 g(2t)^2=4x$. The distance in the second interval is therefore $4x-x=3x$.",
+      "perOption": {
+        "A": "Assumes equal distances in equal times despite acceleration.",
+        "B": "Treats the second-interval distance as twice the first without accounting for the quadratic time dependence.",
+        "C": "Correct.",
+        "D": "Gives the total distance from release to time $2t$."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Distinguish the distance in the second interval from the total distance.",
+    "misconception": "Using total displacement as displacement in the second interval.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The weight $W$ acts downward and the normal force $N$ acts upward, so $W-N=ma$ for downward acceleration $a$. Thus $N=W-ma<W$. By Newton’s third law, the boy exerts a force of the same magnitude $N$ on the floor.",
+      "perOption": {
+        "A": "Equal weight and normal force would give zero acceleration.",
+        "B": "Correct.",
+        "C": "The two contact forces have equal magnitudes by Newton’s third law.",
+        "D": "The third-law pair always has equal magnitudes."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Apply Newton’s second and third laws to different force relationships.",
+    "misconception": "Confusing the normal force with the boy’s weight.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q5",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Balancing moments about the centre gives $T_Px=T_Qx$, so $T_P=T_Q$. Force balance on the objects gives $W_P-U_P=W_Q-U_Q$, or $W_P-\\rho_XgV=W_Q-\\rho_YgV$. Since the volumes are equal and $\\rho_X>\\rho_Y$, P has greater upthrust and therefore greater weight and mass.",
+      "perOption": {
+        "A": "Equal tensions still allow different weights because the upthrusts differ.",
+        "B": "Correct.",
+        "C": "Equal volumes displace liquids of different densities, giving different upthrusts.",
+        "D": "P displaces the denser liquid and experiences the greater upthrust."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combine rotational equilibrium of the rod with force balance on each object.",
+    "misconception": "Equal tensions imply equal weights despite unequal upthrusts.",
+    "transcription": "Two objects P and Q of the same volume are hung at either ends of a light uniform rod. They are fully submerged in liquids X and Y. Liquid X is denser than liquid Y. The rod is held in equilibrium when it is supported at its centre by a string as shown below.\n\n[A horizontal rod hangs from a vertical string attached at its centre. P hangs from the left end, fully submerged in liquid X. Q hangs from the right end, fully submerged in liquid Y.]\n\nWhich of the following statements is correct?\n\nA. P and Q has the same mass.\nB. Mass of P is larger than mass of Q.\nC. P and Q experience the same magnitudes of upthrust.\nD. Upthrust acting on P is smaller than the upthrust acting on Q."
+  },
+  {
+    "id": "tmjc-2023-other-p1-q6",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take right as positive. Conservation of momentum and kinetic energy for the first collision gives $u_P=v_P+v_Q$ and $u_P^2=v_P^2+v_Q^2$. Squaring the momentum equation and subtracting the energy equation gives $2v_Pv_Q=0$. Since Q moves after impact, $v_P=0$ and $v_Q=u_P$. The same transfer occurs when Q strikes R, so Q stops and R moves right at the original speed.",
+      "perOption": {
+        "A": "Assumes the discs share the motion although each struck disc takes the incoming speed.",
+        "B": "Assumes both incoming discs rebound when each comes to rest after impact.",
+        "C": "Assumes P rebounds although it stops after colliding with Q.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key has a sign typo in the intermediate expansion. Both squared-speed terms are subtracted to obtain the printed result.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Apply conservation laws to two successive elastic collisions.",
+    "misconception": "Assuming equal masses rebound in an elastic collision.",
+    "transcription": "Three identical stationary discs P, Q and R are placed in a line on a horizontal flat, frictionless surface. Disc P is projected straight towards disc Q.\n\n[The discs are arranged left to right as P, Q and R on a dashed horizontal line. An arrow from P points right towards Q.]\n\nIf all collisions are elastic, what will be the final motion of the three discs?\n\nOption | P | Q | R\nA | moving right | moving right | moving right\nB | moving left | moving left | moving right\nC | moving left | stationary | moving right\nD | stationary | stationary | moving right"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q7",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The motor must supply a tangential force equivalent to the tension difference, $40-25=15\\ \\mathrm{N}$. Use $P=Fv$, where $v$ is the speed at the wheel’s circumference. This gives $P=15[2\\pi(0.080)(10)]\\approx75\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Uses 10 revolutions per second as 10 radians per second.",
+        "B": "Uses half the rim speed, as if 0.080 m were the diameter.",
+        "C": "At the stated rim speed, this power corresponds to about $10\\ \\mathrm{N}$ instead of the $15\\ \\mathrm{N}$ tension difference.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "circular-motion",
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "circular-motion.c",
+      "forces-and-moments.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find power from the opposing tensions and the speed of the moving rim.",
+    "misconception": "Using revolutions per second as radians per second.",
+    "transcription": "A wheel of radius $0.080\\ \\mathrm{m}$ is driven by a motor, as shown in the diagram below.\n\nA light rope is passed over the circumference of the wheel.\n\nOne end of the rope is fastened to a freely hanging load of weight $40\\ \\mathrm{N}$. The other end of the rope is fastened to a load of weight $25\\ \\mathrm{N}$.\n\n[The wheel turns clockwise. The rope hangs vertically on both sides, with the $40\\ \\mathrm{N}$ load on the left and the $25\\ \\mathrm{N}$ load on the right.]\n\nWhen the wheel turns at a constant rate of 10 revolutions per second, both loads remain stationary.\n\nWhat is the output power of the motor?\n\nA. $12\\ \\mathrm{W}$\nB. $38\\ \\mathrm{W}$\nC. $50\\ \\mathrm{W}$\nD. $75\\ \\mathrm{W}$"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q8",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cord tension supplies the centripetal force, so $T=mv^2/r$ and $kx=mv^2/r$. Substituting gives $42x=0.80(3.2)^2/0.72$, hence $x=0.27\\ \\mathrm{m}$. The unstretched length is $0.72-0.27=0.45\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Gives the extension of the cord.",
+        "B": "Correct.",
+        "C": "This length implies only $0.12\\ \\mathrm{m}$ of extension, giving too little tension to sustain the circular motion.",
+        "D": "Omitting the square on the speed gives an extension of about $0.08\\ \\mathrm{m}$, which is too small."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the extension from the centripetal force and subtract it from the radius.",
+    "misconception": "Confusing extension with unstretched length.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q9",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking the direction towards the Sun as positive, Newton’s second law gives $GM_Sm/R^2-GM_Em/r^2=ma$. Cancelling $m$ gives $a=GM_S/R^2-GM_E/r^2$.",
+      "perOption": {
+        "A": "Omits the Earth’s gravitational pull.",
+        "B": "Uses the Sun–satellite distance for the Earth’s pull and omits the Sun’s pull.",
+        "C": "Reverses the signs for the sunward convention.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Page 5 gives the working and page 1 prints D. Option C is the signed component if the opposite axis convention is chosen.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Assign each gravitational force its own distance and direction.",
+    "misconception": "Reversing the sign of opposing gravitational contributions.",
+    "transcription": "A solar satellite of mass $m$ is positioned between the Earth, mass $M_E$, and the Sun, mass $M_S$. The satellite is at a distance $r$ from the Earth and a distance $R$ from the Sun.\n\n[The Earth, satellite and Sun lie in that order on a straight horizontal line. The Earth–satellite separation is $r$ and the satellite–Sun separation is $R$.]\n\nThe satellite orbits around the Sun with the same orbital period of 1 year as that of the Earth.\n\nWhich of the following is the correct expression for the acceleration of the satellite?\n\nA. $G\\frac{M_S}{R^2}$\nB. $G\\frac{M_E}{R^2}$\nC. $G\\frac{M_E}{r^2}-G\\frac{M_S}{R^2}$\nD. $G\\frac{M_S}{R^2}-G\\frac{M_E}{r^2}$"
+  }
+]

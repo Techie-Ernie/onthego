@@ -1,0 +1,495 @@
+[
+  {
+    "id": "rvhs-2024-other-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the syllabus estimate $\\Delta x\\Delta p\\gtrsim h$, first find the speed uncertainty $\\Delta v=(0.005/100)(2.0\\times10^6)=100\\ \\mathrm{m\\,s^{-1}}$. With $\\Delta p=m\\Delta v$, the minimum estimated position uncertainty is $\\Delta x\\approx\\frac{6.63\\times10^{-34}}{(9.11\\times10^{-31})(100)}=7.278\\times10^{-6}\\ \\mathrm{m}\\approx7.3\\times10^{-6}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Gives a position uncertainty far below the bound set by $\\Delta p=m\\Delta v$.",
+        "B": "Uses the full speed in place of $\\Delta v$.",
+        "C": "Correct.",
+        "D": "Applies the fractional uncertainty a second time to $\\Delta v$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Converting the percentage uncertainty to a momentum uncertainty is a separate step before using the uncertainty principle.",
+    "misconception": "Using the electron's speed as its speed uncertainty",
+    "transcription": "In an atom, an electron is moving with a speed of $2.0\\times10^6\\ \\mathrm{m\\,s^{-1}}$ with an uncertainty of $0.005\\%$.\n\nWhat is the minimum uncertainty with which the location of the electron can be located?\n\nA $2.7\\times10^{-23}\\ \\mathrm{m}$\nB $3.6\\times10^{-10}\\ \\mathrm{m}$\nC $7.3\\times10^{-6}\\ \\mathrm{m}$\nD $0.15\\ \\mathrm{m}$"
+  },
+  {
+    "id": "rvhs-2024-other-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "An $\\alpha$-particle passing close to a gold nucleus experiences strong electrostatic repulsion and can be scattered through a large angle. The nucleus contains most of the atom's mass and positive charge in a tiny region, so only a small fraction of the incident particles pass close enough to undergo such a deflection.",
+      "perOption": {
+        "A": "An off-centre encounter can produce a sideways component of the repulsive force.",
+        "B": "The gold nucleus is massive, and most particles pass far enough from it to experience little deflection.",
+        "C": "The atom is mostly empty space, which explains the prevalence of small deflections.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must match the rare large deflections to close encounters with the nucleus.",
+    "misconception": "Confusing the mostly empty atom with its nucleus",
+    "transcription": "A thin gold foil is bombarded with $\\alpha$-particles as shown.\n\n[Incident $\\alpha$-particles approach a vertical gold foil horizontally from the left. Most outgoing paths are clustered around the forward direction. A few leave at large angles, including backward.]\n\nWhich explanation best explains the corresponding observation?\n\nA Observation: Most of the particles undergo little to no deflection. Explanation: The electrostatic repulsion acting on them is only along the direction of initial velocity.\nB Observation: Most of the particles undergo little to no deflection. Explanation: The mass of the nucleus is too little.\nC Observation: A tiny fraction of the particles is scattered at large angles. Explanation: The nucleus is mostly empty space.\nD Observation: A tiny fraction of the particles is scattered at large angles. Explanation: Bulk of the mass of the atom is concentrated in a very small positively charged region."
+  },
+  {
+    "id": "rvhs-2024-other-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each $\\beta^-$ emission increases the proton number by one while leaving the nucleon number unchanged. After two emissions the proton number is $92$ and the nucleon number is $234$, which is point B.",
+      "perOption": {
+        "A": "Increases the proton number correctly but incorrectly decreases the nucleon number to 232.",
+        "B": "Correct.",
+        "C": "Decreases the proton number even though each emission increases it.",
+        "D": "Decreases the proton number and incorrectly increases the nucleon number."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student applies the same decay rule twice and locates the resulting nuclide on the grid.",
+    "misconception": "Decreasing the proton number in beta-minus decay",
+    "transcription": "$^{234}_{90}\\mathrm{Th}$ decays by $\\beta^-$ emission into a daughter product which in turn decays by a $\\beta^-$ emission into a granddaughter product.\n\nWhich letter in the diagram represents the granddaughter product?\n\n[The horizontal axis is nucleon number, marked 232 to 236. The vertical axis is proton number, marked 88 to 92. The points are A (232, 92), B (234, 92), C (234, 88) and D (236, 88).]"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Area has unit $\\mathrm{m^2}$ and current has unit $\\mathrm{A}$, so each uses one distinct SI base unit. Charge has unit $\\mathrm{A\\,s}$, using two, and force has unit $\\mathrm{kg\\,m\\,s^{-2}}$, using three.",
+      "perOption": {
+        "A": "The exponent in $\\mathrm{m^2}$ still leaves just one distinct base unit.",
+        "B": "Correct.",
+        "C": "The ampere is itself an SI base unit.",
+        "D": "Force uses three distinct base units, $\\mathrm{kg}$, $\\mathrm{m}$ and $\\mathrm{s}$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.a",
+      "quantities-and-measurement.c"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The task asks for standard derived units and a count of their distinct base units.",
+    "misconception": "Counting powers as distinct units",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Under the same conditions, a systematic error biases repeated readings by the same amount and in the same direction. Reducing it requires identifying and removing the source, as when an analogue ammeter is zeroed before use.",
+      "perOption": {
+        "A": "Averaging node spacings reduces random variation while leaving any consistent measurement bias.",
+        "B": "Averaging diameter readings reduces random scatter while leaving any instrument offset.",
+        "C": "Correct. Zeroing removes a consistent offset.",
+        "D": "Timing many oscillations reduces the fractional uncertainty from timing."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.f"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Zeroing an instrument is a standard example of removing systematic error.",
+    "misconception": "Confusing random scatter with systematic bias",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The jumper is momentarily at rest at R, where $v=0$. Her acceleration is zero at Q, where the gradient of the velocity–time graph is zero.",
+      "perOption": {
+        "A": "P has positive velocity, so the jumper is moving there.",
+        "B": "Q has positive velocity, and R has a nonzero gradient.",
+        "C": "Correct.",
+        "D": "R has zero velocity but a nonzero gradient."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The graph directly shows the zero crossing and the horizontal tangent.",
+    "misconception": "Confusing zero velocity with zero acceleration",
+    "transcription": "The graph shows how velocity $v$ varies with time $t$ for a bungee jumper.\n\n[On the $v$–$t$ graph, the curve begins at the origin, rises through P to a maximum at Q, then crosses the time axis at R before dipping to a negative minimum and rising again.]\n\nAt which point is the bungee jumper momentarily at rest and at which point does she have zero acceleration?\n\nOption | jumper at rest | jumper with zero acceleration\nA | P | Q\nB | Q | R\nC | R | Q\nD | R | R"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The uranium nucleus is initially at rest, so conservation of momentum gives $0=m_\\alpha v_\\alpha+m_Xv_X$ for signed velocities. The ratio of speeds is $\\frac{|v_\\alpha|}{|v_X|}=\\frac{m_X}{m_\\alpha}=\\frac{3.89\\times10^{-25}}{6.65\\times10^{-27}}=58$ to two significant figures.",
+      "perOption": {
+        "A": "Inverts the required speed ratio.",
+        "B": "A ratio near unity overlooks the large difference in the two masses.",
+        "C": "Equal momentum magnitudes would give equal speeds only for equal masses.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "nuclear-physics"
+    ],
+    "outcomes": [
+      "collisions.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "A single momentum balance gives an inverse relation between speed and mass.",
+    "misconception": "Equating speeds when momentum magnitudes are equal",
+    "transcription": "A stationary uranium nucleus disintegrates, emitting an alpha-particle of mass $6.65\\times10^{-27}\\ \\mathrm{kg}$ and another nucleus X of mass $3.89\\times10^{-25}\\ \\mathrm{kg}$.\n\n[The uranium nucleus before decay is shown in the centre, with arrows pointing in opposite directions toward the alpha-particle and nucleus X. The diagram is not drawn to scale.]\n\nWhich of the following gives the ratio $\\frac{\\text{speed of alpha-particle}}{\\text{speed of nucleus X}}$?\n\nA 0.017\nB 0.98\nC 1.0\nD 58"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The three masses accelerate together at $a=\\frac{F}{M_1+M_2+M_3}$. Applying Newton's second law to $M_3$, the horizontal frictional force on it has magnitude $M_3a=\\frac{M_3F}{M_1+M_2+M_3}$.",
+      "perOption": {
+        "A": "Treats the applied force on the whole system as the force on $M_3$.",
+        "B": "Uses only $M_2$ when calculating the system's acceleration.",
+        "C": "Leaves $M_3$ out of the total mass when calculating the common acceleration.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must apply Newton's second law first to the system and then to the top block.",
+    "misconception": "Omitting the top block from the accelerated mass",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done is the area under a force-versus-extension graph over the given extension interval. Here extension is on the vertical axis, so the relevant area lies between the curve and the vertical axis from $x_1$ to $x_2$, which is S.",
+      "perOption": {
+        "A": "Takes the area below the displayed curve from zero force to the force at the final extension.",
+        "B": "Correct.",
+        "C": "Includes the work from zero extension to $x_1$.",
+        "D": "Uses the area below the curve over the force interval, with force as the horizontal variable."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The axes are reversed from the usual force-versus-extension plot, so the area must be read sideways.",
+    "misconception": "Reading the area below a graph with reversed axes",
+    "transcription": "The variation with force of the extension of a spring is shown in the figure below. The work done in stretching the spring from $x_1$ to $x_2$ is given by the area\n\n[The vertical axis is $x/\\mathrm{m}$ and the horizontal axis is $F/\\mathrm{N}$. A straight line rises from the origin. Dashed guides run horizontally at $x_1$ and $x_2$ to the line, and vertically down from each intersection. P is below the line and left of the first vertical guide. Q is below the line between the vertical guides. R is above the line and below $x_1$. S is above the line between $x_1$ and $x_2$.]\n\nA P + Q\nB S\nC R + S\nD Q"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The motion involves changes in gravitational potential and kinetic energy as well as work against friction. The inelastic cord makes $m$ travel distance $x$ along the plane as $M$ descends by $x$, so the heat generated by the frictional force $F$ is $Fx$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the gain in gravitational potential energy of $m$ as the heat generated.",
+        "C": "Subtracts the work against friction from the gain in gravitational potential energy of $m$.",
+        "D": "Counts the gain in gravitational potential energy of $m$ as part of the heat."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the distance travelled along the plane and identify the work done against friction.",
+    "misconception": "Counting gravitational potential energy as frictional heating",
+    "transcription": "A mass $m$ moves on a rough plane inclined at an angle $\\theta$ to the horizontal and, when moving, experiences a constant frictional force $F$. Mass $M$ is attached to it by means of a light inelastic cord running over a smooth pulley. Mass $M$ is allowed to fall a vertical distance $x$, causing $m$ to move up the plane as shown.\n\n[The cord runs from $m$ up the slope over a pulley to the hanging mass $M$. Friction $F$ points down the slope. Dashed outlines show $m$ farther up the slope and $M$ a vertical distance $x$ below its starting point.]\n\nHow much heat is generated by friction in this process?\n\nA $Fx$\nB $mgx\\sin\\theta$\nC $mgx\\sin\\theta-Fx$\nD $mgx\\sin\\theta+Fx$"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q8",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The school uses $p=Fv$ and $v=at$ for motion from rest under constant acceleration. It uses the average speed over the interval from $0$ to $t$, $v/2$, to obtain an average power of $\\tfrac12 Fat$. This gives a straight line through the origin, as in D.",
+      "perOption": {
+        "A": "Treats power as constant even though speed increases from zero.",
+        "B": "Shows a decreasing gradient despite constant force and constant acceleration.",
+        "C": "Shows an increasing gradient despite constant force and constant acceleration.",
+        "D": "Correct. The power rises linearly from zero."
+      }
+    },
+    "issues": "The key calculates average power from time zero, $\\tfrac12 Fat$. The question asks for instantaneous power, $Fat$. Both give graph D.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student combines the power equation with the speed–time relation to choose a graph.",
+    "misconception": "Assuming constant force supplies constant power",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q9",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "medium",
+    "explanation": {
+      "body": "In the tail view, the key shows two forces, weight vertically downward and lift perpendicular to the wings. The lift has a horizontal component toward Q, which supplies the inward resultant force.",
+      "perOption": {
+        "A": "Adds an extra force along the wing line.",
+        "B": "Correct.",
+        "C": "The supplied image crops this diagram, leaving the full force arrangement unverified.",
+        "D": "The visible upward force is vertical, so it cannot provide the inward component of lift."
+      }
+    },
+    "issues": "Question PNG crops options C and D. The complete diagram for B matches the school's explanation, and C's full force arrangement could not be verified.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.d"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise that banked lift supplies the inward component of the resultant.",
+    "misconception": "Drawing centripetal force as a separate force",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At steady state the bulbs have the same pressure, so $\\frac{V_X}{n_XRT_X}=\\frac{V_Y}{n_YRT_Y}$. The amount of gas is proportional to its mass for the same gas, giving $\\frac{m_X}{m_Y}=\\frac{V_X}{V_Y}\\frac{T_Y}{T_X}=2\\left(\\frac{400}{200}\\right)=4$. Thus $m_Y=m/4$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Accounts only for the smaller volume of Y and ignores its higher temperature.",
+        "C": "Treats the larger volume of X and the higher temperature of Y as cancelling in the mass ratio.",
+        "D": "Inverts the mass ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Equal pressure must be recognised before combining the volume and temperature ratios.",
+    "misconception": "Using gas mass as directly proportional to temperature at fixed pressure and volume",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant pressure, the work done is $W=p\\Delta V=p_fV_f-p_iV_i=nRT_f-nRT_i$. The volume doubles, so the absolute temperature rises from $T$ to $2T$. Hence $W=nR(2T-T)=nRT=RT$ for one mole.",
+      "perOption": {
+        "A": "Uses half the initial volume as the volume change even though the expansion adds a full initial volume.",
+        "B": "Correct.",
+        "C": "Uses the monatomic ideal-gas internal energy change $\\tfrac32 RT$ in place of expansion work.",
+        "D": "Uses the final value $pV_f$ in place of $p\\Delta V$."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student combines constant-pressure expansion work with the ideal-gas equation.",
+    "misconception": "Using final volume in place of the change in volume",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Internal energy includes microscopic kinetic and potential energies and also depends on the amount of substance. For example, for a monatomic ideal gas, $U=\\tfrac32 NkT$ depends on both the particle number and temperature. Work done on a system, such as during insulated compression, can increase its internal energy without heating.",
+      "perOption": {
+        "A": "Ignores the amount of substance and the contribution of microscopic potential energy.",
+        "B": "Internal energy can rise through an increase in microscopic potential energy at constant temperature.",
+        "C": "Correct. Work can increase internal energy without heating.",
+        "D": "Equal internal energies can occur at different temperatures, for instance when the systems have different numbers of particles."
+      }
+    },
+    "issues": "The key's formula applies to a monatomic ideal gas, and the page margin notes that potential energy should be included in the general explanation. The key gives no explicit reason for C, so the explanation adds the first-law reasoning.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish internal energy from temperature and recognise work as a transfer mechanism.",
+    "misconception": "Equating internal energy with temperature",
+    "transcription": null
+  }
+]

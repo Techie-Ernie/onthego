@@ -1,0 +1,509 @@
+[
+  {
+    "id": "ri-2023-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top, tension and weight both act inward, so $1.2+0.040(9.81)=mv^2/0.30$ and $\\tfrac12mv^2=0.23886\\ \\mathrm{J}$. By conservation of energy, $0.23886+0.040(9.81)(2\\times0.30)=\\tfrac12(0.040)u^2$, giving $u^2=23.715\\ \\mathrm{m^2\\,s^{-2}}$ at the bottom. The centripetal acceleration there is $u^2/r=23.715/0.30=79.1\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Uses the centripetal acceleration at the top.",
+        "B": "Uses one radius for the vertical drop between the top and bottom.",
+        "C": "Omits the ball’s weight when finding its speed at the top.",
+        "D": "Correct. The ball gains kinetic energy over a drop of two radii."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.e",
+      "circular-motion.f",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must find the speed at the top from the radial forces and then use energy conservation to find the speed at the bottom.",
+    "misconception": "Using the same speed at the top and bottom.",
+    "transcription": "A small ball of mass $0.040\\ \\mathrm{kg}$ is attached to a light string and rotates in a vertical circle of radius $0.30\\ \\mathrm{m}$. When the ball is vertically above the centre of the circle, the tension in the string is $1.2\\ \\mathrm{N}$.\n\n[The ball is at the top of a dashed circle, with the string running vertically down to the centre. The radius is labelled $0.30\\ \\mathrm{m}$.]\n\nWhat is the centripetal acceleration of the ball when it is vertically below the centre of the circle?\n\nA $40\\ \\mathrm{m\\,s^{-2}}$\nB $59\\ \\mathrm{m\\,s^{-2}}$\nC $69\\ \\mathrm{m\\,s^{-2}}$\nD $79\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "On S to Q, $G_1$ has a nonzero minimum, indicating that the stars have different masses. On P to R, $G_3$ starts at a lower field strength than it ends, indicating that X is less massive than Y. The zero-field point lies closer to X, so the spacecraft can spend about as long covering the shorter distance from P to that point at lower speeds as it spends covering the longer distance to R at higher speeds.",
+      "perOption": {
+        "A": "With unequal masses, the symmetric endpoints P and R have different field magnitudes.",
+        "B": "Correct. The perpendicular path has no cancellation, and the axial path crosses a zero closer to X.",
+        "C": "A zero on S to Q would require equal masses, which also give a zero between P and R.",
+        "D": "A zero on S to Q would imply equal masses, which give equal field magnitudes at P and R."
+      }
+    },
+    "issues": "B is the intended qualitative match. A zero between P and R requires a suitable mass ratio, which is unspecified. At a zero crossed with nonzero speed, the magnitude should have a cusp, whereas the printed graph shows a smooth minimum.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must compare vector cancellation along two paths and account for the effect of acceleration on the time axis.",
+    "misconception": "Assuming equidistant points always have zero resultant field.",
+    "transcription": "The diagram shows two stars, X and Y and 5 points, O, P, Q, R and S.\nO is the midpoint of the line joining the centres of X and Y.\nP and R are on the line joining the centres of X and Y and are at the same distance from the centres of X and Y respectively.\nQ and S are on the perpendicular bisector of the line joining P and R and are at the same distance from O.\n\n[X, P, O, R and Y lie left to right along a dashed horizontal line. Q is above O and S is below O on a dashed perpendicular line.]\n\nA spacecraft travels with constant acceleration in its direction of travel between 2 points.\n\nGraphs $G_1$, $G_2$ and $G_3$ show the possible variations in the magnitude of the resultant gravitational field strength $g$ due to the stars at the position of the spacecraft with time $t$.\n\n[All three graphs plot $g$ vertically and $t$ horizontally. $G_1$ falls to a positive minimum after halfway and rises to its starting value. $G_2$ falls to zero after halfway and rises to its starting value. $G_3$ falls to zero near halfway and rises to a value above its starting value.]\n\nWhich graphs correspond to the motions of the spacecraft from S to Q and P to R?\n\nOption | S to Q | P to R\nA | $G_1$ | $G_2$\nB | $G_1$ | $G_3$\nC | $G_2$ | $G_1$\nD | $G_2$ | $G_3$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential at Q is $\\phi_Q=-2.0\\ \\mathrm{J\\,kg^{-1}}$. Since potential is inversely proportional to distance from P, $\\phi_R/\\phi_Q=PQ/PR=1/4$, so $\\phi_R=-0.5\\ \\mathrm{J\\,kg^{-1}}$. The external work is $m(\\phi_R-\\phi_Q)=3.0(-0.5+2.0)=4.5\\ \\mathrm{J}$. The external force points in the direction of the displacement from Q to R, so its work is positive.",
+      "perOption": {
+        "A": "Multiplies the potential at Q by the distance ratio $QR/PQ=3$ and treats that value as the potential change.",
+        "B": "Reverses the potential difference by subtracting the final potential from the initial potential.",
+        "C": "Correct. The gravitational potential increases from Q to R.",
+        "D": "Treats the distance ratio as a multiplier for the potential change instead of calculating the two potentials."
+      }
+    },
+    "issues": "The key prints J for the potential at R. The explanation uses J/kg.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.e",
+      "gravitational-fields.f",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must work out the distance ratio from the sphere’s centre and then use the signed difference in potential.",
+    "misconception": "Using QR as the distance of R from the sphere’s centre.",
+    "transcription": "Point P is at the centre of a uniform sphere M. The work done by an external force in bringing a mass of $1.0\\ \\mathrm{kg}$ from infinity to point Q is $-2.0\\ \\mathrm{J}$.\n\n[Sphere M is shown in cross-section with P at its centre. A dashed horizontal line runs right from P through Q to R, both outside the sphere.]\n\nThe ratio $\\frac{PQ}{QR}$ is $\\frac{1}{3}$.\n\nWhat is the work done by an external force to bring a mass of $3.0\\ \\mathrm{kg}$ from Q to R?\n\nA $-18\\ \\mathrm{J}$\nB $-4.5\\ \\mathrm{J}$\nC $4.5\\ \\mathrm{J}$\nD $18\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In simple harmonic motion, $a=-\\omega^2x$, so acceleration and displacement have opposite signs whenever they are nonzero. The two curves have coincident zeros and opposite signs, so P can be acceleration and Q displacement.",
+      "perOption": {
+        "A": "Correct. Acceleration and displacement are half a period out of phase.",
+        "B": "Acceleration and velocity are a quarter period apart.",
+        "C": "Displacement and velocity are a quarter period apart.",
+        "D": "The oscillatory potential energy is proportional to displacement squared and varies at twice the frequency of velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The opposite signs and simultaneous zero crossings identify the acceleration–displacement pair.",
+    "misconception": "Confusing a quarter-period phase difference with a half-period phase difference.",
+    "transcription": "The two graphs below are for the motion of a body undergoing simple harmonic motion.\n\n[Two graphs have time on their horizontal axes and P and Q on their respective vertical axes. Both curves start at zero and are sinusoidal with the same period. P initially rises, Q initially falls, and their zero crossings coincide.]\n\nWhat could be represented by the quantities P and Q?\n\nOption | P | Q\nA | acceleration | displacement\nB | acceleration | velocity\nC | displacement | velocity\nD | potential energy | velocity"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total energy equals the maximum kinetic energy, $E=\\tfrac12mv_0^2=\\tfrac12m(\\omega x_0)^2=2\\pi^2mx_0^2/T^2$. With $x'_0=2x_0$ and $T'=3T$, $E'=(x'_0/x_0)^2(T/T')^2E=2^2(1/3)^2(18)=8.0\\ \\mathrm{mJ}$.",
+      "perOption": {
+        "A": "Divides by four for the amplitude change instead of multiplying by four.",
+        "B": "Correct. The energy is multiplied by four and divided by nine.",
+        "C": "Accounts for the amplitude change but ignores the longer period.",
+        "D": "Multiplies by nine for the longer period instead of dividing by nine."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must combine two squared scale factors with opposite effects on the energy.",
+    "misconception": "Treating total energy as proportional to the square of the period.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q13",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Malus’ law, $I_1/I_0=\\cos^2 20^\\circ$ and $I_2/I_1=\\cos^2(\\theta-20^\\circ)$. Multiplying gives $I_2/I_0=\\cos^2 20^\\circ\\cos^2(\\theta-20^\\circ)=0.25$. Taking the positive square root gives $\\cos(\\theta-20^\\circ)=0.50/\\cos 20^\\circ=0.53209$. Hence $\\theta-20^\\circ=57.853^\\circ$ and $\\theta=77.853^\\circ\\approx78^\\circ$.",
+      "perOption": {
+        "A": "Subtracts the first filter’s angle from the angle between the axes instead of adding it.",
+        "B": "Reports the angle between the two transmission axes as the angle from vertical.",
+        "C": "Correct. The second transmission axis is about $78^circ$ from vertical.",
+        "D": "Treats the intensity ratio as a cosine instead of a squared cosine."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Applying Malus’ law twice requires tracking the new polarisation direction after the first filter.",
+    "misconception": "Measuring both Malus’ law angles from the incident polarisation.",
+    "transcription": "A beam of vertically polarised light of intensity $I_0$ is transmitted through two polarising filters $\\mathrm{P}_1$ and $\\mathrm{P}_2$ as shown. The axes of polarisation of $\\mathrm{P}_1$ and $\\mathrm{P}_2$ are $20^\\circ$ and $\\theta$ relative to the direction of polarisation of the incident light. The intensity of the light after passing through $\\mathrm{P}_2$ is $0.25 I_0$.\n\n[Vertically plane polarised light of intensity $I_0$ travels from left to right through $\\mathrm{P}_1$ and then $\\mathrm{P}_2$. Their transmission axes tilt to the same side of the vertical by $20^\\circ$ and $\\theta$, respectively.]\n\nWhat is the value of $\\theta$?\n\nA $38^\\circ$\nB $58^\\circ$\nC $78^\\circ$\nD $95^\\circ$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The string forms a stationary wave, and E and F lie in adjacent loops, so their phase difference is $\\pi$. Both particles have the same period, but F has a larger amplitude, giving it a greater maximum speed and hence a greater maximum kinetic energy.",
+      "perOption": {
+        "A": "Uses the progressive-wave phase formula and assumes equal maximum kinetic energies despite different amplitudes.",
+        "B": "Uses the progressive-wave phase formula for points in adjacent stationary-wave loops.",
+        "C": "Assumes equal maximum kinetic energies despite F’s larger amplitude.",
+        "D": "Correct. Adjacent loops oscillate in antiphase and F has the greater maximum kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "oscillations"
+    ],
+    "outcomes": [
+      "superposition.c",
+      "wave-motion.b",
+      "oscillations.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must read both the loop positions and the relative amplitudes from the stationary-wave diagram.",
+    "misconception": "Applying progressive-wave phase differences to a stationary wave.",
+    "transcription": "A string of length $L$ is stretched between two fixed points G and H and made to vibrate transversely as shown below.\n\n[Solid and dashed curves show opposite extremes of a three-loop stationary wave between G on the left and H on the right. E is in the middle loop near its left node, and F is at the antinode of the right-hand loop. The horizontal distance from E to F is labelled $s$ and the distance from G to H is labelled $L$.]\n\nTwo particles E and F on the string are separated by a distance $s$. The maximum kinetic energies of particles E and F are $K_{\\mathrm{E}}$ and $K_{\\mathrm{F}}$ respectively.\n\nWhich of the following gives the correct phase difference and relationship between maximum kinetic energies of the particles?\n\nOption | phase difference / rad | maximum kinetic energy\nA | $\\frac{3s}{2L}\\times2\\pi$ | same\nB | $\\frac{3s}{2L}\\times2\\pi$ | $K_{\\mathrm{E}}<K_{\\mathrm{F}}$\nC | $\\pi$ | same\nD | $\\pi$ | $K_{\\mathrm{E}}<K_{\\mathrm{F}}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q15",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the first order, use $d\\sin\\theta=\\lambda$ with $d=1/(5.0\\times10^5)\\ \\mathrm{m}$. Substituting $700\\times10^{-9}\\ \\mathrm{m}$ for red gives $\\theta_{\\mathrm{red}}=20.49^\\circ$, and substituting $400\\times10^{-9}\\ \\mathrm{m}$ for blue gives $\\theta_{\\mathrm{blue}}=11.54^\\circ$. The angular separation is $20.49^\\circ-11.54^\\circ=8.95^\\circ\\approx9.0^\\circ$.",
+      "perOption": {
+        "A": "Correct. The angular separation is the difference between the two first-order angles.",
+        "B": "Gives only the blue diffraction angle from the grating normal.",
+        "C": "Gives only the red diffraction angle from the grating normal.",
+        "D": "Adds the first-order angles as if the two rays were on opposite sides of the normal."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must calculate two first-order diffraction angles and subtract them.",
+    "misconception": "Adding angles measured on the same side of the grating normal.",
+    "transcription": "White light covers the range of wavelength from $400\\ \\mathrm{nm}$ to $700\\ \\mathrm{nm}$. A diffraction grating with $5.0\\times10^5$ lines per metre is placed perpendicular to a ray of white light and produces the first order spectrum as shown.\n\n[White light travels horizontally from the left through a vertical grating. To the right, a ray continues straight and the blue and red first-order rays diverge above it, with red above blue. The angle $\\theta$ is marked between the red and blue rays.]\n\nWhat is the angle $\\theta$ between the red and blue ends of the spectrum?\n\nA $9.0^\\circ$\nB $12^\\circ$\nC $20^\\circ$\nD $32^\\circ$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q16",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV=nRT$, constant-pressure compression lowers $T$, so it is a horizontal segment directed left on the $p$–$T$ graph. During constant-temperature expansion, $p$ falls, giving a downward vertical segment. At constant volume, $p\\propto T$, so the upward-sloping segment lies on a straight line through the origin.",
+      "perOption": {
+        "A": "Correct. All three segments match the gas processes and their directions.",
+        "B": "Shows temperature rising during constant-pressure compression and curves the constant-volume segment.",
+        "C": "Shows temperature changing during the constant-temperature expansion.",
+        "D": "The constant-volume line does not pass through the origin when extended."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.d"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must translate each leg of a cycle into new coordinates and distinguish proportionality from a merely linear relation.",
+    "misconception": "Assuming the shape of a process is unchanged when the horizontal variable changes.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The coil’s temperature is constant, so $\\Delta U=0$. Electrical work is done on the coil at $500\\ \\mathrm{W}$, and the coil continues to lose heat to the water. The first law therefore gives $\\mathrm{d}Q/\\mathrm{d}t=-500\\ \\mathrm{W}$ for heat supplied to the coil.",
+      "perOption": {
+        "A": "Treats electrical work as heat entering the coil and assumes its internal energy continues to rise.",
+        "B": "Ignores heat leaving the coil at steady temperature.",
+        "C": "Reverses the signs of the outgoing heat transfer and the incoming electrical work.",
+        "D": "Correct. Heat leaves at the same rate that electrical work is done on the coil."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify electrical work as the input and apply the first law at constant temperature.",
+    "misconception": "Classifying the electrical energy entering the coil as heat.",
+    "transcription": "A $500\\ \\mathrm{W}$ electric kettle is used to boil water and is left on even after the water begins to boil. After 5 minutes, the temperature of its heating coil reaches a constant value.\n\nWhen the first law of thermodynamics is used to quantitatively describe the heating coil after this time, which row correctly describes the application of the first law?\n\nOption | rate of increase of internal energy / W | rate of heat supplied to the coil / W | rate of work done on the coil / W\nA | $+500$ | $+500$ | $0$\nB | $+500$ | $0$ | $+500$\nC | $0$ | $+500$ | $-500$\nD | $0$ | $-500$ | $+500$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take right as positive. The electron is attracted towards $+Q$ at X and repelled away from $-Q$ at Y, so both forces point left throughout the interval. The key’s resultant-force curve stays negative and is closest to zero at the midpoint, where the force magnitude is smallest.",
+      "perOption": {
+        "A": "Correct. The force points left and is weakest at the midpoint.",
+        "B": "Uses the direction of the electric field as the force direction for a negative charge.",
+        "C": "Treats the midpoint as a maximum even though each inverse-square force grows sharply near its source.",
+        "D": "Reverses the force direction for an electron and places the magnitude maximum at the midpoint."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine attraction and repulsion and determine where their combined inverse-square magnitude is smallest.",
+    "misconception": "Using the electric field direction as the force direction on an electron.",
+    "transcription": "A point charge of $+Q$ is placed at X and a point charge of $-Q$ is placed at Y.\n\n[X is on the left and Y is on the right, joined by a dashed horizontal line. The charges $+Q$ and $-Q$ are marked at X and Y respectively.]\n\nWhat happens to the electric force acting on an electron as it moves in a straight line from X to Y?\n\nOption | magnitude of force | direction of force\nA | decreases to a minimum at midpoint of XY and increases | always towards the left\nB | decreases to a minimum at midpoint of XY and increases | always towards the right\nC | increases to a maximum at midpoint of XY and decreases | always towards the left\nD | increases to a maximum at midpoint of XY and decreases | always towards the right"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stationary drop initially has its weight balanced by the electric force, so $mg=|q|(5000/d)$. At the new voltage the upward electric force is $|q|(4000/d)=\\tfrac45mg=0.8mg$. Taking downwards as positive, $mg-0.8mg=ma$, so $a=1.96\\ \\mathrm{m\\,s^{-2}}$, or $2.0\\ \\mathrm{m\\,s^{-2}}$ downwards.",
+      "perOption": {
+        "A": "Reports the fraction $0.20$ of $g$ as the acceleration without multiplying by $g$.",
+        "B": "Correct. The net downward force is $0.20mg$.",
+        "C": "Uses the acceleration due to the new electric force alone, ignoring weight.",
+        "D": "Adds the electric force and weight even though they act in opposite directions."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the initial balance to express the reduced electric force as a fraction of the drop’s weight.",
+    "misconception": "Using the reduced electric force as the net force.",
+    "transcription": "An oil drop, carrying a charge of $-3.2\\times10^{-19}\\ \\mathrm{C}$, is stationary in the region between two horizontal plates when the potential difference between the two plates is $5.0\\times10^3\\ \\mathrm{V}$. The separation of the plates is $16\\ \\mathrm{mm}$.\n\nWhat is the initial acceleration of the oil drop when the potential difference is decreased to $4.0\\times10^3\\ \\mathrm{V}$?\n\nA $0.20\\ \\mathrm{m\\,s^{-2}}$\nB $2.0\\ \\mathrm{m\\,s^{-2}}$\nC $7.8\\ \\mathrm{m\\,s^{-2}}$\nD $18\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q20",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current through the specimen is the same at every section, so $I_X=I_Y=I_Z$. Since $I=nevA$ and $I$, $n$ and $e$ are constant, drift speed varies inversely with cross-sectional area. X is narrowest and Y widest, giving $v_X>v_Z>v_Y$.",
+      "perOption": {
+        "A": "Assumes constant current implies constant drift speed despite the changing area.",
+        "B": "Correct. The same current passes through all three sections, with faster drift in narrower sections.",
+        "C": "Assigns different currents to sections of an unbranched conductor and overlooks the inverse dependence of drift speed on area.",
+        "D": "Allows the steady current to decrease between X and the other sections without a branch."
+      }
+    },
+    "issues": "The printed opening line of the question is a sentence fragment, preserved in the transcription.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.a",
+      "currents.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish conservation of current from variation in drift speed with area.",
+    "misconception": "Assuming current decreases where a conductor widens.",
+    "transcription": "An electric current $I$ in a flat metal specimen of uniform thickness and of the shape shown.\n\n[The specimen is narrow at section X, widens to its maximum at Y, then tapers through the intermediate-width section Z before becoming narrow again. The arrow for $I$ points right.]\n\nWhich of the following correctly describes the magnitude of the current $I$ and drift velocity $v$ at sections X, Y and Z?\n\nOption | $I$ | $v$\nA | $I_X=I_Y=I_Z$ | $v_X=v_Y=v_Z$\nB | $I_X=I_Y=I_Z$ | $v_X>v_Z>v_Y$\nC | $I_X>I_Z>I_Y$ | $v_X=v_Y=v_Z$\nD | $I_X>I_Z=I_Y$ | $v_X>v_Z>v_Y$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q21",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $400\\ \\Omega$ and $600\\ \\Omega$ resistors are in parallel and have the same potential difference. Since $I=V/R$, the $600\\ \\Omega$ branch carries $\\frac{400}{400+600}I=\\frac25 I$. Using $P=I^2R$, the power ratio is $\\frac{I^2(120)}{(\\frac25 I)^2(600)}=1.25\\approx1.3$.",
+      "perOption": {
+        "A": "Uses the same current in the $120\\ \\Omega$ resistor and the $600\\ \\Omega$ branch.",
+        "B": "Uses the power dissipated by the entire parallel pair as the denominator.",
+        "C": "Correct. The $600\\ \\Omega$ resistor carries two-fifths of the incoming current.",
+        "D": "Assumes the $120\\ \\Omega$ and $600\\ \\Omega$ resistors have the same potential difference."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must work out the current in the parallel branch before applying the squared-current power relation.",
+    "misconception": "Using the total current for an individual parallel branch.",
+    "transcription": "Three resistors are arranged in a part of a circuit, and the resistance of each resistor is labelled as shown.\n\n[Current $I$ flows to the right through a $120\\ \\Omega$ resistor, then divides into two parallel branches. The upper branch contains a $400\\ \\Omega$ resistor and the lower branch contains a $600\\ \\Omega$ resistor. The branches then rejoin.]\n\nThe current through the $120\\ \\Omega$ resistor is $I$.\n\nWhat is the value of $\\frac{\\text{power dissipated in the }120\\ \\Omega\\text{ resistor}}{\\text{power dissipated in the }600\\ \\Omega\\text{ resistor}}$?\n\nA $0.20$\nB $0.50$\nC $1.3$\nD $5.0$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q22",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cells oppose each other, giving an effective e.m.f. of $5.0-3.0=2.0\\ \\mathrm{V}$. The potential difference across the $3.0\\ \\Omega$ resistor is $\\frac{3.0}{2.0+3.0}(2.0)=1.2\\ \\mathrm{V}$. From X to Y via the right-hand side, the potential rises by $1.2\\ \\mathrm{V}$ across the resistor and by $3.0\\ \\mathrm{V}$ from the negative to the positive terminal of the cell, giving $4.2\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Gives only the potential difference across the $2.0\\ \\Omega$ resistor.",
+        "B": "Gives only the potential difference across the $3.0\\ \\Omega$ resistor.",
+        "C": "Counts the rise across the $3.0$ V cell and omits the rise across the resistor.",
+        "D": "Correct. The resistor and cell both contribute potential rises along the right-hand path from X to Y."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the net e.m.f. and then track potential changes along a path between two circuit nodes.",
+    "misconception": "Treating the p.d. across a single component as the p.d. between X and Y.",
+    "transcription": null
+  }
+]

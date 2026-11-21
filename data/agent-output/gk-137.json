@@ -1,0 +1,502 @@
+[
+  {
+    "id": "tmjc-2024-other-p1-q26",
+    "keyPage": 22,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The second mean power is $P'=4P=4(I_0/\\sqrt{2})^2R$. Since $P'=(I'_{\\mathrm{rms}})^2R$, cancelling $R$ gives $(I'_{\\mathrm{rms}})^2=2I_0^2$. Taking the square root gives $I'_{\\mathrm{rms}}=\\sqrt{2}I_0$.",
+      "perOption": {
+        "A": "This is the r.m.s. current of the original sinusoid.",
+        "B": "An r.m.s. current of $I_0$ would dissipate only $2P$.",
+        "C": "Correct.",
+        "D": "Doubles the original peak current and reports it as the new r.m.s. current."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Combines the peak-to-r.m.s. conversion with the square-law dependence of power on current.",
+    "misconception": "Treating peak current as r.m.s. current",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q27",
+    "keyPage": 23,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The maximum kinetic energy is $E_{\\mathrm{k,max}}=p_{\\max}^2/(2m)$. The minimum wavelength is therefore $\\lambda_{\\min}=h/p_{\\max}=h/\\sqrt{2mE_{\\mathrm{k,max}}}$. Substituting gives $\\lambda_{\\min}=\\frac{6.63\\times10^{-34}}{\\sqrt{2(9.11\\times10^{-31})(9.0\\times10^{-20})}}=1.6\\times10^{-9}\\,\\mathrm{m}$.",
+      "perOption": {
+        "A": "This wavelength would require a momentum about 4.6 times the actual maximum.",
+        "B": "This wavelength would require a momentum about 2.3 times the actual maximum.",
+        "C": "This wavelength corresponds to a momentum well below the maximum and therefore cannot be the minimum.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "quantum-physics.e",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires converting maximum kinetic energy to maximum momentum before finding the wavelength.",
+    "misconception": "Confusing kinetic energy with momentum",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q28",
+    "keyPage": 23,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $p=mv_x$, the momentum uncertainty is $\\Delta p=m\\Delta v_x=(9.11\\times10^{-31})(0.50/100)(0.6)(3.00\\times10^8)=8.199\\times10^{-25}\\,\\mathrm{kg\\,m\\,s^{-1}}$. With the school's approximation $\\Delta x\\,\\Delta p\\approx h$, this gives $\\Delta x=(6.63\\times10^{-34})/(8.199\\times10^{-25})=8.09\\times10^{-10}\\,\\mathrm{m}$.",
+      "perOption": {
+        "A": "Treats $0.50\\%$ as a fraction of $0.50$, making $\\Delta p$ 100 times too large.",
+        "B": "Using $5.0\\%$ instead of $0.50\\%$ makes $\\Delta p$ ten times too large.",
+        "C": "Correct.",
+        "D": "Using $0.050\\%$ instead of $0.50\\%$ makes $\\Delta p$ ten times too small."
+      }
+    },
+    "issues": "The calculation uses the syllabus estimate $\\Delta x\\,\\Delta p\\approx h$ and the nonrelativistic relation $p=mv_x$ at $0.60c$. C is the intended answer under those approximations.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires turning a percentage speed precision into a momentum uncertainty before applying the uncertainty relation.",
+    "misconception": "Confusing a percentage uncertainty with a fractional uncertainty",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2024-other-p1-q29",
+    "keyPage": 23,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Activity $A$ is the number of decays per unit time, so the shaded area $S$ is the total number of decays in time $T$. Dividing the total energy $E$ by that count gives the energy released per radioactive decay.",
+      "perOption": {
+        "A": "The number of decays is $S$ itself.",
+        "B": "Average power is $E/T$, which divides the energy by elapsed time.",
+        "C": "$E$ is the total energy produced over the interval, and $S$ counts events, so the average is per decay.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires interpreting the area under the activity graph as a decay count and using it as a divisor.",
+    "misconception": "Confusing activity with the number of decays",
+    "transcription": "The graph shows the variation with time $t$ of the activity $A$ of a pure sample of a radioactive nuclide. The total energy released due to radioactive decay of the sample in time $T$ is $E$. The area of the shaded portion is $S$.\n\n[Graph of $A/\\mathrm{Bq}$ against $t/\\mathrm{s}$. The curve starts above zero at $t=0$ and falls, becoming less steep. The area under the curve from $0$ to $T$ is shaded.]\n\nWhat does the quantity $E/S$ represent?\nA The number of decays which occur in time $T$\nB The average power due to radioactive decay\nC The average energy produced in time $T$\nD The energy released for each radioactive decay"
+  },
+  {
+    "id": "tmjc-2024-other-p1-q30",
+    "keyPage": 23,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial background-corrected activity is $320-20=300\\,\\mathrm{Bq}$. After nine hours the corrected activity is $300(1/2)^{9/12}\\approx178\\,\\mathrm{Bq}$. The observed reading includes background, giving $178+20=198\\,\\mathrm{Bq}$.",
+      "perOption": {
+        "A": "Leaves out the background when converting the decayed source activity into the detector reading.",
+        "B": "Correct.",
+        "C": "Overestimates the remaining source activity even before correcting for the background in the detector reading.",
+        "D": "Adding background to an overestimated source activity of 225 Bq still gives too high a reading."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires subtracting background, applying a fractional half-life, and restoring background for the measured reading.",
+    "misconception": "Applying radioactive decay to the background count",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2025-other-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity of the bicycle relative to the bus is $\\mathbf v_{\\mathrm{bicycle}}-\\mathbf v_{\\mathrm{bus}}$. Draw the bicycle's northward velocity and then add the negative of the bus's velocity, which points west. The resultant points north of west.",
+      "perOption": {
+        "A": "Adds the bus’s eastward velocity to the bicycle’s northward velocity.",
+        "B": "Reverses the bicycle’s northward component while taking the bus contribution westward.",
+        "C": "Subtracting in the opposite order gives the bus’s velocity relative to the bicycle, pointing southeast.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The question PNG is cropped at the bottom and cuts off the arrows for C and D. Their directions are inferred from the visible layout and the worked key.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires subtracting the observer’s velocity and reading the direction of the resultant vector.",
+    "misconception": "Adding the observer’s velocity",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2025-other-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph starts with its steepest gradient, which decreases to zero. On a velocity–time graph, the gradient is acceleration. With air resistance the acceleration falls to zero as the object reaches terminal velocity, so the graph represents velocity with air resistance.",
+      "perOption": {
+        "A": "Without air resistance, velocity would increase with a constant gradient.",
+        "B": "Correct.",
+        "C": "Displacement from rest without air resistance would have an increasing gradient.",
+        "D": "With air resistance, displacement still increases at a steady rate once the object reaches terminal velocity."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c",
+      "projectile-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires connecting the decreasing velocity gradient to the approach to terminal velocity.",
+    "misconception": "Reading a terminal-velocity plateau as constant displacement",
+    "transcription": "The graph below shows the variation with time $t$ of a quantity $y$ for a falling object released from rest.\n\n[Graph of $y$ against $t/\\mathrm{s}$. The curve rises from the origin with a decreasing gradient and levels off.]\n\nWhich of the following is correct?\n\nOption | quantity $y$ | presence of air resistance\nA | velocity | no\nB | velocity | yes\nC | displacement | no\nD | displacement | yes"
+  },
+  {
+    "id": "tmjc-2025-other-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The third force must balance the upward $3\\,\\mathrm{N}$ and rightward $4\\,\\mathrm{N}$ forces, so it is $5\\,\\mathrm{N}$ directed down and left. For rotational equilibrium, the three lines of action must pass through one point. In C, the third line of action passes through the intersection of the other two.",
+      "perOption": {
+        "A": "The force points up and right, reinforcing the resultant of the given forces.",
+        "B": "The force acts through the centre, leaving the torque of the upward force unbalanced.",
+        "C": "Correct.",
+        "D": "The force acts through the rim point and its line misses the intersection with the horizontal force."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires checking both the direction of the balancing force and its line of action.",
+    "misconception": "Checking force balance without checking torque",
+    "transcription": "Two forces act on a circular disc as shown.\n\n[A $3\\,\\mathrm{N}$ force acts vertically upward from the upper-left rim of the disc. A $4\\,\\mathrm{N}$ force acts horizontally to the right from the centre.]\n\nWhich diagram shows the third force that must be applied such that the circular disc is in equilibrium?\n\n[Each option shows the disc, its centre, and the original upper-left point on the rim.]\nA [$5\\,\\mathrm{N}$ arrow pointing up and right from a point horizontally left of the centre.]\nB [$5\\,\\mathrm{N}$ arrow pointing down and left from the centre.]\nC [$5\\,\\mathrm{N}$ arrow pointing down and left from an interior point above and left of the centre.]\nD [$5\\,\\mathrm{N}$ arrow pointing down and left from the marked point on the upper-left rim.]"
+  },
+  {
+    "id": "tmjc-2025-other-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $T$ be the string tension. For $m$ up the slope, $T-mg\\sin\\theta=ma$, and for $M$ downwards, $Mg-T=Ma$. Adding gives $Mg-mg\\sin\\theta=(M+m)a$, so $a=\\frac{M-m\\sin\\theta}{M+m}g$.",
+      "perOption": {
+        "A": "Uses the perpendicular component $mg\\cos\\theta$ and adds it to $Mg$.",
+        "B": "Adds the downslope weight component even though it opposes the motion shown.",
+        "C": "Subtracts the perpendicular component $mg\\cos\\theta$ instead of the component along the slope.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires resolving the weight on the slope and eliminating the common tension from two force equations.",
+    "misconception": "Adding weight components that oppose each other",
+    "transcription": "Two blocks of masses $M$ and $m$ are joined by a light inextensible string through a frictionless pulley as shown. Mass $m$ lies on a smooth slope of angle $\\theta$.\n\n[The string runs up the slope from $m$, over a fixed pulley, and vertically down to the hanging mass $M$. The arrows labelled $a$ point up the slope for $m$ and vertically down for $M$.]\n\nThe acceleration of free fall is $g$.\n\nWhat is the acceleration $a$ of the two blocks?\n\nA $\\frac{M+m\\cos\\theta}{M+m}g$\nB $\\frac{M+m\\sin\\theta}{M+m}g$\nC $\\frac{M-m\\cos\\theta}{M+m}g$\nD $\\frac{M-m\\sin\\theta}{M+m}g$"
+  },
+  {
+    "id": "tmjc-2025-other-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The $30\\,\\mathrm{N}$ couple gives $30(2)(0.065)=3.9\\,\\mathrm{N\\,m}$ anticlockwise. The $25\\,\\mathrm{N}$ and $15\\,\\mathrm{N}$ couples give $25(2)(0.12)=6.0\\,\\mathrm{N\\,m}$ and $15(2)(0.10)=3.0\\,\\mathrm{N\\,m}$ clockwise. The net torque is $3.0+6.0-3.9=5.1\\,\\mathrm{N\\,m}$ clockwise.",
+      "perOption": {
+        "A": "Uses each radius as the separation between the two lines of action, halving the net torque.",
+        "B": "Correct.",
+        "C": "Uses radii as separations and adds all three torque magnitudes.",
+        "D": "Adds all three torque magnitudes even though the 30 N couple acts in the opposite sense."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using three couple separations and assigning their torques opposite signs where appropriate.",
+    "misconception": "Using the radius as the separation of a couple",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2025-other-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The area under the force–extension graph gives the spring's elastic potential energy. The area increases from $\\tfrac12F_1x_1$ to $\\tfrac12F_2x_2$, so the change is $\\tfrac12(F_2x_2-F_1x_1)$.",
+      "perOption": {
+        "A": "Uses rectangular areas, omitting the factor of one-half for each triangle.",
+        "B": "Correct.",
+        "C": "Squares each extension unnecessarily and also omits the factor of one-half.",
+        "D": "Uses squared extensions with forces, giving units of force times length squared."
+      }
+    },
+    "issues": "The key says the extension is doubled, but the question only specifies an increase from $x_1$ to $x_2$. The area calculation and answer B are valid for any such increase.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires subtracting two triangular areas under a force–extension graph.",
+    "misconception": "Using rectangular area under a linear force–extension graph",
+    "transcription": "The force-extension graph of a spring is as shown.\n\n[Force is plotted vertically and extension horizontally. A straight line through the origin passes through $(x_1,F_1)$ and $(x_2,F_2)$, with dashed guides marking these values on the axes.]\n\nWhat is the change in elastic potential energy when the extension of the spring is increased from $x_1$ to $x_2$?\n\nA $F_2x_2-F_1x_1$\nB $0.5(F_2x_2-F_1x_1)$\nC $F_2x_2^2-F_1x_1^2$\nD $0.5(F_2x_2^2-F_1x_1^2)$"
+  },
+  {
+    "id": "tmjc-2025-other-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $v=r\\omega$, we have $8.4=16\\omega$, so $\\omega=0.525\\,\\mathrm{rad\\,s^{-1}}$. The angular displacement after $8.0\\,\\mathrm{s}$ is $\\theta=\\omega t=(0.525)(8.0)=4.2\\,\\mathrm{rad}$.",
+      "perOption": {
+        "A": "Uses the diameter of the track in place of its radius.",
+        "B": "Correct.",
+        "C": "Adds an extra $\\pi/2$ by including the starting angle measured from the rightward radius.",
+        "D": "Uses the linear speed’s numerical value as the angle, or doubles the angle by using half the stated radius."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.a",
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires converting linear speed into angular speed and multiplying by the elapsed time.",
+    "misconception": "Using diameter instead of radius to find angular speed",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2025-other-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "low",
+    "explanation": {
+      "body": "The school treats linear speed and angular speed as two descriptions of the same motion, related by $v=r\\omega$ at fixed radius. It uses Newton's second law to argue that an increased applied force causes acceleration and increases both speeds. That argument for D requires the force to have a component along the motion.",
+      "perOption": {
+        "A": "The relation $v=r\\omega$ links the two speeds without assigning angular speed a causal role.",
+        "B": "The relation $\\omega=v/r$ links the two speeds without assigning linear speed a causal role.",
+        "C": "The key rejects this causal wording, although the inward force required at fixed radius does rise as $mr\\omega^2$ when the angular speed increases.",
+        "D": "Correct. This is the intended choice if the applied force provides a forward tangential component."
+      }
+    },
+    "issues": "The item leaves the direction of the applied force unspecified, so there is no unambiguously correct option. A purely centripetal force changes direction only. C is the closest alternative if read as an increase in required centripetal force at fixed radius.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "circular-motion.c",
+      "circular-motion.d",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires distinguishing equivalent speed descriptions from the force component that can change the speed.",
+    "misconception": "Assuming a radial force changes speed",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2025-other-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity provides the centripetal force, so $GM_{\\mathrm E}m/r^2=mv^2/r$ and $v^2=GM_{\\mathrm E}/r$. Both objects orbit Earth, so $(v_{\\mathrm{ISS}}/v_{\\mathrm{sat}})^2=r_{\\mathrm{sat}}/r_{\\mathrm{ISS}}$. Thus $v_{\\mathrm{ISS}}=3.1\\sqrt{\\frac{4.2\\times10^4}{6.8\\times10^3}}=7.7\\,\\mathrm{km\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Uses a much smaller speed for the closer orbit, where the circular orbital speed should be larger.",
+        "B": "Inverts the radius ratio inside the square root.",
+        "C": "Correct.",
+        "D": "Uses the inverse-radius scaling for speed itself instead of speed squared."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.a",
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires deriving the orbital-speed scaling from the balance of gravitational and centripetal forces.",
+    "misconception": "Using inverse-square force scaling directly for orbital speed",
+    "transcription": "The International Space Station (I.S.S.) and a satellite orbit around the Earth at radii of $6.8\\times10^3\\,\\mathrm{km}$ and $4.2\\times10^4\\,\\mathrm{km}$ from the centre of Earth respectively.\n\nIf the satellite has a speed of $3.1\\,\\mathrm{km\\,s^{-1}}$, what is the speed of the I.S.S.?\n\nA $0.20\\,\\mathrm{km\\,s^{-1}}$\nB $1.2\\,\\mathrm{km\\,s^{-1}}$\nC $7.7\\,\\mathrm{km\\,s^{-1}}$\nD $19\\,\\mathrm{km\\,s^{-1}}$"
+  },
+  {
+    "id": "tmjc-2025-other-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential energy graph has the shape of a squared sinusoid. At $t_1$, $t_2$ and $t_3$, the displacement is zero, so speed and kinetic energy are greatest and the potential energy of the oscillation is zero.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows kinetic energy, with peaks at the equilibrium crossings.",
+        "C": "Treats potential energy as constant, as the total energy is in undamped oscillation.",
+        "D": "Shows only one minimum, although the potential energy reaches zero at every marked equilibrium crossing."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires matching the extrema and zeros of oscillation potential energy to the displacement graph.",
+    "misconception": "Confusing kinetic and potential energy in simple harmonic motion",
+    "transcription": null
+  }
+]

@@ -1,0 +1,501 @@
+[
+  {
+    "id": "vjc-2024-prelim-p1-q11",
+    "keyPage": 9,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant pressure, $W_{\\mathrm{on}}=-p\\Delta V$. Therefore $\\Delta U=Q+W_{\\mathrm{on}}=90-(2.0\\times10^5)(2.5\\times10^{-4})=90-50=40\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Gives the expansion work alone.",
+        "C": "Ignores the work done by the gas.",
+        "D": "Adds the work done by the gas to the heat supplied."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Calculate signed expansion work and apply the first law.",
+    "misconception": "Reversing the sign of expansion work.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q12",
+    "keyPage": 10,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph gives $T=12\\ \\mathrm{s}$ and $v_0=3\\ \\mathrm{cm\\,s^{-1}}$, so $\\omega=2\\pi/12\\ \\mathrm{rad\\,s^{-1}}$. Using $v_0=\\omega x_0$ gives $x_0=5.730\\ \\mathrm{cm}$. The peak acceleration is $\\omega^2x_0=1.571\\ \\mathrm{cm\\,s^{-2}}=1.571\\times10^{-2}\\ \\mathrm{m\\,s^{-2}}$, so the peak force is $5.0(1.571\\times10^{-2})=7.9\\times10^{-2}\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Implies a peak acceleration smaller than the steepest slope of the graph.",
+        "B": "Uses the average acceleration from zero to peak velocity.",
+        "C": "Correct.",
+        "D": "Uses the numerical peak speed in SI units as the peak acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Read the period and peak speed and use them to calculate peak acceleration.",
+    "misconception": "Confusing average and peak acceleration.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q13",
+    "keyPage": 11,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total oscillation energy is $E=\\tfrac12m\\omega^2x_0^2$. The potential energy is $\\tfrac12m\\omega^2x^2$, so at $x=x_0/2$ it is $E/4$. The kinetic energy is $3E/4$, giving a potential-to-kinetic energy ratio of $1/3$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the displacement fraction as the energy ratio.",
+        "C": "Assumes equal energies at half amplitude.",
+        "D": "Inverts the requested ratio."
+      }
+    },
+    "issues": "The key uses the increase in the combined elastic potential energy relative to equilibrium. If the springs are preloaded, the absolute stored energy includes an equilibrium contribution.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the square of the displacement fraction and conserve energy.",
+    "misconception": "Treating potential energy as linear in displacement.",
+    "transcription": "An object of mass $m$ oscillates in simple harmonic motion between two springs as shown below. The amplitude of the motion is $x_0$.\n\n[Mass $m$ lies between two springs attached to fixed walls. The left spring is labelled “stretched spring stores energy” and the right spring “compressed spring stores energy”.]\n\nWhat is the ratio (elastic potential energy of the two springs)/(kinetic energy of the object) when the object is $x_0/2$ from its equilibrium?\n\nA $\\frac13$\nB $\\frac12$\nC $1$\nD $3$"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q14",
+    "keyPage": 12,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diagram shows a separation $\\Delta x=0.75\\lambda$ between X and Y. The phase difference is $(\\Delta x/\\lambda)360^\\circ=270^\\circ$.",
+      "perOption": {
+        "A": "Corresponds to one eighth of a wavelength.",
+        "B": "Corresponds to three eighths of a wavelength.",
+        "C": "Corresponds to half a wavelength.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Read the separation as a fraction of one wavelength.",
+    "misconception": "Measuring to the wrong crest.",
+    "transcription": "X and Y are two points on the surface of water in a ripple tank. A source of constant frequency generates a wave which travels past X and Y, causing them to oscillate vertically.\n\n[The water surface is drawn as a sinusoidal profile. An arrow shows the wave travelling right. X is on the descending slope at the midline and Y is at the next crest to the right.]\n\nWhat is the phase difference between X and Y?\n\nA $45^\\circ$\nB $135^\\circ$\nC $180^\\circ$\nD $270^\\circ$"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q15",
+    "keyPage": 12,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For an isotropic point source, $I\\propto 1/r^2$. Thus $I'/I=(r/r')^2$ and $I'=3.0(3.0/5.0)^2=1.1\\ \\mathrm{W\\,m^{-2}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses inverse-distance scaling.",
+        "C": "Underestimates the decrease as the sound spreads over a larger spherical area.",
+        "D": "Reverses the distance ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Apply inverse-square scaling to two distances.",
+    "misconception": "Using inverse-distance scaling.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q16",
+    "keyPage": 13,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The closed end is a displacement node and the open end is a displacement antinode. At the fundamental frequency, $L=\\lambda/4$, so $f=v/\\lambda=320/[4(2.0)]=40\\ \\mathrm{Hz}$.",
+      "perOption": {
+        "A": "Uses a wavelength of eight pipe lengths.",
+        "B": "Correct.",
+        "C": "Fits half a wavelength into the pipe, as if both ends had the same boundary condition.",
+        "D": "Uses the pipe length as the wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.c",
+      "superposition.d",
+      "wave-motion.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the fundamental displacement pattern and convert wavelength to frequency.",
+    "misconception": "Treating an open–closed pipe as a half-wave resonator.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q17",
+    "keyPage": 14,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the minimum considered, the path difference is half a wavelength. If the listener is $x$ metres from $S_1$, Pythagoras gives the distance from $S_2$ as $\\sqrt{x^2+2^2}$ metres. Setting $\\sqrt{x^2+2^2}-x=0.50$ and squaring gives $x^2+2^2=(x+0.50)^2$. Hence $x=2^2-0.50^2=3.75\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Gives a path difference of about $1.13\\ \\mathrm{m}$, between the destructive-interference values.",
+        "B": "Gives a path difference of $1.00\\ \\mathrm{m}$, producing constructive interference.",
+        "C": "Gives a path difference of about $0.83\\ \\mathrm{m}$, between the destructive-interference values.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key uses the half-wavelength path difference. A three-half-wavelength path difference also gives a minimum, about 0.583 m from S₁, which is absent from the options.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Turn the path difference for destructive interference into an equation using right-triangle geometry.",
+    "misconception": "Using a single path length as the path difference.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q18",
+    "keyPage": 15,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The series wires carry the same current $I=nAvq$. Their common material gives the same carrier number density $n$, and the electron charge magnitude is $q=e$ in both. The thicker wire has a larger area $A$, so its drift speed $v$ is lower.",
+      "perOption": {
+        "A": "Reverses the dependence of drift speed on area at fixed current.",
+        "B": "Correct.",
+        "C": "Confuses larger area with higher carrier number density.",
+        "D": "Assumes the same material has a lower carrier number density when formed into a thicker wire."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the quantities shared by both wires in the drift-current equation.",
+    "misconception": "Confusing carrier number density with cross-sectional area.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q19",
+    "keyPage": 16,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let C be the balance point, where $V_{AC}$ equals the ideal cell voltage of $1.0\\ \\mathrm{V}$. The upper circuit is a potential divider, giving $V_{AB}=5.0[1.0/(1.0+3.0)]=1.25\\ \\mathrm{V}$. The voltage across AC is proportional to its length, so $AC/AB=V_{AC}/V_{AB}=1.0/1.25$, giving $AC=0.80\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the full $5.0\\ \\mathrm{V}$ supply across AB.",
+        "B": "Assumes the midpoint is at the balance voltage, though it gives only $0.625\\ \\mathrm{V}$.",
+        "C": "Underestimates the length needed, since $60\\ \\mathrm{cm}$ gives only $0.75\\ \\mathrm{V}$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Calculate the wire voltage and use the null condition to find the balance length.",
+    "misconception": "Using the full supply voltage across the wire.",
+    "transcription": "A potentiometer circuit using a $1.0\\ \\mathrm{m}$ resistance wire of resistance $1.0\\ \\Omega$ placed across AB is shown below. Both cells are ideal:\n\n[The horizontal wire runs from A on the left to B on the right. The upper branch from A to B contains a $5.0\\ \\mathrm{V}$ cell with its positive terminal on the A side, followed by a $3.0\\ \\Omega$ resistor. The lower branch has a $1.0\\ \\mathrm{V}$ cell with its positive terminal connected to A and a $2.0\\ \\Omega$ resistor in parallel with the cell. The negative terminal connects via galvanometer G to a sliding contact on AB.]\n\nWhat is the balance length required for the galvanometer to show a null deflection?\n\nA $20\\ \\mathrm{cm}$\nB $50\\ \\mathrm{cm}$\nC $60\\ \\mathrm{cm}$\nD $80\\ \\mathrm{cm}$"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q20",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field is $[-10-(-20)]/(30\\times10^{-3})=333\\ \\mathrm{V\\,m^{-1}}$ upward toward the more negative plate. The force on the negative charge is downward with magnitude $(5.0\\times10^{-6})(333)=1.67\\times10^{-3}\\ \\mathrm{N}$. The displacement component along the force is $-0.012\\ \\mathrm{m}$, giving work $(1.67\\times10^{-3})(-0.012)=-2.0\\times10^{-5}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Uses the full 20 mm displacement instead of its vertical component.",
+        "B": "Correct.",
+        "C": "Treats the downward force as acting along the upward displacement.",
+        "D": "Uses the full 20 mm displacement and reverses the sign of the work."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f",
+      "electric-fields.g",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the force direction and project the displacement onto that direction.",
+    "misconception": "Using the diagonal displacement to calculate work.",
+    "transcription": "The diagram shows two large horizontal metal plates situated $30\\ \\mathrm{mm}$ apart. The top and bottom plates are at potentials $-20\\ \\mathrm{V}$ and $-10\\ \\mathrm{V}$ respectively. The magnitude of the electric field between the plates is $333\\ \\mathrm{V\\,m^{-1}}$.\n\n[The top plate is labelled $-20\\ \\mathrm{V}$ and the bottom plate $-10\\ \\mathrm{V}$. Y is $16\\ \\mathrm{mm}$ to the right of and $12\\ \\mathrm{mm}$ above X. The diagonal XY is $20\\ \\mathrm{mm}$.]\n\nWhat is the work done by the electric field when a charge of $-5.0\\ \\mu\\mathrm{C}$ is moved from point X midway between the metal plates to point Y?\n\nA $-3.3\\times10^{-5}\\ \\mathrm{J}$\nB $-2.0\\times10^{-5}\\ \\mathrm{J}$\nC $2.0\\times10^{-5}\\ \\mathrm{J}$\nD $3.3\\times10^{-5}\\ \\mathrm{J}$"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q21",
+    "keyPage": 18,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electric field lines point from higher to lower potential. They cross equipotential lines at right angles.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The arrows point toward higher potential and cross the curved equipotentials obliquely.",
+        "C": "The arrows point toward higher potential.",
+        "D": "The field lines cross the curved equipotentials obliquely."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Check the direction and crossing angle of the field lines.",
+    "misconception": "Reversing the direction of decreasing potential.",
+    "transcription": "In the following diagrams, the thin lines show equipotential lines and the bold arrows show the electric field lines and their directions.\n\nWhich set of equipotential lines and field lines is possible?\n\n[All four options show three thin equipotential lines labelled $9\\ \\mathrm{V}$, $7\\ \\mathrm{V}$ and $5\\ \\mathrm{V}$ from left to right. The centre line is vertical and straight. The outer two lines bow in toward it.]\n\nA [The two bold curves bow away from each other in the middle and their arrows point right.]\nB [The two bold curves bow toward each other in the middle and their arrows point left.]\nC [The two bold curves bow away from each other in the middle and their arrows point left.]\nD [The two bold curves bow toward each other in the middle and their arrows point right.]"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q22",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The magnetic force on the $0.093\\ \\mathrm{m}$ crosspiece is $F_B=BIL\\sin\\theta$, with $\\theta=90^\\circ$. Its moment about the pivot is $F_Bd=4.7\\times10^{-6}\\ \\mathrm{N\\,m}$, using $d=0.23\\ \\mathrm{m}$. Thus $B=4.7\\times10^{-6}/[(9.6\\times10^{-3})(0.093)\\sin90^\\circ(0.23)]=22.9\\ \\mathrm{mT}$.",
+      "perOption": {
+        "A": "Drops the 0.23 m lever arm when converting moment to force.",
+        "B": "Correct.",
+        "C": "Doubles the field, as would using half the actual lever arm.",
+        "D": "Implies a turning moment far greater than the stated value."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.h",
+      "forces-and-moments.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Identify the active conductor and lever arm before applying the force and moment equations.",
+    "misconception": "Confusing the conductor length with the lever arm.",
+    "transcription": "A current, $I$ of magnitude $9.6\\ \\mathrm{mA}$ is passed into a current balance which consists of a U-shaped wire of negligible mass placed in a region of constant magnetic field which is in the plane of the paper and perpendicular to the pivot.\n\nThe U-shaped wire has length $0.23\\ \\mathrm{m}$ and the arms are $0.093\\ \\mathrm{m}$ apart, as shown in the diagram below.\n\n[The two horizontal arms join at their right ends via a vertical crosspiece $0.093\\ \\mathrm{m}$ long. The vertical pivot crosses the arms $0.23\\ \\mathrm{m}$ left of the crosspiece. The field region is shown to the right of the pivot. Current $I$ flows right along the upper arm and left along the lower arm.]\n\nThe U-shaped wire experiences a turning moment about the pivot of value $4.7\\times10^{-6}\\ \\mathrm{N\\,m}$.\n\nWhat is the magnitude of the magnetic flux density of the constant magnetic field?\n\nA $5.27\\ \\mathrm{mT}$\nB $22.9\\ \\mathrm{mT}$\nC $45.8\\ \\mathrm{mT}$\nD $4.37\\ \\mathrm{T}$"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q23",
+    "keyPage": 20,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Parallel conductors with opposite currents repel, so the three other wires repel A. B pushes A left, D pushes it up, and C pushes it diagonally up and left. The resultant points diagonally up and left.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Omits the upward contributions from D and C.",
+        "C": "Treats opposite currents as attracting A toward the other wires.",
+        "D": "Reverses the horizontal direction and overlooks the upward contributions."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Combine three repulsive forces using the symmetry of the square.",
+    "misconception": "Treating opposite currents as attractive.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q24",
+    "keyPage": 21,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field makes a $45^\\circ$ angle with both halves, giving the projected area $A=2(\\tfrac12\\pi r^2)\\cos45^\\circ$ with $r=0.037\\ \\mathrm{m}$. Faraday’s law for one loop gives $\\mathcal E=-A\\,\\Delta B/\\Delta t$. Substituting $\\Delta B=0-76\\times10^{-3}\\ \\mathrm{T}$ and $\\Delta t=4.5\\times10^{-3}\\ \\mathrm{s}$ gives $0.0514\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Counts only one semicircle.",
+        "B": "Correct.",
+        "C": "Uses the full circular area without projecting it perpendicular to the field.",
+        "D": "Overestimates the flux-change rate for the projected loop area."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Project both semicircles onto a plane perpendicular to the field and apply Faraday’s law.",
+    "misconception": "Using the full unprojected area to calculate flux.",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q25",
+    "keyPage": 22,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the downward component of Earth’s magnetic field to find the force across the wings. Fleming’s left-hand rule gives a force toward the left wing for positive charges, so negative charges move toward the right wing. The left wing becomes positive and the right wing becomes negative.",
+      "perOption": {
+        "A": "Reverses the signs on the two wings.",
+        "B": "Correct.",
+        "C": "Places the charge separation along the flight direction, though the magnetic force is perpendicular to the motion.",
+        "D": "Places the charge separation along the fuselage, though the magnetic force is perpendicular to the motion."
+      }
+    },
+    "issues": "The options depict wing-to-wing or nose-to-tail polarity. The key addresses the wing-to-wing separation due to the vertical field component. A northward horizontal component can also drive vertical separation.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the vertical field component to find the polarity across the wings of an eastbound plane.",
+    "misconception": "Reversing the magnetic force on negative charges.",
+    "transcription": "A plane flies through Canada from West to East where the Earth's magnetic field is inclined at an angle below the horizontal, into the Earth.\n\nWhich of the diagrams shows the correct accumulation of charges on the plane after some time has passed?\n\n[The aircraft points right along a dashed line labelled West on the left and East on the right. The nearer wing projects down and left and the farther wing projects up and right.]\n\nA [Nearer wing positive, farther wing negative.]\nB [Nearer wing negative, farther wing positive.]\nC [Tail positive, nose negative.]\nD [Tail negative, nose positive.]"
+  }
+]

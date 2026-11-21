@@ -1,0 +1,514 @@
+[
+  {
+    "id": "ri-2022-prelim-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take upwards as positive. At time $t$, the ball is at its highest point and its displacement is $S_1=S_2$. At $2t$, the areas cancel, so the ball is back at its starting point with a negative velocity. At $3t$, the velocity is $-2u$ and the displacement is $-S_3$. From $2t$ to $3t$, the displacement graph slopes downwards and gets steeper as the ball speeds up.",
+      "perOption": {
+        "A": "Correct. The peak is at $t$ and the displacement at $3t$ is $-S_3$.",
+        "B": "Adds $S_2$ to the peak displacement even though that area occurs after the peak.",
+        "C": "Shows zero displacement at $t$, when the ball is at its highest point.",
+        "D": "Uses $-(S_2+S_3)$ at impact, omitting the upward displacement $S_1$."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must match both signed areas and changing slopes across three intervals.",
+    "misconception": "Adding unsigned areas to find displacement",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take leftwards as positive. While P slides, friction on P acts rightwards and slows it down, while friction on Q acts leftwards and speeds it up. Newton’s second law gives $-f=m_Pa_P$ and $f=m_Qa_Q$. Since $m_P<m_Q$, the equal force magnitudes give $|a_P|>|a_Q|$.",
+      "perOption": {
+        "A": "Overlooks the leftward friction on Q and the rightward friction on P.",
+        "B": "Assigns P a leftward acceleration even though friction on P acts rightwards.",
+        "C": "Correct. The more massive Q has the smaller acceleration magnitude.",
+        "D": "Equates the acceleration magnitudes even though the masses differ."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must determine both friction directions and compare accelerations for unequal masses.",
+    "misconception": "Equal friction forces imply equal accelerations",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Before the column reaches the soil, the loss of gravitational potential energy equals the gain in kinetic energy, so $\\tfrac12 Mv^2=MgH$ and $v=\\sqrt{2gH}$.\n\nWhile the column is in the soil, take downwards as positive. Newton’s second law gives $Mg-f=(0-Mv)/t$, so the average resistance is $f=Mg+Mv/t=Mg\\left(1+\\sqrt{2H/(gt^2)}\\right)$.",
+      "perOption": {
+        "A": "Correct. The soil resistance exceeds the column’s weight.",
+        "B": "Gives the magnitude of the average resultant force and omits the weight.",
+        "C": "Balances the weight exactly, leaving zero resultant force to stop the column.",
+        "D": "Uses the wrong sign for the momentum change and makes the resistance smaller than the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use the entry speed from the fall in a separate force calculation for the stopping phase.",
+    "misconception": "Equating soil resistance with the resultant force",
+    "transcription": "A column of mass $M$ is dropped from height $H$ above the surface of the soil and comes to a stop after travelling for a duration $t$ in the soil.\n\n[The solid outline shows the column with its lower end a vertical distance $H$ above the soil surface. A dotted outline shows the column partly embedded in the soil.]\n\nWhat is the average resistive force that acts on the column due to the soil?\n\nA $Mg\\left(1+\\sqrt{\\frac{2H}{gt^2}}\\right)$\nB $Mg\\sqrt{\\frac{2H}{gt^2}}$\nC $Mg$\nD $Mg\\left(1-\\sqrt{\\frac{2H}{gt^2}}\\right)$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Since $v_x=u_x$ and $v_y=u_y-gt$, $E_{\\mathrm{k}}=\\tfrac12m[u_x^2+(u_y-gt)^2]$ and $E_{\\mathrm{p}}=mg(u_yt-\\tfrac12gt^2)$, so both curves are quadratic. As the ball rises, its gain in potential energy equals its loss of kinetic energy, and the transfer reverses as it falls. At launch and landing, $E_{\\mathrm{p}}=0$ and $E_{\\mathrm{k}}=\\tfrac12m(u_x^2+u_y^2)$. At the apex, $t=u_y/g$ and $v_y=0$, so $E_{\\mathrm{k}}=\\tfrac12mu_x^2$ and $E_{\\mathrm{p}}=\\tfrac12mu_y^2$.",
+      "perOption": {
+        "A": "Drops the horizontal contribution to kinetic energy at the apex.",
+        "B": "Correct. Both curves are quadratic and the minimum kinetic energy is positive.",
+        "C": "Makes potential energy linear in time even though height is quadratic in time.",
+        "D": "Makes both energies piecewise linear and incorrectly drops the kinetic energy to zero at the apex."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "projectile-motion.d",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must track both energy curves and retain the horizontal kinetic energy at the apex.",
+    "misconception": "Assuming the projectile stops at its highest point",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both bodies start from rest, so $F=ma=mv/t$. Hence $E_{\\mathrm{k}}=\\tfrac12mv^2=(mv)^2/(2m)=F^2t^2/(2m)$. At fixed force, $E_{\\mathrm{k}}\\propto t^2/m$, so the ratio of the gains is $(2t/t)^2(2m/m)=8$.",
+      "perOption": {
+        "A": "Assumes equal forces produce equal energy gains despite different durations and masses.",
+        "B": "Treats the kinetic energy ratio as the impulse ratio.",
+        "C": "Squares the duration ratio but omits the inverse mass factor.",
+        "D": "Correct. The factors from duration and mass are $4$ and $2$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.e",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must express kinetic energy in terms of force duration and mass before taking the ratio.",
+    "misconception": "Treating kinetic energy as proportional to impulse",
+    "transcription": "Two bodies A and B of masses $m$ and $2m$ respectively are initially at rest on a smooth horizontal surface.\n\nA constant force acts on body A for twice the duration that it acts on body B.\n\nWhat is the ratio $\\frac{\\text{gain in kinetic energy of body A}}{\\text{gain in kinetic energy of body B}}$?\n\nA 1\nB 2\nC 4\nD 8"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q10",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From the highest point to the lowest, the loss of gravitational potential energy equals the gain in kinetic energy, so $\\tfrac12mv^2-\\tfrac12mu^2=mg(2L)$ and $v^2=2(2gL+\\tfrac12u^2)$.\n\nAt the lowest point, the resultant force towards O is $T-mg=mv^2/L$. Substituting $m=0.40\\ \\mathrm{kg}$, $L=0.50\\ \\mathrm{m}$, $u=2.5\\ \\mathrm{m\\,s^{-1}}$ and $g=9.81\\ \\mathrm{m\\,s^{-2}}$ gives $T=mv^2/L+mg=24.62\\ \\mathrm{N}\\approx25\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Gives only the weight, which would leave zero radial resultant force.",
+        "B": "Uses the launch speed in the bottom-point force equation.",
+        "C": "Subtracts the weight from the required centripetal force even though weight points away from O.",
+        "D": "Correct. The rod supplies the centripetal force plus the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must find the bottom speed from energy conservation and then identify the net radial force.",
+    "misconception": "Equating the rod force with the net centripetal force",
+    "transcription": "A sphere of mass $0.40\\ \\mathrm{kg}$ is attached to a light, rigid rod of length $0.50\\ \\mathrm{m}$ that is hinged at point O. The sphere is projected with a horizontal speed of $2.5\\ \\mathrm{m\\,s^{-1}}$ when it is vertically above point O and rotates freely about point O.\n\n[The rod is vertical with the sphere $0.50\\ \\mathrm{m}$ above O. The velocity arrow points right, and a curved arrow shows clockwise rotation about O.]\n\nWhat is the magnitude of the force exerted on the sphere by the rod at the instant when the sphere is vertically below point O?\n\nA $3.9\\ \\mathrm{N}$\nB $8.9\\ \\mathrm{N}$\nC $17\\ \\mathrm{N}$\nD $25\\ \\mathrm{N}$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q11",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Drag reduces the satellite’s total energy $E_{\\mathrm{T}}=-GMm/(2R)$, so the orbital radius $R$ decreases. As $R$ decreases, $E_{\\mathrm{k}}=GMm/(2R)$ increases, so the orbital speed increases. Equating gravity to the centripetal force gives $GMm/R^2=m(2\\pi/T)^2R$, so $T^2\\propto R^3$ and the period decreases.",
+      "perOption": {
+        "A": "Reverses both trends for a shrinking orbital radius.",
+        "B": "Correct. A smaller orbit has a shorter period and a higher speed.",
+        "C": "Reverses the period trend because $T^2$ decreases with $R^3$.",
+        "D": "Treats drag as lowering the orbital speed despite the increase in orbital kinetic energy."
+      }
+    },
+    "issues": "The key treats the gradual inspiral as a sequence of nearly circular orbits.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "conceptual"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must reconcile energy loss with a higher orbital speed and a shorter period.",
+    "misconception": "Drag always lowers orbital speed",
+    "transcription": "A satellite in orbit experiences atmospheric drag and spirals towards Earth.\n\nWhich of the following describes the period and speed of the satellite during this motion?\n\n[Table columns are orbital period and orbital speed, respectively.]\nA increases | decreases\nB decreases | increases\nC increases | increases\nD decreases | decreases"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q12",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Gravity provides the centripetal force, so $GMm/R^2=mv^2/R$. With $M=\\tfrac43\\pi\\rho R^3$, the orbital speed is $v=\\sqrt{GM/R}=\\sqrt{\\tfrac43\\pi G\\rho R^2}$. Thus $v_{\\mathrm{M}}/v_{\\mathrm{E}}=\\sqrt{\\rho_{\\mathrm{M}}R_{\\mathrm{M}}^2/(\\rho_{\\mathrm{E}}R_{\\mathrm{E}}^2)}$, giving $v_{\\mathrm{M}}=7.90/\\sqrt{1.25\\times16}=1.7665\\ \\mathrm{km\\,s^{-1}}\\approx1.77\\ \\mathrm{km\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Correct. The speed scales as $Rsqrt{\rho}$.",
+        "B": "Applies the density factor in the wrong direction after dividing by the radius ratio.",
+        "C": "Uses $sqrt{4}$ as the radius factor because it treats $v$ as proportional to $sqrt{\rho R}$.",
+        "D": "Uses the smaller lunar radius to increase the speed, missing the $R^3$ dependence of the central mass."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must account for how the central mass depends on both density and radius.",
+    "misconception": "Holding the central mass fixed when comparing surface orbit speeds",
+    "transcription": "A low-Earth-orbit satellite orbits near the surface of the Earth at a speed of $7.90\\ \\mathrm{km\\,s^{-1}}$.\n\nThe radius of the Earth is 4 times that of the Moon, and the density of the Earth is 1.25 times that of the Moon.\n\nWhat is the speed of a low-Moon-orbit satellite that orbits near the surface of the Moon?\n\nA $1.77\\ \\mathrm{km\\,s^{-1}}$\nB $2.21\\ \\mathrm{km\\,s^{-1}}$\nC $3.53\\ \\mathrm{km\\,s^{-1}}$\nD $14.1\\ \\mathrm{km\\,s^{-1}}$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q14",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $pV=\\tfrac13Nm\\langle c^2\\rangle$ and $pV=NkT$, the root-mean-square speed is $c_{\\mathrm{rms}}=\\sqrt{3pV/(Nm)}=\\sqrt{3kT/m}$. Using the boiling temperature $T=(273.15+100)\\ \\mathrm{K}$ and molecular mass $18(1.66\\times10^{-27})\\ \\mathrm{kg}$ gives $c_{\\mathrm{rms}}=719.04\\ \\mathrm{m\\,s^{-1}}\\approx720\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Implies too little mean translational kinetic energy for steam at the boiling point.",
+        "B": "Uses 100 as the absolute temperature, giving a speed close to $370 mathrm{m,s^{-1}}$.",
+        "C": "Underestimates the absolute temperature, giving a speed closer to that at room temperature.",
+        "D": "Correct. The boiling temperature is $373.15 mathrm{K}$."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must convert the boiling temperature to kelvin and the molecular mass to kilograms.",
+    "misconception": "Using Celsius in the kinetic theory equation",
+    "transcription": "When water is boiled at atmospheric pressure, the steam produced behaves like an ideal gas. A water molecule has a mass of $18u$.\n\nWhat is the root-mean-square speed of the water molecule in the steam?\n\nA $330\\ \\mathrm{m\\,s^{-1}}$\nB $370\\ \\mathrm{m\\,s^{-1}}$\nC $640\\ \\mathrm{m\\,s^{-1}}$\nD $720\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q16",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total energy is $E=\\tfrac12m\\omega^2x_0^2$. At $x=x_0/3$, the potential energy is $E_{\\mathrm{p}}=\\tfrac12m\\omega^2x^2=\\tfrac12m\\omega^2(x_0/3)^2=E/9$.",
+      "perOption": {
+        "A": "Correct. Potential energy scales as the square of displacement.",
+        "B": "Uses the displacement fraction directly as the energy fraction.",
+        "C": "Takes the complement of the displacement fraction instead of squaring it.",
+        "D": "Gives the kinetic energy remaining after subtracting $E/9$ from the total."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students apply the square of the displacement ratio to the total energy at the amplitude.",
+    "misconception": "Treating potential energy as linear in displacement",
+    "transcription": "A particle oscillates in simple harmonic motion with amplitude $x_0$ and total energy $E$.\n\nWhat is the potential energy of the particle at a displacement of $\\frac13x_0$ from the equilibrium?\n\nA $\\frac19E$\nB $\\frac13E$\nC $\\frac23E$\nD $\\frac89E$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q17",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $T/4$, the mass passes through its equilibrium position at $d=25\\ \\mathrm{cm}$. At $T/2$, it reaches the highest point, at $d=10\\ \\mathrm{cm}$. The amplitude is therefore $25-10=15\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "The statement is true because the mass passes through equilibrium at $T/4$, where the speed is greatest.",
+        "B": "Correct. The stated $30 mathrm{cm}$ is the distance between the extremes.",
+        "C": "The statement is true because the restoring force is zero at equilibrium, where $d=25 mathrm{cm}$.",
+        "D": "The statement is true because the distance from equilibrium increases over this interval."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "statements"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must locate equilibrium on the graph and distinguish amplitude from the distance between extremes.",
+    "misconception": "Reading peak-to-peak displacement as amplitude",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q18",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first polariser halves the incident intensity to $20\\ \\mathrm{W\\,m^{-2}}$. The next two give $I_f=\\tfrac12I_0\\cos^2\\theta\\cos^2(90^\\circ-\\theta)=\\tfrac12I_0\\cos^2\\theta\\sin^2\\theta$. Hence $\\sin2\\theta=2\\sqrt{2I_f/I_0}=2\\sqrt{2(2.5)/40}=1/\\sqrt2$, giving the listed angle $\\theta=22.5^\\circ$.",
+      "perOption": {
+        "A": "An angle this small gives too little transmission through the final polariser.",
+        "B": "This angle gives only $1.25 mathrm{W,m^{-2}}$ after all three polarisers.",
+        "C": "Correct. This angle gives $2.5 mathrm{W,m^{-2}}$.",
+        "D": "This angle gives a transmitted intensity above $2.5 mathrm{W,m^{-2}}$."
+      }
+    },
+    "issues": "The intensity equation also gives 67.5° as an unlisted solution. C is the only valid listed option.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must apply two successive Malus’ law factors after halving the initial intensity and then solve a double-angle equation.",
+    "misconception": "Using the same angle at both subsequent polarisers",
+    "transcription": "Three polarisers are held in line one after the other such that the transmission axis of the last polariser is perpendicular to that of the first.\n\nUnpolarised light of intensity $40\\ \\mathrm{W\\,m^{-2}}$ is incident normally on the first polariser. The intensity of the emergent light after passing through all three polarisers is $2.5\\ \\mathrm{W\\,m^{-2}}$.\n\nWhat is the angle between the transmission axes of the first and the second polariser?\n(Hint: $\\sin 2\\theta=2\\sin\\theta\\cos\\theta$)\n\nA $7.2^\\circ$\nB $15.0^\\circ$\nC $22.5^\\circ$\nD $53.5^\\circ$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q19",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The grating equation is $\\sin\\theta=n\\lambda/d$. For violet light at $400\\ \\mathrm{nm}$, the first three values of $n\\lambda$ are $400$, $800$ and $1200\\ \\mathrm{nm}$, while for red light at $700\\ \\mathrm{nm}$ they are $700$, $1400$ and $2100\\ \\mathrm{nm}$. Since $1200/d<1400/d$ when the values are in the same units, third-order violet is at a smaller angle than second-order red, so the second and third spectra overlap.",
+      "perOption": {
+        "A": "Reverses the colour labels within the orders, placing red closer to the centre than violet.",
+        "B": "Correct. Violet is nearer the centre within each order and the second and third orders overlap.",
+        "C": "Reverses the colour labels and places the second and third spectra in separate angular ranges.",
+        "D": "Places third-order violet beyond second-order red, leaving a gap where the spectra should overlap."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must compare the products of wavelength and order to see where adjacent spectra overlap.",
+    "misconception": "Assuming all adjacent diffraction orders are separate",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q20",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric force on the electron points downwards, towards increasing potential, and the field magnitude is $2V/d$. At constant speed the external work is $W=-e(V_f-V_i)$. X and Y lie on the same equipotential, so $W_{XY}=0$. From Y to Z the potential increases over a vertical distance $r\\cos30^\\circ=r\\sin60^\\circ$, so $W_{YZ}=-(2V/d)er\\sin60^\\circ$. From Z to X the potential falls by the same amount, so $W_{ZX}=+(2V/d)er\\sin60^\\circ$.",
+      "perOption": {
+        "A": "Assigns nonzero work to the horizontal equipotential path XY.",
+        "B": "Correct. The external work is zero, negative and positive on the three paths, respectively.",
+        "C": "Reverses the signs by treating the electron as positively charged or using the work done by the field.",
+        "D": "Uses the horizontal component $rcos60^circ$ to find the potential change."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "energy-and-fields.h",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must identify the equipotential segment and use both the correct vertical projection and the electron’s charge sign.",
+    "misconception": "Using the full path length to calculate the potential change",
+    "transcription": "Two large horizontal metal plates are distance $d$ apart. The upper and lower plates are at potentials $-V$ and $+V$ respectively.\n\nX, Y and Z are points between the metal plates such that they form an equilateral triangle with sides of length $r$. Side XY is parallel to the plates.\n\n[The horizontal side XY is near the upper plate, with X on the left and Y on the right. Z is below the midpoint of XY, near the lower plate. The angle at Z is $60^\\circ$. The plate separation is marked $d$.]\n\nWhich of the following shows the work done against the electric force in moving an electron at constant speed from X to Y, Y to Z and Z to X?\n\n[Table columns are X to Y, Y to Z and Z to X, respectively.]\nA $+\\left(\\frac{2V}{d}\\right)er$ | $+\\left(\\frac{2V}{d}\\right)er\\cos60^\\circ$ | $-\\left(\\frac{2V}{d}\\right)er\\cos60^\\circ$\nB $0$ | $-\\left(\\frac{2V}{d}\\right)er\\sin60^\\circ$ | $+\\left(\\frac{2V}{d}\\right)er\\sin60^\\circ$\nC $0$ | $+\\left(\\frac{2V}{d}\\right)er\\sin60^\\circ$ | $-\\left(\\frac{2V}{d}\\right)er\\sin60^\\circ$\nD $0$ | $-\\left(\\frac{2V}{d}\\right)er\\cos60^\\circ$ | $+\\left(\\frac{2V}{d}\\right)er\\cos60^\\circ$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q21",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gain in kinetic energy equals the loss of electric potential energy, so $\\tfrac12mv^2=q|\\Delta V|=qEd$. Thus $v=\\sqrt{2qEd/m}$, and $v\\propto\\sqrt{Ed}$ because the charge-to-mass ratio is unchanged. Doubling both field strength and distance gives $v_2/v=\\sqrt{(2E)(2d)/(Ed)}=2$, so the second particle leaves at $2v$.",
+      "perOption": {
+        "A": "Recognises that $q/m$ is unchanged but overlooks the increased field and distance.",
+        "B": "Correct. The field–distance product quadruples at fixed $q/m$.",
+        "C": "Retains the tripled charge but omits the tripled mass, giving $sqrt{12}vapprox3.5v$.",
+        "D": "Treats speed as proportional to $Ed$ instead of its square root."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.i",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must recognise the unchanged charge-to-mass ratio and take the square root of the fourfold energy-per-mass change.",
+    "misconception": "Scaling speed directly with the field–distance product",
+    "transcription": null
+  }
+]

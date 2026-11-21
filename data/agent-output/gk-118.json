@@ -1,0 +1,504 @@
+[
+  {
+    "id": "rvhs-2025-other-p1-q13",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $g=GM/r^2$ and $M=\\rho(4\\pi r^3/3)$ gives $g=(4\\pi/3)G\\rho r$. Thus $g_E/g_M=(\\rho_E/\\rho_M)(r_E/r_M)$, so $6=(5/3)(r_E/r_M)$ and $r_E/r_M=3.6$.",
+      "perOption": {
+        "A": "Applies a square root to the radius ratio even though surface gravity is linear in radius at fixed density.",
+        "B": "Underestimates the radius ratio, giving a surface gravity ratio of about 5.3 with the stated densities.",
+        "C": "Correct.",
+        "D": "Treats the two mean densities as equal."
+      }
+    },
+    "issues": "The key's numerical substitution prints division where multiplication is required, but its symbolic ratio and final answer are correct. The question repeats ‘surface of the’.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must combine surface gravity with the density of a sphere before taking the ratio.",
+    "misconception": "Holding mass fixed when comparing bodies of known density",
+    "transcription": "The acceleration of free fall on the surface of the surface of the Earth is about 6 times its value on the surface of the Moon. The mean density of the Earth is about $\\frac{5}{3}$ times the mean density of the Moon.\n\nUsing the data, what is the best value of the ratio of the radius of the Earth to the radius of the Moon?\n\nA 1.9\nB 3.2\nC 3.6\nD 6.0"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q14",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The change in gravitational potential energy is $\\Delta U=m\\Delta\\phi=50[-60-(-20)]\\,\\mathrm{MJ}=-2000\\,\\mathrm{MJ}$. The negative sign means a loss of gravitational potential energy, and the more negative potential is closer to Earth.",
+      "perOption": {
+        "A": "Uses the potential change per kilogram as the total energy change.",
+        "B": "Omits the satellite mass and reverses both the energy change and the direction.",
+        "C": "Correct.",
+        "D": "Gets the magnitude but reverses the sign and the direction."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.e",
+      "gravitational-fields.f",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must convert a potential change to an energy change and interpret the direction.",
+    "misconception": "Confusing potential with potential energy",
+    "transcription": "A satellite of mass $50\\,\\mathrm{kg}$ moves from a point where the gravitational potential due to the Earth is $-20\\,\\mathrm{MJ\\,kg^{-1}}$, to another point where the gravitational potential is $-60\\,\\mathrm{MJ\\,kg^{-1}}$.\n\nIn which direction does the satellite move and what is its change in potential energy?\n\nA closer to the Earth and loss of $40\\,\\mathrm{MJ}$ of potential energy\nB further from the Earth and a gain of $40\\,\\mathrm{MJ}$ of potential energy\nC closer to the Earth and a loss of $2000\\,\\mathrm{MJ}$ of potential energy\nD further from the Earth and a gain of $2000\\,\\mathrm{MJ}$ of potential energy"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q15",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The restoring force changes as the particle oscillates. In ideal simple harmonic motion, total energy is conserved and both amplitude and angular frequency stay constant.",
+      "perOption": {
+        "A": "Includes the restoring force, which varies with displacement.",
+        "B": "Correct.",
+        "C": "Includes displacement and restoring force, both of which vary through the cycle.",
+        "D": "Includes the restoring force, which changes even though angular frequency and amplitude are constant."
+      }
+    },
+    "issues": "The key incorrectly retains C after eliminating options with a changing restoring force. B is the only group of constants.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.a",
+      "oscillations.c",
+      "oscillations.d",
+      "oscillations.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students identify which familiar quantities stay constant in simple harmonic motion.",
+    "misconception": "Treating the restoring force as constant",
+    "transcription": "In which group below do all three quantities remain constant when a particle moves in simple harmonic motion?\n\nA restoring force, total energy, amplitude\nB total energy, amplitude, angular frequency\nC displacement, angular frequency, restoring force\nD angular frequency, restoring force, amplitude"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q16",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The velocity–displacement graph for simple harmonic motion is an ellipse centred on the origin. Taking the magnitude of velocity gives the upper half of the ellipse as the speed–displacement graph.",
+      "perOption": {
+        "A": "Makes speed proportional to displacement magnitude and zero at equilibrium.",
+        "B": "Shows a sharp peak at equilibrium, where the speed curve should be smooth and flat.",
+        "C": "Makes speed smallest at equilibrium and larger towards the turning points.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.f",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must recognise simple harmonic motion from one graph and select the corresponding speed graph.",
+    "misconception": "Confusing the speed–displacement and acceleration–displacement relationships",
+    "transcription": "A particle moves such that its acceleration $a$ is related to its displacement $x$ from a fixed position as shown in the graph below.\n\n[Graph of $a$ against $x$ with a straight line of negative gradient through the origin.]\n\nWhich of the following best illustrates how the speed $v$ varies with $x$?\n\nA [A V-shaped graph with its vertex at the origin.]\nB [A symmetric curve with a sharp maximum at $x=0$ that flattens towards the horizontal axis on both sides.]\nC [A smooth U-shaped curve with its minimum at the origin.]\nD [A symmetric arc with a smooth maximum at $x=0$ and zero speed at two opposite displacements.]"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q17",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Only transverse waves can be polarised. A polarising sheet changes the intensity of the light transmitted from the smartphone screen.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Diffraction occurs for both transverse and longitudinal waves.",
+        "C": "The delay compares the speeds of light and sound.",
+        "D": "Photoelectron emission demonstrates energy transfer from light to electrons."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students need only recognise polarisation as evidence for transverse oscillations.",
+    "misconception": "Treating diffraction as evidence that a wave is transverse",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q18",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The sound wave moves to the right, so the displacement pattern to the left of R reaches R next. The particles just to its left are displaced to the right, so R moves to the right at the next instant.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "P and T are two wavelengths apart, with another compression at R.",
+        "C": "Q vibrates about its own equilibrium position.",
+        "D": "R is not a node and oscillates with nonzero amplitude."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.a",
+      "wave-motion.b",
+      "wave-motion.e",
+      "wave-motion.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students infer a particle's motion from a snapshot of a travelling longitudinal wave.",
+    "misconception": "Confusing wave propagation with particle transport",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q19",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the small-angle approximation, the first minimum is at $y_1=\\lambda L/b=(600\\times10^{-9})(2.0)/(0.30\\times10^{-3})=4.0\\,\\mathrm{mm}$. The third minimum is at $y_3=3y_1=12.0\\,\\mathrm{mm}$, so their separation is $y_3-y_1=8.0\\,\\mathrm{mm}$.",
+      "perOption": {
+        "A": "Omits the screen distance in the first-minimum calculation and misses the separation of two orders.",
+        "B": "Gives the centre-to-first-minimum distance, which is one spacing.",
+        "C": "Correct.",
+        "D": "Gives the centre-to-third-minimum distance."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students calculate two minima positions using the small-angle approximation and subtract them.",
+    "misconception": "Measuring the third minimum from the centre",
+    "transcription": "A single-slit diffraction pattern is formed on a screen $2.0\\,\\mathrm{m}$ away from the slit. The slit width is $0.30\\,\\mathrm{mm}$, and light of wavelength $600\\,\\mathrm{nm}$ is used.\n\nWhat is the linear distance between the first and third minima on one side of the central maximum?\n\nA $2.0\\,\\mathrm{mm}$\nB $4.0\\,\\mathrm{mm}$\nC $8.0\\,\\mathrm{mm}$\nD $12.0\\,\\mathrm{mm}$"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q20",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At maximum power transfer, $R=r=3.0\\,\\Omega$, so $P=I^2R=(12/6)^2(3)=12\\,\\mathrm{W}$. With $R=6.0\\,\\Omega$, $P_{\\mathrm{new}}=(12/9)^2(6)=10.67\\,\\mathrm{W}=0.89P$.",
+      "perOption": {
+        "A": "Squares the current ratio but omits the doubling of the load resistance.",
+        "B": "Uses the current ratio as the power ratio.",
+        "C": "Correct.",
+        "D": "Assumes maximum power still transfers after the load no longer matches the internal resistance."
+      }
+    },
+    "issues": "The worked solution starts on page 2 and continues on page 3.",
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.g",
+      "currents.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students recalculate current and load power at two resistances and compare the results.",
+    "misconception": "Varying the load without updating both current and resistance",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q21",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "With $A_2=2A_1$ and $v_d=I/(neA)$, the new drift speed is $v_{d2}=I/[ne(2A_1)]=v_{d1}/2$. This gives $v_{d2}=1.0\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Treats drift speed as directly proportional to area.",
+        "B": "Correct.",
+        "C": "Assumes fixed current keeps drift speed fixed despite the change in area.",
+        "D": "Treats doubling the area as a fourfold reduction in drift speed."
+      }
+    },
+    "issues": "The key's introductory drift-speed equation is garbled, but the following substitutions use the correct equation.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Students apply the inverse relationship between area and drift speed at fixed current.",
+    "misconception": "Assuming drift speed increases with cross-sectional area",
+    "transcription": "In a wire, the drift velocity of electrons is $2.0\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}$ when a current of $3.0\\,\\mathrm{A}$ flows. If the cross-sectional area of the wire is doubled and the current remains the same, what is the new drift velocity?\n\nA $4.0\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}$\nB $1.0\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}$\nC $2.0\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}$\nD $0.5\\times10^{-4}\\,\\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q22",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "Let $q$ be the magnitude of the charge and $F_D$ the drag magnitude. At constant upward speed, $qV_1/d=mg+F_D$. At the same downward speed, drag reverses and $qV_2/d=mg-F_D$. Adding eliminates drag and gives $q=2mgd/(V_1+V_2)$.",
+      "perOption": {
+        "A": "Uses the voltage difference and counts the weight from only one force balance.",
+        "B": "Adds the voltages but omits the second weight term.",
+        "C": "Uses the voltage difference, which comes from subtracting the balances and gives a relation involving drag.",
+        "D": "Correct for the charge magnitude."
+      }
+    },
+    "issues": "The stem asks for charge, but the drop is negative and all options give positive expressions. D gives the intended magnitude; the signed charge is negative.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must write two force balances with opposite drag directions and eliminate the drag.",
+    "misconception": "Giving drag the same direction during ascent and descent",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q23",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the potential-divider principle, the voltmeter reading increases if the effective resistance across the thermistor increases or if $R_3$ decreases. Reducing $R_3$ with S open therefore raises the reading.",
+      "perOption": {
+        "A": "Heating the NTC thermistor lowers its resistance and reduces its share of the supply voltage.",
+        "B": "Removing the earth changes the reference potential but leaves the voltage across the thermistor unchanged.",
+        "C": "Closing S places another resistor in parallel with the thermistor, which lowers the effective resistance and reading.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must recognise the divider and predict how changing either resistance affects the measured voltage.",
+    "misconception": "Assuming an earth connection changes the voltage across a component",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q24",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At O, the field from a wire through Q is parallel to OY, so only a wire through P can give a field along OX. By the right-hand grip rule, the current at P must come out of the plane.",
+      "perOption": {
+        "A": "A current into the plane at P gives a field at O opposite to OX.",
+        "B": "Correct.",
+        "C": "A current into the plane at Q gives an upward field at O along OY.",
+        "D": "A current out of the plane at Q gives a downward field at O."
+      }
+    },
+    "issues": "The key refers to the field ‘at Q’ when ruling out the wire through Q. The question asks about the field at O.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students use the circular field pattern and the right-hand grip rule at a point off the wire.",
+    "misconception": "Reversing the right-hand grip rule",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q26",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "low",
+    "explanation": {
+      "body": "The solenoid field is $B=\\mu_0nI$, so $B$ is proportional to $I$. Faraday’s law gives $E=-N\\,\\Delta\\Phi/\\Delta t=-NA\\,\\Delta B/\\Delta t$ for coil area $A$. The e.m.f. follows the negative gradient of the current graph with the key's sign convention, so it is zero at the current maximum and reverses sign there.",
+      "perOption": {
+        "A": "Copies the current instead of using its gradient.",
+        "B": "Takes the magnitude of the gradient and loses the reversal of polarity.",
+        "C": "The crop hides this trace, so its specific error cannot be verified.",
+        "D": "Correct under the key's sign convention."
+      }
+    },
+    "issues": "The question PNG crops out the traces for C and D, so the option shapes cannot be confirmed. The absolute e.m.f. sign depends on the choice of polarity reference.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must link the induced e.m.f. to the signed gradient of the current graph.",
+    "misconception": "Treating induced e.m.f. as proportional to current",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2025-other-p1-q27",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In each $10\\,\\mathrm{s}$ cycle, the current is $4.0\\,\\mathrm A$ for $6.0\\,\\mathrm s$, $6.0\\,\\mathrm A$ for $2.0\\,\\mathrm s$, and zero for the remaining $2.0\\,\\mathrm s$. The r.m.s. current is $\\sqrt{[(4^2)(6)+(6^2)(2)]/10}=4.10\\,\\mathrm A$.",
+      "perOption": {
+        "A": "Applies the sinusoidal peak-to-r.m.s. factor to half the peak of a stepped waveform.",
+        "B": "Correct.",
+        "C": "Averages over only the eight seconds when the current is nonzero.",
+        "D": "Gives the mean square without taking its square root."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must weight the squared current by the duration of each level over a full cycle.",
+    "misconception": "Omitting the zero-current interval from the period",
+    "transcription": "A varying d.c. current is passed through a certain resistor as shown below.\n\n[Graph of $I$ in amperes against $t$ in seconds. The current is $4.0\\,\\mathrm{A}$ from $0$ to $6.0\\,\\mathrm{s}$, $6.0\\,\\mathrm{A}$ from $6.0$ to $8.0\\,\\mathrm{s}$, zero from $8.0$ to $10.0\\,\\mathrm{s}$, $4.0\\,\\mathrm{A}$ from $10.0$ to $16.0\\,\\mathrm{s}$, $6.0\\,\\mathrm{A}$ from $16.0$ to $18.0\\,\\mathrm{s}$, and zero from $18.0$ to $20.0\\,\\mathrm{s}$.]\n\nThe r.m.s value of the given current is\n\nA $2.12\\,\\mathrm{A}$\nB $4.10\\,\\mathrm{A}$\nC $4.58\\,\\mathrm{A}$\nD $16.8\\,\\mathrm{A}$"
+  },
+  {
+    "id": "rvhs-2025-other-p1-q28",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Without the diode, the average power is $I_{\\mathrm{rms}}^2R=0.50I_o^2R$. The diode allows power to be dissipated during only one of the two equal-power half-cycles, so the full-cycle average is halved to $0.25I_o^2R$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the average power of the unrectified sine wave.",
+        "C": "Uses the sinusoidal r.m.s.-to-peak current factor as a power factor.",
+        "D": "Uses peak power as the cycle average."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.h",
+      "currents.i",
+      "currents.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students combine sinusoidal mean power with the effect of half-wave rectification.",
+    "misconception": "Averaging power only over the conducting half-cycle",
+    "transcription": "A sinusoidal current of peak value $I_o$ is passed through a resistor $R$ with a diode connected in series with it. The average rate of heat dissipated in $R$ is\n\nA $0.25I_o^2R$\nB $0.50I_o^2R$\nC $0.71I_o^2R$\nD $1.0I_o^2R$"
+  }
+]

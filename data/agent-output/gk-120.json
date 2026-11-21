@@ -1,0 +1,493 @@
+[
+  {
+    "id": "sajc-2022-prelim-p1-q17",
+    "keyPage": 18,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "To maintain contact, the object's maximum downward acceleration cannot exceed $g=9.81\\ \\mathrm{m\\,s^{-2}}$. Since $a_{\\max}=\\omega^2 x_0$, the limiting amplitude is $x_0=g/(2\\pi f)^2=9.81/[2\\pi(1.5)]^2=0.11\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Divides by angular frequency only once.",
+        "C": "Divides by the ordinary frequency without converting or squaring it.",
+        "D": "An amplitude of 9.0 m would require a peak downward acceleration far greater than gravity."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The contact condition must be identified before applying the SHM acceleration formula.",
+    "misconception": "Ignoring the limit on downward acceleration",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q18",
+    "keyPage": 18,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a point source, $I\\propto 1/r^2$, and wave intensity satisfies $I\\propto A^2$, where $A$ is the amplitude. Hence $A\\propto 1/r$, so doubling the distance reduces the amplitude from $8X$ to $4X$.",
+      "perOption": {
+        "A": "Assumes the amplitude stays constant as the wave spreads.",
+        "B": "Correct.",
+        "C": "Applies the inverse-square law directly to amplitude.",
+        "D": "Reduces amplitude by a factor of eight, which would require an inverse-cube dependence."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It combines two standard proportionalities to obtain the amplitude ratio.",
+    "misconception": "Applying the inverse-square law directly to amplitude",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q19",
+    "keyPage": 18,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The grating spacing is $d=1/(3.0\\times10^5)\\ \\mathrm{m}$. From $d\\sin\\theta=n\\lambda$, the upper bound on the order is $d\\sin90^\\circ/(600\\times10^{-9}\\ \\mathrm{m})=5.6$, so the largest integer order is 5. Counting five orders on each side and the central image gives $2(5)+1=11$.",
+      "perOption": {
+        "A": "Counts only the nonzero orders on one side.",
+        "B": "Counts only four orders on each side and omits the central image.",
+        "C": "Stops at the fourth order on each side before adding the central image.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation requires finding the last allowed integer order and counting the maxima on both sides.",
+    "misconception": "Confusing maximum diffraction order with the total number of maxima",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q21",
+    "keyPage": 18,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For one strand, $R=\\rho l/A=(1.72\\times10^{-8})(1.0)/[\\pi(0.30\\times10^{-3}/2)^2]=0.2433\\ \\Omega$. For seven identical strands in parallel, $1/R_{\\parallel}=7/R$, so $R_{\\parallel}=0.03476\\ \\Omega$. The potential difference is $V=IR_{\\parallel}=13(0.03476)=0.4519\\ \\mathrm{V}\\approx0.45\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Underestimates the cable resistance by a factor of about 100, as when the diameter is taken ten times too large.",
+        "B": "Uses the strand diameter as the radius, making its area four times too large.",
+        "C": "Correct.",
+        "D": "Applies the total cable current to the resistance of a single strand."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.d",
+      "circuits.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the area of one strand, combining parallel resistances, and applying Ohm’s law.",
+    "misconception": "Using diameter as radius or ignoring parallel strands",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q22",
+    "keyPage": 19,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "With the switch open, $I=0$, so $V=\\mathcal E-Ir$ gives $\\mathcal E=1.5\\ \\mathrm{V}$. With the switch closed, $I=0.75/4.0\\ \\mathrm{A}$, so $0.75=1.5-(0.75/4.0)r$. This gives $r=4.0\\ \\Omega$.",
+      "perOption": {
+        "A": "With this resistance and the closed-switch current, the internal voltage drop would be only 0.19 V.",
+        "B": "Using the full e.m.f. across the 4.0 Ω load doubles the calculated current and halves the inferred internal resistance.",
+        "C": "Correct.",
+        "D": "Uses the 8.0 Ω setting from the open-switch case to calculate current after closing the switch."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires reading the open-circuit voltage and then finding the current through the closed circuit.",
+    "misconception": "Using the disconnected load to calculate current",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q23",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electric field points in the direction of the force on a positive test charge and is tangent to the field line at $X$. An electron is negatively charged, so its force points along that tangent in the opposite direction to the field.",
+      "perOption": {
+        "A": "Points up and left along a line that is not tangent to the field line at X.",
+        "B": "Correct.",
+        "C": "Points down and right along a line that is not tangent to the field line at X.",
+        "D": "Follows the electric field, which gives the force direction for a positive charge."
+      }
+    },
+    "issues": "The worked solution labels the answer “And: B”. The answer table also prints B.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires identifying the local tangent and reversing its direction for a negative charge.",
+    "misconception": "Using the field direction as the force direction for an electron",
+    "transcription": "The diagram shows an electric field pattern caused by two positive and two negative point charges of equal magnitude placed at the four corners of a square.\n\nIn which direction does the force act on an electron at point $X$?\n\n[The top-left and bottom-right corners are positive, and the top-right and bottom-left corners are negative. Curved field lines with arrows run from positive to negative charges. Point $X$ lies inside the square on a line linking the left-hand charges. Four arrows start at $X$.]\n\nA Up and to the left\nB Almost vertically up, slightly to the right\nC Down and to the right\nD Almost vertically down, slightly to the left"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q24",
+    "keyPage": 19,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the particle enters moving to the right, its path curves upwards, so the centripetal magnetic force is upwards. Fleming’s left-hand rule gives a conventional current in the same direction as the particle’s velocity, so the charge is positive. An undeflected particle needs a downward electric force, which requires a downward electric field for a positive ion.",
+      "perOption": {
+        "A": "An upward field on a positive ion reinforces the upward magnetic force.",
+        "B": "Correct.",
+        "C": "An electron entering to the right would curve downwards in this magnetic field.",
+        "D": "An electron entering to the right would curve downwards, contrary to the path shown."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.m"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The entry curvature gives the force direction, which must then be used to infer the charge and balance the forces.",
+    "misconception": "Reversing the magnetic force on a positive charge",
+    "transcription": "A particle is in a region of uniform magnetic field. The field is directed into the plane of the page. The path of this particle is shown in the figure below.\n\n[Crosses show a uniform magnetic field into the page within a square region. The particle enters from the left moving to the right and follows a curve that bends upwards, as indicated by an arrow on the path.]\n\nWhat is this particle and what is the direction of the electric field for it to pass through with no deflection?\n\nA A positive ion, upwards\nB A positive ion, downwards\nC An electron, upwards\nD An electron, downwards"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q25",
+    "keyPage": 19,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The coil moves within a uniform field with its area and orientation fixed, so its magnetic flux linkage does not change. By Faraday’s law, the induced e.m.f. is zero.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats the coil’s translational speed as a rate of change of flux linkage.",
+        "C": "Introducing a cosine factor does not create a flux-linkage change during translation.",
+        "D": "The sine factor describes the fixed projection of the coil area, so the flux linkage still has zero rate of change."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It tests whether translating a coil through a uniform field changes its flux linkage.",
+    "misconception": "Assuming any motion across field lines induces a net e.m.f.",
+    "transcription": "A plane coil of wire containing $N$ turns each of area $A$ is placed so that the plane of the coil makes an angle $\\theta$ with the direction of the uniform magnetic field of flux density $B$. The coil is now moved through a distance $x$ in time $t$ to the position shown dotted.\n\n[Plan view of the uniform field. Equally spaced horizontal field arrows point right. The solid oblique line represents the plane of the coil and makes an angle $\\theta$ with the field. The dotted line is parallel to the solid line and displaced downwards by $x$.]\n\nWhat is the e.m.f. induced in the coil?\n\nA Zero\nB $NAB\\frac{x}{t}$\nC $NABx\\frac{\\cos\\theta}{t}$\nD $NABx\\frac{\\sin\\theta}{t}$"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q26",
+    "keyPage": 19,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The peak current is $I_0=\\sqrt{P_0/R}=\\sqrt{150/6.0}=5.0\\ \\mathrm{A}$. Because $P=I^2R$, the current period is twice the power period, so $T=0.020\\ \\mathrm{s}$. Substituting gives $I=I_0\\sin(2\\pi t/T)=5.0\\sin(100\\pi t)$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the power period as the current period.",
+        "C": "Uses the peak value of current squared as the peak current.",
+        "D": "Uses 25 A as the amplitude and an angular frequency that does not match the zero crossings."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires extracting the peak power and recognising that current takes two power cycles to repeat.",
+    "misconception": "Equating the periods of power and current",
+    "transcription": "The graph shows the variation with time $t$ of the power $P$ dissipated in a resistor of resistance $6.0\\ \\Omega$ when it is connected to an alternating supply.\n\n[The graph plots $P/\\mathrm{W}$ against $t/\\mathrm{s}$. Three identical peaks reach $150\\ \\mathrm{W}$, and the power is zero at $0$, $0.010$, $0.020$ and $0.030\\ \\mathrm{s}$.]\n\nWhich equation represents the sinusoidal alternating current through the resistor?\n\nA $I=5.0\\sin(100\\pi t)$\nB $I=5.0\\sin(200\\pi t)$\nC $I=25\\sin(100\\pi t)$\nD $I=25\\sin(300\\pi t)$"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q27",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Electrons with $12.5\\ \\mathrm{eV}$ can excite hydrogen from the ground state up to $n=3$. Using $\\lambda=hc/\\Delta E$, the $3\\to2$ transition gives about $6.65\\times10^{-7}\\ \\mathrm{m}$, in the visible range. The $3\\to1$ and $2\\to1$ transitions give $1.03\\times10^{-7}\\ \\mathrm{m}$ and $1.22\\times10^{-7}\\ \\mathrm{m}$ respectively, both outside the visible range.",
+      "perOption": {
+        "A": "Misses the visible line from the transition between levels 3 and 2.",
+        "B": "Correct.",
+        "C": "Counts an additional line even though both transitions to the ground state are ultraviolet.",
+        "D": "Counts all three transitions without checking their wavelengths."
+      }
+    },
+    "issues": "For the 3→2 line the key gives 665 nm, while its displayed rounded numerator divided by 1.87 eV gives about 663 nm. Both values are visible.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It requires finding the highest accessible level and checking each possible transition against the visible range.",
+    "misconception": "Counting all emission lines as visible",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q28",
+    "keyPage": 20,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the cutoff, the maximum photon energy satisfies $hc/\\lambda_{\\min}=eV_a$, where $V_a$ is the accelerating voltage. Increasing $V_a$ therefore decreases the minimum wavelength.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the inverse relationship between the cutoff wavelength and the accelerating voltage.",
+        "C": "Assumes raising the voltage necessarily adds characteristic peaks, which depend on the available transitions in the target.",
+        "D": "Treats the characteristic wavelengths as voltage-dependent even though they are set by energy level differences in tungsten."
+      }
+    },
+    "issues": "The extracted text duplicates option A and shifts the distractors. The explanation uses the options printed in the question image.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The accelerating voltage is related to the maximum photon energy and hence the wavelength cutoff.",
+    "misconception": "Confusing the X-ray cutoff with the characteristic peaks",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q29",
+    "keyPage": 20,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $\\Delta mc^2=E_\\gamma$, the mass difference is $\\Delta m=(2.13\\times10^{-13})/(3.00\\times10^8)^2=2.366667\\times10^{-30}\\ \\mathrm{kg}$. Using $1\\ \\mathrm{u}=1.66\\times10^{-27}\\ \\mathrm{kg}$ gives $\\Delta m=0.0014257\\ \\mathrm{u}$. The excited-state mass is $59.9308\\ \\mathrm{u}+\\Delta m=59.9322\\ \\mathrm{u}$.",
+      "perOption": {
+        "A": "Makes the excited state lighter than the ground state and uses too large a mass difference.",
+        "B": "Subtracts the photon’s mass equivalent from the ground-state mass.",
+        "C": "Correct.",
+        "D": "Adds a mass increment about twice that implied by the emitted photon energy."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.q"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires converting the photon energy to a mass difference in atomic mass units and choosing the correct sign.",
+    "misconception": "Subtracting the emitted photon’s mass equivalent from the ground-state mass",
+    "transcription": "Nuclei of atoms can exist in excited states. When an excited nucleus returns to its state of lowest energy (the ground state), a $\\gamma$-ray photon may be emitted.\n\nThe mass of a nucleus in its ground state is $59.9308\\ \\mathrm{u}$. The energy of the photon emitted when this nucleus returns from an excited state to the ground state is $2.13\\times10^{-13}\\ \\mathrm{J}$.\n\nWhat is the mass of the nucleus in the excited state?\n\nA $59.9208\\ \\mathrm{u}$\nB $59.9294\\ \\mathrm{u}$\nC $59.9322\\ \\mathrm{u}$\nD $59.9337\\ \\mathrm{u}$"
+  },
+  {
+    "id": "sajc-2022-prelim-p1-q30",
+    "keyPage": 20,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Tin-124 is stable, so after one $60$-day half-life the antimony-to-tin ratio is $1:1$. After two half-lives, $\\tfrac14$ of the original antimony remains and $\\tfrac34$ has become tin, so the ratio is $1:3$. After three half-lives the fractions are $\\tfrac18$ and $\\tfrac78$, giving $1:7$. The tin-to-antimony ratio therefore reaches $6$ between 120 and 180 days.",
+      "perOption": {
+        "A": "Between 60 and 120 days the ratio rises only from 1 to 3.",
+        "B": "After 120 days the ratio is 3.",
+        "C": "Correct.",
+        "D": "After 180 days the ratio is 7."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires tracking the stable daughter nuclei as well as the undecayed parent nuclei.",
+    "misconception": "Taking the initial number of parent nuclei as the denominator",
+    "transcription": "Antimony-124 undergoes radioactive decay, with a half-life of 60 days, to become tin-124. Tin-124 is stable.\n\nInitially, a sample of antimony-124 contains no tin-124.\n\nAfter what period of time will the ratio $\\frac{\\text{number of tin-124 nuclei}}{\\text{number of antimony-124 nuclei}}$ equal 6?\n\nA Between 60 days and 120 days\nB 120 days\nC Between 120 days and 180 days\nD 180 days"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q1",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The factor $1/(e^{hf/(kT)}-1)$ is dimensionless, so $[D^3]=[R][c^2]/[h]$. The units of $R$, $c^2$ and $h$ are $\\mathrm{J\\,s^{-1}\\,m^{-2}/Hz}$, $\\mathrm{m^2\\,s^{-2}}$ and $\\mathrm{J\\,s}$ respectively. These give $\\mathrm{s^{-3}}$ for $D^3$, hence $\\mathrm{s^{-1}}$ for $D$.",
+      "perOption": {
+        "A": "Gives units of force, although mass and length cancel in the unit calculation.",
+        "B": "Correct.",
+        "C": "Gives units of energy, which cancel between R and Planck’s constant.",
+        "D": "Gives the units of the cube of D without taking the cube root."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires interpreting a compound unit and isolating the units of a cubed quantity.",
+    "misconception": "Reporting the units of the cube instead of the quantity",
+    "transcription": "Planck’s Law of black body radiation is given by\n\n$R=\\frac{2h(D)^3}{c^2}\\times\\frac{1}{e^{hf/(kT)}-1}$\n\nwhere $R$ is power per unit area per unit frequency, $h$ is Planck’s constant, $c$ is the speed of light in a vacuum, $f$ is frequency of electromagnetic radiation, $k$ is Boltzmann’s constant, $T$ is the thermodynamic temperature, and $D$ is an unknown physical quantity.\n\nWhich of the following shows the correct units for $D$?\n\nA $\\mathrm{kg\\,m\\,s^{-2}}$\nB $\\mathrm{s^{-1}}$\nC $\\mathrm{kg\\,m^2\\,s^{-2}}$\nD $\\mathrm{s^{-3}}$"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q2",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The momentum is $p=(52.000)(10.0)/(0.63-0.00)=825.397\\ \\mathrm{g\\,cm\\,s^{-1}}$. Add the absolute timing uncertainties to get $0.02\\ \\mathrm{s}$, then add the fractional uncertainties: $\\Delta p/p=0.001/52+0.1/10+0.02/0.63=0.041765$. The absolute uncertainty is $34.5\\ \\mathrm{g\\,cm\\,s^{-1}}$, which rounds to $30\\ \\mathrm{g\\,cm\\,s^{-1}}$ at one significant figure, so report $p=(830\\pm30)\\ \\mathrm{g\\,cm\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Using only one timing uncertainty can give an uncertainty of 20 after rounding.",
+        "B": "Correct.",
+        "C": "Underestimates the propagated uncertainty and keeps two significant figures in it.",
+        "D": "Rounds the uncertainty to two significant figures instead of one."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It combines absolute uncertainties in a time difference, fractional uncertainties in a quotient, and consistent rounding.",
+    "misconception": "Using only one timing uncertainty or rounding to inconsistent places",
+    "transcription": "The momentum $p$ of a rubber ball of mass $m$, as it rolls across a table surface at constant speed is given by the equation $p=\\frac{mL}{t_2-t_1}$, where\n\n$t_1$ is the time at which the front end of the ball passes point P,\n$t_2$ is the time at which the front end of the ball passes point Q.\n\n[The front of the ball is at the dashed line through P. A second dashed line through Q lies to its right, and the horizontal distance from P to Q is labelled $L$.]\n\nData from an experiment to determine $p$ is recorded as follows:\n\n$m=(52.000\\pm0.001)\\ \\mathrm{g}$\n$L=(10.0\\pm0.1)\\ \\mathrm{cm}$\n$t_1=(0.00\\pm0.01)\\ \\mathrm{s}$\n$t_2=(0.63\\pm0.01)\\ \\mathrm{s}$\n\nThe momentum of the rubber ball should be recorded as\n\nA $(830\\pm20)\\ \\mathrm{g\\,cm\\,s^{-1}}$\nB $(830\\pm30)\\ \\mathrm{g\\,cm\\,s^{-1}}$\nC $(825\\pm28)\\ \\mathrm{g\\,cm\\,s^{-1}}$\nD $(825\\pm35)\\ \\mathrm{g\\,cm\\,s^{-1}}$"
+  }
+]

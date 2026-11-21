@@ -1,0 +1,503 @@
+[
+  {
+    "id": "ri-2024-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done in stretching the spring is $\\int F\\,\\mathrm{d}L$. Because force is on the horizontal axis, this is the area between the loading curve and the vertical axis, $P+Q$.\n\nOn unloading, area $P$ is the energy released. Area $Q$ is the energy retained as increased potential energy of the particles in the permanently stretched spring.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the area below the loading curve even though force is on the horizontal axis.",
+        "C": "Counts the energy released on unloading as the energy retained.",
+        "D": "Uses the area below the loading curve for work and counts the energy released on unloading as energy retained."
+      }
+    },
+    "issues": "The key treats the loading–unloading area as retained particle potential energy, as the options imply. The graph alone cannot distinguish stored energy from heat dissipated during damage.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The axes are reversed from the usual force–extension graph, and the loading and unloading areas must be compared.",
+    "misconception": "Reading area below a length-versus-force curve as work",
+    "transcription": "A spring of unstretched length $L_0$ is extended to length $L_1$ by an applied force that is increased from zero until $F$. Upon removal of the force, the spring is damaged and has a new unstretched length $L_2$. The graph shows the variation of the length of the spring with the applied force.\n\n[Graph of length of spring (vertical) against applied force (horizontal). The curved loading path runs from $(0,L_0)$ to $(F,L_1)$, and the straight unloading path returns to $(0,L_2)$. Area $P$ lies above the unloading line and below $L_1$, $Q$ is between the paths, $R$ is below the loading curve and above $L_0$, and $S$ is below $L_0$, within the force range $0$ to $F$.]\n\nWhich combination of areas give the work done by the force to extend the spring from $L_0$ to $L_1$ and which area gives the increase in potential energy of the particles in the spring when its unstretched length is increased from $L_0$ to $L_2$?\n\nOption | work done by force from $L_0$ to $L_1$ | increase in potential energy from $L_0$ to $L_2$\nA | $P+Q$ | $Q$\nB | $R+S$ | $Q$\nC | $P+Q$ | $P$\nD | $R+S$ | $P$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At constant speed the driving and resistive forces balance. Using $P=Fv$, $12\\times10^3=F(72\\times10^3/(60\\times60))$, giving $F=600\\ \\mathrm{N}$.\n\nThe useful energy from the petrol equals the energy delivered by the engine, so $(0.30)(40\\times10^6)m=(12\\times10^3)(1\\times60\\times60)$. This gives $m=3.6\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Uses the speed in kilometres per hour in the power equation and multiplies by efficiency when finding the fuel energy.",
+        "B": "Multiplies the useful energy by efficiency when finding the fuel energy, giving too little petrol.",
+        "C": "Uses $72$ directly in $P=Fv$ instead of converting the speed to metres per second.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "energy-and-fields.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "This combines a speed conversion and a power–force calculation with an efficiency calculation.",
+    "misconception": "Applying efficiency to the useful output in the wrong direction",
+    "transcription": "When a car is travelling along a straight road at a constant speed of $72\\ \\mathrm{km\\,h^{-1}}$, the power delivered by its engine is $12\\ \\mathrm{kW}$. The efficiency of the engine is $30\\%$ and each kilogram of petrol produces $40\\ \\mathrm{MJ}$ of energy.\n\nWhat is the total resistive force on the car and the mass of petrol required for a one-hour drive?\n\nOption | total resistive force | mass of petrol\nA | $170\\ \\mathrm{N}$ | $0.32\\ \\mathrm{kg}$\nB | $600\\ \\mathrm{N}$ | $0.32\\ \\mathrm{kg}$\nC | $170\\ \\mathrm{N}$ | $3.6\\ \\mathrm{kg}$\nD | $600\\ \\mathrm{N}$ | $3.6\\ \\mathrm{kg}$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The minute hand takes one hour per revolution, so $\\omega_m=2\\pi/(60\\times60)\\ \\mathrm{rad\\,s^{-1}}$. The hour hand takes 12 hours per revolution, so $\\omega_h=2\\pi/(12\\times60\\times60)\\ \\mathrm{rad\\,s^{-1}}$. Using $v=r\\omega$, the ratio is $v_m/v_h=(1.5r_h/r_h)(12\\times60\\times60)/(60\\times60)=18$.",
+      "perOption": {
+        "A": "Uses the period ratio in the same order as the speed ratio, even though angular speed is inversely proportional to period.",
+        "B": "Uses the hand-length ratio alone and treats the angular speeds as equal.",
+        "C": "Correct.",
+        "D": "Overestimates the angular-speed ratio as 60 instead of 12."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The ratio follows directly once the two revolution periods and hand lengths are identified.",
+    "misconception": "Assuming the two hands have the same angular speed",
+    "transcription": "The minute hand on a clock is 1.5 times the length of its hour hand.\n\n[Clock face with the tip of the longer minute hand between 1 and 2 and the tip of the shorter hour hand between 9 and 10.]\n\nThe average tangential speeds of the tips of the minute hand and the hour hand are $v_m$ and $v_h$ respectively.\n\nWhat is the ratio $\\frac{v_m}{v_h}$?\n\nA 0.125\nB 1.5\nC 18\nD 90"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "medium",
+    "explanation": {
+      "body": "Gravitational field strength is the negative potential gradient, $g=-\\mathrm{d}\\phi/\\mathrm{d}r$. Hence $\\phi_Z-\\phi_X=-\\int_X^Z g\\,\\mathrm{d}r$, so the signed area between X and Z determines the change in gravitational potential.",
+      "perOption": {
+        "A": "The field is zero at Y, but the total potential is negative at every finite point between the planets.",
+        "B": "The total gravitational potential remains negative at Z and approaches zero at infinity.",
+        "C": "Correct.",
+        "D": "The tangent gives the spatial rate of change of field strength, rather than the gravitational potential."
+      }
+    },
+    "issues": "C is the intended answer. For the signed change from X to Z, the key’s equation requires the negative of the signed area. Option C omits that sign convention.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.e",
+      "gravitational-fields.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must distinguish field strength from potential and interpret the signed area on the graph.",
+    "misconception": "Equating zero gravitational field with zero potential",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Mutual gravity supplies each star’s centripetal force, so the stars lie on opposite sides of their common centre of mass. They share an angular speed $\\omega$ to stay aligned as they orbit. For masses $M$ and $m$ with orbital radii $R$ and $r$ and separation $d$, $GMm/d^2=mr\\omega^2=MR\\omega^2$, so $mr=MR$. The heavier star X therefore has the smaller orbit, with its tangential velocity opposite to Y’s.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Places the more massive star X on the larger orbit.",
+        "C": "Places both stars on the same side of the centre, so gravity cannot point towards that centre for both.",
+        "D": "Shows both velocities pointing the same way on opposite sides, which gives opposite senses of rotation."
+      }
+    },
+    "issues": "The options are diagrams, but the item is marked text and the extracted options omit the visual distinctions.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "circular-motion.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The diagrams must be checked for orbital radius, alignment with the centre of mass, and direction of motion.",
+    "misconception": "Putting the more massive star on the larger orbit",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $\\tfrac12 mc_{\\mathrm{rms}}^2=\\tfrac32 kT$, we get $m=3kT/c_{\\mathrm{rms}}^2$, so $m\\propto T/c_{\\mathrm{rms}}^2$. Therefore $m_X/m_Y=(T_X/T_Y)(c_{\\mathrm{rms},Y}/c_{\\mathrm{rms},X})^2=\\tfrac12(3)^2=\\tfrac92=4.5$.",
+      "perOption": {
+        "A": "Calculates the reciprocal mass ratio $m_Y/m_X$.",
+        "B": "Uses the speed ratio linearly, giving $3/2$.",
+        "C": "Squares the temperature factor as well as the speed factor, giving $9/4$ before rounding.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The main step is squaring the speed ratio while keeping the temperature ratio in the correct order.",
+    "misconception": "Treating molecular mass as inversely proportional to rms speed",
+    "transcription": "Two ideal gases X and Y are separately contained in two identical vessels. The absolute temperature and root-mean-square speed of the molecules of Y are 2 and 3 times that of X respectively.\n\nWhat is the ratio $\\frac{\\text{molecular mass of X}}{\\text{molecular mass of Y}}$?\n\nA 0.22\nB 1.5\nC 2.3\nD 4.5"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Keep the outlet temperature the same in both runs, along with the inlet and room temperatures. This keeps the rate of heat loss to the surroundings the same, allowing it to be eliminated when comparing the runs.",
+      "perOption": {
+        "A": "Electrical input is adjusted for the different flow rates to maintain the same outlet temperature.",
+        "B": "Correct.",
+        "C": "The liquid flow rate is varied between runs while the outlet temperature is held fixed.",
+        "D": "The mass collected depends on flow rate and collection time and does not control the rate of heat loss."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.c",
+      "thermodynamic-systems.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The question hinges on recognising which measurement controls heat loss between the two runs.",
+    "misconception": "Equating constant electrical input with constant heat loss",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Starting at equilibrium, $v=v_0\\cos(\\omega t)$. Taking the direction of motion at $t=3.0\\ \\mathrm{s}$ as positive gives $4.0=v_0\\cos((2\\pi/9.0)(3.0))$, so $v_0=-8.0\\ \\mathrm{m\\,s^{-1}}$. At the next equilibrium crossing the speed is again $8.0\\ \\mathrm{m\\,s^{-1}}$, giving $E_k=\\tfrac12(0.020)(-8.0)^2=0.64\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Treats equilibrium like a turning point, where speed is zero.",
+        "B": "Calculates the kinetic energy at 3.0 s using the given speed.",
+        "C": "Underestimates the equilibrium speed by failing to divide the measured speed by the magnitude of the cosine factor, $0.5$.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "oscillations.f",
+      "oscillations.h",
+      "energy-and-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must account for the phase at 3.0 seconds to recover the equilibrium speed before calculating energy.",
+    "misconception": "Using the speed away from equilibrium as the maximum speed",
+    "transcription": "A sphere of mass $20\\ \\mathrm{g}$ undergoes simple harmonic motion with a period of $9.0\\ \\mathrm{s}$. The speed of the sphere $3.0\\ \\mathrm{s}$ after starting from the equilibrium is $4.0\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat is the kinetic energy of the sphere when it next passes the equilibrium position?\n\nA $0\\ \\mathrm{J}$\nB $0.16\\ \\mathrm{J}$\nC $0.21\\ \\mathrm{J}$\nD $0.64\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Oil is more viscous than water, so it damps the mass more strongly. For nonzero driving frequencies the amplitude is smaller in oil, and its resonance peak occurs at a lower driving frequency.",
+      "perOption": {
+        "A": "Shows a higher peak in oil and shifts it to a higher frequency despite the stronger damping.",
+        "B": "Shifts the oil peak to a lower frequency but incorrectly makes it higher than the water peak.",
+        "C": "Correct.",
+        "D": "Lowers the oil peak but shifts it to a higher frequency."
+      }
+    },
+    "issues": "The question prints “fee end” for “free end”. The key says “all frequencies”, although the curves coincide at zero frequency.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The choices require tracking both the height and the frequency of the resonance peak as damping increases.",
+    "misconception": "Assuming stronger damping raises the resonance frequency",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the key’s sketch, the sinusoidal profile shifts to the right, from P towards Q. P is below equilibrium on the downward-sloping side of the trough, and Q is a quarter wavelength to the right, below equilibrium on the upward-sloping side. When the profile shifts right, the displacement at Q becomes more negative, so Q moves downwards.",
+      "perOption": {
+        "A": "Places Q at an upward equilibrium crossing, although the shifted profile puts it below equilibrium and moving down.",
+        "B": "Correct.",
+        "C": "Places Q above equilibrium even though it lies on the below-equilibrium side of the rising section.",
+        "D": "Places Q above equilibrium and moving up even though the rightward shift makes its already negative displacement more negative."
+      }
+    },
+    "issues": "The printed phrase “passing vertically along a horizontal rope” conflates vertical displacement with horizontal propagation. The key diagram shows propagation from P to Q along the rope.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.b",
+      "wave-motion.e",
+      "wave-motion.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must place Q one quarter wavelength downstream and infer its motion from the moving wave profile.",
+    "misconception": "Confusing propagation direction with the motion of points on the rope",
+    "transcription": "Transverse progressive sinusoidal waves of wavelength $\\lambda$ are passing vertically along a horizontal rope. P and Q are points on the rope $\\frac{\\lambda}{4}$ apart. The direction of energy transfer is from P to Q.\n\nWhich of the following describes the displacement and movement of Q at the instant when P is displaced downwards and moving upwards?\n\nOption | displacement of Q | movement of Q\nA | zero | upwards\nB | downwards | downwards\nC | upwards | downwards\nD | upwards | upwards"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The power reaching the pupil is $P_{\\mathrm{received}}=P_{\\mathrm{source}}A_{\\mathrm{pupil}}/(4\\pi r^2)$ and must be at least $P_{\\min}$. Hence $r\\leq\\sqrt{\\frac{10\\pi(0.0050/2)^2}{4\\pi(2.0\\times10^{-13})}}=8838.8\\ \\mathrm{m}$, giving a maximum distance of $8800\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Treats the detection threshold as a lower distance bound, even though received power increases as the astronaut moves closer.",
+        "B": "Correct.",
+        "C": "Uses diameter as radius and also treats the detection threshold as a lower distance bound.",
+        "D": "Uses the pupil diameter as its radius, quadrupling the collecting area and doubling the distance."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The pupil area and inverse-square intensity must be combined with a minimum detectable power to find a maximum distance.",
+    "misconception": "Using the pupil diameter as its radius",
+    "transcription": "An astronaut observes a point source of light from a distance in space. The diameter of the pupil of his eyes is $5.0\\ \\mathrm{mm}$. The minimum power of light that a human eye can detect is $2.0\\times10^{-13}\\ \\mathrm{W}$.\n\nIf the power of the light emitted by the source is $10\\ \\mathrm{W}$, which statement about the distance at which the astronaut can see the light source is correct?\n\nA The astronaut can see the light source at a minimum distance of $8800\\ \\mathrm{m}$.\nB The astronaut can see the light source at a maximum distance of $8800\\ \\mathrm{m}$.\nC The astronaut can see the light source at a minimum distance of $17700\\ \\mathrm{m}$.\nD The astronaut can see the light source at a maximum distance of $17700\\ \\mathrm{m}$."
+  },
+  {
+    "id": "ri-2024-prelim-p1-q19",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Diffraction is pronounced when the wavelength is comparable to the width of the obstacle. Sound with wavelengths comparable to or longer than the pillar’s diameter bends around it. Visible light has a much shorter wavelength than the diameter, so its diffraction around the pillar is negligible.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Both transverse and longitudinal waves diffract, with the extent depending on wavelength relative to the pillar width.",
+        "C": "Wave speed alone does not determine how strongly a wave diffracts around the pillar.",
+        "D": "Both pressure waves and electromagnetic waves diffract when their wavelengths are comparable to the obstacle width."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.e",
+      "superposition.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The scenario is a direct application of how diffraction depends on wavelength relative to obstacle size.",
+    "misconception": "Attributing diffraction to the type or speed of the wave",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The sources are resolved when their angular separation $\\theta$ is at least the Rayleigh limit $\\theta_{\\min}$. If their physical separation is $S$, the small-angle condition is $S/D\\gtrsim\\lambda/d$, so $S\\gtrsim\\lambda D/d$. A shorter wavelength, smaller viewing distance and larger aperture allow the smallest physical separation to be resolved.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A smaller aperture increases the minimum resolvable angle.",
+        "C": "A greater viewing distance reduces the apparent angular separation of the sources.",
+        "D": "A longer wavelength and smaller aperture raise the diffraction limit, while a greater distance reduces the apparent separation."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine the apparent angular separation with the diffraction limit to judge all three variables.",
+    "misconception": "Confusing apparent source separation with the telescope’s resolution limit",
+    "transcription": "Two point sources of light at a fixed distance apart emit monochromatic light of wavelength $\\lambda$. An observer views the light sources with a telescope of aperture size $d$ at a distance $D$ from the light sources.\n\nWhich combination of $\\lambda$, $d$ and $D$ would give the observer the best setting to resolve the light sources?\n\nOption | $\\lambda$ | $d$ | $D$\nA | shorter | larger | nearer\nB | shorter | smaller | nearer\nC | shorter | larger | further\nD | longer | smaller | further"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let the sphere’s charge be $Q$. Its surface potential is $V=Q/(4\\pi\\varepsilon_0R)$, giving $Q=4\\pi\\varepsilon_0RV$. At the particle’s distance $r$, Coulomb’s law gives the force magnitude $F=\\left|\\frac{Qq}{4\\pi\\varepsilon_0r^2}\\right|=\\left|\\frac{qVR}{r^2}\\right|$.",
+      "perOption": {
+        "A": "Gives the force at the sphere’s surface by using $R$ for the separation in Coulomb’s law.",
+        "B": "Uses the sphere’s surface potential as the potential at the particle, dropping the factor $R/r$.",
+        "C": "Swaps the sphere radius and the particle distance in the potential and force substitutions.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.a",
+      "electric-fields.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer the sphere’s charge from its surface potential and use a different radius for Coulomb’s law.",
+    "misconception": "Using the sphere radius as the force-law separation",
+    "transcription": "A charged conducting sphere of radius $R$ has an electric potential $V$. A particle of charge $q$ is at a distance $r$ away from the centre of the charged sphere.\n\n[The sphere radius $R$ is drawn vertically from the centre to the surface, and the distance $r$ is drawn horizontally from the centre to the exterior particle labelled $q$.]\n\nWhat is the magnitude of the electric force acting on the particle due to the charged sphere?\n\nA $\\frac{qV}{R}$\nB $\\frac{qV}{r}$\nC $\\frac{qVr}{R^2}$\nD $\\frac{qVR}{r^2}$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At P, the field from $+64Q$ points right and has magnitude $\\frac{64Q}{4\\pi\\varepsilon_0(4.0)^2}=\\frac{4Q}{4\\pi\\varepsilon_0}$. The field towards $-125Q$ has magnitude $\\frac{125Q}{4\\pi\\varepsilon_0(5.0)^2}=\\frac{5Q}{4\\pi\\varepsilon_0}$. In the head-to-tail right triangle, the second vector is the hypotenuse and the horizontal components cancel, so the resultant points upwards with magnitude $\\sqrt{5^2-4^2}\\,\\frac{Q}{4\\pi\\varepsilon_0}=\\frac{3Q}{4\\pi\\varepsilon_0}$.",
+      "perOption": {
+        "A": "Subtracts the two magnitudes as if the fields were antiparallel.",
+        "B": "Correct.",
+        "C": "Adds the magnitudes as if both fields pointed in the same direction.",
+        "D": "Adds the squares of the two magnitudes as if the fields were perpendicular, and omits the final square root."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must find the diagonal distance, assign directions from the charge signs, and construct the vector triangle.",
+    "misconception": "Adding field magnitudes without considering direction",
+    "transcription": "Two charged particles of charges $+64Q$ and $-125Q$ are separated by a distance of $3.0\\ \\mathrm{m}$. Point P is at a distance $4.0\\ \\mathrm{m}$ to the right of the particle of charge $+64Q$.\n\n[The charge $-125Q$ is $3.0\\ \\mathrm{m}$ vertically above $+64Q$, and P is $4.0\\ \\mathrm{m}$ horizontally to the right of $+64Q$, with the two segments at right angles.]\n\nWhat is the magnitude of the electric field strength at point P?\n\nA $\\frac{Q}{4\\pi\\varepsilon_0}$\nB $\\frac{3Q}{4\\pi\\varepsilon_0}$\nC $\\frac{9Q}{4\\pi\\varepsilon_0}$\nD $\\frac{41Q}{4\\pi\\varepsilon_0}$"
+  }
+]

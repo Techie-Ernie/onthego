@@ -1,0 +1,503 @@
+[
+  {
+    "id": "vjc-2024-prelim-p1-q26",
+    "keyPage": 23,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Four power cycles take $100\\ \\mathrm{ms}$, which is two current cycles because the power period is half the current period. Thus $T=50\\ \\mathrm{ms}$ and $f=1/(50\\times10^{-3})=20\\ \\mathrm{Hz}$.\n\nFrom $P_{\\max}=I_0^2R$, the peak current is $I_0=\\sqrt{50/10}=2.24\\ \\mathrm{A}$. Hence $I_{\\mathrm{r.m.s.}}=2.24/\\sqrt2=1.58\\ \\mathrm{A}\\approx1.6\\ \\mathrm{A}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the power period as the current period.",
+        "C": "Uses the peak current as the r.m.s. current.",
+        "D": "Uses the power period and the peak current."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f",
+      "currents.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The power period and peak current both need converting.",
+    "misconception": "Confusing the power and current periods",
+    "transcription": "A sinusoidal alternating supply is connected to a $10\\ \\Omega$ resistor in series. The graph shows how the power $P$ dissipated across the resistor varies with time $t$.\n\n[Graph of $P/\\mathrm{W}$ against $t/\\mathrm{ms}$. Power starts at zero and returns to zero at 25, 50, 75 and 100 ms. Each peak reaches the dashed line at 50 W. The time axis is marked from 0 to 120 ms in 20 ms steps.]\n\nWhat are the frequency $f$ and the root-mean-square current $I_{\\mathrm{r.m.s.}}$ of the alternating supply?\n\n$f/\\mathrm{Hz}$, $I_{\\mathrm{r.m.s.}}/\\mathrm{A}$\nA 20, 1.6\nB 40, 1.6\nC 20, 2.2\nD 40, 2.2"
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q27",
+    "keyPage": 24,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The minimum intensity is the power received divided by the pupil area, so $I=(N/t)hf/(\\pi r^2)=(N/t)hc/(\\lambda\\pi r^2)$. Using $r=0.002\\ \\mathrm{m}$, $\\lambda=550\\times10^{-9}\\ \\mathrm{m}$, $h=6.63\\times10^{-34}\\ \\mathrm{J\\,s}$ and $c=3.00\\times10^8\\ \\mathrm{m\\,s^{-1}}$, the threshold intensity of $2.0\\times10^{-11}\\ \\mathrm{W\\,m^{-2}}$ gives about $700$ photons per second.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the diameter as the radius, giving four times the pupil area.",
+        "C": "Treats 550 as the frequency in $E=hf$.",
+        "D": "Treats 550 as the frequency and uses the diameter as the radius."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "quantum-physics.b",
+      "wave-motion.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The calculation connects intensity, pupil area and photon energy.",
+    "misconception": "Using diameter as radius",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q28",
+    "keyPage": 25,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing the potential difference gives the electrons more kinetic energy before they hit the metal target. This lowers the minimum X-ray wavelength and increases the overall intensity because the higher-energy impacts are more likely to produce X-ray photons.",
+      "perOption": {
+        "A": "Changing the target metal would shift the characteristic peaks.",
+        "B": "Increasing the filament current raises intensity while leaving the cutoff fixed.",
+        "C": "Reducing the gap at fixed potential difference leaves the maximum electron energy and cutoff fixed.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b",
+      "quantum-physics.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The graph requires interpreting the cutoff separately from the characteristic peaks.",
+    "misconception": "Confusing the cutoff with the characteristic peaks",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q29",
+    "keyPage": 26,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "A thin sheet of paper can stop $\\alpha$ particles, so $1\\ \\mathrm{m}$ of lead can stop them too. A $\\beta$ particle travelling parallel to a magnetic field feels zero magnetic force. Gamma rays penetrate paper and are uncharged electromagnetic radiation.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A $\\beta$ particle needs a velocity component across the field to experience a magnetic force.",
+        "C": "Paper provides negligible shielding for gamma rays, which require thick shielding such as lead.",
+        "D": "Gamma rays are uncharged electromagnetic radiation."
+      }
+    },
+    "issues": "The key describes about 10 cm of lead as stopping gamma rays. Lead attenuates gamma radiation by an amount that depends on photon energy and shielding thickness.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "nuclear-physics.g",
+      "electromagnetic-forces.k"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The item checks familiar radiation properties and the condition for a magnetic force.",
+    "misconception": "Assuming any charged particle in a magnetic field is deflected",
+    "transcription": "Which of the following statements is true?\n\nA $\\alpha$ particles can be stopped by $1\\ \\mathrm{m}$ of lead.\nB $\\beta$ particles can be deflected when travelling parallel to a magnetic field.\nC $\\gamma$ particles can be stopped by paper.\nD $\\alpha$, $\\beta$ and $\\gamma$ particles are all charged particles."
+  },
+  {
+    "id": "vjc-2024-prelim-p1-q30",
+    "keyPage": 26,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "After $20\\ \\mathrm{h}$, the total activity is $A=A_0e^{-\\lambda t}=8.0\\times10^{10}e^{-(\\ln 2)(20/6.0)}=7.937\\times10^9\\ \\mathrm{Bq}$. With the tracer uniformly distributed, the volume ratio equals the activity ratio. Thus $V/10=(7.937\\times10^9)/(1.6\\times10^7)$, giving about $5000\\ \\mathrm{cm^3}$.",
+      "perOption": {
+        "A": "This volume implies too little activity after 20 h.",
+        "B": "This volume underestimates the ratio of total activity to sample activity.",
+        "C": "Correct.",
+        "D": "This volume overestimates the ratio of total activity to sample activity."
+      }
+    },
+    "issues": "The question and key say technetium-99. The tracer with the stated 6.0 h half-life is technetium-99m.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.k"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate the decayed activity and scale from the blood sample to the total volume.",
+    "misconception": "Scaling from the initial activity",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q1",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Faraday’s law gives $\\mathcal{E}=-d\\Phi/dt$, and $\\mathcal{E}=P/I$. The unit of flux is therefore the unit of power divided by amperes and multiplied by seconds, giving $(\\mathrm{kg\\,m^2\\,s^{-3}}/\\mathrm{A})\\,\\mathrm{s}=\\mathrm{kg\\,m^2\\,s^{-2}\\,A^{-1}}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Multiplies by current when converting power to e.m.f.",
+        "C": "Gives time the wrong exponent when converting power times time to energy.",
+        "D": "Drops the kilogram from the units of power."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "electromagnetic-induction",
+      "currents"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student combines Faraday’s law with the base units of electrical power.",
+    "misconception": "Using the units of e.m.f. directly for flux",
+    "transcription": "The e.m.f. induced in a coil by a changing magnetic flux is equal to the rate of change of flux with time. Which is a unit for magnetic flux?\n\nA $\\mathrm{kg\\,m^2\\,s^{-2}\\,A^{-1}}$\nB $\\mathrm{kg\\,m^2\\,s^{-2}\\,A}$\nC $\\mathrm{kg\\,m^2\\,s^{2}\\,A^{-1}}$\nD $\\mathrm{m^2\\,s^{-2}\\,A^{-1}}$"
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q2",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Estimate the length, width and thickness as $100\\ \\mathrm{cm}$, $3\\ \\mathrm{cm}$ and $0.5\\ \\mathrm{cm}$. Multiplying gives $V=(100)(3)(0.5)=150\\ \\mathrm{cm^3}$.",
+      "perOption": {
+        "A": "Underestimates the cross-sectional area by a factor of 100.",
+        "B": "Underestimates the cross-sectional area by a factor of 10.",
+        "C": "Correct.",
+        "D": "Overestimates the cross-sectional area by a factor of 10."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student estimates two familiar dimensions and multiplies them by the known length.",
+    "misconception": "Misjudging centimetre-scale dimensions",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q3",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The fractional uncertainties in $d^2$, $R$ and $l$ add to the fractional uncertainty in $\\rho$. Thus $0.07/1.71=2(1.6/100)+\\Delta R/R+0.2/100$. Solving gives $\\Delta R/R\\approx0.007$, or $0.7\\%$.",
+      "perOption": {
+        "A": "Reads the fractional uncertainty as a percentage without multiplying by 100.",
+        "B": "Correct.",
+        "C": "Includes the exact factor 4 in the uncertainty calculation, although it contributes zero uncertainty.",
+        "D": "Makes $R$ the subject and adds the uncertainties as though resistivity were measured independently."
+      }
+    },
+    "issues": "The distractor comments continue on key page 5. The note for C incorrectly equates 0.0009 with 0.9% and does not show how including the 4 gives that result.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert absolute uncertainty to fractional uncertainty and account for the squared diameter.",
+    "misconception": "Treating derived resistivity as an independent measurement",
+    "transcription": "A student carried out an experiment to determine the resistivity $\\rho$ of copper using a copper wire. The uncertainties in the measurements are shown.\n\nuncertainty in length $l$ of wire = $0.2\\%$\nuncertainty in diameter $d$ of wire = $1.6\\%$\n\nThe equation for resistivity $\\rho$ is $\\rho=\\frac{\\pi d^2R}{4l}$. He obtains a resistivity value of $(1.71\\pm0.07)\\times10^{-8}\\ \\Omega\\,\\mathrm{m}$ with its associated uncertainty.\n\nWhat is the uncertainty in the measurement of resistance $R$ of the wire?\n\nA $0.007\\%$\nB $0.7\\%$\nC $0.9\\%$\nD $7\\%$"
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q4",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $0^\\circ$ of rotation, $X$ and $Y$ point in opposite directions, so the magnitude of $X-Y$ is at its maximum. After $180^\\circ$ they point in the same direction, so the magnitude is at its minimum.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the initial maximum and the final minimum.",
+        "C": "Shows a final maximum when the vectors point in the same direction.",
+        "D": "Shows an initial minimum when the vectors point in opposite directions."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The curves can be distinguished by checking the vector difference at both endpoints.",
+    "misconception": "Treating vector subtraction as addition",
+    "transcription": "$X$ and $Y$ are vectors. The magnitude of $X$ is less than the magnitude of $Y$. The vectors are initially in opposite directions.\n\nAs $Y$ is rotated through $180^\\circ$, how does the magnitude of the vector $(X-Y)$ vary?\n\n[Each graph has magnitude of $(X-Y)$ on the vertical axis and angle in degrees from 0 to 180 on the horizontal axis. All curves remain above zero.]\nA [Decreases smoothly from a high value to a low value and flattens at both ends.]\nB [Increases smoothly from a low value to a high value and flattens at both ends.]\nC [Starts high, dips in the middle and returns to the same high value.]\nD [Starts low, peaks in the middle and returns to the same low value.]"
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q5",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The car covers about $400\\ \\mathrm{m}$ in the first $20\\ \\mathrm{s}$, giving an average speed of about $20\\ \\mathrm{m\\,s^{-1}}$. It starts from rest and its instantaneous speed at $20\\ \\mathrm{s}$ exceeds $20\\ \\mathrm{m\\,s^{-1}}$. Because the speed varies continuously, it passes through $20\\ \\mathrm{m\\,s^{-1}}$ within the first $20\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "The average over 20 s is already about $20\\ \\mathrm{m\\,s^{-1}}$, so the maximum is higher.",
+        "B": "Correct.",
+        "C": "The first 200 m takes about 15 s, giving about $13.3\\ \\mathrm{m\\,s^{-1}}$.",
+        "D": "The car covers about 100 m from 20 to 25 s and 200 m from 15 to 20 s, so the earlier interval has the higher average speed."
+      }
+    },
+    "issues": "The school’s distances at 15 s and 20 s are approximate graph readings.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect average speed to the graph and use continuity to infer an instantaneous speed.",
+    "misconception": "Confusing average and instantaneous speed",
+    "transcription": "A car, starting from rest at time $t=0$, travels along a road. The distance travelled from the starting point is measured over the next 25 seconds.\n\n[Graph of distance travelled in metres against $t$ in seconds. The curve rises from the origin, is steepest between 15 and 20 s, and flattens towards 500 m at 25 s. Time ticks are spaced 5 s apart and distance ticks 100 m apart.]\n\nWhich best describes the motion of the car?\n\nA The maximum speed during the first 20 seconds is $10\\ \\mathrm{m\\,s^{-1}}$.\nB At some instant during the first 20 seconds the speed is exactly $20\\ \\mathrm{m\\,s^{-1}}$.\nC The average speed for the first 200 m of the journey is $20\\ \\mathrm{m\\,s^{-1}}$.\nD The average speed between 20 and 25 seconds is greater than that between 15 and 20 seconds."
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q6",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The ball accelerates downwards relative to the lift at $1.2+9.81=11.01\\ \\mathrm{m\\,s^{-2}}$. The initial relative speed is zero, so $1.5=\\frac12(11.01)t^2$ gives $t=0.52\\ \\mathrm{s}$.",
+      "perOption": {
+        "A": "This time is too short for the relative acceleration to close the gap.",
+        "B": "Correct.",
+        "C": "Uses only gravitational acceleration, treating the floor as stationary.",
+        "D": "Subtracts the upward floor acceleration from the downward acceleration of the ball."
+      }
+    },
+    "issues": "The key includes an unexplained ratio of equations before the correct relative-displacement equation.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation is short once the acceleration relative to the lift is identified.",
+    "misconception": "Ignoring the moving lift floor",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q7",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Applying $F=ma$ along the inclines gives $m_1g\\sin30^\\circ-T=m_1a$ and $T-m_2g\\sin60^\\circ=m_2a$. Eliminating $T$ gives $(4.0+1.0)a=9.81(4.0\\sin30^\\circ-1.0\\sin60^\\circ)$, so $a=2.22\\ \\mathrm{m\\,s^{-2}}$. The second equation then gives $T-9.81\\sin60^\\circ=2.22$, hence $T=10.7\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "This is close to the net force on the lighter block, which also has a downslope weight component.",
+        "B": "This tension falls below the lighter block’s downslope weight component, even though the block accelerates upslope.",
+        "C": "This tension would give the lighter block a downslope net force.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student resolves the weights along two inclines and solves the connected force equations.",
+    "misconception": "Confusing tension with net force",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q8",
+    "keyPage": 8,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $v_1$ and $v_2$ be the final velocities of A and B. Conservation of momentum gives $2Mv+M(-v)=2Mv_1+Mv_2$, so $2v_1+v_2=v$. The relative velocity reverses in the elastic collision, so $(-v)-v=-(v_2-v_1)$ and $v_2=v_1+2v$. Substituting gives $2v_1+(v_1+2v)=v$, hence $v_1=-v/3$ and $v_2=-v/3+2v=5v/3$.",
+      "perOption": {
+        "A": "These velocities give total momentum $5Mv$, above the initial $Mv$.",
+        "B": "Correct.",
+        "C": "The separation speed is $v/3$, below the approach speed of $2v$.",
+        "D": "The separation speed is $3v$, above the approach speed of $2v$."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.c",
+      "collisions.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student tracks velocity signs and combines momentum with the elastic relative-speed condition.",
+    "misconception": "Ignoring the reversal of relative velocity",
+    "transcription": "Two steel balls A and B of masses $2M$ and $1M$ respectively move towards each other with the same speed $v$ and collide elastically.\n\n[Ball A, labelled $2M$, is on the left with a rightward arrow labelled $v$. Ball B, labelled $M$, is on the right with a leftward arrow labelled $v$.]\n\nWhat are the final velocities of the two balls in terms of $v$? Take the rightward direction as positive.\n\nFinal velocity of ball A, final velocity of ball B\nA $\\frac43v$, $\\frac73v$\nB $-\\frac13v$, $\\frac53v$\nC $\\frac13v$, $\\frac23v$\nD $-v$, $2v$"
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q9",
+    "keyPage": 8,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The less dense fluid exerts a smaller upthrust on the block, whose weight stays the same. At equilibrium, the upthrust and the tension in the spring balance add to the weight. The smaller upthrust therefore gives a larger tension and a higher reading.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A fully submerged block still displaces its own volume of fluid.",
+        "C": "Upthrust depends on fluid density as well as displaced volume.",
+        "D": "The less dense fluid gives a smaller upthrust and a higher balance reading."
+      }
+    },
+    "issues": "Option D is worded differently in the key booklet. The explanation follows the question PNG.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must relate fluid density to upthrust and apply vertical force balance.",
+    "misconception": "Assuming upthrust depends only on volume",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q10",
+    "keyPage": 9,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $N_A$ and $N_B$ be the normal reactions at A and B. Taking moments about B gives $W(1.5)=R(0.90)+N_A(2.0)$, so $N_A=[12000(1.5)-7000(0.90)]/2.0=5850\\ \\mathrm{N}$. Vertical force balance gives $N_A+N_B=12000\\ \\mathrm{N}$, hence $N_B=6150\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Assigns too much load to the front wheel for the given moment of the resistive force.",
+        "B": "Splits the weight equally without satisfying the moment balance.",
+        "C": "Swaps the front and rear reactions.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify the moment arms and combine rotational and vertical force balance.",
+    "misconception": "Ignoring the moment of the horizontal forces",
+    "transcription": "The figure below represents the various forces acting on a car moving towards the right. The driving force $D$ acts on the front wheels and the total resistive force is represented by the force $R$. The weight $W$ of the car is $12000\\ \\mathrm{N}$ and it acts on the centre of mass $G$ which is $90\\ \\mathrm{cm}$ above the ground.\n\n[Side view of a right-moving car. Rear wheel contact B is $1.5\\ \\mathrm{m}$ left of the vertical through G, and front contact A is $0.50\\ \\mathrm{m}$ right of it. The resistive force $R$ points left from G, the weight points down from G, and the driving force $D$ points right from A along the ground.]\n\nGiven that the values of $D$ and $R$ are both $7000\\ \\mathrm{N}$, what are the values of the normal reaction forces at A and at B acting on the wheels?\n\nNormal reaction force at A / N, normal reaction force at B / N\nA 8100, 3900\nB 6000, 6000\nC 6150, 5850\nD 5850, 6150"
+  }
+]

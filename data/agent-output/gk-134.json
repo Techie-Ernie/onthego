@@ -1,0 +1,506 @@
+[
+  {
+    "id": "tmjc-2023-other-p1-q10",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Escape speed is $v=\\sqrt{2GM/r}$, so $v\\propto\\sqrt{M/r}$. The ratio is $\\frac{v_m}{v_E}=\\sqrt{\\frac{M_m}{M_E}\\frac{r_E}{r_m}}=\\sqrt{\\frac{1}{81}\\times4}=\\frac29\\approx0.22$.",
+      "perOption": {
+        "A": "Uses the squared speed ratio $4/81$ as the speed ratio.",
+        "B": "Leaves the factor of 2 in $v^2=2GM/r$ uncancelled and omits the square root.",
+        "C": "Correct.",
+        "D": "Keeps an extra factor of 2 under the square root even though it cancels."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires applying the square-root scaling to two given ratios.",
+    "misconception": "Treating escape speed as proportional to $M/r$.",
+    "transcription": "The escape speed from the surface of the Moon is $v_m$.\n\nThe escape speed from the surface of the Earth is $v_E$.\n\nThe ratios of the masses and the radii of the Moon and the Earth are:\n$\\frac{M_m}{M_E}=\\frac{1}{81};\\quad \\frac{r_m}{r_E}=\\frac{1}{4}$\n\nwhere $M_m$ is the mass of the Moon, $M_E$ is the mass of the Earth, $r_m$ is the radius of the Moon and $r_E$ is the radius of the Earth.\n\nWhat is the ratio of $\\frac{v_m}{v_E}$?\n\nA 0.049\nB 0.098\nC 0.22\nD 0.31"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q11",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For simple harmonic motion, $E_P=\\frac12m\\omega^2x^2$. This gives an upward-opening parabola with its minimum at $x=0$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Shows the shape of kinetic energy versus displacement, with a maximum at equilibrium.",
+        "C": "Assigns two potential energies to a single displacement.",
+        "D": "Treats potential energy as periodic in displacement, giving repeated minima."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It asks students to recognize the graph of a standard SHM energy expression.",
+    "misconception": "Confusing the potential and kinetic energy curves.",
+    "transcription": "A mass attached to a spring is undergoing simple harmonic oscillations vertically.\n\nWhich graph shows the variation with displacement $x$ of the potential energy $E_P$ of the oscillation?\n\n[All graphs have vertical axis $E_P$ and horizontal axis $x$, with the origin marked 0.]\nA [Upward-opening parabola with vertex at the origin.]\nB [Downward-opening parabola peaking at $x=0$ and meeting the horizontal axis on both sides.]\nC [Ellipse centred on the origin.]\nD [Repeated identical rounded peaks with minima on the horizontal axis, including at the origin.]"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q12",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "From Graph 1, $\\lambda=0.45-0.15=0.30\\ \\mathrm{m}$. From Graph 2, $T=1.6-1.2=0.4\\ \\mathrm{ms}=0.4\\times10^{-3}\\ \\mathrm{s}$. Hence $v=f\\lambda=\\lambda/T=0.30/(0.4\\times10^{-3})=750\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Treats the period in milliseconds as seconds.",
+        "B": "Uses half a wavelength with the full period.",
+        "C": "Correct.",
+        "D": "Uses half a period with the full wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.d",
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires reading a full cycle from each graph and converting milliseconds to seconds.",
+    "misconception": "Mistaking adjacent zero crossings for a full cycle.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q13",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "With $\\lambda=550\\ \\mathrm{nm}$, the Rayleigh criterion gives a limiting angle of $\\theta=550\\times10^{-9}/(2.8\\times10^{-3})=1.964\\times10^{-4}\\ \\mathrm{rad}$. Using the pixel spacing as the arc length in the small-angle approximation, $s=r\\theta$. Hence $r=s/\\theta=(3.0\\times10^{-4})/(1.964\\times10^{-4})=1.5\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Implies a pixel separation angle of $5.0\\times10^{-4}\\ \\mathrm{rad}$, larger than the slit limit.",
+        "B": "Implies a pixel separation angle of $3.3\\times10^{-4}\\ \\mathrm{rad}$, larger than the slit limit.",
+        "C": "Correct.",
+        "D": "Implies a pixel separation angle of $1.0\\times10^{-4}\\ \\mathrm{rad}$, below the slit limit."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.m"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires combining the slit resolution limit with small-angle geometry.",
+    "misconception": "Confusing pixel spacing with the angular separation of the pixels.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q14",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Coincident maxima have the same diffraction angle $\\theta$. Since $d\\sin\\theta=n\\lambda$, this gives $n_{\\mathrm{red}}\\lambda_{\\mathrm{red}}=n_{\\mathrm{blue}}\\lambda_{\\mathrm{blue}}$. The order ratio is $n_{\\mathrm{red}}/n_{\\mathrm{blue}}=411/685=3/5$, so third-order red coincides with fifth-order blue.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the order ratio and assigns the higher order to red.",
+        "C": "Uses an order ratio of $2/3$, which differs from $3/5$.",
+        "D": "Uses an order ratio of $3/2$, giving red the higher order."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires equating diffraction angles and converting the wavelength ratio into integer orders.",
+    "misconception": "Assigning the larger order to the longer wavelength.",
+    "transcription": "A beam of light, comprising red and blue light, is incident normally on a diffraction grating. The wavelength of the red light is $685\\ \\mathrm{nm}$, while that of the blue light is $411\\ \\mathrm{nm}$.\n\nWhich of the following orders of red and blue maxima will coincide on the screen?\n\nOrder of red maximum | Order of blue maximum\nA 3rd | 5th\nB 5th | 3rd\nC 2nd | 3rd\nD 3rd | 2nd"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q15",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the kinetic model, gas molecules are far apart, so intermolecular forces are negligible except during brief collisions. The model takes the intermolecular potential energy to be zero.",
+      "perOption": {
+        "A": "A collision can change an individual molecule’s momentum.",
+        "B": "An elastic collision conserves the total kinetic energy of the colliding molecules while allowing energy to transfer between them.",
+        "C": "A molecule experiences a force when it collides with the container wall.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "It tests recall of the basic assumptions of the kinetic model.",
+    "misconception": "Assuming elastic collisions conserve each molecule’s kinetic energy.",
+    "transcription": null
+  },
+  {
+    "id": "tmjc-2023-other-p1-q16",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean translational kinetic energy is $\\frac12mc_{\\mathrm{rms}}^2=\\frac32kT$. At thermal equilibrium the temperatures are equal, so $m_{\\mathrm{He}}c_{\\mathrm{He}}^2=m_{\\mathrm{Ne}}c_{\\mathrm{Ne}}^2$. Thus $c_{\\mathrm{He}}/c_{\\mathrm{Ne}}=\\sqrt{m_{\\mathrm{Ne}}/m_{\\mathrm{He}}}=\\sqrt{2.5}\\approx1.6$.",
+      "perOption": {
+        "A": "Makes the lighter helium atoms slower even though both species have the same mean translational kinetic energy.",
+        "B": "Treats equal temperatures as equal rms speeds.",
+        "C": "Correct.",
+        "D": "Uses the inverse mass ratio directly without taking its square root."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [
+      "thermodynamic-systems"
+    ],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires using equal temperatures to relate the squared speeds to the masses.",
+    "misconception": "Equating rms speeds at thermal equilibrium.",
+    "transcription": "A mixture of neon and helium gases are in thermal equilibrium. The mass of a single neon atom is 2.5 times that of helium. The mixture of gases behaves ideally.\n\nWhat is the ratio of $\\frac{\\text{root-mean-square speed of a helium atom}}{\\text{root-mean-square speed of a neon atom}}$?\n\nA 0.80\nB 1.0\nC 1.6\nD 2.5"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q17",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a fixed amount of ideal gas, $pV\\propto T$. Since $p_ZV_Z<p_XV_X$, the temperature increases from Z to X. The internal energy of the ideal gas is proportional to its temperature, so it increases and statement A is incorrect.",
+      "perOption": {
+        "A": "Correct. The internal energy increases from Z to X.",
+        "B": "This statement is true because X and Y have the same $pV$ and therefore the same temperature and mean molecular kinetic energy.",
+        "C": "This statement is true because the gas is compressed from Y to Z.",
+        "D": "This statement is true because the clockwise cycle gives net work done by the gas, and the internal energy returns to its starting value."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.a",
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Checking all four statements requires interpreting the cycle and linking pressure and volume to temperature, work and heat.",
+    "misconception": "Inferring the change in temperature from volume alone.",
+    "transcription": "The graph shows the variation of pressure with volume of an ideal gas during a thermodynamic cycle.\n\n[Pressure–volume graph with a triangular cycle and straight arrows X to Y to Z to X. The coordinates $(V,p)$ are X $(V_0,p_0)$, Y $(4V_0,\\frac14p_0)$ and Z $(2V_0,\\frac14p_0)$.]\n\nWhich of the following statements is incorrect?\n\nA The internal energy of the gas decreases when it goes from state Z to state X.\nB The mean kinetic energy of the gas molecules is the same at state X and state Y.\nC Work is done on the gas when it goes from state Y to state Z.\nD Net heat is supplied to the gas in one complete cycle."
+  },
+  {
+    "id": "tmjc-2023-other-p1-q18",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Outside the sphere, $V=Q/(4\\pi\\varepsilon_0r)$. With $Q$ fixed, $V\\propto 1/r$, where $r$ is measured from the centre. Therefore $V_P=(r_{\\mathrm{surface}}/r_P)V_{\\mathrm{surface}}=(0.10/0.20)(-180\\ \\mathrm{kV})=-90\\ \\mathrm{kV}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses inverse-square scaling for potential, reducing its magnitude by a factor of four.",
+        "C": "Uses inverse-square scaling and reverses the sign of the potential.",
+        "D": "Halves the magnitude but reverses the sign of the potential."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires measuring distance from the centre and using inverse-distance scaling.",
+    "misconception": "Applying the inverse-square law to electric potential.",
+    "transcription": "The surface of an isolated conducting sphere is at a potential of $-180\\ \\mathrm{kV}$. The radius of the sphere is $0.10\\ \\mathrm{m}$. P is a point $0.10\\ \\mathrm{m}$ above the surface as shown below.\n\n[The sphere has a horizontal radius marked $0.10\\ \\mathrm{m}$. P lies on the upward extension of a vertical diameter, $0.10\\ \\mathrm{m}$ above the surface.]\n\nWhat is the potential at point P?\n\nA $-90\\ \\mathrm{kV}$\nB $-45\\ \\mathrm{kV}$\nC $45\\ \\mathrm{kV}$\nD $90\\ \\mathrm{kV}$"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q19",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The variable resistor and $R$ have zero effective resistance initially. As the variable resistance increases to $R$, the effective resistance increases to $R/2$. By the potential divider rule, the external load then takes an increasing share of the e.m.f., so the terminal potential difference increases.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats a larger load resistance as taking a smaller share of the e.m.f.",
+        "C": "Assumes a turning point even though the effective load resistance increases throughout.",
+        "D": "Treats the terminal potential difference as fixed despite the changing voltage drop across the internal resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires tracking how a changing parallel load affects the battery’s potential divider.",
+    "misconception": "Equating terminal potential difference with the battery’s fixed e.m.f.",
+    "transcription": "A battery with an internal resistance $r$ is connected to a variable resistor and a resistor $R$ as shown.\n\nThe resistance of the variable resistor is slowly increased from zero to the same value as resistor $R$.\n\n[Three parallel branches share two nodes. The top branch contains a cell, positive on the left, in series with its internal resistance $r$, with both enclosed in the dashed battery outline. The middle branch contains a variable resistor and the bottom branch contains resistor $R$.]\n\nWhat happens to the terminal potential difference of the battery?\n\nA increases\nB decreases\nC decreases before increasing\nD no change"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q20",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By potential division, the top-left corner is at $12/2=6\\ \\mathrm{V}$ and the bottom-right corner is at $12/3=4\\ \\mathrm{V}$. The voltmeter measures the difference, $6-4=2\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Assumes equal resistor values balance the bridge despite the unequal divider ratios.",
+        "B": "Correct.",
+        "C": "Gives the bottom-right node potential relative to the 0 V terminal.",
+        "D": "Gives the top-left node potential relative to the 0 V terminal."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires treating the two paths as separate voltage dividers and comparing their tap potentials.",
+    "misconception": "Reading a node potential as the voltage across the voltmeter.",
+    "transcription": "In the circuit shown, all the resistors have the same resistance. The voltmeter can be assumed to be ideal.\n\n[Rectangular circuit with one resistor on each of the top, left and bottom sides and two resistors in series on the right side. The top-right terminal is at $+12\\ \\mathrm{V}$ and the bottom-left terminal is at $0\\ \\mathrm{V}$. An ideal voltmeter connects the top-left and bottom-right corners diagonally.]\n\nThe potential difference between the terminals is $12\\ \\mathrm{V}$.\n\nWhat is the reading on the voltmeter?\n\nA $0\\ \\mathrm{V}$\nB $2\\ \\mathrm{V}$\nC $4\\ \\mathrm{V}$\nD $6\\ \\mathrm{V}$"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q21",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By the right-hand grip rule, the top-left and bottom-right wires produce opposite fields at the centre. Their fields cancel because the currents and distances from the centre are equal. The bottom-left wire produces a field directed diagonally toward the top left.",
+      "perOption": {
+        "A": "Drops the upward component of the field from the bottom-left wire.",
+        "B": "Correct.",
+        "C": "Reverses the right-hand grip rule for the current coming out of the page.",
+        "D": "Drops the leftward component of the field from the bottom-left wire."
+      }
+    },
+    "issues": "The worked key calls the bottom-left current $2I$. The question labels it $I$. The correction leaves the resultant direction and answer letter unchanged.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires applying the right-hand grip rule and recognizing cancellation by symmetry.",
+    "misconception": "Reversing the field direction for current out of the page.",
+    "transcription": "The diagram shows three wires carrying equal currents. The wires pass through the three corners of a square as shown.\n\n[Dashed square with a dot at its centre. At the top-left and bottom-right corners, crosses show current $I$ into the page. At the bottom-left corner, a dot shows current $I$ out of the page. The top-right corner has no wire.]\n\nWhat is direction of the magnetic field at the centre of the square due to wires?\n\nA [Arrow pointing left.]\nB [Arrow pointing diagonally up and left.]\nC [Arrow pointing diagonally down and right.]\nD [Arrow pointing up.]"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q22",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Currents in the same direction attract, so X pulls Y to the left. Currents in opposite directions repel, so Z also pushes Y to the left. Z is as far from Y as X is and carries twice the current of X, so the two forces add to $F+2F=3F$ leftwards.",
+      "perOption": {
+        "A": "Treats Z as attracting Y to the right and subtracts X’s leftward force.",
+        "B": "Gives a magnitude of $F$, which can result from subtracting two forces that both point left.",
+        "C": "Counts only Z’s repulsion and omits X’s attraction.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires determining attraction and repulsion and scaling the force by current at equal separations.",
+    "misconception": "Assuming wires on opposite sides of Y exert forces in opposite directions.",
+    "transcription": "The diagram shows three wires X, Y and Z that are equally spaced from each other. The current running through each wire is as shown.\n\n[Three equally spaced vertical wires are arranged left to right as X, Y and Z. X and Y carry current $I$ downwards, and Z carries current $2I$ upwards.]\n\nThe magnitude of the magnetic force exerted by wire X on Y is $F$.\n\nWhat is the magnitude and direction of the resultant magnetic force exerted on wire Y?\n\nA $F$, rightwards\nB $F$, leftwards\nC $2F$, leftwards\nD $3F$, leftwards"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q23",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The soft iron core increases the magnetic flux linkage through coil Q. The rate of change of flux linkage is larger, so the induced e.m.f. has greater amplitude. The supply to P still oscillates at $50\\ \\mathrm{Hz}$, so the frequency and the number of cycles on screen stay the same.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Assumes the core increases the frequency, which is set by the supply.",
+        "C": "Overlooks the increase in the rate of change of flux linkage through Q.",
+        "D": "Overlooks stronger flux linkage and incorrectly assumes the core increases the frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.g",
+      "electromagnetic-forces.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires relating improved magnetic coupling to signal amplitude and recognizing that the supply fixes the frequency.",
+    "misconception": "Assuming better magnetic coupling changes the signal frequency.",
+    "transcription": "A coil P is connected to a $50\\ \\mathrm{Hz}$ alternating voltage supply. Another coil Q is placed close to coil P with both coils lying on the same axis. Coil Q is connected to an oscilloscope, which detects a sinusoidal signal on the screen.\n\n[Coaxial coils P and Q are side by side. P is connected to the alternating supply and Q is connected to an oscilloscope displaying a sinusoidal trace.]\n\nWhat would be the effect on the oscilloscope signal if both coils are linked by a soft iron core?\n\nAmplitude of signal | Number of cycles on screen\nA increases | unchanged\nB increases | increases\nC unchanged | unchanged\nD unchanged | increases"
+  },
+  {
+    "id": "tmjc-2023-other-p1-q24",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The induced e.m.f. is $\\varepsilon=BLv=(0.54)(0.10)(2.2)=0.12\\ \\mathrm{V}$. Applying Fleming’s left-hand rule to the moving electrons gives a downward force, so electrons accumulate at Q. Q is at the lower potential, leaving P at the higher potential.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Substitutes 10 cm as 10 m and overestimates the e.m.f. by a factor of 100.",
+        "C": "Assigns higher potential to Q even though electrons accumulate there.",
+        "D": "Fails to convert centimetres to metres and reverses the polarity."
+      }
+    },
+    "issues": "The worked key calls the lower end B. The diagram labels it Q. The stated electron force and answer letter A are consistent with Q being at the lower potential.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the motional e.m.f. and independently determining the polarity from the electron force.",
+    "misconception": "Using centimetres in the e.m.f. formula or reversing electron deflection.",
+    "transcription": "A conducting rod PQ of length $10\\ \\mathrm{cm}$ is placed on two horizontal, parallel and smooth metal rails as shown below. A uniform magnetic field of flux density $0.54\\ \\mathrm{T}$ is applied perpendicularly to the plane of the rails into paper.\n\n[Top view of two horizontal rails bridged by the vertical rod PQ, with P on the upper rail and Q on the lower rail. Crosses mark the field into the paper and an arrow from the rod points right, labelled $2.2\\ \\mathrm{m\\,s^{-1}}$.]\n\nRod PQ moves at a constant speed of $2.2\\ \\mathrm{m\\,s^{-1}}$.\n\nWhich of the following correctly states the magnitude of the induced e.m.f. and the end of the rod with higher potential?\n\nMagnitude of e.m.f. | End of rod with higher potential\nA $0.12\\ \\mathrm{V}$ | P\nB $12\\ \\mathrm{V}$ | P\nC $0.12\\ \\mathrm{V}$ | Q\nD $12\\ \\mathrm{V}$ | Q"
+  }
+]

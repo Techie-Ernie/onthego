@@ -1,0 +1,507 @@
+[
+  {
+    "id": "ri-2023-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "X and Z carry the same current magnitude and are equally far from Y. Since X and Y attract, Y pulls X right with $8.0\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$. Z repels X, with $F/L=\\mu_0 I_X I_Z/[2\\pi(2d)]=8.0\\times10^{-6}\\times\\frac12\\times\\frac{3.0}{5.0}=2.4\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$ to the left. The resultant is $(8.0-2.4)\\times10^{-6}=5.6\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$ to the right.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Reverses the resultant even though the rightward force is larger.",
+        "C": "Omits Z’s repulsion.",
+        "D": "Omits Z’s repulsion and reverses Y’s attraction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must scale the forces by current and separation before combining them.",
+    "misconception": "Ignoring repulsion from Z",
+    "transcription": "Three long, parallel wires X, Y and Z carry currents of $3.0\\ \\mathrm A$, $5.0\\ \\mathrm A$ and $3.0\\ \\mathrm A$ respectively in the directions shown. X and Z are at distance $d$ from Y. Wire Y exerts a force per unit length of $8.0\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$ on wire Z.\n\n[Vertical wires X, Y and Z are arranged left to right, separated by $d$ between neighbours. Current arrows point down on X and Y and up on Z.]\n\nWhat is the resultant force per unit length acting on wire X?\nA $5.6\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$ to the right\nB $5.6\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$ to the left\nC $8.0\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$ to the right\nD $8.0\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$ to the left"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increasing the field increases outward flux linkage through the frame. By Lenz’s law, the induced current produces a field into the page to oppose that increase. A clockwise current produces that field.",
+      "perOption": {
+        "A": "Sliding left induces an e.m.f. across the rod and drives opposite senses of circulation in the two sections.",
+        "B": "Sliding right induces an e.m.f. across the rod and drives opposite senses of circulation in the two sections.",
+        "C": "Decreasing outward flux induces an anticlockwise current that produces an outward field.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.b",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must distinguish the flux changes in the whole frame and its two sections.",
+    "misconception": "Treating both loops as a single loop when the rod moves",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The induced e.m.f. is $E=B_vAf$, with $B_v=B\\sin72^\\circ$ the vertical field component and $A=\\pi r^2$ the area swept per revolution. Thus $E=(5.6\\times10^{-5})\\sin72^\\circ\\,\\pi(0.55)^2(1.6)=8.099\\times10^{-5}\\ \\mathrm V=81\\ \\mathrm{\\mu V}$.",
+      "perOption": {
+        "A": "Uses the horizontal field component.",
+        "B": "Correct.",
+        "C": "Uses the total field magnitude.",
+        "D": "Overestimates the flux swept per second by a single blade."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must identify the perpendicular field component and the area swept per revolution.",
+    "misconception": "Using the full field magnitude",
+    "transcription": "In a region where the magnetic flux density of the Earth is $5.6\\times10^{-5}\\ \\mathrm T$, and directed at $72^\\circ$ to the horizontal, a ceiling fan with four horizontal blades rotates about a vertical axis at a frequency of $1.6\\ \\mathrm{Hz}$. The length of each blade is $0.55\\ \\mathrm m$.\n\nWhat is the e.m.f. induced between the axle of the fan and the tips of the blades?\nA $26\\ \\mathrm{\\mu V}$\nB $81\\ \\mathrm{\\mu V}$\nC $85\\ \\mathrm{\\mu V}$\nD $150\\ \\mathrm{\\mu V}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "With supply voltage $V_S$, the first circuit has $V_Q/V_P=N_Q/N_P=20$, giving $V_Q=20V_S$. Since $2.0=20V_S/R$, $V_S/R=0.10\\ \\mathrm A$.\n\nIn the reversed circuit $V'_P/V'_Q=N_P/N_Q=1/20$, so $V'_P=0.050V_S$. The current is $V'_P/R=0.050(0.10)=0.0050\\ \\mathrm A$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the current the supply alone would drive through the resistor.",
+        "C": "Assumes reversal leaves the load voltage unchanged.",
+        "D": "Multiplies the original load current by 20 even though the load voltage falls."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "circuits.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must apply the voltage ratio in both orientations and use the same load resistance.",
+    "misconception": "Applying the turns ratio only once",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For charge magnitude $Q$ and voltage magnitude $V$, $QV=E_k=p^2/(2m)$. Since $p=\\sqrt{2mQV}=h/\\lambda$, the wavelength scales as $1/\\sqrt{mQ}$ at fixed $V$. Helium gives the smallest value, $1/\\sqrt{4(1.66\\times10^{-27})(2\\times1.60\\times10^{-19})}=2.17\\times10^{22}\\ \\mathrm{(kg\\,C)^{-1/2}}$.",
+      "perOption": {
+        "A": "The proton gives $1/\\sqrt{mQ}\\approx6.11\\times10^{22}\\ \\mathrm{(kg\\,C)^{-1/2}}$, larger than helium’s.",
+        "B": "The electron gives $2.62\\times10^{24}\\ \\mathrm{(kg\\,C)^{-1/2}}$, larger than helium’s.",
+        "C": "The deuterium nucleus gives $4.33\\times10^{22}\\ \\mathrm{(kg\\,C)^{-1/2}}$, larger than helium’s.",
+        "D": "Correct. It has the largest mass–charge product."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must link electrical work to momentum before comparing wavelengths.",
+    "misconception": "Assuming equal voltage gives equal kinetic energy",
+    "transcription": "In an evacuated chamber, particles are accelerated from rest through a potential difference of the same magnitude.\n\nWhich of the following has the shortest de Broglie wavelength after the acceleration?\nA proton ${}^{1}_{1}\\mathrm p$\nB electron ${}^{0}_{-1}\\mathrm e$\nC deuterium nucleus ${}^{2}_{1}\\mathrm H$\nD helium nucleus ${}^{4}_{2}\\mathrm{He}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The key treats Y’s three lines as transitions among three levels and compares Y’s highest-to-ground photon energy with X’s gaps. If it matches $E_4-E_3$, $E_4-E_2$ or $E_3-E_2$ in X, it is below the first excitation gap as drawn, giving zero lines. If it matches $E_2-E_1$, $E_3-E_1$ or $E_4-E_1$, X can reach $E_2$, $E_3$ or $E_4$, respectively. The downward transitions then give one, three or six lines.",
+      "perOption": {
+        "A": "Zero is possible if Y’s photons all fall below X’s first excitation gap.",
+        "B": "Three is possible if X reaches $E_3$.",
+        "C": "Correct. Four is impossible in the transition model used.",
+        "D": "Six is possible if X reaches $E_4$."
+      }
+    },
+    "issues": "The solution continues on page 7. The line counts assume the depicted downward transitions occur and give distinct photon energies.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k",
+      "quantum-physics.m"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must match emission and absorption gaps and count downward transitions.",
+    "misconception": "Counting only transitions to ground",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The proton and neutron have combined rest energy $939+940=1879\\ \\mathrm{MeV}$. This exceeds the deuteron’s rest energy by $1879-1876=3\\ \\mathrm{MeV}$, so the deuteron must absorb a gamma photon of about $3\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Emission removes energy when breakup requires an input.",
+        "B": "Two MeV is below the rest-energy gap.",
+        "C": "The 3 MeV must be supplied by absorption.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.n",
+      "nuclear-physics.q",
+      "nuclear-physics.r"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compute the rest-energy difference and determine the direction of energy transfer.",
+    "misconception": "Treating breakup as energy release",
+    "transcription": "The rest mass of the deuteron, ${}^{2}_{1}\\mathrm H$, is equivalent to an energy of $1876\\ \\mathrm{MeV}$. The rest masses of a proton and a neutron are equivalent to $939\\ \\mathrm{MeV}$ and $940\\ \\mathrm{MeV}$ respectively.\n\nWhich of the following occurs when a deuteron disintegrates into a proton and neutron?\nA The deuteron emits a $\\gamma$-ray photon of energy $2\\ \\mathrm{MeV}$.\nB The deuteron captures a $\\gamma$-ray photon of energy $2\\ \\mathrm{MeV}$.\nC The deuteron emits a $\\gamma$-ray photon of energy $3\\ \\mathrm{MeV}$.\nD The deuteron captures a $\\gamma$-ray photon of energy $3\\ \\mathrm{MeV}$."
+  },
+  {
+    "id": "ri-2023-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The time at which an individual nucleus decays is unpredictable. The count rate fluctuates because the number of decays varies between equal time intervals.",
+      "perOption": {
+        "A": "The long-term decrease follows the radioactive decay law.",
+        "B": "Correct.",
+        "C": "Independence from heating illustrates spontaneous decay.",
+        "D": "Differences in isotope stability do not describe the timing of individual decays."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.d",
+      "nuclear-physics.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student must recognise the standard observational signature of random decay.",
+    "misconception": "Confusing randomness with spontaneity",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Pressure has units $\\mathrm{N\\,m^{-2}}=\\mathrm{kg\\,m^{-1}\\,s^{-2}}$ and density has units $\\mathrm{kg\\,m^{-3}}$. Thus $(\\Delta P/\\rho)^n$ has units $\\mathrm{m^{2n}\\,s^{-2n}}$. Matching these to $\\mathrm{m\\,s^{-1}}$ gives $2n=1$, so $n=\\frac12$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Leaves the units as $\\mathrm{m^2\\,s^{-2}}$.",
+        "C": "Gives $\\mathrm{m^3\\,s^{-3}}$.",
+        "D": "Squares the ratio, giving $\\mathrm{m^4\\,s^{-4}}$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must convert pressure and density to base units and compare exponents.",
+    "misconception": "Leaving the units of squared speed unchanged",
+    "transcription": "The speed $v$ of a liquid leaving a tube depends on the difference in pressure $\\Delta P$ between the ends of the tube and the density $\\rho$ of the liquid according to the equation\n\n$v=k\\left(\\frac{\\Delta P}{\\rho}\\right)^n$\n\nwhere $k$ is a unitless constant.\n\nWhat is the value of $n$?\nA $\\frac12$\nB $1$\nC $\\frac32$\nD $2$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The diameter difference is $d=16.24-12.78=3.46\\ \\mathrm{mm}$. The absolute uncertainty is $\\Delta d=0.03+0.02=0.05\\ \\mathrm{mm}$. The percentage uncertainty is $(0.05/3.46)\\times100\\%\\approx1.4451\\%\\approx1.4\\%$.",
+      "perOption": {
+        "A": "Subtracts the absolute uncertainties.",
+        "B": "Includes only the first uncertainty.",
+        "C": "Includes only the second uncertainty.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must add the absolute uncertainties and divide by the diameter difference.",
+    "misconception": "Subtracting absolute uncertainties",
+    "transcription": "A micrometer screw gauge is used to measure the diameters of two cylinders. The measurements of the diameters, with their actual uncertainties, are given as follows:\n\ndiameter of first cylinder $=(12.78\\pm0.02)\\ \\mathrm{mm}$\ndiameter of second cylinder $=(16.24\\pm0.03)\\ \\mathrm{mm}$\n\nWhat is the percentage uncertainty in the difference of the two diameters?\nA $0.29\\%$\nB $0.58\\%$\nC $0.87\\%$\nD $1.4\\%$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Acceleration is the gradient of the velocity–time graph, $a=\\mathrm{d}v/\\mathrm{d}t$. From $0$ to $t_1$, velocity increases at a constant rate because acceleration is constant. From $t_1$ to $t_2$, velocity increases at a decreasing rate. From $t_2$ to $t_3$, the acceleration is zero and the velocity stays constant.",
+      "perOption": {
+        "A": "Level displacement after $t_2$ would imply zero velocity.",
+        "B": "Falling displacement implies backward motion even though velocity remains positive.",
+        "C": "Correct.",
+        "D": "Falling velocity after $t_1$ requires negative acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must interpret the velocity gradient over three different acceleration intervals.",
+    "misconception": "Confusing decreasing acceleration with decreasing velocity",
+    "transcription": "A force is applied on a stationary object at time $t=0\\ \\mathrm s$. The graph shows how the acceleration $a$ of the object varies with time $t$.\n\n[The $a$–$t$ graph is flat and positive from $0$ to $t_1$, falls linearly to zero at $t_2$ and stays zero through $t_3$.]\n\nWhich graph shows how the velocity $v$ or displacement $s$ of the object varies with $t$?\nA [$s$ rises from zero with increasing slope to $t_1$, then with decreasing slope to $t_2$, and is flat through $t_3$.]\nB [$s$ rises from zero with increasing slope to a peak at $t_1$, then falls and levels off at zero at $t_2$ through $t_3$.]\nC [$v$ rises linearly from zero to $t_1$, then increases with decreasing slope and stays positive and constant from $t_2$ to $t_3$.]\nD [$v$ rises linearly from zero to $t_1$, then falls and levels off at zero at $t_2$ through $t_3$.]"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The balance reads the normal force on the student. As the lift rises, the reading is less than the weight if it slows down, equal to the weight if its speed stays constant, and greater than the weight if it speeds up. All three readings are possible.",
+      "perOption": {
+        "A": "Applies if the lift slows down.",
+        "B": "Applies if the lift moves at constant speed.",
+        "C": "Applies if the lift speeds up.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish upward motion from upward acceleration.",
+    "misconception": "Assuming upward motion implies upward acceleration",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For both crates, Newton’s second law gives $100-(2.0+3.0)(9.81)=(2.0+3.0)a$, so $a=10.19\\ \\mathrm{m\\,s^{-2}}$ upward. For the $2.0\\ \\mathrm{kg}$ crate, $100-2.0(9.81)-T=2.0(10.19)$ gives $T=60\\ \\mathrm N$. For the $3.0\\ \\mathrm{kg}$ crate, $T-3.0(9.81)=3.0(10.19)$ gives the same result.",
+      "perOption": {
+        "A": "Uses the force needed to support and accelerate the upper crate as the cable tension.",
+        "B": "Uses the net force on both crates as the tension.",
+        "C": "Correct.",
+        "D": "Subtracts the upper crate’s weight but omits the force needed to accelerate it."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the common acceleration before applying Newton’s second law to one crate.",
+    "misconception": "Omitting a force when isolating a crate",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The motorcycle keeps moving in the same direction. The signed area under the force–time graph gives the change in momentum, so $400(v-4.5)=\\frac12(1.0)(400)-\\frac12(2.0)(800)$. Thus $v-4.5=-1.5\\ \\mathrm{m\\,s^{-1}}$ and the final speed is $3.0\\ \\mathrm{m\\,s^{-1}}$.",
+      "perOption": {
+        "A": "Reports the magnitude of the speed change.",
+        "B": "Correct.",
+        "C": "Keeps the initial speed as if the impulses cancel.",
+        "D": "Adds the magnitude of the speed change despite the retarding net impulse."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the signed areas of two triangles to update the initial speed.",
+    "misconception": "Reporting the speed change as final speed",
+    "transcription": "A motorcycle of mass $400\\ \\mathrm{kg}$ is travelling at a speed of $4.5\\ \\mathrm{m\\,s^{-1}}$ when it experiences an accelerating force for $1.0\\ \\mathrm s$, followed by a retarding force for $2.0\\ \\mathrm s$ as shown.\n\n[Force in N is plotted against time in s. Straight segments join $(0.0,0)$, $(0.5,400)$, $(2.0,-800)$ and $(3.0,0)$, with force crossing zero at $1.0\\ \\mathrm s$.]\n\nWhat is the speed of the motorcycle after $3.0\\ \\mathrm s$?\nA $1.5\\ \\mathrm{m\\,s^{-1}}$\nB $3.0\\ \\mathrm{m\\,s^{-1}}$\nC $4.5\\ \\mathrm{m\\,s^{-1}}$\nD $6.0\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The cube floats in vertical equilibrium, so its upthrusts sum to its weight, giving $V_1\\rho_1g+V_2\\rho_2g=(V_1+V_2)\\rho_cg$. Substituting $\\rho_2=3\\rho_1$ and $\\rho_c=2\\rho_1$ and cancelling $\\rho_1g$ gives $V_1+3V_2=2(V_1+V_2)$. Hence $V_1=V_2$ and $V_1/V_2=1$.",
+      "perOption": {
+        "A": "Uses the liquid density ratio as the volume ratio.",
+        "B": "Uses the upper-liquid-to-cube density ratio and omits the lower upthrust.",
+        "C": "Uses the cube-to-lower-liquid density ratio as the volume ratio.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine both buoyant forces and use the full cube volume for its weight.",
+    "misconception": "Equating the two upthrusts",
+    "transcription": "A cube of density $\\rho_c$ is floating in two liquids $\\mathrm{L_1}$ and $\\mathrm{L_2}$ of densities $\\rho_1$ and $\\rho_2$ respectively. Volume $V_1$ of the cube is immersed in $\\mathrm{L_1}$, and volume $V_2$ of the cube is immersed in $\\mathrm{L_2}$.\n\n[The cube is fully immersed across a horizontal interface, with its upper portion $V_1$ in $\\mathrm{L_1}$ and its lower portion $V_2$ in $\\mathrm{L_2}$. Diagram not drawn to scale.]\n\nWhat is the ratio $\\frac{V_1}{V_2}$, if $\\rho_2=3\\rho_1$ and $\\rho_c=2\\rho_1$?\nA $\\frac13$\nB $\\frac12$\nC $\\frac23$\nD $1$"
+  }
+]

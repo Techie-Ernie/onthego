@@ -1,0 +1,499 @@
+[
+  {
+    "id": "ri-2025-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current in WX stays perpendicular to the magnetic field, so the magnetic force on WX has constant magnitude. The perpendicular distance between the lines of action of the couple’s forces changes as the loop rotates, so the torque varies.",
+      "perOption": {
+        "A": "A constant force still produces a varying torque when the moment arm changes.",
+        "B": "Correct.",
+        "C": "WX stays perpendicular to the field, while the moment arm changes.",
+        "D": "WX stays perpendicular to the field, so its magnetic force stays constant."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "forces-and-moments.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires tracking the force direction and the changing moment arm as the loop rotates.",
+    "misconception": "Assuming a constant force gives a constant torque.",
+    "transcription": "A rectangular loop WXYZ carries a current $I$ and rotates in a magnetic field of flux density $B$. The axis of rotation is perpendicular to the magnetic field.\n\n[The rectangular loop has X and Y at the top, W and Z at the bottom, and a dashed vertical rotation axis through its centre. The magnetic field points right. Current flows up WX and down YZ.]\n\nWhich row correctly describes the variation of the magnitude of the magnetic force acting on WX and torque on the loop?\n\nMagnetic force | Torque\nA. constant | constant\nB. constant | not constant\nC. not constant | constant\nD. not constant | not constant"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field at the coil has magnitude $B=\\mu_0 nI=(4\\pi\\times10^{-7})(950/0.80)(2.0)=2.985\\times10^{-3}\\ \\mathrm{T}$. Reversing the current changes the flux linkage by magnitude $2NBA$. The average induced e.m.f. has magnitude $2(96)(2.985\\times10^{-3})(1.6\\times10^{-3})/0.24=3.8\\ \\mathrm{mV}$.",
+      "perOption": {
+        "A": "The field reverses, so the signed magnetic flux changes even though its initial and final magnitudes are equal.",
+        "B": "Uses a flux linkage change of $NBA$ instead of $2NBA$.",
+        "C": "Treats 950 turns as the number per metre instead of the number in 0.80 m.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It combines the solenoid field formula with Faraday’s law and requires accounting for the field reversal.",
+    "misconception": "Using the change in field magnitude instead of the change in signed field.",
+    "transcription": "A solenoid has a coil C of wire wound tightly about its centre as shown.\n\n[Coil C is wound around the middle of a horizontal solenoid and has two separate terminals. The solenoid is connected to a d.c. supply, with + on the left and − on the right.]\n\nThe coil C has 96 turns of area $1.6\\times10^{-3}\\ \\mathrm{m^2}$. The solenoid has 950 turns in 80 cm and carries a current of 2.0 A. The current is reversed in a duration of 0.24 s.\n\nWhat is the average induced e.m.f. in coil C when the current is reversed?\n\nA. 0 V\nB. 1.9 mV\nC. 3.1 mV\nD. 3.8 mV"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q25",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wire produces a magnetic field into the page through the coil. As the coil moves away, its flux linkage into the page decreases, so Lenz’s law gives a clockwise induced current to oppose that decrease. By conservation of energy, the coil loses kinetic energy as the current is induced, so it slows down.",
+      "perOption": {
+        "A": "The induced current dissipates energy at the expense of the coil’s kinetic energy, so its speed decreases.",
+        "B": "Correct.",
+        "C": "An anticlockwise current would reinforce the decrease in inward flux, and the induced current makes the coil slow down.",
+        "D": "An anticlockwise current would produce an outward field and reinforce the decrease in inward flux."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "electromagnetic-forces",
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-forces.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the field direction, applying Lenz’s law and accounting for the energy transfer.",
+    "misconception": "Assuming the induced current opposes the original field instead of the change in flux.",
+    "transcription": "A fixed long straight wire carrying current $I$ is placed close to a circular conducting coil. The circular coil is moving away from the wire with an initial speed $u$.\n\n[A vertical wire carries a steady upward current $I$. A circular coil to its right moves rightward at speed $u$.]\n\nWhich row correctly describes the direction of the induced current and the speed of the circular coil as the coil moves away from the wire?\n\nDirection of induced current | Speed\nA. clockwise | no change\nB. clockwise | decrease\nC. anticlockwise | no change\nD. anticlockwise | decrease"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q26",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the first half-cycle, only $\\mathrm{D}_1$ conducts and the effective resistance is $R$. In the second half-cycle, only $\\mathrm{D}_2$ conducts and the effective resistance is $1.75R$. The mean power over either half-cycle is half its peak power, so the full-cycle mean is $\\frac12\\left(\\frac{V_0^2}{2R}+\\frac{V_0^2}{2(1.75R)}\\right)=0.39V_0^2/R$.",
+      "perOption": {
+        "A": "Counts only the power delivered during the half-cycle when $\\mathrm{D}_1$ conducts.",
+        "B": "Uses too large an effective resistance for the second half-cycle, such as $2.25R$ from reducing its parallel network incorrectly.",
+        "C": "Correct.",
+        "D": "Adds the two half-cycle means without dividing by two."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.h",
+      "circuits.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "It requires reducing two different resistor networks and averaging their sinusoidal power over a full cycle.",
+    "misconception": "Using one equivalent resistance for the entire cycle.",
+    "transcription": "In the circuit shown, $\\mathrm{D}_1$ and $\\mathrm{D}_2$ are ideal diodes. Resistor $R_1$ has a resistance of $2R$. Resistors $R_2$, $R_3$ and $R_4$ are identical and have the same resistance $R$.\n\nThe input voltage to the circuit is a sinusoidal alternating voltage of peak value $V_0$.\n\nWhat is the average power delivered to the circuit?\n\n[An a.c. source connects the left and right rails. The top branch runs from the left rail through right-facing diode $\\mathrm{D}_1$ and resistor $R_1$ to the right rail. The middle branch runs from the left rail through $R_4$, left-facing diode $\\mathrm{D}_2$ and $R_3$ to the right rail. Resistor $R_2$ connects the junction of $\\mathrm{D}_1$ and $R_1$ to the junction of $\\mathrm{D}_2$ and $R_3$.]\n\nA. $0.25V_0^2/R$\nB. $0.36V_0^2/R$\nC. $0.39V_0^2/R$\nD. $0.79V_0^2/R$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q27",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The uncertainty principle sets a nonzero lower bound on $\\Delta r\\,\\Delta p_r$. A perfectly defined radius would require unbounded radial momentum uncertainty in the limit $\\Delta r\\to0$. Bohr’s circular orbit instead fixes the radial momentum at zero, giving it zero uncertainty.",
+      "perOption": {
+        "A": "The radial position uncertainty pairs with radial momentum uncertainty, whereas the stated velocity is tangential.",
+        "B": "Correct.",
+        "C": "A spread in momentum does not imply faster-than-light motion.",
+        "D": "The principle requires a momentum spread for a confined electron and does not imply that a bound electron escapes."
+      }
+    },
+    "issues": "The key writes the order-of-magnitude bound as a literal inequality with h and describes infinite uncertainty at exactly zero radial spread. The explanation states the nonzero bound and describes the limiting behavior.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires identifying the momentum component that pairs with radial position in the uncertainty principle.",
+    "misconception": "Pairing radial position with tangential momentum.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q28",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Incident electrons knock inner-shell electrons out of the target atoms. Electrons from higher energy levels fill the vacancies and emit X-rays with energies equal to the discrete level gaps, producing the sharp characteristic peaks.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Deceleration in the nuclear electric field produces the continuous background.",
+        "C": "Scattering redistributes existing X-rays and does not create the characteristic emission lines.",
+        "D": "Crystal diffraction changes the directions in which X-rays emerge and does not generate the characteristic photons."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.k"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing characteristic lines from the continuous X-ray background.",
+    "misconception": "Attributing the characteristic peaks to bremsstrahlung.",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q29",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two photons carry the total rest energy of the electron and positron, so $2E_\\gamma=2mc^2$. Each photon therefore has energy $E_\\gamma=(9.11\\times10^{-31})(3.0\\times10^8)^2=8.2\\times10^{-14}\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "This is the numerical result of multiplying the combined mass by $c$ instead of using $c^2$, giving units of momentum.",
+        "B": "Divides one particle’s rest energy between the two photons.",
+        "C": "Correct.",
+        "D": "Gives the combined energy of both photons."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.q"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires equating the rest energy of two particles to the energy of two identical photons.",
+    "misconception": "Counting only one particle or assigning the total energy to one photon.",
+    "transcription": "A positron and an electron, each of mass $9.11\\times10^{-31}\\ \\mathrm{kg}$ moving with negligible kinetic energy, meet and annihilate each other, producing two gamma photons of the same frequency.\n\nWhat is the energy of each of the two gamma photons produced?\n\nA. $5.5\\times10^{-22}\\ \\mathrm{J}$\nB. $4.1\\times10^{-14}\\ \\mathrm{J}$\nC. $8.2\\times10^{-14}\\ \\mathrm{J}$\nD. $1.6\\times10^{-13}\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released is the total binding energy of the products minus that of the reactants. Free neutrons contribute zero binding energy, so the difference is $[(8.4\\times144+8.5\\times90)-(7.6\\times235)]\\ \\mathrm{MeV}$. Multiplying by $10^6(1.6\\times10^{-19})\\ \\mathrm{J/MeV}$ gives $3.02\\times10^{-11}\\ \\mathrm{J}$ released.",
+      "perOption": {
+        "A": "Underestimates the change in total binding energy and treats the increase as absorption.",
+        "B": "Uses too small a binding-energy difference by failing to account for the full nucleon totals.",
+        "C": "Reverses the interpretation of the positive change in binding energy.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires converting per-nucleon energies to totals, taking their difference and converting MeV to joules.",
+    "misconception": "Subtracting binding energies per nucleon directly.",
+    "transcription": "During a particular fission process, a uranium-235 nucleus absorbs a slow-moving neutron. This initiates the fission reaction, creating a xenon-144 nucleus, a strontium-90 nucleus and two neutrons.\n\nThe binding energies per nucleon are:\n\nUranium-235: 7.6 MeV\nXenon-144: 8.4 MeV\nStrontium-90: 8.5 MeV\n\nWhat is the energy released or absorbed in the reaction?\n\nA. $1.5\\times10^{-12}\\ \\mathrm{J}$ of energy is absorbed\nB. $1.5\\times10^{-12}\\ \\mathrm{J}$ of energy is released\nC. $3.0\\times10^{-11}\\ \\mathrm{J}$ of energy is absorbed\nD. $3.0\\times10^{-11}\\ \\mathrm{J}$ of energy is released"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q1",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Squaring the period equation and keeping just units gives $\\mathrm{s^2}=(\\mathrm{kg\\,m^2})/[K]$, where $[K]$ is the unit of $K$. Thus $[K]=\\mathrm{kg\\,m^2\\,s^{-2}}=(\\mathrm{kg\\,m\\,s^{-2}})\\mathrm{m}=\\mathrm{N\\,m}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Dividing newtons by metres cancels the length dimension needed in the result.",
+        "C": "Keeps the units of $I$ and omits the inverse-square time factor.",
+        "D": "Keeps the inverse-square time factor but drops the units of $I$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires accounting for the square root and recognizing a named derived unit.",
+    "misconception": null,
+    "transcription": "A period $T$ of a type of pendulum is given by\n\n$T=2\\pi\\sqrt{\\frac{I}{K}}$.\n\nIf $I$ has a unit of $\\mathrm{kg\\,m^2}$, which of the following can be a unit of $K$?\n\nA. $\\mathrm{N\\,m}$\nB. $\\mathrm{N\\,m^{-1}}$\nC. $\\mathrm{kg\\,m^2}$\nD. $\\mathrm{s^{-2}}$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q2",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "With negligible air resistance, the stones’ velocity–time lines have the same gradient, regardless of mass. X starts earlier, so its line stays above Y’s once both are falling. The difference between the areas under the two lines is the separation, and it grows with time.",
+      "perOption": {
+        "A": "A heavier Y still has the same acceleration as X and cannot close the gap.",
+        "B": "The separation grows for either mass ordering, so the condition on the masses is unnecessary.",
+        "C": "X starts earlier and remains faster, so the separation grows.",
+        "D": "Correct."
+      }
+    },
+    "issues": "Option B is true as a narrow conditional, but D gives the complete mass-independent result.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires distinguishing equal accelerations from equal velocities for releases at different times.",
+    "misconception": "Assuming that equal acceleration makes the separation stay fixed.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q3",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let each carriage have mass $m$ and let the common acceleration be $a$. For both carriages together, Newton’s second law gives $T=2ma$, so $a=T/(2m)$. The tension pulling the rear carriage alone is therefore $ma=T/2$.",
+      "perOption": {
+        "A": "Treats the rear towbar as if it accelerates both carriages.",
+        "B": "Correct.",
+        "C": "Reverses the mass ratio even though the rear towbar pulls only one carriage.",
+        "D": "Includes the engine in the mass pulled by the towbar that connects the engine to carriage 1."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires applying Newton’s second law to both carriages together and to the rear carriage alone.",
+    "misconception": "Assuming the two towbars carry the same tension.",
+    "transcription": "An engine pulls and accelerates two identical carriages to the right as shown below.\n\n[From left to right, carriage 2, carriage 1 and the engine are linked by two towbars. An arrow above the engine points right.]\n\nIf the tension in the towbar between the engine and carriage 1 is $T$, what is the tension between carriages 1 and 2? Ignore drag and resistive forces.\n\nA. $T$\nB. $\\frac{T}{2}$\nC. $2T$\nD. $\\frac{T}{3}$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q4",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the lift accelerates upwards, $W-mg=ma$, so $W=m(9.81+2.0)$. While it slows down, its acceleration is downwards, so $mg-W'=ma$ and $W'=m(9.81-2.0)$. The ratio is $W'/W=(9.81-2.0)/(9.81+2.0)=0.661$, giving $0.66W$.",
+      "perOption": {
+        "A": "Inverts the ratio of the decelerating reading to the accelerating reading.",
+        "B": "Keeps the same scale reading even though the acceleration reverses.",
+        "C": "Uses the stationary reading $mg$ in place of the decelerating reading.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the scale readings for opposite accelerations and taking their ratio.",
+    "misconception": "Using the upward velocity to assign the acceleration direction.",
+    "transcription": "A man stands on a weighing scale in a lift moving upwards. When the lift accelerates upwards at $2.0\\ \\mathrm{m\\,s^{-2}}$, the weighing scale reads $W$.\n\nWhat is the reading on the weighing scale when the lift decelerates at $2.0\\ \\mathrm{m\\,s^{-2}}$?\n\nA. $1.5W$\nB. $1.0W$\nC. $0.83W$\nD. $0.66W$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let the extension of X be $L$. In Y, each of the two parallel pairs carries the same load as X, so the total extension is $2L$. In Z, the upper pair extends by $L$ and the lower spring supports the full load, so it extends by $2L$. The total for Z is $3L$, giving the order X, Y, Z.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Treats Z’s single lower spring as if it shares the load and extends less than Y’s lower pair.",
+        "C": "Reverses the order, although X has only one parallel stage and Z adds a spring carrying the full load.",
+        "D": "Treats X as the most extensible despite having only one parallel stage."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires tracing how the load is shared and adding the extensions of successive stages.",
+    "misconception": "Assuming that more springs always reduce the total extension.",
+    "transcription": "A number of similar springs, each having the same spring constant, are joined in three arrangements X, Y and Z. The same load is applied to each.\n\n[X has two springs in parallel supporting the load. Y has two pairs of parallel springs in series supporting the load. Z has a pair of parallel springs in series with a single spring below it supporting the load.]\n\nWhat is the order of increasing extension for these arrangements?\n\nSmallest to largest\nA. X, Y, Z\nB. X, Z, Y\nC. Z, Y, X\nD. Y, Z, X"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The component of the applied force along the motion is $120\\cos37^\\circ$. The rate of work done by that force is $(120\\cos37^\\circ)(5.0)=479\\ \\mathrm{W}$, which rounds to $480\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Constant speed gives zero net power, but the applied force does positive work.",
+        "B": "Uses the vertical component $120\\sin37^\\circ$ instead of the horizontal component.",
+        "C": "Correct.",
+        "D": "Uses the entire applied force instead of its component along the velocity."
+      }
+    },
+    "issues": "The key labels its calculation as work done, but the quantity calculated is power.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.m"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "It requires resolving the force along the velocity before applying the power formula.",
+    "misconception": "Confusing zero net power with zero power from the applied force.",
+    "transcription": "A 100 kg block is pulled at a constant speed of $5.0\\ \\mathrm{m\\,s^{-1}}$ across a rough horizontal floor by an applied force of 120 N directed $37^\\circ$ above the horizontal.\n\nWhat is the rate at which the applied force does work on the block?\n\nA. 0\nB. 360 W\nC. 480 W\nD. 600 W"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially the gas and atmospheric forces balance, each with magnitude $(100\\times10^3)(3.5\\times10^{-3})=350\\ \\mathrm{N}$. For the enclosed air, $pV/T$ is constant, so doubling the volume and halving the temperature reduces its pressure to $25\\ \\mathrm{kPa}$. The enclosed air now exerts $(25\\times10^3)(3.5\\times10^{-3})=87.5\\ \\mathrm{N}$ outwards. Force balance gives $87.5+F=350$, so $F=262.5\\ \\mathrm{N}$, or $260\\ \\mathrm{N}$ to two significant figures.",
+      "perOption": {
+        "A": "Gives the outward force from the enclosed air alone.",
+        "B": "Correct.",
+        "C": "Gives the atmospheric force alone and omits the outward force from the enclosed air.",
+        "D": "Adds the atmospheric and enclosed gas forces even though they point in opposite directions."
+      }
+    },
+    "issues": "The worked solution starts on page 2 and its final force balance is on page 3.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "It requires finding the new gas pressure and then balancing the forces on the piston.",
+    "misconception": "Using the enclosed gas force alone as the applied force.",
+    "transcription": "Air is enclosed in a cylinder by a gas-tight, frictionless piston of cross-sectional area $3.5\\times10^{-3}\\ \\mathrm{m^2}$. When atmospheric pressure is 100 kPa, the piston settles 80 mm from the end of the cylinder as shown in Fig. 1.\n\nThe piston is then pulled out until it is 160 mm from the end of the cylinder as shown in Fig. 2 and is held there. The temperature of the air in the cylinder is now maintained at half of the original value.\n\n[Fig. 1 shows air enclosed to the left of the piston, which is 80 mm from the closed end. Fig. 2 shows the piston 160 mm from the closed end, with a rightward force $F$ on the piston rod.]\n\nWhat is the force $F$ required to hold the piston in its new position?\n\nA. 88 N\nB. 260 N\nC. 350 N\nD. 440 N"
+  }
+]

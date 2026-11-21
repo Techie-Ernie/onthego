@@ -1,0 +1,503 @@
+[
+  {
+    "id": "ri-2022-prelim-p1-q22",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total current is $I_T=I_1+I_2$. Since the parallel resistors share the same potential difference $V$, this gives $\\frac{V}{R_T}=\\frac{V}{R_1}+\\frac{V}{R_2}$. Cancelling $V$ gives the stated formula.",
+      "perOption": {
+        "A": "The relation applies to the two resistors even if the battery has internal resistance.",
+        "B": "The branch currents are equal only if the resistances are equal.",
+        "C": "Correct. Both resistors share the same potential difference.",
+        "D": "At a common voltage, current is inversely proportional to resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.i",
+      "circuits.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The question tests one property of parallel branches.",
+    "misconception": "Confusing series and parallel rules",
+    "transcription": "Two resistors of resistances $R_1$ and $R_2$ are connected in parallel to a battery.\n\nThe combined resistance $R_T$ of the two resistors is given by $\\frac{1}{R_T}=\\frac{1}{R_1}+\\frac{1}{R_2}$.\n\nWhich concept is used in the derivation of this formula?\n\nA There is no power loss in the battery.\nB The current through each resistor is the same.\nC The potential difference across each resistor is the same.\nD The ratio of the currents through the resistors is equal to the ratio of their resistances."
+  },
+  {
+    "id": "ri-2022-prelim-p1-q23",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The series current $I$ is the same through both resistors. For X, $V_X=R_XI$, so the straight line rises and would pass through the origin if extended. For Y, $V_Y=E-R_XI$, so the straight line falls and would meet the vertical axis at $E$ if extended. The minimum current is positive because the maximum variable resistance is finite.",
+      "perOption": {
+        "A": "X is shown reading zero at a positive current.",
+        "B": "The slopes are reversed, and X should rise with current.",
+        "C": "Correct. X rises from a positive reading and Y falls to zero.",
+        "D": "The slopes are reversed, and Y should fall to zero at maximum current."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.j"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must connect the slopes and endpoints to the shared series current.",
+    "misconception": "Assuming the fixed resistor can have zero voltage at nonzero current",
+    "transcription": "A battery is connected in series with an ammeter, a fixed resistor and a variable resistor. Voltmeters X and Y are connected across the fixed resistor and the variable resistor respectively.\n\n[The battery and ammeter are in the main loop with both resistors. X bridges the fixed resistor and Y bridges the variable resistor.]\n\nThe resistance of the variable resistor is reduced from its maximum resistance to $0\\ \\Omega$.\n\nWhich graph shows the variation of the voltmeter readings with the ammeter reading?\n\n[All graphs plot voltmeter reading vertically against ammeter reading horizontally. Each graph has two straight, intersecting line segments starting at a positive current.]\nA [X rises from zero and Y falls to zero.]\nB [Y rises from zero and X falls to zero.]\nC [X rises from a positive reading and Y falls to zero.]\nD [Y rises from a positive reading and X falls to zero.]"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q24",
+    "keyPage": 7,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a long straight wire, $B=\\mu_0 I/(2\\pi d)$. At Q the two wire fields point south, so $B_Q=2.0\\times10^{-5}-2\\left[\\frac{(4\\pi\\times10^{-7})(1.0)}{2\\pi(0.30)}\\right]=1.8667\\times10^{-5}\\ \\mathrm{T}$ north. Then $F/L=B_Q I_Q=(1.8667\\times10^{-5})(2.0)=3.7\\times10^{-5}\\ \\mathrm{N\\,m^{-1}}$, directed west by Fleming's left-hand rule.",
+      "perOption": {
+        "A": "Counts only the eastward force from one of the other wires.",
+        "B": "Adds the eastward forces from P and R but omits Earth's field.",
+        "C": "Uses the numerical value of the net flux density without multiplying by Q's current.",
+        "D": "Correct. The net field is northward and produces a westward force."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "electromagnetic-forces.f",
+      "electromagnetic-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must combine three magnetic fields with signs before finding the force per unit length.",
+    "misconception": "Omitting Earth's field or cancelling the two wire fields",
+    "transcription": "Three long vertical wires P, Q and R are carrying currents $1.0\\ \\mathrm{A}$, $2.0\\ \\mathrm{A}$ and $1.0\\ \\mathrm{A}$, respectively. The diagram shows the top view of the wires with the directions of their currents and the distances between them. The component of the Earth’s magnetic field that is parallel to the Earth’s surface is $2.0\\times10^{-5}\\ \\mathrm{T}$.\n\n[North is up. P, Q and R lie left to right along an east–west line. P carries current into the page, and Q and R carry current out of the page. Adjacent wires are $0.30\\ \\mathrm{m}$ apart.]\n\nWhat is the magnitude and direction of the force per unit length acting on wire Q?\n\nA $1.3\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$, East\nB $2.7\\times10^{-6}\\ \\mathrm{N\\,m^{-1}}$, East\nC $1.9\\times10^{-5}\\ \\mathrm{N\\,m^{-1}}$, West\nD $3.7\\times10^{-5}\\ \\mathrm{N\\,m^{-1}}$, West"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q25",
+    "keyPage": 7,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In field Y, the forces on sides QR and PS stay constant in magnitude and perpendicular to the plane of the coil as it rotates. The perpendicular separation of their lines of action therefore stays the same. The torque in field Y is constant in magnitude, so the statement that it varies sinusoidally in both fields is incorrect.",
+      "perOption": {
+        "A": "Correct. The radial field keeps the torque magnitude constant.",
+        "B": "The magnetic torque produces angular acceleration in both fields.",
+        "C": "A larger coil area increases the torque at a given orientation where the torque is nonzero.",
+        "D": "Side QR remains perpendicular to the field in both cases, so its force magnitude stays constant."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.f",
+      "forces-and-moments.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must distinguish a radial field from a uniform field when judging how torque changes.",
+    "misconception": "Applying the uniform-field torque law to a radial field",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q26",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The induced p.d. from the centre to the rim is $V=BAf$, where $A=\\pi r^2$ is the area swept per revolution. Since $\\omega=2\\pi f$, $V=B(\\pi r^2)\\frac{\\omega}{2\\pi}=\\frac12 Br^2\\omega$. For $XY=r/2$, $V_{XY}=\\frac12 B(r/2)^2\\omega=\\frac14 V$.",
+      "perOption": {
+        "A": "A radius sweeping through the field induces a p.d. even though the field is steady.",
+        "B": "Correct. Halving the radius quarters the swept area per revolution.",
+        "C": "Assumes that the induced p.d. scales linearly with radius.",
+        "D": "Uses the area fraction swept between Y and Z."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The rotating-disc setup requires recognising that the swept area scales with the square of radius.",
+    "misconception": "Taking induced voltage to be proportional to radius",
+    "transcription": "A metal disc of radius $r$ rotates about its centre X at a constant angular speed $\\omega$ in a uniform magnetic field. Point Z is on the rim of the disc and point Y is a distance $\\frac{r}{2}$ from point X.\n\n[The disc rotates clockwise in a uniform magnetic field directed perpendicularly out of the paper. X, Y and Z lie in order down a radius, with XY and YZ each marked $\\frac{r}{2}$.]\n\nThe potential difference between X and Z is $V$.\n\nWhat is the potential difference between X and Y?\n\nA $0$\nB $\\frac14 V$\nC $\\frac12 V$\nD $\\frac34 V$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q27",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Convert the primary voltage to its peak value, $120\\sqrt2\\ \\mathrm V$, so both voltages are peak values. Using $\\frac{N_s}{N_p}=\\frac{V_s}{V_p}$ gives $N_p=\\frac{120\\sqrt2}{8.0}(250)\\approx5303$, or $5300$ turns.",
+      "perOption": {
+        "A": "Divides the primary r.m.s. voltage by $\\sqrt2$ to get the peak value.",
+        "B": "Uses the primary r.m.s. voltage with the secondary peak voltage.",
+        "C": "Correct. Both voltages in the ratio are peak values.",
+        "D": "Applies the peak-to-r.m.s. conversion factor twice in the same direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The turns-ratio calculation needs one conversion from r.m.s. to peak voltage.",
+    "misconception": "Mixing peak and r.m.s. voltages in the turns ratio",
+    "transcription": null
+  },
+  {
+    "id": "ri-2022-prelim-p1-q29",
+    "keyPage": 8,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each electron gains kinetic energy $|-e\\Delta V|$ as it accelerates from rest. The shortest-wavelength X-ray is produced when an electron transfers all of that kinetic energy to one photon, so $hc/\\lambda_{\\min}=|-e\\Delta V|$. Thus $\\lambda_{\\min}=\\frac{(6.63\\times10^{-34})(3.00\\times10^8)}{(1.60\\times10^{-19})(30\\times10^3)}=4.1\\times10^{-11}\\ \\mathrm m$.",
+      "perOption": {
+        "A": "Dividing Planck’s constant by the accelerating voltage does not give a wavelength.",
+        "B": "This wavelength would require a photon energy far above the energy gained by one electron.",
+        "C": "This is approximately the accelerated electron's de Broglie wavelength.",
+        "D": "Correct. This wavelength corresponds to the maximum possible photon energy."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "electric-fields"
+    ],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must connect the electron's energy gain to the maximum energy of one photon.",
+    "misconception": "Using the electron de Broglie wavelength for the X-rays",
+    "transcription": "Electrons that are accelerated from rest through a potential difference of $30\\ \\mathrm{kV}$ are made to collide with a metal target to produce X-rays.\n\nWhat is the shortest wavelength of the X-rays produced?\n\nA $6.6\\times10^{-30}\\ \\mathrm{m}$\nB $2.8\\times10^{-21}\\ \\mathrm{m}$\nC $7.1\\times10^{-12}\\ \\mathrm{m}$\nD $4.1\\times10^{-11}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ri-2022-prelim-p1-q30",
+    "keyPage": 8,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The source alone initially gives $C_0=100-20=80\\ \\mathrm{s^{-1}}$. In $60/20=3$ half-lives, its contribution drops to $(1/2)^3(80)=10\\ \\mathrm{s^{-1}}$. Adding the background gives a recorded count-rate of $10+20=30\\ \\mathrm{s^{-1}}$.",
+      "perOption": {
+        "A": "Gives the final source count-rate alone and leaves out the background.",
+        "B": "Applies three half-lives to the full initial count-rate, including background.",
+        "C": "Correct. The final reading includes the unchanged background.",
+        "D": "Divides the initial source count-rate by three and adds the background."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The decay calculation is straightforward once the background is separated from the source count.",
+    "misconception": "Applying radioactive decay to the background count",
+    "transcription": "A radioactive source has a half-life of 20 hours. At the start of an experiment, a Geiger counter records an average count-rate of $20\\ \\mathrm{s^{-1}}$ in the absence of the source. When the source is placed in front of the Geiger counter, the average count-rate recorded is $100\\ \\mathrm{s^{-1}}$.\n\nWhat is the average count-rate recorded by the Geiger counter after 60 hours?\n\nA $10\\ \\mathrm{s^{-1}}$\nB $13\\ \\mathrm{s^{-1}}$\nC $30\\ \\mathrm{s^{-1}}$\nD $47\\ \\mathrm{s^{-1}}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "When $\\theta=0^\\circ$, $F_2=F$ is largest and $F_1=0$ is smallest. When $\\theta=90^\\circ$, $F_2=0$ is smallest and $F_1=F$ is largest. Thus $F_1$ increases and $F_2$ decreases.",
+      "perOption": {
+        "A": "Predicts that both components increase even though $F_2$ falls to zero.",
+        "B": "Correct. $F_1$ increases and $F_2$ decreases.",
+        "C": "Swaps the component along the marked angle with the perpendicular component.",
+        "D": "Predicts that $F_1$ decreases even though it grows from zero to $F$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The two limiting angles show how the components of a fixed vector vary.",
+    "misconception": "Swapping the components relative to the marked angle",
+    "transcription": "A vector $F$ can be resolved into two perpendicular components $F_1$ and $F_2$. The angle between $F$ and $F_2$ is $\\theta$.\n\n[From a common origin, $F$ points up, $F_1$ points up-left and $F_2$ points up-right. The marked angle $\\theta$ is between $F$ and $F_2$.]\n\nHow do the magnitudes of $F_1$ and $F_2$ change as $\\theta$ is increased from $0^\\circ$ to $90^\\circ$?\n\n[Each option gives the change in $F_1$ followed by the change in $F_2$.]\nA increase, increase\nB increase, decrease\nC decrease, increase\nD decrease, decrease"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For vertical motion, $v_y^2=u_y^2-2gy$. At the highest point $v_y=0$, so $u_y=\\sqrt{2gy}$. All three paths reach the same maximum height, so their initial vertical velocity components are equal and statement C is incorrect.",
+      "perOption": {
+        "A": "Z has the longest range in the same time, so it has the largest horizontal component and hence the largest initial speed.",
+        "B": "All three have the same initial vertical velocity and return to launch height, so their flight times are equal.",
+        "C": "Correct. The equal peak heights imply equal initial vertical velocity components.",
+        "D": "X has the shortest range in the same time, so its horizontal velocity component is the smallest."
+      }
+    },
+    "issues": "The key omits the factor of 1/2 in the vertical displacement equation in its comments on A and B.",
+    "chapter": "projectile-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "projectile-motion.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must distinguish what equal peak heights imply from what different ranges imply.",
+    "misconception": "Equating a steeper launch angle with a larger vertical velocity component",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking the direction of $F_1$ as positive, Newton's second law gives $a=(F_1-F_2)/m$. At rest $F_2=0$, so the initial acceleration is greatest. As speed increases, $F_2\\propto v^2$ grows and the acceleration falls toward zero. The speed approaches its maximum as $F_2$ approaches $F_1$.",
+      "perOption": {
+        "A": "Correct. The speed approaches its terminal maximum.",
+        "B": "The net force approaches zero from above, so the speed does not turn downward.",
+        "C": "The acceleration starts at its maximum because the opposing force is initially zero.",
+        "D": "The acceleration decreases from the start as the opposing force grows."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Applying Newton's second law as the opposing force grows identifies the approach to terminal speed.",
+    "misconception": "Confusing decreasing acceleration with decreasing speed",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For equilibrium, the lines of action of the three forces meet at one point, and the force arrows form a closed triangle. The line of action of the hinge force passes through P and the intersection of the vertical weight line through the midpoint and the string's tension line. The closing arrow points down and left, as in A.",
+      "perOption": {
+        "A": "Correct. Its direction closes the force triangle.",
+        "B": "A vertical hinge force cannot balance the rightward component of tension.",
+        "C": "This arrow adds a rightward component to that of the tension.",
+        "D": "This arrow lies on the right line but points the opposite way to the force that closes the triangle."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use both the force directions and the geometry of three-force equilibrium.",
+    "misconception": "Assuming the hinge force points along the bar or wall",
+    "transcription": "A uniform bar PQ is hinged at a vertical wall at end P and tied to a string at end Q.\n\nWhich arrow best represents the direction of the force exerted by the wall on the bar?\n\n[The vertical wall meets a horizontal ceiling. The bar slopes up and right from P to Q. The string slopes more steeply up and right from Q to the ceiling. From P, arrow A points down-left, B points straight up along the wall, C points steeply up-right, and D points shallowly up-right along the same line as A.]"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Add the hydrostatic pressure contributions of the two layers, $P=h_o\\rho_o g+h_w\\rho_w g$. Substituting the full layer depths gives $P=(0.120)(750)(9.81)+(0.060)(1000)(9.81)=1.4715\\times10^3\\ \\mathrm{Pa}$, matching C.",
+      "perOption": {
+        "A": "Divides the total liquid weight by the base area, overlooking vertical forces from the sloping walls.",
+        "B": "Uses the 11.0 cm wall height above P and so counts only 5.0 cm of oil.",
+        "C": "Correct. Both full liquid layers contribute to the pressure at P.",
+        "D": "Includes atmospheric pressure even though only the liquid pressure is asked for."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must select the full depth of each liquid layer despite the sloping wall and extra dimensions.",
+    "misconception": "Using the height of the sloping wall directly above P",
+    "transcription": "A container is filled with oil and water. The oil has a mass of $0.40\\ \\mathrm{kg}$ and density $750\\ \\mathrm{kg\\,m^{-3}}$. The water has a mass of $0.30\\ \\mathrm{kg}$ and density $1000\\ \\mathrm{kg\\,m^{-3}}$.\n\n[The container widens toward the base. The upper oil layer is $12.0\\ \\mathrm{cm}$ deep and the lower water layer is $6.0\\ \\mathrm{cm}$ deep. P is on the base near the right edge, vertically below a point on the sloping wall $11.0\\ \\mathrm{cm}$ above the base. The base area is $0.012\\ \\mathrm{m^2}$.]\n\nWhat is the pressure exerted by the oil and water at point P on the base of the container?\n\nA $5.7\\times10^2\\ \\mathrm{Pa}$\nB $9.6\\times10^2\\ \\mathrm{Pa}$\nC $1.5\\times10^3\\ \\mathrm{Pa}$\nD $1.0\\times10^5\\ \\mathrm{Pa}$"
+  },
+  {
+    "id": "ri-2023-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done in stretching the spring is the area under a force-versus-extension graph between $x_1$ and $x_2$. Here force is on the horizontal axis, so that integral is represented by the area to the left of the line in the strip from $x_1$ to $x_2$, which is S.",
+      "perOption": {
+        "A": "Uses the area below the plotted line from zero force to $F_2$.",
+        "B": "Uses an area accumulated along the force axis, $\\int x\\,\\mathrm dF$, instead of along the extension axis.",
+        "C": "Includes the work of stretching the spring from zero to $x_1$.",
+        "D": "Correct. S is the area corresponding to the extension interval $x_1$ to $x_2$."
+      }
+    },
+    "issues": "The key describes the area as under a force–extension graph. The plotted axes are reversed, so the requested area is to the left of the line.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "energy-and-fields.k",
+      "forces-and-moments.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The swapped axes require identifying the area accumulated over extension rather than force.",
+    "misconception": "Reading the area below the line when force is on the horizontal axis",
+    "transcription": null
+  },
+  {
+    "id": "ri-2023-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Q's loss of gravitational potential energy supplies P's gain in gravitational potential energy, the combined kinetic energy and the work against friction. Q falls $1.5\\ \\mathrm m$ while P rises $1.5\\sin30^\\circ\\ \\mathrm m$. Thus $\\Delta E_k=(4.0)(9.81)(1.5)-(2.5)(1.5)-(3.0)(9.81)(1.5\\sin30^\\circ)=33.0375\\ \\mathrm J\\approx33\\ \\mathrm J$.",
+      "perOption": {
+        "A": "Treats P's travel of $1.5\\ \\mathrm m$ along the slope as its vertical rise.",
+        "B": "Uses $1.5\\cos30^\\circ$ for P's vertical rise.",
+        "C": "Correct. The calculation subtracts P's potential-energy gain and the work against friction.",
+        "D": "Adds the work against friction to the kinetic energy instead of subtracting it."
+      }
+    },
+    "issues": "The key's first verbal energy balance places work against friction on the wrong side. The subsequent equation and calculation handle it correctly.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.c",
+      "projectile-motion.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The energy balance must include both changes in height and the work against friction.",
+    "misconception": "Confusing distance along the slope with vertical rise",
+    "transcription": null
+  }
+]

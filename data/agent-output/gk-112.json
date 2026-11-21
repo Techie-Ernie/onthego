@@ -1,0 +1,511 @@
+[
+  {
+    "id": "rvhs-2022-other-p1-q8",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In the isothermal sample, heat leaves during compression so that the temperature stays constant, and $p_1V=p_2(0.5V)$ gives $p_2=2p_1$. The thermally isolated sample exchanges no heat, so compression raises its temperature and the mean kinetic energy of its molecules. Both samples start with equal volumes by the ideal gas law, so they have equal final volumes and, with equal masses, equal final densities.",
+      "perOption": {
+        "A": "The isothermal sample releases heat, whereas the insulated sample exchanges no heat.",
+        "B": "The insulated sample ends hotter, so its internal energy is higher.",
+        "C": "Correct. Equal masses and equal final volumes give equal densities.",
+        "D": "Compression work depends on how the pressure varies throughout the volume change."
+      }
+    },
+    "issues": "The guide calls the insulated sample “isothermally isolated” and describes the densities as unchanged. It means thermally isolated, and the densities double to the same final value.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "temperature-and-ideal-gases"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.f",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Compare heat transfer, internal energy, and density for two compression processes.",
+    "misconception": "Assuming equal volume changes imply equal work.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The pump does work on the air as it compresses it. With little heat escaping through the insulation, the work increases the air's internal energy and raises its temperature.",
+      "perOption": {
+        "A": "Insulation makes heat supplied to the air negligible.",
+        "B": "Correct. Compression work increases the internal energy when little heat escapes.",
+        "C": "The higher temperature indicates an increase in internal energy.",
+        "D": "More frequent collisions alone do not explain the increase in temperature."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.f",
+      "thermodynamic-systems.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Apply the first law to an insulated pump and relate internal energy to temperature.",
+    "misconception": "Assuming warming requires heat supplied from outside.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q10",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The tape travels at the rim speed $v=r\\omega$, so $\\frac{dv}{dt}=\\omega\\frac{dr}{dt}$. Both $\\omega$ and $\\frac{dr}{dt}$ are constant, so the speed–time graph is a straight rising line with a positive intercept from the initial radius.",
+      "perOption": {
+        "A": "A constant speed ignores the increasing radius.",
+        "B": "The flattening curve implies a decreasing rate of increase of the radius.",
+        "C": "The steepening curve implies an increasing rate of increase of the radius.",
+        "D": "Correct. The speed increases at a constant rate from a nonzero value."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Translate the rate of increase of the radius into the gradient of a speed–time graph.",
+    "misconception": "Treating constant angular velocity as constant tangential speed.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "On X, use $v=u+at$ to obtain $0=45-g_X(5.2)$, so $g_X=8.65\\ \\mathrm{m\\,s^{-2}}$. On Y, the magnitude of the potential gradient gives $g_Y=6.0/4.0=1.5\\ \\mathrm{m\\,s^{-2}}$. Hence $g_Y/g_X=1.5/8.65=0.17$.",
+      "perOption": {
+        "A": "This ratio is too large because the field on Y is weaker than the field on X.",
+        "B": "This gives the reciprocal, $g_X/g_Y$.",
+        "C": "Correct. The ratio $g_Y/g_X$ is $0.17$.",
+        "D": "This understates the ratio obtained using the potential gradient over the specified $4.0\\ \\mathrm{m}$ interval."
+      }
+    },
+    "issues": "The key omits the division sign in the numerical substitution for $g_Y$. Its result uses $6.0/4.0$.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "gravitational-fields.h",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use two different relationships to find field strengths before taking their ratio.",
+    "misconception": "Reversing the required ratio of field strengths.",
+    "transcription": "A $3.0\\ \\mathrm{kg}$ rock is thrown vertically upwards near the surface of Planet X of mass $m$ with a velocity of $45\\ \\mathrm{m\\,s^{-1}}$ and it comes to an instantaneous rest $5.2\\ \\mathrm{s}$ later.\n\nThe same rock is now thrown vertically upwards for $15\\ \\mathrm{m}$ near the surface of Planet Y. The difference in gravitational potential between two points that are $4.0\\ \\mathrm{m}$ vertically apart and near the surface of Planet Y is $6.0\\ \\mathrm{J\\,kg^{-1}}$.\n\nThe gravitational field strength can be assumed to be uniform near at the surfaces of both Planet X and Planet Y. If both planets do not have atmosphere, the ratio of the gravitational field strength near the surface of Planet Y to that of Planet X is\n\nA 13\nB 5.8\nC 0.17\nD 0.077"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "For circular orbits, $E_k=GM_E m/(2r)$, so equal kinetic energies and $m_A>m_B$ imply $r_A>r_B$. The total energy is $-GM_E m/(2r)$, so both satellites have the same total energy. Since $T^2\\propto r^3$, A has the larger period and therefore the smaller angular velocity.",
+      "perOption": {
+        "A": "Correct. This is the false statement because both total energies are equal.",
+        "B": "This statement is true because equal kinetic energies require equal $m/r$.",
+        "C": "This statement is true because $T^2$ is proportional to $r^3$.",
+        "D": "This statement is true because angular velocity is inversely proportional to period."
+      }
+    },
+    "issues": "The question leaves circular orbits implicit. The worked solution starts on page 3 and continues on page 4.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.j",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Compare four orbital quantities using the equal kinetic energies and the unequal masses.",
+    "misconception": "Assuming equal orbital kinetic energies imply equal orbital radii.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q13",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The total energy is $E=\\frac12m\\omega^2x_0^2$. Substituting $E=\\frac12(8/1000)[2\\pi(40)]^2(5/1000)^2$ gives $6.32\\times10^{-3}\\ \\mathrm{J}$, or $6.3\\ \\mathrm{mJ}$.",
+      "perOption": {
+        "A": "Uses $f$ in place of $2\\pi f$.",
+        "B": "Correct. The total energy is $6.3\\ \\mathrm{mJ}$.",
+        "C": "Omits the factor $\\frac12$ in the energy expression.",
+        "D": "Overstates the energy even after accounting for the squared amplitude and angular frequency."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.f",
+      "oscillations.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Substitute the amplitude and angular frequency after converting the given quantities to SI units.",
+    "misconception": "Using frequency in place of angular frequency.",
+    "transcription": "A mass of $8.0\\ \\mathrm{g}$ oscillates in simple harmonic motion with an amplitude of $5.0\\ \\mathrm{mm}$ at a frequency of $40\\ \\mathrm{Hz}$.\n\nWhat is the total energy of this simple harmonic oscillator?\n\nA $0.16\\ \\mathrm{mJ}$\nB $6.3\\ \\mathrm{mJ}$\nC $13\\ \\mathrm{mJ}$\nD $640\\ \\mathrm{mJ}$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q14",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Increased damping generally lowers the amplitude across the frequency range. The resonance peak shifts slightly to the left, remaining close to $f_0$ for light damping.",
+      "perOption": {
+        "A": "The solid curve incorrectly rises above the original curve away from the peak.",
+        "B": "The solid curve incorrectly puts the resonance peak at a higher frequency.",
+        "C": "The peak stays as high as before and the amplitudes away from resonance increase.",
+        "D": "Correct. The curve is lower and its peak remains close to $f_0$."
+      }
+    },
+    "issues": "The guide mentions a leftward shift, while option D draws the peak approximately at $f_0$ with no clear shift at the scale shown.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.j",
+      "oscillations.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognise the effect of light damping on the resonance curve.",
+    "misconception": "Expecting damping to shift the resonance peak to a higher frequency.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Shift the wave profile a little to the right and compare the heights at the same horizontal positions. Points 1 and 3 are on rising slopes, so their heights decrease, while point 2 is on a falling slope and its height increases. The directions are down, up, down.",
+      "perOption": {
+        "A": "The transverse motion of each point is vertical.",
+        "B": "Point 2 rises as the falling slope moves right.",
+        "C": "Correct. The points move down, up, and down respectively.",
+        "D": "These are the directions for the same profile travelling to the left."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Track the vertical displacement change at fixed points as a transverse wave moves right.",
+    "misconception": "Confusing the direction of wave travel with the direction of string motion.",
+    "transcription": "The diagram below shows an instantaneous position of a string as a transverse progressive wave travels along it from left to right.\n\n[The wave profile crosses a horizontal equilibrium line. Points 1 and 3 are above the line on rising slopes, and point 2 is above the line on a falling slope.]\n\nWhich one of the following correctly shows the directions of the velocities of the points 1, 2 and 3 on the string?\n\n   1  2  3\nA  →  →  →\nB  ↓  ↓  ↓\nC  ↓  ↑  ↓\nD  ↑  ↓  ↑"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The wire contains two loops, each spanning half a wavelength, so $\\lambda=L$. Oscillating points between adjacent nodes move in phase, and points in neighbouring loops move in antiphase. Thus the phase difference across the centre node is $180^\\circ$, making C the incorrect statement.",
+      "perOption": {
+        "A": "This statement is true because two half-wavelengths fit along the wire.",
+        "B": "This statement is true for oscillating points within either loop.",
+        "C": "Correct. The two loops are in antiphase.",
+        "D": "This statement is true because the two loops have symmetric amplitudes about the centre."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.c",
+      "wave-motion.b"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the node pattern to identify the wavelength and compare phases.",
+    "misconception": "Assigning a phase difference of 90° across a node.",
+    "transcription": "A taut wire is set into resonance with a node at either end as well as another single node at the centre of the wire.\n\nWhich one of the following statements is not correct?\n\nA The wavelength of the wave on the wire is equal to the length of the wire.\nB All points to one side of the centre vibrate in phase with one another.\nC Any two points on either side of the centre have a phase difference of $90^\\circ$.\nD Two points equidistant from the centre on either side of the centre have the same amplitude of vibration."
+  },
+  {
+    "id": "rvhs-2022-other-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $x=\\lambda D/a$, where $a$ is the unchanged slit separation. For yellow light, $x=(600\\times10^{-9})(1.00)/a$, and for blue light, $2x=(400\\times10^{-9})D/a$. Solving gives $D=3.00\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Keeping the original distance makes the fringes narrower with blue light.",
+        "B": "This compensates for the shorter wavelength but leaves the fringe spacing at $x$.",
+        "C": "This doubles the distance and then scales it in the wrong direction for the wavelength change.",
+        "D": "Correct. A distance of $3.00\\ \\mathrm{m}$ gives spacing $2x$."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Account for changes in both wavelength and fringe spacing while keeping slit separation fixed.",
+    "misconception": "Scaling the screen distance directly with wavelength for a specified fringe spacing.",
+    "transcription": "Fringes of separation $x$ are observed in a plane $1.00\\ \\mathrm{m}$ away from a Young’s double-slit arrangement illuminated by yellow light of wavelength $600\\ \\mathrm{nm}$.\n\nAt what distance from the slits would fringes of the separation $2x$ be observed when using blue light of wavelength $400\\ \\mathrm{nm}$?\n\nA $1.00\\ \\mathrm{m}$\nB $1.50\\ \\mathrm{m}$\nC $1.33\\ \\mathrm{m}$\nD $3.00\\ \\mathrm{m}$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The circuit current is $I=10/4.0=2.5\\ \\mathrm{A}$. Subtract the load voltage and the drop across the internal resistance from the e.m.f. to get $V_{\\mathrm{wires}}=12-10.0-(2.5)(0.20)=1.5\\ \\mathrm{V}$. The power lost is $(2.5)(1.5)=3.75\\ \\mathrm{W}$, which rounds to $3.8\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "This is too small for a current of 2.5 A through wires with a 1.5 V drop.",
+        "B": "Correct. The wire loss is $3.75\\ \\mathrm{W}$ before rounding.",
+        "C": "This exceeds the power lost across the 1.5 V drop in the wires.",
+        "D": "This overstates the wire loss by assigning too much of the battery voltage to the wires."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.c",
+      "circuits.g",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Find the series current, isolate the voltage drop across the wires, then calculate their power loss.",
+    "misconception": "Assigning the entire difference between e.m.f. and load voltage to the wires.",
+    "transcription": "A car battery of e.m.f. $12\\ \\mathrm{V}$ and internal resistance $0.20\\ \\Omega$ is connected to a load of $4.0\\ \\Omega$. If the potential difference across the load is $10\\ \\mathrm{V}$, what is the power lost in the connecting wires?\n\nA $3.0\\ \\mathrm{W}$\nB $3.8\\ \\mathrm{W}$\nC $4.2\\ \\mathrm{W}$\nD $6.0\\ \\mathrm{W}$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $F=Eq$ and $a=F/m$, the proton has acceleration $a_p=Eq/m$ and the alpha particle has $a_\\alpha=E(2q)/(4m)=a_p/2$. Both particles start with zero velocity component along the field, so $v_p=a_pt$ and $v_\\alpha=(a_p/2)t$ along that direction. Their speed-component ratio is $0.5$.",
+      "perOption": {
+        "A": "Correct. The alpha particle gains half as much speed along the field.",
+        "B": "Equal parallel speeds would require equal charge-to-mass ratios.",
+        "C": "The alpha particle gains speed more slowly along the field, so its ratio must be below 1.",
+        "D": "Uses the charge ratio alone and ignores the alpha particle's larger mass."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "electric-fields.h",
+      "electric-fields.i",
+      "projectile-motion.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Resolve the motion along the field and compare the particles' charge-to-mass ratios.",
+    "misconception": "Using the perpendicular initial speeds in the parallel motion equations.",
+    "transcription": "An alpha particle and a proton are moving perpendicularly to a uniform electric field. The speed of alpha particle is $4.0$ times the speed of proton.\n\nDetermine the ratio $\\frac{\\text{component of speed of alpha particle parallel to electric field}}{\\text{component of speed of proton parallel to electric field}}$ after time $t$. Ignore the effects due to gravitation field.\n\nA 0.5\nB 1.0\nC 1.5\nD 2.0"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Charge conservation at the junction gives $I_1=I_2+I_3$. The parallel branches have equal potential differences, so $I_2/I_3=R_3/R_2$. Eliminating $I_2$ gives $I_1=I_3(R_3/R_2+1)$, so $I_3/I_1=R_2/(R_2+R_3)$.",
+      "perOption": {
+        "A": "Compares the series resistor and one branch resistor as if they had the same potential difference and current were proportional to resistance.",
+        "B": "This is the ratio $I_3/I_2$, which compares the two branch currents.",
+        "C": "This is the fraction carried by the other branch, $I_2/I_1$.",
+        "D": "Correct. This is the fraction of total current through $R_3$."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.c",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the common branch voltage and the junction rule to express a branch current as a fraction of the total.",
+    "misconception": "Using the current ratio between branches as the ratio to the total current.",
+    "transcription": "Three resistors are connected to a battery with negligible internal resistance as shown below. The current through $R_1$, $R_2$ and $R_3$ are $I_1$, $I_2$ and $I_3$ respectively.\n\n[A battery is in series with $R_1$ and a parallel pair of resistors. The upper branch contains $R_2$ and carries $I_2$. The lower branch contains $R_3$ and carries $I_3$. Resistor $R_1$ carries $I_1$.]\n\nWhat is the ratio $\\frac{I_3}{I_1}$?\n\nA $\\frac{R_3}{R_1}$\nB $\\frac{R_2}{R_3}$\nC $\\frac{R_3}{R_2+R_3}$\nD $\\frac{R_2}{R_2+R_3}$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a long straight cable, $B=\\mu_0 I/(2\\pi d)$. The peak flux density occurs at the peak current, $I_{\\mathrm{peak}}=2000\\sqrt{2}\\ \\mathrm{A}$. Substituting $100\\times10^{-6}=\\mu_0(2000\\sqrt{2})/(2\\pi d)$ gives $d=5.66\\ \\mathrm{m}$, or $5.7\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Divides the r.m.s. current by $\\sqrt{2}$ to obtain the peak current.",
+        "B": "Uses the r.m.s. current in the peak-field calculation.",
+        "C": "Correct. The peak current gives a distance of $5.7\\ \\mathrm{m}$.",
+        "D": "Uses twice the r.m.s. current in place of $\\sqrt{2}$ times that current."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.c",
+      "currents.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert the r.m.s. current to its peak value before using the straight-wire field equation.",
+    "misconception": "Substituting r.m.s. current for peak current.",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Parallel wires attract when their currents are in the same direction and repel when their currents are opposite. The wire at P is attracted towards S and repelled away from Q and R. The forces from Q and S are equal, so their vertical components cancel and their horizontal components add to the right. R is farther away and adds a weaker upward force, giving direction B.",
+      "perOption": {
+        "A": "This keeps the upward force from R but misses the combined rightward force from Q and S.",
+        "B": "Correct. The resultant points up and to the right.",
+        "C": "This reverses R's repulsive force and misses the rightward resultant from Q and S.",
+        "D": "This reverses both components of the resultant."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.i",
+      "electromagnetic-forces.c",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Determine three force directions and add them as vectors using the symmetry of the square.",
+    "misconception": "Adding force magnitudes without resolving their directions.",
+    "transcription": "Four parallel wires, carrying equal currents either into or out of the plane of the page, pass vertically through the four corners of a square.\n\nWhich of the vectors denote the resultant force acting on the wire placed at P?\n\n[The square is drawn as a diamond with P at the top, Q at the left, R at the bottom and S at the right. Dots at P and S indicate current out of the page, and crosses at Q and R indicate current into the page. Four arrows start at P. A points straight up, B points up and right, C points straight down, and D points down and left.]"
+  }
+]

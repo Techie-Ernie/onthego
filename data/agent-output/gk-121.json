@@ -1,0 +1,503 @@
+[
+  {
+    "id": "sajc-2023-prelim-p1-q3",
+    "keyPage": 16,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Acceleration is the rate of change of velocity, so it is the rate of change of the displacement–time gradient. The gradient changes more rapidly at B than at D. Around A the gradient is constant, and around C it changes much less than at the turning points.",
+      "perOption": {
+        "A": "A is on a straight section, so the velocity is constant.",
+        "B": "Correct. The gradient increases most rapidly here.",
+        "C": "The gradient changes only slightly near C.",
+        "D": "The gradient decreases near D and changes less rapidly than at B."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students compare the rates of change of the graph’s gradients.",
+    "misconception": "Confusing velocity with acceleration",
+    "transcription": "A ball moves along a straight line. The variation of its displacement $x$ with time $t$ is given by the graph. At which point is the acceleration of the ball the greatest?\n\n[Displacement–time graph with vertical axis $x/\\mathrm{m}$ and horizontal axis $t/\\mathrm{s}$. The curve starts at positive displacement, descends along a straight segment through A, crosses the time axis, reaches a sharp minimum at B, rises through C on the time axis, and reaches a broad maximum at D before descending.]"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q4",
+    "keyPage": 17,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Horizontally, $s_x=v_xt$, so $900=450\\cos(31.6^\\circ)t$ and $t=2.348\\ \\mathrm{s}$. Vertically, $s_y=u_yt+\\frac12a_yt^2$. Substitution gives $s_y=450\\sin(31.6^\\circ)(2.348)+\\frac12(-9.81)(2.348)^2=526\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Correct. The vertical displacement at the tower is 526 m.",
+        "B": "This underestimates the gravitational reduction in height.",
+        "C": "This exceeds even the height reached in the same time with zero vertical acceleration.",
+        "D": "Swapping the horizontal and vertical launch components gives a height around this value."
+      }
+    },
+    "issues": null,
+    "chapter": "projectile-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "projectile-motion.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students find the flight time from horizontal motion and use it in the vertical equation.",
+    "misconception": "Using the wrong launch velocity component",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q5",
+    "keyPage": 17,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "From $t=0.25\\ \\mathrm{s}$ to $0.50\\ \\mathrm{s}$ the mass slows down at an increasing rate. The force opposes the motion and grows in magnitude, so the magnitude of the acceleration increases.",
+      "perOption": {
+        "A": "Correct. The statement is incorrect because the slowing rate increases.",
+        "B": "The positive and negative impulses cancel by $0.50\\ \\mathrm{s}$, so the mass is momentarily at rest.",
+        "C": "After $0.50\\ \\mathrm{s}$ the mass speeds up in the negative direction as the acceleration magnitude decreases.",
+        "D": "The triangular impulse gives $|\\Delta v|=\\frac{\\frac12(0.50)(0.32)}{0.150}=0.53\\ \\mathrm{m\\,s^{-1}}$."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.a",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "statements",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must distinguish the force from its signed time integral.",
+    "misconception": "Confusing more negative acceleration with weaker braking",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q6",
+    "keyPage": 17,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take moments about the wall attachment. The clockwise moment of the weight equals the anticlockwise moment of the cord tension, so $Mg(1.200)=300\\sin30^\\circ(0.805)$. This gives $M=10.3\\ \\mathrm{kg}$.",
+      "perOption": {
+        "A": "Correct. This balances the moments at maximum tension.",
+        "B": "Uses $300\\cos30^\\circ$, the horizontal tension component.",
+        "C": "Uses the full tension as though it acted perpendicular to the beam.",
+        "D": "This is the supported weight in newtons, so divide by $g$ to obtain the mass."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires a moment balance using the perpendicular component of tension.",
+    "misconception": "Using the full tension to calculate its moment",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q7",
+    "keyPage": 17,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The upthrust equals the weight of the displaced air, $\\rho_{\\mathrm{air}}Vg$. Subtract the weight of the helium, $\\rho_{\\mathrm{He}}Vg$, and the weight of the skin and instrument, $Mg$. The net upward force is $(\\rho_{\\mathrm{air}}-\\rho_{\\mathrm{He}})Vg-Mg$.",
+      "perOption": {
+        "A": "Omits the weight of the skin and instrument.",
+        "B": "Omits the helium’s weight.",
+        "C": "Correct. The upthrust is reduced by both weights.",
+        "D": "Reverses the signs of the upthrust and the helium’s weight."
+      }
+    },
+    "issues": "The key assumes negligible air resistance, which the question leaves implicit.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must account for the displaced air and both contributions to the balloon’s weight.",
+    "misconception": "Omitting part of the balloon’s weight",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q8",
+    "keyPage": 17,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done by $F$ during loading is the area $Y+Z$ under OPQ. The area $Z$ under the unloading line QR is the elastic potential energy recovered. The difference $Y$ is the net work over the full cycle, and the extension remaining at R shows permanent deformation.",
+      "perOption": {
+        "A": "Reverses the roles of force and extension when reading the areas.",
+        "B": "Confuses the net work $Y$ over the full cycle with the work done by $F$ in stretching the wire.",
+        "C": "Correct. The loading work is $Y+Z$ and the recoverable energy is $Z$.",
+        "D": "Treats the wire as if it had no permanent deformation and all of $Y+Z$ were recoverable."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students distinguish the work supplied during loading from the energy recovered during unloading.",
+    "misconception": "Treating all loading work as recoverable",
+    "transcription": "A metal wire is stretched by a varying force $F$, causing its extension $x$ to increase as shown by the line OPQ on the graph. The force is then gradually reduced to zero and the relation between force and extension is indicated by line QR.\n\n[Graph of force $F$ vertically against extension $x$ horizontally. Loading runs from the origin O through P and bends towards Q. Unloading follows a straight line from Q down to R on the extension axis, to the right of O. Dashed lines mark the coordinates of Q. X is above OPQ within the dashed bounds, Y is enclosed between OPQ, QR and the extension axis, and Z is below QR up to the vertical dashed line.]\n\nWhich of the following correctly represents the work done by the force $F$ in stretching the wire to Q and the corresponding elastic potential energy stored in the wire\n\nOption | Work done by the force $F$ in stretching the wire to Q | Elastic potential energy stored in the wire\nA | $Y+X$ | $X$\nB | $Y$ | $Z$\nC | $Y+Z$ | $Z$\nD | $Y+Z$ | $Y+Z$"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q9",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the top of a convex bridge, weight acts downward and the normal force $N$ acts upward, so $mg-N=mv^2/r$. Thus $N=mg-mv^2/r$ is smallest for the convex bridge with the smaller radius. By Newton’s third law, the force exerted by the car on the bridge has the same magnitude as $N$.",
+      "perOption": {
+        "A": "The shallower convex bridge has a larger radius, so its normal force is closer to the weight.",
+        "B": "Correct. This convex bridge has the smallest radius.",
+        "C": "At the flat midpoint the normal force equals the weight.",
+        "D": "At the bottom of the dip the normal force exceeds the weight to give an upward resultant."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students compare centripetal force requirements and identify the Newton’s third-law pair.",
+    "misconception": "Equating the contact force with the car’s weight",
+    "transcription": "A car moves with the same speed over each of the 4 bridges shown below.\n\nIn which option is the force which the car exerts on the midpoint of the bridge the smallest?\n\n[A: shallow convex bridge. B: more tightly curved convex bridge. C: flat horizontal bridge. D: concave bridge with a dip in the middle.]"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q10",
+    "keyPage": 17,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the surface, $g=GM/R^2$, and the final distance from the centre is $3R$. The work done equals the increase in gravitational potential energy, $-\\frac{GMm}{3R}-\\left(-\\frac{GMm}{R}\\right)=\\frac23\\frac{GMm}{R}$. Using the surface value of $g$ gives $\\frac23mgR$.",
+      "perOption": {
+        "A": "Uses $2R$ as the final distance from the centre.",
+        "B": "Correct. The potential energy increases by approximately $0.67mgR$.",
+        "C": "Uses the work required to take the mass from the surface to infinity.",
+        "D": "Uses constant surface gravity over the entire distance $2R$."
+      }
+    },
+    "issues": "The key omits the negative sign of the initial potential inside the subtraction. Its subsequent algebra and answer use the correct sign.",
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students convert altitude to centre-to-centre distance and express the potential energy difference in terms of surface gravity.",
+    "misconception": "Measuring gravitational distance from the surface",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q11",
+    "keyPage": 18,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Thermodynamic temperature is proportional to the mean translational kinetic energy per molecule, $\\langle E_{\\mathrm{k,trans}}\\rangle=\\frac32kT$. The gases therefore have the same temperature when these mean energies are equal.",
+      "perOption": {
+        "A": "Total internal energy depends on the number of molecules and how they store energy.",
+        "B": "Equal volumes leave the pressures and particle numbers free to differ.",
+        "C": "At equal rms speed, the different molecular masses give different values of $\\frac12m v_{\\mathrm{rms}}^2$.",
+        "D": "Correct. Equal mean translational kinetic energies imply equal temperatures."
+      }
+    },
+    "issues": "The key prints D on page 17 and gives the explanation on page 18. The formula sheet it cites is on page 2 of the PDF.",
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The item tests the direct relation between temperature and mean translational kinetic energy.",
+    "misconception": "Equating equal temperature with equal rms speed",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q12",
+    "keyPage": 18,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The stable temperature means the filament’s internal energy stays constant. The hotter filament loses energy to its surroundings, so its heating rate is negative. Electrical work is done on the filament as charge is driven through it, giving a work rate of $+40\\ \\mathrm{W}$ and, by the first law, a heating rate of $-40\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Correct. Electrical work in balances energy transferred out by heating.",
+        "B": "This leaves the electrical work raising the internal energy.",
+        "C": "This counts the electrical input as heating and would imply increasing internal energy.",
+        "D": "This reverses both transfer directions, since the hot filament loses energy and receives electrical work."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students identify energy transfer directions and apply the first law at constant internal energy.",
+    "misconception": "Mistaking electrical work for heat input",
+    "transcription": "A $40\\ \\mathrm{W}$ filament lamp has been operating normally for some time so that its temperature is stable.\n\nWhich of the following shows the correct quantities with respect to the filament?\n\nOption | rate of heating the filament / W | rate of doing work on filament / W\nA | $-40$ | $+40$\nB | $0$ | $+40$\nC | $+40$ | $0$\nD | $+40$ | $-40$"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q13",
+    "keyPage": 18,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Take $t=0$ at the crossing of O and use $x=x_0\\sin\\omega t$. Substituting gives $x=a\\sin\\!\\left(\\frac{2\\pi}{T}\\frac{T}{8}\\right)=a\\sin(\\pi/4)=a/\\sqrt{2}$.",
+      "perOption": {
+        "A": "Treats displacement as a linear fraction of the period.",
+        "B": "Adds an extra factor of one-half to $a\\sin(\\pi/4)$.",
+        "C": "Uses $\\frac12$ for $\\sin(\\pi/4)$.",
+        "D": "Correct. One-eighth of a period corresponds to a phase of 45 degrees."
+      }
+    },
+    "issues": "The crossing direction is unspecified. The options give magnitudes, and the key takes the crossing direction as positive.",
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students select the sine form for an equilibrium crossing and convert elapsed time to phase.",
+    "misconception": "Assuming displacement is proportional to elapsed time",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q14",
+    "keyPage": 18,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Displacement and acceleration are in antiphase, so the displacement–time graph is the inverted acceleration–time graph. At A the displacement curve is below zero with a negative gradient, giving negative $x$ and negative $v$. Both signs match P in Fig. 14.1.",
+      "perOption": {
+        "A": "Correct. Displacement and velocity are both negative.",
+        "B": "The displacement is negative but its gradient is positive.",
+        "C": "The acceleration is negative, which gives positive displacement, and the displacement gradient is positive.",
+        "D": "The acceleration is negative, which gives positive displacement even though its displacement gradient is negative."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.d",
+      "oscillations.g"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students infer the signs of displacement and velocity from the acceleration curve and its slope.",
+    "misconception": "Reading the acceleration gradient as the velocity sign",
+    "transcription": "Fig. 14.1 shows the variation with displacement $x$ of velocity $v$ of a simple harmonic oscillator. Fig. 14.2 shows the variation with time $t$ of the acceleration $a$ of the oscillator.\n\n[Fig. 14.1: Ellipse centred at the origin on axes with $x$ horizontal and $v$ vertical. P lies on its lower-left arc.]\n\n[Fig. 14.2: Sinusoidal acceleration $a$ on the vertical axis against time $t$ on the horizontal axis. The curve starts at zero and rises. A is on the rising positive section, B on the falling positive section, C on the falling negative section and D on the rising negative section.]\n\nWhich of the points on Fig. 14.2 correspond to the state of motion represented by point P on Fig. 14.1?"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q15",
+    "keyPage": 18,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "X starts on the equilibrium line. As the wave profile shifts right, the section immediately left of X moves into its position, so X initially moves towards negative displacement.",
+      "perOption": {
+        "A": "Starts at zero but initially moves towards positive displacement.",
+        "B": "Correct. X starts at zero and initially moves towards negative displacement.",
+        "C": "Starts at maximum positive displacement even though X is initially on the equilibrium line.",
+        "D": "Starts at maximum negative displacement even though X is initially on the equilibrium line."
+      }
+    },
+    "issues": "The question PNG is cropped above the options. The four option graphs were recovered from page 9 of the full paper included in the key-page images.",
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students translate a wave snapshot into the time history at a fixed point.",
+    "misconception": "Using the spatial slope as the initial time slope",
+    "transcription": "A transverse wave travels along a rope. The diagram shows the rope at time $t=0$.\n\nThe wave is travelling from left to right. The period of the wave is $T$.\n\n[Sinusoidal rope profile with a dashed horizontal equilibrium line. X is marked where the profile rises through the line, between a trough to its left and a crest to its right. An arrow labelled “direction of wave travel” points right.]\n\nOne particle of the rope is labelled X.\n\nWhich graph shows the variation with time of the displacement of particle X between $t=0$ and $t=2T$?\n\n[All four graphs show two complete sinusoidal cycles from $0$ to $2T$, with displacement on the vertical axis and $t$ on the horizontal axis. A starts at zero and rises. B starts at zero and falls. C starts at maximum positive displacement. D starts at maximum negative displacement.]"
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q16",
+    "keyPage": 19,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two amplitudes $A$ at X have polarization directions separated by $60^\\circ$. In the head-to-tail vector triangle the included angle is $120^\\circ$. The cosine rule gives the resultant $\\sqrt{2A^2-2A^2\\cos120^\\circ}=\\sqrt3 A\\approx1.7A$.",
+      "perOption": {
+        "A": "Keeps only the projection $A\\cos60^\\circ$ and omits the other field.",
+        "B": "Adds the components along Q’s axis but omits the perpendicular component from P.",
+        "C": "Correct. The vector sum has magnitude approximately 1.7 times the single-slit amplitude.",
+        "D": "Adds the amplitudes as if the polarization axes were still parallel."
+      }
+    },
+    "issues": "The key assumes coherent, in-phase fields at X, as implied by the stated initial amplitude.",
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion",
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "superposition.a",
+      "wave-motion.i",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students add two equal field amplitudes as vectors after one polarization direction rotates.",
+    "misconception": "Adding only the field components along one axis",
+    "transcription": null
+  },
+  {
+    "id": "sajc-2023-prelim-p1-q17",
+    "keyPage": 19,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $b$ be the slit width, $a$ the separation, $D=1.2\\ \\mathrm{m}$ the screen distance and $x$ the fringe spacing. The first envelope minimum gives $\\sin\\theta=\\lambda/b$, and the double-slit fringes give $\\lambda=ax/D$. The first minimum is $4.5\\ \\mathrm{cm}$ from the centre, or $3.5$ fringe spacings, so $x=0.045/3.5\\ \\mathrm{m}$ and $\\sin\\theta=0.045/\\sqrt{0.045^2+1.2^2}$. Hence $b/a=x/(D\\sin\\theta)=0.29$.",
+      "perOption": {
+        "A": "This would make the width larger than the separation and put the first minimum within one fringe spacing.",
+        "B": "This is approximately the slit separation divided by the slit width.",
+        "C": "This would place the first envelope minimum about one fringe spacing from the centre.",
+        "D": "Correct. The width is about 0.29 times the separation."
+      }
+    },
+    "issues": "The key diagram’s hypotenuse label uses 45 cm. Its numerical substitution correctly uses 4.5 cm.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h",
+      "superposition.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students read a fractional number of fringe spacings and combine the double-slit and single-slit equations.",
+    "misconception": "Inverting the slit width to separation ratio",
+    "transcription": null
+  }
+]

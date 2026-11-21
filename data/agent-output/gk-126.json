@@ -1,0 +1,505 @@
+[
+  {
+    "id": "sajc-2025-prelim-p1-q24",
+    "keyPage": 25,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The radius from O to R cuts magnetic flux at a constant rate as the disc rotates steadily in the uniform field. The e.m.f. between the centre and the rim is therefore constant.",
+      "perOption": {
+        "A": "Assumes an alternating e.m.f. that starts from zero, as in a rotating coil.",
+        "B": "Assumes an alternating e.m.f. with an initial peak, although the rate of flux cutting stays constant.",
+        "C": "Assumes the rate of flux cutting increases steadily.",
+        "D": "Correct. The e.m.f. is constant."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires recognising steady flux cutting and matching it to an e.m.f.–time graph.",
+    "misconception": "Treating the disc as a rotating coil.",
+    "transcription": "The figure below shows a copper disc rotating steadily about its centre O in a uniform magnetic field between two bar magnets. The magnetic field is acting perpendicularly to the disc.\n\n[The disc is between N on the left and S on the right. Its axle passes through O, R marks the bottom of the rim, and a rotation arrow points down along the left side.]\n\nWhich of the following graphs correctly shows the variation of the induced e.m.f. $\\varepsilon$ between the centre O and a point R on the rim of the disc with time $t$?\n\n[A–D plot $\\varepsilon$ against $t$. A is a sinusoid starting at zero and rising. B is a sinusoid starting at a positive maximum. C is a straight line rising from zero. D is a horizontal line above zero.]"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q25",
+    "keyPage": 25,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Lenz’s law, the induced field opposes the increase in the external field, so it points towards the indicated observer and the induced current is anti-clockwise. By Faraday’s law, $|\\varepsilon|=NA\\Delta B/\\Delta t=100(8.0\\times10^{-3})(60\\times10^{-3})/4.0=1.2\\times10^{-2}\\ \\mathrm{V}$.",
+      "perOption": {
+        "A": "Reverses the current and uses the final field in place of the field change.",
+        "B": "Uses the final field in place of the field change.",
+        "C": "The clockwise current would reinforce the increasing external field.",
+        "D": "Correct. The current is anti-clockwise and the e.m.f. is $1.2\\times10^{-2}\\ \\mathrm{V}$."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires applying both Lenz’s law for direction and Faraday’s law for magnitude.",
+    "misconception": "Using the final field instead of the field change.",
+    "transcription": "A rigid conducting coil has 100 turns and a cross-sectional area of $8.0\\times10^{-3}\\ \\mathrm{m^2}$. It is freely suspended by a non-conducting cord. A uniform magnetic field is directed at right angles to the plane of the loop as shown in the figure.\n\n[A cord suspends the vertical coil. The uniform magnetic field arrows pass horizontally through the coil from left to right. The current direction is viewed from the left.]\n\nThe magnetic flux density of the uniform magnetic field is changed steadily from $20\\ \\mathrm{mT}$ to $80\\ \\mathrm{mT}$ over a period of $4.0\\ \\mathrm{s}$.\n\nWhat is the direction of the induced current as viewed from the position indicated in the figure and the average e.m.f. induced in the coil during this time?\n\nDirection of induced current | Magnitude of induced e.m.f. / V\nA. clockwise | $1.6\\times10^{-2}$\nB. anti-clockwise | $1.6\\times10^{-2}$\nC. clockwise | $1.2\\times10^{-2}$\nD. anti-clockwise | $1.2\\times10^{-2}$"
+  },
+  {
+    "id": "sajc-2025-prelim-p1-q26",
+    "keyPage": 25,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For an ideal transformer, $V_pI_p=V_sI_s$, so $I_s=120(60)/4500=1.6\\ \\mathrm{A}$. The percentage power lost is $[I_s^2R/(V_pI_p)]\\times100\\%=[1.6^2(1.0)/(120\\times60)]\\times100\\%=0.036\\%$.",
+      "perOption": {
+        "A": "Overestimates the fraction lost using the $1.6\\ \\mathrm{A}$ line current.",
+        "B": "Correct. The line dissipates $0.036\\%$ of the input power.",
+        "C": "Underestimates the loss from $I_s^2R=2.56\\ \\mathrm{W}$ relative to the $7200\\ \\mathrm{W}$ input.",
+        "D": "Counts only half the loss if the stated total line resistance is halved."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires finding the secondary current before calculating the percentage power loss.",
+    "misconception": "Using the generator current for the transmission line.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rearrange to $C_d v^n\\rho A=2F$. Since $C_d$ is dimensionless, the left-hand side has units $(\\mathrm{m\\,s^{-1}})^n(\\mathrm{kg\\,m^{-3}})(\\mathrm{m^2})=\\mathrm{kg\\,m^{n-1}\\,s^{-n}}$. These match the force units $\\mathrm{kg\\,m\\,s^{-2}}$ when $n=2$.",
+      "perOption": {
+        "A": "Gives $\\mathrm{s^{-1}}$ on the left, so the time units do not match.",
+        "B": "Correct. Both base-unit exponents match when $n=2$.",
+        "C": "Gives $\\mathrm{s^{-3}}$ on the left, so the time units do not match.",
+        "D": "Gives $\\mathrm{s^{-4}}$ on the left, so the time units do not match."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires expressing force, density, area and speed in SI base units and matching exponents.",
+    "misconception": "Failing to match the time exponent to that of force.",
+    "transcription": "The drag coefficient $C_d$ is a number with no units. It is used to compare the drag on different cars at different speed. $C_d$ is given by the equation\n\n$C_d=\\frac{2F}{v^n\\rho A}$\n\nwhere $F$ is the drag force on the car, $\\rho$ is the density of the air, $A$ is the cross-sectional area of the car and $v$ is the speed of the car.\n\nWhat is the value of $n$?\n\nA. 1\nB. 2\nC. 3\nD. 4"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the same length scale for Earth and the Moon. The model Moon’s radius is $\\frac{0.12}{6.4\\times10^6}\\times1.7\\times10^6=0.032\\ \\mathrm{m}=3.2\\ \\mathrm{cm}$, which is closest to the radius of a tennis ball.",
+      "perOption": {
+        "A": "A basketball is much larger than the required radius.",
+        "B": "A cherry is much smaller than the required radius.",
+        "C": "A golf ball’s radius is smaller than the required radius.",
+        "D": "Correct. A tennis ball has approximately the required radius."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires applying a linear scale factor and estimating the size of familiar objects.",
+    "misconception": "Confusing model radius with diameter.",
+    "transcription": "The radius of the Earth is approximately $6.4\\times10^6\\ \\mathrm{m}$, and the radius of the moon is approximately $1.7\\times10^6\\ \\mathrm{m}$. A student wishes to build a scale model of the Solar System in the classroom, using a football of radius $0.12\\ \\mathrm{m}$ to represent the Earth.\n\nWhich object would best represent the Moon?\n\nA. basketball\nB. cherry\nC. golf ball\nD. tennis ball"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The motorcyclist’s velocity relative to the car is $\\vec v_R=\\vec v_M-\\vec v_C$. Reverse the car’s eastward velocity and add that westward vector to the motorcyclist’s north-westward velocity, as shown in A.",
+      "perOption": {
+        "A": "Correct. The diagonal adds the motorcyclist’s velocity to the reversed car velocity.",
+        "B": "Adds the car’s eastward velocity to the motorcyclist’s velocity.",
+        "C": "Reverses the subtraction and obtains the car’s velocity relative to the motorcyclist.",
+        "D": "Uses the wrong diagonal for the vector sum."
+      }
+    },
+    "issues": "The stem’s wording can imply that the stated north-west velocity is already relative to the passenger. The diagram and intended calculation treat both stated velocities as ground-relative.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires subtracting the car’s velocity and recognising the corresponding parallelogram diagonal.",
+    "misconception": "Adding the observer’s velocity.",
+    "transcription": "A passenger in a car travelling due East at speed $v_C$ sees a motorcyclist travelling due North–West at speed $v_M$.\n\n[North is up. The car’s velocity arrow $v_C$ points right and the motorcyclist’s velocity arrow $v_M$ points up-left.]\n\nWhich diagram shows the velocity $v_R$ of the motorcyclist relative to the passenger in the car?\n\n[The four options show parallelograms with horizontal top and bottom sides.\nA. $v_C$ points left along the bottom, $v_M$ up-left along the right side, and $v_R$ from bottom right to top left.\nB. $v_C$ points right along the bottom, $v_M$ up-left along the left side, and $v_R$ from bottom left to top right.\nC. $v_C$ points right along the top, $v_M$ down-right along the left side, and $v_R$ from top left to bottom right.\nD. $v_C$ points left along the top, $v_M$ up-left along the right side, and $v_R$ from top right to bottom left.]"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The separation is greatest just as P reaches the ground, since P is falling faster than Q until then. Using $s=\\tfrac12gt^2$ and $g\\approx10\\ \\mathrm{m\\,s^{-2}}$, P takes $t=4\\ \\mathrm{s}$ from $80=5t^2$. Q has fallen for $4-1=3\\ \\mathrm{s}$ and covered $5(4-1)^2=45\\ \\mathrm{m}$, so the separation is $80-45=35\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses the gap at the instant Q is released.",
+        "B": "Treats the approximately $10\\ \\mathrm{m\\,s^{-1}}$ relative speed as the maximum separation.",
+        "C": "Correct. The gap just before P lands is $35\\ \\mathrm{m}$.",
+        "D": "Uses Q’s distance fallen in place of its remaining height."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires identifying when the separation peaks and accounting for the later release of Q.",
+    "misconception": "Giving Q’s fall distance as the separation.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q5",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially the spring force $F$ balances the weight vertically, so $F\\cos\\theta=mg$, and its horizontal component balances the thread tension $T=F\\sin\\theta=mg\\tan\\theta$. Cutting the thread removes its leftward pull while the spring force and weight are initially unchanged. The remaining force is $T$ to the right, giving acceleration $g\\tan\\theta$ in direction II.",
+      "perOption": {
+        "A": "Introduces a downward component and uses $g\\sin\\theta$ for the magnitude.",
+        "B": "Introduces a downward component even though the vertical forces still balance.",
+        "C": "Uses $mg$ as the spring force when resolving its horizontal component.",
+        "D": "Correct. The acceleration is $g\\tan\\theta$ in direction II."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using the initial equilibrium to find the unbalanced force immediately after the cut.",
+    "misconception": "Assuming the object immediately gains a downward acceleration.",
+    "transcription": "A small object at O is kept in static equilibrium by a horizontal thread OA and a light spring OB which makes an angle $\\theta$ with the vertical as shown below.\n\n[Thread OA extends horizontally left from O to a wall at A. Spring OB extends up and right to B, making angle $\\theta$ with the vertical. Arrow I points down and right from O, and arrow II points horizontally right.]\n\nIf the thread is suddenly cut, what are the direction and magnitude of the acceleration of the object at that instant?\n\nDirection | Magnitude\nA. I | $g\\sin\\theta$\nB. I | $g\\tan\\theta$\nC. II | $g\\sin\\theta$\nD. II | $g\\tan\\theta$"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q6",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rain falls vertically and brings in no horizontal momentum, so the horizontal momentum $p$ of the wagon and collected rain stays constant. As the total mass $m$ increases, the speed $p/m$ decreases. The kinetic energy $p^2/(2m)$ also decreases.",
+      "perOption": {
+        "A": "Treats kinetic energy as constant even though the mass increases at fixed momentum.",
+        "B": "Correct. Speed and kinetic energy decrease at constant horizontal momentum.",
+        "C": "Assumes slowing requires momentum loss even as the moving mass increases.",
+        "D": "Keeps speed constant while increasing mass at fixed momentum."
+      }
+    },
+    "issues": "The key treats the wagon and accumulated rain as the moving system, as the options imply.",
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e",
+      "motion-and-forces.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires tracking horizontal momentum and kinetic energy as the moving mass increases.",
+    "misconception": "Assuming conservation of momentum also preserves kinetic energy.",
+    "transcription": "[An open wagon rolls to the right on a horizontal surface. Dashed vertical lines depict falling rain, and water is shown inside the wagon.]\n\nThe above figure shows an open wagon moving with negligible resistance in vertically falling rain. An appreciable amount of rain falls into the wagon and accumulates there. What are the effects of the accumulating rain on the speed, momentum and kinetic energy of the wagon? (Ignore the effects of the raindrops hitting the front of the wagon.)\n\nSpeed | Momentum | Kinetic energy\nA. decrease | unchanged | unchanged\nB. decrease | unchanged | decrease\nC. decrease | decrease | decrease\nD. unchanged | unchanged | unchanged"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q7",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The rod is in equilibrium, so the lines of action of the two tensions and the weight must meet at one point. The tension lines meet at the peg, and the vertical line through their intersection passes closest to C.",
+      "perOption": {
+        "A": "A lies well to the left of the vertical line through the tension intersection.",
+        "B": "B lies left of the vertical line through the tension intersection.",
+        "C": "Correct. C is closest to the vertical through the peg.",
+        "D": "D lies right of the vertical line through the tension intersection."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.f",
+      "forces-and-moments.g",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires locating the line of action of the weight from the two tension lines.",
+    "misconception": "Placing the centre of gravity at the rod’s midpoint.",
+    "transcription": "An uneven rod is supported from a peg by means of a string. The friction force between the peg and the string is negligible.\n\n[The string runs from the left end of an uneven rod up to a peg and back down to the rod near its right end. Four points are marked on the rod from left to right: A near the left tip, B around the middle, C almost directly below the peg, and D near the right end.]\n\nWhich of the points best shows the position of the centre of gravity of the rod?"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The engine supplies $500\\ \\mathrm{kN}\\times40\\ \\mathrm{m\\,s^{-1}}=20\\ \\mathrm{MW}$. Air resistance removes $200\\ \\mathrm{kN}\\times40\\ \\mathrm{m\\,s^{-1}}=8.0\\ \\mathrm{MW}$. The kinetic energy therefore increases at $20-8.0=12\\ \\mathrm{MW}$.",
+      "perOption": {
+        "A": "Uses a force equivalent to $60\\ \\mathrm{kN}$ instead of the net forward force of $300\\ \\mathrm{kN}$.",
+        "B": "Uses the power lost to air resistance alone.",
+        "C": "Correct. The net power is $12\\ \\mathrm{MW}$.",
+        "D": "Uses the engine’s power alone and omits drag."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.l",
+      "energy-and-fields.m"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires reading the thrust and drag from the force diagram and finding their net power.",
+    "misconception": "Using thrust power alone.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The inward radial component of the resultant is $T-W\\cos\\theta$, which supplies the centripetal force. The tangential component is $W\\sin\\theta$ towards the lowest point. Their vector sum points along Q.",
+      "perOption": {
+        "A": "Includes only the inward radial component.",
+        "B": "Correct. Q combines the inward and tangential components.",
+        "C": "Includes only the tangential component of the resultant.",
+        "D": "Points outside the sector between the inward radial and down-left tangential directions."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "circular-motion.f",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires combining the inward radial force with the tangential component of weight.",
+    "misconception": "Treating the resultant as purely centripetal.",
+    "transcription": "The figure shows a pendulum bob swinging between positions $x$ and $y$.\n\n[The dashed arc runs from $x$ at the left extreme to $y$ at the right extreme. The bob is at $z$ on the right side below $y$. At $z$, P points up-left along the string towards the pivot, Q points left and slightly up, R points down-left along the tangent, and S points steeply down-left.]\n\nWhich of the arrows P, Q, R, S represents the direction of the resultant force acting on the bob when the bob is at position $z$? (Neglect air resistance.)\n\nA. P\nB. Q\nC. R\nD. S"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the bottom, $N-mg=mv^2/R$, so the normal force stays positive. At the top, $mg-N=mv^2/R$, so the contact force falls to zero at $v=\\sqrt{gR}$. For $v>\\sqrt{gR}$, following the crest would require a negative normal force, so contact is lost and the driver can feel weightless.",
+      "perOption": {
+        "A": "Correct. Above the crest’s threshold speed the car loses contact.",
+        "B": "At the bottom, increasing speed increases the upward normal force.",
+        "C": "Below the threshold the normal force at the top is still positive.",
+        "D": "At the bottom, gravity and the required upward acceleration both contribute to the normal force."
+      }
+    },
+    "issues": "The key writes $N<0$ as the loss-of-contact condition. This is the value required to follow the road, and the actual normal force reaches zero at $v=\\sqrt{gR}$. The final inequality appears on page 3.",
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.e",
+      "circular-motion.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires comparing contact forces at a crest and a dip and identifying the limiting speed.",
+    "misconception": "Assuming the normal force can become negative.",
+    "transcription": null
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q11",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the minimum escape speed $v_e$, the total energy at infinity is zero, so $\\tfrac12mv_e^2-GMm/R=0$. Thus $v_e=\\sqrt{2GM/R}$, which depends on the ratio of mass to radius. Planet D doubles both quantities and preserves that ratio.",
+      "perOption": {
+        "A": "The mass falls by a larger factor than the radius, so the escape speed is lower.",
+        "B": "Halving the mass at the same radius decreases the escape speed.",
+        "C": "Halving the radius at the same mass increases the escape speed.",
+        "D": "Correct. Doubling both mass and radius preserves the escape speed."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires linking escape speed to the mass-to-radius ratio through energy conservation.",
+    "misconception": "Using surface gravitational field strength to compare escape speeds.",
+    "transcription": "Four planets A, B, C and D have masses and radii as listed in terms of $M$ and $R$ where $M$ and $R$ are the mass and radius of the Earth respectively.\n\nWhich planet would have a surface escape speed which is the same as that of the Earth?\n\nMass of planet | Radius of planet\nA. $\\frac12 M$ | $\\frac{1}{\\sqrt{2}}R$\nB. $\\frac12 M$ | $R$\nC. $M$ | $\\frac12 R$\nD. $2M$ | $2R$"
+  },
+  {
+    "id": "tjc-2022-prelim-p1-q12",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $W_{\\rm ext}=m\\Delta\\phi$ to obtain $\\phi_B-\\phi_A=50/2.0=25\\ \\mathrm{J\\,kg^{-1}}$ and $\\phi_C-\\phi_B=-60/2.0=-30\\ \\mathrm{J\\,kg^{-1}}$. Since $\\phi_\\infty=0$ and $1000=2.0(\\phi_\\infty-\\phi_C)$, $\\phi_C=-500\\ \\mathrm{J\\,kg^{-1}}$. Working back gives $\\phi_B=-470\\ \\mathrm{J\\,kg^{-1}}$ and $\\phi_A=-495\\ \\mathrm{J\\,kg^{-1}}$.",
+      "perOption": {
+        "A": "Treats the $-60\\ \\mathrm{J}$ leg as positive work.",
+        "B": "Reverses the sign of the net potential change between A and C.",
+        "C": "Correct. The signed work gives a potential of $-495\\ \\mathrm{J\\,kg^{-1}}$ at A.",
+        "D": "Treats the $+50\\ \\mathrm{J}$ leg as negative work."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires using signed work per unit mass and working back from zero potential at infinity.",
+    "misconception": "Dropping the sign of the negative external work.",
+    "transcription": "An external agent does $50\\ \\mathrm{J}$ of work in moving a mass of $2.0\\ \\mathrm{kg}$ from point A to point B in a gravitational field, and $-60\\ \\mathrm{J}$ of work in moving the mass from point B to point C. Finally, the external agent does work of $1000\\ \\mathrm{J}$ in moving the mass from point C to infinity.\n\nWhat is the gravitational potential at point A?\n\nA. $-555\\ \\mathrm{J\\,kg^{-1}}$\nB. $-505\\ \\mathrm{J\\,kg^{-1}}$\nC. $-495\\ \\mathrm{J\\,kg^{-1}}$\nD. $-445\\ \\mathrm{J\\,kg^{-1}}$"
+  }
+]

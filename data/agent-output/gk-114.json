@@ -1,0 +1,502 @@
+[
+  {
+    "id": "rvhs-2023-other-p1-q8",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $F$ be the driving force. Newton’s second law gives $F-200=800(0.50)$, so $F=600\\ \\mathrm{N}$. The output power is $P=Fv=600(20)=12\\,000\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Uses a driving force of only 100 N, which cannot overcome the 200 N resistance.",
+        "B": "Counts only the power needed to overcome resistance.",
+        "C": "Uses the resultant force and omits the power needed to overcome resistance.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Use the net force to find the driving force before calculating power.",
+    "misconception": "Confusing driving force with resultant force",
+    "transcription": "A car of mass $800\\ \\mathrm{kg}$ is moving at $20\\ \\mathrm{m\\,s^{-1}}$ along a horizontal road. The total resistive force acting on the car is $200\\ \\mathrm{N}$.\n\nIt begins to accelerate at $0.50\\ \\mathrm{m\\,s^{-2}}$.\n\nWhat is the total output power developed by the car at its initial acceleration?\n\nA $2.0\\ \\mathrm{kW}$\nB $4.0\\ \\mathrm{kW}$\nC $8.0\\ \\mathrm{kW}$\nD $12\\ \\mathrm{kW}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The centripetal acceleration has magnitude $a_{\\mathrm c}=r\\omega^2=r(2\\pi/T)^2$. Both $r$ and the period $T$ are constant, so the magnitude stays constant over time.",
+      "perOption": {
+        "A": "Shows an acceleration magnitude increasing linearly despite the constant rotation rate.",
+        "B": "Shows a falling magnitude, which would require slowing rotation at fixed radius.",
+        "C": "Correct.",
+        "D": "Shows the magnitude rising from zero, as if the tyre were speeding up from rest."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.d",
+      "circular-motion.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognise that constant angular speed and radius give a horizontal graph.",
+    "misconception": "Confusing a changing acceleration direction with a changing magnitude",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2023-other-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Conservation of energy gives $2400(120)=0.106(2.26\\times10^6)+E_{\\mathrm{loss}}$. The heat loss is $48\\,440\\ \\mathrm{J}$, so the loss rate is $48\\,440/120=404\\ \\mathrm{W}$, or about $400\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Adds the vaporisation power to the heater power instead of subtracting it.",
+        "C": "Uses the energy lost in joules as though it were a rate in watts.",
+        "D": "Implies a loss rate greater than the heater’s entire input power."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "thermodynamic-systems.g",
+      "energy-and-fields.b",
+      "energy-and-fields.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Find the unused energy from an energy balance and divide by the elapsed time.",
+    "misconception": "Confusing energy lost with the rate of energy loss",
+    "transcription": "A heater in an electric kettle has a power of $2400\\ \\mathrm{W}$.\n\nWhen the water in the kettle is boiling at a steady rate, the mass of water evaporated in 120 seconds is $0.106\\ \\mathrm{kg}$.\n\nWhat is the rate of loss of thermal energy to the surrounding during the boiling process?\n\nTake latent heat of vaporisation of water to be $2.26\\times10^6\\ \\mathrm{J\\,kg^{-1}}$.\n\nA $400\\ \\mathrm{W}$\nB $4400\\ \\mathrm{W}$\nC $48000\\ \\mathrm{W}$\nD $53000\\ \\mathrm{W}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gas density is $\\rho=\\dfrac{6.80\\times10^{15}}{1\\times10^{-6}}\\dfrac{2.02\\times10^{-3}}{6.02\\times10^{23}}=2.282\\times10^{-5}\\ \\mathrm{kg\\,m^{-3}}$. The pressure is $p=\\tfrac13\\rho v_{\\mathrm{rms}}^2=\\tfrac13(2.282\\times10^{-5})(1900)^2\\approx27.46\\ \\mathrm{Pa}$.",
+      "perOption": {
+        "A": "Uses the rms speed without squaring it.",
+        "B": "Undercalculates the pressure, which rounds to 27 Pa with the given data.",
+        "C": "Correct.",
+        "D": "Omits the factor of one-third for three-dimensional molecular motion."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.d",
+      "temperature-and-ideal-gases.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Convert number density and molar mass to mass density before applying the kinetic-theory pressure equation.",
+    "misconception": "Omitting the factor of one-third in gas pressure",
+    "transcription": "The number of hydrogen molecules per $\\mathrm{cm^3}$ in a container is $6.80\\times10^{15}$. The root-mean-square speed of the molecules is $1.90\\times10^3\\ \\mathrm{m\\,s^{-1}}$. The mass of one mole of hydrogen molecule is $2.02\\ \\mathrm{g}$.\n\nWhat is the pressure exerted by the gas in the container?\n\nA $0.014\\ \\mathrm{Pa}$\nB $26\\ \\mathrm{Pa}$\nC $27\\ \\mathrm{Pa}$\nD $82\\ \\mathrm{Pa}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Equate $n=pV/(RT)$ at the bottom and at the surface. The water adds $\\rho gh=1200(9.81)(40)=4.709\\times10^5\\ \\mathrm{Pa}$ to the atmospheric pressure at the bottom. Thus $V=\\dfrac{4.709+1.0}{1.0}\\dfrac{293.15}{277.15}(20\\ \\mathrm{cm^3})=120.8\\ \\mathrm{cm^3}$, or about $120\\ \\mathrm{cm^3}$.",
+      "perOption": {
+        "A": "Inverts the pressure ratio and predicts the bubble shrinks as it rises.",
+        "B": "Omits atmospheric pressure at depth, giving about 100 cubic centimetres.",
+        "C": "Correct.",
+        "D": "Uses the Celsius temperature ratio, which exaggerates the expansion."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.b",
+      "temperature-and-ideal-gases.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combine hydrostatic and atmospheric pressure, convert both temperatures to kelvin, and compare the two gas states.",
+    "misconception": "Using gauge pressure in the ideal gas law",
+    "transcription": "An air bubble of volume $20\\ \\mathrm{cm^3}$ is at the bottom of a lake $40\\ \\mathrm{m}$ deep where the temperature is $4.0\\,^\\circ\\mathrm{C}$.\n\nThe bubble rises to the surface which is at a temperature of $20\\,^\\circ\\mathrm{C}$.\n\nTake the temperature of the bubble’s air to be the same as that of the surrounding water.\n\nTake the atmospheric pressure to be $1.0\\times10^5\\ \\mathrm{Pa}$ and density of water to be $1.2\\ \\mathrm{g\\,cm^{-3}}$.\n\nWhat is the volume of the bubble as it reaches the surface?\n\nA $3.7\\ \\mathrm{cm^3}$\nB $100\\ \\mathrm{cm^3}$\nC $120\\ \\mathrm{cm^3}$\nD $570\\ \\mathrm{cm^3}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q13",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the equator, the observed acceleration is $a=g-r\\omega^2$, so slower rotation increases $a$. For uniform density, $g=GM/r^2=G\\rho(4\\pi r^3/3)/r^2=4\\pi G\\rho r/3$. At fixed density and rotation rate, increasing $r$ therefore increases $a$ at both the poles and the equator.",
+      "perOption": {
+        "A": "Reverses the effect of rotation, which reduces the observed acceleration at the equator.",
+        "B": "Correct.",
+        "C": "Applies the inverse-square dependence while overlooking that the mass increases with the cube of the radius.",
+        "D": "Overlooks that at fixed density and rotation rate the equatorial acceleration is proportional to radius."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "gravitational-fields.c",
+      "circular-motion.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Distinguish apparent free fall from gravitational field strength and account for how mass scales with radius at fixed density.",
+    "misconception": "Holding mass fixed when density is fixed",
+    "transcription": "Taking the Earth to be a perfect sphere of uniform density rotating about its polar axis, which of the following statements concerning the observed acceleration due to free fall $a$ at the surface of the Earth is true?\n\nA The value of $a$ at the equator is larger than that at the poles.\nB If the rate of rotation of the Earth decreases, the value of $a$ at the equator increases.\nC If the radius of the Earth increases with its density remaining unchanged, the value of $a$ at the poles decreases.\nD If the radius of the Earth increases with its density remaining unchanged, the value of $a$ at the equator decreases."
+  },
+  {
+    "id": "rvhs-2023-other-p1-q14",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The distance from Earth’s centre is $R=3.59\\times10^7+6.40\\times10^6=4.23\\times10^7\\ \\mathrm{m}$. Newton’s law of gravitation gives $F=GMm/R^2=(6.67\\times10^{-11})(6.0\\times10^{24})(60)/(4.23\\times10^7)^2=13.4\\ \\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses too large an orbital radius, such as misreading 6400 km as 64 million metres and using that alone.",
+        "C": "Uses the Earth’s surface value of gravitational field strength.",
+        "D": "Uses a rounded surface field strength of 10 newtons per kilogram at orbital altitude."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.a"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert the Earth’s radius to metres and add the altitude before applying the inverse-square law.",
+    "misconception": "Using altitude as distance from Earth’s centre",
+    "transcription": "An astronaut with a mass of $60\\ \\mathrm{kg}$ works on a geostationary satellite that is $3.59\\times10^7\\ \\mathrm{m}$ from the surface of Earth. The mass and radius of Earth are given as $6.0\\times10^{24}\\ \\mathrm{kg}$ and $6400\\ \\mathrm{km}$ respectively.\n\nWhat is the gravitational force acting on the astronaut?\n\nA $13.4\\ \\mathrm{N}$\nB $5.86\\ \\mathrm{N}$\nC $589\\ \\mathrm{N}$\nD $600\\ \\mathrm{N}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q15",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The graph can show potential energy against time for an oscillator that starts at an extreme position at $t=0$. The potential energy peaks at each extreme and reaches zero at equilibrium.",
+      "perOption": {
+        "A": "Velocity alternates between positive and negative values.",
+        "B": "Correct.",
+        "C": "Acceleration against displacement is a straight line with negative gradient.",
+        "D": "Kinetic energy against displacement is a downward-opening parabola that peaks at equilibrium."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.g",
+      "oscillations.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Identify the periodic energy graph and use its initial maximum to infer the starting position.",
+    "misconception": "Confusing an energy graph with a signed motion graph",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2023-other-p1-q16",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The damping force can act in the same direction as the acceleration, for example when the body is moving away from equilibrium and slowing down. Statement D is therefore false.",
+      "perOption": {
+        "A": "Light damping slightly increases the period in the usual model with a damping force proportional to velocity.",
+        "B": "The damping force does oppose the velocity whenever the body is moving.",
+        "C": "As the amplitude falls, the maximum potential energy falls.",
+        "D": "Correct. The damping force can align with the acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "oscillations",
+    "secondaryChapters": [],
+    "outcomes": [
+      "oscillations.i"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Distinguish the direction of the damping force from that of the acceleration.",
+    "misconception": "Assuming damping always opposes acceleration",
+    "transcription": "Which of the following statements is not true for an oscillating body when light damping is present?\n\nA The presence of light damping changes the period of oscillation.\nB The damping force is always in the opposite direction to the velocity of the body.\nC The presence of light damping changes the maximum potential energy of the body.\nD The damping force is always in the opposite direction to the acceleration of the body."
+  },
+  {
+    "id": "rvhs-2023-other-p1-q17",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "An ideal polarising filter transmits the electric-field component along its transmission axis. Unpolarised light has equal average intensities along any two perpendicular axes, so the transmitted intensity is $I_0/2$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "A passive polarising filter cannot double the incident intensity.",
+        "C": "The filter blocks the component perpendicular to its transmission axis.",
+        "D": "The transmitted fraction is fixed at one-half for an ideal filter."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.i",
+      "wave-motion.j"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recall the standard transmission fraction for unpolarised light through an ideal polariser.",
+    "misconception": "Applying a single polarisation angle to unpolarised light",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2023-other-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $y_1$ be the distance from the centre to the first minimum. With $\\tan\\theta=y_1/4.8$ and $\\sin\\theta=(630\\times10^{-9})/(0.32\\times10^{-3})$, the small-angle result is $y_1=9.45\\times10^{-3}\\ \\mathrm{m}$. The central fringe is $2y_1$ wide, and each first side fringe is approximately $y_1$ wide. Taking each side maximum at its fringe midpoint gives $y\\approx3y_1=28\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Gives half the distance from the centre to the first minimum.",
+        "B": "Gives the distance from the centre to one first minimum.",
+        "C": "Gives the separation between the two first minima.",
+        "D": "Correct. It is the closest option for the separation of the side maxima."
+      }
+    },
+    "issues": "The key approximates each first side maximum as lying midway between adjacent minima. The single-slit intensity profile gives about 27 mm, and D (28 mm) is still the closest option.",
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.k",
+      "superposition.l"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Use the first-minimum angle to estimate the separation between the two side peaks.",
+    "misconception": "Confusing the first side maxima with the first minima",
+    "transcription": "A laser light of wavelength $630\\ \\mathrm{nm}$ is passed normally through a narrow slit. A screen is placed parallel to the slit $4.8\\ \\mathrm{m}$ away from the slit. An interference pattern is formed on the screen. The width of the slit is $0.32\\ \\mathrm{mm}$. The distance $y$ is the distance between the two first maxima.\n\n[Monochromatic light of wavelength $630\\ \\mathrm{nm}$ travels from left to right through a vertical slit of width $0.32\\ \\mathrm{mm}$. A parallel screen $4.8\\ \\mathrm{m}$ away shows a large central peak and smaller side peaks. The vertical distance $y$ is marked between the first side peaks on either side of the central peak.]\n\nWhat is the value of $y$?\n\nA $4.7\\ \\mathrm{mm}$\nB $9.5\\ \\mathrm{mm}$\nC $19\\ \\mathrm{mm}$\nD $28\\ \\mathrm{mm}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Call the grounded junction $O$, so $V_O=0$. Closing $S$ reduces the equivalent resistance between $P$ and $O$, so the potential divider gives a smaller drop from $P$ to $O$ and a lower $V_P$. The battery voltage is fixed, so the drop from $O$ to $Q$ increases and $V_Q$ becomes more negative.",
+      "perOption": {
+        "A": "Assumes a fixed battery voltage also fixes both node potentials relative to ground.",
+        "B": "Reverses the change at both nodes when the resistance between P and ground falls.",
+        "C": "Correctly makes Q more negative but reverses the change at P, where the drop to ground shrinks.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.i",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Track how the resistor voltage drops change relative to the grounded node.",
+    "misconception": "Treating a larger voltage drop to a negative node as an increase in its potential",
+    "transcription": "Resistor $R_1$, $R_2$ and $R_3$ are connected to a battery of constant e.m.f. with negligible internal resistance as shown below. Resistance of $R_1$ is twice the resistance of $R_2$. $R_2$ and $R_3$ have identical resistance.\n\n[The battery’s positive terminal connects to P and its negative terminal to Q. From P, two branches lead to a grounded junction. The upper branch contains $R_1$, and the lower branch contains $R_2$ and the open switch S in series. $R_3$ connects the grounded junction to Q.]\n\nWhat will happen to the electric potential at P and at Q when the switch S is closed?\n\nOption | potential at P | potential at Q\nA | unchanged | unchanged\nB | increases | increases\nC | increases | decreases\nD | decreases | decreases"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q21",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $I=Ne/t$, the number of particles passing per second is $I/e=(10.0\\times10^{-6})/(1.6\\times10^{-19})=6.25\\times10^{13}\\ \\mathrm{s^{-1}}$. In one second the particles travel $2.5\\times10^7\\ \\mathrm{m}=2.5\\times10^9\\ \\mathrm{cm}$, so one centimetre contains $(6.25\\times10^{13})/(2.5\\times10^9)=25\\,000$ particles on average.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Overcounts the particles per centimetre, as can happen if the elementary charge is rounded down to $1.0\\times10^{-19}\\ \\mathrm C$.",
+        "C": "Gives the number in one metre of beam.",
+        "D": "Gives the count per metre and can result from also rounding the elementary charge down to $1.0\\times10^{-19}\\ \\mathrm{C}$."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.a"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Convert current to a particle rate and divide by the distance travelled per second in centimetres.",
+    "misconception": "Using metres when the question asks for particles per centimetre",
+    "transcription": "A beam of beta particles constitutes a current of $10.0\\ \\mathrm{\\mu A}$. Given that these beta particles travel at a speed of $2.5\\times10^7\\ \\mathrm{m\\,s^{-1}}$, what is the average number of beta particles found in one centimetre length of this beam?\n\nA $2.5\\times10^4$\nB $4.0\\times10^4$\nC $2.5\\times10^6$\nD $4.0\\times10^6$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q22",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "At $X$, the signed potentials sum to zero, so $\\dfrac{1}{4\\pi\\varepsilon_0}\\left(\\dfrac{2.4\\times10^{-6}}{7.0\\ \\mathrm{cm}}-\\dfrac{2.9\\times10^{-6}}{BX}\\right)=0$. This gives $BX=8.458\\ \\mathrm{cm}$. Pythagoras then gives $L=\\sqrt{8.458^2-7.0^2}\\ \\mathrm{cm}\\approx4.75\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Inverts the charge ratio and reports the resulting distance as L.",
+        "C": "Uses the diagonal distance from B to X as the vertical distance L.",
+        "D": "Adds the squares of BX and AX, treating L as the hypotenuse."
+      }
+    },
+    "issues": "The key gives 4.74 cm in its last step. The displayed square root rounds to 4.75 cm at three significant figures, and A remains the closest option.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Set the signed potentials to cancel, then distinguish the diagonal distance from the requested vertical distance.",
+    "misconception": "Equating the charge separation to the distance from B to X",
+    "transcription": "A point charge of $+2.4\\ \\mathrm{\\mu C}$ is placed at point A. Point X is $7.0\\ \\mathrm{cm}$ to the right of point A as shown.\n\n[A and X lie on a horizontal line with $AX=7.0\\ \\mathrm{cm}$. B is directly below A at distance $L$. A is labelled $+2.4\\ \\mathrm{\\mu C}$ and B is labelled $-2.9\\ \\mathrm{\\mu C}$.]\n\nA point charge of $-2.9\\ \\mathrm{\\mu C}$ is placed at point B, distance $L$ below point A.\n\nWhat must be the distance $L$ for point X to have zero potential?\n\nA $4.7\\ \\mathrm{cm}$\nB $5.8\\ \\mathrm{cm}$\nC $8.4\\ \\mathrm{cm}$\nD $11\\ \\mathrm{cm}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q23",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The potential drop across the wire is $V_{PQ}=12.0\\times3.0/(3.0+1.5+22)\\approx1.36\\ \\mathrm{V}$. A test cell of a few millivolts needs a smaller voltage drop per unit length to give a longer balance length. Replacing the $22\\ \\Omega$ resistor with $1\\ \\mathrm{k\\Omega}$ reduces $V_{PQ}$.",
+      "perOption": {
+        "A": "A higher driver e.m.f. increases the potential gradient and shortens the balance length.",
+        "B": "Reversing the test cell changes its polarity while leaving the wire’s potential gradient unchanged.",
+        "C": "A higher wire resistance takes a larger share of the driver voltage and steepens the potential gradient for the same wire length.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key prints 1.31 V for the original potential drop across PQ. Its own expression evaluates to 1.36 V, so the arithmetic is corrected in the explanation.",
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.g",
+      "circuits.j"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Use the potential-divider circuit to determine which change lengthens the balance segment.",
+    "misconception": "Increasing the potentiometer gradient when the balance length is too short",
+    "transcription": null
+  }
+]

@@ -1,0 +1,493 @@
+[
+  {
+    "id": "ri-2019-prelim-p1-q17",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In a progressive wave of constant amplitude, every point has the same amplitude. In a stationary wave, amplitude depends on position, and adjacent nodes are half a wavelength apart. The key describes energy at the antinode as cycling between kinetic and potential forms.",
+      "perOption": {
+        "A": "Correct. Stationary-wave amplitude varies with position.",
+        "B": "Half a wavelength separates neighbouring nodes, while a node and its adjacent antinode are $\\lambda/4$ apart.",
+        "C": "Phase varies with position in a progressive wave, and points within one stationary-wave loop are in phase.",
+        "D": "An antinode periodically stops, so it does not always have kinetic energy."
+      }
+    },
+    "issues": "Key p. 3 describes kinetic–potential exchange as occurring at the antinode itself. For an ideal standing wave on a string, local elastic energy density is zero at the exact antinode, although the string as a whole exchanges kinetic and elastic energy. A remains correct.",
+    "chapter": "superposition",
+    "secondaryChapters": [
+      "wave-motion"
+    ],
+    "outcomes": [
+      "superposition.c",
+      "wave-motion.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Recognising how amplitude varies along the string is enough to choose the correct row.",
+    "misconception": "Confusing node-to-node and node-to-antinode spacing",
+    "transcription": "Which one of the following correctly compares characteristics of progressive and stationary waves on a string?\n\nProgressive waves | Stationary waves\nA Every point on the wave oscillates with the same amplitude | Amplitude of a point on the wave varies with position along the wave\nB Separation between two adjacent points of corresponding phase is one wavelength | Separation between a node and the adjacent antinode is half a wavelength\nC Adjacent points on the string oscillates in phase. | Adjacent points on the string oscillates out of phase.\nD Energy at any point changes from kinetic to potential and back again | Energy at the antinode is always kinetic"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $d\\sin\\theta=n\\lambda$. The second order gives $d\\sin15^\\circ=2\\lambda$, so $d/\\lambda\\approx7.7$. Since $\\sin\\theta\\leq1$, the highest possible integer order is $7$.",
+      "perOption": {
+        "A": "The sine limit allows orders higher than 3.",
+        "B": "The seventh order also satisfies the sine limit.",
+        "C": "Correct. The largest allowed integer is 7.",
+        "D": "The eighth order would require a sine greater than 1."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use the second-order angle to find the grating ratio and then apply the sine limit.",
+    "misconception": "Rounding the order limit up",
+    "transcription": "A beam of monochromatic light is incident normally on a diffraction grating. Second order diffracted beams are formed at angles of $15^\\circ$ to the normal.\n\nWhat is the highest order of diffracted beam produced by this grating?\n\nA 3\nB 6\nC 7\nD 8"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q19",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The field is upward with magnitude $E=[-10-(-20)]/(30\\times10^{-3})=333\\ \\mathrm{V\\,m^{-1}}$. The negative charge experiences a downward force of magnitude $(5.0\\times10^{-6})(333)=1.67\\times10^{-3}\\ \\mathrm N$. The displacement component along the force is $-0.012\\ \\mathrm m$, so the field does $(1.67\\times10^{-3})(-0.012)=-2.0\\times10^{-5}\\ \\mathrm J$ of work.",
+      "perOption": {
+        "A": "Uses the 20 mm diagonal instead of the 12 mm vertical component.",
+        "B": "Correct. The downward force does negative work over the upward displacement.",
+        "C": "Treats the force on the negative charge as upward.",
+        "D": "Uses the diagonal distance and gives the work the wrong sign."
+      }
+    },
+    "issues": "Key p. 3 briefly calls the force upward before giving its correct downward direction. The upward direction is that of the field.",
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "energy-and-fields.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the field and force before using the correct displacement component and sign.",
+    "misconception": "Using the diagonal displacement as the distance along the force",
+    "transcription": "The diagram shows two large horizontal metal plates situated 30 mm apart. The top and bottom plates are at potentials $-20\\ \\mathrm V$ and $-10\\ \\mathrm V$ respectively.\n\n[Two horizontal plates are separated by 30 mm, with the top at $-20\\ \\mathrm V$ and the bottom at $-10\\ \\mathrm V$. Point Y is 12 mm above and 16 mm to the right of X. The straight-line separation XY is 20 mm.]\n\nWhat is the work done by the electric field when a charge of $-5.0\\ \\mu\\mathrm C$ is moved from point X midway between the metal plates to point Y?\n\nA $-3.3\\times10^{-5}\\ \\mathrm J$\nB $-2.0\\times10^{-5}\\ \\mathrm J$\nC $2.0\\times10^{-5}\\ \\mathrm J$\nD $3.3\\times10^{-5}\\ \\mathrm J$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q20",
+    "keyPage": 3,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "An electric field points from higher to lower electric potential. This is the direction of the force on a positive test charge.",
+      "perOption": {
+        "A": "A zero electric field means the potential gradient is zero, and the potential can still be nonzero.",
+        "B": "A nonzero potential gradient can occur at a point where the potential is zero.",
+        "C": "For a negative charge, $U=qV$ increases as $V$ decreases.",
+        "D": "Correct. Potential falls in the field direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electric-fields.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The question tests the distinction between potential and its gradient.",
+    "misconception": "Equating the value of potential with its gradient",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q21",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Heating the thermistor decreases its resistance. The total circuit resistance falls, so $I_1$ and the potential difference across the upper resistor increase. The potential difference across the thermistor and its parallel resistor therefore decreases, so $I_2$ falls.",
+      "perOption": {
+        "A": "Correct. The total current rises and the parallel resistor current falls.",
+        "B": "The voltage across the lower resistor falls, so its current decreases.",
+        "C": "The total resistance falls, so the total current increases.",
+        "D": "The changes are reversed because the total resistance and the voltage across the parallel pair both fall."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must track both total resistance and the voltage across the parallel branches.",
+    "misconception": "Assuming total and branch currents change in the same direction",
+    "transcription": "At room temperature, the resistance of a thermistor is $R$. It is connected to a circuit with two resistors, each of resistance $R$. The currents in the two resistors are $I_1$ and $I_2$ as shown.\n\n[A cell supplies a series resistor $R$ carrying $I_1$, followed by a parallel combination of a second resistor $R$ carrying $I_2$ and the thermistor. $I_1$ is shown pointing right on the top wire and $I_2$ points downward through the lower resistor.]\n\nHow do the currents change when the temperature of the thermistor increases?\n\nOption | $I_1$ | $I_2$\nA | increases | decreases\nB | increases | increases\nC | decreases | decreases\nD | decreases | increases"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q23",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Positive carriers move with the current and negative carriers move against it. Fleming’s left-hand rule gives a downward magnetic force in both cases, so the carriers accumulate at PQ. Positive carriers make PQ higher in potential, while negative carriers make PQ lower, leaving MN higher.",
+      "perOption": {
+        "A": "Positive carriers accumulate at PQ and make it higher in potential.",
+        "B": "Both carrier types deflect towards PQ, where positive carriers raise the potential and negative carriers lower it.",
+        "C": "Correct. The sign of the charge accumulating at PQ determines which side is higher.",
+        "D": "Negative carriers accumulating at PQ make MN the higher-potential side."
+      }
+    },
+    "issues": "The worked solution begins on p. 3 and continues on p. 4.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.j"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must combine carrier drift direction, magnetic deflection and the sign of the accumulated charge.",
+    "misconception": "Taking electron drift to be in the direction of conventional current",
+    "transcription": "MN and PQ are the upper and the lower sides of a rectangular conductor, respectively. An electric current is passed through the conductor, which is fixed in position, and placed in a uniform magnetic field pointing out of the plane of the paper as shown. This results in a potential difference between MN and PQ.\n\n[A horizontal rectangular conductor carries current to the right. A shaded central region shows a uniform magnetic field out of the plane. M and N mark the upper edge of the conductor at the left and right of the field region, and P and Q mark the lower edge.]\n\nThe current may be due to the flow of either positive or negative charge carriers.\n\nWhich side, MN or PQ, in each case, is at a higher potential?\n\nOption | Positive charge carriers | Negative charge carriers\nA | MN | MN\nB | MN | PQ\nC | PQ | MN\nD | PQ | PQ"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q24",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Rotation about the $y$-axis keeps the wire perpendicular to the magnetic field. Rotation about the $x$-axis changes the perpendicular component of the wire’s length during the rotation, changing the force magnitude.",
+      "perOption": {
+        "A": "A larger current increases the force magnitude.",
+        "B": "A larger magnetic flux density increases the force magnitude.",
+        "C": "This rotation tilts the wire towards the field and generally reduces the perpendicular length.",
+        "D": "Correct. The wire stays perpendicular to the field."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify which rotation preserves the angle between the wire and the field.",
+    "misconception": "Confusing the field axis with an axis perpendicular to it",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q25",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The flux linkage has zero rate of change at the starting position, so the induced emf and current are initially zero. The current then varies sinusoidally. With the field covering half the coil, the induced emf and current have half the amplitude of the full-field case and retain the same waveform.",
+      "perOption": {
+        "A": "Correct. The sinusoidal current starts at zero.",
+        "B": "Shows a rectified current, although the induced current reverses direction.",
+        "C": "Starts at peak current even though the initial flux derivative is zero.",
+        "D": "Starts at peak current and incorrectly keeps the current in one direction."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.a",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must infer the starting current from the flux derivative and track the sign as the coil turns.",
+    "misconception": "Taking the current to be greatest at maximum flux",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q26",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Over one period, the current takes the values $4$, $8$, $-5$ and $0\\ \\mathrm A$ for equal intervals. The root-mean-square current is $I_{\\mathrm{rms}}=\\sqrt{(4^2+8^2+5^2+0^2)/4}=5.12\\ \\mathrm A$.",
+      "perOption": {
+        "A": "Averages the current magnitudes without squaring them before taking the square root.",
+        "B": "Correct. All four intervals count toward the mean.",
+        "C": "Omits the zero-current interval from the averaging time.",
+        "D": "Gives the mean square and omits the square root."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.f"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The graph gives four equally long intervals, so the student only needs the RMS procedure over one period.",
+    "misconception": "Leaving out the zero-current interval",
+    "transcription": null
+  },
+  {
+    "id": "ri-2019-prelim-p1-q27",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "If $N$ photons are emitted in time $t$, the power is $P=N(hf)/t$. Thus $N/t=P/(hf)=(1.00\\times10^3)/[(6.63\\times10^{-34})(880\\times10^3)]=1.71\\times10^{30}\\ \\mathrm{s^{-1}}$.",
+      "perOption": {
+        "A": "Combines power and frequency without using the energy per photon.",
+        "B": "Correct. Dividing power by photon energy gives the emission rate.",
+        "C": "Overestimates the rate by assigning too little energy to each photon.",
+        "D": "Gives a rate incompatible with the transmitter power and the photon energy at 880 kHz."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student converts the prefixes and divides the radiated power by the energy of one photon.",
+    "misconception": "Treating the wave frequency as the photon emission rate",
+    "transcription": "A $1.00\\ \\mathrm{kW}$ radio transmitter operates at a frequency of $880\\ \\mathrm{kHz}$.\n\nHow many photons per second does it emit?\n\nA $8.80\\times10^8$\nB $1.71\\times10^{30}$\nC $4.24\\times10^{33}$\nD $1.33\\times10^{42}$"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q29",
+    "keyPage": 4,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy released is the total binding energy of the products minus that of the reactants. Multiplying each binding energy per nucleon by its nuclide’s nucleon number gives $(8.32\\times136)+(8.58\\times98)-(7.60\\times235)=186\\ \\mathrm{MeV}$.",
+      "perOption": {
+        "A": "Correct. The products gain about 186 MeV in total binding energy.",
+        "B": "Overestimates the difference obtained from the three given binding energies per nucleon.",
+        "C": "Counts only the products’ total binding energy.",
+        "D": "Adds the totals on both sides of the equation."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.r",
+      "nuclear-physics.t"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must convert the three per-nucleon values to total binding energies and take the difference.",
+    "misconception": "Adding reactant and product binding energies",
+    "transcription": "An induced nuclear fission reaction may be represented by the equation\n\n$^{235}_{92}\\mathrm U + {}^{1}_{0}\\mathrm n \\rightarrow {}^{98}_{40}\\mathrm{Zr} + {}^{136}_{52}\\mathrm{Te} + 2{}^{1}_{0}\\mathrm n$\n\nThe binding energy per nucleon $E$ for the nuclides involved in the reaction are as shown:\n\nNuclide | $E/\\mathrm{MeV}$\n$^{235}_{92}\\mathrm U$ | 7.60\n$^{98}_{40}\\mathrm{Zr}$ | 8.58\n$^{136}_{52}\\mathrm{Te}$ | 8.32\n\nWhat is the energy released in the reaction?\n\nA 186 MeV\nB 196 MeV\nC 1970 MeV\nD 3760 MeV"
+  },
+  {
+    "id": "ri-2019-prelim-p1-q30",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $m$ be the number of alpha decays and $n$ the number of beta-minus decays. Balancing nucleon numbers gives $4m+0=238-206$, so $m=8$. Balancing proton numbers gives $2m-n=92-82$, so $2(8)-n=10$ and $n=6$.",
+      "perOption": {
+        "A": "Five alpha decays remove only 20 nucleons.",
+        "B": "Six alpha decays remove only 24 nucleons.",
+        "C": "Seven alpha decays remove only 28 nucleons.",
+        "D": "Correct. Eight alpha and six beta-minus decays balance both numbers."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.g",
+      "nuclear-physics.n"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student first balances nucleon number and then uses the alpha count to balance proton number.",
+    "misconception": "Assuming beta decay changes nucleon number",
+    "transcription": "The uranium nuclide $^{238}_{92}\\mathrm U$ undergoes a series of $\\alpha$ and $\\beta$ decays to the stable lead nuclide $^{206}_{82}\\mathrm{Pb}$.\n\nWhat is the number of $\\alpha$ decays and $\\beta$ decays in the series of decays?\n\nA 5 $\\alpha$ decays and 12 $\\beta$ decays\nB 6 $\\alpha$ decays and 8 $\\beta$ decays\nC 7 $\\alpha$ decays and 4 $\\beta$ decays\nD 8 $\\alpha$ decays and 6 $\\beta$ decays"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The units of $(\\hbar G/c^3)^{1/2}$ are $\\left[(\\mathrm{J\\,s})(\\mathrm{N\\,m^2\\,kg^{-2}})/(\\mathrm{m\\,s^{-1}})^3\\right]^{1/2}$. In base units this is $\\left[(\\mathrm{kg\\,m^2\\,s^{-1}})(\\mathrm{m^3\\,kg^{-1}\\,s^{-2}})/(\\mathrm{m^3\\,s^{-3}})\\right]^{1/2}=(\\mathrm{m^2})^{1/2}=\\mathrm m$.",
+      "perOption": {
+        "A": "Without the square root, the units are $\\mathrm{m^2}$.",
+        "B": "Correct. The square root gives metres.",
+        "C": "The cube root gives units of $\\mathrm{m^{2/3}}$.",
+        "D": "Using only the square of the speed of light in the denominator leaves a time dimension."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.c",
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must reduce three derived units to base units and apply the expression’s outer power.",
+    "misconception": "Ignoring the dimensions before taking the root",
+    "transcription": "The Planck length is hypothesised to be the smallest possible length at which current physical laws still apply.\n\nIt is related to the following fundamental constants: reduced Planck constant $\\hbar=h/2\\pi$, the gravitational constant $G$ and the speed of light $c$.\n\nWhich expression could be correct for the Planck length?\n\nA $\\frac{\\hbar G}{c^3}$\nB $\\left(\\frac{\\hbar G}{c^3}\\right)^{1/2}$\nC $\\left(\\frac{\\hbar G}{c^3}\\right)^{1/3}$\nD $\\left(\\frac{\\hbar G}{c^2}\\right)^{1/3}$"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Taking the square root gives $P=(a^{1/2}b^2c^{-3}d^4)^{1/2}=a^{1/4}bc^{-3/2}d^2$. Add the fractional uncertainties weighted by the magnitudes of the powers: $\\Delta P/P=\\Delta a/(4a)+\\Delta b/b+3\\Delta c/(2c)+2\\Delta d/d$. The percentage error is $\\tfrac14(4\\%)+2\\%+\\tfrac32(6\\%)+2(5\\%)=1\\%+2\\%+9\\%+10\\%=22\\%$.",
+      "perOption": {
+        "A": "Subtracts the contribution from $c$ because its exponent is negative.",
+        "B": "Subtracts the contribution from $c$ and uses the powers for $P^2$.",
+        "C": "Correct. The four weighted percentage errors add to 22%.",
+        "D": "Uses the percentage error in $P^2$ as the percentage error in $P$."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.g"
+    ],
+    "primaryType": "practical",
+    "types": [
+      "practical",
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must take the square root before adding percentage uncertainties weighted by the resulting exponents.",
+    "misconception": "Subtracting the uncertainty of a factor with a negative exponent",
+    "transcription": "A physical quantity $P$ is described by the relation $P^2=a^{1/2}b^2c^{-3}d^4$.\n\nIf the percentage errors in the measurements of $a$, $b$, $c$ and $d$ are 4%, 2%, 6% and 5% respectively, what is the percentage error in $P$?\n\nA 4%\nB 8%\nC 22%\nD 44%"
+  },
+  {
+    "id": "ri-2020-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gradient of a displacement–time graph gives velocity. Car M accelerates because its gradient increases. Car N has a constant gradient and therefore constant velocity, so the claim that both cars accelerate is incorrect.",
+      "perOption": {
+        "A": "This statement is true because M passes N as the curves cross at time $t$.",
+        "B": "Correct. Car N has constant velocity.",
+        "C": "This statement is true because both cars have the same displacement over the same interval from $0$ to $t$.",
+        "D": "This statement is true because N’s graph is less steep than M’s at time $t$."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The decisive feature is that a straight displacement–time line has constant gradient.",
+    "misconception": "Reading positive slope as positive acceleration",
+    "transcription": null
+  }
+]

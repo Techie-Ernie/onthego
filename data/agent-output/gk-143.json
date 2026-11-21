@@ -1,0 +1,500 @@
+[
+  {
+    "id": "vjc-2025-prelim-p1-q26",
+    "keyPage": 20,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean rate of heat production is $P=V_{\\mathrm{rms}}^2/R$. Both $V_{\\mathrm{rms}}$ and $R$ are fixed, so $P$ is independent of $f$.",
+      "perOption": {
+        "A": "Assumes each cycle releases a fixed amount of heat as the number of cycles per second increases.",
+        "B": "Introduces a square-root frequency dependence even though both quantities in the power formula are fixed.",
+        "C": "Confuses the energy dissipated per cycle, which decreases as the period shortens, with the mean power.",
+        "D": "Correct. The fixed r.m.s. voltage and resistance fix the mean power."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "proportionality"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The mean-power formula gives the frequency dependence directly.",
+    "misconception": "Treating the energy dissipated per cycle as fixed",
+    "transcription": null
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q27",
+    "keyPage": 20,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the step-up transformer, $V_p/V_s=N_p/N_s$, so $600/V_s=1/200$ and $V_s=1.2\\times10^5\\,\\mathrm{V}$. The ideal transformer has equal input and output powers, so $10\\times10^6=I_s(1.2\\times10^5)$ and $I_s=83.3\\,\\mathrm{A}$. The cables lose $I_s^2R=(83.3)^2(15)=1.0\\times10^5\\,\\mathrm{W}=100\\,\\mathrm{kW}$.",
+      "perOption": {
+        "A": "Halves the loss even though the stated resistance already covers both cables.",
+        "B": "Correct. The transmission current gives a heat loss of about $100\\,\\mathrm{kW}$.",
+        "C": "Overestimates the loss by a factor of ten when evaluating the squared current times the total resistance.",
+        "D": "Treats the full transmission voltage as the drop across the cables in $P=V^2/R$."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the secondary voltage and cable current before calculating the heat loss.",
+    "misconception": "Using the transmission voltage as the voltage drop across the cables",
+    "transcription": "A $10\\,\\mathrm{MW}$ nuclear power station produces electrical power at $600\\,\\mathrm{V}$. It uses an ideal step-up transformer with a turns ratio of $1:200$ to increase the voltage before transmitting it over long-distance cables of total resistance $15\\,\\Omega$. At the consumer load, a second ideal transformer steps down the voltage.\n\n[The power station AC source is labelled $V=600\\,\\mathrm{V}$ and $P=10\\,\\mathrm{MW}$. It feeds the $1:200$ step-up transformer. Two cables of total resistance $15\\,\\Omega$ connect this transformer to a step-down transformer whose secondary feeds the consumer load.]\n\nWhat is the power lost as heat in the cables?\nA $50\\,\\mathrm{kW}$\nB $100\\,\\mathrm{kW}$\nC $1.0\\,\\mathrm{MW}$\nD $960\\,\\mathrm{MW}$"
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q28",
+    "keyPage": 21,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The de Broglie wavelength is $\\lambda=h/p=h/(mv)$. Substituting gives $\\lambda=\\frac{6.63\\times10^{-34}}{(1.88\\times10^{-28})(0.10)(3.0\\times10^8)}=1.2\\times10^{-13}\\,\\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses a momentum far too small for a particle moving at $3.0\\times10^7\\,\\mathrm{m\\,s^{-1}}$.",
+        "B": "Gives a wavelength thousands of times too large because the denominator must be the particle momentum $mv$.",
+        "C": "Gives roughly ten times the wavelength, as would using a speed near $0.01c$ instead of $0.10c$.",
+        "D": "Correct. The de Broglie relation gives the stated wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The calculation requires one substitution after converting the stated speed to metres per second.",
+    "misconception": "Confusing photon and matter-wave wavelength",
+    "transcription": "What is the wavelength of a particle of mass $1.88\\times10^{-28}\\,\\mathrm{kg}$ when traveling with a speed equal to 10% of the speed of light?\nA $7.1\\times10^{-9}\\,\\mathrm{m}$\nB $4.4\\times10^{-10}\\,\\mathrm{m}$\nC $1.3\\times10^{-12}\\,\\mathrm{m}$\nD $1.2\\times10^{-13}\\,\\mathrm{m}$"
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q29",
+    "keyPage": 21,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Most alpha particles pass through the foil undeflected. Diagram A shows the majority continuing straight through.",
+      "perOption": {
+        "A": "Correct. Most alpha particles travel straight through the foil.",
+        "B": "Shows all four particles deflecting even though most pass through undeflected.",
+        "C": "Shows all four particles scattering backwards even though backscattering is rare.",
+        "D": "Shows all four particles stopping at the foil even though most pass through it."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.a"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "diagram"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Recognising the dominant outcome of the gold-foil experiment resolves the diagrams.",
+    "misconception": "Treating rare scattering events as typical",
+    "transcription": "In the Rutherford alpha particle scattering experiment, alpha particles were directed at a thin gold foil. Which of the following shows how the majority of the alpha particles behave after reaching the foil?\n\n[Each option shows four alpha particles approaching a vertical foil from the left.]\nA [Three paths continue straight through and the second from the top deflects slightly upwards.]\nB [All four paths pass through and deflect, two upwards and two downwards.]\nC [All four paths scatter back to the left.]\nD [All four paths end at the foil.]"
+  },
+  {
+    "id": "vjc-2025-prelim-p1-q30",
+    "keyPage": 22,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Fleming’s left-hand rule, the positively charged alpha particle bends downwards and the negatively charged beta particle bends upwards. Balancing magnetic and centripetal forces gives $B|q|v=mv^2/r$. For comparable speeds, the alpha particle’s smaller charge-to-mass ratio gives it a larger radius, so it takes path S and the beta particle takes P. The uncharged gamma ray is undeflected and takes path R.",
+      "perOption": {
+        "A": "Reverses the directions of magnetic deflection for both charged particles.",
+        "B": "Correct. Alpha, beta and gamma follow S, P and R respectively.",
+        "C": "Assigns the undeflected path to charged beta radiation and a curved path to neutral gamma radiation.",
+        "D": "Bends the negatively charged beta particle downwards and assigns a curved path to the uncharged gamma ray."
+      }
+    },
+    "issues": "The key compares radii using charge-to-mass ratios alone. The radius also depends on speed, which the question does not specify. B is still uniquely selected by the directions of deflection.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "nuclear-physics.g",
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must identify three paths using charge sign, magnetic curvature and the absence of deflection.",
+    "misconception": "Reversing the magnetic force on a negative charge",
+    "transcription": "A source undergoing alpha, beta and gamma decay is placed in an evacuated chamber with magnetic field directed out of the page. Which of the following represents the paths of the radiation particles emitted?\n\n[A radioactive source on the left emits to the right into an evacuated chamber. A circled dot marks the $B$ field out of the page. Path P curves sharply upwards, Q curves gently upwards, R continues straight, S curves gently downwards and T curves sharply downwards.]\n\nOptions ($\\alpha$-particle, $\\beta$-particle, $\\gamma$-ray)\nA Q, T, R\nB S, P, R\nC T, R, S\nD S, T, Q"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q1",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "A microsecond is $10^{-6}\\,\\mathrm{s}$, so $2000\\,\\mu\\mathrm{s}=2.0\\times10^{-3}\\,\\mathrm{s}$. One millisecond is $10^{-3}\\,\\mathrm{s}$, giving $2\\,\\mathrm{ms}$.",
+      "perOption": {
+        "A": "Divides the number by 1000 while keeping the same unit.",
+        "B": "Correct. There are 1000 microseconds in a millisecond.",
+        "C": "Uses the pico prefix, which represents a smaller unit than the microsecond.",
+        "D": "Changes the prefix to milli without adjusting the numerical value."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key. The parser placeholder is A; the derived answer is B.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.b"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Only a one-step conversion between SI prefixes is required.",
+    "misconception": "Confusing micro and milli",
+    "transcription": "What is equivalent to 2000 microseconds?\nA $2\\,\\mu\\mathrm{s}$\nB $2\\,\\mathrm{ms}$\nC $2\\,\\mathrm{ps}$\nD $2000\\,\\mathrm{ms}$"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q2",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "In $DE/v$, the ratio $D/v$ has units $\\mathrm{m}/(\\mathrm{m\\,s^{-1}})=\\mathrm{s}$. Multiplying by the energy $E$ gives $\\mathrm{J\\,s}$, the units of $h$.",
+      "perOption": {
+        "A": "Correct. The expression has units of energy multiplied by time.",
+        "B": "Dividing velocity by distance gives $\\mathrm{s^{-1}}$.",
+        "C": "Taking the reciprocal of density gives $\\mathrm{m^3\\,kg^{-1}}$, with $4\\pi$ dimensionless.",
+        "D": "Multiplying force by radius squared and dividing by mass gives $\\mathrm{m^3\\,s^{-2}}$."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.d"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must identify time in a quotient and check dimensional consistency.",
+    "misconception": "Checking equation symbols without checking units",
+    "transcription": "The Planck constant $h$ has SI units $\\mathrm{J\\,s}$.\n\nWhich equation could be used to calculate the Planck constant?\nA $h=\\frac{DE}{v}$ where $D$ is distance, $E$ is energy and $v$ is velocity\nB $h=\\frac{v}{D}$ where $v$ is velocity and $D$ is distance\nC $h=\\frac{1}{4\\pi\\rho}$ where $\\rho$ is density\nD $h=\\frac{Fr^2}{m}$ where $F$ is force, $r$ is radius and $m$ is mass"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q3",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The mean speeds in the two intervals are $9.0/3=3.0\\,\\mathrm{m\\,s^{-1}}$ and $12.0/3=4.0\\,\\mathrm{m\\,s^{-1}}$. With uniform acceleration these are the instantaneous speeds at the interval midpoints, which are $3.0\\,\\mathrm{s}$ apart. Hence $a=(4.0-3.0)/3.0=0.33\\,\\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct. The midpoint speeds increase by $1.0\\,\\mathrm{m\\,s^{-1}}$ in $3.0\\,\\mathrm{s}$.",
+        "B": "Doubles the acceleration by using half the time between the interval midpoints.",
+        "C": "Overestimates the rate of change of speed given the measured increase of only $1.0\\,\\mathrm{m\\,s^{-1}}$ per interval.",
+        "D": "Treats the widening gaps as a much larger speed increase than the measured $1.0\\,\\mathrm{m\\,s^{-1}}$ per interval."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.a",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect interval-average speeds to midpoint speeds before calculating acceleration.",
+    "misconception": "Treating an interval displacement as a change in speed",
+    "transcription": "A car moves to the right with uniform acceleration along a straight road. Oil leaks from the car at the rate of one drop every three seconds. The diagram shows the distances between three successive oil drops on the road.\n\n[Three dots are shown from left to right. The first gap is $9.0\\,\\mathrm{m}$ and the second gap is $12.0\\,\\mathrm{m}$.]\n\nWhat is the acceleration of the car?\nA $0.33\\,\\mathrm{m\\,s^{-2}}$\nB $0.66\\,\\mathrm{m\\,s^{-2}}$\nC $1.2\\,\\mathrm{m\\,s^{-2}}$\nD $2.0\\,\\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q4",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "At the highest point the ball is momentarily at rest, so the descent obeys $12.7=\\tfrac12(9.81)t^2$. The descent takes $t=1.61\\,\\mathrm{s}$. Since the ball starts and lands at ground level with negligible air resistance, the ascent takes the same time and the total is $3.22\\,\\mathrm{s}$.",
+      "perOption": {
+        "A": "Counts the time for just one leg of the flight.",
+        "B": "Correct. The two equal legs take $3.22\\,\\mathrm{s}$ in total.",
+        "C": "Overestimates the time per leg, which is fixed by falling from rest through $12.7\\,\\mathrm{m}$.",
+        "D": "Overestimates the flight time by treating $12.7\\,\\mathrm{m}$ as too large a one-way displacement for the stated $g$."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key. The parser placeholder is A; the derived answer is B.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student needs to calculate one leg of the motion and use the symmetry of the flight.",
+    "misconception": "Reporting the time for one leg of the flight",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q5",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The push on the box and the reaction on the person act on different bodies. The box stays at rest because static friction from the floor balances the person’s push on the box. A gives the incorrect explanation.",
+      "perOption": {
+        "A": "Correct. The reaction on the person cannot balance the push acting on the box.",
+        "B": "This correctly pairs the hammer’s force on the nail with the nail’s equal and opposite force on the hammer.",
+        "C": "This correctly excludes the two forces on the book from being a third-law pair because they act on the same body.",
+        "D": "This correctly pairs Earth’s gravitational force on you with your gravitational force on Earth."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.h",
+      "forces-and-moments.b"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish a third-law pair from balancing forces acting on one object.",
+    "misconception": "Cancelling third-law forces on a single body",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q6",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The water carries horizontal momentum away at a rate $\\dot m v=(20/60)(5.0)=1.67\\,\\mathrm{kg\\,m\\,s^{-2}}$. The backward reaction on the hose has the same magnitude, so the person needs a forward force of $1.7\\,\\mathrm{N}$.",
+      "perOption": {
+        "A": "Correct. The backward thrust is about $1.7\\,\\mathrm{N}$.",
+        "B": "Divides 20 by 5, whereas the force is the mass flow per second multiplied by the exit speed.",
+        "C": "Multiplies by the mass flow per minute without converting it to a flow per second.",
+        "D": "Multiplies the per-minute flow by 60 to convert it to per-second flow, reversing the conversion."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.g",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation combines a mass-flow conversion with the momentum carried away each second.",
+    "misconception": "Using a mass flow per minute as a mass flow per second",
+    "transcription": "Water is pumped through a hose at a rate of $20\\,\\mathrm{kg}$ per minute. It emerges from the hose horizontally with a speed of $5.0\\,\\mathrm{m\\,s^{-1}}$.\n\nWhat is the force that a person, who is holding the hose, require to prevent it from moving backwards?\nA $1.7\\,\\mathrm{N}$\nB $4.0\\,\\mathrm{N}$\nC $100\\,\\mathrm{N}$\nD $6000\\,\\mathrm{N}$"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q7",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Both horizontal components point right, giving $F_x=15.0\\cos20.0^\\circ+6.00\\sin40.0^\\circ=18.0\\,\\mathrm{N}$. The vertical components oppose, giving $F_y=15.0\\sin20.0^\\circ-6.00\\cos40.0^\\circ=0.534\\,\\mathrm{N}$ upwards.",
+      "perOption": {
+        "A": "Incorrectly subtracts the horizontal contributions, both of which point right.",
+        "B": "Treats the horizontal contributions as opposing and misses the near cancellation of the vertical contributions.",
+        "C": "Correct. The rightward components add and the vertical components partly cancel.",
+        "D": "Misses the near cancellation of the opposing vertical contributions."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key. The parser placeholder is A; the derived answer is C. The printed $9.73\\,\\mathrm{N}$ and $10.2\\,\\mathrm{N}$ distractor values are not obtained by simply reversing component signs with the stated angles.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The angles are measured from different axes, and the component signs must be tracked separately.",
+    "misconception": "Adding magnitudes of components that point in opposite directions",
+    "transcription": "Two cables are attached to a bracket and exert forces as shown.\n\n[The bracket is on the left. From its attachment point, the $15.0\\,\\mathrm{N}$ force points up and right, $20.0^\\circ$ above the horizontal. The $6.00\\,\\mathrm{N}$ force points down and right, $40.0^\\circ$ from the downward vertical.]\n\nWhat are the magnitudes of the horizontal and vertical components of the resultant of the two forces?\n\nOptions (horizontal component / N, vertical component / N)\nA 9.73, 0.534\nB 9.73, 10.2\nC 18.0, 0.534\nD 18.0, 10.2"
+  },
+  {
+    "id": "yijc-2022-promo-p1-q8",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The submarine moves downwards at constant velocity, so the resultant force is zero. Drag and upthrust both point upwards, so the downward weight equals their sum and exceeds the upthrust alone.",
+      "perOption": {
+        "A": "If weight were smaller than drag alone, there would be a net upward force.",
+        "B": "Ignores the upward contribution of upthrust to the force balance.",
+        "C": "If weight were smaller than upthrust alone, there would be a net upward force.",
+        "D": "Correct. The weight balances both the upthrust and the drag."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key. The parser placeholder is A; the derived answer is D.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.h",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must infer the direction of drag and apply the zero-resultant condition.",
+    "misconception": "Ignoring upthrust in the force balance",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q9",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The resultant force must be zero for equilibrium. In D, the two downward diagonals can be followed head to tail and together give a downward vector that the upward arrow cancels. Placing all three vectors head to tail therefore closes the triangle.",
+      "perOption": {
+        "A": "Mistakes a triangular outline for a closed vector sum even though both diagonals point right.",
+        "B": "Leaves a net downward component because both the vertical and diagonal arrows point downwards.",
+        "C": "Leaves a net downward component because all three arrows have downward components.",
+        "D": "Correct. The three arrows can form a closed head-to-tail triangle."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key. The parser placeholder is A; the derived answer is D. The question PNG cuts off parts of options C and D. The complete diagrams are visible on page 5 of the supplied question paper.",
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i",
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track arrow directions when translating the vectors into a force triangle.",
+    "misconception": "Judging a vector triangle by its outline alone",
+    "transcription": null
+  },
+  {
+    "id": "yijc-2022-promo-p1-q10",
+    "keyPage": null,
+    "keyLetter": null,
+    "explanationSource": "generated",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The vertical rise is $1000\\sin30^\\circ=500\\,\\mathrm{m}$. The weight acts downwards, so its work is $W=-(12000)(500)=-6.0\\times10^6\\,\\mathrm{J}=-6.0\\,\\mathrm{MJ}$.",
+      "perOption": {
+        "A": "Correct. The weight does negative work over the vertical rise.",
+        "B": "Uses the full distance along the slope as the vertical displacement.",
+        "C": "Uses the correct vertical rise but misses the negative sign from the downward weight.",
+        "D": "Uses the slope length as the vertical rise and gives the work the wrong sign."
+      }
+    },
+    "issues": "The supplied YIJC file contains the question paper only, with no answer key.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the vertical displacement and determine the sign of gravitational work.",
+    "misconception": "Using the slope length as the vertical rise",
+    "transcription": "A car engine exerts an average force of $5000\\,\\mathrm{N}$ in moving the car $1.0\\,\\mathrm{km}$ up a slope inclined at an angle of $30^\\circ$ to the horizontal. The weight of the car is $12000\\,\\mathrm{N}$.\n\n[A car is shown on a slope rising to the right at $30^\\circ$ to the horizontal. The distance of $1.0\\,\\mathrm{km}$ is marked along the slope.]\n\nWhat is the work done by the weight of the car?\nA $-6.0\\,\\mathrm{MJ}$\nB $-12\\,\\mathrm{MJ}$\nC $6.0\\,\\mathrm{MJ}$\nD $12\\,\\mathrm{MJ}$"
+  }
+]

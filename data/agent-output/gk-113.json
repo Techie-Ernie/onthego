@@ -1,0 +1,498 @@
+[
+  {
+    "id": "rvhs-2022-other-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "When the coil is horizontal as shown, its sides cut the magnetic field lines at the greatest rate. The induced e.m.f. therefore has its maximum magnitude.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "The output reverses at a zero crossing, when the plane of the coil is perpendicular to the field.",
+        "C": "The rate of flux cutting varies as the coil turns.",
+        "D": "Zero flux linkage here coincides with the greatest rate of change of flux linkage."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must relate the coil’s orientation to the rate of flux cutting.",
+    "misconception": "Confusing flux with rate of change of flux",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q25",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Faraday’s law gives $|\\mathcal E|=A|\\Delta B|/\\Delta t=5.00\\pi(8.0\\times10^{-2})^2/(10.0\\times10^{-3})\\approx10.1\\ \\mathrm V$. Dividing the unrounded e.m.f. by $4.00\\ \\Omega$ gives $2.51\\ \\mathrm A$.\n\nBy Lenz’s law, the induced field points into the page to oppose the decrease in inward flux. The right-hand grip rule gives a clockwise current.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "An anticlockwise current would produce a field out of the page.",
+        "C": "The value 10.1 is the e.m.f. in volts, which must be divided by the resistance.",
+        "D": "This uses the e.m.f. as the current and gives a field out of the page."
+      }
+    },
+    "issues": "The key prints $B\\Delta A/\\Delta t$, but its substitution uses the fixed area times the change in flux density. The rewrite uses $A|\\Delta B|/\\Delta t$ and retains precision until the current is found.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.c",
+      "electromagnetic-induction.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must calculate the e.m.f. and current and apply Lenz’s law to find the direction.",
+    "misconception": "Using induced e.m.f. as current",
+    "transcription": "A circular coil of diameter $16.0\\ \\mathrm{cm}$ and resistance $4.00\\ \\Omega$ is placed in a uniform magnetic field of flux density $5.00\\ \\mathrm{T}$ directed perpendicularly into the coil.\n\n[The diagram shows a circular coil with a horizontal diameter marked $16.0\\ \\mathrm{cm}$ in a uniform magnetic field directed into the page.]\n\nIf the magnetic flux density is reduced to zero at a constant rate over $10.0\\ \\mathrm{ms}$, what can be deduced about the current flowing in the coil during this change?\n\nMagnitude of current / A | direction\nA 2.51 | clockwise\nB 2.51 | anticlockwise\nC 10.1 | clockwise\nD 10.1 | anticlockwise"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The turns ratio gives a secondary voltage of $120(10/500)=2.4\\ \\mathrm V$. The secondary current is $2.4/15=0.16\\ \\mathrm A$. In an ideal transformer the input and output powers are equal, so $120I_\\mathrm p=2.4(0.16)$ and $I_\\mathrm p=0.0032\\ \\mathrm A$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "This is the secondary current.",
+        "C": "This uses the numerical value of the secondary voltage as a current.",
+        "D": "This applies the primary voltage directly to the secondary resistor."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must link the turns ratio, Ohm’s law and conservation of power.",
+    "misconception": "Confusing secondary current with primary current",
+    "transcription": "A transformer has 500 primary turns and 10 secondary turns. A resistor of $15\\ \\Omega$ is connected in the secondary coil.\n\nIf the root-mean-square voltage across the primary coil is $120\\ \\mathrm V$, what is the root-mean-square current in the primary coil?\n\nA $0.0032\\ \\mathrm A$\nB $0.16\\ \\mathrm A$\nC $2.4\\ \\mathrm A$\nD $8.0\\ \\mathrm A$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Diffraction is a wave phenomenon. The fact that electrons produce a diffraction pattern demonstrates their wave nature.",
+      "perOption": {
+        "A": "The photoelectric effect demonstrates the particle nature of light.",
+        "B": "X-ray diffraction demonstrates the wave nature of X-rays.",
+        "C": "Correct.",
+        "D": "Deflection in these fields follows from the electron’s charge and also occurs for classical charged particles."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.d"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "The student only needs to recognise diffraction as evidence of wave behaviour.",
+    "misconception": "Confusing evidence about light with evidence about electrons",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2022-other-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The electron and proton have the same charge magnitude, so each gains kinetic energy $E=eV$. Since $E=p^2/(2m)$, the de Broglie wavelength is $\\lambda=h/p=h/\\sqrt{2mE}$. Thus $\\lambda_\\mathrm p/\\lambda_\\mathrm e=\\sqrt{m_\\mathrm e/m_\\mathrm p}=\\sqrt{(9.11\\times10^{-31})/(1.67\\times10^{-27})}=0.0234$.",
+      "perOption": {
+        "A": "This uses the electron-to-proton mass ratio without taking its square root.",
+        "B": "Correct.",
+        "C": "This takes the reciprocal of the requested wavelength ratio.",
+        "D": "This uses the proton-to-electron mass ratio directly."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.e"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect equal kinetic energies to the inverse square-root dependence on mass.",
+    "misconception": "Assuming equal kinetic energies imply equal speeds",
+    "transcription": "An electron and a proton are accelerated across a potential difference of $15.0\\ \\mathrm{kV}$.\n\nWhat is the ratio $\\frac{\\text{de Broglie wavelength of the proton}}{\\text{de Broglie wavelength of the electron}}$?\n\nA $5.45\\times10^{-4}$\nB $2.34\\times10^{-2}$\nC $42.8$\nD $1.83\\times10^3$"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The initial count rate from the source alone is $532-24=508$ per minute. After two half-lives it is $508(0.5)^2=127$ per minute. Adding the background gives a detector reading of $127+24=151$ counts per minute.",
+      "perOption": {
+        "A": "This gives the remaining source count rate and omits the background.",
+        "B": "This quarters the original detector reading, including the background.",
+        "C": "Correct.",
+        "D": "This quarters the original reading before adding the background again."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.f",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The arithmetic is simple once the student separates source counts from background counts.",
+    "misconception": "Applying radioactive decay to the background count",
+    "transcription": "A detector of ionising radiation gives a background count rate of 24 per minute.\n\nA radioactive source is placed near the detector and the reading is 532 counts per minute.\n\nWhat will the reading be after two half-lives of the source?\n\nA 127\nB 133\nC 151\nD 157"
+  },
+  {
+    "id": "rvhs-2022-other-p1-q30",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The radiation passes through $1\\ \\mathrm{mm}$ of aluminium, which would stop alpha particles, so the curved track is due to beta radiation. The radius $r=mv/(|q|B)$ is proportional to speed for a given particle in the field. The smaller radius on the left shows that the particle slowed down crossing the sheet from Y to X.",
+      "perOption": {
+        "A": "Alpha particles would be stopped by the aluminium, and entry at X would require the particle to speed up in the sheet.",
+        "B": "Alpha particles would be stopped by the aluminium.",
+        "C": "Entry at X would imply that the particle gained speed in the aluminium.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [
+      "electromagnetic-forces"
+    ],
+    "outcomes": [
+      "nuclear-physics.g",
+      "electromagnetic-forces.l"
+    ],
+    "primaryType": "application",
+    "types": [
+      "application",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must use penetration to identify the radiation and curvature to infer its direction of travel.",
+    "misconception": "Interpreting tighter curvature as higher speed",
+    "transcription": "Radiation from a radioactive source enters an evacuated region in which there is a uniform magnetic field perpendicular to the plane of the diagram. This region is divided into two by a sheet of aluminium about $1\\ \\mathrm{mm}$ thick. The curved path followed by the radiation is shown in the figure below.\n\n[A vertical aluminium sheet divides the region. The track between X on the left and Y on the right curves more sharply on the left of the sheet than on the right.]\n\nWhich of the following correctly describes the type of radiation and its point of entry?\n\nType of radiation | point of entry\nA alpha | X\nB alpha | Y\nC beta | X\nD beta | Y"
+  },
+  {
+    "id": "rvhs-2022-prelim-p1-q9",
+    "keyPage": 3,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Compression does work on the air, and the insulation limits heat transfer. The air gains internal energy and becomes hotter.",
+      "perOption": {
+        "A": "The insulation prevents appreciable thermal energy from being supplied to the air.",
+        "B": "Correct.",
+        "C": "The rise in air temperature indicates an increase in internal energy.",
+        "D": "More frequent collisions do not explain the rise in the molecules’ average kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must recognise that compression transfers energy as work even with negligible heat exchange.",
+    "misconception": "Treating a temperature rise as proof of heat input",
+    "transcription": null
+  },
+  {
+    "id": "rvhs-2023-other-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The change in velocity is final minus initial, so $\\Delta\\mathbf v=\\mathbf y-\\mathbf x$. With the tails together, the arrow from the tip of $\\mathbf x$ to the tip of $\\mathbf y$ points down and right.",
+      "perOption": {
+        "A": "This reverses the subtraction by pointing from the final tip towards the initial tip.",
+        "B": "Correct.",
+        "C": "It points upward even though the upward component falls to zero.",
+        "D": "It points left although the rightward velocity component increases."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "quantities-and-measurement.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must subtract the initial velocity vector from the final one using the arrows.",
+    "misconception": "Reversing initial and final vectors",
+    "transcription": "The initial velocity of an object is shown by the vector $x$. The final velocity of the object is shown by the vector $y$.\n\n[Vector $x$ points diagonally up and right. Vector $y$ points horizontally to the right and has a greater rightward component than $x$.]\n\nWhich arrow best shows the change in velocity of the object?\n\n[A points steeply up and left. B points steeply down and right. C points shallowly up and right. D points shallowly down and left.]"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "low",
+    "explanation": {
+      "body": "The key selects D because atmospheric pressure alone is about $100\\ \\mathrm{kPa}$, so the absolute pressure at the pool bottom must be higher. It estimates adult surface area at about $1.9\\ \\mathrm{m^2}$ and the sprinter’s kinetic energy at $\\tfrac12(100)(10)^2=5000\\ \\mathrm J$. The key uses a domestic air-conditioner estimate of $2500\\ \\mathrm W$, which over eight hours corresponds to $20\\ \\mathrm{kWh}$.",
+      "perOption": {
+        "A": "As printed, 20 kW is also an unreasonable estimate because the eight-hour calculation gives energy in kWh.",
+        "B": "The school’s practical estimate of about 1.9 square metres supports this value.",
+        "C": "A 100 kg sprinter at 10 metres per second has this kinetic energy.",
+        "D": "Correct. The key assumes absolute pressure."
+      }
+    },
+    "issues": "The printed key picks D and treats pressure as absolute, but A gives 20 kW, whereas 2.5 kW for eight hours gives 20 kWh. D can be a reasonable gauge pressure at a depth of about 1 m. A is the better single choice if D is read as gauge pressure. The question has no unique answer under the key’s absolute-pressure interpretation.",
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must compare familiar scales and distinguish absolute pressure from gauge pressure.",
+    "misconception": "Confusing power with energy and absolute pressure with gauge pressure",
+    "transcription": "The table below shows the estimates of some physical quantities.\n\nWhich row is not a reasonable estimate?\n\nQuantity | value\nA power consumption of a domestic aircon turned on for 8 hours | $20\\ \\mathrm{kW}$\nB total surface area of an adult human | $2\\ \\mathrm{m^2}$\nC kinetic energy of an Olympic sprint runner | $5000\\ \\mathrm J$\nD pressure at the bottom of a public swimming pool | $10\\ \\mathrm{kPa}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $v^2=u^2+2as$ from $y_\\mathrm A$ to $y_\\mathrm B$, taking upward as positive. Then $(v_\\mathrm A/3)^2=v_\\mathrm A^2+2(-9.81)(0.40)$, which gives $v_\\mathrm A=2.97\\ \\mathrm{m\\,s^{-1}}$, or $3.0\\ \\mathrm{m\\,s^{-1}}$ to two significant figures.",
+      "perOption": {
+        "A": "This speed is too low to allow the ball to rise 0.40 m, even if it stopped at the higher point.",
+        "B": "Adding the squared-speed terms instead of subtracting them gives about 2.7 metres per second.",
+        "C": "Correct.",
+        "D": "This is approximately the value of the squared speed before taking its square root."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "graph"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must substitute the two speeds and the displacement into a constant-acceleration equation.",
+    "misconception": "Treating the speed ratio as a squared-speed ratio",
+    "transcription": "The figure shows the variation of speed $v$ with displacement $y$ of a ball tossed directly upwards. The distance between $y_\\mathrm A$ and $y_\\mathrm B$ is $0.40\\ \\mathrm m$. The speed at height $y_\\mathrm A$ is $v_\\mathrm A$ and the speed at $y_\\mathrm B$ is $\\frac{v_\\mathrm A}{3}$.\n\n[The vertical axis is speed $v$ and the horizontal axis is displacement $y$, with origin marked 0. A decreasing curve passes through $(y_\\mathrm A,v_\\mathrm A)$ and $(y_\\mathrm B,v_\\mathrm A/3)$ and reaches zero just beyond $y_\\mathrm B$. The interval from $y_\\mathrm A$ to $y_\\mathrm B$ is labelled $0.40\\ \\mathrm m$.]\n\nWhat is speed $v_\\mathrm A$?\n\nA $2.6\\ \\mathrm{m\\,s^{-1}}$\nB $2.7\\ \\mathrm{m\\,s^{-1}}$\nC $3.0\\ \\mathrm{m\\,s^{-1}}$\nD $8.9\\ \\mathrm{m\\,s^{-1}}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $v$ be the initial speed of X and $V$ the common speed afterwards. Conservation of momentum gives $mv+0=2mV$, so $V=v/2$. The initial kinetic energy is $E_\\mathrm k=\\tfrac12mv^2$ and the final kinetic energy is $\\tfrac12(2m)(v/2)^2=\\tfrac14mv^2$. The change is $-\\tfrac14mv^2=-E_\\mathrm k/2$, so the loss is $E_\\mathrm k/2$.",
+      "perOption": {
+        "A": "This assumes kinetic energy is conserved when the particles stick together.",
+        "B": "This can result from counting only one particle’s final kinetic energy and reporting that value as the loss.",
+        "C": "Correct.",
+        "D": "This subtracts the final kinetic energy of only one particle from the initial energy."
+      }
+    },
+    "issues": null,
+    "chapter": "collisions",
+    "secondaryChapters": [
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "collisions.c",
+      "collisions.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the common speed using momentum and then use the combined mass in the energy calculation.",
+    "misconception": "Using one mass for the final kinetic energy",
+    "transcription": "A particle X, with kinetic energy $E_\\mathrm k$, collides with a stationary particle Y. Both particles have the same mass. After colliding, X and Y travel together as a single larger particle.\n\nHow much kinetic energy is lost in the collision?\n\nA $0$\nB $\\frac{E_\\mathrm k}{4}$\nC $\\frac{E_\\mathrm k}{2}$\nD $\\frac{3E_\\mathrm k}{4}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The acceleration along the slope is $(30-0)/6.0=5.0\\ \\mathrm{m\\,s^{-2}}$. Resolve the ball’s weight along and perpendicular to the slope. The component along the slope is $mg\\sin\\theta$, so Newton’s second law gives $mg\\sin\\theta=5.0m$ and $\\theta=\\sin^{-1}(5.0/9.81)=30.6^\\circ$.",
+      "perOption": {
+        "A": "On a level surface the vertical string and the weight provide no horizontal acceleration.",
+        "B": "This uses the inverse tangent of the acceleration ratio.",
+        "C": "Correct.",
+        "D": "This uses the perpendicular weight component by taking the inverse cosine."
+      }
+    },
+    "issues": "The key prints the acceleration unit as metres per second. The rewrite uses metres per second squared.",
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "motion-and-forces.e",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must infer that tension has no component along the slope and resolve the weight in that direction.",
+    "misconception": "Using the acceleration ratio as the tangent of the incline",
+    "transcription": "The figure shows a car accelerating down a slope, going from rest to $30\\ \\mathrm{m\\,s^{-1}}$ in $6.0\\ \\mathrm s$. The slope is angled at $\\theta$ above the horizontal.\n\n[The car faces downhill on a slope rising to the right at angle $\\theta$. A ball hangs from the ceiling by a string that is tilted by $\\theta$ from a dashed vertical line.]\n\nDuring the acceleration, a ball hangs by a string from the car’s ceiling. The acceleration is such that the string remains perpendicular to the ceiling.\n\nWhat is the angle $\\theta$?\n\nA $0$\nB $27^\\circ$\nC $31^\\circ$\nD $59^\\circ$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Let $W$ be the board’s weight. Taking moments about the hinge before the child steps on gives $2.0F=2.5W$, so $F=1.25W$. With the child on the board, $2.0F'=2.5W+(40)(9.81)(5.0)$, giving $F'=1.25W+981\\ \\mathrm N$. The extra spring force is $981\\ \\mathrm N$, so the extra compression is $981/10000=0.0981\\ \\mathrm m$, or $9.8\\ \\mathrm{cm}$.",
+      "perOption": {
+        "A": "This is about a factor of ten too small, as when moving the decimal one place too few in the conversion to centimetres.",
+        "B": "This reverses the two moment arms, reducing the child’s weight by a factor of 2.0/5.0.",
+        "C": "Correct.",
+        "D": "This overestimates the extra spring force, which is fixed by the child’s moment about the hinge."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.c",
+      "forces-and-moments.g"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must isolate the extra spring force using moments and convert it to compression with Hooke’s law.",
+    "misconception": "Reversing the moment arms",
+    "transcription": "A diving board of length $5.0\\ \\mathrm m$ is hinged at one end and supported $2.0\\ \\mathrm m$ from this end by a spring of spring constant $10\\ \\mathrm{kN\\,m^{-1}}$. A child of mass $40\\ \\mathrm{kg}$ stands at the far end of the board.\n\n[The hinge is at the right end of the horizontal diving board. The spring supports the board $2.0\\ \\mathrm m$ to the left of the hinge, and the child stands $5.0\\ \\mathrm m$ from the hinge at the left end.]\n\nWhat is the extra compression of the spring caused by the child standing on the end of the board?\n\nA $1.0\\ \\mathrm{cm}$\nB $1.6\\ \\mathrm{cm}$\nC $9.8\\ \\mathrm{cm}$\nD $16\\ \\mathrm{cm}$"
+  },
+  {
+    "id": "rvhs-2023-other-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The spring’s elastic energy increases by $\\tfrac12(181)(0.036^2-0.021^2)=0.07738\\ \\mathrm J$. The mass loses gravitational potential energy of $3.8(0.178-0.163)=0.057\\ \\mathrm J$. Subtracting this energy supplied by gravity gives the work done by $F$, $0.07738-0.057=0.0204\\ \\mathrm J$.",
+      "perOption": {
+        "A": "This is the work done by gravity alone.",
+        "B": "Correct.",
+        "C": "This gives the increase in elastic potential energy without subtracting the loss of gravitational potential energy.",
+        "D": "This adds the loss of gravitational potential energy instead of subtracting it."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.k",
+      "projectile-motion.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must subtract gravity’s work from the increase in elastic energy using the initial and final extensions.",
+    "misconception": "Attributing all the gain in elastic energy to the added force",
+    "transcription": "A mass of weight $3.8\\ \\mathrm N$ is suspended on a spring of unstretched length $14.2\\ \\mathrm{cm}$ and spring constant $181\\ \\mathrm{N\\,m^{-1}}$. The length of the spring is $16.3\\ \\mathrm{cm}$ as shown in (a).\n\nAn additional force $F$ then extends the spring so that its length becomes $17.8\\ \\mathrm{cm}$ as shown in (b).\n\n[(a) A spring hangs from a fixed point and is $16.3\\ \\mathrm{cm}$ long, with a downward arrow of $3.8\\ \\mathrm N$ on the mass. (b) The spring hangs from a fixed point and is $17.8\\ \\mathrm{cm}$ long, with downward arrows $F$ and $3.8\\ \\mathrm N$ on the mass.]\n\nWhat is the work done by $F$?\n\nA $0.057\\ \\mathrm J$\nB $0.020\\ \\mathrm J$\nC $0.077\\ \\mathrm J$\nD $0.13\\ \\mathrm J$"
+  }
+]

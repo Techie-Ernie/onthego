@@ -1,0 +1,506 @@
+[
+  {
+    "id": "ri-2021-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use the magnitude of the gradient to find the zero crossing $t_1$: $8/t_1=14/4$, so $t_1=2.29\\ \\mathrm{s}$. The change in momentum is the signed area under the graph, $\\frac12(2.29)(8)-\\frac12(4-2.29)(6)=4.03\\ \\mathrm{N\\,s}$ using the rounded time, or $4.0\\ \\mathrm{N\\,s}$ to two significant figures.",
+      "perOption": {
+        "A": "Uses the difference between the endpoint force magnitudes without accounting for time.",
+        "B": "Underestimates the net impulse by using an incorrect signed area.",
+        "C": "Correct. The net signed area is $4.0\\ \\mathrm{N\\,s}$.",
+        "D": "Uses the total change in force as though it were an impulse."
+      }
+    },
+    "issues": "The key labels $14/4$ as the gradient, but it is the magnitude of the negative gradient. Its intermediate $4.03\\ \\mathrm{N\\,s}$ comes from rounding the zero-crossing time.",
+    "chapter": "collisions",
+    "secondaryChapters": [],
+    "outcomes": [
+      "collisions.a"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must locate the zero crossing and subtract the area below the time axis.",
+    "misconception": "Treating negative impulse as positive",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For equilibrium, the three non-parallel forces must have lines of action that meet at a single point. The line of action of $R$ therefore runs from the intersection of $F$ and $W$ down and left towards the shelf’s attachment at the wall. The three force vectors also form a closed triangle.",
+      "perOption": {
+        "A": "Points $R$ up and right, so the vectors do not close head to tail.",
+        "B": "Correct. The forces are concurrent and close the vector triangle.",
+        "C": "Closes the triangle but points $R$ up and left, so its line of action misses the common intersection.",
+        "D": "Points $R$ to the right, so its horizontal component adds to that of $F$."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.h",
+      "forces-and-moments.i"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Two options close the vector triangle, so the student must also check rotational equilibrium.",
+    "misconception": "Checking force balance without checking torque",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "In equilibrium, the combined upthrust on the balloon and block balances the spring force and the block’s weight, so $U_{\\mathrm{balloon}}+U_{\\mathrm{block}}=kx+W$. Substituting gives $(0.015)(1000)g+(0.005)(1000)g=5000x+60$, which yields $x=0.0272\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses only the difference between the two upthrusts before subtracting the weight.",
+        "B": "Includes the balloon’s upthrust but omits the block’s upthrust.",
+        "C": "Correct. The combined upthrust minus the weight equals $kx$.",
+        "D": "Adds the weight to the upthrusts when calculating the spring force."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.b",
+      "forces-and-moments.c",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must combine two buoyant forces and balance them against weight and the spring force.",
+    "misconception": "Omitting one submerged object from the upthrust",
+    "transcription": "A uniform plastic block with a light balloon attached to its centre is supported by a spring that is fixed to the bottom of a tank. The tank is completely filled with water of density $1000\\ \\mathrm{kg\\,m^{-3}}$ as shown.\n\nThe block is in equilibrium and has a weight of $60\\ \\mathrm{N}$ and a volume of $5.0\\times10^{-3}\\ \\mathrm{m^3}$. The spring has a spring constant of $5000\\ \\mathrm{N\\,m^{-1}}$. The balloon displaces $0.015\\ \\mathrm{m^3}$ of water.\n\n[The tank contains water with a submerged balloon above the block. The balloon is attached to the block’s centre, and a vertical spring connects the block to the tank bottom.]\n\nWhat is the extension of the spring?\n\nA $0.0076\\ \\mathrm{m}$\nB $0.017\\ \\mathrm{m}$\nC $0.027\\ \\mathrm{m}$\nD $0.051\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For the upward acceleration, $F-mg=ma$, so $F-0.80(9.81)=0.80(1.0)$ and $F=8.648\\ \\mathrm{N}$. The motor does $W=Fd=8.648(2.0)=17.296\\ \\mathrm{J}$ of useful work. The electrical input is $17.296(10/6)=28.8\\ \\mathrm{J}$.",
+      "perOption": {
+        "A": "Uses the work of the resultant force and omits the work against gravity.",
+        "B": "Gives the useful work done on the load before accounting for efficiency.",
+        "C": "Accounts for lifting against gravity but omits the extra force needed for upward acceleration.",
+        "D": "Correct. Dividing the useful work by the efficiency gives about $29\\ \\mathrm{J}$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.c",
+      "energy-and-fields.n",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must find the lifting force, calculate its work and account for efficiency.",
+    "misconception": "Using the resultant force as the motor force",
+    "transcription": "A motor is used to lift a load of mass $0.80\\ \\mathrm{kg}$ vertically upward at an acceleration of $1.0\\ \\mathrm{m\\,s^{-2}}$ for a distance of $2.0\\ \\mathrm{m}$. The efficiency of the motor is $60\\%$.\n\nWhat is the electrical energy supplied to the motor in performing this task?\n\nA $2.7\\ \\mathrm{J}$\nB $17\\ \\mathrm{J}$\nC $26\\ \\mathrm{J}$\nD $29\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q8",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gravitational potential energy lost equals the elastic potential energy stored, so $\\frac12kx^2=mgh$. Hence $x=\\sqrt{2mgh/k}=\\sqrt{2(0.22)(9.81)(0.40)/350}=7.02\\times10^{-2}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Gives the calculated value of $x^2$ without taking its square root.",
+        "B": "Gives approximately $mg/k$, which balances forces instead of equating energies.",
+        "C": "Halves the correct compression even though the factor of one-half applies to the spring energy.",
+        "D": "Correct. Equating the two energies gives $x=7.0\\times10^{-2}\\ \\mathrm{m}$."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "projectile-motion"
+    ],
+    "outcomes": [
+      "energy-and-fields.b",
+      "energy-and-fields.k",
+      "projectile-motion.d"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student equates the loss in gravitational potential energy to the spring energy and solves for compression.",
+    "misconception": "Confusing spring energy with a quantity linear in compression",
+    "transcription": "A toy car of mass $0.22\\ \\mathrm{kg}$ is released from rest and runs down a smooth curved surface through a vertical distance of $0.40\\ \\mathrm{m}$, as shown. It strikes a horizontal spring of force constant $350\\ \\mathrm{N\\,m^{-1}}$ and compresses it by a distance $x$ before coming to rest.\n\n[The toy starts at the top of a smooth curved surface, $0.40\\ \\mathrm{m}$ above the level of a horizontal spring fixed to a wall at the bottom.]\n\nAssuming no losses in mechanical energy, what is the value of $x$?\n\nA $4.9\\times10^{-3}\\ \\mathrm{m}$\nB $6.2\\times10^{-3}\\ \\mathrm{m}$\nC $3.5\\times10^{-2}\\ \\mathrm{m}$\nD $7.0\\times10^{-2}\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q9",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Use $a=r\\omega^2$ with $\\omega=2\\pi/T$. Converting the period to seconds gives $a=75[2\\pi/(30\\times60)]^2=9.14\\times10^{-4}\\ \\mathrm{m\\,s^{-2}}$.",
+      "perOption": {
+        "A": "Correct. The radius times the square of the angular speed gives this acceleration.",
+        "B": "Gives the linear speed $r\\omega$, which has units of $\\mathrm{m\\,s^{-1}}$.",
+        "C": "Treats the 30-minute period as 30 seconds in $r\\omega^2$.",
+        "D": "Uses the acceleration due to gravity in place of the centripetal acceleration."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.b",
+      "circular-motion.e"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The calculation requires converting the period to seconds and applying the centripetal acceleration formula.",
+    "misconception": "Confusing linear speed with centripetal acceleration",
+    "transcription": "The capsules in the Singapore Flyer move in a circle of radius $75\\ \\mathrm{m}$ with an average period of 30 minutes.\n\nWhat is the centripetal acceleration of the capsules?\n\nA $9.1\\times10^{-4}\\ \\mathrm{m\\,s^{-2}}$\nB $0.26\\ \\mathrm{m\\,s^{-2}}$\nC $3.3\\ \\mathrm{m\\,s^{-2}}$\nD $9.8\\ \\mathrm{m\\,s^{-2}}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q10",
+    "keyPage": 2,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $v=r\\omega$, write the centripetal force as $F=mr\\omega^2=mv^2/r=mv\\omega$. In D, the new force is $F^\\prime=m(v/2)(2\\omega)=F$.",
+      "perOption": {
+        "A": "Halving the mass halves $F$.",
+        "B": "Doubling $r$ and halving $\\omega$ gives $2(1/2)^2=1/2$ times the original force.",
+        "C": "Halving $r$ and $v$ gives $(1/2)^2/(1/2)=1/2$ times the original force.",
+        "D": "Correct. Halving $v$ and doubling $\\omega$ leaves $mv\\omega$ unchanged."
+      }
+    },
+    "issues": null,
+    "chapter": "circular-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circular-motion.c",
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must track simultaneous changes using a suitable form of the centripetal force equation.",
+    "misconception": "Ignoring the squared speed dependence",
+    "transcription": "A body of mass $m$ moves in uniform circular motion with radius $r$, linear speed $v$ and angular speed $\\omega$.\n\nWhich change does not affect the value of the centripetal force on the body?\n\nA Mass of body is decreased to $m/2$.\nB Radius is increased to $2r$ and angular speed is decreased to $\\omega/2$.\nC Radius is decreased to $r/2$ and linear speed is decreased to $v/2$.\nD Linear speed is decreased to $v/2$, angular speed is increased to $2\\omega$ and radius is decreased to $r/4$."
+  },
+  {
+    "id": "ri-2021-prelim-p1-q11",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gain in kinetic energy equals the loss in gravitational potential energy, $mgh$. With $g$ treated as constant and equal to $GM/R^2$, the gain is $m(GM/R^2)h=GMmh/R^2$.",
+      "perOption": {
+        "A": "Uses Earth’s radius as the distance fallen.",
+        "B": "Correct. It gives the gravitational energy lost in a fall of height $h$ at constant $g$.",
+        "C": "Gives a gravitational potential difference per unit mass and omits the factor $m$.",
+        "D": "Gives a negative change in gravitational potential energy, whereas the kinetic energy gain is positive."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [
+      "projectile-motion",
+      "energy-and-fields"
+    ],
+    "outcomes": [
+      "gravitational-fields.c",
+      "gravitational-fields.d",
+      "projectile-motion.d",
+      "energy-and-fields.b"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must use the fall height with the near-surface value of the gravitational field strength.",
+    "misconception": "Using Earth’s radius as the fall height",
+    "transcription": "The Earth may be considered to be a uniform sphere of mass $M$ and radius $R$. An apple of mass $m$ falls from rest from a height $h$ to the ground, where $h\\ll R$ such that the gravitational field strength $g$ experienced by the apple during its fall may be assumed to be constant.\n\nWhat is the gain in kinetic energy of the apple?\n\nA $mgR$\nB $\\frac{GMmh}{R^2}$\nC $\\frac{GM}{R}-\\frac{GM}{R+h}$\nD $m\\left(\\frac{GM}{R+h}-\\frac{GM}{R}\\right)$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q12",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $M=\\frac43\\pi R^3\\rho$, the surface field is $g=GM/R^2=(4\\pi G/3)\\rho R$. Thus $g_{\\mathrm M}/g_{\\mathrm E}=0.50(0.70)=0.35$. The object’s mass is unchanged, so $W_{\\mathrm M}/W=mg_{\\mathrm M}/(mg_{\\mathrm E})=0.35$.",
+      "perOption": {
+        "A": "Correct. Surface weight scales with the product of density and radius.",
+        "B": "Uses the radius ratio alone and omits the density ratio.",
+        "C": "Uses the density ratio alone and omits the radius ratio.",
+        "D": "Treats the density ratio as the planetary mass ratio and divides it by the squared radius ratio."
+      }
+    },
+    "issues": null,
+    "chapter": "gravitational-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "gravitational-fields.c"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must express planetary mass in terms of density and radius before comparing surface weights.",
+    "misconception": "Treating the planets’ mass ratio as their density ratio",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q13",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Above equilibrium, the acceleration is downward, so $mg-N=m\\omega^2x$. At the limit of contact, $N=0$ at maximum displacement $x_0$, giving $\\omega^2x_0=g$. Thus $x_0=g/\\omega^2=9.81/(2\\pi\\times3.2)^2=0.0243\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Correct. At this amplitude the maximum downward acceleration equals $g$.",
+        "B": "omits one factor of $2\\pi$ in converting $f^2$ to $\\omega^2$.",
+        "C": "Uses $g/\\omega$, omitting one power of angular frequency.",
+        "D": "Uses $g/f^2$ without converting frequency to angular frequency."
+      }
+    },
+    "issues": "The key mentions the plate moving down, but its acceleration is downward whenever it is above equilibrium, regardless of the direction of motion.",
+    "chapter": "oscillations",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "oscillations.c",
+      "oscillations.d",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "application"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "The student must identify the contact threshold and apply the maximum downward SHM acceleration.",
+    "misconception": "Assuming upward acceleration causes the coin to lose contact",
+    "transcription": null
+  },
+  {
+    "id": "ri-2021-prelim-p1-q14",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The link between average molecular kinetic energy and temperature follows by combining $pV=\\frac13Nm\\langle c^2\\rangle$ with $pV=NkT$. The derivation of the pressure relation itself uses the kinetic model’s assumptions about molecular size, intermolecular forces and random motion.",
+      "perOption": {
+        "A": "Correct. The temperature dependence is a derived result.",
+        "B": "Negligible molecular volume lets the derivation use the container volume as the gas volume.",
+        "C": "Neglecting intermolecular forces between collisions lets molecules move freely between collisions.",
+        "D": "Random motion supports equal mean-square velocity components in the three directions."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.e",
+      "temperature-and-ideal-gases.f",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "recall",
+    "types": [
+      "recall",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must distinguish the assumptions of the kinetic model from a result derived using it.",
+    "misconception": "Treating a derived kinetic-theory result as an assumption",
+    "transcription": "In the derivation of the relationship $pV=\\frac13Nm\\langle c^2\\rangle$, where $N$ is the number of gas molecules, which statement is not an essential assumption?\n\nA The average kinetic energy of a molecule is proportional to the temperature of the gas.\nB The volume of molecules is negligible compared with the volume occupied by the gas.\nC The molecules exert no intermolecular forces on one another except during collisions.\nD The molecules are in continuous random motion."
+  },
+  {
+    "id": "ri-2021-prelim-p1-q15",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done on the gas during contraction is $25\\times10^3(80-40)\\times10^{-3}=1000\\ \\mathrm{J}$. The first law gives $\\Delta U=Q+W=-2500+1000=-1500\\ \\mathrm{J}$. The expression $\\Delta U=\\frac32\\Delta(pV)$ applies to a monatomic ideal gas, and the question specifies only an ideal gas.",
+      "perOption": {
+        "A": "Treats compression as negative work on the gas.",
+        "B": "Correct. The heat removed exceeds the work done on the gas by $1500\\ \\mathrm{J}$.",
+        "C": "Reverses both the heat and work signs in $\\Delta U=Q+W$.",
+        "D": "Treats heat removed from the gas as positive heat input."
+      }
+    },
+    "issues": null,
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student must compute compression work and assign the correct signs before applying the first law.",
+    "misconception": "Confusing work done by the gas with work done on the gas",
+    "transcription": "A fixed mass of ideal gas undergoes a contraction in volume from $80\\times10^{-3}\\ \\mathrm{m^3}$ to $40\\times10^{-3}\\ \\mathrm{m^3}$ at a constant pressure of $25\\ \\mathrm{kPa}$. During this contraction, $2500\\ \\mathrm{J}$ of heat is removed from the gas.\n\nWhat is the change in internal energy of the gas?\n\nA $-3500\\ \\mathrm{J}$\nB $-1500\\ \\mathrm{J}$\nC $1500\\ \\mathrm{J}$\nD $3500\\ \\mathrm{J}$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q16",
+    "keyPage": 2,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "By Malus’ law, $I/I_0=\\cos^2\\theta=0.25$, giving $\\theta=60^\\circ$. After the additional $30^\\circ$ rotation, the new ratio is $\\cos^2 90^\\circ=0$.",
+      "perOption": {
+        "A": "Correct. The final transmission axis is perpendicular to the incident polarisation.",
+        "B": "Assigns nonzero transmission even though the total angle is $90^\\circ$.",
+        "C": "Uses $\\cos^2 30^\\circ$, taking only the rotation angle into account.",
+        "D": "Uses $\\cos 30^\\circ$, omitting the square and the initial angle."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "The student uses Malus’ law to find the initial angle before applying the additional rotation.",
+    "misconception": "Using the angle of rotation alone in Malus’ law",
+    "transcription": "A beam of vertically polarised light of intensity $I_0$ is incident on a polariser P. The axis of polarisation of P is initially at an angle $\\theta$ from the vertical. Light after passing through P has an intensity $I$. The ratio $I/I_0$ is $0.25$.\n\n[Vertically polarised light of intensity $I_0$ enters polariser P and emerges with intensity $I$. The transmission axis makes angle $\\theta$ clockwise from the vertical. A curved arrow marks the clockwise rotation.]\n\nP is rotated $30^\\circ$ clockwise such that the axis of polarisation is now $\\theta+30^\\circ$ from the vertical.\n\nWhat is the new ratio $I/I_0$?\n\nA 0\nB 0.27\nC 0.75\nD 0.87"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q17",
+    "keyPage": 2,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For source power $P_{\\mathrm{src}}$, the intensity is $I=P_{\\mathrm{src}}/(4\\pi r^2)$ and also $I=kA^2$. Equating these gives $A=\\sqrt{P_{\\mathrm{src}}/(4\\pi k)}\\,/r$, so amplitude is inversely proportional to distance on the first graph. The second graph is linear because intensity is proportional to amplitude squared.",
+      "perOption": {
+        "A": "Plots intensity against amplitude, which gives a quadratic curve on the right.",
+        "B": "Correct. The plots show amplitude versus distance and intensity versus amplitude squared.",
+        "C": "Plots intensity against amplitude on the right, so that graph would curve.",
+        "D": "Makes intensity decrease with amplitude on the left even though $I\\propto A^2$."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.g",
+      "wave-motion.h"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must connect spherical spreading with the amplitude–intensity relation and match both plot shapes.",
+    "misconception": "Assuming intensity is proportional to amplitude",
+    "transcription": "Light waves from a particular point source travel without the loss of energy. At various distances from the source, the intensity and amplitude of the light are measured.\n\nThe following graphs illustrate the relationship between these quantities.\n\n[The graph of $P$ against $Q$ shows a decreasing curve that flattens towards the horizontal axis. The graph of $R$ against $S$ shows a rising straight line through the origin.]\n\nWhich row of the table below shows what the variables $P$, $Q$, $R$ and $S$ represent?\n\nOption | $P$ | $Q$ | $R$ | $S$\nA | amplitude | distance | intensity | amplitude\nB | amplitude | distance | intensity | (amplitude)$^2$\nC | intensity | (distance)$^2$ | intensity | amplitude\nD | intensity | amplitude | intensity | (distance)$^2$"
+  },
+  {
+    "id": "ri-2021-prelim-p1-q18",
+    "keyPage": 3,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The tenth dark fringe is $9.5$ fringe spacings from the central bright fringe, so $x=(7.5\\times10^{-3})/9.5$. Using $\\lambda/d=x/D$ gives $\\lambda=(0.45\\times10^{-3})[7.5\\times10^{-3}/(0.70\\times9.5)]=5.08\\times10^{-7}\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Uses $10.5$ fringe spacings, placing the first dark fringe at $1.5$ spacings.",
+        "B": "Uses ten whole fringe spacings and omits the half-spacing offset.",
+        "C": "Correct. The tenth dark fringe is $9.5$ spacings from the central maximum.",
+        "D": "Uses the full $7.5\\ \\mathrm{mm}$ distance as a single fringe spacing."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "The student must count the half-fringe offset before applying the double-slit spacing equation.",
+    "misconception": "Counting a dark fringe as a whole number of fringe spacings",
+    "transcription": "In a double-slit interference experiment a pair of slits $0.45\\ \\mathrm{mm}$ apart were placed $0.70\\ \\mathrm{m}$ from the screen. When monochromatic light from a laser was incident normally on the slits, an interference pattern was formed on the screen. The distance between the central bright fringe and the 10th dark fringe was found to be $7.5\\ \\mathrm{mm}$.\n\nWhat was the wavelength of the incident light?\n\nA $4.6\\times10^{-7}\\ \\mathrm{m}$\nB $4.8\\times10^{-7}\\ \\mathrm{m}$\nC $5.1\\times10^{-7}\\ \\mathrm{m}$\nD $4.8\\times10^{-6}\\ \\mathrm{m}$"
+  }
+]

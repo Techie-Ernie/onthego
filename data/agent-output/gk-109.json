@@ -1,0 +1,505 @@
+[
+  {
+    "id": "ri-2024-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $R=\\rho L/A$ and $A=\\pi d^2/4$, the current is $I=V/R=\\pi d^2V/(4\\rho L)$. The parallel voltage and wire length are common, so $I_X/I_Y=(1/4)^2/(1/2)=1/8$. Hence $I_X/(I_X+I_Y)=1/9$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the current in Y as the denominator.",
+        "C": "Scales cross-sectional area with diameter instead of diameter squared.",
+        "D": "Assumes equal currents despite the different branch resistances."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.c",
+      "circuits.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must square the diameter factor and convert a branch-current ratio to a total-current fraction.",
+    "misconception": "Confusing branch current with total current",
+    "transcription": "Two wires X and Y are of the same length. The resistivity of wire X is half the resistivity of wire Y. The diameter of wire X is one quarter the diameter of wire Y. X and Y are connected in parallel to a battery with negligible internal resistance.\n\nWhat fraction of the total current passes through wire X?\n\nA $\\frac19$\nB $\\frac18$\nC $\\frac13$\nD $\\frac12$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q24",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The zero ammeter reading means the loops exchange no current, so each resistor pair is in series within its own loop. The $100\\ \\Omega$ and $200\\ \\Omega$ resistors have the same potential difference. Thus $V_R=24-V_{200}=24-V_{100}$, giving $24R/(R+200)=24-12(100/150)=16$ and $R=400\\ \\Omega$.",
+      "perOption": {
+        "A": "This choice puts 20 V across the right lower resistor, which must match the left lower resistor’s 8 V.",
+        "B": "Matching the resistor ratios ignores the different supply voltages.",
+        "C": "Equal right-loop resistances give a 12 V drop across the lower resistor instead of 8 V.",
+        "D": "Correct. Both lower resistors have an 8 V drop."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [],
+    "outcomes": [
+      "circuits.b",
+      "circuits.h",
+      "circuits.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Students must interpret the null reading and balance voltages across two independently powered loops.",
+    "misconception": "Assuming equal voltages imply equal branch currents",
+    "transcription": "In the circuit shown, the ammeter reading is zero.\n\n[The left loop has a 12 V cell and a resistor stack with $50\\ \\Omega$ above $100\\ \\Omega$. The right loop has a 24 V cell and a resistor stack with $R$ above $200\\ \\Omega$. Both cells have positive terminals at the top. A wire joins the resistor-stack midpoints, and ammeter A joins their lower nodes.]\n\nWhat is the value of resistance $R$?\n\nA $40\\ \\Omega$\nB $100\\ \\Omega$\nC $200\\ \\Omega$\nD $400\\ \\Omega$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q25",
+    "keyPage": 6,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "The current in X produces a clockwise magnetic field along the circumference of coil Y. The field is parallel to the current in every part of the coil, so the magnetic force is zero everywhere.",
+      "perOption": {
+        "A": "Radial attraction assumes a nonzero force where the field and current are parallel.",
+        "B": "Radial repulsion assumes a nonzero force where the field and current are parallel.",
+        "C": "Correct. The field and local current are parallel throughout.",
+        "D": "An out-of-plane force would require an in-plane field component perpendicular to the local current."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must compare the field direction with the local current around the loop.",
+    "misconception": "Applying parallel-wire attraction to an axial wire and a loop",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "As the wire rises, it cuts the horizontal component of the Earth’s magnetic field. The average e.m.f. is $E=B_HLv=(B\\cos50^\\circ)L(d/t)=(3.0\\times10^{-5})\\cos50^\\circ\\times15\\times5.0/(150\\times10^{-3})=0.0096418\\ \\mathrm V$, or $9.6\\ \\mathrm{mV}$.",
+      "perOption": {
+        "A": "Treats the effective field as zero despite the assumed north–south component crossing the swept area.",
+        "B": "Correct. The north–south component gives 9.6 mV.",
+        "C": "Uses $B\\sin50^\\circ$, the vertical component parallel to the motion.",
+        "D": "Uses the full field strength in place of its horizontal component."
+      }
+    },
+    "issues": "The key assumes a north–south horizontal field. The question supplies the dip angle but omits the horizontal bearing, so B depends on that assumption.",
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-induction.e",
+      "electromagnetic-induction.f"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must resolve the magnetic field and calculate the average vertical speed.",
+    "misconception": "Using the vertical component of the magnetic field",
+    "transcription": "A straight wire of length $15\\ \\mathrm m$ is placed horizontally along the East-West direction. The wire is raised vertically through a height of $5.0\\ \\mathrm m$ in $150\\ \\mathrm{ms}$.\n\nThe magnetic flux density due to the Earth’s magnetic field at this location is $3.0\\times10^{-5}\\ \\mathrm T$ at an angle of $50^\\circ$ below the horizontal.\n\nWhat is the average e.m.f. induced across the ends of the wire?\n\nA $0.0\\ \\mathrm{mV}$\nB $9.6\\ \\mathrm{mV}$\nC $11\\ \\mathrm{mV}$\nD $15\\ \\mathrm{mV}$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "An ideal transformer gives $I_pV_p=I_sV_s$, so $I_s=50(240)/(50\\times10^3)=0.24\\ \\mathrm A$. The percentage loss is $[I_s^2R/(I_pV_p)]\\times100\\%=[0.24^2(100)/(50\\times240)]\\times100\\%=0.048\\%$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Dividing $100\\ \\Omega$ by $50\\ \\mathrm{kV}$ treats resistance as a voltage drop.",
+        "C": "This requires ten times the actual loss, which is $0.24^2(100)=5.76\\ \\mathrm W$.",
+        "D": "The loss must use the squared secondary current in $I_s^2R$ and be divided by the full input power."
+      }
+    },
+    "issues": null,
+    "chapter": "electromagnetic-induction",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "electromagnetic-induction.g",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must calculate the secondary current before finding the fractional power loss.",
+    "misconception": "Using the generator current to calculate line loss",
+    "transcription": "A generator produces a r.m.s. current of $50\\ \\mathrm A$ at a r.m.s. voltage of $240\\ \\mathrm V$. The voltage is stepped up to $50\\ \\mathrm{kV}$ r.m.s. by an ideal transformer and transmitted through a power line with a total resistance of $100\\ \\Omega$.\n\nWhat is the percentage power lost in the transmission?\n\nA $0.048\\%$\nB $0.20\\%$\nC $0.48\\%$\nD $2.0\\%$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q28",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using $p=\\sqrt{2mE}$, the momentum uncertainty is $\\Delta p=0.010\\sqrt{2mE}$. The minimum position uncertainty is $\\Delta x=h/\\Delta p$, so $\\Delta x\\propto1/\\sqrt{mE}$. With a baseball mass estimated at $0.150\\ \\mathrm{kg}$, the ratio is $\\sqrt{(0.150)(100)/[(9.11\\times10^{-31})(1.0\\times10^6\\times1.60\\times10^{-19})]}=1.01\\times10^{22}$. The approximate ratio is $10^{22}$.",
+      "perOption": {
+        "A": "Taking the square root of the energy ratio alone omits the mass ratio.",
+        "B": "Using an energy ratio alone ignores how both mass and energy determine momentum.",
+        "C": "Correct. The ratio is of order ten to the power of 22.",
+        "D": "Uses the ratio of $mE$ products without taking the square root."
+      }
+    },
+    "issues": "The baseball mass is unstated and estimated at 0.150 kg. The key uses nonrelativistic momentum for the 1.0 MeV electron. Relativistic momentum gives about 7.2 × 10²¹ with that mass, which still supports C.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [
+      "quantities-and-measurement"
+    ],
+    "outcomes": [
+      "quantum-physics.h",
+      "quantities-and-measurement.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality",
+      "application"
+    ],
+    "difficulty": 5,
+    "difficultyReason": "Students must estimate a mass, convert energy units and combine the momentum and uncertainty relations.",
+    "misconception": "Omitting the mass factor in the momentum comparison",
+    "transcription": "An electron and a baseball have kinetic energies of $1.0\\ \\mathrm{MeV}$ and $100\\ \\mathrm J$ respectively. The percentage uncertainty in the measurement of their momenta is $1.0\\%$.\n\nWhat is the approximate ratio of the minimum uncertainty in the position of the electron to that of the baseball?\n\nA $10^7$\nB $10^{14}$\nC $10^{22}$\nD $10^{44}$"
+  },
+  {
+    "id": "ri-2024-prelim-p1-q29",
+    "keyPage": 7,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "An isotope of the parent has the same proton number but a different neutron number, so its mass number must change while its atomic number stays fixed. One alpha decay lowers the mass number by four and the atomic number by two. Two beta-minus decays restore the atomic number while leaving the new mass number unchanged.",
+      "perOption": {
+        "A": "Gamma emission leaves both numbers unchanged.",
+        "B": "One alpha and one beta-minus decay lower the mass number by four and the atomic number by one.",
+        "C": "Correct. The mass number falls by four and the atomic number stays fixed.",
+        "D": "Two alpha decays and one beta-minus decay lower the mass number by eight and the atomic number by three."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.b",
+      "nuclear-physics.c",
+      "nuclear-physics.g"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must track how successive decays change proton and mass numbers.",
+    "misconception": "Checking only the mass number",
+    "transcription": null
+  },
+  {
+    "id": "ri-2024-prelim-p1-q30",
+    "keyPage": 7,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For X, $(1/2)^{t/T_X}=1/8$, so $t/T_X=\\log(1/8)/\\log(1/2)=3$ and $T_X=t/3$. For Y, $(1/2)^{t/T_Y}=1/4$, so $t/T_Y=\\log(1/4)/\\log(1/2)=2$ and $T_Y=t/2$. Thus $T_X/T_Y=2/3\\approx0.67$.",
+      "perOption": {
+        "A": "Uses the fractions decayed as the surviving fractions and inverts the resulting ratio.",
+        "B": "Correct. X takes three half-lives in the time Y takes two.",
+        "C": "Reverses the ratio of half-lives.",
+        "D": "Uses the fractions decayed in place of the fractions remaining."
+      }
+    },
+    "issues": null,
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.i",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "proportionality"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must use the surviving fractions and compare the two half-lives over a common elapsed time.",
+    "misconception": "Confusing decayed and surviving fractions",
+    "transcription": "A sample consists of a radioactive nuclide X while another sample consists of a radioactive nuclide Y. After an interval of time, it is found that $\\frac78$ of the atoms of X and $\\frac34$ of the atoms of Y have decayed.\n\nWhat is the ratio $\\frac{\\text{half life of X}}{\\text{half life of Y}}$?\n\nA 0.46\nB 0.67\nC 1.5\nD 2.2"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q1",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The two perpendicular components must add to $\\mathbf R$. In A their sum points down and right, while $\\mathbf R$ points up and right.",
+      "perOption": {
+        "A": "Correct. Its two arrows have the wrong resultant.",
+        "B": "The two diagonal arrows add to the given vector.",
+        "C": "The horizontal and vertical arrows add to the given vector.",
+        "D": "The long shallow arrow and short perpendicular arrow add to the given vector."
+      }
+    },
+    "issues": null,
+    "chapter": "quantities-and-measurement",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantities-and-measurement.i",
+      "quantities-and-measurement.j"
+    ],
+    "primaryType": "diagram",
+    "types": [
+      "diagram",
+      "conceptual"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must compare each pair’s resultant with the given vector.",
+    "misconception": "Assuming perpendicularity alone identifies the components",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q2",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The gap initially increases because Y is slower than X. It reaches a maximum when their speeds match. Once Y is faster, its speed advantage grows, so the graph slopes down more steeply until the gap reaches zero.",
+      "perOption": {
+        "A": "Correct. The gap rises smoothly before closing at an increasing rate.",
+        "B": "The straight segments and sharp corner imply constant relative speeds separated by an abrupt change.",
+        "C": "The gap decreases immediately even though Y starts slower.",
+        "D": "A straight downward line assumes a constant closing speed from the start."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.b",
+      "motion-and-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must relate relative velocity to the changing gradient of a separation–time graph.",
+    "misconception": "Assuming the gap closes as soon as the trailing car accelerates",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q3",
+    "keyPage": 1,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For both crates, the uphill force equation is $630-(15+30)g\\sin30^\\circ=(15+30)a$, giving $a=9.095\\ \\mathrm{m\\,s^{-2}}$. For the $15\\ \\mathrm{kg}$ crate, $R-15g\\sin30^\\circ=15a$. Hence $R=15(9.095+9.81\\sin30^\\circ)=210\\ \\mathrm N$.",
+      "perOption": {
+        "A": "Subtracts the downslope weight component from $15a$, although the contact force must overcome that component.",
+        "B": "Uses roughly $15a$, the lighter crate’s net force.",
+        "C": "Correct. The contact force has magnitude 210 N.",
+        "D": "Allocates the $30/45$ share of the push to the contact force, which drives the lighter crate uphill."
+      }
+    },
+    "issues": null,
+    "chapter": "motion-and-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "motion-and-forces.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must apply Newton’s second law to the combined system and then to one crate.",
+    "misconception": "Confusing contact force with the net force",
+    "transcription": "Two crates, of masses $15\\ \\mathrm{kg}$ and $30\\ \\mathrm{kg}$, are in contact and placed on a frictionless incline that makes an angle of $30^\\circ$ to the horizontal. A constant force of $630\\ \\mathrm N$ parallel to the surface of the incline is applied to the $30\\ \\mathrm{kg}$ crate.\n\n[The 15 kg crate is uphill of and touching the 30 kg crate. The 630 N arrow points uphill into the 30 kg crate.]\n\nWhat is the force that each crate exerts on the other?\n\nA $63\\ \\mathrm N$\nB $140\\ \\mathrm N$\nC $210\\ \\mathrm N$\nD $420\\ \\mathrm N$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q4",
+    "keyPage": 1,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The work done is the trapezium area under the force–extension graph between the two extensions, $\\tfrac12(T_1+T_2)(e_2-e_1)$. Since $e_2-e_1=(x_2-x_0)-(x_1-x_0)=x_2-x_1$, the work is $\\tfrac12(T_1+T_2)(x_2-x_1)$.",
+      "perOption": {
+        "A": "Finds the full triangular area from $x_0$ to $x_2$.",
+        "B": "Correct. The trapezium width is the change in length.",
+        "C": "Adds the two extensions instead of subtracting the initial extension from the final extension.",
+        "D": "Subtracts $2x_0$ even though the reference-length terms cancel."
+      }
+    },
+    "issues": "The key drops subscripts in the algebra for the extension difference. The rewrite restores x₀ for the unstretched length and x₁ for the starting length.",
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.k"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must identify the trapezium under the force graph over the specified interval.",
+    "misconception": "Measuring the area from the unstretched length",
+    "transcription": "The force $F$ required to extend a spring of unstretched length $x_0$ to a length $x$ is measured. When the tension in the spring is $T_1$, the length of the spring is $x_1$. When the tension in the spring is $T_2$, the length of the spring is $x_2$.\n\n[Graph of $F$ against $x$. A rising straight line starts at $(x_0,0)$ and passes through $(x_1,T_1)$ and $(x_2,T_2)$, with dashed guides to the axes.]\n\nWhat is the work done to stretch the spring from length $x_1$ to length $x_2$?\n\nA $\\frac12(T_2)(x_2-x_0)$\nB $\\frac12(T_1+T_2)(x_2-x_1)$\nC $\\frac12(T_1+T_2)(x_2+x_1-2x_0)$\nD $\\frac12(T_1+T_2)(x_2-x_1-2x_0)$"
+  },
+  {
+    "id": "ri-2025-prelim-p1-q5",
+    "keyPage": 1,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Translational equilibrium requires zero resultant force. The two forces in a couple act in opposite directions on the same object and have equal magnitudes, so their resultant is zero.",
+      "perOption": {
+        "A": "Correct. The net force is zero.",
+        "B": "The separated forces exert a nonzero torque, so the object lacks rotational equilibrium.",
+        "C": "The directions of the forces determine the torque direction independently of the pivot.",
+        "D": "Both forces act on the same object, while an action–reaction pair acts on two different objects."
+      }
+    },
+    "issues": null,
+    "chapter": "forces-and-moments",
+    "secondaryChapters": [],
+    "outcomes": [
+      "forces-and-moments.d",
+      "forces-and-moments.e",
+      "forces-and-moments.h"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "recall"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Students must distinguish translational equilibrium from rotational equilibrium.",
+    "misconception": "Equating zero resultant force with complete equilibrium",
+    "transcription": "Which statement is correct?\n\nA An object with only a couple acting on it is in translational equilibrium.\nB An object with only a couple acting on it is in equilibrium.\nC The direction of the torque of a couple depends on where the pivot is.\nD A couple is an action-reaction pair of forces."
+  },
+  {
+    "id": "ri-2025-prelim-p1-q6",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The force is the negative potential-energy gradient, $F=-\\mathrm dU/\\mathrm dx$. Its magnitude is the tangent gradient at $x=0.30\\ \\mathrm m$, estimated as $(1.400-0.3125)/(0.380-0.200)\\approx6.0\\ \\mathrm N$.",
+      "perOption": {
+        "A": "A force is an energy change per unit displacement, so an energy reading alone cannot give it.",
+        "B": "Underestimates the rise per metre of the tangent at 0.30 m.",
+        "C": "Uses the average slope $0.90/0.30$ from the origin.",
+        "D": "Correct. The local gradient has magnitude about 6.0 N."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [],
+    "outcomes": [
+      "energy-and-fields.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must find the local gradient of a curved energy graph.",
+    "misconception": "Using an average slope in place of the tangent gradient",
+    "transcription": null
+  },
+  {
+    "id": "ri-2025-prelim-p1-q7",
+    "keyPage": 1,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The drag force is $D=250\\ \\mathrm N$. Resolving along the slope gives $F=D+mg\\sin\\theta=250+900(9.81)(1.0/12)=985.75\\ \\mathrm N$. Thus $P=Fv=985.75\\times24=23.7\\ \\mathrm{kW}$.",
+      "perOption": {
+        "A": "Adds about 0.736 kN of downslope force directly to 6.0 kW, mixing force and power.",
+        "B": "Double-counting the level-road power gives 12 kW and misses the power needed to gain height.",
+        "C": "Includes the power needed to gain height but omits power against drag.",
+        "D": "Correct. The power rounds to 24 kW."
+      }
+    },
+    "issues": null,
+    "chapter": "energy-and-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "energy-and-fields.m",
+      "motion-and-forces.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Students must include drag and the downslope component of weight before calculating power.",
+    "misconception": "Omitting drag in the uphill power calculation",
+    "transcription": "A driving force of $250\\ \\mathrm N$ is needed for a car of mass $900\\ \\mathrm{kg}$ to travel along a level road at a constant speed of $24\\ \\mathrm{m\\,s^{-1}}$.\n\nWhat power is required to maintain the car at this speed when it is moving up a slope that rises $1.0\\ \\mathrm m$ for every $12\\ \\mathrm m$ of travel along the road?\n\nA $6.8\\ \\mathrm{kW}$\nB $12\\ \\mathrm{kW}$\nC $18\\ \\mathrm{kW}$\nD $24\\ \\mathrm{kW}$"
+  }
+]

@@ -1,0 +1,519 @@
+[
+  {
+    "id": "ri-2018-prelim-p1-q14",
+    "keyPage": 3,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The first filter transmits $I_1=I_0/2$, so Malus’ law gives $I_2=\\tfrac12 I_0\\cos^2 10^\\circ$ after the second filter. For the third filter, $I=I_2\\cos^2\\theta$, where $\\theta$ is the angle between the second and third axes. Setting $I=I_0/3$ gives $\\theta=\\cos^{-1}\\sqrt{2/(3\\cos^2 10^\\circ)}=33.99^\\circ\\approx34^\\circ$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the angle to the vertical if the third axis is rotated farther from vertical.",
+        "C": "Omits the halving of the unpolarised intensity at the first filter.",
+        "D": "Uses an angle that reduces the transmitted intensity below one-third."
+      }
+    },
+    "issues": null,
+    "chapter": "wave-motion",
+    "secondaryChapters": [],
+    "outcomes": [
+      "wave-motion.j"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Applies the initial halving and Malus’ law at two successive filters.",
+    "misconception": "Measuring the final angle from vertical",
+    "transcription": "A narrow, parallel beam of unpolarised light is directed towards three ideal polarising filters.\n\nThe beam meets the first filter with its axis of polarisation vertical. The axis of polarisation of the second filter is at an angle of $10^\\circ$ to the first filter. The third filter has its axis of polarisation parallel to the second filter as shown.\n\n[Unpolarised light passes through three filters with axes labelled $0^\\circ$, $10^\\circ$ and $10^\\circ$, then emerges as transmitted light.]\n\nThe third filter is now turned.\n\nAt what angle must the third filter be with respect to the second filter so that the intensity of the transmitted light is reduced to one-third of the intensity of the unpolarised light?\n\nA $34^\\circ$\nB $44^\\circ$\nC $47^\\circ$\nD $54^\\circ$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q15",
+    "keyPage": 4,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Successive intensity maxima are $\\lambda/2$ apart, and the detector takes $1/10\\ \\mathrm{s}$ to travel between them. Thus $\\lambda/2=2.0(1/10)\\ \\mathrm{m}$ and $\\lambda=0.40\\ \\mathrm{m}$. The first minimum is a node one-quarter wavelength from the antinode at M, so the detector moves $0.10\\ \\mathrm{m}$.",
+      "perOption": {
+        "A": "Treats the distance between successive maxima as a full wavelength.",
+        "B": "Correct.",
+        "C": "Gives the distance to the next maximum.",
+        "D": "Gives one full wavelength."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.b",
+      "superposition.c"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Connects the time between maxima to standing-wave spacing before finding the first minimum.",
+    "misconception": "Confusing adjacent maxima with an adjacent maximum and minimum",
+    "transcription": "A microwave transmitter emits waves that are incident normally on a reflector. A microwave detector is initially at the point M where it detects a maximum intensity. As it moves along the line PQ towards Q, the detector picks up a series of maximum and minimum intensity signals.\n\n[The transmitter at P faces a reflector perpendicular to PQ at Q. The detector starts at M between P and Q and moves towards Q.]\n\nIf the detector moves with a speed of $2.0\\ \\mathrm{m\\,s^{-1}}$ and the frequency at which maximum intensity signals are picked up is $10\\ \\mathrm{Hz}$, what is the distance moved by the detector from its initial position at M when it detects the first minimum intensity signal?\n\nA $0.05\\ \\mathrm{m}$\nB $0.10\\ \\mathrm{m}$\nC $0.20\\ \\mathrm{m}$\nD $0.40\\ \\mathrm{m}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q16",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Each second-order fringe is at an angle of $0.40^\\circ/2$ to the centreline, so $\\tan(0.40^\\circ/2)=(1.5\\times10^{-2})/(2D)$ and $D=2.1\\ \\mathrm{m}$. For a second-order bright fringe, $a\\sin\\theta=2\\lambda$. Hence $a=2(600\\times10^{-9})/\\sin(0.40^\\circ/2)=3.44\\times10^{-4}\\ \\mathrm{m}\\approx0.34\\ \\mathrm{mm}$.",
+      "perOption": {
+        "A": "Both values result from using the full angle in place of the angle to one fringe.",
+        "B": "The screen distance uses the full angle with the half-width.",
+        "C": "The slit separation uses the full angle in the second-order condition.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "superposition",
+    "secondaryChapters": [],
+    "outcomes": [
+      "superposition.f",
+      "superposition.h"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 4,
+    "difficultyReason": "Uses the symmetry of the two second-order fringes in both the geometry and the interference calculation.",
+    "misconception": "Using the full angular separation as the second-order fringe angle",
+    "transcription": "A two-source interference experiment is set-up as shown. The light source emits light of wavelength $600\\ \\mathrm{nm}$. The distance between the second order bright fringes on the screen is $1.5\\ \\mathrm{cm}$ and their angular separation is $0.40^\\circ$.\n\n[Light passes through a single slit and then a double slit of separation $a$. The screen is at distance $D$ from the double slit. Dashed lines to the two second order bright fringes subtend $0.40^\\circ$, and the fringes are $1.5\\ \\mathrm{cm}$ apart.]\n\nWhat are the values of the slit separation $a$ and the distance $D$ between the double slits and the screen?\n\nOption | $a/\\mathrm{mm}$ | $D/\\mathrm{m}$\nA | 0.17 | 1.1\nB | 0.34 | 1.1\nC | 0.17 | 2.1\nD | 0.34 | 2.1"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q17",
+    "keyPage": 4,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a fixed mass of ideal gas, $P_1V_1/T_1=P_2V_2/T_2$, so $T_2=(1.25)(0.75)T_1=0.9375T_1$. Since $\\tfrac12 mc^2=\\tfrac32 kT$, the r.m.s. speed is proportional to $\\sqrt{T}$. Thus $c_2=\\sqrt{0.9375}\\,c\\approx0.97c$.",
+      "perOption": {
+        "A": "Squares the temperature ratio where the speed requires its square root.",
+        "B": "Uses the temperature ratio directly as the speed ratio.",
+        "C": "Correct.",
+        "D": "Assumes that the equal percentage changes cancel in the product of pressure and volume."
+      }
+    },
+    "issues": null,
+    "chapter": "temperature-and-ideal-gases",
+    "secondaryChapters": [],
+    "outcomes": [
+      "temperature-and-ideal-gases.c",
+      "temperature-and-ideal-gases.g"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Combines the ideal gas equation with the square-root dependence of molecular speed on temperature.",
+    "misconception": "Treating r.m.s. speed as proportional to temperature",
+    "transcription": "The root-mean-square (r.m.s.) speed of the molecules of a fixed mass of an ideal gas at a certain temperature is $c$. If the pressure is increased by 25% while its volume is decreased by 25%, what will be the r.m.s. speed of the molecules?\n\nA $0.88c$\nB $0.94c$\nC $0.97c$\nD $c$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q18",
+    "keyPage": 4,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "For a fixed mass of gas in the pump and basketball, the first law gives $\\Delta U=W+Q$. Compression does work on the gas, so $W>0$, and the insulation makes $Q\\approx0$ during compression. Hence $\\Delta U>0$ and the gas temperature rises.",
+      "perOption": {
+        "A": "Collision frequency alone does not explain the increase in mean molecular kinetic energy.",
+        "B": "With negligible heat transfer, positive work raises the internal energy.",
+        "C": "The insulation allows little heat transfer into the air.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The question specifies insulation for the pump. The key also refers to an insulated basketball, so its negligible-heat-transfer approximation is best applied during compression.",
+    "chapter": "thermodynamic-systems",
+    "secondaryChapters": [],
+    "outcomes": [
+      "thermodynamic-systems.b",
+      "thermodynamic-systems.d",
+      "thermodynamic-systems.f"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Requires identifying the sign of compression work and the effect of insulation on heat transfer.",
+    "misconception": "Assuming that warming requires heat transfer into the gas",
+    "transcription": "A frictionless and well-insulated bicycle pump is used to inflate a basketball. After several compression cycles, the air in the basketball becomes warmer than the surrounding air.\n\nWhich one of the following statements best explains this observation?\n\nA The air molecules collide with the inner wall of the basketball more frequently.\nB Work is done on the air in the basketball and the internal energy remains unchanged.\nC The internal energy of air in the basketball increases as work is done on the air and thermal energy is supplied to it.\nD Work is done on the air in the basketball and since little thermal energy escapes, the internal energy increases."
+  },
+  {
+    "id": "ri-2018-prelim-p1-q19",
+    "keyPage": 5,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Ion P experiences a force $eE$ into the page and ion Q experiences an equal force out of the page. The resultant force is zero, and the forces form a couple whose perpendicular separation is the full ion spacing. The torque is $Fd=eEd=(1.60\\times10^{-19})(4200)(0.12\\times10^{-9})=8.1\\times10^{-26}\\ \\mathrm{N\\,m}$.",
+      "perOption": {
+        "A": "Adds the opposing forces and incorrectly projects the ion spacing using the in-page angle.",
+        "B": "Adds the magnitudes of the two opposing forces.",
+        "C": "Uses the in-page angle to project a separation that is already perpendicular to the forces.",
+        "D": "Correct."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "forces-and-moments"
+    ],
+    "outcomes": [
+      "electric-fields.h",
+      "forces-and-moments.d",
+      "forces-and-moments.e"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Requires recognising a couple and identifying the perpendicular lever arm from the field direction.",
+    "misconception": "Using the angle drawn in the page to calculate the torque",
+    "transcription": "Two ions P and Q, of charge $+e$ and $-e$ respectively, are linked to form a molecule and placed in a uniform electric field that is directed into the page. The distance between P and Q is $0.12\\ \\mathrm{nm}$. The electric field strength is $4200\\ \\mathrm{V\\,m^{-1}}$.\n\n[P is lower left of Q. The line PQ is labelled $0.12\\ \\mathrm{nm}$ and makes an angle of $35^\\circ$ above a horizontal line from P. Crosses show the electric field into the page.]\n\nWhich of the following gives the resultant force and initial torque on the molecule?\n\nOption | Resultant force / $\\mathrm{N}$ | Torque / $\\mathrm{N\\,m}$\nA | $1.3\\times10^{-15}$ | $4.6\\times10^{-26}$\nB | $1.3\\times10^{-15}$ | $8.1\\times10^{-26}$\nC | $0$ | $4.6\\times10^{-26}$\nD | $0$ | $8.1\\times10^{-26}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q20",
+    "keyPage": 5,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "Initially the oil-drop is in equilibrium, so $qE=qV/d=mg$, where $d$ is the plate separation. At twice the potential difference the upward resultant force is $q(2V/d)-mg=2mg-mg=mg$. The initial upward acceleration is therefore $g$.",
+      "perOption": {
+        "A": "Correct.",
+        "B": "Uses the doubled electric force as the resultant force.",
+        "C": "Uses potential difference in place of field strength by omitting the plate separation.",
+        "D": "Omits both the plate separation in the electric force and the weight."
+      }
+    },
+    "issues": null,
+    "chapter": "electric-fields",
+    "secondaryChapters": [
+      "motion-and-forces"
+    ],
+    "outcomes": [
+      "electric-fields.g",
+      "electric-fields.h",
+      "motion-and-forces.i"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Uses the initial force balance to infer the net force after doubling the voltage.",
+    "misconception": "Forgetting to subtract the weight after doubling the field",
+    "transcription": "An oil-drop of mass $m$, carrying a charge $q$, is in the region between two horizontal plates. When the potential difference between the upper and lower plates is $V$, the oil-drop is stationary. The potential difference is then increased to $2V$.\n\nWhat is the initial upward acceleration of the oil-drop? Assume negligible upthrust.\n\nA $g$\nB $2g$\nC $\\frac{2qV}{m}-g$\nD $\\frac{2qV}{m}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q21",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "The energy dissipated is $E=IVt=(2)(6)(10)=120\\ \\mathrm{J}$. The statement giving $12\\ \\mathrm{J}$ is therefore incorrect.",
+      "perOption": {
+        "A": "The statement is true because $R=V/I=3\\ \\Omega$.",
+        "B": "Correct. The value 12 is the power in watts.",
+        "C": "The statement is true because $Q=It=20\\ \\mathrm{C}$.",
+        "D": "The statement is true because one volt equals one joule per coulomb."
+      }
+    },
+    "issues": null,
+    "chapter": "currents",
+    "secondaryChapters": [
+      "circuits"
+    ],
+    "outcomes": [
+      "currents.a",
+      "currents.c",
+      "currents.d",
+      "circuits.c"
+    ],
+    "primaryType": "statements",
+    "types": [
+      "statements",
+      "quantitative"
+    ],
+    "difficulty": 1,
+    "difficultyReason": "Uses direct substitutions and the definition of a volt to identify the incorrect statement.",
+    "misconception": "Confusing power with energy",
+    "transcription": "A potential difference of $6\\ \\mathrm{V}$ is applied across a resistor for a time interval of $10\\ \\mathrm{s}$. The current flowing through the resistor is $2\\ \\mathrm{A}$.\n\nWhich of the following statements is incorrect?\n\nA The resistance of the resistor is $3\\ \\Omega$.\nB The energy dissipated in the resistor is $12\\ \\mathrm{J}$.\nC The charge passing through the resistor is $20\\ \\mathrm{C}$.\nD The potential difference across the resistor is $6\\ \\mathrm{J\\,C^{-1}}$."
+  },
+  {
+    "id": "ri-2018-prelim-p1-q22",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "For maximum power transfer, the effective external resistance is $5.0\\ \\Omega$. Since $1/R+1/10=1/5$, the variable resistance is $10\\ \\Omega$. The potential difference across the fixed resistor is $(5/10)(12)=6\\ \\mathrm{V}$, so its power is $6^2/10=3.6\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Sets the variable resistor equal to the internal resistance and quotes the total matched load power.",
+        "B": "Correct.",
+        "C": "Applies the full battery e.m.f. across the fixed resistor.",
+        "D": "Sets the variable resistor itself equal to the required combined load resistance."
+      }
+    },
+    "issues": null,
+    "chapter": "circuits",
+    "secondaryChapters": [
+      "currents"
+    ],
+    "outcomes": [
+      "circuits.b",
+      "circuits.g",
+      "circuits.i",
+      "circuits.j",
+      "currents.d"
+    ],
+    "primaryType": "multi-step",
+    "types": [
+      "multi-step",
+      "diagram",
+      "quantitative"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Finds the parallel load required for maximum transfer and then calculates power in one branch.",
+    "misconception": "Confusing branch power with total load power",
+    "transcription": "A battery of e.m.f. $12\\ \\mathrm{V}$ and internal resistance $5.0\\ \\Omega$ is connected to a fixed resistor of resistance $10\\ \\Omega$ and a variable resistor of resistance $R$ as shown. The battery delivers maximum power to the external resistance when the external resistance is equal to the internal resistance of the battery.\n\n[The $12\\ \\mathrm{V}$ source and $5.0\\ \\Omega$ internal resistance are in series within the battery. The $10\\ \\Omega$ fixed resistor and the variable resistor $R$ are in parallel across the battery terminals.]\n\nWhat is the value of $R$ and the power dissipated across the $10\\ \\Omega$ fixed resistor when maximum power is delivered?\n\nOption | $R/\\Omega$ | $P/\\mathrm{W}$\nA | 5.0 | 7.2\nB | 10 | 3.6\nC | 10 | 14\nD | 5.0 | 3.6"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q23",
+    "keyPage": 5,
+    "keyLetter": "C",
+    "explanationSource": "key",
+    "derivedAnswer": "C",
+    "confidence": "high",
+    "explanation": {
+      "body": "At distance $d$ from Y, the net field is zero, so the fields have equal magnitudes and opposite directions. On the same side of both wires, this requires opposite currents. Equating the field magnitudes gives $\\mu_0 I_X/[2\\pi(L+d)]=\\mu_0 I_Y/(2\\pi d)$, so $(L+d)/d=I_X/I_Y=4.00$ and $L=3d$.",
+      "perOption": {
+        "A": "With $L=d$ the distances are in a ratio of two, so the fields cannot balance for a current ratio of four.",
+        "B": "Same-direction currents give reinforcing fields there, and $L=d$ gives the wrong distance ratio.",
+        "C": "Correct.",
+        "D": "Same-direction currents produce fields that add to the right of both wires."
+      }
+    },
+    "issues": "The graph is schematic. The field must eventually approach zero at large distances, whereas the plotted segment only shows the rise through the zero crossing.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [],
+    "outcomes": [
+      "electromagnetic-forces.b",
+      "electromagnetic-forces.c"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step",
+      "diagram"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Infers opposite field directions at the zero crossing and uses the distance to each wire in the field equation.",
+    "misconception": "Using the distance from Y for both wires",
+    "transcription": "Fig. (a) shows the top view of two long parallel wires, wire X and wire Y, carrying currents $I_X$ and $I_Y$ respectively in a direction perpendicular to the plane of the paper. The distance between wire X and wire Y is $L$.\n\nFig. (b) shows the variation of the net magnetic field at distances to the right of wire Y along the line joining wire X and wire Y. At a distance $d$ from wire Y, the net magnetic field is zero.\n\n[Fig. (a), top view (not to scale): X lies to the left of Y on a dashed horizontal line, and their separation is marked $L$. Fig. (b): The vertical axis gives net magnetic field and the horizontal axis gives distance from wire Y. The curve rises from a negative field through zero at $d$ and continues upwards with decreasing slope.]\n\nGiven that the ratio $I_X/I_Y$ is 4.00 and taking the upwards direction to be positive, which of the following gives the relative direction of $I_X$ and $I_Y$ and the value of $L$ in terms of $d$?\n\nA $I_X$ and $I_Y$ flow in opposite directions | $d$\nB $I_X$ and $I_Y$ flow in the same direction | $d$\nC $I_X$ and $I_Y$ flow in opposite directions | $3d$\nD $I_X$ and $I_Y$ flow in the same direction | $3d$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q24",
+    "keyPage": 5,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "Because X and Y have the same mass-to-charge-magnitude ratio, $r=mv/(|q|B)$ makes the speed ratio equal to the radius ratio. For equal masses, $K_X/K_Y=(v_X/v_Y)^2=(r_X/r_Y)^2=(1/2)^2=0.25$.",
+      "perOption": {
+        "A": "Reverses the charge signs indicated by the initial curvature: X is positive and Y is negative.",
+        "B": "Correct.",
+        "C": "The shrinking radii indicate decreasing speeds, and the magnetic force itself does no work.",
+        "D": "The smaller radius gives X the smaller momentum for equal charge magnitudes."
+      }
+    },
+    "issues": "The school uses nonrelativistic kinetic energy. The inward spirals imply energy loss through a process beyond the magnetic force itself, which does no work.",
+    "chapter": "electromagnetic-forces",
+    "secondaryChapters": [
+      "circular-motion"
+    ],
+    "outcomes": [
+      "electromagnetic-forces.j",
+      "electromagnetic-forces.k",
+      "electromagnetic-forces.l",
+      "circular-motion.f"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "diagram",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Relates magnetic curvature to speed and then squares the speed ratio to compare kinetic energies.",
+    "misconception": "Treating kinetic energy as proportional to track radius",
+    "transcription": "A high energy particle which carries no charge enters a region of uniform magnetic field directed into the paper. The particle subsequently disintegrates to form two particles X and Y which have the same mass and same magnitude of charge.\n\nThe paths of X and Y are shown in the diagram and the initial radius of Y is twice the initial radius of X.\n\n[Inside the uniform magnetic field directed into the paper, a dashed horizontal track enters from the left and splits into two inward spirals. X curves upwards into the smaller spiral, and Y curves downwards into the larger spiral.]\n\nWhich of the following statements is correct?\n\nA Particle X is negatively charged, particle Y is positively charged.\nB The ratio of the initial kinetic energy of particle X to particle Y is 0.25.\nC The speeds of both particles are increasing steadily.\nD Particle X has a larger momentum than particle Y."
+  },
+  {
+    "id": "ri-2018-prelim-p1-q26",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "Using the a.c. voltage as an r.m.s. value, the heater resistance is $R=V_{\\mathrm{rms}}^2/P=110^2/800=15.125\\ \\Omega$. On the d.c. supply the power is $P=V_{\\mathrm{DC}}^2/R=156^2/15.125=1609\\ \\mathrm{W}$, which rounds to $1600\\ \\mathrm{W}$.",
+      "perOption": {
+        "A": "Halves the original mean power even though the effective voltage increases.",
+        "B": "Treats the d.c. voltage as equivalent to the original a.c. r.m.s. voltage.",
+        "C": "Scales the power linearly with voltage instead of using the squared voltage ratio.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key interprets the quoted 110 V a.c. supply value as r.m.s., as is conventional for a supply rating. The question leaves that convention implicit.",
+    "chapter": "currents",
+    "secondaryChapters": [],
+    "outcomes": [
+      "currents.d",
+      "currents.f"
+    ],
+    "primaryType": "quantitative",
+    "types": [
+      "quantitative",
+      "multi-step"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Uses the r.m.s. supply voltage to find resistance and applies the same power equation to the d.c. supply.",
+    "misconception": "Assuming equal peak voltages give equal average heating",
+    "transcription": "A heater is connected to a $110\\ \\mathrm{V}$ sinusoidal alternating current and it dissipates energy at a mean rate of $800\\ \\mathrm{W}$. The same heater, with its resistance unchanged, is then connected to a $156\\ \\mathrm{V}$ d.c. supply. At what rate does the heater dissipate energy now?\n\nA $400\\ \\mathrm{W}$\nB $800\\ \\mathrm{W}$\nC $1100\\ \\mathrm{W}$\nD $1600\\ \\mathrm{W}$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q27",
+    "keyPage": 6,
+    "keyLetter": "B",
+    "explanationSource": "key",
+    "derivedAnswer": "B",
+    "confidence": "high",
+    "explanation": {
+      "body": "With work function $\\Phi$, the photoelectric equations are $hc/\\lambda=E+\\Phi$ and $hc/\\lambda'=2E+\\Phi$. Their ratio gives $\\lambda'/\\lambda=(E+\\Phi)/(2E+\\Phi)$. This ratio lies between $1/2$ and $1$, so $\\lambda/2<\\lambda'<\\lambda$.",
+      "perOption": {
+        "A": "Halves the wavelength as though the work function were zero.",
+        "B": "Correct.",
+        "C": "A longer wavelength supplies less photon energy and lowers the maximum kinetic energy.",
+        "D": "Doubling the wavelength halves the photon energy and cannot double the maximum kinetic energy."
+      }
+    },
+    "issues": null,
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "proportionality",
+    "types": [
+      "proportionality",
+      "conceptual"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Compares the two photoelectric equations while retaining the same work function.",
+    "misconception": "Treating photon energy and emitted electron kinetic energy as equal",
+    "transcription": "Light of wavelength $\\lambda$ strikes a photo-sensitive surface and electrons are ejected with maximum kinetic energy $E$. If the maximum kinetic energy is to be increased to $2E$, the wavelength must be changed to $\\lambda'$ where\n\nA $\\lambda'=\\lambda/2$\nB $\\lambda/2<\\lambda'<\\lambda$\nC $\\lambda<\\lambda'<2\\lambda$\nD $\\lambda'=2\\lambda$"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q28",
+    "keyPage": 6,
+    "keyLetter": "A",
+    "explanationSource": "key",
+    "derivedAnswer": "A",
+    "confidence": "high",
+    "explanation": {
+      "body": "The shortest wavelength is $\\lambda_{\\min}=hc/(eV)$, since an electron can transfer its full energy $eV$ to one photon. Taking logarithms gives $\\lg\\lambda_{\\min}=\\lg(hc/e)-\\lg V$. The log–log graph is therefore a straight line with gradient $-1$.",
+      "perOption": {
+        "A": "Correct. It is the straight line with negative gradient.",
+        "B": "Uses a positive slope although the cutoff wavelength decreases with voltage.",
+        "C": "Uses a decreasing curve although the logarithms make the relationship linear.",
+        "D": "Treats the cutoff wavelength as independent of the accelerating voltage."
+      }
+    },
+    "issues": "The school claims a positive intercept. The intercept depends on units and is negative for wavelength in metres and voltage in volts. The negative slope uniquely identifies the intended option, whose axes have no numerical scale.",
+    "chapter": "quantum-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "quantum-physics.b"
+    ],
+    "primaryType": "graph",
+    "types": [
+      "graph",
+      "multi-step"
+    ],
+    "difficulty": 3,
+    "difficultyReason": "Derives the cutoff wavelength from the electron energy and then interprets its log–log form.",
+    "misconception": "Carrying the inverse curve over unchanged to logarithmic axes",
+    "transcription": "Electrons accelerated from rest by a potential difference $V$ are directed to hit a metallic target to produce X-rays. It produces continuous as well as characteristic X-rays.\n\nIf $\\lambda_{\\min}$ is the shortest possible wavelength of X-ray in the spectrum, which of the following shows the variation with $\\lg V$ of $\\lg\\lambda_{\\min}$?\n\n[All four graphs have vertical axis $\\lg\\lambda_{\\min}$ and horizontal axis $\\lg V$.]\nA [Straight line sloping down from the vertical axis to the horizontal axis.]\nB [Straight line sloping upwards from the vertical axis.]\nC [Decreasing curve that flattens towards the right.]\nD [Horizontal line above the horizontal axis.]"
+  },
+  {
+    "id": "ri-2018-prelim-p1-q29",
+    "keyPage": 6,
+    "keyLetter": "D",
+    "explanationSource": "key",
+    "derivedAnswer": "D",
+    "confidence": "high",
+    "explanation": {
+      "body": "The sample still contains both the undecayed parent nuclei and the daughter nuclei. The emitted $\\beta$ particles are electrons with masses much smaller than those of the parent nuclei, so the sample mass is only slightly less than $1\\ \\mathrm{g}$.",
+      "perOption": {
+        "A": "Treats decay as removing the sample mass and applies four halvings.",
+        "B": "Treats decay as removing the sample mass and applies three halvings.",
+        "C": "Applies the two halvings of the parent population to the total sample mass.",
+        "D": "Correct."
+      }
+    },
+    "issues": "The key attributes the entire mass decrease to emitted electron rest mass. Escaping decay energy, including electron kinetic energy and antineutrino energy, also contributes to the mass loss.",
+    "chapter": "nuclear-physics",
+    "secondaryChapters": [],
+    "outcomes": [
+      "nuclear-physics.g",
+      "nuclear-physics.j"
+    ],
+    "primaryType": "conceptual",
+    "types": [
+      "conceptual",
+      "application"
+    ],
+    "difficulty": 2,
+    "difficultyReason": "Distinguishes the total sample mass from the mass of undecayed parent nuclei after two half-lives.",
+    "misconception": "Assuming the daughter nuclei leave the sample",
+    "transcription": "$1\\ \\mathrm{g}$ of a sample which contains radioactive nuclei is left in the laboratory for 4 days. The radioactive nuclei emit $\\beta$ radiation and have a half-life of 2 days.\n\nWhat is the mass of the sample at the end of that period?\n\nA $\\frac{1}{16}\\ \\mathrm{g}$\nB $\\frac{1}{8}\\ \\mathrm{g}$\nC $\\frac{1}{4}\\ \\mathrm{g}$\nD slightly less than $1\\ \\mathrm{g}$"
+  }
+]
